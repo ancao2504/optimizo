@@ -14,8 +14,17 @@ class RedirectController extends Controller
         return view('admin.redirects.index', compact('redirects'));
     }
 
+    public function create()
+    {
+        return view('admin.redirects.create');
+    }
+
     public function store(Request $request)
     {
+        $request->merge([
+            'status' => $request->has('status'),
+        ]);
+
         $validated = $request->validate([
             'from_url' => 'required|string',
             'to_url' => 'required|url',
@@ -23,17 +32,23 @@ class RedirectController extends Controller
             'status' => 'boolean',
         ]);
 
-        $redirect = Redirect::create($validated);
+        Redirect::create($validated);
 
-        return response()->json([
-            'success' => true,
-            'redirect' => $redirect,
-            'message' => 'Redirect created successfully!'
-        ]);
+        return redirect()->route('admin.redirects.index')
+            ->with('success', 'Redirect created successfully!');
+    }
+
+    public function edit(Redirect $redirect)
+    {
+        return view('admin.redirects.edit', compact('redirect'));
     }
 
     public function update(Request $request, Redirect $redirect)
     {
+        $request->merge([
+            'status' => $request->has('status'),
+        ]);
+
         $validated = $request->validate([
             'from_url' => 'required|string',
             'to_url' => 'required|url',
@@ -43,19 +58,15 @@ class RedirectController extends Controller
 
         $redirect->update($validated);
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Redirect updated successfully!'
-        ]);
+        return redirect()->route('admin.redirects.index')
+            ->with('success', 'Redirect updated successfully!');
     }
 
     public function destroy(Redirect $redirect)
     {
         $redirect->delete();
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Redirect deleted successfully!'
-        ]);
+        return redirect()->route('admin.redirects.index')
+            ->with('success', 'Redirect deleted successfully!');
     }
 }
