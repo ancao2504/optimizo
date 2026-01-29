@@ -110,7 +110,8 @@
         <div class="grid md:grid-cols-2 gap-8 mb-16">
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
                 <h2 class="text-2xl font-bold text-gray-900 mb-4">
-                    {{ __tool('date-to-unix-timestamp', 'content.what_is_title') }}</h2>
+                    {{ __tool('date-to-unix-timestamp', 'content.what_is_title') }}
+                </h2>
                 <div class="prose prose-purple text-gray-600">
                     <p>{{ __tool('date-to-unix-timestamp', 'content.what_is_desc') }}</p>
                 </div>
@@ -118,10 +119,10 @@
 
             <div
                 class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 flex flex-col justify-center border-l-4 border-purple-500">
-                <h3 class="text-xl font-bold text-gray-900 mb-2">Did you know?</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    {{ __tool('date-to-unix-timestamp', 'content.did_you_know_title') }}</h3>
                 <p class="text-gray-600 leading-relaxed">
-                    Unix time is widely used in operating systems and file formats as it provides a simple way for computers
-                    to track time without worrying about time zones or daylight saving adjustments.
+                    {{ __tool('date-to-unix-timestamp', 'content.did_you_know_desc') }}
                 </p>
             </div>
         </div>
