@@ -474,28 +474,90 @@ class YouTubeController extends Controller
 
         $url = $request->url;
 
-        // Extract channel ID or handle
-        $channelId = $this->extractChannelId($url);
-
-        if (!$channelId) {
-            if ($request->ajax() || $request->wantsJson()) {
-                return response()->json([
-                    'success' => false,
-                    'error' => 'Invalid YouTube channel URL or handle'
-                ], 400);
-            }
-            return back()->with('error', 'Invalid channel URL');
-        }
+        // Try to treat as video URL first to get channel info
+        $videoId = $this->extractVideoId($url);
 
         try {
-            // Fetch channel data (simplified - in production use YouTube Data API)
-            $data = [
-                'channelName' => 'Sample Channel',
-                'subscribers' => '1.2M',
-                'thumbnail' => 'https://via.placeholder.com/80',
-                'isMonetized' => true,
-                'estimatedStatus' => 'Eligible for YouTube Partner Program'
-            ];
+            if ($videoId) {
+                // Fetch video page to check for monetization
+                $response = Http::withHeaders([
+                    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                    'Accept-Language' => 'en-US,en;q=0.9'
+                ])->get("https://www.youtube.com/watch?v={$videoId}");
+
+                $html = $response->body();
+
+                // Extract channel name
+                preg_match('/"author":"([^"]+)"/', $html, $authorMatch);
+                $channelName = isset($authorMatch[1]) ? json_decode('"' . $authorMatch[1] . '"') : 'N/A';
+
+                // Check for monetization indicator
+                $isMonetized = strpos($html, '"is_monetization_enabled":true') !== false
+                    || strpos($html, 'yt_ad') !== false
+                    || strpos($html, 'ad_type') !== false;
+
+                // Extract channel thumb (from meta)
+                preg_match('/<link itemprop="thumbnailUrl" href="([^"]+)">/', $html, $thumbMatch);
+                $thumbnail = $thumbMatch[1] ?? 'https://via.placeholder.com/80';
+
+                // We can't easily get subscribers from video page without complex regex or extra request
+                // but we can try common patterns
+                preg_match('/"subscriberCountText":{"accessibility":{"accessibilityData":{"label":"([^"]+)"}}}/', $html, $subMatch);
+                $subscribers = $subMatch[1] ?? 'N/A';
+
+                $data = [
+                    'channelName' => $channelName,
+                    'subscribers' => $subscribers,
+                    'thumbnail' => $thumbnail,
+                    'isMonetized' => $isMonetized,
+                    'estimatedStatus' => $isMonetized ? 'Channel is Monetized' : 'Channel is NOT Monetized or indicator not found',
+                    'type' => 'video'
+                ];
+            } else {
+                // If not a video, handle as channel URL
+                $channelId = $this->extractChannelId($url);
+                if (!$channelId) {
+                    throw new \Exception('Invalid YouTube URL');
+                }
+
+                $response = Http::withHeaders([
+                    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                    'Accept-Language' => 'en-US,en;q=0.9'
+                ])->get("https://www.youtube.com/{$channelId}");
+
+                $html = $response->body();
+
+                // On channel home page, we look for membership or store features as proxies
+                $isMonetized = strpos($html, '"is_monetization_enabled":true') !== false
+                    || strpos($html, '"label":"Join this channel"') !== false
+                    || strpos($html, 'sponsor_button') !== false;
+
+                // Extract channel name
+                preg_match('/<meta property="og:title" content="([^"]+)"/', $html, $nameMatch);
+                $channelName = $nameMatch[1] ?? 'N/A';
+
+                // Extract avatar
+                preg_match('/<meta property="og:image" content="([^"]+)"/', $html, $avatarMatch);
+                $thumbnail = $avatarMatch[1] ?? 'https://via.placeholder.com/80';
+
+                // Extract subscribers
+                if (preg_match('/"subscriberCountText":{"simpleText":"([^"]+)"}/', $html, $subMatch)) {
+                    $subscribers = $subMatch[1];
+                } elseif (preg_match('/([\d\.]+[KMB]?)\s+subscribers/i', $html, $subMatch)) {
+                    $subscribers = $subMatch[1];
+                } else {
+                    $subscribers = 'N/A';
+                }
+
+                $data = [
+                    'channelName' => $channelName,
+                    'subscribers' => $subscribers,
+                    'thumbnail' => $thumbnail,
+                    'isMonetized' => $isMonetized,
+                    'estimatedStatus' => $isMonetized ? 'Channel is Monetized' : 'Channel shows no immediate signs of monetization',
+                    'type' => 'channel'
+                ];
+            }
 
             if ($request->ajax() || $request->wantsJson()) {
                 return response()->json(['success' => true, 'data' => $data]);
@@ -503,7 +565,7 @@ class YouTubeController extends Controller
 
             return view('tools.youtube.youtube-monetization-checker', compact('data'));
         } catch (\Exception $e) {
-            $error = 'Failed to check monetization status';
+            $error = 'Failed to check monetization status: ' . $e->getMessage();
             if ($request->ajax() || $request->wantsJson()) {
                 return response()->json(['success' => false, 'error' => $error], 500);
             }
