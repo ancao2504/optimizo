@@ -13,17 +13,9 @@ class Post extends Model
         'title',
         'slug',
         'content',
-        'excerpt',
         'featured_image',
         'meta_title',
         'meta_description',
-        'meta_keywords',
-        'og_title',
-        'og_description',
-        'og_image',
-        'twitter_title',
-        'twitter_description',
-        'twitter_image',
         'status',
         'published_at',
         'author_id',
@@ -70,10 +62,10 @@ class Post extends Model
     }
 
     // Accessors & Mutators
-    public function getExcerptAttribute($value)
+    public function getExcerptAttribute()
     {
-        if ($value) {
-            return $value;
+        if ($this->meta_description) {
+            return $this->meta_description;
         }
         return Str::limit(strip_tags($this->content), 200);
     }

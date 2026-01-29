@@ -55,13 +55,6 @@
                         </div>
                     </div>
 
-                    <!-- Excerpt -->
-                    <div class="card shadow-sm mb-4">
-                        <div class="card-body">
-                            <label class="font-weight-bold text-uppercase text-xs text-muted">Excerpt</label>
-                            <textarea name="excerpt" rows="3" class="form-control">{{ $post->excerpt }}</textarea>
-                        </div>
-                    </div>
 
                     <!-- SEO Section -->
                     <div class="card shadow-sm mb-4">
@@ -79,11 +72,6 @@
                                 <label>Meta Description</label>
                                 <textarea name="meta_description" rows="2"
                                     class="form-control">{{ $post->meta_description }}</textarea>
-                            </div>
-                            <div class="form-group mb-0">
-                                <label>Keywords</label>
-                                <input type="text" name="meta_keywords" value="{{ $post->meta_keywords }}"
-                                    class="form-control">
                             </div>
                         </div>
                     </div>

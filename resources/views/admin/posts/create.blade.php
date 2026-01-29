@@ -48,14 +48,6 @@
                         </div>
                     </div>
 
-                    <!-- Excerpt -->
-                    <div class="card shadow-sm mb-4">
-                        <div class="card-body">
-                            <label class="font-weight-bold text-uppercase text-xs text-muted">Excerpt</label>
-                            <textarea name="excerpt" rows="3" class="form-control"></textarea>
-                            <small class="text-muted">A short summary displayed on the blog listing page.</small>
-                        </div>
-                    </div>
 
                     <!-- SEO Section -->
                     <div class="card shadow-sm mb-4">
@@ -74,11 +66,6 @@
                                 <label>Meta Description</label>
                                 <textarea name="meta_description" rows="2" class="form-control"
                                     placeholder="Optimal length: 150-160 characters"></textarea>
-                            </div>
-                            <div class="form-group mb-0">
-                                <label>Keywords</label>
-                                <input type="text" name="meta_keywords" class="form-control"
-                                    placeholder="Separate with commas">
                             </div>
                         </div>
                     </div>

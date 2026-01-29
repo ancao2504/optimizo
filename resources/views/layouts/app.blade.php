@@ -40,7 +40,7 @@
     @endif
 
     {{-- Canonical URL --}}
-    <link rel="canonical" href="{{ url()->current() }}" />
+    <link rel="canonical" href="@yield('canonical', url()->current())" />
 
     <title>@yield('title', config('app.name', 'Optimizo'))</title>
     <meta name="description" content="@yield('meta_description', __('common.meta_description_default'))">

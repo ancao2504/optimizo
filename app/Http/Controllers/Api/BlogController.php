@@ -33,7 +33,6 @@ class BlogController extends Controller
         $validator = Validator::make($request->all(), [
             'title' => 'required|string|max:255',
             'content' => 'required|string',
-            'excerpt' => 'nullable|string',
             'featured_image' => 'nullable|string',
             'slug' => 'nullable|string|unique:posts,slug',
             'status' => 'nullable|in:published,draft,scheduled',
@@ -125,7 +124,6 @@ class BlogController extends Controller
         $validator = Validator::make($request->all(), [
             'title' => 'sometimes|required|string|max:255',
             'content' => 'sometimes|required|string',
-            'excerpt' => 'nullable|string',
             'featured_image' => 'nullable|string',
             'slug' => 'nullable|string|unique:posts,slug,' . $post->id,
             'status' => 'nullable|in:published,draft,scheduled',

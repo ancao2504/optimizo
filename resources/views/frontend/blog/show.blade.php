@@ -1,65 +1,65 @@
 @extends('layouts.app')
 
-@section('title', $post->meta_title ?: $post->title . ' - ' . config('app.name'))
+@section('title', ($post->meta_title ?: $post->title) . ' - ' . config('app.name'))
 @section('meta_description', $post->meta_description)
-@section('meta_keywords', $post->meta_keywords)
+@section('canonical', localeRoute('blog.show', ['slug' => $post->slug]))
 
 @push('scripts')
     {{-- Schema.org JSON-LD --}}
     <script type="application/ld+json">
-                            {
-                                "@@context": "https://schema.org",
-                                "@@type": "BlogPosting",
-                                "headline": "{{ addslashes($post->title) }}",
-                                "image": "{{ $post->featured_image_url }}",
-                                "author": {
-                                    "@@type": "Person",
-                                    "name": "{{ addslashes($post->author->name) }}"
-                                },
-                                "publisher": {
-                                    "@@type": "Organization",
-                                    "name": "{{ addslashes(config('app.name')) }}",
-                                    "logo": {
-                                        "@@type": "ImageObject",
-                                        "url": "{{ asset('logo.png') }}"
+                                {
+                                    "@@context": "https://schema.org",
+                                    "@@type": "BlogPosting",
+                                    "headline": "{{ addslashes($post->title) }}",
+                                    "image": "{{ $post->featured_image_url }}",
+                                    "author": {
+                                        "@@type": "Person",
+                                        "name": "{{ addslashes($post->author->name) }}"
+                                    },
+                                    "publisher": {
+                                        "@@type": "Organization",
+                                        "name": "{{ addslashes(config('app.name')) }}",
+                                        "logo": {
+                                            "@@type": "ImageObject",
+                                            "url": "{{ asset('logo.png') }}"
+                                        }
+                                    },
+                                    "datePublished": "{{ $post->published_at->toIso8601String() }}",
+                                    "dateModified": "{{ $post->updated_at->toIso8601String() }}",
+                                    "description": "{{ addslashes($post->meta_description ?: Str::limit(strip_tags($post->content), 160)) }}",
+                                    "mainEntityOfPage": {
+                                        "@@type": "WebPage",
+                                        "@@id": "{{ url()->current() }}"
                                     }
-                                },
-                                "datePublished": "{{ $post->published_at->toIso8601String() }}",
-                                "dateModified": "{{ $post->updated_at->toIso8601String() }}",
-                                "description": "{{ addslashes($post->meta_description ?: Str::limit(strip_tags($post->content), 160)) }}",
-                                "mainEntityOfPage": {
-                                    "@@type": "WebPage",
-                                    "@@id": "{{ url()->current() }}"
                                 }
-                            }
-                            </script>
+                                </script>
 
     <script type="application/ld+json">
-                            {
-                                "@@context": "https://schema.org",
-                                "@@type": "BreadcrumbList",
-                                "itemListElement": [
-                                    {
-                                        "@@type": "ListItem",
-                                        "position": 1,
-                                        "name": "Home",
-                                        "item": "{{ localeRoute('home') }}"
-                                    },
-                                    {
-                                        "@@type": "ListItem",
-                                        "position": 2,
-                                        "name": "Blog",
-                                        "item": "{{ localeRoute('blog.index') }}"
-                                    },
-                                    {
-                                        "@@type": "ListItem",
-                                        "position": 3,
-                                        "name": "{{ addslashes($post->title) }}",
-                                        "item": "{{ url()->current() }}"
-                                    }
-                                ]
-                            }
-                            </script>
+                                {
+                                    "@@context": "https://schema.org",
+                                    "@@type": "BreadcrumbList",
+                                    "itemListElement": [
+                                        {
+                                            "@@type": "ListItem",
+                                            "position": 1,
+                                            "name": "Home",
+                                            "item": "{{ localeRoute('home') }}"
+                                        },
+                                        {
+                                            "@@type": "ListItem",
+                                            "position": 2,
+                                            "name": "Blog",
+                                            "item": "{{ localeRoute('blog.index') }}"
+                                        },
+                                        {
+                                            "@@type": "ListItem",
+                                            "position": 3,
+                                            "name": "{{ addslashes($post->title) }}",
+                                            "item": "{{ url()->current() }}"
+                                        }
+                                    ]
+                                }
+                                </script>
 @endpush
 
 @section('content')
@@ -432,11 +432,11 @@
         // Add class helper for visibility
         const style = document.createElement('style');
         style.innerHTML = `
-                    .is-visible {
-                        opacity: 1 !important;
-                        transform: translateY(0) !important;
-                    }
-                `;
+                        .is-visible {
+                            opacity: 1 !important;
+                            transform: translateY(0) !important;
+                        }
+                    `;
         document.head.appendChild(style);
     </script>
 @endsection
