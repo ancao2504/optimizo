@@ -24,6 +24,7 @@ return Application::configure(basePath: dirname(__DIR__))
         // Add SetLocale to web middleware group
         $middleware->web(append: [
             \App\Http\Middleware\SetLocale::class,
+            \App\Http\Middleware\RedirectMiddleware::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
