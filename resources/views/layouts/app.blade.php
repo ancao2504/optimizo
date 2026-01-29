@@ -169,7 +169,8 @@
                                         </div>
                                         <div>
                                             <div class="font-medium group-hover:"
-                                                style="color: {{ $category->bg_gradient_to }};">{{ $category->name }}</div>
+                                                style="color: {{ $category->bg_gradient_to }};">
+                                                {{ __('categories.' . $category->slug . '_title') }}</div>
                                             <div class="text-xs text-gray-500">{{ $category->tools()->count() }} tools</div>
                                         </div>
                                     </a>
@@ -272,7 +273,7 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <div class="font-medium">{{ $category->name }}</div>
+                                    <div class="font-medium">{{ __('categories.' . $category->slug . '_title') }}</div>
                                     <div class="text-xs text-gray-500">{{ $category->tools()->count() }} tools</div>
                                 </div>
                             </a>

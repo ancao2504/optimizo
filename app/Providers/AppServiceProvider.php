@@ -36,10 +36,18 @@ class AppServiceProvider extends ServiceProvider
                 ->get()
                 ->map(function ($tool) use ($localePrefix) {
                     $categoryName = $tool->categoryRelation ? $tool->categoryRelation->slug : 'other';
+                    // Prioritize H1 (h1) then Meta Title (name)
+                    $toolName = __t($tool, 'h1') ?: __t($tool, 'name') ?: $tool->name;
+
+                    // Fallback check: if __t returns the key string (starts with tools/)
+                    if (str_starts_with($toolName, 'tools/')) {
+                        $toolName = __t($tool, 'name') ?: $tool->name;
+                    }
+
                     return [
-                        'name' => __t($tool, 'name') ?? $tool->name,
-                        'category' => $categoryName, // Maintain 'category' key for frontend compatibility
-                        'url' => $localePrefix . $tool->url, // Use database URL
+                        'name' => $toolName,
+                        'category' => $categoryName,
+                        'url' => $localePrefix . $tool->url,
                     ];
                 });
 
