@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('page-title', ucfirst($type) . ' Categories')
+@section('page-title', ucfirst($type ?? 'blog') . ' Categories')
 
 @section('content')
     <div class="row" x-data="categoryManager()">
@@ -8,7 +8,7 @@
         <div class="col-md-4">
             <div class="card card-primary card-outline shadow-sm">
                 <div class="card-header">
-                    <h3 class="card-title font-weight-bold">Add New {{ ucfirst($type) }} Category</h3>
+                    <h3 class="card-title font-weight-bold">Add New {{ ucfirst($type ?? 'blog') }} Category</h3>
                 </div>
                 <form action="{{ route('admin.blog.categories.store') }}" method="POST">
                     @csrf
@@ -78,7 +78,7 @@
         <div class="col-md-8">
             <div class="card shadow-sm">
                 <div class="card-header border-0">
-                    <h3 class="card-title font-weight-bold">All {{ ucfirst($type) }} Categories</h3>
+                    <h3 class="card-title font-weight-bold">All {{ ucfirst($type ?? 'blog') }} Categories</h3>
                     <div class="card-tools d-flex">
                         <form action="{{ route('admin.blog.categories.index') }}" method="GET" class="d-flex mr-2">
                             <select name="language" class="form-control form-control-sm mr-1" onchange="this.form.submit()">
@@ -130,7 +130,7 @@
                                     </td>
                                     <td>{{ $category->slug }}</td>
                                     <td>
-                                        @if($type === 'tool')
+                                        @if(($type ?? 'blog') === 'tool')
                                             <span class="badge badge-light border">{{ $category->tools_count ?? 0 }}</span>
                                         @else
                                             <span class="badge badge-light border">{{ $category->posts_count }}</span>

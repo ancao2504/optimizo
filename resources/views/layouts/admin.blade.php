@@ -100,104 +100,105 @@
                                         <p>Categories</p>
                                     </a>
                                 </li>
-                                <a href="{{ route('admin.media.index') }}"
-                                    class="nav-link {{ request()->routeIs('admin.media.*') ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Media Library</p>
-                                </a>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.media.index') }}"
+                                        class="nav-link {{ request()->routeIs('admin.media.*') ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Media Library</p>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
-                    </ul>
-                    </li>
 
-                    <li class="nav-item {{ request()->routeIs('admin.tools.*') ? 'menu-open' : '' }}">
-                        <a href="#" class="nav-link {{ request()->routeIs('admin.tools.*') ? 'active' : '' }}">
-                            <i class="nav-icon fas fa-tools"></i>
-                            <p>
-                                Tools
-                                <i class="right fas fa-angle-left"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="{{ route('admin.tools.index') }}"
-                                    class="nav-link {{ request()->routeIs('admin.tools.index') || request()->routeIs('admin.tools.edit') ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Tools List</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('admin.tools.categories.index') }}"
-                                    class="nav-link {{ request()->routeIs('admin.tools.categories.*') ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Tool Categories</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                        <li class="nav-item {{ request()->routeIs('admin.tools.*') ? 'menu-open' : '' }}">
+                            <a href="#" class="nav-link {{ request()->routeIs('admin.tools.*') ? 'active' : '' }}">
+                                <i class="nav-icon fas fa-tools"></i>
+                                <p>
+                                    Tools
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.tools.index') }}"
+                                        class="nav-link {{ request()->routeIs('admin.tools.index') || request()->routeIs('admin.tools.edit') ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Tools List</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.tools.categories.index') }}"
+                                        class="nav-link {{ request()->routeIs('admin.tools.categories.*') ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Tool Categories</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
 
-                    <!-- Settings Submenu -->
-                    <li
-                        class="nav-item {{ request()->routeIs('admin.settings.*') || request()->routeIs('admin.redirects.*') || request()->routeIs('admin.sitemap.*') ? 'menu-open' : '' }}">
-                        <a href="#"
-                            class="nav-link {{ request()->routeIs('admin.settings.*') || request()->routeIs('admin.redirects.*') || request()->routeIs('admin.sitemap.*') ? 'active' : '' }}">
-                            <i class="nav-icon fas fa-cogs"></i>
-                            <p>
-                                Settings
-                                <i class="right fas fa-angle-left"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="{{ route('admin.settings.index') }}"
-                                    class="nav-link {{ request()->routeIs('admin.settings.index') ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>General Settings</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('admin.sitemap.index') }}"
-                                    class="nav-link {{ request()->routeIs('admin.sitemap.*') ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Sitemap</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('admin.languages.index') }}"
-                                    class="nav-link {{ request()->routeIs('admin.languages.*') ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Languages</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('admin.languages.report') }}"
-                                    class="nav-link {{ request()->routeIs('admin.languages.report') ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Translation Report</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('admin.languages.checker') }}"
-                                    class="nav-link {{ request()->routeIs('admin.languages.checker') ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Translation Checker</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('admin.redirects.index') }}"
-                                    class="nav-link {{ request()->routeIs('admin.redirects.*') ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>URL Redirects</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('admin.settings.cache') }}"
-                                    class="nav-link {{ request()->routeIs('admin.settings.cache') ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Cache System</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                        <!-- Settings Submenu -->
+                        <li
+                            class="nav-item {{ request()->routeIs('admin.settings.*') || request()->routeIs('admin.redirects.*') || request()->routeIs('admin.sitemap.*') ? 'menu-open' : '' }}">
+                            <a href="#"
+                                class="nav-link {{ request()->routeIs('admin.settings.*') || request()->routeIs('admin.redirects.*') || request()->routeIs('admin.sitemap.*') ? 'active' : '' }}">
+                                <i class="nav-icon fas fa-cogs"></i>
+                                <p>
+                                    Settings
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.settings.index') }}"
+                                        class="nav-link {{ request()->routeIs('admin.settings.index') ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>General Settings</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.sitemap.index') }}"
+                                        class="nav-link {{ request()->routeIs('admin.sitemap.*') ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Sitemap</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.languages.index') }}"
+                                        class="nav-link {{ request()->routeIs('admin.languages.*') ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Languages</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.languages.report') }}"
+                                        class="nav-link {{ request()->routeIs('admin.languages.report') ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Translation Report</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.languages.checker') }}"
+                                        class="nav-link {{ request()->routeIs('admin.languages.checker') ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Translation Checker</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.redirects.index') }}"
+                                        class="nav-link {{ request()->routeIs('admin.redirects.*') ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>URL Redirects</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('admin.settings.cache') }}"
+                                        class="nav-link {{ request()->routeIs('admin.settings.cache') ? 'active' : '' }}">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Cache System</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
             </div>

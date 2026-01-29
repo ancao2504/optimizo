@@ -33,8 +33,9 @@ class BlogCategoryController extends Controller
         $parents = $pQuery->orderBy('name')->get();
 
         $languages = Language::active()->get();
+        $type = 'blog';
 
-        return view('admin.blog.categories.index', compact('categories', 'parents', 'languages'));
+        return view('admin.blog.categories.index', compact('categories', 'parents', 'languages', 'type'));
     }
 
     /**
