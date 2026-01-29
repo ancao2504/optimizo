@@ -1016,6 +1016,16 @@ class ToolData
                 'url' => '/tools/hreflang-checker',
                 'order' => 27,
             ],
+            [
+                'name' => 'Google Index Checker',
+                'slug' => 'google-index-checker',
+                'icon_name' => 'fa-solid fa-magnifying-glass',
+                'category' => 'seo',
+                'controller' => 'Tools\Seo\GoogleIndexCheckerController',
+                'route_name' => 'seo.google-index-checker',
+                'url' => '/tools/google-index-checker',
+                'order' => 28,
+            ],
         ];
     }
 

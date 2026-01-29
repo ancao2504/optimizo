@@ -44,6 +44,7 @@ if (!function_exists('__tool')) {
             'frequency-converter' => 'converters',
             'fuel-consumption-converter' => 'converters',
             'google-serp-checker' => 'seo',
+            'google-index-checker' => 'seo',
             'google-sheets-to-excel' => 'spreadsheet',
             'heic-to-jpg-converter' => 'image',
             'hreflang-checker' => 'seo',

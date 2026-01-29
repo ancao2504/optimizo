@@ -234,6 +234,8 @@ Route::prefix('tools')->group(function () use ($n) {
     Route::post('bing-serp-checker', [BingSerpCheckerController::class, 'process'])->name($n('seo.bing-serp-checker.check'));
     Route::get('google-serp-checker', [GoogleSerpCheckerController::class, 'index'])->name($n('seo.google-serp-checker'));
     Route::post('google-serp-checker', [GoogleSerpCheckerController::class, 'process'])->name($n('seo.google-serp-checker.check'));
+    Route::get('google-index-checker', [App\Http\Controllers\Tools\Seo\GoogleIndexCheckerController::class, 'index'])->name($n('seo.google-index-checker'));
+    Route::post('google-index-checker', [App\Http\Controllers\Tools\Seo\GoogleIndexCheckerController::class, 'process'])->name($n('seo.google-index-checker.check'));
     Route::get('broken-links-checker', [BrokenLinksCheckerController::class, 'index'])->name($n('seo.broken-links-checker'));
     Route::post('broken-links-checker/extract', [BrokenLinksCheckerController::class, 'extract'])->name($n('seo.broken-links-checker.extract'));
     Route::post('broken-links-checker/status', [BrokenLinksCheckerController::class, 'checkStatus'])->name($n('seo.broken-links-checker.status'));
