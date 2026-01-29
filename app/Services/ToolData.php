@@ -1026,6 +1026,16 @@ class ToolData
                 'url' => '/tools/google-index-checker',
                 'order' => 28,
             ],
+            [
+                'name' => 'Google Allintitle Checker',
+                'slug' => 'google-allintitle-checker',
+                'icon_name' => 'fa-solid fa-check-double',
+                'category' => 'seo',
+                'controller' => 'Tools\Seo\AllintitleCheckerController',
+                'route_name' => 'seo.google-allintitle-checker',
+                'url' => '/tools/google-allintitle-checker',
+                'order' => 29,
+            ],
         ];
     }
 

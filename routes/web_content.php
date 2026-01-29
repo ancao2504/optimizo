@@ -100,6 +100,7 @@ use App\Http\Controllers\Tools\Network\UserAgentParserController;
 use App\Http\Controllers\Tools\Network\WhatIsMyIpController;
 use App\Http\Controllers\Tools\Network\WhatIsMyIspController;
 use App\Http\Controllers\Tools\Network\WhoisLookupController;
+use App\Http\Controllers\Tools\Seo\AllintitleCheckerController;
 use App\Http\Controllers\Tools\Seo\BingSerpCheckerController;
 use App\Http\Controllers\Tools\Seo\BrokenLinksCheckerController;
 use App\Http\Controllers\Tools\Seo\GoogleSerpCheckerController;
@@ -248,6 +249,8 @@ Route::prefix('tools')->group(function () use ($n) {
     Route::post('yahoo-serp-checker', [YahooSerpCheckerController::class, 'process'])->name($n('seo.yahoo-serp-checker.check'));
     Route::get('hreflang-checker', [HreflangCheckerController::class, 'index'])->name($n('seo.hreflang-checker'));
     Route::post('hreflang-checker', [HreflangCheckerController::class, 'process'])->name($n('seo.hreflang-checker.check'));
+    Route::get('google-allintitle-checker', [AllintitleCheckerController::class, 'index'])->name($n('seo.google-allintitle-checker'));
+    Route::post('google-allintitle-checker', [AllintitleCheckerController::class, 'process'])->name($n('seo.google-allintitle-checker.check'));
 });
 
 // Document Tools
