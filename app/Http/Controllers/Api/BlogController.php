@@ -40,6 +40,8 @@ class BlogController extends Controller
             'author_id' => 'nullable|exists:users,id',
             'categories' => 'nullable|array',
             'categories.*' => 'exists:blog_categories,id',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string|max:255',
             'language_code' => 'required|string|max:10',
         ]);
 
@@ -131,6 +133,8 @@ class BlogController extends Controller
             'author_id' => 'nullable|exists:users,id',
             'categories' => 'nullable|array',
             'categories.*' => 'exists:blog_categories,id',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string|max:255',
             'language_code' => 'sometimes|required|string|max:10',
         ]);
 
