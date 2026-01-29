@@ -880,5 +880,55 @@
             "faq_localhost_question": "ローカルホストで使えますか？",
             "faq_localhost_answer": "はい、XML入力タブを使用してコードを貼り付けてください。"
         }
+    },
+    "google-index-checker": {
+        "meta": {
+            "title": "Googleインデックスチェッカー - 無料オンラインURLインデックス確認ツール",
+            "description": "特定のウェブページ（URL）がGoogleにインデックスされているかどうかを確認します。無料かつ正確なGoogleインデックスステータス確認ツール。",
+            "h1": "Googleインデックスチェッカー",
+            "subtitle": "URLがGoogle検索結果にインデックスされているか即座に確認できます"
+        },
+        "interface": {
+            "url_label": "ウェブサイトのURLを入力",
+            "url_placeholder": "https:\/\/example.jp\/check-page",
+            "button": "Googleインデックスを確認",
+            "button_checking": "確認中...",
+            "indexed": "インデックス済み",
+            "not_indexed": "未インデックス",
+            "status_label": "インデックスステータス:",
+            "details": "詳細",
+            "url": "URL"
+        },
+        "content": {
+            "main_title": "Googleインデックスチェッカーツール",
+            "main_subtitle": "世界で最も人気のある検索エンジンで、コンテンツが潜在的な訪問者に表示されるようにします。",
+            "what_is_title": "Googleインデックスとは何ですか？",
+            "what_is_desc": "Googleインデックスとは、Googleの検索エンジンボット（Googlebot）がウェブサイトのページを見つけ、クロールし、データベースに追加するプロセスのことです。ページがインデックスに登録されていない場合、検索結果には表示されません。",
+            "how_it_works_title": "Googleインデックスチェッカーの仕組みは？",
+            "how_it_works_desc": "このツールは、`site:`オペレーターを使用してライブ検索クエリを実行します。Googleが検索結果に正確なURLを返した場合、そのページがインデックスされていることが確認されます。そうでない場合は、現在インデックスから欠落していることを示唆しています。",
+            "reasons_title": "なぜページがインデックスされないのですか？",
+            "reason_1": "<strong>新規コンテンツ:<\/strong> Googleが新しいページを発見し、クロールするまでに数日または数週間かかる場合があります。",
+            "reason_2": "<strong>クロールエラー:<\/strong> サーバーの問題やクロールバジェットの制限により、インデックス登録が妨げられる場合があります。",
+            "reason_3": "<strong>Noindexタグ:<\/strong> 誤ってページに`noindex`タグを追加した可能性があります。",
+            "reason_4": "<strong>Robots.txt:<\/strong> robots.txtファイルが、GooglebotのURLへのアクセスをブロックしている可能性があります。",
+            "reason_5": "<strong>低品質:<\/strong> コンテンツが薄かったり、重複していたりする場合、Googleはインデックス登録しないことを選択する場合があります。",
+            "visual_examples_title": "Googleでのインデックスステータスの識別方法",
+            "visual_examples_subtitle": "`site:`オペレーターを使用すると、Googleはページがデータベースにあるかどうかを示す特定の視覚的なヒントを提供します。",
+            "indexed_visual_title": "インデックスされたページの例",
+            "indexed_visual_desc": "ページがインデックスされている場合、Googleはページのタイトル、URL、およびコンテンツのスニペットを表示します。これにより、Googleがページを正常にクロールして保存したことが確認されます。",
+            "not_indexed_visual_title": "インデックスされていないページの例",
+            "not_indexed_visual_desc": "ページがインデックスされていない場合、Googleは検索結果が「どのドキュメントとも一致しませんでした」というメッセージを表示します。これは、URLが現在Googleインデックスから欠落していることを示しています。"
+        },
+        "faq": {
+            "title": "よくある質問",
+            "q1": "Googleがページをインデックスするのにどれくらい時間がかかりますか？",
+            "a1": "通常、インデックス登録には数時間から数週間かかります。Google Search Console経由でURLを送信することで、プロセスをスピードアップできます。",
+            "q2": "このツールは無料で使用できますか？",
+            "a2": "はい、当社のGoogleインデックスチェッカーは100％無料で、アカウントや登録は不要です。",
+            "q3": "複数のURLを一度に確認できますか？",
+            "a3": "現在、このツールは正確性を確保し、Googleの制限を避けるために、一度に1つのURLのみを確認します。",
+            "q4": "URLを頻繁に確認するとSEOに影響しますか？",
+            "a4": "いいえ、インデックスステータスを確認しても、SEOランキングにいかなる方法でも影響しません。"
+        }
     }
 }

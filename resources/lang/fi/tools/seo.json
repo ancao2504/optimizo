@@ -880,5 +880,55 @@
             "faq_localhost_question": "Toimiiko localhostissa?",
             "faq_localhost_answer": "Kyllä, liittämällä XML-koodin."
         }
+    },
+    "google-index-checker": {
+        "meta": {
+            "title": "Google-indeksin tarkistus - Ilmainen online-URL-indeksointityökalu",
+            "description": "Tarkista, onko tietty verkkosivu (URL) Googlen indeksoima vai ei. Ilmainen ja tarkka Googlen indeksitilan tarkistustyökalu.",
+            "h1": "Google-indeksin tarkistus",
+            "subtitle": "Varmista välittömästi, onko URL-osoitteesi indeksoitu Googlen hakutuloksissa"
+        },
+        "interface": {
+            "url_label": "Anna verkkosivuston URL",
+            "url_placeholder": "https:\/\/esimerkki.fi\/tarkistettava-sivu",
+            "button": "Tarkista Google-indeksi",
+            "button_checking": "Tarkistetaan...",
+            "indexed": "Indeksoitu",
+            "not_indexed": "Ei indeksoitu",
+            "status_label": "Indeksointitila:",
+            "details": "Tiedot",
+            "url": "URL"
+        },
+        "content": {
+            "main_title": "Google-indeksin tarkistustyökalu",
+            "main_subtitle": "Varmista, että sisältösi on näkyvissä potentiaalisille vierailijoille maailman suosituimmassa hakukoneessa.",
+            "what_is_title": "Mitä Googlen indeksointi on?",
+            "what_is_desc": "Googlen indeksointi on prosessi, jossa Googlen hakukonebotti (Googlebot) löytää, indeksoi ja lisää verkkosivustosi sivut tietokantaansa. Jos sivu ei ole indeksissä, se ei näy hakutuloksissa.",
+            "how_it_works_title": "Kuinka Google-indeksin tarkistajamme toimii?",
+            "how_it_works_desc": "Työkalumme tekee reaaliaikaisen hakukyselyn `site:`-operaattorilla. Jos Google palauttaa tarkan URL-osoitteen hakutuloksissa, se vahvistaa sivun olevan indeksoitu. Jos ei, se viittaa siihen, että sivu puuttuu tällä hetkellä indeksistä.",
+            "reasons_title": "Miksi sivuni ei ole indeksoitu?",
+            "reason_1": "<strong>Uusi sisältö:<\/strong> Voi kestää muutamia päiviä tai viikkoja, ennen kuin Google löytää ja indeksoi uudet sivut.",
+            "reason_2": "<strong>Indeksointivirheet:<\/strong> Palvelinongelmat tai indeksointibudjetin rajoitukset voivat estää indeksoinnin.",
+            "reason_3": "<strong>Noindex-tagit:<\/strong> Olet saattanut vahingossa lisätä `noindex`-tagin sivullesi.",
+            "reason_4": "<strong>Robots.txt:<\/strong> Robots.txt-tiedostosi saattaa estää Googlebottia pääsemästä URL-osoitteeseen.",
+            "reason_5": "<strong>Heikko laatu:<\/strong> Jos sisältö on ohutta tai kopioitua, Google voi päättää olla indeksoimatta sitä.",
+            "visual_examples_title": "Kuinka tunnistaa indeksitila Googlesta",
+            "visual_examples_subtitle": "Kun käytät `site:`-operaattoria, Google antaa tiettyjä visuaalisia vihjeitä siitä, onko sivu heidän tietokannassaan.",
+            "indexed_visual_title": "Esimerkki indeksoidusta sivusta",
+            "indexed_visual_desc": "Jos sivu on indeksoitu, Google näyttää sivun otsikon, URL-osoitteen ja katkelman sisällöstä. Tämä vahvistaa, että Google on onnistuneesti indeksoinut ja tallentanut sivusi.",
+            "not_indexed_visual_title": "Esimerkki sivusta, jota ei ole indeksoitu",
+            "not_indexed_visual_desc": "Jos sivua ei ole indeksoitu, Google näyttää viestin, jossa todetaan, että haku 'ei vastannut mitään dokumentteja'. Tämä tarkoittaa, että URL-osoite puuttuu tällä hetkellä Googlen indeksistä."
+        },
+        "faq": {
+            "title": "Usein kysytyt kysymykset",
+            "q1": "Kuinka kauan kestää, että Google indeksoi sivun?",
+            "a1": "Tyypillisesti indeksointi kestää muutamasta tunnista muutamaan viikkoon. Voit nopeuttaa prosessia lähettämällä URL-osoitteesi Google Search Consolen kautta.",
+            "q2": "Onko tämä työkalu ilmainen?",
+            "a2": "Kyllä, Google-indeksin tarkistajamme on 100 % ilmainen eikä vaadi tiliä tai rekisteröitymistä.",
+            "q3": "Voinko tarkistaa useita URL-osoitteita kerralla?",
+            "a3": "Tällä hetkellä työkalu tarkistaa yhden URL-osoitteen kerrallaan tarkkuuden varmistamiseksi ja Googlen rajoitusten välttämiseksi.",
+            "q4": "Vaikuttaako URL-osoitteeni tarkistaminen liian usein SEO-sijoituksiini?",
+            "a4": "Ei, indeksitilan tarkistaminen ei vaikuta SEO-sijoituksiisi millään tavalla."
+        }
     }
 }

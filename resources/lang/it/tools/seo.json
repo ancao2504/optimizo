@@ -880,5 +880,55 @@
             "faq_localhost_question": "Posso usare localhost?",
             "faq_localhost_answer": "Sì, usa l'input XML diretto."
         }
+    },
+    "google-index-checker": {
+        "meta": {
+            "title": "Google Index Checker - Strumento di indicizzazione URL online gratuito",
+            "description": "Verifica se una specifica pagina web (URL) è indicizzata da Google o meno. Strumento gratuito e accurato per controllare lo stato dell'indice di Google.",
+            "h1": "Google Index Checker",
+            "subtitle": "Verifica istantaneamente se i tuoi URL sono indicizzati nei risultati di ricerca di Google"
+        },
+        "interface": {
+            "url_label": "Inserisci l'URL del sito web",
+            "url_placeholder": "https:\/\/esempio.it\/pagina-da-controllare",
+            "button": "Controlla l'indice di Google",
+            "button_checking": "Verifica in corso...",
+            "indexed": "Indicizzato",
+            "not_indexed": "Non indicizzato",
+            "status_label": "Stato di indicizzazione:",
+            "details": "Dettagli",
+            "url": "URL"
+        },
+        "content": {
+            "main_title": "Strumento Google Index Checker",
+            "main_subtitle": "Assicurati che i tuoi contenuti siano visibili ai potenziali visitatori sul motore di ricerca più popolare al mondo.",
+            "what_is_title": "Cos'è l'indicizzazione di Google?",
+            "what_is_desc": "L'indicizzazione di Google è il processo attraverso il quale il bot del motore di ricerca di Google (Googlebot) trova, analizza e aggiunge le pagine del tuo sito web al suo database. Se una pagina non è nell'indice, non apparirà nei risultati di ricerca.",
+            "how_it_works_title": "Come funziona il nostro Google Index Checker?",
+            "how_it_works_desc": "Il nostro strumento esegue una query di ricerca in tempo reale utilizzando l'operatore `site:`. Se Google restituisce l'URL esatto nei risultati di ricerca, conferma che la pagina è indicizzata. In caso contrario, suggerisce che la pagina è attualmente mancante dall'indice.",
+            "reasons_title": "Perché la mia pagina non è indicizzata?",
+            "reason_1": "<strong>Nuovi contenuti:<\/strong> Google può impiegare alcuni giorni o settimane per scoprire e analizzare nuove pagine.",
+            "reason_2": "<strong>Errori di scansione:<\/strong> Problemi del server o limiti del budget di scansione possono impedire l'indicizzazione.",
+            "reason_3": "<strong>Tag Noindex:<\/strong> Potresti aver accidentalmente aggiunto un tag `noindex` alla tua pagina.",
+            "reason_4": "<strong>Robots.txt:<\/strong> Il tuo file robots.txt potrebbe impedire a Googlebot di accedere all'URL.",
+            "reason_5": "<strong>Bassa qualità:<\/strong> Se il contenuto è scarso o duplicato, Google potrebbe decidere di non indicizzarlo.",
+            "visual_examples_title": "Come identificare lo stato dell'indice su Google",
+            "visual_examples_subtitle": "Quando utilizzi l'operatore `site:`, Google fornisce specifici segnali visivi per indicare se una pagina è nel suo database.",
+            "indexed_visual_title": "Esempio di una pagina indicizzata",
+            "indexed_visual_desc": "Se una pagina è indicizzata, Google visualizzerà il titolo della pagina, l'URL e un frammento del contenuto. Ciò conferma che Google ha scansionato e memorizzato correttamente la tua pagina.",
+            "not_indexed_visual_title": "Esempio di una pagina non indicizzata",
+            "not_indexed_visual_desc": "Se una pagina non è indicizzata, Google mostrerà un messaggio indicando che la ricerca 'non ha prodotto risultati per alcun documento'. Ciò indica che l'URL è attualmente assente dall'indice di Google."
+        },
+        "faq": {
+            "title": "Domande frequenti",
+            "q1": "Quanto tempo impiega Google per indicizzare una pagina?",
+            "a1": "In genere, l'indicizzazione richiede da poche ore a qualche settimana. Puoi accelerare il processo inviando il tuo URL tramite Google Search Console.",
+            "q2": "Questo strumento è gratuito?",
+            "a2": "Sì, il nostro Google Index Checker è gratuito al 100% e non richiede un account o la registrazione.",
+            "q3": "Posso controllare più URL contemporaneamente?",
+            "a3": "Attualmente, lo strumento controlla un URL alla volta per garantire l'accuratezza ed evitare i limiti di Google.",
+            "q4": "Controllare troppo spesso il mio URL influirà sulla mia SEO?",
+            "a4": "No, controllare lo stato della tua indicizzazione non influisce in alcun modo sui tuoi posizionamenti SEO."
+        }
     }
 }

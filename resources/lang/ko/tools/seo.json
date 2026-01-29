@@ -880,5 +880,55 @@
             "faq_localhost_question": "로컬호스트 지원?",
             "faq_localhost_answer": "네, XML 입력 탭을 사용하세요."
         }
+    },
+    "google-index-checker": {
+        "meta": {
+            "title": "Google 인덱스 체커 - 무료 온라인 URL 인덱싱 도구",
+            "description": "특정 웹 페이지(URL)가 Google에 인덱싱되어 있는지 확인하세요. 무료이고 정확한 Google 인덱스 상태 확인 도구입니다.",
+            "h1": "Google 인덱스 체커",
+            "subtitle": "URL이 Google 검색 결과에 인덱싱되어 있는지 즉시 확인하세요"
+        },
+        "interface": {
+            "url_label": "웹사이트 URL 입력",
+            "url_placeholder": "https:\/\/example.kr\/check-page",
+            "button": "Google 인덱스 확인",
+            "button_checking": "확인 중...",
+            "indexed": "인덱싱됨",
+            "not_indexed": "인덱싱되지 않음",
+            "status_label": "인덱싱 상태:",
+            "details": "세부 정보",
+            "url": "URL"
+        },
+        "content": {
+            "main_title": "Google 인덱스 체커 도구",
+            "main_subtitle": "세계에서 가장 인기 있는 검색 엔진에서 잠재적인 방문자에게 귀하의 콘텐츠가 노출되도록 하세요.",
+            "what_is_title": "Google 인덱싱이란 무엇인가요?",
+            "what_is_desc": "Google 인덱싱은 Google 검색 엔진 봇(Googlebot)이 귀하의 웹사이트 페이지를 찾아 크롤링하고 데이터베이스에 추가하는 프로세스입니다. 페이지가 인덱스에 없으면 검색 결과에 표시되지 않습니다.",
+            "how_it_works_title": "Google 인덱스 체커의 작동 원리는 무엇인가요?",
+            "how_it_works_desc": "저희 도구는 `site:` 연산자를 사용하여 실시간 검색 쿼리를 수행합니다. Google이 검색 결과에 정확한 URL을 반환하면 해당 페이지가 인덱싱된 것입니다. 그렇지 않으면 현재 인덱스에서 누락되었음을 의미합니다.",
+            "reasons_title": "왜 내 페이지가 인덱싱되지 않나요?",
+            "reason_1": "<strong>새 콘텐츠:<\/strong> Google이 새 페이지를 발견하고 크롤링하는 데 며칠 또는 몇 주가 걸릴 수 있습니다.",
+            "reason_2": "<strong>크롤링 오류:<\/strong> 서버 문제나 크롤링 예산 제한으로 인해 인덱싱이 차단될 수 있습니다.",
+            "reason_3": "<strong>Noindex 태그:<\/strong> 실수로 페이지에 `noindex` 태그를 추가했을 수 있습니다.",
+            "reason_4": "<strong>Robots.txt:<\/strong> robots.txt 파일이 Googlebot의 URL 액세스를 차단하고 있을 수 있습니다.",
+            "reason_5": "<strong>낮은 품질:<\/strong> 콘텐츠가 부족하거나 중복된 경우 Google은 인덱싱하지 않기로 결정할 수 있습니다.",
+            "visual_examples_title": "Google에서 인덱스 상태를 식별하는 방법",
+            "visual_examples_subtitle": "`site:` 연산자를 사용하면 Google은 페이지가 데이터베이스에 있는지 여부를 나타내는 특정 시각적 힌트를 제공합니다.",
+            "indexed_visual_title": "인덱싱된 페이지의 예",
+            "indexed_visual_desc": "페이지가 인덱싱된 경우 Google은 페이지 제목, URL 및 콘텐츠 스니펫을 표시합니다. 이는 Google이 페이지를 성공적으로 크롤링하고 저장했음을 확인해 줍니다.",
+            "not_indexed_visual_title": "인덱싱되지 않은 페이지의 예",
+            "not_indexed_visual_desc": "페이지가 인덱싱되지 않은 경우 Google은 검색 결과가 '어떤 문서와도 일치하지 않았습니다'라는 메시지를 표시합니다. 이는 URL이 현재 Google 인덱스에서 누락되었음을 나타냅니다."
+        },
+        "faq": {
+            "title": "자주 묻는 질문",
+            "q1": "Google이 페이지를 인덱싱하는 데 얼마나 걸리나요?",
+            "a1": "일반적으로 인덱싱에는 몇 시간에서 몇 주가 소요됩니다. Google Search Console을 통해 URL을 제출하여 프로세스 속도를 높일 수 있습니다.",
+            "q2": "이 도구는 무료인가요?",
+            "a2": "네, 저희 Google 인덱스 체커는 100% 무료이며 계정이나 등록이 필요하지 않습니다.",
+            "q3": "한 번에 여러 URL을 확인할 수 있나요?",
+            "a3": "현재 이 도구는 정확성을 기하고 Google의 제한을 피하기 위해 한 번에 하나의 URL만 확인합니다.",
+            "q4": "URL을 너무 자주 확인하면 SEO에 영향을 미치나요?",
+            "a4": "아니요, 인덱스 상태를 확인해도 SEO 순위에는 전혀 영향을 미치지 않습니다."
+        }
     }
 }

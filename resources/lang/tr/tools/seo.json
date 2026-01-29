@@ -880,5 +880,55 @@
             "faq_localhost_question": "Localhost çalışır mı?",
             "faq_localhost_answer": "Evet, XML yapıştırarak."
         }
+    },
+    "google-index-checker": {
+        "meta": {
+            "title": "Google İndeks Kontrolü - Ücretsiz Çevrimiçi URL İndeksleme Aracı",
+            "description": "Belirli sebuah web sayfasının (URL) Google tarafındna indekslenip indekslenmediğini kontrol edin. Ücretsiz ve doğru Google indeks durumu kontrol aracı.",
+            "h1": "Google İndeks Kontrolü",
+            "subtitle": "URL'lerinizin Google arama sonuçlarında indekslenip indekslenmediğini anında doğrulayın"
+        },
+        "interface": {
+            "url_label": "Web Sitesi URL'sini Girin",
+            "url_placeholder": "https:\/\/orneksite.com.tr\/kontrol-edilecek-sayfa",
+            "button": "Google İndeksini Kontrol Et",
+            "button_checking": "Kontrol ediliyor...",
+            "indexed": "İndekslendi",
+            "not_indexed": "İndekslenmedi",
+            "status_label": "İndeksleme Durumu:",
+            "details": "Detaylar",
+            "url": "URL"
+        },
+        "content": {
+            "main_title": "Google İndeks Kontrol Aracı",
+            "main_subtitle": "İçeriğinizin dünyanın en popüler arama motorunda potansiyel ziyaretçiler tarafından görünür olduğundan emin olun.",
+            "what_is_title": "Google İndeksleme Nedir?",
+            "what_is_desc": "Google indeksleme, Google'ın arama motoru botunun (Googlebot) web sitenizin sayfalarını bulma, tarama ve veritabanına ekleme sürecidir. Bir sayfa indekste yoksa arama sonuçlarında görünmez.",
+            "how_it_works_title": "Google İndeks Kontrol Aracımız Nasıl Çalışır?",
+            "how_it_works_desc": "Aracımız, `site:` operatörünü kullanarak canlı bir arama sorgusu gerçekleştirir. Google arama sonuçlarında tam URL'yi döndürürse sayfanın indekslendiğini onaylar. Döndürmezse, sayfanın şu anda indekste eksik olduğunu gösterir.",
+            "reasons_title": "Sayfam neden indekslenmedi?",
+            "reason_1": "<strong>Yeni içerik:<\/strong> Google'ın yeni sayfaları keşfetmesi ve taraması birkaç gün veya hafta sürebilir.",
+            "reason_2": "<strong>Tarama hataları:<\/strong> Sunucu sorunları veya tarama bütçesi sınırları indekslemeyi engelleyebilir.",
+            "reason_3": "<strong>Noindex etiketleri:<\/strong> Yanlışlıkla sayfanıza bir `noindex` etiketi eklemiş olabilirsiniz.",
+            "reason_4": "<strong>Robots.txt:<\/strong> Robots.txt dosyanız Googlebot'un URL'ye erişmesini engelliyor olabilir.",
+            "reason_5": "<strong>Düşük kalite:<\/strong> İçerik zayıf veya kopya ise Google indekslememeyi seçebilir.",
+            "visual_examples_title": "Google'da İndeks Durumu Nasıl Belirlenir",
+            "visual_examples_subtitle": "`site:` operatörünü kullandığınızda Google, bir sayfanın veritabanlarında olup olmadığını göstermek için belirli görsel ipuçları sağlar.",
+            "indexed_visual_title": "İndekslenmiş Sayfa Örneği",
+            "indexed_visual_desc": "Bir sayfa indekslenmişse Google sayfa başlığını, URL'sini ve içerikten bir kesiti görüntüler. Bu, Google'ın sayfanızı başarıyla taradığını ve depoladığını onaylar.",
+            "not_indexed_visual_title": "İndekslenmemiş Sayfa Örneği",
+            "not_indexed_visual_desc": "Bir sayfa indekslenmemişse Google aramanın 'herhangi bir dokümanla eşleşmediğini' belirten bir mesaj görüntüler. Bu, URL'nin şu anda Google indeksinde eksik olduğu anlamına gelir."
+        },
+        "faq": {
+            "title": "Sıkça Sorulan Sorular",
+            "q1": "Google'ın bir sayfayı indekslemesi ne kadar sürer?",
+            "a1": "Normalde indeksleme birkaç saat ile birkaç hafta arasında sürer. URL'nizi Google Search Console üzerinden göndererek süreci hızlandırabilirsiniz.",
+            "q2": "Bu aracı kullanmak ücretsiz mi?",
+            "a2": "Evet, Google İndeks Kontrol aracımız %100 ücretsizdir ve hesap veya kayıt gerektirmez.",
+            "q3": "Aynı anda birden fazla URL'yi kontrol edebilir miyim?",
+            "a3": "Şu anda araç, doğruluğu sağlamak ve Google sınırlarından kaçınmak için her seferinde bir URL'yi kontrol eder.",
+            "q4": "URL'mi çok sık kontrol etmek SEO'mu etkiler mi?",
+            "a4": "Hayır, indeks durumunuzu kontrol etmek SEO sıralamalarınızı hiçbir şekilde etkilemez."
+        }
     }
 }
