@@ -7,59 +7,59 @@
 @push('scripts')
     {{-- Schema.org JSON-LD --}}
     <script type="application/ld+json">
-                                    {
-                                        "@@context": "https://schema.org",
-                                        "@@type": "BlogPosting",
-                                        "headline": "{{ addslashes($post->title) }}",
-                                        "image": "{{ $post->featured_image_url }}",
-                                        "author": {
-                                            "@@type": "Person",
-                                            "name": "{{ addslashes($post->author->name) }}"
-                                        },
-                                        "publisher": {
-                                            "@@type": "Organization",
-                                            "name": "{{ addslashes(config('app.name')) }}",
-                                            "logo": {
-                                                "@@type": "ImageObject",
-                                                "url": "{{ asset('logo.png') }}"
+                                        {
+                                            "@@context": "https://schema.org",
+                                            "@@type": "BlogPosting",
+                                            "headline": "{{ addslashes($post->title) }}",
+                                            "image": "{{ $post->featured_image_url }}",
+                                            "author": {
+                                                "@@type": "Person",
+                                                "name": "{{ addslashes($post->author->name) }}"
+                                            },
+                                            "publisher": {
+                                                "@@type": "Organization",
+                                                "name": "{{ addslashes(config('app.name')) }}",
+                                                "logo": {
+                                                    "@@type": "ImageObject",
+                                                    "url": "{{ asset('logo.png') }}"
+                                                }
+                                            },
+                                            "datePublished": "{{ $post->published_at->toIso8601String() }}",
+                                            "dateModified": "{{ $post->updated_at->toIso8601String() }}",
+                                            "description": "{{ addslashes($post->meta_description ?: Str::limit(strip_tags($post->content), 160)) }}",
+                                            "mainEntityOfPage": {
+                                                "@@type": "WebPage",
+                                                "@@id": "{{ url()->current() }}"
                                             }
-                                        },
-                                        "datePublished": "{{ $post->published_at->toIso8601String() }}",
-                                        "dateModified": "{{ $post->updated_at->toIso8601String() }}",
-                                        "description": "{{ addslashes($post->meta_description ?: Str::limit(strip_tags($post->content), 160)) }}",
-                                        "mainEntityOfPage": {
-                                            "@@type": "WebPage",
-                                            "@@id": "{{ url()->current() }}"
                                         }
-                                    }
-                                    </script>
+                                        </script>
 
     <script type="application/ld+json">
-                                    {
-                                        "@@context": "https://schema.org",
-                                        "@@type": "BreadcrumbList",
-                                        "itemListElement": [
-                                            {
-                                                "@@type": "ListItem",
-                                                "position": 1,
-                                                "name": "Home",
-                                                "item": "{{ localeRoute('home') }}"
-                                            },
-                                            {
-                                                "@@type": "ListItem",
-                                                "position": 2,
-                                                "name": "Blog",
-                                                "item": "{{ localeRoute('blog.index') }}"
-                                            },
-                                            {
-                                                "@@type": "ListItem",
-                                                "position": 3,
-                                                "name": "{{ addslashes($post->title) }}",
-                                                "item": "{{ url()->current() }}"
-                                            }
-                                        ]
-                                    }
-                                    </script>
+                                        {
+                                            "@@context": "https://schema.org",
+                                            "@@type": "BreadcrumbList",
+                                            "itemListElement": [
+                                                {
+                                                    "@@type": "ListItem",
+                                                    "position": 1,
+                                                    "name": "Home",
+                                                    "item": "{{ localeRoute('home') }}"
+                                                },
+                                                {
+                                                    "@@type": "ListItem",
+                                                    "position": 2,
+                                                    "name": "Blog",
+                                                    "item": "{{ localeRoute('blog.index') }}"
+                                                },
+                                                {
+                                                    "@@type": "ListItem",
+                                                    "position": 3,
+                                                    "name": "{{ addslashes($post->title) }}",
+                                                    "item": "{{ url()->current() }}"
+                                                }
+                                            ]
+                                        }
+                                        </script>
 @endpush
 
 @section('content')
@@ -323,83 +323,6 @@
         </div>
     </div>
 
-    <style>
-        .text-glow {
-            text-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
-        }
-
-        .blog-content {
-            @apply text-gray-700 leading-[1.8] font-[450] tracking-normal;
-        }
-
-        .blog-content>p:first-of-type {
-            @apply text-xl md:text-2xl font-bold text-gray-800 leading-[1.6] mb-12 opacity-95;
-        }
-
-        .blog-content h2 {
-            @apply text-2xl md:text-4xl font-black text-gray-900 mt-16 mb-8 tracking-tighter leading-tight;
-        }
-
-        .blog-content h3 {
-            @apply text-xl md:text-2xl font-black text-gray-900 mt-12 mb-6 tracking-tight;
-        }
-
-        .blog-content p {
-            @apply mb-8 text-lg md:text-xl opacity-90;
-        }
-
-        .blog-content ul,
-        .blog-content ol {
-            @apply mb-10 ml-6 md:ml-8 space-y-4 text-lg md:text-xl;
-        }
-
-        .blog-content ul {
-            @apply list-disc marker:text-indigo-500;
-        }
-
-        .blog-content ol {
-            @apply list-decimal marker:text-indigo-500 marker:font-black;
-        }
-
-        .blog-content li {
-            @apply pl-4;
-        }
-
-        .blog-content img {
-            @apply rounded-[2rem] shadow-2xl my-16 w-full hover:scale-[1.01] transition-all duration-500;
-        }
-
-        .blog-content blockquote {
-            @apply relative py-10 px-8 md:px-14 my-16 text-2xl md:text-3xl font-black text-gray-950 border-none bg-indigo-50/40 rounded-[3rem] italic;
-        }
-
-        .blog-content blockquote::before {
-            content: '“';
-            @apply absolute -top-6 left-6 text-8xl text-indigo-600/10 font-serif leading-none;
-        }
-
-        .blog-content pre {
-            @apply bg-gray-950 text-indigo-100 p-8 md:p-12 rounded-[2.5rem] overflow-x-auto my-16 shadow-2xl border border-white/5;
-        }
-
-        .blog-content a {
-            @apply text-indigo-600 font-bold decoration-[3px] decoration-indigo-100 underline-offset-4 hover:decoration-indigo-500 transition-all;
-        }
-
-        @keyframes slow-zoom {
-            0% {
-                transform: scale(1.05);
-            }
-
-            100% {
-                transform: scale(1.15);
-            }
-        }
-
-        .animate-slow-zoom {
-            animation: slow-zoom 40s infinite alternate;
-        }
-    </style>
 
     <script>
         document.addEventListener('scroll', () => {
@@ -433,11 +356,11 @@
         // Add class helper for visibility
         const style = document.createElement('style');
         style.innerHTML = `
-                            .is-visible {
-                                opacity: 1 !important;
-                                transform: translateY(0) !important;
-                            }
-                        `;
+                                .is-visible {
+                                    opacity: 1 !important;
+                                    transform: translateY(0) !important;
+                                }
+                            `;
         document.head.appendChild(style);
     </script>
 @endsection
