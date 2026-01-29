@@ -48,9 +48,21 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="description">Description</label>
-                            <textarea name="description" id="description" rows="3" class="form-control"
-                                placeholder="Optional description..."></textarea>
+                            <label for="meta_title">Meta Title</label>
+                            <input type="text" name="meta_title" id="meta_title" class="form-control"
+                                placeholder="Optional SEO title...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="meta_description">Meta Description</label>
+                            <textarea name="meta_description" id="meta_description" rows="2" class="form-control"
+                                placeholder="Optional SEO description (max 255)..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="content">Category Content</label>
+                            <textarea name="content" id="content" rows="4" class="form-control"
+                                placeholder="Main category content..."></textarea>
                         </div>
                     </div>
                     <div class="card-footer bg-white text-right">
@@ -104,7 +116,7 @@
                                 <tr>
                                     <td>
                                         <span class="font-weight-bold text-primary">{{ $category->name }}</span>
-                                        <div class="small text-muted">{{ Str::limit($category->description, 30) }}</div>
+                                        <div class="small text-muted">{{ Str::limit($category->meta_description, 30) }}</div>
                                     </td>
                                     <td><span
                                             class="badge badge-light border text-uppercase">{{ $category->language_code }}</span>

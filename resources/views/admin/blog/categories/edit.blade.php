@@ -48,9 +48,21 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="description">Description</label>
-                            <textarea name="description" id="description" rows="4"
-                                class="form-control">{{ $category->description }}</textarea>
+                            <label for="meta_title">Meta Title</label>
+                            <input type="text" name="meta_title" id="meta_title" value="{{ $category->meta_title }}"
+                                class="form-control" placeholder="Optional SEO title...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="meta_description">Meta Description</label>
+                            <textarea name="meta_description" id="meta_description" rows="2" class="form-control"
+                                placeholder="Optional SEO description (max 255)...">{{ $category->meta_description }}</textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="content">Category Content</label>
+                            <textarea name="content" id="content" rows="6"
+                                class="form-control">{{ $category->content }}</textarea>
                         </div>
                     </div>
                     <div class="card-footer bg-white text-right">

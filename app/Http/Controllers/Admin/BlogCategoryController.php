@@ -45,7 +45,9 @@ class BlogCategoryController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'slug' => 'nullable|string|max:255|unique:blog_categories,slug',
-            'description' => 'nullable|string',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string|max:255',
+            'content' => 'nullable|string',
             'parent_id' => 'nullable|exists:blog_categories,id',
             'language_code' => 'required|string|max:10',
         ]);
@@ -96,7 +98,9 @@ class BlogCategoryController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'slug' => 'nullable|string|max:255|unique:blog_categories,slug,' . $category->id,
-            'description' => 'nullable|string',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string|max:255',
+            'content' => 'nullable|string',
             'parent_id' => 'nullable|exists:blog_categories,id',
             'language_code' => 'required|string|max:10',
         ]);

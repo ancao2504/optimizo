@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class BlogCategory extends Model
 {
-    protected $fillable = ['name', 'slug', 'description', 'parent_id', 'language_code'];
+    protected $fillable = ['name', 'slug', 'meta_title', 'meta_description', 'content', 'parent_id', 'language_code'];
 
     public function posts(): BelongsToMany
     {

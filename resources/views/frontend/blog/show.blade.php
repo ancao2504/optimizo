@@ -7,59 +7,59 @@
 @push('scripts')
     {{-- Schema.org JSON-LD --}}
     <script type="application/ld+json">
-                                {
-                                    "@@context": "https://schema.org",
-                                    "@@type": "BlogPosting",
-                                    "headline": "{{ addslashes($post->title) }}",
-                                    "image": "{{ $post->featured_image_url }}",
-                                    "author": {
-                                        "@@type": "Person",
-                                        "name": "{{ addslashes($post->author->name) }}"
-                                    },
-                                    "publisher": {
-                                        "@@type": "Organization",
-                                        "name": "{{ addslashes(config('app.name')) }}",
-                                        "logo": {
-                                            "@@type": "ImageObject",
-                                            "url": "{{ asset('logo.png') }}"
+                                    {
+                                        "@@context": "https://schema.org",
+                                        "@@type": "BlogPosting",
+                                        "headline": "{{ addslashes($post->title) }}",
+                                        "image": "{{ $post->featured_image_url }}",
+                                        "author": {
+                                            "@@type": "Person",
+                                            "name": "{{ addslashes($post->author->name) }}"
+                                        },
+                                        "publisher": {
+                                            "@@type": "Organization",
+                                            "name": "{{ addslashes(config('app.name')) }}",
+                                            "logo": {
+                                                "@@type": "ImageObject",
+                                                "url": "{{ asset('logo.png') }}"
+                                            }
+                                        },
+                                        "datePublished": "{{ $post->published_at->toIso8601String() }}",
+                                        "dateModified": "{{ $post->updated_at->toIso8601String() }}",
+                                        "description": "{{ addslashes($post->meta_description ?: Str::limit(strip_tags($post->content), 160)) }}",
+                                        "mainEntityOfPage": {
+                                            "@@type": "WebPage",
+                                            "@@id": "{{ url()->current() }}"
                                         }
-                                    },
-                                    "datePublished": "{{ $post->published_at->toIso8601String() }}",
-                                    "dateModified": "{{ $post->updated_at->toIso8601String() }}",
-                                    "description": "{{ addslashes($post->meta_description ?: Str::limit(strip_tags($post->content), 160)) }}",
-                                    "mainEntityOfPage": {
-                                        "@@type": "WebPage",
-                                        "@@id": "{{ url()->current() }}"
                                     }
-                                }
-                                </script>
+                                    </script>
 
     <script type="application/ld+json">
-                                {
-                                    "@@context": "https://schema.org",
-                                    "@@type": "BreadcrumbList",
-                                    "itemListElement": [
-                                        {
-                                            "@@type": "ListItem",
-                                            "position": 1,
-                                            "name": "Home",
-                                            "item": "{{ localeRoute('home') }}"
-                                        },
-                                        {
-                                            "@@type": "ListItem",
-                                            "position": 2,
-                                            "name": "Blog",
-                                            "item": "{{ localeRoute('blog.index') }}"
-                                        },
-                                        {
-                                            "@@type": "ListItem",
-                                            "position": 3,
-                                            "name": "{{ addslashes($post->title) }}",
-                                            "item": "{{ url()->current() }}"
-                                        }
-                                    ]
-                                }
-                                </script>
+                                    {
+                                        "@@context": "https://schema.org",
+                                        "@@type": "BreadcrumbList",
+                                        "itemListElement": [
+                                            {
+                                                "@@type": "ListItem",
+                                                "position": 1,
+                                                "name": "Home",
+                                                "item": "{{ localeRoute('home') }}"
+                                            },
+                                            {
+                                                "@@type": "ListItem",
+                                                "position": 2,
+                                                "name": "Blog",
+                                                "item": "{{ localeRoute('blog.index') }}"
+                                            },
+                                            {
+                                                "@@type": "ListItem",
+                                                "position": 3,
+                                                "name": "{{ addslashes($post->title) }}",
+                                                "item": "{{ url()->current() }}"
+                                            }
+                                        ]
+                                    }
+                                    </script>
 @endpush
 
 @section('content')
@@ -85,10 +85,9 @@
         <div class="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-end pb-24 md:pb-36">
             <div class="max-w-4xl space-y-4">
                 <nav class="flex items-center gap-3 text-white/70 text-[10px] font-black uppercase tracking-[0.3em]">
-                    <a href="{{ localeRoute('home') }}" class="hover:text-white transition-colors">{{ __('Home') }}</a>
+                    <a href="{{ localeRoute('home') }}" class="hover:text-white transition-colors">Home</a>
                     <span class="w-1 h-1 rounded-full bg-indigo-500"></span>
-                    <a href="{{ localeRoute('blog.index') }}"
-                        class="hover:text-white transition-colors">{{ __('Blog') }}</a>
+                    <a href="{{ localeRoute('blog.index') }}" class="hover:text-white transition-colors">Blog</a>
                 </nav>
 
                 <h1 class="text-3xl md:text-5xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight text-glow">
@@ -148,12 +147,14 @@
                     </div>
                     <div class="text-center md:text-left flex-grow">
                         <span
-                            class="text-indigo-400 text-xs md:text-sm font-black uppercase tracking-[0.4em] mb-3 block">{{ __('Expert Reviewer') }}</span>
+                            class="text-indigo-400 text-xs md:text-sm font-black uppercase tracking-[0.4em] mb-3 block">Expert
+                            Reviewer</span>
                         <h3 class="text-2xl md:text-4xl font-black text-white mb-4 tracking-tight leading-tight">
-                            {{ __('Masterfully written by :name', ['name' => $post->author->name]) }}
+                            Masterfully written by {{ $post->author->name }}
                         </h3>
                         <p class="text-gray-400 leading-relaxed text-base md:text-xl max-w-3xl opacity-80">
-                            {{ __('Deep-diving into tech trends and architectural paradigms. Bringing you over 15 years of industry insights concentrated into every single word you read.') }}
+                            Deep-diving into tech trends and architectural paradigms. Bringing you over 15 years of industry
+                            insights concentrated into every single word you read.
                         </p>
                     </div>
                 </div>
@@ -187,8 +188,8 @@
                     <div
                         class="mt-20 pt-10 border-t border-gray-100 flex flex-col md:flex-row md:items-center justify-between gap-8">
                         <div>
-                            <span
-                                class="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] block mb-4">{{ __('Share this story') }}</span>
+                            <span class="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] block mb-4">Share
+                                this story</span>
                             <div class="flex gap-4">
                                 <button
                                     class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center text-gray-400 hover:bg-blue-600 hover:text-white transition-all shadow-sm">
@@ -208,7 +209,7 @@
                         </div>
                         <a href="{{ localeRoute('blog.index') }}"
                             class="group flex items-center gap-3 px-8 py-5 bg-gray-50 rounded-3xl text-gray-900 font-black hover:bg-gray-950 hover:text-white transition-all">
-                            {{ __('Back to Blog') }}
+                            Back to Blog
                             <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
@@ -238,7 +239,7 @@
                                             d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                                     </svg>
                                 </div>
-                                <h3 class="text-2xl font-black text-gray-950 tracking-tight">{{ __('Categories') }}</h3>
+                                <h3 class="text-2xl font-black text-gray-950 tracking-tight">Categories</h3>
                             </div>
 
                             <div class="space-y-3">
@@ -276,7 +277,7 @@
                                             d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.5-7 3 3 3.5 1.3 5 3 2 2 2 2 2 5a7.978 7.978 0 01-1.343 4.657z" />
                                     </svg>
                                 </div>
-                                <h3 class="text-2xl font-black text-white tracking-tight">{{ __('Hot Stories') }}</h3>
+                                <h3 class="text-2xl font-black text-white tracking-tight">Hot Stories</h3>
                             </div>
 
                             <div class="space-y-12">
@@ -307,7 +308,7 @@
                             <div class="mt-14">
                                 <a href="{{ localeRoute('blog.index') }}"
                                     class="flex items-center justify-center p-6 rounded-[2rem] bg-white/5 border border-white/10 text-white font-black hover:bg-white hover:text-black transition-all group/btn">
-                                    {{ __('View All Articles') }}
+                                    View All Articles
                                     <svg class="ml-3 w-5 h-5 transform group-hover/btn:translate-x-1 transition-transform"
                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
@@ -432,11 +433,11 @@
         // Add class helper for visibility
         const style = document.createElement('style');
         style.innerHTML = `
-                        .is-visible {
-                            opacity: 1 !important;
-                            transform: translateY(0) !important;
-                        }
-                    `;
+                            .is-visible {
+                                opacity: 1 !important;
+                                transform: translateY(0) !important;
+                            }
+                        `;
         document.head.appendChild(style);
     </script>
 @endsection
