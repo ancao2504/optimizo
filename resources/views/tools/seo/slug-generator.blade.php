@@ -3,7 +3,7 @@
 @section('title', __tool('slug-generator', 'meta.title'))
 @section('meta_description', __tool('slug-generator', 'meta.description'))
 @section('content')
-    <div class="max-w-6xl mx-auto">
+    <div class="max-w-5xl mx-auto">
         <x-tool-hero :tool="$tool" icon="slug-generator" />
 
         <div class="bg-white rounded-2xl p-6 md:p-8 shadow-2xl border-2 border-purple-200 mb-8">
@@ -43,7 +43,7 @@
              <div id="copyMessage" class="hidden mt-2 text-center text-sm font-medium text-green-600 transition-opacity duration-300"></div>
         </div>
 
-        <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 border-2 border-purple-100 shadow-2xl">
+        <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 border-2 border-purple-100 shadow-2xl mt-8">
             <div class="text-center mb-8">
                 <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl shadow-xl mb-4">
                     <svg class="w-9 h-9 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

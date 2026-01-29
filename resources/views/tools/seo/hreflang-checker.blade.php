@@ -66,7 +66,7 @@
         </div>
 
         <!-- SEO Content -->
-        <div class="space-y-12 mt-16 font-sans">
+        <div class="space-y-12 mt-8 font-sans">
             <!-- Intro Card -->
             <div
                 class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 border border-purple-100 shadow-xl relative overflow-hidden">

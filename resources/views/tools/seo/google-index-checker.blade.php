@@ -4,7 +4,7 @@
 @section('meta_description', __tool('google-index-checker', 'meta.description'))
 
 @section('content')
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="max-w-5xl mx-auto">
         <!-- Hero Section -->
         <x-tool-hero :tool="$tool" />
 
@@ -65,7 +65,8 @@
                     </div>
                     <div class="flex-grow text-center md:text-left">
                         <h3 class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-1">
-                            {{ __tool('google-index-checker', 'interface.status_label') }}</h3>
+                            {{ __tool('google-index-checker', 'interface.status_label') }}
+                        </h3>
                         <div id="statusBadge" class="inline-block text-3xl font-black mb-2"></div>
                         <p id="resultUrl" class="text-gray-600 font-medium break-all"></p>
                     </div>
@@ -90,7 +91,7 @@
 
         <!-- SEO Content Section -->
         <div
-            class="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-3xl p-8 md:p-12 border-2 border-purple-100 shadow-2xl overflow-hidden relative">
+            class="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-3xl p-8 md:p-12 border-2 border-purple-100 shadow-2xl overflow-hidden relative mt-8">
             <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-purple-200/50 rounded-full blur-3xl"></div>
             <div class="absolute bottom-0 left-0 -mb-10 -ml-10 w-40 h-40 bg-indigo-200/50 rounded-full blur-3xl"></div>
 
@@ -157,13 +158,20 @@
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
                         <!-- Indexed Example -->
-                        <div class="bg-white rounded-3xl p-6 shadow-xl border border-green-50 overflow-hidden group hover:border-green-100 transition-all duration-300">
+                        <div
+                            class="bg-white rounded-3xl p-6 shadow-xl border border-green-50 overflow-hidden group hover:border-green-100 transition-all duration-300">
                             <h4 class="text-xl font-black text-green-700 mb-4 flex items-center gap-2">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
                                 {{ __tool('google-index-checker', 'content.indexed_visual_title') }}
                             </h4>
                             <div class="mb-6 rounded-2xl overflow-hidden border border-gray-100 shadow-inner">
-                                <img src="{{ asset('assets/img/tools/google-index-checker/indexed.png') }}" alt="Indexed Example" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-700">
+                                <img src="{{ asset('assets/img/tools/google-index-checker/indexed.png') }}"
+                                    alt="Indexed Example"
+                                    class="w-full h-auto transform group-hover:scale-105 transition-transform duration-700">
                             </div>
                             <p class="text-gray-600 text-sm leading-relaxed">
                                 {{ __tool('google-index-checker', 'content.indexed_visual_desc') }}
@@ -171,13 +179,20 @@
                         </div>
 
                         <!-- Not Indexed Example -->
-                        <div class="bg-white rounded-3xl p-6 shadow-xl border border-red-50 overflow-hidden group hover:border-red-100 transition-all duration-300">
+                        <div
+                            class="bg-white rounded-3xl p-6 shadow-xl border border-red-50 overflow-hidden group hover:border-red-100 transition-all duration-300">
                             <h4 class="text-xl font-black text-red-700 mb-4 flex items-center gap-2">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg>
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
                                 {{ __tool('google-index-checker', 'content.not_indexed_visual_title') }}
                             </h4>
                             <div class="mb-6 rounded-2xl overflow-hidden border border-gray-100 shadow-inner">
-                                <img src="{{ asset('assets/img/tools/google-index-checker/not_indexed.png') }}" alt="Not Indexed Example" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-700">
+                                <img src="{{ asset('assets/img/tools/google-index-checker/not_indexed.png') }}"
+                                    alt="Not Indexed Example"
+                                    class="w-full h-auto transform group-hover:scale-105 transition-transform duration-700">
                             </div>
                             <p class="text-gray-600 text-sm leading-relaxed">
                                 {{ __tool('google-index-checker', 'content.not_indexed_visual_desc') }}

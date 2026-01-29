@@ -4,7 +4,7 @@
 @section('meta_description', __tool('google-serp-checker', 'meta.description'))
 
 @section('content')
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="max-w-5xl mx-auto">
         <!-- Hero Section -->
         <x-tool-hero :tool="$tool" />
 
@@ -12,7 +12,8 @@
         <div class="bg-white rounded-2xl p-6 md:p-8 shadow-2xl border-2 border-purple-200 mb-8">
             <div class="text-center mb-8">
                 <h2 class="text-2xl font-bold text-gray-900 mb-2">
-                    {{ __tool('google-serp-checker', 'interface.simulation_title') }}</h2>
+                    {{ __tool('google-serp-checker', 'interface.simulation_title') }}
+                </h2>
                 <div class="h-1 w-16 bg-gradient-to-r from-purple-600 to-red-600 mx-auto rounded-full"></div>
             </div>
 
@@ -119,7 +120,7 @@
 
         <!-- SEO Content & Features -->
         <div
-            class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 border-2 border-purple-100 shadow-2xl">
+            class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 border-2 border-purple-100 shadow-2xl mt-8">
 
             <div class="text-center mb-16">
                 <div
@@ -130,7 +131,8 @@
                     </svg>
                 </div>
                 <h2 class="text-3xl md:text-4xl font-black text-gray-900 mb-6">
-                    {{ __tool('google-serp-checker', 'content.main_title') }}</h2>
+                    {{ __tool('google-serp-checker', 'content.main_title') }}
+                </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                     {{ __tool('google-serp-checker', 'content.main_subtitle') }}
                 </p>
@@ -149,7 +151,8 @@
                         </svg>
                     </div>
                     <h3 class="font-bold text-xl text-gray-900 mb-3">
-                        {{ __tool('google-serp-checker', 'content.feature1_title') }}</h3>
+                        {{ __tool('google-serp-checker', 'content.feature1_title') }}
+                    </h3>
                     <p class="text-sm text-gray-600 leading-relaxed">
                         {{ __tool('google-serp-checker', 'content.feature1_desc') }}
                     </p>
@@ -164,7 +167,8 @@
                         </svg>
                     </div>
                     <h3 class="font-bold text-xl text-gray-900 mb-3">
-                        {{ __tool('google-serp-checker', 'content.feature2_title') }}</h3>
+                        {{ __tool('google-serp-checker', 'content.feature2_title') }}
+                    </h3>
                     <p class="text-sm text-gray-600 leading-relaxed">
                         {{ __tool('google-serp-checker', 'content.feature2_desc') }}
                     </p>
@@ -179,7 +183,8 @@
                         </svg>
                     </div>
                     <h3 class="font-bold text-xl text-gray-900 mb-3">
-                        {{ __tool('google-serp-checker', 'content.feature3_title') }}</h3>
+                        {{ __tool('google-serp-checker', 'content.feature3_title') }}
+                    </h3>
                     <p class="text-sm text-gray-600 leading-relaxed">
                         {{ __tool('google-serp-checker', 'content.feature3_desc') }}
                     </p>
@@ -189,7 +194,8 @@
             <!-- SERP Features -->
             <div class="mb-16">
                 <h3 class="text-2xl font-black text-gray-900 mb-8 border-b-2 border-purple-100 pb-4">
-                    {{ __tool('google-serp-checker', 'content.serp_features_title') }}</h3>
+                    {{ __tool('google-serp-checker', 'content.serp_features_title') }}
+                </h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div class="bg-white/80 p-6 rounded-xl border border-purple-50 hover:bg-white transition-colors">
                         <h4 class="font-bold text-lg text-gray-900 mb-2 flex items-center gap-2">
@@ -233,13 +239,15 @@
             <!-- Deep Dive Content -->
             <div class="bg-white rounded-2xl p-8 mb-12 border-l-4 border-purple-500 shadow-sm">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6">
-                    {{ __tool('google-serp-checker', 'content.what_is_title') }}</h3>
+                    {{ __tool('google-serp-checker', 'content.what_is_title') }}
+                </h3>
                 <p class="mb-6 text-gray-700 leading-relaxed">
                     {{ __tool('google-serp-checker', 'content.what_is_desc') }}
                 </p>
 
                 <h4 class="text-lg font-bold text-gray-900 mb-3">
-                    {{ __tool('google-serp-checker', 'content.bubble_problem_title') }}</h4>
+                    {{ __tool('google-serp-checker', 'content.bubble_problem_title') }}
+                </h4>
                 <p class="mb-4 text-gray-700">
                     {{ __tool('google-serp-checker', 'content.bubble_problem_desc') }}
                 </p>
@@ -251,7 +259,8 @@
             <!-- FAQ Section -->
             <div class="mb-8">
                 <h3 class="text-3xl font-black text-center text-gray-900 mb-10">
-                    {{ __tool('google-serp-checker', 'faq.title') }}</h3>
+                    {{ __tool('google-serp-checker', 'faq.title') }}
+                </h3>
                 <div class="space-y-4 max-w-3xl mx-auto">
                     <!-- FAQ Item 1 -->
                     <details class="group bg-white rounded-2xl shadow-sm border border-purple-100 overflow-hidden">

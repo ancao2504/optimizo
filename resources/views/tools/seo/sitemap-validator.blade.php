@@ -4,7 +4,7 @@
 @section('meta_description', __tool('sitemap-validator', 'meta.description'))
 
 @section('content')
-    <div class="max-w-6xl mx-auto">
+    <div class="max-w-5xl mx-auto">
         <!-- Header -->
         <x-tool-hero :tool="$tool" icon="sitemap-validator" />
 
@@ -71,7 +71,7 @@
         </div>
 
         <!-- SEO Content Section -->
-        <div class="space-y-12 mt-16 font-sans">
+        <div class="space-y-12 mt-8 font-sans">
             <!-- Intro Card -->
             <div class="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-3xl p-8 md:p-12 border border-indigo-100 shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-gradient-to-br from-indigo-200 to-blue-200 rounded-full opacity-20 blur-3xl"></div>

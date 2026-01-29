@@ -4,7 +4,7 @@
 @section('meta_description', __tool('broken-links-checker', 'meta.description'))
 
 @section('content')
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto">
         <!-- Hero Section -->
         <x-tool-hero :tool="$tool" />
 
@@ -117,7 +117,7 @@
         </div>
 
         <!-- Results Section -->
-        <div id="resultsSection" class="hidden mb-12 scroll-mt-24">
+        <div id="resultsSection" class="hidden mb-8 scroll-mt-24">
             <!-- Stats Cards -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
                 <div class="bg-white rounded-2xl p-6 shadow-md border-l-4 border-blue-500">
@@ -195,7 +195,7 @@
 
         <!-- SEO Content Section -->
         <div
-            class="bg-gradient-to-br from-red-50 to-pink-50 rounded-3xl p-8 md:p-12 border-2 border-red-100 shadow-2xl mb-12 mt-12">
+            class="bg-gradient-to-br from-red-50 to-pink-50 rounded-3xl p-8 md:p-12 border-2 border-red-100 shadow-2xl mb-8 mt-8">
 
             <!-- Introduction -->
             <div class="text-center mb-12">
