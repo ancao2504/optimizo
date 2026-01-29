@@ -24,6 +24,10 @@ return Application::configure(basePath: dirname(__DIR__))
         // Add SetLocale to web middleware group
         $middleware->web(append: [
             \App\Http\Middleware\SetLocale::class,
+        ]);
+
+        // Register globally to handle redirects for 404s
+        $middleware->prepend([
             \App\Http\Middleware\RedirectMiddleware::class,
         ]);
     })
