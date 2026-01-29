@@ -32,6 +32,11 @@ class RedirectController extends Controller
             'status' => 'boolean',
         ]);
 
+        // Ensure from_url starts with /
+        if (!preg_match('#^https?://#', $validated['from_url']) && !str_starts_with($validated['from_url'], '/')) {
+            $validated['from_url'] = '/' . $validated['from_url'];
+        }
+
         Redirect::create($validated);
 
         return redirect()->route('admin.redirects.index')
@@ -55,6 +60,11 @@ class RedirectController extends Controller
             'type' => 'required|in:301,302',
             'status' => 'boolean',
         ]);
+
+        // Ensure from_url starts with /
+        if (!preg_match('#^https?://#', $validated['from_url']) && !str_starts_with($validated['from_url'], '/')) {
+            $validated['from_url'] = '/' . $validated['from_url'];
+        }
 
         $redirect->update($validated);
 
