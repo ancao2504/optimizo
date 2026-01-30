@@ -8,9 +8,41 @@ use Illuminate\Http\Request;
 
 class RedirectController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $redirects = Redirect::latest()->paginate(20);
+        $query = Redirect::query();
+
+        if ($request->filled('search')) {
+            $search = $request->input('search');
+            $query->where(function ($q) use ($search) {
+                $q->where('from_url', 'like', "%{$search}%")
+                    ->orWhere('to_url', 'like', "%{$search}%");
+            });
+        }
+
+        if ($request->filled('from_url')) {
+            $query->where('from_url', 'like', '%' . $request->input('from_url') . '%');
+        }
+
+        if ($request->filled('to_url')) {
+            $query->where('to_url', 'like', '%' . $request->input('to_url') . '%');
+        }
+
+        if ($request->filled('type')) {
+            $query->where('type', $request->input('type'));
+        }
+
+        if ($request->filled('status')) {
+            $status = $request->input('status');
+            if ($status === 'active') {
+                $query->where('status', true);
+            } elseif ($status === 'inactive') {
+                $query->where('status', false);
+            }
+        }
+
+        $redirects = $query->latest()->paginate(20)->withQueryString();
+
         return view('admin.redirects.index', compact('redirects'));
     }
 

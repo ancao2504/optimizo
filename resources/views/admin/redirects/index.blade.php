@@ -13,7 +13,76 @@
             </div>
         </div>
         <div class="card-body">
-            <table id="redirectsTable" class="table table-bordered table-striped">
+            <div class="card card-outline card-primary mb-4">
+                <div class="card-header">
+                    <h3 class="card-title"><i class="fas fa-filter mr-1"></i> Filter Redirects</h3>
+                    <div class="card-tools">
+                        <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form action="{{ route('admin.redirects.index') }}" method="GET">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label>From URL</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-link"></i></span>
+                                        </div>
+                                        <input type="text" name="from_url" class="form-control" placeholder="/old-path" value="{{ request('from_url') }}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label>To URL</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-route"></i></span>
+                                        </div>
+                                        <input type="text" name="to_url" class="form-control" placeholder="https://new-path..." value="{{ request('to_url') }}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label>Type</label>
+                                    <select name="type" class="form-control">
+                                        <option value="">All Types</option>
+                                        <option value="301" {{ request('type') == '301' ? 'selected' : '' }}>301 Permanent</option>
+                                        <option value="302" {{ request('type') == '302' ? 'selected' : '' }}>302 Temporary</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label>Status</label>
+                                    <select name="status" class="form-control">
+                                        <option value="">All Statuses</option>
+                                        <option value="active" {{ request('status') == 'active' ? 'selected' : '' }}>Active</option>
+                                        <option value="inactive" {{ request('status') == 'inactive' ? 'selected' : '' }}>Inactive</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-flex align-items-end">
+                                <div class="form-group w-100">
+                                    <button type="submit" class="btn btn-primary w-100 mb-2">
+                                        <i class="fas fa-search mr-1"></i> Filter
+                                    </button>
+                                    @if(request()->anyFilled(['from_url', 'to_url', 'type', 'status']))
+                                        <a href="{{ route('admin.redirects.index') }}" class="btn btn-default w-100">
+                                            Reset
+                                        </a>
+                                    @endif
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <table class="table table-bordered table-striped">
                 <thead>
                     <tr>
                         <th>From URL</th>
@@ -25,7 +94,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($redirects as $redirect)
+                    @forelse($redirects as $redirect)
                         <tr>
                             <td>{{ $redirect->from_url }}</td>
                             <td>{{ Str::limit($redirect->to_url, 50) }}</td>
@@ -54,28 +123,16 @@
                                 </form>
                             </td>
                         </tr>
-                    @endforeach
+                    @empty
+                        <tr>
+                            <td colspan="6" class="text-center">No redirects found.</td>
+                        </tr>
+                    @endforelse
                 </tbody>
             </table>
         </div>
-        <div class="card-footer">
-            {{ $redirects->links() }}
+        <div class="card-footer clearfix">
+            {{ $redirects->links('pagination::bootstrap-4') }}
         </div>
     </div>
 @endsection
-
-@push('scripts')
-    <script>
-        $(document).ready(function () {
-            $('#redirectsTable').DataTable({
-                "paging": false,
-                "lengthChange": false,
-                "searching": true,
-                "ordering": true,
-                "info": false,
-                "autoWidth": false,
-                "responsive": true,
-            });
-        });
-    </script>
-@endpush
