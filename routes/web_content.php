@@ -141,6 +141,7 @@ use App\Http\Controllers\Tools\Utility\PasswordGeneratorController;
 use App\Http\Controllers\Tools\Utility\QrCodeGeneratorController;
 use App\Http\Controllers\Tools\Utility\RandomNumberGeneratorController;
 use App\Http\Controllers\Tools\Utility\UsernameCheckerController;
+use App\Http\Controllers\Tools\Utility\UrlOpenerController;
 use App\Http\Controllers\Tools\Seo\LocationController;
 use App\Http\Controllers\Tools\Youtube\YoutubeChannelDataExtractorController;
 use App\Http\Controllers\Tools\Youtube\YoutubeHandleCheckerController;
@@ -356,6 +357,7 @@ Route::prefix('tools')->group(function () use ($n) {
     Route::post('password-generator', [PasswordGeneratorController::class, 'process'])->name($n('utility.password-generator.generate'));
     Route::get('random-number-generator', [RandomNumberGeneratorController::class, 'index'])->name($n('utility.random-number-generator'));
     Route::post('random-number-generator', [RandomNumberGeneratorController::class, 'process'])->name($n('utility.random-number-generator.generate'));
+    Route::get('url-opener', [UrlOpenerController::class, 'index'])->name($n('utility.url-opener'));
 });
 
 // Spreadsheet Tools
