@@ -1,7 +1,11 @@
 @extends('layouts.app')
 
-@section('title', __('categories.meta_title', ['category' => __('categories.' . str_replace('-', '_', $category->slug) . '_title')]))
-@section('meta_description', __('categories.meta_description', ['category' => strtolower(__('categories.' . str_replace('-', '_', $category->slug) . '_title'))]))
+@section('title', __("categories." . str_replace('-', '_', $category->slug) . "_meta_title", [], 
+    __('categories.meta_title', ['category' => __('categories.' . str_replace('-', '_', $category->slug) . '_title')])
+))
+@section('meta_description', __("categories." . str_replace('-', '_', $category->slug) . "_meta_description", [], 
+    __('categories.meta_description', ['category' => strtolower(__('categories.' . str_replace('-', '_', $category->slug) . '_title'))])
+))
 
 @section('content')
     <div class="max-w-7xl mx-auto">
