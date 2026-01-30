@@ -6,69 +6,59 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Barryvdh\DomPDF\Facade\Pdf;
-
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Writer\Html;
 
 class ExcelToPdfController extends Controller
-{public function index()
+{
+    public function index()
     {
         $tool = \App\Models\Tool::where('slug', 'excel-to-pdf')->first();
         return view("tools.document.excel-to-pdf", compact('tool'));
     }
 
-public function process(Request $request)
+    public function process(Request $request)
     {
+        $request->validate(['file' => 'required|mimes:xls,xlsx|max:10240']);
+
         try {
-            $request->validate(['file' => 'required|mimes:xls,xlsx|max:10240']);
-
             $file = $request->file('file');
-            $filename = Str::random(32);
-            $storagePath = storage_path('app/temp');
+            $originalName = pathinfo($file->getClientOriginalName(), PATHINFO_FILENAME);
 
-            // Create temp directory if it doesn't exist
-            if (!file_exists($storagePath)) {
-                mkdir($storagePath, 0755, true);
+            $filename = Str::slug($originalName) . '_' . Str::random(10) . '.pdf';
+            $storagePath = storage_path('app/public/temp/' . $filename);
+
+            // Ensure directory exists
+            if (!file_exists(dirname($storagePath))) {
+                mkdir(dirname($storagePath), 0755, true);
             }
 
             // Load the Excel file
-            $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file->getRealPath());
+            $spreadsheet = IOFactory::load($file->getPathname());
 
             // Convert to HTML
-            $writer = new \PhpOffice\PhpSpreadsheet\Writer\Html($spreadsheet);
+            $writer = new Html($spreadsheet);
+            // $writer->setUseInlineCss(true); // Optional: improves styling
             $htmlContent = $writer->generateHTMLAll();
 
             // Generate PDF from HTML
             $pdf = Pdf::loadHTML($htmlContent);
-            $pdf->setPaper('A4', 'landscape');
+            $pdf->setPaper('A4', 'landscape'); // Spreadsheet usually looks better in landscape
 
-            $pdfPath = $storagePath . '/' . $filename . '.pdf';
-            $pdf->save($pdfPath);
-
-            // Clean up
-            $file->delete();
+            $pdf->save($storagePath);
 
             return response()->json([
                 'success' => true,
-                'message' => 'Excel converted to PDF successfully!',
-                'download_url' => route('document.excel-to-pdf.download', ['filename' => $filename])
+                'message' => __('Processing completed successfully.'),
+                'download_url' => asset('storage/temp/' . $filename)
             ]);
 
         } catch (\Exception $e) {
             \Log::error('Excel to PDF conversion failed: ' . $e->getMessage());
             return response()->json([
                 'success' => false,
-                'message' => 'Failed to convert Excel to PDF. Please ensure the file is a valid Excel document.'
+                'message' => __('Error processing file: ' . $e->getMessage())
             ], 500);
         }
-    }
-
-public function download($filename)
-    {
-        $filePath = storage_path('app/temp/' . $filename . '.pdf');
-
-        if (!file_exists($filePath)) {
-            abort(404, 'File not found');
-        }
-
-        return response()->download($filePath, 'converted.pdf')->deleteFileAfterSend(true);
     }
 }

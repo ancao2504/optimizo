@@ -64,6 +64,15 @@
                 </label>
             </div>
 
+            <!-- Page Range Input (Hidden by default) -->
+            <div class="mt-6 hidden bg-gray-50 border border-gray-200 rounded-2xl p-6" id="range-section">
+                <label for="range" class="block text-gray-900 font-bold mb-2">{{ __tool('pdf-splitter', 'form.range_label', 'Page Ranges') }}</label>
+                <input type="text" name="range" id="range" 
+                    class="w-full border-gray-300 rounded-xl shadow-sm focus:border-pink-500 focus:ring-pink-500" 
+                    placeholder="e.g. 1-5, 8, 11-13">
+                <p class="text-sm text-gray-500 mt-2">{{ __tool('pdf-splitter', 'form.range_help', 'Enter page numbers and/or ranges separated by commas.') }}</p>
+            </div>
+
             <div class="text-center">
                 <button type="submit"
                     class="w-full md:w-auto min-w-[300px] inline-flex items-center justify-center px-10 py-5 border border-transparent text-xl font-bold rounded-2xl shadow-xl text-white bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-700 hover:to-rose-700 focus:outline-none focus:ring-4 focus:ring-pink-500/50 transform hover:-translate-y-1 transition-all">
@@ -163,4 +172,27 @@
 
 @push('scripts')
     <script src="{{ asset('js/document-converter-ajax.js') }}"></script>
+    <script src="{{ asset('js/document-converter-ajax.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const rangeSection = document.getElementById('range-section');
+            const radioButtons = document.querySelectorAll('input[name="split_mode"]');
+            
+            function toggleRange() {
+                const selected = document.querySelector('input[name="split_mode"]:checked').value;
+                if (selected === 'ranges') {
+                    rangeSection.classList.remove('hidden');
+                } else {
+                    rangeSection.classList.add('hidden');
+                }
+            }
+            
+            radioButtons.forEach(radio => {
+                radio.addEventListener('change', toggleRange);
+            });
+            
+            // Initial check
+            toggleRange();
+        });
+    </script>
 @endpush

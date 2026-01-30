@@ -7,40 +7,45 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Barryvdh\DomPDF\Facade\Pdf;
 
-
 class JpgToPdfController extends Controller
-{public function index()
+{
+    public function index()
     {
         $tool = \App\Models\Tool::where('slug', 'jpg-to-pdf')->first();
         return view("tools.document.jpg-to-pdf", compact('tool'));
     }
 
-public function process(Request $request)
+    public function process(Request $request)
     {
         try {
-            $request->validate(['file' => 'required|mimes:jpg,jpeg,png|max:10240']);
+            $request->validate(['file' => 'required|mimes:jpg,jpeg,png,webp|max:10240']);
 
             $file = $request->file('file');
-            $filename = Str::random(32);
-            $storagePath = storage_path('app/temp');
+            $originalName = pathinfo($file->getClientOriginalName(), PATHINFO_FILENAME);
+            $extension = $file->getClientOriginalExtension();
 
-            // Create temp directory if it doesn't exist
+            $filename = Str::slug($originalName) . '_' . Str::random(10);
+            $storagePath = storage_path('app/public/temp');
+
+            // Ensure directory exists
             if (!file_exists($storagePath)) {
                 mkdir($storagePath, 0755, true);
             }
 
-            // Save uploaded image temporarily
-            $imagePath = $storagePath . '/' . $filename . '_img.' . $file->getClientOriginalExtension();
-            $file->move($storagePath, $filename . '_img.' . $file->getClientOriginalExtension());
-
-            // Get image dimensions
-            list($width, $height) = getimagesize($imagePath);
+            // Save uploaded image temporarily to public path so DomPDF can read it (or use base64)
+            // Using base64 is safer for DomPDF execution context.
+            $imageData = base64_encode(file_get_contents($file->getPathname()));
+            $src = 'data:image/' . $extension . ';base64,' . $imageData;
 
             // Create HTML with the image
-            $html = '<html><body style="margin:0;padding:0;"><img src="' . $imagePath . '" style="width:100%;height:auto;"/></body></html>';
+            // Margin 0 to fit page
+            $html = '<html><body style="margin:0;padding:0;"><img src="' . $src . '" style="width:100%;height:auto;"/></body></html>';
 
             // Generate PDF
             $pdf = Pdf::loadHTML($html);
+
+            // Get dimensions to determine orientation
+            list($width, $height) = getimagesize($file->getPathname());
 
             // Set paper size based on image aspect ratio
             if ($width > $height) {
@@ -49,35 +54,21 @@ public function process(Request $request)
                 $pdf->setPaper('A4', 'portrait');
             }
 
-            $pdfPath = $storagePath . '/' . $filename . '.pdf';
-            $pdf->save($pdfPath);
-
-            // Clean up temp image
-            @unlink($imagePath);
+            $pdfFilename = $filename . '.pdf';
+            $pdf->save($storagePath . '/' . $pdfFilename);
 
             return response()->json([
                 'success' => true,
-                'message' => 'Image converted to PDF successfully!',
-                'download_url' => route('document.jpg-to-pdf.download', ['filename' => $filename])
+                'message' => __('Processing completed successfully.'),
+                'download_url' => asset('storage/temp/' . $pdfFilename)
             ]);
 
         } catch (\Exception $e) {
             \Log::error('JPG to PDF conversion failed: ' . $e->getMessage());
             return response()->json([
                 'success' => false,
-                'message' => 'Failed to convert image to PDF. Please ensure the file is a valid image.'
+                'message' => __('Error processing file: ' . $e->getMessage())
             ], 500);
         }
-    }
-
-public function download($filename)
-    {
-        $filePath = storage_path('app/temp/' . $filename . '.pdf');
-
-        if (!file_exists($filePath)) {
-            abort(404, 'File not found');
-        }
-
-        return response()->download($filePath, 'converted.pdf')->deleteFileAfterSend(true);
     }
 }
