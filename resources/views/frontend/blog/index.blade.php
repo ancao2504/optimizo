@@ -5,33 +5,33 @@
 @push('scripts')
     {{-- Schema.org JSON-LD --}}
     <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
                 {
-                    "@@context": "https://schema.org",
-                    "@@type": "BreadcrumbList",
-                    "itemListElement": [
-                        {
-                            "@@type": "ListItem",
-                            "position": 1,
-                            "name": "{{ __('Home') }}",
-                            "item": "{{ localeRoute('home') }}"
-                        },
-                        {
-                            "@@type": "ListItem",
-                            "position": 2,
-                            "name": "{{ __('Blog') }}",
-                            "item": "{{ localeRoute('blog.index') }}"
-                        }
-                        @if(isset($category))
-                            ,{
-                                "@@type": "ListItem",
-                                "position": 3,
-                                "name": "{{ addslashes($category->name) }}",
-                                "item": "{{ url()->current() }}"
-                            }
-                        @endif
-                    ]
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": {{ json_encode(__('Home')) }},
+                    "item": {{ json_encode(localeRoute('home')) }}
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": {{ json_encode(__('Blog')) }},
+                    "item": {{ json_encode(localeRoute('blog.index')) }}
                 }
-                </script>
+                @if(isset($category))
+                    ,{
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": {{ json_encode($category->name) }},
+                        "item": {{ json_encode(url()->current()) }}
+                    }
+                @endif
+            ]
+        }
+        </script>
 @endpush
 
 @section('content')
