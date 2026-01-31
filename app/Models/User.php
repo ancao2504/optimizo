@@ -22,6 +22,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
     ];
 
     /**
@@ -52,6 +53,82 @@ class User extends Authenticatable
      */
     public function getIsAdminAttribute(): bool
     {
-        return $this->role === 'admin';
+        return $this->role === 'admin' || $this->role === 'super_admin';
+    }
+
+    /**
+     * Scope a query to only include admin users.
+     */
+    public function scopeAdmins($query)
+    {
+        return $query->whereIn('role', ['admin', 'super_admin']);
+    }
+
+    /**
+     * Get the role model for this user.
+     */
+    public function roleModel()
+    {
+        return $this->belongsTo(Role::class, 'role_id');
+    }
+
+    /**
+     * Get the plan for this user.
+     */
+    public function plan()
+    {
+        return $this->belongsTo(Plan::class);
+    }
+
+    /**
+     * Check if user has a specific permission.
+     */
+    public function hasPermission(string $permission): bool
+    {
+        // Super admin has all permissions
+        if ($this->role === 'super_admin') {
+            return true;
+        }
+
+        // Check via role model if exists
+        return $this->roleModel?->hasPermission($permission) ?? false;
+    }
+
+    /**
+     * Check if user has a specific role.
+     */
+    public function hasRole(string $role): bool
+    {
+        // Check both old role column and new role model
+        if ($this->role === $role) {
+            return true;
+        }
+
+        return $this->roleModel?->slug === $role;
+    }
+
+    /**
+     * Check if user can access a specific tool based on their plan.
+     */
+    public function canAccessTool(string $toolSlug): bool
+    {
+        // If no plan assigned, allow access (backward compatibility)
+        if (!$this->plan) {
+            return true;
+        }
+
+        return $this->plan->canAccessTool($toolSlug);
+    }
+
+    /**
+     * Get the tool limit for a specific tool.
+     */
+    public function getToolLimit(string $toolSlug): ?int
+    {
+        if (!$this->plan) {
+            return null; // No limit
+        }
+
+        return $this->plan->getToolLimit($toolSlug);
     }
 }

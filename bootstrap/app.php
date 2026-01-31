@@ -19,6 +19,7 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'admin' => \App\Http\Middleware\AdminMiddleware::class,
             'setlocale' => \App\Http\Middleware\SetLocale::class,
+            'permission' => \App\Http\Middleware\CheckPermission::class,
         ]);
 
         // Add SetLocale to web middleware group

@@ -10,9 +10,20 @@ class AdminUserSeeder extends Seeder
 {
     public function run(): void
     {
-        // Create admin user
+        // Create super admin user
         User::firstOrCreate(
             ['email' => 'admin@optimizo.com'],
+            [
+                'name' => 'Super Admin',
+                'password' => Hash::make('password'),
+                'role' => 'super_admin',
+                'email_verified_at' => now(),
+            ]
+        );
+
+        // Create regular admin user
+        User::firstOrCreate(
+            ['email' => 'admin2@optimizo.com'],
             [
                 'name' => 'Admin User',
                 'password' => Hash::make('password'),

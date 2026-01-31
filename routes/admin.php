@@ -82,6 +82,16 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
     Route::resource('redirects', App\Http\Controllers\Admin\RedirectController::class);
     Route::post('redirects/import', [App\Http\Controllers\Admin\RedirectController::class, 'import'])->name('redirects.import');
 
+    // Profile Management
+    Route::prefix('profile')->name('profile.')->group(function () {
+        Route::get('/', [App\Http\Controllers\Admin\ProfileController::class, 'edit'])->name('edit');
+        Route::put('/password', [App\Http\Controllers\Admin\ProfileController::class, 'updatePassword'])->name('password.update');
+    });
+
+    // Admin User Management
+    Route::resource('users', App\Http\Controllers\Admin\UserController::class)->except(['show']);
+
+
     // Settings
     Route::prefix('settings')->name('settings.')->group(function () {
         Route::get('/', [App\Http\Controllers\Admin\SettingController::class, 'index'])->name('index');

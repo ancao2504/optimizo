@@ -74,6 +74,27 @@
                                 <p>Dashboard</p>
                             </a>
                         </li>
+
+                        <!-- Profile -->
+                        <li class="nav-item">
+                            <a href="{{ route('admin.profile.edit') }}"
+                                class="nav-link {{ request()->routeIs('admin.profile.*') ? 'active' : '' }}">
+                                <i class="nav-icon fas fa-user-circle"></i>
+                                <p>Profile</p>
+                            </a>
+                        </li>
+
+                        <!-- User Management (Super Admin Only) -->
+                        @if(auth()->user()->role === 'super_admin')
+                            <li class="nav-item">
+                                <a href="{{ route('admin.users.index') }}"
+                                    class="nav-link {{ request()->routeIs('admin.users.*') ? 'active' : '' }}">
+                                    <i class="nav-icon fas fa-users-cog"></i>
+                                    <p>User Management</p>
+                                </a>
+                            </li>
+                        @endif
+
                         <!-- Blog Submenu -->
                         <li
                             class="nav-item {{ request()->routeIs('admin.posts.*') || request()->routeIs('admin.blog.categories.*') || request()->routeIs('admin.import.*') || request()->routeIs('admin.media.*') ? 'menu-open' : '' }}">

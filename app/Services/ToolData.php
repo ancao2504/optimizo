@@ -804,17 +804,6 @@ class ToolData
                 'url' => '/tools/curl-command-builder',
                 'order' => 178,
             ],
-            [
-                'name' => 'URL Opener',
-                'slug' => 'url-opener',
-                'icon_name' => 'fa-solid fa-external-link-alt',
-                'description' => 'Open multiple URLs simultaneously.',
-                'category' => 'utility',
-                'controller' => 'Tools\Utility\UrlOpenerController',
-                'route_name' => 'utility.url-opener',
-                'url' => '/tools/url-opener',
-                'order' => 179,
-            ],
         ];
     }
 
