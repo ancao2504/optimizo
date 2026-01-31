@@ -7,35 +7,38 @@
 @push('scripts')
     {{-- Schema.org JSON-LD --}}
     <script type="application/ld+json">
-        {!! json_encode([
-        '@context' => 'https://schema.org',
-        '@type' => 'BlogPosting',
-        'headline' => $post->title,
-        'image' => $post->featured_image_url ?: asset('logo.png'),
-        'author' => [
-            '@type' => 'Person',
-            'name' => $post->author->name
-        ],
-        'publisher' => [
-            '@type' => 'Organization',
-            'name' => config('app.name'),
-            'logo' => [
-                '@type' => 'ImageObject',
-                'url' => asset('logo.png')
-            ]
-        ],
-        'datePublished' => $post->published_at->toIso8601String(),
-        'dateModified' => $post->updated_at->toIso8601String(),
-        'description' => $post->meta_description ?: Str::limit(strip_tags(str_replace(["\r\n", "\r", "\n"], ' ', $post->content)), 160),
-        'mainEntityOfPage' => [
-            '@type' => 'WebPage',
-            '@id' => url()->current()
-        ]
-    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
+        @php
+            $schema = [
+                '@context' => 'https://schema.org',
+                '@type' => 'BlogPosting',
+                'headline' => $post->title,
+                'image' => $post->featured_image_url ?: asset('logo.png'),
+                'author' => [
+                    '@type' => 'Person',
+                    'name' => $post->author->name
+                ],
+                'publisher' => [
+                    '@type' => 'Organization',
+                    'name' => config('app.name'),
+                    'logo' => [
+                        '@type' => 'ImageObject',
+                        'url' => asset('logo.png')
+                    ]
+                ],
+                'datePublished' => $post->published_at->toIso8601String(),
+                'dateModified' => $post->updated_at->toIso8601String(),
+                'description' => $post->meta_description ?: Str::limit(strip_tags(str_replace(["\r\n", "\r", "\n"], ' ', $post->content ?? '')), 160),
+                'mainEntityOfPage' => [
+                    '@type' => 'WebPage',
+                    '@id' => url()->current()
+                ]
+            ];
+        @endphp
+        {!! json_encode($schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
         </script>
 
     <script type="application/ld+json">
-        {!! json_encode([
+                {!! json_encode([
         '@context' => 'https://schema.org',
         '@type' => 'BreadcrumbList',
         'itemListElement' => [
@@ -59,7 +62,7 @@
             ]
         ]
     ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
-        </script>
+                </script>
 @endpush
 
 @section('content')
@@ -356,11 +359,11 @@
         // Add class helper for visibility
         const style = document.createElement('style');
         style.innerHTML = `
-                                                    .is-visible {
-                                                        opacity: 1 !important;
-                                                        transform: translateY(0) !important;
-                                                    }
-                                                `;
+                                                            .is-visible {
+                                                                opacity: 1 !important;
+                                                                transform: translateY(0) !important;
+                                                            }
+                                                        `;
         document.head.appendChild(style);
     </script>
 @endsection
