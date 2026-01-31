@@ -3,16 +3,17 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use App\Services\ToolData;
+use App\Models\Tool;
+use Illuminate\Support\Facades\File;
 
 class CheckMissingIcons extends Command
 {
-    protected $signature = 'tools:check-icons';
-    protected $description = 'Check which tools are missing icon_svg';
+    protected $signature = 'tool:check-icons';
+    protected $description = 'Check for missing icon files for tools';
 
     public function handle()
     {
-        $tools = ToolData::getTools();
+        $tools = Tool::all();
         $missing = [];
         $withIcons = 0;
 

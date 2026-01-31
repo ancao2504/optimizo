@@ -3,14 +3,14 @@
 namespace App\Http\Controllers\Tools\Converters;
 
 use App\Http\Controllers\Controller;
-use App\Services\ToolData;
+use App\Models\Tool;
 use Illuminate\Http\Request;
 
 class WeightConverterController extends Controller
 {
     public function index()
     {
-        $tool = ToolData::getToolBySlug('weight-converter');
+        $tool = Tool::where('slug', 'weight-converter')->active()->firstOrFail();
         return view("tools.converters.weight-converter", compact('tool'));
     }
 }

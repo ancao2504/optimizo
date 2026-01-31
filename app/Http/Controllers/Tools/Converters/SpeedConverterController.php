@@ -3,14 +3,14 @@
 namespace App\Http\Controllers\Tools\Converters;
 
 use App\Http\Controllers\Controller;
-use App\Services\ToolData;
+use App\Models\Tool;
 use Illuminate\Http\Request;
 
 class SpeedConverterController extends Controller
 {
     public function index()
     {
-        $tool = ToolData::getToolBySlug('speed-converter');
+        $tool = Tool::where('slug', 'speed-converter')->active()->firstOrFail();
         return view("tools.converters.speed-converter", compact('tool'));
     }
 }

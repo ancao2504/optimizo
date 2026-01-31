@@ -3,14 +3,14 @@
 namespace App\Http\Controllers\Tools\Converters;
 
 use App\Http\Controllers\Controller;
-use App\Services\ToolData;
+use App\Models\Tool;
 use Illuminate\Http\Request;
 
 class DensityConverterController extends Controller
 {
     public function index()
     {
-        $tool = ToolData::getToolBySlug('density-converter');
+        $tool = Tool::where('slug', 'density-converter')->active()->firstOrFail();
         return view("tools.converters.density-converter", compact('tool'));
     }
 }

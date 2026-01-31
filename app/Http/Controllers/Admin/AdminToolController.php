@@ -10,62 +10,7 @@ use Illuminate\Support\Facades\Artisan;
 
 class AdminToolController extends Controller
 {
-    public function sync()
-    {
-        try {
-            // Use legacy array data for syncing from code to DB
-            $tools = \App\Services\ToolData::getInitialToolsData();
-            $count = 0;
-
-            foreach ($tools as $toolData) {
-                // Ensure slug is present as the unique key
-                if (isset($toolData['slug'])) {
-
-                    // Resolve Category ID
-                    $categoryId = null;
-
-                    if (isset($toolData['category'])) {
-                        $catSlug = $toolData['category'];
-                        $category = \App\Models\Category::where('slug', $catSlug)->first();
-
-                        if ($category) {
-                            $categoryId = $category->id;
-                        }
-                    }
-
-                    // Add ID to data
-                    $toolData['category_id'] = $categoryId;
-
-                    // Filter out legacy fields that were removed from the database
-                    $validFields = [
-                        'name',
-                        'slug',
-                        'icon_name',
-                        'category_id',
-                        'controller',
-                        'route_name',
-                        'url',
-                        'is_active',
-                        'order'
-                    ];
-
-                    $dataToSync = \Illuminate\Support\Arr::only($toolData, $validFields);
-
-                    Tool::updateOrCreate(
-                        ['slug' => $toolData['slug']],
-                        $dataToSync
-                    );
-                    $count++;
-                }
-            }
-
-            return redirect()->route('admin.tools.index')
-                ->with('success', "Synced {$count} tools successfully!");
-        } catch (\Exception $e) {
-            return redirect()->route('admin.tools.index')
-                ->with('error', 'Error syncing tools: ' . $e->getMessage());
-        }
-    }
+    // Sync method removed as ToolData service is deprecated.
 
     public function build()
     {
