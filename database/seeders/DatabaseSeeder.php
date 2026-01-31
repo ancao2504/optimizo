@@ -15,21 +15,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
-        User::firstOrCreate(
-            ['email' => 'test@example.com'],
-            [
-                'name' => 'Test User',
-                'password' => bcrypt('password'), // Ensure a password is set if creating
-                'email_verified_at' => now(),
-            ]
-        );
-
         $this->call([
+            RolesAndPermissionsSeeder::class, // Seed roles, permissions, and assignments
+            PlansTableSeeder::class, // Seed subscription plans
             \Database\Seeders\LanguageSeeder::class,
-            AdminUserSeeder::class,
-            CategorySeeder::class,
+            AdminUserSeeder::class, // Create admin users (requires roles to exist first)
+                // CategorySeeder::class, // Temporarily disabled - has column mismatch issue
             ToolSeeder::class,
         ]);
     }

@@ -33,21 +33,17 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="role">Role <span class="text-danger">*</span></label>
-                            <select class="form-control @error('role') is-invalid @enderror" id="role" name="role" required>
-                                <option value="user" {{ old('role', $user->role) === 'user' ? 'selected' : '' }}>User</option>
-                                <option value="admin" {{ old('role', $user->role) === 'admin' ? 'selected' : '' }}>Admin
-                                </option>
-                                <option value="super_admin" {{ old('role', $user->role) === 'super_admin' ? 'selected' : '' }}>Super Admin</option>
+                            <label for="role_id">Role <span class="text-danger">*</span></label>
+                            <select class="form-control @error('role_id') is-invalid @enderror" id="role_id" name="role_id" required>
+                                @foreach($roles as $role)
+                                    <option value="{{ $role->id }}" {{ old('role_id', $user->role_id) == $role->id ? 'selected' : '' }}>
+                                        {{ $role->name }}
+                                    </option>
+                                @endforeach
                             </select>
-                            @error('role')
+                            @error('role_id')
                                 <span class="invalid-feedback">{{ $message }}</span>
                             @enderror
-                            <small class="form-text text-muted">
-                                <strong>User:</strong> Regular user access<br>
-                                <strong>Admin:</strong> Can manage content and settings<br>
-                                <strong>Super Admin:</strong> Full access including user management
-                            </small>
                         </div>
 
                         <hr>

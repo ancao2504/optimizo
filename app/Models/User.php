@@ -22,7 +22,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'role',
+        'role_id',
+        'plan_id',
     ];
 
     /**
@@ -53,7 +54,12 @@ class User extends Authenticatable
      */
     public function getIsAdminAttribute(): bool
     {
-        return $this->role === 'admin' || $this->role === 'super_admin';
+        // Check via role model
+        if ($this->roleModel) {
+            return in_array($this->roleModel->slug, ['admin', 'super_admin']);
+        }
+
+        return false;
     }
 
     /**
@@ -61,7 +67,9 @@ class User extends Authenticatable
      */
     public function scopeAdmins($query)
     {
-        return $query->whereIn('role', ['admin', 'super_admin']);
+        return $query->whereHas('roleModel', function ($q) {
+            $q->whereIn('slug', ['admin', 'super_admin']);
+        });
     }
 
     /**
@@ -85,13 +93,18 @@ class User extends Authenticatable
      */
     public function hasPermission(string $permission): bool
     {
+        // Check if user has a role model
+        if (!$this->roleModel) {
+            return false;
+        }
+
         // Super admin has all permissions
-        if ($this->role === 'super_admin') {
+        if ($this->roleModel->slug === 'super_admin') {
             return true;
         }
 
-        // Check via role model if exists
-        return $this->roleModel?->hasPermission($permission) ?? false;
+        // Check via role model
+        return $this->roleModel->hasPermission($permission);
     }
 
     /**
@@ -99,11 +112,6 @@ class User extends Authenticatable
      */
     public function hasRole(string $role): bool
     {
-        // Check both old role column and new role model
-        if ($this->role === $role) {
-            return true;
-        }
-
         return $this->roleModel?->slug === $role;
     }
 

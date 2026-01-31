@@ -5,18 +5,24 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
+use App\Models\Role;
 
 class AdminUserSeeder extends Seeder
 {
     public function run(): void
     {
+        // Get roles
+        $superAdminRole = Role::where('slug', 'super_admin')->first();
+        $adminRole = Role::where('slug', 'admin')->first();
+        $userRole = Role::where('slug', 'user')->first();
+
         // Create super admin user
         User::firstOrCreate(
             ['email' => 'admin@optimizo.com'],
             [
                 'name' => 'Super Admin',
                 'password' => Hash::make('password'),
-                'role' => 'super_admin',
+                'role_id' => $superAdminRole->id,
                 'email_verified_at' => now(),
             ]
         );
@@ -27,7 +33,7 @@ class AdminUserSeeder extends Seeder
             [
                 'name' => 'Admin User',
                 'password' => Hash::make('password'),
-                'role' => 'admin',
+                'role_id' => $adminRole->id,
                 'email_verified_at' => now(),
             ]
         );
@@ -38,7 +44,7 @@ class AdminUserSeeder extends Seeder
             [
                 'name' => 'Test User',
                 'password' => Hash::make('password'),
-                'role' => 'user',
+                'role_id' => $userRole->id,
                 'email_verified_at' => now(),
             ]
         );

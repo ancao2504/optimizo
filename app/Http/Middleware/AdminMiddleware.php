@@ -19,7 +19,8 @@ class AdminMiddleware
             return redirect()->route('login')->with('error', 'Please login to access admin panel.');
         }
 
-        if (auth()->user()->role !== 'admin') {
+        // Check if user has permission to access admin panel
+        if (!auth()->user()->hasPermission('access_admin_panel')) {
             abort(403, 'Unauthorized access. Admin privileges required.');
         }
 
