@@ -5,32 +5,20 @@
 @push('scripts')
     {{-- Schema.org JSON-LD --}}
     <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": {!! json_encode(__('Home')) !!},
-                    "item": {!! json_encode(localeRoute('home')) !!}
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": {!! json_encode(__('Blog')) !!},
-                    "item": {!! json_encode(localeRoute('blog.index')) !!}
-                }
-                @if(isset($category))
-                    ,{
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": {!! json_encode($category->name) !!},
-                        "item": {!! json_encode(url()->current()) !!}
-                    }
-                @endif
-            ]
-        }
+        @php
+            $breadcrumbItems = [
+                ['@type' => 'ListItem', 'position' => 1, 'name' => __('Home'), 'item' => localeRoute('home')],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => __('Blog'), 'item' => localeRoute('blog.index')],
+            ];
+            if (isset($category)) {
+                $breadcrumbItems[] = ['@type' => 'ListItem', 'position' => 3, 'name' => $category->name, 'item' => url()->current()];
+            }
+        @endphp
+        {!! json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'BreadcrumbList',
+        'itemListElement' => $breadcrumbItems
+    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
         </script>
 @endpush
 
