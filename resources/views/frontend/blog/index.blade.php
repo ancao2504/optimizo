@@ -12,21 +12,21 @@
                 {
                     "@type": "ListItem",
                     "position": 1,
-                    "name": {{ json_encode(__('Home')) }},
-                    "item": {{ json_encode(localeRoute('home')) }}
+                    "name": {!! json_encode(__('Home')) !!},
+                    "item": {!! json_encode(localeRoute('home')) !!}
                 },
                 {
                     "@type": "ListItem",
                     "position": 2,
-                    "name": {{ json_encode(__('Blog')) }},
-                    "item": {{ json_encode(localeRoute('blog.index')) }}
+                    "name": {!! json_encode(__('Blog')) !!},
+                    "item": {!! json_encode(localeRoute('blog.index')) !!}
                 }
                 @if(isset($category))
                     ,{
                         "@type": "ListItem",
                         "position": 3,
-                        "name": {{ json_encode($category->name) }},
-                        "item": {{ json_encode(url()->current()) }}
+                        "name": {!! json_encode($category->name) !!},
+                        "item": {!! json_encode(url()->current()) !!}
                     }
                 @endif
             ]
