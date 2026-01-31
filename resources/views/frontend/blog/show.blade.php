@@ -8,19 +8,19 @@
     {{-- Schema.org JSON-LD --}}
     <script type="application/ld+json">
         {
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
+            "@@context": "https://schema.org",
+            "@@type": "BlogPosting",
             "headline": {{ json_encode($post->title) }},
             "image": {{ json_encode($post->featured_image_url ?? '') }},
             "author": {
-                "@type": "Person",
+                "@@type": "Person",
                 "name": {{ json_encode($post->author->name) }}
             },
             "publisher": {
-                "@type": "Organization",
+                "@@type": "Organization",
                 "name": {{ json_encode(config('app.name')) }},
                 "logo": {
-                    "@type": "ImageObject",
+                    "@@type": "ImageObject",
                     "url": {{ json_encode(asset('logo.png')) }}
                 }
             },
@@ -28,31 +28,31 @@
             "dateModified": "{{ $post->updated_at->toIso8601String() }}",
             "description": {{ json_encode($post->meta_description ?: Str::limit(strip_tags($post->content), 160)) }},
             "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": {{ json_encode(url()->current()) }}
+                "@@type": "WebPage",
+                "@@id": {{ json_encode(url()->current()) }}
             }
         }
         </script>
 
     <script type="application/ld+json">
         {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
+            "@@context": "https://schema.org",
+            "@@type": "BreadcrumbList",
             "itemListElement": [
                 {
-                    "@type": "ListItem",
+                    "@@type": "ListItem",
                     "position": 1,
                     "name": "Home",
                     "item": {{ json_encode(localeRoute('home')) }}
                 },
                 {
-                    "@type": "ListItem",
+                    "@@type": "ListItem",
                     "position": 2,
                     "name": "Blog",
                     "item": {{ json_encode(localeRoute('blog.index')) }}
                 },
                 {
-                    "@type": "ListItem",
+                    "@@type": "ListItem",
                     "position": 3,
                     "name": {{ json_encode($post->title) }},
                     "item": {{ json_encode(url()->current()) }}
@@ -356,11 +356,11 @@
         // Add class helper for visibility
         const style = document.createElement('style');
         style.innerHTML = `
-                                    .is-visible {
-                                        opacity: 1 !important;
-                                        transform: translateY(0) !important;
-                                    }
-                                `;
+                                        .is-visible {
+                                            opacity: 1 !important;
+                                            transform: translateY(0) !important;
+                                        }
+                                    `;
         document.head.appendChild(style);
     </script>
 @endsection
