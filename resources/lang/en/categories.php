@@ -24,6 +24,9 @@ return [
     'spreadsheet_title' => 'Spreadsheet Tools',
     'spreadsheet_subtitle' => 'Professional spreadsheet conversion tools - 100% free, no registration required',
 
+    'video-downloader_title' => 'Video Downloader Tools',
+    'video-downloader_subtitle' => 'Professional video downloading tools - 100% free, no registration required',
+
     // Subcategories or SEO titles if needed
     // Optimized Meta Data
     'youtube_meta_title' => 'YouTube Tools - Free Channel & Video Optimization | Optimizo',
@@ -69,6 +72,10 @@ return [
     'spreadsheet_meta_title' => 'Spreadsheet Tools - Free Excel & CSV Converters | Optimizo',
     'spreadsheet_meta_description' => 'Transform spreadsheet data effortlessly. Convert CSV to Excel, Excel to JSON, and more. Free online tools for data formatting and migration.',
     'spreadsheet_h1' => 'Spreadsheet Tools',
+
+    'video-downloader_meta_title' => 'Video Downloader Tools - Free Online Video Downloaders | Optimizo',
+    'video-downloader_meta_description' => 'Download videos from various platforms for free. High quality video downloaders for YouTube, Facebook, Instagram and more.',
+    'video-downloader_h1' => 'Video Downloader Tools',
     'free_tools' => 'Free Tools',
     'free_forever' => '100% Free Forever',
     'instant_access' => 'Instant Access',

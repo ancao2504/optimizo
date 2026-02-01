@@ -390,12 +390,7 @@ class TranslationSeeder extends Seeder
                 'meta_title' => 'Форматирование Кода Онлайн - Beautifier',
                 'meta_description' => 'Приведите код в порядок. Поддержка HTML, CSS, JS, PHP и других языков.',
             ],
-            'diff-checker' => [
-                'name' => 'Сравнение текста (Diff)',
-                'description' => 'Сравнение двух текстов или файлов на различия.',
-                'meta_title' => 'Diff Checker - Сравнить Текст Онлайн',
-                'meta_description' => 'Найдите отличия между двумя фрагментами текста. Подсветка изменений.',
-            ],
+
             'html-viewer' => [
                 'name' => 'Просмотр HTML',
                 'description' => 'Просмотр и редактирование HTML кода с предпросмотром.',
@@ -787,13 +782,7 @@ class TranslationSeeder extends Seeder
                 'meta_title' => 'Конвертер Частоты - Hz в kHz/MHz/GHz',
                 'meta_description' => 'Переводите частоты для радио, звука и электроники.',
             ],
-            // Case Converters
-            'sentence-case-converter' => [
-                'name' => 'Конвертер в Sentence Case',
-                'description' => 'Преобразуйте текст: первая буква заглавная, остальные строчные.',
-                'meta_title' => 'Sentence Case Converter - Конвертер Регистра',
-                'meta_description' => 'Конвертируйте текст в формат sentence case онлайн бесплатно.',
-            ],
+
             // Morse Code Tools
             'text-to-morse-converter' => [
                 'name' => 'Конвертер Текста в Азбуку Морзе',
@@ -1133,7 +1122,7 @@ class TranslationSeeder extends Seeder
 
             if ($tool) {
                 foreach ($data as $field => $value) {
-                    TranslationService::set($tool, $field, $value, 'ru');
+                    // TranslationService::set($tool, $field, $value, 'ru');
                 }
                 $this->command->info("Seeded Russian translations for Tool: {$slug}");
                 continue;
@@ -1143,7 +1132,7 @@ class TranslationSeeder extends Seeder
             $category = \App\Models\Category::where('slug', $slug)->first();
             if ($category) {
                 foreach ($data as $field => $value) {
-                    TranslationService::set($category, $field, $value, 'ru');
+                    // TranslationService::set($category, $field, $value, 'ru');
                 }
                 $this->command->info("Seeded Russian translations for Category: {$slug}");
                 continue;

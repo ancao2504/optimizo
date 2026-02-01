@@ -646,7 +646,7 @@ Route::prefix('tools')->group(function () use ($n) {
     Route::get('density-converter', [\App\Http\Controllers\Tools\Converters\DensityConverterController::class, 'index'])->name($n('utility.density-converter'));
     Route::get('molar-mass-converter', [\App\Http\Controllers\Tools\Converters\MolarMassConverterController::class, 'index'])->name($n('utility.molar-mass-converter'));
     Route::get('frequency-converter', [\App\Http\Controllers\Tools\Converters\FrequencyConverterController::class, 'index'])->name($n('utility.frequency-converter'));
-    Route::get('diff-checker', [\App\Http\Controllers\Tools\Text\FileDifferenceCheckerController::class, 'index'])->name($n('utility.diff-checker'));
+
 });
 
 
