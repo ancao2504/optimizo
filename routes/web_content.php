@@ -217,6 +217,14 @@ Route::prefix('tools')->group(function () use ($n) {
     Route::post('youtube-earnings-calculator', [YoutubeEarningsCalculatorController::class, 'process'])->name($n('youtube.youtube-earnings-calculator.calculate'));
     Route::get('text-to-speech', [TextToSpeechController::class, 'index'])->name($n('youtube.text-to-speech'));
     Route::post('text-to-speech', [TextToSpeechController::class, 'process'])->name($n('youtube.text-to-speech.generate'));
+
+    // Video Downloader Tools
+    Route::get('youtube-video-downloader', [\App\Http\Controllers\Tools\Youtube\YoutubeVideoDownloaderController::class, 'index'])->name($n('video-downloader.youtube-video-downloader'));
+    Route::post('youtube-video-downloader', [\App\Http\Controllers\Tools\Youtube\YoutubeVideoDownloaderController::class, 'process'])->name($n('video-downloader.youtube-video-downloader.process'));
+
+    // New SSE Routes
+    Route::get('youtube-video-downloader/search', [\App\Http\Controllers\Tools\Youtube\YoutubeVideoDownloaderController::class, 'downloadSearch'])->name($n('video-downloader.youtube-video-downloader.search'));
+    Route::get('youtube-video-downloader/file', [\App\Http\Controllers\Tools\Youtube\YoutubeVideoDownloaderController::class, 'downloadFile'])->name($n('video-downloader.youtube-video-downloader.file'));
 });
 
 // Seo Tools
