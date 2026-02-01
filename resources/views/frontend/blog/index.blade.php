@@ -1,25 +1,29 @@
 @extends('layouts.app')
 
-@section('title', isset($category) ? $category->name . ' - ' . config('app.name') : __('Blog - ' . config('app.name')))
+@section('title', isset($category) ? ($category->meta_title ?: $category->name . ' - ' . config('app.name')) : __('Blog - ' . config('app.name')))
+
+@if(isset($category) && $category->meta_description)
+@section('meta_description', $category->meta_description)
+@endif
 
 @push('scripts')
     {{-- Schema.org JSON-LD --}}
     <script type="application/ld+json">
-        @php
-            $breadcrumbItems = [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => __('Home'), 'item' => localeRoute('home')],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => __('Blog'), 'item' => localeRoute('blog.index')],
-            ];
-            if (isset($category)) {
-                $breadcrumbItems[] = ['@type' => 'ListItem', 'position' => 3, 'name' => $category->name, 'item' => url()->current()];
-            }
-        @endphp
-        {!! json_encode([
+            @php
+                $breadcrumbItems = [
+                    ['@type' => 'ListItem', 'position' => 1, 'name' => __('Home'), 'item' => localeRoute('home')],
+                    ['@type' => 'ListItem', 'position' => 2, 'name' => __('Blog'), 'item' => localeRoute('blog.index')],
+                ];
+                if (isset($category)) {
+                    $breadcrumbItems[] = ['@type' => 'ListItem', 'position' => 3, 'name' => $category->name, 'item' => url()->current()];
+                }
+            @endphp
+            {!! json_encode([
         '@context' => 'https://schema.org',
         '@type' => 'BreadcrumbList',
         'itemListElement' => $breadcrumbItems
     ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
-        </script>
+            </script>
 @endpush
 
 @section('content')

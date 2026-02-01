@@ -174,6 +174,7 @@ Route::get('text-tools', [App\Http\Controllers\CategoryController::class, 'text'
 Route::get('development-tools', [App\Http\Controllers\CategoryController::class, 'development'])->name($n('category.development'));
 Route::get('converters-tools', [App\Http\Controllers\CategoryController::class, 'converters'])->name($n('category.converters'));
 Route::get('spreadsheet-tools', [App\Http\Controllers\CategoryController::class, 'spreadsheet'])->name($n('category.spreadsheet'));
+Route::get('video-downloader-tools', [App\Http\Controllers\CategoryController::class, 'videoDownloader'])->name($n('category.video-downloader'));
 
 // Auxiliary Routes
 Route::get('lang-switch/{code}', [App\Http\Controllers\LanguageController::class, 'switch'])->name($n('lang.switch'));

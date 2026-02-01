@@ -33,6 +33,11 @@ class CategorySeeder extends Seeder
                 'from' => '#3b82f6',
                 'to' => '#1d4ed8',
                 'text' => 'text-blue-600'
+            ],
+            'video-downloader' => [
+                'from' => '#8b5cf6',
+                'to' => '#6d28d9',
+                'text' => 'text-violet-600'
             ]
         ];
 
