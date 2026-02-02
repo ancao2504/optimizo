@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Decode Base64 to Image - Gratis online dekoder",
+        "description": "Konverter Base64 encoded strings back to images (PNG, JPG, GIF). Gratis online decoder and visualizer.",
+        "h1": "Afkod Base64 til billede",
+        "subtitle": "Konverter Base64 encoded strings back to images (PNG, JPG, GIF) instantly"
+    },
+    "input": {
+        "title": "Indsæt Base64 String",
+        "desc": "Indsæt your code below to visualize the image",
+        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Decode Billede"
+    },
+    "result": {
+        "image_alt": "Decoded Billede",
+        "success": "Billede Decoded Succesfully",
+        "btn_download": "Download Billede",
+        "btn_clear": "Ryd Pattern"
+    },
+    "content": {
+        "title": "Decode Base64 to Billede",
+        "p1": "Found a long string of tilfældig tegn starting with <code>data:image\/...<\/code> and don't know what it is? It's likely a Base64-encoded image.",
+        "p2": "Vores <strong>Base64 to Billede Decoder<\/strong> converts that text string back into a visible image file (PNG, JPG, GIF, etc.) that you can view and download to your computer.",
+        "features": {
+            "preview": {
+                "title": "Øjeblikkelig Forhåndsvisning",
+                "desc": "Se billedet med det samme. Vi analyserer de binære data og gengiver dem på din skærm."
+            },
+            "auto": {
+                "title": "Auto-detektion",
+                "desc": "Vi registrerer automatisk filformatet (PNG, JPEG, GIF) fra overskriften på Base64-strengen."
+            },
+            "download": {
+                "title": "Download Fil",
+                "desc": "Gem the decoded result as a real image file to your hard drive with one click."
+            }
+        },
+        "how_to": {
+            "title": "Hvordan Decode?",
+            "list": [
+                "Indsæt your Base64 string into the textarea.",
+                "Vi forsøger med det samme at læse strengen.",
+                "Hvis det er gyldigt, vises billedet til venstre.",
+                "Klik \"Download Billede\" to save it."
+            ]
+        },
+        "use_cases": {
+            "title": "Almindelig Brug Cases",
+            "list": [
+                "Debugging: Tjeking what image data is being sent in API responses or stored in databases.",
+                "Gendannelse: Udpakning af billeder indlejret i CSS-filer eller HTML-skabeloner.",
+                "Bekræftelse: Sikring af, at en Base64-streng ikke er beskadiget."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Indsæt venligst en Base64-streng først.",
+        "invalid_error": "Ugyldig Base64-streng eller ikke-understøttet billedformat."
+    }
+}

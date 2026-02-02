@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - Ücretsiz JSON Web Token Hata Ayıklayıcı",
+        "description": "JSON Web Token'larını (JWT) çözün ve inceleyin - Üstbilgi, yük ve imzayı görüntüleyin!",
+        "h1": "JWT Kod Çözücü",
+        "subtitle": "JSON Web Token'larını (JWT) çözün ve inceleyin - Üstbilgi, yük ve imzayı görüntüleyin!"
+    },
+    "editor": {
+        "label_input": "JWT Belirtecini (Token) Girin",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "JWT Çöz",
+        "btn_clear": "Temizle",
+        "btn_example": "Örnek",
+        "label_payload": "Yük (Payload\/Claims)",
+        "label_signature": "İmza",
+        "note_signature": "⚠️ Not: İmza doğrulaması gizli anahtar (secret key) gerektirir"
+    },
+    "content": {
+        "hero_title": "Ücretsiz Çevrimiçi JWT Kod Çözücü",
+        "hero_subtitle": "JSON Web Token'larını anında çözün ve inceleyin",
+        "p1": "Ücretsiz JWT Kod Çözücü aracımız; üstbilgi (header), yük (payload) ve imza bileşenlerini görmek için JSON Web Token'larını (JWT) çözmenize ve incelemenize olanak tanır. Kimlik doğrulama sorunlarını ayıklamak, belirteç yapısını anlamak ve JWT taleplerini doğrulamak için mükemmeldir.",
+        "what_title": "🔍 JWT Nedir?",
+        "what_desc": "JSON Web Token (JWT), iki taraf arasında iddiaları\/talepleri (claims) temsil etmek için kullanılan kompakt, URL-güvenli bir yöntemdir. JWT'ler, noktalarla ayrılmış üç bölümden oluşur: Üstbilgi (header - algoritma ve belirteç türü), Yük (payload - veriler\/iddialar) ve İmza (signature - doğrulama).",
+        "features_title": "✨ Özellikler",
+        "features": {
+            "instant": {
+                "title": "Anında Kod Çözme",
+                "desc": "JWT'leri milisaniyeler içinde çözün"
+            },
+            "structured": {
+                "title": "Yapılandırılmış Görünüm",
+                "desc": "Üstbilgi, yük ve imzayı ayrı ayrı görün"
+            },
+            "privacy": {
+                "title": "Önce Gizlilik",
+                "desc": "Tüm kod çözme işlemleri tarayıcınızda gerçekleşir"
+            }
+        },
+        "uses_title": "🎯 Yaygın Kullanım Durumları",
+        "uses": {
+            "debug": {
+                "title": "🐞 Hata Ayıklama",
+                "desc": "JWT içeriklerini inceleyerek kimlik doğrulama sorunlarını giderin"
+            },
+            "validate": {
+                "title": "✅ Doğrulama",
+                "desc": "JWT taleplerini ve son kullanma sürelerini doğrulayın"
+            },
+            "learn": {
+                "title": "📚 Öğrenme",
+                "desc": "JWT yapısını ve bileşenlerini anlayın"
+            },
+            "dev": {
+                "title": "🛠️ Geliştirme",
+                "desc": "Uygulamalarınızda JWT oluşturma ve ayrıştırma işlemlerini test edin"
+            }
+        },
+        "faq_title": "❓ Sıkça Sorulan Sorular",
+        "faq": {
+            "q1": "JWT'leri burada çözmek güvenli mi?",
+            "a1": "Evet! Tüm kod çözme işlemleri tarayıcınızda gerçekleşir. JWT'niz asla cihazınızdan ayrılmaz. Ancak, hassas bilgiler içerebileceğinden JWT'leri asla herkese açık bir şekilde paylaşmayın.",
+            "q2": "Bu araç JWT imzalarını doğrulayabilir mi?",
+            "a2": "Bu araç JWT bileşenlerini çözer ve görüntüler ancak imzaları doğrulamaz; çünkü bu, asla paylaşılmaması gereken gizli anahtarı (secret key) gerektirir.",
+            "q3": "JWT talepleri (claims) nedir?",
+            "a3": "Talepler, bir varlık (genellikle kullanıcı) hakkındaki beyanlar ve ek verilerdir. Yaygın talepler arasında 'sub' (konu), 'exp' (son kullanma süresi) ve 'iat' (oluşturulma zamanı) bulunur."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen bir JWT belirteci girin",
+        "error_invalid_format": "Geçersiz JWT formatı. JWT, noktalarla ayrılmış 3 bölümden oluşmalıdır.",
+        "success_decode": "✓ JWT başarıyla çözüldü",
+        "error_decode": "✗ JWT çözülürken hata: "
+    }
+}

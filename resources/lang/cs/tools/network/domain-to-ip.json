@@ -1,0 +1,68 @@
+{
+    "meta": {
+        "title": "Domain to IP Converter – bezplatný online nástroj DNS",
+        "description": "Bezplatný nástroj pro vyhledání IP adresy domény. Okamžitě převeďte jakýkoli název domény na jeho IP adresu. Nezbytné pro diagnostiku sítě a správu serverů.",
+        "h1": "Konvertor domény na IP",
+        "subtitle": "Získejte IP adresu libovolné domény s podrobnými informacemi o DNS"
+    },
+    "form": {
+        "domain_label": "Zadejte název domény",
+        "domain_placeholder": "např. google.com",
+        "domain_hint": "Zadejte doménu bez http:\/\/ nebo https:\/\/",
+        "button": "Vyhledat IP adresu"
+    },
+    "results": {
+        "title": "Výsledek vyhledávání IP",
+        "domain_label": "Doména",
+        "ip_label": "IP adresa"
+    },
+    "content": {
+        "main_title": "Převodník domény na IP",
+        "main_subtitle": "Okamžitě převeďte jakýkoli název domény na jeho IP adresu",
+        "intro": "Náš bezplatný nástroj Doména na IP okamžitě převádí jakýkoli název domény na příslušnou IP adresu pomocí vyhledávání DNS. Je nepostradatelný pro síťové administrátory, vývojáře, bezpečnostní experty a kohokoli, kdo potřebuje identifikovat server stojící za doménou. Získejte přesné IP adresy pro řešení problémů a ověřování serverů.",
+        "feature1_title": "Okamžité vyhledání",
+        "feature1_desc": "Získejte IP adresy okamžitě bez zbytečného čekání.",
+        "feature2_title": "Přesné výsledky",
+        "feature2_desc": "DNS dotazy v reálném čase pro aktuální IP adresy.",
+        "feature3_title": "100% Zdarma",
+        "feature3_desc": "Neomezené vyhledávání bez nutnosti registrace.",
+        "what_is_title": "🌐 Co je vyhledávání domény na IP?",
+        "what_is_desc": "Vyhledávání domény na IP je proces převodu lidsky čitelného názvu domény (jako google.com) na jeho číselnou IP adresu (jako 142.250.217.78). Tento převod probíhá prostřednictvím DNS serverů, které fungují jako telefonní seznam internetu. Každý web má svou IP adresu, ale názvy domén si lidé lépe pamatují.",
+        "use_cases_title": "🎯 Běžné příklady použití",
+        "uc1_title": "Konfigurace serveru",
+        "uc1_desc": "Nastavení firewallů a serverů pomocí IP adres.",
+        "uc2_title": "Bezpečnostní analýza",
+        "uc2_desc": "Ověření umístění serverů a identifikace poskytovatelů hostingu.",
+        "uc3_title": "Řešení problémů",
+        "uc3_desc": "Diagnostika problémů s DNS a ověřování konfigurace domény.",
+        "uc4_title": "Monitorování sítě",
+        "uc4_desc": "Sledování změn serveru a správa infrastruktury.",
+        "uc5_title": "Geolokace",
+        "uc5_desc": "Určení geografické polohy serveru na základě IP adresy.",
+        "uc6_title": "Integrace API",
+        "uc6_desc": "Použití IP adres pro přímé propojení s API.",
+        "pro_tips_title": "💡 Tip pro experty",
+        "tip1": "✅ Používejte IP adresy pro přímé připojení k serveru, pokud je DNS pomalé.",
+        "tip2": "✅ Ověřujte nastavení CDN kontrolou rozlišení domény z různých míst.",
+        "tip3": "✅ Povolte IP adresy serverů ve firewallech pro bezpečný přístup.",
+        "tip4": "✅ Porovnejte IP adresy před a po provedení změn v DNS záznamech.",
+        "tip5": "✅ Odhalte sdílený hosting kontrolou, zda více domén sdílí stejnou IP."
+    },
+    "faq": {
+        "title": "Často kladené otázky",
+        "q1": "Může mít jedna doména více IP adres?",
+        "a1": "Ano, velké weby často používají více IP adres k rozložení zátěže (Load Balancing) nebo pro doručování obsahu (CDN).",
+        "q2": "Jak často se IP adresa domény mění?",
+        "a2": "Záleží na nastavení TTL. U dynamických DNS se může měnit často, u stabilních serverů zůstává stejná roky.",
+        "q3": "Co je to Round-robin DNS?",
+        "a3": "Je to metoda, kdy DNS server vrací seznam IP adres v různém pořadí, aby se zátěž rovnoměrně rozdělila mezi servery.",
+        "q4": "Je vyhledávání anonymní?",
+        "a4": "Ano, vyhledávání neupozorňuje majitele domény, že jste si ji prověřovali.",
+        "q5": "Podporuje nástroj i IPv6?",
+        "a5": "Náš nástroj prioritně zobrazuje IPv4, ale v záznamech DNS lze často najít i IPv6 (AAAA záznamy)."
+    },
+    "js": {
+        "looking_up": "Vyhledávám...",
+        "error_failed": "Nepodařilo se získat IP adresu. Zkontrolujte prosím doménu."
+    }
+}

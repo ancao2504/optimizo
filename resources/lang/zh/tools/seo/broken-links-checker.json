@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "损坏的链接检查器 - 免费在线网站审核",
+        "description": "免费的死链检查器，用于扫描您的网站是否存在失效链接、404 错误，并修复损坏的 URL 以提升 SEO。",
+        "h1": "损坏的链接检查器",
+        "subtitle": "查找并修复网站上的失效链接，以提升 SEO 表现和用户体验"
+    },
+    "interface": {
+        "scan_title": "死链检查器",
+        "scan_subtitle": "查找失效链接、重定向等问题。",
+        "url_label": "网站 URL",
+        "button": "扫描失效链接",
+        "button_scanning": "正在扫描中...",
+        "legend_ok": "200 正常",
+        "legend_err": "404\/错误"
+    },
+    "progress": {
+        "extracting": "正在提取链接...",
+        "stop": "停止",
+        "processing": "正在按顺序处理链接...",
+        "processed": "已处理",
+        "of": "的",
+        "links": "个链接",
+        "checking": "正在检查链接..."
+    },
+    "stats": {
+        "total": "链接总数",
+        "working": "正常 (200)",
+        "redirects": "重定向 (3xx)",
+        "broken": "失效 (4xx\/5xx)"
+    },
+    "results": {
+        "download": "下载 CSV 报告",
+        "detailed_analysis": "详细分析",
+        "status": "状态",
+        "link_url": "链接 URL",
+        "anchor_text": "锚文本",
+        "type": "类型"
+    },
+    "content": {
+        "main_title": "为什么要检查死链？",
+        "main_subtitle": "失效链接（死链）会损害网站的公信力、用户体验和 SEO 表现。我们的免费死链检查器可帮助您在失效链接影响排名之前识别并修复它们。",
+        "what_is_title": "什么是死链检查器？",
+        "what_is_desc": "死链检查器是一种扫描网页以查找不再起作用的链接（404 错误、服务器错误或重定向）的工具。它通过识别可能损害 SEO 和用户体验的死链，帮助您维护健康的网站。",
+        "how_works_title": "它是如何工作的？",
+        "how_works_intro": "我们的死链检查器遵循一个简单的 3 步过程：",
+        "how_works_step1": "<strong>扫描：<\/strong> 输入您的页面 URL，我们将提取所有链接",
+        "how_works_step2": "<strong>检查：<\/strong> 我们测试每个链接以验证其状态（200、404、301 等）",
+        "how_works_step3": "<strong>报告：<\/strong> 获取详细报告，显示哪些链接已损坏并需要修复",
+        "pro_tip_title": "💡 专业提示：",
+        "pro_tip_desc": "定期（每月或每季度）运行此检查器，在死链影响您的 SEO 之前捕捉到它们。建立维护计划以保持网站健康！",
+        "types_title": "死链的类型",
+        "common_causes_title": "导致死链的常见原因",
+        "cc_1": "❌ <strong>URL 拼写错误：<\/strong> 在内容创建或迁移过程中拼错链接",
+        "cc_2": "❌ <strong>已删除的页面：<\/strong> 删除内容时未设置 301 重定向",
+        "cc_3": "❌ <strong>网站重构：<\/strong> 网站改版过程中 URL 结构发生变化",
+        "cc_4": "❌ <strong>外部链接失效 (Link Rot)：<\/strong> 第三方网站移除或移动了其内容",
+        "cc_5": "❌ <strong>域名过期：<\/strong> 链接的网站已永久下线",
+        "cc_6": "❌ <strong>协议变更：<\/strong> 从 HTTP 迁移到 HTTPS 时未进行妥善重定向",
+        "best_practices_title": "管理失效链接的最佳实践"
+    },
+    "benefits": {
+        "ux_title": "用户体验",
+        "ux_desc": "死链会挫伤访问者的积极性并增加跳出率。通过流畅的浏览体验让您的用户保持愉快。",
+        "seo_title": "SEO 影响",
+        "seo_desc": "搜索引擎会惩罚拥有大量死链的站点。及时修复失效链接以维持您的排名。",
+        "maintenance_title": "易于维护",
+        "maintenance_desc": "在死链损害您的网站声誉和搜索可见性之前，快速识别并修复它们。"
+    },
+    "link_types": {
+        "type1_title": "🔴 404 找不到页面",
+        "type1_desc": "最常见的死链。页面已不在服务器上存在。",
+        "type2_title": "🟡 301\/302 重定向",
+        "type2_desc": "页面已移动。虽然不是传统意义上的“损坏”，但过多的重定向会拖慢您的网站。",
+        "type3_title": "🔴 500 服务器错误",
+        "type3_desc": "服务器遇到错误。这些链接需要立即关注。",
+        "type4_title": "🟢 超时错误",
+        "type4_desc": "服务器响应时间过长。可能表明存在性能问题。"
+    },
+    "best_practices": {
+        "bp1_title": "定期审计",
+        "bp1_desc": "每月检查一次网站死链，特别是在更新内容之后",
+        "bp2_title": "使用 301 重定向",
+        "bp2_desc": "移动或删除页面时，务必设置妥善的重定向",
+        "bp3_title": "监控外部链接",
+        "bp3_desc": "外部站点变化频繁。每季度审查一次出站链接",
+        "bp4_title": "记录变更",
+        "bp4_desc": "保留 URL 更改和重定向的日志，以备将来参考",
+        "bp5_title": "优先修复内部链接",
+        "bp5_desc": "优先修复内部死链，因为它们完全受您控制",
+        "bp6_title": "使用相对 URL",
+        "bp6_desc": "对于内部链接，使用相对 URL 以避免域名变更时出现问题"
+    },
+    "faq": {
+        "title": "常见问题解答",
+        "q1": "我应该多久检查一次死链？",
+        "a1": "对于大多数网站，每月检查一次死链就足够了。高流量网站或电子商务平台应每周检查一次。在进行重大的网站更新、改版或迁移后，应立即运行检查。",
+        "q2": "死链会损害我的 SEO 排名吗？",
+        "a2": "是的，但通常是间接的。Google 表示少量死链不会直接损害排名。然而，<strong>大量死链<\/strong>信号表明网站维护不善，可能导致跳出率增加、浪费抓取预算并降低用户信任。",
+        "q3": "内部死链和外部死链有什么区别？",
+        "a3": "<strong>内部死链<\/strong>指向您自己域名的页面，完全受您控制。<strong>外部死链<\/strong>指向其他网站，您应将其更新为有效的替代页面或将其删除。",
+        "q4": "我可以检查整个网站的死链吗？",
+        "a4": "本工具目前<strong>一次检查一个页面<\/strong>，以提供快速、专注的结果。对于全站审计，我们建议从最重要的页面开始：首页、顶级着陆页和高流量内容页。",
+        "q_what_to_do": "当我发现失效链接时我该怎么办？",
+        "a_what_to_do_intro": "请遵循以下优先顺序：",
+        "a_what_to_do_li1": "<strong>内部链接：<\/strong> 将 301 重定向设置到新 URL，或直接更新链接地址",
+        "a_what_to_do_li2": "<strong>外部链接：<\/strong> 寻找替代的有效页面，或使用 archive.org 查找旧内容",
+        "a_what_to_do_li3": "<strong>若无替代方案：<\/strong> 移除链接并更新周围内容以保持阅读流畅",
+        "a_what_to_do_li4": "<strong>记录一切：<\/strong> 保留日志以供将来参考和模式分析"
+    },
+    "js": {
+        "stopping": "正在停止扫描...",
+        "scan_stopped": "扫描已停止",
+        "scan_complete": "扫描完成！",
+        "error_prefix": "错误：",
+        "pending": "等待中",
+        "internal": "内部",
+        "external": "外部"
+    }
+}

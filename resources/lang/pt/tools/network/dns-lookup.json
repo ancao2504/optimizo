@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "Ferramenta de pesquisa de DNS - verificador de registros DNS online gratuito",
+        "description": "Ferramenta gratuita de consulta DNS para verificar registros de qualquer domínio. Veja registros A, AAAA, MX, NS, TXT, CNAME instantaneamente. Essencial para resolver problemas de e-mail e configuração de domínio.",
+        "h1": "Ferramenta de pesquisa de DNS",
+        "subtitle": "Consulte registros DNS para encontrar nameservers, MX, A, CNAME e registros TXT instantaneamente"
+    },
+    "form": {
+        "domain_label": "Nome de Domínio",
+        "domain_placeholder": "exemplo.com",
+        "button": "Consultar DNS"
+    },
+    "results": {
+        "title": "Registros DNS de"
+    },
+    "content": {
+        "what_is_title": "O que é Consulta DNS?",
+        "what_is_desc": "A Consulta DNS (DNS Lookup) é uma ferramenta que consulta os servidores do Sistema de Nomes de Domínio para recuperar os registros DNS de um domínio. Os registros DNS contêm informações importantes sobre como um domínio está configurado, incluindo servidores de e-mail (registros MX), nomes de servidores (registros NS), endereços IP (registros A\/AAAA) e registros de texto (registros TXT) usados para verificação e segurança.",
+        "why_use_title": "Por que usar a Consulta DNS?",
+        "why_use_desc": "A Consulta DNS é essencial para diagnosticar problemas de entrega de e-mail, verificar a configuração do domínio, checar as configurações de nameservers, validar registros SPF e DKIM e entender como um domínio está configurado. É usada diariamente por administradores de sistema, desenvolvedores web e profissionais de TI.",
+        "record_types_title": "Tipos de Registros DNS",
+        "a_record": "<strong>Registro A:<\/strong> Mapeia o domínio para o endereço IPv4",
+        "aaaa_record": "<strong>Registro AAAA:<\/strong> Mapeia o domínio para o endereço IPv6",
+        "mx_record": "<strong>Registro MX:<\/strong> Informações do servidor de e-mail",
+        "ns_record": "<strong>Registro NS:<\/strong> Informações do servidor de nomes (nameserver)",
+        "txt_record": "<strong>Registro TXT:<\/strong> Registros de texto para verificação",
+        "cname_record": "<strong>Registro CNAME:<\/strong> Alias de nome canônico"
+    },
+    "faq": {
+        "title": "Perguntas Frequentes",
+        "q1": "Quanto tempo as mudanças no DNS levam para propagar?",
+        "a1": "As alterações no DNS podem levar de alguns minutos a 48 horas para se propagarem globalmente, dependendo do valor TTL (Time to Live) definido nos registros.",
+        "q2": "O que é o TTL no DNS?",
+        "a2": "TTL significa 'Time to Live'. É um valor que indica aos servidores DNS por quanto tempo devem armazenar o registro em cache antes de solicitar uma nova atualização.",
+        "q3": "Qual a diferença entre o registro A e CNAME?",
+        "a3": "O registro A aponta um nome de domínio para um endereço IP, enquanto o registro CNAME aponta um nome de domínio para outro nome de domínio (alias).",
+        "q4": "Por que meus registros MX não estão aparecendo?",
+        "a4": "Isso pode ocorrer devido a erros de digitação na configuração, atrasos na propagação ou problemas com os servidores de nomes autoritativos do seu domínio.",
+        "q5": "Esta ferramenta é gratuita?",
+        "a5": "Sim, nossa ferramenta de consulta DNS é 100% gratuita e permite consultas ilimitadas."
+    },
+    "js": {
+        "looking_up": "Consultando...",
+        "records_label": "Registros",
+        "success": "Registros DNS recuperados com sucesso",
+        "error": "Falha ao recuperar registros DNS. Por favor, verifique o domínio.",
+        "lookup_dns": "Consultar DNS"
+    }
+}

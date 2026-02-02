@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - ilmainen online-Crontab-työkalu",
+        "description": "Luo cron-ajastuksia helposti visuaalisella generaattorilla - ei tarvetta muistaa syntaksia",
+        "h1": "Cron Job Generator",
+        "subtitle": "Luo cron-ajastuksia helposti visuaalisella generaattorilla"
+    },
+    "editor": {
+        "common_settings": "Yleiset asetukset",
+        "choose": "-- Valitse --",
+        "options": {
+            "every_minute": "Joka minuutti (* * * * *)",
+            "every_5_minutes": "5 minuutin välein (*\/5 * * * *)",
+            "every_15_minutes": "15 minuutin välein (*\/15 * * * *)",
+            "every_30_minutes": "30 minuutin välein (*\/30 * * * *)",
+            "every_hour": "Joka tunti (0 * * * *)",
+            "every_day_midnight": "Joka päivä keskiyöllä (0 0 * * *)",
+            "every_week": "Joka viikko (0 0 * * 0)",
+            "every_month": "Joka kuukausi (0 0 1 * *)"
+        },
+        "minute": "Minuutti",
+        "every_minute": "Joka minuutti (*)",
+        "hour": "Tunti",
+        "every_hour": "Joka tunti (*)",
+        "day": "Päivä",
+        "every_day": "Joka päivä (*)",
+        "month": "Kuukausi",
+        "every_month": "Joka kuukausi (*)",
+        "weekday": "Viikonpäivä",
+        "every_weekday": "Joka arkipäivä (*)",
+        "command": "Suoritettava komento",
+        "ph_command": "\/usr\/bin\/php \/path\/to\/script.php",
+        "generated_cron": "Generoitu cron-lauseke",
+        "btn_copy": "Kopioi cron",
+        "btn_clear": "Nollaa"
+    },
+    "content": {
+        "hero_title": "Cron Job Generator",
+        "p1": "Cron-töiden määrittäminen voi olla hämmentävää salaperäisten tähtien ja numeroiden kanssa. Ilmaisen online-Cron Job Generator -työkalumme avulla voit luoda täydelliset cron-aikataulut visuaalisesti. Riippumatta siitä, haluatko suorittaa skriptin 5 minuutin välein, keskiyöllä tai kuukauden tiettyinä päivinä, työkalumme luo sinulle oikean syntaksin välittömästi.",
+        "features": {
+            "visual": {
+                "title": "Visuaalinen editori",
+                "desc": "Valitse minuutit, tunnit, päivät ja kuukaudet yksinkertaisella käyttöliittymällä"
+            },
+            "readable": {
+                "title": "Ihmisen luettavissa",
+                "desc": "Muuntaa cron-lausekkeet selkeiksi englanninkielisiksi kuvauksiksi"
+            }
+        },
+        "syntax_title": "📚 Cron-syntaksin ymmärtäminen",
+        "syntax_intro": "Cron-lauseke koostuu viidestä välilyönnillä erotetusta kentästä:",
+        "syntax_fields": {
+            "min": "Minuutti (0-59)",
+            "hour": "Tunti (0-23)",
+            "day": "Kuukauden päivä (1-31)",
+            "month": "Kuukausi (1-12)",
+            "week": "Viikonpäivä (0-6, sunnuntai=0)"
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mikä on cron-työ?",
+            "a1": "cron-työ on aikaperusteinen työn ajoitus Unix-tyyppisissä käyttöjärjestelmissä. Käyttäjät voivat ajoittaa työt (komennot tai komentosarjat) suoritettavaksi määräajoin tiettyinä aikoina, päivämäärinä tai väliajoin.",
+            "q2": "Kuinka asennan cron-työn?",
+            "a2": "Käytät yleensä komentoa `crontab -e` päätteessäsi cron-tiedoston muokkaamiseen. Liitä sitten luotu rivi tiedoston alaosaan.",
+            "q4": "Mitä tähti (*) tarkoittaa?",
+            "a4": "Tähti tarkoittaa \"kaikkia\". Esimerkiksi tähti minuuttikentässä tarkoittaa \"joka minuutti\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron-lauseke kopioitu leikepöydälle!",
+        "no_copy": "Ei kopioitavaa cron-lauseketta"
+    }
+}

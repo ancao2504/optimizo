@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - Gratis JSON Web Token Debugger",
+        "description": "Decodeer en inspecteer JSON Web Tokens (JWT) - Bekijk header, payload en handtekening!",
+        "h1": "JWT-decoder",
+        "subtitle": "Decodeer en inspecteer JSON Web Tokens (JWT) - Bekijk header, payload en handtekening!"
+    },
+    "editor": {
+        "label_input": "Voer JWT-token in",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "JWT decoderen",
+        "btn_clear": "Wissen",
+        "btn_example": "Voorbeeld",
+        "label_payload": "Laadvermogen (claims)",
+        "label_signature": "Handtekening",
+        "note_signature": "⚠️ Opmerking: Voor verificatie van de handtekening is de geheime sleutel vereist"
+    },
+    "content": {
+        "hero_title": "Gratis JWT Decoder Online",
+        "hero_subtitle": "Decodeer en inspecteer JSON Web Tokens onmiddellijk",
+        "p1": "Onze gratis JWT Decoder tool stelt u in staat om JSON Web Tokens (JWT) te decoderen en te inspecteren om hun header-, payload- en handtekeningcomponenten te bekijken. Perfect voor het debuggen van authenticatieproblemen, het begrijpen van de tokenstructuur en het valideren van JWT-claims.",
+        "what_title": "🔍 Wat is JWT?",
+        "what_desc": "JSON Web Token (JWT) is een compacte, URL-veilige manier om claims tussen twee partijen te vertegenwoordigen. JWT's bestaan uit drie delen: Header (algoritme en tokentype), Payload (claims\/gegevens) en Handtekening (verificatie), gescheiden door punten.",
+        "features_title": "✨ Functies",
+        "features": {
+            "instant": {
+                "title": "Direct decoderen",
+                "desc": "Decodeer JWT's in milliseconden"
+            },
+            "structured": {
+                "title": "Gestructureerde weergave",
+                "desc": "Zie header, payload en handtekening afzonderlijk"
+            },
+            "privacy": {
+                "title": "Privacy voorop",
+                "desc": "Alle decodering vindt plaats in uw browser"
+            }
+        },
+        "uses_title": "🎯 Veelvoorkomende gebruiksvoorbeelden",
+        "uses": {
+            "debug": {
+                "title": "🐛 Debuggen",
+                "desc": "Debug authenticatieproblemen door JWT-inhoud te inspecteren"
+            },
+            "validate": {
+                "title": "✅ Validatie",
+                "desc": "Verifieer JWT-claims en vervaltijden"
+            },
+            "learn": {
+                "title": "📚 Leren",
+                "desc": "Begrijp de JWT-structuur en -componenten"
+            },
+            "dev": {
+                "title": "🛠️ Ontwikkeling",
+                "desc": "Test JWT-generatie en -parsering in uw applicaties"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Is het veilig om hier JWT's te decoderen?",
+            "a1": "Ja! Alle decodering vindt plaats in uw browser. Uw JWT verlaat nooit uw apparaat. Deel JWT's echter nooit publiekelijk, omdat ze gevoelige informatie kunnen bevatten.",
+            "q2": "Kan deze tool JWT-handtekeningen verifiëren?",
+            "a2": "Deze tool decodeert en toont JWT-componenten maar verifieert geen handtekeningen, omdat daarvoor de geheime sleutel nodig is die nooit gedeeld mag worden.",
+            "q3": "Wat zijn JWT-claims?",
+            "a3": "Claims zijn verklaringen over een entiteit (meestal de gebruiker) en aanvullende gegevens. Veelvoorkomende claims zijn 'sub' (onderwerp), 'exp' (vervaldatum) en 'iat' (uitgegeven op)."
+        }
+    },
+    "js": {
+        "error_empty": "Voer een JWT-token in",
+        "error_invalid_format": "Ongeldig JWT-formaat. JWT moet 3 delen hebben gescheiden door punten.",
+        "success_decode": "✓ JWT succesvol gedecodeerd",
+        "error_decode": "✗ Fout bij het decoderen van JWT: "
+    }
+}

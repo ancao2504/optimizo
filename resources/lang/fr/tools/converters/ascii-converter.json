@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "title": "Convertisseur ASCII en texte gratuit - Outil en ligne",
+        "description": "Convertissez instantanément du texte en codes ASCII et vice versa grâce à notre outil en ligne gratuit. Parfait pour l'encodage, le décodage et la représentation de données.",
+        "h1": "Convertisseur ASCII",
+        "subtitle": "Traduisez facilement entre les caractères textuels et leurs valeurs ASCII"
+    },
+    "editor": {
+        "to_ascii": "Vers ASCII",
+        "to_text": "Vers Texte",
+        "label_text": "Texte d'entrée",
+        "ph_text": "Entrez le texte ici (ex: Hello World)...",
+        "btn_convert_ascii": "Convertir en ASCII",
+        "btn_clear": "Tout effacer",
+        "btn_copy": "Copier le résultat",
+        "label_output_ascii": "Résultat des codes ASCII",
+        "ph_ascii": "Entrez les codes ASCII (ex: 72 101 108 108 111)...",
+        "label_ascii": "Codes ASCII d'entrée",
+        "label_output_text": "Résultat du texte",
+        "btn_convert_text": "Convertir en texte"
+    },
+    "content": {
+        "title": "Convertisseur ASCII : Texte en ASCII et ASCII en texte",
+        "subtitle": "L'outil ultime pour la traduction de caractères en codes et la représentation de données binaires.",
+        "p1": "Notre convertisseur ASCII gratuit est un utilitaire en ligne polyvalent conçu pour les développeurs, les étudiants et les passionnés de technologie. Il offre un moyen transparent de transformer du texte brut en ses valeurs numériques ASCII correspondantes et vice versa. Que vous déboguiez du code de bas niveau, appreniez la représentation des données ou ayez besoin d'encoder\/décoder des chaînes pour des protocoles spécifiques, cet outil fournit des résultats instantanés et précis directement dans votre navigateur.",
+        "what_title": "Qu'est-ce que l'ASCII ?",
+        "what_desc": "L'ASCII (American Standard Code for Information Interchange) est une norme de codage de caractères pour la communication électronique. Chaque caractère (lettre, chiffre ou symbole) se voit attribuer une valeur numérique unique de 0 à 127. Par exemple, la majuscule « A » est représentée par le nombre 65, tandis qu'un espace est représenté par 32. La compréhension de ces valeurs est fondamentale pour l'informatique et le traitement des données.",
+        "features": {
+            "instant": {
+                "title": "Conversion instantanée",
+                "desc": "Obtenez vos résultats en temps réel en cliquant sur le bouton."
+            },
+            "bidirectional": {
+                "title": "Support bidirectionnel",
+                "desc": "Basculez facilement entre les modes Texte vers ASCII et ASCII vers Texte."
+            },
+            "privacy": {
+                "title": "Confidentialité garantie",
+                "desc": "Tout le traitement est effectué localement dans votre navigateur ; vos données ne sont jamais envoyées sur nos serveurs."
+            }
+        },
+        "uses": {
+            "title": "Exemples d'utilisation courants",
+            "programming": {
+                "title": "Programmation et développement",
+                "desc": "Convertissez des caractères en codes pour la manipulation de chaînes, les comparaisons de caractères et les opérations d'E\/S de bas niveau."
+            },
+            "learning": {
+                "title": "Utilisation éducative",
+                "desc": "Une excellente ressource pour les étudiants qui apprennent comment les ordinateurs représentent le texte sous forme de nombres."
+            },
+            "encoding": {
+                "title": "Encodage de données",
+                "desc": "Utile pour créer des messages codés simples ou préparer des données pour des protocoles de communication spécifiques."
+            },
+            "debugging": {
+                "title": "Débogage et dépannage",
+                "desc": "Identifiez les caractères cachés ou les symboles non imprimables en visualisant leur représentation numérique ASCII."
+            }
+        },
+        "examples": {
+            "title": "Points forts de la table ASCII",
+            "a_upper": "Majuscule « A »",
+            "a_lower": "Minuscule « a »",
+            "zero": "Chiffre « 0 »",
+            "space": "Caractère d'espace"
+        },
+        "faq": {
+            "title": "Foire aux questions",
+            "q1": "Ce convertisseur ASCII est-il gratuit ?",
+            "a1": "Oui, notre convertisseur ASCII est 100 % gratuit et ne nécessite aucune inscription ou téléchargement. Vous pouvez l'utiliser aussi souvent que vous le souhaitez.",
+            "q2": "Cet outil prend-il en charge Unicode ou l'ASCII étendu ?",
+            "a2": "Actuellement, cet outil se concentre sur le jeu ASCII standard (0-127). Pour la plupart des applications textuelles modernes, l'ASCII standard couvre l'essentiel, mais nous travaillons à l'extension du support à divers encodages.",
+            "q3": "Mes données sont-elles sécurisées lors de l'utilisation de cet outil ?",
+            "a3": "Absolument. Cet outil utilise du JavaScript côté client pour toutes les conversions. Vos données d'entrée ne quittent jamais votre ordinateur et ne sont jamais stockées sur nos serveurs."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez entrer des données à convertir",
+        "success_ascii": "✓ Conversion en codes ASCII réussie !",
+        "success_text": "✓ Conversion en texte réussie !",
+        "error_invalid_ascii": "Code ASCII invalide détecté : ",
+        "error_general": "Une erreur s'est produite lors de la conversion : ",
+        "error_no_output": "Rien à copier ! Veuillez d'abord effectuer une conversion.",
+        "success_copy": "✓ Copié dans le presse-papier !"
+    }
+}

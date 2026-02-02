@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "Convertitore da SQL a JSON: strumento di database online gratuito",
+        "description": "Trasforma istantaneamente le istruzioni SQL INSERT in array JSON con il nostro strumento online gratuito. Veloce, accurato e sicuro.",
+        "h1": "Convertitore da SQL a JSON",
+        "subtitle": "Converti facilmente tra dati SQL e oggetti JSON"
+    },
+    "editor": {
+        "btn_encode": "Modalità da JSON a SQL",
+        "btn_decode": "Modalità da SQL a JSON",
+        "label_table": "Nome Tabella",
+        "ph_table": "Inserisci il nome della tabella (es. users)",
+        "label_input_json": "Input JSON",
+        "ph_input_json": "Incolla qui il tuo array JSON...",
+        "label_output_sql": "Output SQL",
+        "ph_output_sql": "L'SQL generato apparirà qui...",
+        "label_input_sql": "Input SQL",
+        "label_output_json": "Output JSON",
+        "btn_convert_sql": "Genera SQL",
+        "btn_convert_json": "Genera JSON",
+        "btn_clear": "Cancella",
+        "btn_copy": "Copia Output"
+    },
+    "content": {
+        "hero_title": "Convertitore da SQL a JSON",
+        "hero_subtitle": "Conversione bidirezionale per sviluppatori moderni",
+        "p1": "Le applicazioni moderne prosperano su JSON, ma i database parlano ancora SQL. Il nostro convertitore bidirezionale colma questo divario senza sforzo. Che tu debba trasformare le esportazioni del database in JSON per la tua API, o i dati JSON in script di seeding SQL, questo strumento fornisce una soluzione veloce, sicura e accurata.",
+        "integration_title": "Integrazione Senza Soluzioni di Continuità",
+        "integration_desc": "Sposta facilmente i dati tra il tuo database relazionale e la tua applicazione web. Il nostro parser gestisce le istruzioni SQL INSERT standard e le converte in oggetti JSON strutturati, preservando i tipi di dati e i valori.",
+        "features_title": "Caratteristiche Principali",
+        "features": {
+            "instant": {
+                "title": "Risultati Istantanei",
+                "desc": "Le conversioni avvengono in tempo reale mentre fai clic."
+            },
+            "bidirectional": {
+                "title": "Doppia Modalità",
+                "desc": "Passa facilmente dalle modalità SQL-a-JSON a JSON-a-SQL."
+            },
+            "security": {
+                "title": "Conversione Sicura",
+                "desc": "L'elaborazione è al 100% lato client per la massima privacy."
+            },
+            "custom": {
+                "title": "Formattazione Pulita",
+                "desc": "L'output è formattato professionalmente e pronto all'uso."
+            },
+            "types": {
+                "title": "Consapevolezza dei Tipi",
+                "desc": "Gestisce correttamente null, numeri e stringhe."
+            },
+            "free": {
+                "title": "Totalmente Gratuito",
+                "desc": "Nessun abbonamento o limite di utilizzo."
+            }
+        },
+        "uses_title": "Casi d'Uso Comuni",
+        "uses": {
+            "seeding": {
+                "title": "Seeding del Database",
+                "desc": "Genera rapidamente script SQL per popolare il tuo ambiente di sviluppo."
+            },
+            "export": {
+                "title": "Esportazione Dati",
+                "desc": "Converti i risultati delle query SQL in JSON per l'analisi."
+            },
+            "migration": {
+                "title": "Migrazione API",
+                "desc": "Prepara i dati dei database legacy per l'uso in moderne API REST."
+            },
+            "testing": {
+                "title": "Dati Mock",
+                "desc": "Crea dati mock JSON da tabelle SQL esistenti."
+            },
+            "docs": {
+                "title": "Documentazione",
+                "desc": "Includi esempi JSON della struttura del tuo database nella documentazione."
+            },
+            "prototype": {
+                "title": "Prototipazione Rapida",
+                "desc": "Sposta rapidamente i dati tra diversi stati durante lo sviluppo."
+            }
+        },
+        "how_title": "Come si Usa",
+        "how_steps": {
+            "1": {
+                "title": "Seleziona la Modalità",
+                "desc": "Scegli tra JSON-a-SQL o SQL-a-JSON usando i pulsanti."
+            },
+            "2": {
+                "title": "Inserisci i Dati",
+                "desc": "Incolla il tuo codice sorgente nell'area dell'editor a sinistra."
+            },
+            "3": {
+                "title": "Imposta il Nome della Tabella",
+                "desc": "Se converti in SQL, specifica la tabella del database di destinazione."
+            },
+            "4": {
+                "title": "Genera",
+                "desc": "Fai clic su 'Genera' per vedere la trasformazione istantaneamente."
+            },
+            "5": {
+                "title": "Copia il Risultato",
+                "desc": "Usa il pulsante 'Copia' per prelevare il tuo output."
+            }
+        },
+        "samples_title": "Esempi di Conversione",
+        "samples": [
+            {
+                "title": "SQL Insert in JSON",
+                "desc": "INSERT INTO users (name, age) VALUES ('Alice', 25); → [{\"name\": \"Alice\", \"age\": 25}]"
+            },
+            {
+                "title": "JSON in SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO table (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Domande Frequenti",
+        "faq": {
+            "q1": "Quali istruzioni SQL sono supportate?",
+            "a1": "Attualmente, lo strumento supporta le istruzioni standard INSERT INTO con nomi di colonne definiti.",
+            "q2": "I miei dati sono al sicuro?",
+            "a2": "Sì, non inviamo mai i tuoi dati al nostro server. Tutta la logica viene eseguita nel tuo browser.",
+            "q3": "Posso convertire più righe?",
+            "a3": "Sì, lo strumento gestisce in modo efficiente SQL su più righe o grandi array JSON.",
+            "q4": "Gestisce i caratteri speciali?",
+            "a4": "Sì, esegue correttamente l'escape degli apici singoli e gestisce i caratteri speciali di base."
+        }
+    },
+    "js": {
+        "error_empty": "Inserisci dei dati da elaborare",
+        "placeholder_table_name": "users",
+        "error_general": "Errore di conversione: ",
+        "error_invalid_array": "Errore: L'input deve essere un array JSON di oggetti.",
+        "error_empty_array": "Errore: L'array JSON è vuoto.",
+        "success_sql": "✓ SQL generato con successo!",
+        "error_no_statements": "Nessuna istruzione SQL INSERT valida trovata.",
+        "success_json": "✓ JSON generato con successo!",
+        "error_no_copy": "Nessun contenuto da copiare.",
+        "success_copy": "✓ Output copiato negli appunti!"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "meta": {
+        "title": "Binary to Hex Converter - ilmainen online-peruskäännös",
+        "description": "Nopea ja luotettava verkkomuunnin binaari- (kanta-2) ja heksadesimaalijärjestelmän (kanta-16) välillä. Välttämätön kehittäjille, opiskelijoille ja tietotekniikan ammattilaisille.",
+        "h1": "Binäärinen ↔ Hex Converter",
+        "subtitle": "Lopullinen työkalu suoraan binaariseen ja heksadesimaaliseen numeeriseen muunnokseen."
+    },
+    "editor": {
+        "mode_bin_hex": "Binaarista heksadesimaaliksi",
+        "mode_hex_bin": "Heksadesimaalista binaariksi",
+        "label_bin": "Binaarisyöte",
+        "ph_bin": "Syötä binaarinumerot (esim. 10101011)...",
+        "label_out_hex": "Heksadesimaalilähtö",
+        "ph_hex": "Heksa-tulos ilmestyy tähän...",
+        "btn_convert_hex": "Muunna heksaksi",
+        "btn_clear": "Tyhjennä kaikki",
+        "btn_copy": "Kopioi tulos",
+        "label_hex": "Heksadesimaalisyöte",
+        "label_out_bin": "Binaarilähtö",
+        "btn_convert_bin": "Muunna binaariksi"
+    },
+    "content": {
+        "p1": "Binaari-heksadesimaalimuuntimemme on erikoistunut, suorituskykyinen työkalu, joka on rakennettu tietotekniikkayhteisöä varten. Binaari (kanta-2) ja heksadesimaali (kanta-16) ovat kaksi tärkeintä lukujärjestelmää alhaisen tason tietotekniikassa. Koska yksi heksanumero vastaa tasan neljää binaaribittiä, tämä muunnin tarjoaa suoran ja virheettömän sillan näiden kahden perustavanlaatuisen tiedon esitystavan välille.",
+        "what_title": "Miksi muuntaa binaari heksaksi?",
+        "what_desc": "Vaikka binaari on laitteiston kieli, ihmisen on erittäin vaikea lukea ja muistaa pitkiä 0- ja 1-jonoja. Heksadesimaali tarjoaa paljon kompaktimman esityksen samasta tiedosta. Esimerkiksi 8-bittinen binaarijonon \"10101011\" on heksana vain \"AB\". Tämä kompaktius tekee heksasta standardin muistiosoitteiden, värikoodien ja tavutason tietojen esittämiseen.",
+        "features": {
+            "instant": {
+                "title": "Reaaliaikainen muunnos",
+                "desc": "Saat tulokset niin nopeasti kuin pystyt klikkaamaan, ilman palvelinpuolen viivettä."
+            },
+            "bidirectional": {
+                "title": "Täysi kaksisuuntainen tuki",
+                "desc": "Vaihda helposti binaari-heksa- ja heksa-binaari-tilojen välillä."
+            },
+            "privacy": {
+                "title": "100 % yksityisyys",
+                "desc": "Kaikki käsittely tapahtuu paikallisella tietokoneellasi; tietosi eivät koskaan poistu laitteeltasi."
+            },
+            "copy": {
+                "title": "Välitön kopiointi",
+                "desc": "Säästä aikaa sisäänrakennetulla leikepöydän tuella kaikille tuloksille."
+            }
+        },
+        "uses": {
+            "title": "Käytännön sovellukset",
+            "memory": {
+                "title": "Muistin osoittaminen",
+                "desc": "Muunna binaariarvot käyttöjärjestelmien ja vianetsintäohjelmien käyttämiksi heksadesimaaliosoitteiksi."
+            },
+            "colors": {
+                "title": "Värien esittäminen",
+                "desc": "Ymmärrä, miten 8-bittiset binaarikomponentit muodostavat kaksimerkkiset heksaarvot HTML-värikoodeissa."
+            },
+            "encoding": {
+                "title": "Tietojen koodaus",
+                "desc": "Analysoi tavuvirtoja ja tietopaketteja, joita käytetään verkkoviestinnässä ja tiedostomuodoissa."
+            }
+        }
+    },
+    "js": {
+        "error_empty": "Syötä muunnettava arvo",
+        "error_invalid_bin": "Virheellinen binaarinumero. Käytä vain numeroita 0 ja 1.",
+        "success_hex": "✓ Muunnettu heksadesimaaliksi onnistuneesti!",
+        "error_invalid_hex": "Virheellinen heksadesimaalinumero. Käytä numeroita 0-9 ja kirjaimia A-F.",
+        "success_bin": "✓ Muunnettu binaariksi onnistuneesti!",
+        "error_general": "Muunnosvirhe: ",
+        "error_no_output": "Ei mitään kopioitavaa! Suorita muunnos ensin.",
+        "success_copy": "✓ Kopioitu leikepöydälle!"
+    }
+}

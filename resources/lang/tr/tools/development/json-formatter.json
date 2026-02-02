@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter Online - Ücretsiz JSON Güzelleştirici Aracı",
+        "description": "Ücretsiz çevrimiçi aracımızla JSON verilerinizi formatlayın, doğrulayın ve sıkıştırın",
+        "h1": "JSON Biçimlendirici",
+        "subtitle": "JSON verilerinizi formatlayın, doğrulayın ve sıkıştırın"
+    },
+    "editor": {
+        "title": "JSON Verilerinizi Formatlayın",
+        "label_input": "JSON Verisini Girin",
+        "ph_input": "{\"ad\": \"Ahmet\", \"yas\": 30, \"sehir\": \"İstanbul\"}",
+        "help_text": "Formatlamak, güzelleştirmek veya sıkıştırmak için JSON verinizi yapıştırın",
+        "btn_format": "Formatla ve Güzelleştir",
+        "btn_minify": "JSON'ı Sıkıştır",
+        "label_results": "Formatlanmış JSON",
+        "btn_copy": "JSON'ı Kopyala"
+    },
+    "content": {
+        "why_title": "Neden JSON Formatlayıcımızı Kullanmalısınız?",
+        "why_desc": "JSON (JavaScript Object Notation), web geliştirme, API'ler ve yapılandırma dosyalarında kullanılan en popüler veri değişim formatıdır. Ücretsiz çevrimiçi JSON formatlayıcımız; geliştiricilerin, veri analistlerinin ve BT profesyonellerinin JSON verilerini hızla formatlamasına, güzelleştirmesine, doğrulamasına ve sıkıştırmasına yardımcı olur. İster API yanıtlarındaki hataları ayıklıyor, ister yapılandırma dosyalarını temizliyor, ister canlı sistem için JSON hazırlıyor olun; aracımız sözdizimi vurgulama ve hata algılama ile anında sonuçlar sağlar. REST API'leri, NoSQL veritabanları ve modern web uygulamaları ile çalışan geliştiriciler için mükemmeldir.",
+        "features": {
+            "instant": {
+                "title": "Anında Formatlama",
+                "desc": "JSON verilerini milisaniyeler içinde uygun girinti ve sözdizimi vurgulama ile formatlayın ve güzelleştirin"
+            },
+            "error": {
+                "title": "Hata Algılama",
+                "desc": "Yardımcı hata mesajlarıyla JSON sözdizimi hatalarını otomatik olarak algılayın ve vurgulayın"
+            },
+            "privacy": {
+                "title": "%100 Gizli",
+                "desc": "Tüm işlemler tarayıcınızda gerçekleşir - JSON verileriniz asla bilgisayarınızdan ayrılmaz"
+            }
+        },
+        "how_title": "3 Kolay Adımda JSON Formatlama",
+        "how_steps": {
+            "1": {
+                "title": "Eylemi Seçin",
+                "desc": "JSON'ınızı formatlamak için \"Formatla ve Güzelleştir\"e veya sıkıştırmak için \"Sıkıştır\"a tıklayın"
+            },
+            "2": {
+                "title": "Sonucu Kopyalayın",
+                "desc": "Formatlanmış JSON'ı panonuza kopyalamak için kopyala düğmesine tıklayın"
+            },
+            "3": {
+                "title": "Format or Minify",
+                "desc": "Seçin to beautify (format with indentation) or minify (compress to single line) your JSON data based on your needs."
+            }
+        },
+        "uses_title": "Yaygın JSON Formatlama Kullanım Durumları",
+        "uses": {
+            "api": {
+                "title": "API Yanıtı Hata Ayıklama",
+                "desc": "REST API'lerinden, GraphQL'den ve web servislerinden gelen karmaşık API yanıtlarını kolayca okumak ve hatalarını ayıklamak için formatlayın."
+            },
+            "config": {
+                "title": "Yapılandırma Dosyaları",
+                "desc": "Uygulamalar için JSON yapılandırma dosyalarını (package.json, tsconfig.json vb.) temizleyin ve doğrulayın."
+            },
+            "db": {
+                "title": "Veritabanı Verileri",
+                "desc": "MongoDB, CouchDB ve Firebase gibi NoSQL veritabanlarından gelen JSON verilerini daha iyi okunabilirlik için formatlayın."
+            },
+            "export": {
+                "title": "Veri Dışa\/İçe Aktarımı",
+                "desc": "JSON verilerini dışa aktarmaya hazırlayın veya içe aktarılan JSON verilerini uygun yapı ve sözdizimi için doğrulayın."
+            }
+        },
+        "tips_title": "JSON En İyi Uygulamaları ve İpuçları",
+        "tips": {
+            "validate": {
+                "title": "✓ JSON'ı Her Zaman Doğrulayın",
+                "desc": "Canlı sisteme yüklemeden önce sözdizimi hatalarını yakalamak için bir JSON doğrulayıcı kullanın. Geçersiz JSON uygulamanızı bozabilir."
+            },
+            "indent": {
+                "title": "✓ Uygun Girinti Kullanın",
+                "desc": "Geliştirme ve hata ayıklama sırasında daha iyi okunabilirlik için JSON'ı 2 veya 4 boşluk girinti ile formatlayın."
+            },
+            "minify": {
+                "title": "✓ Canlı Sistem İçin Sıkıştırın",
+                "desc": "Dosya boyutunu azaltmak ve yükleme sürelerini iyileştirmek için canlı sisteme dağıtmadan önce JSON verilerini sıkıştırın."
+            },
+            "naming": {
+                "title": "✓ Tutarlı İsimlendirme Kullanın",
+                "desc": "JSON yapınız boyunca camelCase veya snake_case isimlendirme kurallarını tutarlı bir şekilde takip edin."
+            }
+        },
+        "faq_title": "❓ Sıkça Sorulan Sorular",
+        "faq": {
+            "q1": "JSON verilerim güvende mi?",
+            "a1": "Evet, kesinlikle. JSON formatlayıcımız tamamen web tarayıcınızda JavaScript kullanarak çalışır. Verileriniz asla sunucularımıza gönderilmez veya hiçbir yerde saklanmaz.",
+            "q2": "JSON'ı Sıkıştırmak neden önemlidir?",
+            "a2": "Sıkıştırma, gereksiz boşlukları ve satır sonlarını kaldırarak dosya boyutunu önemli ölçüde azaltır. Bu, API performansını artırmak ve canlı ortamlarda bant genişliği kullanımını azaltmak için kritiktir.",
+            "q3": "Eksik JSON'ı doğrulayabilir miyim?",
+            "a3": "Aracın formatlama veya sıkıştırma yapabilmesi için geçerli bir JSON yapısı gereklidir. Ancak, JSON verilerinizdeki sorunları bulup düzeltmenize yardımcı olacak ayrıntılı hata mesajları sağlar.",
+            "q4": "Büyük JSON dosyalarını destekliyor mu?",
+            "a4": "Evet, araç büyük JSON veri setlerini verimli bir şekilde işlemek üzere optimize edilmiştir; ancak çok büyük dosyalar tarayıcınızın bellek sınırlarına bağlı olabilir."
+        }
+    },
+    "js": {
+        "error_empty_format": "Lütfen formatlamak için JSON verisini girin",
+        "error_invalid": "Geçersiz JSON: ",
+        "error_empty_minify": "Lütfen sıkıştırmak için JSON verisini girin",
+        "success_copy": "Kopyalandı!",
+        "error_copy": "Kopyalama başarısız oldu. Lütfen manuel olarak kopyalayın."
+    }
+}

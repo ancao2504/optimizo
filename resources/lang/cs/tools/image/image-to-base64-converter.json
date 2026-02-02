@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Image to Base64 Converter – bezplatný online nástroj pro vytváření řetězců",
+        "description": "Převeďte obrázky na řetězce kódované v Base64 pro vložení do HTML nebo CSS. Bezplatný online nástroj s podporou PNG, JPG, GIF.",
+        "h1": "Převést obrázek na řetězec Base64",
+        "subtitle": "Převeďte obrázky na řetězce kódované v Base64 pro vložení do HTML nebo CSS"
+    },
+    "input": {
+        "title": "Nahrát obrázek",
+        "desc": "Přetáhněte svůj soubor obrázku sem",
+        "drop_title": "Přetáhněte obrázek sem",
+        "drop_desc": "Podporuje všechny formáty obrázků"
+    },
+    "editor": {
+        "image_alt": "Náhled",
+        "label_string": "Base64 řetězec",
+        "btn_copy": "Kopírovat do schránky",
+        "char_count": "Počet znaků",
+        "mime_type": "Typ MIME"
+    },
+    "content": {
+        "title": "Převod obrázku na Base64 řetězec",
+        "p1": "Vývojáři a weboví designéři často potřebují vložit obrázky přímo do souborů HTML nebo CSS, aby snížili počet požadavků HTTP.",
+        "p2": "Náš <strong>převodník obrázků na Base64<\/strong> zakóduje váš soubor obrázku do dlouhého řetězce znaků, který reprezentuje binární data. Tento řetězec můžete vložit přímo do svého kódu.",
+        "features": {
+            "clipboard": {
+                "title": "Připraveno ke zkopírování",
+                "desc": "Kopírování jedním kliknutím. Výstup formátujeme pro HTML (`&lt;img src=\"...\"&gt;`) nebo CSS (`background: url(...)`)."
+            },
+            "requests": {
+                "title": "Snížení počtu požadavků",
+                "desc": "Vkládání malých ikon a log jako Base64 eliminuje režii sítě spojenou s načítáním externích obrázkových souborů."
+            },
+            "formats": {
+                "title": "Jakýkoli formát",
+                "desc": "Funguje se soubory PNG, JPG, GIF, WEBP, SVG a dokonce i ICO."
+            }
+        },
+        "how_to": {
+            "title": "Jak na to?",
+            "list": [
+                "Vyberte soubor obrázku.",
+                "Nástroj soubor okamžitě převede na Data URI.",
+                "Klikněte na „Kopírovat do schránky“ pro získání kódu.",
+                "Vložte jej do atributu `src` nebo souboru CSS."
+            ]
+        },
+        "use_cases": {
+            "title": "Kdy použít Base64?",
+            "list": [
+                "Malé obrázky: Nejlepší pro ikony, „spinner“ indikátory a malá loga (pod 10 KB).",
+                "Jednosouborové aplikace: Když potřebujete vše zabalit do jednoho dokumentu HTML (např. e-mailové šablony).",
+                "Přístup offline: Zajišťuje načtení obrázků i bez připojení k síti, pokud je HTML uložen lokálně."
+            ]
+        }
+    },
+    "js": {
+        "copied": "Zkopírováno!"
+    }
+}

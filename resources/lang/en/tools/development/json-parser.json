@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "JSON Parser & Validator - Free Online Syntax Check",
+        "description": "Parse, validate, and visualize JSON structure",
+        "h1": "JSON Parser & Validator",
+        "subtitle": "Parse, validate, and visualize JSON structure"
+    },
+    "editor": {
+        "label_input": "JSON Input",
+        "ph_input": "{\"name\": \"John Doe\", \"age\": 30, \"isActive\": true}",
+        "btn_parse": "Parse JSON",
+        "btn_beautify": "Beautify",
+        "btn_minify": "Minify",
+        "btn_clear": "Clear",
+        "btn_load": "Load Sample",
+        "title_tree": "JSON Tree View"
+    },
+    "content": {
+        "hero_title": "Free JSON Parser & Validator",
+        "hero_subtitle": "Parse, validate, beautify, and minify JSON data instantly",
+        "p1": "Our free JSON Parser is a powerful online tool for developers, data analysts, and anyone working with JSON data. Instantly parse, validate, beautify, and minify JSON with a clean, intuitive interface. Perfect for debugging APIs, formatting configuration files, or validating JSON structure. 100% free, client-side processing ensures your data stays private and secure.",
+        "what_title": "📋 What is JSON?",
+        "what_desc": "JSON (JavaScript Object Notation) is a lightweight data-interchange format that's easy for humans to read and write, and easy for machines to parse and generate. It's the most popular format for APIs, configuration files, and data storage. JSON uses key-value pairs and supports strings, numbers, booleans, arrays, and nested objects.",
+        "features_title": "✨ Features",
+        "features": {
+            "validate": {
+                "title": "JSON Validation",
+                "desc": "Instantly validate JSON syntax and structure"
+            },
+            "beautify": {
+                "title": "Beautify JSON",
+                "desc": "Format JSON with proper indentation and spacing"
+            },
+            "minify": {
+                "title": "Minify JSON",
+                "desc": "Compress JSON by removing whitespace"
+            },
+            "tree": {
+                "title": "Tree View",
+                "desc": "Visualize JSON structure in tree format"
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All processing happens in your browser"
+            },
+            "instant": {
+                "title": "Instant Results",
+                "desc": "Parse and format JSON in milliseconds"
+            }
+        },
+        "uses_title": "🎯 Common Use Cases",
+        "uses": {
+            "api": {
+                "title": "🔌 API Development",
+                "desc": "Test and debug API responses, validate request payloads, and format JSON data"
+            },
+            "config": {
+                "title": "⚙️ Configuration Files",
+                "desc": "Format and validate config files for applications, databases, and services"
+            },
+            "analysis": {
+                "title": "📊 Data Analysis",
+                "desc": "Parse and visualize JSON data from databases, logs, and analytics tools"
+            },
+            "debug": {
+                "title": "🐛 Debugging",
+                "desc": "Identify syntax errors, validate structure, and troubleshoot JSON issues"
+            },
+            "docs": {
+                "title": "📝 Documentation",
+                "desc": "Create readable JSON examples for API docs and technical guides"
+            },
+            "migration": {
+                "title": "🔄 Data Migration",
+                "desc": "Transform and validate JSON during data imports and exports"
+            }
+        },
+        "how_title": "📚 How to Use",
+        "how_steps": [
+            "<strong>Paste JSON:<\/strong> Copy and paste your JSON data into the input field",
+            "<strong>Parse:<\/strong> Click \"Parse JSON\" to validate and visualize the structure",
+            "<strong>Beautify:<\/strong> Click \"Beautify\" to format with proper indentation",
+            "<strong>Minify:<\/strong> Click \"Minify\" to compress and remove whitespace",
+            "<strong>View Tree:<\/strong> See the hierarchical structure in tree view format"
+        ],
+        "tips_title": "💡 JSON Best Practices",
+        "tips_list": [
+            "<strong>Use double quotes:<\/strong> JSON requires double quotes for strings, not single quotes",
+            "<strong>No trailing commas:<\/strong> Remove commas after the last item in objects and arrays",
+            "<strong>Proper data types:<\/strong> Use numbers without quotes, booleans as true\/false, null for empty values",
+            "<strong>Validate regularly:<\/strong> Always validate JSON before deployment or production use",
+            "<strong>Beautify for readability:<\/strong> Format JSON for easier debugging and maintenance"
+        ],
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "What's the difference between beautify and minify?",
+            "a1": "Beautify adds indentation and line breaks to make JSON human-readable. Minify removes all whitespace to reduce file size, making it ideal for production environments.",
+            "q2": "Is my JSON data secure?",
+            "a2": "Yes! All JSON parsing and formatting happens entirely in your browser. Your data never leaves your device and is not sent to any server.",
+            "q3": "Can I parse large JSON files?",
+            "a3": "Yes, our parser can handle large JSON files. However, very large files (>10MB) may take longer to process depending on your device's performance.",
+            "q4": "What errors does the parser detect?",
+            "a4": "The parser detects syntax errors like missing quotes, trailing commas, invalid characters, unclosed brackets, and incorrect data types. Error messages show the exact location of the issue.",
+            "q5": "Can I use this for API testing?",
+            "a5": "Absolutely! This tool is perfect for testing API responses, validating request payloads, and formatting JSON data from API calls."
+        }
+    },
+    "js": {
+        "error_empty_parse": "Please enter JSON data to parse",
+        "success_valid": "✓ Valid JSON! Parsed successfully",
+        "error_invalid": "✗ Invalid JSON: ",
+        "error_empty_beautify": "Please enter JSON data to beautify",
+        "success_beautify": "✓ JSON beautified successfully",
+        "error_beautify": "✗ Cannot beautify invalid JSON: ",
+        "error_empty_minify": "Please enter JSON data to minify",
+        "success_minify": "✓ JSON minified successfully",
+        "error_minify": "✗ Cannot minify invalid JSON: ",
+        "success_load": "Sample JSON loaded"
+    }
+}

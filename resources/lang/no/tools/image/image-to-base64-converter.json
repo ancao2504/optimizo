@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Image to Base64 Converter - Gratis online strengverktøy",
+        "description": "Konverter bilder til Base64-kodede strenger for innbygging i HTML eller CSS. Gratis online verktøy som støtter PNG, JPG, GIF.",
+        "h1": "Konverter bilde til Base64-streng",
+        "subtitle": "Konverter bilder til Base64-kodede strenger for innbygging i HTML eller CSS"
+    },
+    "input": {
+        "title": "Last opp bilde",
+        "desc": "Dra og slipp bildefilen her",
+        "drop_title": "Slipp bildefilen her",
+        "drop_desc": "Støtter alle bildeformater"
+    },
+    "editor": {
+        "image_alt": "Forhåndsvisning",
+        "label_string": "Base64-streng",
+        "btn_copy": "Kopier til utklippstavle",
+        "char_count": "Antall tegn",
+        "mime_type": "MIME-type"
+    },
+    "content": {
+        "title": "Konverter bilde til Base64-streng",
+        "p1": "Utviklere og webdesignere trenger ofte å bygge inn bilder direkte i HTML- eller CSS-filer for å redusere HTTP-forespørsler.",
+        "p2": "Vår <strong>Image to Base64 Converter<\/strong> koder bildefilen din til en lang streng med tegn som representerer de binære dataene. Du kan lime inn denne strengen rett inn i koden din.",
+        "features": {
+            "clipboard": {
+                "title": "Utklippstavle klar",
+                "desc": "Ett-klikks kopi. Vi formaterer utdataene for HTML (`&lt;img src=\"...\"&gt;`) eller CSS (`bakgrunn: url(...)`)."
+            },
+            "requests": {
+                "title": "Reduser forespørsler",
+                "desc": "Å bygge inn små ikoner og logoer som Base64 eliminerer nettverkskostnadene ved å hente eksterne bildefiler."
+            },
+            "formats": {
+                "title": "Ethvert format",
+                "desc": "Fungerer med PNG, JPG, GIF, WEBP, SVG og til og med ICO-filer."
+            }
+        },
+        "how_to": {
+            "title": "Hvordan bruke?",
+            "list": [
+                "Velg bildefilen din.",
+                "Verktøyet konverterer umiddelbart filen til en data-URI.",
+                "Klikk \"Kopier til utklippstavlen\" for å hente koden.",
+                "Sett den inn i `src`-attributtet eller CSS-filen."
+            ]
+        },
+        "use_cases": {
+            "title": "Når skal jeg bruke Base64?",
+            "list": [
+                "Små bilder: Best for ikoner, spinnere og små logoer (under 10 KB).",
+                "Enkeltfil-apper: Når du trenger å samle alt i én HTML-fil (f.eks. e-postmaler).",
+                "Frakoblet tilgang: Sikrer at bilder lastes inn selv uten nettverkstilkobling hvis HTML-en er lagret lokalt."
+            ]
+        }
+    },
+    "js": {
+        "copied": "Kopiert!"
+    }
+}

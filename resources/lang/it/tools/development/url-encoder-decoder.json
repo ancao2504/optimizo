@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "title": "Codificatore e decodificatore URL: strumento percentuale online gratuito",
+        "description": "Codifica e decodifica gli URL per una trasmissione sicura sul web con il nostro strumento online gratuito.",
+        "h1": "Codificatore e decodificatore URL",
+        "subtitle": "Codifica e decodifica gli URL per una trasmissione sicura sul web"
+    },
+    "editor": {
+        "btn_encode": "Codifica URL",
+        "btn_decode": "Decodifica URL",
+        "label_input_encode": "Inserisci l'URL da codificare",
+        "ph_input": "https:\/\/example.com\/search?name=John Doe&age=30",
+        "btn_process_encode": "Codifica URL",
+        "btn_clear": "Cancella",
+        "btn_copy": "Copia",
+        "label_output_encoded": "URL Codificato",
+        "ph_output": "L'URL elaborato apparirà qui...",
+        "label_input_decode": "Inserisci l'URL da decodificare",
+        "label_output_decoded": "URL Decodificato",
+        "btn_process_decode": "Decodifica URL"
+    },
+    "content": {
+        "p1": "Il nostro strumento gratuito Encoder e Decoder URL ti aiuta a codificare i caratteri speciali negli URL per una trasmissione sicura su Internet, o a decodificare gli URL codificati riportandoli al loro formato originale. Perfetto per sviluppatori, professionisti SEO e chiunque lavori con gli URL web. Elaborazione al 100% lato client per garantire la privacy dei tuoi dati.",
+        "what_title": "Cos'è la codifica URL?",
+        "what_desc": "La codifica URL (chiamata anche codifica percentuale) converte i caratteri speciali degli URL in un formato che può essere trasmesso su Internet. Gli spazi diventano %20, i caratteri speciali come & diventano %26 e così via. Questo garantisce che gli URL funzionino correttamente su tutti i browser e sistemi.",
+        "features_title": "Caratteristiche",
+        "features": {
+            "instant": {
+                "title": "Conversione Istantanea",
+                "desc": "Codifica o decodifica gli URL in millisecondi"
+            },
+            "bidirectional": {
+                "title": "Bidirezionale",
+                "desc": "Codifica nel formato URL o decodifica all'originale"
+            },
+            "privacy": {
+                "title": "Privacy al Primo Posto",
+                "desc": "Tutta l'elaborazione avviene nel tuo browser"
+            },
+            "copy": {
+                "title": "Copia in Un Clic",
+                "desc": "Copia istantaneamente gli URL codificati\/decodificati"
+            },
+            "free": {
+                "title": "100% Gratuito",
+                "desc": "Nessun limite, nessuna registrazione richiesta"
+            },
+            "universal": {
+                "title": "Supporto Universale",
+                "desc": "Funziona con tutti i formati di URL e i caratteri"
+            }
+        },
+        "uses_title": "Casi d'Uso Comuni",
+        "uses": {
+            "query": {
+                "title": "Parametri di Query",
+                "desc": "Codifica i caratteri speciali nelle stringhe di query degli URL per chiamate API e richieste web"
+            },
+            "analytics": {
+                "title": "Monitoraggio Analytics",
+                "desc": "Codifica i parametri UTM e gli URL di monitoraggio per le campagne di marketing"
+            },
+            "auth": {
+                "title": "Autenticazione",
+                "desc": "Codifica credenziali e token nell'autenticazione OAuth e API"
+            },
+            "i18n": {
+                "title": "Internazionalizzazione",
+                "desc": "Codifica i caratteri non ASCII negli URL per la compatibilità globale"
+            },
+            "seo": {
+                "title": "SEO e Redirect",
+                "desc": "Crea URL di reindirizzamento e link canonici correttamente codificati"
+            },
+            "email": {
+                "title": "Link Email",
+                "desc": "Codifica i link mailto con righe dell'oggetto e contenuto del corpo"
+            }
+        },
+        "how_to_title": "Come si Usa",
+        "how_to": {
+            "step1": {
+                "title": "Scegli la Modalità",
+                "desc": "Seleziona \"Codifica URL\" o \"Decodifica URL\" in base alle tue esigenze"
+            },
+            "step2": {
+                "title": "Inserisci l'URL",
+                "desc": "Incolla il tuo URL o il testo nel campo di input"
+            },
+            "step3": {
+                "title": "Elabora",
+                "desc": "Fai clic sul pulsante \"Codifica URL\" o \"Decodifica URL\""
+            },
+            "step4": {
+                "title": "Copia il Risultato",
+                "desc": "Fai clic su \"Copia\" per copiare l'URL elaborato negli appunti"
+            },
+            "step5": {
+                "title": "Usa Ovunque",
+                "desc": "Incolla l'URL codificato\/decodificato nella tua applicazione"
+            }
+        },
+        "examples_title": "Esempi di Codifica URL",
+        "examples": {
+            "space": {
+                "title": "Carattere Spazio:",
+                "desc": "Originale: \"Hello World\" → Codificato: \"Hello%20World\""
+            },
+            "special": {
+                "title": "Caratteri Speciali:",
+                "desc": "Originale: \"name=John&age=30\" → Codificato: \"name%3DJohn%26age%3D30\""
+            },
+            "full": {
+                "title": "URL Completo:",
+                "desc": "Originale: \"https:\/\/example.com\/search?q=hello world\" → Codificato: \"https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world\""
+            }
+        },
+        "faq_title": "Domande Frequenti",
+        "faq": {
+            "q1": "Quando dovrei codificare gli URL?",
+            "a1": "Codifica gli URL quando li passi come parametri di query, li memorizzi nei database o quando contengono caratteri speciali come spazi, &, =, ?, o caratteri non ASCII.",
+            "q2": "Quali caratteri richiedono la codifica?",
+            "a2": "I caratteri riservati come : \/ ? # [ ] @ ! $ & ' ( ) * + , ; = e i caratteri non sicuri come spazi, <, >, \", {, }, |, \\, ^, `, e i caratteri non ASCII devono essere codificati.",
+            "q3": "La codifica URL è la stessa cosa di Base64?",
+            "a3": "No. La codifica URL converte caratteri specifici nel formato %XX, mentre Base64 codifica interi dati in un set di caratteri diverso. Servono a scopi diversi.",
+            "q4": "Posso codificare interi URL?",
+            "a4": "Sì, ma tipicamente si codifica solo la parte della stringa di query. Codificare l'intero URL incluso il protocollo (https:\/\/) è meno comune e può causare problemi.",
+            "q5": "I miei dati sono al sicuro?",
+            "a5": "Sì! Tutta la codifica e decodifica avviene interamente nel tuo browser utilizzando JavaScript. I tuoi URL non lasciano mai il tuo dispositivo e non vengono inviati ad alcun server."
+        }
+    },
+    "js": {
+        "error_empty": "Inserisci un URL da elaborare",
+        "success_encode": "✓ URL codificato con successo",
+        "success_decode": "✓ URL decodificato con successo",
+        "error_process": "✗ Errore durante l'elaborazione dell'URL: ",
+        "error_no_copy": "Nessun output da copiare",
+        "success_copy": "✓ Copiato negli appunti"
+    }
+}

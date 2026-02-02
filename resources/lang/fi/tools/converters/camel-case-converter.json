@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "Online Camel Case Converter - ilmainen merkkijonomuotoilu",
+        "description": "Muunna teksti camelCase-muotoon ohjelmointia varten ilmaisella verkkotyökalullamme.",
+        "h1": "Camel Case Converter",
+        "subtitle": "Muunna teksti camelCase-muotoon ohjelmointia varten"
+    },
+    "editor": {
+        "label_input": "Syötä teksti",
+        "ph_input": "hei maailma esimerkki",
+        "btn_convert": "Muunna camelCaseksi",
+        "btn_clear": "Tyhjennä",
+        "btn_copy": "Kopioi",
+        "label_output": "Tulos (camelCase)",
+        "ph_output": "heiMaailmaEsimerkki"
+    },
+    "content": {
+        "hero_title": "camelCase-muunnin",
+        "hero_subtitle": "Lopullinen työkalu muuttujien, metodien ja ominaisuuksien nimeämiseen.",
+        "p1": "Muunna tekstisi camelCase-muotoon ilmaisella verkkomuuntimellamme. camelCase on nimeämiskäytäntö, jossa ensimmäinen sana on pienellä ja seuraavat sanat alkavat isolla kirjaimella ilman välilyöntejä. Sitä käytetään laajasti kielissä kuten JavaScript, Java ja C#.",
+        "features_title": "Ominaisuudet",
+        "features": {
+            "standard": {
+                "title": "Alan standardi",
+                "desc": "Noudattaa standardeja camelCase-sääntöjä, joita parhaat kehitystiimit käyttävät."
+            },
+            "instant": {
+                "title": "Välittömät tulokset",
+                "desc": "Saat muotoillun koodinpätkän heti muunnosnapin painamisen jälkeen."
+            },
+            "client": {
+                "title": "Yksityinen ja turvallinen",
+                "desc": "Kaikki käsittely tapahtuu omalla koneellasi – tietoja ei lähetetä palvelimillemme."
+            },
+            "bulk": {
+                "title": "Massakäsittely",
+                "desc": "Muunna useita rivejä tai pitkiä tekstijonoja kerralla."
+            },
+            "smart": {
+                "title": "Älykäs tunnistus",
+                "desc": "Käsittelee älykkäästi välilyönnit, yhdysmerkit ja alaviivat."
+            },
+            "free": {
+                "title": "100 % ilmainen",
+                "desc": "Tehokas työkalu kehittäjäyhteisön käyttöön ilman kustannuksia."
+            }
+        },
+        "uses_title": "Milloin käyttää camelCase-muotoa",
+        "uses": {
+            "js": {
+                "title": "JavaScript-koodaus",
+                "desc": "Ihanteellinen muuttujien, funktioiden ja olioiden nimeämiseen JavaScriptissä."
+            },
+            "java": {
+                "title": "Java-ohjelmointi",
+                "desc": "Standardi metodien ja kenttien nimeämiseen Java-ekosysteemissä."
+            },
+            "mobile": {
+                "title": "Mobiilikehitys",
+                "desc": "Käytetään laajasti iOS- (Swift) ja Android-kehityksessä (Kotlin)."
+            },
+            "api": {
+                "title": "API-suunnittelu",
+                "desc": "Täydellinen JSON-avainten nimeämiseen RESTful- ja GraphQL-rajapinnoissa."
+            },
+            "react": {
+                "title": "React-propsi",
+                "desc": "Standardi propsien ja tilojen nimeämiseen React- ja Vue-komponenteissa."
+            },
+            "css": {
+                "title": "Sisäänrakennettu CSS",
+                "desc": "Käytetään CSS-ominaisuuksien nimeämiseen JavaScriptissä (esim. backgroundColor)."
+            }
+        },
+        "how_title": "Miten se toimii",
+        "how_steps": {
+            "1": "Muunnin tunnistaa sanarajat (välilyönnit, alaviivat jne.).",
+            "2": "Se muuttaa ensimmäisen sanan kokonaan pieniksi kirjaimiksi.",
+            "3": "Se muuttaa kaikkien seuraavien sanojen ensimmäisen kirjaimen isoksi.",
+            "4": "Tulos yhdistetään yhdeksi merkkijonoksi ilman välilyöntejä.",
+            "5": "Käytä muunnettua camelCase-tekstiä koodissasi, muuttujien nimissä tai API-päätepisteissä johdonmukaisten nimeämiskäytäntöjen saamiseksi."
+        },
+        "examples_title": "Esimerkkejä",
+        "examples": {
+            "var": "Muuttujan nimi",
+            "var_val": "muuttujanNimi",
+            "func": "haen käyttäjän tiedot",
+            "func_val": "haenKayttajanTiedot",
+            "prop": "Taustaväri",
+            "prop_val": "taustavari",
+            "method": "lähetä painikkeen klikkaus",
+            "method_val": "lahetaPainikkeenKlikkaus"
+        },
+        "faq_title": "Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mitä on camelCase?",
+            "a1": "camelCase on tapa kirjoittaa lauseita ilman välilyöntejä, joissa jokaisen sanan ensimmäinen kirjain on iso, paitsi ensimmäisen sanan.",
+            "q2": "Onko camelCase sama asia kuin PascalCase?",
+            "a2": "Ei. PascalCase kirjoittaa myös ensimmäisen sanan isolla (MunLuokka), kun taas camelCase ei (munMuuttuja).",
+            "q3": "Miksi sitä kutsutaan camelCaseksi?",
+            "a3": "Isot kirjaimet muistuttavat kamelin selän kyttyröitä.",
+            "q4": "Voinko käyttää sitä tiedostonimissä?",
+            "a4": "Kyllä, vaikka kebab-case tai snake_case ovat usein suosituimpia URL-ystävällisissä tiedostonimissä.",
+            "q5": "Poistaako se erikoismerkit?",
+            "a5": "Kyllä, se poistaa ei-aakkosnumeeriset merkit ja käyttää niitä sanarajoina."
+        }
+    },
+    "js": {
+        "error_empty": "Syötä tekstiä muunnettavaksi",
+        "success_convert": "✓ Muunnettu camelCaseksi onnistuneesti!",
+        "error_no_copy": "Ei mitään kopioitavaa! Muunna tekstiä ensin.",
+        "success_copy": "✓ Kopioitu leikepöydälle!"
+    }
+}

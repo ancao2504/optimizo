@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "title": "URL Encoder & Decoder - Gratis online prosentverktøy",
+        "description": "Kod og dekod URL-er for sikker nettoverføring med vårt gratis onlineverktøy.",
+        "h1": "URL-koder og dekoder",
+        "subtitle": "Kod og dekod URL-er for sikker nettoverføring"
+    },
+    "editor": {
+        "btn_encode": "Kod URL",
+        "btn_decode": "Dekod URL",
+        "label_input_encode": "Skriv inn URL for å kode",
+        "ph_input": "https:\/\/example.com\/search?name=John Doe&age=30",
+        "btn_process_encode": "Kode URL",
+        "btn_clear": "Klar",
+        "btn_copy": "Kopier",
+        "label_output_encoded": "Kodet URL",
+        "ph_output": "Behandlet URL vil vises her...",
+        "label_input_decode": "Skriv inn URL for å dekode",
+        "label_output_decoded": "Dekodet URL",
+        "btn_process_decode": "Dekod URL"
+    },
+    "content": {
+        "p1": "Vårt gratis URL Encoder & Decoder-verktøy hjelper deg med å kode spesialtegn i URL-er for sikker overføring over internett, eller dekode kodede URL-er tilbake til det opprinnelige formatet. Perfekt for utviklere, SEO-fagfolk og alle som jobber med nettadresser. 100 % gratis behandling på klientsiden sikrer at dataene dine forblir private.",
+        "what_title": "Hva er URL-koding?",
+        "what_desc": "URL-koding (også kalt prosentkoding) konverterer spesialtegn i URL-er til et format som kan overføres over internett. Mellomrom blir %20, spesialtegn som & blir %26, og så videre. Dette sikrer at URL-er fungerer riktig på tvers av alle nettlesere og systemer.",
+        "features_title": "Funksjoner",
+        "features": {
+            "instant": {
+                "title": "Øyeblikkelig konvertering",
+                "desc": "Kode eller dekode URL-er i millisekunder"
+            },
+            "bidirectional": {
+                "title": "Toveis",
+                "desc": "Kod til URL-format eller dekod tilbake til originalen"
+            },
+            "privacy": {
+                "title": "Personvern først",
+                "desc": "All behandling skjer i nettleseren din"
+            },
+            "copy": {
+                "title": "Ett-klikks Kopier",
+                "desc": "Kopier kodede\/dekodede URL-er umiddelbart"
+            },
+            "free": {
+                "title": "100 % gratis",
+                "desc": "Ingen grenser, ingen registrering nødvendig"
+            },
+            "universal": {
+                "title": "Universell støtte",
+                "desc": "Fungerer med alle URL-formater og tegn"
+            }
+        },
+        "uses_title": "Vanlige brukstilfeller",
+        "uses": {
+            "query": {
+                "title": "Spørringsparametere",
+                "desc": "Kod spesialtegn i URL-spørringsstrenger for API-kall og nettforespørsler"
+            },
+            "analytics": {
+                "title": "Analytics-sporing",
+                "desc": "Kode UTM-parametere og sporings-URLer for markedsføringskampanjer"
+            },
+            "auth": {
+                "title": "Autentisering",
+                "desc": "Kod inn legitimasjon og tokens i OAuth- og API-autentisering"
+            },
+            "i18n": {
+                "title": "Internasjonalisering",
+                "desc": "Kod ikke-ASCII-tegn i URL-er for global kompatibilitet"
+            },
+            "seo": {
+                "title": "SEO og omdirigeringer",
+                "desc": "Lag riktig kodede omdirigerings-URLer og kanoniske lenker"
+            },
+            "email": {
+                "title": "E-postkoblinger",
+                "desc": "Kod inn mailto-lenker med emnelinjer og hovedinnhold"
+            }
+        },
+        "how_to_title": "Hvordan bruke",
+        "how_to": {
+            "step1": {
+                "title": "Velg Modus",
+                "desc": "Velg \"Encode URL\" eller \"Decode URL\" basert på ditt behov"
+            },
+            "step2": {
+                "title": "Skriv inn URL",
+                "desc": "Lim inn URL-en eller teksten i inndatafeltet"
+            },
+            "step3": {
+                "title": "Behandle",
+                "desc": "Klikk på \"Encode URL\" eller \"Decode URL\"-knappen"
+            },
+            "step4": {
+                "title": "Kopier resultat",
+                "desc": "Klikk \"Kopier\" for å kopiere den behandlede URL-en til utklippstavlen"
+            },
+            "step5": {
+                "title": "Bruk hvor som helst",
+                "desc": "Lim inn den kodede\/dekodede URL-adressen i applikasjonen"
+            }
+        },
+        "examples_title": "Eksempler på URL-koding",
+        "examples": {
+            "space": {
+                "title": "Space Character:",
+                "desc": "Original: \"Hello World\" â†’ Kodet: \"Hello%20World\""
+            },
+            "special": {
+                "title": "Spesialtegn:",
+                "desc": "Original: \"name=John&age=30\" â†’ Kodet: \"name%3DJohn%26age%3D30\""
+            },
+            "full": {
+                "title": "Full URL:",
+                "desc": "Original: \"https:\/\/example.com\/search?q=hello world\" â†’ Kodet: \"https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world\""
+            }
+        },
+        "faq_title": "Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Når bør jeg kode nettadresser?",
+            "a1": "Kode URL-er når du sender dem som søkeparametere, lagrer dem i databaser, eller når de inneholder spesialtegn som mellomrom, &, =, ? eller ikke-ASCII-tegn.",
+            "q2": "Hvilke tegn trenger koding?",
+            "a2": "Reserverte tegn som : \/ ? # [ ] @ ! $ & ' ( ) * + , ; = og usikre tegn som mellomrom, <, >, \", {, }, |, \\, ^, ` og ikke-ASCII-tegn må kodes.",
+            "q3": "Er URL-koding det samme som Base64?",
+            "a3": "Nei. URL-koding konverterer spesifikke tegn til %XX-format, mens Base64 koder hele data til et annet tegnsett. De tjener forskjellige formål.",
+            "q4": "Kan jeg kode hele nettadresser?",
+            "a4": "Ja, men vanligvis koder du bare søkestrengdelen. Koding av hele nettadressen inkludert protokoll (https:\/\/) er mindre vanlig og kan forårsake problemer.",
+            "q5": "Er dataene mine sikre?",
+            "a5": "Ja! All koding og dekoding skjer utelukkende i nettleseren din ved bruk av JavaScript. URL-ene dine forlater aldri enheten eller blir sendt til noen server."
+        }
+    },
+    "js": {
+        "error_empty": "Vennligst skriv inn en URL for å behandle",
+        "success_encode": "âœ“ URL-kodet vellykket",
+        "success_decode": "âœ“ URL dekodet vellykket",
+        "error_process": "✗ Feil ved behandling av URL:",
+        "error_no_copy": "Ingen utdata å kopiere",
+        "success_copy": "âœ“ Kopiert til utklippstavlen"
+    }
+}

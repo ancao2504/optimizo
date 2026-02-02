@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Alat Pemeriksa Port - Pemindai Port Terbuka Online Gratis",
+        "description": "Alat pemeriksa port gratis untuk menguji apakah port terbuka, tertutup, atau difilter. Periksa port TCP\/UDP secara instan untuk pemecahan masalah jaringan dan audit keamanan.",
+        "h1": "Alat Pemeriksa Port",
+        "subtitle": "Periksa apakah port terbuka di server mana pun untuk memecahkan masalah konektivitas"
+    },
+    "form": {
+        "host_label": "Host atau Alamat IP",
+        "host_placeholder": "contoh.com atau 8.8.8.8",
+        "port_label": "Nomor Pelabuhan",
+        "port_placeholder": "80",
+        "button": "Periksa Pelabuhan"
+    },
+    "results": {
+        "title": "Status Pelabuhan"
+    },
+    "content": {
+        "what_is_title": "Apa itu Pemeriksa Port?",
+        "what_is_desc": "Port Checker adalah alat diagnostik jaringan yang menentukan apakah port TCP atau UDP tertentu di server atau perangkat terbuka (menerima koneksi), tertutup (menolak koneksi), atau difilter (diblokir oleh firewall). Port adalah titik akhir virtual untuk komunikasi jaringan, dengan setiap nomor port (1-65535) berpotensi menampung layanan yang berbeda. Port umum mencakup 80 untuk lalu lintas web HTTP, 443 untuk HTTPS, 22 untuk SSH, dan 25 untuk email. Memeriksa status port sangat penting untuk konfigurasi jaringan, audit keamanan, dan pemecahan masalah konektivitas.",
+        "why_check_title": "Mengapa Memeriksa Port?",
+        "why_check_desc": "Pemeriksaan port memiliki berbagai tujuan penting dalam manajemen dan keamanan jaringan. Administrator sistem memverifikasi bahwa layanan dapat diakses pada port yang dituju setelah perubahan konfigurasi. Profesional keamanan memindai port terbuka untuk mengidentifikasi potensi kerentanan dan memastikan port yang tidak perlu ditutup. Pengembang menguji apakah aplikasi mereka mendengarkan dengan benar pada port yang dikonfigurasi. Pemecah masalah jaringan menggunakan pemeriksaan port untuk mendiagnosis mengapa layanan tidak dapat diakses, menentukan apakah masalahnya ada pada layanan itu sendiri, aturan firewall, atau perutean jaringan.",
+        "common_ports_title": "Pelabuhan Umum",
+        "port1": "<strong>Port 80:<\/strong> HTTP (lalu lintas web)",
+        "port2": "<strong>Port 443:<\/strong> HTTPS (lalu lintas web aman)",
+        "port3": "<strong>Port 22:<\/strong> SSH (akses shell aman)",
+        "port4": "<strong>Port 21:<\/strong> FTP (transfer file)",
+        "port5": "<strong>Port 25:<\/strong> SMTP (pengiriman email)",
+        "port6": "<strong>Port 3306:<\/strong> Basis data MySQL",
+        "port7": "<strong>Port 3389:<\/strong> RDP (Desktop Jarak Jauh)",
+        "security_title": "Implikasi Keamanan",
+        "security_desc": "Port terbuka mewakili titik masuk potensial bagi penyerang. Praktik keamanan terbaik mengharuskan hanya menjaga port yang diperlukan tetap terbuka dan menutup atau memfilter port lainnya. Memindai server Anda sendiri secara teratur membantu mengidentifikasi port terbuka yang tidak diinginkan yang dapat dieksploitasi. Namun, pemindaian port pada sistem orang lain tanpa izin mungkin ilegal dan dianggap sebagai aktivitas yang tidak bersahabat. Selalu pastikan Anda memiliki otorisasi sebelum memindai port pada sistem yang bukan milik Anda."
+    },
+    "faq": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "q1": "Apa itu pemeriksa port?",
+        "a1": "Pemeriksa port menguji apakah port jaringan tertentu di server terbuka dan menerima koneksi. Ini penting untuk memecahkan masalah server, firewall, dan layanan jaringan.",
+        "q2": "Apa port umum dan kegunaannya?",
+        "a2": "Port yang umum meliputi: 80 (HTTP), 443 (HTTPS), 21 (FTP), 22 (SSH), 25 (SMTP email), 3306 (MySQL), 3389 (Remote Desktop), 8080 (Alternatif HTTP). Setiap layanan menggunakan port tertentu untuk komunikasi.",
+        "q3": "Mengapa port saya ditutup?",
+        "a3": "Port dapat ditutup karena aturan firewall, konfigurasi router, layanan tidak berjalan, pemblokiran ISP, atau penerusan port yang salah. Periksa pengaturan firewall Anda, pastikan layanan berjalan, dan verifikasi aturan penerusan port.",
+        "q4": "Apakah aman untuk membuka port?",
+        "a4": "Membuka port akan memaparkan layanan ke internet, yang dapat menjadi risiko keamanan jika tidak dikonfigurasi dengan benar. Hanya buka port yang diperlukan, gunakan autentikasi yang kuat, selalu perbarui perangkat lunak, dan pertimbangkan untuk menggunakan VPN untuk layanan sensitif.",
+        "q5": "Apa perbedaan antara port TCP dan UDP?",
+        "a5": "Port TCP menyediakan pengiriman data yang andal dan teratur (digunakan untuk web, email, transfer file). Port UDP lebih cepat tetapi tidak menjamin pengiriman (digunakan untuk bermain game, streaming, DNS). Keduanya dapat menggunakan nomor port yang sama."
+    },
+    "js": {
+        "checking": "Memeriksa status port...",
+        "success": "Pemeriksaan port selesai",
+        "error": "Pemeriksaan port gagal",
+        "check_port": "Periksa Pelabuhan"
+    }
+}

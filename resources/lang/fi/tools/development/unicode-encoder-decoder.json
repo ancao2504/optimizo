@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode Encoder & Dekooderi - ilmainen online-tekstityökalu",
+        "description": "Koodaa ja purkaa Unicode-pakosekvenssit JavaScriptille ja JSONille ilmaisella työkalullamme.",
+        "h1": "Unicode-kooderi ja dekooderi",
+        "subtitle": "Koodaa ja pura Unicode-pakosarjat JavaScriptille ja JSONille"
+    },
+    "editor": {
+        "btn_encode": "Koodaa Unicode",
+        "btn_decode": "Pura Unicode",
+        "label_input_encode": "Syötä koodattava teksti",
+        "ph_input": "Hei ä¸–ç•Œ",
+        "btn_process_encode": "Koodaa Unicode",
+        "btn_clear": "Selkeä",
+        "btn_copy": "Kopioida",
+        "label_output_encoded": "Koodattu Unicode",
+        "ph_output": "Käsitelty Unicode näkyy täällä...",
+        "label_input_decode": "Kirjoita Unicode purkaaksesi",
+        "label_output_decoded": "Dekoodattu teksti",
+        "btn_process_decode": "Pura Unicode"
+    },
+    "content": {
+        "p1": "Ilmainen Unicode Encoder & Decoder -työkalumme auttaa sinua koodaamaan tekstiä Unicode-poistosekvensseihin (esim. \\u0041) turvallista käyttöä varten JavaScriptissä, JSONissa ja muissa ohjelmointikonteksteissa tai purkaa ne takaisin luettavaksi tekstiksi. Täydellinen kehittäjille, data-analyytikoille ja kaikille kansainvälisiä merkistöjä käsitteleville. 100 % ilmainen, asiakaspuolen käsittely varmistaa, että tietosi pysyvät yksityisinä.",
+        "what_title": "Mikä on Unicode-koodaus?",
+        "what_desc": "Unicode-koodaus muuntaa merkit vastaaviksi Unicode-koodipisteiksi, jotka usein esitetään erotussarjoina, kuten \\uXXXX. Tämä varmistaa, että erikoismerkkejä, hymiöitä tai ei-latinalaisia ​​skriptejä sisältävä teksti voidaan esittää turvallisesti ympäristöissä, jotka tukevat yleensä vain ASCII:ta, kuten lähdekooditiedostot tai JSON-tiedot.",
+        "features_title": "Ominaisuudet",
+        "features": {
+            "instant": {
+                "title": "Välitön muunnos",
+                "desc": "Koodaa tai purkaa Unicode millisekunteina"
+            },
+            "bidirectional": {
+                "title": "Kaksisuuntainen",
+                "desc": "Koodaa Unicode-muotoon tai purkaa takaisin alkuperäiseen"
+            },
+            "privacy": {
+                "title": "Yksityisyys ensin",
+                "desc": "Kaikki käsittely tapahtuu selaimessasi"
+            },
+            "copy": {
+                "title": "Kopioi yhdellä napsautuksella",
+                "desc": "Kopioi koodattu\/dekoodattu teksti välittömästi"
+            },
+            "free": {
+                "title": "100 % ilmainen",
+                "desc": "Ei rajoituksia, ei vaadi rekisteröitymistä"
+            },
+            "universal": {
+                "title": "Universaali tuki",
+                "desc": "Toimii kaikkien Unicode-merkkien ja skriptien kanssa"
+            }
+        },
+        "uses_title": "Yleiset käyttötapaukset",
+        "uses": {
+            "programming": {
+                "title": "Ohjelmointi",
+                "desc": "Upota erikoismerkit turvallisesti JavaScriptiin tai Java-lähdekoodiin"
+            },
+            "data": {
+                "title": "Tietojen serialisointi",
+                "desc": "Varmista muiden kuin ASCII-merkkien turvallinen lähetys JSONissa"
+            },
+            "international": {
+                "title": "Kansainvälistyminen",
+                "desc": "Tee virheenkorjaus ja näytä tekstiä eri kielillä ja skripteillä"
+            },
+            "security": {
+                "title": "Turvallisuus",
+                "desc": "Analysoi hämärtynyt koodi tai tiedot, jotka sisältävät Unicode-poikkeamat"
+            }
+        },
+        "how_to_title": "Kuinka käyttää",
+        "how_to": {
+            "step1": {
+                "title": "Valitse Tila",
+                "desc": "Valitse \"Encode Unicode\" tai \"Decode Unicode\" tarpeidesi mukaan"
+            },
+            "step2": {
+                "title": "Kirjoita teksti",
+                "desc": "Liitä teksti tai Unicode-koodinvaihtomerkit syöttökenttään"
+            },
+            "step3": {
+                "title": "Käsitellä",
+                "desc": "Napsauta koodaus- tai dekoodauspainiketta"
+            },
+            "step4": {
+                "title": "Kopioi tulos",
+                "desc": "Napsauta \"Kopioi\" kopioidaksesi käsitellyn tekstin leikepöydälle"
+            },
+            "step5": {
+                "title": "Käytä missä tahansa",
+                "desc": "Liitä tulos koodiisi tai sovellukseesi"
+            }
+        },
+        "examples_title": "Unicode-esimerkkejä",
+        "examples": {
+            "simple": {
+                "title": "Yksinkertainen\/ASCII:",
+                "desc": "Alkuperäinen: \"A\" â†' Koodattu: \"\\u0041\""
+            },
+            "special": {
+                "title": "Erikoishahmot:",
+                "desc": "Alkuperäinen: \"Â©\" â†' Koodattu: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emojit\/Monitavuinen:",
+                "desc": "Alkuperäinen: \"ðŸŒŸ\" â†' Koodattu: \"\\uD83C\\uDF1F\" (korvausparit) tai \"\\u2B50\" esityksestä riippuen"
+            }
+        },
+        "faq_title": "Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Miksi käyttää Unicode-pakojaksoja?",
+            "a1": "Niiden avulla voit esittää minkä tahansa merkin käyttämällä vain ASCII-merkkejä, mikä varmistaa yhteensopivuuden eri järjestelmien, koodausten ja tiedostojen välillä, jotka eivät ehkä käsittele Unicodea oikein.",
+            "q2": "Mitä formaattia käytetään?",
+            "a2": "Tämä työkalu käyttää tavallisesti JavaScript\/JSON-tyyliä \\uXXXX muotoa monikielisten perusmerkkien luomiseen.",
+            "q3": "Eroaako tämä URL-koodauksesta?",
+            "a3": "Kyllä. URL-koodaus käyttää %XX heksadesimaaliarvoa pääasiassa URL-osoitteissa. Unicode-koodin poisto käyttää koodia \\uXXXX, ja sitä käytetään merkkijonoissa ohjelmointikielissä, kuten JavaScript, Java ja Python.",
+            "q4": "Ovatko tietoni turvassa?",
+            "a4": "Kyllä! Kaikki koodaus ja koodauksen purku tapahtuu kokonaan selaimessasi JavaScriptin avulla. Tekstisi ei koskaan poistu laitteestasi."
+        }
+    },
+    "js": {
+        "error_empty": "Kirjoita käsiteltävä teksti",
+        "success_encode": "âœ“ Unicode-koodaus onnistui",
+        "success_decode": "âœ“ Unicode-koodin purkaminen onnistui",
+        "error_process": "✗ Virhe Unicoden käsittelyssä:",
+        "error_no_copy": "Ei tulostetta kopioitavaksi",
+        "success_copy": "âœ“ Kopioitu leikepöydälle"
+    }
+}

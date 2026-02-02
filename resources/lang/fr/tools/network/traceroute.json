@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online - Outil d'analyse de réseau gratuit",
+        "description": "Outil de traceroute en ligne gratuit. Rapide, sécurisé et facile à utiliser.",
+        "h1": "Traceroute",
+        "subtitle": "Le meilleur traceroute pour les développeurs et les professionnels de l'informatique"
+    },
+    "form": {
+        "host_label": "Hôte ou adresse IP",
+        "host_placeholder": "ex: google.com",
+        "button": "Tracer l'itinéraire",
+        "button_loading": "Traçage en cours..."
+    },
+    "results": {
+        "title": "Résultats du traceroute"
+    },
+    "content": {
+        "what_is_title": "Qu'est-ce que le Traceroute ?",
+        "what_is_desc": "Traceroute est un outil de diagnostic réseau utilisé pour suivre le chemin emprunté par un paquet de données depuis votre ordinateur jusqu'à une destination spécifique. Il affiche chaque \"saut\" (hop) ou routeur par lequel le paquet passe, ainsi que le temps de réponse pour chaque saut. C'est un outil essentiel pour identifier où les ralentissements ou les pannes se produisent sur internet.",
+        "why_use_title": "Pourquoi utiliser le Traceroute ?",
+        "why_use_desc": "Le traceroute aide à visualiser le parcours des données à travers internet. Si vous n'arrivez pas à accéder à un site web, le traceroute peut vous dire si le problème est proche de vous, chez votre fournisseur d'accès ou plus loin sur le réseau mondial. Il est utilisé par les techniciens réseau pour diagnostiquer les problèmes de routage et de performance.",
+        "hops_title": "Comprendre les étapes (Sauts)",
+        "hop1": "Chaque ligne représente un saut vers un nouveau routeur.",
+        "hop2": "L'adresse IP de chaque routeur est affichée.",
+        "hop3": "Les temps de réponse sont indiqués en millisecondes (ms).",
+        "hop4": "Des astérisques (*) indiquent qu'un routeur n'a pas répondu à temps.",
+        "hop5": "Plus le nombre de sauts est élevé, plus le chemin est long.",
+        "hop6": "Les variations brusques de temps de réponse signalent des goulots d'étranglement.",
+        "issues_title": "Problèmes courants",
+        "issues_desc": "Parfois, certains routeurs bloquent les requêtes de traceroute pour des raisons de sécurité, ce qui affiche des délais expirés (Timeouts). Cela ne signifie pas nécessairement que le réseau est en panne, mais simplement que le routeur refuse de renvoyer l'information."
+    },
+    "faq": {
+        "title": "Foire aux questions",
+        "q1": "Quelle est la différence entre Ping et Traceroute ?",
+        "a1": "Le Ping vérifie simplement si un hôte est accessible. Le Traceroute montre l'itinéraire complet pour y parvenir.",
+        "q2": "Pourquoi certains sauts affichent-ils des étoiles (*) ?",
+        "a2": "Les étoiles signifient que le routeur à cette étape n'a pas répondu à la requête. Cela arrive souvent car certains routeurs sont configurés pour ignorer ces paquets par sécurité.",
+        "q3": "Combien de sauts sont normaux ?",
+        "a3": "En moyenne, un trajet sur internet prend entre 10 et 20 sauts. Au-delà de 30 sauts, on considère généralement que la destination est inaccessible ou qu'il y a une boucle."
+    }
+}

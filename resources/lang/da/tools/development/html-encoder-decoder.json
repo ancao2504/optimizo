@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML Encoder & Decoder - Gratis Online Entity Tool",
+        "description": "Indkod og afkod HTML-enheder øjeblikkeligt - konverter specialtegn til HTML-sikre strenge",
+        "h1": "HTML Encoder & Decoder",
+        "subtitle": "Indkod og afkod HTML-enheder øjeblikkeligt"
+    },
+    "editor": {
+        "mode_encode": "Indkode HTML",
+        "mode_decode": "Afkode HTML",
+        "label_input_encode": "Indtast HTML for at kode",
+        "ph_input_encode": "<div>Hej og velkommen<\/div>",
+        "btn_encode": "Indkod",
+        "btn_clear": "Klar",
+        "btn_copy": "Kopier",
+        "label_output_encode": "Kodet HTML",
+        "ph_output": "Bearbejdet HTML vises her...",
+        "label_input_decode": "Indtast HTML for at afkode",
+        "label_output_decode": "Afkodet HTML",
+        "btn_decode": "Afkod"
+    },
+    "content": {
+        "hero_title": "Gratis HTML Indkoder & Afkoder",
+        "hero_subtitle": "Indkode og afkode HTML-enheder for at forhindre XSS-angreb",
+        "p1": "Konverter specialtegn nemt til deres tilsvarende HTML-enheder og omvendt. Vores værktøj sikrer, at din tekst vises sikkert i browsere ved at undslippe reserverede tegn som <, >, & og \".",
+        "what_title": "🔗 Hvad er HTML-kodning?",
+        "what_desc": "HTML-kodning konverterer tegn, der har særlig betydning i HTML (som <, >, &, \") til deres tilsvarende HTML-enheder (som &lt;, &gt;, &amp;, &quot;). Dette forhindrer browseren i at fortolke dem som HTML-tags, hvilket er afgørende for at forhindre Cross-Site Scripting (XSS)-angreb.",
+        "features_title": "✨ Nøglefunktioner",
+        "features": {
+            "fast": {
+                "title": "Øjeblikkelig konvertering",
+                "desc": "Indkode eller afkode HTML i millisekunder"
+            },
+            "bidirectional": {
+                "title": "Tovejs",
+                "desc": "Indkode specialtegn eller afkode enheder tilbage til tekst"
+            },
+            "privacy": {
+                "title": "Privatliv først",
+                "desc": "Al behandling foregår i din browser"
+            },
+            "copy": {
+                "title": "Kopier med ét klik",
+                "desc": "Kopier behandlet HTML til udklipsholder med det samme"
+            },
+            "free": {
+                "title": "100 % gratis",
+                "desc": "Ingen grænser, ingen registrering nødvendig"
+            },
+            "safe": {
+                "title": "Sikre Specialtegn",
+                "desc": "Håndterer alle HTML reserverede tegn korrekt"
+            }
+        },
+        "uses_title": "🎯 Almindelige tilfælde",
+        "uses": {
+            "security": {
+                "title": "🔒 Sikkerhed",
+                "desc": "Rengør brugerinput for at forhindre XSS-angreb ved at indkode specialtegn."
+            },
+            "display": {
+                "title": "💻 Kodedisplay",
+                "desc": "Vis rå HTML-kode på en webside uden at den gengives af browseren."
+            },
+            "data": {
+                "title": "📊 Datalagring",
+                "desc": "Gem indhold sikkert i databaser uden at bekymre dig om problemer med HTML-parsing."
+            },
+            "email": {
+                "title": "📧 E-mail skabeloner",
+                "desc": "Sørg for, at specialtegn gengives korrekt i HTML-e-mails."
+            }
+        },
+        "how_title": "📚 Sådan bruges",
+        "how_steps": {
+            "1": "Indsæt din HTML eller tekst i inputfeltet",
+            "2": "Klik på procesknappen for at konvertere",
+            "3": "Kopier resultatet til udklipsholderen",
+            "4": "Kopier det kodede\/dekodede resultat og brug det i dine HTML-, XML- eller webapplikationer."
+        },
+        "examples_title": "💡 HTML-kodningseksempler",
+        "examples": {
+            "1": {
+                "title": "Citater:",
+                "code": "\"Hej\" â†’ &quot;Hej&quot;"
+            },
+            "2": {
+                "title": "ampersand:",
+                "code": "Tom & Jerry â†’ Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Indkodning af specialtegn",
+                "code": "&lt;script&gt;alert(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&amp;gt;"
+            }
+        },
+        "faq_title": "❓ Ofte Stillede Spørgsmål",
+        "faq": {
+            "q1": "Hvorfor skal jeg indkode HTML?",
+            "a1": "HTML-indkodning forhindrer browsere i at fortolke specialtegn som HTML-kode. Dette er afgørende for sikkerhed (forhindring af XSS) og visning af kodeeksempler.",
+            "q2": "Hvilke tegn bliver indkodet?",
+            "a2": "Vigtige tegn inkluderer < (&lt;), > (&gt;), & (&amp;), \" (&quot;) og ' (&#039;).",
+            "q3": "Er det reversibelt?",
+            "a3": "Ja, afkodning vender processen nøjagtigt om, og genopretter den originale tekst."
+        }
+    },
+    "js": {
+        "error_empty": "Indtast venligst tekst at behandle",
+        "success_encode": "âœ“ HTML kodet med succes",
+        "success_decode": "âœ“ HTML afkodet med succes",
+        "error_process": "✗ Fejl ved behandling af HTML:",
+        "error_no_copy": "Intet output at kopiere",
+        "success_copy": "Resultat kopieret!"
+    }
+}

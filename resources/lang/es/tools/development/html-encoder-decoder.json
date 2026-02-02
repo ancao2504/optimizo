@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "Codificador y decodificador HTML: herramienta de entidad en línea gratuita",
+        "description": "Codifica y decodifica entidades HTML para prevenir ataques XSS y mostrar código de forma segura.",
+        "h1": "Codificador y decodificador HTML",
+        "subtitle": "Convierte caracteres especiales de HTML en entidades y viceversa"
+    },
+    "editor": {
+        "mode_encode": "Codificar HTML",
+        "mode_decode": "Decodificar HTML",
+        "label_input_encode": "Ingresa HTML para codificar",
+        "ph_input_encode": "<div>Hola y Bienvenido<\/div>",
+        "btn_encode": "Codificar HTML",
+        "btn_clear": "Limpiar",
+        "btn_copy": "Copiar",
+        "label_output_encode": "HTML Codificado",
+        "ph_output": "El HTML procesado aparecerá aquí...",
+        "label_input_decode": "Ingresa HTML para decodificar",
+        "label_output_decode": "HTML Decodificado",
+        "btn_decode": "Decodificar HTML"
+    },
+    "content": {
+        "hero_title": "Escapado y Decodificación HTML",
+        "hero_subtitle": "Muestra código de forma segura en tus páginas web.",
+        "p1": "Nuestra herramienta ayuda a convertir caracteres especiales de HTML (como <, >, &) en sus entidades correspondientes para prevenir vulnerabilidades XSS.",
+        "what_title": "¿Qué es la codificación HTML?",
+        "what_desc": "Es el proceso de reemplazar caracteres con significado especial por entidades (ej. &lt; en lugar de <) para que el navegador no los interprete como etiquetas.",
+        "features_title": "Características",
+        "features": {
+            "fast": {
+                "title": "Conversión Instantánea",
+                "desc": "Codifica o decodifica HTML en milisegundos."
+            },
+            "bidirectional": {
+                "title": "Bidireccional",
+                "desc": "Codifica caracteres especiales o decodifica entidades a texto"
+            },
+            "privacy": {
+                "title": "Privacidad",
+                "desc": "Todo el proceso ocurre en tu navegador."
+            },
+            "copy": {
+                "title": "Copia en un clic",
+                "desc": "Copia el HTML procesado al portapapeles al instante"
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "Sin límites, no requiere registro"
+            },
+            "safe": {
+                "title": "Seguridad Enfocada",
+                "desc": "Ayuda a prevenir vulnerabilidades XSS"
+            }
+        },
+        "uses_title": "Casos de uso",
+        "uses": {
+            "security": {
+                "title": "Seguridad",
+                "desc": "Saneamiento de entradas de usuario para prevenir ataques XSS."
+            },
+            "display": {
+                "title": "Mostrar Código",
+                "desc": "Muestra código HTML bruto en una web sin que se renderice."
+            },
+            "data": {
+                "title": "📊 Almacenamiento de Datos",
+                "desc": "Almacena contenido de forma segura en bases de datos sin problemas de parsing."
+            },
+            "email": {
+                "title": "📧 Plantillas de Email",
+                "desc": "Asegura que los caracteres especiales se rendericen bien en emails HTML."
+            }
+        },
+        "how_title": "📚 Cómo Usar",
+        "how_steps": {
+            "1": "Pega tu HTML o texto en el campo de entrada",
+            "2": "Haz clic en el botón para procesar y convertir",
+            "3": "Copia el resultado al portapapeles",
+            "4": "Úsalo para prevenir vulnerabilidades XSS en tu sitio."
+        },
+        "examples_title": "💡 Ejemplos de Codificación HTML",
+        "examples": {
+            "1": {
+                "title": "Comillas:",
+                "code": "\"Hola\" → &quot;Hola&quot;"
+            },
+            "2": {
+                "title": "Ampersand:",
+                "code": "Tom & Jerry → Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Paréntesis angulares:",
+                "code": "<div> → &lt;div&gt;"
+            }
+        },
+        "faq_title": "Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Por qué codificar HTML?",
+            "a1": "Es esencial por seguridad para evitar que el navegador ejecute scripts maliciosos (XSS) y mostrar código correctamente.",
+            "q2": "¿Qué caracteres se codifican?",
+            "a2": "Caracteres clave como <, >, &, \", y ' siempre se codifican. También caracteres ASCII extendidos.",
+            "q3": "¿Es reversible?",
+            "a3": "Sí, la decodificación restaura el texto original exactamente."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor ingresa HTML para procesar",
+        "success_encode": "✓ HTML codificado con éxito",
+        "success_decode": "✓ HTML decodificado con éxito",
+        "error_process": "✗ Error al procesar HTML: ",
+        "error_no_copy": "No hay salida para copiar",
+        "success_copy": "✓ ¡Copiado al portapapeles!"
+    }
+}

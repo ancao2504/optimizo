@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker - Gratis Online Tag Validator",
+        "description": "Sjekk hreflang-taggene dine for å sikre at Google viser riktig URL for din målgruppe og språk.",
+        "h1": "Hreflang Checker",
+        "subtitle": "Gratis verktøy for å trekke ut og validere hreflang-attributter for internasjonal SEO"
+    },
+    "form": {
+        "url_label": "Skriv inn URL for å sjekke",
+        "url_placeholder": "https:\/\/example.com\/page",
+        "user_agent_label": "Brukeragent (User Agent)",
+        "user_agent_default": "Standard (Nettleser)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Sjekk Hreflang-tagger"
+    },
+    "content": {
+        "main_title": "Hreflang-taggkontroll",
+        "main_subtitle": "Sørg for at ditt internasjonale innhold når riktig publikum. Valider hreflang-implementering og fiks vanlige SEO-feil.",
+        "intro": "Hreflang-tagger er avgjørende for nettsteder som betjener flere språk eller land. Vårt gratis verktøy trekker ut og validerer `rel=\"alternate\" hreflang=\"x\"`-tagger fra HTML og HTTP-headere. Det sjekker returtagger for å sikre at lokalisert innhold indekseres riktig i Google og andre søkemotorer.",
+        "features_title": "Hvorfor sjekke Hreflang-tagger?",
+        "feature1_title": "Validering av returtagger",
+        "feature1_desc": "Hreflang-tagger må fungere i par. Verktøyet vårt sjekker automatisk om Side A lenker til Side B, og om Side B lenker tilbake til Side A.",
+        "feature2_title": "Oppdag vanlige feil",
+        "feature2_desc": "Finn manglende returtagger, ugyldige språkkoder (ISO 639-1) og feil landskoder (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Forhindre SEO-problemer",
+        "feature3_desc": "Feil hreflang-implementering kan føre til problemer med duplikatinnhold og at feil språkversjon vises i søkeresultatene.",
+        "how_title": "Hvordan bruke Hreflang-sjekkeren",
+        "step1_title": "Skriv inn URL",
+        "step1_desc": "Lim inn fullstendig URL til siden du vil analysere (f.eks. https:\/\/example.com).",
+        "step2_title": "Velg brukeragent",
+        "step2_desc": "Det anbefales å sjekke som Googlebot, men du kan også sjekke som en standard nettleser.",
+        "step3_title": "Analyser resultater",
+        "step3_desc": "Vi henter siden og viser en liste over alle alternative lenker som er funnet, samt deres valideringsstatus.",
+        "step4_title": "Fiks problemer",
+        "step4_desc": "Hvis du ser en 'Missing Return Tag'-feil, oppdater den refererte siden for å inkludere en gjensidig lenke.",
+        "faq_title": "Ofte stilte spørsmål",
+        "faq1_q": "Hva er en hreflang-tagg?",
+        "faq1_a": "Hreflang er en HTML-attributt som brukes til å spesifisere språk og geografisk målretting for en nettside. Det forteller søkemotorer hvilken versjon av siden som skal vises til brukere basert på deres språk eller region.",
+        "faq2_q": "Hvorfor er returtagger viktige?",
+        "faq2_a": "Google krever returtagger for å forhindre at noen andre hevder at en side på et annet nettsted er deres alternative versjon. Hvis Side A lenker til Side B, må Side B lenke tilbake til Side A.",
+        "faq3_q": "Sjekker dette verktøyet x-default?",
+        "faq3_a": "Ja, verktøyet vårt identifiserer og validerer `x-default`-taggen, som brukes når ingen andre språk samsvarer eller for en hovedspråkvalgside.",
+        "faq4_q": "Kan jeg sjekke hreflang i HTTP-headere?",
+        "faq4_a": "Ja! Vi sjekker både HTML `<head>`-seksjonen og `Link: <url>; rel=\"alternate\"; hreflang=\"code\"`-attributter i HTTP-responsheadere.",
+        "faq5_q": "Hva skjer hvis det er hreflang-feil?",
+        "faq5_a": "Søkemotorer kan ignorere ugyldige tagger, noe som kan føre til at feil språkversjon vises til brukere, eller straff for duplikatinnhold.",
+        "faq6_q": "Er dette verktøyet gratis?",
+        "faq6_a": "Ja, du kan utføre ubegrensede sjekker gratis for å sikre perfekt internasjonal SEO."
+    }
+}

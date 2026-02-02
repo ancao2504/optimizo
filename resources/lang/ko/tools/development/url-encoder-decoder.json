@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "title": "URL 인코더 및 디코더 - 무료 온라인 백분율 도구",
+        "description": "웹 주소의 특수 문자를 즉시 인코딩하거나 복원하세요. URL 안전 전송을 위한 무료 온라인 도구.",
+        "h1": "URL 인코더 및 디코더",
+        "subtitle": "웹 상의 안전한 전송을 위해 URL을 인코딩하거나 디코딩하세요"
+    },
+    "editor": {
+        "btn_encode": "URL 인코딩",
+        "btn_decode": "URL 디코딩",
+        "label_input_encode": "인코딩할 URL 입력",
+        "ph_input": "https:\/\/example.com\/search?q=안녕 월드&age=30",
+        "btn_process_encode": "URL 인코딩 수행",
+        "btn_clear": "지우기",
+        "btn_copy": "복사",
+        "label_output_encoded": "인코딩된 결과",
+        "ph_output": "처리된 URL이 여기에 표시됩니다...",
+        "label_input_decode": "디코딩할 URL 입력",
+        "label_output_decoded": "복원된 결과",
+        "btn_process_decode": "URL 디코딩 수행"
+    },
+    "content": {
+        "p1": "웹 브라우저는 주소창에 특정 문자들만 포함할 것을 허용합니다. 공백이나 한글, 특수 기호가 섞인 URL을 공유하거나 API 호출에 써야 할 때 퍼센트 인코딩(%XX)은 필수입니다. 당사의 도구는 이를 즉시 해결해 주며, 모든 연산은 로컬에서 이루어져 보안상 완벽하게 안전합니다.",
+        "what_title": "🌐 URL 인코딩이란?",
+        "what_desc": "퍼센트 인코딩이라고도 불리는 URL 인코딩은 인터넷을 통해 전송되는 URL 내의 안전하지 않은 문자들을 %와 16진수 숫자의 조합으로 바꾸는 과정입니다. 예를 들어 공백은 %20으로, 한글 '가'는 UTF-8 기준 %EA%B0%80로 변환되어 어떤 시스템에서도 주소 오류 없이 전달되도록 돕습니다.",
+        "features_title": "Features",
+        "features": {
+            "instant": {
+                "title": "실시간 처리",
+                "desc": "입력과 동시에 즉성에서 인코딩\/디코딩 결과를 보여줍니다."
+            },
+            "bidirectional": {
+                "title": "Bidirectional",
+                "desc": "Encode to URL format or decode back to original"
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All processing happens in your browser"
+            },
+            "copy": {
+                "title": "One-Click Copy",
+                "desc": "Copy encoded\/decoded URLs instantly"
+            },
+            "free": {
+                "title": "100% Free",
+                "desc": "No limits, no registration required"
+            },
+            "universal": {
+                "title": "Universal Support",
+                "desc": "Works with all URL formats and characters"
+            }
+        },
+        "uses_title": "Common Use Cases",
+        "uses": {
+            "query": {
+                "title": "Query Parameters",
+                "desc": "Encode special characters in URL query strings for API calls and web requests"
+            },
+            "analytics": {
+                "title": "Analytics Tracking",
+                "desc": "Encode UTM parameters and tracking URLs for marketing campaigns"
+            },
+            "auth": {
+                "title": "Authentication",
+                "desc": "Encode credentials and tokens in OAuth and API authentication"
+            },
+            "i18n": {
+                "title": "Internationalization",
+                "desc": "Encode non-ASCII characters in URLs for global compatibility"
+            },
+            "seo": {
+                "title": "SEO & Redirects",
+                "desc": "Create properly encoded redirect URLs and canonical links"
+            },
+            "email": {
+                "title": "Email Links",
+                "desc": "Encode mailto links with subject lines and body content"
+            }
+        },
+        "how_to_title": "How to Use",
+        "how_to": {
+            "step1": {
+                "title": "Choose Mode",
+                "desc": "Select \"Encode URL\" or \"Decode URL\" based on your need"
+            },
+            "step2": {
+                "title": "Enter URL",
+                "desc": "Paste your URL or text in the input field"
+            },
+            "step3": {
+                "title": "Process",
+                "desc": "Click \"Encode URL\" or \"Decode URL\" button"
+            },
+            "step4": {
+                "title": "Copy Result",
+                "desc": "Click \"Copy\" to copy the processed URL to clipboard"
+            },
+            "step5": {
+                "title": "Use Anywhere",
+                "desc": "Paste the encoded\/decoded URL in your application"
+            }
+        },
+        "examples_title": "URL Encoding Examples",
+        "examples": {
+            "space": {
+                "title": "Space Character:",
+                "desc": "Original: \"Hello World\" â†’ Encoded: \"Hello%20World\""
+            },
+            "special": {
+                "title": "Special Characters:",
+                "desc": "Original: \"name=John&age=30\" â†’ Encoded: \"name%3DJohn%26age%3D30\""
+            },
+            "full": {
+                "title": "Full URL:",
+                "desc": "Original: \"https:\/\/example.com\/search?q=hello world\" â†’ Encoded: \"https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world\""
+            }
+        },
+        "faq_title": "❓ URL 인코딩 FAQ",
+        "faq": {
+            "q1": "Base64 인코딩과 같은 건가요?",
+            "a1": "아니요, URL 인코딩은 오직 웹 주소 체계에 맞추기 위한 것이고, Base64는 이진 데이터를 텍스트로 바꾸는 범용 인코딩입니다. 목적이 완전히 다릅니다.",
+            "q2": "전체 주소를 다 인코딩해야 하나요?",
+            "a2": "일반적으로는 '?' 뒤에 오는 파라미터(쿼리 스트링) 부분만 인코딩하는 것이 올바른 사용법입니다.",
+            "q3": "Is URL encoding the same as Base64?",
+            "a3": "No. URL encoding converts specific characters to %XX format, while Base64 encodes entire data into a different character set. They serve different purposes.",
+            "q4": "Can I encode entire URLs?",
+            "a4": "Yes, but typically you only encode the query string portion. Encoding the entire URL including protocol (https:\/\/) is less common and may cause issues.",
+            "q5": "Is my data secure?",
+            "a5": "Yes! All encoding and decoding happens entirely in your browser using JavaScript. Your URLs never leave your device or get sent to any server."
+        }
+    },
+    "js": {
+        "error_empty": "처리할 내용을 입력하세요",
+        "success_encode": "✓ URL 인코딩 성공!",
+        "success_decode": "✓ URL 디코딩 성공!",
+        "error_process": "✗ 처리 중 오류 발생: ",
+        "error_no_copy": "No output to copy",
+        "success_copy": "✓ 클립보드에 복사되었습니다"
+    }
+}

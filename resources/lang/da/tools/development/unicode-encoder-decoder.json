@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode Encoder & Decoder - Gratis online tekstværktøj",
+        "description": "Kod og dekod Unicode escape-sekvenser til JavaScript og JSON med vores gratis værktøj.",
+        "h1": "Unicode Encoder & Decoder",
+        "subtitle": "Kod og dekod Unicode escape-sekvenser til JavaScript og JSON"
+    },
+    "editor": {
+        "btn_encode": "Kod Unicode",
+        "btn_decode": "Dekod Unicode",
+        "label_input_encode": "Indtast Tekst til Kodning",
+        "ph_input": "Hej Verden",
+        "btn_process_encode": "Kod Unicode",
+        "btn_clear": "Ryd",
+        "btn_copy": "Kopier",
+        "label_output_encoded": "Kodet Unicode",
+        "ph_output": "Behandlet Unicode vil vises her...",
+        "label_input_decode": "Indtast Unicode til Dekodning",
+        "label_output_decoded": "Dekodet Tekst",
+        "btn_process_decode": "Dekod Unicode"
+    },
+    "content": {
+        "p1": "Vores gratis Unicode Encoder & Decoder værktøj hjælper dig med at kode tekst til Unicode escape-sekvenser (f.eks. \\u0041) til sikker brug i JavaScript, JSON og andre programmeringskontekster, eller dekode dem tilbage til læsbar tekst. Perfekt til udviklere, dataanalytikere og alle, der arbejder med internationale tegnsæt. 100% gratis, klient-side behandling sikrer, at dine data forbliver private.",
+        "what_title": "Hvad er Unicode Kodning?",
+        "what_desc": "Unicode kodning konverterer tegn til deres tilsvarende Unicode kodepunkter, ofte repræsenteret som escape-sekvenser som \\uXXXX. Dette sikrer, at tekst, der indeholder specialtegn, emojis eller ikke-latinske scripts, kan repræsenteres sikkert i miljøer, der typisk kun understøtter ASCII, såsom kildekode-filer eller JSON-data.",
+        "features_title": "Funktioner",
+        "features": {
+            "instant": {
+                "title": "Øjeblikkelig konvertering",
+                "desc": "Indkode eller afkode Unicode i millisekunder"
+            },
+            "bidirectional": {
+                "title": "Tovejs",
+                "desc": "Kod til Unicode-format eller dekod tilbage til original"
+            },
+            "privacy": {
+                "title": "Privatliv Først",
+                "desc": "Al behandling sker i din browser"
+            },
+            "copy": {
+                "title": "Kopier med ét klik",
+                "desc": "Kopier kodet\/afkodet tekst med det samme"
+            },
+            "free": {
+                "title": "100 % gratis",
+                "desc": "Ingen grænser, ingen registrering nødvendig"
+            },
+            "universal": {
+                "title": "Universal Understøttelse",
+                "desc": "Fungerer med alle Unicode-tegn og scripts"
+            }
+        },
+        "uses_title": "Almindelige Anvendelser",
+        "uses": {
+            "programming": {
+                "title": "Programmering",
+                "desc": "Indlejr specialtegn i JavaScript eller Java kildekode sikkert"
+            },
+            "data": {
+                "title": "Data Serialisering",
+                "desc": "Sikr sikker transmission af ikke-ASCII tegn i JSON"
+            },
+            "international": {
+                "title": "Internationalisering",
+                "desc": "Debug og vis tekst på forskellige sprog og scripts"
+            },
+            "security": {
+                "title": "Sikkerhed",
+                "desc": "Analyser obfuskeret kode eller data, der indeholder Unicode escapes"
+            }
+        },
+        "how_to_title": "Sådan Bruges Det",
+        "how_to": {
+            "step1": {
+                "title": "Vælg Tilstand",
+                "desc": "Vælg \"Kod Unicode\" eller \"Dekod Unicode\" baseret på dit behov"
+            },
+            "step2": {
+                "title": "Indtast Tekst",
+                "desc": "Indsæt din tekst eller Unicode escapes i inputfeltet"
+            },
+            "step3": {
+                "title": "Behandl",
+                "desc": "Klik på kod- eller dekod-knappen"
+            },
+            "step4": {
+                "title": "Kopier Resultat",
+                "desc": "Klik \"Kopier\" for at kopiere den behandlede tekst til udklipsholder"
+            },
+            "step5": {
+                "title": "Brug Hvor Som Helst",
+                "desc": "Indsæt resultatet i din kode eller applikation"
+            }
+        },
+        "examples_title": "Unicode Eksempler",
+        "examples": {
+            "simple": {
+                "title": "Simpel\/ASCII:",
+                "desc": "Original: \"A\" â†’ Kodet: \"\\u0041\""
+            },
+            "special": {
+                "title": "Specialtegn:",
+                "desc": "Original: \"©\" → Kodet: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emojis\/Multi-byte:",
+                "desc": "Original: \"🌟\" → Kodet: \"\\uD83C\\uDF1F\" (surrogate pairs) eller \"\\u2B50\" afhængigt af repræsentation"
+            }
+        },
+        "faq_title": "Ofte Stillede Spørgsmål",
+        "faq": {
+            "q1": "Hvorfor bruge Unicode escape-sekvenser?",
+            "a1": "De giver dig mulighed for at repræsentere ethvert tegn ved kun at bruge ASCII-tegn, hvilket sikrer kompatibilitet på tværs af forskellige systemer, kodninger og filoverførsler, der måske ikke håndterer rå Unicode korrekt.",
+            "q2": "Hvilket format bruges?",
+            "a2": "Dette værktøj bruger typisk JavaScript\/JSON-stil \\uXXXX format til Basis Multilingual Plane tegn.",
+            "q3": "Er dette forskelligt fra URL-kodning?",
+            "a3": "Ja. URL-kodning bruger %XX hex-værdier hovedsageligt til URL'er. Unicode escaping bruger \\uXXXX og bruges i strenge i programmeringssprog som JavaScript, Java og Python.",
+            "q4": "Er mine data sikre?",
+            "a4": "Ja! Al kodning og dekodning sker helt i din browser ved hjælp af JavaScript. Din tekst forlader aldrig din enhed."
+        }
+    },
+    "js": {
+        "error_empty": "Indtast venligst tekst at behandle",
+        "success_encode": "✓ Unicode kodet succesfuldt",
+        "success_decode": "✓ Unicode dekodet succesfuldt",
+        "error_process": "✗ Fejl ved behandling af Unicode: ",
+        "error_no_copy": "Intet output at kopiere",
+        "success_copy": "✓ Kopieret til udklipsholder"
+    }
+}

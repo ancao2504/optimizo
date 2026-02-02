@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter Online - Free JSON Prettifier Tool",
+        "description": "Format, validate, and minify your JSON data with our free online tool",
+        "h1": "JSON Formatter",
+        "subtitle": "Format, validate, and minify your JSON data"
+    },
+    "editor": {
+        "title": "Format Your JSON Data",
+        "label_input": "Enter JSON Data",
+        "ph_input": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}",
+        "help_text": "Paste your JSON data to format, beautify, or minify it",
+        "btn_format": "Format & Beautify",
+        "btn_minify": "Minify JSON",
+        "label_results": "Formatted JSON",
+        "btn_copy": "Copy JSON"
+    },
+    "content": {
+        "why_title": "Why Use Our JSON Formatter?",
+        "why_desc": "JSON (JavaScript Object Notation) is the most popular data interchange format used in web development, APIs, and configuration files. Our free online JSON formatter helps developers, data analysts, and IT professionals quickly format, beautify, validate, and minify JSON data. Whether you're debugging API responses, cleaning up configuration files, or preparing JSON for production, our tool provides instant results with syntax highlighting and error detection. Perfect for developers working with REST APIs, NoSQL databases, and modern web applications.",
+        "features": {
+            "instant": {
+                "title": "Instant Formatting",
+                "desc": "Format and beautify JSON data in milliseconds with proper indentation and syntax highlighting"
+            },
+            "error": {
+                "title": "Error Detection",
+                "desc": "Automatically detect and highlight JSON syntax errors with helpful error messages"
+            },
+            "privacy": {
+                "title": "100% Private",
+                "desc": "All processing happens in your browser - your JSON data never leaves your computer"
+            }
+        },
+        "how_title": "How to Format JSON in 3 Easy Steps",
+        "how_steps": {
+            "1": {
+                "title": "Choose Action",
+                "desc": "Click \"Format & Beautify\" to format or \"Minify\" to compress your JSON"
+            },
+            "2": {
+                "title": "Copy Result",
+                "desc": "Click the copy button to copy the formatted JSON to your clipboard"
+            },
+            "3": {
+                "title": "Format or Minify",
+                "desc": "Choose to beautify (format with indentation) or minify (compress to single line) your JSON data based on your needs."
+            }
+        },
+        "uses_title": "Common JSON Formatting Use Cases",
+        "uses": {
+            "api": {
+                "title": "API Response Debugging",
+                "desc": "Format messy API responses to easily read and debug JSON data from REST APIs, GraphQL, and web services."
+            },
+            "config": {
+                "title": "Configuration Files",
+                "desc": "Clean up and validate JSON configuration files for applications, package.json, tsconfig.json, and more."
+            },
+            "db": {
+                "title": "Database Data",
+                "desc": "Format JSON data from NoSQL databases like MongoDB, CouchDB, and Firebase for better readability."
+            },
+            "export": {
+                "title": "Data Export\/Import",
+                "desc": "Prepare JSON data for export or validate imported JSON data to ensure proper structure and syntax."
+            }
+        },
+        "tips_title": "JSON Best Practices & Tips",
+        "tips": {
+            "validate": {
+                "title": "✓ Always Validate JSON",
+                "desc": "Use a JSON validator to catch syntax errors before deploying to production. Invalid JSON can break your application."
+            },
+            "indent": {
+                "title": "✓ Use Proper Indentation",
+                "desc": "Format JSON with 2 or 4 space indentation for better readability during development and debugging."
+            },
+            "minify": {
+                "title": "✓ Minify for Production",
+                "desc": "Minify JSON data before deploying to production to reduce file size and improve load times."
+            },
+            "naming": {
+                "title": "✓ Use Consistent Naming",
+                "desc": "Follow camelCase or snake_case naming conventions consistently throughout your JSON structure."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Is my JSON data safe?",
+            "a1": "Yes, absolutely. Our JSON formatter runs entirely in your web browser using JavaScript. Your data is never sent to our servers or stored anywhere.",
+            "q2": "Why is Minifying JSON important?",
+            "a2": "Minifying removes unnecessary whitespace and line breaks, significantly reducing the file size. This is crucial for improving API performance and reducing bandwidth usage in production environments.",
+            "q3": "Can I validate incomplete JSON?",
+            "a3": "The tool requires valid JSON structure to format or minify. However, it provides detailed error messages to help you locate and fix issues in your JSON data.",
+            "q4": "Does it support large JSON files?",
+            "a4": "Yes, the tool is optimized to handle large JSON datasets efficiently, though extremely large files might depend on your browser's memory limits."
+        }
+    },
+    "js": {
+        "error_empty_format": "Please enter JSON data to format",
+        "error_invalid": "Invalid JSON: ",
+        "error_empty_minify": "Please enter JSON data to minify",
+        "success_copy": "Copied!",
+        "error_copy": "Failed to copy. Please copy manually."
+    }
+}

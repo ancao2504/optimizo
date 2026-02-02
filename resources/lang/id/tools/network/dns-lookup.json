@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "Alat Pencarian DNS - Pemeriksa Catatan DNS Online Gratis",
+        "description": "Alat pencarian DNS gratis untuk memeriksa catatan DNS untuk domain apa pun. Lihat data A, AAAA, MX, NS, TXT, CNAME secara instan. Penting untuk memecahkan masalah konfigurasi email dan domain.",
+        "h1": "Alat Pencarian DNS",
+        "subtitle": "Kueri data DNS untuk menemukan data server nama, MX, A, CNAME & TXT secara instan"
+    },
+    "form": {
+        "domain_label": "Nama Domain",
+        "domain_placeholder": "contoh.com",
+        "button": "Cari DNS"
+    },
+    "results": {
+        "title": "Catatan DNS"
+    },
+    "content": {
+        "what_is_title": "Apa itu Pencarian DNS?",
+        "what_is_desc": "Pencarian DNS adalah alat yang menanyakan server Sistem Nama Domain untuk mengambil catatan DNS untuk suatu domain. Catatan DNS berisi informasi penting tentang cara domain dikonfigurasi, termasuk server email (catatan MX), server nama (catatan NS), alamat IP (catatan A\/AAAA), dan catatan teks (catatan TXT) yang digunakan untuk verifikasi dan keamanan.",
+        "why_use_title": "Mengapa Menggunakan Pencarian DNS?",
+        "why_use_desc": "Pencarian DNS sangat penting untuk memecahkan masalah pengiriman email, memverifikasi konfigurasi domain, memeriksa pengaturan server nama, memvalidasi data SPF dan DKIM, dan memahami cara penyiapan domain. Ini digunakan oleh administrator sistem, pengembang web, dan profesional TI setiap hari.",
+        "record_types_title": "Jenis Catatan DNS",
+        "a_record": "<strong>Catatan:<\/strong> Memetakan domain ke alamat IPv4",
+        "aaaa_record": "<strong>Catatan AAAA:<\/strong> Memetakan domain ke alamat IPv6",
+        "mx_record": "<strong>Catatan MX:<\/strong> Informasi server email",
+        "ns_record": "<strong>Catatan NS:<\/strong> Informasi server nama",
+        "txt_record": "<strong>Catatan TXT:<\/strong> Catatan teks untuk verifikasi",
+        "cname_record": "<strong>Catatan CNAME:<\/strong> Nama alias kanonis"
+    },
+    "faq": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "q1": "Apa itu pencarian DNS?",
+        "a1": "Pencarian DNS adalah proses menanyakan server Sistem Nama Domain untuk mengambil catatan DNS untuk suatu domain. Ini menerjemahkan nama domain yang dapat dibaca manusia menjadi alamat IP dan memberikan informasi tentang server email, server nama, dan konfigurasi DNS lainnya.",
+        "q2": "Apa saja jenis data DNS yang berbeda?",
+        "a2": "Jenis catatan DNS yang umum mencakup A (alamat IPv4), AAAA (alamat IPv6), MX (server email), CNAME (alias), TXT (data teks), NS (server nama), dan SOA (otoritas awal). Setiap jenis catatan memiliki tujuan tertentu dalam konfigurasi domain.",
+        "q3": "Berapa lama waktu yang dibutuhkan untuk propagasi DNS?",
+        "a3": "Propagasi DNS biasanya memerlukan waktu 24-48 jam secara global, meskipun perubahan dapat muncul dalam beberapa menit di beberapa server. Waktunya bergantung pada pengaturan TTL (Time To Live) dan seberapa cepat server DNS menyegarkan cache-nya.",
+        "q4": "Mengapa pencarian DNS saya gagal?",
+        "a4": "Kegagalan pencarian DNS dapat terjadi karena nama domain yang salah, masalah server DNS, pemblokiran firewall, atau domain tidak dikonfigurasi dengan benar. Periksa ejaan domain Anda dan pastikan data DNS Anda disiapkan dengan benar.",
+        "q5": "Bisakah saya mencari data DNS untuk domain apa pun?",
+        "a5": "Ya, Anda dapat melakukan pencarian DNS untuk domain mana pun yang terdaftar secara publik. Namun, beberapa organisasi mungkin membatasi permintaan DNS tertentu untuk alasan keamanan."
+    },
+    "js": {
+        "looking_up": "Mencari catatan DNS...",
+        "records_label": "Catatan DNS",
+        "success": "Pencarian DNS berhasil diselesaikan",
+        "error": "Gagal mencari data DNS",
+        "lookup_dns": "Cari DNS"
+    }
+}

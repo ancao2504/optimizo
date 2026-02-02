@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Ping Test Tool Online - Gratis Network Latency Checker",
+        "description": "Gratis ping-testverktyg för att kontrollera nätverkslatens, paketförlust och serverns nåbarhet. Testa anslutning till vilken värd eller IP-adress som helst omedelbart. Oumbärlig för nätverksfelsökning.",
+        "h1": "Pingtestverktyg",
+        "subtitle": "Testa servers svarstid och nätverksanslutning från flera platser"
+    },
+    "form": {
+        "host_label": "Värd eller IP-adress",
+        "host_placeholder": "google.com eller 8.8.8.8",
+        "button": "Ping Värd"
+    },
+    "results": {
+        "title": "Pingresultat"
+    },
+    "content": {
+        "what_is_title": "Vad är Ping-test?",
+        "what_is_desc": "Ping är ett nätverksdiagnostikverktyg som testar nåbarheten för en värd på ett Internet Protocol (IP)-nätverk. Det mäter tur-och-retur-tiden för meddelanden som skickas från källan till en måldator och tillbaka. Ping fungerar genom att skicka Internet Control Message Protocol (ICMP) Echo Request-paket till målvärden och väntar på ett Echo Reply. Verktyget är uppkallat efter ekolodsljudet som används vid ubåtsdetektering, eftersom det på liknande sätt skickar ut en signal och lyssnar efter ett svar.",
+        "why_use_title": "Varför använda Ping-test?",
+        "why_use_desc": "Ping-testning är oumbärlig för nätverksfelsökning och prestandaövervakning. Systemadministratörer använder ping för att verifiera nätverksanslutning, diagnostisera anslutningsproblem och mäta nätverkslatens. Det hjälper till att identifiera om en server är online och svarar, upptäcka paketförlust som kan indikera nätverksöverbelastning eller hårdvaruproblem, och mäta kvaliteten på nätverksanslutningar. Spelare använder ping för att kontrollera serverlatens innan de går med i onlinespel, medan webbplatsägare övervakar sin servers respons för att säkerställa optimal användarupplevelse.",
+        "metrics_title": "Förstå Ping-mätvärden",
+        "metric1": "<strong>Paket skickade\/mottagna:<\/strong> Antal ping-förfrågningar och lyckade svar",
+        "metric2": "<strong>Paketförlust:<\/strong> Procentandel av paket som inte fick något svar",
+        "metric3": "<strong>Minsta tid:<\/strong> Snabbaste tur-och-retur-tid registrerad",
+        "metric4": "<strong>Genomsnittlig tid:<\/strong> Medellatens över alla pingar",
+        "metric5": "<strong>Maximal tid:<\/strong> Långsammaste tur-och-retur-tid registrerad",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Antal nätverkshopp innan paketet går ut",
+        "interpreting_title": "Tolka resultat",
+        "interpreting_desc": "Bra ping-tider är vanligtvis under 50ms för lokala anslutningar och under 100ms för internationella anslutningar. Tider mellan 100-200ms är acceptabla för de flesta applikationer men kan orsaka märkbar fördröjning i realtidsapplikationer som spel eller videokonferenser. Allt över 200ms indikerar potentiella nätverksproblem. Paketförlust över 1% tyder på nätverksproblem som behöver utredas. Konsekventa ping-tider indikerar stabila anslutningar, medan mycket varierande tider tyder på nätverksöverbelastning eller routingproblem."
+    },
+    "faq": {
+        "title": "Vanliga frågor",
+        "q1": "Vad är ett pingtest?",
+        "a1": "Ett pingtest skickar datapaket till en server och mäter tiden det tar att få ett svar. Den används för att kontrollera nätverksanslutning, mäta latens och diagnostisera anslutningsproblem.",
+        "q2": "Vad är en bra pingtid?",
+        "a2": "För allmän surfning: under 100ms är bra. För spel: under 50ms är perfekt, under 20ms är utmärkt. För videosamtal: under 150 ms är acceptabelt. Lägre ping betyder snabbare svarstider.",
+        "q3": "Varför är min ping hög?",
+        "a3": "Hög ping kan orsakas av överbelastning i nätverket, avstånd till server, dålig WiFi-signal, ISP-strypning eller för många enheter i ditt nätverk. Prova att använda trådbunden anslutning, stänga bandbreddstunga applikationer eller kontakta din internetleverantör.",
+        "q4": "Vad betyder \"Tidsgränsen för begäran togs\"?",
+        "a4": "Timeout för begäran betyder att servern inte svarade inom den förväntade tiden. Detta kan indikera att servern är nere, blockerar ping-förfrågningar (brandvägg), eller att det finns ett problem med nätverksanslutning.",
+        "q5": "Kan jag pinga vilken webbplats som helst?",
+        "a5": "De flesta webbplatser kan pingas, men vissa servrar blockerar ICMP-ping-förfrågningar av säkerhetsskäl. Om ping misslyckas kan webbplatsen fortfarande vara tillgänglig via webbläsaren - försök använda andra verktyg som traceroute eller port checker."
+    },
+    "js": {
+        "pinging": "Pingar värd...",
+        "success": "Ping slutfördes",
+        "error": "Ping misslyckades",
+        "ping_host": "Ping värd"
+    }
+}

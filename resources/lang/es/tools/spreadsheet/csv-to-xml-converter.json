@@ -1,0 +1,125 @@
+{
+    "meta": {
+        "title": "Convertidor de CSV a XML gratuito en línea",
+        "description": "Transforme los datos de su hoja de cálculo CSV en formato XML estructurado con nuestra herramienta gratuita en línea.",
+        "h1": "Convertidor de CSV a XML",
+        "subtitle": "Convierta sus datos CSV en XML limpio y estructurado"
+    },
+    "editor": {
+        "btn_convert": "Convertir a XML",
+        "btn_clear": "Limpiar",
+        "btn_copy": "Copiar",
+        "btn_example": "Ejemplo",
+        "label_input": "Ingrese CSV",
+        "ph_input": "nombre,edad,ciudad\nJuan,30,Madrid\nAna,25,Barcelona",
+        "label_output": "Resultado XML",
+        "ph_output": "El XML convertido aparecerá aquí..."
+    },
+    "content": {
+        "hero_title": "Convertidor de CSV a XML gratuito",
+        "hero_subtitle": "Transforme datos de formato CSV a XML estructurado al instante",
+        "p1": "Nuestra herramienta en línea facilita la conversión de archivos CSV a formato XML. Simplemente pegue su texto o use el ejemplo para ver cómo se estructuran sus datos.",
+        "what_title": "¿Qué son CSV y XML?",
+        "what_desc": "CSV es un formato simple para almacenar datos tabulares, mientras que XML es un lenguaje de marcado extensible utilizado para almacenar y transportar datos estructurados de forma jerárquica.",
+        "features_title": "✨ Características",
+        "features": {
+            "fast": {
+                "title": "Conversión instantánea",
+                "desc": "Convierta CSV a XML en milisegundos con un análisis inteligente"
+            },
+            "secure": {
+                "title": "Privacidad asegurada",
+                "desc": "Sus datos se procesan localmente y nunca se almacenan en nuestros servidores"
+            },
+            "copy": {
+                "title": "Copiar con un clic",
+                "desc": "Copie rápidamente el resultado al portapapeles para usarlo en sus proyectos"
+            },
+            "smart": {
+                "title": "Manejo inteligente",
+                "desc": "Maneja correctamente comillas, comas dentro de valores y caracteres especiales"
+            },
+            "free": {
+                "title": "Siempre gratis",
+                "desc": "Use la herramienta sin registro, suscripciones ni limitaciones"
+            },
+            "header": {
+                "title": "Detección de encabezado",
+                "desc": "Usa automáticamente la primera fila como nombres de elementos XML"
+            }
+        },
+        "uses_title": "🎯 Casos de uso comunes",
+        "uses": {
+            "migration": {
+                "title": "🔄 Migración de datos",
+                "desc": "Convierta exportaciones CSV de Excel o Google Sheets a XML para importar en sistemas empresariales."
+            },
+            "api": {
+                "title": "💻 Desarrollo de API",
+                "desc": "Genere rápidamente respuestas XML a partir de datos tabulares para pruebas de API."
+            },
+            "bi": {
+                "title": "📊 Inteligencia de negocios",
+                "desc": "Transforme informes de CSV a formato XML compatible con herramientas modernas de BI."
+            },
+            "enterprise": {
+                "title": "🏢 Sistemas empresariales",
+                "desc": "Use XML como formato intermediario para el intercambio de datos entre sistemas antiguos y nuevos."
+            },
+            "doc": {
+                "title": "📑 Documentación",
+                "desc": "Genere archivos de configuración o datos XML para software a partir de hojas de cálculo."
+            },
+            "db": {
+                "title": "🗄️ Exportación de base de datos",
+                "desc": "Transforme exportaciones CSV de bases de datos a XML para intercambio y archivo de datos."
+            }
+        },
+        "how_title": "📝 Cómo convertir CSV a XML",
+        "how_steps": {
+            "1": {
+                "title": "Pegar datos",
+                "desc": "Escriba o pegue su texto con formato CSV en el campo de entrada."
+            },
+            "2": {
+                "title": "Hacer clic en convertir",
+                "desc": "Presione \"Convertir a XML\" para transformar su CSV en formato XML estructurado."
+            },
+            "3": {
+                "title": "Copiar resultado",
+                "desc": "Obtenga el código XML listo y cópielo para su uso posterior."
+            }
+        },
+        "example_title": "💡 Ejemplo de conversión",
+        "example_input": "Entrada CSV:",
+        "example_output": "Salida XML:",
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Cómo maneja el convertidor los encabezados CSV?",
+            "a1": "La primera fila de su CSV se utiliza automáticamente como nombres de elementos XML. Asegúrese de tener encabezados descriptivos.",
+            "q2": "¿Hay un límite para el tamaño del CSV?",
+            "a2": "La herramienta está optimizada para trabajar en el navegador. Puede procesar miles de filas sin retardo.",
+            "q3": "¿Funciona esto con Google Sheets?",
+            "a3": "Sí. Descargue su hoja como CSV, copie el contenido y péguelo en esta herramienta.",
+            "q4": "¿Necesito descargar software?",
+            "a4": "No, es una herramienta totalmente basada en la web que funciona en cualquier navegador moderno.",
+            "q5": "¿Puedo convertir datos de Excel?",
+            "a5": "Por supuesto. Guarde su archivo Excel como CSV y luego use esta herramienta para obtener el formato XML."
+        },
+        "tips_title": "🎓 Mejores prácticas",
+        "tips_list": {
+            "1": "<strong>Limpiar datos:<\/strong> Elimine espacios en blanco innecesarios de sus encabezados antes de la conversión.",
+            "2": "<strong>Validar formato:<\/strong> Asegúrese de que su CSV use comas como delimitadores estándar.",
+            "3": "<strong>Usar encabezados:<\/strong> XML requiere nombres de etiquetas, por lo que tener una fila de encabezado es esencial.",
+            "4": "<strong>Caracteres especiales:<\/strong> La herramienta escapará automáticamente caracteres como & o < para crear un XML válido.",
+            "5": "<strong>Revisar jerarquía:<\/strong> Use nombres de encabezado simples para obtener una estructura XML más limpia."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor, ingrese datos CSV",
+        "success_convert": "✓ CSV convertido a XML con éxito",
+        "error_general": "✕ Error: ",
+        "error_no_copy": "No hay texto para copiar",
+        "success_copy": "✓ Copiado al portapapeles"
+    }
+}

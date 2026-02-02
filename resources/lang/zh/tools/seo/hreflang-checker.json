@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker - 免费在线标签验证器",
+        "description": "验证您的 hreflang 标签，确保 Google 向您的受众显示正确的语言或地区 URL。",
+        "h1": "赫夫朗检查器",
+        "subtitle": "用于国际 SEO 的免费 Hreflang 属性提取与验证工具。"
+    },
+    "form": {
+        "url_label": "输入要检查的 URL",
+        "url_placeholder": "https:\/\/example.com\/fr",
+        "user_agent_label": "用户代理",
+        "user_agent_default": "默认 (浏览器)",
+        "user_agent_googlebot": "Googlebot (桌面版)",
+        "user_agent_bingbot": "Bingbot (桌面版)",
+        "button": "检查 Hreflang 标签"
+    },
+    "content": {
+        "main_title": "Hreflang 标签检查器",
+        "main_subtitle": "确保您的国际内容触达正确的受众。验证 hreflang 实施并修复常见的 SEO 错误。",
+        "intro": "Hreflang 标签对于服务于多种语言或国家的网站至关重要。我们的免费工具从您页面的 HTML 头部和 HTTP 标头中提取并验证 `rel=\"alternate\" hreflang=\"x\"` 标签。它检查相互（返回）标签，以保证 Google 和其他搜索引擎正确索引您的本地化内容。",
+        "features_title": "为什么要检查 Hreflang 标签？",
+        "feature1_title": "验证相互标签",
+        "feature1_desc": "Hreflang 标签必须成对工作。我们的工具会自动检查页面 A 是否链接到页面 B，以及页面 B 是否回链到页面 A。",
+        "feature2_title": "检测常见错误",
+        "feature2_desc": "查找缺失的返回标签、无效的语言代码 (ISO 639-1) 和错误的国家代码 (ISO 3166-1 Alpha-2)。",
+        "feature3_title": "防止 SEO 问题",
+        "feature3_desc": "不正确的 hreflang 实施可能导致重复内容问题，并在搜索结果中显示错误的语言版本。",
+        "how_title": "如何使用 Hreflang 检查器",
+        "step1_title": "输入 URL",
+        "step1_desc": "粘贴您想要分析的页面的完整 URL（例如 https:\/\/example.com）。",
+        "step2_title": "选择用户代理",
+        "step2_desc": "建议使用 Googlebot 进行检查，但您也可以作为标准浏览器进行检查。",
+        "step3_title": "分析结果",
+        "step3_desc": "我们将获取页面并列出所有找到的替代链接及其验证状态。",
+        "step4_title": "修复问题",
+        "step4_desc": "如果出现“缺失返回标签”错误，请更新您的引用页面以包含相互链接。",
+        "faq_title": "常见问题",
+        "faq1_q": "什么是 hreflang 标签？",
+        "faq1_a": "Hreflang 是一种 HTML 属性，用于指定网页的语言和地理定位。它告诉搜索引擎应该向不同国家或语言的用户显示哪个版本的页面。",
+        "faq2_q": "为什么返回标签很重要？",
+        "faq2_a": "Google 要求返回链接，以防止有人随意声称另一个网站上的页面是他们自己的替代版本。如果页面 A 链接到页面 B，页面 B 必须链接回页面 A。",
+        "faq3_q": "此工具是否检查 x-default 标签？",
+        "faq3_a": "是的，我们的工具识别并验证 `x-default` hreflang 标签，该标签用于不匹配任何语言或严格的国家选择器的情况。",
+        "faq4_q": "我可以检查 HTTP 标头中的 hreflang 吗？",
+        "faq4_a": "可以！我们检查 HTML `<head>` 部分和 HTTP 响应标头中的 `Link: <url>; rel=\"alternate\"; hreflang=\"code\"` 属性。",
+        "faq5_q": "如果我有 hreflang 错误会怎样？",
+        "faq5_a": "搜索引擎可能会忽略您的无效标签，导致正确的语言版本无法显示给正确的用户，或者可能因重复内容而受到惩罚。",
+        "faq6_q": "这个工具是免费的吗？",
+        "faq6_a": "是的，您可以免费进行无限次检查，以确保您的国际 SEO 完美无缺。"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Käänteinen DNS-haku - ilmainen online-IP-verkkotunnustyökalu",
+        "description": "Löydä IP-osoitteeseen liittyvä verkkotunnus tai isäntänimi välittömästi. Nopea ja turvallinen käänteinen haku.",
+        "h1": "Käänteinen DNS-haku",
+        "subtitle": "Selvitä IP-osoitteeseen liittyvä domain-nimi välittömästi"
+    },
+    "form": {
+        "ip_label": "Syötä IP-osoite",
+        "ip_placeholder": "esim. 8.8.8.8",
+        "button": "Hae käänteinen DNS",
+        "button_loading": "Haetaan..."
+    },
+    "results": {
+        "title": "Tulokset"
+    },
+    "content": {
+        "what_is_title": "Mikä on käänteinen DNS-haku?",
+        "what_is_desc": "Käänteinen DNS (rDNS) on prosessi, jossa selvitetään IP-osoitteseen liittyvä isäntänimi. Se on päinvastainen tavalliselle haulle.",
+        "why_use_title": "Miksi käyttää sitä?",
+        "why_use_desc": "Sitä käytetään turvallisuuteen, sähköpostien varmentamiseen (spämmin esto) ja vianetsintään. Monet sähköpostipalvelimet vaativat rDNS:n hyväksyäkseen viestit.",
+        "ptr_records_title": "PTR-tietueiden ymmärtäminen",
+        "ptr_record1": "<strong>PTR-tietue:<\/strong> Käytetään käänteisessä haussa.",
+        "ptr_record2": "<strong>Yhdistäminen:<\/strong> Yhdistää IP-osoitteen takaisin isäntänimeen.",
+        "ptr_record3": "<strong>Säihköposti:<\/strong> Elintärkeä sähköpostien perillemenolle.",
+        "ptr_record4": "<strong>Tunnistus:<\/strong> Tunnistaa IP:n todellisen omistajan.",
+        "ptr_record5": "<strong>Roskaposti:<\/strong> Auttaa roskapostin suodatuksessa.",
+        "ptr_record6": "<strong>Lokit:<\/strong> Tekee lokitiedoista helpommin luettavia.",
+        "use_cases_title": "Yleiset käyttötapaukset",
+        "use_cases_desc": "Yleisiä käyttötapauksia ovat verkkoliikenteen alkuperän tarkistaminen, verkon latenssi- tai reititysongelmien diagnosointi, sähköpostipalvelimen asetusten vahvistaminen ja kyberturvallisuustarkastuksia tunnistamalla mahdollisesti haitalliset IP-osoitteet."
+    },
+    "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "q1": "Mikä on PTR-tietue?",
+        "a1": "PTR-tietue (Pointer) on DNS-tietueen tyyppi, joka yhdistää IP-osoitteen isäntänimeen. Se on käänteisen DNS-haun ydinkomponentti.",
+        "q2": "Miksi käänteinen DNS on tärkeä sähköpostille?",
+        "a2": "Monet sähköpostipalveluntarjoajat käyttävät käänteistä DNS:ää varmistaakseen, että lähettävä palvelin on aito. Jos palvelimen IP-osoitteessa ei ole vastaavaa rDNS-tietuetta, sen sähköpostit voidaan merkitä roskapostiksi.",
+        "q3": "Voiko millä tahansa IP-osoitteella olla käänteinen DNS-tietue?",
+        "a3": "Kyllä, mutta IP-osoitteen omistajan (yleensä Internet-palveluntarjoajan tai isännöintipalveluntarjoajan) on määritettävä PTR-tietue DNS-asetuksissaan."
+    }
+}

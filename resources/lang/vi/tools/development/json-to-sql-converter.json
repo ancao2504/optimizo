@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Trình chuyển đổi JSON sang SQL - Công cụ di chuyển trực tuyến miễn phí",
+        "description": "Biến đổi dữ liệu JSON thành các câu lệnh SQL INSERT ngy lập tức. Hoàn hảo cho việc tạo dữ liệu mẫu (seeding) và di cư dữ liệu.",
+        "h1": "Trình chuyển đổi JSON sang SQL",
+        "subtitle": "Chuyển đổi các mảng và đối tượng JSON thành các tập lệnh SQL hợp lệ"
+    },
+    "editor": {
+        "label_tablename": "Tên Bảng",
+        "ph_tablename": "Nhập tên bảng (vd: users)",
+        "btn_convert": "Tạo SQL",
+        "btn_clear": "Xó",
+        "btn_copy": "So Chép SQL",
+        "btn_example": "Tải Mẫu",
+        "label_input": "JSON Đầu Vào",
+        "ph_input": "Dán your JSON rry tại đây..",
+        "label_output": "SQL Kết quả",
+        "ph_output": "Các câu lệnh SQL INSERT được tạo sẽ xuất hiện ở đây.."
+    },
+    "content": {
+        "hero_title": "Chuyển Đổi JSON sng SQL Không Tốn Sức",
+        "hero_subtitle": "Cách nhnh nhất để tạo tập lệnh seeding cơ sở dữ liệu",
+        "p1": "Việc chuyển đổi dữ liệu JSON sng các câu lệnh SQL INSERT không nên là một công việc thủ công. Trình chuyển đổi JSON sng SQL củ chúng tôi xử lý phần nặng nhọc bằng cách tự động khớp các khó JSON củ bạn với các cột trong cơ sở dữ liệu và xử lý giá trị (escpe) để chèn n àn. Đây là một công cụ thiết yếu cho các nhà phát triển làm việc với di cư dữ liệu, kiểm thử hoặc khởi tạo cơ sở dữ liệu.",
+        "what_title": "Khi Nào Nên Sử Dụng Công Cụ Này?",
+        "what_desc": "Nếu bạn có một tập hợp dữ liệu ở định dạng JSON—như bản xuất từ cơ sở dữ liệu NoSQL hoặc phản hồi PI—và bạn cần chèn nó vào một cơ sở dữ liệu qun hệ như MySQL, PostgreSQL hoặc SQL Server, công cụ này là dành cho bạn. Nó định dạng mỗi đối tượng thành một câu lệnh SQL sạch sẽ.",
+        "features_title": "Key Fetures",
+        "features": {
+            "fast": {
+                "title": "Tạo Ngy Lập Tức",
+                "desc": "Tạo hàng trăm dòng SQL chỉ trong chớp mắt."
+            },
+            "private": {
+                "title": "Cm Kết Quyền Riêng Tư",
+                "desc": "Tất cả quá trình xử lý là cục bộ. Dữ liệu nhạy cảm củ bạn nằm lại trong trình duyệt."
+            },
+            "copy": {
+                "title": "Xuất Với Một Cú Nhấp",
+                "desc": "So chép àn bộ tập lệnh hoặc tải xuống cho quá trình di cư củ bạn."
+            },
+            "smart": {
+                "title": "Xử Lý Ký Tự Thông Minh",
+                "desc": "Tự động xử lý dấu ngoặc và các ký tự đặc biệt trong chuỗi."
+            },
+            "free": {
+                "title": "100% miễn phí",
+                "desc": "No limits, no reglàtrtion, no hssle."
+            },
+            "db": {
+                "title": "Thân Thiện Với Nhiều Loại DB",
+                "desc": "Tạo SQL tiêu chuẩn tương thích với hầu hết các hệ quản trị cơ sở dữ liệu."
+            }
+        },
+        "uses_title": "Các Trường Hợp Sử Dụng Chuyên Nghiệp",
+        "uses": {
+            "migration": {
+                "title": "Di Cư Dữ Liệu",
+                "desc": "Dễ dàng di chuyển dữ liệu từ các hệ thống dự trên JSON sng cơ sở dữ liệu SQL."
+            },
+            "import": {
+                "title": "Nhập Dữ Liệu Hàng Loạt",
+                "desc": "Tải một lượng lớn dữ liệu kiểm thử hoặc dữ liệu thực tế một cách nhnh chóng."
+            },
+            "api": {
+                "title": "Từ PI Vào Cơ Sở Dữ Liệu",
+                "desc": "Chuyển đổi kết quả từ PI bên thứ b trực tiếp thành các lệnh chèn SQL."
+            },
+            "test": {
+                "title": "Tạo Dữ Liệu Mẫu Kiểm Thử",
+                "desc": "Tạo các tập lệnh SQL để đổ dữ liệu cho môi trường phát triển."
+            },
+            "backup": {
+                "title": "Khôi Phục Bản So Lưu",
+                "desc": "Biến các tệp so lưu JSON trở lại thành các tập lệnh SQL hoạt động được."
+            },
+            "dev": {
+                "title": "Tạo Mẫu Nhnh",
+                "desc": "Nhnh chóng đổ dữ liệu vào các bảng cơ sở dữ liệu mới trong quá trình phát triển."
+            }
+        },
+        "how_title": "Cách Sử dụng",
+        "how_steps": [
+            "Nhập <strong>Tên Bảng<\/strong> cơ sở dữ liệu mục tiêu",
+            "Dán <strong>JSON<\/strong> củ bạn (phải là một mảng hoặc đối tượng)",
+            "Nhấp vào <strong>Tạo SQL<\/strong> để tạo tập lệnh",
+            "<strong>So chép<\/strong> kết quả SQL vào khy nhớ tạm củ bạn"
+        ],
+        "faq_title": "Các Câu Hỏi Thường Gặp",
+        "faq": {
+            "q1": "Yêu cầu định dạng JSON như thế nào?",
+            "a1": "Công cụ hoạt động tốt nhất với một mảng các đối tượng, trong đó mỗi đối tượng đại diện cho một hàng trong cơ sở dữ liệu.",
+            "q2": "Nó có xử lý các đối tượng lồng nhu không?",
+            "a2": "It currently mps p-level keys. Nested objects re usully stringified hoặc skipped depending on your DB needs.",
+            "q3": "Có giới hạn về số hàng không?",
+            "a3": "Không có giới hạn cứng, mặc dù hiệu suất trình duyệt củ bạn có thể thy đổi với hàng nghìn hàng."
+        },
+        "tips_title": "Mẹo Chuyên Nghiệp",
+        "tips_list": [
+            "Đảm bảo các khó JSON củ bạn khớp chính xác với tên các cột SQL.",
+            "Luôn xác minh SQL được tạo trước khi chạy nó trên cơ sở dữ liệu thực tế.",
+            "Sử dụng nút \"Mẫu\" để xem cấu trúc JSON được mong đợi."
+        ]
+    },
+    "js": {
+        "error_empty": "Vui lòng nhập dữ liệu JSON và tên bảng",
+        "success_convert": "✓ SQL đã được tạo thành công!",
+        "error_convert": "Lỗi khi tạo SQL:",
+        "error_no_copy": "Không có SQL để so chép. Vui lòng chuyển đổi JSON trước.",
+        "success_copy": "✓ SQL đã được so chép vào khy nhớ tạm!"
+    }
+}

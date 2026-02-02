@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "JSON to SQL Converter – bezplatný online nástroj pro migraci",
+        "description": "Transformujte JSON data do příkazů SQL INSERT okamžitě. Ideální pro naplnění databází a migraci dat.",
+        "h1": "Převaděč JSON na SQL",
+        "subtitle": "Převádějte pole a objekty JSON na platné SQL skripty"
+    },
+    "editor": {
+        "label_tablename": "Název tabulky",
+        "ph_tablename": "Zadejte název tabulky (např. users)",
+        "btn_convert": "Generovat SQL",
+        "btn_clear": "Vymazat",
+        "btn_copy": "Kopírovat SQL",
+        "btn_example": "Načíst příklad",
+        "label_input": "JSON vstup",
+        "ph_input": "Zde vložte své pole JSON...",
+        "label_output": "SQL výstup",
+        "ph_output": "Zde se zobrazí vygenerované příkazy SQL INSERT..."
+    },
+    "content": {
+        "hero_title": "Snadný převod JSON na SQL",
+        "hero_subtitle": "Nejrychlejší způsob, jak generovat skripty pro naplnění databází",
+        "p1": "Převod dat JSON na příkazy SQL INSERT by neměl být manuální úkol. Náš převodník JSON na SQL zvládne nejtěžší práci tím, že automaticky namapuje vaše klíče JSON na sloupce v databázi a ošetří hodnoty pro bezpečné vložení. Je to nezbytný nástroj pro vývojáře pracující na migracích dat, testování nebo inicializaci databází.",
+        "what_title": "Kdy použít tento nástroj?",
+        "what_desc": "Pokud máte sbírku dat ve formátu JSON – například export z NoSQL databáze nebo odpověď API – a potřebujete je vložit do relační databáze jako MySQL, PostgreSQL nebo SQL Server, je tento nástroj pro vás. Každý objekt zformátuje do čistého příkazu SQL.",
+        "features_title": "Klíčové funkce",
+        "features": {
+            "fast": {
+                "title": "Okamžité generování",
+                "desc": "Generujte stovky řádků SQL během okamžiku."
+            },
+            "private": {
+                "title": "Soukromí zaručeno",
+                "desc": "Veškeré zpracování je lokální. Vaše citlivá data zůstávají ve vašem prohlížeči."
+            },
+            "copy": {
+                "title": "Export jedním kliknutím",
+                "desc": "Zkopírujte celý skript nebo jej stáhněte pro své migrace."
+            },
+            "smart": {
+                "title": "Chytré ošetření (escaping)",
+                "desc": "Automaticky zpracovává uvozovky a speciální znaky v řetězcích."
+            },
+            "free": {
+                "title": "100% zdarma",
+                "desc": "Žádné limity, žádná registrace, žádné potíže."
+            },
+            "db": {
+                "title": "Kompatibilní s různými DB",
+                "desc": "Generuje standardní SQL kompatibilní s většinou databázových systémů."
+            }
+        },
+        "uses_title": "Profesionální příklady použití",
+        "uses": {
+            "migration": {
+                "title": "Migrace dat",
+                "desc": "Snadno přenášejte data ze systémů založených na JSON do SQL databází."
+            },
+            "import": {
+                "title": "Hromadný import",
+                "desc": "Rychle načtěte velké množství testovacích nebo produkčních dat."
+            },
+            "api": {
+                "title": "Z API do databáze",
+                "desc": "Převádějte výsledky API třetích stran přímo na SQL inserty."
+            },
+            "test": {
+                "title": "Naplnění testovacími daty",
+                "desc": "Vytvářejte SQL skripty pro populaci vývojových prostředí."
+            },
+            "backup": {
+                "title": "Obnova zálohy",
+                "desc": "Přeměňte zálohy JSON zpět na funkční SQL skripty."
+            },
+            "dev": {
+                "title": "Rychlé prototypování",
+                "desc": "Rychle naplňujte nové databázové tabulky během vývoje."
+            }
+        },
+        "how_title": "Jak používat",
+        "how_steps": [
+            "Zadejte cílový <strong>Název tabulky<\/strong> v databázi",
+            "Vložte svůj <strong>JSON<\/strong> (musí to být pole nebo objekt)",
+            "Klikněte na <strong>Generovat SQL<\/strong> pro vytvoření skriptu",
+            "<strong>Zkopírujte<\/strong> SQL výstup do schránky"
+        ],
+        "faq_title": "Často kladené otázky",
+        "faq": {
+            "q1": "Jaký formát JSON je vyžadován?",
+            "a1": "Nástroj funguje nejlépe s polem objektů, kde každý objekt představuje řádek v databázi.",
+            "q2": "Zpracovává vnořené objekty?",
+            "a2": "V současné době mapuje klíče nejvyšší úrovně. Vnořené objekty jsou obvykle převedeny na řetězec nebo přeskočeny v závislosti na potřebách vaší databáze.",
+            "q3": "Existuje limit pro počet řádků?",
+            "a3": "Neexistuje žádný pevný limit, i když výkon vašeho prohlížeče se může u tisíců řádků lišit."
+        },
+        "tips_title": "Profesionální tipy",
+        "tips_list": [
+            "Ujistěte se, že vaše klíče JSON přesně odpovídají názvům SQL sloupců.",
+            "Před spuštěním na produkční databázi vždy vygenerované SQL zkontrolujte.",
+            "Pomocí tlačítka „Příklad“ si prohlédněte očekávanou strukturu JSON."
+        ]
+    },
+    "js": {
+        "error_empty": "Zadejte prosím JSON data a název tabulky",
+        "success_convert": "✓ SQL bylo úspěšně vygenerováno!",
+        "error_convert": "Chyba při generování SQL: ",
+        "error_no_copy": "Žádné SQL ke kopírování. Nejdříve prosím převeďte JSON.",
+        "success_copy": "✓ SQL bylo zkopírováno do schránky!"
+    }
+}

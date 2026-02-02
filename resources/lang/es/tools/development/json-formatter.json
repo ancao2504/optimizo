@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Formateador JSON en línea: herramienta gratuita para embellecer JSON",
+        "description": "Formatea, valida y minifica tus datos JSON de forma gratuita online.",
+        "h1": "Formateador JSON",
+        "subtitle": "Haz que tu JSON sea legible y válido al instante"
+    },
+    "editor": {
+        "title": "Formatea tus datos JSON",
+        "label_input": "Ingresa datos JSON",
+        "ph_input": "{\"nombre\": \"Juan\", \"edad\": 30, \"ciudad\": \"Madrid\"}",
+        "help_text": "Pega tu JSON para formatear, embellecer o minificar",
+        "btn_format": "Formatear y Embellecer",
+        "btn_minify": "Minificar JSON",
+        "label_results": "JSON Formateado",
+        "btn_copy": "Copiar JSON"
+    },
+    "content": {
+        "why_title": "¿Por qué usar nuestro Formateador JSON?",
+        "why_desc": "JSON es el formato de intercambio de datos más popular en desarrollo web, APIs y archivos de configuración. Nuestra herramienta ayuda a desarrolladores, analistas y profesionales de IT a formatear, validar y minificar datos JSON al instante. Ya sea para depurar respuestas de API o limpiar archivos de configuración, nuestro formateador ofrece resaltado de sintaxis y detección de errores, siendo ideal para trabajar con bases de datos NoSQL y aplicaciones modernas.",
+        "features": {
+            "instant": {
+                "title": "Formateo Instantáneo",
+                "desc": "Embellece JSON en milisegundos con sangría perfecta y resaltado de sintaxis."
+            },
+            "error": {
+                "title": "Detección de Errores",
+                "desc": "Detecta automáticamente errores de sintaxis con mensajes descriptivos."
+            },
+            "privacy": {
+                "title": "100% Privado",
+                "desc": "El procesamiento ocurre en tu navegador; tus datos nunca salen de tu equipo."
+            }
+        },
+        "how_title": "Cómo Formatear JSON en 3 Pasos",
+        "how_steps": {
+            "1": {
+                "title": "Pega tus datos",
+                "desc": "Copia y pega el JSON en el área de texto superior."
+            },
+            "2": {
+                "title": "Elige la acción",
+                "desc": "Haz clic en \"Formatear\" para embellecer o \"Minificar\" para comprimir."
+            },
+            "3": {
+                "title": "Copia el resultado",
+                "desc": "Usa el botón de copiar para llevar el resultado al portapapeles."
+            }
+        },
+        "uses_title": "Casos de Uso Comunes",
+        "uses": {
+            "api": {
+                "title": "Depuración de APIs",
+                "desc": "Formatea respuestas desordenadas de REST APIs, GraphQL y web services."
+            },
+            "config": {
+                "title": "Archivos de Configuración",
+                "desc": "Limpia y valida archivos como package.json o tsconfig.json."
+            },
+            "db": {
+                "title": "Bases de Datos",
+                "desc": "Visualiza datos de bases NoSQL como MongoDB o Firebase con facilidad."
+            },
+            "export": {
+                "title": "Importación\/Exportación",
+                "desc": "Prepara y valida estructuras JSON para procesos de migración de datos."
+            }
+        },
+        "tips_title": "Consejos y Mejores Prácticas",
+        "tips": {
+            "validate": {
+                "title": "✓ Valida Siempre",
+                "desc": "Detecta errores de sintaxis antes de subir a producción para evitar fallos."
+            },
+            "indent": {
+                "title": "✓ Usa Sangría Correcta",
+                "desc": "Formatea con 2 o 4 espacios para mejorar la mantenibilidad del código."
+            },
+            "minify": {
+                "title": "✓ Minifica en Producción",
+                "desc": "Reduce el tamaño de los archivos para mejorar la velocidad de carga."
+            },
+            "naming": {
+                "title": "✓ Consistencia en Nombres",
+                "desc": "Sigue convenciones como camelCase o snake_case de forma constante."
+            }
+        },
+        "faq_title": "Preguntas Frecuentes",
+        "faq": {
+            "q1": "¿Es seguro mi JSON?",
+            "a1": "Totalmente. Nuestra herramienta funciona íntegramente en tu navegador mediante JavaScript. Tus datos nunca se envían a nuestros servidores.",
+            "q2": "¿Por qué es importante minificar?",
+            "a2": "Elimina espacios innecesarios, reduciendo el peso del archivo. Es crucial para el rendimiento de APIs en producción.",
+            "q3": "¿Puedo validar JSON incompleto?",
+            "a3": "La herramienta requiere una estructura válida, pero te dará mensajes de error para ayudarte a corregir lo que falte.",
+            "q4": "¿Soporta archivos grandes?",
+            "a4": "Sí, está optimizado para conjuntos de datos grandes, limitado únicamente por la memoria de tu navegador."
+        }
+    },
+    "js": {
+        "error_empty_format": "Por favor ingresa JSON para formatear",
+        "error_invalid": "JSON no válido: ",
+        "error_empty_minify": "Introduce datos JSON para minificar",
+        "success_copy": "¡Copiado!",
+        "error_copy": "Error al copiar. Hazlo manualmente."
+    }
+}

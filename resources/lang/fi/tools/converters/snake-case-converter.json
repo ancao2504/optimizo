@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "title": "Ilmainen Snake Case Converter - Online String Tool",
+        "description": "Muunna teksti snake_case-muotoon tietokantoja ja ohjelmointia varten ilmaisella verkkotyökalullamme.",
+        "h1": "Snake Case Converter",
+        "subtitle": "Muunna teksti snake_case-muotoon tietokantoja ja ohjelmointia varten"
+    },
+    "editor": {
+        "label_input": "Syötä teksti",
+        "ph_input": "hei maailma esimerkki",
+        "btn_convert": "Muunna snake_caseksi",
+        "btn_clear": "Tyhjennä",
+        "btn_copy": "Kopioi",
+        "label_output": "Tulos (snake_case)",
+        "ph_output": "hei_maailma_esimerkki"
+    },
+    "content": {
+        "p1": "Muunna tekstisi snake_case-muotoon ilmaisella verkkomuuntimellamme. snake_case on nimeämiskäytäntö, jossa sanat kirjoitetaan pienillä kirjaimilla ja ne erotetaan alaviivalla (_). Se on standardi Python-ohjelmoinnissa ja tietokantojen sarakkeiden nimeämisessä.",
+        "features_title": "Ominaisuudet",
+        "features": {
+            "python": {
+                "title": "Python-standardi",
+                "desc": "Luo muuttujien nimiä, jotka noudattavat PEP 8 -tyyliohjeita."
+            },
+            "instant": {
+                "title": "Heti valmis",
+                "desc": "Muuntaa tekstin välittömästi napin painalluksesta."
+            },
+            "privacy": {
+                "title": "Yksityisyys suojattu",
+                "desc": "Kaikki käsittely tapahtuu selaimessasi."
+            },
+            "bulk": {
+                "title": "Useita kerralla",
+                "desc": "Voit muuntaa helposti kokonaisia listoja muuttujanimiä kerralla."
+            },
+            "smart": {
+                "title": "Älykäs siivous",
+                "desc": "Poistaa ylimääräiset välimerkit ja korvaa välilyönnit yhdellä alaviivalla."
+            },
+            "free": {
+                "title": "Aina ilmainen",
+                "desc": "Tehokas koodaustyökalu ilman piilokuluja."
+            }
+        },
+        "uses_title": "Milloin käyttää snake_casea",
+        "uses": {
+            "python": {
+                "title": "Python-koodaus",
+                "desc": "Virallinen suositus muuttujien ja funktioiden nimeämiseen (PEP 8)."
+            },
+            "db": {
+                "title": "Tietokannan sarakkeet",
+                "desc": "Standardi sarakkeiden nimille (esim. Created_at, user_id)."
+            },
+            "config": {
+                "title": "Asetustiedostot",
+                "desc": "Käytetään usein .env- ja asetustiedostoissa selkeyden vuoksi."
+            },
+            "ruby": {
+                "title": "Ruby kehitys",
+                "desc": "Noudata muuttujien ja menetelmien Rubyn nimeämiskäytäntöjä."
+            },
+            "data": {
+                "title": "📊 Tietotiede",
+                "desc": "Muotoile sarakkeiden nimet pandas DataFrames- ja CSV-tiedostoissa"
+            },
+            "api": {
+                "title": "🔧 API-parametrit",
+                "desc": "Luo johdonmukaiset parametrien nimet REST-sovellusliittymille"
+            }
+        },
+        "how_to_title": "Kuinka käyttää",
+        "how_to_steps": [
+            {
+                "title": "Paste Text",
+                "desc": "Paste your text in the input box."
+            },
+            {
+                "title": "Convert",
+                "desc": "The converter replaces spaces and hyphens with underscores."
+            },
+            {
+                "title": "Lowercase",
+                "desc": "It converts all characters to lowercase."
+            },
+            {
+                "title": "Cleanup",
+                "desc": "Consecutive underscores are reduced to one."
+            },
+            {
+                "title": "Result",
+                "desc": "The snake_case result is ready to use."
+            }
+        ],
+        "examples_title": "Esimerkkejä",
+        "examples": {
+            "var": {
+                "title": "Muuttujien nimet:"
+            },
+            "func": {
+                "title": "Toimintojen nimet:"
+            },
+            "db": {
+                "title": "Tietokannan sarakkeet:"
+            },
+            "config": {
+                "title": "Asetusnäppäimet:"
+            }
+        },
+        "faq_title": "Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mikä on snake_case?",
+            "a1": "Nimeämistyyli, jossa sanat erotetaan alaviivoilla, mikä muistuttaa matavaa käärmettä.",
+            "q2": "Onko se sama kuin kebab-case?",
+            "a2": "Ei. Snake_case käyttää alaviivaa (_), kun taas kebab-case käyttää yhdysmerkkiä (-).",
+            "q3": "Miksi käyttää sitä SQL:ssä?",
+            "a3": "Monet tietokannat eivät ole herkköjä kirjainkoolle, joten alaviiva on paras tapa erottaa sanat toisistaan.",
+            "q4": "Käsitteleekö se suomalaisia merkkejä?",
+            "a4": "Kyllä, suositeltavaa on kuitenkin muuntaa ä ja ö merkit a:ksi ja o:ksi koodiyhteensopivuuden vuoksi.",
+            "q5": "Voiko siinä olla isoja kirjaimia?",
+            "a5": "Perinteinen snake_case on aina pienillä kirjaimilla. ISOILLA_KIRJOITETTUA tyyliä kutsutaan SCREAMING_SNAKE_CASEksi."
+        }
+    },
+    "js": {
+        "error_empty": "Syötä tekstiä muunnettavaksi",
+        "success_converted": "✓ Muutettu snake_case-muotoon onnistuneesti!",
+        "error_no_copy": "Ei mitään kopioitavaa! Muunna tekstiä ensin.",
+        "success_copy": "✓ Kopioitu leikepöydälle!"
+    }
+}

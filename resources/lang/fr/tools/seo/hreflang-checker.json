@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker - Validateur de balises en ligne gratuit",
+        "description": "Validez vos balises hreflang et assurez-vous que votre contenu international atteint le bon public. Vérifiez l'implémentation et corrigez les erreurs SEO.",
+        "h1": "Vérificateur Hreflang",
+        "subtitle": "Outil gratuit pour extraire et valider les attributs hreflang pour le SEO international."
+    },
+    "form": {
+        "url_label": "Entrez l'URL à vérifier",
+        "url_placeholder": "https:\/\/exemple.fr\/page",
+        "user_agent_label": "User Agent",
+        "user_agent_default": "Par défaut (Navigateur)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Vérifier les balises Hreflang"
+    },
+    "content": {
+        "main_title": "Vérificateur de balises Hreflang",
+        "main_subtitle": "Assurez-vous que votre contenu international atteint la bonne audience. Validez l'implémentation hreflang et corrigez les erreurs SEO courantes.",
+        "intro": "Les balises hreflang sont essentielles pour les sites web desservant plusieurs langues ou pays. Notre outil gratuit extrait et valide les balises `rel=\"alternate\" hreflang=\"x\"` de l'en-tête HTML de votre page et des en-têtes HTTP. Il vérifie les balises réciproques (retour) pour garantir que Google et les autres moteurs de recherche indexent correctement votre contenu localisé.",
+        "features_title": "Pourquoi vérifier vos balises Hreflang ?",
+        "feature1_title": "Valider les balises réciproques",
+        "feature1_desc": "Les balises hreflang doivent fonctionner par paires. Notre outil vérifie automatiquement si la page A lie à la page B, et si la page B lie en retour à la page A.",
+        "feature2_title": "Détecter les erreurs courantes",
+        "feature2_desc": "Trouvez les balises de retour manquantes, les codes de langue invalides (ISO 639-1) et les codes de pays incorrects (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Prévenir les problèmes SEO",
+        "feature3_desc": "Une mise en œuvre incorrecte de hreflang peut entraîner des problèmes de contenu dupliqué et l'apparition de mauvaises pages linguistiques dans les résultats de recherche.",
+        "how_title": "Comment utiliser le vérificateur Hreflang",
+        "step1_title": "Entrez l'URL",
+        "step1_desc": "Collez l'URL complète de la page que vous souhaitez analyser (ex: https:\/\/exemple.fr).",
+        "step2_title": "Sélectionnez l'User Agent",
+        "step2_desc": "Une vérification avec Googlebot est recommandée, mais vous pouvez aussi vérifier en tant que navigateur standard.",
+        "step3_title": "Analysez les résultats",
+        "step3_desc": "Nous récupérerons la page et listerons tous les liens alternatifs trouvés avec leur statut de vérification.",
+        "step4_title": "Corrigez les problèmes",
+        "step4_desc": "Si des erreurs 'Balise de retour manquante' apparaissent, mettez à jour vos pages référencées pour inclure le lien réciproque.",
+        "faq_title": "Foire aux questions",
+        "faq1_q": "Qu'est-ce qu'une balise hreflang ?",
+        "faq1_a": "Hreflang est un attribut HTML utilisé pour spécifier la langue et le ciblage géographique d'une page web. Il indique aux moteurs de recherche quelle version d'une page montrer aux utilisateurs dans différents pays ou langues.",
+        "faq2_q": "Pourquoi les balises de retour sont-elles importantes ?",
+        "faq2_a": "Google exige des liens de retour pour empêcher quelqu'un de revendiquer arbitrairement une page sur un autre site comme une version alternative de la sienne. Si la page A lie à la page B, la page B doit lier en retour à la page A.",
+        "faq3_q": "Cet outil vérifie-t-il la balise x-default ?",
+        "faq3_a": "Oui, notre outil identifie et valide la balise hreflang `x-default`, utilisée pour les langues non correspondantes ou les sélecteurs de pays stricts.",
+        "faq4_q": "Puis-je vérifier le hreflang dans les en-têtes HTTP ?",
+        "faq4_a": "Oui ! Nous vérifions à la fois la section HTML `<head>` et les en-têtes de réponse HTTP pour les attributs `Link: <url>; rel=\"alternate\"; hreflang=\"code\"`.",
+        "faq5_q": "Que se passe-t-il si j'ai des erreurs hreflang ?",
+        "faq5_a": "Les moteurs de recherche peuvent ignorer vos balises invalides, ce qui conduit à ce que les versions linguistiques correctes ne soient pas montrées aux bons utilisateurs, ou à des pénalités potentielles pour contenu dupliqué.",
+        "faq6_q": "Cet outil est-il gratuit ?",
+        "faq6_a": "Oui, vous pouvez effectuer des vérifications illimitées gratuitement pour vous assurer que votre SEO international est parfait."
+    }
+}

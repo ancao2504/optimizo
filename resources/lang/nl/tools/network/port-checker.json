@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Port Checker Tool - Gratis online open poortscanner",
+        "description": "Gratis port checker tool om te testen of poorten open, gesloten of gefilterd zijn. Controleer direct TCP\/UDP poorten voor netwerkbeheer.",
+        "h1": "Hulpprogramma voor poortcontrole",
+        "subtitle": "Controleer of poorten open staan op een server voor het oplossen van verbindingsproblemen"
+    },
+    "form": {
+        "host_label": "Host of IP-adres",
+        "host_placeholder": "voorbeeld.nl of 8.8.8.8",
+        "port_label": "Poortnummer",
+        "port_placeholder": "80",
+        "button": "Poort Controleren"
+    },
+    "results": {
+        "title": "Resultaat Poortcontrole"
+    },
+    "content": {
+        "what_is_title": "Wat is een Port Checker?",
+        "what_is_desc": "Een Port Checker is een diagnostisch hulpmiddel dat bepaalt of een specifieke TCP- of UDP-poort op een server open staat (verbindingen accepteert), gesloten is (verbindingen weigert) of gefilterd wordt (geblokkeerd door een firewall). Poorten zijn virtuele eindpunten voor communicatie. Elke poort (1-65535) kan een andere dienst ondersteunen, zoals poort 80 voor websites.",
+        "why_check_title": "Waarom poorten controleren?",
+        "why_check_desc": "Het controleren van poorten is cruciaal voor netwerkbeheer en beveiliging. Systeembeheerders verifiëren hiermee of diensten toegankelijk zijn na configuratiewijzigingen. Beveiligingsexperts scannen op open poorten om kwetsbaarheden te vinden. Ontwikkelaars gebruiken het om te testen of hun applicaties correct luisteren naar poorten.",
+        "common_ports_title": "Veelgebruikte Poorten",
+        "port1": "<strong>Poort 80:<\/strong> HTTP (webverkeer)",
+        "port2": "<strong>Poort 443:<\/strong> HTTPS (beveiligd webverkeer)",
+        "port3": "<strong>Poort 22:<\/strong> SSH (beveiligde externe toegang)",
+        "port4": "<strong>Poort 21:<\/strong> FTP (bestandsverdracht)",
+        "port5": "<strong>Poort 25:<\/strong> SMTP (e-mail verzenden)",
+        "port6": "<strong>Poort 3306:<\/strong> MySQL database",
+        "port7": "<strong>Poort 3389:<\/strong> RDP (Remote Desktop)",
+        "security_title": "Beveiligingsimplicaties",
+        "security_desc": "Elke open poort is een potentieel toegangspunt voor aanvallers. Het is 'best practice' om alleen noodzakelijke poorten open te stellen. Scan regelmatig je eigen servers om onbedoelde open poorten te vinden. Let op: het ongevraagd scannen van andermans systemen kan illegaal zijn."
+    },
+    "faq": {
+        "title": "Veelgestelde Vragen",
+        "q1": "Wat betekent 'Filtered'?",
+        "a1": "Dit betekent meestal dat een firewall de testpakketten blokkeert, waardoor de tool niet kan bepalen of de poort echt open of gesloten is.",
+        "q2": "Kan ik poorten op mijn router thuis controleren?",
+        "a2": "Ja, voer je publieke IP-adres in om te zien welke poorten van buitenaf bereikbaar zijn op je thuisnetwerk.",
+        "q3": "Hoe open ik een poort?",
+        "a3": "Dit doe je meestal via 'Port Forwarding' in de instellingen van je router of firewall.",
+        "q4": "Is poort 80 altijd open?",
+        "a4": "Alleen als er een webserver (zoals Apache of Nginx) draait die luistert naar verkeer op die poort.",
+        "q5": "Wat is het verschil tussen TCP en UDP?",
+        "a5": "TCP is verbindingsgeoriënteerd en garandeert dataoverdracht, terwijl UDP sneller is maar geen garanties biedt (geschikt voor streaming)."
+    },
+    "js": {
+        "checking": "Poort wordt gecontroleerd...",
+        "success": "Poortstatus gecontroleerd",
+        "error": "Fout bij controleren poort",
+        "check_port": "Poort Controleren"
+    }
+}

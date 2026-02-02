@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Omvendt DNS-oppslag - Gratis Internett-verktøy for IP til domene",
+        "description": "Gratis online omvendt DNS-oppslagsverktøy. Finn vertsnavnet knyttet til en hvilken som helst IP-adresse umiddelbart. Rask, sikker og enkel å bruke.",
+        "h1": "Omvendt DNS-oppslag",
+        "subtitle": "Finn domenenavnet tilknyttet en IP-adresse"
+    },
+    "form": {
+        "ip_label": "Skriv inn IP-adresse",
+        "ip_placeholder": "f.eks. 8.8.8.8",
+        "button": "Søk opp omvendt DNS",
+        "button_loading": "Ser opp..."
+    },
+    "results": {
+        "title": "Omvendt DNS-resultater"
+    },
+    "content": {
+        "what_is_title": "Hva er omvendt DNS-oppslag?",
+        "what_is_desc": "Omvendt DNS-oppslag (rDNS) er prosessen med å bestemme domenenavnet eller vertsnavnet knyttet til en IP-adresse. I motsetning til et standard DNS-oppslag som konverterer et domenenavn til en IP-adresse (forward lookup), gjør rDNS det motsatte. Det brukes ofte til å bekrefte identiteten til en server eller for å feilsøke nettverksproblemer.",
+        "why_use_title": "Hvorfor bruke omvendt DNS-oppslag?",
+        "why_use_desc": "Omvendt DNS er mye brukt for sikkerhets- og verifiseringsformål. Det hjelper med å identifisere kilden til innkommende trafikk, bekrefte e-postavsendere (for å forhindre spam) og feilsøke problemer med nettverkstilkobling. Mange e-postservere krever gyldige rDNS-poster for å akseptere innkommende e-poster.",
+        "ptr_records_title": "Forstå PTR-poster",
+        "ptr_record1": "<strong>PTR Record:<\/strong> En Pointer Record (PTR) er typen DNS-post som brukes for omvendte DNS-oppslag.",
+        "ptr_record2": "<strong>Kartlegging:<\/strong> Den tilordner en IP-adresse tilbake til et vertsnavn.",
+        "ptr_record3": "<strong>Bekreftelse:<\/strong> Avgjørende for e-postlevering og sikkerhetsverifisering.",
+        "ptr_record4": "<strong>IP-til-vert:<\/strong> Viktig for å identifisere den sanne eieren av en IP-adresse.",
+        "ptr_record5": "<strong>Spam Prevention:<\/strong> Brukes av e-postservere for å validere avsenderens autentisitet.",
+        "ptr_record6": "<strong>Nettverkslogger:<\/strong> Nyttig for å gjøre nettverkslogger lesbare for mennesker ved å vise vertsnavn.",
+        "use_cases_title": "Vanlige brukstilfeller",
+        "use_cases_desc": "Vanlige brukstilfeller inkluderer verifisering av opprinnelsen til nettrafikk, diagnostisering av nettverksforsinkelse eller rutingproblemer, validering av e-postserverkonfigurasjoner og forbedring av cybersikkerhetsrevisjoner ved å identifisere potensielt skadelige IP-adresser."
+    },
+    "faq": {
+        "title": "Ofte stilte spørsmål",
+        "q1": "Hva er en PTR-post?",
+        "a1": "En PTR-post (peker) er en type DNS-post som tilordner en IP-adresse til et vertsnavn. Det er kjernekomponenten i et omvendt DNS-oppslag.",
+        "q2": "Hvorfor er omvendt DNS viktig for e-post?",
+        "a2": "Mange e-postleverandører bruker omvendt DNS for å bekrefte at sendeserveren er legitim. Hvis en servers IP-adresse ikke har en samsvarende rDNS-post, kan e-postene bli flagget som spam.",
+        "q3": "Kan en hvilken som helst IP-adresse ha en omvendt DNS-post?",
+        "a3": "Ja, men eieren av IP-adressen (vanligvis Internett-leverandøren eller vertsleverandøren) må konfigurere PTR-posten i sine DNS-innstillinger."
+    }
+}

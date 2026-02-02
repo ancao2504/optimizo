@@ -1,0 +1,86 @@
+{
+    "meta": {
+        "title": "YouTube Channel ID Finder - ilmainen online-työkalu",
+        "description": "Etsi minkä tahansa YouTube-kanavan yksilöllinen tunnus välittömästi. Yksinkertainen työkalu kehittäjille ja tekijöille. Ei APIa, ilmainen.",
+        "h1": "YouTube Channel ID Finder",
+        "subtitle": "Hae mikä tahansa YouTube-kanavan tunnus välittömästi. Välttämätön API-integraatioon ja analyysiin."
+    },
+    "form": {
+        "title": "Etsi YouTube-kanavan tunnus",
+        "url_label": "Kanavan URL tai käyttäjänimi",
+        "url_placeholder": "https:\/\/www.youtube.com\/@kanavannimi tai https:\/\/www.youtube.com\/c\/kanavannimi",
+        "url_help": "Syötä YouTube-kanavan URL tai @kahva löytääksesi sen tunnuksen",
+        "find_button": "Etsi kanavan tunnus"
+    },
+    "js": {
+        "success_title": "Kanavan tunnus löytyi!",
+        "channel_id": "Kanavan tunnus",
+        "copy": "Kopioi",
+        "error_enter_url": "Syötä YouTube-kanavan URL-osoite",
+        "error_valid_url": "Syötä kelvollinen YouTube-kanavan URL-osoite",
+        "finding": "Etsitään tunnusta...",
+        "error_failed": "Kanavan tunnuksen haku epäonnistui. Yritä uudelleen.",
+        "channel_name": "Kanavan nimi",
+        "channel_url": "Kanavan URL",
+        "copied": "Kopioitu!"
+    },
+    "content": {
+        "main_title": "Etsi YouTube-kanavien tunnukset välittömästi",
+        "main_subtitle": "Hanki minkä tahansa kanavan yksilöllinen tunniste API-integraatiota ja kehitystä varten",
+        "main_description": "Ilmainen YouTube-kanavan tunnuksen hakutyökalumme auttaa kehittäjiä, markkinoijia ja sisällöntuottajia hakemaan nopeasti kanavan yksilöllisen tunnisteen. Olipa kyseessä API-integraatio tai analyysityökalujen rakentaminen, hanki tarkat tunnukset välittömästi ilman API-avainta.",
+        "feature_instant_desc": "Hanki kanavatunnukset heti ilman viiveitä tai monimutkaisia asennuksia",
+        "feature_formats": "Kaikki URL-muodot",
+        "feature_formats_desc": "Toimii @kahvojen, \/c\/nimi, \/channel\/ID ja \/user\/kayttajanimi kanssa",
+        "feature_copy": "Helppo kopiointi",
+        "feature_copy_desc": "Yhden klikkauksen kopiointi leikepöydälle nopeaa käyttöä varten projekteissasi",
+        "api_dev_title": "🔧 API ja kehitys",
+        "api_dev_1": "Välttämätön YouTube Data API v3:n integroimiseksi",
+        "api_dev_2": "Perusta YouTube-analyysityökalujen rakentamiseen",
+        "api_dev_3": "Tarvitaan kanavatilausten tilan seuraamiseen",
+        "api_dev_4": "Kriittinen automatisoidulle sisällönhallinnalle",
+        "marketing_title": "📊 Markkinointi ja analyysi",
+        "marketing_1": "Seuraa kilpailevien kanavien suoriutumista",
+        "marketing_2": "Auditoi vaikuttajayhteistöitä",
+        "marketing_3": "Varmista kanavan aitous",
+        "marketing_4": "Analysoi kanavan kasvutrendejä"
+    },
+    "features": {
+        "instant": "Välittömät tulokset"
+    },
+    "use_cases": {
+        "title": "Tärkeimmät käyttötapaukset",
+        "case1": "API-integraatio",
+        "case1_desc": "Käytä kanavatunnuksia sovelluksesi YouTube Data API -kutsuissa",
+        "case2": "Analyysityökalut",
+        "case2_desc": "Rakenna mukautettuja analytiikkanäkymiä ja seurantajärjestelmiä",
+        "case3": "Vaikuttajamarkkinointi",
+        "case3_desc": "Hallitse ja seuraa vaikuttajakumppanuuksia tehokkaasti",
+        "case4": "RSS-syötteet",
+        "case4_desc": "Luo RSS-syötteitä kanavan latauksista käyttämällä kanavatunnusta",
+        "case5": "Sisällön kuratointi",
+        "case5_desc": "Järjestä ja luokittele kanavia sisältöstrategiaasi varten",
+        "case6": "Automaatio",
+        "case6_desc": "Automatisoi kanavien seuranta ja tiedonkeruu"
+    },
+    "pro_tips": {
+        "title": "💡 Pro-vinkit: Kanavatunnusten käyttö",
+        "tip1": "Kanavatunnukset alkavat aina kirjaimilla \"UC\", joita seuraa 22 merkkiä",
+        "tip2": "Käytä kanavatunnuksia käyttäjänimien sijasta varmistaaksesi API-kutsujen luotettavuuden",
+        "tip3": "Kanavatunnus ei koskaan muutu, vaikka kanavan nimi vaihtuisi",
+        "tip4": "Tallenna kanavatunnukset tietokantaasi pitkäaikaista seurantaa varten",
+        "tip5": "Käytä kanavatunnusta suorien RSS-syöte-URL-osoitteiden luomiseen"
+    },
+    "faq": {
+        "title": "❓ Usein kysytyt kysymykset",
+        "q1": "Mikä on YouTube-kanavan tunnus (ID)?",
+        "a1": "YouTube-kanavan tunnus on yksilöllinen 24-merkkinen tunniste, joka alkaa kirjaimilla \"UC\". Se on pysyvä eikä muutu.",
+        "q2": "Miksi tarvitsen tunnuksen nimen sijasta?",
+        "a2": "Useimmat YouTube API -toiminnot vaativat tunnuksen. Toisin kuin nimet, joita voidaan muuttaa, tunnukset ovat yksilöllisiä ja kiinteitä.",
+        "q4": "Onko tämä työkalu ilmainen?",
+        "a4": "Totta kai! Hakutyökalumme on täysin ilmainen ilman rajoituksia tai rekisteröitymistä.",
+        "q5": "Mitä minun pitäisi tehdä kanavatunnuksella sen saatuani?",
+        "a5": "Voit käyttää sitä YouTube API:n kanssa tilastojen hakuun, käyttäjien tilaamiseen tai integroida sen kolmansien osapuolten työkaluihin.",
+        "q6": "Mitä URL-muotoja työkalu tukee?",
+        "a6": "Tuemme kaikkia muotoja: @kahvat, \/c\/nimi, \/channel\/ID ja \/user\/nimi."
+    }
+}

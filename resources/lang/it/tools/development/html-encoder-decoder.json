@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "Codificatore e decodificatore HTML: strumento online gratuito per le entità",
+        "description": "Codifica e decodifica le entità HTML all'istante: converti i caratteri speciali in entità HTML e viceversa",
+        "h1": "Codificatore e decodificatore HTML",
+        "subtitle": "Codifica e decodifica le entità HTML all'istante"
+    },
+    "editor": {
+        "mode_encode": "Codifica HTML",
+        "mode_decode": "Decodifica HTML",
+        "label_input_encode": "Input HTML",
+        "ph_input_encode": "Inserisci il codice HTML...",
+        "btn_encode": "Codifica in Entità",
+        "btn_clear": "Clear",
+        "btn_copy": "Copia Risultato",
+        "label_output_encode": "Encoded HTML",
+        "ph_output": "Processed HTML will appear here...",
+        "label_input_decode": "Enter HTML to Decode",
+        "label_output_decode": "Decoded HTML",
+        "btn_decode": "Decodifica da Entità"
+    },
+    "content": {
+        "hero_title": "Gratis HTML Encoder & Decoder",
+        "hero_subtitle": "Il miglior strumento per convertire entità HTML",
+        "p1": "Lo strumento gratuito per codificare e decodificare codice HTML istantaneamente nel tuo browser.",
+        "what_title": "Cos'è la codifica HTML?",
+        "what_desc": "La codifica HTML (o codifica delle entità) sostituisce i caratteri speciali che hanno significati riservati in HTML con le corrispondenti entità HTML. Ad esempio, il carattere `<` viene codificato come `&lt;`. Questo impedisce ai browser di interpretare questi caratteri come tag HTML, rendendo i dati sicuri per la visualizzazione. Il nostro strumento gratuito ti consente di codificare e decodificare le entità HTML all'istante, garantendo che il tuo codice venga visualizzato correttamente e in modo sicuro.",
+        "features_title": "Caratteristiche Principali",
+        "features": {
+            "fast": {
+                "title": "Istantaneo Conversion",
+                "desc": "Encode or decode HTML in milliseconds"
+            },
+            "bidirectional": {
+                "title": "Bidirectional",
+                "desc": "Encode special characters or decode entities back to text"
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All processing happens in your browser"
+            },
+            "copy": {
+                "title": "Copia Rapida",
+                "desc": "Copia istantaneamente il risultato con un clic."
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "No limits, no registration required"
+            },
+            "safe": {
+                "title": "Security Focused",
+                "desc": "Helps prevent XSS vulnerabilities"
+            }
+        },
+        "uses_title": "ðŸŽ¯ Common Use Cases",
+        "uses": {
+            "security": {
+                "title": "ðŸ”’ Security",
+                "desc": "Sanitize user input to prevent XSS attacks by encoding special characters."
+            },
+            "display": {
+                "title": "ðŸ’» Code Display",
+                "desc": "Display raw HTML code on a webpage without it being rendered by the browser."
+            },
+            "data": {
+                "title": "ðŸ“Š Data Storage",
+                "desc": "Store content safely in databases without worrying about HTML parsing issues."
+            },
+            "email": {
+                "title": "ðŸ“§ Email Templates",
+                "desc": "Ensure special characters render correctly in HTML emails."
+            }
+        },
+        "how_title": "ðŸ“š Come usare Use",
+        "how_steps": {
+            "1": "Paste your HTML or text in the Input field",
+            "2": "Click the process button to Converti",
+            "3": "Copia the Risultato to clipboard",
+            "4": "Copy the encoded\/decoded result and use it in your HTML, XML, or web applications."
+        },
+        "examples_title": "ðŸ’¡ HTML Encoding Esempi",
+        "examples": {
+            "1": {
+                "title": "Quotes:",
+                "code": "\"Hello\" â†’ &quot;Hello&quot;"
+            },
+            "2": {
+                "title": "Ampersand:",
+                "code": "Tom & Jerry â†’ Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Encoding Special Characters",
+                "code": "&lt;script&gt;alert(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&amp;gt;"
+            }
+        },
+        "faq_title": "Domande Frequenti",
+        "faq": {
+            "q1": "Perché codificare l'HTML?",
+            "a1": "Per visualizzare codice in sicurezza senza che venga eseguito dal browser.",
+            "q2": "Quali caratteri vengono codificati?",
+            "a2": "I caratteri comunemente codificati includono <, >, &, \", ', e vari simboli speciali o caratteri non ASCII.",
+            "q3": "I miei dati sono sicuri?",
+            "a3": "Sì, tutta la codifica e decodifica viene eseguita localmente nel tuo browser. I tuoi dati non vengono mai inviati ai nostri server."
+        }
+    },
+    "js": {
+        "error_empty": "Inserisci del testo da elaborare",
+        "success_encode": "âœ“ HTML encoded Successofully",
+        "success_decode": "âœ“ HTML decoded Successofully",
+        "error_process": "Errore durante l'elaborazione delle entità HTML: ",
+        "error_no_copy": "No Output to Copia",
+        "success_copy": "âœ“ Copied to clipboard"
+    }
+}

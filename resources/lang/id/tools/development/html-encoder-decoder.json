@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "Encoder & Decoder HTML - Alat Entitas Online Gratis",
+        "description": "Enkode dan dekode entitas HTML untuk mencegah serangan XSS dengan alat online gratis kami",
+        "h1": "Enkoder & Dekoder HTML",
+        "subtitle": "Enkode dan dekode entitas HTML untuk mencegah serangan XSS"
+    },
+    "editor": {
+        "mode_encode": "Kode HTML",
+        "mode_decode": "Dekode HTML",
+        "label_input_encode": "Masukkan HTML untuk Mengkodekan",
+        "ph_input_encode": "<div>Halo & Selamat Datang<\/div>",
+        "btn_encode": "Kode HTML",
+        "btn_clear": "Jernih",
+        "btn_copy": "Menyalin",
+        "label_output_encode": "HTML yang dikodekan",
+        "ph_output": "HTML yang diproses akan muncul di sini...",
+        "label_input_decode": "Masukkan HTML untuk Dekode",
+        "label_output_decode": "HTML yang didekodekan",
+        "btn_decode": "Dekode HTML"
+    },
+    "content": {
+        "hero_title": "Enkoder & Dekoder HTML Gratis",
+        "hero_subtitle": "Enkode dan dekode entitas HTML untuk mencegah serangan XSS",
+        "p1": "Alat Encoder & Decoder HTML gratis kami membantu Anda mengkodekan karakter khusus dalam HTML untuk tampilan yang aman di halaman web, atau mendekode HTML yang dikodekan kembali ke format aslinya. Sempurna untuk pengembang, profesional keamanan, dan siapa pun yang bekerja dengan HTML mentah.",
+        "what_title": "ðŸ”— What is HTML Encoding?",
+        "what_desc": "Pengkodean HTML mengonversi karakter yang memiliki arti khusus dalam HTML (seperti <, >, &, \") menjadi entitas HTML terkait (seperti &lt;, &gt;, &amp;, &quot;). Hal ini mencegah browser menafsirkannya sebagai tag HTML, yang sangat penting untuk mencegah serangan Cross-Site Scripting (XSS).",
+        "features_title": "âœ¨ Fitur",
+        "features": {
+            "fast": {
+                "title": "Konversi Instan",
+                "desc": "Enkode atau dekode HTML dalam milidetik"
+            },
+            "bidirectional": {
+                "title": "Dua arah",
+                "desc": "Enkode karakter khusus atau dekode entitas kembali ke teks"
+            },
+            "privacy": {
+                "title": "Privasi Pertama",
+                "desc": "Semua pemrosesan terjadi di browser Anda"
+            },
+            "copy": {
+                "title": "Salin Sekali Klik",
+                "desc": "Salin HTML yang diproses ke clipboard secara instan"
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "Tidak ada batasan, tidak perlu registrasi"
+            },
+            "safe": {
+                "title": "Berfokus pada Keamanan",
+                "desc": "Membantu mencegah kerentanan XSS"
+            }
+        },
+        "uses_title": "ðŸŽ¯ Common Use Cases",
+        "uses": {
+            "security": {
+                "title": "ðŸ”’ Security",
+                "desc": "Sanitasi input pengguna untuk mencegah serangan XSS dengan menyandikan karakter khusus."
+            },
+            "display": {
+                "title": "ðŸ’» Code Display",
+                "desc": "Menampilkan kode HTML mentah pada halaman web tanpa dirender oleh browser."
+            },
+            "data": {
+                "title": "ðŸ“Š Data Storage",
+                "desc": "Simpan konten dengan aman di database tanpa khawatir tentang masalah penguraian HTML."
+            },
+            "email": {
+                "title": "ðŸ“§ Email Templates",
+                "desc": "Pastikan karakter khusus ditampilkan dengan benar di email HTML."
+            }
+        },
+        "how_title": "ðŸ“š How to Use",
+        "how_steps": {
+            "1": "Tempel HTML atau teks Anda di kolom input",
+            "2": "Klik tombol proses untuk mengkonversi",
+            "3": "Salin hasilnya ke clipboard",
+            "4": "Salin hasil yang dikodekan\/didekode dan gunakan dalam HTML, XML, atau aplikasi web Anda."
+        },
+        "examples_title": "ðŸ’¡ HTML Encoding Examples",
+        "examples": {
+            "1": {
+                "title": "Kutipan:",
+                "code": "\"Halo\" â†’ &quot;Halo&quot;"
+            },
+            "2": {
+                "title": "Ampersand:",
+                "code": "Tom & Jerry â†’ Tom &amp; jeri"
+            },
+            "3": {
+                "title": "Pengkodean Karakter Khusus",
+                "code": "&lt;skrip&gt;peringatan(\"XSS\")&lt;\/skrip&gt; → &amp;lt;skrip&amp;gt;peringatan(&amp;quot;XSS&amp;quot;)&amp;lt;\/skrip&amp;gt;"
+            }
+        },
+        "faq_title": "â“ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Mengapa saya perlu menyandikan HTML?",
+            "a1": "Pengkodean sangat penting untuk keamanan guna mencegah browser mengeksekusi skrip berbahaya (XSS) dan untuk menampilkan cuplikan kode dengan benar.",
+            "q2": "Karakter mana yang dikodekan?",
+            "a2": "Karakter penting seperti <, >, &, \", dan ' selalu dikodekan. Karakter ASCII yang diperluas juga dapat dikodekan.",
+            "q3": "Apakah itu bisa dibalik?",
+            "a3": "Ya, decoding membalikkan proses dengan tepat, mengembalikan teks asli."
+        }
+    },
+    "js": {
+        "error_empty": "Silakan masukkan HTML untuk diproses",
+        "success_encode": "âœ“ HTML berhasil dikodekan",
+        "success_decode": "âœ“ HTML berhasil didekode",
+        "error_process": "âœ— Error processing HTML: ",
+        "error_no_copy": "Tidak ada keluaran untuk disalin",
+        "success_copy": "âœ“ Disalin ke papan klip"
+    }
+}

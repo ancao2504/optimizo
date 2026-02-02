@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "Dekoder JWT Online - Debugger Token Web JSON Gratis",
+        "description": "Dekode dan periksa JSON Web Tokens (JWT) - Lihat header, payload, dan tanda tangan!",
+        "h1": "Dekoder JWT",
+        "subtitle": "Dekode dan periksa JSON Web Tokens (JWT) - Lihat header, payload, dan tanda tangan!"
+    },
+    "editor": {
+        "label_input": "Masukkan Token JWT",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Dekode JWT",
+        "btn_clear": "Jernih",
+        "btn_example": "Contoh",
+        "label_payload": "Muatan (Klaim)",
+        "label_signature": "Tanda tangan",
+        "note_signature": "âš ï¸ Catatan: Verifikasi tanda tangan memerlukan kunci rahasia"
+    },
+    "content": {
+        "hero_title": "Dekoder JWT Online Gratis",
+        "hero_subtitle": "Dekode dan periksa Token Web JSON secara instan",
+        "p1": "Alat Decoder JWT gratis kami memungkinkan Anda mendekode dan memeriksa JSON Web Tokens (JWT) untuk melihat komponen header, payload, dan tanda tangannya. Sempurna untuk men-debug masalah autentikasi, memahami struktur token, dan memvalidasi klaim JWT.",
+        "what_title": "ðŸ” Apa itu JWT?",
+        "what_desc": "JSON Web Token (JWT) adalah sarana yang ringkas dan aman untuk URL untuk mewakili klaim antara dua pihak. JWT terdiri dari tiga bagian: Header (algoritma dan jenis token], Payload (klaim\/data], dan Tanda Tangan (verifikasi], dipisahkan oleh titik.",
+        "features_title": "âœ¨ Fitur",
+        "features": {
+            "instant": {
+                "title": "Dekode Instan",
+                "desc": "Dekode JWT dalam milidetik"
+            },
+            "structured": {
+                "title": "Tampilan Terstruktur",
+                "desc": "Lihat header, payload, dan tanda tangan secara terpisah"
+            },
+            "privacy": {
+                "title": "Privasi Pertama",
+                "desc": "Semua decoding terjadi di browser Anda"
+            }
+        },
+        "uses_title": "ðŸŽ¯ Common Use Cases",
+        "uses": {
+            "debug": {
+                "title": "ðŸ› Men-debug",
+                "desc": "Debug masalah autentikasi dengan memeriksa konten JWT"
+            },
+            "validate": {
+                "title": "âœ…Validasi",
+                "desc": "Verifikasi klaim JWT dan waktu kedaluwarsa"
+            },
+            "learn": {
+                "title": "ðŸ“š Learning",
+                "desc": "Memahami struktur dan komponen JWT"
+            },
+            "dev": {
+                "title": "ðŸ”§ Development",
+                "desc": "Uji pembuatan dan penguraian JWT di aplikasi Anda"
+            }
+        },
+        "faq_title": "â“ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Apakah aman untuk memecahkan kode JWT di sini?",
+            "a1": "Ya! Semua decoding terjadi di browser Anda. JWT Anda tidak pernah meninggalkan perangkat Anda. Namun, jangan pernah membagikan JWT secara publik karena mungkin berisi informasi sensitif.",
+            "q2": "Bisakah alat ini memverifikasi tanda tangan JWT?",
+            "a2": "Alat ini mendekode dan menampilkan komponen JWT tetapi tidak memverifikasi tanda tangan, karena memerlukan kunci rahasia yang tidak boleh dibagikan.",
+            "q3": "Apa yang dimaksud dengan klaim JWT?",
+            "a3": "Klaim adalah pernyataan tentang suatu entitas (biasanya pengguna) dan data tambahan. Klaim yang umum mencakup 'sub' (subjek], 'exp' (kedaluwarsa], dan 'iat' (dikeluarkan pada)."
+        }
+    },
+    "js": {
+        "error_empty": "Silakan masukkan token JWT",
+        "error_invalid_format": "Format JWT tidak valid. JWT harus memiliki 3 bagian yang dipisahkan oleh titik.",
+        "success_decode": "âœ“ JWT berhasil diterjemahkan",
+        "error_decode": "âœ— Error decoding JWT: "
+    }
+}

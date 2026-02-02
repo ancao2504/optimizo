@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Controllo HReflang: validatore di tag online gratuito",
+        "description": "Convalida i tuoi tag hreflang per assicurarti che Google mostri gli URL corretti per lingua o area geografica al tuo pubblico.",
+        "h1": "Controllo hreflang",
+        "subtitle": "Strumento gratuito per estrarre e convalidare gli attributi hreflang per la SEO internazionale."
+    },
+    "form": {
+        "url_label": "Inserisci URL da verificare",
+        "url_placeholder": "https:\/\/esempio.it\/pagina",
+        "user_agent_label": "User Agent",
+        "user_agent_default": "Predefinito (Browser)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Verifica tag Hreflang"
+    },
+    "content": {
+        "main_title": "Verifica tag Hreflang",
+        "main_subtitle": "Assicurati che i tuoi contenuti internazionali raggiungano il pubblico giusto. Convalida l'implementazione hreflang e correggi gli errori SEO comuni.",
+        "intro": "I tag Hreflang sono essenziali per i siti web che servono più lingue o paesi. Il nostro strumento gratuito estrae e convalida i tag `rel=\"alternate\" hreflang=\"x\"` dall'intestazione HTML della tua pagina e dalle intestazioni HTTP. Controlla i tag reciproci (di ritorno) per garantire che Google e altri motori di ricerca indicizzino correttamente i tuoi contenuti localizzati.",
+        "features_title": "Perché controllare i tuoi tag Hreflang?",
+        "feature1_title": "Convalida tag reciproci",
+        "feature1_desc": "I tag Hreflang devono funzionare in coppia. Il nostro strumento controlla automaticamente se la pagina A linka alla pagina B e se la pagina B linka di nuovo alla pagina A.",
+        "feature2_title": "Rileva errori comuni",
+        "feature2_desc": "Trova tag di ritorno mancanti, codici lingua non validi (ISO 639-1) e codici paese errati (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Previeni problemi SEO",
+        "feature3_desc": "Un'implementazione errata di hreflang può portare a problemi di contenuto duplicato e alla comparsa di pagine in lingua sbagliata nei risultati di ricerca.",
+        "how_title": "Come usare il verifica Hreflang",
+        "step1_title": "Inserisci URL",
+        "step1_desc": "Incolla l'URL completo della pagina che desideri analizzare (es. https:\/\/esempio.it).",
+        "step2_title": "Seleziona User Agent",
+        "step2_desc": "Si consiglia una verifica con Googlebot, ma puoi anche controllare come browser standard.",
+        "step3_title": "Analizza i risultati",
+        "step3_desc": "Recupereremo la pagina ed elencheremo tutti i link alternativi trovati insieme al loro stato di verifica.",
+        "step4_title": "Correggi i problemi",
+        "step4_desc": "Se compaiono errori 'Tag di ritorno mancante', aggiorna le pagine di riferimento per includere il link reciproco.",
+        "faq_title": "Domande frequenti",
+        "faq1_q": "Cos'è un tag hreflang?",
+        "faq1_a": "Hreflang è un attributo HTML utilizzato per specificare la lingua e il targeting geografico di una pagina web. Dice ai motori di ricerca quale versione di una pagina mostrare agli utenti in diversi paesi o lingue.",
+        "faq2_q": "Perché sono importanti i tag di ritorno?",
+        "faq2_a": "Google richiede link di ritorno per impedire che qualcuno rivendichi arbitrariamente una pagina su un altro sito come versione alternativa della propria. Se la pagina A linka alla pagina B, la pagina B deve linkare di nuovo alla pagina A.",
+        "faq3_q": "Questo strumento controlla il tag x-default?",
+        "faq3_a": "Sì, il nostro strumento identifica e convalida il tag hreflang `x-default`, utilizzato per lingue non corrispondenti o selettori di paese rigorosi.",
+        "faq4_q": "Posso controllare hreflang nelle intestazioni HTTP?",
+        "faq4_a": "Sì! Controlliamo sia la sezione HTML `<head>` che le intestazioni di risposta HTTP per gli attributi `Link: <url>; rel=\"alternate\"; hreflang=\"code\"`.",
+        "faq5_q": "Cosa succede se ho errori hreflang?",
+        "faq5_a": "I motori di ricerca potrebbero ignorare i tuoi tag non validi, portando a non mostrare le versioni linguistiche corrette agli utenti giusti o a potenziali penalizzazioni per contenuto duplicato.",
+        "faq6_q": "Questo strumento è gratuito?",
+        "faq6_a": "Sì, puoi eseguire verifiche illimitate gratuitamente per assicurarti che la tua SEO internazionale sia perfetta."
+    }
+}

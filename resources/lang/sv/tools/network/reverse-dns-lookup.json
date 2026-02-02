@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Omvänd DNS-uppslagning - Gratis online-IP till domänverktyg",
+        "description": "Gratis onlineverktyg för omvänd DNS-uppslagning. Hitta värdnamnet associerat med valfri IP-adress omedelbart. Snabbt, säkert och enkelt att använda.",
+        "h1": "Omvänd DNS-sökning",
+        "subtitle": "Hitta domännamnet eller värdnamnet associerat med en IP-adress omedelbart"
+    },
+    "form": {
+        "ip_label": "Ange IP-adress",
+        "ip_placeholder": "t.ex. 8.8.8.8",
+        "button": "Sök Omvänd DNS",
+        "button_loading": "Söker..."
+    },
+    "results": {
+        "title": "Resultat av omvänd DNS"
+    },
+    "content": {
+        "what_is_title": "Vad är Omvänd DNS-uppslagning?",
+        "what_is_desc": "Omvänd DNS-uppslagning (rDNS) är processen att fastställa domännamnet eller värdnamnet som är associerat med en IP-adress. Till skillnad från en vanlig DNS-uppslagning som konverterar ett domännamn till en IP-adress (framåtuppslagning), gör rDNS tvärtom. Det används ofta för att verifiera identiteten på en server eller för att felsöka nätverksproblem.",
+        "why_use_title": "Varför använda Omvänd DNS-uppslagning?",
+        "why_use_desc": "Omvänd DNS används ofta för säkerhets- och verifieringsändamål. Det hjälper till att identifiera källan till inkommande trafik, verifiera e-postavsändare (för att förhindra skräppost) och felsöka problem med nätverksanslutning. Många e-postservrar kräver giltiga rDNS-poster för att acceptera inkommande e-post.",
+        "ptr_records_title": "Förstå PTR-poster",
+        "ptr_record1": "<strong>PTR-post:<\/strong> En pekarpost (PTR) är den typ av DNS-post som används för omvända DNS-uppslagningar.",
+        "ptr_record2": "<strong>Mappning:<\/strong> Den mappar en IP-adress tillbaka till ett värdnamn.",
+        "ptr_record3": "<strong>Verifiering:<\/strong> Avgörande för e-postleverans och säkerhetsverifiering.",
+        "ptr_record4": "<strong>IP-till-Värd:<\/strong> Oumbärlig för att identifiera den verkliga ägaren till en IP-adress.",
+        "ptr_record5": "<strong>Skräppostskydd:<\/strong> Används av e-postservrar för att validera avsändarens äkthet.",
+        "ptr_record6": "<strong>Nätverksloggar:<\/strong> Hjälpsam för att göra nätverksloggar mänskligt läsbara genom att visa värdnamn.",
+        "use_cases_title": "Vanliga användningsområden",
+        "use_cases_desc": "Vanliga användningsområden inkluderar att verifiera ursprunget för webbtrafik, diagnostisera problem med nätverkslatens eller routing, validera e-postserverkonfigurationer och förbättra cybersäkerhetsrevisioner genom att identifiera potentiellt skadliga IP-adresser."
+    },
+    "faq": {
+        "title": "Vanliga frågor",
+        "q1": "Vad är en PTR-post?",
+        "a1": "En PTR-post (Pointer) är en typ av DNS-post som mappar en IP-adress till ett värdnamn. Det är kärnkomponenten i en omvänd DNS-uppslagning.",
+        "q2": "Varför är omvänd DNS viktigt för e-post?",
+        "a2": "Många e-postleverantörer använder omvänd DNS för att verifiera att den sändande servern är legitim. Om en servers IP-adress inte har en matchande rDNS-post kan dess e-postmeddelanden flaggas som skräppost.",
+        "q3": "Kan vilken IP-adress som helst ha en omvänd DNS-post?",
+        "a3": "Ja, men ägaren till IP-adressen (vanligtvis internetleverantören eller webbhotellet) måste konfigurera PTR-posten i sina DNS-inställningar."
+    }
+}

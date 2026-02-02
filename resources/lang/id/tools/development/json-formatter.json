@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter Online - Alat Pemcantik JSON Gratis",
+        "description": "Format, validasi, dan perkecil data JSON Anda dengan alat online gratis kami",
+        "h1": "Pemformat JSON",
+        "subtitle": "Format, validasi, dan perkecil data JSON Anda"
+    },
+    "editor": {
+        "title": "Format Data JSON Anda",
+        "label_input": "Masukkan Data JSON",
+        "ph_input": "{\"nama\": \"John Doe\", \"umur\": 30, \"kota\": \"New York\"}",
+        "help_text": "Tempelkan data JSON Anda untuk memformat, mempercantik, atau memperkecilnya",
+        "btn_format": "Format & Percantik",
+        "btn_minify": "Perkecil JSON",
+        "label_results": "JSON yang diformat",
+        "btn_copy": "Salin JSON"
+    },
+    "content": {
+        "why_title": "Mengapa Menggunakan Pemformat JSON Kami?",
+        "why_desc": "JSON (JavaScript Object Notation) adalah format pertukaran data paling populer yang digunakan dalam pengembangan web, API, dan file konfigurasi. Pemformat JSON online gratis kami membantu pengembang, analis data, dan profesional TI dengan cepat memformat, mempercantik, memvalidasi, dan memperkecil data JSON. Baik Anda melakukan debug pada respons API, membersihkan file konfigurasi, atau menyiapkan JSON untuk produksi, alat kami memberikan hasil instan dengan penyorotan sintaksis dan deteksi kesalahan. Sempurna untuk pengembang yang bekerja dengan REST API, database NoSQL, dan aplikasi web modern.",
+        "features": {
+            "instant": {
+                "title": "Pemformatan Instan",
+                "desc": "Format dan percantik data JSON dalam milidetik dengan indentasi dan penyorotan sintaksis yang tepat"
+            },
+            "error": {
+                "title": "Deteksi Kesalahan",
+                "desc": "Secara otomatis mendeteksi dan menyorot kesalahan sintaksis JSON dengan pesan kesalahan yang bermanfaat"
+            },
+            "privacy": {
+                "title": "100% Pribadi",
+                "desc": "Semua pemrosesan terjadi di browser Anda - data JSON Anda tidak pernah meninggalkan komputer Anda"
+            }
+        },
+        "how_title": "Cara Memformat JSON dalam 3 Langkah Mudah",
+        "how_steps": {
+            "1": {
+                "title": "Pilih Tindakan",
+                "desc": "Klik \"Format & Percantik\" untuk memformat atau \"Minify\" untuk mengompresi JSON Anda"
+            },
+            "2": {
+                "title": "Salin Hasil",
+                "desc": "Klik tombol salin untuk menyalin JSON yang diformat ke clipboard Anda"
+            },
+            "3": {
+                "title": "Format atau Perkecil",
+                "desc": "Pilih untuk mempercantik (memformat dengan lekukan) atau memperkecil (kompres menjadi satu baris) data JSON Anda berdasarkan kebutuhan Anda."
+            }
+        },
+        "uses_title": "Kasus Penggunaan Pemformatan JSON Umum",
+        "uses": {
+            "api": {
+                "title": "Debugging Respons API",
+                "desc": "Format respons API yang berantakan untuk membaca dan men-debug data JSON dengan mudah dari REST API, GraphQL, dan layanan web."
+            },
+            "config": {
+                "title": "File Konfigurasi",
+                "desc": "Bersihkan dan validasi file konfigurasi JSON untuk aplikasi, package.json, tsconfig.json, dan lainnya."
+            },
+            "db": {
+                "title": "Data Basis Data",
+                "desc": "Format data JSON dari database NoSQL seperti MongoDB, CouchDB, dan Firebase agar lebih mudah dibaca."
+            },
+            "export": {
+                "title": "Ekspor\/Impor Data",
+                "desc": "Siapkan data JSON untuk diekspor atau validasi data JSON yang diimpor untuk memastikan struktur dan sintaksis yang tepat."
+            }
+        },
+        "tips_title": "Praktik & Tip Terbaik JSON",
+        "tips": {
+            "validate": {
+                "title": "✓ Selalu Validasi JSON",
+                "desc": "Gunakan validator JSON untuk menangkap kesalahan sintaksis sebelum diterapkan ke produksi. JSON yang tidak valid dapat merusak aplikasi Anda."
+            },
+            "indent": {
+                "title": "✓ Gunakan Indentasi yang Tepat",
+                "desc": "Format JSON dengan lekukan 2 atau 4 spasi agar lebih mudah dibaca selama pengembangan dan debugging."
+            },
+            "minify": {
+                "title": "✓ Perkecil untuk Produksi",
+                "desc": "Perkecil data JSON sebelum diterapkan ke produksi untuk mengurangi ukuran file dan meningkatkan waktu muat."
+            },
+            "naming": {
+                "title": "✓ Gunakan Penamaan yang Konsisten",
+                "desc": "Ikuti konvensi penamaan camelCase atau Snake_case secara konsisten di seluruh struktur JSON Anda."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Apakah data JSON saya aman?",
+            "a1": "Ya, tentu saja. Pemformat JSON kami sepenuhnya berjalan di browser web Anda menggunakan JavaScript. Data Anda tidak pernah dikirim ke server kami atau disimpan di mana pun.",
+            "q2": "Mengapa Memperkecil JSON itu penting?",
+            "a2": "Memperkecil menghilangkan spasi dan jeda baris yang tidak perlu, sehingga mengurangi ukuran file secara signifikan. Hal ini penting untuk meningkatkan kinerja API dan mengurangi penggunaan bandwidth di lingkungan produksi.",
+            "q3": "Bisakah saya memvalidasi JSON yang tidak lengkap?",
+            "a3": "Alat ini memerlukan struktur JSON yang valid untuk memformat atau mengecilkan. Namun, ini memberikan pesan kesalahan terperinci untuk membantu Anda menemukan dan memperbaiki masalah pada data JSON Anda.",
+            "q4": "Apakah ini mendukung file JSON besar?",
+            "a4": "Ya, alat ini dioptimalkan untuk menangani kumpulan data JSON yang besar secara efisien, meskipun file yang sangat besar mungkin bergantung pada batas memori browser Anda."
+        }
+    },
+    "js": {
+        "error_empty_format": "Silakan masukkan data JSON untuk diformat",
+        "error_invalid": "JSON tidak valid:",
+        "error_empty_minify": "Silakan masukkan data JSON untuk diperkecil",
+        "success_copy": "Disalin!",
+        "error_copy": "Gagal menyalin. Silakan salin secara manual."
+    }
+}

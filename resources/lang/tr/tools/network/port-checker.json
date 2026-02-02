@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Bağlantı Noktası Denetleyici Aracı - Ücretsiz Çevrimiçi Açık Bağlantı Noktası Tarayıcı",
+        "description": "Bağlantı noktalarının açık, kapalı veya filtrelenmiş olup olmadığını test etmek için ücretsiz port kontrol aracı. Ağ sorunlarını giderme ve güvenlik denetimi için TCP\/UDP portlarını anında kontrol edin.",
+        "h1": "Bağlantı Noktası Denetleyici Aracı",
+        "subtitle": "Bağlantı sorunlarını gidermek için herhangi bir sunucudaki portların açık olup olmadığını kontrol edin"
+    },
+    "form": {
+        "host_label": "Ana Bilgisayar veya IP Adresi",
+        "host_placeholder": "orneksite.com veya 8.8.8.8",
+        "port_label": "Port Numarası",
+        "port_placeholder": "80",
+        "button": "Portu Kontrol Et"
+    },
+    "results": {
+        "title": "Port Durumu"
+    },
+    "content": {
+        "what_is_title": "Port Kontrol Aracı Nedir?",
+        "what_is_desc": "Port Kontrol Aracı, bir sunucu veya cihazdaki belirli bir TCP veya UDP portunun açık (bağlantı kabul ediyor), kapalı (bağlantı reddediyor) veya filtrelenmiş (bir güvenlik duvarı tarafından engellenmiş) olup olmadığını belirleyen bir ağ tanılama aracıdır. Portlar, her bir port numarasının (1-65535) potansiyel olarak farklı hizmetleri barındırdığı ağ iletişimi için sanal uç noktalardır. Yaygın portlar arasında HTTP web trafiği için 80, HTTPS için 443, SSH için 22 ve e-posta için 25 bulunur. Port durumunu kontrol etmek; ağ yapılandırması, güvenlik denetimi ve bağlantı sorunlarını gidermek için gereklidir.",
+        "why_check_title": "Neden Portlar Kontrol Edilmeli?",
+        "why_check_desc": "Port kontrolü, ağ yönetimi ve güvenliğinde birden fazla kritik amaca hizmet eder. Sistem yöneticileri yapılandırma değişikliklerinden sonra hizmetlerin amaçlanan portlar üzerinden erişilebilir olduğunu doğrular. Güvenlik uzmanları potansiyel güvenlik açıklarını belirlemek ve gereksiz portların kapalı olduğundan emin olmak için açık portları tarar. Geliştiriciler uygulamalarının yapılandırılan portları düzgün bir şekilde dinleyip dinlemediğini test eder. Ağ sorunlarını giderenler hizmetlerin neden erişilebilir olmadığını teşhis etmek için port kontrolünü kullanır; sorunun hizmetin kendisinde mi, güvenlik duvarı kurallarında mı yoksa ağ yönlendirmesinde mi olduğunu belirler.",
+        "common_ports_title": "Yaygın Portlar",
+        "port1": "<strong>Port 80:<\/strong> HTTP (web trafiği)",
+        "port2": "<strong>Port 443:<\/strong> HTTPS (güvenli web trafiği)",
+        "port3": "<strong>Port 22:<\/strong> SSH (güvenli kabuk erişimi)",
+        "port4": "<strong>Port 21:<\/strong> FTP (dosya aktarımı)",
+        "port5": "<strong>Port 25:<\/strong> SMTP (e-posta gönderimi)",
+        "port6": "<strong>Port 3306:<\/strong> MySQL veritabanı",
+        "port7": "<strong>Port 3389:<\/strong> RDP (Uzak Masaüstü)",
+        "security_title": "Güvenlik Etkileri",
+        "security_desc": "Açık portlar saldırganlar için potansiyel giriş noktalarını temsil eder. En iyi güvenlik uygulaması, sadece gerekli portları açık tutmayı ve diğer tüm portları kapatmayı veya filtrelemeyi gerektirir. Kendi sunucularınızı düzenli olarak taramak, istismar edilebilecek istenmeyen açık portları belirlemeye yardımcı olur. Ancak başkalarının sistemlerini izin almadan taramak yasal olmayabilir ve düşmanca bir faaliyet olarak kabul edilir. Sahibi olmadığınız sistemlerde port taraması yapmadan önce her zaman yetkiniz olduğundan emin olun."
+    },
+    "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "q1": "Bir portun 'filtrelenmiş' (filtered) olması ne anlama gelir?",
+        "a1": "Sorgunun hedefe ulaştığını ancak bir güvenlik duvarı tarafından engellendiğini ve sistemin bir yanıt vermediğini gösterir.",
+        "q2": "Port 80 ve 443 neden her zaman açık olmalıdır?",
+        "a2": "Port 80 (HTTP) ve 443 (HTTPS), web sitelerinin internet üzerinden ziyaretçilere hizmet verebilmesi için gerekli olan standart portlardır.",
+        "q3": "Neden 'Açık' portlar tehlikeli olabilir?",
+        "a3": "Eğer o portu dinleyen uygulamada bir güvenlik açığı varsa, saldırganlar bu açık kapıyı kullanarak sisteme sızabilirler.",
+        "q4": "TCP ve UDP portları arasındaki fark nedir?",
+        "a4": "TCP bağlantı odaklı ve güvenlidir; UDP ise daha hızlıdır ancak veri ulaşım garantisi vermez (akış ve oyunlar gibi).",
+        "q5": "Yerel ağdaki bir portu dışarıdan kontrol edebilir miyim?",
+        "a5": "Yönlendiricinizde (router) 'Port Yönlendirme' (Port Forwarding) yapmadıysanız, yerel cihazlarınızın portları dış dünyadan kapalı görünecektir."
+    },
+    "js": {
+        "checking": "Kontrol ediliyor...",
+        "success": "Port AÇIK!",
+        "error": "Port KAPALI veya filtrelenmiş.",
+        "check_port": "Portu Kontrol Et"
+    }
+}

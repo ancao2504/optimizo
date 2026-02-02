@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Koder i dekoder Unicode — bezpłatne narzędzie tekstowe online",
+        "description": "Koduj i dekoduj sekwencje ucieczki Unicode dla JavaScript i JSON za pomocą naszego darmowego narzędzia.",
+        "h1": "Koder i dekoder Unicode",
+        "subtitle": "Koduj i dekoduj sekwencje ucieczki Unicode dla JavaScript i JSON"
+    },
+    "editor": {
+        "btn_encode": "Koduj Unicode",
+        "btn_decode": "Dekoduj Unicode",
+        "label_input_encode": "Wprowadź tekst do zakodowania",
+        "ph_input": "Witaj Świecie",
+        "btn_process_encode": "Koduj Unicode",
+        "btn_clear": "Wyczyść",
+        "btn_copy": "Kopiuj",
+        "label_output_encoded": "Zakodowany Unicode",
+        "ph_output": "Przetworzony Unicode pojawi się tutaj...",
+        "label_input_decode": "Wprowadź Unicode do zdekodowania",
+        "label_output_decoded": "Zdekodowany Tekst",
+        "btn_process_decode": "Dekoduj Unicode"
+    },
+    "content": {
+        "p1": "Nasze darmowe narzędzie Koder i Dekoder Unicode pomaga kodować tekst na sekwencje ucieczki Unicode (np. \\u0041) dla bezpiecznego użycia w JavaScript, JSON i innych kontekstach programistycznych, lub dekodować je z powrotem na czytelny tekst. Idealne dla programistów, analityków danych i każdego, kto zajmuje się międzynarodowymi zestawami znaków. 100% darmowe przetwarzanie po stronie klienta zapewnia prywatność Twoich danych.",
+        "what_title": "Co to jest kodowanie Unicode?",
+        "what_desc": "Kodowanie Unicode konwertuje znaki na ich odpowiadające punkty kodowe Unicode, często reprezentowane jako sekwencje ucieczki, takie jak \\uXXXX. Zapewnia to, że tekst zawierający znaki specjalne, emoji lub skrypty nie łacińskie może być bezpiecznie reprezentowany w środowiskach, które zazwyczaj obsługują tylko ASCII, takich jak pliki kodu źródłowego lub dane JSON.",
+        "features_title": "Funkcje",
+        "features": {
+            "instant": {
+                "title": "Natychmiastowa konwersja",
+                "desc": "Koduj lub dekoduj Unicode w milisekundach"
+            },
+            "bidirectional": {
+                "title": "Dwukierunkowy",
+                "desc": "Koduj do formatu Unicode lub dekoduj z powrotem do oryginału"
+            },
+            "privacy": {
+                "title": "Prywatność przede wszystkim",
+                "desc": "Całe przetwarzanie odbywa się w Twojej przeglądarce"
+            },
+            "copy": {
+                "title": "Kopiowanie jednym kliknięciem",
+                "desc": "Natychmiastowo kopiuj zakodowany\/zdekodowany tekst"
+            },
+            "free": {
+                "title": "100% Darmowe",
+                "desc": "Bez limitów, rejestracja nie jest wymagana"
+            },
+            "universal": {
+                "title": "Uniwersalne wsparcie",
+                "desc": "Działa ze wszystkimi znakami Unicode i skryptami"
+            }
+        },
+        "uses_title": "Typowe przypadki użycia",
+        "uses": {
+            "programming": {
+                "title": "Programowanie",
+                "desc": "Bezpieczne osadzanie znaków specjalnych w kodzie źródłowym JavaScript lub Java"
+            },
+            "data": {
+                "title": "Serializacja danych",
+                "desc": "Zapewnienie bezpiecznej transmisji znaków spoza ASCII w JSON"
+            },
+            "international": {
+                "title": "Internacjonalizacja",
+                "desc": "Debuguj i wyświetlaj tekst w różnych językach i skryptach"
+            },
+            "security": {
+                "title": "Bezpieczeństwo",
+                "desc": "Analizuj zaciemniony kod lub dane zawierające ucieczki Unicode"
+            }
+        },
+        "how_to_title": "Jak używać",
+        "how_to": {
+            "step1": {
+                "title": "Wybierz tryb",
+                "desc": "Wybierz \"Koduj Unicode\" lub \"Dekoduj Unicode\" w zależności od potrzeb"
+            },
+            "step2": {
+                "title": "Wprowadź tekst",
+                "desc": "Wklej swój tekst lub ucieczki Unicode w pole wejściowe"
+            },
+            "step3": {
+                "title": "Przetwórz",
+                "desc": "Kliknij przycisk kodowania lub dekodowania"
+            },
+            "step4": {
+                "title": "Skopiuj wynik",
+                "desc": "Kliknij \"Kopiuj\", aby skopiować przetworzony tekst do schowka"
+            },
+            "step5": {
+                "title": "Użyj gdziekolwiek",
+                "desc": "Wklej wynik do swojego kodu lub aplikacji"
+            }
+        },
+        "examples_title": "Przykłady Unicode",
+        "examples": {
+            "simple": {
+                "title": "Proste\/ASCII:",
+                "desc": "Oryginał: \"A\" → Zakodowane: \"\\u0041\""
+            },
+            "special": {
+                "title": "Znaki specjalne:",
+                "desc": "Oryginał: \"©\" → Zakodowane: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emoji\/Wielobajtowe:",
+                "desc": "Oryginał: \"🌟\" → Zakodowane: \"\\uD83C\\uDF1F\" (pary zastępcze) lub \"\\u2B50\" w zależności od reprezentacji"
+            }
+        },
+        "faq_title": "Często zadawane pytania",
+        "faq": {
+            "q1": "Dlaczego używać sekwencji ucieczki Unicode?",
+            "a1": "Pozwalają one reprezentować dowolny znak przy użyciu tylko znaków ASCII, co zapewnia kompatybilność w różnych systemach, kodowaniach i transferach plików, które mogą nie obsługiwać surowego Unicode poprawnie.",
+            "q2": "Jaki format jest używany?",
+            "a2": "To narzędzie zazwyczaj używa stylu JavaScript\/JSON \\uXXXX dla znaków z Podstawowej Płaszczyzny Wielojęzycznej.",
+            "q3": "Czy to różni się od kodowania URL?",
+            "a3": "Tak. Kodowanie URL używa wartości szesnastkowych %XX głównie dla adresów URL. Ucieczki Unicode używają \\uXXXX i są stosowane w ciągach znaków w językach programowania takich jak JavaScript, Java i Python.",
+            "q4": "Czy moje dane są bezpieczne?",
+            "a4": "Tak! Całe kodowanie i dekodowanie odbywa się całkowicie w Twojej przeglądarce przy użyciu JavaScript. Twój tekst nigdy nie opuszcza urządzenia."
+        }
+    },
+    "js": {
+        "error_empty": "Wprowadź tekst do przetworzenia",
+        "success_encode": "✓ Unicode zakodowany pomyślnie",
+        "success_decode": "✓ Unicode zdekodowany pomyślnie",
+        "error_process": "✗ Błąd przetwarzania Unicode: ",
+        "error_no_copy": "Brak wyjścia do skopiowania",
+        "success_copy": "✓ Skopiowano do schowka"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - Depanator JSON Web Token gratuit",
+        "description": "Decodifică și inspectează JSON Web Tokens (JWT) - Vezi header-ul, payload-ul și semnătura instantaneu!",
+        "h1": "Decodor JWT",
+        "subtitle": "Decodifică și inspectează JSON Web Tokens (JWT)"
+    },
+    "editor": {
+        "label_input": "Introdu Token JWT",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Decodifică JWT",
+        "btn_clear": "Șterge",
+        "btn_example": "Încarcă Exemplu",
+        "label_payload": "Payload (Date)",
+        "label_signature": "Semnătură",
+        "note_signature": "⚠️ Notă: Verificarea semnăturii necesită cheia secretă"
+    },
+    "content": {
+        "hero_title": "Decodor JWT Online Gratuit",
+        "hero_subtitle": "Decodifică și inspectează JSON Web Tokens instantaneu",
+        "p1": "Instrumentul nostru gratuit Decodor JWT îți permite să decodifici și să inspectezi JSON Web Tokens (JWT) pentru a vizualiza componentele lor: header, payload și semnătură. Perfect pentru depanarea problemelor de autentificare, înțelegerea structurii token-urilor și validarea claim-urilor JWT. Procesarea are loc local, asigurând confidențialitatea datelor tale.",
+        "what_title": "🔍 Ce este JWT?",
+        "what_desc": "JSON Web Token (JWT) este un mijloc compact și sigur pentru URL de reprezentare a claim-urilor între două părți. JWT-urile constau în trei părți: Header (algoritm și tip token), Payload (date\/claim-uri) și Semnătură (verificare), separate prin puncte.",
+        "features_title": "✨ Caracteristici",
+        "features": {
+            "instant": {
+                "title": "Decodificare Instantanee",
+                "desc": "Decodifică JWT-uri în milisecunde"
+            },
+            "structured": {
+                "title": "Vizualizare Structurată",
+                "desc": "Vezi header-ul, payload-ul și semnătura separat"
+            },
+            "privacy": {
+                "title": "Confidențialitate",
+                "desc": "Toată decodificarea are loc local în browser"
+            }
+        },
+        "uses_title": "🎯 Cazuri Comune de Utilizare",
+        "uses": {
+            "debug": {
+                "title": "🐛 Depanare",
+                "desc": "Depanează problemele de autentificare inspectând conținutul JWT"
+            },
+            "validate": {
+                "title": "✅ Validare",
+                "desc": "Verifică claim-urile JWT și timpii de expirare"
+            },
+            "learn": {
+                "title": "📚 Învățare",
+                "desc": "Înțelege structura și componentele JWT"
+            },
+            "dev": {
+                "title": "🛠️ Dezvoltare",
+                "desc": "Testează generarea și analiza JWT în aplicațiile tale"
+            }
+        },
+        "faq_title": "❓ Întrebări Frecvente",
+        "faq": {
+            "q1": "Este sigur să decodific JWT-uri aici?",
+            "a1": "Da! Toată decodificarea are loc în browserul tău. Token-ul JWT nu părăsește niciodată dispozitivul tău. Totuși, nu împărtăși niciodată JWT-uri public, deoarece pot conține informații sensibile.",
+            "q2": "Poate acest instrument să verifice semnăturile JWT?",
+            "a2": "Acest instrument decodifică și afișează componentele JWT, dar nu verifică semnăturile, deoarece acest lucru necesită cheia secretă, care nu ar trebui niciodată partajată.",
+            "q3": "Ce sunt claim-urile JWT?",
+            "a3": "Claim-urile sunt declarații despre o entitate (de obicei utilizatorul) și date suplimentare. Claim-uri comune includ 'sub' (subiect), 'exp' (expirare) și 'iat' (emis la)."
+        }
+    },
+    "js": {
+        "error_empty": "Te rugăm să introduci un token JWT",
+        "error_invalid_format": "Format JWT invalid. JWT ar trebui să aibă 3 părți separate prin puncte.",
+        "success_decode": "✓ JWT decodificat cu succes!",
+        "error_decode": "✗ Eroare la decodificarea JWT: "
+    }
+}

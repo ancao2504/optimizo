@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "MD5 Hash Generator - Gratis säkerhetsverktyg online",
+        "description": "Generera MD5-hashar från valfri text omedelbart",
+        "h1": "MD5 Hash Generator",
+        "subtitle": "Generera MD5-hashar från valfri text omedelbart"
+    },
+    "editor": {
+        "label_input": "Ange text",
+        "ph_input": "Ange text att hasha...",
+        "btn_generate": "Generera MD5-hash",
+        "label_result": "MD5-hash",
+        "btn_copy": "Kopiera"
+    },
+    "content": {
+        "hero_title": "MD5-hashgenerator",
+        "hero_subtitle": "Generera MD5-hashar från valfri text omedelbart",
+        "p1": "Generera MD5-hashar från valfri text, lösenord eller datasträng omedelbart med vår gratis online MD5-hashgenerator. MD5 (Message-Digest Algorithm 5) är en allmänt använd kryptografisk hashfunktion som producerar ett 128-bitars (32 tecken hexadecimalt) hashvärde. Perfekt för verifiering av dataintegritet, generering av kontrollsummor och förståelse av hashfunktioner. All bearbetning sker i din webbläsare för fullständig integritet.",
+        "what_title": "🔐 Vad är MD5?",
+        "what_desc": "MD5 är en kryptografisk hashfunktion som tar en inmatning av valfri längd och producerar ett fast 128-bitars hashvärde, vanligtvis representerat som ett 32-teckens hexadecimalt tal. Samma inmatning producerar alltid samma hash, men även en liten förändring i inmatningen skapar en helt annan hash.",
+        "features_title": "✅ MD5-fördelar",
+        "features": {
+            "fast": "<strong>Snabb bearbetning:<\/strong> Extremt snabb hashgenerering",
+            "fixed": "<strong>Fast längd:<\/strong> Producerar alltid 128-bitars utdata",
+            "deterministic": "<strong>Deterministisk:<\/strong> Samma inmatning = samma hash",
+            "support": "<strong>Brett stöd:<\/strong> Tillgängligt i alla programmeringsspråk"
+        },
+        "uses_title": "📊 Vanliga användningsområden",
+        "uses": {
+            "verify": "<strong>Filverifiering:<\/strong> Kontrollera filintegritet",
+            "checksum": "<strong>Kontrollsummor:<\/strong> Verifiera nedladdningar",
+            "cache": "<strong>Cache-nycklar:<\/strong> Generera unika identifierare",
+            "integrity": "<strong>Dataintegritet:<\/strong> Upptäck ändringar"
+        },
+        "warning_title": "⚠️ Säkerhetsvarning",
+        "warning_desc": "<strong>Använd INTE MD5 för lösenords-hashing eller säkerhetskritiska applikationer!<\/strong> MD5 är kryptografiskt trasigt och sårbart för kollisionsattacker. För lösenords-hashing, använd moderna algoritmer som bcrypt, Argon2 eller PBKDF2.",
+        "compare_title": "🔄 MD5 vs andra hashfunktioner",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128-bitars utdata",
+                "desc2": "Snabb men osäker för kryptografi"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160-bitars utdata",
+                "desc2": "Också föråldrad för säkerhetsanvändning"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256-bitars utdata",
+                "desc2": "Säker och allmänt använd idag"
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Är MD5 säkert för lösenord?",
+            "a1": "Nej! MD5 är kryptografiskt trasigt och bör aldrig användas för lösenords-hashing. Använd bcrypt, Argon2 eller PBKDF2 istället.",
+            "q2": "Kan jag vända en MD5-hash?",
+            "a2": "Nej, MD5 är en envägsfunktion - du kan inte vända en hash för att få den ursprungliga inmatningen. Attackerare kan dock använda regnbågstabeller för att hitta inmatningar.",
+            "q3": "Skickas min data till en server?",
+            "a3": "Nej! All MD5-hashgenerering sker helt i din webbläsare med JavaScript. Din data lämnar aldrig din enhet."
+        }
+    },
+    "js": {
+        "error_empty": "Vänligen ange lite text",
+        "btn_copied": "Kopierad!"
+    }
+}

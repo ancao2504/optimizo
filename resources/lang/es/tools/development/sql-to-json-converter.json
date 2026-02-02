@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "Convertidor de SQL a JSON: herramienta de base de datos en línea gratuita",
+        "description": "Convierta sentencias SQL INSERT a formato JSON al instante con nuestro convertidor gratuito de SQL a JSON en línea. Soporte bidireccional incluido.",
+        "h1": "Convertidor de SQL a JSON",
+        "subtitle": "Convierta filas de bases de datos en arreglos JSON y viceversa"
+    },
+    "editor": {
+        "btn_encode": "Modo JSON a SQL",
+        "btn_decode": "Modo SQL a JSON",
+        "label_table": "Nombre de la tabla de destino",
+        "ph_table": "ej. usuarios",
+        "label_input_json": "Arreglo JSON de entrada",
+        "ph_input_json": "[{\"id\": 1, \"name\": \"Juan\"}]",
+        "label_output_sql": "Sentencias SQL generadas",
+        "ph_output_sql": "INSERT INTO usuarios...",
+        "label_input_sql": "Sentencias SQL INSERT de entrada",
+        "label_output_json": "Salida JSON generada",
+        "btn_convert_sql": "Generar SQL",
+        "btn_convert_json": "Generar JSON",
+        "btn_clear": "Borrar todo",
+        "btn_copy": "Copiar al portapapeles"
+    },
+    "content": {
+        "hero_title": "Convertidor bidireccional de SQL y JSON",
+        "hero_subtitle": "El puente definitivo entre su base de datos y sus aplicaciones web",
+        "p1": "Trabajar con bases de datos a menudo requiere mover datos entre scripts SQL y formatos JSON. Nuestro convertidor de modo dual le permite cambiar de dirección sin problemas. Ya sea que esté generando semillas para una base de datos o extrayendo datos de un volcado de SQL a JSON para una aplicación frontend, lo tenemos cubierto.",
+        "integration_title": "Integración de datos sin problemas",
+        "integration_desc": "Deje de escribir scripts de análisis manuales. Use nuestra herramienta para cerrar la brecha entre las bases de datos relacionales (MySQL, SQLite, PostgreSQL) y los entornos JavaScript modernos.",
+        "features_title": "¿Por qué elegir nuestro convertidor?",
+        "features": {
+            "instant": {
+                "title": "Transformación en tiempo real",
+                "desc": "Vea su salida JSON casi al instante."
+            },
+            "bidirectional": {
+                "title": "Soporte bidireccional",
+                "desc": "Convierta JSON a SQL o SQL de regreso a JSON con una sola herramienta."
+            },
+            "security": {
+                "title": "Seguridad del lado del cliente",
+                "desc": "Los datos de su base de datos nunca salen de su navegador."
+            },
+            "custom": {
+                "title": "Nombres de tabla personalizados",
+                "desc": "Defina sus propios objetivos de tabla para el SQL generado."
+            },
+            "types": {
+                "title": "Detección inteligente de tipos",
+                "desc": "Manejo correcto de números, cadenas y valores NULL."
+            },
+            "free": {
+                "title": "Herramienta 100% gratuita",
+                "desc": "Sin registro ni niveles premium. Acceso completo para todos."
+            }
+        },
+        "uses_title": "Aplicaciones comunes",
+        "uses": {
+            "seeding": {
+                "title": "Siembra de bases de datos",
+                "desc": "Genere scripts SQL para poblar sus bases de datos de desarrollo o prueba."
+            },
+            "export": {
+                "title": "Exportación de datos",
+                "desc": "Convierta los resultados de las consultas SQL en JSON para usarlos en gráficos o tableros web."
+            },
+            "migration": {
+                "title": "Migración a la nube",
+                "desc": "Prepare datos para la migración entre diferentes arquitecturas de bases de datos."
+            },
+            "testing": {
+                "title": "Prueba de API",
+                "desc": "Cree respuestas JSON simuladas a partir de las entradas de su base de datos existente."
+            },
+            "docs": {
+                "title": "Documentación de API",
+                "desc": "Proporcione cargas útiles JSON de muestra directamente desde su esquema SQL."
+            },
+            "prototype": {
+                "title": "Prototipado rápido",
+                "desc": "Mueva datos rápidamente a su aplicación durante la fase inicial de construcción."
+            }
+        },
+        "how_title": "Cómo utilizar",
+        "how_steps": {
+            "1": {
+                "title": "Seleccione el modo",
+                "desc": "Elija entre \"JSON a SQL\" o \"SQL a JSON\"."
+            },
+            "2": {
+                "title": "Ingrese el nombre de la tabla",
+                "desc": "(Opcional) Establezca el nombre de la tabla para la generación de SQL."
+            },
+            "3": {
+                "title": "Datos de entrada",
+                "desc": "Pegue sus datos de origen en el campo de entrada de la izquierda."
+            },
+            "4": {
+                "title": "Convertir",
+                "desc": "Haga clic en el botón generar para procesar la conversión."
+            },
+            "5": {
+                "title": "Resultados del uso",
+                "desc": "Copie el código resultante para su proyecto."
+            }
+        },
+        "samples_title": "Vista previa de la estructura",
+        "samples": [
+            {
+                "title": "De JSON a SQL",
+                "desc": "[{\"name\": \"App\"}] → INSERT INTO table (name) VALUES ('App');"
+            },
+            {
+                "title": "De SQL a JSON",
+                "desc": "INSERT INTO table (id) VALUES (1); → [{\"id\": 1}]"
+            }
+        ],
+        "faq_title": "Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Qué tipo de SQL genera?",
+            "a1": "Genera sentencias INSERT SQL estándar ANSI, que funcionan con MySQL, PostgreSQL, SQLite y MariaDB.",
+            "q2": "¿Puede manejar JSON anidado?",
+            "a2": "Para la generación de SQL, funciona mejor con arreglos planos de objetos. Los objetos anidados se convierten en cadenas.",
+            "q3": "Hay un límite de filas?",
+            "a3": "Limitado solo por las capacidades de su navegador. Normalmente puede manejar miles de filas fácilmente.",
+            "q4": "¿Escapa caracteres?",
+            "a4": "Sí, maneja comillas simples en SQL y las escapa para evitar errores de sintaxis."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor, ingrese algunos datos para convertir.",
+        "placeholder_table_name": "nombre_tabla",
+        "error_general": "Error de la aplicación: ",
+        "error_invalid_array": "La entrada JSON debe ser un arreglo de objetos.",
+        "error_empty_array": "El arreglo JSON no puede estar vacío.",
+        "success_sql": "✓ ¡Scripts SQL generados con éxito!",
+        "error_no_statements": "No se encontraron sentencias SQL INSERT válidas en la entrada.",
+        "success_json": "✓ ¡Datos JSON generados con éxito!",
+        "error_no_copy": "Nada que copiar. Por favor, realice una conversión primero.",
+        "success_copy": "✓ ¡Copiado al portapapeles!"
+    }
+}

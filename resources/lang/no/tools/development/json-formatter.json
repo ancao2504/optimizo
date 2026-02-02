@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter Online - Gratis JSON Pretifier-verktøy",
+        "description": "Formater, valider og minifiser JSON-dataene dine med vårt gratis onlineverktøy",
+        "h1": "JSON-formater",
+        "subtitle": "Formater, valider og minifiser JSON-dataene dine"
+    },
+    "editor": {
+        "title": "Formater JSON-dataene dine",
+        "label_input": "Skriv inn JSON-data",
+        "ph_input": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}",
+        "help_text": "Lim inn JSON-dataene dine for å formatere, forskjønne eller forminske dem",
+        "btn_format": "Formater & Beautify",
+        "btn_minify": "Minifiser JSON",
+        "label_results": "Formatert JSON",
+        "btn_copy": "Kopier JSON"
+    },
+    "content": {
+        "why_title": "Hvorfor bruke vår JSON-formater?",
+        "why_desc": "JSON (JavaScript Object Notation) er det mest populære datautvekslingsformatet som brukes i webutvikling, APIer og konfigurasjonsfiler. Vår gratis online JSON-formatering hjelper utviklere, dataanalytikere og IT-fagfolk raskt å formatere, forskjønne, validere og forminske JSON-data. Enten du feilsøker API-svar, rydder opp i konfigurasjonsfiler eller forbereder JSON for produksjon, gir verktøyet vårt umiddelbare resultater med syntaksutheving og feildeteksjon. Perfekt for utviklere som jobber med REST APIer, NoSQL-databaser og moderne nettapplikasjoner.",
+        "features": {
+            "instant": {
+                "title": "Øyeblikkelig formatering",
+                "desc": "Formater og forskjønn JSON-data på millisekunder med riktig innrykk og syntaksutheving"
+            },
+            "error": {
+                "title": "Feilgjenkjenning",
+                "desc": "Oppdag og fremhev JSON-syntaksfeil automatisk med nyttige feilmeldinger"
+            },
+            "privacy": {
+                "title": "100 % privat",
+                "desc": "All behandling skjer i nettleseren din – JSON-dataene dine forlater aldri datamaskinen din"
+            }
+        },
+        "how_title": "Hvordan formatere JSON i 3 enkle trinn",
+        "how_steps": {
+            "1": {
+                "title": "Velg Handling",
+                "desc": "Klikk \"Formater og forskjønn\" for å formatere eller \"Minify\" for å komprimere JSON"
+            },
+            "2": {
+                "title": "Kopier resultat",
+                "desc": "Klikk på kopieringsknappen for å kopiere den formaterte JSON-en til utklippstavlen"
+            },
+            "3": {
+                "title": "Formater eller forminsk",
+                "desc": "Velg å forskjønne (formatere med innrykk) eller forminske (komprimere til én linje) dine JSON-data basert på dine behov."
+            }
+        },
+        "uses_title": "Vanlige brukstilfeller for JSON-formatering",
+        "uses": {
+            "api": {
+                "title": "API Response Debugging",
+                "desc": "Formater rotete API-svar for enkelt å lese og feilsøke JSON-data fra REST APIer, GraphQL og nettjenester."
+            },
+            "config": {
+                "title": "Konfigurasjonsfiler",
+                "desc": "Rydd opp og valider JSON-konfigurasjonsfiler for applikasjoner, package.json, tsconfig.json og mer."
+            },
+            "db": {
+                "title": "Database Data",
+                "desc": "Formater JSON-data fra NoSQL-databaser som MongoDB, CouchDB og Firebase for bedre lesbarhet."
+            },
+            "export": {
+                "title": "Dataeksport\/import",
+                "desc": "Klargjør JSON-data for eksport eller valider importerte JSON-data for å sikre riktig struktur og syntaks."
+            }
+        },
+        "tips_title": "JSON beste fremgangsmåter og tips",
+        "tips": {
+            "validate": {
+                "title": "✓ Valider alltid JSON",
+                "desc": "Bruk en JSON-validator for å fange syntaksfeil før du distribuerer til produksjon. Ugyldig JSON kan ødelegge applikasjonen din."
+            },
+            "indent": {
+                "title": "✓ Bruk riktig innrykk",
+                "desc": "Formater JSON med 2 eller 4 mellomromsinnrykk for bedre lesbarhet under utvikling og feilsøking."
+            },
+            "minify": {
+                "title": "✓ Forminsk for produksjon",
+                "desc": "Reduser JSON-data før de distribueres til produksjon for å redusere filstørrelsen og forbedre lastetidene."
+            },
+            "naming": {
+                "title": "✓ Bruk konsekvent navngivning",
+                "desc": "Følg navnekonvensjonene for camelCase eller snake_case konsekvent gjennom hele JSON-strukturen."
+            }
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Er JSON-dataene mine trygge?",
+            "a1": "Ja, absolutt. Vår JSON-formater kjører helt i nettleseren din ved hjelp av JavaScript. Dine data blir aldri sendt til våre servere eller lagret noe sted.",
+            "q2": "Hvorfor er det viktig å forminske JSON?",
+            "a2": "Redusering fjerner unødvendig mellomrom og linjeskift, noe som reduserer filstørrelsen betydelig. Dette er avgjørende for å forbedre API-ytelsen og redusere båndbreddebruken i produksjonsmiljøer.",
+            "q3": "Kan jeg validere ufullstendig JSON?",
+            "a3": "Verktøyet krever gyldig JSON-struktur for å formatere eller forminske. Den gir imidlertid detaljerte feilmeldinger for å hjelpe deg med å finne og fikse problemer i JSON-dataene dine.",
+            "q4": "Støtter den store JSON-filer?",
+            "a4": "Ja, verktøyet er optimalisert for å håndtere store JSON-datasett effektivt, selv om ekstremt store filer kan avhenge av nettleserens minnegrenser."
+        }
+    },
+    "js": {
+        "error_empty_format": "Skriv inn JSON-data for å formatere",
+        "error_invalid": "Ugyldig JSON:",
+        "error_empty_minify": "Skriv inn JSON-data for å forminske",
+        "success_copy": "Kopiert!",
+        "error_copy": "Kunne ikke kopiere. Vennligst kopier manuelt."
+    }
+}

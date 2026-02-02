@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "将 Base64 解码为图像 - 免费在线解码器",
+        "description": "将 Base64 编码的字符串转换回图片（PNG, JPG, GIF）。免费在线解码和预览工具。",
+        "h1": "将 Base64 解码为图像",
+        "subtitle": "即时将 Base64 编码的字符串转换回图片（PNG, JPG, GIF）"
+    },
+    "input": {
+        "title": "粘贴 Base64 字符串",
+        "desc": "在下方粘贴您的代码以预览图片",
+        "placeholder": "数据：图像\/png；base64，iVBORw0KGgo...",
+        "btn_decode": "解码图片"
+    },
+    "result": {
+        "image_alt": "解码后的图片",
+        "success": "图片解码成功",
+        "btn_download": "下载图片",
+        "btn_clear": "清除内容"
+    },
+    "content": {
+        "title": "将 Base64 解码为图片",
+        "p1": "发现一长串以 <code>data:image\/...<\/code> 开头的随机字符却不知道它是什么？这极有可能是一段 Base64 编码的图片。",
+        "p2": "我们的 <strong>Base64 转图片解码器<\/strong> 可以将这段文本字符串转换回可见的图片文件（PNG, JPG, GIF 等），方便您直接在电脑上查看和下载。",
+        "features": {
+            "preview": {
+                "title": "即时预览",
+                "desc": "立即看到图片。我们解析二进制数据并直接在您的屏幕上渲染。"
+            },
+            "auto": {
+                "title": "自动检测",
+                "desc": "我们会自动从 Base64 字符串的头部检测文件格式（PNG, JPEG, GIF）。"
+            },
+            "download": {
+                "title": "下载文件",
+                "desc": "只需点击一下，即可将解码结果作为真实的图片文件保存到硬盘。"
+            }
+        },
+        "how_to": {
+            "title": "如何解码？",
+            "list": [
+                "将您的 Base64 字符串粘贴到文本区域。",
+                "工具会立即尝试读取并解析该字符串。",
+                "如果格式有效，图片将显示在左侧预览区。",
+                "点击“下载图片”将其保存到本地。"
+            ]
+        },
+        "use_cases": {
+            "title": "常见使用场景",
+            "list": [
+                "调试：检查 API 响应或数据库中存储的图片数据内容。",
+                "恢复：提取嵌入在 CSS 文件或 HTML 模板中的图片。",
+                "验证：确保 Base64 字符串没有损坏且可解析。"
+            ]
+        }
+    },
+    "js": {
+        "input_required": "请先粘贴一个 Base64 字符串。",
+        "invalid_error": "无效的 Base64 字符串或不支持的图片格式。"
+    }
+}

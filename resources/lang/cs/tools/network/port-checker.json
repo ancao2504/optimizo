@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Nástroj pro kontrolu portů – bezplatný online otevřený skener portů",
+        "description": "Bezplatný nástroj pro kontrolu portů. Otestujte, zda jsou porty otevřené, zavřené nebo filtrované. Kontrolujte TCP\/UDP porty okamžitě pro diagnostiku sítě.",
+        "h1": "Nástroj pro kontrolu portů",
+        "subtitle": "Zkontrolujte, zda jsou porty otevřené na libovolném serveru"
+    },
+    "form": {
+        "host_label": "Hostitel nebo IP adresa",
+        "host_placeholder": "např. google.com nebo 8.8.8.8",
+        "port_label": "Číslo portu",
+        "port_placeholder": "např. 80",
+        "button": "Zkontrolovat port"
+    },
+    "results": {
+        "title": "Výsledek kontroly portu"
+    },
+    "content": {
+        "what_is_title": "Co je Port Checker?",
+        "what_is_desc": "Port Checker je diagnostický nástroj, který určuje, zda je konkrétní port TCP nebo UDP na serveru nebo zařízení otevřený (přijímá připojení), zavřený (odmítá připojení) nebo filtrovaný (blokovaný firewallem). Porty jsou virtuální koncové body pro síťovou komunikaci, přičemž každé číslo portu (1-65535) může hostit různé služby. Běžné porty zahrnují 80 pro HTTP webový provoz nebo 443 pro HTTPS.",
+        "why_check_title": "Proč kontrolovat porty?",
+        "why_check_desc": "Kontrola portů slouží k několika kritickým účelům. Správci systémů ověřují, že jsou služby dostupné po změnách konfigurace. Bezpečnostní experti hledají otevřené porty, aby identifikovali potenciální zranitelnosti. Vývojáři testují, zda jejich aplikace správně naslouchají na nastavených portech.",
+        "common_ports_title": "Běžné porty",
+        "port1": "<strong>Port 80:<\/strong> HTTP (webový provoz)",
+        "port2": "<strong>Port 443:<\/strong> HTTPS (zabezpečený webový provoz)",
+        "port3": "<strong>Port 22:<\/strong> SSH (zabezpečený vzdálený přístup)",
+        "port4": "<strong>Port 21:<\/strong> FTP (přenos souborů)",
+        "port5": "<strong>Port 25:<\/strong> SMTP (odesílání e-mailů)",
+        "port6": "<strong>Port 3306:<\/strong> MySQL databáze",
+        "port7": "<strong>Port 3389:<\/strong> RDP (vzdálená plocha Windows)",
+        "security_title": "Bezpečnostní důsledky",
+        "security_desc": "Otevřené porty představují potenciální vstupní body pro útočníky. Nejlepší bezpečnostní praxí je ponechat otevřené pouze nezbytné porty a všechny ostatní zavřít nebo filtrovat. Pravidelné skenování vlastních serverů pomáhá identifikovat nechtěně otevřené porty, které by mohly být zneužity."
+    },
+    "faq": {
+        "title": "Často kladené otázky",
+        "q1": "Co znamená, že je port filtrovaný?",
+        "a1": "Filtrovaný port znamená, že firewall nebo síťový filtr blokuje pakety tak, že nástroj nemůže určit, zda je port otevřený nebo zavřený.",
+        "q2": "Jak otevřít port na mém počítači?",
+        "a2": "Většinou musíte nastavit pravidlo ve Windows Firewallu a také nastavit \"Port Forwarding\" (přesměrování portů) na vašem routeru.",
+        "q3": "Můžu skenovat jakýkoli server?",
+        "a3": "Měli byste skenovat pouze servery, které vlastníte nebo k nimž máte svolení. Časté skenování cizích serverů může být považováno za útok.",
+        "q4": "Jaký je rozdíl mezi TCP a UDP porty?",
+        "a4": "TCP je orientovaný na spojení a zaručuje doručení dat (např. web). UDP je bezstavový a rychlejší, ale nezaručuje doručení (např. streamování, hry).",
+        "q5": "Proč můj port 80 ukazuje 'zavřeno', když web funguje?",
+        "a5": "Může to být způsobeno tím, že váš poskytovatel internetu blokuje příchozí porty na rezidenčních linkách, nebo váš server naslouchá pouze na lokální adrese."
+    },
+    "js": {
+        "checking": "Kontroluji...",
+        "success": "Kontrola portu dokončena",
+        "error": "Při kontrole portu došlo k chybě",
+        "check_port": "Zkontrolovat port"
+    }
+}

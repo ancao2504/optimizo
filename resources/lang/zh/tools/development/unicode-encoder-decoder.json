@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode 编码器和解码器 - 免费在线文本工具",
+        "description": "使用我们的免费工具，对 JavaScript 和 JSON 的 Unicode 转义序列进行编码和解码。",
+        "h1": "Unicode 编码器和解码器",
+        "subtitle": "对 JavaScript 和 JSON 的 Unicode 转义序列进行编码和解码"
+    },
+    "editor": {
+        "btn_encode": "编码为 Unicode",
+        "btn_decode": "解码 Unicode",
+        "label_input_encode": "输入要编码的文本",
+        "ph_input": "你好 世界",
+        "btn_process_encode": "执行编码",
+        "btn_clear": "清空",
+        "btn_copy": "复制",
+        "label_output_encoded": "编码后的 Unicode",
+        "ph_output": "处理后的结果将显示在此处...",
+        "label_input_decode": "输入要解码的 Unicode",
+        "label_output_decoded": "解码后的文本",
+        "btn_process_decode": "执行解码"
+    },
+    "content": {
+        "p1": "我们的免费 Unicode 编码解码工具可帮助您将文本转换为 Unicode 转义序列（如 \\u0041），以便在 JavaScript、JSON 和其他编程上下文中安全使用，或将它们解码回可读文本。它是开发人员、数据分析师和任何处理国际字符集人员的理想工具。100% 免费，客户端处理确保您的数据私密。",
+        "what_title": "什么是 Unicode 编码？",
+        "what_desc": "Unicode 编码将字符转换为其对应的 Unicode 码位，通常表示为 \\uXXXX 形式的转义序列。这确保了包含特殊字符、表情符号或非拉丁脚本的文本可以在通常仅支持 ASCII 的环境（如源码文件或 JSON 数据）中被安全地表示。",
+        "features_title": "功能特性",
+        "features": {
+            "instant": {
+                "title": "即时转换",
+                "desc": "在毫秒内完成 Unicode 编码或解码"
+            },
+            "bidirectional": {
+                "title": "双向转换",
+                "desc": "编码为 Unicode 格式或解码回原始文本"
+            },
+            "privacy": {
+                "title": "隐私至上",
+                "desc": "所有处理均在您的浏览器中完成"
+            },
+            "copy": {
+                "title": "一键复制",
+                "desc": "即时复制编码\/解码后的文本"
+            },
+            "free": {
+                "title": "100% 免费",
+                "desc": "无限制，无需注册"
+            },
+            "universal": {
+                "title": "通用支持",
+                "desc": "支持所有 Unicode 字符和脚本"
+            }
+        },
+        "uses_title": "常见使用场景",
+        "uses": {
+            "programming": {
+                "title": "编程开发",
+                "desc": "在 JavaScript 或 Java 源代码中安全地嵌入特殊字符。"
+            },
+            "data": {
+                "title": "数据序列化",
+                "desc": "确保 JSON 中非 ASCII 字符的安全性。"
+            },
+            "international": {
+                "title": "国际化",
+                "desc": "调试并显示各种语言和脚本的文本。"
+            },
+            "security": {
+                "title": "安全分析",
+                "desc": "分析混淆代码或包含 Unicode 转义的数据。"
+            }
+        },
+        "how_to_title": "如何使用",
+        "how_to": {
+            "step1": {
+                "title": "选择模式",
+                "desc": "根据需求选择“编码”或“解码”。"
+            },
+            "step2": {
+                "title": "输入内容",
+                "desc": "在输入框中粘贴您的文本或 Unicode 转义序列。"
+            },
+            "step3": {
+                "title": "点击处理",
+                "desc": "点击相应的编码或解码按钮。"
+            },
+            "step4": {
+                "title": "复制结果",
+                "desc": "点击“复制”将处理后的文本存入剪贴板。"
+            },
+            "step5": {
+                "title": "随处使用",
+                "desc": "将结果粘贴到您的代码或应用程序中。"
+            }
+        },
+        "examples_title": "Unicode 示例",
+        "examples": {
+            "simple": {
+                "title": "标准\/ASCII：",
+                "desc": "原始: \"A\" → 编码: \"\\u0041\""
+            },
+            "special": {
+                "title": "特殊字符：",
+                "desc": "原始: \"©\" → 编码: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "表情符号\/多字节：",
+                "desc": "原始: \"🌟\" → 编码: \"\\uD83C\\uDF1F\" (代理对) 或 \"\\u2B50\""
+            }
+        },
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "为什么要使用 Unicode 转义序列？",
+            "a1": "它们允许您仅使用 ASCII 字符来表示任何字符，这确保了在可能无法正确处理原始 Unicode 的不同系统、编码和文件传输中的兼容性。",
+            "q2": "使用什么格式？",
+            "a2": "该工具通常对基本多语言平面字符使用 JavaScript\/JSON 风格的 \\uXXXX 格式。",
+            "q3": "这与 URL 编码有区别吗？",
+            "a3": "是的。URL 编码主要为 URL 使用 %XX 十六进制值。Unicode 转义使用 \\uXXXX，用于编程语言字符串中。",
+            "q4": "我的数据安全吗？",
+            "a4": "是的！所有编码和解码均完全在您的浏览器中使用 JavaScript 完成。您的文本永远不会离开您的设备。"
+        }
+    },
+    "js": {
+        "error_empty": "请先输入要处理的文本",
+        "success_encode": "✓ Unicode 编码成功",
+        "success_decode": "✓ Unicode 解码成功",
+        "error_process": "✗ 处理 Unicode 时出错：",
+        "error_no_copy": "没有可复制的结果",
+        "success_copy": "✓ 已成功复制到剪贴板"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter Online - ilmainen JSON Prettifier Tool",
+        "description": "Muotoile, vahvista ja pienennä JSON-tietosi ilmaisella verkkotyökalullamme",
+        "h1": "JSON-muotoilija",
+        "subtitle": "Muotoile, validoi ja minimoi JSON-tietosi"
+    },
+    "editor": {
+        "title": "Muotoile JSON-tietosi",
+        "label_input": "Syötä JSON-tiedot",
+        "ph_input": "{\"nimi\": \"John Doe\", \"ikä\": 30, \"kaupunki\": \"New York\"}",
+        "help_text": "Liitä JSON-tietosi muotoilemaan, kaunistamaan tai pienentämään niitä",
+        "btn_format": "Muotoile ja kaunista",
+        "btn_minify": "Minimoi JSON",
+        "label_results": "Muotoiltu JSON",
+        "btn_copy": "Kopioi JSON"
+    },
+    "content": {
+        "why_title": "Miksi käyttää JSON-muotoilijaamme?",
+        "why_desc": "JSON (JavaScript Object Notation) on suosituin tiedonsiirtomuoto, jota käytetään verkkokehityksessä, API:issa ja määritystiedostoissa. Ilmainen online-JSON-muotoilijamme auttaa kehittäjiä, data-analyytikoita ja IT-ammattilaisia ​​muotoilemaan, kaunistamaan, vahvistamaan ja minimoimaan JSON-tietoja nopeasti. Olitpa sitten API-vastausten virheenkorjauksessa, määritystiedostojen puhdistamisessa tai JSONin valmistelussa tuotantoa varten, työkalumme tarjoaa välittömiä tuloksia syntaksin korostuksella ja virheiden havaitsemisella. Täydellinen kehittäjille, jotka työskentelevät REST-sovellusliittymien, NoSQL-tietokantojen ja nykyaikaisten verkkosovellusten kanssa.",
+        "features": {
+            "instant": {
+                "title": "Välitön muotoilu",
+                "desc": "Muotoile ja kaunista JSON-tietoja millisekunneissa asianmukaisilla sisennyksillä ja syntaksin korostuksella"
+            },
+            "error": {
+                "title": "Virheiden tunnistus",
+                "desc": "Tunnista ja korosta automaattisesti JSON-syntaksivirheet hyödyllisillä virheilmoituksilla"
+            },
+            "privacy": {
+                "title": "100% yksityinen",
+                "desc": "Kaikki käsittely tapahtuu selaimessasi – JSON-tietosi eivät koskaan poistu tietokoneeltasi"
+            }
+        },
+        "how_title": "Kuinka alustaa JSON kolmessa helpossa vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Valitse Toiminto",
+                "desc": "Napsauta \"Format & Beautify\" alustaaksesi tai \"Minify\" pakataksesi JSON"
+            },
+            "2": {
+                "title": "Kopioi tulos",
+                "desc": "Napsauta kopiointipainiketta kopioidaksesi muotoiltu JSON leikepöydällesi"
+            },
+            "3": {
+                "title": "Muotoile tai pienennä",
+                "desc": "Voit kaunistaa (muotoilla sisennyksillä) tai pienentää (pakata yhdelle riville) JSON-tietoja tarpeidesi mukaan."
+            }
+        },
+        "uses_title": "Yleisiä JSON-muotoilun käyttötapauksia",
+        "uses": {
+            "api": {
+                "title": "API-vastauksen virheenkorjaus",
+                "desc": "Muotoile sotkuiset API-vastaukset, jotta voit helposti lukea ja korjata JSON-tietoja REST-sovellusliittymistä, GraphQL:stä ja verkkopalveluista."
+            },
+            "config": {
+                "title": "Asetustiedostot",
+                "desc": "Puhdista ja vahvista sovellusten, package.json-, tsconfig.json- ja muiden JSON-määritystiedostot."
+            },
+            "db": {
+                "title": "Tietokannan tiedot",
+                "desc": "Muotoile JSON-tiedot NoSQL-tietokannoista, kuten MongoDB, CouchDB ja Firebase, parantaaksesi luettavuutta."
+            },
+            "export": {
+                "title": "Tietojen vienti\/tuonti",
+                "desc": "Valmistele JSON-tiedot vientiä varten tai vahvista tuodut JSON-tiedot oikean rakenteen ja syntaksin varmistamiseksi."
+            }
+        },
+        "tips_title": "JSONin parhaat käytännöt ja vinkit",
+        "tips": {
+            "validate": {
+                "title": "✓ Vahvista aina JSON",
+                "desc": "Käytä JSON-validaattoria syntaksivirheiden havaitsemiseen ennen tuotantoon käyttöönottoa. Virheellinen JSON voi rikkoa sovelluksesi."
+            },
+            "indent": {
+                "title": "✓ Käytä oikeaa sisennystä",
+                "desc": "Muotoile JSON 2 tai 4 välilyönnillä parantaaksesi luettavuutta kehityksen ja virheenkorjauksen aikana."
+            },
+            "minify": {
+                "title": "✓ Pienennä tuotantoa varten",
+                "desc": "Pienennä JSON-dataa ennen käyttöönottoa tuotantoon pienentääksesi tiedostokokoa ja parantaaksesi latausaikoja."
+            },
+            "naming": {
+                "title": "✓ Käytä johdonmukaista nimeämistä",
+                "desc": "Noudata camelCase- tai snake_case-nimeämiskäytäntöjä johdonmukaisesti koko JSON-rakenteessa."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Ovatko JSON-tietoni turvassa?",
+            "a1": "Kyllä, ehdottomasti. JSON-muotoilijamme toimii kokonaan selaimessasi JavaScriptin avulla. Tietojasi ei koskaan lähetetä palvelimillemme tai tallenneta minnekään.",
+            "q2": "Miksi JSONin pienentäminen on tärkeää?",
+            "a2": "Pienentäminen poistaa tarpeettomat välilyönnit ja rivinvaihdot, mikä pienentää tiedoston kokoa merkittävästi. Tämä on ratkaisevan tärkeää API-suorituskyvyn parantamiseksi ja kaistanleveyden käytön vähentämiseksi tuotantoympäristöissä.",
+            "q3": "Voinko vahvistaa epätäydellisen JSONin?",
+            "a3": "Työkalu vaatii kelvollisen JSON-rakenteen muotoilua tai pienentämistä varten. Se tarjoaa kuitenkin yksityiskohtaisia ​​virheilmoituksia, jotka auttavat sinua löytämään ja korjaamaan JSON-datassasi olevia ongelmia.",
+            "q4": "Tukeeko se suuria JSON-tiedostoja?",
+            "a4": "Kyllä, työkalu on optimoitu käsittelemään suuria JSON-tietojoukkoja tehokkaasti, vaikka erittäin suuret tiedostot saattavat riippua selaimesi muistirajoituksista."
+        }
+    },
+    "js": {
+        "error_empty_format": "Anna muotoiltavat JSON-tiedot",
+        "error_invalid": "Virheellinen JSON:",
+        "error_empty_minify": "Syötä JSON-tiedot pienennettäväksi",
+        "success_copy": "Kopioitu!",
+        "error_copy": "Kopiointi epäonnistui. Kopioi manuaalisesti."
+    }
+}

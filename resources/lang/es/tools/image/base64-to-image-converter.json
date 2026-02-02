@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Decodifica Base64 a Imagen - Decodificador en línea gratuito",
+        "description": "Convierta cadenas codificadas en Base64 de vuelta a imágenes (PNG, JPG, GIF). Decodificador y visualizador en línea gratuito.",
+        "h1": "Decodificar Base64 a imagen",
+        "subtitle": "Convierta cadenas codificadas en Base64 de vuelta a imágenes (PNG, JPG, GIF) al instante"
+    },
+    "input": {
+        "title": "Pegue la cadena Base64",
+        "desc": "Pegue su código abajo para visualizar la imagen",
+        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Decodificar Imagen"
+    },
+    "result": {
+        "image_alt": "Imagen Decodificada",
+        "success": "Imagen decodificada con éxito",
+        "btn_download": "Descargar Imagen",
+        "btn_clear": "Limpiar Todo"
+    },
+    "content": {
+        "title": "Decodificar Base64 a Imagen",
+        "p1": "¿Encontraste una larga cadena de caracteres aleatorios que comienza con <code>data:image\/...<\/code> y no sabes qué es? Probablemente sea una imagen codificada en Base64.",
+        "p2": "Nuestro <strong>Decodificador de Base64 a Imagen<\/strong> convierte esa cadena de texto de vuelta en un archivo de imagen visible (PNG, JPG, GIF, etc.) que puedes ver y descargar en tu computadora.",
+        "features": {
+            "preview": {
+                "title": "Vista Previa Instantánea",
+                "desc": "Vea la imagen inmediatamente. Analizamos los datos binarios y los renderizamos en su pantalla."
+            },
+            "auto": {
+                "title": "Auto-Detección",
+                "desc": "Detectamos automáticamente el formato de archivo (PNG, JPEG, GIF) desde el encabezado de la cadena Base64."
+            },
+            "download": {
+                "title": "Descargar Archivo",
+                "desc": "Guarde el resultado decodificado como un archivo de imagen real en su disco duro con un solo clic."
+            }
+        },
+        "how_to": {
+            "title": "¿Cómo decodificar?",
+            "list": [
+                "Pegue su cadena Base64 en el área de texto.",
+                "Intentaremos leer la cadena al instante.",
+                "Si es válida, la imagen aparecerá a la izquierda.",
+                "Haga clic en \"Descargar Imagen\" para guardarla."
+            ]
+        },
+        "use_cases": {
+            "title": "Casos de Uso Comunes",
+            "list": [
+                "Depuración: Comprobar qué datos de imagen se envían en las respuestas de la API o se almacenan en las bases de datos.",
+                "Recuperación: Extraer imágenes incrustadas en archivos CSS o plantillas HTML.",
+                "Verificación: Asegurarse de que una cadena Base64 no esté corrupta."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Por favor, pegue primero una cadena Base64.",
+        "invalid_error": "Cadena Base64 inválida o formato de imagen no soportado."
+    }
+}

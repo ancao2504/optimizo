@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode Encoder & Decoder – bezplatný online textový nástroj",
+        "description": "Kódujte a dekódujte Unicode escape sekvence pro JavaScript a JSON pomocí našeho bezplatného nástroje.",
+        "h1": "Kodér a dekodér Unicode",
+        "subtitle": "Kódujte a dekódujte Unicode escape sekvence pro JavaScript a JSON"
+    },
+    "editor": {
+        "btn_encode": "Kódovat Unicode",
+        "btn_decode": "Dekódovat Unicode",
+        "label_input_encode": "Zadejte text ke kódování",
+        "ph_input": "Ahoj světe ä¸–ç•Œ",
+        "btn_process_encode": "Kódovat Unicode",
+        "btn_clear": "Vymazat",
+        "btn_copy": "Kopírovat",
+        "label_output_encoded": "Zakódované Unicode",
+        "ph_output": "Zpracované Unicode se zobrazí zde...",
+        "label_input_decode": "Zadejte Unicode k dekódování",
+        "label_output_decoded": "Dekódovaný text",
+        "btn_process_decode": "Dekódovat Unicode"
+    },
+    "content": {
+        "p1": "Náš bezplatný nástroj Unicode kodér a dekodér vám pomůže zakódovat text do Unicode escape sekvencí (např. \\u0041) pro bezpečné použití v JavaScriptu, JSONu a dalších programovacích kontextech, nebo je dekódovat zpět do čitelného textu. Ideální pro vývojáře, datové analytiky a kohokoli, kdo pracuje s mezinárodními znakovými sadami. 100% bezplatné zpracování na straně klienta zajišťuje soukromí vašich dat.",
+        "what_title": "Co je kódování Unicode?",
+        "what_desc": "Kódování Unicode převádí znaky na jejich odpovídající kódové body Unicode, často reprezentované jako escape sekvence jako \\uXXXX. To zajišťuje, že text obsahující speciální znaky, emodži nebo nelatinské písmo může být bezpečně reprezentován v prostředích, která obvykle podporují pouze ASCII, jako jsou soubory se zdrojovým kódem nebo data JSON.",
+        "features_title": "Funkce",
+        "features": {
+            "instant": {
+                "title": "Okamžitý převod",
+                "desc": "Kódujte nebo dekódujte Unicode během milisekund"
+            },
+            "bidirectional": {
+                "title": "Obousměrný",
+                "desc": "Kódujte do formátu Unicode nebo dekódujte zpět na originál"
+            },
+            "privacy": {
+                "title": "Soukromí na prvním místě",
+                "desc": "Veškeré zpracování probíhá ve vašem prohlížeči"
+            },
+            "copy": {
+                "title": "Kopírování jedním kliknutím",
+                "desc": "Okamžitě zkopírujte zakódovaný\/dekódovaný text"
+            },
+            "free": {
+                "title": "100% zdarma",
+                "desc": "Žádné limity, není nutná registrace"
+            },
+            "universal": {
+                "title": "Univerzální podpora",
+                "desc": "Funguje se všemi znaky a písmy Unicode"
+            }
+        },
+        "uses_title": "Běžné příklady použití",
+        "uses": {
+            "programming": {
+                "title": "Programování",
+                "desc": "Bezpečně vkládejte speciální znaky do zdrojového kódu JavaScriptu nebo Javy"
+            },
+            "data": {
+                "title": "Serializace dat",
+                "desc": "Zajistěte bezpečný přenos ne-ASCII znaků v JSONu"
+            },
+            "international": {
+                "title": "Internacionalizace",
+                "desc": "Ladění a zobrazování textu v různých jazycích a písmech"
+            },
+            "security": {
+                "title": "Zabezpečení",
+                "desc": "Analyzujte zamlžený kód nebo data obsahující Unicode escape sekvence"
+            }
+        },
+        "how_to_title": "Jak nástroj používat",
+        "how_to": {
+            "step1": {
+                "title": "Vyberte režim",
+                "desc": "Zvolte „Kódovat Unicode“ nebo „Dekódovat Unicode“ podle své potřeby"
+            },
+            "step2": {
+                "title": "Zadejte text",
+                "desc": "Vložte svůj text nebo Unicode escape sekvence do vstupního pole"
+            },
+            "step3": {
+                "title": "Zpracovat",
+                "desc": "Klikněte na tlačítko kódovat nebo dekódovat"
+            },
+            "step4": {
+                "title": "Zkopírujte výsledek",
+                "desc": "Kliknutím na „Kopírovat“ zkopírujete zpracovaný text do schránky"
+            },
+            "step5": {
+                "title": "Použijte kdekoli",
+                "desc": "Vložte výsledek do svého kódu nebo aplikace"
+            }
+        },
+        "examples_title": "Příklady Unicode",
+        "examples": {
+            "simple": {
+                "title": "Jednoduché\/ASCII:",
+                "desc": "Originál: „A“ â†’ Zakódováno: „\\u0041“"
+            },
+            "special": {
+                "title": "Speciální znaky:",
+                "desc": "Originál: „Â©“ â†’ Zakódováno: „\\u00A9“"
+            },
+            "emoji": {
+                "title": "Emodži\/Vícebytové:",
+                "desc": "Originál: „ðŸŒŸ“ â†’ Zakódováno: „\\uD83C\\uDF1F“ (surrogátní páry) nebo „\\u2B50“ v závislosti na reprezentaci"
+            }
+        },
+        "faq_title": "Často kladené otázky",
+        "faq": {
+            "q1": "Proč používat Unicode escape sekvence?",
+            "a1": "Umožňují vám reprezentovat jakýkoli znak pomocí pouze ASCII znaků, což zajišťuje kompatibilitu napříč různými systémy, kódováními a přenosy souborů, které by nemusely správně zpracovat surové Unicode.",
+            "q2": "Jaký formát se používá?",
+            "a2": "Tento nástroj obvykle používá styl JavaScript\/JSON ve formátu \\uXXXX pro znaky Basic Multilingual Plane.",
+            "q3": "Je to jiné než kódování URL?",
+            "a3": "Ano. Kódování URL používá %XX hexadecimální hodnoty hlavně pro URL. Unicode escapování používá \\uXXXX a používá se v řetězcích v programovacích jazycích jako JavaScript, Java a Python.",
+            "q4": "Jsou moje data v bezpečí?",
+            "a4": "Ano! Veškeré kódování a dekódování probíhá zcela ve vašem prohlížeči pomocí JavaScriptu. Váš text nikdy neopustí vaše zařízení."
+        }
+    },
+    "js": {
+        "error_empty": "Zadejte prosím text ke zpracování",
+        "success_encode": "✓ Unicode bylo úspěšně zakódováno",
+        "success_decode": "✓ Unicode bylo úspěšně dekódováno",
+        "error_process": "✗ Chyba při zpracování Unicode: ",
+        "error_no_copy": "Žádný výstup ke kopírování",
+        "success_copy": "✓ Zkopírováno do schránky"
+    }
+}

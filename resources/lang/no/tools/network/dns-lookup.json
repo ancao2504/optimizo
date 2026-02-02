@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "DNS Lookup Tool - Gratis online DNS Record Checker",
+        "description": "Gratis DNS-oppslagsverktøy for å sjekke DNS-oppføringer for ethvert domene. Se A, AAAA, MX, NS, TXT, CNAME-oppføringer umiddelbart.",
+        "h1": "DNS-oppslagsverktøy",
+        "subtitle": "Spør DNS-oppføringer for å finne navneservere, MX, A, CNAME og TXT-oppføringer umiddelbart"
+    },
+    "form": {
+        "domain_label": "Domenenavn",
+        "domain_placeholder": "eksempel.no",
+        "button": "Søk opp DNS"
+    },
+    "results": {
+        "title": "DNS-poster"
+    },
+    "content": {
+        "what_is_title": "Hva er DNS-oppslag?",
+        "what_is_desc": "DNS-oppslag er et verktøy som spør Domain Name System-servere for å hente DNS-oppføringer for et domene.",
+        "why_use_title": "Hvorfor bruke DNS-oppslag?",
+        "why_use_desc": "DNS-oppslag er essensielt for å feilsøke e-postlevering og verifisere domenekonfigurasjon.",
+        "record_types_title": "DNS-oppføringstyper",
+        "a_record": "<strong>A Record:<\/strong> Kobler domene til IPv4-adresse",
+        "aaaa_record": "<strong>AAAA Record:<\/strong> Kobler domene til IPv6-adresse",
+        "mx_record": "<strong>MX Record:<\/strong> Informasjon om e-postserver",
+        "ns_record": "<strong>NS Record:<\/strong> Informasjon om navneserver",
+        "txt_record": "<strong>TXT Record:<\/strong> Tekstoppføringer for verifisering",
+        "cname_record": "<strong>CNAME Record:<\/strong> Kanonisk navnealias"
+    },
+    "faq": {
+        "title": "Ofte stilte spørsmål",
+        "q1": "Hva er DNS-oppslag?",
+        "a1": "DNS-oppslag er prosessen med å spørre Domain Name System-servere for å hente DNS-poster for et domene. Den oversetter menneskelesbare domenenavn til IP-adresser og gir informasjon om e-postservere, navneservere og andre DNS-konfigurasjoner.",
+        "q2": "Hva er de forskjellige typene DNS-poster?",
+        "a2": "Vanlige DNS-posttyper inkluderer A (IPv4-adresse), AAAA (IPv6-adresse), MX (e-postserver), CNAME (alias), TXT (tekstdata), NS (navneserver) og SOA (start av autorisasjon). Hver posttype tjener et bestemt formål i domenekonfigurasjonen.",
+        "q3": "Hvor lang tid tar DNS-spredning?",
+        "a3": "DNS-utbredelse tar vanligvis 24–48 timer globalt, selv om endringer kan vises i løpet av minutter på enkelte servere. Tiden avhenger av TTL-innstillinger (Time To Live) og hvor raskt DNS-servere oppdaterer hurtigbufferen.",
+        "q4": "Hvorfor mislykkes mitt DNS-oppslag?",
+        "a4": "DNS-oppslagsfeil kan oppstå på grunn av feil domenenavn, DNS-serverproblemer, blokkering av brannmur eller at domenet ikke er riktig konfigurert. Sjekk domenestavingen og sørg for at DNS-postene dine er riktig konfigurert.",
+        "q5": "Kan jeg slå opp DNS-poster for et hvilket som helst domene?",
+        "a5": "Ja, du kan utføre DNS-oppslag for alle offentlig registrerte domene. Noen organisasjoner kan imidlertid begrense visse DNS-spørringer av sikkerhetsgrunner."
+    },
+    "js": {
+        "looking_up": "Slår opp DNS-poster...",
+        "records_label": "DNS-poster",
+        "success": "DNS-oppslag fullført",
+        "error": "Kunne ikke slå opp DNS-poster",
+        "lookup_dns": "Slå opp DNS"
+    }
+}

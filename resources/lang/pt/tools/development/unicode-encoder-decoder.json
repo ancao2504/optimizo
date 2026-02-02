@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Codificador e decodificador Unicode - ferramenta de texto online gratuita",
+        "description": "Codifique e decodifique sequências de escape Unicode para JavaScript e JSON com nossa ferramenta gratuita.",
+        "h1": "Codificador e decodificador Unicode",
+        "subtitle": "Codifique e decodifique sequências de escape Unicode para JavaScript e JSON"
+    },
+    "editor": {
+        "btn_encode": "Codificar Unicode",
+        "btn_decode": "Decodificar Unicode",
+        "label_input_encode": "Inserir Texto para Codificar",
+        "ph_input": "Olá mundo",
+        "btn_process_encode": "Codificar Unicode",
+        "btn_clear": "Limpar",
+        "btn_copy": "Copiar",
+        "label_output_encoded": "Unicode Codificado",
+        "ph_output": "O Unicode processado aparecerá aqui...",
+        "label_input_decode": "Inserir Unicode para Decodificar",
+        "label_output_decoded": "Texto Decodificado",
+        "btn_process_decode": "Decodificar Unicode"
+    },
+    "content": {
+        "p1": "Nossa ferramenta gratuita de Codificador e Decodificador Unicode ajuda você a codificar texto em sequências de escape Unicode (ex: \\u0041) para uso seguro em JavaScript, JSON e outros contextos de programação, ou decodificá-los de volta para texto legível. Perfeito para desenvolvedores, analistas de dados e qualquer pessoa que lide com conjuntos de caracteres internacionais. O processamento 100% gratuito e no lado do cliente garante que seus dados permaneçam privados.",
+        "what_title": "O que é Codificação Unicode?",
+        "what_desc": "A codificação Unicode converte caracteres em seus pontos de código Unicode correspondentes, frequentemente representados como sequências de escape como \\uXXXX. Isso garante que o texto contendo caracteres especiais, emojis ou scripts não latinos possa ser representado com segurança em ambientes que normalmente suportam apenas ASCII, como arquivos de código-fonte ou dados JSON.",
+        "features_title": "Recursos",
+        "features": {
+            "instant": {
+                "title": "Conversão Instantânea",
+                "desc": "Codifique ou decodifique Unicode em milissegundos"
+            },
+            "bidirectional": {
+                "title": "Bidirecional",
+                "desc": "Codifique para o formato Unicode ou decodifique de volta para o original"
+            },
+            "privacy": {
+                "title": "Privacidade em Primeiro Lugar",
+                "desc": "Todo o processamento acontece no seu navegador"
+            },
+            "copy": {
+                "title": "Cópia em Um Clique",
+                "desc": "Copie texto codificado\/decodificado instantaneamente"
+            },
+            "free": {
+                "title": "100% Gratuito",
+                "desc": "Sem limites, sem necessidade de registro"
+            },
+            "universal": {
+                "title": "Suporte Universal",
+                "desc": "Funciona com todos os caracteres e scripts Unicode"
+            }
+        },
+        "uses_title": "Casos de Uso Comuns",
+        "uses": {
+            "programming": {
+                "title": "Programação",
+                "desc": "Incorpore caracteres especiais em código-fonte JavaScript ou Java com segurança"
+            },
+            "data": {
+                "title": "Serialização de Dados",
+                "desc": "Garanta a transmissão segura de caracteres não ASCII em JSON"
+            },
+            "international": {
+                "title": "Internacionalização",
+                "desc": "Depure e exiba texto em vários idiomas e scripts"
+            },
+            "security": {
+                "title": "Segurança",
+                "desc": "Analise código ofuscado ou dados contendo escapes Unicode"
+            }
+        },
+        "how_to_title": "Como Usar",
+        "how_to": {
+            "step1": {
+                "title": "Escolha o Modo",
+                "desc": "Selecione \"Codificar Unicode\" ou \"Decodificar Unicode\" com base na sua necessidade"
+            },
+            "step2": {
+                "title": "Inserir Texto",
+                "desc": "Cole seu texto ou escapes Unicode no campo de entrada"
+            },
+            "step3": {
+                "title": "Processar",
+                "desc": "Clique no botão de codificar ou decodificar"
+            },
+            "step4": {
+                "title": "Copiar Resultado",
+                "desc": "Clique em \"Copiar\" para copiar o texto processado para a área de transferência"
+            },
+            "step5": {
+                "title": "Use em Qualquer Lugar",
+                "desc": "Cole o resultado em seu código ou aplicação"
+            }
+        },
+        "examples_title": "Exemplos Unicode",
+        "examples": {
+            "simple": {
+                "title": "Simples\/ASCII:",
+                "desc": "Original: \"A\" → Codificado: \"\\u0041\""
+            },
+            "special": {
+                "title": "Caracteres Especiais:",
+                "desc": "Original: \"©\" → Codificado: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emojis\/Multi-byte:",
+                "desc": "Original: \"🌟\" → Codificado: \"\\uD83C\\uDF1F\" (pares substitutos) ou \"\\u2B50\" dependendo da representação"
+            }
+        },
+        "faq_title": "Perguntas Frequentes",
+        "faq": {
+            "q1": "Por que usar sequências de escape Unicode?",
+            "a1": "Elas permitem que você represente qualquer caractere usando apenas caracteres ASCII, o que garante compatibilidade entre diferentes sistemas, codificações e transferências de arquivos que podem não lidar corretamente com Unicode puro.",
+            "q2": "Qual formato é usado?",
+            "a2": "Esta ferramenta usa normalmente o formato \\uXXXX estilo JavaScript\/JSON para caracteres do Plano Multilíngue Básico.",
+            "q3": "Isso é diferente da codificação de URL?",
+            "a3": "Sim. A codificação de URL usa valores hexais %XX principalmente para URLs. O escape Unicode usa \\uXXXX e é usado em strings em linguagens de programação como JavaScript, Java e Python.",
+            "q4": "Meus dados estão seguros?",
+            "a4": "Sim! Toda a codificação e decodificação acontece inteiramente no seu navegador usando JavaScript. Seu texto nunca sai do seu dispositivo."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor, insira texto para processar",
+        "success_encode": "✓ Unicode codificado com sucesso",
+        "success_decode": "✓ Unicode decodificado com sucesso",
+        "error_process": "✗ Erro ao processar Unicode: ",
+        "error_no_copy": "Nenhuma saída para copiar",
+        "success_copy": "✓ Copiado para a área de transferência"
+    }
+}

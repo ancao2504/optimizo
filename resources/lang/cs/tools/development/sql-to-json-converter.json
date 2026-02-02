@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "SQL to JSON Converter – bezplatný online databázový nástroj",
+        "description": "Okamžitě transformujte příkazy SQL INSERT do polí JSON pomocí našeho bezplatného online nástroje. Rychlý, přesný a bezpečný.",
+        "h1": "Převaděč SQL na JSON",
+        "subtitle": "Snadno převádějte SQL data na objekty JSON a naopak"
+    },
+    "editor": {
+        "btn_encode": "Režim JSON na SQL",
+        "btn_decode": "Režim SQL na JSON",
+        "label_table": "Název tabulky",
+        "ph_table": "Zadejte název tabulky (např. users)",
+        "label_input_json": "JSON vstup",
+        "ph_input_json": "Zde vložte své pole JSON...",
+        "label_output_sql": "SQL výstup",
+        "ph_output_sql": "Zde se zobrazí vygenerované SQL...",
+        "label_input_sql": "SQL vstup",
+        "label_output_json": "JSON výstup",
+        "btn_convert_sql": "Generovat SQL",
+        "btn_convert_json": "Generovat JSON",
+        "btn_clear": "Vymazat",
+        "btn_copy": "Kopírovat výstup"
+    },
+    "content": {
+        "hero_title": "Převodník SQL na JSON",
+        "hero_subtitle": "Obousměrný převod pro moderní vývojáře",
+        "p1": "Moderní aplikace prosperují na formátu JSON, ale databáze stále mluví jazykem SQL. Náš obousměrný převodník tuto mezeru bez námahy překlenuje. Ať už potřebujete převést exporty z databáze do JSON pro své API, nebo JSON data do SQL skriptů pro naplnění databáze, tento nástroj poskytuje rychlé, bezpečné a přesné řešení.",
+        "integration_title": "Bezproblémová integrace",
+        "integration_desc": "Snadno přenášejte data mezi vaší relační databází a vaší webovou aplikací. Náš parser zpracovává standardní příkazy SQL INSERT a převádí je do strukturovaných objektů JSON, přičemž zachovává datové typy a hodnoty.",
+        "features_title": "Klíčové funkce",
+        "features": {
+            "instant": {
+                "title": "Okamžité výsledky",
+                "desc": "Převody probíhají v reálném čase při kliknutí."
+            },
+            "bidirectional": {
+                "title": "Duální režim",
+                "desc": "Přepínejte mezi režimy SQL na JSON a JSON na SQL."
+            },
+            "security": {
+                "title": "Bezpečný převod",
+                "desc": "Zpracování probíhá 100% na straně klienta pro maximální soukromí."
+            },
+            "custom": {
+                "title": "Čisté formátování",
+                "desc": "Výstup je profesionálně formátovaný a připravený k použití."
+            },
+            "types": {
+                "title": "Rozpoznávání typů",
+                "desc": "Správně zpracovává hodnoty null, čísla a řetězce."
+            },
+            "free": {
+                "title": "Zcela zdarma",
+                "desc": "Žádné předplatné ani limity použití."
+            }
+        },
+        "uses_title": "Běžné příklady použití",
+        "uses": {
+            "seeding": {
+                "title": "Naplnění databáze (Seeding)",
+                "desc": "Rychle generujte SQL skripty pro naplnění vašeho vývojového prostředí."
+            },
+            "export": {
+                "title": "Export dat",
+                "desc": "Převádějte výsledky SQL dotazů do JSON pro analýzu."
+            },
+            "migration": {
+                "title": "Migrace API",
+                "desc": "Připravte data ze starších databází pro použití v moderních REST API."
+            },
+            "testing": {
+                "title": "Testovací data (Mock Data)",
+                "desc": "Vytvářejte testovací JSON data z existujících SQL tabulek."
+            },
+            "docs": {
+                "title": "Dokumentace",
+                "desc": "Zahrňte JSON příklady vaší databázové struktury do dokumentace."
+            },
+            "prototype": {
+                "title": "Rychlé prototypování",
+                "desc": "Během vývoje rychle přenášejte data mezi různými stavy."
+            }
+        },
+        "how_title": "Jak nástroj používat",
+        "how_steps": {
+            "1": {
+                "title": "Vyberte režim",
+                "desc": "Pomocí tlačítek si vyberte mezi převodem JSON na SQL nebo SQL na JSON."
+            },
+            "2": {
+                "title": "Vložte data",
+                "desc": "Vložte svůj zdrojový kód do levé oblasti editoru."
+            },
+            "3": {
+                "title": "Nastavte název tabulky",
+                "desc": "Pokud převádíte na SQL, zadejte název cílové databázové tabulky."
+            },
+            "4": {
+                "title": "Generovat",
+                "desc": "Klikněte na „Generovat“ pro okamžitou transformaci."
+            },
+            "5": {
+                "title": "Zkopírujte výsledek",
+                "desc": "Použijte tlačítko „Kopírovat“ pro získání výstupu."
+            }
+        },
+        "samples_title": "Příklady převodu",
+        "samples": [
+            {
+                "title": "SQL Insert na JSON",
+                "desc": "INSERT INTO users (name, age) VALUES ('Alice', 25); → [{\"name\": \"Alice\", \"age\": 25}]"
+            },
+            {
+                "title": "JSON na SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO table (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Často kladené otázky",
+        "faq": {
+            "q1": "Jaké SQL příkazy jsou podporovány?",
+            "a1": "Aktuálně nástroj podporuje standardní příkazy INSERT INTO s definovanými názvy sloupců.",
+            "q2": "Jsou moje data v bezpečí?",
+            "a2": "Ano, vaše data nikdy neodesíláme na náš server. Veškerá logika běží ve vašem prohlížeči.",
+            "q3": "Mohu převádět více řádků?",
+            "a3": "Ano, nástroj efektivně zpracovává víceřádkové SQL nebo velká pole JSON.",
+            "q4": "Zpracovává speciální znaky?",
+            "a4": "Ano, správně escapuje jednoduché uvozovky a zpracovává základní speciální znaky."
+        }
+    },
+    "js": {
+        "error_empty": "Zadejte prosím nějaká data ke zpracování",
+        "placeholder_table_name": "uživatelů",
+        "error_general": "Chyba převodu: ",
+        "error_invalid_array": "Chyba: Vstup musí být pole JSON objektů.",
+        "error_empty_array": "Chyba: Pole JSON je prázdné.",
+        "success_sql": "✓ SQL bylo úspěšně vygenerováno!",
+        "error_no_statements": "Nebyly nalezeny žádné platné SQL INSERT příkazy.",
+        "success_json": "✓ JSON bylo úspěšně vygenerováno!",
+        "error_no_copy": "Žádný obsah ke kopírování.",
+        "success_copy": "✓ Výstup zkopírován do schránky!"
+    }
+}

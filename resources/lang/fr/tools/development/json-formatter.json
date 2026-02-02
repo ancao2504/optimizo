@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter en ligne - Outil JSON Prettifier gratuit",
+        "description": "Formatez, validez et minifiez vos données JSON avec notre outil en ligne gratuit",
+        "h1": "Formateur JSON",
+        "subtitle": "Formatez, validez et minifiez vos données JSON"
+    },
+    "editor": {
+        "title": "Formatez vos données JSON",
+        "label_input": "Entrez les données JSON",
+        "ph_input": "{\"nom\": \"Jean Pierre\", \"âge\": 30, \"ville\": \"Paris\"}",
+        "help_text": "Collez vos données JSON pour les formater, les embellir ou les minifier",
+        "btn_format": "Formater et Embellir",
+        "btn_minify": "Minifier le JSON",
+        "label_results": "JSON formaté",
+        "btn_copy": "Copier le JSON"
+    },
+    "content": {
+        "why_title": "Pourquoi utiliser notre formateur JSON ?",
+        "why_desc": "Le JSON (JavaScript Object Notation) est le format d'échange de données le plus populaire utilisé dans le développement web, les API et les fichiers de configuration. Notre formateur JSON gratuit en ligne aide les développeurs, les analystes de données et les professionnels de l'informatique à formater, embellir, valider et minifier rapidement les données JSON. Que vous déboguiez des réponses d'API, nettoyiez des fichiers de configuration ou prépariez du JSON pour la production, notre outil fournit des résultats instantanés avec coloration syntaxique et détection d'erreurs. Parfait pour les développeurs travaillant avec des API REST, des bases de données NoSQL et des applications web modernes.",
+        "features": {
+            "instant": {
+                "title": "Formatage instantané",
+                "desc": "Formatez et embellissez les données JSON en quelques millisecondes avec une indentation appropriée et une coloration syntaxique"
+            },
+            "error": {
+                "title": "Détection d'erreurs",
+                "desc": "Détectez et mettez en évidence automatiquement les erreurs de syntaxe JSON avec des messages d'erreur utiles"
+            },
+            "privacy": {
+                "title": "100 % privé",
+                "desc": "Tout le traitement se fait dans votre navigateur - vos données JSON ne quittent jamais votre ordinateur"
+            }
+        },
+        "how_title": "Comment formater du JSON en 3 étapes faciles",
+        "how_steps": {
+            "1": {
+                "title": "Choisir l'action",
+                "desc": "Cliquez sur \"Formater et Embellir\" pour formater ou sur \"Minifier\" pour compresser votre JSON"
+            },
+            "2": {
+                "title": "Copier le résultat",
+                "desc": "Cliquez sur le bouton de copie pour copier le JSON formaté dans votre presse-papiers"
+            },
+            "3": {
+                "title": "",
+                "desc": ""
+            }
+        },
+        "uses_title": "Cas d'utilisation courants du formatage JSON",
+        "uses": {
+            "api": {
+                "title": "Débogage des réponses d'API",
+                "desc": "Formatez les réponses d'API désordonnées pour lire et déboguer facilement les données JSON provenant des API REST, GraphQL et des services web."
+            },
+            "config": {
+                "title": "Fichiers de configuration",
+                "desc": "Nettoyez et validez les fichiers de configuration JSON pour les applications, package.json, tsconfig.json, et plus encore."
+            },
+            "db": {
+                "title": "Données de base de données",
+                "desc": "Formatez les données JSON des bases de données NoSQL comme MongoDB, CouchDB et Firebase pour une meilleure lisibilité."
+            },
+            "export": {
+                "title": "Exportation\/Importation de données",
+                "desc": "Préparez les données JSON pour l'exportation ou validez les données JSON importées pour garantir une structure et une syntaxe appropriées."
+            }
+        },
+        "tips_title": "Bonnes pratiques et conseils JSON",
+        "tips": {
+            "validate": {
+                "title": "✓ Toujours valider le JSON",
+                "desc": "Utilisez un validateur JSON pour détecter les erreurs de syntaxe avant le déploiement en production. Un JSON invalide peut casser votre application."
+            },
+            "indent": {
+                "title": "✓ Utiliser une indentation appropriée",
+                "desc": "Formatez le JSON avec une indentation de 2 ou 4 espaces pour une meilleure lisibilité pendant le développement et le débogage."
+            },
+            "minify": {
+                "title": "✓ Minifier pour la production",
+                "desc": "Minifiez les données JSON avant de les déployer en production pour réduire la taille du fichier et améliorer les temps de chargement."
+            },
+            "naming": {
+                "title": "✓ Utiliser un nommage cohérent",
+                "desc": "Suivez les conventions de nommage camelCase ou snake_case de manière cohérente dans toute votre structure JSON."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Mes données JSON sont-elles en sécurité ?",
+            "a1": "Oui, absolument. Notre formateur JSON fonctionne entièrement dans votre navigateur web à l'aide de JavaScript. Vos données ne sont jamais envoyées à nos serveurs ni stockées nulle part.",
+            "q2": "Pourquoi la minification du JSON est-elle importante ?",
+            "a2": "La minification supprime les espaces blancs et les sauts de ligne inutiles, réduisant considérablement la taille du fichier. C'est crucial pour améliorer les performances des API et réduire la consommation de bande passante dans les environnements de production.",
+            "q3": "Puis-je valider un JSON incomplet ?",
+            "a3": "L'outil nécessite une structure JSON valide pour formater ou minifier. Cependant, il fournit des messages d'erreur détaillés pour vous aider à localiser et à corriger les problèmes dans vos données JSON.",
+            "q4": "Prend-il en charge les gros fichiers JSON ?",
+            "a4": "Oui, l'outil est optimisé pour gérer efficacement de grands ensembles de données JSON, bien que les fichiers extrêmement volumineux puissent dépendre des limites de mémoire de votre navigateur."
+        }
+    },
+    "js": {
+        "error_empty_format": "Veuillez entrer des données JSON à formater",
+        "error_invalid": "JSON invalide : ",
+        "error_empty_minify": "Veuillez entrer des données JSON à minifier",
+        "success_copy": "Copié !",
+        "error_copy": "Échec de la copie. Veuillez copier manuellement."
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "DNS-hakutyökalu - ilmainen online-DNS-tietueiden tarkistus",
+        "description": "Ilmainen DNS-hakutyökalu minkä tahansa verkkotunnuksen DNS-tietueiden tarkistamiseen. Katso A, AAAA, MX, NS, TXT ja CNAME -tietueet välittömästi.",
+        "h1": "DNS-hakutyökalu",
+        "subtitle": "Hae DNS-tietueita ja löydä nimipalvelimet, MX, A, CNAME ja TXT -tietueet välittömästi"
+    },
+    "form": {
+        "domain_label": "Verkkotunnus (Domain)",
+        "domain_placeholder": "esimerkki.fi",
+        "button": "Hae DNS"
+    },
+    "results": {
+        "title": "DNS-hakutulokset"
+    },
+    "content": {
+        "what_is_title": "Mikä on DNS-haku?",
+        "what_is_desc": "DNS-haku (Domain Name System Lookup) on työkalu, joka kysyy nimipalvelimilta verkkotunnuksen DNS-tietueita. DNS-tietueet sisältävät tärkeitä tietoja verkkotunnuksen kokoonpanosta, kuten sähköpostipalvelimet (MX), nimipalvelimet (NS), IP-osoitteet (A\/AAAA) ja tekstimuotoiset tietueet (TXT), joita käytetään varmentamiseen ja turvallisuuteen.",
+        "why_use_title": "Miksi käyttää DNS-hakua?",
+        "why_use_desc": "DNS-haku on välttämätön sähköpostin toimitusongelmien vianetsinnässä, verkkotunnuksen määritysten tarkistamisessa, nimipalvelinasetusten varmistamisessa sekä SPF- ja DKIM-tietueiden validoinnissa. Järjestelmäylläpitäjät ja kehittäjät käyttävät sitä päivittäin.",
+        "record_types_title": "DNS-tietuetyypit",
+        "a_record": "<strong>A-tietue:<\/strong> Yhdistää verkkotunnuksen IPv4-osoitteeseen",
+        "aaaa_record": "<strong>AAAA-tietue:<\/strong> Yhdistää verkkotunnuksen IPv6-osoitteeseen",
+        "mx_record": "<strong>MX-tietue:<\/strong> Sähköpostipalvelimen tiedot",
+        "ns_record": "<strong>NS-tietue:<\/strong> Nimipalvelimen tiedot",
+        "txt_record": "<strong>TXT-tietue:<\/strong> Tekstitietueet varmentamiseen",
+        "cname_record": "<strong>CNAME-tietue:<\/strong> Kanoninen nimi eli alias"
+    },
+    "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "q1": "Mikä on DNS-haku?",
+        "a1": "DNS-haku on prosessi, jossa Domain Name System -palvelimille tehdään kyselyitä verkkotunnuksen DNS-tietueiden hakemiseksi. Se kääntää ihmisen luettavissa olevat verkkotunnusten nimet IP-osoitteiksi ja tarjoaa tietoa sähköpostipalvelimista, nimipalvelimista ja muista DNS-kokoonpanoista.",
+        "q2": "Mitä erilaisia ​​DNS-tietueita ovat?",
+        "a2": "Yleisiä DNS-tietuetyyppejä ovat A (IPv4-osoite), AAAA (IPv6-osoite), MX (postipalvelin), CNAME (alias), TXT (tekstidata), NS (nimipalvelin) ja SOA (valtuutuksen alku). Jokainen tietuetyyppi palvelee tiettyä tarkoitusta verkkotunnuksen määrittelyssä.",
+        "q3": "Kuinka kauan DNS:n leviäminen kestää?",
+        "a3": "DNS:n leviäminen kestää tyypillisesti 24–48 tuntia maailmanlaajuisesti, vaikka muutoksia voi ilmetä muutamassa minuutissa joillakin palvelimilla. Aika riippuu TTL (Time To Live) -asetuksista ja siitä, kuinka nopeasti DNS-palvelimet päivittävät välimuistinsa.",
+        "q4": "Miksi DNS-hakuni epäonnistuu?",
+        "a4": "DNS-hakuvirheitä voi johtua väärästä toimialueen nimestä, DNS-palvelinongelmista, palomuuriestosta tai toimialueesta, jota ei ole määritetty oikein. Tarkista verkkotunnuksesi oikeinkirjoitus ja varmista, että DNS-tietueet on määritetty oikein.",
+        "q5": "Voinko etsiä DNS-tietueita mille tahansa verkkotunnukselle?",
+        "a5": "Kyllä, voit suorittaa DNS-hakuja mille tahansa julkisesti rekisteröidylle verkkotunnukselle. Jotkut organisaatiot voivat kuitenkin rajoittaa tiettyjä DNS-kyselyitä turvallisuussyistä."
+    },
+    "js": {
+        "looking_up": "Haetaan...",
+        "records_label": "Tietueet",
+        "success": "Haku onnistui",
+        "error": "Virhe haussa",
+        "lookup_dns": "Hae DNS"
+    }
+}

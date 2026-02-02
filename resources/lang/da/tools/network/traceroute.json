@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online - Gratis netværksanalyseværktøj",
+        "description": "Gratis online traceroute tool. Hurtig, sikker and let to use.",
+        "h1": "Traceroute",
+        "subtitle": "Den best traceroute for developers and IT professionals"
+    },
+    "form": {
+        "host_label": "Vært eller IP-adresse",
+        "host_placeholder": "Indtast domæne eller IP-adresse",
+        "button": "Start Traceroute",
+        "button_loading": "Spor rute..."
+    },
+    "results": {
+        "title": "Traceroute resultater"
+    },
+    "content": {
+        "what_is_title": "Hvad er Traceroute?",
+        "what_is_desc": "Dette is a gratis online værktøj to traceroute.",
+        "why_use_title": "Hvorfor bruge Traceroute?",
+        "why_use_desc": "Traceroute viser stidataene fra din computer til en destinationsserver, og viser hvert hop (router) undervejs. Det er vigtigt for at diagnosticere netværksnedgange, identificere routingproblemer og forstå netværkstopologi.",
+        "hops_title": "Forstå humle",
+        "hop1": "Hop 1: Din lokale router\/gateway",
+        "hop2": "Hop 2-3: Din internetudbyders netværk",
+        "hop3": "Hop 4-6: Regional internet-rygrad",
+        "hop4": "Hop 7-10: Destinations-ISP-netværk",
+        "hop5": "Hop 11+: Destinationsservernetværk",
+        "hop6": "Hvert hop tilføjer latency - færre hop betyder generelt hurtigere forbindelse",
+        "issues_title": "Fælles problemer",
+        "issues_desc": "Høj latenstid ved specifikke hop indikerer overbelastning eller routingproblemer. Stjerner (*) betyder, at routere ikke reagerer på traceroute-pakker (ofte på grund af firewall-regler). Pakketab ved mellemliggende hop påvirker muligvis ikke den endelige destination, hvis pakker når den med succes."
+    },
+    "faq": {
+        "title": "Ofte stillede spørgsmål",
+        "q1": "Hvad er traceroute?",
+        "a1": "Traceroute er et netværksdiagnoseværktøj, der sporer stien, som datapakker tager fra din computer til en destinationsserver. Den viser hver router (hop) langs ruten og måler den tid, det tager på hvert trin, og hjælper med at identificere, hvor netværksforsinkelser eller -fejl opstår.",
+        "q2": "Hvorfor viser nogle humle stjerner (*)?",
+        "a2": "Stjerner angiver, at en router ikke reagerede på traceroute-sonden inden for timeout-perioden. Dette skyldes ofte firewall-konfigurationer, der blokerer ICMP-pakker af sikkerhedsmæssige årsager. Det betyder ikke nødvendigvis, at der er et problem – pakkerne kan stadig nå frem til destinationen.",
+        "q3": "Hvor mange humle er normalt?",
+        "a3": "Typiske internetruter har 10-20 hop. Lokale netværksdestinationer kan have 1-5 hop, mens internationale ruter kan have 20-30 hop. Flere hop betyder generelt længere afstande og potentielt højere latenstid, men effektiv routing betyder mere end hoptal."
+    }
+}

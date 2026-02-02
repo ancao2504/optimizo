@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "JSON'dan SQL'e Dönüştürücü - Ücretsiz Çevrimiçi Geçiş Aracı",
+        "description": "JSON verilerini anında SQL INSERT deyimlerine dönüştürün. Veritabanı tohumlama ve veri taşıma için mükemmeldir.",
+        "h1": "JSON'dan SQL'ye Dönüştürücü",
+        "subtitle": "JSON dizilerini ve nesnelerini geçerli SQL betiklerine dönüştürün"
+    },
+    "editor": {
+        "label_tablename": "Tablo Adı",
+        "ph_tablename": "Tablo adını girin (örn. users)",
+        "btn_convert": "SQL Oluştur",
+        "btn_clear": "Temizle",
+        "btn_copy": "SQL'i Kopyala",
+        "btn_example": "Örnek Yükle",
+        "label_input": "JSON Girişi",
+        "ph_input": "JSON dizinizi buraya yapıştırın...",
+        "label_output": "SQL Çıktısı",
+        "ph_output": "Oluşturulan SQL INSERT deyimleri burada görünecek..."
+    },
+    "content": {
+        "hero_title": "Zahmetsiz JSON - SQL Dönüşümü",
+        "hero_subtitle": "Veritabanı tohumlama betikleri oluşturmanın en hızlı yolu",
+        "p1": "JSON verilerini SQL INSERT deyimlerine dönüştürmek manuel bir görev olmamalıdır. JSON - SQL dönüştürücümüz, JSON anahtarlarınızı veritabanı sütunlarıyla otomatik olarak eşleştirerek ve değerleri güvenli ekleme için kaçış karakterleriyle (escaping) düzenleyerek ağır işi halleder. Veri taşıma, test etme veya veritabanı başlatma üzerinde çalışan geliştiriciler için temel bir araçtır.",
+        "what_title": "Bu Araç Ne Zaman Kullanılmalı?",
+        "what_desc": "Bir NoSQL veritabanından dışa aktarma veya bir API yanıtı gibi JSON formatında bir veri koleksiyonunuz varsa ve bunu MySQL, PostgreSQL veya SQL Server gibi ilişkisel bir veritabanına eklemeniz gerekiyorsa, bu araç tam size göredir. Her nesneyi temiz bir SQL deyimine dönüştürür.",
+        "features_title": "Ana Özellikler",
+        "features": {
+            "fast": {
+                "title": "Anında Oluşturma",
+                "desc": "Göz açıp kapayıncaya kadar yüzlerce SQL satırı oluşturun."
+            },
+            "private": {
+                "title": "Gizlilik Garantili",
+                "desc": "Tüm işlemler yereldir. Hassas verileriniz tarayıcınızda kalır."
+            },
+            "copy": {
+                "title": "Tek Tıkla Dışa Aktarma",
+                "desc": "Tüm betiği kopyalayın veya taşımalarınız için indirin."
+            },
+            "smart": {
+                "title": "Akıllı Kaçış Karakterleri",
+                "desc": "Dizelerdeki tırnak işaretlerini ve özel karakterleri otomatik olarak halleder."
+            },
+            "free": {
+                "title": "%100 Ücretsiz",
+                "desc": "Sınır yok, kayıt yok, zahmet yok."
+            },
+            "db": {
+                "title": "Veritabanı Dostu",
+                "desc": "Çoğu veritabanı sistemiyle uyumlu standart SQL oluşturur."
+            }
+        },
+        "uses_title": "Profesyonel Kullanım Durumları",
+        "uses": {
+            "migration": {
+                "title": "Veri Taşıma",
+                "desc": "JSON tabanlı sistemlerden SQL veritabanlarına kolayca veri taşıyın."
+            },
+            "import": {
+                "title": "Toplu İçe Aktarma",
+                "desc": "Büyük miktarda test veya canlı veriyi hızla yükleyin."
+            },
+            "api": {
+                "title": "API'den Veritabanına",
+                "desc": "Üçüncü taraf API sonuçlarını doğrudan SQL eklemelerine (inserts) dönüştürün."
+            },
+            "test": {
+                "title": "Test Verisi Tohumlama",
+                "desc": "Geliştirme ortamlarını doldurmak için SQL betikleri oluşturun."
+            },
+            "backup": {
+                "title": "Yedek Geri Yükleme",
+                "desc": "JSON yedeklerini tekrar işlevsel SQL betiklerine dönüştürün."
+            },
+            "dev": {
+                "title": "Hızlı Prototipleme",
+                "desc": "Geliştirme sırasında yeni veritabanı tablolarını hızla doldurun."
+            }
+        },
+        "how_title": "Nasıl Kullanılır",
+        "how_steps": [
+            "Hedef veritabanı <strong>Tablo Adını<\/strong> girin",
+            "<strong>JSON<\/strong> verinizi yapıştırın (bir dizi veya nesne olmalıdır)",
+            "Betiği oluşturmak için <strong>SQL Oluştur<\/strong> düğmesine tıklayın",
+            "SQL çıktısını panonuza <strong>Kopyalayın<\/strong>"
+        ],
+        "faq_title": "Sıkça Sorulan Sorular",
+        "faq": {
+            "q1": "Hangi JSON formatı gereklidir?",
+            "a1": "Araç, her nesnenin bir veritabanı satırını temsil ettiği bir nesne dizisi ile en iyi şekilde çalışır.",
+            "q2": "İç içe geçmiş nesneleri işliyor mu?",
+            "a2": "Şu anda üst düzey anahtarları eşleştirir. İç içe geçmiş nesneler genellikle dizeye dönüştürülür veya veritabanı ihtiyaçlarınıza göre atlanır.",
+            "q3": "Satır sınırı var mı?",
+            "a3": "Sert bir sınır yoktur, ancak binlerce satırda tarayıcınızın performansı değişkenlik gösterebilir."
+        },
+        "tips_title": "Profesyonel İpuçları",
+        "tips_list": [
+            "JSON anahtarlarınızın SQL sütun adlarınızla tam olarak eşleştiğinden emin olun.",
+            "Oluşturulan SQL'i canlı bir veritabanında çalıştırmadan önce her zaman doğrulayın.",
+            "Beklenen JSON yapısını görmek için \"Örnek\" düğmesini kullanın."
+        ]
+    },
+    "js": {
+        "error_empty": "Lütfen JSON verisini ve bir tablo adını girin",
+        "success_convert": "✓ SQL başarıyla oluşturuldu!",
+        "error_convert": "SQL oluşturulurken hata: ",
+        "error_no_copy": "Kopyalanacak SQL yok. Lütfen önce JSON'ı dönüştürün.",
+        "success_copy": "✓ SQL panoya kopyalandı!"
+    }
+}

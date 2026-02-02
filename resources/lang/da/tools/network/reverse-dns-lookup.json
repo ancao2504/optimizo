@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Reverse DNS Lookup - Gratis online IP til domæneværktøj",
+        "description": "Gratis online reverse DNS lookup tool. Find the hostname associated with any IP address instantly. Hurtig, secure, and let to use.",
+        "h1": "Omvendt DNS-opslag",
+        "subtitle": "Find det domænenavn eller det værtsnavn, der er knyttet til en IP-adresse med det samme"
+    },
+    "form": {
+        "ip_label": "Indtast IP Address",
+        "ip_placeholder": "f.eks. 8.8.8.8",
+        "button": "Opslag omvendt DNS",
+        "button_loading": "Kigger op..."
+    },
+    "results": {
+        "title": "Reverse DNS Resultats"
+    },
+    "content": {
+        "what_is_title": "Hvad er Reverse DNS Lookup?",
+        "what_is_desc": "Omvendt DNS-opslag (rDNS) er processen med at bestemme domænenavnet eller værtsnavnet forbundet med en IP-adresse. I modsætning til et standard DNS-opslag, der konverterer et domænenavn til en IP-adresse (forward lookup), gør rDNS det modsatte. Det bruges ofte til at bekræfte identiteten af ​​en server eller til at fejlfinde netværksproblemer.",
+        "why_use_title": "Hvorfor Brug Reverse DNS Lookup?",
+        "why_use_desc": "Omvendt DNS bruges i vid udstrækning til sikkerheds- og verifikationsformål. Det hjælper med at identificere kilden til indgående trafik, bekræfte e-mail-afsendere (for at forhindre spam) og fejlfinde problemer med netværksforbindelse. Mange mailservere kræver gyldige rDNS-poster for at acceptere indgående e-mails.",
+        "ptr_records_title": "Forstå PTR Records",
+        "ptr_record1": "<strong>PTR Record:<\/strong> En Pointer Record (PTR) er den type DNS-record, der bruges til omvendte DNS-opslag.",
+        "ptr_record2": "<strong>Kortlægning:<\/strong> Det kortlægger en IP-adresse tilbage til et værtsnavn.",
+        "ptr_record3": "<strong>Bekræftelse:<\/strong> Afgørende for levering af e-mail og sikkerhedsbekræftelse.",
+        "ptr_record4": "<strong>IP-til-vært:<\/strong> Vigtigt for at identificere den sande ejer af en IP-adresse.",
+        "ptr_record5": "<strong>Spamforebyggelse:<\/strong> Bruges af mailservere til at validere afsenderens ægthed.",
+        "ptr_record6": "<strong>Netværkslogfiler:<\/strong> Nyttigt til at gøre netværkslogfiler menneskelæselige ved at vise værtsnavne.",
+        "use_cases_title": "Almindelig Brug Cases",
+        "use_cases_desc": "Almindelig use cases include verifying the origin of web traffic, diagnosing network latency or routing problems, validating email server configurations, and enhancing cybersecurity audits by identifying potentially malicious IP addresses."
+    },
+    "faq": {
+        "title": "Ofte Stillede Spørgsmål",
+        "q1": "Hvad er a PTR record?",
+        "a1": "En PTR (Pointer)-record er en type DNS-record, der knytter en IP-adresse til et værtsnavn. Det er kernekomponenten i et omvendt DNS-opslag.",
+        "q2": "Hvorfor is reverse DNS important for email?",
+        "a2": "Mange e-mail-udbydere bruger omvendt DNS til at bekræfte, at afsenderserveren er legitim. Hvis en servers IP-adresse ikke har en matchende rDNS-post, kan dens e-mails blive markeret som spam.",
+        "q3": "Kan enhver IP-adresse have en omvendt DNS-record?",
+        "a3": "Ja, but the owner of the IP address (typically the ISP or hosting provider) must configure the PTR record in their DNS settings."
+    }
+}

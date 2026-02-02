@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "MD5 Hash Generator - ilmainen online-suojaustyökalu",
+        "description": "Luo MD5-tiivisteitä mistä tahansa tekstistä välittömästi",
+        "h1": "MD5 Hash Generator",
+        "subtitle": "Luo MD5-tiivisteitä tekstistä välittömästi"
+    },
+    "editor": {
+        "label_input": "Kirjoita teksti",
+        "ph_input": "Kirjoita tiivistettävä teksti...",
+        "btn_generate": "Luo MD5-tiiviste",
+        "label_result": "MD5-tiiviste",
+        "btn_copy": "Kopioida"
+    },
+    "content": {
+        "hero_title": "MD5 Hash Generator",
+        "hero_subtitle": "Luo MD5-tiivisteitä mistä tahansa tekstistä välittömästi",
+        "p1": "Luo MD5-tiivistettä mistä tahansa tekstistä, salasanasta tai tietojonosta välittömästi ilmaisella online-MD5-hajautusgeneraattorillamme. MD5 (Message-Digest Algorithm 5) on laajalti käytetty kryptografinen hajautusfunktio, joka tuottaa 128-bittisen (32 merkin heksadesimaali) hash-arvon. Täydellinen tietojen eheyden tarkistamiseen, tarkistussumman luomiseen ja hash-toimintojen ymmärtämiseen. Kaikki käsittely tapahtuu selaimessasi täydellisen yksityisyyden takaamiseksi.",
+        "what_title": "🔒 Mikä on MD5?",
+        "what_desc": "MD5 on kryptografinen hajautusfunktio, joka ottaa minkä tahansa pituisen syötteen ja tuottaa kiinteän 128-bittisen hash-arvon, joka esitetään tyypillisesti 32-merkkisenä heksadesimaalilukuna. Sama syöte tuottaa aina saman tiivisteen, mutta pienikin muutos syötteessä luo täysin erilaisen tiivisteen.",
+        "features_title": "âœ… MD5 edut",
+        "features": {
+            "fast": "<strong>Nopea käsittely:<\/strong> Erittäin nopea hajautus",
+            "fixed": "<strong>Kiinteä pituus:<\/strong> tuottaa aina 128-bittisen tulosteen",
+            "deterministic": "<strong>Deterministinen:<\/strong> Sama syöttö = sama hash",
+            "support": "<strong>Laaja tuki:<\/strong> Saatavilla kaikilla ohjelmointikielillä"
+        },
+        "uses_title": "📊 Yleiset käyttötapaukset",
+        "uses": {
+            "verify": "<strong>Tiedoston vahvistus:<\/strong> Tarkista tiedoston eheys",
+            "checksum": "<strong>Tarkistussummat:<\/strong> Vahvista lataukset",
+            "cache": "<strong>Välimuistiavaimet:<\/strong> Luo yksilöllisiä tunnisteita",
+            "integrity": "<strong>Tietojen eheys:<\/strong> Tunnista muutokset"
+        },
+        "warning_title": "âš ï¸ Turvallisuusvaroitus",
+        "warning_desc": "<strong>ÄLÄ käytä MD5:tä salasanojen hajauttamiseen tai tietoturvakriittisiin sovelluksiin!<\/strong> MD5 on kryptografisesti rikki ja altis törmäyshyökkäyksille. Käytä salasanan hajauttamiseen nykyaikaisia ​​algoritmeja, kuten bcrypt, Argon2 tai PBKDF2.",
+        "compare_title": "ðŸ”„ MD5 vs. muut hajautustoiminnot",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128-bittinen lähtö",
+                "desc2": "Nopea mutta epävarma salaukselle"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160-bittinen lähtö",
+                "desc2": "Myös vanhentunut tietoturvakäyttöön"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256-bittinen lähtö",
+                "desc2": "Turvallinen ja laajalti käytetty nykyään"
+            }
+        },
+        "faq_title": "â“ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Onko MD5 suojattu salasanoille?",
+            "a1": "Ei! MD5 on kryptografisesti rikki, eikä sitä tule koskaan käyttää salasanan hajauttamiseen. Käytä sen sijaan bcrypt, Argon2 tai PBKDF2.",
+            "q2": "Voinko peruuttaa MD5-hajautusarvon?",
+            "a2": "Ei, MD5 on yksisuuntainen toiminto – et voi kääntää hajautusarvoa saadaksesi alkuperäisen syötteen. Hyökkääjät voivat kuitenkin käyttää sateenkaaritaulukoita syötteiden etsimiseen.",
+            "q3": "Lähetetäänkö tietoni palvelimelle?",
+            "a3": "Ei! Kaikki MD5-hajautus tapahtuu kokonaan selaimessasi JavaScriptin avulla. Tietosi eivät koskaan poistu laitteestasi."
+        }
+    },
+    "js": {
+        "error_empty": "Kirjoita tekstiä",
+        "btn_copied": "Kopioitu!"
+    }
+}

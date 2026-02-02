@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML Encoder & Decoder - Instrument gratuit pentru entități online",
+        "description": "Codifică și decodifică entitățile HTML pentru a preveni atacurile XSS cu instrumentul nostru online gratuit. Sigur și rapid.",
+        "h1": "Codificator și decodor HTML",
+        "subtitle": "Codifică și decodifică entitățile HTML pentru a preveni atacurile XSS"
+    },
+    "editor": {
+        "mode_encode": "Codifică HTML",
+        "mode_decode": "Decodifică HTML",
+        "label_input_encode": "Introdu HTML pentru Codificare",
+        "ph_input_encode": "<div>Salut & Bine ai venit<\/div>",
+        "btn_encode": "Codifică HTML",
+        "btn_clear": "Șterge",
+        "btn_copy": "Copiază",
+        "label_output_encode": "HTML Codificat",
+        "ph_output": "HTML-ul procesat va apărea aici...",
+        "label_input_decode": "Introdu HTML pentru Decodificare",
+        "label_output_decode": "HTML Decodificat",
+        "btn_decode": "Decodifică HTML"
+    },
+    "content": {
+        "hero_title": "Encoder și Decoder HTML Gratuit",
+        "hero_subtitle": "Codifică și decodifică entitățile HTML pentru a preveni atacurile XSS",
+        "p1": "Instrumentul nostru gratuit de Codificare și Decodificare HTML te ajută să codifici caracterele speciale în HTML pentru afișarea sigură pe paginile web, sau să decodifici HTML-ul codificat înapoi în formatul original. Perfect pentru dezvoltatori, profesioniști în securitate și oricine lucrează cu HTML brut.",
+        "what_title": "🔗 Ce este Codificarea HTML?",
+        "what_desc": "Codificarea HTML convertește caracterele care au o semnificație specială în HTML (cum ar fi <, >, &, \") în entitățile lor HTML corespunzătoare (cum ar fi &amp;lt;, &amp;gt;, &amp;amp;, &amp;quot;). Acest lucru împiedică browserul să le interpreteze ca etichete HTML, ceea ce este crucial pentru prevenirea atacurilor de tip Cross-Site Scripting (XSS).",
+        "features_title": "✨ Caracteristici",
+        "features": {
+            "fast": {
+                "title": "Conversie Instantanee",
+                "desc": "Codifică sau decodifică HTML-ul în milisecunde"
+            },
+            "bidirectional": {
+                "title": "Bidirecțional",
+                "desc": "Codifică caracterele speciale sau decodifică entitățile înapoi în text"
+            },
+            "privacy": {
+                "title": "Confidențialitate înainte de toate",
+                "desc": "Toată procesarea are loc în browserul tău"
+            },
+            "copy": {
+                "title": "Copiere la un singur clic",
+                "desc": "Copiază HTML-ul procesat în clipboard instantaneu"
+            },
+            "free": {
+                "title": "100% Gratuit",
+                "desc": "Fără limite, fără înregistrare necesară"
+            },
+            "safe": {
+                "title": "Concentrat pe Securitate",
+                "desc": "Ajută la prevenirea vulnerabilităților XSS"
+            }
+        },
+        "uses_title": "🎯 Cazuri Comune de Utilizare",
+        "uses": {
+            "security": {
+                "title": "🔒 Securitate",
+                "desc": "Sanitizează datele introduse de utilizator pentru a preveni atacurile XSS prin codificarea caracterelor speciale."
+            },
+            "display": {
+                "title": "💻 Afișare Cod",
+                "desc": "Afișează cod HTML brut pe o pagină web fără fragmentul să fie redat de browser."
+            },
+            "data": {
+                "title": "📊 Stocare Date",
+                "desc": "Stochează conținutul în siguranță în baze de date fără a-ți face griji cu privire la problemele de procesare HTML."
+            },
+            "email": {
+                "title": "📧 Șabloane E-mail",
+                "desc": "Asigură-te că caracterele speciale se randează corect în e-mailurile HTML."
+            }
+        },
+        "how_title": "📚 Cum se folosește",
+        "how_steps": {
+            "1": "Lipește HTML-ul sau textul în câmpul de introducere",
+            "2": "Fă clic pe butonul de procesare pentru a converti",
+            "3": "Copiază rezultatul în clipboard",
+            "4": "Copiați rezultatul codificat\/decodificat și utilizați-l în aplicațiile dvs. HTML, XML sau web."
+        },
+        "examples_title": "💡 Exemple de Codificare HTML",
+        "examples": {
+            "1": {
+                "title": "Ghilimele:",
+                "code": "\"Salut\" → &quot;Salut&quot;"
+            },
+            "2": {
+                "title": "Ampersand:",
+                "code": "Tom & Jerry → Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Codificarea caracterelor speciale",
+                "code": "&lt;script&gt;alertă(„XSS”)&lt;\/script&gt; → &amp;lt;script&amp;gt;alerta(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&amp;gt;"
+            }
+        },
+        "faq_title": "❓ Întrebări Frecvente",
+        "faq": {
+            "q1": "De ce trebuie să codific HTML-ul?",
+            "a1": "Codificarea este esențială pentru securitate, pentru a împiedica browserul să execute scripturi malițioase (XSS) și pentru a afișa corect fragmentele de cod.",
+            "q2": "Ce caractere sunt codificate?",
+            "a2": "Caracterele esențiale precum <, >, &, \", și ' sunt întotdeauna codificate. Caracterele ASCII extinse pot fi, de asemenea, codificate.",
+            "q3": "Este procesul reversibil?",
+            "a3": "Da, decodificarea inversează procesul exact, restabilind textul original."
+        }
+    },
+    "js": {
+        "error_empty": "Te rugăm să introduci HTML pentru procesare",
+        "success_encode": "✓ HTML codificat cu succes",
+        "success_decode": "✓ HTML decodificat cu succes",
+        "error_process": "✗ Eroare la procesarea HTML: ",
+        "error_no_copy": "Nu există rezultat de copiat",
+        "success_copy": "✓ Copiat în clipboard"
+    }
+}

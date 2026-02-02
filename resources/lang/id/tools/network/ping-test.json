@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Alat Uji Ping Online - Pemeriksa Latensi Jaringan Gratis",
+        "description": "Alat uji ping gratis untuk memeriksa latensi jaringan, kehilangan paket, dan jangkauan server. Uji konektivitas ke host atau alamat IP mana pun secara instan. Penting untuk pemecahan masalah jaringan.",
+        "h1": "Alat Tes Ping",
+        "subtitle": "Uji waktu respons server dan konektivitas jaringan dari berbagai lokasi"
+    },
+    "form": {
+        "host_label": "Host atau Alamat IP",
+        "host_placeholder": "google.com atau 8.8.8.8",
+        "button": "Tuan Rumah Ping"
+    },
+    "results": {
+        "title": "Hasil Ping"
+    },
+    "content": {
+        "what_is_title": "Apa itu Tes Ping?",
+        "what_is_desc": "Ping adalah alat diagnostik jaringan yang menguji jangkauan host pada jaringan Internet Protocol (IP). Ini mengukur waktu pulang pergi untuk pesan yang dikirim dari sumber ke komputer tujuan dan sebaliknya. Ping beroperasi dengan mengirimkan paket Permintaan Gema Internet Control Message Protocol (ICMP) ke host target dan menunggu Balasan Gema. Nama alat ini diambil dari suara ping sonar yang digunakan dalam deteksi kapal selam, karena alat ini juga mengirimkan sinyal dan mendengarkan respons.",
+        "why_use_title": "Mengapa Menggunakan Tes Ping?",
+        "why_use_desc": "Pengujian ping sangat penting untuk pemecahan masalah jaringan dan pemantauan kinerja. Administrator sistem menggunakan ping untuk memverifikasi konektivitas jaringan, mendiagnosis masalah koneksi, dan mengukur latensi jaringan. Ini membantu mengidentifikasi apakah server online dan responsif, mendeteksi kehilangan paket yang mungkin mengindikasikan kemacetan jaringan atau masalah perangkat keras, dan mengukur kualitas koneksi jaringan. Gamer menggunakan ping untuk memeriksa latensi server sebelum bergabung dengan game online, sementara pemilik situs web memantau respons server mereka untuk memastikan pengalaman pengguna yang optimal.",
+        "metrics_title": "Memahami Metrik Ping",
+        "metric1": "<strong>Paket Terkirim\/Diterima:<\/strong> Jumlah permintaan ping dan respons yang berhasil",
+        "metric2": "<strong>Paket Hilang:<\/strong> Persentase paket yang tidak menerima respons",
+        "metric3": "<strong>Waktu Minimum:<\/strong> Waktu pulang pergi tercepat yang pernah tercatat",
+        "metric4": "<strong>Waktu Rata-Rata:<\/strong> Rata-rata latensi di semua ping",
+        "metric5": "<strong>Waktu Maksimum:<\/strong> Waktu pulang pergi paling lambat yang tercatat",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Jumlah lompatan jaringan sebelum paket berakhir",
+        "interpreting_title": "Menafsirkan Hasil",
+        "interpreting_desc": "Waktu ping yang baik biasanya di bawah 50 ms untuk koneksi lokal dan di bawah 100 ms untuk koneksi internasional. Waktu antara 100-200 ms dapat diterima untuk sebagian besar aplikasi, namun dapat menyebabkan kelambatan nyata dalam aplikasi real-time seperti game atau konferensi video. Apa pun di atas 200 ms menunjukkan potensi masalah jaringan. Kehilangan paket di atas 1% menunjukkan adanya masalah jaringan yang perlu diselidiki. Waktu ping yang konsisten menunjukkan koneksi yang stabil, sementara waktu yang sangat bervariasi menunjukkan kemacetan jaringan atau masalah perutean."
+    },
+    "faq": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "q1": "Apa itu tes ping?",
+        "a1": "Tes ping mengirimkan paket data ke server dan mengukur waktu yang diperlukan untuk menerima respons. Ini digunakan untuk memeriksa konektivitas jaringan, mengukur latensi, dan mendiagnosis masalah koneksi.",
+        "q2": "Berapa waktu ping yang bagus?",
+        "a2": "Untuk penelusuran umum: di bawah 100 ms sudah bagus. Untuk bermain game: di bawah 50 md sangat ideal, di bawah 20 md sangat bagus. Untuk panggilan video: di bawah 150 ms dapat diterima. Ping yang lebih rendah berarti waktu respons yang lebih cepat.",
+        "q3": "Mengapa ping saya tinggi?",
+        "a3": "Ping yang tinggi dapat disebabkan oleh kemacetan jaringan, jarak ke server, sinyal WiFi yang buruk, pembatasan ISP, atau terlalu banyak perangkat di jaringan Anda. Coba gunakan koneksi kabel, tutup aplikasi yang membutuhkan banyak bandwidth, atau hubungi ISP Anda.",
+        "q4": "Apa yang dimaksud dengan \"Waktu permintaan habis\"?",
+        "a4": "Batas waktu permintaan habis berarti server tidak merespons dalam waktu yang diharapkan. Hal ini dapat mengindikasikan server sedang down, memblokir permintaan ping (firewall), atau ada masalah konektivitas jaringan.",
+        "q5": "Bisakah saya melakukan ping ke situs web mana pun?",
+        "a5": "Sebagian besar situs web dapat di-ping, tetapi beberapa server memblokir permintaan ping ICMP karena alasan keamanan. Jika ping gagal, situs web mungkin masih dapat diakses melalui browser - coba gunakan alat lain seperti traceroute atau pemeriksa port."
+    },
+    "js": {
+        "pinging": "Melakukan ping ke tuan rumah...",
+        "success": "Ping berhasil diselesaikan",
+        "error": "Ping gagal",
+        "ping_host": "Tuan Rumah Ping"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "title": "RGB to HEX Color Converter - Free Online Design Tool",
+        "description": "Convert colors between RGB and HEX formats instantly with our free online color converter tool.",
+        "h1": "RGB to HEX Color Converter",
+        "subtitle": "Convert colors between RGB and HEX formats instantly"
+    },
+    "editor": {
+        "rgb_to_hex": "RGB to HEX",
+        "label_red": "Red (0-255)",
+        "label_green": "Green (0-255)",
+        "label_blue": "Blue (0-255)",
+        "label_hex": "HEX Color",
+        "hex_to_rgb": "HEX to RGB",
+        "label_hex_input": "HEX Color",
+        "ph_hex": "#FF0000",
+        "label_rgb_output": "RGB Color"
+    },
+    "content": {
+        "p1": "Convert colors between RGB and HEX formats instantly with our free online color converter tool. Perfect for web designers, developers, graphic artists, and anyone working with digital colors.",
+        "formats_title": "Understanding Color Formats",
+        "formats": {
+            "rgb": {
+                "title": "RGB (Red, Green, Blue)",
+                "format": "Format",
+                "format_val": "rgb(red, green, blue)",
+                "range": "Range",
+                "range_val": "0-255 for each channel",
+                "used_in": "Commonly Used In",
+                "used_in_val": "Digital screens, monitors, TV"
+            },
+            "hex": {
+                "title": "HEX (Hexadecimal)",
+                "format": "Format",
+                "format_val": "#RRGGBB",
+                "range": "Range",
+                "range_val": "00-FF for each channel (hex)",
+                "used_in": "Commonly Used In",
+                "used_in_val": "Web design, CSS, HTML"
+            }
+        },
+        "why_title": "Why Convert Between RGB and HEX?",
+        "why_list": [
+            {
+                "title": "Web Standards",
+                "desc": "HEX is the most used format in CSS for defining website colors."
+            },
+            {
+                "title": "Universal Matching",
+                "desc": "Ensure consistent colors across different design tools and platforms."
+            },
+            {
+                "title": "Ease of Use",
+                "desc": "Quickly get HEX codes from RGB values for efficient styling."
+            }
+        ],
+        "how_work_title": "How Color Conversion Works",
+        "how_work_t1": "RGB to HEX",
+        "how_work_p1": "Each color channel (R, G, B) is converted from a 0-255 decimal to a 00-FF hexadecimal value.",
+        "how_work_t2": "HEX to RGB",
+        "how_work_p2": "The hex string is split into pairs and each pair is converted back to a 0-255 decimal value.",
+        "uses_title": "Common Use Cases",
+        "uses": {
+            "web": {
+                "title": "Web Development",
+                "desc": "Convert design mockup colors (RGB) to CSS-ready HEX codes for websites"
+            },
+            "graphic": {
+                "title": "Graphic Design",
+                "desc": "Match colors between Adobe Photoshop (RGB) and web design tools (HEX)"
+            },
+            "brand": {
+                "title": "Brand Guidelines",
+                "desc": "Document brand colors in both formats for print (RGB) and web (HEX)"
+            }
+        },
+        "practices_title": "Color Format Best Practices",
+        "practices_list": [
+            "Use HEX for compact CSS file sizes.",
+            "Use RGB (specifically RGBA) when you need opacity\/transparency.",
+            "Stick to one format within a single project for consistency."
+        ],
+        "pro_tip_title": "💡 Pro Tip",
+        "pro_tip_desc": "HEX shorthand: Colors like #FF0000 can be shortened to #F00 when each pair of digits is identical.",
+        "faq_title": "Frequently Asked Questions",
+        "faq": {
+            "q1": "What's the difference between RGB and HEX?",
+            "a1": "RGB uses decimal numbers (0-255) for each color channel, while HEX uses hexadecimal (00-FF).",
+            "q2": "Can I use RGB in CSS?",
+            "a2": "Yes! CSS supports both rgb(255, 0, 0) and #FF0000.",
+            "q3": "What does the # symbol mean in HEX codes?",
+            "a3": "The # symbol indicates that the following characters are a hexadecimal color code.",
+            "q4": "Are 3-digit and 6-digit HEX codes the same?",
+            "a4": "3-digit HEX codes are shorthand for 6-digit codes where each digit is doubled."
+        }
+    },
+    "js": {
+        "invalid_hex": "Invalid HEX"
+    }
+}

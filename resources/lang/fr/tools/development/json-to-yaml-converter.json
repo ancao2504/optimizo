@@ -1,0 +1,135 @@
+{
+    "meta": {
+        "title": "Convertisseur JSON en YAML - Outil d'objet en ligne gratuit",
+        "description": "Convertissez instantanément le format JSON en YAML avec notre convertisseur en ligne gratuit. Rapide, sécurisé et facile à utiliser.",
+        "h1": "Convertisseur JSON en YAML",
+        "subtitle": "Le meilleur convertisseur JSON en YAML pour les développeurs et les professionnels de l'informatique"
+    },
+    "content": {
+        "hero_title": "Convertisseur JSON en YAML",
+        "hero_subtitle": "Convertissez le format JSON en YAML instantanément et avec précision",
+        "p1": "Notre convertisseur JSON en YAML gratuit vous permet de transformer instantanément des données JSON au format YAML. Parfait pour les développeurs, les ingénieurs DevOps et tous ceux qui travaillent avec des fichiers de configuration ou la sérialisation de données.",
+        "what_title": "Qu'est-ce qu'un convertisseur JSON en YAML ?",
+        "what_desc": "JSON (JavaScript Object Notation) et YAML (YAML Ain't Markup Language) sont deux formats de sérialisation de données populaires. Le YAML est souvent préféré pour les fichiers de configuration en raison de sa syntaxe lisible par l'homme. Notre outil vous aide à faire le pont entre ces formats rapidement.",
+        "features_title": "Caractéristiques principales",
+        "features": {
+            "fast": {
+                "title": "Conversion rapide",
+                "desc": "Convertissez le JSON en YAML en quelques millisecondes"
+            },
+            "secure": {
+                "title": "Sécurisé et privé",
+                "desc": "Le traitement s'effectue entièrement dans votre navigateur"
+            },
+            "copy": {
+                "title": "Copie en un clic",
+                "desc": "Copiez instantanément le YAML converti"
+            },
+            "format": {
+                "title": "Formatage propre",
+                "desc": "Produit une sortie YAML bien indentée"
+            },
+            "free": {
+                "title": "100 % gratuit",
+                "desc": "Aucune inscription ou paiement requis"
+            },
+            "offline": {
+                "title": "Côté client",
+                "desc": "Fonctionne sans envoyer de données à un serveur"
+            }
+        },
+        "uses_title": "Cas d'utilisation courants",
+        "uses": {
+            "docker": {
+                "title": "Docker",
+                "desc": "Convertissez les configurations de conteneur JSON en YAML Docker Compose."
+            },
+            "config": {
+                "title": "Fichiers de configuration",
+                "desc": "Transformez les paramètres JSON en fichiers de configuration YAML."
+            },
+            "cicd": {
+                "title": "Pipelines CI\/CD",
+                "desc": "Préparez les définitions de pipeline YAML à partir de données JSON."
+            },
+            "cloud": {
+                "title": "Configurations de fournisseurs Cloud",
+                "desc": "Convertissez les données JSON au format YAML pour les plateformes cloud."
+            },
+            "data": {
+                "title": "Transformation de données",
+                "desc": "Basculez entre JSON et YAML pour différents outils de données."
+            },
+            "tools": {
+                "title": "Outils DevOps",
+                "desc": "Formatez les données correctement pour les outils qui attendent du YAML."
+            }
+        },
+        "how_title": "Comment utiliser",
+        "how_steps": {
+            "1": {
+                "title": "Coller le JSON",
+                "desc": "Entrez vos données JSON dans le champ de saisie."
+            },
+            "2": {
+                "title": "Convertir",
+                "desc": "Cliquez sur le bouton \"Convertir\" pour générer le YAML."
+            },
+            "3": {
+                "title": "Copier le YAML",
+                "desc": "Copiez le YAML résultant pour votre projet."
+            }
+        },
+        "samples_title": "Exemples de conversion",
+        "samples": [
+            {
+                "title": "Objet de base",
+                "json": "{ \"nom\": \"Antigravity\", \"version\": \"1.0\" }",
+                "yaml": "nom: Antigravity\nversion: 1.0"
+            },
+            {
+                "title": "Exemple de tableau",
+                "json": "[ \"Java\", \"Python\", \"Go\" ]",
+                "yaml": "- Java\n- Python\n- Go"
+            }
+        ],
+        "faq_title": "Foire aux questions",
+        "faq": {
+            "q1": "Est-ce gratuit ?",
+            "a1": "Oui, notre convertisseur JSON en YAML est 100 % gratuit.",
+            "q2": "Est-ce sécurisé ?",
+            "a2": "Oui, tout le traitement se fait localement dans votre navigateur.",
+            "q3": "Prend-il en charge les tableaux ?",
+            "a3": "Oui, il gère les structures JSON complexes, y compris les tableaux et les objets imbriqués.",
+            "q4": "Le YAML est-il meilleur que le JSON ?",
+            "a4": "Le YAML est souvent plus facile à lire et à écrire pour les humains, tandis que le JSON est généralement préférable pour le traitement par machine.",
+            "q5": "Puis-je l'utiliser hors ligne ?",
+            "a5": "Oui, une fois chargé, l'outil fonctionne hors ligne car il utilise du JavaScript local."
+        },
+        "tips_title": "Conseils de pro",
+        "tips_list": {
+            "1": "Assurez-vous que votre JSON est valide avant de le convertir.",
+            "2": "Utilisez le bouton \"Exemple\" pour voir comment fonctionne la conversion.",
+            "3": "Le YAML est sensible à la casse, tout comme le JSON.",
+            "4": "Vérifiez l'indentation dans le YAML résultant.",
+            "5": "Effacez facilement toutes les données pour un nouveau départ."
+        }
+    },
+    "editor": {
+        "btn_convert": "Convertir",
+        "btn_clear": "Effacer",
+        "btn_copy": "Copier le YAML",
+        "btn_example": "Exemple",
+        "label_input": "Entrée JSON",
+        "ph_input": "Collez vos données JSON ici...",
+        "label_output": "Sortie YAML",
+        "ph_output": "Le YAML converti apparaîtra ici..."
+    },
+    "js": {
+        "error_empty": "Veuillez entrer du texte JSON",
+        "success_convert": "✓ JSON converti en YAML avec succès !",
+        "error_convert": "Erreur lors de la conversion du JSON : ",
+        "error_no_copy": "Pas de YAML à copier. Veuillez d'abord convertir le JSON.",
+        "success_copy": "✓ YAML copié dans le presse-papiers !"
+    }
+}

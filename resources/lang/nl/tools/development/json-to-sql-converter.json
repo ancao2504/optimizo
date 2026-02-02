@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "JSON naar SQL Converter - Gratis online migratietool",
+        "description": "Transformeer JSON-gegevens onmiddellijk naar SQL INSERT-statements. Perfect voor database-seeding en gegevensmigratie.",
+        "h1": "JSON naar SQL-converter",
+        "subtitle": "Zet JSON-arrays en objecten om naar geldige SQL-scripts"
+    },
+    "editor": {
+        "label_tablename": "Tabelnaam",
+        "ph_tablename": "Voer tabelnaam in (bijv. users)",
+        "btn_convert": "SQL genereren",
+        "btn_clear": "Wissen",
+        "btn_copy": "SQL kopiëren",
+        "btn_example": "Voorbeeld laden",
+        "label_input": "JSON-invoer",
+        "ph_input": "Plak hier uw JSON-array...",
+        "label_output": "SQL-uitvoer",
+        "ph_output": "Gegenereerde SQL INSERT-statements verschijnen hier..."
+    },
+    "content": {
+        "hero_title": "Moeiteloze JSON naar SQL Conversie",
+        "hero_subtitle": "De snelste manier om database seeding scripts te genereren",
+        "p1": "Het omzetten van JSON-gegevens naar SQL INSERT-statements zou geen handmatige taak moeten zijn. Onze JSON naar SQL omzetter doet het zware werk door automatisch uw JSON-sleutels te koppelen aan databasekolommen en waarden te escapen voor een veilige invoer. Het is een essentieel hulpmiddel voor ontwikkelaars die werken aan gegevensmigraties, testen of database-initialisatie.",
+        "what_title": "Wanneer gebruikt u deze tool?",
+        "what_desc": "Als u een verzameling gegevens in JSON-formaat heeft - zoals een export uit een NoSQL-database of een API-respons - en u moet deze invoegen in een relationele database zoals MySQL, PostgreSQL of SQL Server, dan is deze tool voor u. Het formatteert elk object naar een schoon SQL-statement.",
+        "features_title": "Belangrijkste kenmerken",
+        "features": {
+            "fast": {
+                "title": "Directe generatie",
+                "desc": "Genereer honderden regels SQL in een oogwenk."
+            },
+            "private": {
+                "title": "Privacy gegarandeerd",
+                "desc": "Alle verwerking is lokaal. Uw gevoelige gegevens blijven in uw browser."
+            },
+            "copy": {
+                "title": "Export met één klik",
+                "desc": "Kopieer het volledige script of download het voor uw migraties."
+            },
+            "smart": {
+                "title": "Slim escapen",
+                "desc": "Verwerkt automatisch aanhalingstekens en speciale tekens in strings."
+            },
+            "free": {
+                "title": "100% gratis",
+                "desc": "Geen limieten, geen registratie, geen gedoe."
+            },
+            "db": {
+                "title": "Geschikt voor diverse DB's",
+                "desc": "Genereert standaard SQL die compatibel is met de meeste databasesystemen."
+            }
+        },
+        "uses_title": "Professionele gebruiksvoorbeelden",
+        "uses": {
+            "migration": {
+                "title": "Gegevensmigratie",
+                "desc": "Verplaats gegevens eenvoudig van JSON-gebaseerde systemen naar SQL-databases."
+            },
+            "import": {
+                "title": "Bulk-import",
+                "desc": "Laad snel grote hoeveelheden test- of productiegegevens."
+            },
+            "api": {
+                "title": "API naar database",
+                "desc": "Zet API-resultaten van derden direct om in SQL-inserts."
+            },
+            "test": {
+                "title": "Testgegeven-seeding",
+                "desc": "Maak SQL-scripts voor het vullen van ontwikkelomgevingen."
+            },
+            "backup": {
+                "title": "Back-up herstel",
+                "desc": "Zet JSON-back-ups terug in functionele SQL-scripts."
+            },
+            "dev": {
+                "title": "Snel prototypen",
+                "desc": "Vul snel nieuwe databasetabellen tijdens de ontwikkeling."
+            }
+        },
+        "how_title": "Hoe te gebruiken",
+        "how_steps": [
+            "Voer de doeldatabase <strong>Tabelnaam<\/strong> in",
+            "Plak uw <strong>JSON<\/strong> (moet een array of object zijn)",
+            "Klik op <strong>SQL genereren<\/strong> om het script te maken",
+            "<strong>Kopieer<\/strong> de SQL-uitvoer naar uw klembord"
+        ],
+        "faq_title": "Veelgestelde vragen",
+        "faq": {
+            "q1": "Welk JSON-formaat is vereist?",
+            "a1": "De tool werkt het beste met een array van objecten, waarbij elk object een databaserij vertegenwoordigt.",
+            "q2": "Ondersteunt het geneste objecten?",
+            "a2": "Het koppelt momenteel sleutels op het hoogste niveau. Geneste objecten worden meestal als string opgeslagen of overgeslagen, afhankelijk van uw DB-behoeften.",
+            "q3": "Is er een limiet op het aantal rijen?",
+            "a3": "Er is geen harde limiet, hoewel de prestaties van uw browser kunnen variëren bij duizenden rijen."
+        },
+        "tips_title": "Pro-tips",
+        "tips_list": [
+            "Zorg ervoor dat uw JSON-sleutels exact overeenkomen met uw SQL-kolomnamen.",
+            "Controleer altijd de gegenereerde SQL voordat u deze uitvoert op een productie-database.",
+            "Gebruik de knop \"Voorbeeld\" om de verwachte JSON-structuur te zien."
+        ]
+    },
+    "js": {
+        "error_empty": "Voer JSON-gegevens en een tabelnaam in",
+        "success_convert": "✓ SQL succesvol gegenereerd!",
+        "error_convert": "Fout bij het genereren van SQL: ",
+        "error_no_copy": "Geen SQL om te kopiëren. Genereer eerst SQL.",
+        "success_copy": "✓ SQL gekopieerd naar klembord!"
+    }
+}

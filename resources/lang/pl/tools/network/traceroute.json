@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online — bezpłatne narzędzie do analizy sieci",
+        "description": "Darmowe narzędzie online traceroute. Śledź trasę pakietów w sieci. Szybkie, bezpieczne i łatwe w użyciu.",
+        "h1": "Tracerout",
+        "subtitle": "Najlepsze narzędzie traceroute dla deweloperów i specjalistów IT"
+    },
+    "form": {
+        "host_label": "Adres hosta lub IP",
+        "host_placeholder": "google.com lub 8.8.8.8",
+        "button": "Uruchom Traceroute",
+        "button_loading": "Trwa śledzenie..."
+    },
+    "results": {
+        "title": "Wyniki Traceroute"
+    },
+    "content": {
+        "what_is_title": "Czym jest Traceroute?",
+        "what_is_desc": "Traceroute to narzędzie diagnostyczne sieci służące do wyświetlania ścieżki (trasy) oraz pomiaru opóźnień pakietów przesyłanych przez sieć protokołu internetowego (IP). Pokazuje ono każdy „skok” (hop) – czyli routery lub serwery, przez które przechodzą dane, zanim dotrą do miejsca docelowego.",
+        "why_use_title": "Dlaczego warto używać Traceroute?",
+        "why_use_desc": "Traceroute pomaga zidentyfikować, gdzie w sieci występują opóźnienia lub przerwy w połączeniu. Jeśli Twoja strona działa wolno lub jest nieosiągalna, traceroute pokaże, czy problem leży w Twojej sieci lokalnej, u dostawcy Internetu, czy gdzieś dalej w globalnej sieci.",
+        "hops_title": "Zrozumienie wyników (skoków)",
+        "hop1": "<strong>Numer skoku:<\/strong> Kolejność węzła na trasie do celu.",
+        "hop2": "<strong>Adres IP\/Host:<\/strong> Adres routera lub serwera w danym punkcie.",
+        "hop3": "<strong>Czasy odpowiedzi (RTT):<\/strong> Pomiary czasu (zazwyczaj trzy), jakie zajęło pakietowi dotarcie do węzła i z powrotem.",
+        "hop4": "<strong>Gwiazdki (*):<\/strong> Oznaczają brak odpowiedzi od węzła (często ze względów bezpieczeństwa).",
+        "hop5": "<strong>Opóźnienie:<\/strong> Skoki czasu między konkretnymi węzłami wskazują na wąskie gardła w sieci.",
+        "hop6": "<strong>Cel:<\/strong> Ostatni wpis na liście to Twój serwer docelowy.",
+        "issues_title": "Typowe problemy sieciowe",
+        "issues_desc": "Wysokie czasy odpowiedzi w początkowych skokach zazwyczaj wskazują na problemy z siecią lokalną lub Wi-Fi. Jeśli opóźnienia rosną nagle w środku trasy, problem prawdopodobnie dotyczy jednego z dostawców tranzytowych. Brak odpowiedzi (timeout) w ostatnim skoku przy jednoczesnym działaniu usługi może oznaczać, że serwer docelowy blokuje pakiety diagnostyczne."
+    },
+    "faq": {
+        "title": "Często zadawane pytania",
+        "q1": "Czym różni się Traceroute od Ping?",
+        "a1": "Ping sprawdza jedynie, czy cel jest osiągalny i jak szybko odpowiada. Traceroute pokazuje całą drogę i każdy router pośredniczący.",
+        "q2": "Dlaczego widzę gwiazdki (*) w wynikach?",
+        "a2": "Gwiazdki oznaczają, że router nie odpowiedział w określonym czasie. Wiele routerów w Internecie ignoruje pakiety traceroute, aby chronić się przed przeciążeniem lub atakami.",
+        "q3": "Ile skoków jest normalne?",
+        "a3": "Zazwyczaj połączenia w Internecie wymagają od 10 do 20 skoków. Wszystko powyżej 30 skoków jest uważane za trasę bardzo długą lub zapętloną."
+    }
+}

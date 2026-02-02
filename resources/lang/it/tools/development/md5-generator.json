@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "Generatore di hash MD5: strumento di sicurezza online gratuito",
+        "description": "Genera istantaneamente hash MD5 da qualsiasi testo con il nostro strumento online gratuito. Veloce e sicuro.",
+        "h1": "Generatore di hash MD5",
+        "subtitle": "Genera hash MD5 da qualsiasi testo all'istante"
+    },
+    "editor": {
+        "label_input": "Inserisci Testo",
+        "ph_input": "Inserisci il testo da convertire in hash...",
+        "btn_generate": "Genera Hash MD5",
+        "label_result": "Hash MD5",
+        "btn_copy": "Copia"
+    },
+    "content": {
+        "hero_title": "Generatore di Hash MD5",
+        "hero_subtitle": "Genera hash MD5 da qualsiasi testo all'istante",
+        "p1": "Genera hash MD5 da qualsiasi testo, password o stringa di dati all'istante con il nostro generatore di hash MD5 online gratuito. L'MD5 (Message-Digest Algorithm 5) è una funzione di hash crittografica ampiamente utilizzata che produce un valore hash a 128 bit (32 caratteri esadecimali). Perfetto per la verifica dell'integrità dei dati, la generazione di checksum e la comprensione delle funzioni di hash. Tutta l'elaborazione avviene nel tuo browser per una privacy completa.",
+        "what_title": "🔐 Cos'è l'MD5?",
+        "what_desc": "L'MD5 è una funzione di hash crittografica che prende un input di qualsiasi lunghezza e produce un valore hash fisso a 128 bit, tipicamente rappresentato come un numero esadecimale di 32 caratteri. Lo stesso input produce sempre lo stesso hash, ma anche un piccolo cambiamento nell'input crea un hash completamente diverso.",
+        "features_title": "✅ Vantaggi dell'MD5",
+        "features": {
+            "fast": "<strong>Elaborazione Rapida:<\/strong> Generazione di hash estremamente veloce",
+            "fixed": "<strong>Lunghezza Fissa:<\/strong> Produce sempre un output a 128 bit",
+            "deterministic": "<strong>Deterministico:<\/strong> Stesso input = stesso hash",
+            "support": "<strong>Ampio Supporto:<\/strong> Disponibile in tutti i linguaggi di programmazione"
+        },
+        "uses_title": "📊 Casi d'Uso Comuni",
+        "uses": {
+            "verify": "<strong>Verifica File:<\/strong> Controlla l'integrità dei file",
+            "checksum": "<strong>Checksum:<\/strong> Verifica i download",
+            "cache": "<strong>Chiavi Cache:<\/strong> Genera identificatori unici",
+            "integrity": "<strong>Integrità Dati:<\/strong> Rileva le modifiche"
+        },
+        "warning_title": "⚠️ Avviso di Sicurezza",
+        "warning_desc": "<strong>NON utilizzare l'MD5 per l'hashing delle password o applicazioni critiche per la sicurezza!<\/strong> L'MD5 è crittograficamente compromesso e vulnerabile agli attacchi di collisione. Per l'hashing delle password, utilizza algoritmi moderni come bcrypt, Argon2 o PBKDF2.",
+        "compare_title": "🔄 MD5 rispetto ad altre funzioni di hash",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "Output a 128 bit",
+                "desc2": "Veloce ma insicuro per la crittografia"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "Output a 160 bit",
+                "desc2": "Anch'esso deprecato per l'uso in sicurezza"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "Output a 256 bit",
+                "desc2": "Sicuro e ampiamente utilizzato oggi"
+            }
+        },
+        "faq_title": "❓ Domande Frequenti",
+        "faq": {
+            "q1": "L'MD5 è sicuro per le password?",
+            "a1": "No! L'MD5 è crittograficamente compromesso e non dovrebbe mai essere usato per l'hashing delle password. Usa invece bcrypt, Argon2 o PBKDF2.",
+            "q2": "Posso invertire un hash MD5?",
+            "a2": "No, l'MD5 è una funzione a senso unico: non puoi invertire un hash per ottenere l'input originale. Tuttavia, gli aggressori possono utilizzare le rainbow table per trovare gli input.",
+            "q3": "I miei dati vengono inviati a un server?",
+            "a3": "No! Tutta la generazione dell'hash MD5 avviene interamente nel tuo browser utilizzando JavaScript. I tuoi dati non lasciano mai il tuo dispositivo."
+        }
+    },
+    "js": {
+        "error_empty": "Inserisci del testo",
+        "btn_copied": "Copiato!"
+    }
+}

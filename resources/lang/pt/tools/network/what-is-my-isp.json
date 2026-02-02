@@ -1,0 +1,67 @@
+{
+    "meta": {
+        "title": "Qual é o meu ISP? - Verificador de provedor on-line gratuito",
+        "description": "Descubra qual é o seu Provedor de Serviços de Internet (ISP) instantaneamente. Verifique o nome do provedor, organização, ASN e informações do endereço IP gratuitamente.",
+        "h1": "Qual é o meu ISP?",
+        "subtitle": "Identifique seu Provedor de Serviços de Internet com detalhes da conexão"
+    },
+    "content": {
+        "loading": "Carregando informações do provedor...",
+        "your_isp_title": "Seu Provedor de Serviços de Internet",
+        "network_label": "Rede",
+        "location_label": "Localização",
+        "main_title": "Qual É O Meu Provedor - Ferramenta de Consulta de ISP",
+        "main_desc": "Identifique instantaneamente seu Provedor de Serviços de Internet (ISP), nome da organização, detalhes da rede e informações da conexão. Nossa ferramenta gratuita de consulta de ISP revela o nome do seu provedor, ASN (Número de Sistema Autônomo), endereço IP, localização e infraestrutura de rede. Perfeito para verificar conexões VPN, diagnosticar problemas de rede, confirmar linhas de internet empresariais e entender o roteamento da sua rede.",
+        "info_title": "Que informações você pode encontrar?",
+        "info1": "<strong>Nome do Provedor:<\/strong> A empresa que fornece sua conexão de internet",
+        "info2": "<strong>Organização:<\/strong> A organização ou entidade que gerencia sua conexão de rede",
+        "info3": "<strong>ASN:<\/strong> Identificador único de rede para roteamento e peering",
+        "info4": "<strong>Localização:<\/strong> Cidade, região e país associados à sua conexão",
+        "info5": "<strong>Detalhes da Rede:<\/strong> Faixa de IP, informações de sub-rede e dados de infraestrutura de rede",
+        "why_use_title": "Por que usar esta ferramenta?",
+        "why_use1": "Verificar se você está conectado através do provedor de internet correto",
+        "why_use2": "Solucionar problemas de conectividade e desempenho de rede",
+        "why_use3": "Verificar se você está usando um serviço de VPN ou proxy corretamente",
+        "why_use4": "Identificar sua rede para fins de segurança e privacidade",
+        "why_use5": "Validar alegações do provedor sobre cobertura de serviço e infraestrutura",
+        "why_use6": "Pesquisar roteamento de rede e relações de peering",
+        "why_use7": "Confirmar conexões de internet empresariais e linhas dedicadas",
+        "why_use8": "Detectar acesso não autorizado à rede ou sequestro de conexão",
+        "asn_title": "Entendendo ASN (Número de Sistema Autônomo)",
+        "asn_desc": "An Autonomous System Number (ASN) is a globally unique identifier assigned to a network or group of networks under a single administrative control. ISPs, large organizations, and content delivery networks each have their own ASN. This number is used in BGP (Border Gateway Protocol) routing to determine how internet traffic flows between different networks. Knowing your ASN helps identify your network provider and understand routing paths.",
+        "use_cases_title": "Casos de Uso Comuns",
+        "use_case1_title": "🔧 Solução de Problemas de Rede",
+        "use_case1_desc": "Identifique problemas relacionados ao provedor, verifique caminhos de roteamento e diagnostique problemas de conexão",
+        "use_case2_title": "🔒 Verificação de VPN",
+        "use_case2_desc": "Confirme se sua VPN está funcionando verificando se o provedor muda ao conectar",
+        "use_case3_title": "🛡️ Auditorias de Segurança",
+        "use_case3_desc": "Verifique a autenticidade da conexão e detecte acessos não autorizados à rede",
+        "use_case4_title": "💼 Verificação Empresarial",
+        "use_case4_desc": "Confirme linhas empresariais dedicadas e conexões de internet corporativas",
+        "isp_types_title": "Tipos de Provedores (ISPs)",
+        "isp_type1": "<strong>Provedores DSL:<\/strong> Internet através de linhas telefônicas (ADSL, VDSL)",
+        "isp_type2": "<strong>Provedores de Cabo:<\/strong> Internet de alta velocidade via infraestrutura de cabo coaxial",
+        "isp_type3": "<strong>Provedores de Fibra Óptica:<\/strong> Conexões ultra-rápidas usando cabos de fibra óptica",
+        "isp_type4": "<strong>Provedores Sem Fio\/Móveis:<\/strong> Conexões de internet celular 4G\/5G",
+        "isp_type5": "<strong>Provedores via Satélite:<\/strong> Internet via satélite para áreas remotas",
+        "isp_type6": "<strong>Provedores Empresariais:<\/strong> Conexões dedicadas de nível corporativo com acordos de nível de serviço (SLAs)",
+        "privacy_note_title": "Nota de Privacidade",
+        "privacy_note_desc": "Seu provedor pode ver todo o tráfego de internet não criptografado e os sites que você visita (mas não o conteúdo HTTPS). Eles podem registrar dados de conexão, histórico de navegação e consultas DNS. Use uma VPN para criptografar seu tráfego e evitar o monitoramento do provedor. Nossa ferramenta exibe apenas informações publicamente disponíveis que os sites já podem ver."
+    },
+    "results": {
+        "ip_address": "Endereço IP",
+        "asn": "ASN"
+    },
+    "faq": {
+        "title": "Perguntas Frequentes",
+        "q1": "Como saber se estou usando uma VPN?",
+        "a1": "Se o nome do provedor exibido nesta ferramenta for diferente do seu provedor de internet real, ou se mostrar o nome de uma empresa de VPN, então você está conectado através de uma VPN.",
+        "q2": "O que é um 'Host' ou 'Hostname'?",
+        "a2": "É o nome atribuído ao seu endereço IP na rede do seu provedor, geralmente contendo informações sobre a sua região e o tipo de conexão.",
+        "q3": "Meu provedor pode ver quais sites eu visito?",
+        "a3": "Sim, a menos que você use uma VPN ou serviços como DNS sobre HTTPS, seu provedor pode ver os domínios que você acessa."
+    },
+    "js": {
+        "error_loading": "Erro ao carregar informações do provedor"
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": "Convertisseur XML en CSV - Extracteur de données en ligne gratuit",
+        "description": "Outil gratuit de conversion de XML en CSV en ligne. Rapide, sécurisé et facile à utiliser.",
+        "h1": "Convertisseur XML en CSV",
+        "subtitle": "Le meilleur convertisseur XML en CSV pour les développeurs et les professionnels de l'informatique"
+    },
+    "editor": {
+        "btn_convert": "Convertir en CSV",
+        "btn_clear": "Effacer",
+        "btn_copy": "Copier",
+        "btn_example": "Exemple",
+        "label_input": "Entrez le XML",
+        "ph_input": "<data><row><nom>Jean<\/nom><age>30<\/age><\/row><\/data>",
+        "label_output": "Sortie CSV",
+        "ph_output": "le CSV converti apparaîtra ici..."
+    },
+    "content": {
+        "p1": "Notre convertisseur XML en CSV gratuit transforme les données XML structurées en format de valeurs séparées par des virgules. Parfait pour importer des données XML dans Excel, Google Sheets, des bases de données et des outils d'analyse de données. Convertissez des structures XML complexes en format CSV tabulaire simple en quelques secondes.",
+        "what_title": "Qu'est-ce que la conversion XML en CSV ?",
+        "what_desc": "La conversion XML en CSV transforme les données structurées du langage de balisage extensible (XML) en format de valeurs séparées par des virgules (CSV). Alors que le XML est excellent pour les structures de données complexes et les API, le CSV est plus simple et universellement pris en charge par les applications de tableur, ce qui le rend idéal pour l'analyse de données, le reporting et les opérations d'import\/export.",
+        "features_title": "Caractéristiques",
+        "features": {
+            "fast": {
+                "title": "Ultra rapide",
+                "desc": "Convertissez le XML en CSV instantanément grâce à une analyse optimisée"
+            },
+            "secure": {
+                "title": "100 % sécurisé",
+                "desc": "Tout le traitement se fait localement - vos données restent privées"
+            },
+            "copy": {
+                "title": "Copie rapide",
+                "desc": "Copiez la sortie CSV dans le presse-papiers en un clic"
+            },
+            "smart": {
+                "title": "Analyse intelligente",
+                "desc": "Extrait automatiquement les données des éléments de ligne XML"
+            },
+            "free": {
+                "title": "Complètement gratuit",
+                "desc": "Aucune limite, aucune inscription, gratuit pour toujours"
+            },
+            "excel": {
+                "title": "Prêt pour Excel",
+                "desc": "La sortie fonctionne parfaitement dans Excel et Google Sheets"
+            }
+        },
+        "uses_title": "Cas d'utilisation courants",
+        "uses": {
+            "analysis": {
+                "title": "Analyse de données",
+                "desc": "Convertissez les rapports XML et les exports de données en CSV pour analyse dans Excel, Google Sheets ou des outils de BI."
+            },
+            "migration": {
+                "title": "Migration de système",
+                "desc": "Transformez les données XML des systèmes hérités en CSV pour les importer dans des bases de données et des applications modernes."
+            },
+            "reporting": {
+                "title": "Reporting",
+                "desc": "Convertissez les réponses d'API XML en CSV pour créer des rapports et des tableaux de bord."
+            },
+            "db": {
+                "title": "Importation de base de données",
+                "desc": "Transformez les exports XML en CSV pour une importation en masse dans des bases de données SQL."
+            },
+            "email": {
+                "title": "Listes d'e-mails",
+                "desc": "Convertissez les données de contact XML en CSV pour les plateformes de marketing par e-mail."
+            },
+            "cleaning": {
+                "title": "Nettoyage de données",
+                "desc": "Transformez le XML en CSV pour faciliter le nettoyage et la manipulation des données dans les tableurs."
+            }
+        },
+        "how_to_title": "Comment convertir le XML en CSV",
+        "how_to": {
+            "step1": {
+                "title": "Coller vos données XML",
+                "desc": "Copiez les données XML de votre source et collez-les dans le champ de saisie de gauche."
+            },
+            "step2": {
+                "title": "Cliquer sur Convertir",
+                "desc": "Appuyez sur \"Convertir en CSV\" pour transformer votre XML au format CSV."
+            },
+            "step3": {
+                "title": "Copier et utiliser",
+                "desc": "La sortie CSV apparaît à droite. Cliquez sur \"Copier\" pour la coller dans Excel ou n'importe quelle application."
+            }
+        },
+        "example_title": "Exemple de conversion",
+        "faq_title": "Foire aux questions",
+        "faq": {
+            "q1": "Ce convertisseur est-il gratuit ?",
+            "a1": "Oui, notre convertisseur XML en CSV est totalement gratuit.",
+            "q2": "Mes données sont-elles en sécurité ?",
+            "a2": "Oui, tout le traitement se fait dans votre navigateur. Vos données ne sont jamais envoyées à nos serveurs.",
+            "q3": "Prend-il en charge les gros fichiers XML ?",
+            "a3": "Oui, il peut gérer des fichiers XML volumineux, bien que les fichiers très gros puissent prendre un moment pour être traités.",
+            "q4": "Comment sont gérés les attributs ?",
+            "a4": "Actuellement, l'outil se concentre sur le contenu des balises. Les attributs pourront être inclus dans de futures mises à jour."
+        },
+        "best_practices_title": "Bonnes pratiques",
+        "best_practices": [
+            {
+                "title": "XML bien formé",
+                "desc": "Assurez-vous que votre XML est bien formé et contient des éléments <row> répétitifs pour de meilleurs résultats."
+            },
+            {
+                "title": "Côté navigateur",
+                "desc": "Comme il s'exécute dans votre navigateur, vos données restent privées et sécurisées."
+            },
+            {
+                "title": "Sauvegarde des données",
+                "desc": "Gardez toujours une sauvegarde de vos données XML d'origine avant la conversion."
+            }
+        ]
+    },
+    "js": {
+        "error_empty": "Veuillez entrer des données XML",
+        "error_no_row": "Aucun élément <row> trouvé dans le XML",
+        "success_convert": "✓ XML converti en CSV avec succès",
+        "error_process": "✗ Erreur : ",
+        "error_no_copy": "Pas de sortie à copier",
+        "success_copy": "✓ Copié dans le presse-papiers !"
+    }
+}

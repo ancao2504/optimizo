@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "MD5 Hash Generator - Gratis online sikkerhetsverktøy",
+        "description": "Generer MD5-hasher fra hvilken som helst tekst umiddelbart",
+        "h1": "MD5 Hash Generator",
+        "subtitle": "Generer MD5-hasher fra hvilken som helst tekst umiddelbart"
+    },
+    "editor": {
+        "label_input": "Skriv inn tekst",
+        "ph_input": "Skriv inn tekst til hash...",
+        "btn_generate": "Generer MD5-hasj",
+        "label_result": "MD5-hasj",
+        "btn_copy": "Kopier"
+    },
+    "content": {
+        "hero_title": "MD5 Hash Generator",
+        "hero_subtitle": "Generer MD5-hasher fra hvilken som helst tekst umiddelbart",
+        "p1": "Generer MD5-hasher fra hvilken som helst tekst, passord eller datastreng umiddelbart med vår gratis online MD5-hashgenerator. MD5 (Message-Digest Algorithm 5) er en mye brukt kryptografisk hash-funksjon som produserer en 128-biters (32-tegn heksadesimal) hashverdi. Perfekt for verifisering av dataintegritet, generering av sjekksum og forståelse av hash-funksjoner. All behandling skjer i nettleseren din for fullstendig personvern.",
+        "what_title": "🔒 Hva er MD5?",
+        "what_desc": "MD5 er en kryptografisk hash-funksjon som tar inn en hvilken som helst lengde og produserer en fast 128-bits hash-verdi, typisk representert som et 32-tegns heksadesimalt tall. Den samme inngangen produserer alltid samme hash, men selv en liten endring i input skaper en helt annen hash.",
+        "features_title": "âœ... MD5 Fordeler",
+        "features": {
+            "fast": "<strong>Rask behandling:<\/strong> Ekstremt rask hashgenerering",
+            "fixed": "<strong>Fast lengde:<\/strong> Gir alltid 128-bits utdata",
+            "deterministic": "<strong>Deterministisk:<\/strong> Samme inndata = samme hash",
+            "support": "<strong>Bred støtte:<\/strong> Tilgjengelig på alle programmeringsspråk"
+        },
+        "uses_title": "📊 Vanlige brukstilfeller",
+        "uses": {
+            "verify": "<strong>Filbekreftelse:<\/strong> Sjekk filens integritet",
+            "checksum": "<strong>Sjekksummer:<\/strong> Bekreft nedlastinger",
+            "cache": "<strong>Buffernøkler:<\/strong> Generer unike identifikatorer",
+            "integrity": "<strong>Dataintegritet:<\/strong> Oppdag endringer"
+        },
+        "warning_title": "âš ï¸ Sikkerhetsadvarsel",
+        "warning_desc": "<strong>IKKE bruk MD5 til passordhashing eller sikkerhetskritiske applikasjoner!<\/strong> MD5 er kryptografisk ødelagt og sårbar for kollisjonsangrep. For passordhashing, bruk moderne algoritmer som bcrypt, Argon2 eller PBKDF2.",
+        "compare_title": "ðŸ”„ MD5 vs andre hasjfunksjoner",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128-bits utgang",
+                "desc2": "Rask, men usikker for kryptografi"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160-bits utgang",
+                "desc2": "Også avviklet for sikkerhetsbruk"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256-bits utgang",
+                "desc2": "Sikker og mye brukt i dag"
+            }
+        },
+        "faq_title": "â“ Vanlige spørsmål",
+        "faq": {
+            "q1": "Er MD5 sikker for passord?",
+            "a1": "Ingen! MD5 er kryptografisk ødelagt og bør aldri brukes til passordhashing. Bruk bcrypt, Argon2 eller PBKDF2 i stedet.",
+            "q2": "Kan jeg reversere en MD5-hash?",
+            "a2": "Nei, MD5 er en enveisfunksjon - du kan ikke reversere en hash for å få den originale inngangen. Angripere kan imidlertid bruke regnbuetabeller for å finne innspill.",
+            "q3": "Sendes dataene mine til en server?",
+            "a3": "Ingen! All MD5-hash-generering skjer utelukkende i nettleseren din ved å bruke JavaScript. Dataene dine forlater aldri enheten din."
+        }
+    },
+    "js": {
+        "error_empty": "Skriv inn litt tekst",
+        "btn_copied": "Kopiert!"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - Gratis JSON Web Token Debugger",
+        "description": "Afkod og inspicer JSON Web Tokens (JWT) - Se header, payload og signatur!",
+        "h1": "JWT dekoder",
+        "subtitle": "Afkod og inspicer JSON Web Tokens (JWT) - Se header, payload og signatur!"
+    },
+    "editor": {
+        "label_input": "Indtast JWT Token",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Afkod JWT",
+        "btn_clear": "Ryd",
+        "btn_example": "Eksempel",
+        "label_payload": "Nyttelast (krav)",
+        "label_signature": "Signatur",
+        "note_signature": "⚠️ Bemærk: Signaturverifikation kræver den hemmelige nøgle"
+    },
+    "content": {
+        "hero_title": "Gratis JWT Afkoder Online",
+        "hero_subtitle": "Afkod og inspicer JSON Web Tokens øjeblikkeligt",
+        "p1": "Vores gratis JWT Afkoder værktøj giver dig mulighed for at afkode og inspicere JSON Web Tokens (JWT) for at se deres header, payload og signaturkomponenter. Perfekt til fejlfinding af autentificeringsproblemer, forståelse af tokenstruktur og validering af JWT-claims.",
+        "what_title": "🔍 Hvad er JWT?",
+        "what_desc": "JSON Web Token (JWT) er en kompact, URL-sikker måde at repræsentere claims mellem to parter. JWT'er består af tre dele: Header (algoritme og tokentype), Payload (claims\/data), og Signatur (verifikation), adskilt af punktummer.",
+        "features_title": "✨ Funktioner",
+        "features": {
+            "instant": {
+                "title": "Øjeblikkelig afkodning",
+                "desc": "Afkod JWT'er i millisekunder"
+            },
+            "structured": {
+                "title": "Struktureret Visning",
+                "desc": "Se header, payload og signatur separat"
+            },
+            "privacy": {
+                "title": "Privatliv Først",
+                "desc": "Al afkodning sker i din browser"
+            }
+        },
+        "uses_title": "🎯 Almindelige Anvendelser",
+        "uses": {
+            "debug": {
+                "title": "🐛 Fejlfinding",
+                "desc": "Fejlfind autentificeringsproblemer ved at inspicere JWT-indhold"
+            },
+            "validate": {
+                "title": "✅ Validering",
+                "desc": "Verificer JWT-claims og udløbstider"
+            },
+            "learn": {
+                "title": "📚 Læring",
+                "desc": "Forstå JWT-struktur og komponenter"
+            },
+            "dev": {
+                "title": "🔧 Udvikling",
+                "desc": "Test JWT-generering og parsing i dine applikationer"
+            }
+        },
+        "faq_title": "❓ Ofte Stillede Spørgsmål",
+        "faq": {
+            "q1": "Er det sikkert at afkode JWT'er her?",
+            "a1": "Ja! Al afkodning sker i din browser. Din JWT forlader aldrig din enhed. Del dog aldrig JWT'er offentligt, da de kan indeholde følsomme oplysninger.",
+            "q2": "Kan dette værktøj verificere JWT-signaturer?",
+            "a2": "Dette værktøj afkoder og viser JWT-komponenter, men verificerer ikke signaturer, da det kræver den hemmelige nøgle, som aldrig bør deles.",
+            "q3": "Hvad er JWT-claims?",
+            "a3": "Claims er erklæringer om en entitet (typisk brugeren) og yderligere data. Almindelige claims inkluderer 'sub' (emne), 'exp' (udløb) og 'iat' (udstedt kl.)."
+        }
+    },
+    "js": {
+        "error_empty": "Indtast venligst en JWT token",
+        "error_invalid_format": "Ugyldig JWT-format. JWT skal have 3 dele adskilt af punktummer.",
+        "success_decode": "✓ JWT afkodet succesfuldt",
+        "error_decode": "✗ Fejl ved afkodning af JWT: "
+    }
+}

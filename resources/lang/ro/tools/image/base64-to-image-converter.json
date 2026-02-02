@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Decode Base64 to Image - Decodor online gratuit",
+        "description": "Convertește șirurile de caractere codificate Base64 înapoi în imagini (PNG, JPG, GIF). Decodificator și vizualizator online gratuit.",
+        "h1": "Decodați Base64 în imagine",
+        "subtitle": "Transformă șirurile Base64 înapoi în fișiere imagine (PNG, JPG, GIF) instantaneu"
+    },
+    "input": {
+        "title": "Lipește Șirul Base64",
+        "desc": "Lipește codul mai jos pentru a vizualiza imaginea",
+        "placeholder": "date:image\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Decodifică Imaginea"
+    },
+    "result": {
+        "image_alt": "Imagine Decodificată",
+        "success": "Imagine Decodificată cu Succes",
+        "btn_download": "Descarcă Imaginea",
+        "btn_clear": "Șterge Tot"
+    },
+    "content": {
+        "title": "Decodifică Base64 în Imagine",
+        "p1": "Ai găsit un șir lung de caractere aleatorii care începe cu <code>data:image\/...<\/code> și nu știi ce este? Cel mai probabil este o imagine codificată în Base64.",
+        "p2": "<strong>Decodificatorul nostru Base64 în Imagine<\/strong> transformă acel text înapoi într-un fișier imagine vizibil (PNG, JPG, GIF etc.) pe care îl poți vedea și descărca pe computerul tău.",
+        "features": {
+            "preview": {
+                "title": "Previzualizare Instantanee",
+                "desc": "Vezi imaginea imediat. Parsăm datele binare și le redăm direct pe ecran."
+            },
+            "auto": {
+                "title": "Detecție Automată",
+                "desc": "Detectăm automat formatul fișierului (PNG, JPEG, GIF) din antetul șirului Base64."
+            },
+            "download": {
+                "title": "Descarcă Fișierul",
+                "desc": "Salvează rezultatul decodificat ca un fișier imagine real pe hard disk cu un singur clic."
+            }
+        },
+        "how_to": {
+            "title": "Cum se decodifică?",
+            "list": [
+                "Lipește șirul Base64 în zona de text.",
+                "Sistemul va încerca instantaneu să citească codul.",
+                "Dacă este valid, imaginea va apărea în partea stângă.",
+                "Apasă pe \"Descarcă Imaginea\" pentru a o salva."
+            ]
+        },
+        "use_cases": {
+            "title": "Cazuri de utilizare comune",
+            "list": [
+                "Debugging: Verificarea datelor de imagine trimise în răspunsurile API sau stocate în baze de date.",
+                "Recuperare: Extragerea imaginilor încorporate în fișiere CSS sau șabloane HTML.",
+                "Verificare: Asigurarea că un șir Base64 nu este corupt."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Vă rugăm să lipiți mai întâi un șir Base64.",
+        "invalid_error": "Șir Base64 invalid sau format de imagine nesuportat."
+    }
+}

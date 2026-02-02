@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "title": "CSV to JSON Converter - ilmainen online-tietotyökalu",
+        "description": "Muunna CSV JSON-muotoon verkossa. Nopea, ilmainen ja luotettava työkalu kehittäjille.",
+        "h1": "CSV:stä JSONiin",
+        "subtitle": "Ammattimainen työkalu CSV:n muuntamiseen JSON-muotoon"
+    },
+    "editor": {
+        "label_delimiter": "Valitse erotin",
+        "delimiters": {
+            "comma": "Pilkkua (,)",
+            "semicolon": "Puolipiste (;)",
+            "tab": "Sarkain (Tab)",
+            "pipe": "Pystyviiva (|)"
+        },
+        "header_checkbox": "Ensimmäinen rivi on otsikko",
+        "btn_convert": "Muunna JSON-muotoon",
+        "btn_copy": "Kopioi JSON",
+        "btn_download": "Lataa JSON",
+        "btn_example": "Lataa esimerkki",
+        "btn_clear": "Tyhjennä kaikki",
+        "label_input": "CSV-syöte",
+        "ph_input": "Liitä CSV-data tähän...",
+        "label_output": "JSON-tuloste",
+        "ph_output": "Muunnettu JSON ilmestyy tähän..."
+    },
+    "content": {
+        "about_title": "Tietoa CSV-JSON-muuntimesta",
+        "about_p1": "Ilmainen CSV-JSON-muuntimemme muuttaa pilkuilla erotetut arvot (CSV) jäsennellyksi JSON-muodoksi välittömästi. JSON on nykyaikaisten verkkosovellusten ja API-rajapintojen standardi tietomuoto, mikä tekee tästä työkalusta välttämättömän kehittäjille ja data-analyytikoille.",
+        "features_title": "Tärkeimmät ominaisuudet",
+        "features_list": {
+            "1": "Välitön muunnos älykkäällä erottimen tunnistuksella",
+            "2": "Käsittelee sisäkkäiset otsikot ja CSV-lainaukset oikein",
+            "3": "100% turvallinen - käsittely tapahtuu selaimessasi",
+            "4": "Kauniisti muotoiltu JSON-tuloste",
+            "5": "Tuki mukautetuille erottimille (pilkku, puolipiste, sarkain, pystyviiva)",
+            "6": "Yhden klikkauksen kopiointi ja JSON-tiedoston lataus"
+        },
+        "uses_title": "Nykyaikaiset käyttötapaukset",
+        "uses": {
+            "migration": {
+                "title": "Tiedonsiirto",
+                "desc": "Siirrä tiedot helposti vanhoista laskentataulukoista nykyaikaisiin NoSQL-tietokantoihin."
+            },
+            "api": {
+                "title": "API-testaus",
+                "desc": "Luo JSON-pyyntökuormia CSV-testidataobjekteista."
+            },
+            "db": {
+                "title": "Tietokannan siemenet",
+                "desc": "Muunna CSV-tietojoukot JSON-muotoon tietokannan siemennyksiä ja migraatioita varten."
+            },
+            "analysis": {
+                "title": "Data-analyysi",
+                "desc": "Muunna raaka CSV-vienti jäsennellyksi JSON-muodoksi analysointia varten."
+            }
+        },
+        "faq_title": "Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Pysyvätkö CSV-tietoni yksityisinä?",
+            "a1": "Kyllä, kaikki käsittely tapahtuu paikallisesti selaimessasi. Tietojasi ei koskaan ladata palvelimillemme.",
+            "q2": "Tukeeko se suuria tiedostoja?",
+            "a2": "Muunnin käsittelee suuria tiedostoja tehokkaasti, rajoituksena on vain selaimesi muisti.",
+            "q3": "Voinko muuntaa JSONin takaisin CSV:ksi?",
+            "a3": "Kyllä! Käytä 'JSON to CSV' -työkaluamme Kehitys-osiossa käänteiseen muunnokseen."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter CSV data to convert",
+        "error_convert": "Error converting CSV: ",
+        "error_no_copy": "No JSON to copy. Please convert CSV first.",
+        "success_copy": "JSON copied to clipboard!",
+        "error_no_download": "No JSON to download. Please convert CSV first."
+    }
+}

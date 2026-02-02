@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JSON 到 CSV 转换器 - 免费在线数据工具",
+        "description": "使用我们免费的在线 JSON 转 CSV 转换器，即时将 JSON 数据转换为 CSV 格式。快速、安全且易于使用。",
+        "h1": "JSON 到 CSV 转换器",
+        "subtitle": "将您的 JSON 数据转换为干净、结构化的 CSV 格式"
+    },
+    "editor": {
+        "label_delimiter": "选择分隔符",
+        "opt_comma": "逗号 (,)",
+        "opt_semicolon": "分号 (;)",
+        "opt_tab": "选项卡",
+        "opt_pipe": "管道 (|)",
+        "btn_convert": "转换为 CSV",
+        "btn_copy": "复制 CSV",
+        "btn_download": "下载 CSV 文件",
+        "btn_example": "加载示例",
+        "btn_clear": "清空",
+        "label_input": "JSON 输入",
+        "ph_input": "[{\"name\": \"张三\", \"age\": 30}, {\"name\": \"李四\", \"age\": 25}]",
+        "label_output": "CSV 输出",
+        "ph_output": "转换后的 CSV 将显示在此处..."
+    },
+    "content": {
+        "hero_title": "免费 JSON 到 CSV 转换器",
+        "p1": "我们的免费 JSON 转 CSV 转换器是一款功能强大的在线工具，专为开发人员、数据分析师和 IT 专业人员打造。它可以轻松地将复杂的 JSON 数组和对象转换为简单、分栏式的 CSV 格式。无论您是为了进行数据分析、Excel 导入还是系统迁移而处理数据，我们的工具都能在您的浏览器中直接处理，确保速度和 100% 的隐私。",
+        "features_title": "主要功能",
+        "features_list": {
+            "fast": "<strong>即时转换：<\/strong>结果以毫秒为单位",
+            "secure": "<strong>私密且安全：<\/strong>所有数据都保留在您的浏览器中",
+            "format": "<strong>智能扁平化：<\/strong>正确处理嵌套的 JSON 对象",
+            "custom": "<strong>自定义分隔符<\/strong>：在逗号、分号或制表符之间进行选择",
+            "export": "<strong>轻松导出<\/strong>：复制到剪贴板或下载为 .csv",
+            "free": "<strong>100% 免费：<\/strong>没有限制，无需注册"
+        },
+        "uses_title": "常见使用场景",
+        "uses": {
+            "api": {
+                "title": "API数据分析",
+                "desc": "将 REST API 的 JSON 响应转换为 CSV 格式，以便在电子表格软件中更轻松地进行分析。"
+            },
+            "db": {
+                "title": "数据库迁移",
+                "desc": "准备 JSON 数据以导入关系数据库（例如 MySQL 或 PostgreSQL）。"
+            },
+            "analysis": {
+                "title": "数据分析",
+                "desc": "将 API 响应转换为 CSV，以便在 Excel 或 Google 表格中进行深入的数据过滤和透视。"
+            },
+            "report": {
+                "title": "快速报告",
+                "desc": "从结构化 JSON 日志文件或应用程序数据生成可读的 CSV 报告。"
+            }
+        },
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "它能处理嵌套的 JSON 吗？",
+            "a1": "是的。我们的工具可以递归地扁平化嵌套对象，确保所有层级的数据都能映射到 CSV 列中。",
+            "q2": "我可以用它处理多大的文件？",
+            "a2": "由于处理是在您的浏览器本地执行，这取决于您设备的性能。大多数几十 MB 以内的普通数据量都能流畅处理。",
+            "q3": "支持哪些 JSON 格式？",
+            "a3": "它支持标准的 JSON 对象数组，这是转换为 CSV 的最理想格式。",
+            "q4": "最大文件大小是多少？",
+            "a4": "该工具可以处理大型 JSON 文件，但性能取决于设备的内存。"
+        }
+    },
+    "js": {
+        "error_empty": "请先输入 JSON 数据",
+        "error_convert": "转换 JSON 时出错：",
+        "error_no_copy": "没有可复制的输出结果",
+        "success_copy": "✓ 已复制到剪贴板！",
+        "error_no_download": "没有内容可供下载。请先转换 JSON。"
+    }
+}

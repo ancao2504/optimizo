@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online - Ücretsiz Ağ Analiz Aracı",
+        "description": "Ücretsiz çevrimiçi traceroute aracı. Hızlı, güvenli ve kullanımı kolay.",
+        "h1": "Traceroute",
+        "subtitle": "Geliştiriciler ve BT profesyonelleri için en iyi traceroute aracı"
+    },
+    "form": {
+        "host_label": "Ana Bilgisayar veya IP Adresi",
+        "host_placeholder": "google.com veya 8.8.8.8",
+        "button": "İzleme Başlat",
+        "button_loading": "İzleniyor..."
+    },
+    "results": {
+        "title": "İzleme Sonuçları"
+    },
+    "content": {
+        "what_is_title": "Traceroute Nedir?",
+        "what_is_desc": "Traceroute, verilerin bir bilgisayardan bir sunucuya giderken internet üzerinden izlediği yolu gösteren bir ağ tanılama aracıdır. Veri paketlerinin geçtiği her bir yönlendiriciyi (hop) ve her duraktaki gecikme süresini listeler.",
+        "why_use_title": "Neden Traceroute Kullanılmalı?",
+        "why_use_desc": "Ağ gecikmelerinin nerede oluştuğunu belirlemek, yönlendirme sorunlarını teşhis etmek ve ağın fiziksel yapısını anlamak için kullanılır.",
+        "hops_title": "Atlamaları (Hops) Anlamak",
+        "hop1": "Her 'atlama', yol üzerindeki bir yönlendiriciyi temsil eder.",
+        "hop2": "Süreler, paketin o noktaya gidip gelmesi için geçen milisaniyeyi gösterir.",
+        "hop3": "Yıldız işaretleri (*), o durağın yanıt vermediğini (zaman aşımı) gösterir.",
+        "hop4": "Atlama sayısı ne kadar azsa, bağlantı genellikle o kadar hızlıdır.",
+        "hop5": "Atlamalar arasındaki büyük süre farkları, bir ağ tıkanıklığına işaret eder.",
+        "hop6": "İzlemenin bittiği durak, hedef sunucudur.",
+        "issues_title": "Sık Karşılaşılan Sorunlar",
+        "issues_desc": "Zaman aşımları genellikle güvenlik duvarlarının ICMP paketlerini engellemesi nedeniyle oluşur ve her zaman bir ağ sorunu anlamına gelmez."
+    },
+    "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "q1": "Traceroute ve Ping arasındaki fark nedir?",
+        "a1": "Ping sadece hedefe ulaşılıp ulaşılamadığını ve toplam süreyi ölçer; Traceroute ise yol üzerindeki her bir durağı tek tek gösterir.",
+        "q2": "Neden bazı atlamalarda yıldız (*) görünüyor?",
+        "a2": "Bu, o durağın güvenlik nedeniyle ping\/traceroute isteklerine yanıt vermediği anlamına gelir. Yol kapalı değil, sadece o durak gizlidir.",
+        "q3": "Atlama sayısının fazla olması kötü müdür?",
+        "a3": "Genellikle evet, çünkü her atlama potansiyel bir gecikme noktasıdır; ancak önemli olan toplam gidiş-dönüş süresidir."
+    }
+}

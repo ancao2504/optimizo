@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": "Base64 编码器和解码器 - 免费在线开发工具",
+        "description": "使用我们免费的在线 Base64 编解码工具，瞬间对您的数据进行 Base64 编码或解码。快速、安全且易于使用。",
+        "h1": "Base64 编码器和解码器",
+        "subtitle": "瞬间对您的数据进行 Base64 编码或解码"
+    },
+    "editor": {
+        "tab_encode": "编码为 Base64",
+        "tab_decode": "从 Base64 解码",
+        "label_encode": "输入要编码的文本",
+        "ph_encode": "在此输入您的文字...",
+        "desc_encode": "输入任意文本将其转换为 Base64 格式",
+        "btn_encode": "编码",
+        "label_decode": "输入Base64进行解码",
+        "ph_decode": "输入 Base64 编码的字符串...",
+        "desc_decode": "输入 Base64 编码文本以将其解码回纯文本",
+        "btn_decode": "解码",
+        "result_title": "结果",
+        "btn_copy": "复制结果"
+    },
+    "content": {
+        "what_title": "什么是 Base64 编码？",
+        "what_desc": "Base64 是一种将二进制数据转换为 64 个字符的 ASCII 字符串格式的编码方案。它常用于在支持文本的环境（如 HTML、CSS 和 JSON）中嵌入数据。Base64 常被用来处理图像、Cookie 以及在不需要对数据进行压缩的情况下确保数据能够安全通过网络传输。",
+        "features": {
+            "secure": {
+                "title": "隐私至上",
+                "desc": "所有数据处理均在您的浏览器本地完成，没有任何数据被上传"
+            },
+            "instant": {
+                "title": "即时转换",
+                "desc": "通过客户端处理在几毫秒内对 Base64 数据进行编码或解码"
+            },
+            "easy": {
+                "title": "便于使用",
+                "desc": "简单的选项卡式界面，用于编码和解码，一键复制"
+            }
+        },
+        "how_to": {
+            "title": "如何使用 Base64 编码器\/解码器",
+            "encode": {
+                "title": "编码文本",
+                "step1": "单击“编码为 Base64”选项卡",
+                "step2": "在输入区域粘贴或键入文本",
+                "step3": "单击“编码为 Base64”按钮",
+                "step4": "复制Base64编码结果"
+            },
+            "decode": {
+                "title": "解码Base64",
+                "step1": "单击“从 Base64 解码”选项卡",
+                "step2": "将 Base64 字符串粘贴到输入区域",
+                "step3": "单击“从 Base64 解码”按钮",
+                "step4": "复制解码后的纯文本结果"
+            }
+        },
+        "uses": {
+            "title": "常见 Base64 用例",
+            "api": {
+                "title": "API认证",
+                "desc": "在 HTTP 标头和 API 请求中对基本身份验证的凭据进行编码。"
+            },
+            "data_uri": {
+                "title": "数据 URI",
+                "desc": "使用 Base64 数据 URI 将图像、字体和文件直接嵌入 HTML、CSS 或 JSON。"
+            },
+            "email": {
+                "title": "电子邮件附件",
+                "desc": "对 MIME 电子邮件中的二进制附件进行编码以实现安全传输。"
+            },
+            "storage": {
+                "title": "数据存储",
+                "desc": "以基于文本的格式（例如 JSON、XML 或数据库）存储二进制数据。"
+            }
+        },
+        "bottom": {
+            "h1": "Base64 编码器和解码器",
+            "subtitle": "即时编码和解码 Base64 数据",
+            "desc": "Base64 是一种二进制到文本的编码方案，可将二进制数据转换为 ASCII 文本格式。我们的免费 Base64 编码器和解码器可帮助开发人员、系统管理员和 IT 专业人员将文本编码为 Base64 或立即将 Base64 解码回可读文本。非常适合 API 身份验证、数据 URI、电子邮件附件和安全数据传输。所有处理都在您的浏览器中进行，以确保完全隐私。",
+            "works_title": "🔄 Base64 的工作原理",
+            "works_encoding": "使用 64 个字符将二进制数据转换为 ASCII 文本",
+            "works_encoding_sub": "A-Z、a-z、0-9、+、\/（和 = 用于填充）",
+            "works_decoding": "将 Base64 文本转换回原始二进制数据",
+            "works_decoding_sub": "完美逆转编码过程",
+            "cases_title": "✅ 常见用例",
+            "case_api": "API认证",
+            "case_api_desc": "在 HTTP 标头中对基本身份验证的凭据进行编码",
+            "case_uri": "数据 URI",
+            "case_uri_desc": "直接在 HTML\/CSS 中嵌入图像和文件",
+            "case_email": "电子邮件附件",
+            "case_email_desc": "对二进制文件进行编码以用于电子邮件传输",
+            "case_url": "网址参数",
+            "case_url_desc": "在 URL 中安全地传递二进制数据",
+            "case_storage": "数据存储",
+            "case_storage_desc": "将二进制数据存储在纯文本数据库中",
+            "case_web": "网页开发",
+            "case_web_desc": "对 JSON、XML 和配置文件进行编码",
+            "best_practices_title": "💡 Base64 最佳实践",
+            "best_practices_list": [
+                "Base64 使数据大小增加约 33%",
+                "不适合加密 - 使用适当的加密算法",
+                "非常适合在纯文本系统中编码二进制数据",
+                "在使用解码数据之前始终验证它",
+                "对 URL 使用 URL 安全 Base64（将 +\/= 替换为 -_）"
+            ]
+        },
+        "faq": {
+            "title": "❓ 常见问题",
+            "q1": "它支持哪些字符？",
+            "a1": "我们的工具支持所有标准字符、特殊符号以及多语言 Unicode 字符串。",
+            "q2": "为什么 Base64 会增加文件大小？",
+            "a2": "Base64 编码使数据大小增加约 33%，因为它使用 4 个 ASCII 字符表示 3 个字节的二进制数据。此开销是为了确保二进制数据对于纯文本系统安全而做出的权衡。",
+            "q3": "Base64 有何用途？",
+            "a3": "Base64 用于将二进制数据（图像、文件、凭证）编码为 ASCII 文本，以便通过电子邮件、URL、JSON、XML 和 HTTP 标头等纯文本系统进行传输。它对于 API 身份验证、数据 URI 和电子邮件附件至关重要。",
+            "q4": "我的数据会发送到服务器吗？",
+            "a4": "不！所有 Base64 编码和解码完全在您的浏览器中使用 JavaScript 进行。您的数据永远不会离开您的设备，也不会在任何地方存储、传输或记录。您的隐私受到完全保护。",
+            "q5": "我可以将图像编码为 Base64 吗？",
+            "a5": "是的！虽然我们的工具对文本进行编码，但您可以使用专门的工具对图像进行编码。 Base64 编码的图像可以使用数据 URI (data:image\/png;base64,...) 直接嵌入 HTML\/CSS 中。这对于小图像很有用，但会增加页面大小。"
+        }
+    },
+    "js": {
+        "error_empty_encode": "请输入要编码的文字",
+        "error_encoding": "编码文本时出错：",
+        "error_empty_decode": "请输入Base64字符串进行解码",
+        "error_invalid": "Base64 字符串无效。请检查您的输入。",
+        "copied": "复制了！"
+    }
+}

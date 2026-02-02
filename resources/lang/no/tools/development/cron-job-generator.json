@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - Gratis online Crontab-verktøy",
+        "description": "Lag cron-tidsplaner enkelt med vår visuelle generator",
+        "h1": "Cron Job Generator",
+        "subtitle": "Lag cron-tidsplaner enkelt med vår visuelle generator"
+    },
+    "editor": {
+        "common_settings": "Vanlige innstillinger",
+        "choose": "-- Velg --",
+        "options": {
+            "every_minute": "Hvert minutt (* * * * *)",
+            "every_5_minutes": "Hvert 5. minutt (*\/5 * * * *)",
+            "every_15_minutes": "Hvert 15. minutt (*\/15 * * * *)",
+            "every_30_minutes": "Hvert 30. minutt (*\/30 * * * *)",
+            "every_hour": "Hver time (0 * * * *)",
+            "every_day_midnight": "Hver dag ved midnatt (0 0 * * *)",
+            "every_week": "Hver uke (0 0 * * 0)",
+            "every_month": "Hver måned (0 0 1 * *)"
+        },
+        "minute": "Minutt",
+        "every_minute": "Hvert minutt (*)",
+        "hour": "Time",
+        "every_hour": "Hver time (*)",
+        "day": "Dag",
+        "every_day": "Hver dag (*)",
+        "month": "Måned",
+        "every_month": "Hver måned (*)",
+        "weekday": "Ukedag",
+        "every_weekday": "Every Weekday (*)",
+        "command": "Kommando som skal kjøres",
+        "ph_command": "\/usr\/bin\/php \/path\/to\/script.php",
+        "generated_cron": "Generert Cron-uttrykk",
+        "btn_copy": "Kopier Cron",
+        "btn_clear": "Nullstill"
+    },
+    "content": {
+        "hero_title": "Cron Job Generator",
+        "p1": "Å sette opp cron-jobber kan være forvirrende med kryptiske stjerner og tall. Vår gratis online Cron Job Generator lar deg bygge perfekte cron-planer visuelt. Enten du trenger å kjøre et skript hvert 5. minutt, ved midnatt eller på bestemte dager i måneden, genererer verktøyet vårt den riktige syntaksen for deg umiddelbart.",
+        "features": {
+            "visual": {
+                "title": "Visuell redaktør",
+                "desc": "Velg minutter, timer, dager og måneder ved hjelp av et enkelt grensesnitt"
+            },
+            "readable": {
+                "title": "Lesbar for mennesker",
+                "desc": "Konverterer cron-uttrykk til enkle engelske beskrivelser"
+            }
+        },
+        "syntax_title": "📚 Forstå Cron-syntaks",
+        "syntax_intro": "Et cron-uttrykk består av 5 felter atskilt med mellomrom:",
+        "syntax_fields": {
+            "min": "Minutt (0-59)",
+            "hour": "Time (0-23)",
+            "day": "Dag i måneden (1–31)",
+            "month": "Måned (1–12)",
+            "week": "Ukedag (0-6, søndag=0)"
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Hva er en cron-jobb?",
+            "a1": "En cron-jobb er en tidsbasert jobbplanlegger i Unix-lignende datamaskinoperativsystemer. Brukere kan planlegge jobber (kommandoer eller skript) til å kjøre periodisk til faste tider, datoer eller intervaller.",
+            "q2": "Hvordan installerer jeg en cron-jobb?",
+            "a2": "Du bruker vanligvis kommandoen `crontab -e` i terminalen for å redigere cron-filen. Deretter limer du inn den genererte linjen nederst i filen.",
+            "q4": "Hva betyr stjerne (*)?",
+            "a4": "En stjerne betyr \"hver\". For eksempel betyr en stjerne i minuttfeltet \"hvert minutt\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron-uttrykk kopiert til utklippstavlen!",
+        "no_copy": "Ingen cron-uttrykk å kopiere"
+    }
+}

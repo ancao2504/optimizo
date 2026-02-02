@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "MD5 Hash Generator - Free Online Security Tool",
+        "description": "Generate MD5 hashes from any text instantly",
+        "h1": "MD5 Hash Generator",
+        "subtitle": "Generate MD5 hashes from any text instantly"
+    },
+    "editor": {
+        "label_input": "Enter Text",
+        "ph_input": "Enter text to hash...",
+        "btn_generate": "Generate MD5 Hash",
+        "label_result": "MD5 Hash",
+        "btn_copy": "Copy"
+    },
+    "content": {
+        "hero_title": "MD5 Hash Generator",
+        "hero_subtitle": "Generate MD5 hashes from any text instantly",
+        "p1": "Generate MD5 hashes from any text, password, or data string instantly with our free online MD5 hash generator. MD5 (Message-Digest Algorithm 5) is a widely used cryptographic hash function that produces a 128-bit (32-character hexadecimal) hash value. Perfect for data integrity verification, checksum generation, and understanding hash functions. All processing happens in your browser for complete privacy.",
+        "what_title": "🔒 What is MD5?",
+        "what_desc": "MD5 is a cryptographic hash function that takes an input of any length and produces a fixed 128-bit hash value, typically represented as a 32-character hexadecimal number. The same input always produces the same hash, but even a tiny change in input creates a completely different hash.",
+        "features_title": "âœ… MD5 Advantages",
+        "features": {
+            "fast": "<strong>Fast Processing:<\/strong> Extremely quick hash generation",
+            "fixed": "<strong>Fixed Length:<\/strong> Always produces 128-bit output",
+            "deterministic": "<strong>Deterministic:<\/strong> Same input = same hash",
+            "support": "<strong>Wide Support:<\/strong> Available in all programming languages"
+        },
+        "uses_title": "📊 Common Use Cases",
+        "uses": {
+            "verify": "<strong>File Verification:<\/strong> Check file integrity",
+            "checksum": "<strong>Checksums:<\/strong> Verify downloads",
+            "cache": "<strong>Cache Keys:<\/strong> Generate unique identifiers",
+            "integrity": "<strong>Data Integrity:<\/strong> Detect changes"
+        },
+        "warning_title": "âš ï¸ Security Warning",
+        "warning_desc": "<strong>DO NOT use MD5 for password hashing or security-critical applications!<\/strong> MD5 is cryptographically broken and vulnerable to collision attacks. For password hashing, use modern algorithms like bcrypt, Argon2, or PBKDF2.",
+        "compare_title": "ðŸ”„ MD5 vs Other Hash Functions",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128-bit output",
+                "desc2": "Fast but insecure for cryptography"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160-bit output",
+                "desc2": "Also deprecated for security use"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256-bit output",
+                "desc2": "Secure and widely used today"
+            }
+        },
+        "faq_title": "â“ Frequently Asked Questions",
+        "faq": {
+            "q1": "Is MD5 secure for passwords?",
+            "a1": "No! MD5 is cryptographically broken and should never be used for password hashing. Use bcrypt, Argon2, or PBKDF2 instead.",
+            "q2": "Can I reverse an MD5 hash?",
+            "a2": "No, MD5 is a one-way function - you cannot reverse a hash to get the original input. However, attackers can use rainbow tables to find inputs.",
+            "q3": "Is my data sent to a server?",
+            "a3": "No! All MD5 hash generation happens entirely in your browser using JavaScript. Your data never leaves your device."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter some text",
+        "btn_copied": "Copied!"
+    }
+}

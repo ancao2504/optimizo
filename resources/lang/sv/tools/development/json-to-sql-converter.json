@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "JSON till SQL Converter - Gratis migreringsverktyg online",
+        "description": "Omvandla JSON-data till SQL INSERT-satser direkt. Perfekt för databassådd och datamigrering.",
+        "h1": "JSON till SQL-konverterare",
+        "subtitle": "Konvertera JSON-arrayer och objekt till giltiga SQL-skript"
+    },
+    "editor": {
+        "label_tablename": "Tabellnamn",
+        "ph_tablename": "Ange tabellnamn (t.ex. users)",
+        "btn_convert": "Generera SQL",
+        "btn_clear": "Rensa",
+        "btn_copy": "Kopiera SQL",
+        "btn_example": "Ladda exempel",
+        "label_input": "JSON-inmatning",
+        "ph_input": "Klistra in din JSON-array här...",
+        "label_output": "SQL-utdata",
+        "ph_output": "Genererade SQL INSERT-satser visas här..."
+    },
+    "content": {
+        "hero_title": "Enkel JSON till SQL-konvertering",
+        "hero_subtitle": "Det snabbaste sättet att generera databassådd-skript",
+        "p1": "Att konvertera JSON-data till SQL INSERT-satser ska inte vara en manuell uppgift. Vår JSON till SQL-konverterare hanterar det tunga lyftet genom att automatiskt mappa dina JSON-nycklar till databaskolumner och undanta värden för säker insättning. Det är ett viktigt verktyg för utvecklare som arbetar med datamigrering, testning eller databasinitialisering.",
+        "what_title": "När ska man använda detta verktyg?",
+        "what_desc": "Om du har en samling data i JSON-format – till exempel en export från en NoSQL-databas eller ett API-svar – och du behöver infoga den i en relationsdatabas som MySQL, PostgreSQL eller SQL Server, är detta verktyg för dig. Det formaterar varje objekt till en ren SQL-sats.",
+        "features_title": "Nyckelfunktioner",
+        "features": {
+            "fast": {
+                "title": "Omedelbar generering",
+                "desc": "Generera hundratals SQL-rader på ett ögonblick."
+            },
+            "private": {
+                "title": "Integritet garanterad",
+                "desc": "All bearbetning är lokal. Din känsliga data stannar i din webbläsare."
+            },
+            "copy": {
+                "title": "Enklicks-export",
+                "desc": "Kopiera hela skriptet eller ladda ner det för dina migreringar."
+            },
+            "smart": {
+                "title": "Smart undantagshantering",
+                "desc": "Hanterar automatiskt citattecken och specialtecken i strängar."
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "Inga gränser, ingen registrering, inget krångel."
+            },
+            "db": {
+                "title": "Databaskompatibel",
+                "desc": "Genererar standard-SQL som är kompatibel med de flesta databassystem."
+            }
+        },
+        "uses_title": "Professionella användningsområden",
+        "uses": {
+            "migration": {
+                "title": "Datamigrering",
+                "desc": "Flytta enkelt data från JSON-baserade system till SQL-databaser."
+            },
+            "import": {
+                "title": "Massimport",
+                "desc": "Ladda stora mängder test- eller produktionsdata snabbt."
+            },
+            "api": {
+                "title": "API till databas",
+                "desc": "Konvertera tredjeparts API-resultat direkt till SQL-insättningar."
+            },
+            "test": {
+                "title": "Testdatasådd",
+                "desc": "Skapa SQL-skript för att fylla utvecklingsmiljöer."
+            },
+            "backup": {
+                "title": "Återställning av säkerhetskopior",
+                "desc": "Gör om JSON-säkerhetskopior till funktionella SQL-skript."
+            },
+            "dev": {
+                "title": "Snabb prototypframtagning",
+                "desc": "Fyll snabbt nya databastabeller under utveckling."
+            }
+        },
+        "how_title": "Hur man använder",
+        "how_steps": [
+            "Ange måldatabasens <strong>Tabellnamn<\/strong>",
+            "Klistra in din <strong>JSON<\/strong> (måste vara en array eller ett objekt)",
+            "Klicka på <strong>Generera SQL<\/strong> för att skapa skriptet",
+            "<strong>Kopiera<\/strong> SQL-utdatan till ditt urklipp"
+        ],
+        "faq_title": "Vanliga frågor",
+        "faq": {
+            "q1": "Vilket JSON-format krävs?",
+            "a1": "Verktyget fungerar bäst med en array av objekt, där varje objekt representerar en databasrad.",
+            "q2": "Hanterar det nästlade objekt?",
+            "a2": "Det mappar för närvarande toppnivånycklar. Nästlade objekt strängifieras vanligtvis eller hoppas över beroende på dina databasbehov.",
+            "q3": "Finns det en gräns för rader?",
+            "a3": "Det finns ingen hård gräns, även om din webbläsares prestanda kan variera med tusentals rader."
+        },
+        "tips_title": "Proffstips",
+        "tips_list": [
+            "Se till att dina JSON-nycklar matchar dina SQL-kolumnnamn exakt.",
+            "Verifiera alltid den genererade SQL-koden innan du kör den på en produktionsdatabas.",
+            "Använd knappen \"Exempel\" för att se den förväntade JSON-strukturen."
+        ]
+    },
+    "js": {
+        "error_empty": "Vänligen ange JSON-data och ett tabellnamn",
+        "success_convert": "✓ SQL genererad framgångsrikt!",
+        "error_convert": "Fel vid generering av SQL: ",
+        "error_no_copy": "Ingen SQL att kopiera. Vänligen konvertera JSON först.",
+        "success_copy": "✓ SQL kopierad till urklipp!"
+    }
+}

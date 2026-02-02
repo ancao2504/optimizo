@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "DNS Lookup Tool – Bezplatná online kontrola DNS záznamů",
+        "description": "Bezplatný nástroj pro kontrolu DNS záznamů libovolné domény. Okamžitě zobrazte záznamy A, AAAA, MX, NS, TXT, CNAME. Nezbytné pro řešení problémů s e-mailem a konfigurací domény.",
+        "h1": "Nástroj pro vyhledávání DNS",
+        "subtitle": "Dotazujte se na DNS záznamy a najděte jmenné servery, MX, A, CNAME a TXT záznamy okamžitě"
+    },
+    "form": {
+        "domain_label": "Název domény",
+        "domain_placeholder": "např. google.com",
+        "button": "Vyhledat DNS"
+    },
+    "results": {
+        "title": "Výsledky DNS pro"
+    },
+    "content": {
+        "what_is_title": "Co je DNS Lookup?",
+        "what_is_desc": "DNS Lookup je nástroj, který se dotazuje serverů systému doménových jmen (Domain Name System) na DNS záznamy dané domény. Tyto záznamy obsahují důležité informace o konfiguraci domény, včetně poštovních serverů (MX), jmenných serverů (NS), IP adres (A\/AAAA) a textových záznamů (TXT) používaných pro ověření a zabezpečení.",
+        "why_use_title": "Proč používat DNS Lookup?",
+        "why_use_desc": "DNS Lookup je nezbytný pro řešení problémů s doručováním e-mailů, ověřování konfigurace domény, kontrolu nastavení jmenných serverů, validaci záznamů SPF a DKIM a pochopení nastavení domény. Správci systémů, weboví vývojáři a IT profesionálové jej používají denně.",
+        "record_types_title": "Typy DNS záznamů",
+        "a_record": "<strong>A záznam:<\/strong> Mapuje doménu na IPv4 adresu",
+        "aaaa_record": "<strong>AAAA záznam:<\/strong> Mapuje doménu na IPv6 adresu",
+        "mx_record": "<strong>MX záznam:<\/strong> Informace o poštovním serveru",
+        "ns_record": "<strong>NS záznam:<\/strong> Informace o jmenném serveru",
+        "txt_record": "<strong>TXT záznam:<\/strong> Textové údaje pro ověření",
+        "cname_record": "<strong>CNAME záznam:<\/strong> Alias kanonického jména"
+    },
+    "faq": {
+        "title": "Často kladené otázky",
+        "q1": "Co je DNS?",
+        "a1": "DNS (Domain Name System) funguje jako telefonní seznam internetu, který překládá názvy domén (jako google.com) na IP adresy.",
+        "q2": "Jak dlouho trvá propagace DNS?",
+        "a2": "Změny DNS se mohou projevit okamžitě, ale plná propagace po celém světě může trvat 24 až 48 hodin.",
+        "q3": "K čemu slouží záznam MX?",
+        "a3": "MX (Mail Exchanger) záznam určuje poštovní server zodpovědný za přijímání e-mailů pro danou doménu.",
+        "q4": "Můžu zkontrolovat záznamy jakékoli domény?",
+        "a4": "Ano, DNS záznamy jsou veřejné informace, které může kdokoli dotazovat pomocí nástroje DNS Lookup.",
+        "q5": "Co je to TTL?",
+        "a5": "TTL (Time to Live) je hodnota v sekundách, která určuje, jak dlouho si mají DNS servery pamatovat (ukládat do mezipaměti) daný záznam."
+    },
+    "js": {
+        "looking_up": "Vyhledávám...",
+        "records_label": "Záznamů",
+        "success": "Záznamy byly úspěšně načteny",
+        "error": "Při vyhledávání DNS došlo k chybě",
+        "lookup_dns": "Vyhledat DNS"
+    }
+}

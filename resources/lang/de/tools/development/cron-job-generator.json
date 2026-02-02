@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator – Kostenloses Online-Crontab-Tool",
+        "description": "Erstellen Sie ganz einfach Cron-Zeitpläne mit unserem visuellen Generator – Sie müssen sich keine komplexe Cron-Syntax merken",
+        "h1": "Cron-Job-Generator",
+        "subtitle": "Erstellen Sie Cron-Zeitpläne ganz einfach mit unserem visuellen Generator"
+    },
+    "editor": {
+        "common_settings": "Häufige Einstellungen",
+        "choose": "-- Wählen --",
+        "options": {
+            "every_minute": "Jede Minute (* * * * *)",
+            "every_5_minutes": "Alle 5 Minuten (*\/5 * * * *)",
+            "every_15_minutes": "Alle 15 Minuten (*\/15 * * * *)",
+            "every_30_minutes": "Alle 30 Minuten (*\/30 * * * *)",
+            "every_hour": "Jede Stunde (0 * * * *)",
+            "every_day_midnight": "Jeden Tag um Mitternacht (0 0 * * *)",
+            "every_week": "Jede Woche (0 0 * * 0)",
+            "every_month": "Jeden Monat (0 0 1 * *)"
+        },
+        "minute": "Minute",
+        "every_minute": "Jede Minute (*)",
+        "hour": "Stunde",
+        "every_hour": "Jede Stunde (*)",
+        "day": "Tag",
+        "every_day": "Jeden Tag (*)",
+        "month": "Monat",
+        "every_month": "Jeden Monat (*)",
+        "weekday": "Wochentag",
+        "every_weekday": "Jeder Wochentag (*)",
+        "command": "Auszuführender Befehl",
+        "ph_command": "\/usr\/bin\/php \/pfad\/zum\/skript.php",
+        "generated_cron": "Generierter Cron-Ausdruck",
+        "btn_copy": "Cron kopieren",
+        "btn_clear": "Zurücksetzen"
+    },
+    "content": {
+        "hero_title": "Cron Job Generator",
+        "p1": "Das Einrichten von Cron-Jobs kann mit kryptischen Sternchen und Zahlen verwirrend sein. Mit unserem kostenlosen Online-Cron-Job-Generator können Sie perfekte Cron-Zeitpläne visuell erstellen. Egal, ob Sie ein Skript alle 5 Minuten, um Mitternacht oder an bestimmten Tagen des Monats ausführen müssen, unser Tool generiert sofort die korrekte Syntax für Sie.",
+        "features": {
+            "visual": {
+                "title": "Visueller Editor",
+                "desc": "Wählen Sie Minuten, Stunden, Tage und Monate über eine einfache Benutzeroberfläche aus"
+            },
+            "readable": {
+                "title": "Menschenlesbar",
+                "desc": "Konvertiert Cron-Ausdrücke in einfache englische Beschreibungen (Human Readable)"
+            }
+        },
+        "syntax_title": "📚 Cron-Syntax verstehen",
+        "syntax_intro": "Ein Cron-Ausdruck besteht aus 5 durch Leerzeichen getrennten Feldern:",
+        "syntax_fields": {
+            "min": "Minute (0-59)",
+            "hour": "Stunde (0-23)",
+            "day": "Tag des Monats (1-31)",
+            "month": "Monat (1-12)",
+            "week": "Wochentag (0-6, Sonntag=0)"
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Was ist ein Cron-Job?",
+            "a1": "Ein Cron-Job ist ein zeitbasierter Aufgabenplaner in Unix-ähnlichen Computer-Betriebssystemen. Benutzer können Jobs (Befehle oder Skripte) so planen, dass sie periodisch zu festen Zeiten, Daten oder Intervallen ausgeführt werden.",
+            "q2": "Wie installiere ich einen Cron-Job?",
+            "a2": "Normalerweise verwenden Sie den Befehl `crontab -e` in Ihrem Terminal, um Ihre Cron-Datei zu bearbeiten. Fügen Sie dann die generierte Zeile am Ende der Datei ein.",
+            "q4": "Was bedeutet das Sternchen (*)?",
+            "a4": "Ein Sternchen bedeutet \"jeder\/jede\/jedes\". Beispielsweise bedeutet ein Sternchen im Minutenfeld \"jede Minute\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron-Ausdruck in die Zwischenablage kopiert!",
+        "no_copy": "Kein Cron-Ausdruck zum Kopieren vorhanden"
+    }
+}

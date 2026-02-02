@@ -1,0 +1,66 @@
+{
+    "meta": {
+        "title": "我的 IP 地址是什么？ - 免费在线 IP 检查器",
+        "description": "立即查出您的公网 IP 地址。免费查看您的 IPv4\/IPv6 地址、ISP、位置和连接详情。对于网络故障排除至关重要。",
+        "h1": "我的 IP 地址是什么？",
+        "subtitle": "立即发现您的公网 IP 地址并获取详细的 ISP 信息"
+    },
+    "ui": {
+        "loading": "正在检测...",
+        "your_ip_title": "您的公网 IP 地址",
+        "copy_button": "点击复制",
+        "timezone": "当前时区"
+    },
+    "results": {
+        "location": "地理位置",
+        "isp": "服务商 (ISP)",
+        "country": "国家\/地区"
+    },
+    "content": {
+        "main_title": "我的 IP 地址是什么 - 免费 IP 查询工具",
+        "main_desc": "使用我们的免费工具立即查找您的公网 IP 地址。发现您的 IPv4 或 IPv6 地址、精确的地理位置（城市、省份、国家）、ISP 信息、时区和完整的网络详情。对于网络配置、安全测试、远程访问设置、VPN 验证和了解您的互联网足迹至关重要。",
+        "what_is_title": "什么是我的 IP 地址？",
+        "what_is_desc": "您的 IP 地址是一个唯一的数字标识符，在您的设备连接到互联网时分配。它允许网站和服务与您的设备通信并识别您的概略位置。",
+        "ipv4_vs_ipv6_title": "IPv4 与 IPv6 地址对比",
+        "ipv4_title": "IPv4 地址",
+        "ipv4_format": "<strong>格式：<\/strong> 192.168.1.1 (由点分隔的四个 0-255 的数字)",
+        "ipv4_total": "<strong>总地址数：<\/strong> 约 43 亿个地址",
+        "ipv4_desc": "全球最常见的格式，但由于互联网的爆发式增长，可用地址已近枯竭",
+        "ipv6_title": "IPv6 地址",
+        "ipv6_format": "<strong>格式：<\/strong> 2001:0db8:85a3::8a2e:0370:7334",
+        "ipv6_total": "<strong>总地址数：<\/strong> 3.4 x 10^38 个地址（几乎无限）",
+        "ipv6_desc": "新一代互联网协议，旨在彻底解决地址不足的问题，并提供更好的安全性",
+        "why_check_title": "为什么要检查您的 IP？",
+        "why_check_desc": "了解您的 IP 地址有助于排查网络连接故障、验证 VPN 是否正常工作、检查地理位置是否被正确识别，以及监控第三方网站能获取您的哪些信息。",
+        "public_vs_private_title": "公网 IP 与私有（内网）IP 区别",
+        "public_ip_title": "🌐 公网 IP 地址",
+        "public_ip_desc": "您在广域网上的唯一标识，对您访问的所有网站和服务都是可见的。",
+        "public_ip_example": "<strong>示例：<\/strong> 203.0.113.45",
+        "public_ip_note": "通常由您的 ISP 分配，是所有外向通信的网关地址",
+        "private_ip_title": "🏠 私有 (内网) IP 地址",
+        "private_ip_desc": "您在家庭或办公室局域网内的分配地址，在互联网上无法直接访问。",
+        "private_ip_example": "<strong>示例：<\/strong> 192.168.1.100",
+        "private_ip_note": "用于本地设备间的通信，由您的路由器管理分配",
+        "security_title": "IP 地址的安全与隐私",
+        "security_desc1": "IP 地址会映射出您的城市、ISP 信息，并可能被用于广告跟踪。虽然它不像姓名手机号那样敏感，但结合其他行为数据可以勾勒出用户的画像。网站利用 IP 来实施流量控制和地区内容限制。",
+        "security_desc2": "<strong>如何保护隐私：<\/strong> 使用高匿名 VPN 或代理可以掩盖真实 IP，显示代理服务器的地址。本工具可以帮助您验证隐私保护措施是否生效。",
+        "dynamic_vs_static_title": "动态 IP 与静态 IP",
+        "dynamic_ip": "<strong>动态 IP：<\/strong> 每次拨号或重启路由后都可能变化。绝大多数家庭宽带用户都使用这种方式，成本低且对一般上网无影响。",
+        "static_ip": "<strong>静态 IP：<\/strong> 固定不变。主要用于商业托管、远程办公网关或需要反向解析的服务。通常包月费用更高。",
+        "privacy_tips_title": "隐私安全贴士",
+        "privacy_tip1": "• 避免在公共论坛泄露敏感的公网 IP 信息",
+        "privacy_tip2": "• 连接不信任的公共 WiFi 时务必开启加密连接",
+        "privacy_tip3": "• 确保路由器防火墙处于开启状态",
+        "privacy_tip4": "• 定期检测 IP 以防 VPN 意外断开导致的真实地址暴露",
+        "privacy_tip5": "• 请知悉：合法的网络监管要求 ISP 必须记录并留存 IP 日志"
+    },
+    "faq": {
+        "title": "常见问题解答",
+        "q1": "关闭路由器能更换 IP 吗？",
+        "a1": "对于动态 IP 用户，重启路由器通常可以获取一个新的 IP 地址。",
+        "q2": "网站可以看到我的真实家庭住址吗？",
+        "a2": "普通查询只能定位到城市或街区级别，只有拥有执法权限的机构配合 ISP 才能查询到确切的物理地址。",
+        "q3": "VPN 真的能隐藏我的 IP 吗？",
+        "a3": "是的，它通过加密隧道将流量路由到中转节点，网站只能识别到中转节点的 IP。"
+    }
+}

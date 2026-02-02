@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online - Ferramenta gratuita de análise de rede",
+        "description": "Ferramenta de traceroute online gratuita. Rápido, seguro e fácil de usar.",
+        "h1": "Trace rota",
+        "subtitle": "O melhor traceroute para desenvolvedores e profissionais de TI"
+    },
+    "form": {
+        "host_label": "Host ou Endereço IP",
+        "host_placeholder": "ex: google.com",
+        "button": "Executar Traceroute",
+        "button_loading": "Executando..."
+    },
+    "results": {
+        "title": "Resultados do Traceroute para"
+    },
+    "content": {
+        "what_is_title": "O que é Traceroute?",
+        "what_is_desc": "O Traceroute é uma ferramenta de diagnóstico de rede usada para rastrear o caminho (rota) e medir os atrasos de trânsito de pacotes através de uma rede de Protocolo de Internet (IP). Ele mostra cada 'salto' (hop) pelo qual os dados passam até chegar ao destino final.",
+        "why_use_title": "Por que usar o Traceroute?",
+        "why_use_desc": "O Traceroute é fundamental para identificar onde a conexão está falhando ou ficando lenta. Ele ajuda a ver se o problema está na sua rede local, no seu ISP ou em algum ponto da internet global.",
+        "hops_title": "Entendendo os Saltos (Hops)",
+        "hop1": "<strong>Salto:<\/strong> Cada roteador ou dispositivo pelo qual o pacote passa.",
+        "hop2": "<strong>Tempo de Resposta:<\/strong> Medido em milissegundos (ms) para cada salto.",
+        "hop3": "<strong>IP\/Hostname:<\/strong> O endereço do dispositivo em cada etapa.",
+        "hop4": "<strong>Timeout:<\/strong> Quando um dispositivo não responde à solicitação.",
+        "hop5": "<strong>Gargalos:<\/strong> Saltos com tempos de resposta muito altos indicam lentidão.",
+        "hop6": "<strong>Destino Final:<\/strong> O último salto representa o servidor de destino.",
+        "issues_title": "Problemas Comuns",
+        "issues_desc": "Asteriscos (*) nos resultados costumam indicar que um roteador está configurado para não responder a pacotes ICMP por motivos de segurança, o que não necessariamente significa uma falha na rede."
+    },
+    "faq": {
+        "title": "Perguntas Frequentes",
+        "q1": "Quanto tempo leva um traceroute?",
+        "a1": "Geralmente de alguns segundos a um minuto, dependendo do número de saltos e da velocidade de resposta de cada nó.",
+        "q2": "Por que aparecem asteriscos (*) nos resultados?",
+        "a2": "Asteriscos significam que o pacote não recebeu uma resposta dentro do tempo limite. Isso é comum em roteadores que priorizam tráfego real sobre requisições de diagnóstico.",
+        "q3": "Qual a diferença entre Ping e Traceroute?",
+        "a3": "O Ping diz se um destino está acessível e quão rápido. O Traceroute mostra o caminho exato percorrido para chegar lá."
+    }
+}

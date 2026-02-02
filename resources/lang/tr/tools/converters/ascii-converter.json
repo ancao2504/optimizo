@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "title": "Ücretsiz ASCII'den Metine Dönüştürücü - Çevrimiçi Araç",
+        "description": "Ücretsiz çevrimiçi aracımızla metni anında ASCII kodlarına ve tersine dönüştürün. Kodlama, kod çözme ve veri gösterimi için mükemmel.",
+        "h1": "ASCII Dönüştürücü",
+        "subtitle": "Metin karakterleri ile ASCII değerleri arasında kolayca çeviri yapın"
+    },
+    "editor": {
+        "to_ascii": "ASCII'ye",
+        "to_text": "Metne",
+        "label_text": "Metin Girişi",
+        "ph_text": "Metni buraya girin (örn. Merhaba Dünya)...",
+        "btn_convert_ascii": "ASCII'ye Dönüştür",
+        "btn_clear": "Hepsini Temizle",
+        "btn_copy": "Sonucu Kopyala",
+        "label_output_ascii": "ASCII Kodları Sonucu",
+        "ph_ascii": "ASCII kodlarını girin (örn. 72 101 108 108 111)...",
+        "label_ascii": "ASCII Kod Girişi",
+        "label_output_text": "Metin Sonucu",
+        "btn_convert_text": "Metne Dönüştür"
+    },
+    "content": {
+        "title": "ASCII Dönüştürücü: Metinden ASCII'ye ve ASCII'den Metne",
+        "subtitle": "Karakterden koda çeviri ve ikili veri gösterimi için nihai araç.",
+        "p1": "Ücretsiz ASCII Dönüştürücümüz geliştiriciler, öğrenciler ve teknoloji meraklıları için tasarlanmış çok yönlü bir çevrimiçi yardımcı programdır. Düz metni karşılık gelen ASCII sayısal değerlerine ve tersine dönüştürmek için kusursuz bir yol sunar. İster düşük seviyeli kodlarda hata ayıklıyor olun, ister veri gösterimi hakkında bilgi ediniyor olun veya belirli protokoller için dizeleri kodlamanız\/kodunu çözmeniz gereksin, bu araç doğrudan tarayıcınızda anında ve doğru sonuçlar verir.",
+        "what_title": "ASCII Nedir?",
+        "what_desc": "ASCII (Amerikan Standart Bilgi Değişimi Kodu), elektronik iletişim için bir karakter kodlama standardıdır. Her karaktere (harf, sayı veya sembol) 0 ile 127 arasında benzersiz bir sayısal değer atanır. Örneğin, büyük \"A\" harfi 65 sayısı ile temsil edilirken, boşluk karakteri 32 ile temsil edilir. Bu değerleri anlamak bilgisayar bilimi ve veri işleme için temeldir.",
+        "features": {
+            "instant": {
+                "title": "Anında Dönüşüm",
+                "desc": "Butona tıkladığınız anda sonuçlarınızı gerçek zamanlı olarak alın."
+            },
+            "bidirectional": {
+                "title": "Çift Yönlü Destek",
+                "desc": "Metinden ASCII'ye ve ASCII'den Metne modları arasında kolayca geçiş yapın."
+            },
+            "privacy": {
+                "title": "Gizlilik Garantili",
+                "desc": "Tüm işlemler tarayıcınızda yerel olarak gerçekleşir; verileriniz asla sunucularımıza gönderilmez."
+            }
+        },
+        "uses": {
+            "title": "Yaygın Kullanım Durumları",
+            "programming": {
+                "title": "Programlama ve Geliştirme",
+                "desc": "Dize manipülasyonu, karakter karşılaştırmaları ve düşük seviyeli G\/Ç işlemleri için karakterleri kodlara dönüştürün."
+            },
+            "learning": {
+                "title": "Eğitim Amaçlı Kullanım",
+                "desc": "Bilgisayarların metni nasıl sayı olarak temsil ettiğini öğrenen öğrenciler için harika bir kaynak."
+            },
+            "encoding": {
+                "title": "Veri Kodlama",
+                "desc": "Basit kodlanmış mesajlar oluşturmak veya verileri belirli iletişim protokolleri için hazırlamak için kullanışlıdır."
+            },
+            "debugging": {
+                "title": "Hata Ayıklama ve Sorun Giderme",
+                "desc": "Gizli karakterleri veya yazdırılamayan sembolleri sayısal ASCII temsillerini görüntüleyerek belirleyin."
+            }
+        },
+        "examples": {
+            "title": "ASCII Tablosu Önemli Noktaları",
+            "a_upper": "Büyük \"A\"",
+            "a_lower": "Küçük \"a\"",
+            "zero": "\"0\" Sayısı",
+            "space": "Boşluk Karakteri"
+        },
+        "faq": {
+            "title": "Sıkça Sorulan Sorular",
+            "q1": "Bu ASCII dönüştürücünün kullanımı ücretsiz mi?",
+            "a1": "Evet, ASCII dönüştürücümüz %100 ücretsizdir ve kayıt veya indirme gerektirmez. İstediğiniz sıklıkta kullanabilirsiniz.",
+            "q2": "Bu araç Unicode veya Genişletilmiş ASCII'yi destekliyor mu?",
+            "a2": "Şu anda bu araç standart ASCII setine (0-127) odaklanmaktadır. Çoğu modern metin uygulaması için standart ASCII temel konuları kapsar, ancak çeşitli kodlamalar için desteği genişletmek üzerinde çalışıyoruz.",
+            "q3": "Bu aracı kullanırken verilerim güvende mi?",
+            "a3": "Kesinlikle. Bu araç tüm dönüşümler için istemci tarafı JavaScript kullanır. Girdi verileriniz asla bilgisayarınızdan çıkmaz ve asla sunucularımızda saklanmaz."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen dönüştürülecek bir veri girin",
+        "success_ascii": "✓ ASCII kodlarına başarıyla dönüştürüldü!",
+        "success_text": "✓ Metne başarıyla dönüştürüldü!",
+        "error_invalid_ascii": "Geçersiz ASCII kodu algılandı: ",
+        "error_general": "Dönüşüm sırasında bir hata oluştu: ",
+        "error_no_output": "Kopyalanacak bir şey yok! Lütfen önce bir dönüşüm yapın.",
+        "success_copy": "✓ Panoya kopyalandı!"
+    }
+}

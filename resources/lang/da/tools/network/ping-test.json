@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Ping Test Tool Online - Gratis Network Latency Checker",
+        "description": "Gratis ping test værktøj to tjek network latency, packet loss, and server reachability. Test connectivity to any host or IP address instantly. Essential for network troubleshooting.",
+        "h1": "Ping testværktøj",
+        "subtitle": "Test serverens responstid og netværksforbindelse fra flere lokationer"
+    },
+    "form": {
+        "host_label": "Vært eller IP-adresse",
+        "host_placeholder": "google.com eller 8.8.8.8",
+        "button": "Ping vært"
+    },
+    "results": {
+        "title": "Ping resultater"
+    },
+    "content": {
+        "what_is_title": "Hvad er Ping Test?",
+        "what_is_desc": "Ping is a network diagnostic værktøj that tests the reachability of a host on an Internet Protocol (IP) network. It measures the round-trip time for messages sent from the source to a destination computer and back. Ping operates by sending Internet Control Message Protocol (ICMP) Echo Request packets to the target host and waiting for an Echo Reply. Den værktøj is named after the sonar ping sound used in submarine detection, as it similarly sends out a signal and listens for a response.",
+        "why_use_title": "Hvorfor Brug Ping Test?",
+        "why_use_desc": "Ping testing is essential for network troubleshooting and performance monitoring. System administrators use ping to verify network connectivity, diagnose connection issues, and measure network latency. It helps identify whether a server is online and responsive, detect packet loss that might indicate network congestion or hardware problems, and measure the quality of network connections. Gamers use ping to tjek server latency before joining online games, while website owners monitor their server's responsiveness to ensure optimal user experience.",
+        "metrics_title": "Forstå Ping-metrics",
+        "metric1": "<strong>Packets Sent\/Received:<\/strong> Nummer of ping requests and successful responses",
+        "metric2": "<strong>Pakketab:<\/strong> Procentdel af pakker, der ikke modtog et svar",
+        "metric3": "<strong>Minimum Tid:<\/strong> Fastest round-trip time recorded",
+        "metric4": "<strong>Gennemsnit Tid:<\/strong> Mean latency across all pings",
+        "metric5": "<strong>Maksimum Tid:<\/strong> Slowest round-trip time recorded",
+        "metric6": "<strong>TTL (Tid Til Live):<\/strong> Nummer of network hops before packet expires",
+        "interpreting_title": "Interpreting Resultats",
+        "interpreting_desc": "Good ping times are typically under 50ms for local connections and under 100ms for international connections. Tids between 100-200ms are acceptable for most applications but may cause noticeable lag in real-time applications like gaming or video conferencing. Anything above 200ms indicates potential network issues. Packet loss above 1% suggests network problems that need investigation. Consistent ping times indicate stable connections, while highly variable times suggest network congestion or routing issues."
+    },
+    "faq": {
+        "title": "Ofte stillede spørgsmål",
+        "q1": "Hvad er en ping-test?",
+        "a1": "En ping-test sender datapakker til en server og måler den tid, det tager at modtage et svar. Det bruges til at kontrollere netværksforbindelse, måle latens og diagnosticere forbindelsesproblemer.",
+        "q2": "Hvad er en god pingtid?",
+        "a2": "Til generel browsing: under 100ms er godt. Til spil: under 50 ms er ideelt, under 20 ms er fremragende. For videoopkald: under 150 ms er acceptabelt. Lavere ping betyder hurtigere svartider.",
+        "q3": "Hvorfor er mit ping højt?",
+        "a3": "Højt ping kan være forårsaget af overbelastning af netværket, afstand til server, dårligt WiFi-signal, internetudbyder-drossel eller for mange enheder på dit netværk. Prøv at bruge kablet forbindelse, luk båndbredde-tunge programmer, eller kontakt din internetudbyder.",
+        "q4": "Hvad betyder \"Anmodningen fik timeout\"?",
+        "a4": "Timeout for anmodning betyder, at serveren ikke svarede inden for den forventede tid. Dette kan indikere, at serveren er nede, blokerer ping-anmodninger (firewall), eller der er et problem med netværksforbindelsen.",
+        "q5": "Kan jeg pinge en hvilken som helst hjemmeside?",
+        "a5": "De fleste websteder kan pinges, men nogle servere blokerer ICMP ping-anmodninger af sikkerhedsmæssige årsager. Hvis ping mislykkes, er webstedet muligvis stadig tilgængeligt via browseren - prøv at bruge andre værktøjer som traceroute eller port checker."
+    },
+    "js": {
+        "pinging": "Pinger vært...",
+        "success": "Ping fuldført",
+        "error": "Ping mislykkedes",
+        "ping_host": "Ping vært"
+    }
+}

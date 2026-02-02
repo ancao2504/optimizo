@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "Decodificador JWT en línea: depurador de tokens web JSON gratuito",
+        "description": "Decodifica e inspecciona JSON Web Tokens (JWT). Visualiza el encabezado, payload y firma.",
+        "h1": "Decodificador JWT",
+        "subtitle": "Analiza tus JSON Web Tokens al instante"
+    },
+    "editor": {
+        "label_input": "Ingresa el Token JWT",
+        "ph_input": "eyJhbGciOiJIUzI1Ni...",
+        "btn_decode": "Decodificar JWT",
+        "btn_clear": "Limpiar",
+        "btn_example": "Ejemplo",
+        "label_payload": "Carga Útil (Payload)",
+        "label_signature": "Firma",
+        "note_signature": "⚠️ Nota: La verificación de la firma requiere la clave secreta"
+    },
+    "content": {
+        "hero_title": "Decodificador JWT Online",
+        "hero_subtitle": "Decodifica e inspecciona JSON Web Tokens (JWT) al instante",
+        "p1": "Nuestra herramienta te permite ver el contenido de cualquier JWT sin necesidad de la clave secreta.",
+        "what_title": "¿Qué es JWT?",
+        "what_desc": "JWT es un estándar abierto que define una forma compacta y autónoma para transmitir información entre partes de forma segura como un objeto JSON.",
+        "features_title": "✨ Características",
+        "features": {
+            "instant": {
+                "title": "Al Instante",
+                "desc": "Decodifica en milisegundos."
+            },
+            "structured": {
+                "title": "Vista Estructurada",
+                "desc": "Mira el encabezado, carga útil y firma por separado"
+            },
+            "privacy": {
+                "title": "Seguridad Total",
+                "desc": "El token se decodifica en tu equipo. Ideal para tokens sensibles."
+            }
+        },
+        "uses_title": "🎯 Casos de Uso Comunes",
+        "uses": {
+            "debug": {
+                "title": "🐞 Depuración",
+                "desc": "Depura problemas de autenticación inspeccionando el JWT."
+            },
+            "validate": {
+                "title": "✅ Validación",
+                "desc": "Verifica los claims y tiempos de expiración."
+            },
+            "learn": {
+                "title": "📚 Aprendizaje",
+                "desc": "Entiende la estructura y componentes de JWT."
+            },
+            "dev": {
+                "title": "🛠️ Desarrollo",
+                "desc": "Prueba la generación y análisis de JWT en tus apps."
+            }
+        },
+        "faq_title": "❓ Preguntas Frecuentes",
+        "faq": {
+            "q1": "¿Es necesario tener la clave secreta?",
+            "a1": "Para decodificar (ver el contenido) no es necesaria. Para verificar la firma (saber si fue alterado), sí.",
+            "q2": "¿Puede verificar la firma?",
+            "a2": "Solo decodifica y muestra. Verificar la firma requiere la clave secreta, que no debe compartirse.",
+            "q3": "¿Qué son los JWT claims?",
+            "a3": "Son declaraciones sobre una entidad y datos adicionales. Ejemplos comunes: \"sub\", \"exp\" e \"iat\"."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor ingresa un token JWT",
+        "error_invalid_format": "Formato de JWT inválido. Debe tener 3 partes separadas por puntos.",
+        "success_decode": "✓ JWT decodificado con éxito",
+        "error_decode": "✖ Error decodificando JWT: "
+    }
+}

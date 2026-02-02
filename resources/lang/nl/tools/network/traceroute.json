@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online - Gratis netwerkanalysetool",
+        "description": "Gratis online traceroute tool. Volg het pad van je internetverkeer naar elke server ter wereld. Identificeer vertragingen in het netwerk.",
+        "h1": "Traceroute",
+        "subtitle": "Volg de route van netwerkpakketten en identificeer verbindingsproblemen"
+    },
+    "form": {
+        "host_label": "Host of IP-adres",
+        "host_placeholder": "voorbeeld.nl",
+        "button": "Traceroute Starten",
+        "button_loading": "Bezig met traceren..."
+    },
+    "results": {
+        "title": "Traceroute Resultaten"
+    },
+    "content": {
+        "what_is_title": "Wat is Traceroute?",
+        "what_is_desc": "Traceroute is een netwerkdiagnosetool die het pad (de route) toont die een pakket aflegt van jouw computer naar een doelhost. Het geeft een lijst van alle tussenliggende routers (hops) en de tijd die nodig is om elke router te bereiken. Dit helpt bij het lokaliseren van waar vertragingen of onderbrekingen in het netwerk optreden.",
+        "why_use_title": "Waarom Traceroute gebruiken?",
+        "why_use_desc": "Traceroute is onmisbaar voor het oplossen van complexe netwerkproblemen. Het helpt je te zien of een probleem bij je eigen provider ligt, bij een internetknooppunt of bij de uiteindelijke server. Beheerders gebruiken het om netwerkpaden te optimaliseren en ISP-prestaties te controleren.",
+        "hops_title": "Begrippen bij Traceroute",
+        "hop1": "<strong>Hop:<\/strong> Elke router of tussenstation op de route.",
+        "hop2": "<strong>RTT (Round Trip Time):<\/strong> De tijd die een pakket nodig heeft om naar een hop te gaan en terug.",
+        "hop3": "<strong>Timeout (*):<\/strong> Als een hop niet reageert, wordt dit vaak getoond met een asterisk.",
+        "hop4": "<strong>IP-adres:<\/strong> Het unieke adres van elke router op het pad.",
+        "hop5": "<strong>Locatie:<\/strong> Soms kan op basis van de hostnaam de geografische locatie van een router worden geschat.",
+        "hop6": "<strong>Endpoint:<\/strong> Het uiteindelijke doel van de traceroute.",
+        "issues_title": "Problemen Identificeren",
+        "issues_desc": "Een plotselinge toename in RTT bij een specifieke hop duidt vaak op congestie of een slechte verbinding bij die router. Als de traceroute stopt voordat het doel is bereikt, kan dit wijzen op een server die offline is of een firewall die verkeer blokkeert."
+    },
+    "faq": {
+        "title": "Veelgestelde Vragen",
+        "q1": "Waarom zie ik sterretjes (*) in de resultaten?",
+        "a1": "Dit betekent dat de router op die hop geen ICMP-pakketten beantwoordt (vaak om veiligheidsredenen), ook al geeft hij het verkeer wel gewoon door.",
+        "q2": "Hoeveel hops zijn normaal?",
+        "a2": "De meeste internetbestemmingen zijn bereikbaar binnen 10 tot 20 hops. Meer hops kunnen een tragere verbinding betekenen.",
+        "q3": "Is traceroute veilig?",
+        "a3": "Ja, het verstuurt kleine pakketjes die geen schade aanrichten aan netwerken of servers."
+    }
+}

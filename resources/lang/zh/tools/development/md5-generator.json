@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "MD5 哈希生成器 - 免费在线安全工具",
+        "description": "为您的文本或数据生成 MD5 哈希值 - 快速、安全且免费",
+        "h1": "MD5 哈希生成器",
+        "subtitle": "只需一键，即可生成 128 位 MD5 哈希值"
+    },
+    "editor": {
+        "label_input": "输入内容",
+        "ph_input": "在此输入文本...",
+        "btn_generate": "生成 MD5",
+        "label_result": "MD5 哈希值",
+        "btn_copy": "复制结果"
+    },
+    "content": {
+        "hero_title": "极速 MD5 哈希生成器",
+        "hero_subtitle": "最简单的方式来保护您的数据完整性",
+        "p1": "MD5（信息摘要算法 5）是一种广泛使用的哈希函数，它能产生 128 位的指纹。虽然现在它主要用于校验文件和数据的完整性，但在开发中仍然非常实用。我们的工具支持各种字符集，并在浏览器端直接生成，确保您的原始数据永远不会被上传到服务器。",
+        "what_title": "MD5是什么？",
+        "what_desc": "MD5 是一种加密哈希函数，它接受任意长度的输入并生成固定的 128 位哈希值，通常表示为 32 个字符的十六进制数。相同的输入总是产生相同的哈希值，但即使输入的微小变化也会产生完全不同的哈希值。",
+        "features_title": "MD5 优点",
+        "features": {
+            "fast": "<strong>快速处理：<\/strong>极快的哈希生成",
+            "fixed": "<strong>固定长度：<\/strong>始终产生 128 位输出",
+            "deterministic": "<strong>确定性：<\/strong>相同的输入 = 相同的哈希值",
+            "support": "<strong>广泛支持<\/strong>：适用于所有编程语言"
+        },
+        "uses_title": "ð“Š 常见用例",
+        "uses": {
+            "verify": "<strong>文件验证：<\/strong>检查文件完整性",
+            "checksum": "<strong>校验和：<\/strong>验证下载",
+            "cache": "<strong>缓存键<\/strong>：生成唯一标识符",
+            "integrity": "<strong>数据完整性：<\/strong>检测更改"
+        },
+        "warning_title": "Ø 安全警告",
+        "warning_desc": "<strong>请勿将 MD5 用于密码散列或安全关键型应用程序！<\/strong> MD5 的加密方式已被破坏，并且容易受到冲突攻击。对于密码哈希，请使用 bcrypt、Argon2 或 PBKDF2 等现代算法。",
+        "compare_title": "MD5 与其他哈希函数对比",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128位输出",
+                "desc2": "加密速度快但不安全"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160位输出",
+                "desc2": "出于安全目的也已弃用"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256位输出",
+                "desc2": "如今安全且广泛使用"
+            }
+        },
+        "faq_title": "– 常见问题解答",
+        "faq": {
+            "q1": "MD5 对于密码来说安全吗？",
+            "a1": "不！ MD5 的密码学已被破坏，切勿用于密码散列。请改用 bcrypt、Argon2 或 PBKDF2。",
+            "q2": "我可以反转 MD5 哈希值吗？",
+            "a2": "不，MD5 是一种单向函数 - 您无法反转哈希值来获取原始输入。然而，攻击者可以使用彩虹表来查找输入。",
+            "q3": "我的数据会发送到服务器吗？",
+            "a3": "不！所有 MD5 哈希生成完全在您的浏览器中使用 JavaScript 进行。您的数据永远不会离开您的设备。"
+        }
+    },
+    "js": {
+        "error_empty": "请先输入一些文本",
+        "btn_copied": "复制了！"
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Universal Number Base Converter - Free Online Tool",
+        "description": "Convert any number between any base from 2 to 36. Truly versatile online tool for programmers, math students, and data scientists.",
+        "h1": "Number Base Converter",
+        "subtitle": "The most flexible numeric transformation tool on the web."
+    },
+    "editor": {
+        "label_from": "From Base",
+        "bases": {
+            "2": "Decimal (Base 10)",
+            "8": "Octal",
+            "10": "Decimal",
+            "16": "Hexadecimal",
+            "generic": "Base :base"
+        },
+        "label_to": "To Base",
+        "btn_swap": "Swap Bases",
+        "presets": "Quick Presets:",
+        "preset_labels": {
+            "bin_dec": "Binary → Dec",
+            "dec_hex": "Dec → Hex",
+            "hex_bin": "Hex → Binary",
+            "dec_oct": "Dec → Octal"
+        },
+        "label_input": "Input Number",
+        "ph_input": "Enter your number here...",
+        "label_output": "Resulting Value",
+        "ph_output": "Converted result will appear here...",
+        "btn_convert": "Convert Number",
+        "btn_clear": "Clear All",
+        "btn_copy": "Copy Result"
+    },
+    "content": {
+        "hero_title": "Universal Number Base Converter",
+        "hero_subtitle": "Instantly transform values between any numeric base from 2 to 36.",
+        "p1": "Our Universal Number Base Converter is a powerful, all-in-one utility designed for maximum flexibility. While most tools limit you to common bases like binary, decimal, or hex, our converter empowers you to work with any base from 2 to 36. This includes duodecimal (base 12), vigesimal (base 20), and even base 36 (digits 0-9 and letters A-Z). It is an essential companion for programmers working with custom encodings, students exploring number theory, and engineers designing unique data structures.",
+        "what_title": "What are Number Bases?",
+        "what_desc": "A number base (also known as a radix) represents the number of unique digits, including zero, that a numeric system uses to represent values. For instance, the decimal system (base 10) we use daily has ten unique digits (0-9). Computers thrive on the binary system (base 2), while developers frequently use octal (base 8) and hexadecimal (base 16) for more compact data representation. Bases higher than 10 use letters of the alphabet to represent values; for example, in base 16, A represents 10 and F represents 15.",
+        "features_title": "Primary Tool Features",
+        "features": {
+            "instant": {
+                "title": "Near-Zero Latency",
+                "desc": "Algorithms optimized for speed, delivering results as you type or click."
+            },
+            "universal": {
+                "title": "Omni-Base Support",
+                "desc": "Full freedom to choose any source and target base between 2 and 36."
+            },
+            "presets": {
+                "title": "Smart Presets",
+                "desc": "One-click shortcuts for the most common industry-standard conversions."
+            },
+            "swap": {
+                "title": "Instant Swap",
+                "desc": "Quickly reverse your From and To bases with a dedicated button."
+            },
+            "privacy": {
+                "title": "Secure Computing",
+                "desc": "Your numbers are never sent to a server; all logic runs locally in your browser."
+            },
+            "free": {
+                "title": "Free for All",
+                "desc": "No registration, no limits, and no hidden subscription fees."
+            }
+        },
+        "uses_title": "Professional Applications",
+        "uses": {
+            "programming": {
+                "title": "Full-Stack Programming",
+                "desc": "Work with custom bases for unique ID generators, data compression, and obscured identifiers."
+            },
+            "education": {
+                "title": "Computer Science Education",
+                "desc": "Visualize how numbers transition between different positional systems for academic study."
+            },
+            "crypto": {
+                "title": "Creative Cryptography",
+                "desc": "Experiment with non-standard bases for simple encoding and puzzle creation."
+            },
+            "web": {
+                "title": "Advanced Web Dev",
+                "desc": "Analyze and convert URL identifiers or unique keys that utilize higher bases like base-36."
+            }
+        },
+        "how_title": "User Operations Guide",
+        "how_steps": {
+            "1": {
+                "title": "Select To Base",
+                "desc": "Choose the target base for your conversion."
+            },
+            "2": {
+                "title": "Enter Value",
+                "desc": "Input the number strings using the allowed characters for your source base."
+            },
+            "3": {
+                "title": "Execute",
+                "desc": "Click \"Convert Number\" to process the transformation."
+            },
+            "4": {
+                "title": "Capture Result",
+                "desc": "Copy the resulting value for use in your external applications."
+            },
+            "5": {
+                "title": "Copy Result:",
+                "desc": "Click \"Copy\" to copy the converted number"
+            }
+        },
+        "faq_title": "Frequently Asked Questions",
+        "faq": {
+            "q1": "What is the highest base supported?",
+            "a1": "This converter supports all bases from 2 to 36. Base 36 uses digits 0-9 and letters A-Z, providing 36 unique symbols.",
+            "q2": "How do bases higher than 10 work?",
+            "a2": "Bases higher than 10 use letters A-Z to represent values 10-35. For example, in hexadecimal (base 16), A=10, B=11, C=12, D=13, E=14, F=15.",
+            "q3": "Can I convert negative numbers?",
+            "a3": "Yes, the converter handles negative numbers. The negative sign is preserved during conversion.",
+            "q4": "Is my data secure?",
+            "a4": "Absolutely! All conversions happen entirely in your browser using JavaScript. Your numbers never leave your device or get sent to any server."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter a number to convert.",
+        "error_invalid": "Invalid input for base :base. Only characters :chars are allowed.",
+        "error_format": "Invalid number format detected.",
+        "success_convert": "✓ Converted from base :from to base :to successfully!",
+        "error_general": "An unexpected error occurred: ",
+        "error_copy": "Nothing to copy! Please perform a conversion first.",
+        "success_copy": "✓ Copied to clipboard!"
+    }
+}

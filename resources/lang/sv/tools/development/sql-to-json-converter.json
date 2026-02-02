@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "SQL to JSON Converter - Gratis onlinedatabasverktyg",
+        "description": "Omvandla SQL INSERT-satser till JSON-arrayer omedelbart med vårt gratis onlineverktyg. Snabbt, exakt och säkert.",
+        "h1": "SQL till JSON-konverterare",
+        "subtitle": "Konvertera enkelt mellan SQL-data och JSON-objekt"
+    },
+    "editor": {
+        "btn_encode": "JSON till SQL-läge",
+        "btn_decode": "SQL till JSON-läge",
+        "label_table": "Tabellnamn",
+        "ph_table": "Ange tabellnamn (t.ex. users)",
+        "label_input_json": "JSON-inmatning",
+        "ph_input_json": "Klistra in din JSON-array här...",
+        "label_output_sql": "SQL-utdata",
+        "ph_output_sql": "Genererad SQL visas här...",
+        "label_input_sql": "SQL-inmatning",
+        "label_output_json": "JSON-utdata",
+        "btn_convert_sql": "Generera SQL",
+        "btn_convert_json": "Generera JSON",
+        "btn_clear": "Rensa",
+        "btn_copy": "Kopiera utdata"
+    },
+    "content": {
+        "hero_title": "SQL till JSON-konverterare",
+        "hero_subtitle": "Dubbelriktad konvertering för moderna utvecklare",
+        "p1": "Moderna applikationer frodas på JSON, men databaser pratar fortfarande SQL. Vår dubbelriktade konverterare överbryggar detta gap utan ansträngning. Oavsett om du behöver omvandla databasexporter till JSON för ditt API, eller JSON-data till SQL-seedningsskript, ger detta verktyg en snabb, säker och exakt lösning.",
+        "integration_title": "Sömlös integration",
+        "integration_desc": "Flytta enkelt data mellan din relationsdatabas och din webbapplikation. Vår parser hanterar standard SQL INSERT-satser och konverterar dem till strukturerade JSON-objekt, vilket bevarar datatyper och värden.",
+        "features_title": "Nyckelfunktioner",
+        "features": {
+            "instant": {
+                "title": "Omedelbara resultat",
+                "desc": "Konverteringar sker i realtid när du klickar."
+            },
+            "bidirectional": {
+                "title": "Dubbla lägen",
+                "desc": "Växla mellan SQL-till-JSON och JSON-till-SQL-lägen."
+            },
+            "security": {
+                "title": "Säker konvertering",
+                "desc": "Bearbetningen sker 100% på klientsidan för maximal integritet."
+            },
+            "custom": {
+                "title": "Ren formatering",
+                "desc": "Utdata är professionellt formaterad och redo att användas."
+            },
+            "types": {
+                "title": "Typmedvetenhet",
+                "desc": "Hanterar nollvärden, siffror och strängar korrekt."
+            },
+            "free": {
+                "title": "Helt gratis",
+                "desc": "Ingen prenumeration eller begränsning av användning."
+            }
+        },
+        "uses_title": "Vanliga användningsområden",
+        "uses": {
+            "seeding": {
+                "title": "Databasseedning",
+                "desc": "Generera snabbt SQL-skript för att fylla din utvecklingsmiljö."
+            },
+            "export": {
+                "title": "Dataexport",
+                "desc": "Konvertera SQL-frågeresultat till JSON för analys."
+            },
+            "migration": {
+                "title": "API-migrering",
+                "desc": "Förbered äldre databasdata för användning i moderna REST-API:er."
+            },
+            "testing": {
+                "title": "Mock-data",
+                "desc": "Skapa JSON-mockdata från befintliga SQL-tabeller."
+            },
+            "docs": {
+                "title": "Dokumentation",
+                "desc": "Inkludera JSON-exempel på din databasstruktur i dokumentationen."
+            },
+            "prototype": {
+                "title": "Snabb prototypering",
+                "desc": "Flytta data snabbt mellan tillstånd under utveckling."
+            }
+        },
+        "how_title": "Hur man använder",
+        "how_steps": {
+            "1": {
+                "title": "Välj läge",
+                "desc": "Välj mellan JSON till SQL eller SQL till JSON med knapparna."
+            },
+            "2": {
+                "title": "Mata in data",
+                "desc": "Klistra in din källkod i det vänstra redigeringsområdet."
+            },
+            "3": {
+                "title": "Ange tabellnamn",
+                "desc": "Om du konverterar till SQL, ange måldatabastabellen."
+            },
+            "4": {
+                "title": "Generera",
+                "desc": "Klicka på 'Generera' för att se omvandlingen direkt."
+            },
+            "5": {
+                "title": "Kopiera resultat",
+                "desc": "Använd 'Kopiera'-knappen för att hämta din utdata."
+            }
+        },
+        "samples_title": "Konverteringsexempel",
+        "samples": [
+            {
+                "title": "SQL Insert till JSON",
+                "desc": "INSERT INTO users (name, age) VALUES ('Alice', 25); → [{\"name\": \"Alice\", \"age\": 25}]"
+            },
+            {
+                "title": "JSON till SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO table (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Vanliga frågor",
+        "faq": {
+            "q1": "Vilka SQL-satser stöds?",
+            "a1": "För närvarande stöder verktyget standard INSERT INTO-satser med definierade kolumnnamn.",
+            "q2": "Är min data säker?",
+            "a2": "Ja, vi skickar aldrig din data till vår server. All logik körs i din webbläsare.",
+            "q3": "Kan jag konvertera flera rader?",
+            "a3": "Ja, verktyget hanterar flerradig SQL eller stora JSON-arrayer effektivt.",
+            "q4": "Hanterar det specialtecken?",
+            "a4": "Ja, det undantar enkla citattecken korrekt och hanterar grundläggande specialtecken."
+        }
+    },
+    "js": {
+        "error_empty": "Vänligen ange lite data att bearbeta",
+        "placeholder_table_name": "användare",
+        "error_general": "Konverteringsfel: ",
+        "error_invalid_array": "Fel: Inmatning måste vara en JSON-array av objekt.",
+        "error_empty_array": "Fel: JSON-arrayen är tom.",
+        "success_sql": "✓ SQL genererad framgångsrikt!",
+        "error_no_statements": "Inga giltiga SQL INSERT-satser hittades.",
+        "success_json": "✓ JSON genererad framgångsrikt!",
+        "error_no_copy": "Inget innehåll att kopiera.",
+        "success_copy": "✓ Utdata kopierad till urklipp!"
+    }
+}

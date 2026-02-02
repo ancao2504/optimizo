@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Reverse DNS Lookup - Gratis online IP naar domeintool",
+        "description": "Gratis online reverse DNS lookup tool. Vind direct de hostnaam die bij een IP-adres hoort. Snel, veilig en eenvoudig te gebruiken.",
+        "h1": "Omgekeerde DNS-zoekopdracht",
+        "subtitle": "Vind direct de domeinnaam of hostnaam die bij een IP-adres hoort"
+    },
+    "form": {
+        "ip_label": "Voer IP-adres in",
+        "ip_placeholder": "bijv. 8.8.8.8",
+        "button": "Reverse DNS Opzoeken",
+        "button_loading": "Bezig met zoeken..."
+    },
+    "results": {
+        "title": "Reverse DNS Resultaten"
+    },
+    "content": {
+        "what_is_title": "Wat is Reverse DNS Lookup?",
+        "what_is_desc": "Reverse DNS lookup (rDNS) is het proces waarbij de domeinnaam of hostnaam die bij een IP-adres hoort, wordt bepaald. In tegenstelling tot een gewone DNS-lookup die een domein vertaalt naar een IP, doet rDNS het omgekeerde. Het wordt vaak gebruikt om de identiteit van een server te verifiëren.",
+        "why_use_title": "Waarom Reverse DNS gebruiken?",
+        "why_use_desc": "Reverse DNS wordt breed ingezet voor beveiliging en verificatie. Het helpt bij het identificeren van de bron van inkomend verkeer en het verifiëren van e-mailzenders (om spam te voorkomen). Veel mailservers weigeren e-mails van servers zonder geldig rDNS-record.",
+        "ptr_records_title": "PTR-records Begrijpen",
+        "ptr_record1": "<strong>PTR Record:<\/strong> Een Pointer Record (PTR) is het type DNS-record dat wordt gebruikt voor reverse DNS-lookups.",
+        "ptr_record2": "<strong>Mapping:<\/strong> Het koppelt een IP-adres terug naar een hostnaam.",
+        "ptr_record3": "<strong>Verificatie:<\/strong> Cruciaal voor e-mailaflevering en beveiliging.",
+        "ptr_record4": "<strong>IP-naar-Host:<\/strong> Essentieel om de echte eigenaar van een IP-adres te identificeren.",
+        "ptr_record5": "<strong>Spampreventie:<\/strong> Gebruikt door mailservers om de echtheid van de afzender te controleren.",
+        "ptr_record6": "<strong>Netwerklogs:<\/strong> Helpt bij het leesbaar maken van logs door hostnamen te tonen in plaats van alleen IP's.",
+        "use_cases_title": "Veelvoorkomende Toepassingen",
+        "use_cases_desc": "Toepassingen zijn onder meer het verifiëren van webverkeer-bronnen, het diagnosticeren van netwerklatentie, het valideren van mailserver-configuraties en het verbeteren van cybersecurity-audits."
+    },
+    "faq": {
+        "title": "Veelgestelde Vragen",
+        "q1": "Wat is een PTR-record?",
+        "a1": "Een PTR (Pointer) record is een DNS-record dat een IP-adres koppelt aan een hostnaam. Dit is de basis van elke reverse DNS-lookup.",
+        "q2": "Waarom is reverse DNS belangrijk voor e-mail?",
+        "a2": "Providers gebruiken rDNS om te checken of de verzendende server legitiem is. Zonder match kan e-mail als spam worden gemarkeerd.",
+        "q3": "Kan elk IP een reverse DNS record hebben?",
+        "a3": "Ja, maar de eigenaar van het IP (meestal de ISP) moet dit record configureren in hun DNS-instellingen."
+    }
+}

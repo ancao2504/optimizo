@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode Encoder & Decoder - Alat Teks Online Gratis",
+        "description": "Encode dan decode escape sequence Unicode untuk JavaScript dan JSON dengan alat gratis kami.",
+        "h1": "Enkoder & Dekoder Unicode",
+        "subtitle": "Encode dan decode escape sequence Unicode untuk JavaScript dan JSON"
+    },
+    "editor": {
+        "btn_encode": "Menyandikan Unicode",
+        "btn_decode": "Dekode Unicode",
+        "label_input_encode": "Masukkan Teks untuk Dikodekan",
+        "ph_input": "Halo ä¸–ç•Œ",
+        "btn_process_encode": "Menyandikan Unicode",
+        "btn_clear": "Jernih",
+        "btn_copy": "Menyalin",
+        "label_output_encoded": "Unicode yang dikodekan",
+        "ph_output": "Unicode yang diproses akan muncul di sini...",
+        "label_input_decode": "Masukkan Unicode untuk Mendekode",
+        "label_output_decoded": "Teks yang Didekodekan",
+        "btn_process_decode": "Dekode Unicode"
+    },
+    "content": {
+        "p1": "Alat Unicode Encoder & Decoder gratis kami membantu Anda menyandikan teks ke dalam rangkaian escape Unicode (misalnya \\u0041) untuk penggunaan yang aman dalam JavaScript, JSON, dan konteks pemrograman lainnya, atau mendekodekannya kembali menjadi teks yang dapat dibaca. Sempurna untuk pengembang, analis data, dan siapa pun yang berurusan dengan rangkaian karakter internasional. 100% gratis, pemrosesan sisi klien memastikan data Anda tetap pribadi.",
+        "what_title": "Apa itu Pengkodean Unicode?",
+        "what_desc": "Pengkodean Unicode mengubah karakter menjadi titik kode Unicode yang sesuai, sering kali direpresentasikan sebagai rangkaian escape seperti \\uXXXX. Hal ini memastikan bahwa teks yang berisi karakter khusus, emoji, atau skrip non-Latin dapat direpresentasikan dengan aman di lingkungan yang biasanya hanya mendukung ASCII, seperti file kode sumber atau data JSON.",
+        "features_title": "Fitur",
+        "features": {
+            "instant": {
+                "title": "Konversi Instan",
+                "desc": "Enkode atau dekode Unicode dalam milidetik"
+            },
+            "bidirectional": {
+                "title": "Dua arah",
+                "desc": "Enkode ke format Unicode atau dekode kembali ke aslinya"
+            },
+            "privacy": {
+                "title": "Privasi Pertama",
+                "desc": "Semua pemrosesan terjadi di browser Anda"
+            },
+            "copy": {
+                "title": "Salin Sekali Klik",
+                "desc": "Salin teks yang disandikan\/didekode secara instan"
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "Tidak ada batasan, tidak perlu registrasi"
+            },
+            "universal": {
+                "title": "Dukungan Universal",
+                "desc": "Bekerja dengan semua karakter dan skrip Unicode"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Umum",
+        "uses": {
+            "programming": {
+                "title": "Pemrograman",
+                "desc": "Sematkan karakter khusus dalam JavaScript atau kode sumber Java dengan aman"
+            },
+            "data": {
+                "title": "Serialisasi Data",
+                "desc": "Pastikan transmisi karakter non-ASCII yang aman di JSON"
+            },
+            "international": {
+                "title": "Internasionalisasi",
+                "desc": "Debug dan tampilkan teks dalam berbagai bahasa dan skrip"
+            },
+            "security": {
+                "title": "Keamanan",
+                "desc": "Analisis kode atau data yang dikaburkan yang berisi pelolosan Unicode"
+            }
+        },
+        "how_to_title": "Cara Menggunakan",
+        "how_to": {
+            "step1": {
+                "title": "Pilih Modus",
+                "desc": "Pilih \"Encode Unicode\" atau \"Decode Unicode\" berdasarkan kebutuhan Anda"
+            },
+            "step2": {
+                "title": "Masukkan Teks",
+                "desc": "Tempel teks atau pelolosan Unicode Anda di kolom masukan"
+            },
+            "step3": {
+                "title": "Proses",
+                "desc": "Klik tombol encode atau decode"
+            },
+            "step4": {
+                "title": "Salin Hasil",
+                "desc": "Klik \"Salin\" untuk menyalin teks yang diproses ke clipboard"
+            },
+            "step5": {
+                "title": "Gunakan Di Mana Saja",
+                "desc": "Tempelkan hasilnya ke dalam kode atau aplikasi Anda"
+            }
+        },
+        "examples_title": "Contoh Unicode",
+        "examples": {
+            "simple": {
+                "title": "Sederhana\/ASCII:",
+                "desc": "Asli: \"A\" â†’ Dikodekan: \"\\u0041\""
+            },
+            "special": {
+                "title": "Karakter Khusus:",
+                "desc": "Asli: \"Â©\" â†’ Dikodekan: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emoji\/Multi-byte:",
+                "desc": "Asli: \"ðŸŒŸ\" â†’ Dikodekan: \"\\uD83C\\uDF1F\" (pasangan pengganti) atau \"\\u2B50\" bergantung pada representasi"
+            }
+        },
+        "faq_title": "Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Mengapa menggunakan urutan escape Unicode?",
+            "a1": "Mereka memungkinkan Anda untuk merepresentasikan karakter apa pun hanya dengan menggunakan karakter ASCII, yang memastikan kompatibilitas di berbagai sistem, pengkodean, dan transfer file yang mungkin tidak menangani Unicode mentah dengan benar.",
+            "q2": "Format apa yang digunakan?",
+            "a2": "Alat ini biasanya menggunakan format \\uXXXX gaya JavaScript\/JSON untuk karakter Bidang Multibahasa Dasar.",
+            "q3": "Apakah ini berbeda dengan pengkodean URL?",
+            "a3": "Ya. Pengkodean URL menggunakan nilai hex %XX terutama untuk URL. Pelarian Unicode menggunakan \\uXXXX dan digunakan dalam string dalam bahasa pemrograman seperti JavaScript, Java, dan Python.",
+            "q4": "Apakah data saya aman?",
+            "a4": "Ya! Semua penyandian dan penguraian kode terjadi sepenuhnya di browser Anda menggunakan JavaScript. Teks Anda tidak pernah keluar dari perangkat Anda."
+        }
+    },
+    "js": {
+        "error_empty": "Silakan masukkan teks untuk diproses",
+        "success_encode": "âœ“ Unicode berhasil dikodekan",
+        "success_decode": "âœ“ Unicode berhasil didekodekan",
+        "error_process": "âœ— Error processing Unicode: ",
+        "error_no_copy": "Tidak ada keluaran untuk disalin",
+        "success_copy": "âœ“ Disalin ke papan klip"
+    }
+}

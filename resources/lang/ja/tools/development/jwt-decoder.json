@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - 無料の JSON Web トークン デバッガー",
+        "description": "JSON Web Token (JWT) をデコードして中身を検査。ヘッダー、ペイロード、署名を視覚化します。",
+        "h1": "JWT デコーダ",
+        "subtitle": "JWT をデコードして分析 - ヘッダー、ペイロード、署名を表示"
+    },
+    "editor": {
+        "label_input": "JWT トークンを入力",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "JWT をデコード",
+        "btn_clear": "クリア",
+        "btn_example": "例を表示",
+        "label_payload": "ペイロード (Claims)",
+        "label_signature": "署名",
+        "note_signature": "⚠️ 注意: 署名の検証にはシークレットキーが必要です"
+    },
+    "content": {
+        "hero_title": "無料オンライン JWT デコーダ",
+        "hero_subtitle": "JSON Web Token を即座にデコードして検査",
+        "p1": "当ツールの無料 JWT デコーダを使用すると、JSON Web Token (JWT) をデコードして、ヘッダー、ペイロード、署名のコンポーネントを確認できます。認証問題のデバッグ、トークン構造の理解、JWT クレームの検証に最適です。",
+        "what_title": "🔍 JWT とは？",
+        "what_desc": "JSON Web Token (JWT) は、2者間でクレームを表現するためのコンパクトで URL セーフな手段です。JWT は、ドットで区切られた3つのパート、ヘッダー（アルゴリズムとトークンタイプ）、ペイロード（データ\/クレーム）、署名（検証用）で構成されています。",
+        "features_title": "✨ 主な機能",
+        "features": {
+            "instant": {
+                "title": "即時デコード",
+                "desc": "JWT をミリ秒単位でデコードします"
+            },
+            "structured": {
+                "title": "構造化された表示",
+                "desc": "ヘッダー、ペイロード、署名を個別に確認できます"
+            },
+            "privacy": {
+                "title": "プライバシー重視",
+                "desc": "すべてのデコード処理はブラウザ内で行われます"
+            }
+        },
+        "uses_title": "🎯 主な活用シーン",
+        "uses": {
+            "debug": {
+                "title": "🐞 デバッグ",
+                "desc": "JWT の中身を検査して、認証に関する問題を調査します"
+            },
+            "validate": {
+                "title": "✅ 検証",
+                "desc": "JWT のクレームや有効期限を検証します"
+            },
+            "learn": {
+                "title": "📚 学習",
+                "desc": "JWT の構造と各コンポーネントの役割を学びます"
+            },
+            "dev": {
+                "title": "🔧 開発",
+                "desc": "アプリケーションでの JWT 生成や解析のテストに活用します"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "ここで JWT をデコードしても安全ですか？",
+            "a1": "はい、デコードはすべてお使いのブラウザ内で行われ、JWT が外部に送信されることはありません。ただし、機密情報が含まれる可能性があるため、JWT を不特定多数に公開しないでください。",
+            "q2": "このツールで署名の検証はできますか？",
+            "a2": "このツールは JWT の内容を表示するもので、署名の検証にはシークレットキーが必要なため、検証機能は提供していません。",
+            "q3": "JWT クレームとは何ですか？",
+            "a3": "クレームとは、ユーザーに関する記述や追加データのことです。一般的なものに 'sub' (主体)、'exp' (有効期限)、'iat' (発行時刻) などがあります。"
+        }
+    },
+    "js": {
+        "error_empty": "JWT トークンを入力してください",
+        "error_invalid_format": "無効な JWT 形式。JWT はドットで区切られた3つのパートで構成されている必要があります。",
+        "success_decode": "✓ JWT が正常にデコードされました",
+        "error_decode": "❌ JWT デコードエラー: "
+    }
+}

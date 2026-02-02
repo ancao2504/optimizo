@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "MD5 Hash Generator - Gratis online sikkerhedsværktøj",
+        "description": "Generer MD5 hashes fra enhver tekst øjeblikkeligt",
+        "h1": "MD5 Hash Generator",
+        "subtitle": "Generer MD5 hashes fra enhver tekst øjeblikkeligt"
+    },
+    "editor": {
+        "label_input": "Indtast Tekst",
+        "ph_input": "Indtast tekst til hash...",
+        "btn_generate": "Generer MD5 Hash",
+        "label_result": "MD5 Hash",
+        "btn_copy": "Kopier"
+    },
+    "content": {
+        "hero_title": "MD5 Hash Generator",
+        "hero_subtitle": "Generer MD5 hashes fra enhver tekst øjeblikkeligt",
+        "p1": "Generer MD5 hashes fra enhver tekst, adgangskode eller datastreng øjeblikkeligt med vores gratis online MD5 hash generator. MD5 (Message-Digest Algorithm 5) er en meget brugt kryptografisk hash-funktion, der producerer en 128-bit (32-tegn hexadecimal) hash-værdi. Perfekt til verifikation af dataintegritet, checksum-generering og forståelse af hash-funktioner. Al behandling sker i din browser for fuldstændig privatliv.",
+        "what_title": "🔒 Hvad er MD5?",
+        "what_desc": "MD5 er en kryptografisk hash-funktion, der tager et input af enhver længde og producerer en hurtig 128-bit hash-værdi, typisk repræsenteret som et 32-tegn hexadecimalt tal. Det samme input producerer altid den samme hash, men selv en lille ændring i input skaber en helt anden hash.",
+        "features_title": "✅ MD5 Fordele",
+        "features": {
+            "fast": "<strong>Hurtig behandling:<\/strong> Ekstremt hurtig hashgenerering",
+            "fixed": "<strong>Hurtig Længde:<\/strong> Producerer altid 128-bit output",
+            "deterministic": "<strong>Deterministisk:<\/strong> Samme input = samme hash",
+            "support": "<strong>Bred Understøttelse:<\/strong> Tilgængelig i alle programmeringssprog"
+        },
+        "uses_title": "📊 Almindelige Anvendelser",
+        "uses": {
+            "verify": "<strong>Filverifikation:<\/strong> Tjek filintegritet",
+            "checksum": "<strong>Checksums:<\/strong> Verificer downloads",
+            "cache": "<strong>Cache Nøgler:<\/strong> Generer unikke identifikatorer",
+            "integrity": "<strong>Dataintegritet:<\/strong> Detekter ændringer"
+        },
+        "warning_title": "⚠️ Sikkerhedsadvarsel",
+        "warning_desc": "<strong>BRUG IKKE MD5 til adgangskode-hashing eller sikkerhedskritiske applikationer!<\/strong> MD5 er kryptografisk brudt og sårbar over for kollisionsangreb. Til adgangskode-hashing, brug moderne algoritmer som bcrypt, Argon2 eller PBKDF2.",
+        "compare_title": "🔄 MD5 vs Andre Hash-funktioner",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128-bit output",
+                "desc2": "Hurtig men usikker til kryptografi"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160-bit output",
+                "desc2": "Også forældet til sikkerhedsbrug"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256-bit output",
+                "desc2": "Sikker og meget brugt i dag"
+            }
+        },
+        "faq_title": "❓ Ofte Stillede Spørgsmål",
+        "faq": {
+            "q1": "Er MD5 sikker til adgangskoder?",
+            "a1": "Nej! MD5 er kryptografisk brudt og bør aldrig bruges til adgangskode-hashing. Brug bcrypt, Argon2 eller PBKDF2 i stedet.",
+            "q2": "Kan jeg vende en MD5 hash?",
+            "a2": "Nej, MD5 er en envejsfunktion - du kan ikke vende en hash for at få det oprindelige input. Dog kan angribere bruge regnbuetabeller til at finde inputs.",
+            "q3": "Sendes mine data til en server?",
+            "a3": "Nej! Al MD5 hash-generering sker helt i din browser ved hjælp af JavaScript. Dine data forlader aldrig din enhed."
+        }
+    },
+    "js": {
+        "error_empty": "Indtast venligst noget tekst",
+        "btn_copied": "Kopieret!"
+    }
+}

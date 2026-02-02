@@ -1,0 +1,83 @@
+{
+    "meta": {
+        "title": "User Agent Parser - ilmainen online-selaimen tiedot -työkalu",
+        "description": "Tunnista selain, käyttöjärjestelmä ja laite User Agent -merkkijonosta ilmaisella työkalullamme.",
+        "h1": "Käyttäjäagentin jäsentäjä",
+        "subtitle": "Tunnista selain, käyttöjärjestelmä ja laite merkkijonon perusteella"
+    },
+    "editor": {
+        "label_input": "User Agent -merkkijono",
+        "ph_input": "Mozilla\/5.0...",
+        "btn_parse": "Jäsennä",
+        "btn_use_my_ua": "Käytä omaani",
+        "label_browser": "Selain",
+        "label_os": "Käyttöjärjestelmä",
+        "label_device": "Laite",
+        "label_raw": "Raaka-tieto"
+    },
+    "content": {
+        "p1": "Pura User Agent -merkkijonot ja selvitä selain, käyttöjärjestelmä ja laiteversiot välittömästi. Hyödyllinen kehittäjille debuggaukseen.",
+        "features_title": "Ominaisuudet",
+        "features": {
+            "instant": {
+                "title": "Välitön jäsennys",
+                "desc": "Pura tiedot millisekunneissa"
+            },
+            "detailed": {
+                "title": "Yksityiskohtaiset tiedot",
+                "desc": "Selain, OS, Laite ja Moottori"
+            },
+            "auto": {
+                "title": "Tunista automaattisesti",
+                "desc": "Jäsennä oma selaintietosi yhdellä klikkauksella"
+            },
+            "free": {
+                "title": "100 % ilmainen",
+                "desc": "Rajoittamaton käyttö"
+            }
+        },
+        "uses_title": "Yleiset käyttötapaukset",
+        "uses": {
+            "debugging": {
+                "title": "Virheenkorjaus",
+                "desc": "Tunnista yksityiskohtaiset selainversiot vianmääritystä varten"
+            },
+            "analytics": {
+                "title": "Analytics",
+                "desc": "Selvitä, mitä laitteita ja käyttöjärjestelmiä käyttäjäsi käyttävät"
+            },
+            "dev": {
+                "title": "Kehitys",
+                "desc": "Tarkista käyttäjäagentin merkkijonot testauksen aikana"
+            },
+            "security": {
+                "title": "Turvallisuus",
+                "desc": "Analysoi epäilyttävät käyttäjäagenttimerkkijonot lokeissa"
+            }
+        },
+        "how_to_title": "Kuinka käyttää",
+        "how_to": {
+            "step1": {
+                "title": "Anna merkkijono",
+                "desc": "Liitä User Agent -merkkijono tai napsauta \"Käytä käyttäjäagenttiani\""
+            },
+            "step2": {
+                "title": "Jäsentää",
+                "desc": "Napsauta \"Jäsentä\" purkaaksesi merkkijonon"
+            },
+            "step3": {
+                "title": "Näytä tulokset",
+                "desc": "Katso selainta, käyttöjärjestelmää ja laitetta koskevat eritellyt tiedot"
+            }
+        },
+        "faq_title": "Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mikä on User Agent?",
+            "a1": "Se on tekstiä, jota selaimesi lähettää verkkosivuille tunnistaakseen itsensä ja laitteesi tyypin.",
+            "q2": "Onko tämä tarkka?",
+            "a2": "Kyllä, se käyttää standardeja tunnistusmalleja. Muista, että tieto on mahdollista väärentää (spoofing).",
+            "q3": "Onko datani turvassa?",
+            "a3": "Kyllä, jäsennys tapahtuu selaimessasi. Emme tallenna UA-tietojasi."
+        }
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML-encoder en -decoder - Gratis online entiteitstool",
+        "description": "Codeer en decodeer HTML-entiteiten om XSS-aanvallen te voorkomen met onze gratis online tool",
+        "h1": "HTML-encoder en -decoder",
+        "subtitle": "Codeer en decodeer HTML-entiteiten om XSS-aanvallen te voorkomen"
+    },
+    "editor": {
+        "mode_encode": "HTML coderen",
+        "mode_decode": "HTML decoderen",
+        "label_input_encode": "Voer HTML in om te coderen",
+        "ph_input_encode": "<div>Hallo & Welkom<\/div>",
+        "btn_encode": "HTML coderen",
+        "btn_clear": "Wissen",
+        "btn_copy": "Kopiëren",
+        "label_output_encode": "Gecodeerde HTML",
+        "ph_output": "Verwerkte HTML verschijnt hier...",
+        "label_input_decode": "Voer HTML in om te decoderen",
+        "label_output_decode": "Gedecodeerde HTML",
+        "btn_decode": "HTML decoderen"
+    },
+    "content": {
+        "hero_title": "Gratis HTML Encoder & Decoder",
+        "hero_subtitle": "Codeer en decodeer HTML-entiteiten om XSS-aanvallen te voorkomen",
+        "p1": "Onze gratis HTML Encoder & Decoder tool helpt u speciale tekens in HTML te coderen voor veilige weergave op webpagina's, of gecodeerde HTML terug te decoderen naar het originele formaat. Perfect voor ontwikkelaars, beveiligingsprofessionals en iedereen die met ruwe HTML werkt.",
+        "what_title": "🔗 Wat is HTML-codering?",
+        "what_desc": "HTML-codering zet tekens die een speciale betekenis hebben in HTML (zoal <, >, &, \") om in hun overeenkomstige HTML-entiteiten (zoals &lt;, &gt;, &amp;, &quot;). Dit voorkomt dat de browser ze interpreteert als HTML-tags, wat cruciaal is voor het voorkomen van Cross-Site Scripting (XSS) aanvallen.",
+        "features_title": "✨ Functies",
+        "features": {
+            "fast": {
+                "title": "Directe conversie",
+                "desc": "Codeer of decodeer HTML in milliseconden"
+            },
+            "bidirectional": {
+                "title": "Bidirectioneel",
+                "desc": "Codeer speciale tekens of decodeer entiteiten terug naar tekst"
+            },
+            "privacy": {
+                "title": "Privacy voorop",
+                "desc": "Alle verwerking vindt plaats in uw browser"
+            },
+            "copy": {
+                "title": "Kopiëren met één klik",
+                "desc": "Kopieer verwerkte HTML onmiddellijk naar het klembord"
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "Geen limieten, geen registratie vereist"
+            },
+            "safe": {
+                "title": "Beveligingsgericht",
+                "desc": "Helpt XSS-kwetsbaarheden te voorkomen"
+            }
+        },
+        "uses_title": "🎯 Veelvoorkomende gebruiksvoorbeelden",
+        "uses": {
+            "security": {
+                "title": "🔒 Beveiliging",
+                "desc": "Schoon gebruikersinvoer op om XSS-aanvallen te voorkomen door speciale tekens te coderen."
+            },
+            "display": {
+                "title": "💻 Codeweergave",
+                "desc": "Toon ruwe HTML-code op een webpagina zonder dat deze door de browser wordt gerenderd."
+            },
+            "data": {
+                "title": "📊 Gegevensopslag",
+                "desc": "Sla inhoud veilig op in databases zonder u zorgen te maken over problemen met HTML-parsing."
+            },
+            "email": {
+                "title": "📧 E-mailsjablonen",
+                "desc": "Zorg ervoor dat speciale tekens correct worden weergegeven in HTML-e-mails."
+            }
+        },
+        "how_title": "📚 Hoe te gebruiken",
+        "how_steps": {
+            "1": "Plak uw HTML of tekst in het invoerveld",
+            "2": "Klik op de verwerkingsknop om om te zetten",
+            "3": "Kopieer het resultaat naar het klembord",
+            "4": "Kopieer het gecodeerde\/gedecodeerde resultaat en gebruik het in uw HTML-, XML- of webapplicaties."
+        },
+        "examples_title": "💡 Voorbeelden van HTML-codering",
+        "examples": {
+            "1": {
+                "title": "Aanhalingstekens:",
+                "code": "\"Hallo\" → &quot;Hallo&quot;"
+            },
+            "2": {
+                "title": "Ampersand:",
+                "code": "Jan & Alleman → Jan &amp; Alleman"
+            },
+            "3": {
+                "title": "Coderen van speciale tekens",
+                "code": "&lt;script&gt;alert(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&amp;gt;"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Waarom moet ik HTML coderen?",
+            "a1": "Coderen is essentieel voor de beveiliging om te voorkomen dat de browser kwaadaardige scripts uitvoert (XSS) en om codefragmenten correct weer te geven.",
+            "q2": "Welke tekens worden gecodeerd?",
+            "a2": "Essentiële tekens zoals <, >, &, \", en ' worden altijd gecodeerd. Uitgebreide ASCII-tekens kunnen ook worden gecodeerd.",
+            "q3": "Is het omkeerbaar?",
+            "a3": "Ja, decoderen draait het proces precies om, waardoor de originele tekst wordt hersteld."
+        }
+    },
+    "js": {
+        "error_empty": "Voer HTML in om te verwerken",
+        "success_encode": "✓ HTML succesvol gecodeerd",
+        "success_decode": "✓ HTML succesvol gedecodeerd",
+        "error_process": "✗ Fout bij het verwerken van HTML: ",
+        "error_no_copy": "Geen uitvoer om te kopiëren",
+        "success_copy": "✓ Gekopieerd naar klembord"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online – Kostenloses Netzwerkanalyse-Tool",
+        "description": "Kostenloses Online-Traceroute-Tool. Analysieren Sie den Pfad von Datenpaketen über das Netzwerk zu einem Host. Schnell, sicher und einfach zu bedienen.",
+        "h1": "Traceroute",
+        "subtitle": "Das beste Traceroute-Tool für Entwickler und IT-Profis"
+    },
+    "form": {
+        "host_label": "Host oder IP-Adresse",
+        "host_placeholder": "beispiel.de oder 8.8.8.8",
+        "button": "Traceroute starten",
+        "button_loading": "Wird ausgeführt..."
+    },
+    "results": {
+        "title": "Traceroute-Ergebnisse"
+    },
+    "content": {
+        "what_is_title": "Was ist Traceroute?",
+        "what_is_desc": "Traceroute ist ein Diagnosewerkzeug, das den Pfad (die Route) und die Verzögerungszeit von Paketen IP-Netzwerke hinweg anzeigt. Es listet alle Zwischenstationen (Hops) auf, die ein Datenpaket auf dem Weg von der Quelle zum Ziel passiert.",
+        "why_use_title": "Warum Traceroute verwenden?",
+        "why_use_desc": "Traceroute hilft dabei, Netzwerkprobleme wie Engpässe, Paketverluste oder Fehlkonfigurationen im Routing zu lokalisieren. Es zeigt genau an, an welcher Stelle im Internet die Verbindung langsam wird oder abbricht.",
+        "hops_title": "Verständnis der 'Hops'",
+        "hop1": "<strong>Hop:<\/strong> Jede Zwischenstation (meist ein Router) auf dem Weg.",
+        "hop2": "<strong>Latenz:<\/strong> Die Zeit, die ein Paket benötigt, um einen Hop zu erreichen.",
+        "hop3": "<strong>IP-Adresse:<\/strong> Die Kennung jedes Routers in der Kette.",
+        "hop4": "<strong>Timeout:<\/strong> Wenn ein Hop nicht rechtzeitig antwortet (oft durch firewalls).",
+        "hop5": "<strong>Anzahl der Sprünge:<\/strong> Die Gesamtzahl der Stationen bis zum Ziel.",
+        "hop6": "<strong>Netzwerkpfad:<\/strong> Die geografische und technische Route der Daten.",
+        "issues_title": "Häufige Probleme identifizieren",
+        "issues_desc": "Hohe Latenzzeiten an einem bestimmten Hop weisen auf Überlastung hin. Ein vollständiger Abbruch (Sterne\/Timeouts) deutet darauf hin, dass ein Router ICMP-Pakete blockiert oder die Verbindung dort endet."
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen (FAQ)",
+        "q1": "Was bedeuten die drei Zeitwerte pro Hop?",
+        "a1": "Traceroute sendet standardmäßig drei Pakete pro Hop, um Schwankungen in der Antwortzeit besser sichtbar zu machen.",
+        "q2": "Warum sehe ich Sternchen ( * * * ) in den Ergebnissen?",
+        "a2": "Das bedeutet, dass der Router am jeweiligen Hop nicht auf die ICMP-Anfragen antwortet, oft aus Sicherheitsgründen oder wegen Firewall-Regeln.",
+        "q3": "Ist ein hoher Ping am Ende immer ein Problem?",
+        "a3": "Nicht unbedingt. Wenn die Zwischenstationen schnell antworten, aber der Zielhost langsam ist, liegt das Problem wahrscheinlich am Server selbst, nicht am Netzwerk."
+    }
+}

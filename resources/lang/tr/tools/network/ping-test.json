@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Çevrimiçi Ping Test Aracı - Ücretsiz Ağ Gecikme Denetleyicisi",
+        "description": "Ağ gecikmesini, paket kaybını ve sunucu erişilebilirliğini kontrol etmek için ücretsiz ping test aracı. Herhangi bir ana bilgisayara veya IP adresine olan bağlantıyı anında test edin.",
+        "h1": "Ping Testi Aracı",
+        "subtitle": "Sunucu yanıt süresini ve ağ bağlantısını anında test edin"
+    },
+    "form": {
+        "host_label": "Ana Bilgisayar veya IP Adresi",
+        "host_placeholder": "google.com veya 8.8.8.8",
+        "button": "Ping Gönder"
+    },
+    "results": {
+        "title": "Ping Sonuçları"
+    },
+    "content": {
+        "what_is_title": "Ping Testi Nedir?",
+        "what_is_desc": "Ping, bir İnternet Protokolü (IP) ağındaki bir ana bilgisayarın erişilebilirliğini test eden bir ağ tanılama aracıdır. Kaynaktan bir hedef bilgisayara gönderilen ve geri gelen mesajların gidiş-dönüş süresini ölçer. Ping, hedef ana bilgisayara İnternet Kontrol Mesajı Protokolü (ICMP) Yankı İsteği (Echo Request) paketleri göndererek ve bir Yankı Yanıtı (Echo Reply) bekleyerek çalışır. Araç, denizaltı tespitinde kullanılan sonar ping sesine benzer şekilde bir sinyal gönderip bir yanıt beklediği için bu şekilde adlandırılmıştır.",
+        "why_use_title": "Neden Ping Testi Kullanılmalı?",
+        "why_use_desc": "Ping testi, ağ sorunlarını giderme ve performans izleme için gereklidir. Sistem yöneticileri ağ bağlantısını doğrulamak, bağlantı sorunlarını teşhis etmek ve ağ gecikmesini ölçmek için ping kullanır. Bir sunucunun çevrimiçi ve yanıt verip vermediğini belirlemeye, ağ yoğunluğunu veya donanım sorunlarını gösterebilecek paket kaybını tespit etmeye ve ağ bağlantılarının kalitesini ölçmeye yardımcı olur. Oyuncular çevrimiçi oyunlara katılmadan önce sunucu gecikmesini kontrol etmek için ping kullanırken, web sitesi sahipleri optimum kullanıcı deneyimi sağlamak için sunucularının yanıt verme durumunu izler.",
+        "metrics_title": "Ping Metriklerini Anlamak",
+        "metric1": "<strong>Gönderilen\/Alınan Paketler:<\/strong> Ping isteklerinin ve başarılı yanıtların sayısı",
+        "metric2": "<strong>Packet Loss:<\/strong> Yanıt alınamayan paketlerin yüzdesi",
+        "metric3": "<strong>Minimum Süre:<\/strong> Kaydedilen en hızlı gidiş-dönüş süresi",
+        "metric4": "<strong>Ortalama Süre:<\/strong> Tüm pingler arasındaki ortalama gecikme",
+        "metric5": "<strong>Maksimum Süre:<\/strong> Kaydedilen en yavaş gidiş-dönüş süresi",
+        "metric6": "<strong>TTL (Yaşam Süresi):<\/strong> Paketin geçerliliğini yitirmeden önceki ağ atlama sayısı",
+        "interpreting_title": "Sonuçları Yorumlama",
+        "interpreting_desc": "İyi ping süreleri genellikle yerel bağlantılar için 50 ms'nin, uluslararası bağlantılar için 100 ms'nin altındadır. 100-200 ms arası süreler çoğu uygulama için kabul edilebilirdir ancak oyun veya video konferans gibi gerçek zamanlı uygulamalarda belirgin gecikmeye neden olabilir. 200 ms'nin üzerindeki her değer potansiyel ağ sorunlarına işaret eder. %1'in üzerindeki paket kaybı, araştırılması gereken ağ problemlerini gösterir. Tutarlı ping süreleri kararlı bağlantıları, değişken süreler ise ağ yoğunluğunu veya yönlendirme sorunlarını gösterir."
+    },
+    "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "q1": "İyi bir ping süresi ne olmalıdır?",
+        "a1": "Çevrimiçi oyunlar için 20-50 ms mükemmeldir. Genel kullanım için 100 ms altı iyidir. 150 ms ve üzeri bağlantıda gecikmeye neden olabilir.",
+        "q2": "Paket kaybı (Packet Loss) nedir?",
+        "a2": "Gönderilen verinin hedefe ulaşamaması veya geri dönememesidir. Cızırtılı sesler, takılan videolar veya oyunlarda kopmalara neden olur.",
+        "q3": "Neden bazı sitelere ping atamıyorum?",
+        "a3": "Bazı sunucular veya web siteleri güvenlik nedeniyle (DDoS saldırılerini önlemek için) ping isteklerini (ICMP) engeller.",
+        "q4": "Ping süresini nasıl düşürebilirim?",
+        "a4": "Ethernet kablosu kullanın, arka plandaki indirmeleri durdurun ve size coğrafi olarak daha yakın olan sunucuları tercih edin.",
+        "q5": "Ping ve Jitter arasındaki fark nedir?",
+        "a5": "Ping gecikme süresini ölçerken, Jitter bu gecikme süresindeki dalgalanmayı (istikrarsızlığı) ifade eder."
+    },
+    "js": {
+        "pinging": "Ping gönderiliyor...",
+        "success": "Bağlantı başarılı!",
+        "error": "Yanıt alınamadı.",
+        "ping_host": "Ping Gönder"
+    }
+}

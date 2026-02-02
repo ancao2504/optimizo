@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Parser i walidator JSON — bezpłatne sprawdzanie składni online",
+        "description": "Parsuj, waliduj i wizualizuj strukturę JSON",
+        "h1": "Parser i walidator JSON",
+        "subtitle": "Parsuj, waliduj i wizualizuj strukturę JSON"
+    },
+    "editor": {
+        "label_input": "Wejście JSON",
+        "ph_input": "{\"imie\": \"Jan Kowalski\", \"wiek\": 30, \"aktywny\": true}",
+        "btn_parse": "Parsuj JSON",
+        "btn_beautify": "Upiększ",
+        "btn_minify": "Minimalizuj",
+        "btn_clear": "Wyczyść",
+        "btn_load": "Załaduj przykład",
+        "title_tree": "Widok drzewa JSON"
+    },
+    "content": {
+        "hero_title": "Darmowy Parser i Walidator JSON",
+        "hero_subtitle": "Parsuj, waliduj, upiększaj i minimalizuj dane JSON natychmiastowo",
+        "p1": "Nasz darmowy Parser JSON to potężne narzędzie online dla programistów, analityków danych i każdego, kto pracuje z danymi JSON. Błyskawicznie parsuj, waliduj, upiększaj i minimalizuj JSON za pomocą przejrzystego, intuicyjnego interfejsu. Idealny do debugowania API, formatowania plików konfiguracyjnych lub walidacji struktury JSON. Przetwarzanie po stronie klienta zapewnia, że Twoje dane pozostają prywatne i bezpieczne.",
+        "what_title": "📋 Co to jest JSON?",
+        "what_desc": "JSON (JavaScript Object Notation) to lekki format wymiany danych, łatwy do czytania i pisania dla ludzi oraz łatwy do parsowania i generowania dla maszyn. Jest to najpopularniejszy format dla interfejsów API, plików konfiguracyjnych i przechowywania danych. JSON używa par klucz-wartość i obsługuje ciągi znaków, liczby, wartości logiczne, tablice i zagnieżdżone obiekty.",
+        "features_title": "✨ Funkcje",
+        "features": {
+            "validate": {
+                "title": "Walidacja JSON",
+                "desc": "Natychmiast waliduj składnię i strukturę JSON"
+            },
+            "beautify": {
+                "title": "Upiększ JSON",
+                "desc": "Formatuj JSON z odpowiednimi wcięciami i odstępami"
+            },
+            "minify": {
+                "title": "Minimalizuj JSON",
+                "desc": "Kompresuj JSON usuwając białe znaki"
+            },
+            "tree": {
+                "title": "Widok drzewa",
+                "desc": "Wizualizuj strukturę JSON w formacie drzewa"
+            },
+            "privacy": {
+                "title": "Prywatność przede wszystkim",
+                "desc": "Całe przetwarzanie odbywa się w Twojej przeglądarce"
+            },
+            "instant": {
+                "title": "Natychmiastowe wyniki",
+                "desc": "Parsuj i formatuj JSON w milisekundach"
+            }
+        },
+        "uses_title": "🎯 Typowe przypadki użycia",
+        "uses": {
+            "api": {
+                "title": "🔌 Rozwój API",
+                "desc": "Testuj i debuguj odpowiedzi API, waliduj ładunki żądań i formatuj dane JSON"
+            },
+            "config": {
+                "title": "⚙️ Pliki konfiguracyjne",
+                "desc": "Formatuj i waliduj pliki konfiguracyjne dla aplikacji, baz danych i usług"
+            },
+            "analysis": {
+                "title": "📊 Analiza danych",
+                "desc": "Parsuj i wizualizuj dane JSON z baz danych, logów i narzędzi analitycznych"
+            },
+            "debug": {
+                "title": "🐛 Debugowanie",
+                "desc": "Identyfikuj błędy składni, waliduj strukturę i rozwiązuj problemy z JSON"
+            },
+            "docs": {
+                "title": "📝 Dokumentacja",
+                "desc": "Twórz czytelne przykłady JSON dla dokumentacji API i przewodników technicznych"
+            },
+            "migration": {
+                "title": "🔄 Migracja danych",
+                "desc": "Przekształcaj i waliduj JSON podczas importu i eksportu danych"
+            }
+        },
+        "how_title": "📚 Jak używać",
+        "how_steps": [
+            "<strong>Wklej JSON:<\/strong> Skopiuj i wklej swoje dane JSON do pola wejściowego",
+            "<strong>Parsuj:<\/strong> Kliknij \"Parsuj JSON\", aby zwalidować i wizualizować strukturę",
+            "<strong>Upiększ:<\/strong> Kliknij \"Upiększ\", aby sformatować z odpowiednimi wcięciami",
+            "<strong>Minimalizuj:<\/strong> Kliknij \"Minimalizuj\", aby skompresować i usunąć białe znaki",
+            "<strong>Widok drzewa:<\/strong> Zobacz strukturę hierarchiczną w widoku drzewa"
+        ],
+        "tips_title": "💡 Najlepsze praktyki JSON",
+        "tips_list": [
+            "<strong>Używaj podwójnych cudzysłowów:<\/strong> JSON wymaga podwójnych cudzysłowów dla ciągów znaków, nie pojedynczych",
+            "<strong>Bez przecinków końcowych:<\/strong> Usuń przecinki po ostatnim elemencie w obiektach i tablicach",
+            "<strong>Właściwe typy danych:<\/strong> Używaj liczb bez cudzysłowów, wartości logicznych jako true\/false, null dla pustych wartości",
+            "<strong>Waliduj regularnie:<\/strong> Zawsze waliduj JSON przed wdrożeniem lub użyciem produkcyjnym",
+            "<strong>Upiększ dla czytelności:<\/strong> Formatuj JSON dla łatwiejszego debugowania i konserwacji"
+        ],
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Jaka jest różnica między upiększaniem a minimalizacją?",
+            "a1": "Upiększanie dodaje wcięcia i podziały linii, aby uczynić JSON czytelnym dla człowieka. Minimalizacja usuwa wszystkie białe znaki, aby zmniejszyć rozmiar pliku, co czyni go idealnym dla środowisk produkcyjnych.",
+            "q2": "Czy moje dane JSON są bezpieczne?",
+            "a2": "Tak! Całe parsowanie i formatowanie JSON odbywa się całkowicie w Twojej przeglądarce. Twoje dane nigdy nie opuszczają urządzenia i nie są wysyłane na żaden serwer.",
+            "q3": "Czy mogę parsować duże pliki JSON?",
+            "a3": "Tak, nasz parser obsługuje duże pliki JSON. Jednak bardzo duże pliki (>10MB) mogą zająć więcej czasu na przetworzenie w zależności od wydajności Twojego urządzenia.",
+            "q4": "Jakie błędy wykrywa parser?",
+            "a4": "Parser wykrywa błędy składni, takie jak brakujące cudzysłowy, przecinki końcowe, nieprawidłowe znaki, niezamknięte nawiasy i nieprawidłowe typy danych. Komunikaty o błędach pokazują dokładną lokalizację problemu.",
+            "q5": "Czy mogę używać tego do testowania API?",
+            "a5": "Oczywiście! To narzędzie jest idealne do testowania odpowiedzi API, walidacji ładunków żądań i formatowania danych JSON z wywołań API."
+        }
+    },
+    "js": {
+        "error_empty_parse": "Wprowadź dane JSON do sparsowania",
+        "success_valid": "✓ Prawidłowy JSON! Sparsowano pomyślnie",
+        "error_invalid": "✗ Nieprawidłowy JSON: ",
+        "error_empty_beautify": "Wprowadź dane JSON do upiększenia",
+        "success_beautify": "✓ JSON upiększony pomyślnie",
+        "error_beautify": "✗ Nie można upiększyć nieprawidłowego JSON: ",
+        "error_empty_minify": "Wprowadź dane JSON do minimalizacji",
+        "success_minify": "✓ JSON zminimalizowany pomyślnie",
+        "error_minify": "✗ Nie można zminimalizować nieprawidłowego JSON: ",
+        "success_load": "Załadowano przykładowy JSON"
+    }
+}

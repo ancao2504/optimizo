@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "Decodificatore JWT online: debugger di token Web JSON gratuito",
+        "description": "Decodifica e ispeziona i JSON Web Tokens (JWT) - Visualizza header, payload e firma!",
+        "h1": "Decodificatore JWT",
+        "subtitle": "Decodifica e ispeziona i JSON Web Tokens (JWT) - Visualizza header, payload e firma"
+    },
+    "editor": {
+        "label_input": "Inserisici il Token JWT",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Decodifica JWT",
+        "btn_clear": "Cancella",
+        "btn_example": "Esempio",
+        "label_payload": "Payload (Claims)",
+        "label_signature": "Firma",
+        "note_signature": "⚠️ Nota: La verifica della firma richiede la chiave segreta"
+    },
+    "content": {
+        "hero_title": "Decodificatore JWT Gratuito Online",
+        "hero_subtitle": "Decodifica e ispeziona i JSON Web Tokens all'istante",
+        "p1": "Il nostro strumento gratuito di decodifica JWT ti consente di decodificare e ispezionare i JSON Web Tokens (JWT) per visualizzare i loro componenti header, payload e firma. Perfetto per il debugging di problemi di autenticazione, la comprensione della struttura del token e la convalida dei claim JWT.",
+        "what_title": "🔍 Cos'è il JWT?",
+        "what_desc": "Il JSON Web Token (JWT) è un mezzo compatto e sicuro per l'URL per rappresentare i claim tra due parti. I JWT sono composti da tre parti: Header (algoritmo e tipo di token), Payload (claim\/dati) e Firma (verifica), separati da punti.",
+        "features_title": "✨ Caratteristiche",
+        "features": {
+            "instant": {
+                "title": "Decodifica Istantanea",
+                "desc": "Decodifica i JWT in millisecondi"
+            },
+            "structured": {
+                "title": "Vista Strutturata",
+                "desc": "Visualizza header, payload e firma separatamente"
+            },
+            "privacy": {
+                "title": "Privacy al Primo Posto",
+                "desc": "Tutta la decodifica avviene nel tuo browser"
+            }
+        },
+        "uses_title": "🎯 Casi d'Uso Comuni",
+        "uses": {
+            "debug": {
+                "title": "🪲 Debugging",
+                "desc": "Esegui il debug dei problemi di autenticazione ispezionando il contenuto del JWT"
+            },
+            "validate": {
+                "title": "✅ Convalida",
+                "desc": "Verifica i claim JWT e i tempi di scadenza"
+            },
+            "learn": {
+                "title": "📚 Apprendimento",
+                "desc": "Comprendi la struttura e i componenti del JWT"
+            },
+            "dev": {
+                "title": "🛠️ Sviluppo",
+                "desc": "Testa la generazione e il parsing dei JWT nelle tue applicazioni"
+            }
+        },
+        "faq_title": "❓ Domande Frequenti",
+        "faq": {
+            "q1": "È sicuro decodificare i JWT qui?",
+            "a1": "Sì! Tutta la decodifica avviene nel tuo browser. Il tuo JWT non lascia mai il tuo dispositivo. Tuttavia, non condividere mai i JWT pubblicamente poiché potrebbero contenere informazioni sensibili.",
+            "q2": "Questo strumento può verificare le firme JWT?",
+            "a2": "Questo strumento decodifica e visualizza i componenti JWT ma non verifica le firme, poiché ciò richiede la chiave segreta che non dovrebbe mai essere condivisa.",
+            "q3": "Cosa sono i claim JWT?",
+            "a3": "I claim sono dichiarazioni su un'entità (tipicamente l'utente) e dati aggiuntivi. I claim comuni includono 'sub' (soggetto), 'exp' (scadenza) e 'iat' (emesso il)."
+        }
+    },
+    "js": {
+        "error_empty": "Inserisci un token JWT",
+        "error_invalid_format": "Formato JWT non valido. Il JWT deve avere 3 parti separate da punti.",
+        "success_decode": "✓ JWT decodificato con successo",
+        "error_decode": "✗ Errore durante la decodifica del JWT: "
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Ping Test Tool Online - Gratis Network Latency Checker",
+        "description": "Gratis ping-testverktøy for å sjekke nettverksforsinkelse, pakketap og servertilgjengelighet. Test tilkobling til hvilken som helst vert eller IP-adresse umiddelbart. Viktig for nettverksfeilsøking.",
+        "h1": "Ping-testverktøy",
+        "subtitle": "Test serverresponstid og nettverkstilkobling"
+    },
+    "form": {
+        "host_label": "Vert eller IP-adresse",
+        "host_placeholder": "google.com eller 8.8.8.8",
+        "button": "Ping vert"
+    },
+    "results": {
+        "title": "Ping-resultater"
+    },
+    "content": {
+        "what_is_title": "Hva er en ping-test?",
+        "what_is_desc": "Ping er et nettverksdiagnoseverktøy som tester tilgjengeligheten til en vert på et IP-nettverk (Internet Protocol). Den måler rundturstiden for meldinger sendt fra kilden til en destinasjonsdatamaskin og tilbake. Ping fungerer ved å sende Internet Control Message Protocol (ICMP) Echo Request-pakker til målverten og venter på et ekkosvar. Verktøyet er oppkalt etter sonar-ping-lyden som brukes i ubåtdeteksjon, da det på samme måte sender ut et signal og lytter etter et svar.",
+        "why_use_title": "Hvorfor bruke ping-test?",
+        "why_use_desc": "Ping-testing er avgjørende for nettverksfeilsøking og ytelsesovervåking. Systemadministratorer bruker ping for å bekrefte nettverkstilkobling, diagnostisere tilkoblingsproblemer og måle nettverksforsinkelse. Det hjelper med å identifisere om en server er online og responsiv, oppdage pakketap som kan indikere nettverksoverbelastning eller maskinvareproblemer, og måle kvaliteten på nettverkstilkoblinger. Spillere bruker ping for å sjekke serverforsinkelse før de blir med på nettspill, mens nettstedeiere overvåker serverens respons for å sikre optimal brukeropplevelse.",
+        "metrics_title": "Forstå ping-målinger",
+        "metric1": "<strong>Pakker sendt\/mottatt:<\/strong> Antall ping-forespørsler og vellykkede svar",
+        "metric2": "<strong>Pakketap:<\/strong> Prosentandel av pakker som ikke mottok svar",
+        "metric3": "<strong>Minimumstid:<\/strong> Raskeste tur-retur-tid registrert",
+        "metric4": "<strong>Gjennomsnittlig tid:<\/strong> Gjennomsnittlig ventetid på tvers av alle ping",
+        "metric5": "<strong>Maksimal tid:<\/strong> Tregeste rundturstid registrert",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Antall nettverkshopp før pakken utløper",
+        "interpreting_title": "Tolking av resultater",
+        "interpreting_desc": "Gode ​​pingtider er vanligvis under 50 ms for lokale forbindelser og under 100 ms for internasjonale forbindelser. Tider mellom 100-200 ms er akseptable for de fleste applikasjoner, men kan forårsake merkbar forsinkelse i sanntidsapplikasjoner som spill eller videokonferanser. Alt over 200 ms indikerer potensielle nettverksproblemer. Pakketap over 1 % antyder nettverksproblemer som må undersøkes. Konsekvente pingtider indikerer stabile tilkoblinger, mens svært varierende tider antyder nettverksbelastning eller rutingproblemer."
+    },
+    "faq": {
+        "title": "Ofte stilte spørsmål",
+        "q1": "Hva er en ping-test?",
+        "a1": "En ping-test sender datapakker til en server og måler tiden det tar å motta et svar. Den brukes til å sjekke nettverkstilkobling, måle ventetid og diagnostisere tilkoblingsproblemer.",
+        "q2": "Hva er en god pingtid?",
+        "a2": "For generell surfing: under 100ms er bra. For spill: under 50 ms er ideelt, under 20 ms er utmerket. For videosamtaler: under 150 ms er akseptabelt. Lavere ping betyr raskere responstider.",
+        "q3": "Hvorfor er pinget mitt høyt?",
+        "a3": "Høy ping kan være forårsaket av overbelastning av nettverket, avstand til server, dårlig WiFi-signal, ISP-struping eller for mange enheter på nettverket ditt. Prøv å bruke kablet tilkobling, lukk applikasjoner med mye båndbredde, eller kontakt Internett-leverandøren din.",
+        "q4": "Hva betyr «Forespørselen ble tidsavbrutt»?",
+        "a4": "Tidsavbrudd for forespørsel betyr at serveren ikke svarte innen forventet tid. Dette kan indikere at serveren er nede, blokkerer ping-forespørsler (brannmur), eller det er et nettverkstilkoblingsproblem.",
+        "q5": "Kan jeg pinge hvilken som helst nettside?",
+        "a5": "De fleste nettsteder kan pinges, men noen servere blokkerer ICMP-pingforespørsler av sikkerhetsgrunner. Hvis ping mislykkes, kan nettstedet fortsatt være tilgjengelig via nettleseren - prøv å bruke andre verktøy som traceroute eller port checker."
+    },
+    "js": {
+        "pinging": "Pinger vert...",
+        "success": "Ping fullført",
+        "error": "Ping mislyktes",
+        "ping_host": "Ping vert"
+    }
+}

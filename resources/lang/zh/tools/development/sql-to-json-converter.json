@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "SQL 到 JSON 转换器 - 免费在线数据库工具",
+        "description": "使用我们免费的在线工具，即时将 SQL INSERT 语句转换为 JSON 数组。快速、准确且安全。",
+        "h1": "SQL 到 JSON 转换器",
+        "subtitle": "轻松在 SQL 数据与 JSON 对象之间进行转换"
+    },
+    "editor": {
+        "btn_encode": "JSON 转 SQL 模式",
+        "btn_decode": "SQL 转 JSON 模式",
+        "label_table": "表名",
+        "ph_table": "输入表名 (如：users)",
+        "label_input_json": "JSON 输入",
+        "ph_input_json": "在此粘贴您的 JSON 数组...",
+        "label_output_sql": "SQL 输出",
+        "ph_output_sql": "生成的 SQL 将显示在此处...",
+        "label_input_sql": "SQL 输入",
+        "label_output_json": "JSON 输出",
+        "btn_convert_sql": "生成 SQL",
+        "btn_convert_json": "生成 JSON",
+        "btn_clear": "清空",
+        "btn_copy": "复制结果"
+    },
+    "content": {
+        "hero_title": "SQL 转 JSON 转换器",
+        "hero_subtitle": "为现代开发者提供的双向转换工具",
+        "p1": "现代应用程序依赖 JSON，但数据库仍然使用 SQL。我们的双向转换器可以轻松填补这一鸿沟。无论您是需要将数据库导出内容转换为 API 所需的 JSON，还是将 JSON 数据转换为 SQL 填充脚本，该工具都能为您提供快速、安全且准确的解决方案。",
+        "integration_title": "无缝集成",
+        "integration_desc": "在关系型数据库和 Web 应用程序之间轻松移动数据。我们的解析器能处理标准的 SQL INSERT 语句，并将其转换为结构化的 JSON 对象，同时保留数据类型和值。",
+        "features_title": "主要功能",
+        "features": {
+            "instant": {
+                "title": "即时结果",
+                "desc": "点击按钮即可瞬间完成转换"
+            },
+            "bidirectional": {
+                "title": "双向模式",
+                "desc": "在 SQL 转 JSON 和 JSON 转 SQL 模式间自由切换"
+            },
+            "security": {
+                "title": "安全转换",
+                "desc": "100% 客户端处理，最大程度保护隐私"
+            },
+            "custom": {
+                "title": "整洁格式",
+                "desc": "输出内容经过专业格式化，可直接使用"
+            },
+            "types": {
+                "title": "类型感知",
+                "desc": "正确处理 Null 值、数字和字符串"
+            },
+            "free": {
+                "title": "完全免费",
+                "desc": "无订阅要求或使用限制"
+            }
+        },
+        "uses_title": "常见使用场景",
+        "uses": {
+            "seeding": {
+                "title": "数据库填充",
+                "desc": "快速生成 SQL 脚本以初始化您的开发环境数据。"
+            },
+            "export": {
+                "title": "数据导出",
+                "desc": "将 SQL 查询结果转换为 JSON 以进行进一步分析。"
+            },
+            "migration": {
+                "title": "API 迁移",
+                "desc": "将旧版数据库数据准备好，以便在现代 REST API 中使用。"
+            },
+            "testing": {
+                "title": "模拟数据",
+                "desc": "从现有的 SQL 表中创建 JSON 模拟数据。"
+            },
+            "docs": {
+                "title": "技术文档",
+                "desc": "在文档中包含数据库结构的 JSON 示例。"
+            },
+            "prototype": {
+                "title": "快速原型设计",
+                "desc": "在开发过程中快速变换数据状态。"
+            }
+        },
+        "how_title": "如何使用",
+        "how_steps": {
+            "1": {
+                "title": "选择模式",
+                "desc": "使用按钮选择“JSON 转 SQL”或“SQL 转 JSON”。"
+            },
+            "2": {
+                "title": "输入数据",
+                "desc": "将您的源代码粘贴到左侧编辑器区域。"
+            },
+            "3": {
+                "title": "设置表名",
+                "desc": "如果转换为 SQL，请指定目标数据库表名。"
+            },
+            "4": {
+                "title": "点击生成",
+                "desc": "点击“生成”即可立即看到转换结果。"
+            },
+            "5": {
+                "title": "复制结果",
+                "desc": "使用“复制”按钮提取输出内容。"
+            }
+        },
+        "samples_title": "转换示例",
+        "samples": [
+            {
+                "title": "SQL Insert 转 JSON",
+                "desc": "INSERT INTO users (姓名, 年龄) VALUES ('Alice', 25); → [{“姓名”：“爱丽丝”，“年龄”：25}]"
+            },
+            {
+                "title": "JSON 转 SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO 表(id) VALUES (1);"
+            }
+        ],
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "支持哪些 SQL 语句？",
+            "a1": "目前工具支持具有已定义列名的标准 INSERT INTO 语句。",
+            "q2": "我的数据安全吗？",
+            "a2": "是的，我们从不向服务器发送您的数据。所有逻辑均在您的浏览器中运行。",
+            "q3": "我可以转换多行数据吗？",
+            "a3": "是的，该工具可以高效处理多行 SQL 或大型 JSON 数组。",
+            "q4": "它能处理特殊字符吗？",
+            "a4": "是的，它能正确转义单引号并处理基本的特殊字符。"
+        }
+    },
+    "js": {
+        "error_empty": "请先输入要处理的数据",
+        "placeholder_table_name": "用户",
+        "error_general": "转换出错：",
+        "error_invalid_array": "错误：输入必须是 JSON 对象数组。",
+        "error_empty_array": "错误：JSON 数组为空。",
+        "success_sql": "✓ SQL 已成功生成！",
+        "error_no_statements": "未找到有效的 SQL INSERT 语句。",
+        "success_json": "✓ JSON 已成功生成！",
+        "error_no_copy": "没有可复制的内容。",
+        "success_copy": "✓ 已成功复制到剪贴板！"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online - Free Network Analysis Tool",
+        "description": "Free online traceroute tool. Fast, secure and easy to use.",
+        "h1": "Traceroute",
+        "subtitle": "The best traceroute for developers and IT professionals"
+    },
+    "form": {
+        "host_label": "Host or IP Address",
+        "host_placeholder": "Enter domain or IP address",
+        "button": "Start Traceroute",
+        "button_loading": "Tracing route..."
+    },
+    "results": {
+        "title": "Traceroute Results"
+    },
+    "content": {
+        "what_is_title": "What is Traceroute?",
+        "what_is_desc": "This is a free online tool to traceroute.",
+        "why_use_title": "Why Use Traceroute?",
+        "why_use_desc": "Traceroute shows the path data takes from your computer to a destination server, displaying each hop (router) along the way. It's essential for diagnosing network slowdowns, identifying routing issues, and understanding network topology.",
+        "hops_title": "Understanding Hops",
+        "hop1": "Hop 1: Your local router\/gateway",
+        "hop2": "Hop 2-3: Your ISP's network",
+        "hop3": "Hop 4-6: Regional internet backbone",
+        "hop4": "Hop 7-10: Destination ISP network",
+        "hop5": "Hop 11+: Destination server network",
+        "hop6": "Each hop adds latency - fewer hops generally means faster connection",
+        "issues_title": "Common Issues",
+        "issues_desc": "High latency at specific hops indicates congestion or routing problems. Asterisks (*) mean routers aren't responding to traceroute packets (often due to firewall rules). Packet loss at intermediate hops may not affect final destination if packets reach it successfully."
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": "What is traceroute?",
+        "a1": "Traceroute is a network diagnostic tool that tracks the path data packets take from your computer to a destination server. It shows each router (hop) along the route and measures the time taken at each step, helping identify where network delays or failures occur.",
+        "q2": "Why do some hops show asterisks (*)?",
+        "a2": "Asterisks indicate that a router didn't respond to the traceroute probe within the timeout period. This is often due to firewall configurations that block ICMP packets for security. It doesn't necessarily mean there's a problem - the packets may still reach the destination.",
+        "q3": "How many hops is normal?",
+        "a3": "Typical internet routes have 10-20 hops. Local network destinations may have 1-5 hops, while international routes can have 20-30 hops. More hops generally mean longer distances and potentially higher latency, but efficient routing matters more than hop count."
+    }
+}

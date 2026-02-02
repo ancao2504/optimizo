@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Ferramenta de teste de ping online - verificador de latência de rede gratuito",
+        "description": "Ferramenta de teste de ping gratuita para verificar a latência da rede, perda de pacotes e acessibilidade do servidor. Teste a conectividade para qualquer host ou endereço IP instantaneamente. Essencial para solução de problemas de rede.",
+        "h1": "Ferramenta de teste de ping",
+        "subtitle": "Teste o tempo de resposta do servidor e a conectividade de rede de vários locais"
+    },
+    "form": {
+        "host_label": "Host ou Endereço IP",
+        "host_placeholder": "google.com ou 8.8.8.8",
+        "button": "Fazer Ping no Host"
+    },
+    "results": {
+        "title": "Resultados do Ping para"
+    },
+    "content": {
+        "what_is_title": "O que é Teste de Ping?",
+        "what_is_desc": "O Ping é uma ferramenta de diagnóstico de rede que testa a acessibilidade de um host em uma rede de Protocolo de Internet (IP). Ele mede o tempo de ida e volta das mensagens enviadas do computador de origem para um destino e de volta. O Ping opera enviando pacotes ICMP (Internet Control Message Protocol) Echo Request ao host de destino e aguardando uma Echo Reply. A ferramenta recebeu o nome do som de ping do sonar usado na detecção de submarinos, pois envia um sinal e ouve uma resposta.",
+        "why_use_title": "Por que usar o Teste de Ping?",
+        "why_use_desc": "O teste de ping é essencial para a solução de problemas de rede e monitoramento de desempenho. Administradores de sistema usam o ping para verificar a conectividade da rede, diagnosticar problemas de conexão e medir a latência. Ele ajuda a identificar se um servidor está online e responsivo, detectar perda de pacotes que pode indicar congestionamento de rede ou problemas de hardware e medir a qualidade das conexões de rede. Jogadores usam o ping para verificar a latência do servidor antes de entrar em jogos online, enquanto proprietários de sites monitoram a capacidade de resposta de seus servidores para garantir a melhor experiência do usuário.",
+        "metrics_title": "Entendendo as Métricas de Ping",
+        "metric1": "<strong>Pacotes Enviados\/Recebidos:<\/strong> Número de solicitações de ping e respostas bem-sucedidas",
+        "metric2": "<strong>Perda de Pacotes:<\/strong> Porcentagem de pacotes que não receberam resposta",
+        "metric3": "<strong>Tempo Mínimo:<\/strong> O tempo de ida e volta mais rápido registrado",
+        "metric4": "<strong>Tempo Médio:<\/strong> A latência média de todos os pings",
+        "metric5": "<strong>Tempo Máximo:<\/strong> O tempo de ida e volta mais lento registrado",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Número de saltos de rede antes que o pacote expire",
+        "interpreting_title": "Interpretando os Resultados",
+        "interpreting_desc": "Tempos de ping baixos são tipicamente menores que 50ms para conexões locais e menores que 100ms para conexões internacionais. Tempos entre 100-200ms são aceitáveis para a maioria dos aplicativos, mas podem causar atrasos perceptíveis em aplicativos de tempo real, como jogos ou videoconferências. Qualquer valor acima de 200ms indica potenciais problemas de rede. Perda de pacotes acima de 1% sugere problemas de rede que precisam de investigação. Tempos de ping consistentes indicam conexões estáveis, enquanto tempos altamente variáveis sugerem congestionamento de rede ou problemas de roteamento."
+    },
+    "faq": {
+        "title": "Perguntas Frequentes",
+        "q1": "O que causa um ping alto?",
+        "a1": "O ping alto pode ser causado por congestionamento de rede, roteamento ineficiente do ISP, distância física do servidor, hardware de rede defeituoso ou outros aplicativos usando sua largura de banda.",
+        "q2": "O que é perda de pacotes?",
+        "a2": "A perda de pacotes ocorre quando um ou mais pacotes de dados viajando através de uma rede de computadores falham em alcançar seu destino.",
+        "q3": "Qual é a diferença entre Ping e Latência?",
+        "a3": "Muitas vezes usados como sinônimos, a latência é o tempo que leva para os dados viajarem de um ponto a outro, enquanto o ping é a medição dessa latência.",
+        "q4": "Por que alguns servidores não respondem ao ping?",
+        "a4": "Muitos servidores e roteadores são configurados para ignorar pacotes ICMP (ping) por motivos de segurança, para prevenir ataques de negação de serviço (DoS).",
+        "q5": "O que é um 'Jitter'?",
+        "a5": "Jitter é a variação no tempo de latência. Um jitter baixo significa que seu ping é estável, o que é crucial para uma boa experiência em chamadas de voz e jogos."
+    },
+    "js": {
+        "pinging": "Fazendo ping...",
+        "success": "Teste de ping concluído com sucesso",
+        "error": "Falha ao fazer ping no host. Pode estar offline ou bloqueando requisições ICMP.",
+        "ping_host": "Fazer Ping no Host"
+    }
+}

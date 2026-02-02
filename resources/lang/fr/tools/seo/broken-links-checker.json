@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Vérificateur de liens brisés - Audit de site Web en ligne gratuit",
+        "description": "Vérificateur de liens cassés gratuit pour analyser votre site web à la recherche de liens morts, d'erreurs 404 et corriger les URL cassées pour un meilleur SEO.",
+        "h1": "Vérificateur de liens brisés",
+        "subtitle": "Trouvez et réparez les liens cassés sur votre site pour un meilleur SEO et une meilleure expérience utilisateur"
+    },
+    "interface": {
+        "scan_title": "Vérificateur de liens cassés",
+        "scan_subtitle": "Trouvez les liens cassés, les redirections et plus encore.",
+        "url_label": "URL du site web",
+        "button": "Rechercher les liens cassés",
+        "button_scanning": "Analyse en cours...",
+        "legend_ok": "200 OK",
+        "legend_err": "404\/Err"
+    },
+    "progress": {
+        "extracting": "Extraction des liens...",
+        "stop": "Arrêter",
+        "processing": "Traitement séquentiel des liens...",
+        "processed": "Traité",
+        "of": "sur",
+        "links": "liens",
+        "checking": "Vérification des liens..."
+    },
+    "stats": {
+        "total": "Total des liens",
+        "working": "Fonctionnels (200)",
+        "redirects": "Redirections (3xx)",
+        "broken": "Cassés (4xx\/5xx)"
+    },
+    "results": {
+        "download": "Télécharger le rapport CSV",
+        "detailed_analysis": "Analyse détaillée",
+        "status": "Statut",
+        "link_url": "URL du lien",
+        "anchor_text": "Texte d'ancrage",
+        "type": "Type"
+    },
+    "content": {
+        "main_title": "Pourquoi vérifier les liens cassés ?",
+        "main_subtitle": "Les liens cassés nuisent à la crédibilité de votre site, à l'expérience utilisateur et aux performances SEO. Notre vérificateur de liens cassés gratuit vous aide à identifier et à réparer les liens morts avant qu'ils ne nuisent à vos classements.",
+        "what_is_title": "Qu'est-ce qu'un vérificateur de liens cassés ?",
+        "what_is_desc": "Un vérificateur de liens cassés est un outil qui analyse vos pages web pour trouver des liens qui ne fonctionnent plus (erreurs 404, erreurs de serveur ou redirections). Il vous aide à maintenir un site web sain en identifiant les liens morts qui peuvent nuire à votre SEO et à l'expérience utilisateur.",
+        "how_works_title": "Comment ça marche ?",
+        "how_works_intro": "Notre vérificateur de liens cassés suit un processus simple en 3 étapes :",
+        "how_works_step1": "<strong>Analyse :<\/strong> Entrez l'URL de votre page et nous extrairons tous les liens",
+        "how_works_step2": "<strong>Vérification :<\/strong> Nous testons chaque lien pour vérifier son statut (200, 404, 301, etc.)",
+        "how_works_step3": "<strong>Rapport :<\/strong> Obtenez un rapport détaillé montrant quels liens sont cassés et doivent être réparés",
+        "pro_tip_title": "💡 Astuce de pro :",
+        "pro_tip_desc": "Exécutez ce vérificateur régulièrement (mensuellement ou trimestriellement) pour détecter les liens cassés avant qu'ils n'affectent votre SEO. Mettez en place un calendrier de maintenance pour garder votre site en bonne santé !",
+        "types_title": "Types de liens cassés",
+        "common_causes_title": "Causes courantes des liens cassés",
+        "cc_1": "❌ <strong>Fautes de frappe dans les URL :<\/strong> Liens mal orthographiés lors de la création de contenu ou de la migration",
+        "cc_2": "❌ <strong>Pages supprimées :<\/strong> Contenu supprimé sans mise en place de redirections 301",
+        "cc_3": "❌ <strong>Restructuration du site :<\/strong> Modifications de la structure des URL lors de refontes",
+        "cc_4": "❌ <strong>Vieillissement des liens externes :<\/strong> Sites tiers supprimant ou déplaçant leur contenu",
+        "cc_5": "❌ <strong>Expiration de domaine :<\/strong> Sites web liés qui s'éteignent définitivement",
+        "cc_6": "❌ <strong>Changements de protocole :<\/strong> Migrations de HTTP vers HTTPS sans redirections appropriées",
+        "best_practices_title": ""
+    },
+    "benefits": {
+        "ux_title": "Expérience utilisateur",
+        "ux_desc": "Les liens cassés frustrent les visiteurs et augmentent le taux de rebond. Gardez vos utilisateurs satisfaits avec une navigation fluide.",
+        "seo_title": "Impact SEO",
+        "seo_desc": "Les moteurs de recherche pénalisent les sites ayant de nombreux liens cassés. Maintenez vos classements en réparant rapidement les liens morts.",
+        "maintenance_title": "Maintenance facile",
+        "maintenance_desc": "Identifiez et réparez rapidement les liens cassés avant qu'ils n'endommagent la réputation de votre site et sa visibilité dans les recherches."
+    },
+    "link_types": {
+        "type1_title": "🔴 404 Introuvable",
+        "type1_desc": "Le lien cassé le plus courant. La page n'existe plus sur le serveur.",
+        "type2_title": "🟡 Redirections 301\/302",
+        "type2_desc": "La page a été déplacée. Bien que ce ne soit pas \"cassé\", trop de redirections ralentissent votre site.",
+        "type3_title": "🔴 500 Erreurs de serveur",
+        "type3_desc": "Le serveur a rencontré une erreur. Celles-ci nécessitent une attention immédiate.",
+        "type4_title": "🟢 Erreurs de délai d'attente (Timeout)",
+        "type4_desc": "Le serveur a mis trop de temps à répondre. Cela peut indiquer des problèmes de performance."
+    },
+    "best_practices": {
+        "bp1_title": "Audits réguliers",
+        "bp1_desc": "Vérifiez votre site mensuellement pour les liens cassés, surtout après des mises à jour de contenu",
+        "bp2_title": "Utilisez des redirections 301",
+        "bp2_desc": "Lors du déplacement ou de la suppression de pages, mettez toujours en place des redirections appropriées",
+        "bp3_title": "Surveillez les liens externes",
+        "bp3_desc": "Les sites externes changent fréquemment. Vérifiez les liens sortants chaque trimestre",
+        "bp4_title": "Documentez les changements",
+        "bp4_desc": "Gardez un journal des modifications d'URL et des redirections pour référence future",
+        "bp5_title": "Réparez d'abord les liens internes",
+        "bp5_desc": "Donnez la priorité à la réparation des liens internes cassés car ils sont entièrement sous votre contrôle",
+        "bp6_title": "Utilisez des URL relatives",
+        "bp6_desc": "Pour les liens internes, utilisez des URL relatives pour éviter les problèmes lors de changements de domaine"
+    },
+    "faq": {
+        "title": "Foire aux questions",
+        "q1": "À quelle fréquence dois-je vérifier les liens cassés ?",
+        "a1": "Pour la plupart des sites web, une vérification mensuelle est suffisante. Les sites à fort trafic ou les plateformes d'e-commerce devraient vérifier chaque semaine. Après des mises à jour majeures, des refontes ou des migrations, effectuez une vérification immédiate.",
+        "q2": "Les liens cassés nuisent-ils à mon classement SEO ?",
+        "a2": "Oui, mais indirectement. Google a déclaré que quelques liens cassés ne nuiront pas directement au classement. Cependant, <strong>de nombreux liens cassés<\/strong> signalent une mauvaise maintenance du site, ce qui peut augmenter le taux de rebond, gaspiller le budget de crawl et réduire la confiance des utilisateurs.",
+        "q3": "Quelle est la différence entre les liens cassés internes et externes ?",
+        "a3": "Les <strong>liens cassés internes<\/strong> pointent vers des pages de votre propre domaine et sont entièrement sous votre contrôle. Les <strong>liens cassés externes<\/strong> pointent vers d'autres sites web. Vous devriez les mettre à jour avec des alternatives fonctionnelles ou les supprimer.",
+        "q4": "Puis-je vérifier les liens cassés pour l'ensemble de mon site web ?",
+        "a4": "Cet outil vérifie <strong>une page à la fois<\/strong> pour fournir des résultats rapides et ciblés. Pour des audits complets du site, nous recommandons de commencer par vos pages les plus importantes : page d'accueil, pages d'atterrissage principales et contenu à fort trafic.",
+        "q_what_to_do": "Que dois-je faire quand je trouve des liens cassés ?",
+        "a_what_to_do_intro": "Suivez cet ordre de priorité :",
+        "a_what_to_do_li1": "<strong>Liens internes :<\/strong> Mettez en place des redirections 301 vers la nouvelle URL ou mettez à jour le lien directement",
+        "a_what_to_do_li2": "<strong>Liens externes :<\/strong> Trouvez une page alternative fonctionnelle ou utilisez archive.org pour retrouver l'ancien contenu",
+        "a_what_to_do_li3": "<strong>Si aucune alternative :<\/strong> Supprimez le lien et mettez à jour le contenu environnant pour maintenir le flux",
+        "a_what_to_do_li4": "<strong>Documentez tout :<\/strong> Gardez un journal pour référence future et analyse des tendances"
+    },
+    "js": {
+        "stopping": "Arrêt de l'analyse...",
+        "scan_stopped": "Analyse arrêtée",
+        "scan_complete": "Analyse terminée !",
+        "error_prefix": "Erreur : ",
+        "pending": "En attente",
+        "internal": "Interne",
+        "external": "Externe"
+    }
+}

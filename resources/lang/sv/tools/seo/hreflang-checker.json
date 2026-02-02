@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker - Gratis Online Tag Validator",
+        "description": "Validera dina hreflang-taggar för att säkerställa att Google visar rätt språk- eller regions-URL:er för din publik.",
+        "h1": "Hreflang Checker",
+        "subtitle": "Gratis verktyg för att extrahera och validera hreflang-attribut för internationell SEO."
+    },
+    "form": {
+        "url_label": "Ange URL att kontrollera",
+        "url_placeholder": "https:\/\/exempel.se\/sida",
+        "user_agent_label": "Användaragent",
+        "user_agent_default": "Standard (Webbläsare)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Kontrollera Hreflang-taggar"
+    },
+    "content": {
+        "main_title": "Hreflang-taggkontroll",
+        "main_subtitle": "Se till att ditt internationella innehåll når rätt publik. Validera hreflang-implementering och fixa vanliga SEO-fel.",
+        "intro": "Hreflang-taggar är avgörande för webbplatser som betjänar flera språk eller länder. Vårt gratis verktyg extraherar och validerar `rel=\"alternate\" hreflang=\"x\"`-taggar från din sidas HTML-huvud och HTTP-rubriker. Det kontrollerar ömsesidiga (retur-)taggar för att garantera att Google och andra sökmotorer indexerar ditt lokaliserade innehåll korrekt.",
+        "features_title": "Varför kontrollera dina Hreflang-taggar?",
+        "feature1_title": "Validera ömsesidiga taggar",
+        "feature1_desc": "Hreflang-taggar måste fungera i par. Vårt verktyg kontrollerar automatiskt om sida A länkar till sida B, och om sida B länkar tillbaka till sida A.",
+        "feature2_title": "Upptäck vanliga fel",
+        "feature2_desc": "Hitta saknade returtaggar, ogiltiga språkkoder (ISO 639-1) och felaktiga landskoder (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Förhindra SEO-problem",
+        "feature3_desc": "Felaktig hreflang-implementering kan leda till problem med duplicerat innehåll och att fel språkversioner visas i sökresultat.",
+        "how_title": "Hur man använder Hreflang-kontrollen",
+        "step1_title": "Ange URL",
+        "step1_desc": "Klistra in hela URL:en för sidan du vill analysera (t.ex. https:\/\/exempel.se).",
+        "step2_title": "Välj User Agent",
+        "step2_desc": "Det rekommenderas att kontrollera med Googlebot, men du kan också kontrollera som standardwebbläsare.",
+        "step3_title": "Analysera resultat",
+        "step3_desc": "Vi hämtar sidan och listar alla hittade alternativa länkar tillsammans med deras valideringsstatus.",
+        "step4_title": "Fixa problem",
+        "step4_desc": "Om felmeddelandet 'Saknad returtagg' visas, uppdatera dina refererade sidor så att de inkluderar den ömsesidiga länken.",
+        "faq_title": "Vanliga frågor",
+        "faq1_q": "Vad är en hreflang-tagg?",
+        "faq1_a": "Hreflang är ett HTML-attribut som används för att ange språk och geografisk inriktning för en webbsida. Det berättar för sökmotorer vilken version av en sida som ska visas för användare i olika länder eller språk.",
+        "faq2_q": "Varför är returtaggar viktiga?",
+        "faq2_a": "Google kräver returlänkar för att förhindra att någon godtyckligt gör anspråk på en sida på en annan webbplats som en alternativ version av sin egen. Om sida A länkar till sida B, måste sida B länka tillbaka till sida A.",
+        "faq3_q": "Kontrollerar detta verktyg x-default-taggen?",
+        "faq3_a": "Ja, vårt verktyg identifierar och validerar `x-default` hreflang-taggen, som används för icke-matchande språk eller strikta landsväljare.",
+        "faq4_q": "Kan jag kontrollera hreflang i HTTP-rubriker?",
+        "faq4_a": "Ja! Vi kontrollerar både HTML `<head>`-sektionen och HTTP-svarsrubriker för attributet `Link: <url>; rel=\"alternate\"; hreflang=\"code\"`.",
+        "faq5_q": "Vad händer om jag har hreflang-fel?",
+        "faq5_a": "Sökmotorer kan ignorera dina ogiltiga taggar, vilket leder till att rätt språkversioner inte visas för rätt användare, eller potentiella straff för duplicerat innehåll.",
+        "faq6_q": "Är detta verktyg gratis?",
+        "faq6_a": "Ja, du kan utföra obegränsade kontroller gratis för att säkerställa att din internationella SEO är perfekt."
+    }
+}

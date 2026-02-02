@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "DNS Lookup Tool - Gratis online DNS-recordcontrole",
+        "description": "Gratis DNS lookup tool om DNS-gegevens van elk domein te controleren. Bekijk direct A, AAAA, MX, NS, TXT en CNAME records. Essentieel voor e-mail en domeinconfiguratie.",
+        "h1": "DNS-opzoektool",
+        "subtitle": "Krijg direct inzicht in nameservers, MX, A, CNAME & TXT records"
+    },
+    "form": {
+        "domain_label": "Domeinnaam",
+        "domain_placeholder": "voorbeeld.nl",
+        "button": "DNS Opzoeken"
+    },
+    "results": {
+        "title": "DNS Resultaten"
+    },
+    "content": {
+        "what_is_title": "Wat is DNS Lookup?",
+        "what_is_desc": "DNS Lookup is een tool die het Domain Name System (DNS) bevraagt om records van een domein op te halen. Deze records bevatten belangrijke informatie over de configuratie van een domein, zoals mailservers (MX-records), nameservers (NS-records), IP-adressen (A\/AAAA-records) en tekstrecord (TXT-records) voor verificatie en beveiliging.",
+        "why_use_title": "Waarom DNS Lookup gebruiken?",
+        "why_use_desc": "Een DNS-lookup is essentieel voor het oplossen van e-mailproblemen, het verifiëren van domeininstellingen, het controleren van nameservers en het valideren van SPF- en DKIM-records. Het wordt dagelijks gebruikt door systeembeheerders, webontwikkelaars en IT-professionals om de juiste werking van een website of mailserver te garanderen.",
+        "record_types_title": "DNS-recordtypen",
+        "a_record": "<strong>A Record:<\/strong> Koppelt een domein aan een IPv4-adres",
+        "aaaa_record": "<strong>AAAA Record:<\/strong> Koppelt een domein aan een IPv6-adres",
+        "mx_record": "<strong>MX Record:<\/strong> Informatie over de mailserver",
+        "ns_record": "<strong>NS Record:<\/strong> Informatie over de nameservers",
+        "txt_record": "<strong>TXT Record:<\/strong> Tekstgegevens voor verificatie",
+        "cname_record": "<strong>CNAME Record:<\/strong> Alias voor de officiële domeinnaam"
+    },
+    "faq": {
+        "title": "Veelgestelde Vragen",
+        "q1": "Hoe lang duurt het voordat DNS-wijzigingen zichtbaar zijn?",
+        "a1": "Dit hangt af van de TTL (Time To Live) instelling, maar meestal duurt het tussen de 1 en 24 uur voordat wijzigingen wereldwijd zijn doorgevoerd.",
+        "q2": "Waarom zie ik oude DNS-gegevens?",
+        "a2": "Waarschijnlijk is de oude informatie nog opgeslagen in uw browser- of computer-cache. Probeer uw DNS-cache te legen (flush DNS).",
+        "q3": "Wat is een TTL?",
+        "a3": "TTL staat voor Time To Live en geeft aan hoe lang een DNS-record door servers mag worden opgeslagen (gecached) voordat er opnieuw gezocht moet worden naar de bronoverdracht.",
+        "q4": "Waarom is een MX-record belangrijk?",
+        "a4": "Een MX-record (Mail Exchanger) vertelt andere mailservers naar welke server e-mails voor jouw domein moeten worden gestuurd.",
+        "q5": "Zijn mijn gegevens veilig bij het opzoeken?",
+        "a5": "Ja, onze tool voert alleen openbare queries uit. Wij slaan geen persoonlijke gebruiksgegevens van uw domein-opzoekingen op."
+    },
+    "js": {
+        "looking_up": "DNS wordt opgezocht...",
+        "records_label": "Records",
+        "success": "DNS succesvol opgehaald",
+        "error": "Fout bij ophalen DNS",
+        "lookup_dns": "DNS Opzoeken"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter Online - Gratis JSON Pretifier-værktøj",
+        "description": "Formater, valider og minificer dine JSON-data med vores gratis online værktøj",
+        "h1": "JSON-formater",
+        "subtitle": "Formater, valider og minificer dine JSON-data"
+    },
+    "editor": {
+        "title": "Formater Dine JSON Data",
+        "label_input": "Indtast JSON Data",
+        "ph_input": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}",
+        "help_text": "Indsæt dine JSON-data for at formatere, forskønne eller minificere det",
+        "btn_format": "Formater & Forskøn",
+        "btn_minify": "Minificer JSON",
+        "label_results": "Formateret JSON",
+        "btn_copy": "Kopier JSON"
+    },
+    "content": {
+        "why_title": "Hvorfor Bruge Vores JSON Formaterer?",
+        "why_desc": "JSON (JavaScript Object Notation) er det mest populære dataudvekslingsformat, der bruges i webudvikling, API'er og konfigurationsfiler. Vores gratis online JSON-formaterer hjælper udviklere, dataanalytikere og IT-professionelle med hurtigt at formatere, forskønne, validere og minificere JSON-data. Uanset om du fejlfinder API-svar, rydder op i konfigurationsfiler eller forbereder JSON til produktion, giver vores værktøj øjeblikkelige resultater med syntaksfremhævning og fejldetektering. Perfekt til udviklere, der arbejder med REST API'er, NoSQL-databaser og moderne webapplikationer.",
+        "features": {
+            "instant": {
+                "title": "Øjeblikkelig formatering",
+                "desc": "Formater og forskønne JSON-data på millisekunder med korrekt indrykning og syntaksfremhævning"
+            },
+            "error": {
+                "title": "Fejldetektering",
+                "desc": "Registrer og fremhæv automatisk JSON-syntaksfejl med nyttige fejlmeddelelser"
+            },
+            "privacy": {
+                "title": "100% Privat",
+                "desc": "Al behandling sker i din browser - dine JSON-data forlader aldrig din computer"
+            }
+        },
+        "how_title": "Sådan Formaterer du JSON i 3 Nemme Trin",
+        "how_steps": {
+            "1": {
+                "title": "Indsæt JSON",
+                "desc": "Kopier dine JSON-data og indsæt dem i editoren"
+            },
+            "2": {
+                "title": "Vælg Handling",
+                "desc": "Klik på \"Formater & Forskøn\" for at formatere eller \"Minificer\" for at komprimere din JSON"
+            },
+            "3": {
+                "title": "Kopier Resultat",
+                "desc": "Klik på kopieringsknappen for at kopiere den formaterede JSON til din udklipsholder"
+            }
+        },
+        "uses_title": "Almindelige JSON Formaterings Anvendelser",
+        "uses": {
+            "api": {
+                "title": "API Svar Fejlfinding",
+                "desc": "Formater rodede API-svar for nemt at læse og fejlfinde JSON-data fra REST API'er, GraphQL og webtjenester."
+            },
+            "config": {
+                "title": "Konfigurationsfiler",
+                "desc": "Ryd op i og valider JSON-konfigurationsfiler for applikationer, package.json, tsconfig.json og mere."
+            },
+            "db": {
+                "title": "Database Data",
+                "desc": "Formater JSON-data fra NoSQL-databaser som MongoDB, CouchDB og Firebase for bedre læsbarhed."
+            },
+            "export": {
+                "title": "Data Eksport\/Importer",
+                "desc": "Forbered JSON-data til eksport eller valider importerede JSON-data for at sikre korrekt struktur og syntaks."
+            }
+        },
+        "tips_title": "JSON Bedste Praksis & Tips",
+        "tips": {
+            "validate": {
+                "title": "✓ Valider Altid JSON",
+                "desc": "Brug en JSON-validator til at fange syntaksfejl før udrulning til produktion. Ugyldig JSON kan ødelægge din applikation."
+            },
+            "indent": {
+                "title": "✓ Brug Korrekt Indrykning",
+                "desc": "Formater JSON med 2 eller 4 mellemrums indrykning for bedre læsbarhed under udvikling og fejlfinding."
+            },
+            "minify": {
+                "title": "✓ Minificer til Produktion",
+                "desc": "Minificer JSON-data før udrulning til produktion for at reducere filstørrelse og forbedre indlæsningstider."
+            },
+            "naming": {
+                "title": "✓ Brug Konsekvent Navngivning",
+                "desc": "Følg camelCase eller snake_case navngivningskonventioner konsekvent gennem hele din JSON-struktur."
+            }
+        },
+        "faq_title": "❓ Ofte Stillede Spørgsmål",
+        "faq": {
+            "q1": "Er mine JSON-data sikre?",
+            "a1": "Ja, absolut. Vores JSON formaterer kører helt i din webbrowser ved hjælp af JavaScript. Dine data sendes aldrig til vores servere eller gemmes nogen steder.",
+            "q2": "Hvorfor er Minificering af JSON vigtig?",
+            "a2": "Minificering fjerner unødvendig whitespace og linjeskift, hvilket reducerer filstørrelsen betydeligt. Dette er afgørende for at forbedre API-ydeevne og reducere båndbreddeforbrug i produktionsmiljøer.",
+            "q3": "Kan jeg validere ufuldstændig JSON?",
+            "a3": "Værktøjet kræver gyldig JSON-struktur for at formatere eller minificere. Dog giver det detaljerede fejlmeddelelser for at hjælpe dig med at finde og rette problemer i dine JSON-data.",
+            "q4": "Understøtter det store JSON-filer?",
+            "a4": "Ja, værktøjet er optimeret til at håndtere store JSON-datasæt effektivt, selvom ekstremt store filer kan afhænge af din browsers hukommelsesgrænser."
+        }
+    },
+    "js": {
+        "error_empty_format": "Indtast venligst JSON data at formatere",
+        "error_invalid": "Ugyldig JSON: ",
+        "error_empty_minify": "Indtast venligst JSON data at minificere",
+        "success_copy": "Kopieret!",
+        "error_copy": "Kunne ikke kopiere. Kopier venligst manuelt."
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - 免费在线 Crontab 工具",
+        "description": "使用我们易用的生成器，轻松创建和理解 Cron 表达式。自动生成 Linux 系统任务计划。",
+        "h1": "Cron 作业生成器",
+        "subtitle": "轻松创建、解析和生成 Cron 任务定时方案"
+    },
+    "editor": {
+        "common_settings": "通用设置",
+        "choose": "-  选择  -",
+        "options": {
+            "every_minute": "每分钟 (* * * * *)",
+            "every_5_minutes": "每 5 分钟 (*\/5 * * * *)",
+            "every_15_minutes": "每 15 分钟一次 (*\/15 * * * *)",
+            "every_30_minutes": "每 30 分钟 (*\/30 * * * *)",
+            "every_hour": "每小时 (0 * * * *)",
+            "every_day_midnight": "每天午夜 (0 0 * * *)",
+            "every_week": "每周 (0 0 * * 0)",
+            "every_month": "每个月 (0 0 1 * *)"
+        },
+        "minute": "分钟",
+        "every_minute": "每分钟 (*)",
+        "hour": "小时",
+        "every_hour": "每小时 (*)",
+        "day": "天",
+        "every_day": "每天 （*）",
+        "month": "月",
+        "every_month": "每个月 (*)",
+        "weekday": "工作日",
+        "every_weekday": "每个工作日 (*)",
+        "command": "运行命令",
+        "ph_command": "例如：php artisan schedule:run",
+        "generated_cron": "生成的 Cron 表达式",
+        "btn_copy": "复制 Cron 任务",
+        "btn_clear": "重置"
+    },
+    "content": {
+        "hero_title": "直观的 Cron Job 生成器",
+        "p1": "Cron 表达式对于管理和开发人员来说往往难以理解。我们的免费在线 Cron Job 生成器通过提供直观的界面，简化了自动化 Linux 任务的过程。无论您需要每小时、每天还是在特定的星期几运行脚本，我们的工具都能即时生成正确的表达式，并附带人类可读的解析。",
+        "features": {
+            "visual": {
+                "title": "可视化编辑器",
+                "desc": "使用简单的界面选择分钟、小时、天和月"
+            },
+            "readable": {
+                "title": "人类可读",
+                "desc": "将 cron 表达式转换为简单的英语描述"
+            }
+        },
+        "syntax_title": "📚 理解 Cron 语法",
+        "syntax_intro": "一个 cron 表达式由 5 个以空格分隔的字段组成：",
+        "syntax_fields": {
+            "min": "分钟（0-59）",
+            "hour": "小时（0-23）",
+            "day": "每月的某一天 (1-31)",
+            "month": "月份（1-12）",
+            "week": "星期几（0-6，星期日=0）"
+        },
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "什么是 Cron Job？",
+            "a1": "Cron Job 是类 Unix 系统中的定时任务调度程序，允许用户在指定的时间、日期或间隔自动运行命令或脚本。",
+            "q2": "如何将定时任务添加到我的服务器？",
+            "a2": "在您的 Linux 终端运行 `crontab -e` 命，然后将我们生成的这一行粘贴到文件底部并保存。",
+            "q4": "星号 (*) 是什么意思？",
+            "a4": "星号的意思是“每一个”。例如，分钟字段中的星号表示“每分钟”。"
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron 任务已复制到剪贴板！",
+        "no_copy": "没有要复制的 cron 表达式"
+    }
+}

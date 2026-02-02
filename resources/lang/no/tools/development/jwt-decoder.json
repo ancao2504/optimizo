@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - Gratis JSON Web Token Debugger",
+        "description": "Dekod og inspiser JSON Web Tokens (JWT) - Se overskrift, nyttelast og signatur!",
+        "h1": "JWT-dekoder",
+        "subtitle": "Dekod og inspiser JSON Web Tokens (JWT) – Se overskrift, nyttelast og signatur!"
+    },
+    "editor": {
+        "label_input": "Skriv inn JWT-token",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Dekod JWT",
+        "btn_clear": "Klar",
+        "btn_example": "Eksempel",
+        "label_payload": "Nyttelast (krav)",
+        "label_signature": "Signatur",
+        "note_signature": "âš ï¸ Merk: Signaturverifisering krever den hemmelige nøkkelen"
+    },
+    "content": {
+        "hero_title": "Gratis JWT-dekoder online",
+        "hero_subtitle": "Dekode og inspiser JSON Web Tokens umiddelbart",
+        "p1": "Vårt gratis JWT-dekoderverktøy lar deg dekode og inspisere JSON Web Tokens (JWT) for å se overskriften, nyttelasten og signaturkomponentene deres. Perfekt for å feilsøke autentiseringsproblemer, forstå tokenstruktur og validere JWT-påstander.",
+        "what_title": "ðŸ” Hva er JWT?",
+        "what_desc": "JSON Web Token (JWT) er en kompakt, URL-sikker måte å representere krav mellom to parter. JWT-er består av tre deler: Header (algoritme og tokentype), nyttelast (krav\/data) og signatur (verifisering), atskilt med prikker.",
+        "features_title": "âœ¨ Funksjoner",
+        "features": {
+            "instant": {
+                "title": "Øyeblikkelig dekoding",
+                "desc": "Dekod JWT-er i millisekunder"
+            },
+            "structured": {
+                "title": "Strukturert visning",
+                "desc": "Se overskrift, nyttelast og signatur separat"
+            },
+            "privacy": {
+                "title": "Personvern først",
+                "desc": "All dekoding skjer i nettleseren din"
+            }
+        },
+        "uses_title": "🎯 Vanlige brukstilfeller",
+        "uses": {
+            "debug": {
+                "title": "ðŸ› Feilsøking",
+                "desc": "Feilsøk autentiseringsproblemer ved å inspisere JWT-innhold"
+            },
+            "validate": {
+                "title": "âœ... Validering",
+                "desc": "Bekreft JWT-krav og utløpstider"
+            },
+            "learn": {
+                "title": "📚 Læring",
+                "desc": "Forstå JWT struktur og komponenter"
+            },
+            "dev": {
+                "title": "🔧 Utvikling",
+                "desc": "Test JWT-generering og parsing i applikasjonene dine"
+            }
+        },
+        "faq_title": "â“ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Er det trygt å dekode JWT-er her?",
+            "a1": "Ja! All dekoding skjer i nettleseren din. Din JWT forlater aldri enheten din. Del imidlertid aldri JWT-er offentlig, da de kan inneholde sensitiv informasjon.",
+            "q2": "Kan dette verktøyet verifisere JWT-signaturer?",
+            "a2": "Dette verktøyet dekoder og viser JWT-komponenter, men verifiserer ikke signaturer, da det krever den hemmelige nøkkelen som aldri skal deles.",
+            "q3": "Hva er JWT-påstander?",
+            "a3": "Påstander er utsagn om en enhet (vanligvis brukeren) og tilleggsdata. Vanlige påstander inkluderer 'sub' (emne), 'exp' (utløp) og 'iat' (utstedt på)."
+        }
+    },
+    "js": {
+        "error_empty": "Vennligst skriv inn et JWT-token",
+        "error_invalid_format": "Ugyldig JWT-format. JWT skal ha 3 deler atskilt med prikker.",
+        "success_decode": "âœ“ JWT dekodet vellykket",
+        "error_decode": "✗ Feil ved dekoding av JWT:"
+    }
+}

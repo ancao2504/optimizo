@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Instrumentul de testare Ping Online - Verificator gratuit de latență a rețelei",
+        "description": "Unealtă gratuită de testare ping pentru a verifica latența rețelei, pierderea de pachete și accesibilitatea serverului.",
+        "h1": "Instrument de testare Ping",
+        "subtitle": "Măsoară timpul de răspuns al serverului și stabilitatea conexiunii"
+    },
+    "form": {
+        "host_label": "Gazdă sau Adresă IP",
+        "host_placeholder": "google.com sau 8.8.8.8",
+        "button": "Ping Gazdă"
+    },
+    "results": {
+        "title": "Rezultate Ping pentru"
+    },
+    "content": {
+        "what_is_title": "Ce este un Test Ping?",
+        "what_is_desc": "Ping este un instrument de diagnosticare a rețelei care testează dacă o gazdă (host) este accesibilă pe o rețea IP. Acesta măsoară timpul dus-întors (round-trip time) pentru mesajele trimise de la sursă la destinație și înapoi. Funcționează prin trimiterea unor pachete ICMP Echo Request și așteptarea unui răspuns Echo Reply.",
+        "why_use_title": "De ce să folosești Testul Ping?",
+        "why_use_desc": "Testul ping este esențial pentru monitorizarea performanței. Administratorii îl folosesc pentru a verifica dacă un server este online, pentru a detecta pierderile de pachete care indică congestie sau probleme hardware și pentru a măsura latența. Jucătorii online folosesc ping-ul pentru a verifica întârzierea față de servere înainte de a se conecta.",
+        "metrics_title": "Înțelegerea Metricilor Ping",
+        "metric1": "<strong>Pachete Trimise\/Primite:<\/strong> Numărul de cereri și răspunsuri reușite",
+        "metric2": "<strong>Pierdere Pachete:<\/strong> Procentul de pachete care nu au primit răspuns",
+        "metric3": "<strong>Timp Minim:<\/strong> Cea mai rapidă reacție înregistrată",
+        "metric4": "<strong>Timp Mediu:<\/strong> Latența medie pe durata testului",
+        "metric5": "<strong>Timp Maxim:<\/strong> Cel mai lent răspuns înregistrat",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Numărul de noduri prin care a trecut pachetul",
+        "interpreting_title": "Interpretarea Rezultatelor",
+        "interpreting_desc": "Un ping bun este sub 50ms pentru conexiuni locale și sub 100ms pentru cele internaționale. Valorile între 100-200ms sunt acceptabile pentru majoritatea aplicațiilor, dar pot cauza 'lag' în jocuri sau conferințe video. Peste 200ms indică probleme de rețea. Pierderea de pachete peste 1% sugerează defecțiuni care trebuie investigate."
+    },
+    "faq": {
+        "title": "Întrebări Frecvente Ping",
+        "q1": "De ce am ping-ul mare în jocuri?",
+        "a1": "Ping-ul mare poate fi cauzat de distanța față de server, congestia rețelei tale, descărcări active în fundal sau probleme la furnizorul tău de internet.",
+        "q2": "Ce înseamnă pierderea de pachete (packet loss)?",
+        "a2": "Înseamnă că fragmente de date trimise nu ajung la destinație, ceea ce duce la întreruperi audio\/video sau deconectări.",
+        "q3": "Ping-ul depinde de viteza de internet?",
+        "a3": "Nu direct. Poți avea viteză mare de download dar latență (ping) mare dacă traseul datelor este ineficient.",
+        "q4": "De ce unele servere nu răspund la ping?",
+        "a4": "Din motive de securitate, multe servere și firewall-uri sunt configurate să ignore pachetele ICMP (ping) pentru a preveni atacurile.",
+        "q5": "Care este diferența dintre ping și latență?",
+        "a5": "Ping-ul este instrumentul sau acțiunea de a măsura, în timp ce latența este timpul efectiv măsurat în milisecunde."
+    },
+    "js": {
+        "pinging": "Se trimit pachete ping...",
+        "success": "Test completat cu succes",
+        "error": "Gazda nu a răspuns sau adresa este invalidă",
+        "ping_host": "Ping Gazdă"
+    }
+}

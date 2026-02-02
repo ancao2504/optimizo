@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": "XML 到 CSV 转换器 - 免费在线数据提取器",
+        "description": "免费的在线 XML 转 CSV 转换工具。快速、安全且易于使用。",
+        "h1": "XML 到 CSV 转换器",
+        "subtitle": "为开发者和 IT 专业人员打造的最佳 XML 转 CSV 转换器"
+    },
+    "editor": {
+        "btn_convert": "转换为 CSV",
+        "btn_clear": "清空",
+        "btn_copy": "复制",
+        "btn_example": "加载示例",
+        "label_input": "输入 XML",
+        "ph_input": "<data><row><name>张三<\/name><age>30<\/age><\/row><\/data>",
+        "label_output": "CSV 输出",
+        "ph_output": "转换后的 CSV 将显示在此处..."
+    },
+    "content": {
+        "p1": "我们的免费 XML 转 CSV 转换器可将结构化的 XML 数据转换为逗号分隔值格式。非常适合将 XML 数据导入 Excel、Google 表格、数据库和数据分析工具。在几秒钟内将复杂的 XML 结构转换为简单的表格 CSV 格式。",
+        "what_title": "什么是 XML 转 CSV 转换？",
+        "what_desc": "XML 转 CSV 转换将结构化的可扩展标记语言 (XML) 数据转换为逗号分隔值 (CSV) 格式。虽然 XML 非常适合复杂的数据结构和 API，但 CSV 更简单，且被电子表格应用程序普遍支持，非常适合数据分析、报告和导入\/导出操作。",
+        "features_title": "功能特性",
+        "features": {
+            "fast": {
+                "title": "极速转换",
+                "desc": "通过优化的解析即时完成 XML 到 CSV 的转换"
+            },
+            "secure": {
+                "title": "100% 安全",
+                "desc": "所有处理均在本地完成 - 您的数据绝不外泄"
+            },
+            "copy": {
+                "title": "快速复制",
+                "desc": "一键将 CSV 输出复制到剪贴板"
+            },
+            "smart": {
+                "title": "智能解析",
+                "desc": "自动从 XML 的 row 元素中提取数据"
+            },
+            "free": {
+                "title": "完全免费",
+                "desc": "无限制，无需注册，永久免费"
+            },
+            "excel": {
+                "title": "完美支持 Excel",
+                "desc": "输出结果可完美在 Excel 和 Google 表格中运行"
+            }
+        },
+        "uses_title": "常见使用场景",
+        "uses": {
+            "analysis": {
+                "title": "数据分析",
+                "desc": "将 XML 报告和数据导出转换为 CSV，以便在 Excel、Google 表格或 BI 工具中进行分析。"
+            },
+            "migration": {
+                "title": "系统迁移",
+                "desc": "将旧系统的 XML 数据转换为 CSV，以便导入到现代数据库和应用程序。"
+            },
+            "reporting": {
+                "title": "报表制作",
+                "desc": "将 XML 格式的 API 响应转换为 CSV，以便创建报表和仪表盘。"
+            },
+            "db": {
+                "title": "数据库导入",
+                "desc": "将 XML 导出内容转换为 CSV，以便批量导入 SQL 数据库。"
+            },
+            "email": {
+                "title": "邮件列表",
+                "desc": "将 XML 联系人数据转换为 CSV，供电子邮件营销平台使用。"
+            },
+            "cleaning": {
+                "title": "数据清洗",
+                "desc": "将 XML 转换为 CSV，以便在电子表格中更轻松地进行数据清理和处理。"
+            }
+        },
+        "how_to_title": "如何将 XML 转换为 CSV",
+        "how_to": {
+            "step1": {
+                "title": "粘贴您的 XML 数据",
+                "desc": "从源文件中复制 XML 数据并将其粘贴到左侧输入框中。"
+            },
+            "step2": {
+                "title": "点击转换",
+                "desc": "点击“转换为 CSV”按钮进行即时处理。"
+            },
+            "step3": {
+                "title": "复制并使用",
+                "desc": "转换后的 CSV 将显示在右侧。点击“复制”将其粘贴到 Excel 或任何应用中。"
+            }
+        },
+        "example_title": "转换示例",
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "这个转换器免费吗？",
+            "a1": "是的，我们的 XML 转 CSV 转换器完全免费使用。",
+            "q2": "我的数据安全吗？",
+            "a2": "是的，所有处理均在您的浏览器中完成。您的数据永远不会发送到我们的服务器。",
+            "q3": "它支持大型 XML 文件吗？",
+            "a3": "是的，它可以处理大型 XML 文件，但处理超大文件可能需要一点时间。",
+            "q4": "如何处理属性 (Attributes)？",
+            "a4": "目前该工具主要专注于标签内容。属性支持计划在未来更新中加入。"
+        },
+        "best_practices_title": "最佳实践",
+        "best_practices": [
+            {
+                "title": "格式规范的 XML",
+                "desc": "确保您的 XML 格式正确，且包含重复的 <row> 元素以获得最佳效果。"
+            },
+            {
+                "title": "浏览器本地处理",
+                "desc": "由于它运行在您的浏览器中，您的数据将保持私密且安全。"
+            },
+            {
+                "title": "保留原始数据备份",
+                "desc": "在转换前，请务必保留一份原始 XML 数据的备份。"
+            }
+        ]
+    },
+    "js": {
+        "error_empty": "请先输入 XML 数据",
+        "error_no_row": "在 XML 中未找到 <row> 元素",
+        "success_convert": "✓ XML 已成功转换为 CSV！",
+        "error_process": "✗ 出错：",
+        "error_no_copy": "没有可复制的输出结果",
+        "success_copy": "✓ 已成功复制到剪贴板！"
+    }
+}

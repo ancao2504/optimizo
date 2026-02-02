@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT 디코더 온라인 - 무료 JSON 웹 토큰 디버거",
+        "description": "JWT(JSON Web Token)를 즉시 분석하고 디코딩하세요. 헤더, 페이로드 및 서명을 확인하는 무료 온라인 도구.",
+        "h1": "JWT 디코더",
+        "subtitle": "JSON Web Token을 즉시 분석하고 디코딩하세요"
+    },
+    "editor": {
+        "label_input": "JWT 토큰 입력",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "디코딩",
+        "btn_clear": "초기화",
+        "btn_example": "Example",
+        "label_payload": "페이로드 (Payload)",
+        "label_signature": "서명 (Signature) - 원시 데이터",
+        "note_signature": "âš ï¸ Note: Signature verification requires the secret key"
+    },
+    "content": {
+        "hero_title": "전문가용 JWT 디코더 및 분석기",
+        "hero_subtitle": "Decode and inspect JSON Web Tokens instantly",
+        "p1": "JSON Web Token(JWT)은 현대 웹 애플리케이션의 인증과 정보 교환을 위한 핵심 규격입니다. 당사의 JWT 디코더는 암호화된 토큰을 시각적으로 분리하여 헤더의 알고리즘 정보와 페이로드의 사용자 데이터를 직관적으로 보여줍니다. 모든 처리는 브라우저 상에서만 안전하게 진행됩니다.",
+        "what_title": "ðŸ” What is JWT?",
+        "what_desc": "JSON Web Token (JWT) is a compact, URL-safe means of representing claims between two parties. JWTs consist of three parts: Header (algorithm and token type], Payload (claims\/data], and Signature (verification], separated by dots.",
+        "features_title": "âœ¨ Features",
+        "features": {
+            "instant": {
+                "title": "실시간 디코딩",
+                "desc": "토큰을 입력하는 즉시 지연 없이 데이터가 분석되어 표시됩니다."
+            },
+            "structured": {
+                "title": "Structured View",
+                "desc": "See header, payload, and signature separately"
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All decoding happens in your browser"
+            }
+        },
+        "uses_title": "ðŸŽ¯ Common Use Cases",
+        "uses": {
+            "debug": {
+                "title": "ðŸ› Debugging",
+                "desc": "Debug authentication issues by inspecting JWT contents"
+            },
+            "validate": {
+                "title": "âœ… Validation",
+                "desc": "Verify JWT claims and expiration times"
+            },
+            "learn": {
+                "title": "ðŸ“š Learning",
+                "desc": "Understand JWT structure and components"
+            },
+            "dev": {
+                "title": "ðŸ”§ Development",
+                "desc": "Test JWT generation and parsing in your applications"
+            }
+        },
+        "faq_title": "❓ JWT 관련 자주 묻는 질문",
+        "faq": {
+            "q1": "여기서 디코딩하면 실제 데이터가 보이는데 안전한가요?",
+            "a1": "JWT는 암호화가 아니라 '서명'된 데이터입니다. 따라서 누구나 디코딩하여 내용을 볼 수 있으므로 민감한 비밀번호 등은 포함하지 않는 것이 원칙입니다.",
+            "q2": "서명 검증도 가능한가요?",
+            "a2": "현재 도구는 토큰의 내용을 '해석(Reading)'하는 것에 집중하고 있습니다. 서명 원시 데이터 확인은 가능합니다.",
+            "q3": "유효기간(exp) 확인이 되나요?",
+            "a3": "네, 페이로드 영역에 포함된 'exp' 필드를 통해 토큰의 만료 시간을 확인할 수 있습니다."
+        }
+    },
+    "js": {
+        "error_empty": "디코딩할 토큰을 입력하세요",
+        "error_invalid_format": "Invalid JWT format. JWT should have 3 parts separated by dots.",
+        "success_decode": "✓ 토큰이 성공적으로 분석되었습니다!",
+        "error_decode": "âœ— Error decoding JWT: "
+    }
+}

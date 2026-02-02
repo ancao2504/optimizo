@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Ping-testityökalu verkossa – ilmainen verkon latenssitarkistus",
+        "description": "Ilmainen ping-testi palvelimen vasteajan, pakettihävikin ja saavutettavuuden tarkistamiseen. Välttämätön verkon vianetsinnässä.",
+        "h1": "Ping-testityökalu",
+        "subtitle": "Testaa palvelimen vasteaika useista sijainneista"
+    },
+    "form": {
+        "host_label": "Isäntä tai IP-osoite",
+        "host_placeholder": "google.fi tai 8.8.8.8",
+        "button": "Pingaa isäntää"
+    },
+    "results": {
+        "title": "Ping-tulokset"
+    },
+    "content": {
+        "what_is_title": "Mikä on ping-testi?",
+        "what_is_desc": "Ping on verkkodiagnostiikka-työkalu, joka testaa isännän saavutettavuutta IP-verkossa. Se mittaa aikaa, joka kuluu viestin lähettämiseen lähteestä kohteeseen ja takaisin (viive). Ping lähettää ICMP Echo Request -paketteja ja odottaa vastausta (Echo Reply). Nimi tulee kaikuluotaimen äänestä.",
+        "why_use_title": "Miksi käyttää pingiä?",
+        "why_use_desc": "Ping-testaus on elintärkeää verkon vianetsinnässä. Ylläpitäjät varmistavat sillä yhteydet ja mittaavat viivettä. Se auttaa tunnistamaan, onko palvelin verkossa ja havaitsemaan pakettihävikkiä. Pelaajat tarkistavat sillä viiveen ennen peliin liittymistä.",
+        "metrics_title": "Ping-mittarit",
+        "metric1": "<strong>Lähetetyt\/vastaanotetut paketit:<\/strong> Onnistuneiden kyselyiden määrä",
+        "metric2": "<strong>Pakettihävikki:<\/strong> Prosenttiosuus paketeista, jotka eivät saaneet vastausta",
+        "metric3": "<strong>Minimiaika:<\/strong> Nopein tallennettu vasteaika",
+        "metric4": "<strong>Keskiarvoaika:<\/strong> Viiveiden keskiarvo",
+        "metric5": "<strong>Maksimiaika:<\/strong> Hitain tallennettu vasteaika",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Verkko-hyppyjen määrä ennen paketin vanhenemista",
+        "interpreting_title": "Tulosten tulkinta",
+        "interpreting_desc": "Hyvä ping-aika on yleensä alle 50 ms paikallisesti ja alle 100 ms kansainvälisesti. Yli 200 ms viive kertoo mahdollisista ongelmista tai ruuhkasta."
+    },
+    "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "q1": "Mikä on ping-testi?",
+        "a1": "Ping-testi lähettää datapaketteja palvelimelle ja mittaa aikaa, joka kestää vastauksen vastaanottamiseen. Sitä käytetään verkkoyhteyden tarkistamiseen, viiveen mittaamiseen ja yhteysongelmien diagnosointiin.",
+        "q2": "Mikä on hyvä ping-aika?",
+        "a2": "Yleiseen selailuun: alle 100ms on hyvä. Pelaamiseen: alle 50 ms on ihanteellinen, alle 20 ms on erinomainen. Videopuhelut: alle 150 ms hyväksytään. Pienempi ping tarkoittaa nopeampia vasteaikoja.",
+        "q3": "Miksi pingini on korkea?",
+        "a3": "Korkea ping voi johtua verkon ruuhkasta, etäisyydestä palvelimeen, huonosta WiFi-signaalista, Internet-palveluntarjoajan kuristuksesta tai liian monista laitteista verkossa. Kokeile langallista yhteyttä, sulje paljon kaistanleveyttä vaativia sovelluksia tai ota yhteyttä Internet-palveluntarjoajaan.",
+        "q4": "Mitä \"Pyyntö aikakatkaistiin\" tarkoittaa?",
+        "a4": "Pyynnön aikakatkaisu tarkoittaa, että palvelin ei vastannut odotetussa ajassa. Tämä voi osoittaa, että palvelin ei toimi, estää ping-pyynnöt (palomuuri), tai verkkoyhteydessä on ongelma.",
+        "q5": "Voinko pingata minkä tahansa verkkosivuston?",
+        "a5": "Useimmat verkkosivustot voidaan pingata, mutta jotkut palvelimet estävät ICMP-ping-pyynnöt turvallisuussyistä. Jos ping epäonnistuu, verkkosivusto saattaa silti olla käytettävissä selaimen kautta – kokeile muita työkaluja, kuten traceroute tai porttitarkistus."
+    },
+    "js": {
+        "pinging": "Pingataan...",
+        "success": "Ping onnistui",
+        "error": "Ping epäonnistui",
+        "ping_host": "Pingaa isäntää"
+    }
+}

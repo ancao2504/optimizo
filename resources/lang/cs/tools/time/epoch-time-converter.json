@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Epoch Time Converter – bezplatný online unixový nástroj",
+        "description": "Převeďte časová razítka Unix Epoch na data čitelná člověkem a naopak. Podpora místního času, GMT\/UTC a relativního času pomocí našeho bezplatného okamžitého převodníku.",
+        "h1": "Epoch Time Converter",
+        "subtitle": "Převádějte Unixová časová razítka na lidsky čitelná data a naopak"
+    },
+    "current_epoch": {
+        "title": "Aktuální unixové časové razítko",
+        "subtitle": "Živá doba epochy v sekundách"
+    },
+    "click_to_copy": "Kliknutím zkopírujete",
+    "timestamp_to_date": {
+        "title": "Převést časové razítko na datum",
+        "label": "Zadejte Unix Timestamp",
+        "placeholder": "např. 1234567890",
+        "button": "Převést na datum",
+        "result_gmt": "GMT\/UTC",
+        "result_local": "Váš místní čas",
+        "result_relative": "Relativní"
+    },
+    "date_to_timestamp": {
+        "title": "Převést datum na časové razítko",
+        "label": "Vyberte Datum a čas",
+        "checkbox": "Použijte aktuální čas",
+        "button": "Převést na časové razítko",
+        "result_title": "Unixové časové razítko"
+    },
+    "content": {
+        "hero_title": "Dešifrování epochy Unixu",
+        "hero_description": "Unixový čas (nebo Epoch time) je systém, který kontroluje tep digitálního světa. Sleduje počet sekund, které uplynuly od „epochy Unixu“ — 00:00:00 UTC dne 1. ledna 1970.",
+        "why_title": "Proč používat Unix Time?",
+        "efficiency_title": "Účinnost",
+        "efficiency_desc": "Počítače preferují jednoduchá celá čísla před složitými datovými řetězci. Rychlejší je zpracování a skladování.",
+        "universal_title": "Univerzální",
+        "universal_desc": "Během ukládání ignoruje časová pásma. 1696516200 je stejný okamžik v Tokiu jako v New Yorku.",
+        "math_title": "Snadná matematika",
+        "math_desc": "Výpočet rozdílu mezi dvěma daty je stejně jednoduchý jako jednoduché odečítání (A - B).",
+        "code_title": "Získejte aktuální epochu ve svém jazyce",
+        "apocalypse_title": "Problém roku 2038",
+        "apocalypse_desc": "19. ledna 2038 dojdou 32bitovým systémům čísla pro uložení času, což způsobí „Unix Y2K“. Většina moderních 64bitových systémů je již bezpečná na příštích 292 miliard let.",
+        "faq_title": "Často kladené otázky"
+    },
+    "faq": {
+        "q1": "Co je unixové časové razítko (čas epochy)?",
+        "a1": "Unix timestamp (také známý jako epoch time nebo POSIX time) je počet sekund, které uplynuly od 1. ledna 1970, 00:00:00 UTC. Je to široce používaný standard pro reprezentaci času v počítačových systémech a programování.",
+        "q2": "Proč používat čas epochy místo běžných dat?",
+        "a2": "Epoch time je nezávislý na časovém pásmu, takže je ideální pro ukládání dat v databázích a API. Je to jednoduché celé číslo, které lze snadno porovnávat, třídit a vypočítat časové rozdíly. Většina programovacích jazyků má vestavěné funkce pro převod mezi časem epochy a lidsky čitelnými daty."
+    }
+}

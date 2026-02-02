@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Analizador y validador JSON: verificación de sintaxis en línea gratuita",
+        "description": "Analiza, valida y visualiza la estructura JSON en forma de árbol.",
+        "h1": "Analizador y validador JSON",
+        "subtitle": "Herramienta para el análisis profundo de JSON"
+    },
+    "editor": {
+        "label_input": "Entrada JSON",
+        "ph_input": "{\"nombre\": \"Juan\", \"edad\": 30, \"activo\": true}",
+        "btn_parse": "Analizar (Parse)",
+        "btn_beautify": "Embellecer",
+        "btn_minify": "Minificar",
+        "btn_clear": "Limpiar",
+        "btn_load": "Ejemplo",
+        "title_tree": "Vista de Árbol JSON"
+    },
+    "content": {
+        "hero_title": "Analizador y Validador JSON Gratis",
+        "hero_subtitle": "Analiza, valida, embellece y minifica datos JSON al instante",
+        "p1": "Nuestra herramienta gratuita es ideal para desarrolladores y analistas. Valida la sintaxis, haz el JSON legible o comprímelo. El procesamiento local garantiza tu privacidad.",
+        "what_title": "📋 ¿Qué es JSON?",
+        "what_desc": "JSON es un formato ligero de intercambio de datos, fácil de leer para humanos y máquinas. Muy usado en APIs.",
+        "features_title": "✨ Características",
+        "features": {
+            "validate": {
+                "title": "Validación JSON",
+                "desc": "Valida sintaxis y estructura al instante"
+            },
+            "beautify": {
+                "title": "Embellecer JSON",
+                "desc": "Formatea JSON con sangrías y espacios"
+            },
+            "minify": {
+                "title": "Minificar JSON",
+                "desc": "Comprime JSON eliminando espacios"
+            },
+            "tree": {
+                "title": "Vista de Árbol",
+                "desc": "Visualiza la estructura jerárquica de tu JSON."
+            },
+            "privacy": {
+                "title": "Privacidad",
+                "desc": "Todo el procesamiento en tu navegador"
+            },
+            "instant": {
+                "title": "Resultados Instantáneos",
+                "desc": "Procesa JSON en milisegundos"
+            }
+        },
+        "uses_title": "🎯 Casos de Uso",
+        "uses": {
+            "api": {
+                "title": "🔌 Desarrollo de APIs",
+                "desc": "Prueba respuestas y valida payloads de APIs."
+            },
+            "config": {
+                "title": "⚙️ Configuraciones",
+                "desc": "Formatea archivos de configuración de apps."
+            },
+            "analysis": {
+                "title": "📊 Análisis de Datos",
+                "desc": "Analiza JSON de bases de datos y logs."
+            },
+            "debug": {
+                "title": "🐛 Depuración",
+                "desc": "Encuentra errores de sintaxis fácilmente."
+            },
+            "docs": {
+                "title": "📝 Documentación",
+                "desc": "Crea ejemplos legibles para documentación técnica."
+            },
+            "migration": {
+                "title": "🔄 Migración",
+                "desc": "Valida datos durante importaciones y exportaciones."
+            }
+        },
+        "how_title": "📚 Cómo Usar",
+        "how_steps": [
+            "<strong>Pega JSON:<\/strong> Copia tus datos en el campo de entrada",
+            "<strong>Analizar:<\/strong> Clic en \"Analizar JSON\" para validar",
+            "<strong>Embellecer:<\/strong> Clic en \"Embellecer\" para dar formato",
+            "<strong>Minificar:<\/strong> Clic en \"Minificar\" para comprimir",
+            "<strong>Ver Árbol:<\/strong> Mira la estructura jerárquica"
+        ],
+        "tips_title": "💡 Mejores Prácticas",
+        "tips_list": [
+            "Usa comillas dobles para las cadenas",
+            "Sin comas finales en el último elemento",
+            "Tipos correctos: números sin comillas, booleanos true\/false",
+            "Valida siempre antes de desplegar en producción",
+            "Embellece para facilitar la depuración"
+        ],
+        "faq_title": "❓ FAQ",
+        "faq": {
+            "q1": "¿Diferencia entre embellecer y minificar?",
+            "a1": "Embellecer añade legibilidad. Minificar ahorra espacio para producción.",
+            "q2": "¿Es seguro?",
+            "a2": "Sí, tus datos no salen de tu navegador.",
+            "q3": "¿Archivos grandes?",
+            "a3": "Sí, aunque archivos muy grandes pueden ser lentos.",
+            "q4": "¿Qué errores detecta?",
+            "a4": "Comillas faltantes, comas de más, corchetes abiertos, etc.",
+            "q5": "¿Sirve para testing de API?",
+            "a5": "Totalmente, ideal para validar request y response."
+        }
+    },
+    "js": {
+        "error_empty_parse": "Por favor ingresa datos JSON para analizar",
+        "success_valid": "âœ“ Â¡JSON vÃ¡lido! Analizado exitosamente",
+        "error_invalid": "âœ— JSON invÃ¡lido: ",
+        "error_empty_beautify": "Por favor ingresa datos JSON para embellecer",
+        "success_beautify": "âœ“ JSON embellecido exitosamente",
+        "error_beautify": "âœ— No se puede embellecer JSON invÃ¡lido: ",
+        "error_empty_minify": "Por favor ingresa datos JSON para minificar",
+        "success_minify": "âœ“ JSON minificado exitosamente",
+        "error_minify": "âœ— No se puede minificar JSON invÃ¡lido: ",
+        "success_load": "Ejemplo JSON cargado"
+    }
+}

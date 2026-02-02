@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "Codificador e decodificador HTML - ferramenta de entidade online gratuita",
+        "description": "Codifique e decodifique entidades HTML para prevenir ataques XSS com nossa ferramenta online gratuita.",
+        "h1": "Codificador e decodificador HTML",
+        "subtitle": "Codifique e decodifique entidades HTML para prevenir ataques XSS"
+    },
+    "editor": {
+        "mode_encode": "Codificar HTML",
+        "mode_decode": "Decodificar HTML",
+        "label_input_encode": "Digite o HTML para Codificar",
+        "ph_input_encode": "<div>Olá & Bem-vindo<\/div>",
+        "btn_encode": "Codificar HTML",
+        "btn_clear": "Limpar",
+        "btn_copy": "Copiar",
+        "label_output_encode": "HTML Codificado",
+        "ph_output": "O HTML processado aparecerá aqui...",
+        "label_input_decode": "Digite o HTML para Decodificar",
+        "label_output_decode": "HTML Decodificado",
+        "btn_decode": "Decodificar HTML"
+    },
+    "content": {
+        "hero_title": "Codificador e Decodificador HTML Gratuito",
+        "hero_subtitle": "Codifique e decodifique entidades HTML para prevenir ataques XSS",
+        "p1": "Nossa ferramenta gratuita de Codificador e Decodificador HTML ajuda você a codificar caracteres especiais em HTML para exibição segura em páginas web, ou decodificar HTML codificado de volta ao seu formato original. Perfeito para desenvolvedores, profissionais de segurança e qualquer pessoa que trabalhe com HTML bruto.",
+        "what_title": "🔗 O que é Codificação HTML?",
+        "what_desc": "A codificação HTML converte caracteres que têm significado especial em HTML (como <, >, &, \") em suas entidades HTML correspondentes (como &lt;, &gt;, &amp;, &quot;). Isso evita que o navegador os interprete como tags HTML, o que é crucial para prevenir ataques de Cross-Site Scripting (XSS).",
+        "features_title": "✨ Recursos",
+        "features": {
+            "fast": {
+                "title": "Conversão Instantânea",
+                "desc": "Codifique ou decodifique HTML em milissegundos"
+            },
+            "bidirectional": {
+                "title": "Bidirecional",
+                "desc": "Codifique caracteres especiais ou decodifique entidades de volta para texto"
+            },
+            "privacy": {
+                "title": "Privacidade em Primeiro Lugar",
+                "desc": "Todo o processamento acontece no seu navegador"
+            },
+            "copy": {
+                "title": "Cópia em Um Clique",
+                "desc": "Copie o HTML processado para a área de transferência instantaneamente"
+            },
+            "free": {
+                "title": "100% Gratuito",
+                "desc": "Sem limites, sem registro necessário"
+            },
+            "safe": {
+                "title": "Focado na Segurança",
+                "desc": "Ajuda a prevenir vulnerabilidades XSS"
+            }
+        },
+        "uses_title": "🎯 Casos de Uso Comuns",
+        "uses": {
+            "security": {
+                "title": "🔒 Segurança",
+                "desc": "Sanitize a entrada do usuário para prevenir ataques XSS codificando caracteres especiais."
+            },
+            "display": {
+                "title": "💻 Exibição de Código",
+                "desc": "Exiba o código HTML bruto em uma página web sem que ele seja renderizado pelo navegador."
+            },
+            "data": {
+                "title": "📊 Armazenamento de Dados",
+                "desc": "Armazene conteúdo com segurança em bancos de dados sem se preocupar com problemas de análise de HTML."
+            },
+            "email": {
+                "title": "📧 Modelos de E-mail",
+                "desc": "Garanta que os caracteres especiais sejam renderizados corretamente em e-mails HTML."
+            }
+        },
+        "how_title": "📚 Como usar",
+        "how_steps": {
+            "1": "Cole seu HTML ou texto no campo de entrada",
+            "2": "Clique no botão de processar para converter",
+            "3": "Copie o resultado para a área de transferência",
+            "4": "Copie a saída processada para sua área de transferência para usar em seus projetos."
+        },
+        "examples_title": "💡 Exemplos de Codificação HTML",
+        "examples": {
+            "1": {
+                "title": "Aspas:",
+                "code": "\"Olá\" → &quot;Olá&quot;"
+            },
+            "2": {
+                "title": "E comercial:",
+                "code": "Tom & Jerry → Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Símbolos de Maior\/Menor:",
+                "code": "<b> → &lt;b&gt;"
+            }
+        },
+        "faq_title": "❓ Perguntas Frequentes",
+        "faq": {
+            "q1": "Por que eu preciso codificar o HTML?",
+            "a1": "A codificação é essencial para a segurança, para evitar que o navegador execute scripts maliciosos (XSS) e para exibir trechos de código corretamente.",
+            "q2": "Quais caracteres são codificados?",
+            "a2": "Caracteres essenciais como <, >, &, \", e ' são sempre codificados. Caracteres ASCII estendidos também podem ser codificados.",
+            "q3": "É reversível?",
+            "a3": "Sim, a decodificação reverte o processo exatamente, restaurando o texto original."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor, insira o HTML para processar",
+        "success_encode": "✓ HTML codificado com sucesso",
+        "success_decode": "✓ HTML decodificado com sucesso",
+        "error_process": "✗ Erro ao processar o HTML: ",
+        "error_no_copy": "Nenhuma saída para copiar",
+        "success_copy": "✓ Copiado para a área de transferência"
+    }
+}

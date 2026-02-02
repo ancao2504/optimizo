@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Ferramenta Port Checker - Scanner de porta aberta online gratuito",
+        "description": "Ferramenta gratuita de verificação de portas para testar se as portas estão abertas, fechadas ou filtradas. Verifique portas TCP\/UDP instantaneamente para solução de problemas de rede e auditoria de segurança.",
+        "h1": "Ferramenta de verificação de porta",
+        "subtitle": "Verifique se as portas estão abertas em qualquer servidor para diagnosticar problemas de conectividade"
+    },
+    "form": {
+        "host_label": "Host ou Endereço IP",
+        "host_placeholder": "exemplo.com ou 8.8.8.8",
+        "port_label": "Número da Porta",
+        "port_placeholder": "80",
+        "button": "Verificar Porta"
+    },
+    "results": {
+        "title": "Status da Porta de"
+    },
+    "content": {
+        "what_is_title": "O que é Verificador de Portas?",
+        "what_is_desc": "Um Verificador de Portas é uma ferramenta de diagnóstico de rede que determina se uma porta TCP ou UDP específica em um servidor ou dispositivo está aberta (aceitando conexões), fechada (rejeitando conexões) ou filtrada (bloqueada por um firewall). As portas são pontos finais virtuais para comunicação de rede, com cada número de porta (1-65535) hospedando potencialmente diferentes serviços. Portas comuns incluem 80 para tráfego web HTTP, 443 para HTTPS, 22 para SSH e 25 para e-mail. Verificar o status da porta é essencial para configuração de rede, auditoria de segurança e solução de problemas de conectividade.",
+        "why_check_title": "Por que verificar portas?",
+        "why_check_desc": "A verificação de portas serve para múltiplos propósitos críticos no gerenciamento e segurança de rede. Administradores de sistema verificam se os serviços estão acessíveis em suas portas pretendidas após alterações de configuração. Profissionais de segurança escaneiam portas abertas para identificar vulnerabilidades potenciais e garantir que portas desnecessárias estejam fechadas. Desenvolvedores testam se seus aplicativos estão ouvindo corretamente nas portas configuradas. Técnicos de rede usam a verificação de portas para diagnosticar por que os serviços não estão acessíveis, determinando se o problema é o próprio serviço, regras de firewall ou roteamento de rede.",
+        "common_ports_title": "Portas Comuns",
+        "port1": "<strong>Porta 80:<\/strong> HTTP (tráfego web)",
+        "port2": "<strong>Porta 443:<\/strong> HTTPS (tráfego web seguro)",
+        "port3": "<strong>Porta 22:<\/strong> SSH (acesso seguro via shell)",
+        "port4": "<strong>Porta 21:<\/strong> FTP (transferência de arquivos)",
+        "port5": "<strong>Porta 25:<\/strong> SMTP (envio de e-mail)",
+        "port6": "<strong>Porta 3306:<\/strong> Banco de dados MySQL",
+        "port7": "<strong>Porta 3389:<\/strong> RDP (Acesso Remoto)",
+        "security_title": "Implicações de Segurança",
+        "security_desc": "Portas abertas representam pontos de entrada potenciais para invasores. A melhor prática de segurança dita manter apenas as portas necessárias abertas e fechar ou filtrar todas as outras. Escanear regularmente seus próprios servidores ajuda a identificar portas abertas involuntariamente que poderiam ser exploradas. No entanto, escanear portas de sistemas de terceiros sem permissão pode ser ilegal e é considerado atividade hostil. Certifique-se sempre de ter autorização antes de verificar portas em sistemas que você não possui."
+    },
+    "faq": {
+        "title": "Perguntas Frequentes",
+        "q1": "O que significa uma porta estar 'Filtrada'?",
+        "a1": "Uma porta filtrada significa que um firewall, filtro ou outro obstáculo de rede está bloqueando a porta, e a ferramenta não consegue determinar se ela está aberta ou fechada.",
+        "q2": "É seguro abrir portas no meu roteador?",
+        "a2": "Abrir portas (port forwarding) pode ser arriscado, pois expõe seu dispositivo diretamente à internet. Faça isso apenas para serviços necessários e garanta que o software de destino seja seguro.",
+        "q3": "Qual a diferença entre TCP e UDP?",
+        "a3": "TCP é um protocolo orientado à conexão (garante a entrega), enquanto UDP é um protocolo sem conexão (mais rápido, mas não garante a entrega).",
+        "q4": "Posso verificar portas no meu IP local?",
+        "a4": "Esta ferramenta online verifica o status das portas a partir de nossos servidores. Para verificar portas na sua própria rede local, você precisaria de uma ferramenta instalada no seu computador.",
+        "q5": "Como fecho uma porta aberta?",
+        "a5": "Você pode fechar uma porta parando o serviço que a está usando ou configurando as regras do seu firewall ou roteador para bloquear o tráfego naquela porta."
+    },
+    "js": {
+        "checking": "Verificando...",
+        "success": "Verificação de porta concluída",
+        "error": "Falha ao verificar a porta. Certifique-se de que o host e a porta estão corretos.",
+        "check_port": "Verificar Porta"
+    }
+}

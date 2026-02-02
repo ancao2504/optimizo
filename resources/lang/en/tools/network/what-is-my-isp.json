@@ -1,0 +1,67 @@
+{
+    "meta": {
+        "title": "What is My ISP? - Free Online Provider Checker",
+        "description": "Find out your Internet Service Provider (ISP) instantly. Check ISP name, organization, ASN, and IP address information for free.",
+        "h1": "What is My ISP?",
+        "subtitle": "Identify your Internet Service Provider with connection details"
+    },
+    "content": {
+        "loading": "Loading ISP information...",
+        "your_isp_title": "Your Internet Service Provider",
+        "network_label": "Network",
+        "location_label": "Location",
+        "main_title": "What Is My ISP - Internet Service Provider Lookup Tool",
+        "main_desc": "Instantly identify your Internet Service Provider (ISP), organization name, network details, and connection information. Our free ISP lookup tool reveals your ISP name, ASN (Autonomous System Number), IP address, location, and network infrastructure. Perfect for verifying VPN connections, troubleshooting network issues, confirming business internet lines, and understanding your network routing.",
+        "info_title": "What Information Can You Find?",
+        "info1": "<strong>ISP Name:<\/strong> The company providing your internet connection",
+        "info2": "<strong>Organization:<\/strong> The organization or entity managing your network connection",
+        "info3": "<strong>ASN:<\/strong> Unique network identifier for routing and peering",
+        "info4": "<strong>Location:<\/strong> City, region, and country associated with your connection",
+        "info5": "<strong>Network Details:<\/strong> IP range, subnet information, and network infrastructure data",
+        "why_use_title": "Why Use This Tool?",
+        "why_use1": "Verify you're connected through the correct internet provider",
+        "why_use2": "Troubleshoot network connectivity and performance issues",
+        "why_use3": "Check if you're using a VPN or proxy service correctly",
+        "why_use4": "Identify your network for security and privacy purposes",
+        "why_use5": "Verify ISP claims about service coverage and infrastructure",
+        "why_use6": "Research network routing and peering relationships",
+        "why_use7": "Confirm business internet connections and dedicated lines",
+        "why_use8": "Detect unauthorized network access or connection hijacking",
+        "asn_title": "Understanding ASN (Autonomous System Number)",
+        "asn_desc": "An Autonomous System Number (ASN) is a globally unique identifier assigned to a network or group of networks under a single administrative control. ISPs, large organizations, and content delivery networks each have their own ASN. This number is used in BGP (Border Gateway Protocol) routing to determine how internet traffic flows between different networks. Knowing your ASN helps identify your network provider and understand routing paths.",
+        "use_cases_title": "Common Use Cases",
+        "use_case1_title": "🔧 Network Troubleshooting",
+        "use_case1_desc": "Identify ISP-related issues, verify routing paths, and diagnose connection problems",
+        "use_case2_title": "🔒 VPN Verification",
+        "use_case2_desc": "Confirm your VPN is working by checking if ISP changes when connected",
+        "use_case3_title": "🛡️ Security Audits",
+        "use_case3_desc": "Verify connection authenticity and detect unauthorized network access",
+        "use_case4_title": "💼 Business Verification",
+        "use_case4_desc": "Confirm dedicated business lines and enterprise internet connections",
+        "isp_types_title": "Types of ISPs",
+        "isp_type1": "<strong>DSL ISPs:<\/strong> Internet over telephone lines (ADSL, VDSL)",
+        "isp_type2": "<strong>Cable ISPs:<\/strong> High-speed internet via coaxial cable infrastructure",
+        "isp_type3": "<strong>Fiber Optic ISPs:<\/strong> Ultra-fast connections using fiber optic cables",
+        "isp_type4": "<strong>Wireless\/Mobile ISPs:<\/strong> 4G\/5G cellular internet connections",
+        "isp_type5": "<strong>Satellite ISPs:<\/strong> Internet via satellite for remote areas",
+        "isp_type6": "<strong>Business ISPs:<\/strong> Dedicated enterprise-grade connections with SLAs",
+        "privacy_note_title": "Privacy Note",
+        "privacy_note_desc": "Your ISP can see all unencrypted internet traffic and the websites you visit (but not HTTPS content). They may log connection data, browsing history, and DNS queries. Use a VPN to encrypt your traffic and prevent ISP monitoring. Our tool only displays publicly available information that websites can already see."
+    },
+    "results": {
+        "ip_address": "Your IP Address",
+        "asn": "ASN (Autonomous System Number)"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": "What is an ISP?",
+        "a1": "ISP stands for Internet Service Provider - the company that provides your internet connection. Examples include Comcast, AT&T, Verizon, or local providers. Your ISP assigns your IP address and routes all your internet traffic.",
+        "q2": "What is an ASN?",
+        "a2": "ASN (Autonomous System Number) is a unique identifier assigned to networks and ISPs for internet routing. It helps identify which organization controls a block of IP addresses. Large ISPs have their own ASN, while smaller providers may share one.",
+        "q3": "Can I hide my ISP information?",
+        "a3": "Using a VPN (Virtual Private Network) will show the VPN provider's ISP instead of your actual ISP. However, your real ISP can still see that you're using a VPN. Proxies and Tor can also mask your ISP information."
+    },
+    "js": {
+        "error_loading": "Failed to detect ISP information"
+    }
+}

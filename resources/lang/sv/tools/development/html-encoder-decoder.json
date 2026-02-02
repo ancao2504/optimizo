@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML Encoder & Decoder - Gratis Online Entity Tool",
+        "description": "Koda och avkoda HTML-entiteter för att förhindra XSS-attacker med vårt gratis onlineverktyg",
+        "h1": "HTML-kodare och avkodare",
+        "subtitle": "Koda och avkoda HTML-entiteter för att förhindra XSS-attacker"
+    },
+    "editor": {
+        "mode_encode": "Koda HTML",
+        "mode_decode": "Avkoda HTML",
+        "label_input_encode": "Ange HTML att koda",
+        "ph_input_encode": "<div>Hej & Välkommen<\/div>",
+        "btn_encode": "Koda HTML",
+        "btn_clear": "Rensa",
+        "btn_copy": "Kopiera",
+        "label_output_encode": "Kodad HTML",
+        "ph_output": "Behandlad HTML visas här...",
+        "label_input_decode": "Ange HTML att avkoda",
+        "label_output_decode": "Avkodad HTML",
+        "btn_decode": "Avkoda HTML"
+    },
+    "content": {
+        "hero_title": "Gratis HTML Kodare & Avkodare",
+        "hero_subtitle": "Koda och avkoda HTML-entiteter för att förhindra XSS-attacker",
+        "p1": "Vårt gratis verktyg för HTML-kodning och avkodning hjälper dig att koda specialtecken i HTML för säker visning på webbsidor, eller avkoda kodad HTML tillbaka till sitt ursprungliga format. Perfekt för utvecklare, säkerhetsproffs och alla som arbetar med rå HTML.",
+        "what_title": "ðŸ”— Vad är HTML-kodning?",
+        "what_desc": "HTML-kodning konverterar tecken som har speciell betydelse i HTML (som <, >, &, \") till deras motsvarande HTML-entiteter (som &lt;, &gt;, &amp;, &quot;). Detta förhindrar webbläsaren från att tolka dem som HTML-taggar, vilket är avgörande för att förhindra Cross-Site Scripting (XSS)-attacker.",
+        "features_title": "âœ¨ Funktioner",
+        "features": {
+            "fast": {
+                "title": "Direkt konvertering",
+                "desc": "Koda eller avkoda HTML på millisekunder"
+            },
+            "bidirectional": {
+                "title": "Dubbelriktad",
+                "desc": "Koda specialtecken eller avkoda entiteter tillbaka till text"
+            },
+            "privacy": {
+                "title": "Integritet först",
+                "desc": "All bearbetning sker i din webbläsare"
+            },
+            "copy": {
+                "title": "Kopiera med ett klick",
+                "desc": "Kopiera behandlad HTML till urklipp direkt"
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "Inga gränser, ingen registrering krävs"
+            },
+            "safe": {
+                "title": "Säkerhetsfokuserad",
+                "desc": "Hjälper till att förhindra XSS-sårbarheter"
+            }
+        },
+        "uses_title": "ðŸŽ¯ Vanliga användningsområden",
+        "uses": {
+            "security": {
+                "title": "ðŸ”’ Säkerhet",
+                "desc": "Sanera användarinmatning för att förhindra XSS-attacker genom att koda specialtecken."
+            },
+            "display": {
+                "title": "ðŸ’» Kodvisning",
+                "desc": "Visa rå HTML-kod på en webbsida utan att den renderas av webbläsaren."
+            },
+            "data": {
+                "title": "ðŸ“Š Datalagring",
+                "desc": "Lagra innehåll säkert i databaser utan att oroa dig för HTML-tolkningsproblem."
+            },
+            "email": {
+                "title": "ðŸ“§ E-postmallar",
+                "desc": "Säkerställ att specialtecken renderas korrekt i HTML-e-postmeddelanden."
+            }
+        },
+        "how_title": "ðŸ“š Hur man använder",
+        "how_steps": {
+            "1": "Klistra in din HTML eller text i inmatningsfältet",
+            "2": "Klicka på bearbeta-knappen för att konvertera",
+            "3": "Kopiera resultatet till urklipp",
+            "4": "Kopiera det kodade\/avkodade resultatet och använd det i dina HTML-, XML- eller webbapplikationer."
+        },
+        "examples_title": "ðŸ’¡ Exempel på HTML-kodning",
+        "examples": {
+            "1": {
+                "title": "Citattecken:",
+                "code": "\"Hej\" â†’ &quot;Hej&quot;"
+            },
+            "2": {
+                "title": "Et-tecken:",
+                "code": "Tom & Jerry â†’ Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Kodning av specialtecken",
+                "code": "&lt;script&gt;alert(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&amp;gt;"
+            }
+        },
+        "faq_title": "â “ Vanliga frågor",
+        "faq": {
+            "q1": "Varför behöver jag koda HTML?",
+            "a1": "Kodning är viktigt för säkerheten för att förhindra att webbläsaren kör skadliga skript (XSS) och för att visa kodavsnitt korrekt.",
+            "q2": "Vilka tecken kodas?",
+            "a2": "Viktiga tecken som <, >, &, \", och ' kodas alltid. Utökade ASCII-tecken kan också kodas.",
+            "q3": "Är det omvändbart?",
+            "a3": "Ja, avkodning vänder processen exakt och återställer den ursprungliga texten."
+        }
+    },
+    "js": {
+        "error_empty": "Vänligen ange HTML att bearbeta",
+        "success_encode": "âœ“ HTML kodad framgångsrikt",
+        "success_decode": "âœ“ HTML avkodad framgångsrikt",
+        "error_process": "âœ— Fel vid bearbetning av HTML: ",
+        "error_no_copy": "Ingen utdata att kopiera",
+        "success_copy": "âœ“ Kopierat till urklipp"
+    }
+}

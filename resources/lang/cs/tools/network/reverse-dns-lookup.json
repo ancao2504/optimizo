@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Reverse DNS Lookup – bezplatný online nástroj z IP do domény",
+        "description": "Bezplatný nástroj pro reverzní vyhledávání DNS. Okamžitě najděte název hostitele přidružený k jakékoli IP adrese. Rychlé, bezpečné a snadné.",
+        "h1": "Reverzní vyhledávání DNS",
+        "subtitle": "Najděte název domény nebo hostitele přidružený k IP adrese okamžitě"
+    },
+    "form": {
+        "ip_label": "Zadejte IP adresu",
+        "ip_placeholder": "např. 8.8.8.8",
+        "button": "Vyhledat reverzní DNS",
+        "button_loading": "Vyhledávám..."
+    },
+    "results": {
+        "title": "Výsledky reverzního DNS"
+    },
+    "content": {
+        "what_is_title": "Co je reverzní DNS Lookup?",
+        "what_is_desc": "Reverzní DNS lookup (rDNS) je proces určení názvu domény nebo hostitele přidruženého k IP adrese. Na rozdíl od standardního DNS vyhledávání, které převádí doménu na IP adresu, rDNS dělá opak. Často se používá k ověření identity serveru nebo k řešení síťových problémů.",
+        "why_use_title": "Proč používat reverzní DNS?",
+        "why_use_desc": "Reverzní DNS se široce používá pro bezpečnostní a ověřovací účely. Pomáhá identifikovat zdroj příchozího provozu, ověřovat odesílatele e-mailů (prevence spamu) a řešit problémy s připojením. Mnoho poštovních serverů vyžaduje platné rDNS záznamy pro přijetí e-mailů.",
+        "ptr_records_title": "Pochopení záznamů PTR",
+        "ptr_record1": "<strong>PTR záznam:<\/strong> Pointer Record (PTR) je typ DNS záznamu používaný pro reverzní DNS vyhledávání.",
+        "ptr_record2": "<strong>Mapování:<\/strong> Mapuje IP adresu zpět na název hostitele.",
+        "ptr_record3": "<strong>Ověření:<\/strong> Klíčové pro doručitelnost e-mailů a bezpečnostní prověření.",
+        "ptr_record4": "<strong>IP-na-Host:<\/strong> Nezbytné pro identifikaci skutečného vlastníka IP adresy.",
+        "ptr_record5": "<strong>Prevence spamu:<\/strong> Používáno poštovními servery k validaci pravosti odesílatele.",
+        "ptr_record6": "<strong>Síťové logy:<\/strong> Pomáhá zprůhlednit síťové záznamy zobrazením názvů hostitelů.",
+        "use_cases_title": "Běžné příklady použití",
+        "use_cases_desc": "Běžné případy zahrnují ověřování původu webového provozu, diagnostiku zpoždění sítě nebo problémů se směrováním, validaci konfigurací e-mailových serverů a identifikaci potenciálně škodlivých IP adres."
+    },
+    "faq": {
+        "title": "Často kladené otázky",
+        "q1": "Co je to PTR záznam?",
+        "a1": "Záznam PTR (Pointer) je typ DNS záznamu, který mapuje IP adresu na název hostitele. Je základním prvkem reverzního DNS vyhledávání.",
+        "q2": "Proč je reverzní DNS důležité pro e-mail?",
+        "a2": "Mnoho poskytovatelů e-mailu používá rDNS k ověření, zda je odesílající server legitimní. Pokud IP serveru nemá odpovídající rDNS záznam, mohou být e-maily označeny jako spam.",
+        "q3": "Může mít každá IP adresa reverzní DNS záznam?",
+        "a3": "Ano, ale majitel IP adresy (obvykle ISP nebo poskytovatel hostingu) musí PTR záznam ve svém DNS nastavení nakonfigurovat."
+    }
+}

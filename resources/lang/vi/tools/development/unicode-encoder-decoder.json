@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Bộ mã hóa và giải mã Unicode - Công cụ văn bản trực tuyến miễn phí",
+        "description": "Mã hó và giải mã các chuỗi thoát (escpe sequences) Unicode cho JvScript và JSON với công cụ miễn phí củ chúng tôi.",
+        "h1": "Bộ mã hóa và giải mã Unicode",
+        "subtitle": "Mã hó và giải mã các chuỗi thoát Unicode cho JvScript và JSON"
+    },
+    "editor": {
+        "btn_encode": "Mã Hó Unicode",
+        "btn_decode": "Giải Mã Unicode",
+        "label_input_encode": "Nhập Văn Bản Cần Mã Hó",
+        "ph_input": "Chào thế giới (Hello 世界)",
+        "btn_process_encode": "Mã Hó Unicode",
+        "btn_clear": "Xó",
+        "btn_copy": "So chép",
+        "label_output_encoded": "Unicode Đã Mã Hó",
+        "ph_output": "Unicode đã xử lý sẽ xuất hiện ở đây..",
+        "label_input_decode": "Nhập Unicode Cần Giải Mã",
+        "label_output_decoded": "Văn Bản Đã Giải Mã",
+        "btn_process_decode": "Giải Mã Unicode"
+    },
+    "content": {
+        "p1": "Công cụ Mã hó & Giải mã Unicode miễn phí củ chúng tôi giúp bạn mã hó văn bản thành các chuỗi thoát Unicode (ví dụ: \\u0041) để sử dụng n àn trong JvScript, JSON và các ngữ cảnh lập trình khác, hoặc giải mã chúng trở lại văn bản có thể đọc được. Hoàn hảo cho các nhà phát triển, nhà phân tích dữ liệu và bất kỳ i làm việc với các bộ ký tự quốc tế. Miễn phí 100%, quá trình xử lý phí máy khách đảm bảo dữ liệu củ bạn luôn riêng tư.",
+        "what_title": "Mã Hó Unicode Là Gì?",
+        "what_desc": "Mã hó Unicode chuyển đổi các ký tự thành các điểm mã (code points) Unicode tương ứng, thường được biểu diễn dưới dạng các chuỗi thoát như \\uXXXX. Điều này đảm bảo rằng văn bản chứ các ký tự đặc biệt, biểu tượng cảm xúc hoặc các chữ viết không phải tiếng Ltin có thể được biểu diễn n àn trong các môi trường thường chỉ hỗ trợ SCII, chẳng hạn như các tệp mã nguồn hoặc dữ liệu JSON.",
+        "features_title": "Tính Năng",
+        "features": {
+            "instant": {
+                "title": "Chuyển Đổi Tức Thì",
+                "desc": "Mã hó hoặc giải mã Unicode trong vài mili giây"
+            },
+            "bidirectional": {
+                "title": "Hi Chiều",
+                "desc": "Mã hó sng định dạng Unicode hoặc giải mã trở lại bn đầu"
+            },
+            "privacy": {
+                "title": "Quyền Riêng Tư Là Trên Hết",
+                "desc": "Tất cả quá trình xử lý diễn r trong trình duyệt củ bạn"
+            },
+            "copy": {
+                "title": "So Chép Bằng Một Cú Nhấp Chuột",
+                "desc": "So chép văn bản đã mã hó\/giải mã ngy lập tức"
+            },
+            "free": {
+                "title": "100% miễn phí",
+                "desc": "No limits, no reglàtrtion required"
+            },
+            "universal": {
+                "title": "Universl Supphoặct",
+                "desc": "Hoạt động với tất cả các ký tự và chữ viết Unicode"
+            }
+        },
+        "uses_title": "Các Trường Hợp Sử Dụng Phổ Biến",
+        "uses": {
+            "programming": {
+                "title": "Progrmming",
+                "desc": "Nhúng các ký tự đặc biệt vào mã nguồn JvScript hoặc Jv một cách n àn"
+            },
+            "data": {
+                "title": "Dt Seriliztion",
+                "desc": "Ensure sfe trnsmlàsion of non-SCII chrcters in JSON"
+            },
+            "international": {
+                "title": "Interntionliztion",
+                "desc": "Gỡ lỗi và hiển thị văn bản ở nhiều ngôn ngữ và chữ viết khác nhu"
+            },
+            "security": {
+                "title": "Security",
+                "desc": "Phân tích mã bị xáo trộn hoặc dữ liệu chứ các chuỗi thoát Unicode"
+            }
+        },
+        "how_to_title": "Cách Sử dụng",
+        "how_to": {
+            "step1": {
+                "title": "Chọn Mode",
+                "desc": "Chọn \"Mã Hó Unicode\" hoặc \"Giải Mã Unicode\" tùy o nhu cầu củ bạn"
+            },
+            "step2": {
+                "title": "Nhập Text",
+                "desc": "Dán văn bản hoặc các chuỗi thoát Unicode củ bạn vào trường đầu vào"
+            },
+            "step3": {
+                "title": "Process",
+                "desc": "Nhấp vào nút mã hó hoặc giải mã"
+            },
+            "step4": {
+                "title": "So Chép Kết Quả",
+                "desc": "Nhấp vào \"So chép\" để chép văn bản đã xử lý vào khy nhớ tạm"
+            },
+            "step5": {
+                "title": "Sử dụng nywtại đây",
+                "desc": "Dán kết quả vào mã hoặc ứng dụng củ bạn"
+            }
+        },
+        "examples_title": "Ví Dụ Unicode",
+        "examples": {
+            "simple": {
+                "title": "Đơn giản\/SCII:",
+                "desc": "Gốc: \"\" → Mã hó: \"\\u0041\""
+            },
+            "special": {
+                "title": "Ký Tự Đặc Biệt:",
+                "desc": "Gốc: \"©\" → Mã hó: \"\\u009\""
+            },
+            "emoji": {
+                "title": "Biểu Tượng Cảm Xúc\/Đ Byte:",
+                "desc": "Gốc: \"🌟\" → Mã hó: \"\\uD83C\\uDF1F\" (nhóm mng) hoặc \"\\u2B50\" tùy thuộc vào cách biểu diễn"
+            }
+        },
+        "faq_title": "Các Câu Hỏi Thường Gặp",
+        "faq": {
+            "q1": "Tại so use Unicode escpe sequences?",
+            "a1": "Chúng cho phép bạn biểu diễn bất kỳ ký tự nào chỉ bằng các ký tự SCII, điều này đảm bảo khả năng tương thích trên các hệ thống, bảng mã và quá trình truyền tệp khác nhu mà có thể không xử lý đúng Unicode thô.",
+            "q2": "Wht fhoặcmt là used?",
+            "a2": "Công cụ này thường sử dụng định dạng \\uXXXX kiểu JvScript\/JSON cho các ký tự trong Bsic Multilingul Plne.",
+            "q3": "là thlà different từ URL encoding?",
+            "a3": "Đúng vậy. Mã hó URL sử dụng các giá trị hex %XX chủ yếu cho URL. Thoát chuỗi Unicode sử dụng \\uXXXX và được sử dụng trong các chuỗi ở các ngôn ngữ lập trình như JvScript, Jv và Python.",
+            "q4": "Dữ liệu củ tôi có n àn không?",
+            "a4": "Có! ll encoding và decoding hppens entirely in your browser using JvScript. Your text never leves your device."
+        }
+    },
+    "js": {
+        "error_empty": "Vui lòng nhập văn bản để xử lý",
+        "success_encode": "✓ Unicode đã được mã hó thành công",
+        "success_decode": "✓ Unicode đã được giải mã thành công",
+        "error_process": "✗ Lỗi khi xử lý Unicode:",
+        "error_no_copy": "Không có đầu r để so chép",
+        "success_copy": "✓ Đ đã so chép vào khy nhớ tạm"
+    }
+}

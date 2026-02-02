@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Base64 in Bild dekodieren – kostenloser Online-Decoder",
+        "description": "Konvertieren Sie Base64-kodierte Zeichenfolgen zurück in Bilder (PNG, JPG, GIF). Kostenloser Online-Decoder und Visualisierer.",
+        "h1": "Base64 in Bild dekodieren",
+        "subtitle": "Base64-kodierte Zeichenfolgen sofort zurück in Bilder (PNG, JPG, GIF) umwandeln"
+    },
+    "input": {
+        "title": "Base64-Zeichenfolge einfügen",
+        "desc": "Fügen Sie Ihren Code unten ein, um das Bild zu visualisieren",
+        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Bild decodieren"
+    },
+    "result": {
+        "image_alt": "Decodiertes Bild",
+        "success": "Bild erfolgreich decodiert",
+        "btn_download": "Bild herunterladen",
+        "btn_clear": "Muster löschen"
+    },
+    "content": {
+        "title": "Base64 zu Bild decodieren",
+        "p1": "Haben Sie eine lange Zeichenfolge aus zufälligen Zeichen gefunden, die mit <code>data:image\/...<\/code> beginnt und wissen nicht, was das ist? Es handelt sich wahrscheinlich um ein Base64-kodiertes Bild.",
+        "p2": "Unser <strong>Base64-zu-Bild-Decoder<\/strong> wandelt diese Textzeichenfolge wieder in eine sichtbare Bilddatei (PNG, JPG, GIF usw.) um, die Sie ansehen und auf Ihren Computer herunterladen können.",
+        "features": {
+            "preview": {
+                "title": "Sofortige Vorschau",
+                "desc": "Sehen Sie das Bild sofort. Wir parsen die Binärdaten und rendern sie auf Ihrem Bildschirm."
+            },
+            "auto": {
+                "title": "Automatische Erkennung",
+                "desc": "Wir erkennen automatisch das Dateiformat (PNG, JPEG, GIF) aus dem Header der Base64-Zeichenfolge."
+            },
+            "download": {
+                "title": "Datei herunterladen",
+                "desc": "Speichern Sie das decodierte Ergebnis mit einem Klick als echte Bilddatei auf Ihrer Festplatte."
+            }
+        },
+        "how_to": {
+            "title": "Wie wird decodiert?",
+            "list": [
+                "Fügen Sie Ihre Base64-Zeichenfolge in das Textfeld ein.",
+                "Wir versuchen sofort, die Zeichenfolge zu lesen.",
+                "Bei Gültigkeit erscheint das Bild auf der linken Seite.",
+                "Klicken Sie auf „Bild herunterladen“, um es zu speichern."
+            ]
+        },
+        "use_cases": {
+            "title": "Häufige Anwendungsfälle",
+            "list": [
+                "Debugging: Überprüfung, welche Bilddaten in API-Antworten gesendet oder in Datenbanken gespeichert werden.",
+                "Wiederherstellung: Extrahieren von Bildern, die in CSS-Dateien oder HTML-Vorlagen eingebettet sind.",
+                "Verifizierung: Sicherstellen, dass eine Base64-Zeichenfolge nicht beschädigt ist."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Bitte fügen Sie zuerst eine Base64-Zeichenfolge ein.",
+        "invalid_error": "Ungültige Base64-Zeichenfolge oder nicht unterstütztes Bildformat."
+    }
+}

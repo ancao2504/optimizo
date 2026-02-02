@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Odwrotne wyszukiwanie DNS — bezpłatne narzędzie online do zmiany adresu IP na domenę",
+        "description": "Darmowe narzędzie online do odwrotnego wyszukiwania DNS. Błyskawicznie znajdź nazwę hosta powiązaną z dowolnym adresem IP. Szybkie, bezpieczne i łatwe w użyciu.",
+        "h1": "Odwrotne wyszukiwanie DNS",
+        "subtitle": "Błyskawicznie znajdź nazwę domeny lub hosta powiązaną z adresem IP"
+    },
+    "form": {
+        "ip_label": "Wprowadź adres IP",
+        "ip_placeholder": "np. 8.8.8.8",
+        "button": "Wyszukaj odwrotny DNS",
+        "button_loading": "Trwa wyszukiwanie..."
+    },
+    "results": {
+        "title": "Wyniki odwrotnego DNS"
+    },
+    "content": {
+        "what_is_title": "Czym jest odwrotne wyszukiwanie DNS?",
+        "what_is_desc": "Odwrotne wyszukiwanie DNS (rDNS) to proces określania nazwy domeny lub hosta powiązanej z adresem IP. W przeciwieństwie do standardowego wyszukiwania DNS, które konwertuje nazwę domeny na adres IP (forward lookup), rDNS robi coś przeciwnego. Jest często używane do weryfikacji tożsamości serwera lub rozwiązywania problemów z siecią.",
+        "why_use_title": "Dlaczego warto korzystać z odwrotnego wyszukiwania DNS?",
+        "why_use_desc": "Reverse DNS jest powszechnie stosowany w celach bezpieczeństwa i weryfikacji. Pomaga zidentyfikować źródło ruchu przychodzącego, weryfikować nadawców wiadomości e-mail (aby zapobiegać spamowi) oraz rozwiązywać problemy z łącznością sieciową. Wiele serwerów pocztowych wymaga ważnych rekordów rDNS, aby akceptować e-maile przychodzące.",
+        "ptr_records_title": "Zrozumienie rekordów PTR",
+        "ptr_record1": "<strong>Rekord PTR:<\/strong> Rekord wskaźnika (Pointer Record) jest typem rekordu DNS używanym do odwrotnego wyszukiwania DNS.",
+        "ptr_record2": "<strong>Mapowanie:<\/strong> Mapuje on adres IP z powrotem na nazwę hosta.",
+        "ptr_record3": "<strong>Weryfikacja:<\/strong> Kluczowy dla dostarczalności e-maili i weryfikacji bezpieczeństwa.",
+        "ptr_record4": "<strong>IP na Host:<\/strong> Niezbędny do identyfikacji prawdziwego właściciela adresu IP.",
+        "ptr_record5": "<strong>Zapobieganie spamowi:<\/strong> Używany przez serwery pocztowe do walidacji autentyczności nadawcy.",
+        "ptr_record6": "<strong>Logi sieciowe:<\/strong> Pomocny w czynieniu logów sieciowych czytelnymi dla człowieka poprzez wyświetlanie nazw hostów.",
+        "use_cases_title": "Typowe zastosowania",
+        "use_cases_desc": "Typowe zastosowania obejmują weryfikację pochodzenia ruchu internetowego, diagnozowanie opóźnień sieciowych lub problemów z routingiem, walidację konfiguracji serwerów pocztowych oraz wzmacnianie audytów cyberbezpieczeństwa poprzez identyfikację potencjalnie złośliwych adresów IP."
+    },
+    "faq": {
+        "title": "Często zadawane pytania",
+        "q1": "Co to jest rekord PTR?",
+        "a1": "Rekord PTR (Pointer) to typ rekordu DNS, który mapuje adres IP na nazwę hosta. Jest to podstawowy element odwrotnego wyszukiwania DNS.",
+        "q2": "Dlaczego odwrotny DNS jest ważny dla poczty e-mail?",
+        "a2": "Wielu dostawców e-mail używa odwrotnego DNS, aby sprawdzić, czy serwer wysyłający jest legalny. Jeśli adres IP serwera nie ma pasującego rekordu rDNS, jego e-maile mogą zostać oznaczone jako spam.",
+        "q3": "Czy każdy adres IP może mieć rekord DNS odwrotny?",
+        "a3": "Tak, ale właściciel adresu IP (zazwyczaj dostawca usług internetowych lub hostingowych) musi skonfigurować rekord PTR w swoich ustawieniach DNS."
+    }
+}

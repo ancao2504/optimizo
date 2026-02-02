@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - Gratis online Crontab-værktøj",
+        "description": "Opret cron-tidsplaner nemt med vores visuelle generator - ingen grund til at huske cron-syntaks",
+        "h1": "Cron Job Generator",
+        "subtitle": "Opret cron-tidsplaner nemt med vores visuelle generator"
+    },
+    "editor": {
+        "common_settings": "Almindelige Indstillinger",
+        "choose": "-- Vælg --",
+        "options": {
+            "every_minute": "Hvert Minut (* * * * *)",
+            "every_5_minutes": "Hvert 5. Minut (*\/5 * * * *)",
+            "every_15_minutes": "Hvert 15. Minut (*\/15 * * * *)",
+            "every_30_minutes": "Hvert 30. Minut (*\/30 * * * *)",
+            "every_hour": "Hver Tid (0 * * * *)",
+            "every_day_midnight": "Hver Dag ved Midnat (0 0 * * *)",
+            "every_week": "Hver Uge (0 0 * * 0)",
+            "every_month": "Hver Måned (0 0 1 * *)"
+        },
+        "minute": "Minut",
+        "every_minute": "Hvert Minut (*)",
+        "hour": "Tid",
+        "every_hour": "Hver Tid (*)",
+        "day": "Dag",
+        "every_day": "Hver Dag (*)",
+        "month": "Måned",
+        "every_month": "Hver Måned (*)",
+        "weekday": "Ugedag",
+        "every_weekday": "Alle Ugedage (*)",
+        "command": "Kommando at Køre",
+        "ph_command": "\/usr\/bin\/php \/sti\/til\/script.php",
+        "generated_cron": "Genereret Cron Udtryk",
+        "btn_copy": "Kopier Cron",
+        "btn_clear": "Nulstil"
+    },
+    "content": {
+        "hero_title": "Cron Job Generator",
+        "p1": "Opsætning af cron-jobs kan være forvirrende med kryptiske asterisker og tal. Vores gratis online Cron Job Generator giver dig mulighed for at bygge perfekte cron-tidsplaner visuelt. Uanset om du skal køre et script hvert 5. minut, ved midnat, eller på bestemte dage i måneden, genererer vores værktøj den korrekte syntaks for dig øjeblikkeligt.",
+        "features": {
+            "visual": {
+                "title": "Visuel Editor",
+                "desc": "Vælg minutter, timer, dage og måneder ved hjælp af en simpel grænseflade"
+            },
+            "readable": {
+                "title": "Menneskeligt Læsbar",
+                "desc": "Konverterer cron-udtryk til almindelige beskrivelser på dansk"
+            }
+        },
+        "syntax_title": "📚 Forstå Cron Syntaks",
+        "syntax_intro": "Et cron-udtryk består af 5 felter adskilt af mellemrum:",
+        "syntax_fields": {
+            "min": "Minut (0-59)",
+            "hour": "Tid (0-23)",
+            "day": "Dag i Måned (1-31)",
+            "month": "Måned (1-12)",
+            "week": "Ugedag (0-6, Søndag=0)"
+        },
+        "faq_title": "❓ Ofte Stillede Spørgsmål",
+        "faq": {
+            "q1": "Hvad er et cron-job?",
+            "a1": "Et cron-job er en tidsbaseret jobplanlægger i Unix-lignende computeroperativsystemer. Brugere kan planlægge jobs (kommandoer eller scripts) til at køre periodisk på faste tidspunkter, datoer eller intervaller.",
+            "q2": "Hvordan installerer jeg et cron-job?",
+            "a2": "Du bruger typisk kommandoen `crontab -e` i din terminal for at redigere din cron-fil. Indsæt derefter den genererede linje i bunden af filen.",
+            "q4": "Hvad betyder asterisk (*) ?",
+            "a4": "En asterisk betyder \"hver\". Til eksempel betyder en asterisk i minutfeltet \"hvert minut\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron udtryk kopieret til udklipsholder!",
+        "no_copy": "Intet cron udtryk at kopiere"
+    }
+}

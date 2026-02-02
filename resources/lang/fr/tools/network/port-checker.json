@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Outil de vérification de port - Scanner de port ouvert en ligne gratuit",
+        "description": "Outil gratuit de vérification de port pour tester si les ports sont ouverts, fermés ou filtrés. Vérifiez instantanément les ports TCP\/UDP pour le dépannage réseau et l'audit de sécurité.",
+        "h1": "Outil de vérification des ports",
+        "subtitle": "Vérifiez si les ports sont ouverts sur n'importe quel serveur pour dépanner la connectivité"
+    },
+    "form": {
+        "host_label": "Hôte ou adresse IP",
+        "host_placeholder": "exemple.com ou 8.8.8.8",
+        "port_label": "Numéro de port",
+        "port_placeholder": "80",
+        "button": "Vérifier le port"
+    },
+    "results": {
+        "title": "Résultat de la vérification du port"
+    },
+    "content": {
+        "what_is_title": "Qu'est-ce qu'un vérificateur de port ?",
+        "what_is_desc": "Un vérificateur de port est un outil de diagnostic réseau qui détermine si un port TCP ou UDP spécifique sur un serveur ou un appareil est ouvert (acceptant les connexions), fermé (rejetant les connexions) ou filtré (bloqué par un pare-feu). Les ports sont des points de terminaison virtuels pour la communication réseau, chaque numéro de port (1-65535) pouvant héberger des services différents. Les ports courants incluent le 80 pour le trafic web HTTP, le 443 pour le HTTPS, le 22 pour le SSH et le 25 pour les e-mails. La vérification de l'état des ports est essentielle pour la configuration du réseau, l'audit de sécurité et le dépannage des problèmes de connectivité.",
+        "why_check_title": "Pourquoi vérifier les ports ?",
+        "why_check_desc": "La vérification des ports sert plusieurs objectifs critiques dans la gestion et la sécurité du réseau. Les administrateurs système vérifient que les services sont accessibles sur leurs ports prévus après des changements de configuration. Les professionnels de la sécurité scannent les ports ouverts pour identifier les vulnérabilités potentielles et s'assurer que les ports inutiles sont fermés. Les développeurs testent si leurs applications écoutent correctement sur les ports configurés. Les dépanneurs réseau utilisent la vérification des ports pour diagnostiquer pourquoi les services ne sont pas accessibles, déterminant si le problème vient du service lui-même, des règles de pare-feu ou du routage réseau.",
+        "common_ports_title": "Ports courants",
+        "port1": "<strong>Port 80 :<\/strong> HTTP (trafic web)",
+        "port2": "<strong>Port 443 :<\/strong> HTTPS (trafic web sécurisé)",
+        "port3": "<strong>Port 22 :<\/strong> SSH (accès shell sécurisé)",
+        "port4": "<strong>Port 21 :<\/strong> FTP (transfert de fichiers)",
+        "port5": "<strong>Port 25 :<\/strong> SMTP (envoi d'e-mails)",
+        "port6": "<strong>Port 3306 :<\/strong> Base de données MySQL",
+        "port7": "<strong>Port 3389 :<\/strong> RDP (Remote Desktop)",
+        "security_title": "Implications pour la sécurité",
+        "security_desc": "Les ports ouverts représentent des points d'entrée potentiels pour les attaquants. La meilleure pratique de sécurité consiste à ne garder ouverts que les ports nécessaires et à fermer ou filtrer tous les autres. Scanner régulièrement vos propres serveurs aide à identifier les ports ouverts involontairement qui pourraient être exploités. Cependant, scanner les ports des systèmes d'autrui sans permission peut être illégal et est considéré comme une activité hostile. Assurez-vous toujours d'avoir l'autorisation nécessaire avant de scanner les ports sur des systèmes qui ne vous appartiennent pas."
+    },
+    "faq": {
+        "title": "FAQ sur les ports",
+        "q1": "Quelle est la différence entre un port ouvert et fermé ?",
+        "a1": "Un port ouvert signifie qu'une application écoute et accepte les connexions. Un port fermé signifie qu'aucune application n'écoute sur ce port.",
+        "q2": "Que signifie un port 'filtré' ?",
+        "a2": "Un port filtré signifie qu'un pare-feu bloque la requête et qu'il est impossible de déterminer s'il est ouvert ou fermé.",
+        "q3": "Est-il sûr d'avoir des ports ouverts ?",
+        "a3": "Seuls les ports nécessaires aux services publics (comme 80\/443 pour un serveur web) devraient être ouverts. Les autres sont des risques de sécurité.",
+        "q4": "Comment ouvrir un port sur mon routeur ?",
+        "a4": "Cela se fait généralement via le 'Port Forwarding' dans les paramètres de votre routeur pour diriger le trafic vers un appareil spécifique.",
+        "q5": "Qu'est-ce qu'un scan de ports ?",
+        "a5": "C'est le processus consistant à vérifier systématiquement plusieurs ports sur un hôte pour voir lesquels sont ouverts."
+    },
+    "js": {
+        "checking": "Vérification en cours...",
+        "success": "Vérification du port terminée",
+        "error": "Échec de la vérification du port",
+        "check_port": "Vérifier le port"
+    }
+}

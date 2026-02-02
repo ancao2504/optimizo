@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Tra cứu DNS ngược - Công cụ IP sang tên miền trực tuyến miễn phí",
+        "description": "Công cụ tr cứu DNS ngược trực tuyến miễn phí. Tìm tên máy chủ liên kết với bất kỳ đị chỉ IP nào ngy lập tức. Nhnh chóng, n àn và dễ sử dụng.",
+        "h1": "Tra cứu DNS ngược",
+        "subtitle": "Tìm tên miền hoặc tên máy chủ liên kết với một đị chỉ IP ngy lập tức"
+    },
+    "form": {
+        "ip_label": "Nhập IP Thêmress",
+        "ip_placeholder": "ví dụ: 8.8.8.8",
+        "button": "Tr Cứu DNS Ngược",
+        "button_loading": "Đng tr cứu.."
+    },
+    "results": {
+        "title": "Kết Quả DNS Ngược"
+    },
+    "content": {
+        "what_is_title": "Tr Cứu DNS Ngược Là Gì?",
+        "what_is_desc": "Tr cứu DNS ngược (rDNS) là quá trình xác định tên miền hoặc tên máy chủ liên kết với một đị chỉ IP. Không giống như tr cứu DNS tiêu chuẩn chuyển đổi tên miền thành đị chỉ IP (tr cứu thuận), rDNS thực hiện điều ngược lại. Nó thường được sử dụng để xác minh dnh tính củ máy chủ hoặc khắc phục các sự cố mạng.",
+        "why_use_title": "Tại So Nên Sử Dụng Tr Cứu DNS Ngược?",
+        "why_use_desc": "DNS ngược được sử dụng rộng rãi cho mục đích bảo mật và xác minh. Nó giúp xác định nguồn củ lưu lượng truy cập đến, xác minh người gửi emil (để ngăn chặn thư rác) và khắc phục các sự cố kết nối mạng. Nhiều máy chủ thư yêu cầu các bản ghi rDNS hợp lệ để chấp nhận các emil đến.",
+        "ptr_records_title": "Hiểu Các Bản Ghi PTR",
+        "ptr_record1": "<strong>Bản ghi PTR:<\/strong> Một Bản ghi Con trỏ (PTR) là loại bản ghi DNS được sử dụng để các lần tr cứu DNS ngược.",
+        "ptr_record2": "<strong>Ánh xạ:<\/strong> Nó ánh xạ một đị chỉ IP trở lại tên máy chủ.",
+        "ptr_record3": "<strong>Xác minh:<\/strong> qun trọng để khả năng phân phối emil và xác minh bảo mật.",
+        "ptr_record4": "<strong>IP-sng-Host:<\/strong> Thiết yếu để xác định người chủ thực sự củ một đị chỉ IP.",
+        "ptr_record5": "<strong>Ngăn chặn Thư rác:<\/strong> Được sử dụng bởi các máy chủ thư để xác thực tính xác thực củ người gửi.",
+        "ptr_record6": "<strong>Nhật ký Mạng:<\/strong> hữu ích để việc làm cho các nhật ký mạng trở nên dễ đọc hơn bằng cách hiển thị tên máy chủ.",
+        "use_cases_title": "Trường hợp sử dụng phổ biến",
+        "use_cases_desc": "Common use cses include verifying hoặcigin of web trffic, dignosing netwhoặck ltency hoặc routing problems, vlidting emil server configurtions, và enhncing cybersecurity udits by identifying potentilly mlicious IP ddresses."
+    },
+    "faq": {
+        "title": "Các Câu Hỏi Thường Gặp",
+        "q1": "Bản ghi PTR là gì?",
+        "a1": "Một bản ghi PTR (Con trỏ) là một loại bản ghi DNS ánh xạ đị chỉ IP thành tên máy chủ. Nó là thành phần cốt lõi củ việc tr cứu DNS ngược.",
+        "q2": "Tại so DNS ngược lại qun trọng đối với emil?",
+        "a2": "Nhiều nhà cung cấp dịch vụ emil sử dụng DNS ngược để xác minh xem máy chủ gửi có hợp lệ hy không. Nếu đị chỉ IP củ một máy chủ không có bản ghi rDNS khớp, các emil củ nó có thể bị đánh dấu là thư rác.",
+        "q3": "Bất kỳ đị chỉ IP nào cũng có thể có bản ghi DNS ngược phải không?",
+        "a3": "Phải, nhưng người sở hữu đị chỉ IP (thường là làP hoặc nhà cung cấp hosting) phải cấu hình bản ghi PTR trong cài đặt DNS củ họ."
+    }
+}

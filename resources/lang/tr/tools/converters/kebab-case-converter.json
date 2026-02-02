@@ -1,0 +1,129 @@
+{
+    "meta": {
+        "title": "Ücretsiz Kebap Kutusu Dönüştürücü - Çevrimiçi URL Dizisi Aracı",
+        "description": "Ücretsiz çevrimiçi aracımızla metni URL'ler ve CSS sınıfları için kebab-case formatına dönüştürün",
+        "h1": "Kebap Kasası Dönüştürücü",
+        "subtitle": "URL'ler ve CSS için metni kebab-case'e dönüştürün"
+    },
+    "editor": {
+        "label_input": "Giriş Metni",
+        "ph_input": "benim url slug adresim",
+        "btn_convert": "kebab-case'e Dönüştür",
+        "btn_clear": "Temizle",
+        "btn_copy": "Kopyala",
+        "label_output": "Çıkış (kebab-case)",
+        "ph_output": "benim-url-slug-adresim"
+    },
+    "content": {
+        "hero_title": "Kebab Case Dönüştürücü",
+        "hero_subtitle": "Temiz URL'ler ve CSS seçicileri için tercih edilen format.",
+        "p1": "Ücretsiz çevrimiçi dönüştürücümüzle metninizi kebab-case formatına dönüştürün. Kebab-case, kelimeleri ayıran kısa çizgilerle küçük harfler kullanır ve bir şiş üzerindeki \"kebap\" görünümünü taklit eder.",
+        "features_title": "Özellikler",
+        "features": {
+            "url": {
+                "title": "Temiz URL'ler",
+                "desc": "Kısa çizgiler, arama motorları tarafından URL slug'ları için tercih edilir."
+            },
+            "instant": {
+                "title": "Hızlı Sonuçlar",
+                "desc": "Yazarken veya tıkladığınızda anında dönüşüm."
+            },
+            "privacy": {
+                "title": "Gizlilik Korumalı",
+                "desc": "Metniniz asla cihazınızdan ayrılmaz."
+            },
+            "bulk": {
+                "title": "Toplu Dönüşüm",
+                "desc": "Aynı anda birden fazla satırı veya slug'ı dönüştürün."
+            },
+            "smart": {
+                "title": "Akıllı Temizleme",
+                "desc": "Boşlukları ve özel karakterleri otomatik olarak yönetir."
+            },
+            "free": {
+                "title": "%100 Ücretsiz",
+                "desc": "Kayıt veya gizli maliyet yok."
+            }
+        },
+        "uses_title": "Yaygın Kullanım Durumları",
+        "uses": {
+            "url": {
+                "title": "URL Slug'ları",
+                "desc": "Blog gönderileri ve ürünler için okunabilir, arama dostu URL'ler oluşturma."
+            },
+            "css": {
+                "title": "CSS Sınıf Adları",
+                "desc": ".birincil-buton veya .ana-navigasyon-konteyneri gibi stil adlandırma."
+            },
+            "file": {
+                "title": "Dosya Adlandırma",
+                "desc": "Çapraz platform uyumlu dosya adları için standart."
+            },
+            "html": {
+                "title": "HTML ID'leri",
+                "desc": "Öğelerinize açıklayıcı, benzersiz ID'ler verme."
+            },
+            "pkg": {
+                "title": "Paket Adları",
+                "desc": "npm ve diğer modern paket yöneticilerinde yaygındır."
+            },
+            "domain": {
+                "title": "Alan Adları",
+                "desc": "Çok kelimeli alan adı tescillerini formatlama."
+            }
+        },
+        "how_title": "Nasıl Dönüştürülür",
+        "how_to_steps": [
+            {
+                "title": "Metni Girin",
+                "desc": "İfadenizi veya URL parçanızı girin."
+            },
+            {
+                "title": "Otomatik Format",
+                "desc": "Araç her şeyi küçük harfe çevirir."
+            },
+            {
+                "title": "Kısa Çizgi Ekleme",
+                "desc": "Alfanümerik olmayan tüm karakterleri kısa çizgilerle değiştirir."
+            },
+            {
+                "title": "Temizlik",
+                "desc": "Birden fazla boşluğu veya kısa çizgiyi düzgün bir şekilde yönetir."
+            },
+            {
+                "title": "Kullanıma Hazır",
+                "desc": "Kebab-case metin çıktı olarak verilir."
+            }
+        ],
+        "samples_title": "Örnekler",
+        "samples": [
+            {
+                "title": "URL Slug",
+                "desc": "Web Sayfam → web-sayfam"
+            },
+            {
+                "title": "CSS Sınıfı",
+                "desc": "Üst Bilgi Navigasyonu → ust-bilgi-navigasyonu"
+            }
+        ],
+        "faq_title": "Sıkça Sorulan Sorular",
+        "faq": {
+            "q1": "Neden kebab-case deniyor?",
+            "a1": "Çünkü kelimeler bir kısa çizgi ile birbirine \"şişlenmiştir\", bir kebap üzerindeki et parçaları gibi görünür.",
+            "q2": "Kebab vs Snake Case?",
+            "a2": "Kebab kısa çizgi (-), snake alt çizgi (_) kullanır. URL'ler kebabı sever; veritabanları snake'i sever.",
+            "q3": "SEO dostu mu?",
+            "a3": "Evet, Google ve diğer arama motorları URL'lerde alt çizgi yerine kısa çizgi kullanılmasını önerir.",
+            "q4": "Özel karakterleri işliyor mu?",
+            "a4": "Evet, güvenlik için tüm sembolleri ve noktalama işaretlerini tek bir kısa çizgi ile değiştirir.",
+            "q5": "Ücretsiz mi?",
+            "a5": "Kullanım sınırı olmaksızın tamamen ücretsizdir."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen dönüştürmek için biraz metin girin",
+        "success_convert": "✓ Başarıyla kebab-case formatına dönüştürüldü!",
+        "error_copy": "Kopyalanacak bir şey yok! Lütfen önce metni dönüştürün.",
+        "success_copy": "✓ Panoya kopyalandı!"
+    }
+}

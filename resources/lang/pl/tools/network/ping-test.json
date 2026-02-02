@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Narzędzie do testowania pingów online — bezpłatne narzędzie do sprawdzania opóźnień sieci",
+        "description": "Darmowe narzędzie do sprawdzania portów, które pozwala ustalić, czy porty są otwarte, zamknięte lub filtrowane. Błyskawicznie sprawdzaj porty TCP\/UDP w celu rozwiązywania problemów i audytu bezpieczeństwa.",
+        "h1": "Narzędzie do testowania pingu",
+        "subtitle": "Sprawdź, czy porty na dowolnym serwerze są otwarte"
+    },
+    "form": {
+        "host_label": "Adres hosta lub IP",
+        "host_placeholder": "example.com lub 8.8.8.8",
+        "button": "Sprawdź port"
+    },
+    "results": {
+        "title": "Status portu"
+    },
+    "content": {
+        "what_is_title": "Czym jest Port Checker?",
+        "what_is_desc": "Port Checker to narzędzie diagnostyczne sieci, które określa, czy konkretny port TCP lub UDP na serwerze lub urządzeniu jest otwarty (przyjmuje połączenia), zamknięty (odrzuca połączenia) lub filtrowany (zablokowany przez zaporę sieciową). Porty to wirtualne punkty końcowe komunikacji sieciowej, a każdy numer portu (1-65535) może potencjalnie obsługiwać inną usługę. Typowe porty to 80 dla ruchu HTTP, 443 dla HTTPS, 22 dla SSH i 25 dla poczty e-mail. Sprawdzanie statusu portu jest niezbędne do konfiguracji sieci, audytu bezpieczeństwa i rozwiązywania problemów z łącznością.",
+        "why_use_title": "Dlaczego warto używać testu pingowania?",
+        "why_use_desc": "Testowanie ping jest niezbędne do rozwiązywania problemów z siecią i monitorowania wydajności. Administratorzy systemu używają polecenia ping do sprawdzania łączności sieciowej, diagnozowania problemów z połączeniem i pomiaru opóźnień sieci. Pomaga określić, czy serwer jest online i szybko reaguje, wykryć utratę pakietów, która może wskazywać na przeciążenie sieci lub problemy ze sprzętem, a także zmierzyć jakość połączeń sieciowych. Gracze korzystają z polecenia ping, aby sprawdzić opóźnienia serwera przed dołączeniem do gier online, natomiast właściciele witryn internetowych monitorują responsywność swoich serwerów, aby zapewnić użytkownikom optymalną wygodę.",
+        "metrics_title": "Zrozumienie wskaźników pingu",
+        "metric1": "<strong>Pakiety wysłane\/odebrane:<\/strong> liczba żądań ping i pomyślnych odpowiedzi",
+        "metric2": "<strong>Utrata pakietów:<\/strong> procent pakietów, które nie otrzymały odpowiedzi",
+        "metric3": "<strong>Czas minimalny:<\/strong> najszybszy zarejestrowany czas podróży w obie strony",
+        "metric4": "<strong>Średni czas:<\/strong> średnie opóźnienie dla wszystkich pingów",
+        "metric5": "<strong>Maksymalny czas:<\/strong> najdłuższy zarejestrowany czas podróży w obie strony",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> liczba przeskoków sieciowych przed wygaśnięciem pakietu",
+        "interpreting_title": "Interpretacja wyników",
+        "interpreting_desc": "Dobre czasy pingowania wynoszą zazwyczaj poniżej 50 ms dla połączeń lokalnych i poniżej 100 ms dla połączeń międzynarodowych. Czasy pomiędzy 100-200 ms są akceptowalne dla większości aplikacji, ale mogą powodować zauważalne opóźnienia w aplikacjach czasu rzeczywistego, takich jak gry lub wideokonferencje. Wszystko powyżej 200 ms wskazuje na potencjalne problemy z siecią. Utrata pakietów powyżej 1% sugeruje problemy z siecią, które wymagają zbadania. Stałe czasy pingów wskazują na stabilne połączenia, podczas gdy bardzo zmienne czasy sugerują przeciążenie sieci lub problemy z routingiem."
+    },
+    "faq": {
+        "title": "Często zadawane pytania",
+        "q1": "Co oznacza status „Filtered”?",
+        "a1": "Status filtrowany oznacza, że pakiet został wysłany, ale narzędzie nie otrzymało żadnej odpowiedzi. Zazwyczaj dzieje się tak, gdy zapora ogniowa (firewall) blokuje ruch na tym porcie.",
+        "q2": "Czy skanowanie portów jest bezpieczne?",
+        "a2": "Sprawdzanie własnego serwera jest procedurą rutynową i bezpieczną. Pozwala upewnić się, że konfiguracja zabezpieczeń działa zgodnie z oczekiwaniami.",
+        "q3": "Dlaczego port 80 jest zamknięty, mimo że moja strona działa?",
+        "a3": "Twoja strona może korzystać wyłącznie z bezpiecznego połączenia na porcie 443 (HTTPS), a port 80 może być zablokowany lub wyłączony przez dostawcę.",
+        "q4": "Jak otworzyć port na routerze?",
+        "a4": "Otwieranie portów (Port Forwarding) wykonuje się w panelu administracyjnym routera, kierując ruch przychodzący na określony port do konkretnego urządzenia w sieci lokalnej.",
+        "q5": "Czym różnią się porty TCP i UDP?",
+        "a5": "TCP (Transmission Control Protocol) gwarantuje dostarczanie danych i jest używany przez WWW i e-mail. UDP (User Datagram Protocol) jest szybszy, ale nie gwarantuje dostawy, używany np. w grach i streamingu."
+    },
+    "js": {
+        "pinging": "Pingowanie hosta...",
+        "success": "Pomyślnie sprawdzono port",
+        "error": "Błąd podczas sprawdzania portu",
+        "ping_host": "Host pingowania"
+    }
+}

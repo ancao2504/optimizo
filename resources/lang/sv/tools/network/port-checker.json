@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Port Checker Tool - Gratis Open Port Scanner online",
+        "description": "Gratis portkontrollverktyg för att testa om portar är öppna, stängda eller filtrerade. Kontrollera TCP\/UDP-portar omedelbart för nätverksfelsökning och säkerhetsrevision.",
+        "h1": "Port Checker Tool",
+        "subtitle": "Kontrollera om portar är öppna på vilken server som helst för att felsöka anslutning"
+    },
+    "form": {
+        "host_label": "Värd eller IP-adress",
+        "host_placeholder": "exempel.se eller 8.8.8.8",
+        "port_label": "Portnummer",
+        "port_placeholder": "80",
+        "button": "Kontrollera Port"
+    },
+    "results": {
+        "title": "Portstatus"
+    },
+    "content": {
+        "what_is_title": "Vad är Portkontroll?",
+        "what_is_desc": "En Portkontroll är ett nätverksdiagnostikverktyg som avgör om en specifik TCP- eller UDP-port på en server eller enhet är öppen (accepterar anslutningar), stängd (avvisar anslutningar) eller filtrerad (blockerad av en brandvägg). Portar är virtuella slutpunkter för nätverkskommunikation, där varje portnummer (1-65535) potentiellt härbärgerar olika tjänster. Vanliga portar inkluderar 80 för HTTP-webbtrafik, 443 för HTTPS, 22 för SSH och 25 för e-post. Att kontrollera portstatus är oumbärligt för nätverkskonfiguration, säkerhetsrevision och felsökning av anslutningsproblem.",
+        "why_check_title": "Varför kontrollera portar?",
+        "why_check_desc": "Portkontroll tjänar flera kritiska syften inom nätverkshantering och säkerhet. Systemadministratörer verifierar att tjänster är tillgängliga på sina avsedda portar efter konfigurationsändringar. Säkerhetsproffs skannar efter öppna portar för att identifiera potentiella sårbarheter och se till att onödiga portar är stängda. Utvecklare testar om deras applikationer lyssnar korrekt på konfigurerade portar. Nätverksfelsökare använder portkontroll för att diagnostisera varför tjänster inte är tillgängliga, och avgöra om problemet ligger hos själva tjänsten, brandväggsregler eller nätverksrouting.",
+        "common_ports_title": "Vanliga portar",
+        "port1": "<strong>Port 80:<\/strong> HTTP (webbtrafik)",
+        "port2": "<strong>Port 443:<\/strong> HTTPS (säker webbtrafik)",
+        "port3": "<strong>Port 22:<\/strong> SSH (säker shell-åtkomst)",
+        "port4": "<strong>Port 21:<\/strong> FTP (filöverföring)",
+        "port5": "<strong>Port 25:<\/strong> SMTP (e-postutskick)",
+        "port6": "<strong>Port 3306:<\/strong> MySQL-databas",
+        "port7": "<strong>Port 3389:<\/strong> RDP (Fjärrskrivbord)",
+        "security_title": "Säkerhetsimplikationer",
+        "security_desc": "Öppna portar utgör potentiella ingångar för angripare. Bästa säkerhetspraxis förespråkar att endast hålla nödvändiga portar öppna och stänga eller filtrera alla andra. Att regelbundet skanna dina egna servrar hjälper till att identifiera oavsiktligt öppna portar som kan utnyttjas. Att skanna andras system utan tillstånd kan dock vara olagligt och betraktas som fientlig aktivitet. Se alltid till att du har behörighet innan du skannar portar på system du inte äger."
+    },
+    "faq": {
+        "title": "Vanliga frågor",
+        "q1": "Vad är en port checker?",
+        "a1": "En portcheckare testar om en specifik nätverksport på en server är öppen och accepterar anslutningar. Det är viktigt för felsökning av servrar, brandväggar och nätverkstjänster.",
+        "q2": "Vilka är vanliga portar och deras användningsområden?",
+        "a2": "Vanliga portar inkluderar: 80 (HTTP), 443 (HTTPS), 21 (FTP), 22 (SSH), 25 (SMTP-e-post), 3306 (MySQL), 3389 (Fjärrskrivbord), 8080 (HTTP-alternativ). Varje tjänst använder specifika portar för kommunikation.",
+        "q3": "Varför är min hamn stängd?",
+        "a3": "Portar kan stängas på grund av brandväggsregler, routerkonfiguration, tjänst som inte körs, ISP-blockering eller felaktig portvidarebefordran. Kontrollera dina brandväggsinställningar, se till att tjänsten körs och verifiera regler för portvidarebefordran.",
+        "q4": "Är det säkert att öppna portar?",
+        "a4": "Att öppna portar exponerar tjänster för internet, vilket kan utgöra en säkerhetsrisk om de inte är korrekt konfigurerade. Öppna bara nödvändiga portar, använd stark autentisering, håll programvaran uppdaterad och överväg att använda VPN för känsliga tjänster.",
+        "q5": "Vad är skillnaden mellan TCP- och UDP-portar?",
+        "a5": "TCP-portar ger tillförlitlig, beställd dataleverans (används för webb, e-post, filöverföring). UDP-portar är snabbare men garanterar inte leverans (används för spel, streaming, DNS). Båda kan använda samma portnummer."
+    },
+    "js": {
+        "checking": "Kontrollerar portstatus...",
+        "success": "Hamnkontroll avslutad",
+        "error": "Portkontroll misslyckades",
+        "check_port": "Kontrollera port"
+    }
+}

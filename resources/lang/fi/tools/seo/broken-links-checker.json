@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Broken Links Checker - ilmainen online-sivuston tarkastus",
+        "description": "Ilmainen työkalu rikkoutuneiden linkkien (404-virheet) etsimiseen ja korjaamiseen SEO:n parantamiseksi.",
+        "h1": "Rikkoutuneiden linkkien tarkistus",
+        "subtitle": "Etsi ja korjaa verkkosivusi rikkoutuneet linkit paremman käyttökokemuksen saavuttamiseksi"
+    },
+    "interface": {
+        "scan_title": "Linkkien tarkistaja",
+        "scan_subtitle": "Etsi rikkoutuneet linkit, uudelleenohjaukset ja muut.",
+        "url_label": "Verkkosivun URL",
+        "button": "Skannaa linkit",
+        "button_scanning": "Skannataan...",
+        "legend_ok": "200 OK",
+        "legend_err": "404\/Virhe"
+    },
+    "progress": {
+        "extracting": "Poimitaan linkkejä...",
+        "stop": "Pysäytä",
+        "processing": "Käsitellään linkkejä...",
+        "processed": "Käsitelty",
+        "of": "\/",
+        "links": "linkkiä",
+        "checking": "Tarkistetaan linkkejä..."
+    },
+    "stats": {
+        "total": "Linkkejä yhteensä",
+        "working": "Toimivia (200)",
+        "redirects": "Uudelleenohjauksia (3xx)",
+        "broken": "Rikki (4xx\/5xx)"
+    },
+    "results": {
+        "download": "Lataa CSV-raportti",
+        "detailed_analysis": "Yksityiskohtainen analyysi",
+        "status": "Tila",
+        "link_url": "Linkin URL",
+        "anchor_text": "Ankkuriteksti",
+        "type": "Tyyppi"
+    },
+    "content": {
+        "main_title": "Miksi tarkistaa rikkoutuneet linkit?",
+        "main_subtitle": "Rikkoutuneet linkit heikentävät sivustosi uskottavuutta, käyttökokemusta ja SEO-sijoituksia. Työkalumme auttaa korjaamaan ne ajoissa.",
+        "what_is_title": "Mikä on rikkoutuneiden linkkien tarkistaja?",
+        "what_is_desc": "Työkalu, joka käy läpi sivusi ja etsii linkkejä, jotka eivät enää toimi (404-virheet tai palvelinvirheet).",
+        "how_works_title": "Miten se toimii?",
+        "how_works_intro": "Rikkinäisen linkin tarkistusohjelmamme noudattaa yksinkertaista 3-vaiheista prosessia:",
+        "how_works_step1": "<strong>Skannaus:<\/strong> Syötä URL ja me taltioimme kaikki linkit",
+        "how_works_step2": "<strong>Tarkistus:<\/strong> Testaamme jokaisen linkin tilan",
+        "how_works_step3": "<strong>Raportti:<\/strong> Saat listan linkeistä, jotka vaativat huomiota",
+        "pro_tip_title": "💡 Provinkki:",
+        "pro_tip_desc": "Suorita tämä tarkistus säännöllisesti (kuukausittain tai neljännesvuosittain) löytääksesi rikkinäiset linkit ennen kuin ne vaikuttavat hakukoneoptimointiisi. Tee ylläpitoaikataulu pitääksesi verkkosivustosi kunnossa!",
+        "types_title": "Rikkinäisten linkkien tyypit",
+        "common_causes_title": "Yleisimmät syyt linkkien rikkoutumiseen",
+        "cc_1": "❌ <strong>Kirjoitusvirheet:<\/strong> Väärin kirjoitettu osoite linkkiä luotaessa",
+        "cc_2": "❌ <strong>Poistetut sivut:<\/strong> Sisältö on poistettu ilman uudelleenohjausta",
+        "cc_3": "❌ <strong>Verkkosivuston uudelleenjärjestely:<\/strong> URL-osoitteen rakenne muuttuu uudelleensuunnittelun aikana",
+        "cc_4": "❌ <strong>Ulkoiset sivut:<\/strong> Toinen sivusto on muuttanut osoitteitaan tai suljettu",
+        "cc_5": "❌ <strong>Verkkotunnuksen vanheneminen:<\/strong> linkitetyt verkkosivustot siirtyvät offline-tilaan pysyvästi",
+        "cc_6": "❌ <strong>Protokollamuutokset:<\/strong> HTTP:stä HTTPS:ään siirtyminen ilman asianmukaisia ​​uudelleenohjauksia",
+        "best_practices_title": "Parhaat käytännöt rikkinäisten linkkien hallintaan"
+    },
+    "benefits": {
+        "ux_title": "Käyttökokemus",
+        "ux_desc": "Rikkinäiset linkit turhauttavat vierailijat ja lisäävät poistumisprosenttia. Pidä käyttäjäsi tyytyväisinä sujuvalla selauskokemuksella.",
+        "seo_title": "SEO vaikutus",
+        "seo_desc": "Hakukoneet rankaisevat sivustoja, joissa on monia rikkinäisiä linkkejä. Säilytä sijoituksesi korjaamalla kuolleet linkit viipymättä.",
+        "maintenance_title": "Helppo huolto",
+        "maintenance_desc": "Tunnista ja korjaa rikkinäiset linkit nopeasti, ennen kuin ne vahingoittavat sivustosi mainetta ja haun näkyvyyttä."
+    },
+    "link_types": {
+        "type1_title": "🔴 404 Ei löydy",
+        "type1_desc": "Yleisin rikkinäinen linkki. Sivua ei enää ole palvelimella.",
+        "type2_title": "🟡 301\/302 uudelleenohjaukset",
+        "type2_desc": "Sivu on siirtynyt. Vaikka liian monet uudelleenohjaukset eivät ole rikki, ne hidastavat sivustoasi.",
+        "type3_title": "🔴 500 palvelinvirhettä",
+        "type3_desc": "Palvelimessa tapahtui virhe. Nämä vaativat välitöntä huomiota.",
+        "type4_title": "🟢 Aikakatkaisuvirheet",
+        "type4_desc": "Palvelimelta kesti liian kauan vastata. Voi viitata suorituskykyongelmiin."
+    },
+    "best_practices": {
+        "bp1_title": "Säännölliset tarkastukset",
+        "bp1_desc": "Tarkista sivustosi kuukausittain rikkinäisten linkkien varalta, varsinkin sisältöpäivitysten jälkeen",
+        "bp2_title": "Käytä 301-uudelleenohjauksia",
+        "bp2_desc": "Kun siirrät tai poistat sivuja, määritä aina oikeat uudelleenohjaukset",
+        "bp3_title": "Tarkkaile ulkoisia linkkejä",
+        "bp3_desc": "Ulkoiset sivustot vaihtuvat usein. Tarkista lähtevät linkit neljännesvuosittain",
+        "bp4_title": "Asiakirjan muutokset",
+        "bp4_desc": "Pidä lokia URL-osoitteen muutoksista ja uudelleenohjauksista tulevaa tarvetta varten",
+        "bp5_title": "Korjaa ensin sisäiset linkit",
+        "bp5_desc": "Korjaa sisäiset rikkinäiset linkit etusijalle, koska ne ovat täysin hallinnassasi",
+        "bp6_title": "Käytä suhteellisia URL-osoitteita",
+        "bp6_desc": "Käytä sisäisissä linkeissä suhteellisia URL-osoitteita välttääksesi ongelmia verkkotunnuksen muutosten aikana"
+    },
+    "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "q1": "Kuinka usein minun tulee tarkistaa rikkinäisten linkkien varalta?",
+        "a1": "Useimmille verkkosivustoille riittää, että rikkinäiset linkit tarkistetaan kuukausittain. Paljon liikennettä sisältävien sivustojen tai sähköisen kaupankäynnin alustojen tulee tarkistaa viikoittain. Suorita välitön tarkistus suurten verkkosivustopäivitysten, uudelleensuunnittelun tai siirtojen jälkeen.",
+        "q2": "Vahingoittaako rikkinäiset linkit SEO-sijoituksiani?",
+        "a2": "Kyllä, mutta välillisesti. Google on todennut, että muutama rikkinäinen linkki ei suoraan vahingoita sijoitusta. <strong>Monet rikkinäiset linkit<\/strong> ovat kuitenkin merkki huonosta sivuston ylläpidosta, mikä voi lisätä poistumisprosenttia, tuhlata indeksointibudjettia ja heikentää käyttäjien luottamusta.",
+        "q3": "Mitä eroa on sisäisten ja ulkoisten rikkinäisten linkkien välillä?",
+        "a3": "<strong>Sisäiset rikkinäiset linkit<\/strong> osoittavat oman verkkotunnuksesi sivuille ja ovat täysin sinun hallinnassasi. <strong>Ulkoiset rikkinäiset linkit<\/strong> osoittavat muille verkkosivustoille. Sinun tulee päivittää ne toimiviksi vaihtoehdoiksi tai poistaa ne.",
+        "q4": "Voinko tarkistaa koko verkkosivustoni rikkinäiset linkit?",
+        "a4": "Tämä työkalu tarkistaa <strong>yhden sivun kerrallaan<\/strong> tarjotakseen nopeita ja tarkkoja tuloksia. Suosittelemme aloittamaan koko sivuston tarkastuksissa tärkeimmistä sivuistasi: etusivusta, suosituimmista aloitussivuista ja paljon liikennettä saavasta sisällöstä.",
+        "q_what_to_do": "Mitä minun pitäisi tehdä, kun löydän rikkinäisiä linkkejä?",
+        "a_what_to_do_intro": "Noudata tätä tärkeysjärjestystä:",
+        "a_what_to_do_li1": "<strong>Sisäiset linkit:<\/strong> määritä 301-uudelleenohjaukset uuteen URL-osoitteeseen tai päivitä linkki suoraan",
+        "a_what_to_do_li2": "<strong>Ulkoiset linkit:<\/strong> Etsi vaihtoehtoinen toimiva sivu tai käytä archive.org-sivustoa löytääksesi vanhan sisällön",
+        "a_what_to_do_li3": "<strong>Jos muuta vaihtoehtoa ei ole:<\/strong> Poista linkki ja päivitä ympäröivä sisältö virran ylläpitämiseksi",
+        "a_what_to_do_li4": "<strong>Dokomentoi kaikki:<\/strong> Pidä lokia myöhempää käyttöä ja kuvioanalyysiä varten"
+    },
+    "js": {
+        "stopping": "Pysäytetään skannausta...",
+        "scan_stopped": "Skannaus pysäytetty",
+        "scan_complete": "Skannaus valmis!",
+        "error_prefix": "Virhe:",
+        "pending": "Odottaa",
+        "internal": "Sisäinen",
+        "external": "Ulkoinen"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Image to Base64 Converter - Free Online String Tool",
+        "description": "Convert images to Base64 encoded strings for embedding in HTML or CSS. Free online tool supporting PNG, JPG, GIF.",
+        "h1": "Convert Image to Base64 String",
+        "subtitle": "Convert images to Base64 encoded strings for embedding in HTML or CSS"
+    },
+    "input": {
+        "title": "Upload Image",
+        "desc": "Drag & drop your image file here",
+        "drop_title": "Drop image file here",
+        "drop_desc": "Supports All Image Formats"
+    },
+    "editor": {
+        "image_alt": "Preview",
+        "label_string": "Base64 String",
+        "btn_copy": "Copy to Clipboard",
+        "char_count": "Character Count",
+        "mime_type": "MIME Type"
+    },
+    "content": {
+        "title": "Convert Image to Base64 String",
+        "p1": "Developers and web designers often need to embed images directly into HTML or CSS files to reduce HTTP requests.",
+        "p2": "Our <strong>Image to Base64 Converter<\/strong> encodes your image file into a long string of characters that represents the binary data. You can paste this string straight into your code.",
+        "features": {
+            "clipboard": {
+                "title": "Clipboard Ready",
+                "desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`)."
+            },
+            "requests": {
+                "title": "Reduce Requests",
+                "desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files."
+            },
+            "formats": {
+                "title": "Any Format",
+                "desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
+            }
+        },
+        "how_to": {
+            "title": "How to use?",
+            "list": [
+                "Select your image file.",
+                "The tool immediately converts the file to a Data URI.",
+                "Click \"Copy to Clipboard\" to grab the code.",
+                "Insert it into your `src` attribute or CSS file."
+            ]
+        },
+        "use_cases": {
+            "title": "When to use Base64?",
+            "list": [
+                "Small Images: Best for icons, spinners, and small logos (under 10KB).",
+                "Single-File Apps: When you need to bundle everything into one HTML file (e.g., email templates).",
+                "Offline Access: Ensures images load even without a network connection if the HTML is saved locally."
+            ]
+        }
+    },
+    "js": {
+        "copied": "Copied!"
+    }
+}

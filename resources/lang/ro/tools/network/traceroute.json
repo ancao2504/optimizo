@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online - Instrument gratuit de analiză a rețelei",
+        "description": "Verifică traseul parcurs de pachete prin internet de la serverul nostru la orice IP sau domeniu. Analizează latența și nodurile de rețea.",
+        "h1": "Traceroute",
+        "subtitle": "Identifică locația problemelor de rețea prin vizualizarea fiecărui hop"
+    },
+    "form": {
+        "host_label": "Gazdă sau Adresă IP",
+        "host_placeholder": "google.com sau 8.8.8.8",
+        "button": "Execută Traceroute",
+        "button_loading": "Se urmărește..."
+    },
+    "results": {
+        "title": "Rezultate Traceroute pentru"
+    },
+    "content": {
+        "what_is_title": "Ce este Traceroute?",
+        "what_is_desc": "Traceroute este un instrument de diagnosticare a rețelei care afișează drumul parcurs de date și timpul necesar pentru ca acestea să ajungă la fiecare nod intermediar (router).",
+        "why_use_title": "De ce să folosești Traceroute?",
+        "why_use_desc": "Este esențial pentru depanarea conexiunii. Dacă un site este inaccesibil, Traceroute îți arată unde anume pe internet se 'pierd' datele tale.",
+        "hops_title": "Înțelegerea Hop-urilor",
+        "hop1": "<strong>Hop:<\/strong> Fiecare router prin care trece pachetul.",
+        "hop2": "<strong>TTL:<\/strong> Time-to-Live, mecanismul care face traceroute posibil.",
+        "hop3": "<strong>Latență:<\/strong> Timpul exprimat în ms pentru fiecare cercetare.",
+        "hop4": "<strong>Timeout:<\/strong> Noduri care nu răspund din motive de securitate.",
+        "hop5": "<strong>Backbone:<\/strong> Interconexiuni majore între rețele globale.",
+        "hop6": "<strong>Destinație:<\/strong> Ultimul punct al traseului datelor tale.",
+        "issues_title": "Probleme Comune Detectate",
+        "issues_desc": "Congestia rețelei la un anumit nod, bucle de rutare sau firewall-uri care blochează traficul ICMP."
+    },
+    "faq": {
+        "title": "Întrebări Frecvente Traceroute",
+        "q1": "De ce apar steluțe (*) în rezultate?",
+        "a1": "Steluțele indică faptul că routerul respectiv nu a răspuns la cerere, de obicei fiind configurat să ignore pachetele de tip ping\/traceroute pentru securitate.",
+        "q2": "Câte hop-uri sunt normale?",
+        "a2": "Pentru conexiuni internaționale, între 10 și 20 de hop-uri sunt ceva obișnuit. Peste 30 pot indica probleme de rutare.",
+        "q3": "Este Traceroute sigur de folosit?",
+        "a3": "Da, este o metodă standard și sigură de diagnosticare a rețelei folosită de toți administratorii de sistem."
+    }
+}

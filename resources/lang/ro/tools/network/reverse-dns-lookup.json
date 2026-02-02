@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Căutare inversă DNS - Instrumentul online gratuit de IP la domeniu",
+        "description": "Unealtă gratuită de Reverse DNS Lookup pentru a găsi numele de domeniu asociat cu o adresă IP. Verifică înregistrările PTR rapid și precis.",
+        "h1": "Căutare inversă DNS",
+        "subtitle": "Identifică hostname-ul din spatele oricărei adrese IP prin interogări rDNS"
+    },
+    "form": {
+        "ip_label": "Adresă IP",
+        "ip_placeholder": "8.8.8.8",
+        "button": "Căutare DNS Inversă",
+        "button_loading": "Se caută..."
+    },
+    "results": {
+        "title": "Rezultat Reverse DNS pentru"
+    },
+    "content": {
+        "what_is_title": "Ce este Reverse DNS Lookup?",
+        "what_is_desc": "Reverse DNS Lookup (rDNS) este procesul de interogare a sistemului de nume de domeniu (DNS) pentru a determina numele de domeniu asociat cu o adresă IP. Spre deosebire de DNS-ul obișnuit care traduce un domeniu într-un IP, rDNS face invers.",
+        "why_use_title": "Importanța Reverse DNS",
+        "why_use_desc": "rDNS este crucial pentru securitate și filtrarea e-mailurilor. Multe servere de mail refuză mesaje de la IP-uri care nu au o înregistrare rDNS validă, considerându-le potențiale surse de spam.",
+        "ptr_records_title": "Înțelegerea Înregistrărilor PTR",
+        "ptr_record1": "<strong>Înregistrare PTR:<\/strong> Un 'Pointer Record' este tipul de înregistrare DNS folosit pentru căutarea inversă.",
+        "ptr_record2": "<strong>Mapare:<\/strong> Aceasta mapează adresa IP înapoi către un nume de gazdă (hostname).",
+        "ptr_record3": "<strong>Verificare:<\/strong> Crucială pentru livrabilitatea e-mailurilor și verificarea identității serverului.",
+        "ptr_record4": "<strong>IP-la-Gazdă:<\/strong> Esențial pentru identificarea adevăratului proprietar al unui IP.",
+        "ptr_record5": "<strong>Prevenire Spam:<\/strong> Mail serverele folosesc PTR pentru validarea expeditorului.",
+        "ptr_record6": "<strong>Log-uri Rețea:<\/strong> Ajută la transformarea IP-urilor din jurnale în nume lizibile.",
+        "use_cases_title": "Cazuri Comune de Utilizare",
+        "use_cases_desc": "Verificarea originii traficului web, diagnosticarea rutării în rețea, validarea configurației mail serverelor și audituri de securitate cibernetică."
+    },
+    "faq": {
+        "title": "Întrebări Frecvente rDNS",
+        "q1": "Ce este o înregistrare PTR?",
+        "a1": "O înregistrare PTR (Pointer) este un tip de înregistrare DNS care mapează o adresă IP la un nume de gazdă. Este componenta centrală a unei căutări DNS inverse.",
+        "q2": "De ce este important rDNS pentru e-mail?",
+        "a2": "Mulți furnizori de e-mail folosesc rDNS pentru a verifica legitimitatea serverului expeditor. Fără o înregistrare validă, e-mailurile pot fi marcate ca spam.",
+        "q3": "Poate orice IP să aibă o înregistrare rDNS?",
+        "a3": "Da, dar proprietarul IP-ului (de obicei furnizorul de hosting sau ISP-ul) trebuie să configureze înregistrarea PTR în setările lor DNS."
+    }
+}

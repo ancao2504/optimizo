@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML-Encoder und -Decoder – kostenloses Online-Entity-Tool",
+        "description": "HTML-Entities kodieren und dekodieren, um XSS-Angriffe zu verhindern – mit unserem kostenlosen Online-Tool.",
+        "h1": "HTML-Encoder und -Decoder",
+        "subtitle": "HTML-Entities kodieren und dekodieren, um XSS-Angriffe zu verhindern"
+    },
+    "editor": {
+        "mode_encode": "HTML kodieren",
+        "mode_decode": "HTML dekodieren",
+        "label_input_encode": "Zu kodierendes HTML eingeben",
+        "ph_input_encode": "<div>Hallo & Willkommen<\/div>",
+        "btn_encode": "HTML kodieren",
+        "btn_clear": "Löschen",
+        "btn_copy": "Kopieren",
+        "label_output_encode": "Kodiertes HTML",
+        "ph_output": "Das verarbeitete HTML erscheint hier...",
+        "label_input_decode": "Zu dekodierendes HTML eingeben",
+        "label_output_decode": "Dekodiertes HTML",
+        "btn_decode": "HTML dekodieren"
+    },
+    "content": {
+        "hero_title": "Kostenloser HTML-Encoder & Decoder",
+        "hero_subtitle": "HTML-Entities kodieren und dekodieren, um XSS-Angriffe zu verhindern",
+        "p1": "Unser kostenloses HTML-Encoder & Decoder-Tool hilft Ihnen dabei, Sonderzeichen in HTML für die sichere Anzeige auf Webseiten zu kodieren oder kodiertes HTML wieder in sein ursprüngliches Format zu dekodieren. Perfekt für Entwickler, Sicherheitsexperten und alle, die mit rohem HTML arbeiten.",
+        "what_title": "🔗 Was ist HTML-Kodierung?",
+        "what_desc": "Die HTML-Kodierung wandelt Zeichen mit besonderer Bedeutung in HTML (wie <, >, &, \") in ihre entsprechenden HTML-Entities um (wie &lt;, &gt;, &amp;, &quot;). Dies verhindert, dass der Browser sie als HTML-Tags interpretiert, was entscheidend für die Vermeidung von Cross-Site-Scripting-Angriffen (XSS) ist.",
+        "features_title": "✨ Funktionen",
+        "features": {
+            "fast": {
+                "title": "Sofortige Konvertierung",
+                "desc": "HTML in Millisekunden kodieren oder dekodieren"
+            },
+            "bidirectional": {
+                "title": "Bidirektional",
+                "desc": "Sonderzeichen kodieren oder Entities wieder in Text dekodieren"
+            },
+            "privacy": {
+                "title": "Datenschutz zuerst",
+                "desc": "Die gesamte Verarbeitung erfolgt in Ihrem Browser"
+            },
+            "copy": {
+                "title": "Kopieren mit einem Klick",
+                "desc": "Verarbeitetes HTML sofort in die Zwischenablage kopieren"
+            },
+            "free": {
+                "title": "100 % kostenlos",
+                "desc": "Keine Limits, keine Registrierung erforderlich"
+            },
+            "safe": {
+                "title": "Sicherheitsorientiert",
+                "desc": "Hilft bei der Vermeidung von XSS-Schwachstellen"
+            }
+        },
+        "uses_title": "🎯 Häufige Anwendungsfälle",
+        "uses": {
+            "security": {
+                "title": "🔒 Sicherheit",
+                "desc": "Bereinigen Sie Benutzereingaben, um XSS-Angriffe zu verhindern, indem Sie Sonderzeichen kodieren."
+            },
+            "display": {
+                "title": "💻 Code-Anzeige",
+                "desc": "Zeigen Sie rohen HTML-Code auf einer Webseite an, ohne dass dieser vom Browser gerendert wird."
+            },
+            "data": {
+                "title": "📊 Datenspeicherung",
+                "desc": "Speichern Sie Inhalte sicher in Datenbanken, ohne sich Gedanken über HTML-Parsing-Probleme machen zu müssen."
+            },
+            "email": {
+                "title": "📧 E-Mail-Vorlagen",
+                "desc": "Stellen Sie sicher, dass Sonderzeichen in HTML-E-Mails korrekt gerendert werden."
+            }
+        },
+        "how_title": "📚 Benutzung",
+        "how_steps": {
+            "1": "Fügen Sie Ihr HTML oder Ihren Text in das Eingabefeld ein",
+            "2": "Klicken Sie auf die Schaltfläche zum Verarbeiten, um die Konvertierung zu starten",
+            "3": "Kopieren Sie das Ergebnis in die Zwischenablage",
+            "4": "Kopieren Sie das kodierte\/dekodierte Ergebnis und verwenden Sie es in Ihrem HTML, XML oder Webanwendungen."
+        },
+        "examples_title": "💡 Beispiele für HTML-Kodierung",
+        "examples": {
+            "1": {
+                "title": "Anführungszeichen:",
+                "code": "\"Hallo\" → &quot;Hallo&quot;"
+            },
+            "2": {
+                "title": "Kaufmännisches Und-Zeichen:",
+                "code": "Tom & Jerry → Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Kodierung von Sonderzeichen",
+                "code": "&lt;script&gt;alert(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&amp;gt;"
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Warum muss ich HTML kodieren?",
+            "a1": "Die Kodierung ist aus Sicherheitsgründen unerlässlich, um zu verhindern, dass der Browser bösartige Skripte (XSS) ausführt und um Code-Snippets korrekt anzuzeigen.",
+            "q2": "Welche Zeichen werden kodiert?",
+            "a2": "Wichtige Zeichen wie <, >, &, \" und ' werden immer kodiert. Erweiterte ASCII-Zeichen können ebenfalls kodiert werden.",
+            "q3": "Ist der Vorgang umkehrbar?",
+            "a3": "Ja, die Dekodierung macht den Prozess exakt rückgängig und stellt den ursprünglichen Text wieder her."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte geben Sie HTML zur Verarbeitung ein",
+        "success_encode": "✓ HTML erfolgreich kodiert",
+        "success_decode": "✓ HTML erfolgreich dekodiert",
+        "error_process": "✗ Fehler bei der HTML-Verarbeitung: ",
+        "error_no_copy": "Keine Ausgabe zum Kopieren vorhanden",
+        "success_copy": "✓ In die Zwischenablage kopiert"
+    }
+}

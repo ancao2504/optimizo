@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "DNS Lookup Tool - Gratis online DNS Record Checker",
+        "description": "Gratis DNS-uppslagningsverktyg för att kontrollera DNS-poster för alla domäner. Visa A, AAAA, MX, NS, TXT, CNAME-poster omedelbart. Oumbärligt för felsökning av e-post och domänkonfiguration.",
+        "h1": "DNS Lookup Tool",
+        "subtitle": "Fråga DNS-poster för att hitta namnservrar, MX, A, CNAME & TXT-poster omedelbart"
+    },
+    "form": {
+        "domain_label": "Domännamn",
+        "domain_placeholder": "exempel.se",
+        "button": "Sök DNS"
+    },
+    "results": {
+        "title": "DNS-poster"
+    },
+    "content": {
+        "what_is_title": "Vad är DNS-uppslagning?",
+        "what_is_desc": "DNS-uppslagning är ett verktyg som frågar Domain Name System-servrar för att hämta DNS-poster för en domän. DNS-poster innehåller viktig information om hur en domän är konfigurerad, inklusive e-postservrar (MX-poster), namnservrar (NS-poster), IP-adresser (A\/AAAA-poster) och textposter (TXT-poster) som används för verifiering och säkerhet.",
+        "why_use_title": "Varför använda DNS-uppslagning?",
+        "why_use_desc": "DNS-uppslagning är oumbärlig för felsökning av e-postleveransproblem, verifiering av domänkonfiguration, kontroll av namnserverinställningar, validering av SPF- och DKIM-poster och för att förstå hur en domän är inställd. Det används dagligen av systemadministratörer, webbutvecklare och IT-proffs.",
+        "record_types_title": "Typer av DNS-poster",
+        "a_record": "<strong>A-post:<\/strong> Mappar domän till IPv4-adress",
+        "aaaa_record": "<strong>AAAA-post:<\/strong> Mappar domän till IPv6-adress",
+        "mx_record": "<strong>MX-post:<\/strong> Information om e-postserver",
+        "ns_record": "<strong>NS-post:<\/strong> Information om namnserver",
+        "txt_record": "<strong>TXT-post:<\/strong> Textposter för verifiering",
+        "cname_record": "<strong>CNAME-post:<\/strong> Alias för kanoniskt namn"
+    },
+    "faq": {
+        "title": "Vanliga frågor",
+        "q1": "Vad är DNS-sökning?",
+        "a1": "DNS-uppslagning är processen att fråga Domain Name System-servrar för att hämta DNS-poster för en domän. Den översätter mänskligt läsbara domännamn till IP-adresser och ger information om e-postservrar, namnservrar och andra DNS-konfigurationer.",
+        "q2": "Vilka är de olika typerna av DNS-poster?",
+        "a2": "Vanliga DNS-posttyper inkluderar A (IPv4-adress), AAAA (IPv6-adress), MX (e-postserver), CNAME (alias), TXT (textdata), NS (namnserver) och SOA (start av auktoritet). Varje posttyp tjänar ett specifikt syfte i domänkonfigurationen.",
+        "q3": "Hur lång tid tar DNS-spridning?",
+        "a3": "DNS-spridning tar vanligtvis 24-48 timmar globalt, även om ändringar kan visas inom några minuter på vissa servrar. Tiden beror på TTL-inställningar (Time To Live) och hur snabbt DNS-servrar uppdaterar sin cache.",
+        "q4": "Varför misslyckas min DNS-sökning?",
+        "a4": "DNS-sökningsfel kan uppstå på grund av felaktigt domännamn, DNS-serverproblem, brandväggsblockering eller att domänen inte är korrekt konfigurerad. Kontrollera din domänstavning och se till att dina DNS-poster är korrekt inställda.",
+        "q5": "Kan jag slå upp DNS-poster för vilken domän som helst?",
+        "a5": "Ja, du kan utföra DNS-sökningar för alla offentligt registrerade domäner. Vissa organisationer kan dock begränsa vissa DNS-frågor av säkerhetsskäl."
+    },
+    "js": {
+        "looking_up": "Söker upp DNS-poster...",
+        "records_label": "DNS-poster",
+        "success": "DNS-sökningen slutfördes",
+        "error": "Det gick inte att söka efter DNS-poster",
+        "lookup_dns": "Slå upp DNS"
+    }
+}

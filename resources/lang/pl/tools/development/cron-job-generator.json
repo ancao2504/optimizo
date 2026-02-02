@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Generator zadań Cron - bezpłatne narzędzie online Crontab",
+        "description": "Twórz harmonogramy cron z łatwością dzięki naszemu wizualnemu generatorowi - bez konieczności zapamiętywania składni cron",
+        "h1": "Generator zadań Cron",
+        "subtitle": "Twórz harmonogramy cron z łatwością dzięki naszemu wizualnemu generatorowi"
+    },
+    "editor": {
+        "common_settings": "Typowe ustawienia",
+        "choose": "-- Wybierz --",
+        "options": {
+            "every_minute": "Co minutę (* * * * *)",
+            "every_5_minutes": "Co 5 minut (*\/5 * * * *)",
+            "every_15_minutes": "Co 15 minut (*\/15 * * * *)",
+            "every_30_minutes": "Co 30 minut (*\/30 * * * *)",
+            "every_hour": "Co godzinę (0 * * * *)",
+            "every_day_midnight": "Codziennie o północy (0 0 * * *)",
+            "every_week": "Co tydzień (0 0 * * 0)",
+            "every_month": "Co miesiąc (0 0 1 * *)"
+        },
+        "minute": "Minuta",
+        "every_minute": "Co minutę (*)",
+        "hour": "Godzina",
+        "every_hour": "Co godzinę (*)",
+        "day": "Dzień",
+        "every_day": "Codziennie (*)",
+        "month": "Miesiąc",
+        "every_month": "Co miesiąc (*)",
+        "weekday": "Dzień tygodnia",
+        "every_weekday": "W każdy dzień tygodnia (*)",
+        "command": "Komenda do uruchomienia",
+        "ph_command": "\/usr\/bin\/php \/sciezka\/do\/skryptu.php",
+        "generated_cron": "Wygenerowane wyrażenie Cron",
+        "btn_copy": "Kopiuj Cron",
+        "btn_clear": "Nastawić"
+    },
+    "content": {
+        "hero_title": "Generator zadań Cron",
+        "p1": "Konfigurowanie zadań cron może być mylące z powodu tajemniczych gwiazdek i liczb. Nasz darmowy generator zadań Cron online pozwala wizualnie tworzyć idealne harmonogramy cron. Niezależnie od tego, czy musisz uruchamiać skrypt co 5 minut, o północy, czy w określone dni miesiąca, nasze narzędzie natychmiast generuje dla Ciebie poprawną składnię.",
+        "features": {
+            "visual": {
+                "title": "Edytor wizualny",
+                "desc": "Wybieraj minuty, godziny, dni i miesiące za pomocą prostego interfejsu"
+            },
+            "readable": {
+                "title": "Czytelny dla człowieka",
+                "desc": "Konwertuje wyrażenia cron na proste opisy"
+            }
+        },
+        "syntax_title": "📚 Zrozumienie składni Cron",
+        "syntax_intro": "Wyrażenie cron składa się z 5 pól oddzielonych spacjami:",
+        "syntax_fields": {
+            "min": "Minuta (0-59)",
+            "hour": "Godzina (0-23)",
+            "day": "Dzień miesiąca (1-31)",
+            "month": "Miesiąc (1-12)",
+            "week": "Dzień tygodnia (0-6, Niedziela=0)"
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Co to jest zadanie cron?",
+            "a1": "Zadanie cron to harmonogram zadań oparty na czasie w systemach operacyjnych typu Unix. Użytkownicy mogą planować zadania (komendy lub skrypty) do cyklicznego uruchamiania w ustalonych porach, datach lub interwałach.",
+            "q2": "Jak zainstalować zadanie cron?",
+            "a2": "Zazwyczaj używasz komendy `crontab -e` w terminalu, aby edytować plik cron. Następnie wklej wygenerowaną linię na dole pliku.",
+            "q4": "Co oznacza gwiazdka (*)?",
+            "a4": "Gwiazdka oznacza \"każdy\". Na przykład gwiazdka w polu minuty oznacza \"każdą minutę\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Wyrażenie cron skopiowane do schowka!",
+        "no_copy": "Brak wyrażenia cron do skopiowania"
+    }
+}

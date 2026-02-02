@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "JSON til SQL-konvertering – gratis overføringsverktøy på nett",
+        "description": "Transform JSON-data til SQL INSERT-setninger umiddelbart. Perfekt for databaseseeding og datamigrering.",
+        "h1": "JSON til SQL-konvertering",
+        "subtitle": "Konverter JSON-matriser og -objekter til gyldige SQL-skript"
+    },
+    "editor": {
+        "label_tablename": "Tabellnavn",
+        "ph_tablename": "Skriv inn tabellnavn (f.eks. brukere)",
+        "btn_convert": "Generer SQL",
+        "btn_clear": "Klar",
+        "btn_copy": "Kopier SQL",
+        "btn_example": "Last eksempel",
+        "label_input": "JSON-inngang",
+        "ph_input": "Lim inn JSON-arrayen din her...",
+        "label_output": "SQL-utgang",
+        "ph_output": "Genererte SQL INSERT-setninger vises her..."
+    },
+    "content": {
+        "hero_title": "Uanstrengt JSON til SQL-konvertering",
+        "hero_subtitle": "Den raskeste måten å generere databaseseed-skript",
+        "p1": "Konvertering av JSON-data til SQL INSERT-setninger bør ikke være en manuell oppgave. Vår JSON til SQL-konvertering håndterer tunge løft ved automatisk å kartlegge JSON-nøkler til databasekolonner og unnslippe verdier for sikker innsetting. Det er et viktig verktøy for utviklere som jobber med datamigrering, testing eller databaseinitialisering.",
+        "what_title": "Når skal du bruke dette verktøyet?",
+        "what_desc": "Hvis du har en samling av data i JSON-format – for eksempel en eksport fra en NoSQL-database eller et API-svar – og du må sette den inn i en relasjonsdatabase som MySQL, PostgreSQL eller SQL Server, er dette verktøyet for deg. Den formaterer hvert objekt til en ren SQL-setning.",
+        "features_title": "Nøkkelfunksjoner",
+        "features": {
+            "fast": {
+                "title": "Øyeblikkelig generasjon",
+                "desc": "Generer hundrevis av SQL-linjer på et øyeblikk."
+            },
+            "private": {
+                "title": "Personvern garantert",
+                "desc": "All behandling er lokal. Dine sensitive data forblir i nettleseren din."
+            },
+            "copy": {
+                "title": "Ett-klikks eksport",
+                "desc": "Kopier hele skriptet eller last det ned for overføringene dine."
+            },
+            "smart": {
+                "title": "Smart Escape",
+                "desc": "Håndterer automatisk sitater og spesialtegn i strenger."
+            },
+            "free": {
+                "title": "100 % gratis",
+                "desc": "Ingen grenser, ingen registrering, ingen problemer."
+            },
+            "db": {
+                "title": "Cross-DB-vennlig",
+                "desc": "Genererer standard SQL-kompatibel med de fleste databasesystemer."
+            }
+        },
+        "uses_title": "Tilfeller for profesjonell bruk",
+        "uses": {
+            "migration": {
+                "title": "Datamigrering",
+                "desc": "Flytt enkelt data fra JSON-baserte systemer til SQL-databaser."
+            },
+            "import": {
+                "title": "Bulk import",
+                "desc": "Last inn store mengder test- eller produksjonsdata raskt."
+            },
+            "api": {
+                "title": "API til database",
+                "desc": "Konverter tredjeparts API-resultater direkte til SQL-innlegg."
+            },
+            "test": {
+                "title": "Test data seeding",
+                "desc": "Lag SQL-skript for å fylle utviklingsmiljøer."
+            },
+            "backup": {
+                "title": "Gjenoppretting av sikkerhetskopi",
+                "desc": "Gjør JSON-sikkerhetskopier tilbake til funksjonelle SQL-skript."
+            },
+            "dev": {
+                "title": "Rask prototyping",
+                "desc": "Fyll raskt ut nye databasetabeller under utvikling."
+            }
+        },
+        "how_title": "Hvordan bruke",
+        "how_steps": [
+            "Angi måldatabasen <strong>Tabellnavn<\/strong>",
+            "Lim inn <strong>JSON<\/strong> (må være en matrise eller et objekt)",
+            "Klikk <strong>Generer SQL<\/strong> for å lage skriptet",
+            "<strong>Kopier<\/strong> SQL-utdataene til utklippstavlen"
+        ],
+        "faq_title": "Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Hvilket JSON-format kreves?",
+            "a1": "Verktøyet fungerer best med en rekke objekter, der hvert objekt representerer en databaserad.",
+            "q2": "Håndterer den nestede objekter?",
+            "a2": "Den kartlegger for øyeblikket nøkler på toppnivå. Nestede objekter er vanligvis strenger eller hoppet over avhengig av DB-behovene dine.",
+            "q3": "Er det en grense for rader?",
+            "a3": "Det er ingen hard grense, selv om nettleserens ytelse kan variere med tusenvis av rader."
+        },
+        "tips_title": "Pro tips",
+        "tips_list": [
+            "Sørg for at JSON-nøklene samsvarer nøyaktig med SQL-kolonnenavnene dine.",
+            "Verifiser alltid den genererte SQL-en før du kjører den på en produksjonsdatabase.",
+            "Bruk \"Eksempel\"-knappen for å se den forventede JSON-strukturen."
+        ]
+    },
+    "js": {
+        "error_empty": "Skriv inn JSON-data og et tabellnavn",
+        "success_convert": "✓ SQL generert vellykket!",
+        "error_convert": "Feil under generering av SQL:",
+        "error_no_copy": "Ingen SQL å kopiere. Konverter JSON først.",
+        "success_copy": "✓ SQL kopiert til utklippstavlen!"
+    }
+}

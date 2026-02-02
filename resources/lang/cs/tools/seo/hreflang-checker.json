@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker – bezplatný online validátor značek",
+        "description": "Ověřte své hreflang štítky a zajistěte, že Google zobrazuje správné jazykové nebo regionální URL vašemu publiku.",
+        "h1": "Hreflang Checker",
+        "subtitle": "Bezplatný nástroj pro extrakci a validaci atributů hreflang pro mezinárodní SEO."
+    },
+    "form": {
+        "url_label": "Zadejte URL ke kontrole",
+        "url_placeholder": "https:\/\/priklad.cz\/stranka",
+        "user_agent_label": "User Agent",
+        "user_agent_default": "Výchozí (Prohlížeč)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Zkontrolovat hreflang štítky"
+    },
+    "content": {
+        "main_title": "Kontrola hreflang štítků",
+        "main_subtitle": "Zajistěte, aby se váš mezinárodní obsah dostal ke správnému publiku. Ověřte implementaci hreflang a opravte běžné SEO chyby.",
+        "intro": "Hreflang štítky jsou nezbytné pro webové stránky obsluhující více jazyků nebo zemí. Náš bezplatný nástroj extrahuje a validuje štítky `rel=\"alternate\" hreflang=\"x\"` z HTML hlavičky vaší stránky a HTTP hlaviček. Kontroluje reciproční (zpětné) štítky, aby zaručil, že Google a další vyhledávače správně indexují váš lokalizovaný obsah.",
+        "features_title": "Proč kontrolovat hreflang štítky?",
+        "feature1_title": "Validace recipročních štítků",
+        "feature1_desc": "Hreflang štítky musí fungovat v párech. Náš nástroj automaticky kontroluje, zda stránka A odkazuje na stránku B, a zda stránka B odkazuje zpět na stránku A.",
+        "feature2_title": "Detekce běžných chyb",
+        "feature2_desc": "Najděte chybějící zpětné štítky, neplatné kódy jazyků (ISO 639-1) a nesprávné kódy zemí (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Prevence SEO problémů",
+        "feature3_desc": "Nesprávná implementace hreflang může vést k problémům s duplicitním obsahem a zobrazování stránek v nesprávném jazyce ve výsledcích vyhledávání.",
+        "how_title": "Jak používat kontrolu Hreflang",
+        "step1_title": "Zadejte URL",
+        "step1_desc": "Vložte celou URL adresu stránky, kterou chcete analyzovat (např. https:\/\/priklad.cz).",
+        "step2_title": "Vyberte User Agent",
+        "step2_desc": "Doporučuje se kontrolovat pomocí Googlebota, ale můžete kontrolovat i jako standardní prohlížeč.",
+        "step3_title": "Analyzujte výsledky",
+        "step3_desc": "Stáhneme stránku a vypíšeme všechny nalezené alternativní odkazy spolu s jejich validačním stavem.",
+        "step4_title": "Opravte problémy",
+        "step4_desc": "Pokud se objeví chyba 'Chybějící zpětný štítek', aktualizujte odkazované stránky tak, aby obsahovaly reciproční odkaz.",
+        "faq_title": "Často kladené otázky",
+        "faq1_q": "Co je to hreflang štítek?",
+        "faq1_a": "Hreflang je HTML atribut používaný k určení jazyka a geografického cílení webové stránky. Říká vyhledávačům, kterou verzi stránky zobrazit uživatelům v různých zemích nebo jazycích.",
+        "faq2_q": "Proč jsou zpětné štítky důležité?",
+        "faq2_a": "Google vyžaduje zpětné odkazy, aby zabránil tomu, že si někdo svévolně nárokuje stránku na jiném webu jako alternativní verzi své vlastní. Pokud stránka A odkazuje na stránku B, musí stránka B odkazovat zpět na stránku A.",
+        "faq3_q": "Kontroluje tento nástroj x-default štítek?",
+        "faq3_a": "Ano, náš nástroj identifikuje a validuje `x-default` hreflang štítek, který se používá pro neshodující se jazyky nebo striktní voliče země.",
+        "faq4_q": "Mohu kontrolovat hreflang v HTTP hlavičkách?",
+        "faq4_a": "Ano! Kontrolujeme jak sekci HTML `<head>`, tak hlavičky odpovědi HTTP na atributy `Link: <url>; rel=\"alternate\"; hreflang=\"code\"`.",
+        "faq5_q": "Co se stane, když mám chyby v hreflang?",
+        "faq5_a": "Vyhledávače mohou ignorovat vaše neplatné štítky, což vede k nezobrazování správných jazykových verzí správným uživatelům nebo k potenciálním penalizacím za duplicitní obsah.",
+        "faq6_q": "Je tento nástroj zdarma?",
+        "faq6_a": "Ano, můžete provádět neomezené kontroly zdarma, abyste zajistili, že vaše mezinárodní SEO je perfektní."
+    }
+}

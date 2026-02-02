@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Outil de test Ping en ligne - Vérificateur de latence réseau gratuit",
+        "description": "Outil de test de ping gratuit pour vérifier la latence réseau, la perte de paquets et l'accessibilité du serveur. Testez instantanément la connectivité vers n'importe quel hôte ou adresse IP.",
+        "h1": "Outil de test de ping",
+        "subtitle": "Testez le temps de réponse du serveur et la connectivité réseau depuis plusieurs emplacements"
+    },
+    "form": {
+        "host_label": "Hôte ou adresse IP",
+        "host_placeholder": "google.com ou 8.8.8.8",
+        "button": "Pinger l'hôte"
+    },
+    "results": {
+        "title": "Résultats du Ping"
+    },
+    "content": {
+        "what_is_title": "Qu'est-ce qu'un test de Ping ?",
+        "what_is_desc": "Le Ping est un outil de diagnostic réseau qui teste l'accessibilité d'un hôte sur un réseau IP (Internet Protocol). Il mesure le temps d'aller-retour pour les messages envoyés de la source à un ordinateur de destination et inversement. Le Ping fonctionne en envoyant des paquets ICMP (Internet Control Message Protocol) d'écho à l'hôte cible et en attendant une réponse d'écho. L'outil porte le nom du son de ping du sonar utilisé dans la détection sous-marine, car il envoie de la même manière un signal et écoute une réponse.",
+        "why_use_title": "Pourquoi utiliser le test de Ping ?",
+        "why_use_desc": "Le test de ping est essentiel pour le dépannage réseau et la surveillance des performances. Les administrateurs système utilisent le ping pour vérifier la connectivité réseau, diagnostiquer les problèmes de connexion et mesurer la latence du réseau. Il aide à identifier si un serveur est en ligne et réactif, à détecter la perte de paquets qui pourrait indiquer une congestion du réseau ou des problèmes matériels, et à mesurer la qualité des connexions réseau. Les joueurs utilisent le ping pour vérifier la latence du serveur avant de rejoindre des jeux en ligne, tandis que les propriétaires de sites web surveillent la réactivité de leur serveur pour garantir une expérience utilisateur optimale.",
+        "metrics_title": "Comprendre les mesures de Ping",
+        "metric1": "<strong>Paquets envoyés\/reçus :<\/strong> Nombre de demandes de ping et de réponses réussies",
+        "metric2": "<strong>Perte de paquets :<\/strong> Pourcentage de paquets n'ayant pas reçu de réponse",
+        "metric3": "<strong>Temps minimum :<\/strong> Temps d'aller-retour le plus rapide enregistré",
+        "metric4": "<strong>Temps moyen :<\/strong> Latence moyenne sur tous les pings",
+        "metric5": "<strong>Temps maximum :<\/strong> Temps d'aller-retour le plus lent enregistré",
+        "metric6": "<strong>TTL (Time To Live) :<\/strong> Nombre de sauts réseau avant l'expiration du paquet",
+        "interpreting_title": "Interprétation des résultats",
+        "interpreting_desc": "Les bons temps de ping sont généralement inférieurs à 50 ms pour les connexions locales et inférieurs à 100 ms pour les connexions internationales. Les temps entre 100 et 200 ms sont acceptables pour la plupart des applications, mais peuvent causer un décalage notable dans les applications en temps réel comme les jeux ou la visioconférence. Tout ce qui dépasse 200 ms indique des problèmes de réseau potentiels. Une perte de paquets supérieure à 1 % suggère des problèmes de réseau nécessitant une investigation. Des temps de ping constants indiquent des connexions stables, tandis que des temps très variables suggèrent une congestion du réseau ou des problèmes de routage."
+    },
+    "faq": {
+        "title": "FAQ sur le Ping",
+        "q1": "Qu'est-ce qu'un bon ping pour le jeu ?",
+        "a1": "Pour le jeu en ligne, un ping inférieur à 20 ms est excellent, 20-50 ms est très bon et 50-100 ms est jouable. Au-dessus de 150 ms, vous commencerez à ressentir du lag.",
+        "q2": "La perte de paquets est-elle toujours mauvaise ?",
+        "a2": "Oui, même une petite perte de paquets (1-2 %) peut perturber les appels vidéo et les jeux. Cela indique généralement un problème de congestion ou de matériel sur le trajet.",
+        "q3": "Pourquoi mon ping est-il élevé le soir ?",
+        "a3": "Cela est souvent dû à la congestion du réseau (heures de pointe) lorsque de nombreuses personnes utilisent internet simultanément dans votre zone.",
+        "q4": "Est-ce que le Wi-Fi augmente le ping ?",
+        "a4": "Oui, le Wi-Fi ajoute généralement un peu de latence par rapport à une connexion Ethernet filaire en raison du traitement des signaux radio.",
+        "q5": "À quoi sert le TTL ?",
+        "a5": "Le TTL empêche les paquets de circuler indéfiniment sur internet s'il y a une boucle de routage en limitant le nombre de sauts qu'ils peuvent faire."
+    },
+    "js": {
+        "pinging": "Ping en cours...",
+        "success": "Test de ping terminé",
+        "error": "Échec du ping vers l'hôte",
+        "ping_host": "Pinger l'hôte"
+    }
+}

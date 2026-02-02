@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "DNS Lookup Tool - Gratis online DNS Record Checker",
+        "description": "Gratis DNS lookup værktøj to tjek DNS records for any domain. Vis A, AAAA, MX, NS, TXT, CNAME records instantly. Essential for troubleshooting email and domain configuration.",
+        "h1": "DNS-opslagsværktøj",
+        "subtitle": "Forespørg DNS-poster for at finde navneservere, MX-, A-, CNAME- og TXT-poster med det samme"
+    },
+    "form": {
+        "domain_label": "Domænenavn",
+        "domain_placeholder": "eksempel.com",
+        "button": "Slå DNS ​​op"
+    },
+    "results": {
+        "title": "DNS Records"
+    },
+    "content": {
+        "what_is_title": "Hvad er DNS Lookup?",
+        "what_is_desc": "DNS Lookup is a værktøj that queries Domain Name System servers to retrieve DNS records for a domain. DNS records contain important information about how a domain is configured, including mail servers (MX records), nameservers (NS records), IP addresses (A\/AAAA records), and text records (TXT records) used for verification and security.",
+        "why_use_title": "Hvorfor Brug DNS Lookup?",
+        "why_use_desc": "DNS-opslag er afgørende for fejlfinding af e-mail-leveringsproblemer, verifikation af domænekonfiguration, kontrol af navneserverindstillinger, validering af SPF- og DKIM-poster og forståelse af, hvordan et domæne er sat op. Det bruges dagligt af systemadministratorer, webudviklere og it-professionelle.",
+        "record_types_title": "DNS Record Typer",
+        "a_record": "<strong>A Record:<\/strong> Maps domæne til IPv4-adresse",
+        "aaaa_record": "<strong>AAAA Record:<\/strong> Maps domæne til IPv6-adresse",
+        "mx_record": "<strong>MX Record:<\/strong> Mailserveroplysninger",
+        "ns_record": "<strong>NS Record:<\/strong> Navneserveroplysninger",
+        "txt_record": "<strong>TXT Record:<\/strong> Tekst records for verification",
+        "cname_record": "<strong>CNAME Record:<\/strong> Kanonisk navnealias"
+    },
+    "faq": {
+        "title": "Ofte stillede spørgsmål",
+        "q1": "Hvad er DNS-opslag?",
+        "a1": "DNS-opslag er processen med at forespørge Domain Name System-servere for at hente DNS-poster for et domæne. Det oversætter menneskelæselige domænenavne til IP-adresser og giver information om mailservere, navneservere og andre DNS-konfigurationer.",
+        "q2": "Hvad er de forskellige typer DNS-poster?",
+        "a2": "Almindelige DNS-posttyper inkluderer A (IPv4-adresse), AAAA (IPv6-adresse), MX (mailserver), CNAME (alias), TXT (tekstdata), NS (navneserver) og SOA (start af autorisation). Hver posttype tjener et specifikt formål i domænekonfigurationen.",
+        "q3": "Hvor lang tid tager DNS-udbredelse?",
+        "a3": "DNS-udbredelse tager typisk 24-48 timer globalt, selvom ændringer kan forekomme inden for få minutter på nogle servere. Tiden afhænger af TTL-indstillinger (Time To Live) og hvor hurtigt DNS-servere opdaterer deres cache.",
+        "q4": "Hvorfor mislykkes mit DNS-opslag?",
+        "a4": "DNS-opslagsfejl kan opstå på grund af forkert domænenavn, DNS-serverproblemer, firewallblokering eller at domænet ikke er konfigureret korrekt. Kontroller stavningen af ​​dit domæne, og sørg for, at dine DNS-registreringer er korrekt konfigureret.",
+        "q5": "Kan jeg slå DNS-poster op for et hvilket som helst domæne?",
+        "a5": "Ja, du kan udføre DNS-opslag for ethvert offentligt registreret domæne. Nogle organisationer kan dog begrænse visse DNS-forespørgsler af sikkerhedsmæssige årsager."
+    },
+    "js": {
+        "looking_up": "Søger DNS-poster...",
+        "records_label": "DNS Records",
+        "success": "DNS-opslag blev gennemført",
+        "error": "Kunne ikke slå DNS-poster op",
+        "lookup_dns": "Slå DNS ​​op"
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": "Encodeur et décodeur Base64 - Outil de développement en ligne gratuit",
+        "description": "Encodez et décodez instantanément des données Base64 avec notre outil en ligne gratuit",
+        "h1": "Encodeur et décodeur Base64",
+        "subtitle": "Encodez et décodez instantanément des données Base64"
+    },
+    "editor": {
+        "tab_encode": "Encoder en Base64",
+        "tab_decode": "Décoder depuis Base64",
+        "label_encode": "Entrez le texte à encoder",
+        "ph_encode": "Entrez votre texte ici...",
+        "desc_encode": "Entrez n'importe quel texte pour le convertir au format Base64",
+        "btn_encode": "Encoder en Base64",
+        "label_decode": "Entrez le Base64 à décoder",
+        "ph_decode": "Entrez la chaîne encodée en Base64...",
+        "desc_decode": "Entrez du texte encodé en Base64 pour le décoder en texte brut",
+        "btn_decode": "Décoder depuis Base64",
+        "result_title": "Résultat",
+        "btn_copy": "Copier le résultat"
+    },
+    "content": {
+        "what_title": "Qu'est-ce que l'encodage Base64 ?",
+        "what_desc": "Le Base64 est un schéma d'encodage de binaire en texte qui représente les données binaires dans un format de chaîne ASCII. Il est couramment utilisé pour encoder des données qui doivent être stockées ou transférées sur des supports conçus pour manipuler du texte. Notre outil gratuit d'encodage et de décodage Base64 permet aux développeurs, aux analystes de données et aux professionnels de l'informatique de convertir rapidement du texte en Base64 ou de décoder des chaînes Base64 en texte lisible. Parfait pour le développement d'API, la transmission de données, les pièces jointes d'e-mails, l'intégration d'images en HTML\/CSS et la manipulation de données binaires en JSON.",
+        "features": {
+            "secure": {
+                "title": "Encodage sécurisé",
+                "desc": "Tout le traitement se fait dans votre navigateur - vos données ne quittent jamais votre ordinateur"
+            },
+            "instant": {
+                "title": "Conversion instantanée",
+                "desc": "Encodez ou décodez des données Base64 en quelques millisecondes grâce au traitement côté client"
+            },
+            "easy": {
+                "title": "Facile à utiliser",
+                "desc": "Interface simple à onglets pour l'encodage et le décodage avec copie en un clic"
+            }
+        },
+        "how_to": {
+            "title": "Comment utiliser l'encodeur\/décodeur Base64",
+            "encode": {
+                "title": "Encoder du texte",
+                "step1": "Cliquez sur l'onglet \"Encoder en Base64\"",
+                "step2": "Collez ou tapez votre texte dans la zone de saisie",
+                "step3": "Cliquez sur le bouton \"Encoder en Base64\"",
+                "step4": "Copiez le résultat encodé en Base64"
+            },
+            "decode": {
+                "title": "Décoder du Base64",
+                "step1": "Cliquez sur l'onglet \"Décoder depuis Base64\"",
+                "step2": "Collez votre chaîne Base64 dans la zone de saisie",
+                "step3": "Cliquez sur le bouton \"Décoder depuis Base64\"",
+                "step4": "Copiez le résultat en texte brut décodé"
+            }
+        },
+        "uses": {
+            "title": "Cas d'utilisation courants du Base64",
+            "api": {
+                "title": "Authentification API",
+                "desc": "Encodez les identifiants pour l'authentification de base dans les en-têtes HTTP et les requêtes API."
+            },
+            "data_uri": {
+                "title": "URI de données",
+                "desc": "Intégrez des images, des polices et des fichiers directement en HTML\/CSS à l'aide d'URI de données Base64."
+            },
+            "email": {
+                "title": "Pièces jointes aux e-mails",
+                "desc": "Encodez les pièces jointes binaires dans les messages électroniques MIME pour une transmission sûre."
+            },
+            "storage": {
+                "title": "Stockage de données",
+                "desc": "Stockez des données binaires dans des formats textuels tels que JSON, XML ou des bases de données."
+            }
+        },
+        "bottom": {
+            "h1": "Encodeur et décodeur Base64",
+            "subtitle": "Encodez et décodez instantanément des données Base64",
+            "desc": "Le Base64 est un schéma d'encodage de binaire en texte qui convertit les données binaires au format texte ASCII. Notre encodeur et décodeur Base64 gratuit aide les développeurs, les administrateurs système et les professionnels de l'informatique à encoder du texte en Base64 ou à décoder du Base64 en texte lisible instantanément. Parfait pour l'authentification API, les URI de données, les pièces jointes d'e-mails et la transmission sécurisée de données. Tout le traitement se passe dans votre navigateur pour une confidentialité totale.",
+            "works_title": "🔄 Comment fonctionne le Base64",
+            "works_encoding": "Convertit les données binaires en texte ASCII en utilisant 64 caractères",
+            "works_encoding_sub": "A-Z, a-z, 0-9, +, \/ (et = pour le remplissage)",
+            "works_decoding": "Reconvertit le texte Base64 en données binaires originales",
+            "works_decoding_sub": "Inverse parfaitement le processus d'encodage",
+            "cases_title": "✅ Cas d'utilisation courants",
+            "case_api": "Authentification API",
+            "case_api_desc": "Encodez les identifiants pour Basic Auth dans les en-têtes HTTP",
+            "case_uri": "URI de données",
+            "case_uri_desc": "Intégrez des images et des fichiers directement en HTML\/CSS",
+            "case_email": "Pièces jointes aux e-mails",
+            "case_email_desc": "Encodez des fichiers binaires pour la transmission par e-mail",
+            "case_url": "Paramètres d'URL",
+            "case_url_desc": "Passez des données binaires en toute sécurité dans les URL",
+            "case_storage": "Stockage de données",
+            "case_storage_desc": "Stockez des données binaires dans des bases de données textuelles uniquement",
+            "case_web": "Développement Web",
+            "case_web_desc": "Encodez des fichiers JSON, XML et de configuration",
+            "best_practices_title": "💡 Bonnes pratiques du Base64",
+            "best_practices_list": [
+                "Le Base64 augmente la taille des données d'environ 33 %",
+                "Ne convient pas au chiffrement - utilisez des algorithmes de chiffrement appropriés",
+                "Parfait pour encoder des données binaires dans des systèmes textuels uniquement",
+                "Validez toujours les données décodées avant de les utiliser",
+                "Utilisez le Base64 « URL-safe » pour les URL (remplace +\/=\/ avec -_)"
+            ]
+        },
+        "faq": {
+            "title": "❓ Foire aux questions",
+            "q1": "L'encodage Base64 est-il sécurisé ?",
+            "a1": "Non ! Le Base64 n'est PAS un chiffrement - c'est simplement un encodage. N'importe qui peut décoder instantanément des données Base64. N'utilisez jamais le Base64 seul pour la sécurité. Pour le chiffrement, utilisez des algorithmes cryptographiques appropriés comme AES, RSA ou TLS\/SSL.",
+            "q2": "Pourquoi le Base64 augmente-t-il la taille du fichier ?",
+            "a2": "L'encodage Base64 augmente la taille des données d'environ 33 % car il représente 3 octets de données binaires à l'aide de 4 caractères ASCII. Ce surcoût est le compromis pour rendre les données binaires sûres pour les systèmes textuels uniquement.",
+            "q3": "À quoi sert le Base64 ?",
+            "a3": "Le Base64 est utilisé pour encoder des données binaires (images, fichiers, identifiants) en texte ASCII pour la transmission sur des systèmes textuels uniquement comme les e-mails, les URL, JSON, XML et les en-têtes HTTP. Il est essentiel pour l'authentification API, les URI de données et les pièces jointes aux e-mails.",
+            "q4": "Mes données sont-elles envoyées à un serveur ?",
+            "a4": "Non ! Tout l'encodage et le décodage Base64 se font entièrement dans votre navigateur via JavaScript. Vos données ne quittent jamais votre appareil et ne sont ni stockées, ni transmises, ni enregistrées nulle part. Votre vie privée est totalement protégée.",
+            "q5": "Puis-je encoder des images en Base64 ?",
+            "a5": "Oui ! Bien que notre outil encode du texte, vous pouvez encoder des images à l'aide d'outils spécialisés. Les images encodées en Base64 peuvent être intégrées directement en HTML\/CSS à l'aide d'URI de données (data:image\/png;base64,...). C'est utile pour les petites images mais cela augmente la taille de la page."
+        }
+    },
+    "js": {
+        "error_empty_encode": "Veuillez entrer du texte à encoder",
+        "error_encoding": "Erreur lors de l'encodage du texte : ",
+        "error_empty_decode": "Veuillez entrer une chaîne Base64 à décoder",
+        "error_invalid": "Chaîne Base64 invalide. Veuillez vérifier votre saisie.",
+        "copied": "Copié !"
+    }
+}

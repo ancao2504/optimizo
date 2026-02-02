@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - gratis Crontab-verktyg online",
+        "description": "Skapa cron-scheman enkelt med vår visuella generator - du behöver inte memorera cron-syntax",
+        "h1": "Cron Job Generator",
+        "subtitle": "Skapa cron-scheman enkelt med vår visuella generator"
+    },
+    "editor": {
+        "common_settings": "Vanliga inställningar",
+        "choose": "-- Välj --",
+        "options": {
+            "every_minute": "Varje minut (* * * * *)",
+            "every_5_minutes": "Var 5:e minut (*\/5 * * * *)",
+            "every_15_minutes": "Var 15:e minut (*\/15 * * * *)",
+            "every_30_minutes": "Var 30:e minut (*\/30 * * * *)",
+            "every_hour": "Varje timme (0 * * * *)",
+            "every_day_midnight": "Varje dag vid midnatt (0 0 * * *)",
+            "every_week": "Varje vecka (0 0 * * 0)",
+            "every_month": "Varje månad (0 0 1 * *)"
+        },
+        "minute": "Minut",
+        "every_minute": "Varje minut (*)",
+        "hour": "Timme",
+        "every_hour": "Varje timme (*)",
+        "day": "Dag",
+        "every_day": "Varje dag (*)",
+        "month": "Månad",
+        "every_month": "Varje månad (*)",
+        "weekday": "Veckodag",
+        "every_weekday": "Varje veckodag (*)",
+        "command": "Kommando att köra",
+        "ph_command": "\/usr\/bin\/php \/sökväg\/till\/skript.php",
+        "generated_cron": "Genererat Cron-uttryck",
+        "btn_copy": "Kopiera Cron",
+        "btn_clear": "Återställ"
+    },
+    "content": {
+        "hero_title": "Cronjobb-generator",
+        "p1": "Att ställa in cronjobb kan vara förvirrande med kryptiska asterisker och siffror. Vår gratis online Cronjobb-generator låter dig bygga perfekta cron-scheman visuellt. Oavsett om du behöver köra ett skript var 5:e minut, vid midnatt eller på specifika dagar i månaden, genererar vårt verktyg den korrekta syntaxen åt dig direkt.",
+        "features": {
+            "visual": {
+                "title": "Visuell redigerare",
+                "desc": "Välj minuter, timmar, dagar och månader med ett enkelt gränssnitt"
+            },
+            "readable": {
+                "title": "Mänskligt läsbar",
+                "desc": "Konverterar cron-uttryck till beskrivningar på vanlig svenska"
+            }
+        },
+        "syntax_title": "📚 Förstå Cron-syntax",
+        "syntax_intro": "Ett cron-uttryck består av 5 fält separerade med mellanslag:",
+        "syntax_fields": {
+            "min": "Minut (0-59)",
+            "hour": "Timme (0-23)",
+            "day": "Dag i månaden (1-31)",
+            "month": "Månad (1-12)",
+            "week": "Veckodag (0-6, Söndag=0)"
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Vad är ett cronjobb?",
+            "a1": "Ett cronjobb är en tidsbaserad jobbplanerare i Unix-liknande operativsystem. Användare kan schemalägga jobb (kommandon eller skript) så att de körs periodiskt vid fasta tider, datum eller intervall.",
+            "q2": "Hur installerar jag ett cronjobb?",
+            "a2": "Du använder vanligtvis kommandot `crontab -e` i din terminal för att redigera din cron-fil. Klistra sedan in den genererade raden längst ner i filen.",
+            "q4": "Vad betyder asterisk (*) för något?",
+            "a4": "En asterisk betyder \"varje\". Till exempel betyder en asterisk i minutfältet \"varje minut\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron-uttryck kopierat till urklipp!",
+        "no_copy": "Inget cron-uttryck att kopiera"
+    }
+}

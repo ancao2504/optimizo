@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Ping Test Tool online – bezplatná kontrola latence sítě",
+        "description": "Bezplatný nástroj pro ping test. Zkontrolujte odezvu sítě, ztrátu paketů a dostupnost serveru. Otestujte připojení k jakékoli IP adrese okamžitě.",
+        "h1": "Nástroj Ping Test Tool",
+        "subtitle": "Otestujte dobu odezvy serveru a síťovou konektivitu z našeho uzlu"
+    },
+    "form": {
+        "host_label": "Hostitel nebo IP adresa",
+        "host_placeholder": "např. google.com nebo 8.8.8.8",
+        "button": "Provést Ping"
+    },
+    "results": {
+        "title": "Výsledky Ping pro"
+    },
+    "content": {
+        "what_is_title": "Co je Ping Test?",
+        "what_is_desc": "Ping je diagnostický nástroj, který testuje dostupnost hostitele v síti IP. Měří čas obousměrné cesty zpráv odeslaných ze zdroje do cílového počítače a zpět. Ping funguje tak, že cílovému hostiteli odesílá pakety ICMP Echo Request a čeká na odpověď Echo Reply. Nástroj je pojmenován podle zvuku sonaru, protože funguje na podobném principu vyslání signálu a čekání na ozvěnu.",
+        "why_use_title": "Proč používat Ping Test?",
+        "why_use_desc": "Testování pingem je nezbytné pro řešení problémů se sítí a monitorování výkonu. Správci systémů jej používají k ověření konektivity a měření latence. Pomáhá identifikovat, zda je server online, odhalit ztrátu paketů (která může značit přetížení sítě) a změřit stabilitu připojení. Hráči používají ping ke kontrole zpoždění před připojením k online hře.",
+        "metrics_title": "Vysvětlení metrik Ping",
+        "metric1": "<strong>Paketů odesláno\/přijato:<\/strong> Počet žádostí o ping a úspěšných odpovědí.",
+        "metric2": "<strong>Ztráta paketů:<\/strong> Procento paketů, které neobdržely odpověď.",
+        "metric3": "<strong>Minimální čas:<\/strong> Nejrychlejší zaznamenaná doba odezvy.",
+        "metric4": "<strong>Průměrný čas:<\/strong> Střední hodnota latence všech pingů.",
+        "metric5": "<strong>Maximální čas:<\/strong> Nejpomalejší zaznamenaná doba odezvy.",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Počet skoků, než paket vyprší.",
+        "interpreting_title": "Interpretace výsledků",
+        "interpreting_desc": "Dobré časy pingu jsou obvykle pod 50 ms pro lokální připojení a pod 100 ms pro mezinárodní. Časy mezi 100–200 ms jsou přijatelné, ale mohou způsobit znatelné zpoždění v aplikacích v reálném čase, jako jsou hry. Cokoliv nad 200 ms značí potenciální problémy v síti. Ztráta paketů vyšší než 1 % naznačuje potíže, které vyžadují vyšetření."
+    },
+    "faq": {
+        "title": "Často kladené otázky",
+        "q1": "Co ovlivňuje můj ping?",
+        "a1": "Fyzická vzdálenost od serveru, typ vašeho připojení (optika vs. Wi-Fi) a vytížení sítě na trase.",
+        "q2": "Proč jsou některé pingy ztraceny?",
+        "a2": "Ztráta paketů může být způsobena rušením u Wi-Fi, poškozeným kabelem nebo přetíženým routerem poskytovatele.",
+        "q3": "Je 100 ms ping dobrý?",
+        "a3": "Pro prohlížení webu je to neznatelné, ale pro kompetitivní hraní akčních her je to již příliš vysoká hodnota.",
+        "q4": "Funguje ping na všechny weby?",
+        "a4": "Většina webů na ping odpovídá, ale některé servery mají ICMP pakety z bezpečnostních důvodů zakázány.",
+        "q5": "Jaký je rozdíl mezi pingem a latencí?",
+        "a5": "Často se používají jako synonyma. Latence je zpoždění sítě obecně, ping je konkrétní nástroj k jejímu měření."
+    },
+    "js": {
+        "pinging": "Testuji...",
+        "success": "Test proběhl úspěšně",
+        "error": "Ping se nepodařilo provést",
+        "ping_host": "Provést Ping"
+    }
+}

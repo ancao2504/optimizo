@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Recherche DNS inversée - Outil IP vers domaine en ligne gratuit",
+        "description": "Outil de recherche DNS inversée en ligne gratuit. Trouvez instantanément le nom d'hôte associé à n'importe quelle adresse IP. Rapide, sécurisé et facile à utiliser.",
+        "h1": "Recherche DNS inversée",
+        "subtitle": "Trouvez instantanément le nom de domaine ou le nom d'hôte associé à une adresse IP"
+    },
+    "form": {
+        "ip_label": "Entrez l'adresse IP",
+        "ip_placeholder": "ex: 8.8.8.8",
+        "button": "Recherche DNS inversée",
+        "button_loading": "Recherche en cours..."
+    },
+    "results": {
+        "title": "Résultats de la recherche DNS inversée"
+    },
+    "content": {
+        "what_is_title": "Qu'est-ce qu'une recherche DNS inversée ?",
+        "what_is_desc": "La recherche DNS inversée (rDNS) est le processus consistant à déterminer le nom de domaine ou le nom d'hôte associé à une adresse IP. Contrairement à une recherche DNS standard qui convertit un nom de domaine en une adresse IP (recherche directe), la rDNS fait le contraire. Elle est souvent utilisée pour vérifier l'identité d'un serveur ou pour dépanner des problèmes de réseau.",
+        "why_use_title": "Pourquoi utiliser la recherche DNS inversée ?",
+        "why_use_desc": "Le DNS inversé est largement utilisé à des fins de sécurité et de vérification. Il aide à identifier la source du trafic entrant, à vérifier les expéditeurs d'e-mails (pour prévenir le spam) et à dépanner les problèmes de connectivité réseau. De nombreux serveurs de messagerie exigent des enregistrements rDNS valides pour accepter les e-mails entrants.",
+        "ptr_records_title": "Comprendre les enregistrements PTR",
+        "ptr_record1": "<strong>Enregistrement PTR :<\/strong> Un enregistrement pointeur (PTR) est le type d'enregistrement DNS utilisé pour les recherches DNS inversées.",
+        "ptr_record2": "<strong>Correspondance :<\/strong> Il associe une adresse IP à un nom d'hôte.",
+        "ptr_record3": "<strong>Vérification :<\/strong> Crucial pour la délivrabilité des e-mails et la vérification de la sécurité.",
+        "ptr_record4": "<strong>IP vers Hôte :<\/strong> Essentiel pour identifier le véritable propriétaire d'une adresse IP.",
+        "ptr_record5": "<strong>Prévention du spam :<\/strong> Utilisé par les serveurs de messagerie pour valider l'authenticité de l'expéditeur.",
+        "ptr_record6": "<strong>Journaux réseau :<\/strong> Utile pour rendre les journaux réseau lisibles par l'homme en affichant les noms d'hôte.",
+        "use_cases_title": "Cas d'utilisation courants",
+        "use_cases_desc": "Les cas d'utilisation courants incluent la vérification de l'origine du trafic web, le diagnostic de la latence réseau ou des problèmes de routage, la validation des configurations de serveurs de messagerie et l'amélioration des audits de cybersécurité en identifiant les adresses IP potentiellement malveillantes."
+    },
+    "faq": {
+        "title": "Foire aux questions",
+        "q1": "Qu'est-ce qu'un enregistrement PTR ?",
+        "a1": "Un enregistrement PTR (Pointer) est un type d'enregistrement DNS qui associe une adresse IP à un nom d'hôte. C'est le composant principal d'une recherche DNS inversée.",
+        "q2": "Pourquoi le DNS inversé est-il important pour les e-mails ?",
+        "a2": "De nombreux fournisseurs de messagerie utilisent le DNS inversé pour vérifier que le serveur d'envoi est légitime. Si l'adresse IP d'un serveur n'a pas d'enregistrement rDNS correspondant, ses e-mails peuvent être marqués comme spam.",
+        "q3": "N'importe quelle adresse IP peut-elle avoir un enregistrement DNS inversé ?",
+        "a3": "Oui, mais le propriétaire de l'adresse IP (généralement le FAI ou l'hébergeur) doit configurer l'enregistrement PTR dans ses paramètres DNS."
+    }
+}

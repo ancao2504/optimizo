@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Verificador de etiquetas Hreflang",
+        "description": "Valide sus etiquetas hreflang para asegurar que Google muestre las URLs regionales o de idioma correctas a su audiencia.",
+        "h1": "Verificador de etiquetas Hreflang",
+        "subtitle": "Herramienta gratuita para extraer y validar atributos hreflang para SEO internacional."
+    },
+    "form": {
+        "url_label": "Ingrese URL para verificar",
+        "url_placeholder": "https:\/\/ejemplo.es\/pagina",
+        "user_agent_label": "User Agent",
+        "user_agent_default": "Predeterminado (Navegador)",
+        "user_agent_googlebot": "Googlebot (Escritorio)",
+        "user_agent_bingbot": "Bingbot (Escritorio)",
+        "button": "Verificar etiquetas Hreflang"
+    },
+    "content": {
+        "main_title": "Verificador de etiquetas Hreflang",
+        "main_subtitle": "Asegúrese de que su contenido internacional llegue a la audiencia correcta. Valide la implementación hreflang y corrija errores comunes de SEO.",
+        "intro": "Las etiquetas Hreflang son esenciales para sitios web que sirven múltiples idiomas o países. Nuestra herramienta gratuita extrae y valida etiquetas `rel=\"alternate\" hreflang=\"x\"` del encabezado HTML de su página y encabezados HTTP. Verifica etiquetas recíprocas (de retorno) para asegurar que Google y otros motores de búsqueda indexen correctamente su contenido localizado.",
+        "features_title": "¿Por qué verificar sus etiquetas Hreflang?",
+        "feature1_title": "Validar etiquetas recíprocas",
+        "feature1_desc": "Las etiquetas Hreflang deben funcionar en pares. Nuestra herramienta verifica automáticamente si la página A enlaza a la página B, y si la página B enlaza de vuelta a la página A.",
+        "feature2_title": "Detectar errores comunes",
+        "feature2_desc": "Encuentre etiquetas de retorno faltantes, códigos de idioma inválidos (ISO 639-1) y códigos de país incorrectos (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Prevenir problemas de SEO",
+        "feature3_desc": "Una implementación incorrecta de hreflang puede llevar a problemas de contenido duplicado y a que aparezcan páginas de idioma incorrectas en los resultados de búsqueda.",
+        "how_title": "Cómo usar el verificador Hreflang",
+        "step1_title": "Ingrese URL",
+        "step1_desc": "Pegue la URL completa de la página que desea analizar (ej. https:\/\/ejemplo.es).",
+        "step2_title": "Seleccione User Agent",
+        "step2_desc": "Se recomienda verificar con Googlebot, pero también puede verificar como navegador estándar.",
+        "step3_title": "Analice resultados",
+        "step3_desc": "Obtendremos la página y listaremos todos los enlaces alternativos encontrados junto con su estado de verificación.",
+        "step4_title": "Corrija problemas",
+        "step4_desc": "Si aparecen errores de 'Etiqueta de retorno faltante', actualice sus páginas referenciadas para incluir el enlace recíproco.",
+        "faq_title": "Preguntas Frecuentes",
+        "faq1_q": "¿Qué es una etiqueta hreflang?",
+        "faq1_a": "Hreflang es un atributo HTML utilizado para especificar el idioma y la orientación geográfica de una página web. Le dice a los motores de búsqueda qué versión de una página mostrar a los usuarios en diferentes países o idiomas.",
+        "faq2_q": "¿Por qué son importantes las etiquetas de retorno?",
+        "faq2_a": "Google requiere enlaces de retorno para evitar que alguien reclame arbitrariamente una página en otro sitio como una versión alternativa de la suya. Si la página A enlaza a la página B, la página B debe enlazar de vuelta a la página A.",
+        "faq3_q": "¿Esta herramienta verifica la etiqueta x-default?",
+        "faq3_a": "Sí, nuestra herramienta identifica y valida la etiqueta hreflang `x-default`, utilizada para idiomas no coincidentes o selectores de país estrictos.",
+        "faq4_q": "¿Puedo verificar hreflang en encabezados HTTP?",
+        "faq4_a": "¡Sí! Verificamos tanto la sección HTML `<head>` como los encabezados de respuesta HTTP para atributos `Link: <url>; rel=\"alternate\"; hreflang=\"code\"`.",
+        "faq5_q": "¿Qué pasa si tengo errores de hreflang?",
+        "faq5_a": "Los motores de búsqueda pueden ignorar sus etiquetas inválidas, lo que lleva a que las versiones de idioma correctas no se muestren a los usuarios adecuados, o posibles penalizaciones por contenido duplicado.",
+        "faq6_q": "¿Es gratuita esta herramienta?",
+        "faq6_a": "Sí, puede realizar verificaciones ilimitadas gratis para asegurar que su SEO internacional sea perfecto."
+    }
+}

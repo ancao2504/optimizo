@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "title": "Kostenloser Snake Case Converter – Online-String-Tool",
+        "description": "Konvertieren Sie Text sofort in das snake_case-Format für Python-Variablen und Datenbanken.",
+        "h1": "Snake Case-Konverter",
+        "subtitle": "Konvertieren von Text in snake_case für Python und Datenbanken"
+    },
+    "editor": {
+        "label_input": "Eingabetext",
+        "ph_input": "mein variablenname",
+        "btn_convert": "In snake_case umwandeln",
+        "btn_clear": "Löschen",
+        "btn_copy": "Kopieren",
+        "label_output": "Ausgabe (snake_case)",
+        "ph_output": "mein_variablenname"
+    },
+    "content": {
+        "p1": "Verwandeln Sie Ihren Text mit unserem kostenlosen Online-Umrechner in das snake_case-Format. Snake_case verwendet Kleinbuchstaben mit Unterstrichen zur Trennung von Wörtern, was sehr gut lesbar und maschinenfreundlich ist.",
+        "features_title": "Funktionen",
+        "features": {
+            "python": {
+                "title": "Python-Standard",
+                "desc": "Generiert Variablennamen, die den PEP 8-Styleguides folgen."
+            },
+            "instant": {
+                "title": "Sofortige Umrechnung",
+                "desc": "Konvertierung in snake_case in Millisekunden."
+            },
+            "privacy": {
+                "title": "Datenschutz garantiert",
+                "desc": "Die gesamte Verarbeitung findet in Ihrem Browser statt."
+            },
+            "bulk": {
+                "title": "Stapelverarbeitung",
+                "desc": "Konvertieren Sie mehrere Namen gleichzeitig."
+            },
+            "smart": {
+                "title": "Intelligente Formatierung",
+                "desc": "Verarbeitet Leerzeichen und Sonderzeichen automatisch."
+            },
+            "free": {
+                "title": "100 % kostenlos",
+                "desc": "Keine Limits oder Registrierung erforderlich."
+            }
+        },
+        "uses_title": "Wann man Snake Case verwendet",
+        "uses": {
+            "python": {
+                "title": "Python-Variablen",
+                "desc": "Die primäre Benennungskonvention für Variablen und Funktionen in diesen Sprachen."
+            },
+            "db": {
+                "title": "Datenbankspalten",
+                "desc": "Standard für Spaltennamen (z. B. created_at, user_id)."
+            },
+            "config": {
+                "title": "Konfigurationsdateien",
+                "desc": "Häufig verwendet in groß angelegten Konfigurationen und Umgebungsvariablen."
+            },
+            "ruby": {
+                "title": "Ruby-Entwicklung",
+                "desc": "Folgt den Ruby-Benennungskonventionen für Variablen und Methoden."
+            },
+            "data": {
+                "title": "📊 Datenwissenschaft",
+                "desc": "Formatieren Sie Spaltennamen in Pandas-DataFrames und CSV-Dateien."
+            },
+            "api": {
+                "title": "🔧 API-Parameter",
+                "desc": "Erstellen Sie konsistente Parameternamen für REST-APIs."
+            }
+        },
+        "how_to_title": "Bedienungsanleitung",
+        "how_to_steps": [
+            {
+                "title": "Text einfügen",
+                "desc": "Fügen Sie Ihren Text in das Eingabefeld ein."
+            },
+            {
+                "title": "Umwandeln",
+                "desc": "Der Konverter ersetzt Leerzeichen und Bindestriche durch Unterstriche."
+            },
+            {
+                "title": "Kleinschreibung",
+                "desc": "Alle Zeichen werden in Kleinbuchstaben umgewandelt."
+            },
+            {
+                "title": "Bereinigung",
+                "desc": "Aufeinanderfolgende Unterstriche werden auf einen reduziert."
+            },
+            {
+                "title": "Ergebnis",
+                "desc": "Das snake_case-Ergebnis ist fertig zur Verwendung."
+            }
+        ],
+        "examples_title": "Umrechnungsbeispiele",
+        "examples": {
+            "var": {
+                "title": "Variablennamen:"
+            },
+            "func": {
+                "title": "Funktionsnamen:"
+            },
+            "db": {
+                "title": "Datenbankspalten:"
+            },
+            "config": {
+                "title": "Konfigurationsschlüssel:"
+            }
+        },
+        "faq_title": "Häufig gestellte Fragen (FAQ)",
+        "faq": {
+            "q1": "Was ist snake_case?",
+            "a1": "Snake_case ist eine Benennungskonvention, bei der Wörter kleingeschrieben und durch Unterstriche getrennt werden. Beispiel: mein_variablenname",
+            "q2": "Wann sollte ich snake_case verwenden?",
+            "a2": "Verwenden Sie snake_case für Python-Variablen und -Funktionen, Datenbankspaltennamen, Konfigurationsschlüssel und Ruby-Methodennamen. In Python (PEP 8) ist es der Standard.",
+            "q3": "Wie unterscheidet sich snake_case von kebab-case?",
+            "a3": "Snake_case verwendet Unterstriche (meine_variable), während kebab-case Bindestriche verwendet (meine-variable). Nutzen Sie snake_case für Programmcode und kebab-case für URLs und CSS.",
+            "q4": "Werden auch Zahlen verarbeitet?",
+            "a4": "Ja! Das Tool verarbeitet Zahlen korrekt und behält sie bei der Textumwandlung bei (z. B. wird aus „user 2 profile“ dann „user_2_profile“).",
+            "q5": "Ist dieses Tool kostenlos?",
+            "a5": "Ja! Völlig kostenlos und ohne Einschränkungen. Die Verarbeitung erfolgt aus Datenschutz- und Geschwindigkeitsgründen direkt in Ihrem Browser."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte geben Sie Text zum Konvertieren ein",
+        "success_converted": "✓ Erfolgreich in snake_case konvertiert!",
+        "error_no_copy": "Nichts zum Kopieren vorhanden! Bitte konvertieren Sie zuerst einen Text.",
+        "success_copy": "✓ In die Zwischenablage kopiert!"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "Générateur de hachage MD5 - Outil de sécurité en ligne gratuit",
+        "description": "Générez instantanément des hachages MD5 à partir de n'importe quel texte.",
+        "h1": "Générateur de hachage MD5",
+        "subtitle": "Générez des hachages MD5 à partir de n'importe quel texte instantanément"
+    },
+    "editor": {
+        "label_input": "Entrer le texte",
+        "ph_input": "Entrez le texte à hacher...",
+        "btn_generate": "Générer le hachage MD5",
+        "label_result": "Hachage MD5",
+        "btn_copy": "Copier"
+    },
+    "content": {
+        "hero_title": "Générateur de hachage MD5",
+        "hero_subtitle": "Générez des hachages MD5 à partir de n'importe quel texte instantanément",
+        "p1": "Générez instantanément des hachages MD5 à partir de n'importe quel texte, mot de passe ou chaîne de données avec notre générateur de hachage MD5 en ligne gratuit. MD5 (Message-Digest Algorithm 5) est une fonction de hachage cryptographique largement utilisée qui produit une valeur de hachage de 128 bits (32 caractères hexadécimaux). Parfait pour la vérification de l'intégrité des données, la génération de sommes de contrôle et la compréhension des fonctions de hachage. Tout le traitement se passe dans votre navigateur pour une confidentialité totale.",
+        "what_title": "🔒 Qu'est-ce que le MD5 ?",
+        "what_desc": "Le MD5 est une fonction de hachage cryptographique qui prend une entrée de n'importe quelle longueur et produit une valeur de hachage fixe de 128 bits, généralement représentée sous la forme d'un nombre hexadécimal de 32 caractères. La même entrée produit toujours le même hachage, mais même un petit changement dans l'entrée crée un hachage complètement différent.",
+        "features_title": "✅ Avantages du MD5",
+        "features": {
+            "fast": "<strong>Traitement rapide :<\/strong> Génération de hachage extrêmement rapide",
+            "fixed": "<strong>Longueur fixe :<\/strong> Produit toujours une sortie de 128 bits",
+            "deterministic": "<strong>Déterministe :<\/strong> Même entrée = même hachage",
+            "support": "<strong>Large prise en charge :<\/strong> Disponible dans tous les langages de programmation"
+        },
+        "uses_title": "📊 Cas d'utilisation courants",
+        "uses": {
+            "verify": "<strong>Vérification de fichiers :<\/strong> Vérifier l'intégrité des fichiers",
+            "checksum": "<strong>Sommes de contrôle :<\/strong> Vérifier les téléchargements",
+            "cache": "<strong>Clés de cache :<\/strong> Générer des identifiants uniques",
+            "integrity": "<strong>Intégrité des données :<\/strong> Détecter les modifications"
+        },
+        "warning_title": "⚠️ Avertissement de sécurité",
+        "warning_desc": "<strong>N'utilisez PAS le MD5 pour le hachage de mots de passe ou des applications critiques pour la sécurité !<\/strong> Le MD5 est cryptographiquement cassé et vulnérable aux attaques par collision. Pour le hachage de mots de passe, utilisez des algorithmes modernes comme bcrypt, Argon2 ou PBKDF2.",
+        "compare_title": "🔄 MD5 vs Autres fonctions de hachage",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "Sortie 128 bits",
+                "desc2": "Rapide mais peu sûr pour la cryptographie"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "Sortie 160 bits",
+                "desc2": "Également déconseillé pour une utilisation sécurisée"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "Sortie 256 bits",
+                "desc2": "Sûr et largement utilisé aujourd'hui"
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Le MD5 est-il sûr pour les mots de passe ?",
+            "a1": "Non ! Le MD5 est cryptographiquement cassé et ne devrait jamais être utilisé pour le hachage de mots de passe. Utilisez bcrypt, Argon2 ou PBKDF2 à la place.",
+            "q2": "Puis-je inverser un hachage MD5 ?",
+            "a2": "Non, le MD5 est une fonction unidirectionnelle - vous ne pouvez pas inverser un hachage pour obtenir l'entrée d'origine. Cependant, les attaquants peuvent utiliser des tables arc-en-ciel pour trouver des correspondances.",
+            "q3": "Mes données sont-elles envoyées à un serveur ?",
+            "a3": "Non ! Toute la génération de hachage MD5 se fait entièrement dans votre navigateur à l'aide de JavaScript. Vos données ne quittent jamais votre appareil."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez entrer du texte",
+        "btn_copied": "Copié !"
+    }
+}

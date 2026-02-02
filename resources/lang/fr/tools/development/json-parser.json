@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Analyseur et validateur JSON - Vérification de la syntaxe en ligne gratuite",
+        "description": "Analysez, validez et visualisez la structure JSON",
+        "h1": "Analyseur et validateur JSON",
+        "subtitle": "Analysez, validez et visualisez la structure JSON"
+    },
+    "editor": {
+        "label_input": "Entrée JSON",
+        "ph_input": "{\"nom\": \"Jean Pierre\", \"âge\": 30, \"estActif\": true}",
+        "btn_parse": "Analyser le JSON",
+        "btn_beautify": "Embellir",
+        "btn_minify": "Minifier",
+        "btn_clear": "Effacer",
+        "btn_load": "Charger un exemple",
+        "title_tree": "Vue arborescente JSON"
+    },
+    "content": {
+        "hero_title": "Analyseur et validateur JSON gratuit",
+        "hero_subtitle": "Analysez, validez, embellissez et minifiez les données JSON instantanément",
+        "p1": "Notre analyseur JSON gratuit est un outil en ligne puissant pour les développeurs, les analystes de données et tous ceux qui travaillent avec des données JSON. Analysez, validez, embellissez et minifiez instantanément le JSON avec une interface propre et intuitive. Parfait pour déboguer les API, formater les fichiers de configuration ou valider la structure JSON. 100 % gratuit, le traitement côté client garantit que vos données restent privées et sécurisées.",
+        "what_title": "📋 Qu'est-ce que le JSON ?",
+        "what_desc": "Le JSON (JavaScript Object Notation) est un format d'échange de données léger, facile à lire et à écrire pour les humains, et facile à analyser et à générer pour les machines. C'est le format le plus populaire pour les API, les fichiers de configuration et le stockage de données. Le JSON utilise des paires clé-valeur et prend en charge les chaînes, les nombres, les booléens, les tableaux et les objets imbriqués.",
+        "features_title": "✨ Caractéristiques",
+        "features": {
+            "validate": {
+                "title": "Validation JSON",
+                "desc": "Validez instantanément la syntaxe et la structure JSON"
+            },
+            "beautify": {
+                "title": "Embellir le JSON",
+                "desc": "Formatez le JSON avec une indentation et un espacement appropriés"
+            },
+            "minify": {
+                "title": "Minifier le JSON",
+                "desc": "Compressez le JSON en supprimant les espaces blancs"
+            },
+            "tree": {
+                "title": "Vue arborescente",
+                "desc": "Visualisez la structure JSON sous forme d'arbre"
+            },
+            "privacy": {
+                "title": "La confidentialité d'abord",
+                "desc": "Tout le traitement se fait dans votre navigateur"
+            },
+            "instant": {
+                "title": "Résultats instantanés",
+                "desc": "Analysez et formatez le JSON en quelques millisecondes"
+            }
+        },
+        "uses_title": "🎯 Cas d'utilisation courants",
+        "uses": {
+            "api": {
+                "title": "🔌 Développement d'API",
+                "desc": "Testez et déboguez les réponses d'API, validez les charges utiles des requêtes et formatez les données JSON"
+            },
+            "config": {
+                "title": "⚙️ Fichiers de configuration",
+                "desc": "Formatez et validez les fichiers de configuration pour les applications, les bases de données et les services"
+            },
+            "analysis": {
+                "title": "📊 Analyse de données",
+                "desc": "Analysez et visualisez les données JSON provenant des bases de données, des journaux et des outils d'analyse"
+            },
+            "debug": {
+                "title": "🐛 Débogage",
+                "desc": "Identifiez les erreurs de syntaxe, validez la structure et dépannez les problèmes JSON"
+            },
+            "docs": {
+                "title": "📝 Documentation",
+                "desc": "Créez des exemples JSON lisibles pour les documents d'API et les guides techniques"
+            },
+            "migration": {
+                "title": "🔄 Migration de données",
+                "desc": "Transformez et validez le JSON lors des importations et exportations de données"
+            }
+        },
+        "how_title": "📚 Comment utiliser",
+        "how_steps": [
+            "<strong>Coller le JSON :<\/strong> Copiez et collez vos données JSON dans le champ de saisie",
+            "<strong>Analyser :<\/strong> Cliquez sur \"Analyser le JSON\" pour valider et visualiser la structure",
+            "<strong>Embellir :<\/strong> Cliquez sur \"Embellir\" pour formater avec une indentation appropriée",
+            "<strong>Minifier :<\/strong> Cliquez sur \"Minifier\" pour compresser et supprimer les espaces blancs",
+            "<strong>Voir l'arborescence :<\/strong> Visualisez la structure hiérarchique au format d'arborescence"
+        ],
+        "tips_title": "💡 Bonnes pratiques JSON",
+        "tips_list": [
+            "<strong>Utilisez des guillemets doubles :<\/strong> Le JSON nécessite des guillemets doubles pour les chaînes, pas des guillemets simples",
+            "<strong>Pas de virgules traînantes :<\/strong> Supprimez les virgules après le dernier élément dans les objets et les tableaux",
+            "<strong>Types de données appropriés :<\/strong> Utilisez des nombres sans guillemets, des booléens comme true\/false, null pour les valeurs vides",
+            "<strong>Validez régulièrement :<\/strong> Validez toujours le JSON avant le déploiement ou l'utilisation en production",
+            "<strong>Embellissez pour la lisibilité :<\/strong> Formatez le JSON pour faciliter le débogage et la maintenance"
+        ],
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Quelle est la différence entre embellir et minifier ?",
+            "a1": "Embellir ajoute une indentation et des sauts de ligne pour rendre le JSON lisible par l'homme. Minifier supprime tous les espaces blancs pour réduire la taille du fichier, ce qui est idéal pour les environnements de production.",
+            "q2": "Mes données JSON sont-elles sécurisées ?",
+            "a2": "Oui ! Toute l'analyse et le formatage JSON se passent entièrement dans votre navigateur. Vos données ne quittent jamais votre appareil et ne sont envoyées à aucun serveur.",
+            "q3": "Puis-je analyser de gros fichiers JSON ?",
+            "a3": "Oui, notre analyseur peut gérer de gros fichiers JSON. Cependant, les fichiers très volumineux (> 10 Mo) peuvent mettre plus de temps à être traités en fonction des performances de votre appareil.",
+            "q4": "Quelles erreurs l'analyseur détecte-t-il ?",
+            "a4": "L'analyseur détecte les erreurs de syntaxe telles que les guillemets manquants, les virgules traînantes, les caractères invalides, les crochets non fermés et les types de données incorrects. Les messages d'erreur indiquent l'emplacement exact du problème.",
+            "q5": "Puis-je utiliser ceci pour tester des API ?",
+            "a5": "Absolument ! Cet outil est parfait pour tester les réponses d'API, valider les charges utiles des requêtes et formater les données JSON provenant d'appels d'API."
+        }
+    },
+    "js": {
+        "error_empty_parse": "Veuillez entrer des données JSON à analyser",
+        "success_valid": "✓ JSON valide ! Analysé avec succès",
+        "error_invalid": "✗ JSON invalide : ",
+        "error_empty_beautify": "Veuillez entrer des données JSON à embellir",
+        "success_beautify": "✓ JSON embellie avec succès",
+        "error_beautify": "✗ Impossible d'embellir un JSON invalide : ",
+        "error_empty_minify": "Veuillez entrer des données JSON à minifier",
+        "success_minify": "✓ JSON minifiée avec succès",
+        "error_minify": "✗ Impossible de minifier un JSON invalide : ",
+        "success_load": "Exemple de JSON chargé"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter Online - Gratis JSON Pretifier Tool",
+        "description": "Formatera, validera och minifiera din JSON-data med vårt gratis onlineverktyg",
+        "h1": "JSON-formaterare",
+        "subtitle": "Formatera, validera och minifiera din JSON-data"
+    },
+    "editor": {
+        "title": "Formatera din JSON-data",
+        "label_input": "Ange JSON-data",
+        "ph_input": "{\"namn\": \"John Doe\", \"ålder\": 30, \"stad\": \"Stockholm\"}",
+        "help_text": "Klistra in din JSON-data för att formatera, försköna eller minifiera den",
+        "btn_format": "Formatera & Försköna",
+        "btn_minify": "Minifiera JSON",
+        "label_results": "Formaterad JSON",
+        "btn_copy": "Kopiera JSON"
+    },
+    "content": {
+        "why_title": "Varför använda vår JSON-formaterare?",
+        "why_desc": "JSON (JavaScript Object Notation) är det mest populära formatet för datautbyte som används inom webbutveckling, API:er och konfigurationsfiler. Vår gratis online JSON-formaterare hjälper utvecklare, dataanalytiker och IT-proffs att snabbt formatera, försköna, validera och minifiera JSON-data. Oavsett om du felsöker API-svar, rensar upp konfigurationsfiler eller förbereder JSON för produktion, ger vårt verktyg omedelbara resultat med syntaxmarkering och feldetektering. Perfekt för utvecklare som arbetar med REST API:er, NoSQL-databaser och moderna webbapplikationer.",
+        "features": {
+            "instant": {
+                "title": "Omedelbar formatering",
+                "desc": "Formatera och försköna JSON-data på millisekunder med korrekt indrag och syntaxmarkering"
+            },
+            "error": {
+                "title": "Feldetektering",
+                "desc": "Upptäck och markera automatiskt JSON-syntaxfel med hjälpsamma felmeddelanden"
+            },
+            "privacy": {
+                "title": "100% Privat",
+                "desc": "All bearbetning sker i din webbläsare - din JSON-data lämnar aldrig din dator"
+            }
+        },
+        "how_title": "Hur man formaterar JSON i 3 enkla steg",
+        "how_steps": {
+            "1": {
+                "title": "Välj åtgärd",
+                "desc": "Klicka på \"Formatera & Försköna\" för att formatera eller \"Minifiera\" för att komprimera din JSON"
+            },
+            "2": {
+                "title": "Kopiera resultat",
+                "desc": "Klicka på kopieringsknappen för att kopiera den formaterade JSON-koden till ditt urklipp"
+            },
+            "3": {
+                "title": "Formatera eller förminska",
+                "desc": "Välj att försköna (formatera med indrag) eller förminska (komprimera till en rad) dina JSON-data baserat på dina behov."
+            }
+        },
+        "uses_title": "Vanliga användningsområden för JSON-formatering",
+        "uses": {
+            "api": {
+                "title": "Felsökning av API-svar",
+                "desc": "Formatera röriga API-svar för att enkelt läsa och felsöka JSON-data från REST API:er, GraphQL och webbtjänster."
+            },
+            "config": {
+                "title": "Konfigurationsfiler",
+                "desc": "Rensa upp och validera JSON-konfigurationsfiler för applikationer, package.json, tsconfig.json och mer."
+            },
+            "db": {
+                "title": "Databasedata",
+                "desc": "Formatera JSON-data från NoSQL-databaser som MongoDB, CouchDB och Firebase för bättre läsbarhet."
+            },
+            "export": {
+                "title": "Dataexport\/import",
+                "desc": "Förbered JSON-data för export eller validera importerad JSON-data för att säkerställa korrekt struktur och syntax."
+            }
+        },
+        "tips_title": "Bästa praxis och tips för JSON",
+        "tips": {
+            "validate": {
+                "title": "✓ Validera alltid JSON",
+                "desc": "Använd en JSON-validator för att fånga syntaxfel före distribution till produktion. Ogiltig JSON kan krascha din applikation."
+            },
+            "indent": {
+                "title": "✓ Använd korrekt indrag",
+                "desc": "Formatera JSON med 2 eller 4 mellanslags indrag för bättre läsbarhet under utveckling och felsökning."
+            },
+            "minify": {
+                "title": "✓ Minifiera för produktion",
+                "desc": "Minifiera JSON-data innan distribution till produktion för att minska filstorleken och förbättra laddningstiderna."
+            },
+            "naming": {
+                "title": "✓ Använd konsekvent namngivning",
+                "desc": "Följ namnkonventioner som camelCase eller snake_case konsekvent genom hela din JSON-struktur."
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Är min JSON-data säker?",
+            "a1": "Ja, absolut. Vår JSON-formaterare körs helt i din webbläsare med JavaScript. Din data skickas aldrig till våra servrar eller lagras någonstans.",
+            "q2": "Varför är det viktigt att minifiera JSON?",
+            "a2": "Minifiering tar bort onödigt blanksteg och radbrytningar, vilket avsevärt minskar filstorleken. Detta är avgörande för att förbättra API-prestanda och minska bandbreddsanvändningen i produktionsmiljöer.",
+            "q3": "Kan jag validera ofullständig JSON?",
+            "a3": "Verktyget kräver en giltig JSON-struktur för att formatera eller minifiera. Det ger dock detaljerade felmeddelanden för att hjälpa dig hitta och åtgärda problem i din JSON-data.",
+            "q4": "Stöder det stora JSON-filer?",
+            "a4": "Ja, verktyget är optimerat för att hantera stora JSON-datauppsättningar effektivt, även om extremt stora filer kan bero på din webbläsares minnesgränser."
+        }
+    },
+    "js": {
+        "error_empty_format": "Vänligen ange JSON-data att formatera",
+        "error_invalid": "Ogiltig JSON: ",
+        "error_empty_minify": "Vänligen ange JSON-data att minifiera",
+        "success_copy": "Kopierat!",
+        "error_copy": "Misslyckades att kopiera. Vänligen kopiera manuellt."
+    }
+}

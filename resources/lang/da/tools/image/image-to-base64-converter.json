@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Image to Base64 Converter - Gratis online strengværktøj",
+        "description": "Konverter images to Base64 encoded strings for embedding in HTML or CSS. Gratis online værktøj supporting PNG, JPG, GIF.",
+        "h1": "Konverter billede til Base64-streng",
+        "subtitle": "Konverter images to Base64 encoded strings for embedding in HTML or CSS"
+    },
+    "input": {
+        "title": "Upload Billede",
+        "desc": "Træk og slip din billedfil her",
+        "drop_title": "Drop billedfil her",
+        "drop_desc": "Supports Alle Billede Formats"
+    },
+    "editor": {
+        "image_alt": "Forhåndsvisning",
+        "label_string": "Base64 streng",
+        "btn_copy": "Kopier to Udklipsholder",
+        "char_count": "Antal tegn",
+        "mime_type": "MIME-type"
+    },
+    "content": {
+        "title": "Konverter Billede to Base64 String",
+        "p1": "Udviklere og webdesignere har ofte brug for at integrere billeder direkte i HTML- eller CSS-filer for at reducere HTTP-anmodninger.",
+        "p2": "Vores <strong>Billede to Base64 Konverter<\/strong> encodes your image file into a long string of tegn that represents the binary data. You can paste this string straight into your code.",
+        "features": {
+            "clipboard": {
+                "title": "Udklipsholder Ready",
+                "desc": "Et-klik kopi. Vi formaterer outputtet til HTML (`&lt;img src=\"...\"&gt;`) eller CSS (`baggrund: url(...)`)."
+            },
+            "requests": {
+                "title": "Reducer anmodninger",
+                "desc": "Indlejring af små ikoner og logoer som Base64 eliminerer netværksomkostningerne ved at hente eksterne billedfiler."
+            },
+            "formats": {
+                "title": "Enhver Format",
+                "desc": "Fungerer med PNG-, JPG-, GIF-, WEBP-, SVG- og endda ICO-filer."
+            }
+        },
+        "how_to": {
+            "title": "Hvordan use?",
+            "list": [
+                "Vælg your image file.",
+                "Den værktøj immediately converts the file to a Data URI.",
+                "Klik \"Kopier to Udklipsholder\" to grab the code.",
+                "Indsæt det i din `src`-attribut eller CSS-fil."
+            ]
+        },
+        "use_cases": {
+            "title": "Hvornår to use Base64?",
+            "list": [
+                "Small Billedes: Best for icons, spinners, and small logos (under 10KB).",
+                "Single-Fil Apps: Hvornår you need to bundle everything into one HTML file (e.g., email templates).",
+                "Offlineadgang: Sikrer at billeder indlæses selv uden en netværksforbindelse, hvis HTML er gemt lokalt."
+            ]
+        }
+    },
+    "js": {
+        "copied": "Kopieret!"
+    }
+}

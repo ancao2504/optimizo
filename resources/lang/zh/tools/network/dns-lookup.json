@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "DNS 查找工具 - 免费在线 DNS 记录检查器",
+        "description": "免费的 DNS 查询工具，可检查任何域名的 DNS 记录。立即查看 A、AAAA、MX、NS、TXT、CNAME 记录。对于排除电子邮件和域名配置故障至关重要。",
+        "h1": "DNS 查找工具",
+        "subtitle": "即时查询 DNS 记录以查找名称服务器、MX、A、CNAME 和 TXT 记录"
+    },
+    "form": {
+        "domain_label": "域名",
+        "domain_placeholder": "example.com",
+        "button": "查询 DNS"
+    },
+    "results": {
+        "title": "DNS 查询结果"
+    },
+    "content": {
+        "what_is_title": "什么是 DNS 查询？",
+        "what_is_desc": "DNS 查询是一种向域名系统服务器查询以检索域名 DNS 记录的工具。DNS 记录包含有关域名配置的重要信息，包括邮件服务器（MX 记录）、名称服务器（NS 记录）、IP 地址（A\/AAAA 记录）以及用于验证和安全的文本记录（TXT 记录）。",
+        "why_use_title": "为什么要使用 DNS 查询？",
+        "why_use_desc": "DNS 查询对于排除电子邮件递送问题、验证域名配置、检查名称服务器设置、验证 SPF 和 DKIM 记录以及了解域名的设置非常重要。它是系统管理员、Web 开发人员和 IT 专业人员日常使用的工具。",
+        "record_types_title": "DNS 记录类型",
+        "a_record": "<strong>A 记录：<\/strong> 将域名映射到 IPv4 地址",
+        "aaaa_record": "<strong>AAAA 记录：<\/strong> 将域名映射到 IPv6 地址",
+        "mx_record": "<strong>MX 记录：<\/strong> 邮件服务器信息",
+        "ns_record": "<strong>NS 记录：<\/strong> 名称服务器信息",
+        "txt_record": "<strong>TXT 记录：<\/strong> 用于验证的文本记录",
+        "cname_record": "<strong>CNAME 记录：<\/strong> 规范名称别名"
+    },
+    "faq": {
+        "title": "常见问题记录",
+        "q1": "什么是 DNS 传播？",
+        "a1": "DNS 传播是 DNS 更改在互联网上更新所需的时间，通常需要 24-48 小时。",
+        "q2": "我可以看到所有的记录吗？",
+        "a2": "是的，我们的工具支持查询 A、MX、TXT、NS、CNAME 等所有常见的 DNS 记录。",
+        "q3": "它是免费的吗？",
+        "a3": "是的，它完全免费，无查询次数限制。",
+        "q4": "查询结果准确吗？",
+        "a4": "结果基于实时 DNS 查询，反映了当前解析状态。",
+        "q5": "支持子域名吗？",
+        "a5": "支持，您可以输入任何有效的子域名进行查询。"
+    },
+    "js": {
+        "looking_up": "正在查询...",
+        "records_label": "记录：",
+        "success": "查询成功！",
+        "error": "查询失败，请检查域名。",
+        "lookup_dns": "查询 DNS"
+    }
+}

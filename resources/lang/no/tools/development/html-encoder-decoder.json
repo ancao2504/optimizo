@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML Encoder & Decoder - Gratis Online Entity Tool",
+        "description": "Kod og dekod HTML-enheter for å forhindre XSS-angrep med vårt gratis onlineverktøy",
+        "h1": "HTML-koder og dekoder",
+        "subtitle": "Kod og dekod HTML-entiteter"
+    },
+    "editor": {
+        "mode_encode": "Kod HTML",
+        "mode_decode": "Dekod HTML",
+        "label_input_encode": "Skriv inn HTML for å kode",
+        "ph_input_encode": "<div>Hei og velkommen<\/div>",
+        "btn_encode": "Kod HTML",
+        "btn_clear": "Tøm",
+        "btn_copy": "Kopier",
+        "label_output_encode": "Kodet HTML",
+        "ph_output": "Behandlet HTML vises her...",
+        "label_input_decode": "Skriv inn HTML for å dekode",
+        "label_output_decode": "Dekodet HTML",
+        "btn_decode": "Dekod HTML"
+    },
+    "content": {
+        "hero_title": "Gratis HTML-koder og dekoder",
+        "hero_subtitle": "Kod og dekod HTML-enheter for å forhindre XSS-angrep",
+        "p1": "Vårt gratis HTML Encoder & Decoder-verktøy hjelper deg med å kode spesialtegn i HTML for sikker visning på nettsider, eller dekode kodet HTML tilbake til det opprinnelige formatet. Perfekt for utviklere, sikkerhetseksperter og alle som jobber med rå HTML.",
+        "what_title": "🔗 Hva er HTML-koding?",
+        "what_desc": "HTML-koding konverterer tegn som har spesiell betydning i HTML (som <, >, &, \") til deres korresponderende HTML-enheter (som &lt;, &gt;, &amp;, &quot;). Dette forhindrer nettleseren i å tolke dem som HTML-tagger, noe som er avgjørende for å forhindre Cross-Site Scripting (XSS)-angrep.",
+        "features_title": "âœ¨ Funksjoner",
+        "features": {
+            "fast": {
+                "title": "Øyeblikkelig konvertering",
+                "desc": "Kode eller dekode HTML i millisekunder"
+            },
+            "bidirectional": {
+                "title": "Toveis",
+                "desc": "Kod spesialtegn eller dekod enheter tilbake til tekst"
+            },
+            "privacy": {
+                "title": "Personvern først",
+                "desc": "All behandling skjer i nettleseren din"
+            },
+            "copy": {
+                "title": "Ett-klikks Kopier",
+                "desc": "Kopier behandlet HTML til utklippstavlen umiddelbart"
+            },
+            "free": {
+                "title": "100 % gratis",
+                "desc": "Ingen grenser, ingen registrering nødvendig"
+            },
+            "safe": {
+                "title": "Sikkerhetsfokusert",
+                "desc": "Hjelper med å forhindre XSS-sårbarheter"
+            }
+        },
+        "uses_title": "🎯 Vanlige brukstilfeller",
+        "uses": {
+            "security": {
+                "title": "🔒 Sikkerhet",
+                "desc": "Rengjør brukerinndata for å forhindre XSS-angrep ved å kode spesialtegn."
+            },
+            "display": {
+                "title": "💻 Kodevisning",
+                "desc": "Vis rå HTML-kode på en nettside uten at den blir gjengitt av nettleseren."
+            },
+            "data": {
+                "title": "📊 Datalagring",
+                "desc": "Lagre innhold trygt i databaser uten å bekymre deg for HTML-parsingsproblemer."
+            },
+            "email": {
+                "title": "📧 E-postmaler",
+                "desc": "Sørg for at spesialtegn gjengis riktig i HTML-e-poster."
+            }
+        },
+        "how_title": "📚 Slik bruker du",
+        "how_steps": {
+            "1": "Lim inn HTML eller tekst i inndatafeltet",
+            "2": "Klikk på prosessknappen for å konvertere",
+            "3": "Kopier resultatet til utklippstavlen",
+            "4": "Kopier det kodede\/dekodede resultatet og bruk det i HTML-, XML- eller nettapplikasjonene dine."
+        },
+        "examples_title": "💡 HTML-kodingseksempler",
+        "examples": {
+            "1": {
+                "title": "Sitater:",
+                "code": "\"Hei\" â†’ &quot;Hei&quot;"
+            },
+            "2": {
+                "title": "Ampersand:",
+                "code": "Tom & Jerry â†’ Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Koding av spesialtegn",
+                "code": "&lt;script&gt;alert(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&amp;gt;"
+            }
+        },
+        "faq_title": "â“ Vanlige spørsmål",
+        "faq": {
+            "q1": "Hvorfor må jeg kode HTML?",
+            "a1": "Koding er avgjørende for sikkerheten for å forhindre at nettleseren kjører skadelige skript (XSS) og for å vise kodebiter riktig.",
+            "q2": "Hvilke tegn er kodet?",
+            "a2": "Viktige tegn som <, >, &, \" og ' er alltid kodet. Utvidede ASCII-tegn kan også kodes.",
+            "q3": "Er det reversibelt?",
+            "a3": "Ja, dekoding reverserer prosessen nøyaktig, og gjenoppretter den opprinnelige teksten."
+        }
+    },
+    "js": {
+        "error_empty": "Vennligst skriv inn HTML for å behandle",
+        "success_encode": "âœ“ HTML-kodet vellykket",
+        "success_decode": "âœ“ HTML dekodet vellykket",
+        "error_process": "✗ Feil ved behandling av HTML:",
+        "error_no_copy": "Ingen utdata å kopiere",
+        "success_copy": "âœ“ Kopiert til utklippstavlen"
+    }
+}

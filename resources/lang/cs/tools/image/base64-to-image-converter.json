@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Decode Base64 to Image – Dekodér online zdarma",
+        "description": "Převeďte řetězce kódované v Base64 zpět na obrázky (PNG, JPG, GIF). Bezplatný online dekodér a vizualizátor.",
+        "h1": "Dekódujte Base64 na obrázek",
+        "subtitle": "Okamžitě převeďte řetězce kódované v Base64 zpět na obrázky (PNG, JPG, GIF)"
+    },
+    "input": {
+        "title": "Vložte Base64 řetězec",
+        "desc": "Vložte svůj kód níže pro vizualizaci obrázku",
+        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Dekódovat obrázek"
+    },
+    "result": {
+        "image_alt": "Dekódovaný obrázek",
+        "success": "Obrázek úspěšně dekódován",
+        "btn_download": "Stáhnout obrázek",
+        "btn_clear": "Vymazat vzor"
+    },
+    "content": {
+        "title": "Dekódování Base64 na obrázek",
+        "p1": "Našli jste dlouhý řetězec náhodných znaků začínající na <code>data:image\/...<\/code> a nevíte, co to je? Pravděpodobně jde o obrázek kódovaný v Base64.",
+        "p2": "Náš <strong>dekodér Base64 na obrázek<\/strong> převede tento textový řetězec zpět na viditelný obrázkový soubor (PNG, JPG, GIF atd.), který si můžete prohlédnout a stáhnout do svého počítače.",
+        "features": {
+            "preview": {
+                "title": "Okamžitý náhled",
+                "desc": "Obrázek uvidíte okamžitě. Analyzujeme binární data a vykreslíme je na vaší obrazovce."
+            },
+            "auto": {
+                "title": "Automatická detekce",
+                "desc": "Automaticky detekujeme formát souboru (PNG, JPEG, GIF) z hlavičky Base64 řetězce."
+            },
+            "download": {
+                "title": "Stáhnout soubor",
+                "desc": "Uložte dekódovaný výsledek jako skutečný obrázkový soubor na svůj pevný disk jedním kliknutím."
+            }
+        },
+        "how_to": {
+            "title": "Jak dekódovat?",
+            "list": [
+                "Vložte svůj Base64 řetězec do textového pole.",
+                "Okamžitě se pokusíme řetězec přečíst.",
+                "Pokud je platný, obrázek se objeví vlevo.",
+                "Klikněte na „Stáhnout obrázek“ pro jeho uložení."
+            ]
+        },
+        "use_cases": {
+            "title": "Běžné případy použití",
+            "list": [
+                "Ladění: Kontrola, jaká obrazová data jsou odesílána v odpovědích API nebo ukládána v databázích.",
+                "Obnova: Extrahování obrázků vložených v souborech CSS nebo šablonách HTML.",
+                "Ověření: Zajištění, že Base64 řetězec není poškozen."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Nejprve prosím vložte Base64 řetězec.",
+        "invalid_error": "Neplatný Base64 řetězec nebo nepodporovaný formát obrázku."
+    }
+}

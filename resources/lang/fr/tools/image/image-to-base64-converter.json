@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Convertisseur d'image en Base64 - Outil de chaîne en ligne gratuit",
+        "description": "Convertissez vos images en chaînes encodées en Base64 pour les intégrer dans du HTML ou du CSS. Outil en ligne gratuit supportant PNG, JPG, GIF.",
+        "h1": "Convertir l'image en chaîne Base64",
+        "subtitle": "Convertissez vos images en chaînes encodées en Base64 pour les intégrer dans du HTML ou du CSS"
+    },
+    "input": {
+        "title": "Télécharger l'image",
+        "desc": "Glissez-déposez votre fichier image ici",
+        "drop_title": "Déposez le fichier image ici",
+        "drop_desc": "Supporte tous les formats d'image"
+    },
+    "editor": {
+        "image_alt": "Aperçu",
+        "label_string": "Chaîne Base64",
+        "btn_copy": "Copier dans le presse-papier",
+        "char_count": "Nombre de caractères",
+        "mime_type": "Type MIME"
+    },
+    "content": {
+        "title": "Convertir une image en chaîne Base64",
+        "p1": "Les développeurs et web designers ont souvent besoin d'intégrer des images directement dans des fichiers HTML ou CSS pour réduire le nombre de requêtes HTTP.",
+        "p2": "Notre <strong>convertisseur image en Base64<\/strong> encode votre fichier image en une longue chaîne de caractères représentant les données binaires. Vous pouvez coller cette chaîne directement dans votre code.",
+        "features": {
+            "clipboard": {
+                "title": "Prêt pour le presse-papier",
+                "desc": "Copie en un clic. Nous formatons la sortie pour le HTML (`&lt;img src=\"...\"&gt;`) ou le CSS (`background: url(...)`)."
+            },
+            "requests": {
+                "title": "Réduire les requêtes",
+                "desc": "L'intégration de petites icônes et logos en Base64 élimine la surcharge réseau liée à la récupération de fichiers image externes."
+            },
+            "formats": {
+                "title": "Tous formats",
+                "desc": "Fonctionne avec les fichiers PNG, JPG, GIF, WEBP, SVG et même ICO."
+            }
+        },
+        "how_to": {
+            "title": "Comment utiliser ?",
+            "list": [
+                "Sélectionnez votre fichier image.",
+                "L'outil convertit immédiatement le fichier en Data URI.",
+                "Cliquez sur \"Copier dans le presse-papier\" pour récupérer le code.",
+                "Insérez-le dans votre attribut `src` ou votre fichier CSS."
+            ]
+        },
+        "use_cases": {
+            "title": "Quand utiliser le Base64 ?",
+            "list": [
+                "Petites images : idéal pour les icônes, les indicateurs de chargement (spinners) et les petits logos (moins de 10 Ko).",
+                "Applications mono-fichier : quand vous devez tout regrouper dans un seul fichier HTML (ex: modèles d'e-mails).",
+                "Accès hors ligne : garantit que les images se chargent même sans connexion réseau si le HTML est enregistré localement."
+            ]
+        }
+    },
+    "js": {
+        "copied": "Copié !"
+    }
+}

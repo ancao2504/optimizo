@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Port Checker Tool - Gratis online Open Port Scanner",
+        "description": "Gratis port checker værktøj to test if ports are open, closed, or filtered. Tjek TCP\/UDP ports instantly for network troubleshooting and security auditing.",
+        "h1": "Værktøj til portkontrol",
+        "subtitle": "Tjek if ports are open on any server for troubleshooting connectivity"
+    },
+    "form": {
+        "host_label": "Vært eller IP-adresse",
+        "host_placeholder": "example.com eller 8.8.8.8",
+        "port_label": "Port Nummer",
+        "port_placeholder": "80",
+        "button": "Tjek Port"
+    },
+    "results": {
+        "title": "Portstatus"
+    },
+    "content": {
+        "what_is_title": "Hvad er Port Tjeker?",
+        "what_is_desc": "A Port Tjeker is a network diagnostic værktøj that determines whether a specific TCP or UDP port on a server or device is open (accepting connections), closed (rejecting connections), or filtered (blocked by a firewall). Ports are virtual endpoints for network communication, with each port number (1-65535) potentially hosting different services. Almindelig ports include 80 for HTTP web traffic, 443 for HTTPS, 22 for SSH, and 25 for email. Tjeking port status is essential for network configuration, security auditing, and troubleshooting connectivity issues.",
+        "why_check_title": "Hvorfor Tjek Ports?",
+        "why_check_desc": "Port checking serves multiple critical purposes in network management and security. System administrators verify that services are accessible on their intended ports after configuration changes. Sikkerhed professionals scan for open ports to identify potential vulnerabilities and ensure unnecessary ports are closed. Developers test whether their applications are properly listening on configured ports. Network troubleshooters use port checking to diagnose why services aren't accessible, determining if the issue is with the service itself, firewall rules, or network routing.",
+        "common_ports_title": "Almindelig Ports",
+        "port1": "<strong>Port 80:<\/strong> HTTP (webtrafik)",
+        "port2": "<strong>Port 443:<\/strong> HTTPS (sikker webtrafik)",
+        "port3": "<strong>Port 22:<\/strong> SSH (sikker shell-adgang)",
+        "port4": "<strong>Port 21:<\/strong> FTP (filoverførsel)",
+        "port5": "<strong>Port 25:<\/strong> SMTP (afsendelse af e-mail)",
+        "port6": "<strong>Port 3306:<\/strong> MySQL-database",
+        "port7": "<strong>Port 3389:<\/strong> RDP (Remote Desktop)",
+        "security_title": "Sikkerhed Implications",
+        "security_desc": "Åbne porte repræsenterer potentielle indgangspunkter for angribere. Bedste sikkerhedspraksis dikterer kun at holde nødvendige porte åbne og lukke eller filtrere alle andre. Regelmæssig scanning af dine egne servere hjælper med at identificere utilsigtede åbne porte, der kunne udnyttes. Portscanning af andres systemer uden tilladelse kan dog være ulovligt og betragtes som fjendtlig aktivitet. Sørg altid for, at du har autorisation, før du scanner porte på systemer, du ikke ejer."
+    },
+    "faq": {
+        "title": "Ofte stillede spørgsmål",
+        "q1": "Hvad er en port checker?",
+        "a1": "En portchecker tester, om en specifik netværksport på en server er åben og accepterer forbindelser. Det er vigtigt for fejlfinding af servere, firewalls og netværkstjenester.",
+        "q2": "Hvad er almindelige porte og deres anvendelser?",
+        "a2": "Almindelige porte inkluderer: 80 (HTTP), 443 (HTTPS), 21 (FTP), 22 (SSH), 25 (SMTP-e-mail), 3306 (MySQL), 3389 (Fjernskrivebord), 8080 (HTTP alternativ). Hver tjeneste bruger specifikke porte til kommunikation.",
+        "q3": "Hvorfor er min havn lukket?",
+        "a3": "Porte kan lukkes på grund af firewall-regler, routerkonfiguration, service, der ikke kører, ISP-blokering eller forkert portvideresendelse. Tjek dine firewallindstillinger, sørg for, at tjenesten kører, og bekræft reglerne for portvideresendelse.",
+        "q4": "Er det sikkert at åbne porte?",
+        "a4": "Åbning af porte udsætter tjenester for internettet, hvilket kan være en sikkerhedsrisiko, hvis det ikke er konfigureret korrekt. Åbn kun nødvendige porte, brug stærk godkendelse, hold software opdateret, og overvej at bruge VPN til følsomme tjenester.",
+        "q5": "Hvad er forskellen mellem TCP- og UDP-porte?",
+        "a5": "TCP-porte giver pålidelig, bestilt datalevering (bruges til web, e-mail, filoverførsel). UDP-porte er hurtigere, men garanterer ikke levering (bruges til spil, streaming, DNS). Begge kan bruge de samme portnumre."
+    },
+    "js": {
+        "checking": "Kontrollerer portstatus...",
+        "success": "Havnetjek afsluttet",
+        "error": "Portkontrol mislykkedes",
+        "check_port": "Tjek port"
+    }
+}

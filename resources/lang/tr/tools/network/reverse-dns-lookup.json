@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Ters DNS Araması - Etki Alanına Ücretsiz Çevrimiçi IP Aracı",
+        "description": "Ücretsiz çevrimiçi ters DNS sorgulama aracı. Herhangi bir IP adresiyle ilişkili ana bilgisayar adını anında bulun. Hızlı, güvenli ve kullanımı kolay.",
+        "h1": "Ters DNS Araması",
+        "subtitle": "Bir IP adresiyle ilişkili alan adını veya ana bilgisayar adını anında bulun"
+    },
+    "form": {
+        "ip_label": "IP Adresini Girin",
+        "ip_placeholder": "örn. 8.8.8.8",
+        "button": "Ters DNS Sorgula",
+        "button_loading": "Sorgulanıyor..."
+    },
+    "results": {
+        "title": "Ters DNS Sonuçları"
+    },
+    "content": {
+        "what_is_title": "Ters DNS Sorgulama Nedir?",
+        "what_is_desc": "Ters DNS sorgulama (rDNS), bir IP adresiyle ilişkili alan adını veya ana bilgisayar adını belirleme işlemidir. Bir alan adını IP adresine dönüştüren standart DNS sorgulamasının (ileri sorgulama) aksine, rDNS tam tersini yapar. Genellikle bir sunucunun kimliğini doğrulamak veya ağ sorunlarını gidermek için kullanılır.",
+        "why_use_title": "Neden Ters DNS Sorgulama Kullanılmalı?",
+        "why_use_desc": "Ters DNS, güvenlik ve doğrulama amaçları için yaygın olarak kullanılır. Gelen trafiğin kaynağını tanımlamaya, e-posta gönderenleri doğrulamaya (spam'i önlemek için) ve ağ bağlantı sorunlarını gidermeye yardımcı olur. Birçok posta sunucusu, gelen e-postaları kabul etmek için geçerli rDNS kayıtları gerektirir.",
+        "ptr_records_title": "PTR Kayıtlarını Anlamak",
+        "ptr_record1": "<strong>PTR Kaydı:<\/strong> Bir İşaretçi Kaydı (PTR), ters DNS sorgulamaları için kullanılan DNS kaydı türüdür.",
+        "ptr_record2": "<strong>Eşleme:<\/strong> Bir IP adresini tekrar bir ana bilgisayar adına eşler.",
+        "ptr_record3": "<strong>Doğrulama:<\/strong> E-posta teslim edilebilirliği ve güvenlik doğrulaması için kritik öneme sahiptir.",
+        "ptr_record4": "<strong>IP'den Host'a:<\/strong> Bir IP adresinin gerçek sahibini tanımlamak için gereklidir.",
+        "ptr_record5": "<strong>Spam Önleme:<\/strong> Posta sunucuları tarafından gönderen orijinalliğini doğrulamak için kullanılır.",
+        "ptr_record6": "<strong>Ağ Günlükleri:<\/strong> Ana bilgisayar adlarını göstererek ağ günlüklerini insan tarafından okunabilir hale getirmeye yardımcı olur.",
+        "use_cases_title": "Yaygın Kullanım Durumları",
+        "use_cases_desc": "Yaygın kullanım durumları arasında web trafiğinin kaynağını doğrulamak, ağ gecikmesini veya yönlendirme sorunlarını teşhis etmek, e-posta sunucu yapılandırmalarını onaylamak ve potansiyel olarak kötü amaçlı IP adreslerini tanımlayarak siber güvenlik denetimlerini geliştirmek yer alır."
+    },
+    "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "q1": "PTR kaydı nedir?",
+        "a1": "Bir PTR (İşaretçi) kaydı, bir IP adresini bir ana bilgisayar adına eşleyen bir DNS kaydı türüdür. Ters DNS sorgulamasının temel bileşenidir.",
+        "q2": "Ters DNS e-posta için neden önemlidir?",
+        "a2": "Birçok e-posta sağlayıcısı, gönderen sunucunun meşru olduğunu doğrulamak için ters DNS kullanır. Bir sunucunun IP adresinin eşleşen bir rDNS kaydı yoksa, e-postaları spam olarak işaretlenebilir.",
+        "q3": "Herhangi bir IP adresinin ters DNS kaydı olabilir mi?",
+        "a3": "Evet, ancak IP adresinin sahibi (genellikle İSS veya barındırma sağlayıcısı) DNS ayarlarında PTR kaydını yapılandırmalıdır."
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Herramienta Traceroute en línea - Rastrear ruta de red y saltos gratis",
+        "description": "Herramienta gratuita de traceroute para rastrear la ruta que toman los paquetes para llegar a un destino. Vea todos los saltos y la latencia al instante.",
+        "h1": "Traceroute en línea",
+        "subtitle": "Rastree la ruta de su red и identifique posibles cuellos de botella en el camino"
+    },
+    "form": {
+        "host_label": "Nombre de host o dirección IP",
+        "host_placeholder": "ejemplo.com o 8.8.8.8",
+        "button": "Iniciar Traceroute",
+        "button_loading": "Rastreando..."
+    },
+    "results": {
+        "title": "Resultados de Traceroute"
+    },
+    "content": {
+        "what_is_title": "¿Qué es Traceroute?",
+        "what_is_desc": "Traceroute es una herramienta de diagnóstico de red que rastrea la ruta que sigue un paquete de datos desde su origen hasta el destino final. Muestra cada enrutador (llamado 'salto') por el que pasan los datos и mide el tiempo que tarda en llegar a cada uno de ellos. Es indispensable para entender cómo viaja la información por Internet.",
+        "why_use_title": "¿Por qué usar Traceroute?",
+        "why_use_desc": "Traceroute es fundamental para identificar dónde se ralentiza la conexión o dónde se pierden los paquetes. Si un sitio web carga lento o es inaccesible, Traceroute le dirá exactamente en qué punto de la red está el problema, ya sea en su red local, el ISP o los nodos troncales de Internet.",
+        "hops_title": "Entendiendo los 'Saltos'",
+        "hop1": "<strong>Número de salto:<\/strong> El orden secuencial del enrutador en la ruta.",
+        "hop2": "<strong>Dirección IP:<\/strong> El identificador único del equipo en ese punto.",
+        "hop3": "<strong>Nombre de host:<\/strong> El nombre legible del servidor (si está disponible).",
+        "hop4": "<strong>Tiempo de respuesta:<\/strong> La latencia en milisegundos para ese tramo.",
+        "hop5": "<strong>Asteriscos (*):<\/strong> Significan que el nodo no respondió dentro del tiempo límite.",
+        "hop6": "<strong>Cerrar sesión:<\/strong> El destino final alcanzado por los paquetes.",
+        "issues_title": "Common Issues",
+        "issues_desc": "High latency at specific hops indicates congestion or routing problems. Asterisks (*) mean routers aren't responding to traceroute packets (often due to firewall rules). Packet loss at intermediate hops may not affect final destination if packets reach it successfully."
+    },
+    "faq": {
+        "title": "Preguntas frecuentes sobre Traceroute",
+        "q1": "¿Cuál es la diferencia entre ping y traceroute?",
+        "a1": "Ping solo verifica la conectividad и la latencia total. Traceroute muestra todo el camino и cada nodo intermedio.",
+        "q2": "¿Por qué veo asteriscos (*) en los resultados?",
+        "a2": "Los asteriscos aparecen cuando un enrutador no responde a las solicitudes ICMP o tiene un firewall configurado para ignorarlas.",
+        "q3": "¿Cuántos saltos son normales?",
+        "a3": "Normalmente, un rastreo web tiene entre 10 и 20 saltos. Depende de la distancia física и la complejidad del enrutamiento del ISP."
+    }
+}

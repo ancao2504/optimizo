@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Strumento di test ping online: controllo gratuito della latenza di rete",
+        "description": "Strumento test ping gratuito per controllare la latenza di rete, la perdita di pacchetti e la raggiungibilità del server. Testa istantaneamente la connettività a qualsiasi host o indirizzo IP. Essenziale per la risoluzione dei problemi di rete.",
+        "h1": "Strumento di test del ping",
+        "subtitle": "Testa il tempo di risposta del server e la connettività di rete da più posizioni"
+    },
+    "form": {
+        "host_label": "Host o Indirizzo IP",
+        "host_placeholder": "google.com oppure 8.8.8.8",
+        "button": "Ping Host"
+    },
+    "results": {
+        "title": "Risultati Test Ping"
+    },
+    "content": {
+        "what_is_title": "Cos'è il Test Ping?",
+        "what_is_desc": "Il Ping è uno strumento di diagnostica di rete che testa la raggiungibilità di un host su una rete Internet Protocol (IP). Misura il tempo di andata e ritorno per i messaggi inviati dalla sorgente a un computer di destinazione e viceversa. Il Ping funziona inviando pacchetti Echo Request dell'Internet Control Message Protocol (ICMP) all'host di destinazione e attendendo una Echo Reply. Lo strumento prende il nome dal suono ping del sonar utilizzato nel rilevamento dei sottomarini, poiché invia in modo simile un segnale e ascolta la risposta.",
+        "why_use_title": "Perché usare il Test Ping?",
+        "why_use_desc": "Il test ping è essenziale per la risoluzione dei problemi di rete e il monitoraggio delle prestazioni. Gli amministratori di sistema utilizzano il ping per verificare la connettività di rete, diagnosticare problemi di connessione e misurare la latenza. Aiuta a identificare se un server è online e reattivo, a rilevare la perdita di pacchetti che potrebbe indicare congestione della rete o problemi hardware e a misurare la qualità delle connessioni di rete. I giocatori usano il ping per controllare la latenza del server prima di unirsi a giochi online, mentre i proprietari di siti web monitorano la reattività dei propri server per garantire un'esperienza utente ottimale.",
+        "metrics_title": "Comprendere le Metriche del Ping",
+        "metric1": "<strong>Pacchetti Inviati\/Ricevuti:<\/strong> Numero di richieste ping e risposte andate a buon fine",
+        "metric2": "<strong>Perdita Pacchetti:<\/strong> Percentuale di pacchetti che non hanno ricevuto risposta",
+        "metric3": "<strong>Tempo Minimo:<\/strong> Il tempo di andata e ritorno più veloce registrato",
+        "metric4": "<strong>Tempo Medio:<\/strong> La latenza media di tutti i ping",
+        "metric5": "<strong>Tempo Massimo:<\/strong> Il tempo di andata e ritorno più lento registrato",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Numero di salti di rete prima che il pacchetto scada",
+        "interpreting_title": "Interpretazione dei Risultati",
+        "interpreting_desc": "Tempi di ping buoni sono in genere inferiori a 50ms per le connessioni locali e inferiori a 100ms per quelle internazionali. Tempi tra 100-200ms sono accettabili per la maggior parte delle applicazioni ma possono causare lag evidenti in app in tempo reale come giochi o videoconferenze. Qualsiasi valore superiore a 200ms indica potenziali problemi di rete. Una perdita di pacchetti superiore all'1% suggerisce problemi di rete che richiedono indagini. Tempi di ping costanti indicano connessioni stabili, mentre tempi altamente variabili suggeriscono congestione della rete o problemi di instradamento."
+    },
+    "faq": {
+        "title": "Domande Frequenti sul Test Ping",
+        "q1": "Cosa significa 'Richiesta scaduta'?",
+        "a1": "Significa che il pacchetto ping è stato inviato ma non è stata ricevuta alcuna risposta entro il tempo limite, indicando che l'host è offline o sta bloccando le richieste ICMP.",
+        "q2": "Perché il mio ping aumenta durante il gioco?",
+        "a2": "Il ping può aumentare a causa della congestione della rete, dell'uso della banda da parte di altre applicazioni o di problemi con il tuo ISP o con il server di gioco.",
+        "q3": "Il ping influenza la velocità di download?",
+        "a3": "Non direttamente, ma un ping elevato o una perdita di pacchetti possono rallentare l'avvio e la reattività generale della navigazione web.",
+        "q4": "Perché il mio ping è basso ma ho ancora lag?",
+        "a4": "Questo può essere causato da quello che viene chiamato 'jitter' (variabilità del ping) o da problemi di prestazioni lato server\/computer piuttosto che lato rete.",
+        "q5": "Tutti i server rispondono al ping?",
+        "a5": "No, molti server e router sono configurati per ignorare le richieste di ping per motivi di sicurezza o per ridurre il carico sulla rete."
+    },
+    "js": {
+        "pinging": "Esecuzione del ping...",
+        "success": "Test completato",
+        "error": "Errore durante l'esecuzione del ping",
+        "ping_host": "Ping Host"
+    }
+}

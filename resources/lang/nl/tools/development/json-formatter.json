@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter Online - Gratis JSON Prettifier-tool",
+        "description": "Formatteer, valideer en minificeer uw JSON-gegevens met onze gratis online tool",
+        "h1": "JSON-formatter",
+        "subtitle": "Formatteer, valideer en minificeer uw JSON-gegevens"
+    },
+    "editor": {
+        "title": "Formatteer uw JSON-gegevens",
+        "label_input": "JSON-gegevens invoeren",
+        "ph_input": "{\"naam\": \"Jan Jansen\", \"leeftijd\": 30, \"stad\": \"Amsterdam\"}",
+        "help_text": "Plak uw JSON-gegevens om ze te formatteren, verfraaien of minificeren",
+        "btn_format": "Formatteren & verfraaien",
+        "btn_minify": "JSON minificeren",
+        "label_results": "Geformatteerde JSON",
+        "btn_copy": "JSON kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom onze JSON Formatter gebruiken?",
+        "why_desc": "JSON (JavaScript Object Notation) is het meest populaire formaat voor gegevensuitwisseling dat wordt gebruikt in webontwikkeling, API's en configuratiebestanden. Onze gratis online JSON formatter helpt ontwikkelaars, gegevensanalisten en IT-professionals om JSON-gegevens snel te formatteren, verfraaien, valideren en minificeren. Of u nu API-reacties debugt, configuratiebestanden opschoont of JSON voorbereidt voor productie, onze tool biedt direct resultaat met syntaxis-accentuering en foutdetectie. Perfect voor ontwikkelaars die werken met REST API's, NoSQL-databases en moderne webapplicaties.",
+        "features": {
+            "instant": {
+                "title": "Direct formatteren",
+                "desc": "Formatteer en verfraai JSON-gegevens in milliseconden met de juiste inspringing en syntaxis-accentuering"
+            },
+            "error": {
+                "title": "Foutdetectie",
+                "desc": "Detecteer en markeer automatisch JSON-syntaxfouten met behulpzame foutmeldingen"
+            },
+            "privacy": {
+                "title": "100% privé",
+                "desc": "Alle verwerking vindt plaats in uw browser - uw JSON-gegevens verlatennooit uw computer"
+            }
+        },
+        "how_title": "Hoe JSON te formatteren in 3 eenvoudige stappen",
+        "how_steps": {
+            "1": {
+                "title": "Kies actie",
+                "desc": "Klik op \"Formatteren & verfraaien\" om te formatteren of op \"Minificeren\" om uw JSON te comprimeren"
+            },
+            "2": {
+                "title": "Resultaat kopiëren",
+                "desc": "Klik op de kopieerknop om de geformatteerde JSON naar uw klembord te kopiëren"
+            },
+            "3": {
+                "title": "Formatteer of verklein",
+                "desc": "Kies ervoor om uw JSON-gegevens te verfraaien (opmaken met inspringing) of te verkleinen (comprimeren tot één regel) op basis van uw behoeften."
+            }
+        },
+        "uses_title": "Veelvoorkomende gebruiksvoorbeelden voor JSON-formattering",
+        "uses": {
+            "api": {
+                "title": "API-respons debuggen",
+                "desc": "Formatteer onoverzichtelijke API-reacties om JSON-gegevens van REST API's, GraphQL en webdiensten gemakkelijk te lezen en te debuggen."
+            },
+            "config": {
+                "title": "Configuratiebestanden",
+                "desc": "Schoon JSON-configuratiebestanden voor applicaties, package.json, tsconfig.json en meer op en valideer ze."
+            },
+            "db": {
+                "title": "Databasegegevens",
+                "desc": "Formatteer JSON-gegevens uit NoSQL-databases zoals MongoDB, CouchDB en Firebase voor een betere leesbaarheid."
+            },
+            "export": {
+                "title": "Gegevensexport\/-import",
+                "desc": "Bereid JSON-gegevens voor op export of valideer geïmporteerde JSON-gegevens om een juiste structuur en syntaxis te garanderen."
+            }
+        },
+        "tips_title": "Beste praktijken en tips voor JSON",
+        "tips": {
+            "validate": {
+                "title": "✓ Valideer JSON altijd",
+                "desc": "Gebruik een JSON-validator om syntaxfouten op te sporen voordat u naar productie gaat. Ongeldige JSON kan uw applicatie breken."
+            },
+            "indent": {
+                "title": "✓ Gebruik de juiste inspringing",
+                "desc": "Formatteer JSON met een inspringing van 2 of 4 spaties voor een betere leesbaarheid tijdens ontwikkeling en debuggen."
+            },
+            "minify": {
+                "title": "✓ Minificeer voor productie",
+                "desc": "Minificeer JSON-gegevens voordat u ze naar productie stuurt om de bestandsgrootte te verkleinen en laadtijden te verbeteren."
+            },
+            "naming": {
+                "title": "✓ Gebruik consistente naamgeving",
+                "desc": "Volg camelCase of snake_case naamgevingsconventies consistent in uw gehele JSON-structuur."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Zijn mijn JSON-gegevens veilig?",
+            "a1": "Ja, absoluut. Onze JSON formatter draait volledig in uw webbrowser met behulp van JavaScript. Uw gegevens worden nooit naar onze servers verzonden of ergens opgeslagen.",
+            "q2": "Waarom is het minificeren van JSON belangrijk?",
+            "a2": "Minificeren verwijdert onnodige witruimte en regelafbrekingen, waardoor de bestandsgrootte aanzienlijk wordt verkleind. Dit is cruciaal voor het verbeteren van API-prestaties en het verminderen van bandbreedteverbruik in productieomgevingen.",
+            "q3": "Kan ik onvolledige JSON valideren?",
+            "a3": "De tool vereist een geldige JSON-structuur om te formatteren of te minificeren. Hij biedt echter gedetailleerde foutmeldingen om u te helpen problemen in uw JSON-gegevens te lokaliseren en op te lossen.",
+            "q4": "Ondersteunt het grote JSON-bestanden?",
+            "a4": "Ja, de tool is geoptimaliseerd om grote JSON-datasets efficiënt te verwerken, hoewel extreem grote bestanden afhankelijk kunnen zijn van de geheugenlimieten van uw browser."
+        }
+    },
+    "js": {
+        "error_empty_format": "Voer JSON-gegevens in om te formatteren",
+        "error_invalid": "Ongeldige JSON: ",
+        "error_empty_minify": "Voer JSON-gegevens in om te minificeren",
+        "success_copy": "Gekopieerd!",
+        "error_copy": "Kopiëren mislukt. Kopieer handmatig."
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "JSON 파서 및 유효성 검사기 - 무료 온라인 구문 검사",
+        "description": "JSON 데이터를 분석하고 트리 구조로 확인하세요. 데이터 유효성 검사 및 파싱을 위한 무료 도구.",
+        "h1": "JSON 파서 및 유효성 검사기",
+        "subtitle": "JSON 데이터를 파싱하고 구조적인 트리 형태로 시각화하세요"
+    },
+    "editor": {
+        "label_input": "JSON 입력",
+        "ph_input": "JSON 문자열을 입력하세요...",
+        "btn_parse": "파싱 및 분석",
+        "btn_beautify": "Beautify",
+        "btn_minify": "Minify",
+        "btn_clear": "초기화",
+        "btn_load": "Load Sample",
+        "title_tree": "JSON Tree View"
+    },
+    "content": {
+        "hero_title": "정밀한 JSON 파서 및 분석기",
+        "hero_subtitle": "Parse, validate, beautify, and minify JSON data instantly",
+        "p1": "프로그래밍이나 API 통신 중 생성된 원시 JSON 텍스트를 인간이 이해하기 쉬운 구조적 데이터로 변환하세요. 당사의 파서는 단순한 텍스트 정렬을 넘어 데이터의 타입을 식별하고 계층 구조를 명확히 보여주어 데이터 설계와 디버깅을 돕습니다.",
+        "what_title": "📋 What is JSON?",
+        "what_desc": "JSON (JavaScript Object Notation) is a lightweight data-interchange format that's easy for humans to read and write, and easy for machines to parse and generate. It's the most popular format for APIs, configuration files, and data storage. JSON uses key-value pairs and supports strings, numbers, booleans, arrays, and nested objects.",
+        "features_title": "✨ Features",
+        "features": {
+            "validate": {
+                "title": "JSON Validation",
+                "desc": "Instantly validate JSON syntax and structure"
+            },
+            "beautify": {
+                "title": "Beautify JSON",
+                "desc": "Format JSON with proper indentation and spacing"
+            },
+            "minify": {
+                "title": "Minify JSON",
+                "desc": "Compress JSON by removing whitespace"
+            },
+            "tree": {
+                "title": "트리 뷰 시각화",
+                "desc": "중첩된 객체와 배열을 트리 구조로 보여주어 데이터 관계를 쉽게 파악합니다."
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All processing happens in your browser"
+            },
+            "instant": {
+                "title": "Instant Results",
+                "desc": "Parse and format JSON in milliseconds"
+            }
+        },
+        "uses_title": "🎯 Common Use Cases",
+        "uses": {
+            "api": {
+                "title": "🔌 API Development",
+                "desc": "Test and debug API responses, validate request payloads, and format JSON data"
+            },
+            "config": {
+                "title": "⚙️ Configuration Files",
+                "desc": "Format and validate config files for applications, databases, and services"
+            },
+            "analysis": {
+                "title": "📊 Data Analysis",
+                "desc": "Parse and visualize JSON data from databases, logs, and analytics tools"
+            },
+            "debug": {
+                "title": "🐛 Debugging",
+                "desc": "Identify syntax errors, validate structure, and troubleshoot JSON issues"
+            },
+            "docs": {
+                "title": "📝 Documentation",
+                "desc": "Create readable JSON examples for API docs and technical guides"
+            },
+            "migration": {
+                "title": "🔄 Data Migration",
+                "desc": "Transform and validate JSON during data imports and exports"
+            }
+        },
+        "how_title": "📚 How to Use",
+        "how_steps": [
+            "<strong>Paste JSON:<\/strong> Copy and paste your JSON data into the input field",
+            "<strong>Parse:<\/strong> Click \"Parse JSON\" to validate and visualize the structure",
+            "<strong>Beautify:<\/strong> Click \"Beautify\" to format with proper indentation",
+            "<strong>Minify:<\/strong> Click \"Minify\" to compress and remove whitespace",
+            "<strong>View Tree:<\/strong> See the hierarchical structure in tree view format"
+        ],
+        "tips_title": "💡 JSON Best Practices",
+        "tips_list": [
+            "<strong>Use double quotes:<\/strong> JSON requires double quotes for strings, not single quotes",
+            "<strong>No trailing commas:<\/strong> Remove commas after the last item in objects and arrays",
+            "<strong>Proper data types:<\/strong> Use numbers without quotes, booleans as true\/false, null for empty values",
+            "<strong>Validate regularly:<\/strong> Always validate JSON before deployment or production use",
+            "<strong>Beautify for readability:<\/strong> Format JSON for easier debugging and maintenance"
+        ],
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "What's the difference between beautify and minify?",
+            "a1": "Beautify adds indentation and line breaks to make JSON human-readable. Minify removes all whitespace to reduce file size, making it ideal for production environments.",
+            "q2": "Is my JSON data secure?",
+            "a2": "Yes! All JSON parsing and formatting happens entirely in your browser. Your data never leaves your device and is not sent to any server.",
+            "q3": "Can I parse large JSON files?",
+            "a3": "Yes, our parser can handle large JSON files. However, very large files (>10MB) may take longer to process depending on your device's performance.",
+            "q4": "What errors does the parser detect?",
+            "a4": "The parser detects syntax errors like missing quotes, trailing commas, invalid characters, unclosed brackets, and incorrect data types. Error messages show the exact location of the issue.",
+            "q5": "Can I use this for API testing?",
+            "a5": "Absolutely! This tool is perfect for testing API responses, validating request payloads, and formatting JSON data from API calls."
+        }
+    },
+    "js": {
+        "error_empty_parse": "Please enter JSON data to parse",
+        "success_valid": "✓ Valid JSON! Parsed successfully",
+        "error_invalid": "✗ Invalid JSON: ",
+        "error_empty_beautify": "Please enter JSON data to beautify",
+        "success_beautify": "✓ JSON beautified successfully",
+        "error_beautify": "✗ Cannot beautify invalid JSON: ",
+        "error_empty_minify": "Please enter JSON data to minify",
+        "success_minify": "✓ JSON minified successfully",
+        "error_minify": "✗ Cannot minify invalid JSON: ",
+        "success_load": "Sample JSON loaded"
+    }
+}

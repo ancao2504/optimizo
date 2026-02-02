@@ -1,0 +1,57 @@
+{
+    "meta": {
+        "title": "Ilmainen Binary to Text Dekooderi - Online Code Converter",
+        "description": "Muunna binaarikoodi (0 ja 1) tavalliseksi tekstiksi heti. Ammattimainen työkalu binaaritietojen dekoodaamiseen ASCII\/UTF-8-merkeiksi.",
+        "h1": "Binaari-tekstimuunnin",
+        "subtitle": "Lopullinen työkalu binaarijonojen dekoodaamiseen ihmisen luettavaksi tekstiksi."
+    },
+    "editor": {
+        "btn_convert": "Muunna tekstiksi",
+        "btn_copy": "Kopioi tulos",
+        "btn_download": "Lataa teksti",
+        "btn_example": "Lataa esimerkki",
+        "btn_clear": "Tyhjennä kaikki",
+        "label_input": "Binaarisyöte (8-bittiset lohkot)",
+        "ph_input": "Syötä binaarikoodi tähän (esim. 01001000 01100101)...",
+        "label_output": "Tekstilähtö",
+        "ph_output": "Dekoodattu teksti ilmestyy tähän..."
+    },
+    "content": {
+        "about_title": "Binaari-tekstimuunnos ymmärtäminen",
+        "about_p1": "Binaari on tietokoneiden peruskieli, joka esittää tietoa 0- ja 1-sarjoina. Tämän työkalun avulla voit kääntää nämä binaarijonot takaisin ihmisen luettavaksi tekstiksi käyttämällä vakio-ASCII\/UTF-8-koodausmalleja.",
+        "features_title": "Kehittyneet dekoodausominaisuudet",
+        "features_list": {
+            "8bit": "Tukee tavallisia 8-bittisiä (oktetti) binaarilohkoja.",
+            "validation": "Binaarimerkkien (0-1) reaaliaikainen validointi.",
+            "utf8": "Täysi tuki ASCII- ja yleisille UTF-8-merkeille.",
+            "instant": "Erittäin nopea asiakaspuolen käsittely.",
+            "edu": "Visuaalinen palaute, joka sopii täydellisesti koulutustarkoituksiin.",
+            "free": "100 % ilmainen ilman rajoituksia tai rekisteröitymistä."
+        },
+        "uses_title": "Ammattimaiset käyttötapaukset",
+        "uses_edu_title": "Tietojenkäsittelytieteen opetus",
+        "uses_edu_desc": "Opi, miten binaaribitit ryhmitellään muodostamaan tiettyjä merkkejä ASCII-taulukossa.",
+        "uses_prog_title": "Ohjelmistojen vianetsintä",
+        "uses_prog_desc": "Tarkista raakadata- ja muistivedokset muuntamalla ne luettavaksi tekstiksi.",
+        "uses_decoding_title": "Tiedon rekonstruointi",
+        "uses_decoding_desc": "Palauta teksti vaurioituneista tai osittain lähetetyistä binaari-tietopaketeista.",
+        "uses_learning_title": "Digitaalinen lukutaito",
+        "uses_learning_desc": "Ymmärrä koneen laitteiston ja ohjelmistosovellusten välinen silta.",
+        "how_title": "Binaarikoodin dekoodaus",
+        "how_desc": "Liitä binaarijonosi (8 bitin ryhmät) syötekenttään. Työkalu ryhmittelee bitit automaattisesti ja etsii vastaavan merkin jokaiselle tavulle. Parhaan tuloksen saamiseksi varmista, että bitit on erotettu välilyönneillä.",
+        "faq_title": "Binaarimuunnoksen UKK",
+        "q1": "Pitäisikö minun käyttää välilyöntejä binaaribittien välissä?",
+        "a1": "Kyllä, työkalu toimii parhaiten 8-bittisten lohkojen kanssa, jotka on erotettu välilyönneillä (esim. 01001000 01100101).",
+        "q2": "Tukeeko tämä muita kuin englanninkielisiä merkkejä?",
+        "a2": "Kyllä, se tukee vakio-ASCII:ta ja yleisimpiä UTF-8-koodattuja merkkejä."
+    },
+    "js": {
+        "error_empty": "Syötä binaarikoodia muunnettavaksi",
+        "error_invalid_chars": "Virheellinen syöte! Käytä vain numeroita 0 ja 1.",
+        "error_invalid_length": "Virheellinen lohkopituus! Jokaisen binaariryhmän on oltava 8 bittiä.",
+        "error_general": "Muunnosvirhe tapahtui: ",
+        "error_no_text_copy": "Ei mitään kopioitavaa! Suorita muunnos ensin.",
+        "success_copy": "✓ Kopioitu leikepöydälle onnistuneesti!",
+        "error_no_text_download": "Ei mitään ladattavaa! Suorita muunnos ensin."
+    }
+}

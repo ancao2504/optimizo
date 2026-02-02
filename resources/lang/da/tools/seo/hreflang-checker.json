@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker - Gratis Online Tag Validator",
+        "description": "Valider dine hreflang-tags for at sikre, at Google viser de korrekte sprog- eller regions-URL'er til dit publikum.",
+        "h1": "Hreflang Checker",
+        "subtitle": "Gratis værktøj til at udtrække og validere hreflang-attributter for international SEO."
+    },
+    "form": {
+        "url_label": "Indtast URL at tjekke",
+        "url_placeholder": "https:\/\/eksempel.dk\/side",
+        "user_agent_label": "Brugeragent",
+        "user_agent_default": "Standard (Browser)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Tjek Hreflang Tags"
+    },
+    "content": {
+        "main_title": "Hreflang Tag Checker",
+        "main_subtitle": "Sørg for, at dit internationale indhold når det rigtige publikum. Valider hreflang-implementering og ret almindelige SEO-fejl.",
+        "intro": "Hreflang-tags er essentielle for hjemmesider, der betjener flere sprog eller lande. Vores gratis værktøj udtrækker og validerer `rel=\"alternate\" hreflang=\"x\"` tags fra din sides HTML-header og HTTP-headere. Det tjekker gensidige (retur) tags for at garantere, at Google og andre søgemaskiner indekserer dit lokaliserede indhold korrekt.",
+        "features_title": "Hvorfor tjekke dine Hreflang Tags?",
+        "feature1_title": "Valider gensidige tags",
+        "feature1_desc": "Hreflang-tags skal fungere i par. Vores værktøj tjekker automatisk, om side A linker til side B, og om side B linker tilbage til side A.",
+        "feature2_title": "Opdag almindelige fejl",
+        "feature2_desc": "Find manglende retur-tags, ugyldige sprogkoder (ISO 639-1) og forkerte landekoder (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Forebyg SEO-problemer",
+        "feature3_desc": "Forkert hreflang-implementering kan føre til problemer med duplikeret indhold og visning af forkerte sprogsider i søgeresultater.",
+        "how_title": "Sådan bruger du Hreflang Checker",
+        "step1_title": "Indtast URL",
+        "step1_desc": "Indsæt den fulde URL for siden, du vil analysere (f.eks. https:\/\/eksempel.dk).",
+        "step2_title": "Vælg User Agent",
+        "step2_desc": "Det anbefales at tjekke med Googlebot, men du kan også tjekke som standardbrowser.",
+        "step3_title": "Analyser resultater",
+        "step3_desc": "Vi henter siden og lister alle fundne alternative links sammen med deres valideringsstatus.",
+        "step4_title": "Ret problemer",
+        "step4_desc": "Hvis fejlen 'Manglende retur-tag' vises, skal du opdatere dine refererede sider for at inkludere det gensidige link.",
+        "faq_title": "Ofte Stillede Spørgsmål",
+        "faq1_q": "Hvad er et hreflang-tag?",
+        "faq1_a": "Hreflang er en HTML-attribut, der bruges til at specificere sprog og geografisk målretning for en webside. Det fortæller søgemaskiner, hvilken version af en side der skal vises til brugere i forskellige lande eller sprog.",
+        "faq2_q": "Hvorfor er retur-tags vigtige?",
+        "faq2_a": "Google kræver returlinks for at forhindre, at nogen vilkårligt gør krav på en side på et andet site som en alternativ version af deres egen. Hvis side A linker til side B, skal side B linke tilbage til side A.",
+        "faq3_q": "Tjekker dette værktøj x-default tagget?",
+        "faq3_a": "Ja, vores værktøj identificerer og validerer `x-default` hreflang-tagget, som bruges til ikke-matchende sprog eller strikte landevælgere.",
+        "faq4_q": "Kan jeg tjekke hreflang i HTTP-headere?",
+        "faq4_a": "Ja! Vi tjekker både HTML `<head>` sektionen og HTTP-svarheadere for `Link: <url>; rel=\"alternate\"; hreflang=\"code\"` attributter.",
+        "faq5_q": "Hvad sker der, hvis jeg har hreflang-fejl?",
+        "faq5_a": "Søgemaskiner kan ignorere dine ugyldige tags, hvilket fører til, at korrekte sprogversioner ikke vises til de rigtige brugere, eller potentielle straffe for duplikeret indhold.",
+        "faq6_q": "Er dette værktøj gratis?",
+        "faq6_a": "Ja, du kan udføre ubegrænsede tjek gratis for at sikre, at din internationale SEO er perfekt."
+    }
+}

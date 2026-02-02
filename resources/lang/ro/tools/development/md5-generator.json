@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "MD5 Hash Generator - Instrument de securitate online gratuit",
+        "description": "Generează hash-uri MD5 din orice text instantaneu. Instrument sigur pentru verificarea integrității datelor și a checksum-urilor.",
+        "h1": "Generator de hash MD5",
+        "subtitle": "Generează hash-uri MD5 din orice text instantaneu"
+    },
+    "editor": {
+        "label_input": "Introdu Textul",
+        "ph_input": "Introdu textul pentru hashing...",
+        "btn_generate": "Generează Hash MD5",
+        "label_result": "Hash MD5 Resultat",
+        "btn_copy": "Copiază"
+    },
+    "content": {
+        "hero_title": "Generator de Hash-uri MD5",
+        "hero_subtitle": "Generează hash-uri MD5 din orice text instantaneu",
+        "p1": "Generează hash-uri MD5 din orice text, parolă sau șir de date instantaneu cu generatorul nostru online gratuit. MD5 (Message-Digest Algorithm 5) este o funcție de hash utilizată pe scară largă care produce o valoare de 128 de biți (32 de caractere hexazecimale). Perfect pentru verificarea integrității datelor și generarea de checksum-uri. Toată procesarea are loc local pentru confidențialitate maximă.",
+        "what_title": "🔐 Ce este MD5?",
+        "what_desc": "MD5 este o funcție de hash criptografică care preia o intrare de orice lungime și produce o valoare fixă de 128 biți, reprezentată de obicei ca un număr hexazecimal de 32 de caractere. Aceeași intrare produce întotdeauna același hash, dar chiar și o schimbare minoră în intrare creează un hash complet diferit.",
+        "features_title": "✅ Avantajele MD5",
+        "features": {
+            "fast": "<strong>Procesare Rapidă:<\/strong> Generare extrem de rapidă a hash-ului",
+            "fixed": "<strong>Lungime Fixă:<\/strong> Produce întotdeauna un rezultat de 128 biți",
+            "deterministic": "<strong>Deterministic:<\/strong> Aceeași intrare = același hash",
+            "support": "<strong>Suport Larg:<\/strong> Disponibil în toate limbajele de programare"
+        },
+        "uses_title": "📊 Cazuri Comune de Utilizare",
+        "uses": {
+            "verify": "<strong>Verificarea Fișierelor:<\/strong> Verifică integritatea fișierelor",
+            "checksum": "<strong>Checksum-uri:<\/strong> Verifică descărcările",
+            "cache": "<strong>Chei de Cache:<\/strong> Generează identificatori unici",
+            "integrity": "<strong>Integritatea Datelor:<\/strong> Detectează modificările"
+        },
+        "warning_title": "⚠️ Avertisment de Securitate",
+        "warning_desc": "<strong>NU folosi MD5 pentru hashing-ul parolelor sau aplicații critice de securitate!<\/strong> MD5 este considerat nesigur din punct de vedere criptografic. Pentru parole, folosește algoritmi moderni precum bcrypt, Argon2 sau PBKDF2.",
+        "compare_title": "🔄 MD5 vs Alte Funcții de Hash",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "Rezultat 128 biți",
+                "desc2": "Rapid, dar nesigur pentru criptografie"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "Rezultat 160 biți",
+                "desc2": "De asemenea, depășit pentru utilizări de securitate"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "Rezultat 256 biți",
+                "desc2": "Sigur și utilizat pe scară largă astăzi"
+            }
+        },
+        "faq_title": "❓ Întrebări Frecvente",
+        "faq": {
+            "q1": "Este MD5 sigur pentru parole?",
+            "a1": "Nu! MD5 este spart din punct de vedere criptografic și nu ar trebui să fie niciodată folosit pentru hashing-ul parolelor. Folosește în schimb bcrypt, Argon2 sau PBKDF2.",
+            "q2": "Pot inversa un hash MD5?",
+            "a2": "Nu, MD5 este o funcție unidirecțională - nu poți inversa un hash pentru a obține intrarea originală. Totuși, atacatorii pot folosi tabele rainbow pentru a găsi potriviri.",
+            "q3": "Sunt datele mele trimise la un server?",
+            "a3": "Nu! Toată generarea de hash-uri MD5 are loc în browserul tău folosind JavaScript. Datele tale nu părăsește niciodată dispozitivul."
+        }
+    },
+    "js": {
+        "error_empty": "Te rugăm să introduci un text",
+        "btn_copied": "Copiat!"
+    }
+}

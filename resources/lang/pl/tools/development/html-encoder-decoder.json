@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "Koder i dekoder HTML — bezpłatne narzędzie online do tworzenia obiektów",
+        "description": "Koduj i dekoduj encje HTML, aby zapobiec atakom XSS za pomocą naszego darmowego narzędzia online",
+        "h1": "Koder i dekoder HTML",
+        "subtitle": "Koduj i dekoduj encje HTML, aby zapobiec atakom XSS"
+    },
+    "editor": {
+        "mode_encode": "Koduj HTML",
+        "mode_decode": "Dekoduj HTML",
+        "label_input_encode": "Wprowadź HTML do zakodowania",
+        "ph_input_encode": "<div>Cześć & Witaj<\/div>",
+        "btn_encode": "Zakoduj HTML",
+        "btn_clear": "Wyczyść",
+        "btn_copy": "Kopiuj",
+        "label_output_encode": "Zakodowany HTML",
+        "ph_output": "Przetworzony HTML pojawi się tutaj...",
+        "label_input_decode": "Wprowadź HTML do zdekodowania",
+        "label_output_decode": "Zdekodowany HTML",
+        "btn_decode": "Dekoduj HTML"
+    },
+    "content": {
+        "hero_title": "Darmowy Enkoder i Dekoder HTML",
+        "hero_subtitle": "Koduj i dekoduj encje HTML, aby zapobiec atakom XSS",
+        "p1": "Nasze darmowe narzędzie Enkoder i Dekoder HTML pomaga kodować znaki specjalne w HTML w celu bezpiecznego wyświetlania na stronach internetowych lub dekodować zakodowany HTML z powrotem do jego oryginalnego formatu. Idealne dla programistów, specjalistów ds. bezpieczeństwa i każdego, kto pracuje z surowym kodem HTML.",
+        "what_title": "🔗 Co to jest kodowanie HTML?",
+        "what_desc": "Kodowanie HTML konwertuje znaki, które mają specjalne znaczenie w HTML (takie jak <, >, &, \") na odpowiadające im encje HTML (takie jak &lt;, &gt;, &amp;, &quot;). Zapobiega to interpretowaniu ich przez przeglądarkę jako tagów HTML, co jest kluczowe dla zapobiegania atakom Cross-Site Scripting (XSS).",
+        "features_title": "✨ Funkcje",
+        "features": {
+            "fast": {
+                "title": "Natychmiastowa konwersja",
+                "desc": "Koduj lub dekoduj HTML w milisekundach"
+            },
+            "bidirectional": {
+                "title": "Dwukierunkowość",
+                "desc": "Koduj znaki specjalne lub dekoduj encje z powrotem na tekst"
+            },
+            "privacy": {
+                "title": "Prywatność",
+                "desc": "Całe przetwarzanie odbywa się w przeglądarce"
+            },
+            "copy": {
+                "title": "Kopiowanie jednym kliknięciem",
+                "desc": "Kopiuj przetworzony HTML do schowka natychmiastowo"
+            },
+            "free": {
+                "title": "100% Darmowe",
+                "desc": "Bez limitów, bez konieczności rejestracji"
+            },
+            "safe": {
+                "title": "Skupione na bezpieczeństwie",
+                "desc": "Pomaga zapobiegać podatnościom XSS"
+            }
+        },
+        "uses_title": "🎯 Typowe przypadki użycia",
+        "uses": {
+            "security": {
+                "title": "🔒 Bezpieczeństwo",
+                "desc": "Sanityzuj dane wejściowe użytkownika, aby zapobiec atakom XSS, kodując znaki specjalne."
+            },
+            "display": {
+                "title": "💻 Wyświetlanie kodu",
+                "desc": "Wyświetlaj surowy kod HTML na stronie internetowej bez renderowania go przez przeglądarkę."
+            },
+            "data": {
+                "title": "📊 Przechowywanie danych",
+                "desc": "Przechowuj treści bezpiecznie w bazach danych, nie martwiąc się o problemy z parsowaniem HTML."
+            },
+            "email": {
+                "title": "📧 Szablony e-mail",
+                "desc": "Upewnij się, że znaki specjalne renderują się poprawnie w wiadomościach e-mail HTML."
+            }
+        },
+        "how_title": "📚 Jak używać",
+        "how_steps": {
+            "1": "Wklej swój HTML lub tekst w polu wejściowym",
+            "2": "Kliknij przycisk przetwarzania, aby przekonwertować",
+            "3": "Skopiuj wynik do schowka",
+            "4": "Skopiuj zakodowany\/dekodowany wynik i użyj go w swoich aplikacjach HTML, XML lub internetowych."
+        },
+        "examples_title": "💡 Przykłady kodowania HTML",
+        "examples": {
+            "1": {
+                "title": "Cudzysłów:",
+                "code": "\"Cześć\" → &quot;Cześć&quot;"
+            },
+            "2": {
+                "title": "Ampersand:",
+                "code": "Tom & Jerry → Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Kodowanie znaków specjalnych",
+                "code": "&lt;script&gt;alert(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&gt;"
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Dlaczego muszę kodować HTML?",
+            "a1": "Kodowanie jest niezbędne dla bezpieczeństwa, aby zapobiec wykonywaniu przez przeglądarkę złośliwych skryptów (XSS) i poprawnie wyświetlać fragmenty kodu.",
+            "q2": "Jakie znaki są kodowane?",
+            "a2": "Istotne znaki, takie jak <, >, &, \" i ' są zawsze kodowane. Rozszerzone znaki ASCII mogą być również kodowane.",
+            "q3": "Czy jest to odwracalne?",
+            "a3": "Tak, dekodowanie odwraca proces dokładnie, przywracając oryginalny tekst."
+        }
+    },
+    "js": {
+        "error_empty": "Wprowadź HTML do przetworzenia",
+        "success_encode": "✓ HTML zakodowany pomyślnie",
+        "success_decode": "✓ HTML zdekodowany pomyślnie",
+        "error_process": "✗ Błąd przetwarzania HTML: ",
+        "error_no_copy": "Brak danych wyjściowych do skopiowania",
+        "success_copy": "✓ Skopiowano do schowka"
+    }
+}

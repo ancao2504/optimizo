@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "SQL을 JSON으로 변환기 - 무료 온라인 데이터베이스 도구",
+        "description": "SQL과 JSON 간의 양방향 변환을 즉시 수행하세요. 데이터베이스와 앱 간의 가교 역할을 하는 무료 도구.",
+        "h1": "SQL-JSON 변환기",
+        "subtitle": "SQL 데이터와 JSON 객체 간의 원활한 상호 변환"
+    },
+    "editor": {
+        "btn_encode": "JSON → SQL 모드",
+        "btn_decode": "SQL → JSON 모드",
+        "label_table": "대상 테이블명",
+        "ph_table": "예: users",
+        "label_input_json": "JSON 입력",
+        "ph_input_json": "여기에 JSON 배열을 붙여넣으세요...",
+        "label_output_sql": "생성된 SQL 출력",
+        "ph_output_sql": "생성된 쿼리가 여기에 표시됩니다...",
+        "label_input_sql": "SQL 입력",
+        "label_output_json": "생성된 JSON 출력",
+        "btn_convert_sql": "SQL 생성하기",
+        "btn_convert_json": "JSON 생성하기",
+        "btn_clear": "초기화",
+        "btn_copy": "결과 복사"
+    },
+    "content": {
+        "hero_title": "혁신적인 SQL ↔ JSON 변환기",
+        "hero_subtitle": "현대 개발자를 위한 강력한 양방향 데이터 데이터 변환기",
+        "p1": "비즈니스 로직은 JSON으로 흐르지만, 데이터는 여전히 SQL 데이터베이스에 살고 있습니다. 당사의 솔루션은 이 두 세계를 연결하는 가장 지능적인 다리입니다. DB 덤프를 API용 JSON으로 바꾸거나, JSON 데이터를 DB에 밀어 넣기 위한 시드(Seed) 스크립트를 만드는 작업이 그 어느 때보다 쉬워집니다.",
+        "integration_title": "Seamless Integration",
+        "integration_desc": "Easily move data between your relational database and your web application. Our parser handles standard SQL INSERT statements and converts them into structured JSON objects, preserving data types and values.",
+        "features_title": "Key Features",
+        "features": {
+            "instant": {
+                "title": "Instant Results",
+                "desc": "Conversions happen in real-time as you click."
+            },
+            "bidirectional": {
+                "title": "양방향 지원",
+                "desc": "SQL에서 JSON으로, JSON에서 SQL로 언제든 자유롭게 모드를 전환할 수 있습니다."
+            },
+            "security": {
+                "title": "Secure Conversion",
+                "desc": "Processing is 100% client-side for maximum privacy."
+            },
+            "custom": {
+                "title": "Clean Formatting",
+                "desc": "Output is professionally formatted and ready to use."
+            },
+            "types": {
+                "title": "데이터 타입 보존",
+                "desc": "숫자, 문자열, Null 값을 정확히 구분하여 데이터 정밀도를 유지합니다."
+            },
+            "free": {
+                "title": "Totally Free",
+                "desc": "No subscription or usage limits."
+            }
+        },
+        "uses_title": "Common Use Cases",
+        "uses": {
+            "seeding": {
+                "title": "Database Seeding",
+                "desc": "Quickly generate SQL scripts to populate your dev environment."
+            },
+            "export": {
+                "title": "Data Exporting",
+                "desc": "Convert SQL query results into JSON for analysis."
+            },
+            "migration": {
+                "title": "API Migration",
+                "desc": "Prepare legacy database data for use in modern REST APIs."
+            },
+            "testing": {
+                "title": "Mock Data",
+                "desc": "Create JSON mock data from existing SQL tables."
+            },
+            "docs": {
+                "title": "Documentation",
+                "desc": "Include JSON examples of your database structure in docs."
+            },
+            "prototype": {
+                "title": "Rapid Prototyping",
+                "desc": "Move data quickly between states during development."
+            }
+        },
+        "how_title": "How to Use",
+        "how_steps": {
+            "1": {
+                "title": "Select Mode",
+                "desc": "Choose between JSON to SQL or SQL to JSON using the buttons."
+            },
+            "2": {
+                "title": "Input Data",
+                "desc": "Paste your source code into the left editor area."
+            },
+            "3": {
+                "title": "Set Table Name",
+                "desc": "If converting to SQL, specify the target database table."
+            },
+            "4": {
+                "title": "Generate",
+                "desc": "Click 'Generate' to see the transformation instantly."
+            },
+            "5": {
+                "title": "Copy Result",
+                "desc": "Use the 'Copy' button to grab your output."
+            }
+        },
+        "samples_title": "Conversion Samples",
+        "samples": [
+            {
+                "title": "SQL Insert to JSON",
+                "desc": "INSERT INTO users (name, age) VALUES ('Alice', 25); → [{\"name\": \"Alice\", \"age\": 25}]"
+            },
+            {
+                "title": "JSON to SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO table (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Frequently Asked Questions",
+        "faq": {
+            "q1": "What SQL statements are supported?",
+            "a1": "Currently, the tool supports standard INSERT INTO statements with defined column names.",
+            "q2": "Is my data safe?",
+            "a2": "Yes, we never send your data to our server. All logic runs in your browser.",
+            "q3": "Can I convert multiple rows?",
+            "a3": "Yes, the tool handles multi-line SQL or large JSON arrays efficiently.",
+            "q4": "Does it handle special characters?",
+            "a4": "Yes, it correctly escapes single quotes and handles basic special characters."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter some data to process",
+        "placeholder_table_name": "users",
+        "error_general": "Conversion error: ",
+        "error_invalid_array": "Error: Input must be a JSON array of objects.",
+        "error_empty_array": "Error: JSON array is empty.",
+        "success_sql": "✓ SQL generated successfully!",
+        "error_no_statements": "No valid SQL INSERT statements found.",
+        "success_json": "✓ JSON generated successfully!",
+        "error_no_copy": "No content to copy.",
+        "success_copy": "✓ Output copied to clipboard!"
+    }
+}

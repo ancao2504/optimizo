@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter online – bezplatný nástroj JSON Prettifier",
+        "description": "Formátujte, validujte a minifikujte své JSON data pomocí našeho bezplatného online nástroje.",
+        "h1": "Formát JSON",
+        "subtitle": "Formátujte, validujte a minifikujte své JSON data"
+    },
+    "editor": {
+        "title": "Formátujte svá JSON data",
+        "label_input": "Zadejte JSON data",
+        "ph_input": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}",
+        "help_text": "Vložte svá JSON data pro formátování, zkrášlení nebo minifikaci",
+        "btn_format": "Formátovat a zkrášlit",
+        "btn_minify": "Minifikovat JSON",
+        "label_results": "Formátovaný JSON",
+        "btn_copy": "Kopírovat JSON"
+    },
+    "content": {
+        "why_title": "Proč používat náš JSON formátovač?",
+        "why_desc": "JSON (JavaScript Object Notation) je nejoblíbenější formát pro výměnu dat používaný při vývoji webových stránek, v API a konfiguračních souborech. Náš bezplatný online JSON formátovač pomáhá vývojářům, datovým analytikům a IT profesionálům rychle formátovat, zkrášlovat, validovat a minifikovat JSON data. Ať už ladíte odpovědi API, čistíte konfigurační soubory nebo připravujete JSON pro produkci, náš nástroj poskytuje okamžité výsledky se zvýrazněním syntaxe a detekcí chyb. Ideální pro vývojáře pracující s REST API, NoSQL databázemi a moderními webovými aplikacemi.",
+        "features": {
+            "instant": {
+                "title": "Okamžité formátování",
+                "desc": "Formátujte a zkrášlujte JSON data v milisekundách se správným odsazením a zvýrazněním syntaxe."
+            },
+            "error": {
+                "title": "Detekce chyb",
+                "desc": "Automaticky detekujte a zvýrazněte chyby v syntaxi JSON s užitečnými chybovými zprávami."
+            },
+            "privacy": {
+                "title": "100% soukromí",
+                "desc": "Veškeré zpracování probíhá ve vašem prohlížeči – vaše JSON data nikdy neopustí váš počítač."
+            }
+        },
+        "how_title": "Jak formátovat JSON ve 3 snadných krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vyberte akci",
+                "desc": "Klikněte na „Formátovat a zkrášlit“ pro formátování nebo „Minifikovat“ pro komprimaci vašeho JSON."
+            },
+            "2": {
+                "title": "Kopírovat výsledek",
+                "desc": "Kliknutím na tlačítko kopírování zkopírujte formátovaný JSON do schránky."
+            },
+            "3": {
+                "title": "Formátovat nebo Minifikovat",
+                "desc": "Vyberte si, zda chcete svá data JSON zkrášlit (formát s odsazením) nebo minifikovat (komprimovat na jeden řádek) podle svých potřeb."
+            }
+        },
+        "uses_title": "Běžné příklady použití formátování JSON",
+        "uses": {
+            "api": {
+                "title": "Ladění odpovědí API",
+                "desc": "Formátujte nepřehledné odpovědi API pro snadné čtení a ladění JSON dat z REST API, GraphQL a webových služeb."
+            },
+            "config": {
+                "title": "Konfigurační soubory",
+                "desc": "Čistěte a validujte JSON konfigurační soubory pro aplikace, package.json, tsconfig.json a další."
+            },
+            "db": {
+                "title": "Databázová data",
+                "desc": "Formátujte JSON data z NoSQL databází jako MongoDB, CouchDB a Firebase pro lepší čitelnost."
+            },
+            "export": {
+                "title": "Export\/Import dat",
+                "desc": "Připravujte JSON data pro export nebo validujte importovaná JSON data pro zajištění správné struktury a syntaxe."
+            }
+        },
+        "tips_title": "Nejlepší postupy a tipy pro JSON",
+        "tips": {
+            "validate": {
+                "title": "✓ Vždy validujte JSON",
+                "desc": "Používejte JSON validátor k zachycení chyb v syntaxi před nasazením do produkce. Neplatný JSON může poškodit vaši aplikaci."
+            },
+            "indent": {
+                "title": "✓ Používejte správné odsazení",
+                "desc": "Formátujte JSON s odsazením 2 nebo 4 mezery pro lepší čitelnost během vývoje a ladění."
+            },
+            "minify": {
+                "title": "✓ Minifikujte pro produkci",
+                "desc": "Minifikujte JSON data před nasazením do produkce pro zmenšení velikosti souboru a zlepšení doby načítání."
+            },
+            "naming": {
+                "title": "✓ Používejte konzistentní pojmenování",
+                "desc": "Důsledně dodržujte konvence pojmenování camelCase nebo snake_case napříč celou strukturou JSON."
+            }
+        },
+        "faq_title": "❓ Často kladené otázky",
+        "faq": {
+            "q1": "Jsou moje JSON data v bezpečí?",
+            "a1": "Ano, absolutně. Náš JSON formátovač běží zcela ve vašem webovém prohlížeči pomocí JavaScriptu. Vaše data se nikdy neodesílá na naše servery ani se nikde neukládá.",
+            "q2": "Proč je minifikace JSON důležitá?",
+            "a2": "Minifikace odstraňuje nepotřebné mezery a konce řádků, čímž výrazně snižuje velikost souboru. To je zásadní pro zlepšení výkonu API a snížení využití šířky pásma v produkčním prostředí.",
+            "q3": "Mohu validovat neúplný JSON?",
+            "a3": "Nástroj vyžaduje platnou strukturu JSON pro formátování nebo minifikaci. Poskytuje však podrobné chybové zprávy, které vám pomohou najít a opravit problémy ve vašich JSON datech.",
+            "q4": "Podporuje velké JSON soubory?",
+            "a4": "Ano, nástroj je optimalizován pro efektivní zpracování velkých datových sad JSON, i když extrémně velké soubory mohou záviset na paměťových limitech vašeho prohlížeče."
+        }
+    },
+    "js": {
+        "error_empty_format": "Zadejte prosím JSON data k formátování",
+        "error_invalid": "Neplatný JSON: ",
+        "error_empty_minify": "Zadejte prosím JSON data k minifikaci",
+        "success_copy": "Zkopírováno!",
+        "error_copy": "Kopírování se nezdařilo. Zkopírujte prosím ručně."
+    }
+}

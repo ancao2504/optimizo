@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Port Checker Tool - Scaner de porturi deschise online gratuit",
+        "description": "Verifică dacă porturile TCP\/UDP sunt deschise, închise sau filtrate. Instrument esențial pentru securitatea rețelei și configurări server.",
+        "h1": "Instrumentul de verificare a portului",
+        "subtitle": "Verifică accesibilitatea porturilor pe orice server instantaneu"
+    },
+    "form": {
+        "host_label": "Gazdă sau Adresă IP",
+        "host_placeholder": "exemplu.ro sau 8.8.8.8",
+        "port_label": "Număr Port",
+        "port_placeholder": "80",
+        "button": "Verifică Port"
+    },
+    "results": {
+        "title": "Status Port pentru"
+    },
+    "content": {
+        "what_is_title": "Ce este un Port Checker?",
+        "what_is_desc": "Un Port Checker este un instrument de diagnosticare care determină dacă un port specific TCP sau UDP pe un server este deschis (acceptă conexiuni), închis (respinge conexiuni) sau filtrat (blocat de un firewall). Porturile sunt puncte finale virtuale, numerele de port (1-65535) fiind folosite pentru diferite servicii.",
+        "why_check_title": "De ce să verifici porturile?",
+        "why_check_desc": "Verificarea porturilor ajută administratorii să confirme că serviciile (web, mail, baze de date) sunt accesibile extern. Specialiștii în securitate scanează porturile pentru a identifica vulnerabilități, asigurându-se că doar porturile necesare sunt deschise.",
+        "common_ports_title": "Porturi Comune",
+        "port1": "<strong>Port 80:<\/strong> HTTP (trafic web necriptat)",
+        "port2": "<strong>Port 443:<\/strong> HTTPS (trafic web securizat)",
+        "port3": "<strong>Port 22:<\/strong> SSH (acces securizat la consolă)",
+        "port4": "<strong>Port 21:<\/strong> FTP (transfer de fișiere)",
+        "port5": "<strong>Port 25:<\/strong> SMTP (trimitere e-mail)",
+        "port6": "<strong>Port 3306:<\/strong> MySQL (bazat de date)",
+        "port7": "<strong>Port 3389:<\/strong> RDP (Desktop la distanță)",
+        "security_title": "Implicații de Securitate",
+        "security_desc": "Porturile deschise sunt porți de intrare pentru potențiali atacatori. Cea mai bună practică este să menții deschise doar porturile strict necesare. Folosește acest instrument pentru a audita periodic propria infrastructură."
+    },
+    "faq": {
+        "title": "Întrebări Frecvente Porturi",
+        "q1": "Ce înseamnă port deschis (Open)?",
+        "a1": "Înseamnă că o aplicație ascultă activ pe acel port și este gata să accepte conexiuni din exterior.",
+        "q2": "Ce înseamnă port filtrat (Filtered)?",
+        "a2": "Înseamnă că un firewall sau un router blochează accesul, iar instrumentul nu poate determina dacă portul este deschis sau închis.",
+        "q3": "Cum deschid un port?",
+        "a3": "Procesul se numește 'Port Forwarding' și se face din setările routerului sau ale firewall-ului de pe server.",
+        "q4": "Este periculos să am porturi deschise?",
+        "a4": "Depinde de serviciul care rulează pe acel port. Un port deschis pentru un serviciu neactualizat poate fi o breșă de securitate.",
+        "q5": "Pot scana orice IP?",
+        "a5": "Poți verifica orice IP, dar reține că scanarea porturilor pe sisteme pe care nu le deții poate fi interpretată ca o activitate ostilă."
+    },
+    "js": {
+        "checking": "Se verifică statusul portului...",
+        "success": "Verificare finalizată",
+        "error": "Nu s-a putut contacta gazda",
+        "check_port": "Verifică Port"
+    }
+}

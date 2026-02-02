@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "title": "RGB till HEX Color Converter - Gratis onlinedesignverktyg",
+        "description": "Konvertera färger mellan RGB- och HEX-format direkt med vårt gratis online-färgkonverteringsverktyg.",
+        "h1": "RGB till HEX färgomvandlare",
+        "subtitle": "Konvertera färger mellan RGB- och HEX-format direkt"
+    },
+    "editor": {
+        "rgb_to_hex": "RGB till HEX",
+        "label_red": "Röd (0-255)",
+        "label_green": "Grön (0-255)",
+        "label_blue": "Blå (0-255)",
+        "label_hex": "HEX Färg",
+        "hex_to_rgb": "HEX till RGB",
+        "label_hex_input": "HEX Färg",
+        "ph_hex": "#FF0000",
+        "label_rgb_output": "RGB Färg"
+    },
+    "content": {
+        "p1": "Konvertera färger mellan RGB- och HEX-format direkt med vårt gratis online-färgkonverteringsverktyg. Perfekt för webbdesigners, utvecklare, grafiska artister och alla som arbetar med digitala färger.",
+        "formats_title": "Förstå färgformat",
+        "formats": {
+            "rgb": {
+                "title": "RGB (Röd, Grön, Blå)",
+                "format": "Formatera",
+                "format_val": "rgb(röd, grön, blå)",
+                "range": "Intervall",
+                "range_val": "0-255 för varje kanal",
+                "used_in": "Används vanligtvis i",
+                "used_in_val": "Digitala skärmar, monitorer, TV"
+            },
+            "hex": {
+                "title": "HEX (hexadecimal)",
+                "format": "Formatera",
+                "format_val": "#RRGGBB",
+                "range": "Intervall",
+                "range_val": "00-FF för varje kanal (hex)",
+                "used_in": "Används vanligtvis i",
+                "used_in_val": "Webbdesign, CSS, HTML"
+            }
+        },
+        "why_title": "Varför konvertera mellan RGB och HEX?",
+        "why_list": [
+            {
+                "title": "Webbstandarder",
+                "desc": "HEX är det mest använda formatet i CSS för att definiera webbplatsfärger."
+            },
+            {
+                "title": "Universell matchning",
+                "desc": "Säkerställ konsekventa färger över olika designverktyg och plattformar."
+            },
+            {
+                "title": "Enkel användning",
+                "desc": "Få snabbt HEX-koder från RGB-värden för effektiv styling."
+            }
+        ],
+        "how_work_title": "Hur färgkonvertering fungerar",
+        "how_work_t1": "RGB till HEX",
+        "how_work_p1": "Varje färgkanal (R, G, B) konverteras från ett 0-255 decimalvärde till ett 00-FF hexadecimalt värde.",
+        "how_work_t2": "HEX till RGB",
+        "how_work_p2": "Hex-strängen delas upp i par och varje par konverteras tillbaka till ett 0-255 decimalvärde.",
+        "uses_title": "Vanliga användningsområden",
+        "uses": {
+            "web": {
+                "title": "Webbutveckling",
+                "desc": "Konvertera färger från designskisser (RGB) till CSS-färdiga HEX-koder för webbplatser"
+            },
+            "graphic": {
+                "title": "Grafisk design",
+                "desc": "Matcha färger mellan Adobe Photoshop (RGB) och webbdesignverktyg (HEX)"
+            },
+            "brand": {
+                "title": "Varumärkesriktlinjer",
+                "desc": "Dokumentera varumärkesfärger i både format för tryck (RGB) och webb (HEX)"
+            }
+        },
+        "practices_title": "Bästa praxis för färgformat",
+        "practices_list": [
+            "Använd HEX för kompakta CSS-filstorlekar.",
+            "Använd RGB (specifikt RGBA) när du behöver opacitet\/transparens.",
+            "Håll dig till ett format inom ett enda projekt för konsekvens."
+        ],
+        "pro_tip_title": "💡 Proffstips",
+        "pro_tip_desc": "HEX-förkortning: Färger som #FF0000 kan förkortas till #F00 när varje sifferpar är identiskt.",
+        "faq_title": "Vanliga frågor",
+        "faq": {
+            "q1": "Vad är skillnaden mellan RGB och HEX?",
+            "a1": "RGB använder decimaltal (0-255) för varje färgkanal, medan HEX använder hexadecimala tal (00-FF).",
+            "q2": "Kan jag använda RGB i CSS?",
+            "a2": "Ja! CSS stöder både rgb(255, 0, 0) och #FF0000.",
+            "q3": "Vad betyder symbolen # i HEX-koder?",
+            "a3": "Symbolen # indikerar att de följande tecknen är en hexadecimal färgkod.",
+            "q4": "Är 3-siffriga och 6-siffriga HEX-koder samma sak?",
+            "a4": "3-siffriga HEX-koder är förkortningar för 6-siffriga koder där varje siffra dubbleras."
+        }
+    },
+    "js": {
+        "invalid_hex": "Ogiltig HEX"
+    }
+}

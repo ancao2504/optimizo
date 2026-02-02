@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "title": "免费蛇形大小写转换器 - 在线字符串工具",
+        "description": "即时将文本转换为用于 Python 变量和数据库的 snake_case 格式。",
+        "h1": "蛇形格式转换器",
+        "subtitle": "将文本转换为用于 Python 和数据库的 snake_case"
+    },
+    "editor": {
+        "label_input": "输入文本",
+        "ph_input": "我的变量名",
+        "btn_convert": "转换为 snake_case",
+        "btn_clear": "清除",
+        "btn_copy": "复制",
+        "label_output": "输出 (snake_case)",
+        "ph_output": "我的变量名"
+    },
+    "content": {
+        "p1": "使用我们的免费在线转换器将您的文本转换为 snake_case 格式。Snake_case 使用小写字母并以底划线分隔单词，具有很高的可读性且对机器友好。",
+        "features_title": "功能特点",
+        "features": {
+            "python": {
+                "title": "Python 标准",
+                "desc": "生成遵循 PEP 8 样式指南的变量名。"
+            },
+            "instant": {
+                "title": "即时转换",
+                "desc": "在毫秒内转换为 snake_case。"
+            },
+            "privacy": {
+                "title": "隐私保护",
+                "desc": "所有处理均在您的浏览器中进行。"
+            },
+            "bulk": {
+                "title": "批量处理",
+                "desc": "一次转换多个名称。"
+            },
+            "smart": {
+                "title": "智能格式化",
+                "desc": "自动处理空格和特殊字符。"
+            },
+            "free": {
+                "title": "100% 免费",
+                "desc": "无需注册，无任何限制。"
+            }
+        },
+        "uses_title": "何时使用蛇形命名",
+        "uses": {
+            "python": {
+                "title": "Python 变量",
+                "desc": "这些语言中变量和函数的主要命名约定。"
+            },
+            "db": {
+                "title": "数据库列名",
+                "desc": "列名的标准格式（例如：created_at, user_id）。"
+            },
+            "config": {
+                "title": "配置文件",
+                "desc": "常用于大型配置和环境变量。"
+            },
+            "ruby": {
+                "title": "Ruby 开发",
+                "desc": "遵循 Ruby 的变量和方法命名约定。"
+            },
+            "data": {
+                "title": "📊 数据科学",
+                "desc": "格式化 pandas DataFrame 和 CSV 文件中的列名"
+            },
+            "api": {
+                "title": "🔧 API 参数",
+                "desc": "为 REST API 创建一致的参数名称"
+            }
+        },
+        "how_to_title": "如何使用",
+        "how_to_steps": [
+            {
+                "title": "粘贴文本",
+                "desc": "在输入框中粘贴您的文本。"
+            },
+            {
+                "title": "转换",
+                "desc": "转换器用底划线替换空格和连字符。"
+            },
+            {
+                "title": "小写化",
+                "desc": "它将所有字符转换为小写。"
+            },
+            {
+                "title": "清理",
+                "desc": "连续的底划线被缩减为一个。"
+            },
+            {
+                "title": "结果",
+                "desc": "生成的 snake_case 结果即可直接使用。"
+            }
+        ],
+        "examples_title": "转换示例",
+        "examples": {
+            "var": {
+                "title": "变量名："
+            },
+            "func": {
+                "title": "函数名："
+            },
+            "db": {
+                "title": "数据库列名："
+            },
+            "config": {
+                "title": "配置键："
+            }
+        },
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "什么是 snake_case？",
+            "a1": "Snake_case 是一种命名约定，其中单词为小写并由底划线分隔。例如：my_variable_name",
+            "q2": "我应该在什么时候使用 snake_case？",
+            "a2": "在 Python 变量和函数、数据库列名、配置键以及 Ruby 方法名中使用 snake_case。它是 Python (PEP 8) 的标准。",
+            "q3": "snake_case 与 kebab-case 有什么区别？",
+            "a3": "Snake_case 使用底划线 (my_variable)，而 kebab-case 使用连字符 (my-variable)。代码中使用 snake_case，URL 和 CSS 中使用 kebab-case。",
+            "q4": "它能处理数字吗？",
+            "a4": "是的！该工具能正确处理数字，在转换文本时保留数字（例如，“user 2 profile”变为“user_2_profile”）。",
+            "q5": "这个工具免费吗？",
+            "a5": "是的！完全免费且无限制。所有处理都在浏览器中进行，以确保隐私和速度。"
+        }
+    },
+    "js": {
+        "error_empty": "请输入要转换的文本",
+        "success_converted": "✓ 成功转换为 snake_case！",
+        "error_no_copy": "没有可复制的内容！请先转换文本。",
+        "success_copy": "✓ 已复制到剪贴板！"
+    }
+}

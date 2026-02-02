@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online - ilmainen verkkoanalyysityökalu",
+        "description": "Ilmainen online-traceroute. Seuraa datan reittiä verkossa ja paikallista viiveet.",
+        "h1": "Traceroute",
+        "subtitle": "Paras traceroute-työkalu kehittäjille ja ammattilaisille"
+    },
+    "form": {
+        "host_label": "Isäntänimi \/ IP",
+        "host_placeholder": "esimerkki.fi",
+        "button": "Traceroute",
+        "button_loading": "Jäljitetään..."
+    },
+    "results": {
+        "title": "Reitin tiedot"
+    },
+    "content": {
+        "what_is_title": "Mikä on Traceroute?",
+        "what_is_desc": "Seuraa tiedon siirtymistä laitteeltasi kohdepalvelimelle eri verkkojen läpi. Näe jokainen välietappi ja niiden viiveet.",
+        "why_use_title": "Miksi käyttää Traceroutea?",
+        "why_use_desc": "Traceroute näyttää polun, jonka tiedot kulkevat tietokoneeltasi kohdepalvelimeen, ja näyttää jokaisen hypyn (reitittimen) matkan varrella. Se on välttämätöntä verkon hidastumisen diagnosoinnissa, reititysongelmien tunnistamisessa ja verkon topologian ymmärtämisessä.",
+        "hops_title": "Humalan ymmärtäminen",
+        "hop1": "Hop 1: Paikallinen reititin\/yhdyskäytävä",
+        "hop2": "Hop 2-3: Internet-palveluntarjoajan verkko",
+        "hop3": "Hop 4-6: Alueellinen Internet-runkoverkko",
+        "hop4": "Hop 7-10: Kohteen ISP-verkko",
+        "hop5": "Hop 11+: kohdepalvelinverkko",
+        "hop6": "Jokainen hyppy lisää latenssia - vähemmän hyppyjä tarkoittaa yleensä nopeampaa yhteyttä",
+        "issues_title": "Yleisiä ongelmia",
+        "issues_desc": "Korkea latenssi tietyissä hyppyissä osoittaa ruuhkaa tai reititysongelmia. Tähdet (*) tarkoittavat, että reitittimet eivät vastaa traceroute-paketteihin (usein palomuurisääntöjen vuoksi). Pakettien katoaminen välihyppeillä ei välttämättä vaikuta lopulliseen määränpäähän, jos paketit saavuttavat sen onnistuneesti."
+    },
+    "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "q1": "Mikä on traceroute?",
+        "a1": "Traceroute on verkon diagnostiikkatyökalu, joka seuraa tietopakettien polkua tietokoneeltasi kohdepalvelimelle. Se näyttää jokaisen reitittimen (hyppelyn) reitin varrella ja mittaa kussakin vaiheessa kuluvan ajan, mikä auttaa tunnistamaan verkon viiveiden tai vikojen esiintymisen.",
+        "q2": "Miksi jotkin humalat näyttävät tähtiä (*)?",
+        "a2": "Tähdet osoittavat, että reititin ei vastannut traceroute-anturiin aikakatkaisujakson aikana. Tämä johtuu usein palomuurikokoonpanoista, jotka estävät ICMP-paketit turvallisuuden vuoksi. Se ei välttämättä tarkoita ongelmaa - paketit voivat silti saavuttaa määränpäähän.",
+        "q3": "Kuinka monta humalaa on normaalia?",
+        "a3": "Tyypilliset Internet-reitit ovat 10-20 hyppyä. Paikallisverkon kohteissa voi olla 1-5 hyppyä, kun taas kansainvälisillä reiteillä voi olla 20-30 hyppyä. Enemmän hyppyjä tarkoittaa yleensä pidempiä matkoja ja mahdollisesti suurempaa latenssia, mutta tehokas reititys on tärkeämpää kuin hyppyjen määrä."
+    }
+}

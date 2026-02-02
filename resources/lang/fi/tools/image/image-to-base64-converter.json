@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Image to Base64 Converter - ilmainen online-merkkijonotyökalu",
+        "description": "Muunna kuvat Base64-koodatuiksi merkkijonoiksi HTML- tai CSS-upotusta varten. Tukee PNG, JPG, GIF.",
+        "h1": "Muunna kuva Base64-merkkijonoksi",
+        "subtitle": "Muunna kuvat Base64-koodatuiksi merkkijonoiksi HTML- tai CSS-tiedostoihin"
+    },
+    "input": {
+        "title": "Lataa kuva",
+        "desc": "Raahaa ja pudota kuvatiedostosi tähän",
+        "drop_title": "Pudota kuva tähän",
+        "drop_desc": "Tukee kaikkia kuvamuotoja"
+    },
+    "editor": {
+        "image_alt": "Esikatselu",
+        "label_string": "Base64-koodi",
+        "btn_copy": "Kopioi leikepöydälle",
+        "char_count": "Merkkimäärä",
+        "mime_type": "MIME-tyyppi"
+    },
+    "content": {
+        "title": "Muunna kuva Base64-merkkijonoksi",
+        "p1": "Kehittäjien ja verkkosuunnittelijoiden on usein upotettava kuvat suoraan HTML- tai CSS-tiedostoihin HTTP-pyyntöjen vähentämiseksi.",
+        "p2": "<strong>Image to Base64 -muunnin<\/strong> koodaa kuvatiedostosi pitkäksi merkkijonoksi, joka edustaa binaaridataa. Voit liittää tämän merkkijonon suoraan koodiisi.",
+        "features": {
+            "clipboard": {
+                "title": "Leikepöytä valmis",
+                "desc": "Kopio yhdellä napsautuksella. Muotoilemme tulosteen HTML:lle (`&lt;img src=\"...\"&gt;`) tai CSS:lle (`background: url(...)`)."
+            },
+            "requests": {
+                "title": "Vähennä pyyntöjä",
+                "desc": "Pienten kuvakkeiden ja logojen upottaminen Base64:llä eliminoi ulkoisten kuvatiedostojen noutamisesta aiheutuvat verkkokulut."
+            },
+            "formats": {
+                "title": "Mikä tahansa muoto",
+                "desc": "Toimii PNG-, JPG-, GIF-, WEBP-, SVG- ja jopa ICO-tiedostojen kanssa."
+            }
+        },
+        "how_to": {
+            "title": "Kuinka käyttää?",
+            "list": [
+                "Valitse kuvatiedostosi.",
+                "Työkalu muuntaa tiedoston välittömästi Data URI:ksi.",
+                "Napsauta \"Kopioi leikepöydälle\" nappaaksesi koodi.",
+                "Lisää se src-attribuuttiisi tai CSS-tiedostoosi."
+            ]
+        },
+        "use_cases": {
+            "title": "Milloin Base64:ää käytetään?",
+            "list": [
+                "Pienet kuvat: Paras kuvakkeille, kehälevyille ja pienille logoille (alle 10 kt).",
+                "Yhden tiedoston sovellukset: Kun sinun on koottava kaikki yhdeksi HTML-tiedostoksi (esim. sähköpostimallit).",
+                "Offline-käyttö: Varmistaa kuvien lataamisen myös ilman verkkoyhteyttä, jos HTML-koodi tallennetaan paikallisesti."
+            ]
+        }
+    },
+    "js": {
+        "copied": "Kopioitu!"
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "title": "URL 编码器和解码器 - 免费在线百分比工具",
+        "description": "使用我们免费的在线工具，对 URL 进行编码和解码，以实现安全的网络传输。",
+        "h1": "URL编码器和解码器",
+        "subtitle": "对 URL 进行编码和解码，以实现安全的网络传输"
+    },
+    "editor": {
+        "btn_encode": "编码 URL",
+        "btn_decode": "解码 URL",
+        "label_input_encode": "输入要编码的 URL",
+        "ph_input": "https:\/\/example.com\/search?name=张三&age=30",
+        "btn_process_encode": "执行编码",
+        "btn_clear": "清空",
+        "btn_copy": "复制",
+        "label_output_encoded": "编码后的 URL",
+        "ph_output": "处理后的结果将显示在此处...",
+        "label_input_decode": "输入要解码的 URL",
+        "label_output_decoded": "解码后的 URL",
+        "btn_process_decode": "执行解码"
+    },
+    "content": {
+        "p1": "我们的免费 URL 编码解码工具可帮助您对 URL 中的特殊字符进行编码，以便在互联网上安全传输，或将编码后的 URL 解码回其原始格式。它是开发人员、SEO 专业人士 and any 处理网页链接人员的理想选择。100% 免费，客户端处理确保您的数据私密。",
+        "what_title": "什么是 URL 编码？",
+        "what_desc": "URL 编码（也称为百分号编码）将 URL 中的特殊字符转换为可以安全传输的格式。空格变为 %20，特殊字符如 & 变为 %26，以此类推。这确保了 URL 在所有浏览器和系统中都能正确工作。",
+        "features_title": "功能特性",
+        "features": {
+            "instant": {
+                "title": "即时转换",
+                "desc": "在毫秒内完成 URL 编码或解码"
+            },
+            "bidirectional": {
+                "title": "双向转换",
+                "desc": "编码为 URL 格式或解码回原始链接"
+            },
+            "privacy": {
+                "title": "隐私至上",
+                "desc": "所有处理均在您的浏览器中完成"
+            },
+            "copy": {
+                "title": "一键复制",
+                "desc": "即时复制编码\/解码后的链接"
+            },
+            "free": {
+                "title": "100% 免费",
+                "desc": "无限制，无需注册"
+            },
+            "universal": {
+                "title": "通用支持",
+                "desc": "支持所有 URL 格式和字符"
+            }
+        },
+        "uses_title": "常见使用场景",
+        "uses": {
+            "query": {
+                "title": "查询参数",
+                "desc": "为 API 调用和 Web 请求编码 URL 查询字符串中的特殊字符。"
+            },
+            "analytics": {
+                "title": "分析追踪",
+                "desc": "为营销活动编码 UTM 参数和追踪链接。"
+            },
+            "auth": {
+                "title": "身份验证",
+                "desc": "在 OAuth 和 API 认证中编码凭据和令牌。"
+            },
+            "i18n": {
+                "title": "国际化",
+                "desc": "为全球兼容性编码 URL 中的非 ASCII 字符。"
+            },
+            "seo": {
+                "title": "SEO 与重定向",
+                "desc": "创建经过正确编码的重定向 URL 和规范链接。"
+            },
+            "email": {
+                "title": "邮件链接",
+                "desc": "编码带有主题行和正文内容的 mailto 链接。"
+            }
+        },
+        "how_to_title": "如何使用",
+        "how_to": {
+            "step1": {
+                "title": "选择模式",
+                "desc": "根据需求选择“编码 URL”或“解码 URL”。"
+            },
+            "step2": {
+                "title": "输入内容",
+                "desc": "在输入框中粘贴您的 URL 或文本。"
+            },
+            "step3": {
+                "title": "点击处理",
+                "desc": "点击相应的编码或解码按钮。"
+            },
+            "step4": {
+                "title": "复制结果",
+                "desc": "点击“复制”将处理后的结果存入剪贴板。"
+            },
+            "step5": {
+                "title": "随处使用",
+                "desc": "将结果粘贴到您的应用程序中。"
+            }
+        },
+        "examples_title": "URL 编码示例",
+        "examples": {
+            "space": {
+                "title": "空格字符：",
+                "desc": "原始: \"Hello World\" → 编码: \"Hello%20World\""
+            },
+            "special": {
+                "title": "特殊字符：",
+                "desc": "原始: \"name=John&age=30\" → 编码: \"name%3DJohn%26age%3D30\""
+            },
+            "full": {
+                "title": "完整 URL：",
+                "desc": "原始: \"https:\/\/example.com\/search?q=hello world\" → 编码: \"https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world\""
+            }
+        },
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "我应该在什么时候进行 URL 编码？",
+            "a1": "当将链接作为查询参数传递、存储在数据库中，或者链接包含空格、&、=、? 或非 ASCII 字符等特殊字符时，请进行 URL 编码。",
+            "q2": "哪些字符需要编码？",
+            "a2": "保留字符如 : \/ ? # [ ] @ ! $ & ' ( ) * + , ; = 以及不安全字符如空格、<、>、\"、{、}、|、\\、^、` 和非 ASCII 字符必须进行编码。",
+            "q3": "URL 编码与 Base64 相同吗？",
+            "a3": "不。URL 编码将特定字符转换为 %XX 格式，而 Base64 将整个数据编码为不同的字符集。它们用途不同。",
+            "q4": "我可以对整个 URL 进行编码吗？",
+            "a4": "可以，但通常您只需编码查询字符串部分。对包含协议 (https:\/\/) 在内的整个 URL 进行编码并不常见，且可能导致问题。",
+            "q5": "我的数据安全吗？",
+            "a5": "是的！所有编码和解码均完全在您的浏览器中使用 JavaScript 完成。您的 URL 永远不会离开您的设备或被发送到任何服务器。"
+        }
+    },
+    "js": {
+        "error_empty": "请先输入要处理的 URL",
+        "success_encode": "✓ URL 编码成功",
+        "success_decode": "✓ URL 解码成功",
+        "error_process": "✗ 处理 URL 时出错：",
+        "error_no_copy": "没有可复制的结果",
+        "success_copy": "✓ 已成功复制到剪贴板"
+    }
+}

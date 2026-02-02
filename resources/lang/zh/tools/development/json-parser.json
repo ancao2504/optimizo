@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "JSON 解析器和验证器 - 免费在线语法检查",
+        "description": "解析、验证并可视化 JSON 结构",
+        "h1": "JSON 解析器和验证器",
+        "subtitle": "解析、验证并可视化 JSON 结构"
+    },
+    "editor": {
+        "label_input": "JSON 输入",
+        "ph_input": "{\"name\": \"张三\", \"age\": 30, \"isActive\": true}",
+        "btn_parse": "解析 JSON",
+        "btn_beautify": "美化",
+        "btn_minify": "压缩",
+        "btn_clear": "清空",
+        "btn_load": "加载示例",
+        "title_tree": "JSON 树状视图"
+    },
+    "content": {
+        "hero_title": "免费 JSON 解析与验证工具",
+        "hero_subtitle": "即时解析、验证、美化和压缩 JSON 数据",
+        "p1": "我们的免费 JSON 解析器是一款功能强大的在线工具，专为开发人员、数据分析师和所有处理 JSON 数据的人员打造。通过简洁直观的界面，即时解析、验证、美化和压缩 JSON。非常适合调试 API、格式化配置文件或验证 JSON 结构。100% 免费，客户端处理确保您的数据私密且安全。",
+        "what_title": "📋 什么是 JSON？",
+        "what_desc": "JSON（JavaScript 对象符号）是一种轻量级的数据交换格式，易于人类阅读和编写，也易于机器解析和生成。它是 API、配置文件和数据存储中最流行的格式。JSON 使用键值对，并支持字符串、数字、布尔值、数组和嵌套对象。",
+        "features_title": "✨ 功能特性",
+        "features": {
+            "validate": {
+                "title": "JSON 验证",
+                "desc": "即时验证 JSON 语法和结构"
+            },
+            "beautify": {
+                "title": "美化 JSON",
+                "desc": "通过合理的缩进和间距格式化 JSON"
+            },
+            "minify": {
+                "title": "压缩 JSON",
+                "desc": "通过移除空格来压缩 JSON 数据"
+            },
+            "tree": {
+                "title": "树状视图",
+                "desc": "以树状格式可视化 JSON 的层次结构"
+            },
+            "privacy": {
+                "title": "隐私至上",
+                "desc": "所有处理过程均在您的浏览器中完成"
+            },
+            "instant": {
+                "title": "即时结果",
+                "desc": "在几毫秒内解析并格式化 JSON"
+            }
+        },
+        "uses_title": "🎯 常见使用场景",
+        "uses": {
+            "api": {
+                "title": "🔌 API 开发",
+                "desc": "测试和调试 API 响应，验证请求内容，并格式化 JSON 数据"
+            },
+            "config": {
+                "title": "⚙️ 配置文件",
+                "desc": "为应用程序、数据库和服务格式化并验证配置文件"
+            },
+            "analysis": {
+                "title": "📊 数据分析",
+                "desc": "解析并可视化来自数据库、日志和分析工具的 JSON 数据"
+            },
+            "debug": {
+                "title": "🐛 调试",
+                "desc": "识别语法错误、验证结构并排查 JSON 相关问题"
+            },
+            "docs": {
+                "title": "📝 技术文档",
+                "desc": "为 API 文档和技术指南创建易读的 JSON 示例"
+            },
+            "migration": {
+                "title": "🔄 数据迁移",
+                "desc": "在数据导入和导出过程中转换并验证 JSON"
+            }
+        },
+        "how_title": "📚 如何使用",
+        "how_steps": [
+            "<strong>粘贴 JSON：<\/strong> 将您的 JSON 数据复制并粘贴到输入框中",
+            "<strong>解析：<\/strong> 点击“解析 JSON”以验证并可视化其结构",
+            "<strong>美化：<\/strong> 点击“美化”以进行缩进格式化",
+            "<strong>压缩：<\/strong> 点击“压缩”以移除空格并压缩体积",
+            "<strong>查看树：<\/strong> 在树状视图中查看其层次结构"
+        ],
+        "tips_title": "💡 JSON 最佳实践",
+        "tips_list": [
+            "<strong>使用双引号：<\/strong> JSON 要求字符串使用双引号，而不是单引号",
+            "<strong>禁止尾部逗号：<\/strong> 移除对象和数组中最后一个项目后的逗号",
+            "<strong>正确的数据类型：<\/strong> 数字不加引号，布尔值为 true\/false，空值用 null",
+            "<strong>定期验证：<\/strong> 在部署或投入生产之前，请务必验证 JSON",
+            "<strong>美化提高可读性：<\/strong> 为方便调试和维护，请务必进行格式化"
+        ],
+        "faq_title": "❓ 常见问题解答",
+        "faq": {
+            "q1": "美化和压缩有什么区别？",
+            "a1": "美化通过添加缩进和换行符使 JSON 易于阅读。压缩则移除所有空格以减小文件体积，非常适合生产环境。",
+            "q2": "我的 JSON 数据安全吗？",
+            "a2": "是的！所有 JSON 解析和格式化均在您的浏览器中完成。您的数据永远不会离开您的设备，也不会发送到任何服务器。",
+            "q3": "我可以解析超大 JSON 文件吗？",
+            "a3": "是的，我们的解析器可以处理大型 JSON 文件。但超大文件（>10MB）的解析速度可能取决于您设备的性能。",
+            "q4": "解析器能检测哪些错误？",
+            "a4": "解析器能检测引号缺失、尾部逗号、无效字符、未闭合的括号以及错误的数据类型等语法错误，并提示错误确切位置。",
+            "q5": "我可以将其用于 API 测试吗？",
+            "a5": "当然可以！此工具非常适合测试 API 响应、验证请求载荷以及格式化 API 调用返回的 JSON 数据。"
+        }
+    },
+    "js": {
+        "error_empty_parse": "请输入要解析的 JSON 数据",
+        "success_valid": "✓ 有效的 JSON！解析成功",
+        "error_invalid": "✗ 无效的 JSON：",
+        "error_empty_beautify": "请输入要美化的 JSON 数据",
+        "success_beautify": "✓ JSON 美化成功",
+        "error_beautify": "✗ 无法美化无效的 JSON：",
+        "error_empty_minify": "请输入要压缩的 JSON 数据",
+        "success_minify": "✓ JSON 压缩成功",
+        "error_minify": "✗ 无法压缩无效的 JSON：",
+        "success_load": "示例 JSON 已加载"
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "title": "URL-encoder en -decoder - Gratis online procenttool",
+        "description": "Codeer en decodeer URL's voor veilige weboverdracht met onze gratis online tool.",
+        "h1": "URL-encoder en -decoder",
+        "subtitle": "Codeer en decodeer URL's voor veilige weboverdracht"
+    },
+    "editor": {
+        "btn_encode": "URL Coderen",
+        "btn_decode": "URL Decoderen",
+        "label_input_encode": "In te voeren URL om te coderen",
+        "ph_input": "https:\/\/example.com\/search?name=John Doe&age=30",
+        "btn_process_encode": "URL Coderen",
+        "btn_clear": "Wissen",
+        "btn_copy": "Kopiëren",
+        "label_output_encoded": "Gecodeerde URL",
+        "ph_output": "Verwerkte URL verschijnt hier...",
+        "label_input_decode": "In te voeren URL om te decoderen",
+        "label_output_decoded": "Gedecodeerde URL",
+        "btn_process_decode": "URL Decoderen"
+    },
+    "content": {
+        "p1": "Onze gratis URL Encoder & Decoder tool helpt u speciale tekens in URL's te coderen voor veilige overdracht via het internet, of gecodeerde URL's terug te decoderen naar hun oorspronkelijke formaat. Perfect voor ontwikkelaars, SEO-professionals en iedereen die met web-URL's werkt. 100% gratis, verwerking aan de clientzijde zorgt ervoor dat uw gegevens privé blijven.",
+        "what_title": "Wat is URL-codering?",
+        "what_desc": "URL-codering (ook wel percent-encoding genoemd) zet speciale tekens in URL's om in een formaat dat via het internet kan worden verzonden. Spaties worden %20, speciale tekens zoals & worden %26, enzovoort. Dit zorgt ervoor dat URL's correct werken in alle browsers en systemen.",
+        "features_title": "Kenmerken",
+        "features": {
+            "instant": {
+                "title": "Directe conversie",
+                "desc": "Codeer of decodeer URL's in milliseconden"
+            },
+            "bidirectional": {
+                "title": "Bidirectioneel",
+                "desc": "Codeer naar URL-formaat of decodeer terug naar origineel"
+            },
+            "privacy": {
+                "title": "Privacy eerst",
+                "desc": "Alle verwerking gebeurt in uw browser"
+            },
+            "copy": {
+                "title": "Kopiëren met één klik",
+                "desc": "Kopieer gecodeerde\/gedecodeerde URL's onmiddellijk"
+            },
+            "free": {
+                "title": "100% gratis",
+                "desc": "Geen limieten, geen registratie vereist"
+            },
+            "universal": {
+                "title": "Universele ondersteuning",
+                "desc": "Werkt met alle URL-formaten en tekens"
+            }
+        },
+        "uses_title": "Veelvoorkomende gebruiksvoorbeelden",
+        "uses": {
+            "query": {
+                "title": "Queryparameters",
+                "desc": "Codeer speciale tekens in URL-querystrings voor API-aanroepen en webverzoeken"
+            },
+            "analytics": {
+                "title": "Analytics-tracking",
+                "desc": "Codeer UTM-parameters en tracking-URL's voor marketingcampagnes"
+            },
+            "auth": {
+                "title": "Authenticatie",
+                "desc": "Codeer inloggegevens en tokens in OAuth en API-authenticatie"
+            },
+            "i18n": {
+                "title": "Internationalisering",
+                "desc": "Codeer niet-ASCII-tekens in URL's voor wereldwijde compatibiliteit"
+            },
+            "seo": {
+                "title": "SEO en omleidingen",
+                "desc": "Maak correct gecodeerde redirect-URL's en canonieke links"
+            },
+            "email": {
+                "title": "E-maillinks",
+                "desc": "Codeer mailto-links met onderwerpregels en tekstinhoud"
+            }
+        },
+        "how_to_title": "Hoe te gebruiken",
+        "how_to": {
+            "step1": {
+                "title": "Kies modus",
+                "desc": "Selecteer \"URL Coderen\" of \"URL Decoderen\" op basis van uw behoefte"
+            },
+            "step2": {
+                "title": "URL invoeren",
+                "desc": "Plak uw URL of tekst in het invoerveld"
+            },
+            "step3": {
+                "title": "Verwerken",
+                "desc": "Klik op de knop \"URL Coderen\" of \"URL Decoderen\""
+            },
+            "step4": {
+                "title": "Resultaat kopiëren",
+                "desc": "Klik op \"Kopiëren\" om de verwerkte URL naar het klembord te kopiëren"
+            },
+            "step5": {
+                "title": "Overal gebruiken",
+                "desc": "Plak de gecodeerde\/gedecodeerde URL in uw applicatie"
+            }
+        },
+        "examples_title": "URL-coderingsvoorbeelden",
+        "examples": {
+            "space": {
+                "title": "Spatie-teken:",
+                "desc": "Origineel: \"Hello World\" → Gecodeerd: \"Hello%20World\""
+            },
+            "special": {
+                "title": "Speciale tekens:",
+                "desc": "Origineel: \"name=John&age=30\" → Gecodeerd: \"name%3DJohn%26age%3D30\""
+            },
+            "full": {
+                "title": "Volledige URL:",
+                "desc": "Origineel: \"https:\/\/example.com\/search?q=hello world\" → Gecodeerd: \"https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world\""
+            }
+        },
+        "faq_title": "Veelgestelde vragen",
+        "faq": {
+            "q1": "Wanneer moet ik URL's coderen?",
+            "a1": "Codeer URL's wanneer u ze doorgeeft als queryparameters, ze opslaat in databases, of wanneer ze speciale tekens bevatten zoals spaties, &, =, ?, of niet-ASCII-tekens.",
+            "q2": "Welke tekens moeten worden gecodeerd?",
+            "a2": "Gereserveerde tekens zoals : \/ ? # [ ] @ ! $ & ' ( ) * + , ; = en onveilige tekens zoals spaties, <, >, \", {, }, |, \\, ^, `, en niet-ASCII-tekens moeten worden gecodeerd.",
+            "q3": "Is URL-codering hetzelfde als Base64?",
+            "a3": "Nee. URL-codering zet specifieke tekens om naar %XX-formaat, terwijl Base64 gegevens volledig codeert naar een andere tekenset. Ze dienen verschillende doelen.",
+            "q4": "Kan ik volledige URL's coderen?",
+            "a4": "Ja, maar meestal codeert u alleen het querygedeelte. Het coderen van de gehele URL inclusief protocol (https:\/\/) is minder gebruikelijk en kan problemen veroorzaken.",
+            "q5": "Zijn mijn gegevens veilig?",
+            "a5": "Ja! Alle codering en decodering vindt volledig plaats in uw browser met behulp van JavaScript. Uw URL's verlaten nooit uw apparaat en worden niet naar een server verzonden."
+        }
+    },
+    "js": {
+        "error_empty": "Voer een URL in om te verwerken",
+        "success_encode": "✓ URL succesvol gecodeerd",
+        "success_decode": "✓ URL succesvol gedecodeerd",
+        "error_process": "✗ Fout bij verwerken URL: ",
+        "error_no_copy": "Geen uitvoer om te kopiëren",
+        "success_copy": "✓ Gekopieerd naar klembord"
+    }
+}

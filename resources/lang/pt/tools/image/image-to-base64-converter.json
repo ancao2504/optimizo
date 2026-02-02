@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Conversor de imagem para Base64 - ferramenta de string online gratuita",
+        "description": "Converta imagens em strings codificadas em Base64 para incorporação em HTML ou CSS. Ferramenta online gratuita suportando PNG, JPG, GIF.",
+        "h1": "Converter imagem em string Base64",
+        "subtitle": "Converta imagens em strings codificadas em Base64 para incorporação em HTML ou CSS"
+    },
+    "input": {
+        "title": "Carregar Imagem",
+        "desc": "Arraste e solte seu arquivo de imagem aqui",
+        "drop_title": "Solte o arquivo de imagem aqui",
+        "drop_desc": "Suporta Todos os Formatos de Imagem"
+    },
+    "editor": {
+        "image_alt": "Prévia",
+        "label_string": "String Base64",
+        "btn_copy": "Copiar para Área de Transferência",
+        "char_count": "Contagem de Caracteres",
+        "mime_type": "Tipo MIME"
+    },
+    "content": {
+        "title": "Converter Imagem em String Base64",
+        "p1": "Desenvolvedores e web designers muitas vezes precisam incorporar imagens diretamente em arquivos HTML ou CSS para reduzir as solicitações HTTP.",
+        "p2": "Nosso <strong>Conversor de Imagem para Base64<\/strong> codifica seu arquivo de imagem em uma longa sequência de caracteres que representa os dados binários. Você pode colar essa string diretamente no seu código.",
+        "features": {
+            "clipboard": {
+                "title": "Pronto para Área de Transferência",
+                "desc": "Cópia com um clique. Formatamos a saída para HTML (`&lt;img src=\"...\"&gt;`) ou CSS (`background: url(...)`)."
+            },
+            "requests": {
+                "title": "Reduzir Solicitações",
+                "desc": "Incorporar pequenos ícones e logotipos como Base64 elimina a sobrecarga de rede de buscar arquivos de imagem externos."
+            },
+            "formats": {
+                "title": "Qualquer Formato",
+                "desc": "Funciona com arquivos PNG, JPG, GIF, WEBP, SVG e até mesmo ICO."
+            }
+        },
+        "how_to": {
+            "title": "Como usar?",
+            "list": [
+                "Selecione seu arquivo de imagem.",
+                "A ferramenta converte imediatamente o arquivo em um Data URI.",
+                "Clique em \"Copiar para Área de Transferência\" para pegar o código.",
+                "Insira-o no seu atributo `src` ou arquivo CSS."
+            ]
+        },
+        "use_cases": {
+            "title": "Quando usar Base64?",
+            "list": [
+                "Imagens Pequenas: Melhor para ícones, spinners e logotipos pequenos (abaixo de 10KB).",
+                "Apps de Arquivo Único: Quando você precisa agrupar tudo em um arquivo HTML (ex: templates de e-mail).",
+                "Acesso Offline: Garante que as imagens carreguem mesmo sem uma conexão de rede se o HTML for salvo localmente."
+            ]
+        }
+    },
+    "js": {
+        "copied": "Copiado!"
+    }
+}

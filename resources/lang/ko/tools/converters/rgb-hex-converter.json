@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "title": "RGB-HEX 색상 변환기 - 무료 온라인 디자인 도구",
+        "description": "색상 값을 RGB에서 HEX로, HEX에서 RGB로 즉시 변환하세요. 웹 디자인 및 CSS를 위한 완벽한 도구입니다.",
+        "h1": "RGB-HEX 색상 변환기",
+        "subtitle": "웹 디자인과 프론트엔드 개발을 위한 최고의 색상 도구."
+    },
+    "editor": {
+        "rgb_to_hex": "RGB to HEX",
+        "label_red": "Red (0-255)",
+        "label_green": "Green (0-255)",
+        "label_blue": "Blue (0-255)",
+        "label_hex": "HEX 코드",
+        "hex_to_rgb": "HEX to RGB",
+        "label_hex_input": "HEX Color",
+        "ph_hex": "#000000",
+        "label_rgb_output": "RGB Color"
+    },
+    "content": {
+        "p1": "웹 프로젝트에서 색상을 처리하는 방식은 매우 다양합니다. 저희 RGB ↔ HEX 변환기는 디자인 툴에서 얻은 RGB 값(0-255)을 CSS에 필요한 HEX 코드(#FFFFFF)로, 또는 그 반대로 즉시 변경해 줍니다. 실시간 미리보기 기능을 통해 선택한 색상이 실제 화면에서 어떻게 보이는지 바로 확인할 수 있습니다.",
+        "formats_title": "Understanding Color Formats",
+        "formats": {
+            "rgb": {
+                "title": "RGB (Red, Green, Blue)",
+                "format": "Format",
+                "format_val": "rgb(red, green, blue)",
+                "range": "Range",
+                "range_val": "0-255 for each channel",
+                "used_in": "Commonly Used In",
+                "used_in_val": "Digital screens, monitors, TV"
+            },
+            "hex": {
+                "title": "HEX (Hexadecimal)",
+                "format": "Format",
+                "format_val": "#RRGGBB",
+                "range": "Range",
+                "range_val": "00-FF for each channel (hex)",
+                "used_in": "Commonly Used In",
+                "used_in_val": "Web design, CSS, HTML"
+            }
+        },
+        "why_title": "Why Convert Between RGB and HEX?",
+        "why_list": [
+            {
+                "title": "Web Standards",
+                "desc": "HEX is the most used format in CSS for defining website colors."
+            },
+            {
+                "title": "Universal Matching",
+                "desc": "Ensure consistent colors across different design tools and platforms."
+            },
+            {
+                "title": "Ease of Use",
+                "desc": "Quickly get HEX codes from RGB values for efficient styling."
+            }
+        ],
+        "how_work_title": "How Color Conversion Works",
+        "how_work_t1": "RGB to HEX",
+        "how_work_p1": "Each color channel (R, G, B) is converted from a 0-255 decimal to a 00-FF hexadecimal value.",
+        "how_work_t2": "HEX to RGB",
+        "how_work_p2": "The hex string is split into pairs and each pair is converted back to a 0-255 decimal value.",
+        "uses_title": "실제 디자인 활용",
+        "uses": {
+            "web": {
+                "title": "Web Development",
+                "desc": "Convert design mockup colors (RGB) to CSS-ready HEX codes for websites"
+            },
+            "graphic": {
+                "title": "Graphic Design",
+                "desc": "Match colors between Adobe Photoshop (RGB) and web design tools (HEX)"
+            },
+            "brand": {
+                "title": "브랜드 가이드",
+                "desc": "회사의 로고와 브랜드 색상을 디지털 플랫폼 전반에 일관되게 적용합니다."
+            }
+        },
+        "practices_title": "Color Format Best Practices",
+        "practices_list": [
+            "Use HEX for compact CSS file sizes.",
+            "Use RGB (specifically RGBA) when you need opacity\/transparency.",
+            "Stick to one format within a single project for consistency."
+        ],
+        "pro_tip_title": "💡 Pro Tip",
+        "pro_tip_desc": "HEX shorthand: Colors like #FF0000 can be shortened to #F00 when each pair of digits is identical.",
+        "faq_title": "자주 묻는 질문",
+        "faq": {
+            "q1": "3자리 HEX 코드도 지원하나요?",
+            "a1": "네, #FFF와 같은 단축 코드를 입력하면 자동으로 #FFFFFF로 확장하여 인식합니다.",
+            "q2": "RGB 값의 범위는 왜 255까지인가요?",
+            "a2": "디지털 색상은 각 채널당 8비트(2의 8승 = 256단계)를 사용하여 0부터 255까지의 값을 가지기 때문입니다.",
+            "q3": "HTML5 칼라 피커와 연동되나요?",
+            "a3": "향후 업데이트에서 슬라이더 및 칼라 피커 기능을 통합할 예정입니다.",
+            "q4": "투명도(Alpha)도 포함되나요?",
+            "a4": "현재 도구는 표준 RGB 및 HEX에 집중하고 있으며, RGBA 지원은 다음 단계에서 추가될 예정입니다."
+        }
+    },
+    "js": {
+        "invalid_hex": "Invalid HEX"
+    }
+}

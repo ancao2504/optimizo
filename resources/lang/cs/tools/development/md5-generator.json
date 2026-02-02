@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "MD5 Hash Generator – bezplatný online bezpečnostní nástroj",
+        "description": "Generujte MD5 haše z libovolného textu okamžitě",
+        "h1": "Generátor hash MD5",
+        "subtitle": "Generujte MD5 haše z libovolného textu okamžitě"
+    },
+    "editor": {
+        "label_input": "Zadejte text",
+        "ph_input": "Zadejte text pro hašování...",
+        "btn_generate": "Generovat MD5 haš",
+        "label_result": "MD5 haš",
+        "btn_copy": "Kopírovat"
+    },
+    "content": {
+        "hero_title": "MD5 generátor haše",
+        "hero_subtitle": "Generujte MD5 haše z libovolného textu okamžitě",
+        "p1": "Generujte MD5 haše z libovolného textu, hesla nebo datového řetězce okamžitě pomocí našeho bezplatného online generátoru MD5 hašů. MD5 (Message-Digest Algorithm 5) je široce používaná kryptografická hašovací funkce, která produkuje 128bitovou (32místnou hexadecimální) hodnotu haše. Ideální pro ověřování integrity dat, generování kontrolních součtů a pochopení hašovacích funkcí. Veškeré zpracování probíhá ve vašem prohlížeči pro zajištění naprostého soukromí.",
+        "what_title": "🔐 Co je MD5?",
+        "what_desc": "MD5 je kryptografická hašovací funkce, která přijímá vstup libovolné délky a produkuje fixní 128bitovou hodnotu haše, obvykle reprezentovanou jako 32místné hexadecimální číslo. Stejný vstup vždy produkuje stejný haš, ale i sebemenší změna na vstupu vytvoří zcela odlišný haš.",
+        "features_title": "✅ Výhody MD5",
+        "features": {
+            "fast": "<strong>Rychlé zpracování:<\/strong> Extrémně rychlé generování haše",
+            "fixed": "<strong>Fixní délka:<\/strong> Vždy produkuje 128bitový výstup",
+            "deterministic": "<strong>Deterministické:<\/strong> Stejný vstup = stejný haš",
+            "support": "<strong>Široká podpora:<\/strong> Dostupné ve všech programovacích jazycích"
+        },
+        "uses_title": "📊 Běžné příklady použití",
+        "uses": {
+            "verify": "<strong>Ověřování souborů:<\/strong> Kontrola integrity souborů",
+            "checksum": "<strong>Kontrolní součty:<\/strong> Ověřování stažených souborů",
+            "cache": "<strong>Klíče mezipaměti:<\/strong> Generování unikátních identifikátorů",
+            "integrity": "<strong>Integrita dat:<\/strong> Detekce změn"
+        },
+        "warning_title": "⚠️ Bezpečnostní varování",
+        "warning_desc": "<strong>NEPOUŽÍVEJTE MD5 pro hašování hesel nebo aplikace kritické z hlediska bezpečnosti!<\/strong> MD5 je kryptograficky prolomený a zranitelný vůči kolizním útokům. Pro hašování hesel používejte moderní algoritmy jako bcrypt, Argon2 nebo PBKDF2.",
+        "compare_title": "🔄 MD5 vs. ostatní hašovací funkce",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128bitový výstup",
+                "desc2": "Rychlý, ale nebezpečný pro kryptografii"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160bitový výstup",
+                "desc2": "Také zastaralý pro bezpečnostní použití"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256bitový výstup",
+                "desc2": "Bezpečný a dnes široce používaný"
+            }
+        },
+        "faq_title": "❓ Často kladené otázky",
+        "faq": {
+            "q1": "Je MD5 bezpečný pro hesla?",
+            "a1": "Ne! MD5 je kryptograficky prolomený a nikdy by neměl být používán pro hašování hesel. Místo toho použijte bcrypt, Argon2 nebo PBKDF2.",
+            "q2": "Mohu zvrátit MD5 haš?",
+            "a2": "Ne, MD5 je jednosměrná funkce – nemůžete zvrátit haš a získat původní vstup. Útočníci však mohou použít duhové tabulky (rainbow tables) k nalezení vstupů.",
+            "q3": "Jsou moje data odesílána na server?",
+            "a3": "Ne! Veškeré generování MD5 hašů probíhá zcela ve vašem prohlížeči pomocí JavaScriptu. Vaše data nikdy neopustí vaše zařízení."
+        }
+    },
+    "js": {
+        "error_empty": "Zadejte prosím nějaký text",
+        "btn_copied": "Zkopírováno!"
+    }
+}

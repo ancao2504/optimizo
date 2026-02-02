@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "title": "RGB-HEX-värinmuunnin - ilmainen online-suunnittelutyökalu",
+        "description": "Muunna värit RGB-muodosta heksadesimaaliksi ja päinvastoin heti. Ilmainen työkalu suunnittelijoille ja kehittäjille.",
+        "h1": "RGB-HEX-värinmuunnin",
+        "subtitle": "Luo täydelliset värikoodit CSS-tyylitiedostoihisi."
+    },
+    "editor": {
+        "rgb_to_hex": "RGB - HEX",
+        "label_red": "Punainen (0-255)",
+        "label_green": "Vihreä (0-255)",
+        "label_blue": "Sininen (0-255)",
+        "label_hex": "Heksakoodi",
+        "hex_to_rgb": "HEX - RGB",
+        "label_hex_input": "HEX väri",
+        "ph_hex": "#000000",
+        "label_rgb_output": "RGB väri"
+    },
+    "content": {
+        "p1": "RGB-heksamuuntimemme on välttämätön apuväline jokaiselle graafiselle suunnittelijalle ja web-kehittäjälle. RGB (Red, Green, Blue) perustuu valon lisäämiseen, kun taas heksadesimaalikoodi on tapa ilmaista nämä samat arvot tiiviissä muodossa CSS- ja HTML-koodissa.",
+        "formats_title": "Värimuotojen ymmärtäminen",
+        "formats": {
+            "rgb": {
+                "title": "RGB (punainen, vihreä, sininen)",
+                "format": "Muoto",
+                "format_val": "rgb (punainen, vihreä, sininen)",
+                "range": "Alue",
+                "range_val": "0-255 kullekin kanavalle",
+                "used_in": "Yleisesti käytössä",
+                "used_in_val": "Digitaaliset näytöt, näytöt, TV"
+            },
+            "hex": {
+                "title": "HEX (heksadesimaali)",
+                "format": "Muoto",
+                "format_val": "#RRGBBB",
+                "range": "Alue",
+                "range_val": "00-FF jokaiselle kanavalle (heksa)",
+                "used_in": "Yleisesti käytössä",
+                "used_in_val": "Verkkosuunnittelu, CSS, HTML"
+            }
+        },
+        "why_title": "Miksi muuntaa RGB:n ja HEX:n välillä?",
+        "why_list": [
+            {
+                "title": "Web Standards",
+                "desc": "HEX is the most used format in CSS for defining website colors."
+            },
+            {
+                "title": "Universal Matching",
+                "desc": "Ensure consistent colors across different design tools and platforms."
+            },
+            {
+                "title": "Ease of Use",
+                "desc": "Quickly get HEX codes from RGB values for efficient styling."
+            }
+        ],
+        "how_work_title": "Miten värin muuntaminen toimii",
+        "how_work_t1": "RGB - HEX",
+        "how_work_p1": "Jokainen värikanava (R, G, B) muunnetaan 0-255 desimaalista 00-FF heksadesimaaliarvoksi.",
+        "how_work_t2": "HEX - RGB",
+        "how_work_p2": "Heksamerkkijono jaetaan pareiksi ja jokainen pari muunnetaan takaisin 0-255 desimaaliarvoon.",
+        "uses_title": "Yleiset käyttötapaukset",
+        "uses": {
+            "web": {
+                "title": "Web-kehitys",
+                "desc": "Määritä elementtien värit tyylitiedostoissa helposti."
+            },
+            "graphic": {
+                "title": "Graafinen suunnittelu",
+                "desc": "Yhdistä värit Adobe Photoshopin (RGB) ja verkkosuunnittelutyökalujen (HEX) välillä"
+            },
+            "brand": {
+                "title": "Tuotemerkkiohjeet",
+                "desc": "Asiakirjojen merkkivärit molemmissa muodoissa tulostukseen (RGB) ja verkkoon (HEX)"
+            }
+        },
+        "practices_title": "Värimuotojen parhaat käytännöt",
+        "practices_list": [
+            "Käytä HEX-muotoa pienikokoisille CSS-tiedostoille.",
+            "Käytä RGB:tä (erityisesti RGBA:ta), kun tarvitset peittävyyttä\/läpinäkyvyyttä.",
+            "Pysy yhdessä projektissa yhteen muotoon johdonmukaisuuden vuoksi."
+        ],
+        "pro_tip_title": "💡 Provinkki",
+        "pro_tip_desc": "HEX-lyhenne: Värit, kuten #FF0000, voidaan lyhentää arvoon #F00, kun jokainen numeropari on identtinen.",
+        "faq_title": "Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mitä # etuliite tarkoittaa heksakoodissa?",
+            "a1": "Se on standardi merkki, joka kertoo selaimelle ja ohjelmistolle, että seuraavat merkit ovat heksadesimaalivärikoodi.",
+            "q2": "Montako väriä RGB tukee?",
+            "a2": "Se tukee yli 16,7 miljoonaa eri väriyhdistelmää (256^3).",
+            "q3": "Voiko heksakoodi olla 3-merkkinen?",
+            "a3": "Kyllä, esim. #F00 on lyhennys koodille #FF0000 (punainen).",
+            "q4": "Ovatko 3- ja 6-numeroiset HEX-koodit samat?",
+            "a4": "3-numeroiset HEX-koodit ovat lyhennettyjä 6-numeroisia koodeja, joissa jokainen numero kaksinkertaistetaan."
+        }
+    },
+    "js": {
+        "invalid_hex": "Virheellinen HEX"
+    }
+}

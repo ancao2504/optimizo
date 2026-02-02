@@ -1,0 +1,129 @@
+{
+    "meta": {
+        "title": "Online Pascal Case Converter - ilmainen koodaustyökalu",
+        "description": "Muunna teksti PascalCase-muotoon luokkien ja tyyppien nimeämistä varten ilmaisella verkkotyökalullamme.",
+        "h1": "Pascal Case Converter",
+        "subtitle": "Muunna teksti PascalCase-muotoon luokkien ja tyyppien nimeämistä varten"
+    },
+    "editor": {
+        "label_input": "Syötä teksti",
+        "ph_input": "hei maailma esimerkki",
+        "btn_convert": "Muunna PascalCaseksi",
+        "btn_clear": "Tyhjennä",
+        "btn_copy": "Kopioi",
+        "label_output": "Tulos (PascalCase)",
+        "ph_output": "HeiMaailmaEsimerkki"
+    },
+    "content": {
+        "hero_title": "PascalCase-muunnin",
+        "hero_subtitle": "Lopullinen työkalu luokkien, komponenttien ja rajapintojen nimeämiseen.",
+        "p1": "Muunna tekstisi PascalCase-muotoon ilmaisella verkkomuuntimellamme. PascalCase (tunnetaan myös nimellä UpperCamelCase) on nimeämiskäytäntö, jossa jokaisen sanan ensimmäinen kirjain on iso, mukaan lukien ensimmäinen sana. Se on standardi luokkien nimeämisessä lähes kaikissa moderneissa ohjelmointikielissä.",
+        "features_title": "Ominaisuudet",
+        "features": {
+            "oop": {
+                "title": "OO-ystävällinen",
+                "desc": "Luodut nimet ovat 100 % C#-, Java- ja Python-luokan nimeämissääntöjen mukaisia."
+            },
+            "instant": {
+                "title": "Välitön tulos",
+                "desc": "Saat nimeämiskäytännön mukaisen tekstin heti."
+            },
+            "privacy": {
+                "title": "Yksityisyys ensin",
+                "desc": "Kaikki käsittely tapahtuu paikallisesti selaimessasi"
+            },
+            "batch": {
+                "title": "Erämuunnos",
+                "desc": "Muunna useita luokan nimiä kerralla."
+            },
+            "smart": {
+                "title": "Älykäs erotin",
+                "desc": "Tunnistaa ja yhdistää sanat automaattisesti välilyöntien tai muiden merkkien perusteella."
+            },
+            "free": {
+                "title": "100 % maksuton",
+                "desc": "Vapaasti käytettävä työkalu koko kehittäjäyhteisölle."
+            }
+        },
+        "uses_title": "Milloin käyttää PascalCasea",
+        "uses": {
+            "class": {
+                "title": "🏗️ Luokkien nimet",
+                "desc": "Luo oikein muotoiltuja luokkanimiä Javalle, C#:lle, C++:lle ja muille OOP-kielille"
+            },
+            "react": {
+                "title": "React-komponentit",
+                "desc": "React-komponentit on nimettävä PascalCasella (esim. <KirjautumisLomake \/>)."
+            },
+            "ts": {
+                "title": "📘 TypeScript-tyypit",
+                "desc": "Muotoile käyttöliittymä ja kirjoita nimet TypeScript-projekteissa"
+            },
+            "css": {
+                "title": "CSS-moduulit",
+                "desc": "Luo komponenttiluokkanimiä CSS-in-JS- ja CSS-moduuleille."
+            },
+            "api": {
+                "title": "API-mallit",
+                "desc": "Muotoile tietomallin ja entiteettien nimet taustakehityksessä."
+            },
+            "pkg": {
+                "title": "Pakettien nimet",
+                "desc": "Luo nimiavaruus ja pakettien nimet käytäntöjen mukaisesti."
+            }
+        },
+        "how_title": "Toimintaperiaate",
+        "how_steps": {
+            "1": {
+                "title": "Napsauta Muunna",
+                "desc": "Paina \"Muunna PascalCase-muotoon\"."
+            },
+            "2": {
+                "title": "Tarkista tulos",
+                "desc": "Tarkista PascalCasen tulos."
+            },
+            "3": {
+                "title": "Kopioi tulos",
+                "desc": "Napsauta \"Kopioi\" -painiketta."
+            },
+            "4": {
+                "title": "Käytä koodissa",
+                "desc": "Liitä projektiisi."
+            },
+            "5": {
+                "title": "Käytä koodissa:",
+                "desc": "Liitä projektiisi"
+            }
+        },
+        "examples_title": "Esimerkkejä",
+        "samples": [
+            {
+                "title": "Class Name",
+                "desc": "user profile controller → UserProfileController"
+            },
+            {
+                "title": "Interface",
+                "desc": "api response type → ApiResponseType"
+            }
+        ],
+        "faq_title": "Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mikä on PascalCase?",
+            "a1": "Nimeämistyyli, jossa sanat yhdistetään ilman välilyöntejä ja jokainen sana alkaa isolla kirjaimella.",
+            "q2": "Miten se eroaa camelCasesta?",
+            "a2": "PascalCasessa myös ensimmäinen sana alkaa isolla, camelCasessa se alkaa pienellä.",
+            "q3": "Onko se sama kuin UpperCamelCase?",
+            "a3": "Kyllä, PascalCase on synonyymi UpperCamelCaselle.",
+            "q4": "Miksi sitä kutsutaan PascalCaseksi?",
+            "a4": "Nimi tulee Pascal-ohjelmointikielestä, jossa tämä tyyli tuli ensin tunnetuksi.",
+            "q5": "Voiko siinä käyttää numeroita?",
+            "a5": "Kyllä, numerot säilyvät koodinimissä (esim. Sivu1Malli)."
+        }
+    },
+    "js": {
+        "error_empty": "Syötä tekstiä muunnettavaksi",
+        "success_convert": "✓ Muunnettu PascalCaseksi onnistuneesti!",
+        "error_copy": "Ei mitään kopioitavaa! Muunna ensin tekstiä.",
+        "success_copy": "✓ Kopioitu leikepöydälle!"
+    }
+}

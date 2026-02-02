@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "SQL to JSON Converter - ilmainen online-tietokantatyökalu",
+        "description": "[Pending Translation] Transform SQL INSERT statements into JSON arrays instantly with our free online tool. Fast, accurate, and secure.",
+        "h1": "SQL to JSON Converter",
+        "subtitle": "[Pending Translation] Easily convert between SQL data and JSON objects"
+    },
+    "editor": {
+        "btn_encode": "[Pending Translation] JSON to SQL Mode",
+        "btn_decode": "[Pending Translation] SQL to JSON Mode",
+        "label_table": "[Pending Translation] Table Name",
+        "ph_table": "[Pending Translation] Enter table name (e.g., users)",
+        "label_input_json": "[Pending Translation] JSON Input",
+        "ph_input_json": "[Pending Translation] Paste your JSON array here...",
+        "label_output_sql": "[Pending Translation] SQL Output",
+        "ph_output_sql": "[Pending Translation] Generated SQL will appear here...",
+        "label_input_sql": "[Pending Translation] SQL Input",
+        "label_output_json": "[Pending Translation] JSON Output",
+        "btn_convert_sql": "[Pending Translation] Generate SQL",
+        "btn_convert_json": "[Pending Translation] Generate JSON",
+        "btn_clear": "[Pending Translation] Clear",
+        "btn_copy": "[Pending Translation] Copy Output"
+    },
+    "content": {
+        "hero_title": "[Pending Translation] SQL to JSON Converter",
+        "hero_subtitle": "[Pending Translation] Bidirectional conversion for modern developers",
+        "p1": "[Pending Translation] Modern applications thrive on JSON, but databases still speak SQL. Our bidirectional converter bridges this gap effortlessly. Whether you need to turn database exports into JSON for your API, or JSON data into SQL seeding scripts, this tool provides a fast, secure, and accurate solution.",
+        "integration_title": "[Pending Translation] Seamless Integration",
+        "integration_desc": "[Pending Translation] Easily move data between your relational database and your web application. Our parser handles standard SQL INSERT statements and converts them into structured JSON objects, preserving data types and values.",
+        "features_title": "[Pending Translation] Key Features",
+        "features": {
+            "instant": {
+                "title": "[Pending Translation] Instant Results",
+                "desc": "[Pending Translation] Conversions happen in real-time as you click."
+            },
+            "bidirectional": {
+                "title": "[Pending Translation] Dual Mode",
+                "desc": "[Pending Translation] Switch between SQL-to-JSON and JSON-to-SQL modes."
+            },
+            "security": {
+                "title": "[Pending Translation] Secure Conversion",
+                "desc": "[Pending Translation] Processing is 100% client-side for maximum privacy."
+            },
+            "custom": {
+                "title": "[Pending Translation] Clean Formatting",
+                "desc": "[Pending Translation] Output is professionally formatted and ready to use."
+            },
+            "types": {
+                "title": "[Pending Translation] Type Awareness",
+                "desc": "[Pending Translation] Correctly handles nulls, numbers, and strings."
+            },
+            "free": {
+                "title": "[Pending Translation] Totally Free",
+                "desc": "[Pending Translation] No subscription or usage limits."
+            }
+        },
+        "uses_title": "[Pending Translation] Common Use Cases",
+        "uses": {
+            "seeding": {
+                "title": "[Pending Translation] Database Seeding",
+                "desc": "[Pending Translation] Quickly generate SQL scripts to populate your dev environment."
+            },
+            "export": {
+                "title": "[Pending Translation] Data Exporting",
+                "desc": "[Pending Translation] Convert SQL query results into JSON for analysis."
+            },
+            "migration": {
+                "title": "[Pending Translation] API Migration",
+                "desc": "[Pending Translation] Prepare legacy database data for use in modern REST APIs."
+            },
+            "testing": {
+                "title": "[Pending Translation] Mock Data",
+                "desc": "[Pending Translation] Create JSON mock data from existing SQL tables."
+            },
+            "docs": {
+                "title": "[Pending Translation] Documentation",
+                "desc": "[Pending Translation] Include JSON examples of your database structure in docs."
+            },
+            "prototype": {
+                "title": "[Pending Translation] Rapid Prototyping",
+                "desc": "[Pending Translation] Move data quickly between states during development."
+            }
+        },
+        "how_title": "[Pending Translation] How to Use",
+        "how_steps": {
+            "1": {
+                "title": "[Pending Translation] Select Mode",
+                "desc": "[Pending Translation] Choose between JSON to SQL or SQL to JSON using the buttons."
+            },
+            "2": {
+                "title": "[Pending Translation] Input Data",
+                "desc": "[Pending Translation] Paste your source code into the left editor area."
+            },
+            "3": {
+                "title": "[Pending Translation] Set Table Name",
+                "desc": "[Pending Translation] If converting to SQL, specify the target database table."
+            },
+            "4": {
+                "title": "[Pending Translation] Generate",
+                "desc": "[Pending Translation] Click 'Generate' to see the transformation instantly."
+            },
+            "5": {
+                "title": "[Pending Translation] Copy Result",
+                "desc": "[Pending Translation] Use the 'Copy' button to grab your output."
+            }
+        },
+        "samples_title": "[Pending Translation] Conversion Samples",
+        "samples": [
+            {
+                "title": "SQL Insert to JSON",
+                "desc": "INSERT INTO users (name, age) VALUES ('Alice', 25); → [{\"name\": \"Alice\", \"age\": 25}]"
+            },
+            {
+                "title": "JSON to SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO table (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "[Pending Translation] Frequently Asked Questions",
+        "faq": {
+            "q1": "[Pending Translation] What SQL statements are supported?",
+            "a1": "[Pending Translation] Currently, the tool supports standard INSERT INTO statements with defined column names.",
+            "q2": "[Pending Translation] Is my data safe?",
+            "a2": "[Pending Translation] Yes, we never send your data to our server. All logic runs in your browser.",
+            "q3": "[Pending Translation] Can I convert multiple rows?",
+            "a3": "[Pending Translation] Yes, the tool handles multi-line SQL or large JSON arrays efficiently.",
+            "q4": "[Pending Translation] Does it handle special characters?",
+            "a4": "[Pending Translation] Yes, it correctly escapes single quotes and handles basic special characters."
+        }
+    },
+    "js": {
+        "error_empty": "[Pending Translation] Please enter some data to process",
+        "placeholder_table_name": "[Pending Translation] users",
+        "error_general": "[Pending Translation] Conversion error: ",
+        "error_invalid_array": "[Pending Translation] Error: Input must be a JSON array of objects.",
+        "error_empty_array": "[Pending Translation] Error: JSON array is empty.",
+        "success_sql": "[Pending Translation] ✓ SQL generated successfully!",
+        "error_no_statements": "[Pending Translation] No valid SQL INSERT statements found.",
+        "success_json": "[Pending Translation] ✓ JSON generated successfully!",
+        "error_no_copy": "[Pending Translation] No content to copy.",
+        "success_copy": "[Pending Translation] ✓ Output copied to clipboard!"
+    }
+}

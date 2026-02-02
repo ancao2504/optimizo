@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Prueba de Ping en línea - Verificar latencia del servidor y tiempo de respuesta",
+        "description": "Herramienta gratuita de prueba de ping en línea. Verifique la latencia и el tiempo de respuesta de cualquier servidor o sitio web. Herramienta esencial de red.",
+        "h1": "Prueba de Ping en línea",
+        "subtitle": "Mida la latencia de la red y el tiempo de respuesta de cualquier destino al instante"
+    },
+    "form": {
+        "host_label": "Nombre de host o IP",
+        "host_placeholder": "ejemplo.com o 8.8.8.8",
+        "button": "Ejecutar Ping"
+    },
+    "results": {
+        "title": "Resultados de la prueba de Ping"
+    },
+    "content": {
+        "what_is_title": "¿Qué es la prueba de Ping?",
+        "what_is_desc": "Ping es una utilidad de administración de red informática utilizada para probar la capacidad de alcance de un host en una red de Protocolo de Internet (IP). Funciona enviando paquetes de solicitud de eco del Protocolo de Mensajes de Control de Internet (ICMP) al host de destino и esperando una respuesta de eco de ICMP. El tiempo que tardan los paquetes en viajar desde el origen al destino и de regreso se mide и se conoce como latencia o tiempo de ida и vuelta (RTT).",
+        "why_use_title": "¿Por qué usar nuestra prueba de Ping?",
+        "why_use_desc": "Nuestra herramienta de prueba de ping en línea le permite verificar el estado и la latencia de cualquier servidor o sitio web desde múltiples ubicaciones globales. Es invaluable para diagnosticar problemas de red, verificar el tiempo de actividad del servidor, probar el rendimiento de los juegos и asegurarse de que su sitio web sea accesible para los usuarios en todo el mundo. La baja latencia es crucial para aplicaciones en tiempo real como juegos en línea, transmisión de video и VoIP.",
+        "metrics_title": "Understanding Ping Metrics",
+        "metric1": "<strong>Packets Sent\/Received:<\/strong> Number of ping requests and successful responses",
+        "metric2": "<strong>Packet Loss:<\/strong> Percentage of packets that didn't receive a response",
+        "metric3": "<strong>Minimum Time:<\/strong> Fastest round-trip time recorded",
+        "metric4": "<strong>Average Time:<\/strong> Mean latency across all pings",
+        "metric5": "<strong>Maximum Time:<\/strong> Slowest round-trip time recorded",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Number of network hops before packet expires",
+        "interpreting_title": "Interpretación de los resultados",
+        "interpreting_desc": "Good ping times are typically under 50ms for local connections and under 100ms for international connections. Times between 100-200ms are acceptable for most applications but may cause noticeable lag in real-time applications like gaming or video conferencing. Anything above 200ms indicates potential network issues. Packet loss above 1% suggests network problems that need investigation. Consistent ping times indicate stable connections, while highly variable times suggest network congestion or routing issues."
+    },
+    "faq": {
+        "title": "Preguntas frecuentes sobre Ping",
+        "q1": "¿Qué es un 'buen' tiempo de ping?",
+        "a1": "Un 'buen' ping suele estar por debajo de 50ms para juegos. Para navegación web general, cualquier valor por debajo de 100ms se considera aceptable.",
+        "q2": "¿Por qué mi ping es alto?",
+        "a2": "El ping alto puede ser causado por la distancia física al servidor, la congestión de la red o problemas con su ISP.",
+        "q3": "¿Qué significa la pérdida de paquetes?",
+        "a3": "La pérdida de paquetes ocurre cuando los datos no llegan a su destino, a menudo debido a una mala calidad de conexión o hardware de red defectuoso.",
+        "q4": "¿Por qué algunos servidores no responden al ping?",
+        "a4": "Algunos servidores bloquean las solicitudes ICMP (ping) por razones de seguridad para evitar ataques o escaneos de red.",
+        "q5": "¿Es el ping lo mismo que la velocidad de banda ancha?",
+        "a5": "No, el ping mide la latencia (reacción), mientras que la velocidad de banda ancha (Mbps) mide la capacidad (cuántos datos a la vez)."
+    },
+    "js": {
+        "pinging": "Haciendo ping...",
+        "success": "¡Éxito!",
+        "error": "Ocurrió un error al hacer ping al host.",
+        "ping_host": "Ping Host"
+    }
+}

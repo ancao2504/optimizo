@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Broken Links Checker - Free Online Website Audit",
+        "description": "Free broken link checker to scan your website for dead links, 404 errors, and fix broken URLs for better SEO.",
+        "h1": "Broken Links Checker",
+        "subtitle": "Find and fix broken links on your website for better SEO & UX"
+    },
+    "interface": {
+        "scan_title": "Broken Links Checker",
+        "scan_subtitle": "Find broken links, redirects, and more.",
+        "url_label": "Website URL",
+        "button": "Scan for Broken Links",
+        "button_scanning": "Scanning...",
+        "legend_ok": "200 OK",
+        "legend_err": "404\/Err"
+    },
+    "progress": {
+        "extracting": "Extracting Links...",
+        "stop": "Stop",
+        "processing": "Processing links sequentially...",
+        "processed": "Processed",
+        "of": "of",
+        "links": "links",
+        "checking": "Checking Links..."
+    },
+    "stats": {
+        "total": "Total Links",
+        "working": "Working (200)",
+        "redirects": "Redirects (3xx)",
+        "broken": "Broken (4xx\/5xx)"
+    },
+    "results": {
+        "download": "Download CSV Report",
+        "detailed_analysis": "Detailed Analysis",
+        "status": "Status",
+        "link_url": "Link URL",
+        "anchor_text": "Anchor Text",
+        "type": "Type"
+    },
+    "content": {
+        "main_title": "Why Check for Broken Links?",
+        "main_subtitle": "Broken links damage your website's credibility, user experience, and SEO performance. Our free broken link checker helps you identify and fix dead links before they hurt your rankings.",
+        "what_is_title": "What is a Broken Link Checker?",
+        "what_is_desc": "A broken link checker is a tool that scans your web pages to find links that no longer work (404 errors, server errors, or redirects). It helps you maintain a healthy website by identifying dead links that can harm your SEO and user experience.",
+        "how_works_title": "How Does It Work?",
+        "how_works_intro": "Our broken link checker follows a simple 3-step process:",
+        "how_works_step1": "<strong>Scan:<\/strong> Enter your page URL and we'll extract all links",
+        "how_works_step2": "<strong>Check:<\/strong> We test each link to verify its status (200, 404, 301, etc.)",
+        "how_works_step3": "<strong>Report:<\/strong> Get a detailed report showing which links are broken and need fixing",
+        "pro_tip_title": "💡 Pro Tip:",
+        "pro_tip_desc": "Run this checker regularly (monthly or quarterly) to catch broken links before they impact your SEO. Set up a maintenance schedule to keep your website healthy!",
+        "types_title": "Types of Broken Links",
+        "common_causes_title": "Common Causes of Broken Links",
+        "cc_1": "❌ <strong>Typos in URLs:<\/strong> Misspelled links during content creation or migration",
+        "cc_2": "❌ <strong>Deleted pages:<\/strong> Content removed without setting up 301 redirects",
+        "cc_3": "❌ <strong>Website restructuring:<\/strong> URL structure changes during redesigns",
+        "cc_4": "❌ <strong>External link rot:<\/strong> Third-party websites removing or moving their content",
+        "cc_5": "❌ <strong>Domain expiration:<\/strong> Linked websites going offline permanently",
+        "cc_6": "❌ <strong>Protocol changes:<\/strong> HTTP to HTTPS migrations without proper redirects",
+        "best_practices_title": "Best Practices for Managing Broken Links"
+    },
+    "benefits": {
+        "ux_title": "User Experience",
+        "ux_desc": "Broken links frustrate visitors and increase bounce rates. Keep your users happy with a smooth browsing experience.",
+        "seo_title": "SEO Impact",
+        "seo_desc": "Search engines penalize sites with many broken links. Maintain your rankings by fixing dead links promptly.",
+        "maintenance_title": "Easy Maintenance",
+        "maintenance_desc": "Quickly identify and fix broken links before they damage your site's reputation and search visibility."
+    },
+    "link_types": {
+        "type1_title": "🔴 404 Not Found",
+        "type1_desc": "The most common broken link. The page no longer exists on the server.",
+        "type2_title": "🟡 301\/302 Redirects",
+        "type2_desc": "The page has moved. While not \"broken\", too many redirects slow down your site.",
+        "type3_title": "🔴 500 Server Errors",
+        "type3_desc": "The server encountered an error. These need immediate attention.",
+        "type4_title": "🟢 Timeout Errors",
+        "type4_desc": "The server took too long to respond. May indicate performance issues."
+    },
+    "best_practices": {
+        "bp1_title": "Regular Audits",
+        "bp1_desc": "Check your site monthly for broken links, especially after content updates",
+        "bp2_title": "Use 301 Redirects",
+        "bp2_desc": "When moving or deleting pages, always set up proper redirects",
+        "bp3_title": "Monitor External Links",
+        "bp3_desc": "External sites change frequently. Review outbound links quarterly",
+        "bp4_title": "Document Changes",
+        "bp4_desc": "Keep a log of URL changes and redirects for future reference",
+        "bp5_title": "Fix Internal Links First",
+        "bp5_desc": "Prioritize fixing internal broken links as they're fully under your control",
+        "bp6_title": "Use Relative URLs",
+        "bp6_desc": "For internal links, use relative URLs to avoid issues during domain changes"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": "How often should I check for broken links?",
+        "a1": "For most websites, checking for broken links monthly is sufficient. High-traffic sites or e-commerce platforms should check weekly. After major website updates, redesigns, or migrations, run an immediate check.",
+        "q2": "Do broken links hurt my SEO rankings?",
+        "a2": "Yes, but indirectly. Google has stated that a few broken links won't directly harm rankings. However, <strong>many broken links<\/strong> signal poor site maintenance, which can increase bounce rates, waste crawl budget, and reduce user trust.",
+        "q3": "What's the difference between internal and external broken links?",
+        "a3": "<strong>Internal broken links<\/strong> point to pages on your own domain and are fully under your control. <strong>External broken links<\/strong> point to other websites. You should update them to working alternatives or remove them.",
+        "q4": "Can I check broken links for my entire website?",
+        "a4": "This tool checks <strong>one page at a time<\/strong> to provide fast, focused results. For full-site audits, we recommend starting with your most important pages: homepage, top landing pages, and high-traffic content.",
+        "q_what_to_do": "What should I do when I find broken links?",
+        "a_what_to_do_intro": "Follow this priority order:",
+        "a_what_to_do_li1": "<strong>Internal links:<\/strong> Set up 301 redirects to the new URL or update the link directly",
+        "a_what_to_do_li2": "<strong>External links:<\/strong> Find an alternative working page or use archive.org to find the old content",
+        "a_what_to_do_li3": "<strong>If no alternative:<\/strong> Remove the link and update surrounding content to maintain flow",
+        "a_what_to_do_li4": "<strong>Document everything:<\/strong> Keep a log for future reference and pattern analysis"
+    },
+    "js": {
+        "stopping": "Stopping scan...",
+        "scan_stopped": "Scan Stopped",
+        "scan_complete": "Scan Complete!",
+        "error_prefix": "Error: ",
+        "pending": "Pending",
+        "internal": "Internal",
+        "external": "External"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online: strumento gratuito di analisi di rete",
+        "description": "Strumento online di traceroute gratuito. Veloce, sicuro e facile da usare.",
+        "h1": "Traceroute",
+        "subtitle": "Il miglior traceroute per sviluppatori e professionisti IT"
+    },
+    "form": {
+        "host_label": "Host o Indirizzo IP",
+        "host_placeholder": "esempio.it",
+        "button": "Avvia Traceroute",
+        "button_loading": "Tracciamento in corso..."
+    },
+    "results": {
+        "title": "Risultati Traceroute"
+    },
+    "content": {
+        "what_is_title": "Cos'è il Traceroute?",
+        "what_is_desc": "Traceroute è uno strumento di diagnostica di rete utilizzato per tracciare il percorso che un pacchetto di dati compie dal tuo computer a un host di destinazione. Mostra ogni 'salto' (hop) lungo il percorso, ovvero ogni router o server attraverso cui passano i dati, indicando anche il tempo di risposta per ciascuno.",
+        "why_use_title": "Perché usare il Traceroute?",
+        "why_use_desc": "Viene utilizzato per identificare dove si verificano rallentamenti o interruzioni nella rete. Se non riesci a raggiungere un sito web, traceroute può mostrare se il problema è nella tua rete locale, presso l'ISP o vicino al server di destinazione.",
+        "hops_title": "Cosa indica un 'Hop'?",
+        "hop1": "<strong>Hop:<\/strong> Ogni router attraverso cui passa il pacchetto.",
+        "hop2": "<strong>Tempo di risposta:<\/strong> Misurato in millisecondi (ms).",
+        "hop3": "<strong>Timeout:<\/strong> Se un router non risponde, viene visualizzato un asterisco.",
+        "hop4": "<strong>Percorso:<\/strong> Mostra la sequenza di reti attraversate.",
+        "hop5": "<strong>Diagnostica:<\/strong> Aiuta a localizzare i colli di bottiglia.",
+        "hop6": "<strong>Visibilità:<\/strong> Rivela i dettagli dell'instradamento di internet.",
+        "issues_title": "Risoluzione dei Problemi",
+        "issues_desc": "Se noti un aumento improvviso nei tempi di risposta tra due hop, quello è probabilmente il punto in cui si verifica la congestione della rete."
+    },
+    "faq": {
+        "title": "Domande Frequenti sul Traceroute",
+        "q1": "Perché vedo degli asterischi (*) nei risultati?",
+        "a1": "Gli asterischi indicano che un particolare router non ha risposto alla richiesta entro il tempo stabilito, spesso perché configurato per ignorare tali pacchetti per motivi di sicurezza.",
+        "q2": "Traceroute usa il protocollo ICMP?",
+        "a2": "Sì, solitamente utilizza pacchetti ICMP Echo Request, simili al ping, ma con valori TTL crescenti.",
+        "q3": "Qual è il limite massimo di Hop?",
+        "a3": "Il limite predefinito è solitamente di 30 salti, che è sufficiente per raggiungere quasi ogni punto su internet."
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML Encoder & Decoder - Free Online Entity Tool",
+        "description": "Encode and decode HTML entities to prevent XSS attacks with our free online tool",
+        "h1": "HTML Encoder & Decoder",
+        "subtitle": "Encode and decode HTML entities to prevent XSS attacks"
+    },
+    "editor": {
+        "mode_encode": "Encode HTML",
+        "mode_decode": "Decode HTML",
+        "label_input_encode": "Enter HTML to Encode",
+        "ph_input_encode": "<div>Hello & Welcome<\/div>",
+        "btn_encode": "Encode HTML",
+        "btn_clear": "Clear",
+        "btn_copy": "Copy",
+        "label_output_encode": "Encoded HTML",
+        "ph_output": "Processed HTML will appear here...",
+        "label_input_decode": "Enter HTML to Decode",
+        "label_output_decode": "Decoded HTML",
+        "btn_decode": "Decode HTML"
+    },
+    "content": {
+        "hero_title": "Free HTML Encoder & Decoder",
+        "hero_subtitle": "Encode and decode HTML entities to prevent XSS attacks",
+        "p1": "Our free HTML Encoder & Decoder tool helps you encode special characters in HTML for safe display on web pages, or decode encoded HTML back to its original format. Perfect for developers, security professionals, and anyone working with raw HTML.",
+        "what_title": "🔗 What is HTML Encoding?",
+        "what_desc": "HTML encoding converts characters that have special meaning in HTML (like <, >, &, \") into their corresponding HTML entities (like &lt;, &gt;, &amp;, &quot;). This prevents the browser from interpreting them as HTML tags, which is crucial for preventing Cross-Site Scripting (XSS) attacks.",
+        "features_title": "âœ¨ Features",
+        "features": {
+            "fast": {
+                "title": "Instant Conversion",
+                "desc": "Encode or decode HTML in milliseconds"
+            },
+            "bidirectional": {
+                "title": "Bidirectional",
+                "desc": "Encode special characters or decode entities back to text"
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All processing happens in your browser"
+            },
+            "copy": {
+                "title": "One-Click Copy",
+                "desc": "Copy processed HTML to clipboard instantly"
+            },
+            "free": {
+                "title": "100% Free",
+                "desc": "No limits, no registration required"
+            },
+            "safe": {
+                "title": "Security Focused",
+                "desc": "Helps prevent XSS vulnerabilities"
+            }
+        },
+        "uses_title": "🎯 Common Use Cases",
+        "uses": {
+            "security": {
+                "title": "🔒 Security",
+                "desc": "Sanitize user input to prevent XSS attacks by encoding special characters."
+            },
+            "display": {
+                "title": "💻 Code Display",
+                "desc": "Display raw HTML code on a webpage without it being rendered by the browser."
+            },
+            "data": {
+                "title": "📊 Data Storage",
+                "desc": "Store content safely in databases without worrying about HTML parsing issues."
+            },
+            "email": {
+                "title": "📧 Email Templates",
+                "desc": "Ensure special characters render correctly in HTML emails."
+            }
+        },
+        "how_title": "📚 How to Use",
+        "how_steps": {
+            "1": "Paste your HTML or text in the input field",
+            "2": "Click the process button to convert",
+            "3": "Copy the result to clipboard",
+            "4": "Copy the encoded\/decoded result and use it in your HTML, XML, or web applications."
+        },
+        "examples_title": "💡 HTML Encoding Examples",
+        "examples": {
+            "1": {
+                "title": "Quotes:",
+                "code": "\"Hello\" â†’ &quot;Hello&quot;"
+            },
+            "2": {
+                "title": "Ampersand:",
+                "code": "Tom & Jerry â†’ Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Encoding Special Characters",
+                "code": "&lt;script&gt;alert(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&amp;gt;"
+            }
+        },
+        "faq_title": "â“ Frequently Asked Questions",
+        "faq": {
+            "q1": "Why do I need to encode HTML?",
+            "a1": "Encoding is essential for security to prevent the browser from executing malicious scripts (XSS) and to display code snippets correctly.",
+            "q2": "Which characters are encoded?",
+            "a2": "Essential characters like <, >, &, \", and ' are always encoded. Extended ASCII characters may also be encoded.",
+            "q3": "Is it reversible?",
+            "a3": "Yes, decoding reverses the process exactly, restoring the original text."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter HTML to process",
+        "success_encode": "âœ“ HTML encoded successfully",
+        "success_decode": "âœ“ HTML decoded successfully",
+        "error_process": "✗ Error processing HTML: ",
+        "error_no_copy": "No output to copy",
+        "success_copy": "âœ“ Copied to clipboard"
+    }
+}

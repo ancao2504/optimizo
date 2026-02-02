@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter Online - Instrumentul JSON Prettifier gratuit",
+        "description": "Formatează, validează și minifică datele tale JSON online. Îmbunătățește lizibilitatea și verifică erorile de sintaxă instantaneu.",
+        "h1": "Formatator JSON",
+        "subtitle": "Formatează, validează și minifică datele tale JSON"
+    },
+    "editor": {
+        "title": "Formatează datele tale JSON",
+        "label_input": "Introducere date JSON",
+        "ph_input": "{\"nume\": \"Ion Popescu\", \"varsta\": 30, \"oras\": \"Bucuresti\"}",
+        "help_text": "Lipește datele tale JSON pentru a le forma, înfrumuseța sau minifica",
+        "btn_format": "Formatează și Înfrumusețează",
+        "btn_minify": "Minifică JSON",
+        "label_results": "JSON Formatat",
+        "btn_copy": "Copiază JSON"
+    },
+    "content": {
+        "why_title": "De ce să folosești Formatorul nostru JSON?",
+        "why_desc": "JSON (JavaScript Object Notation) este cel mai popular format de schimb de date utilizat în dezvoltarea web, API-uri și fișiere de configurare. Formatorul nostru JSON online gratuit ajută dezvoltatorii, analiștii de date și profesioniștii IT să formateze, să înfrumusețeze, să valideze și să minifice rapid datele JSON. Indiferent dacă depanezi răspunsurile API, cureți fișierele de configurare sau pregătești JSON-ul pentru producție, instrumentul nostru oferă rezultate instantanee cu evidențierea sintaxei și detectarea erorilor. Perfect pentru dezvoltatorii care lucrează cu API-uri REST, baze de date NoSQL și aplicații web moderne.",
+        "features": {
+            "instant": {
+                "title": "Formatare Instantanee",
+                "desc": "Formatează și înfrumusețează datele JSON în milisecunde cu indentare și evidențierea sintaxei corectă"
+            },
+            "error": {
+                "title": "Detectare Erori",
+                "desc": "Detectează și evidențiază automat erorile de sintaxă JSON cu mesaje de eroare utile"
+            },
+            "privacy": {
+                "title": "100% Privat",
+                "desc": "Toată procesarea are loc în browserul tău - datele tale JSON nu părăsesc niciodată computerul tău"
+            }
+        },
+        "how_title": "Cum să formatezi JSON în 3 pași simpli",
+        "how_steps": {
+            "1": {
+                "title": "Alege Acțiunea",
+                "desc": "Fă clic pe \"Formatează și Înfrumusețează\" pentru a forma sau \"Minifică\" pentru a comprima JSON-ul"
+            },
+            "2": {
+                "title": "Copiază Rezultatul",
+                "desc": "Fă clic pe butonul de copiere pentru a copia JSON-ul formatat în clipboard"
+            },
+            "3": {
+                "title": "Formatați sau Reduceți",
+                "desc": "Alegeți să înfrumusețați (formatați cu indentare) sau să micșorați (comprimați pe o singură linie) datele dvs. JSON în funcție de nevoile dvs."
+            }
+        },
+        "uses_title": "Cazuri comune de utilizare a formatării JSON",
+        "uses": {
+            "api": {
+                "title": "Depanare Răspuns API",
+                "desc": "Formatează răspunsurile API dezordonate pentru a citi și depana ușor datele JSON de la API-uri REST, GraphQL și servicii web."
+            },
+            "config": {
+                "title": "Fișiere de Configurare",
+                "desc": "Curăță și validează fișierele de configurare JSON pentru aplicații, package.json, tsconfig.json și multe altele."
+            },
+            "db": {
+                "title": "Date din Bază de Date",
+                "desc": "Formatează datele JSON din baze de date NoSQL precum MongoDB, CouchDB și Firebase pentru o mai bună lizibilitate."
+            },
+            "export": {
+                "title": "Export\/Import Date",
+                "desc": "Pregătește datele JSON pentru export sau validează datele JSON importate pentru a asigura structura și sintaxa corectă."
+            }
+        },
+        "tips_title": "Cele mai bune practici și sfaturi JSON",
+        "tips": {
+            "validate": {
+                "title": "✓ Validează întotdeauna JSON-ul",
+                "desc": "Folosește un validator JSON pentru a prinde erorile de sintaxă înainte de implementarea în producție. Un JSON invalid poate defecta aplicația."
+            },
+            "indent": {
+                "title": "✓ Folosește indentarea corectă",
+                "desc": "Formatează JSON cu indentare de 2 sau 4 spații pentru o mai bună lizibilitate în timpul dezvoltării și depanării."
+            },
+            "minify": {
+                "title": "✓ Minifică pentru Producție",
+                "desc": "Minifică datele JSON înainte de a le implementa în producție pentru a reduce dimensiunea fișierului și a îmbunătăți timpii de încărcare."
+            },
+            "naming": {
+                "title": "✓ Folosește o numire consecventă",
+                "desc": "Urmează convențiile de numire camelCase sau snake_case în mod consecvent în structura JSON."
+            }
+        },
+        "faq_title": "❓ Întrebări Frecvente",
+        "faq": {
+            "q1": "Sunt datele mele JSON în siguranță?",
+            "a1": "Da, absolut. Formatorul nostru JSON rulează în întregime în browser-ul tău utilizând JavaScript. Datele tale nu sunt trimise niciodată la serverele noastre.",
+            "q2": "De ce este importantă minificarea JSON?",
+            "a2": "Minificarea elimină spațiile albe și întreruperile de linie inutile, reducând semnificativ dimensiunea fișierului. Acest lucru este crucial pentru îmbunătățirea performanței API.",
+            "q3": "Pot valida un JSON incomplet?",
+            "a3": "Instrumentul necesită o structură JSON validă pentru a forma sau minifica. Totuși, oferă mesaje de eroare detaliate pentru a te ajuta să corectezi problemele.",
+            "q4": "Suportă fișiere JSON mari?",
+            "a4": "Da, este optimizat pentru a gestiona seturi de date JSON mari, deși fișierele extrem de mari pot depinde de limitele de memorie ale browserului tău."
+        }
+    },
+    "js": {
+        "error_empty_format": "Te rugăm să introduci datele JSON pentru formare",
+        "error_invalid": "JSON Invalid: ",
+        "error_empty_minify": "Te rugăm să introduci datele JSON pentru minificare",
+        "success_copy": "Copiat!",
+        "error_copy": "Eșec la copiere. Te rugăm să copiezi manual."
+    }
+}

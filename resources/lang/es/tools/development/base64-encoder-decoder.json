@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": "Codificador y decodificador Base64: herramienta gratuita para desarrolladores en línea",
+        "description": "Codifica y decodifica datos Base64 al instante. Soporta texto y datos binarios de forma rápida.",
+        "h1": "Codificador y decodificador Base64",
+        "subtitle": "Convierte texto a Base64 y viceversa al instante"
+    },
+    "editor": {
+        "tab_encode": "Codificar a Base64",
+        "tab_decode": "Decodificar de Base64",
+        "label_encode": "Ingresa texto para codificar",
+        "ph_encode": "Escribe tu texto aquí...",
+        "desc_encode": "Introduce cualquier texto para convertirlo al formato Base64",
+        "btn_encode": "Codificar",
+        "label_decode": "Ingresa Base64 para decodificar",
+        "ph_decode": "Pega tu cadena Base64...",
+        "desc_decode": "Introduce texto codificado en Base64 para decodificarlo a texto plano",
+        "btn_decode": "Decodificar",
+        "result_title": "Resultado",
+        "btn_copy": "Copiar Resultado"
+    },
+    "content": {
+        "what_title": "¿Qué es la codificación Base64?",
+        "what_desc": "Base64 es un sistema de codificación que representa datos binarios en un formato de texto ASCII.",
+        "features": {
+            "secure": {
+                "title": "Seguro",
+                "desc": "Todo el proceso ocurre en tu navegador."
+            },
+            "instant": {
+                "title": "Instantáneo",
+                "desc": "Codifica y decodifica sobre la marcha sin recargar la página."
+            },
+            "easy": {
+                "title": "Fácil de usar",
+                "desc": "Interfaz sencilla con pestañas para codificar y decodificar con copia en un clic"
+            }
+        },
+        "how_to": {
+            "title": "Cómo usar el Codificador\/Decodificador Base64",
+            "encode": {
+                "title": "Codificar Texto",
+                "step1": "Haz clic en la pestaña \"Codificar a Base64\"",
+                "step2": "Pega o escribe tu texto en el área de entrada",
+                "step3": "Haz clic en el botón \"Codificar\"",
+                "step4": "Copia el resultado codificado en Base64"
+            },
+            "decode": {
+                "title": "Decodificar Base64",
+                "step1": "Haz clic en la pestaña \"Decodificar de Base64\"",
+                "step2": "Pega tu cadena Base64 en el área de entrada",
+                "step3": "Haz clic en el botón \"Decodificar\"",
+                "step4": "Copia el resultado de texto plano decodificado"
+            }
+        },
+        "uses": {
+            "title": "Casos de uso comunes de Base64",
+            "api": {
+                "title": "Autenticación de API",
+                "desc": "Codifica credenciales para autenticación básica en cabeceras HTTP y solicitudes de API."
+            },
+            "data_uri": {
+                "title": "URIs de Datos",
+                "desc": "Incrusta imágenes, fuentes y archivos directamente en HTML, CSS o JSON usando URIs de datos Base64."
+            },
+            "email": {
+                "title": "Adjuntos de Correo",
+                "desc": "Codifica adjuntos binarios en mensajes de correo MIME para una transmisión segura."
+            },
+            "storage": {
+                "title": "Almacenamiento de Datos",
+                "desc": "Almacena datos binarios en formatos basados en texto como JSON, XML o bases de datos."
+            }
+        },
+        "bottom": {
+            "h1": "Codificador y Decodificador Base64",
+            "subtitle": "Codifica y decodifica datos Base64 al instante",
+            "desc": "Base64 es un esquema de codificación de binario a texto que convierte datos binarios en formato de texto ASCII. Nuestro Codificador y Decodificador Base64 gratuito ayuda a desarrolladores y profesionales de TI a codificar texto a Base64 o decodificar Base64 a texto legible al instante. Perfecto para autenticación de API, URIs de datos y transmisión segura de datos. Todo el procesamiento ocurre en tu navegador para una privacidad total.",
+            "works_title": "🔄 Cómo funciona Base64",
+            "works_encoding": "Convierte datos binarios en texto ASCII usando 64 caracteres",
+            "works_encoding_sub": "A-Z, a-z, 0-9, +, \/ (y = para relleno)",
+            "works_decoding": "Convierte texto Base64 de vuelta a los datos binarios originales",
+            "works_decoding_sub": "Revierte el proceso de codificación perfectamente",
+            "cases_title": "✅ Casos de uso comunes",
+            "case_api": "Autenticación de API",
+            "case_api_desc": "Codificar credenciales para Basic Auth en cabeceras HTTP",
+            "case_uri": "URIs de Datos",
+            "case_uri_desc": "Incrustar imágenes y archivos directamente en HTML\/CSS",
+            "case_email": "Adjuntos de Correo",
+            "case_email_desc": "Codificar archivos binarios para transmisión por correo",
+            "case_url": "Parámetros de URL",
+            "case_url_desc": "Pasar datos binarios de forma segura en URLs",
+            "case_storage": "Almacenamiento de Datos",
+            "case_storage_desc": "Almacenar datos binarios en bases de datos de solo texto",
+            "case_web": "Desarrollo Web",
+            "case_web_desc": "Codificar JSON, XML и archivos de configuración",
+            "best_practices_title": "💡 Mejores Prácticas de Base64",
+            "best_practices_list": [
+                "Base64 aumenta el tamaño de los datos en aproximadamente un 33%",
+                "No es apto para el cifrado; utilice algoritmos de cifrado adecuados",
+                "Perfecto para codificar datos binarios en sistemas de solo texto",
+                "Valide siempre los datos decodificados antes de usarlos",
+                "Use Base64 seguro para URL (reemplaza +\/= con -_)"
+            ]
+        },
+        "faq": {
+            "title": "❓ Preguntas Frecuentes",
+            "q1": "¿Es seguro el cifrado Base64?",
+            "a1": "¡No! Base64 NO es cifrado, es solo codificación. Cualquiera puede decodificarlo. Para seguridad real, use AES, RSA o TLS\/SSL.",
+            "q2": "¿Por qué Base64 aumenta el tamaño del archivo?",
+            "a2": "Aumenta el tamaño en un 33% aprox. porque representa 3 bytes de datos binarios usando 4 caracteres ASCII.",
+            "q3": "¿Para qué sirve Base64?",
+            "a3": "Para codificar datos binarios (imágenes, credenciales) en texto ASCII para sistemas de solo texto como email, JSON o cabeceras HTTP.",
+            "q4": "¿Se envían mis datos a un servidor?",
+            "a4": "¡No! Todo el procesamiento ocurre en tu navegador mediante JavaScript. Tus datos nunca salen de tu dispositivo.",
+            "q5": "¿Puedo codificar imágenes a Base64?",
+            "a5": "Sí, las imágenes codificadas pueden incrustarse en HTML\/CSS mediante URIs de datos, ideal para iconos pequeños."
+        }
+    },
+    "js": {
+        "error_empty_encode": "Por favor ingresa texto para codificar",
+        "error_encoding": "Error al codificar el texto: ",
+        "error_empty_decode": "Por favor ingresa una cadena Base64",
+        "error_invalid": "Cadena Base64 no válida.",
+        "copied": "¡Copiado!"
+    }
+}

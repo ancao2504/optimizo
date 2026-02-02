@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - Free Online Crontab Tool",
+        "description": "Create cron schedules easily with our visual generator - no need to memorize cron syntax",
+        "h1": "Cron Job Generator",
+        "subtitle": "Create cron schedules easily with our visual generator"
+    },
+    "editor": {
+        "common_settings": "Common Settings",
+        "choose": "-- Choose --",
+        "options": {
+            "every_minute": "Every Minute (* * * * *)",
+            "every_5_minutes": "Every 5 Minutes (*\/5 * * * *)",
+            "every_15_minutes": "Every 15 Minutes (*\/15 * * * *)",
+            "every_30_minutes": "Every 30 Minutes (*\/30 * * * *)",
+            "every_hour": "Every Hour (0 * * * *)",
+            "every_day_midnight": "Every Day at Midnight (0 0 * * *)",
+            "every_week": "Every Week (0 0 * * 0)",
+            "every_month": "Every Month (0 0 1 * *)"
+        },
+        "minute": "Minute",
+        "every_minute": "Every Minute (*)",
+        "hour": "Hour",
+        "every_hour": "Every Hour (*)",
+        "day": "Day",
+        "every_day": "Every Day (*)",
+        "month": "Month",
+        "every_month": "Every Month (*)",
+        "weekday": "Weekday",
+        "every_weekday": "Every Weekday (*)",
+        "command": "Command to Run",
+        "ph_command": "\/usr\/bin\/php \/path\/to\/script.php",
+        "generated_cron": "Generated Cron Expression",
+        "btn_copy": "Copy Cron",
+        "btn_clear": "Reset"
+    },
+    "content": {
+        "hero_title": "Cron Job Generator",
+        "p1": "Setting up cron jobs can be confusing with cryptic asterisks and numbers. Our free online Cron Job Generator allows you to build perfect cron schedules visually. Whether you need to run a script every 5 minutes, at midnight, or on specific days of the month, our tool generates the correct syntax for you instantly.",
+        "features": {
+            "visual": {
+                "title": "Visual Editor",
+                "desc": "Select minutes, hours, days, and months using a simple interface"
+            },
+            "readable": {
+                "title": "Human Readable",
+                "desc": "Converts cron expressions into plain English descriptions"
+            }
+        },
+        "syntax_title": "📚 Understanding Cron Syntax",
+        "syntax_intro": "A cron expression consists of 5 fields separated by spaces:",
+        "syntax_fields": {
+            "min": "Minute (0-59)",
+            "hour": "Hour (0-23)",
+            "day": "Day of Month (1-31)",
+            "month": "Month (1-12)",
+            "week": "Day of Week (0-6, Sunday=0)"
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "What is a cron job?",
+            "a1": "A cron job is a time-based job scheduler in Unix-like computer operating systems. Users can schedule jobs (commands or scripts) to run periodically at fixed times, dates, or intervals.",
+            "q2": "How do I install a cron job?",
+            "a2": "You typically use the command `crontab -e` in your terminal to edit your cron file. Then paste the generated line at the bottom of the file.",
+            "q4": "What does asterisk (*) mean?",
+            "a4": "An asterisk means \"every\". For example, an asterisk in the minute field means \"every minute\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron expression copied to clipboard!",
+        "no_copy": "No cron expression to copy"
+    }
+}

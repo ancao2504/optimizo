@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - Instrumentul Crontab online gratuit",
+        "description": "Creează programe cron ușor cu generatorul nostru vizual. Nu e nevoie să memorezi sintaxa cron. Instrument gratuit online.",
+        "h1": "Cron Job Generator",
+        "subtitle": "Creează programe cron ușor cu generatorul nostru vizual"
+    },
+    "editor": {
+        "common_settings": "Setări Comune",
+        "choose": "-- Alege --",
+        "options": {
+            "every_minute": "În fiecare minut (* * * * *)",
+            "every_5_minutes": "La fiecare 5 minute (*\/5 * * * *)",
+            "every_15_minutes": "La fiecare 15 minute (*\/15 * * * *)",
+            "every_30_minutes": "La fiecare 30 minute (*\/30 * * * *)",
+            "every_hour": "În fiecare oră (0 * * * *)",
+            "every_day_midnight": "În fiecare zi la miezul nopții (0 0 * * *)",
+            "every_week": "În fiecare săptămână (0 0 * * 0)",
+            "every_month": "În fiecare lună (0 0 1 * *)"
+        },
+        "minute": "Minut",
+        "every_minute": "În fiecare minut (*)",
+        "hour": "Oră",
+        "every_hour": "În fiecare oră (*)",
+        "day": "Zi",
+        "every_day": "În fiecare zi (*)",
+        "month": "Lună",
+        "every_month": "În fiecare lună (*)",
+        "weekday": "Ziua săptămânii",
+        "every_weekday": "În fiecare zi a săptămânii (*)",
+        "command": "Comandă de rula",
+        "ph_command": "\/usr\/bin\/php \/cale\/catre\/script.php",
+        "generated_cron": "Expresie Cron Generată",
+        "btn_copy": "Copiază Cron",
+        "btn_clear": "Resetează"
+    },
+    "content": {
+        "hero_title": "Generator Cron Job",
+        "p1": "Configurarea joburilor cron poate fi confuză cu toate acele asteriscuri și numere criptice. Generatorul nostru online gratuit îți permite să construiești programe cron perfecte din punct de vedere vizual. Indiferent dacă trebuie să rulezi un script la fiecare 5 minute, la miezul nopții sau în anumite zile ale lunii, instrumentul nostru generează sintaxa corectă instantaneu.",
+        "features": {
+            "visual": {
+                "title": "Editor Vizual",
+                "desc": "Selectează minutele, orele, zilele și lunile folosind o interfață simplă"
+            },
+            "readable": {
+                "title": "Citiabil de Om",
+                "desc": "Convertește expresiile cron în descrieri clare în limba română"
+            }
+        },
+        "syntax_title": "📚 Înțelegerea Sintaxei Cron",
+        "syntax_intro": "O expresie cron constă în 5 câmpuri separate prin spații:",
+        "syntax_fields": {
+            "min": "Minut (0-59)",
+            "hour": "Oră (0-23)",
+            "day": "Zi din lună (1-31)",
+            "month": "Lună (1-12)",
+            "week": "Zi din săptămână (0-6, Duminică = 0)"
+        },
+        "faq_title": "❓ Întrebări Frecvente",
+        "faq": {
+            "q1": "Ce este un cron job?",
+            "a1": "Un cron job este un planificator de sarcini bazat pe timp în sistemele de operare de tip Unix. Utilizatorii pot programa sarcini (comenzi sau scripturi) să ruleze periodic la ore, date sau intervale fixe.",
+            "q2": "Cum instalez un cron job?",
+            "a2": "De obicei folosești comanda `crontab -e` în terminal pentru a edita fișierul cron. Apoi lipești linia generată la sfârșitul fișierului.",
+            "q4": "Ce înseamnă asteriscul (*)?",
+            "a4": "Un asterisc înseamnă \"fiecare\". De exemplu, un asterisc în câmpul minut înseamnă \"în fiecare minut\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Expresie cron copiată în clipboard!",
+        "no_copy": "Nu există nicio expresie cron de copiat"
+    }
+}

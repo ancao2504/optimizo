@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode Kodlayıcı ve Kod Çözücü - Ücretsiz Çevrimiçi Metin Aracı",
+        "description": "JavaScript ve JSON için Unicode kaçış dizilerini ücretsiz aracımızla kodlayın ve çözün.",
+        "h1": "Unicode Kodlayıcı ve Kod Çözücü",
+        "subtitle": "JavaScript ve JSON için Unicode kaçış dizilerini kodlayın ve çözün"
+    },
+    "editor": {
+        "btn_encode": "Unicode Kodla",
+        "btn_decode": "Unicode Çöz",
+        "label_input_encode": "Kodlanacak Metni Girin",
+        "ph_input": "Merhaba dünya",
+        "btn_process_encode": "Unicode Kodla",
+        "btn_clear": "Temizle",
+        "btn_copy": "Kopyala",
+        "label_output_encoded": "Kodlanmış Unicode",
+        "ph_output": "İşlenmiş Unicode burada görünecek...",
+        "label_input_decode": "Çözülecek Unicode'u Girin",
+        "label_output_decoded": "Çözülmüş Metin",
+        "btn_process_decode": "Unicode Çöz"
+    },
+    "content": {
+        "p1": "Ücretsiz Unicode Kodlayıcı ve Kod Çözücü aracımız; JavaScript, JSON ve diğer programlama ortamlarında güvenli kullanım için metinleri Unicode kaçış dizilerine (örn. \\u0041) kodlamanıza veya bunları tekrar okunabilir metne dönüştürmenize yardımcı olur. Geliştiriciler, veri analistleri ve uluslararası karakter setleriyle uğraşan herkes için mükemmeldir. %100 ücretsizdir, istemci tarafı işleme verilerinizin gizli kalmasını sağlar.",
+        "what_title": "Unicode Kodlama Nedir?",
+        "what_desc": "Unicode kodlama, karakterleri karşılık gelen Unicode kod noktalarına dönüştürür ve genellikle \\uXXXX gibi kaçış dizileri olarak temsil edilir. Bu; özel karakterler, emojiler veya Latin alfabesi dışındaki yazıları içeren metinlerin, genellikle yalnızca ASCII destekleyen kaynak kod dosyaları veya JSON verileri gibi ortamlarda güvenle temsil edilmesini sağlar.",
+        "features_title": "Özellikler",
+        "features": {
+            "instant": {
+                "title": "Anında Dönüşüm",
+                "desc": "Milisaniyeler içinde Unicode kodlayın veya çözün"
+            },
+            "bidirectional": {
+                "title": "Çift Yönlü",
+                "desc": "Unicode formatına kodlayın veya orijinaline geri dönüştürün"
+            },
+            "privacy": {
+                "title": "Önce Gizlilik",
+                "desc": "Tüm işlemler tarayıcınızda gerçekleşir"
+            },
+            "copy": {
+                "title": "Tek Tıkla Kopyalama",
+                "desc": "Kodlanmış\/çözülmüş metni anında kopyalayın"
+            },
+            "free": {
+                "title": "%100 Ücretsiz",
+                "desc": "Sınır yok, kayıt gerekmez"
+            },
+            "universal": {
+                "title": "Evrensel Destek",
+                "desc": "Tüm Unicode karakterleri ve yazılarıyla çalışır"
+            }
+        },
+        "uses_title": "Yaygın Kullanım Durumları",
+        "uses": {
+            "programming": {
+                "title": "Programlama",
+                "desc": "JavaScript veya Java kaynak koduna özel karakterleri güvenle gömün"
+            },
+            "data": {
+                "title": "Veri Serileştirme",
+                "desc": "JSON'da ASCII dışı karakterlerin güvenli bir şekilde iletilmesini sağlayın"
+            },
+            "international": {
+                "title": "Uluslararasılaştırma",
+                "desc": "Çeşitli dillerdeki ve yazılardaki metinleri ayıklayın ve görüntüleyin"
+            },
+            "security": {
+                "title": "Güvenlik",
+                "desc": "Gizlenmiş (obfuscated) kodları veya Unicode kaçışları içeren verileri analiz edin"
+            }
+        },
+        "how_to_title": "Nasıl Kullanılır",
+        "how_to": {
+            "step1": {
+                "title": "Mod Seçin",
+                "desc": "İhtiyacınıza göre \"Unicode Kodla\" veya \"Unicode Çöz\"ü seçin"
+            },
+            "step2": {
+                "title": "Metni Girin",
+                "desc": "Metninizi veya Unicode kaçışlarını giriş alanına yapıştırın"
+            },
+            "step3": {
+                "title": "İşleme Alın",
+                "desc": "Kodla veya çöz düğmesine tıklayın"
+            },
+            "step4": {
+                "title": "Sonucu Kopyalayın",
+                "desc": "İşlenmiş metni panoya kopyalamak için \"Kopyala\"ya tıklayın"
+            },
+            "step5": {
+                "title": "İstediğiniz Yerde Kullanın",
+                "desc": "Sonucu kodunuza veya uygulamanıza yapıştırın"
+            }
+        },
+        "examples_title": "Unicode Örnekleri",
+        "examples": {
+            "simple": {
+                "title": "Basit\/ASCII:",
+                "desc": "Orijinal: \"A\" → Kodlanmış: \"\\u0041\""
+            },
+            "special": {
+                "title": "Özel Karakterler:",
+                "desc": "Orijinal: \"©\" → Kodlanmış: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emojiler\/Çoklu Bayt:",
+                "desc": "Orijinal: \"🌟\" → Kodlanmış: \"\\uD83C\\uDF1F\" veya temsile bağlı olarak \"\\u2B50\""
+            }
+        },
+        "faq_title": "Sıkça Sorulan Sorular",
+        "faq": {
+            "q1": "Neden Unicode kaçış dizileri kullanılır?",
+            "a1": "Herhangi bir karakteri yalnızca ASCII karakterleri kullanarak temsil etmenize olanak tanırlar; bu da ham Unicode'u doğru işlemeyebilecek farklı sistemler, kodlamalar ve dosya aktarımları arasında uyumluluk sağlar.",
+            "q2": "Hangi format kullanılır?",
+            "a2": "Bu araç tipik olarak Temel Çok Dilli Düzlem (Basic Multilingual Plane) karakterleri için JavaScript\/JSON stili \\uXXXX formatını kullanır.",
+            "q3": "URL kodlamasından (URL encoding) different mıdır?",
+            "a3": "Evet. URL kodlaması temel olarak URL'ler için %XX onaltılık değerlerini kullanır. Unicode kaçışları ise \\uXXXX kullanır ve JavaScript, Java ve Python gibi programlama dillerindeki dizelerde kullanılır.",
+            "q4": "Verilerim güvende mi?",
+            "a4": "Evet! Tüm kodlama ve kod çözme işlemleri JavaScript kullanılarak tamamen tarayıcınızda gerçekleşir. Metniniz asla cihazınızdan ayrılmaz."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen işlemek için bir metin girin",
+        "success_encode": "✓ Unicode başarıyla kodlandı",
+        "success_decode": "✓ Unicode başarıyla çözüldü",
+        "error_process": "✗ Unicode işlenirken hata oluştu: ",
+        "error_no_copy": "Kopyalanacak çıktı yok",
+        "success_copy": "✓ Panoya kopyalandı"
+    }
+}

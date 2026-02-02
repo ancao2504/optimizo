@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "Konverter SQL ke JSON - Alat Database Online Gratis",
+        "description": "Ubah pernyataan SQL INSERT menjadi array JSON secara instan dengan alat online gratis kami. Cepat, akurat, dan aman.",
+        "h1": "Konverter SQL ke JSON",
+        "subtitle": "Konversi dengan mudah antara data SQL dan objek JSON"
+    },
+    "editor": {
+        "btn_encode": "JSON ke Mode SQL",
+        "btn_decode": "Mode SQL ke JSON",
+        "label_table": "Nama Tabel",
+        "ph_table": "Masukkan nama tabel (misalnya, pengguna)",
+        "label_input_json": "Masukan JSON",
+        "ph_input_json": "Tempelkan array JSON Anda di sini...",
+        "label_output_sql": "Keluaran SQL",
+        "ph_output_sql": "SQL yang dihasilkan akan muncul di sini...",
+        "label_input_sql": "Masukan SQL",
+        "label_output_json": "Keluaran JSON",
+        "btn_convert_sql": "Hasilkan SQL",
+        "btn_convert_json": "Hasilkan JSON",
+        "btn_clear": "Jernih",
+        "btn_copy": "Salin Keluaran"
+    },
+    "content": {
+        "hero_title": "Konverter SQL ke JSON",
+        "hero_subtitle": "Konversi dua arah untuk pengembang modern",
+        "p1": "Aplikasi modern berkembang pesat di JSON, tetapi database masih menggunakan SQL. Konverter dua arah kami menjembatani kesenjangan ini dengan mudah. Baik Anda perlu mengubah ekspor database menjadi JSON untuk API Anda, atau data JSON menjadi skrip penyemaian SQL, alat ini memberikan solusi yang cepat, aman, dan akurat.",
+        "integration_title": "Integrasi yang Mulus",
+        "integration_desc": "Pindahkan data dengan mudah antara database relasional dan aplikasi web Anda. Parser kami menangani pernyataan SQL INSERT standar dan mengubahnya menjadi objek JSON terstruktur, mempertahankan tipe dan nilai data.",
+        "features_title": "Fitur Utama",
+        "features": {
+            "instant": {
+                "title": "Hasil Instan",
+                "desc": "Konversi terjadi secara real-time saat Anda mengeklik."
+            },
+            "bidirectional": {
+                "title": "Modus Ganda",
+                "desc": "Beralih antara mode SQL-ke-JSON dan JSON-ke-SQL."
+            },
+            "security": {
+                "title": "Konversi Aman",
+                "desc": "Pemrosesan adalah 100% di sisi klien untuk privasi maksimum."
+            },
+            "custom": {
+                "title": "Pemformatan Bersih",
+                "desc": "Output diformat secara profesional dan siap digunakan."
+            },
+            "types": {
+                "title": "Ketik Kesadaran",
+                "desc": "Menangani null, angka, dan string dengan benar."
+            },
+            "free": {
+                "title": "Benar-benar Gratis",
+                "desc": "Tidak ada batasan berlangganan atau penggunaan."
+            }
+        },
+        "uses_title": "Kasus Penggunaan Umum",
+        "uses": {
+            "seeding": {
+                "title": "Penyemaian Basis Data",
+                "desc": "Buat skrip SQL dengan cepat untuk mengisi lingkungan pengembang Anda."
+            },
+            "export": {
+                "title": "Mengekspor Data",
+                "desc": "Ubah hasil kueri SQL menjadi JSON untuk dianalisis."
+            },
+            "migration": {
+                "title": "Migrasi API",
+                "desc": "Siapkan data database lama untuk digunakan di REST API modern."
+            },
+            "testing": {
+                "title": "Data Tiruan",
+                "desc": "Buat data tiruan JSON dari tabel SQL yang ada."
+            },
+            "docs": {
+                "title": "Dokumentasi",
+                "desc": "Sertakan contoh JSON dari struktur database Anda di dokumen."
+            },
+            "prototype": {
+                "title": "Pembuatan Prototipe Cepat",
+                "desc": "Pindahkan data dengan cepat antar negara bagian selama pengembangan."
+            }
+        },
+        "how_title": "Cara Menggunakan",
+        "how_steps": {
+            "1": {
+                "title": "Pilih Modus",
+                "desc": "Pilih antara JSON ke SQL atau SQL ke JSON menggunakan tombol."
+            },
+            "2": {
+                "title": "Masukan Data",
+                "desc": "Tempelkan kode sumber Anda ke area editor kiri."
+            },
+            "3": {
+                "title": "Tetapkan Nama Tabel",
+                "desc": "Jika mengonversi ke SQL, tentukan tabel database target."
+            },
+            "4": {
+                "title": "Menghasilkan",
+                "desc": "Klik 'Hasilkan' untuk melihat transformasi secara instan."
+            },
+            "5": {
+                "title": "Salin Hasil",
+                "desc": "Gunakan tombol 'Salin' untuk mengambil keluaran Anda."
+            }
+        },
+        "samples_title": "Sampel Konversi",
+        "samples": [
+            {
+                "title": "SQL Insert to JSON",
+                "desc": "INSERT INTO users (name, age) VALUES ('Alice', 25); → [{\"name\": \"Alice\", \"age\": 25}]"
+            },
+            {
+                "title": "JSON to SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO table (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Pernyataan SQL apa yang didukung?",
+            "a1": "Saat ini, alat tersebut mendukung pernyataan INSERT INTO standar dengan nama kolom yang ditentukan.",
+            "q2": "Apakah data saya aman?",
+            "a2": "Ya, kami tidak pernah mengirimkan data Anda ke server kami. Semua logika berjalan di browser Anda.",
+            "q3": "Bisakah saya mengonversi beberapa baris?",
+            "a3": "Ya, alat ini menangani SQL multi-baris atau array JSON besar secara efisien.",
+            "q4": "Apakah itu menangani karakter khusus?",
+            "a4": "Ya, itu dengan benar lolos dari tanda kutip tunggal dan menangani karakter khusus dasar."
+        }
+    },
+    "js": {
+        "error_empty": "Silakan masukkan beberapa data untuk diproses",
+        "placeholder_table_name": "pengguna",
+        "error_general": "Kesalahan konversi:",
+        "error_invalid_array": "Kesalahan: Input harus berupa array objek JSON.",
+        "error_empty_array": "Kesalahan: Array JSON kosong.",
+        "success_sql": "✓ SQL berhasil dibuat!",
+        "error_no_statements": "Tidak ditemukan pernyataan SQL INSERT yang valid.",
+        "success_json": "✓ JSON berhasil dibuat!",
+        "error_no_copy": "Tidak ada konten untuk disalin.",
+        "success_copy": "✓ Output disalin ke clipboard!"
+    }
+}

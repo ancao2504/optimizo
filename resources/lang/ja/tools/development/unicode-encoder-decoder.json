@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode エンコーダ & デコーダ - 無料のオンライン テキスト ツール",
+        "description": "JavaScript や JSON 用の Unicode エスケープシーケンスをエンコード・デコード。無料のオンラインツールです。",
+        "h1": "Unicode エンコーダおよびデコーダ",
+        "subtitle": "JavaScript や JSON 用の Unicode エスケープシーケンスをエンコード・デコード"
+    },
+    "editor": {
+        "btn_encode": "Unicode にエンコード",
+        "btn_decode": "Unicode をデコード",
+        "label_input_encode": "エンコードするテキストを入力",
+        "ph_input": "こんにちは 世界",
+        "btn_process_encode": "Unicode にエンコード",
+        "btn_clear": "クリア",
+        "btn_copy": "コピー",
+        "label_output_encoded": "エンコードされた Unicode",
+        "ph_output": "処理された Unicode がここに表示されます...",
+        "label_input_decode": "デコードする Unicode を入力",
+        "label_output_decoded": "デコードされたテキスト",
+        "btn_process_decode": "Unicode をデコード"
+    },
+    "content": {
+        "p1": "当ツールの無料 Unicode エンコーダ & デコーダは、テキストを Unicode エスケープシーケンス（例: \\u0041）にエンコードして JavaScript や JSON などのプログラミング文脈で安全に使用できるようにしたり、それらを読み取り可能なテキストにデコードしたりするのに役立ちます。開発者、データアナリスト、国際的な文字セットを扱うすべての人に最適です。100% 無料で、クライアントサイドでの処理によりデータのプライバシーが確保されます。",
+        "what_title": "Unicode エンコーディングとは？",
+        "what_desc": "Unicode エンコーディングは、文字を対応する Unicode コードポイントに変換し、多くの場合 \\uXXXX のようなエスケープシーケンスとして表現します。これにより、特殊文字、絵文字、非ラテン文字を含むテキストを、ソースコードファイルや JSON データのよう通常 ASCII のみをサポートする環境でも安全に表現できるようになります。",
+        "features_title": "機能",
+        "features": {
+            "instant": {
+                "title": "即時変換",
+                "desc": "Unicode のエンコード・デコードをミリ秒単位で行います"
+            },
+            "bidirectional": {
+                "title": "双方向",
+                "desc": "Unicode 形式へのエンコードと、元の形式へのデコードの両方が可能です"
+            },
+            "privacy": {
+                "title": "プライバシー第一",
+                "desc": "すべての処理はお使いのブラウザ内で行われます"
+            },
+            "copy": {
+                "title": "ワンクリックコピー",
+                "desc": "エンコード・デコードされたテキストを即座にコピーできます"
+            },
+            "free": {
+                "title": "100% 無料",
+                "desc": "制限なし、登録不要です"
+            },
+            "universal": {
+                "title": "ユニバーサルサポート",
+                "desc": "すべての Unicode 文字とスクリプトに対応しています"
+            }
+        },
+        "uses_title": "主な活用シーン",
+        "uses": {
+            "programming": {
+                "title": "プログラミング",
+                "desc": "特殊文字を JavaScript や Java のソースコードに安全に埋め込みます"
+            },
+            "data": {
+                "title": "データのシリアル化",
+                "desc": "JSON で非 ASCII 文字を安全に送信できるようにします"
+            },
+            "international": {
+                "title": "国際化",
+                "desc": "さまざまな言語やスクリプトのテキストをデバッグし、表示します"
+            },
+            "security": {
+                "title": "セキュリティ",
+                "desc": "難読化されたコードや Unicode エスケープを含むデータを分析します"
+            }
+        },
+        "how_to_title": "使い方",
+        "how_to": {
+            "step1": {
+                "title": "モードを選択",
+                "desc": "必要に応じて「Unicode にエンコード」または「Unicode をデコード」を選択します"
+            },
+            "step2": {
+                "title": "テキストを入力",
+                "desc": "入力フィールドにテキストまたは Unicode エスケープを貼り付けます"
+            },
+            "step3": {
+                "title": "処理",
+                "desc": "エンコードまたはデコードボタンをクリックします"
+            },
+            "step4": {
+                "title": "結果をコピー",
+                "desc": "「コピー」をクリックして処理されたテキストをクリップボードにコピーします"
+            },
+            "step5": {
+                "title": "どこでも使用可能",
+                "desc": "結果をコードやアプリケーションに貼り付けます"
+            }
+        },
+        "examples_title": "Unicode の例",
+        "examples": {
+            "simple": {
+                "title": "シンプル\/ASCII:",
+                "desc": "原文: \"A\" → エンコード後: \"\\u0041\""
+            },
+            "special": {
+                "title": "特殊文字:",
+                "desc": "原文: \"©\" → エンコード後: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "絵文字\/マルチバイト:",
+                "desc": "原文: \"🌟\" → エンコード後: \"\\uD83C\\uDF1F\" (サロゲートペア) または表現により \"\\u2B50\""
+            }
+        },
+        "faq_title": "よくある質問",
+        "faq": {
+            "q1": "なぜ Unicode エスケープシーケンスを使うのですか？",
+            "a1": "ASCII 文字のみを使用してあらゆる文字を表現できるため、生の Unicode を正しく扱えない可能性のある異なるシステム、エンコーディング、ファイル転送間でも互換性を確保できます。",
+            "q2": "どのような形式が使用されますか？",
+            "a2": "このツールは通常、基本多言語面の文字に対して JavaScript\/JSON スタイルの \\uXXXX 形式を使用します。",
+            "q3": "URL エンコーディングとは違いますか？",
+            "a3": "はい。URL エンコーディングは主に URL 用に %XX の 16 進数値を使用します。Unicode エスケープは \\uXXXX を使用し、JavaScript、Java、Python などのプログラミング言語の文字列で使用されます。",
+            "q4": "データは安全ですか？",
+            "a4": "はい！エンコードとデコードはすべて JavaScript を使用してお使いのブラウザ内で行われます。テキストがデバイスの外に出ることはありません。"
+        }
+    },
+    "js": {
+        "error_empty": "処理するテキストを入力してください",
+        "success_encode": "✓ Unicode のエンコードに成功しました",
+        "success_decode": "✓ Unicode のデコードに成功しました",
+        "error_process": "❌ Unicode 処理エラー: ",
+        "error_no_copy": "コピーする出力がありません",
+        "success_copy": "✓ クリップボードにコピーしました"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - Free JSON Web Token Debugger",
+        "description": "Decode and inspect JSON Web Tokens (JWT) - View header, payload, and signature!",
+        "h1": "JWT Decoder",
+        "subtitle": "Decode and inspect JSON Web Tokens (JWT) - View header, payload, and signature!"
+    },
+    "editor": {
+        "label_input": "Enter JWT Token",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Decode JWT",
+        "btn_clear": "Clear",
+        "btn_example": "Example",
+        "label_payload": "Payload (Claims)",
+        "label_signature": "Signature",
+        "note_signature": "âš ï¸ Note: Signature verification requires the secret key"
+    },
+    "content": {
+        "hero_title": "Free JWT Decoder Online",
+        "hero_subtitle": "Decode and inspect JSON Web Tokens instantly",
+        "p1": "Our free JWT Decoder tool allows you to decode and inspect JSON Web Tokens (JWT) to view their header, payload, and signature components. Perfect for debugging authentication issues, understanding token structure, and validating JWT claims.",
+        "what_title": "ðŸ” What is JWT?",
+        "what_desc": "JSON Web Token (JWT) is a compact, URL-safe means of representing claims between two parties. JWTs consist of three parts: Header (algorithm and token type], Payload (claims\/data], and Signature (verification], separated by dots.",
+        "features_title": "âœ¨ Features",
+        "features": {
+            "instant": {
+                "title": "Instant Decoding",
+                "desc": "Decode JWTs in milliseconds"
+            },
+            "structured": {
+                "title": "Structured View",
+                "desc": "See header, payload, and signature separately"
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All decoding happens in your browser"
+            }
+        },
+        "uses_title": "🎯 Common Use Cases",
+        "uses": {
+            "debug": {
+                "title": "ðŸ› Debugging",
+                "desc": "Debug authentication issues by inspecting JWT contents"
+            },
+            "validate": {
+                "title": "âœ… Validation",
+                "desc": "Verify JWT claims and expiration times"
+            },
+            "learn": {
+                "title": "📚 Learning",
+                "desc": "Understand JWT structure and components"
+            },
+            "dev": {
+                "title": "🔧 Development",
+                "desc": "Test JWT generation and parsing in your applications"
+            }
+        },
+        "faq_title": "â“ Frequently Asked Questions",
+        "faq": {
+            "q1": "Is it safe to decode JWTs here?",
+            "a1": "Yes! All decoding happens in your browser. Your JWT never leaves your device. However, never share JWTs publicly as they may contain sensitive information.",
+            "q2": "Can this tool verify JWT signatures?",
+            "a2": "This tool decodes and displays JWT components but doesn't verify signatures, as that requires the secret key which should never be shared.",
+            "q3": "What are JWT claims?",
+            "a3": "Claims are statements about an entity (typically the user) and additional data. Common claims include 'sub' (subject], 'exp' (expiration], and 'iat' (issued at)."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter a JWT token",
+        "error_invalid_format": "Invalid JWT format. JWT should have 3 parts separated by dots.",
+        "success_decode": "âœ“ JWT decoded successfully",
+        "error_decode": "✗ Error decoding JWT: "
+    }
+}

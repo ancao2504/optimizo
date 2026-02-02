@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "Encodeur et décodeur HTML - Outil d'entité en ligne gratuit",
+        "description": "Encodez et décodez les entités HTML pour prévenir les attaques XSS avec notre outil en ligne gratuit",
+        "h1": "Encodeur et décodeur HTML",
+        "subtitle": "Encodez et décodez les entités HTML pour prévenir les attaques XSS"
+    },
+    "editor": {
+        "mode_encode": "Encoder HTML",
+        "mode_decode": "Décoder HTML",
+        "label_input_encode": "Entrez le HTML à encoder",
+        "ph_input_encode": "<div>Bonjour & Bienvenue<\/div>",
+        "btn_encode": "Encoder HTML",
+        "btn_clear": "Effacer",
+        "btn_copy": "Copier",
+        "label_output_encode": "HTML encodé",
+        "ph_output": "Le HTML traité apparaîtra ici...",
+        "label_input_decode": "Entrez le HTML à décoder",
+        "label_output_decode": "HTML décodé",
+        "btn_decode": "Décoder HTML"
+    },
+    "content": {
+        "hero_title": "Encodeur et décodeur HTML gratuit",
+        "hero_subtitle": "Encodez et décodez les entités HTML pour prévenir les attaques XSS",
+        "p1": "Notre outil gratuit d'encodage et de décodage HTML vous aide à encoder les caractères spéciaux en HTML pour un affichage sûr sur les pages web, ou à décoder le HTML encodé dans son format d'origine. Parfait pour les développeurs, les professionnels de la sécurité et tous ceux qui travaillent avec du HTML brut.",
+        "what_title": "🔗 Qu'est-ce que l'encodage HTML ?",
+        "what_desc": "L'encodage HTML convertit les caractères qui ont une signification spéciale en HTML (comme <, >, &, \") en leurs entités HTML correspondantes (comme &lt;, &gt;, &amp;, &quot;). Cela empêche le navigateur de les interpréter comme des balises HTML, ce qui est crucial pour prévenir les attaques de type Cross-Site Scripting (XSS).",
+        "features_title": "✨ Caractéristiques",
+        "features": {
+            "fast": {
+                "title": "Conversion instantanée",
+                "desc": "Encodez ou décodez le HTML en quelques millisecondes"
+            },
+            "bidirectional": {
+                "title": "Bidirectionnel",
+                "desc": "Encodez les caractères spéciaux ou décodez les entités en texte"
+            },
+            "privacy": {
+                "title": "La confidentialité d'abord",
+                "desc": "Tout le traitement se fait dans votre navigateur"
+            },
+            "copy": {
+                "title": "Copie en un clic",
+                "desc": "Copiez instantanément le HTML traité dans le presse-papiers"
+            },
+            "free": {
+                "title": "100 % gratuit",
+                "desc": "Aucune limite, aucune inscription requise"
+            },
+            "safe": {
+                "title": "Axé sur la sécurité",
+                "desc": "Aide à prévenir les vulnérabilités XSS"
+            }
+        },
+        "uses_title": "🎯 Cas d'utilisation courants",
+        "uses": {
+            "security": {
+                "title": "🔒 Sécurité",
+                "desc": "Sanitizez les entrées utilisateur pour prévenir les attaques XSS en encodant les caractères spéciaux."
+            },
+            "display": {
+                "title": "💻 Affichage du code",
+                "desc": "Affichez le code HTML brut sur une page web sans qu'il soit rendu par le navigateur."
+            },
+            "data": {
+                "title": "📊 Stockage des données",
+                "desc": "Stockez du contenu en toute sécurité dans des bases de données sans vous soucier des problèmes d'analyse HTML."
+            },
+            "email": {
+                "title": "📧 Modèles d'e-mails",
+                "desc": "Assurez-vous que les caractères spéciaux s'affichent correctement dans les e-mails HTML."
+            }
+        },
+        "how_title": "📚 Comment utiliser",
+        "how_steps": {
+            "1": "Collez votre HTML ou texte dans le champ de saisie",
+            "2": "Cliquez sur le bouton de traitement pour convertir",
+            "3": "Copiez le résultat dans le presse-papiers",
+            "4": ""
+        },
+        "examples_title": "💡 Exemples d'encodage HTML",
+        "examples": {
+            "1": {
+                "title": "Guillemets :",
+                "code": "\"Bonjour\" → &quot;Bonjour&quot;"
+            },
+            "2": {
+                "title": "Esperluette :",
+                "code": "Tom & Jerry → Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "",
+                "code": ""
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Pourquoi ai-je besoin d'encoder le HTML ?",
+            "a1": "L'encodage est essentiel pour la sécurité afin d'empêcher le navigateur d'exécuter des scripts malveillants (XSS) et d'afficher correctement les extraits de code.",
+            "q2": "Quels caractères sont encodés ?",
+            "a2": "Les caractères essentiels comme <, >, &, \", et ' sont toujours encodés. Les caractères ASCII étendus peuvent également être encodés.",
+            "q3": "Est-ce réversible ?",
+            "a3": "Oui, le décodage inverse exactement le processus, rétablissant le texte d'origine."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez entrer du HTML à traiter",
+        "success_encode": "✓ HTML encodé avec succès",
+        "success_decode": "✓ HTML décodé avec succès",
+        "error_process": "✗ Erreur lors du traitement du HTML : ",
+        "error_no_copy": "Pas de sortie à copier",
+        "success_copy": "✓ Copié dans le presse-papiers"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "JSON to SQL Converter - ilmainen online-siirtotyökalu",
+        "description": "Muunna JSON-tiedot SQL INSERT -lauseiksi välittömästi. Täydellinen tietokantojen siirtoon ja tiedonsiirtoon.",
+        "h1": "JSON to SQL Converter",
+        "subtitle": "Muunna JSON-taulukot ja -objektit SQL-skripteiksi"
+    },
+    "editor": {
+        "label_tablename": "Taulun nimi",
+        "ph_tablename": "Anna taulukon nimi (esim. käyttäjät)",
+        "btn_convert": "Generoi SQL",
+        "btn_clear": "Selkeä",
+        "btn_copy": "Kopioi SQL",
+        "btn_example": "Lataa esimerkki",
+        "label_input": "JSON-tulo",
+        "ph_input": "Liitä JSON-ryhmäsi tähän...",
+        "label_output": "SQL-tulostus",
+        "ph_output": "Luodut SQL INSERT -käskyt näkyvät täällä..."
+    },
+    "content": {
+        "hero_title": "Vaivaton JSON-muunnos SQL:ksi",
+        "hero_subtitle": "Nopein tapa luoda tietokannan kylvökomentosarjoja",
+        "p1": "JSON-tietojen muuntamisen SQL INSERT -lauseiksi ei pitäisi olla manuaalinen tehtävä. JSON-SQL-muuntimemme käsittelee raskasta nostoa yhdistämällä JSON-avaimesi automaattisesti tietokannan sarakkeisiin ja pakottamalla arvot turvallista lisäämistä varten. Se on olennainen työkalu kehittäjille, jotka työskentelevät tietojen siirron, testauksen tai tietokannan alustuksen parissa.",
+        "what_title": "Milloin tätä työkalua käytetään?",
+        "what_desc": "Jos sinulla on JSON-muodossa olevia tietoja, kuten vienti NoSQL-tietokannasta tai API-vastaus, ja sinun on lisättävä se relaatiotietokantaan, kuten MySQL, PostgreSQL tai SQL Server, tämä työkalu on sinua varten. Se muotoilee jokaisen objektin puhtaaksi SQL-lauseeksi.",
+        "features_title": "Tärkeimmät ominaisuudet",
+        "features": {
+            "fast": {
+                "title": "Instant Generation",
+                "desc": "Luo satoja SQL-rivejä silmänräpäyksessä."
+            },
+            "private": {
+                "title": "Yksityisyys taattu",
+                "desc": "Kaikki käsittely on paikallista. Arkaluontoiset tietosi pysyvät selaimessasi."
+            },
+            "copy": {
+                "title": "Vienti yhdellä napsautuksella",
+                "desc": "Kopioi koko komentosarja tai lataa se siirtoja varten."
+            },
+            "smart": {
+                "title": "Älykäs pakeneminen",
+                "desc": "Käsittelee automaattisesti lainausmerkkejä ja erikoismerkkejä merkkijonoissa."
+            },
+            "free": {
+                "title": "100 % ilmainen",
+                "desc": "Ei rajoituksia, ei rekisteröintiä, ei vaivaa."
+            },
+            "db": {
+                "title": "Cross-DB-ystävällinen",
+                "desc": "Luo standardin SQL:n, joka on yhteensopiva useimpien tietokantajärjestelmien kanssa."
+            }
+        },
+        "uses_title": "Ammattikäyttöön tarkoitettuja tapauksia",
+        "uses": {
+            "migration": {
+                "title": "Tietojen siirto",
+                "desc": "Siirrä tiedot helposti JSON-pohjaisista järjestelmistä SQL-tietokantoihin."
+            },
+            "import": {
+                "title": "Joukkotuonti",
+                "desc": "Lataa suuria määriä testi- tai tuotantotietoja nopeasti."
+            },
+            "api": {
+                "title": "API tietokantaan",
+                "desc": "Muunna kolmannen osapuolen API-tulokset suoraan SQL-lisäkkeiksi."
+            },
+            "test": {
+                "title": "Testitietojen kylvö",
+                "desc": "Luo SQL-skriptejä kehitysympäristöjen täyttämiseksi."
+            },
+            "backup": {
+                "title": "Varmuuskopion palautus",
+                "desc": "Muuta JSON-varmuuskopiot takaisin toimiviksi SQL-skripteiksi."
+            },
+            "dev": {
+                "title": "Nopea prototyyppi",
+                "desc": "Täytä uudet tietokantataulukot nopeasti kehityksen aikana."
+            }
+        },
+        "how_title": "Kuinka käyttää",
+        "how_steps": [
+            "Anna kohdetietokanta <strong>taulukon nimi<\/strong>",
+            "Liitä <strong>JSON<\/strong> (on oltava jono tai objekti)",
+            "Luo komentosarja napsauttamalla <strong>Luo SQL<\/strong>",
+            "<strong>Kopioi<\/strong> SQL-tuloste leikepöydällesi"
+        ],
+        "faq_title": "Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mitä JSON-muotoa tarvitaan?",
+            "a1": "Työkalu toimii parhaiten objektijoukon kanssa, jossa jokainen objekti edustaa tietokannan riviä.",
+            "q2": "Käsitteleekö se sisäkkäisiä objekteja?",
+            "a2": "Se kartoittaa tällä hetkellä huipputason avaimet. Sisäkkäiset objektit yleensä ketjutetaan tai ohitetaan DB-tarpeesi mukaan.",
+            "q3": "Onko riveillä rajaa?",
+            "a3": "Kovia rajoituksia ei ole, vaikka selaimesi suorituskyky voi vaihdella tuhansien rivien mukaan."
+        },
+        "tips_title": "Ammattilaisten vinkkejä",
+        "tips_list": [
+            "Varmista, että JSON-avaimesi vastaavat tarkasti SQL-sarakkeiden nimiä.",
+            "Tarkista aina luotu SQL ennen sen suorittamista tuotantotietokannassa.",
+            "Käytä Esimerkki-painiketta nähdäksesi odotetun JSON-rakenteen."
+        ]
+    },
+    "js": {
+        "error_empty": "Anna JSON-tiedot ja taulukon nimi",
+        "success_convert": "✓ SQL luotu onnistuneesti!",
+        "error_convert": "Virhe luotaessa SQL:ää:",
+        "error_no_copy": "Ei kopioitavaa SQL:ää. Muunna ensin JSON.",
+        "success_copy": "✓ SQL kopioitu leikepöydälle!"
+    }
+}

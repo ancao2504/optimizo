@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Pura Base64 kuvaksi - ilmainen online-dekooderi",
+        "description": "Muunna Base64-koodatut merkkijonot takaisin kuviksi (PNG, JPG, GIF). Ilmainen online-dekooderi.",
+        "h1": "Pura Base64 kuvaksi",
+        "subtitle": "Muunna Base64-koodatut merkkijonot takaisin kuviksi (PNG, JPG, GIF) välittömästi"
+    },
+    "input": {
+        "title": "Liitä Base64-merkkijono",
+        "desc": "Liitä koodisi alapuolelle visualisoidaksesi kuvan",
+        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Pura kuva"
+    },
+    "result": {
+        "image_alt": "Purettu kuva",
+        "success": "Kuva purettu onnistuneesti",
+        "btn_download": "Lataa kuva",
+        "btn_clear": "Tyhjennä"
+    },
+    "content": {
+        "title": "Pura Base64 kuvaksi",
+        "p1": "Löytyikö pitkä rimsu satunnaisia merkkejä, joka alkaa <code>data:image\/...<\/code>? Se on todennäköisesti Base64-koodattu kuva.",
+        "p2": "Meidän <strong>Base64-kuva-dekooderimme<\/strong> muuntaa tekstin takaisin näkyväksi kuvaksi (PNG, JPG, GIF jne.), jonka voit ladata koneellesi.",
+        "features": {
+            "preview": {
+                "title": "Välitön esikatselu",
+                "desc": "Näet kuvan heti. Jäsennämme binääritiedon ja näytämme sen ruudullasi."
+            },
+            "auto": {
+                "title": "Automaattinen tunnistus",
+                "desc": "Tunnistamme tiedostomuodon (PNG, JPEG, GIF) automaattisesti koodin alusta."
+            },
+            "download": {
+                "title": "Lataa tiedosto",
+                "desc": "Tallenna purettu tulos oikeana kuvatiedostona yhdellä klikkauksella."
+            }
+        },
+        "how_to": {
+            "title": "Miten purkaminen tapahtuu?",
+            "list": [
+                "Liitä Base64-koodi tekstikenttään.",
+                "Yritämme lukea koodin välittömästi.",
+                "Jos koodi on kelvollinen, kuva ilmestyy vasemmalle.",
+                "Klikkaa \"Lataa kuva\" tallentaaksesi sen."
+            ]
+        },
+        "use_cases": {
+            "title": "Yleisimmät käyttötapaukset",
+            "list": [
+                "Debuggaus: Tarkista, mitä kuvadataa API-vastauksissa liikkuu.",
+                "Palautus: Poimi kuvia CSS- tai HTML-tiedostoista.",
+                "Varmistus: Varmista, ettei Base64-merkkijono ole korruptoitunut."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Ole hyvä ja liitä Base64-koodi ensin.",
+        "invalid_error": "Kelvoton Base64-koodi tai tukematon kuvamuoto."
+    }
+}

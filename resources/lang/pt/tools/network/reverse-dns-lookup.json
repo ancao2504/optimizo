@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Pesquisa reversa de DNS - ferramenta on-line gratuita de IP para domínio",
+        "description": "Ferramenta de consulta de DNS reverso online gratuita. Encontre o hostname associado a qualquer endereço IP instantaneamente. Rápido, seguro e fácil de usar.",
+        "h1": "Pesquisa reversa de DNS",
+        "subtitle": "Encontre o nome de domínio ou hostname associado a um endereço IP instantaneamente"
+    },
+    "form": {
+        "ip_label": "Insira o Endereço IP",
+        "ip_placeholder": "ex: 8.8.8.8",
+        "button": "Consultar DNS Reverso",
+        "button_loading": "Consultando..."
+    },
+    "results": {
+        "title": "Resultados do DNS Reverso"
+    },
+    "content": {
+        "what_is_title": "O que é Consulta de DNS Reverso?",
+        "what_is_desc": "A consulta de DNS reverso (rDNS) é o processo de determinar o nome de domínio ou hostname associado a um endereço IP. Ao contrário de uma consulta DNS padrão que converte um nome de domínio em um endereço IP (consulta direta), o rDNS faz o oposto. É frequentemente usado para verificar a identidade de um servidor ou para resolver problemas de rede.",
+        "why_use_title": "Por que usar a Consulta de DNS Reverso?",
+        "why_use_desc": "O DNS reverso é amplamente utilizado para fins de segurança e verificação. Ele ajuda a identificar a origem do tráfego de entrada, verificar remetentes de e-mail (para evitar spam) e diagnosticar problemas de conectividade de rede. Muitos servidores de e-mail exigem registros rDNS válidos para aceitar e-mails de entrada.",
+        "ptr_records_title": "Entendendo os Registros PTR",
+        "ptr_record1": "<strong>Registro PTR:<\/strong> Um Registro de Ponteiro (PTR) é o tipo de registro DNS usado para consultas de DNS reverso.",
+        "ptr_record2": "<strong>Mapeamento:<\/strong> Ele mapeia um endereço IP de volta para um hostname.",
+        "ptr_record3": "<strong>Verificação:<\/strong> Crucial para a entrega de e-mail e verificação de segurança.",
+        "ptr_record4": "<strong>IP para Host:<\/strong> Essencial para identificar o verdadeiro proprietário de um endereço IP.",
+        "ptr_record5": "<strong>Prevenção de Spam:<\/strong> Usado por servidores de e-mail para validar a autenticidade do remetente.",
+        "ptr_record6": "<strong>Logs de Rede:<\/strong> Útil para tornar os logs de rede legíveis, mostrando nomes de host em vez de IPs.",
+        "use_cases_title": "Casos de Uso Comuns",
+        "use_cases_desc": "Casos de uso comuns incluem verificar a origem do tráfego web, diagnosticar latência de rede ou problemas de roteamento, validar configurações de servidores de e-mail e aprimorar auditorias de segurança cibernética ao identificar endereços IP potencialmente maliciosos."
+    },
+    "faq": {
+        "title": "Perguntas Frequentes",
+        "q1": "O que é um registro PTR?",
+        "a1": "Um registro PTR (Pointer) é um tipo de registro DNS que mapeia um endereço IP para um hostname. É o componente principal de uma consulta de DNS reverso.",
+        "q2": "Por que o DNS reverso é importante para o e-mail?",
+        "a2": "Muitos provedores de e-mail usam o DNS reverso para verificar se o servidor de envio é legítimo. Se o endereço IP de um servidor não tiver um registro rDNS correspondente, seus e-mails podem ser marcados como spam.",
+        "q3": "Qualquer endereço IP pode ter um registro de DNS reverso?",
+        "a3": "Sim, mas o proprietário do endereço IP (tipicamente o ISP ou provedor de hospedagem) deve configurar o registro PTR em suas configurações de DNS."
+    }
+}

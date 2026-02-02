@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Bild-zu-Base64-Konverter – kostenloses Online-String-Tool",
+        "description": "Konvertieren Sie Bilder in Base64-kodierte Zeichenfolgen zum Einbetten in HTML oder CSS. Kostenloses Online-Tool mit Unterstützung für PNG, JPG, GIF.",
+        "h1": "Bild in Base64-String konvertieren",
+        "subtitle": "Konvertieren Sie Bilder in Base64-kodierte Zeichenfolgen zum Einbetten in HTML oder CSS"
+    },
+    "input": {
+        "title": "Bild hochladen",
+        "desc": "Ziehen Sie Ihre Bilddatei hierher",
+        "drop_title": "Bilddatei hier ablegen",
+        "drop_desc": "Unterstützt alle Bildformate"
+    },
+    "editor": {
+        "image_alt": "Vorschau",
+        "label_string": "Base64-Zeichenfolge",
+        "btn_copy": "In Zwischenablage kopieren",
+        "char_count": "Zeichenanzahl",
+        "mime_type": "MIME-Typ"
+    },
+    "content": {
+        "title": "Bild in Base64-Zeichenfolge umwandeln",
+        "p1": "Entwickler und Webdesigner müssen Bilder oft direkt in HTML- oder CSS-Dateien einbetten, um HTTP-Anfragen zu reduzieren.",
+        "p2": "Unser <strong>Bild-zu-Base64-Konverter<\/strong> kodiert Ihre Bilddatei in eine lange Zeichenfolge, die die Binärdaten repräsentiert. Sie können diese Zeichenfolge direkt in Ihren Code einfügen.",
+        "features": {
+            "clipboard": {
+                "title": "Bereit für die Zwischenablage",
+                "desc": "Kopieren mit einem Klick. Wir formatieren die Ausgabe für HTML (`&lt;img src=\"...\"&gt;`) oder CSS (`background: url(...)`)."
+            },
+            "requests": {
+                "title": "Anfragen reduzieren",
+                "desc": "Das Einbetten kleiner Icons und Logos als Base64 eliminiert den Netzwerk-Overhead für das Abrufen externer Bilddateien."
+            },
+            "formats": {
+                "title": "Jedes Format",
+                "desc": "Funktioniert mit PNG, JPG, GIF, WEBP, SVG und sogar ICO-Dateien."
+            }
+        },
+        "how_to": {
+            "title": "Wie funktioniert es?",
+            "list": [
+                "Wählen Sie Ihre Bilddatei aus.",
+                "Das Tool konvertiert die Datei sofort in einen Daten-URI.",
+                "Klicken Sie auf „In Zwischenablage kopieren“, um den Code zu erhalten.",
+                "Fügen Sie ihn in Ihr `src`-Attribut oder Ihre CSS-Datei ein."
+            ]
+        },
+        "use_cases": {
+            "title": "Wann sollte man Base64 verwenden?",
+            "list": [
+                "Kleine Bilder: Ideal für Icons, Spinner und kleine Logos (unter 10 KB).",
+                "Ein-Datei-Apps: Wenn Sie alles in einer HTML-Datei bündeln müssen (z. B. E-Mail-Vorlagen).",
+                "Offline-Zugriff: Stellt sicher, dass Bilder geladen werden, auch wenn keine Netzwerkverbindung besteht, falls das HTML lokal gespeichert wird."
+            ]
+        }
+    },
+    "js": {
+        "copied": "Kopiert!"
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "SQL'den JSON'a Dönüştürücü - Ücretsiz Çevrimiçi Veritabanı Aracı",
+        "description": "Ücretsiz çevrimiçi aracımızla SQL INSERT deyimlerini anında JSON dizilerine dönüştürün. Hızlı, doğru ve güvenli.",
+        "h1": "SQL'den JSON'a dönüştürücü",
+        "subtitle": "SQL verileri ve JSON nesneleri arasında kolayca dönüşüm yapın"
+    },
+    "editor": {
+        "btn_encode": "JSON'adan SQL'e Modu",
+        "btn_decode": "SQL'den JSON'a Modu",
+        "label_table": "Tablo Adı",
+        "ph_table": "Tablo adını girin (örn. users)",
+        "label_input_json": "JSON Girişi",
+        "ph_input_json": "JSON dizinizi buraya yapıştırın...",
+        "label_output_sql": "SQL Çıktısı",
+        "ph_output_sql": "Oluşturulan SQL burada görünecek...",
+        "label_input_sql": "SQL Girişi",
+        "label_output_json": "JSON Çıktısı",
+        "btn_convert_sql": "SQL Oluştur",
+        "btn_convert_json": "JSON Oluştur",
+        "btn_clear": "Temizle",
+        "btn_copy": "Çıktıyı Kopyala"
+    },
+    "content": {
+        "hero_title": "SQL - JSON Dönüştürücü",
+        "hero_subtitle": "Modern geliştiriciler için çift yönlü dönüşüm",
+        "p1": "Modern uygulamalar JSON ile gelişir ancak veritabanları hala SQL konuşur. Çift yönlü dönüştürücümüz bu boşluğu zahmetsizce doldurur. İster veritabanı dışa aktarımlarını API'niz için JSON'a dönüştürmeniz gereksin, ister JSON verilerini SQL tohumlama betiklerine; bu araç hızlı, güvenli ve doğru bir çözüm sunar.",
+        "integration_title": "Sorunsuz Entegrasyon",
+        "integration_desc": "İlişkisel veritabanınız ile web uygulamanız arasında verileri kolayca taşıyın. Ayrıştırıcımız standart SQL INSERT deyimlerini işler ve veri türlerini ve değerlerini koruyarak bunları yapılandırılmış JSON nesnelerine dönüştürür.",
+        "features_title": "Ana Özellikler",
+        "features": {
+            "instant": {
+                "title": "Anında Sonuçlar",
+                "desc": "Dönüşümler tıkladığınız anda gerçek zamanlı olarak gerçekleşir."
+            },
+            "bidirectional": {
+                "title": "Çift Mod",
+                "desc": "SQL'den JSON'a ve JSON'dan SQL'e modları arasında geçiş yapın."
+            },
+            "security": {
+                "title": "Güvenli Dönüşüm",
+                "desc": "Maksimum gizlilik için tüm işlemler %100 istemci tarafında yapılır."
+            },
+            "custom": {
+                "title": "Temiz Formatlama",
+                "desc": "Çıktı profesyonelce formatlanmıştır ve kullanıma hazırdır."
+            },
+            "types": {
+                "title": "Tür Farkındalığı",
+                "desc": "Null değerleri, sayıları ve dizeleri doğru şekilde işler."
+            },
+            "free": {
+                "title": "Tamamen Ücretsiz",
+                "desc": "Abonelik veya kullanım sınırı yoktur."
+            }
+        },
+        "uses_title": "Yaygın Kullanım Durumları",
+        "uses": {
+            "seeding": {
+                "title": "Veritabanı Tohumlama",
+                "desc": "Geliştirme ortamınızı doldurmak için hızlıca SQL betikleri oluşturun."
+            },
+            "export": {
+                "title": "Veri Dışa Aktarma",
+                "desc": "SQL sorgu sonuçlarını analiz için JSON'a dönüştürün."
+            },
+            "migration": {
+                "title": "API Taşıma",
+                "desc": "Eski veritabanı verilerini modern REST API'lerinde kullanmak üzere hazırlayın."
+            },
+            "testing": {
+                "title": "Taklit Veri (Mock Data)",
+                "desc": "Mevcut SQL tablolarından JSON taklit verileri oluşturun."
+            },
+            "docs": {
+                "title": "Dokümantasyon",
+                "desc": "Belgelerinizde veritabanı yapınızın JSON örneklerini dahil edin."
+            },
+            "prototype": {
+                "title": "Hızlı Prototipleme",
+                "desc": "Geliştirme sırasında verileri durumlar arasında hızla taşıyın."
+            }
+        },
+        "how_title": "Nasıl Kullanılır",
+        "how_steps": {
+            "1": {
+                "title": "Mod Seçin",
+                "desc": "Düğmeleri kullanarak JSON'dan SQL'e veya SQL'den JSON'a modunu seçin."
+            },
+            "2": {
+                "title": "Veriyi Girin",
+                "desc": "Kaynak kodunuzu soldaki düzenleyici alanına yapıştırın."
+            },
+            "3": {
+                "title": "Tablo Adını Belirleyin",
+                "desc": "SQL'e dönüştürüyorsanız, hedef veritabanı tablosunu belirtin."
+            },
+            "4": {
+                "title": "Oluşturun",
+                "desc": "Dönüşümü anında görmek için 'Oluştur' düğmesine tıklayın."
+            },
+            "5": {
+                "title": "Sonucu Kopyalayın",
+                "desc": "Çıktınızı almak için 'Kopyala' düğmesini kullanın."
+            }
+        },
+        "samples_title": "Dönüşüm Örnekleri",
+        "samples": [
+            {
+                "title": "SQL Insert'ten JSON'a",
+                "desc": "INSERT INTO users (ad, yas) VALUES ('Ali', 25); → [{\"ad\": \"Ali\", \"yas\": 25}]"
+            },
+            {
+                "title": "JSON'dan SQL Insert'e",
+                "desc": "[{\"id\": 1}] → INSERT INTO tablo (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Sıkça Sorulan Sorular",
+        "faq": {
+            "q1": "Hangi SQL deyimleri destekleniyor?",
+            "a1": "Şu anda araç, tanımlanmış sütun adlarına sahip standart INSERT INTO deyimlerini desteklemektedir.",
+            "q2": "Verilerim güvende mi?",
+            "a2": "Evet, verilerinizi asla sunucumuza göndermeyiz. Tüm mantık tarayıcınızda çalışır.",
+            "q3": "Birden fazla satırı dönüştürebilir miyim?",
+            "a3": "Evet, araç çok satırlı SQL'i veya büyük JSON dizilerini verimli bir şekilde işler.",
+            "q4": "Özel karakterleri işliyor mu?",
+            "a4": "Evet, tek tırnakları doğru şekilde kaçırır (escape) ve temel özel karakterleri halleder."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen işlemek için biraz veri girin",
+        "placeholder_table_name": "kullanıcılar",
+        "error_general": "Dönüşüm hatası: ",
+        "error_invalid_array": "Hata: Giriş bir JSON nesne dizisi olmalıdır.",
+        "error_empty_array": "Hata: JSON dizisi boş.",
+        "success_sql": "✓ SQL başarıyla oluşturuldu!",
+        "error_no_statements": "Geçerli SQL INSERT deyimi bulunamadı.",
+        "success_json": "✓ JSON başarıyla oluşturuldu!",
+        "error_no_copy": "Kopyalanacak içerik yok.",
+        "success_copy": "✓ Çıktı panoya kopyalandı!"
+    }
+}

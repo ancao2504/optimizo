@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "Konwerter SQL na JSON — bezpłatne narzędzie do obsługi baz danych online",
+        "description": "Przekształcaj polecenia INSERT SQL na tablice JSON natychmiastowo za pomocą naszego darmowego narzędzia online. Szybki, dokładny i bezpieczny.",
+        "h1": "Konwerter SQL na JSON",
+        "subtitle": "Łatwo konwertuj między danymi SQL a obiektami JSON"
+    },
+    "editor": {
+        "btn_encode": "Tryb JSON na SQL",
+        "btn_decode": "Tryb SQL na JSON",
+        "label_table": "Nazwa tabeli",
+        "ph_table": "Wprowadź nazwę tabeli (np. users)",
+        "label_input_json": "Wejście JSON",
+        "ph_input_json": "Wklej swoją tablicę JSON tutaj...",
+        "label_output_sql": "Wyjście SQL",
+        "ph_output_sql": "Wygenerowane SQL pojawi się tutaj...",
+        "label_input_sql": "Wejście SQL",
+        "label_output_json": "Wyjście JSON",
+        "btn_convert_sql": "Generuj SQL",
+        "btn_convert_json": "Generuj JSON",
+        "btn_clear": "Wyczyść",
+        "btn_copy": "Kopiuj wynik"
+    },
+    "content": {
+        "hero_title": "Konwerter SQL na JSON",
+        "hero_subtitle": "Dwukierunkowa konwersja dla nowoczesnych programistów",
+        "p1": "Nowoczesne aplikacje opierają się na JSON, ale bazy danych wciąż mówią w SQL. Nasz dwukierunkowy konwerter wypełnia tę lukę bez wysiłku. Niezależnie od tego, czy chcesz zamienić eksporty bazy danych na JSON dla swojego API, czy dane JSON na skrypty seedujące SQL, to narzędzie zapewnia szybkie, bezpieczne i dokładne rozwiązanie.",
+        "integration_title": "Bezproblemowa integracja",
+        "integration_desc": "Łatwo przenoś dane między relacyjną bazą danych a aplikacją internetową. Nasz parser obsługuje standardowe polecenia INSERT SQL i konwertuje je na ustrukturyzowane obiekty JSON, zachowując typy danych i wartości.",
+        "features_title": "Kluczowe cechy",
+        "features": {
+            "instant": {
+                "title": "Natychmiastowe wyniki",
+                "desc": "Konwersje odbywają się w czasie rzeczywistym po kliknięciu."
+            },
+            "bidirectional": {
+                "title": "Tryb podwójny",
+                "desc": "Przełączaj się między trybami SQL-na-JSON i JSON-na-SQL."
+            },
+            "security": {
+                "title": "Bezpieczna konwersja",
+                "desc": "Przetwarzanie jest w 100% po stronie klienta dla maksymalnej prywatności."
+            },
+            "custom": {
+                "title": "Czyste formatowanie",
+                "desc": "Wyjście jest profesjonalnie sformatowane i gotowe do użycia."
+            },
+            "types": {
+                "title": "Świadomość typów",
+                "desc": "Poprawnie obsługuje wartości null, liczby i ciągi znaków."
+            },
+            "free": {
+                "title": "Całkowicie darmowe",
+                "desc": "Brak subskrypcji lub limitów użytkowania."
+            }
+        },
+        "uses_title": "Typowe przypadki użycia",
+        "uses": {
+            "seeding": {
+                "title": "Seedowanie bazy danych",
+                "desc": "Szybko generuj skrypty SQL do wypełniania środowiska deweloperskiego."
+            },
+            "export": {
+                "title": "Eksport danych",
+                "desc": "Konwertuj wyniki zapytań SQL na JSON do analizy."
+            },
+            "migration": {
+                "title": "Migracja API",
+                "desc": "Przygotuj dane starszej bazy danych do użycia w nowoczesnych API REST."
+            },
+            "testing": {
+                "title": "Dane testowe",
+                "desc": "Twórz dane testowe JSON z istniejących tabel SQL."
+            },
+            "docs": {
+                "title": "Dokumentacja",
+                "desc": "Dołącz przykłady JSON struktury bazy danych w dokumentacji."
+            },
+            "prototype": {
+                "title": "Szybkie prototypowanie",
+                "desc": "Szybko przenoś dane między stanami podczas rozwoju."
+            }
+        },
+        "how_title": "Jak używać",
+        "how_steps": {
+            "1": {
+                "title": "Wybierz tryb",
+                "desc": "Wybierz między JSON na SQL lub SQL na JSON za pomocą przycisków."
+            },
+            "2": {
+                "title": "Wprowadź dane",
+                "desc": "Wklej swój kod źródłowy do lewego obszaru edytora."
+            },
+            "3": {
+                "title": "Ustaw nazwę tabeli",
+                "desc": "Jeśli konwertujesz na SQL, określ docelową tabelę bazy danych."
+            },
+            "4": {
+                "title": "Generuj",
+                "desc": "Kliknij 'Generuj', aby natychmiast zobaczyć transformację."
+            },
+            "5": {
+                "title": "Skopiuj wynik",
+                "desc": "Użyj przycisku 'Kopiuj', aby pobrać wynik."
+            }
+        },
+        "samples_title": "Przykłady konwersji",
+        "samples": [
+            {
+                "title": "Wstawienia SQL na JSON",
+                "desc": "INSERT INTO users (name, age) VALUES ('Alice', 25); → [{\"name\": \"Alice\", \"age\": 25}]"
+            },
+            {
+                "title": "Wstawienie JSON na SQL",
+                "desc": "[{\"id\": 1}] → INSERT INTO table (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Często zadawane pytania",
+        "faq": {
+            "q1": "Jakie polecenia SQL są obsługiwane?",
+            "a1": "Obecnie narzędzie obsługuje standardowe polecenia INSERT INTO ze zdefiniowanymi nazwami kolumn.",
+            "q2": "Czy moje dane są bezpieczne?",
+            "a2": "Tak, nigdy nie wysyłamy Twoich danych na nasz serwer. Cała logika działa w Twojej przeglądarce.",
+            "q3": "Czy mogę konwertować wiele wierszy?",
+            "a3": "Tak, narzędzie wydajnie obsługuje wielowierszowe SQL lub duże tablice JSON.",
+            "q4": "Czy obsługuje znaki specjalne?",
+            "a4": "Tak, poprawnie eskapuje pojedyncze cudzysłowy i obsługuje podstawowe znaki specjalne."
+        }
+    },
+    "js": {
+        "error_empty": "Wprowadź dane do przetworzenia",
+        "placeholder_table_name": "użytkownicy",
+        "error_general": "Błąd konwersji: ",
+        "error_invalid_array": "Błąd: Dane wejściowe muszą być tablicą obiektów JSON.",
+        "error_empty_array": "Błąd: Tablica JSON jest pusta.",
+        "success_sql": "✓ SQL wygenerowany pomyślnie!",
+        "error_no_statements": "Nie znaleziono prawidłowych poleceń INSERT SQL.",
+        "success_json": "✓ JSON wygenerowany pomyślnie!",
+        "error_no_copy": "Brak zawartości do skopiowania.",
+        "success_copy": "✓ Wynik skopiowany do schowka!"
+    }
+}

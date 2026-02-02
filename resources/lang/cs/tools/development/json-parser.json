@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "JSON Parser & Validator – bezplatná online kontrola syntaxe",
+        "description": "Analyzujte, validujte a vizualizujte strukturu JSON",
+        "h1": "JSON Parser & Validator",
+        "subtitle": "Analyzujte, validujte a vizualizujte strukturu JSON"
+    },
+    "editor": {
+        "label_input": "JSON vstup",
+        "ph_input": "{\"name\": \"John Doe\", \"age\": 30, \"isActive\": true}",
+        "btn_parse": "Analyzovat JSON",
+        "btn_beautify": "Zkrášlit",
+        "btn_minify": "Minifikovat",
+        "btn_clear": "Vymazat",
+        "btn_load": "Načíst ukázku",
+        "title_tree": "Stromové zobrazení JSON"
+    },
+    "content": {
+        "hero_title": "Bezplatný JSON analyzátor a validátor",
+        "hero_subtitle": "Analyzujte, validujte, zkrášlujte a minifikujte JSON data okamžitě",
+        "p1": "Náš bezplatný JSON analyzátor je výkonný online nástroj pro vývojáře, datové analytiky a každého, kdo pracuje s JSON daty. Okamžitě analyzujte, validujte, zkrášlujte a minifikujte JSON pomocí čistého a intuitivního rozhraní. Ideální pro ladění API, formátování konfiguračních souborů nebo validaci struktury JSON. 100% zdarma, zpracování na straně klienta zajišťuje, že vaše data zůstanou soukromá a bezpečná.",
+        "what_title": "📋 Co je JSON?",
+        "what_desc": "JSON (JavaScript Object Notation) je lehký formát pro výměnu dat, který je pro lidi snadno čitelný a zapisovatelný a pro stroje snadno analyzovatelný a generovatelný. Je to nejoblíbenější formát pro API, konfigurační soubory a ukládání dat. JSON používá páry klíč-hodnota a podporuje řetězce, čísla, booleovské hodnoty, pole a vnořené objekty.",
+        "features_title": "✨ Funkce",
+        "features": {
+            "validate": {
+                "title": "Validace JSON",
+                "desc": "Okamžitě validujte syntaxi a strukturu JSON"
+            },
+            "beautify": {
+                "title": "Zkrášlení JSON",
+                "desc": "Formátujte JSON se správným odsazením a mezerami"
+            },
+            "minify": {
+                "title": "Minifikace JSON",
+                "desc": "Komprimujte JSON odstraněním mezer"
+            },
+            "tree": {
+                "title": "Stromové zobrazení",
+                "desc": "Vizualizujte strukturu JSON ve stromovém formátu"
+            },
+            "privacy": {
+                "title": "Soukromí na prvním místě",
+                "desc": "Veškeré zpracování probíhá ve vašem prohlížeči"
+            },
+            "instant": {
+                "title": "Okamžité výsledky",
+                "desc": "Analyzujte a formátujte JSON v milisekundách"
+            }
+        },
+        "uses_title": "🎯 Běžné příklady použití",
+        "uses": {
+            "api": {
+                "title": "🔌 Vývoj API",
+                "desc": "Testujte a ladíte odpovědi API, validujte data požadavků a formátujte JSON data."
+            },
+            "config": {
+                "title": "⚙️ Konfigurační soubory",
+                "desc": "Formátujte a validujte konfigurační soubory pro aplikace, databáze a služby."
+            },
+            "analysis": {
+                "title": "📊 Analýza dat",
+                "desc": "Analyzujte a vizualizujte JSON data z databází, logů a analytických nástrojů."
+            },
+            "debug": {
+                "title": "🐛 Ladění",
+                "desc": "Identifikujte chyby v syntaxi, validujte strukturu a řešte problémy s JSON."
+            },
+            "docs": {
+                "title": "📝 Dokumentace",
+                "desc": "Vytvářejte čitelné příklady JSON pro dokumentaci API a technické příručky."
+            },
+            "migration": {
+                "title": "🔄 Migrace dat",
+                "desc": "Transformujte a validujte JSON během importů a exportů dat."
+            }
+        },
+        "how_title": "📚 Jak používat",
+        "how_steps": [
+            "<strong>Vložte JSON:<\/strong> Zkopírujte a vložte svá JSON data do vstupního pole",
+            "<strong>Analyzovat:<\/strong> Klikněte na „Analyzovat JSON“ pro validaci a vizualizaci struktury",
+            "<strong>Zkrášlit:<\/strong> Klikněte na „Zkrášlit“ pro formátování se správným odsazením",
+            "<strong>Minifikovat:<\/strong> Klikněte na „Minifikovat“ pro komprimaci a odstranění mezer",
+            "<strong>Zobrazit strom:<\/strong> Podívejte se na hierarchickou strukturu ve formátu stromového zobrazení"
+        ],
+        "tips_title": "💡 Nejlepší postupy pro JSON",
+        "tips_list": [
+            "<strong>Používejte dvojité uvozovky:<\/strong> JSON vyžaduje pro řetězce dvojité uvozovky, nikoli jednoduché",
+            "<strong>Žádné přebytečné čárky:<\/strong> Odstraňte čárky za poslední položkou v objektech a polích",
+            "<strong>Správné datové typy:<\/strong> Používejte čísla bez uvozovek, booleovské hodnoty jako true\/false, null pro prázdné hodnoty",
+            "<strong>Pravidelně validujte:<\/strong> Vždy validujte JSON před nasazením nebo produkčním použitím",
+            "<strong>Zkrášlujte pro čitelnost:<\/strong> Formátujte JSON pro snadnější ladění a údržbu"
+        ],
+        "faq_title": "❓ Často kladené otázky",
+        "faq": {
+            "q1": "Jaký je rozdíl mezi zkrášlením a minifikací?",
+            "a1": "Zkrášlení přidává odsazení a konce řádků, aby byl JSON pro lidi čitelný. Minifikace odstraňuje veškeré mezery pro zmenšení velikosti souboru, což je ideální pro produkční prostředí.",
+            "q2": "Jsou moje JSON data v bezpečí?",
+            "a2": "Ano! Veškerá analýza a formátování JSON probíhá zcela ve vašem prohlížeči. Vaše data nikdy neopustí vaše zařízení a neodesílají se na žádný server.",
+            "q3": "Mohu analyzovat velké soubory JSON?",
+            "a3": "Ano, náš analyzátor zvládne velké soubory JSON. Velmi velké soubory (>10 MB) však mohou v závislosti na výkonu vašeho zařízení trvat déle.",
+            "q4": "Jaké chyby analyzátor detekuje?",
+            "a4": "Analyzátor detekuje chyby v syntaxi, jako jsou chybějící uvozovky, přebytečné čárky, neplatné znaky, neuzavřené závorky a nesprávné datové typy. Chybové zprávy ukazují přesné umístění problému.",
+            "q5": "Mohu to použít pro testování API?",
+            "a5": "Absolutně! Tento nástroj je ideální pro testování odpovědí API, validaci dat požadavků a formátování JSON dat z volání API."
+        }
+    },
+    "js": {
+        "error_empty_parse": "Zadejte prosím JSON data k analýze",
+        "success_valid": "✓ Platný JSON! Úspěšně analyzováno",
+        "error_invalid": "✗ Neplatný JSON: ",
+        "error_empty_beautify": "Zadejte prosím JSON data ke zkrášlení",
+        "success_beautify": "✓ JSON byl úspěšně zkrášlen",
+        "error_beautify": "✗ Nelze zkrášlit neplatný JSON: ",
+        "error_empty_minify": "Zadejte prosím JSON data k minifikaci",
+        "success_minify": "✓ JSON byl úspěšně minifikován",
+        "error_minify": "✗ Nelze minifikovat neplatný JSON: ",
+        "success_load": "Ukázkový JSON byl načten"
+    }
+}

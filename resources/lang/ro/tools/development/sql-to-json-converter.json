@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "Convertor SQL în JSON - Instrument gratuit pentru baze de date online",
+        "description": "Transformă datele între formatele SQL INSERT și JSON bidirecțional. Instrument gratuit pentru dezvoltatori pentru gestionarea datelor.",
+        "h1": "Convertor SQL în JSON",
+        "subtitle": "Conversie bidirecțională între SQL și JSON"
+    },
+    "editor": {
+        "btn_encode": "JSON în SQL Mode",
+        "btn_decode": "SQL în JSON Mode",
+        "label_table": "Nume Tabel",
+        "ph_table": "Introdu numele tabelului (ex: utilizatori)",
+        "label_input_json": "Intrare JSON",
+        "ph_input_json": "Lipește array-ul tău JSON aici...",
+        "label_output_sql": "Ieșire SQL",
+        "ph_output_sql": "SQL-ul generat va apărea aici...",
+        "label_input_sql": "Intrare SQL",
+        "label_output_json": "Ieșire JSON",
+        "btn_convert_sql": "Generează SQL",
+        "btn_convert_json": "Generează JSON",
+        "btn_clear": "Șterge",
+        "btn_copy": "Copiază Ieșirea"
+    },
+    "content": {
+        "hero_title": "Convertor SQL <=> JSON",
+        "hero_subtitle": "Conversie bidirecțională pentru dezvoltatori moderni",
+        "p1": "Aplicațiile moderne prosperă pe JSON, dar bazele de date încă vorbesc SQL. Convertorul nostru bidirecțional reduce această diferență fără efort. Indiferent dacă trebuie să transformi exporturile bazei de date în JSON pentru API-ul tău, sau datele JSON în scripturi de populare SQL, acest instrument oferă o soluție rapidă, sigură și precisă.",
+        "integration_title": "Integrare Perfectă",
+        "integration_desc": "Mută ușor datele între baza ta de date relațională și aplicația ta web. Parserul nostru gestionează instrucțiunile SQL INSERT standard și le convertește în obiecte JSON structurate, păstrând tipurile de date și valorile.",
+        "features_title": "✨ Caracteristici Principal",
+        "features": {
+            "instant": {
+                "title": "Rezultate Instantanee",
+                "desc": "Conversiile au loc în timp real pe măsură ce faci clic."
+            },
+            "bidirectional": {
+                "title": "Mod Dual",
+                "desc": "Comută între modurile SQL-în-JSON și JSON-în-SQL."
+            },
+            "security": {
+                "title": "Conversie Securizată",
+                "desc": "Procesarea este 100% client-side pentru confidențialitate maximă."
+            },
+            "custom": {
+                "title": "Formatare Curată",
+                "desc": "Ieșirea este formatată profesional și gata de utilizare."
+            },
+            "types": {
+                "title": "Conștientizare Tipuri",
+                "desc": "Gestionează corect valorile nule, numerele și șirurile."
+            },
+            "free": {
+                "title": "Total Gratuit",
+                "desc": "Fără abonament sau limite de utilizare."
+            }
+        },
+        "uses_title": "Cazuri Comune de Utilizare",
+        "uses": {
+            "seeding": {
+                "title": "Populare Bază de Date",
+                "desc": "Generează rapid scripturi SQL pentru a-ți popula mediul de dezvoltare."
+            },
+            "export": {
+                "title": "Export Date",
+                "desc": "Convertește rezultatele interogărilor SQL în JSON pentru analiză."
+            },
+            "migration": {
+                "title": "Migrare API",
+                "desc": "Pregătește datele bazei de date vechi pentru utilizare în API-uri REST moderne."
+            },
+            "testing": {
+                "title": "Date Mock",
+                "desc": "Creează date mock JSON din tabele SQL existente."
+            },
+            "docs": {
+                "title": "Documentație",
+                "desc": "Include exemple JSON ale structurii bazei tale de date în documentație."
+            },
+            "prototype": {
+                "title": "Prototipare Rapidă",
+                "desc": "Mută rapid datele între stări în timpul dezvoltării."
+            }
+        },
+        "how_title": "Cum se Utilizează",
+        "how_steps": {
+            "1": {
+                "title": "Selectează Modul",
+                "desc": "Alege între JSON în SQL sau SQL în JSON folosind butoanele."
+            },
+            "2": {
+                "title": "Introdu Datele",
+                "desc": "Lipește codul sursă în zona editorului din stânga."
+            },
+            "3": {
+                "title": "Setează Numele Tabelului",
+                "desc": "Dacă convertești în SQL, specifică tabelul țintă al bazei de date."
+            },
+            "4": {
+                "title": "Generează",
+                "desc": "Fă clic pe „Generează” pentru a vedea transformarea instantaneu."
+            },
+            "5": {
+                "title": "Copiază Rezultatul",
+                "desc": "Utilizează butonul „Copiază” pentru a prelua ieșirea."
+            }
+        },
+        "samples_title": "Exemple de Conversie",
+        "samples": [
+            {
+                "title": "SQL Insert în JSON",
+                "desc": "INSERT INTO utilizatori (nume, varsta) VALUES ('Alice', 25); → [{\"nume\": \"Alice\", \"varsta\": 25}]"
+            },
+            {
+                "title": "JSON în SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO tabel (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Întrebări Frecvente",
+        "faq": {
+            "q1": "Ce instrucțiuni SQL sunt suportate?",
+            "a1": "În prezent, instrumentul suportă instrucțiuni standard INSERT INTO cu nume de coloane definite.",
+            "q2": "Sunt datele mele în siguranță?",
+            "a2": "Da, nu trimitem niciodată datele tale la serverul nostru. Toată logica rulează în browserul tău.",
+            "q3": "Pot converti mai multe rânduri?",
+            "a3": "Da, instrumentul gestionează eficient SQL multi-linie sau array-uri JSON mari.",
+            "q4": "Gestionează caracterele speciale?",
+            "a4": "Da, acesta scapă corect ghilimelele simple și gestionează caracterele speciale de bază."
+        }
+    },
+    "js": {
+        "error_empty": "Te rugăm să introduci date pentru procesare",
+        "placeholder_table_name": "utilizatori",
+        "error_general": "Eroare de conversie: ",
+        "error_invalid_array": "Eroare: Intrarea trebuie să fie un array de obiecte JSON.",
+        "error_empty_array": "Eroare: Array-ul JSON este gol.",
+        "success_sql": "✓ SQL generat cu succes!",
+        "error_no_statements": "Nu au fost găsite instrucțiuni SQL INSERT valide.",
+        "success_json": "✓ JSON generat cu succes!",
+        "error_no_copy": "Nu există conținut de copiat.",
+        "success_copy": "✓ Rezultat copiat în clipboard!"
+    }
+}

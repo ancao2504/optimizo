@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Ping Test Tool Online - Free Network Latency Checker",
+        "description": "Free ping test tool to check network latency, packet loss, and server reachability. Test connectivity to any host or IP address instantly. Essential for network troubleshooting.",
+        "h1": "Ping Test Tool",
+        "subtitle": "Test server response time and network connectivity from multiple locations"
+    },
+    "form": {
+        "host_label": "Host or IP Address",
+        "host_placeholder": "google.com or 8.8.8.8",
+        "button": "Ping Host"
+    },
+    "results": {
+        "title": "Ping Results"
+    },
+    "content": {
+        "what_is_title": "What is Ping Test?",
+        "what_is_desc": "Ping is a network diagnostic tool that tests the reachability of a host on an Internet Protocol (IP) network. It measures the round-trip time for messages sent from the source to a destination computer and back. Ping operates by sending Internet Control Message Protocol (ICMP) Echo Request packets to the target host and waiting for an Echo Reply. The tool is named after the sonar ping sound used in submarine detection, as it similarly sends out a signal and listens for a response.",
+        "why_use_title": "Why Use Ping Test?",
+        "why_use_desc": "Ping testing is essential for network troubleshooting and performance monitoring. System administrators use ping to verify network connectivity, diagnose connection issues, and measure network latency. It helps identify whether a server is online and responsive, detect packet loss that might indicate network congestion or hardware problems, and measure the quality of network connections. Gamers use ping to check server latency before joining online games, while website owners monitor their server's responsiveness to ensure optimal user experience.",
+        "metrics_title": "Understanding Ping Metrics",
+        "metric1": "<strong>Packets Sent\/Received:<\/strong> Number of ping requests and successful responses",
+        "metric2": "<strong>Packet Loss:<\/strong> Percentage of packets that didn't receive a response",
+        "metric3": "<strong>Minimum Time:<\/strong> Fastest round-trip time recorded",
+        "metric4": "<strong>Average Time:<\/strong> Mean latency across all pings",
+        "metric5": "<strong>Maximum Time:<\/strong> Slowest round-trip time recorded",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Number of network hops before packet expires",
+        "interpreting_title": "Interpreting Results",
+        "interpreting_desc": "Good ping times are typically under 50ms for local connections and under 100ms for international connections. Times between 100-200ms are acceptable for most applications but may cause noticeable lag in real-time applications like gaming or video conferencing. Anything above 200ms indicates potential network issues. Packet loss above 1% suggests network problems that need investigation. Consistent ping times indicate stable connections, while highly variable times suggest network congestion or routing issues."
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": "What is a ping test?",
+        "a1": "A ping test sends data packets to a server and measures the time it takes to receive a response. It's used to check network connectivity, measure latency, and diagnose connection issues.",
+        "q2": "What is a good ping time?",
+        "a2": "For general browsing: under 100ms is good. For gaming: under 50ms is ideal, under 20ms is excellent. For video calls: under 150ms is acceptable. Lower ping means faster response times.",
+        "q3": "Why is my ping high?",
+        "a3": "High ping can be caused by network congestion, distance to server, poor WiFi signal, ISP throttling, or too many devices on your network. Try using wired connection, closing bandwidth-heavy applications, or contacting your ISP.",
+        "q4": "What does \"Request timed out\" mean?",
+        "a4": "Request timeout means the server didn't respond within the expected time. This can indicate the server is down, blocking ping requests (firewall), or there's a network connectivity issue.",
+        "q5": "Can I ping any website?",
+        "a5": "Most websites can be pinged, but some servers block ICMP ping requests for security reasons. If ping fails, the website might still be accessible via browser - try using other tools like traceroute or port checker."
+    },
+    "js": {
+        "pinging": "Pinging host...",
+        "success": "Ping completed successfully",
+        "error": "Ping failed",
+        "ping_host": "Ping Host"
+    }
+}

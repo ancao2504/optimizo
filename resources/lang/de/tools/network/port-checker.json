@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Port Checker Tool – Kostenloser Online-Scanner für offene Ports",
+        "description": "Kostenloses Port-Checker-Tool, um zu testen, ob Ports offen, geschlossen oder gefiltert sind. Prüfen Sie TCP\/UDP-Ports sofort für Netzwerkfehlersuche und Sicherheitsaudits.",
+        "h1": "Port-Checker-Tool",
+        "subtitle": "Prüfen Sie, ob Ports auf einem Server offen sind, um Verbindungsprobleme zu beheben"
+    },
+    "form": {
+        "host_label": "Host oder IP-Adresse",
+        "host_placeholder": "beispiel.de oder 8.8.8.8",
+        "port_label": "Port-Nummer",
+        "port_placeholder": "80",
+        "button": "Port prüfen"
+    },
+    "results": {
+        "title": "Ergebnisse der Port-Prüfung"
+    },
+    "content": {
+        "what_is_title": "Was ist ein Port Checker?",
+        "what_is_desc": "Ein Port Checker ist ein Netzwerkdiagnosetool, das feststellt, ob ein bestimmter TCP- oder UDP-Port auf einem Server oder Gerät offen ist (Verbindungen akzeptiert), geschlossen ist (Verbindungen ablehnt) oder gefiltert wird (von einer Firewall blockiert). Ports sind virtuelle Endpunkte für die Netzwerkkommunikation, wobei jede Portnummer (1-65535) potenziell verschiedene Dienste hosten kann. Gängige Ports sind 80 für HTTP-Webverkehr, 443 für HTTPS, 22 für SSH und 25 für E-Mails. Die Überprüfung des Portstatus ist entscheidend für die Netzwerkkonfiguration, Sicherheitsaudits und die Behebung von Verbindungsproblemen.",
+        "why_check_title": "Warum Ports prüfen?",
+        "why_check_desc": "Die Portprüfung dient mehreren kritischen Zwecken in der Netzwerkverwaltung und Sicherheit. Systemadministratoren verifizieren, dass Dienste nach Konfigurationsänderungen auf ihren vorgesehenen Ports erreichbar sind. Sicherheitsexperten scannen nach offenen Ports, um potenzielle Schwachstellen zu identifizieren und sicherzustellen, dass nicht benötigte Ports geschlossen sind. Entwickler testen, ob ihre Anwendungen ordnungsgemäß auf konfigurierten Ports lauschen. Netzwerk-Fehlersucher nutzen die Portprüfung, um zu diagnostizieren, warum Dienste nicht erreichbar sind, und festzustellen, ob das Problem am Dienst selbst, an Firewall-Regeln oder am Netzwerk-Routing liegt.",
+        "common_ports_title": "Gängige Ports",
+        "port1": "<strong>Port 80:<\/strong> HTTP (Webverkehr)",
+        "port2": "<strong>Port 443:<\/strong> HTTPS (sicherer Webverkehr)",
+        "port3": "<strong>Port 22:<\/strong> SSH (sicherer Shell-Zugriff)",
+        "port4": "<strong>Port 21:<\/strong> FTP (Dateiübertragung)",
+        "port5": "<strong>Port 25:<\/strong> SMTP (E-Mail-Versand)",
+        "port6": "<strong>Port 3306:<\/strong> MySQL-Datenbank",
+        "port7": "<strong>Port 3389:<\/strong> RDP (Remote Desktop)",
+        "security_title": "Sicherheitsaspekte",
+        "security_desc": "Offene Ports stellen potenzielle Eintrittspunkte für Angreifer dar. Bewährte Sicherheitspraktiken schreiben vor, nur notwendige Ports offen zu halten und alle anderen zu schließen oder zu filtern. Das regelmäßige Scannen Ihrer eigenen Server hilft dabei, unbeabsichtigt offene Ports zu identifizieren, die ausgenutzt werden könnten. Beachten Sie jedoch, dass das Scannen der Ports fremder Systeme ohne Erlaubnis illegal sein kann und als feindselige Aktivität betrachtet wird. Stellen Sie immer sicher, dass Sie die Autorisierung haben, bevor Sie Ports auf Systemen scannen, die Ihnen nicht gehören."
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen (FAQ)",
+        "q1": "Was bedeutet ein 'gefilterter' Port?",
+        "a1": "Ein gefilterter Port bedeutet, dass eine Firewall oder ein anderes Netzwerkfiltergerät die Pakete abfängt und der Port-Status nicht bestimmt werden kann (keine Antwort).",
+        "q2": "Warum ist Port 80\/443 so wichtig?",
+        "a2": "Diese Ports werden für fast den gesamten Webverkehr (HTTP und HTTPS) genutzt. Wenn sie geschlossen sind, kann eine Website nicht im Browser aufgerufen werden.",
+        "q3": "Wie öffne ich einen Port auf meinem eigenen Router?",
+        "a3": "Dies geschieht über die Port-Weiterleitung (Port Forwarding) in den Router-Einstellungen. Seien Sie vorsichtig, da dies Sicherheitsrisiken bergen kann.",
+        "q4": "Kann ich UDP-Ports genauso einfach prüfen wie TCP?",
+        "a4": "UDP ist schwieriger zu prüfen, da es verbindungslos ist. Eine fehlende Antwort kann bedeuten, dass der Port offen ist und einfach nicht antwortet, oder dass er gefiltert wird.",
+        "q5": "Welche Ports sollte ich aus Sicherheitsgründen immer schließen?",
+        "a5": "Alle Ports, die nicht explizit benötigt werden, sollten geschlossen werden. Besonders kritisch sind Ports für Datenbanken (3306), Fernwartung (3389) oder unverschlüsselte Dienste."
+    },
+    "js": {
+        "checking": "Port wird geprüft...",
+        "success": "Port-Status erfolgreich ermittelt",
+        "error": "Fehler bei der Port-Prüfung",
+        "check_port": "Port prüfen"
+    }
+}

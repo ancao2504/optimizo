@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker - Free Online Tag Validator",
+        "description": "Free hreflang checker tool to validate your hreflang tags, troubleshoot language targeting issues, and ensure proper international SEO implementation.",
+        "h1": "Hreflang Checker",
+        "subtitle": "Validate hreflang tags and troubleshoot international SEO targeting"
+    },
+    "form": {
+        "url_label": "Enter URL to Check",
+        "url_placeholder": "https:\/\/example.com\/fr",
+        "user_agent_label": "User Agent",
+        "user_agent_default": "Default (Browser)",
+        "user_agent_googlebot": "Googlebot (Google)",
+        "user_agent_bingbot": "Bingbot (Bing)",
+        "button": "Check Hreflang Tags"
+    },
+    "content": {
+        "main_title": "Hreflang Tag Checker",
+        "main_subtitle": "Ensure your international content reaches the right audience. Validate hreflang implementation and fix common SEO errors.",
+        "intro": "Hreflang tags are essential for websites serving multiple languages or countries. Our free Hreflang Checker tool extracts and validates `rel=\"alternate\" hreflang=\"x\"` tags from your page's HTML head and HTTP headers. It checks for reciprocal (return) tags to ensure Google and other search engines correctly index your localized content.",
+        "features_title": "Why Check Your Hreflang Tags?",
+        "feature1_title": "Validate Reciprocal Tags",
+        "feature1_desc": "Hreflang tags must work in pairs. Our tool automatically checks if page A links to page B, and if page B links back to page A.",
+        "feature2_title": "Detect Common Errors",
+        "feature2_desc": "Find missing return tags, invalid language codes (ISO 639-1), and incorrect country codes (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Prevent SEO Issues",
+        "feature3_desc": "Incorrect hreflang implementation can lead to duplicate content issues and wrong language pages appearing in search results.",
+        "how_title": "How to Use the Hreflang Checker",
+        "step1_title": "Enter URL",
+        "step1_desc": "Paste the full URL of the page you want to analyze (e.g., https:\/\/example.com\/en).",
+        "step2_title": "Select User Agent",
+        "step2_desc": "Running a Googlebot check is recommended, but you can also check as a standard browser.",
+        "step3_title": "Analyze Results",
+        "step3_desc": "We will fetch the page and list all found alternate links along with their verification status.",
+        "step4_title": "Fix Issues",
+        "step4_desc": "If 'Missing Return Tag' errors appear, update your referenced pages to include the reciprocal link.",
+        "faq_title": "Frequently Asked Questions",
+        "faq1_q": "What is a hreflang tag?",
+        "faq1_a": "Hreflang is an HTML attribute used to specify the language and geographical targeting of a webpage. It tells search engines which version of a page to show to users in different countries or languages.",
+        "faq2_q": "Why are return tags important?",
+        "faq2_a": "Google requires return links to prevent people from arbitrarily claiming a page on another site as an alternate version of their own. If page A links to page B, page B must link back to page A.",
+        "faq3_q": "Does this tool check the x-default tag?",
+        "faq3_a": "Yes, our tool identifies and validates the `x-default` hreflang tag, which is used for unmatched languages or strict country selectors.",
+        "faq4_q": "Can I check hreflang in HTTP headers?",
+        "faq4_a": "Yes! We check both the HTML `<head>` section and the HTTP response headers for `Link: <url>; rel=\"alternate\"; hreflang=\"code\"` attributes.",
+        "faq5_q": "What happens if I have hreflang errors?",
+        "faq5_a": "Search engines may ignore your invalid tags, leading to correct language versions not being shown to the right users, or potential duplicate content penalties.",
+        "faq6_q": "Is this tool free?",
+        "faq6_a": "Yes, you can perform unlimited checks for free to ensure your international SEO is perfect."
+    }
+}

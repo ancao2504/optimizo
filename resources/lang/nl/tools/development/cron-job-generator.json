@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - Gratis online Crontab-tool",
+        "description": "Maak eenvoudig cron-schema's met onze visuele generator - u hoeft de cron-syntaxis niet te onthouden",
+        "h1": "Cron-jobgenerator",
+        "subtitle": "Maak eenvoudig cron-schema's met onze visuele generator"
+    },
+    "editor": {
+        "common_settings": "Algemene instellingen",
+        "choose": "-- Kies --",
+        "options": {
+            "every_minute": "Elke minuut (* * * * *)",
+            "every_5_minutes": "Elke 5 minuten (*\/5 * * * *)",
+            "every_15_minutes": "Elke 15 minuten (*\/15 * * * *)",
+            "every_30_minutes": "Elke 30 minuten (*\/30 * * * *)",
+            "every_hour": "Elk uur (0 * * * *)",
+            "every_day_midnight": "Elke dag om middernacht (0 0 * * *)",
+            "every_week": "Elke week (0 0 * * 0)",
+            "every_month": "Elke maand (0 0 1 * *)"
+        },
+        "minute": "Minuut",
+        "every_minute": "Elke minuut (*)",
+        "hour": "Uur",
+        "every_hour": "Elk uur (*)",
+        "day": "Dag",
+        "every_day": "Elke dag (*)",
+        "month": "Maand",
+        "every_month": "Elke maand (*)",
+        "weekday": "Weekdag",
+        "every_weekday": "Elke weekdag (*)",
+        "command": "Uit te voeren commando",
+        "ph_command": "\/usr\/bin\/php \/pad\/naar\/script.php",
+        "generated_cron": "Gegenereerde cron-expressie",
+        "btn_copy": "Cron kopiëren",
+        "btn_clear": "Resetten"
+    },
+    "content": {
+        "hero_title": "Cron-jobgenerator",
+        "p1": "Het instellen van cron-jobs kan verwarrend zijn met cryptische sterretjes en getallen. Onze gratis online Cron Job Generator stelt u in staat om perfecte cron-schema's visueel op te bouwen. Of u nu een script elke 5 minuten, om middernacht of op specifieke dagen van de maand moet uitvoeren, onze tool genereert onmiddellijk de juiste syntaxis voor u.",
+        "features": {
+            "visual": {
+                "title": "Visuele editor",
+                "desc": "Selecteer minuten, uren, dagen en maanden met behulp van een eenvoudige interface"
+            },
+            "readable": {
+                "title": "Menselijk leesbaar",
+                "desc": "Zet cron-expressies om in beschrijvingen in gewone taal"
+            }
+        },
+        "syntax_title": "📚 Cron-syntaxis begrijpen",
+        "syntax_intro": "Een cron-expressie bestaat uit 5 velden gescheiden door spaties:",
+        "syntax_fields": {
+            "min": "Minuut (0-59)",
+            "hour": "Uur (0-23)",
+            "day": "Dag van de maand (1-31)",
+            "month": "Maand (1-12)",
+            "week": "Dag van de week (0-6, zondag=0)"
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Wat is een cron-job?",
+            "a1": "Een cron-job is een tijdsgebaseerde taakplanner in Unix-achtige computerbesturingssystemen. Gebruikers kunnen taken (commando's of scripts) plannen om periodiek uit te voeren op vaste tijden, datums of intervallen.",
+            "q2": "Hoe installeer ik een cron-job?",
+            "a2": "U gebruikt meestal het commando `crontab -e` in uw terminal om uw cron-bestand te bewerken. Plak vervolgens de gegenereerde regel onderaan het bestand.",
+            "q4": "Wat betekent een sterretje (*)?",
+            "a4": "Een sterretje betekent \"elke\". Bijvoorbeeld, een sterretje in het minutenveld betekent \"elke minuut\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron-expressie gekopieerd naar klembord!",
+        "no_copy": "Geen cron-expressie om te kopiëren"
+    }
+}

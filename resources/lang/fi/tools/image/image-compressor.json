@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "title": "Image Compressor Online - Ilmainen kuvan koon pienennys",
+        "description": "Pakkaa kuvat verkossa ilmaiseksi. Pienennä JPG-, PNG- ja WebP-tiedostojen kokoa laadun säilyttäen.",
+        "h1": "Kuvan kompressori",
+        "subtitle": "Pienennä kuvien tiedostokokoa menettämättä laatua"
+    },
+    "editor": {
+        "label_upload": "Lataa kuva",
+        "drop_title": "Pudota kuva tähän tai klikkaa selataksesi",
+        "drop_subtitle": "Raahaa kuva tai valitse tiedosto laitteeltasi",
+        "supports": "Tukee JPG, PNG, WebP -muotoja",
+        "label_quality": "Pakkauslaatu:",
+        "title_original": "Alkuperäinen",
+        "label_size": "Koko:",
+        "title_compressed": "Pakattu kuva",
+        "label_saved": "Säästö:",
+        "btn_download": "Lataa pakattu kuva"
+    },
+    "content": {
+        "p1": "Pakkaa kuvasi verkossa ilmaisella työkalullamme. Pienennä JPG-, PNG- ja WebP-tiedostojen kokoa jopa 90 % säilyttäen erinomaisen visuaalisen laadun. Optimoi kuvat verkkosivuille ja someen.",
+        "why_title": "Miksi pakata kuvia?",
+        "why_list": [
+            "Sivuston nopeammat latausajat parantavat käyttökokemusta ja hakukoneoptimointia",
+            "Vähennä kaistanleveyden käyttöä ja isännöintikustannuksia",
+            "Optimoi kuvat mobiililaitteille ja hitaille yhteyksille",
+            "Täytä sähköpostin liitteiden ja lähetysten tiedostokokorajoitukset",
+            "Paranna Core Web Vitals- ja Google PageSpeed ​​-pisteitä",
+            "Säästä tallennustilaa laitteellasi tai palvelimellasi"
+        ],
+        "formats_title": "Tuetut kuvamuodot",
+        "quality_title": "Tietoa pakkauslaadusta",
+        "quality_list": [
+            "100 % - Ei pakkausta, alkuperäinen laatu (suurin tiedostokoko)",
+            "80-90% - Korkea laatu, minimaalinen näkyvä ero (suositellaan useimpiin käyttötarkoituksiin)",
+            "60-80% - Hyvä laatu, huomattava pakkaus suurella zoomilla",
+            "40-60 % - Keskilaatuinen, näkyviä esineitä, mutta kelpaa verkkokäyttöön",
+            "10-40 % - Huono laatu, merkittävä laadun heikkeneminen (pienin tiedostokoko)"
+        ],
+        "how_title": "Miten kuvan pakkaus toimii",
+        "how_desc": "Työkalumme käyttää kehittyneitä pakkausalgoritmeja pienentääkseen tiedostokokoa säilyttäen samalla kuvanlaadun. JPG-kuvissa käytämme häviöllistä pakkausta, joka poistaa huomaamattomat yksityiskohdat. PNG:lle optimoimme väripaletin ja käytämme tehokasta koodausta. Kaikki pakkaus tapahtuu selaimessasi - kuvat eivät koskaan poistu laitteestasi.",
+        "best_title": "Kuvanpakkauksen parhaat käytännöt",
+        "best_list": [
+            "Aloita korkealaatuisista alkuperäisistä kuvista saadaksesi parhaat tulokset",
+            "Käytä verkkokuville 80–90 % laatua – täydellinen koon ja laadun tasapaino",
+            "Pakkaa kuvat ennen lataamista verkkosivustoille tai sosiaaliseen mediaan",
+            "Käytä JPG-muotoa valokuville, PNG-muotoa läpinäkyvälle grafiikalle",
+            "Harkitse WebP-muotoa nykyaikaisille selaimille (pienemmille tiedostoille)",
+            "Esikatsele aina pakattuja kuvia ennen lataamista",
+            "Säilytä alkuperäiset tiedostot varmuuskopiona ennen pakkaamista"
+        ],
+        "privacy_title": "100% yksityinen ja suojattu",
+        "privacy_desc": "Kaikki kuvien pakkaus tapahtuu kokonaan selaimessasi JavaScriptin avulla. Kuviasi ei koskaan ladata palvelimillemme, mikä takaa täydellisen yksityisyyden ja turvallisuuden. Tiedostosi eivät koskaan poistu laitteestasi.",
+        "faq_title": "Usein kysytyt kysymykset",
+        "formats": {
+            "jpg": {
+                "title": "JPG\/JPEG",
+                "desc": "Paras valokuville ja monimutkaisille kuville, joissa on useita värejä. Häviöllinen pakkaus."
+            },
+            "png": {
+                "title": "PNG",
+                "desc": "Sopii parhaiten grafiikalle, logoille ja läpinäkyville kuville. Häviötön tai häviöllinen pakkaus."
+            },
+            "webp": {
+                "title": "WebP",
+                "desc": "Moderni formaatti erinomaisella pakkauksella. Pienemmät tiedostot kuin JPG\/PNG samalla laadulla."
+            }
+        },
+        "faq": {
+            "q1": "Heikkeneekö laatu pakkauksessa?",
+            "a1": "Kyllä, mutta hyvin vähän. 80-90 % tasolla ero on paljaalla silmällä huomaamaton.",
+            "q2": "Mitä eroa häviöttömällä ja häviöttömällä pakkauksella on?",
+            "a2": "Häviöllinen pakkaus (JPG) poistaa osan kuvadatasta pienempien tiedostojen muodostamiseksi, kun taas häviötön pakkaus (PNG) pienentää tiedostokokoa menettämättä tietoja. Lossy antaa paremman kompression, mutta hieman laadun heikkenemistä.",
+            "q3": "Kuinka paljon voin pienentää kuvatiedoston kokoa?",
+            "a3": "Tyypillisesti 50-90 % alennus alkuperäisestä kuvasta ja laatuasetuksista riippuen. Valokuvat pakkaavat usein enemmän kuin grafiikat. WebP-muoto tarjoaa parhaan pakkauksen.",
+            "q4": "Ladataanko kuvani palvelimelle?",
+            "a4": "Ei! Pakkaus tapahtuu selaimesi JavaScriptillä. Tiedostosi eivät poistu laitteeltasi.",
+            "q5": "Mitä kuvaformaatteja tuetaan?",
+            "a5": "Tuemme JPG\/JPEG-, PNG- ja WebP-muotoja. Nämä kattavat 99 % verkkokuvista. Työkalu tunnistaa muodon automaattisesti ja käyttää optimaalista pakkausta."
+        }
+    }
+}

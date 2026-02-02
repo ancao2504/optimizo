@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Odkoduj Base64 do obrazu — darmowy dekoder online",
+        "description": "Konwertuj ciągi zakodowane w Base64 z powrotem na obrazy (PNG, JPG, GIF). Darmowy dekoder i wizualizator online.",
+        "h1": "Dekoduj Base64 do obrazu",
+        "subtitle": "Konwertuj ciągi zakodowane w Base64 z powrotem na obrazy (PNG, JPG, GIF) natychmiastowo"
+    },
+    "input": {
+        "title": "Wklej ciąg Base64",
+        "desc": "Wklej swój kod poniżej, aby zwizualizować obraz",
+        "placeholder": "dane:image\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Dekoduj obraz"
+    },
+    "result": {
+        "image_alt": "Zdekodowany obraz",
+        "success": "Obraz zdekodowany pomyślnie",
+        "btn_download": "Pobierz obraz",
+        "btn_clear": "Wyczyść wzór"
+    },
+    "content": {
+        "title": "Dekoduj Base64 na obraz",
+        "p1": "Znalazłeś długi ciąg losowych znaków zaczynający się od <code>data:image\/...<\/code> i nie wiesz, co to jest? To prawdopodobnie obraz zakodowany w Base64.",
+        "p2": "Nasz <strong>dekoder Base64 na obraz<\/strong> konwertuje ten ciąg tekstowy z powrotem na widoczny plik obrazu (PNG, JPG, GIF itp.), który możesz wyświetlić i pobrać na swój komputer.",
+        "features": {
+            "preview": {
+                "title": "Natychmiastowy podgląd",
+                "desc": "Zobacz obraz natychmiast. Analizujemy dane binarne i wyświetlamy je na ekranie."
+            },
+            "auto": {
+                "title": "Automatyczne wykrywanie",
+                "desc": "Automatycznie wykrywamy format pliku (PNG, JPEG, GIF) na podstawie nagłówka ciągu Base64."
+            },
+            "download": {
+                "title": "Pobierz plik",
+                "desc": "Zapisz zdekodowany wynik jako prawdziwy plik obrazu na swoim dysku twardym jednym kliknięciem."
+            }
+        },
+        "how_to": {
+            "title": "Jak dekodować?",
+            "list": [
+                "Wklej ciąg Base64 w pole tekstowe.",
+                "Natychmiast spróbujemy odczytać ciąg.",
+                "Jeśli jest prawidłowy, obraz pojawi się po lewej stronie.",
+                "Kliknij „Pobierz obraz”, aby go zapisać."
+            ]
+        },
+        "use_cases": {
+            "title": "Typowe zastosowania",
+            "list": [
+                "Debugowanie: Sprawdzanie, jakie dane obrazu są wysyłane w odpowiedziach API lub przechowywane w bazach danych.",
+                "Odzyskiwanie: Wyodrębnianie obrazów osadzonych w plikach CSS lub szablonach HTML.",
+                "Weryfikacja: Upewnienie się, że ciąg Base64 nie jest uszkodzony."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Najpierw wklej ciąg Base64.",
+        "invalid_error": "Nieprawidłowy ciąg Base64 lub nieobsługiwany format obrazu."
+    }
+}

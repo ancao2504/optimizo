@@ -1,0 +1,135 @@
+{
+    "meta": {
+        "title": "JSON을 YAML로 변환하는 변환기 - 무료 온라인 개체 도구",
+        "description": "JSON 데이터를 가독성 좋은 YAML 형식으로 즉시 변환하세요. Docker 및 Kubernetes 설정을 위한 필수 도구.",
+        "h1": "JSON을 YAML로 변환하는 변환기",
+        "subtitle": "JSON 데이터를 가독성 높은 YAML 형식으로 실시간 변환"
+    },
+    "content": {
+        "hero_title": "JSON을 가독성 높은 YAML로 변환",
+        "hero_subtitle": "Convert JSON to YAML format instantly and accurately",
+        "p1": "Docker Compose, Kubernetes, CI\/CD 설정 파일 등 현대 인프라 운영에서 빠질 수 없는 YAML 형식을 이제 JSON에서 더 편하게 만들어 보세요. 쉼표(,)와 중괄호({})를 없애고 들여쓰기 기반의 직관적인 YAML로 바꿔 데이터 구성을 명확하게 파악할 수 있습니다.",
+        "what_title": "What is JSON to YAML Converter?",
+        "what_desc": "JSON (JavaScript Object Notation) and YAML (YAML Ain't Markup Language) are both popular data serialization formats. YAML is often preferred for configuration files due to its human-readable syntax. Our tool helps you bridge the gap between these formats quickly.",
+        "features_title": "Key Features",
+        "features": {
+            "fast": {
+                "title": "Fast Conversion",
+                "desc": "Convert JSON to YAML in milliseconds"
+            },
+            "secure": {
+                "title": "Secure & Private",
+                "desc": "Processing happens entirely in your browser"
+            },
+            "copy": {
+                "title": "One-Click Copy",
+                "desc": "Copy the converted YAML instantly"
+            },
+            "format": {
+                "title": "Clean Formatting",
+                "desc": "Produces well-indented YAML output"
+            },
+            "free": {
+                "title": "100% Free",
+                "desc": "No registration or payment required"
+            },
+            "offline": {
+                "title": "Client-Side",
+                "desc": "Works without sending data to a server"
+            }
+        },
+        "uses_title": "Common Use Cases",
+        "uses": {
+            "docker": {
+                "title": "Docker",
+                "desc": "Convert JSON container configs to Docker Compose YAML."
+            },
+            "config": {
+                "title": "Config Files",
+                "desc": "Transform JSON settings to YAML configuration files."
+            },
+            "cicd": {
+                "title": "CI\/CD Pipelines",
+                "desc": "Prepare YAML pipeline definitions from JSON data."
+            },
+            "cloud": {
+                "title": "Cloud Provider Configs",
+                "desc": "Convert JSON data to YAML format for cloud platforms."
+            },
+            "data": {
+                "title": "Data Transformation",
+                "desc": "Switch between JSON and YAML for different data tools."
+            },
+            "tools": {
+                "title": "DevOps Tools",
+                "desc": "Format data correctly for tools that expect YAML."
+            }
+        },
+        "how_title": "How to Use",
+        "how_steps": {
+            "1": {
+                "title": "Paste JSON",
+                "desc": "Enter your JSON data into the input field."
+            },
+            "2": {
+                "title": "Convert",
+                "desc": "Click the \"Convert\" button to generate YAML."
+            },
+            "3": {
+                "title": "Copy YAML",
+                "desc": "Copy the resulting YAML for your project."
+            }
+        },
+        "samples_title": "Conversion Samples",
+        "samples": [
+            {
+                "title": "Basic Object",
+                "json": "{ \"name\": \"Antigravity\", \"version\": \"1.0\" }",
+                "yaml": "name: Antigravity\nversion: 1.0"
+            },
+            {
+                "title": "Array Example",
+                "json": "[ \"Java\", \"Python\", \"Go\" ]",
+                "yaml": "- Java\n- Python\n- Go"
+            }
+        ],
+        "faq_title": "Frequently Asked Questions",
+        "faq": {
+            "q1": "Is it free?",
+            "a1": "Yes, our JSON to YAML converter is 100% free.",
+            "q2": "Is it secure?",
+            "a2": "Yes, all processing happens locally in your browser.",
+            "q3": "Does it support arrays?",
+            "a3": "Yes, it handles complex JSON structures including arrays and nested objects.",
+            "q4": "Is YAML better than JSON?",
+            "a4": "YAML is often easier for humans to read and write, while JSON is generally better for machine processing.",
+            "q5": "Can I use this offline?",
+            "a5": "Yes, once loaded, the tool works offline as it uses local JavaScript."
+        },
+        "tips_title": "Pro Tips",
+        "tips_list": {
+            "1": "Ensure your JSON is valid before converting.",
+            "2": "Use the \"Example\" button to see how the conversion works.",
+            "3": "YAML is case-sensitive, just like JSON.",
+            "4": "Check indentation in the resulting YAML.",
+            "5": "Clear all data easily for a fresh start."
+        }
+    },
+    "editor": {
+        "btn_convert": "YAML로 변환하기",
+        "btn_clear": "지우기",
+        "btn_copy": "복사",
+        "btn_example": "Example",
+        "label_input": "JSON 데이터 입력",
+        "ph_input": "Paste your JSON data here...",
+        "label_output": "변환된 YAML 결과",
+        "ph_output": "Converted YAML will appear here..."
+    },
+    "js": {
+        "error_empty": "Please enter some JSON text",
+        "success_convert": "JSON converted to YAML successfully!",
+        "error_convert": "Error converting JSON: ",
+        "error_no_copy": "No YAML to copy. Please convert JSON first.",
+        "success_copy": "YAML copied to clipboard!"
+    }
+}

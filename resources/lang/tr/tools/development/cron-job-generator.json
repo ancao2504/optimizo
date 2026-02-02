@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - Ücretsiz Çevrimiçi Crontab Aracı",
+        "description": "Görsel oluşturucumuzla kolayca cron planları oluşturun - cron dizimini ezberlemenize gerek yok",
+        "h1": "Cron İş Oluşturucu",
+        "subtitle": "Görsel oluşturucumuzla kolayca cron planları oluşturun"
+    },
+    "editor": {
+        "common_settings": "Genel Ayarlar",
+        "choose": "-- Seçin --",
+        "options": {
+            "every_minute": "Her Dakika (* * * * *)",
+            "every_5_minutes": "Her 5 Dakikada Bir (*\/5 * * * *)",
+            "every_15_minutes": "Her 15 Dakikada Bir (*\/15 * * * *)",
+            "every_30_minutes": "Her 30 Dakikada Bir (*\/30 * * * *)",
+            "every_hour": "Her Saat (0 * * * *)",
+            "every_day_midnight": "Her Gün Gece Yarısı (0 0 * * *)",
+            "every_week": "Her Hafta (0 0 * * 0)",
+            "every_month": "Her Ay (0 0 1 * *)"
+        },
+        "minute": "Dakika",
+        "every_minute": "Her Dakika (*)",
+        "hour": "Saat",
+        "every_hour": "Her Saat (*)",
+        "day": "Gün",
+        "every_day": "Her Gün (*)",
+        "month": "Ay",
+        "every_month": "Her Ay (*)",
+        "weekday": "Haftanın Günü",
+        "every_weekday": "Her Gün (*)",
+        "command": "Çalıştırılacak Komut",
+        "ph_command": "\/usr\/bin\/php \/path\/to\/script.php",
+        "generated_cron": "Oluşturulan Cron İfadesi",
+        "btn_copy": "Cron'u Kopyala",
+        "btn_clear": "Sıfırla"
+    },
+    "content": {
+        "hero_title": "Cron Job Oluşturucu",
+        "p1": "Cron işlerini kurmak; esrarengiz yıldızlar ve sayılar nedeniyle kafa karıştırıcı olabilir. Ücretsiz çevrimiçi Cron Job Oluşturucumuz, mükemmel cron planlarını görsel olarak oluşturmanıza olanak tanır. İster her 5 dakikada bir, ister gece yarısı, ister ayın belirli günlerinde bir betik çalıştırmanız gereksin; aracımız sizin için doğru dizimi anında oluşturur.",
+        "features": {
+            "visual": {
+                "title": "Görsel Düzenleyici",
+                "desc": "Basit bir arayüz kullanarak dakikaları, saatleri, günleri ve ayları seçin"
+            },
+            "readable": {
+                "title": "İnsan Tarafından Okunabilir",
+                "desc": "Cron ifadelerini düz metin açıklamalarına dönüştürür"
+            }
+        },
+        "syntax_title": "📚 Cron Dizimini (Syntax) Anlamak",
+        "syntax_intro": "Bir cron ifadesi boşluklarla ayrılmış 5 alandan oluşur:",
+        "syntax_fields": {
+            "min": "Dakika (0-59)",
+            "hour": "Saat (0-23)",
+            "day": "Ayın Günü (1-31)",
+            "month": "Ay (1-12)",
+            "week": "Haftanın Günü (0-6, Pazar=0)"
+        },
+        "faq_title": "❓ Sıkça Sorulan Sorular",
+        "faq": {
+            "q1": "Cron job nedir?",
+            "a1": "Cron job (cron işi), Unix benzeri bilgisayar işletim sistemlerinde zamana dayalı bir iş planlayıcıdır. Kullanıcılar, işlerin (komutlar veya betikler) belirli zamanlarda, tarihlerde veya aralıklarla periyodik olarak çalışmasını planlayabilirler.",
+            "q2": "Cron job nasıl kurulur?",
+            "a2": "Cron dosyanızı düzenlemek için genellikle terminalinizde `crontab -e` komutunu kullanırsınız. Ardından, oluşturulan satırı dosyanın en altına yapıştırın.",
+            "q4": "Yıldız (*) ne anlama gelir?",
+            "a4": "Yıldız işareti \"her\" anlamına gelir. Örneğin, dakika alanındaki bir yıldız \"her dakika\" anlamına gelir."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron ifadesi panoya kopyalandı!",
+        "no_copy": "Kopyalanacak cron ifadesi yok"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online – Kostenloser JSON-Web-Token-Debugger",
+        "description": "JSON Web Tokens (JWT) sofort dekodieren und untersuchen - Header, Payload und Signatur ansehen!",
+        "h1": "JWT-Decoder",
+        "subtitle": "JSON Web Tokens (JWT) sofort dekodieren und untersuchen - Header, Payload und Signatur ansehen!"
+    },
+    "editor": {
+        "label_input": "JWT-Token eingeben",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "JWT dekodieren",
+        "btn_clear": "Löschen",
+        "btn_example": "Beispiel",
+        "label_payload": "Payload (Claims)",
+        "label_signature": "Signatur",
+        "note_signature": "⚠️ Hinweis: Für die Signaturverifizierung ist der geheime Schlüssel erforderlich"
+    },
+    "content": {
+        "hero_title": "Kostenloser Online JWT-Decoder",
+        "hero_subtitle": "JSON Web Tokens sofort dekodieren und untersuchen",
+        "p1": "Unser kostenloses JWT-Decoder-Tool ermöglicht es Ihnen, JSON Web Tokens (JWT) zu dekodieren und zu untersuchen, um deren Header-, Payload- und Signatur-Komponenten anzusehen. Perfekt zum Debuggen von Authentifizierungsproblemen, zum Verständnis der Token-Struktur und zum Validieren von JWT-Claims.",
+        "what_title": "🔍 Was ist JWT?",
+        "what_desc": "JSON Web Token (JWT) ist ein kompaktes, URL-sicheres Mittel zur Darstellung von Claims zwischen zwei Parteien. JWTs bestehen aus drei Teilen: Header (Algorithmus und Token-Typ), Payload (Claims\/Daten) und Signatur (Verifizierung), getrennt durch Punkte.",
+        "features_title": "✨ Funktionen",
+        "features": {
+            "instant": {
+                "title": "Sofortiges Dekodieren",
+                "desc": "JWTs in Millisekunden dekodieren"
+            },
+            "structured": {
+                "title": "Strukturierte Ansicht",
+                "desc": "Header, Payload und Signatur separat sehen"
+            },
+            "privacy": {
+                "title": "Privatsphäre zuerst",
+                "desc": "Die gesamte Dekodierung erfolgt in Ihrem Browser"
+            }
+        },
+        "uses_title": "🎯 Häufige Anwendungsfälle",
+        "uses": {
+            "debug": {
+                "title": "🐞 Debugging",
+                "desc": "Authentifizierungsprobleme durch Untersuchung des JWT-Inhalts beheben"
+            },
+            "validate": {
+                "title": "✅ Validierung",
+                "desc": "JWT-Claims und Ablaufzeiten überprüfen"
+            },
+            "learn": {
+                "title": "📚 Lernen",
+                "desc": "JWT-Struktur und -Komponenten verstehen"
+            },
+            "dev": {
+                "title": "🛠️ Entwicklung",
+                "desc": "JWT-Generierung und -Parsing in Ihren Anwendungen testen"
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Ist es sicher, JWTs hier zu dekodieren?",
+            "a1": "Ja! Die gesamte Dekodierung erfolgt in Ihrem Browser. Ihr JWT verlässt niemals Ihr Gerät. Teilen Sie JWTs jedoch niemals öffentlich, da sie sensible Informationen enthalten können.",
+            "q2": "Kann dieses Tool JWT-Signaturen verifizieren?",
+            "a2": "Dieses Tool dekodiert und zeigt JWT-Komponenten an, verifiziert jedoch keine Signaturen, da dies den geheimen Schlüssel erfordert, der niemals geteilt werden sollte.",
+            "q3": "Was sind JWT-Claims?",
+            "a3": "Claims sind Aussagen über eine Entität (normalerweise den Benutzer) und zusätzliche Daten. Häufige Claims sind 'sub' (Betreff), 'exp' (Ablauf) und 'iat' (ausgestellt am)."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte geben Sie ein JWT-Token ein",
+        "error_invalid_format": "Ungültiges JWT-Format. Ein JWT sollte aus 3 durch Punkte getrennten Teilen bestehen.",
+        "success_decode": "✓ JWT erfolgreich dekodiert",
+        "error_decode": "✗ Fehler beim Dekodieren des JWT: "
+    }
+}

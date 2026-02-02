@@ -1,0 +1,57 @@
+{
+    "meta": {
+        "title": "Ücretsiz İkili Metin Kod Çözücü - Çevrimiçi Kod Dönüştürücü",
+        "description": "İkili kodu (0'lar ve 1'ler) anında düz metne dönüştürün. İkili verileri ASCII\/UTF-8 karakterlerine çözmek için profesyonel araç.",
+        "h1": "İkili Metin Dönüştürücü",
+        "subtitle": "İkili dizileri insan tarafından okunabilir metne dönüştürmek için nihai araç."
+    },
+    "editor": {
+        "btn_convert": "Metne Dönüştür",
+        "btn_copy": "Çıkışı Kopyala",
+        "btn_download": "Metni İndir",
+        "btn_example": "Örnek Yükle",
+        "btn_clear": "Hepsini Temizle",
+        "label_input": "İkili Giriş (8 bitlik bloklar)",
+        "ph_input": "İkili kodu buraya girin (örn. 01001000 01100101)...",
+        "label_output": "Metin Çıkışı",
+        "ph_output": "Çözülen metin burada görünecek..."
+    },
+    "content": {
+        "about_title": "İkiliden Metne Dönüşümü Anlamak",
+        "about_p1": "İkili sistem bilgisayarların temel dilidir ve verileri 0 ve 1 dizisi olarak temsil eder. Bu araç, bu ikili dizileri standart ASCII\/UTF-8 kodlama modellerini kullanarak tekrar insan tarafından okunabilir metne çevirmenize olanak tanır.",
+        "features_title": "Gelişmiş Kod Çözme Özellikleri",
+        "features_list": {
+            "8bit": "Standart 8 bitlik (oktet) ikili blokları destekler.",
+            "validation": "İkili karakterlerin (0-1) gerçek zamanlı doğrulanması.",
+            "utf8": "ASCII ve yaygın UTF-8 karakterleri için tam destek.",
+            "instant": "Çok hızlı istemci tarafı işleme.",
+            "edu": "Eğitim amaçları için mükemmel görsel geri bildirim.",
+            "free": "Sınırsız veya kayıt gerektirmeyen %100 ücretsiz kullanım."
+        },
+        "uses_title": "Profesyonel Kullanım Durumları",
+        "uses_edu_title": "Bilgisayar Bilimi Eğitimi",
+        "uses_edu_desc": "İkili bitlerin ASCII tablosunda belirli karakterleri oluşturmak için nasıl gruplandığını öğrenin.",
+        "uses_prog_title": "Yazılım Hata Ayıklama",
+        "uses_prog_desc": "Ham veri akışlarını ve bellek dökümlerini okunabilir metne dönüştürerek inceleyin.",
+        "uses_decoding_title": "Veri Yeniden Oluşturma",
+        "uses_decoding_desc": "Hasar görmüş veya kısmen iletilmiş ikili veri paketlerinden metni kurtarın.",
+        "uses_learning_title": "Dijital Okuryazarlık",
+        "uses_learning_desc": "Makine donanımı ile yazılım uygulamaları arasındaki köprüyü anlayın.",
+        "how_title": "İkili Kod Nasıl Çözülür",
+        "how_desc": "İkili dizinizi (8 bitlik gruplar halinde) giriş alanına yapıştırın. Araç otomatik olarak bitleri gruplandıracak ve her bayt için karşılık gelen karakteri bulacaktır. En iyi sonuçlar için bitlerinizin boşluklarla ayrıldığından emin olun.",
+        "faq_title": "İkili Dönüşüm SSS",
+        "q1": "İkili bitlerim arasında boşluk kullanmalı mıyım?",
+        "a1": "Evet, aracımız boşluklarla ayrılmış 8 bitlik bloklarla (örn. 01001000 01100101) en iyi şekilde çalışır.",
+        "q2": "Bu araç İngilizce dışındaki karakterleri destekliyor mu?",
+        "a2": "Evet, standart ASCII ve en yaygın UTF-8 kodlu karakterleri destekler."
+    },
+    "js": {
+        "error_empty": "Lütfen dönüştürülecek bir ikili kod girin",
+        "error_invalid_chars": "Geçersiz giriş! Lütfen sadece 0 ve 1 kullanın.",
+        "error_invalid_length": "Geçersiz blok uzunluğu! Her ikili grup 8 bit olmalıdır.",
+        "error_general": "Bir dönüşüm hatası oluştu: ",
+        "error_no_text_copy": "Kopyalanacak bir şey yok! Lütfen önce bir dönüşüm yapın.",
+        "success_copy": "✓ Panoya başarıyla kopyalandı!",
+        "error_no_text_download": "İndirilecek bir şey yok! Lütfen önce bir dönüşüm yapın."
+    }
+}

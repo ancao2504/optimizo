@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "title": "RGB'den HEX'e Renk Dönüştürücü - Ücretsiz Çevrimiçi Tasarım Aracı",
+        "description": "Ücretsiz çevrimiçi renk dönüştürücü aracımızla renkleri RGB ve HEX formatları arasında anında dönüştürün.",
+        "h1": "RGB'den HEX'e Renk Dönüştürücü",
+        "subtitle": "Renkleri RGB ve HEX formatları arasında anında dönüştürün"
+    },
+    "editor": {
+        "rgb_to_hex": "RGB -> HEX",
+        "label_red": "Kırmızı (0-255)",
+        "label_green": "Yeşil (0-255)",
+        "label_blue": "Mavi (0-255)",
+        "label_hex": "HEX Rengi",
+        "hex_to_rgb": "HEX -> RGB",
+        "label_hex_input": "HEX Rengi",
+        "ph_hex": "#FF0000",
+        "label_rgb_output": "RGB Rengi"
+    },
+    "content": {
+        "p1": "Ücretsiz çevrimiçi renk dönüştürücü aracımızla renkleri RGB ve HEX formatları arasında anında dönüştürün. Web tasarımcıları, geliştiriciler, grafik sanatçıları ve dijital renklerle çalışan herkes için mükemmeldir.",
+        "formats_title": "Renk Formatlarını Anlamak",
+        "formats": {
+            "rgb": {
+                "title": "RGB (Kırmızı, Yeşil, Mavi)",
+                "format": "Format",
+                "format_val": "rgb(kırmızı, yeşil, mavi)",
+                "range": "Aralık",
+                "range_val": "Her kanal için 0-255",
+                "used_in": "Yaygın Kullanım",
+                "used_in_val": "Dijital ekranlar, monitörler, TV"
+            },
+            "hex": {
+                "title": "HEX (Onaltılı)",
+                "format": "Format",
+                "format_val": "#RRGGBB",
+                "range": "Aralık",
+                "range_val": "Her kanal için 00-FF (hex)",
+                "used_in": "Yaygın Kullanım",
+                "used_in_val": "Web tasarımı, CSS, HTML"
+            }
+        },
+        "why_title": "Neden RGB ve HEX Arasında Dönüşüm Yapılır?",
+        "why_list": [
+            {
+                "title": "Web Standartları",
+                "desc": "HEX, web sitesi renklerini tanımlamak için CSS'de en çok kullanılan formattır."
+            },
+            {
+                "title": "Evrensel Uyum",
+                "desc": "Farklı tasarım araçları ve platformları arasında tutarlı renkler sağlayın."
+            },
+            {
+                "title": "Kullanım Kolaylığı",
+                "desc": "Verimli stillendirme için RGB değerlerinden hızlıca HEX kodları alın."
+            }
+        ],
+        "how_work_title": "Renk Dönüşümü Nasıl Çalışır?",
+        "how_work_t1": "RGB -> HEX",
+        "how_work_p1": "Her renk kanalı (R, G, B), 0-255 onluk değerinden 00-FF onaltılı değerine dönüştürülür.",
+        "how_work_t2": "HEX -> RGB",
+        "how_work_p2": "HEX dizesi çiftlere bölünür ve her çift tekrar 0-255 onluk değerine dönüştürülür.",
+        "uses_title": "Yaygın Kullanım Durumları",
+        "uses": {
+            "web": {
+                "title": "Web Geliştirme",
+                "desc": "Tasarım taslağı renklerini (RGB) web siteleri için CSS'ye hazır HEX kodlarına dönüştürün"
+            },
+            "graphic": {
+                "title": "Grafik Tasarım",
+                "desc": "Adobe Photoshop (RGB) ve web tasarım araçları (HEX) arasındaki renkleri eşleştirin"
+            },
+            "brand": {
+                "title": "Marka Kılavuzları",
+                "desc": "Marka renklerini hem baskı (RGB) hem de web (HEX) formatlarında belgeleyin"
+            }
+        },
+        "practices_title": "Renk Formatı En İyi Uygulamaları",
+        "practices_list": [
+            "Küçük CSS dosya boyutları için HEX kullanın.",
+            "Opaklık\/şeffaflığa ihtiyacınız olduğunda RGB (özellikle RGBA) kullanın.",
+            "Tutarlılık için tek bir proje içinde tek bir format kullanın."
+        ],
+        "pro_tip_title": "💡 Profesyonel İpucu",
+        "pro_tip_desc": "HEX kısaltması: #FF0000 gibi renkler, her rakam çifti aynı olduğunda #F00 şeklinde kısaltılabilir.",
+        "faq_title": "Sıkça Sorulan Sorular",
+        "faq": {
+            "q1": "RGB ve HEX arasındaki fark nedir?",
+            "a1": "RGB her renk kanalı için onluk sayıları (0-255) kullanırken, HEX onaltılı sayıları (00-FF) kullanır.",
+            "q2": "CSS'de RGB kullanabilir miyim?",
+            "a2": "Evet! CSS hem rgb(255, 0, 0) hem de #FF0000 formatlarını destekler.",
+            "q3": "HEX kodlarındaki # sembolü ne anlama gelir?",
+            "a3": "# sembolü, takip eden karakterlerin bir onaltılı renk kodu olduğunu gösterir.",
+            "q4": "3 haneli ve 6 haneli HEX kodları aynı mıdır?",
+            "a4": "3 haneli HEX kodları, her hanenin çiftlendiği 6 haneli kodların kısaltmasıdır."
+        }
+    },
+    "js": {
+        "invalid_hex": "Geçersiz HEX"
+    }
+}

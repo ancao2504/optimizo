@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode Encoder & Decoder - Gratis online teksttool",
+        "description": "Codeer en decodeer Unicode escape-reeksen voor JavaScript en JSON met onze gratis tool.",
+        "h1": "Unicode-encoder en -decoder",
+        "subtitle": "Codeer en decodeer Unicode escape-reeksen voor JavaScript en JSON"
+    },
+    "editor": {
+        "btn_encode": "Unicode Coderen",
+        "btn_decode": "Unicode Decoderen",
+        "label_input_encode": "Invoertekst om te coderen",
+        "ph_input": "Hallo wereld",
+        "btn_process_encode": "Unicode Coderen",
+        "btn_clear": "Wissen",
+        "btn_copy": "Kopiëren",
+        "label_output_encoded": "Gecodeerde Unicode",
+        "ph_output": "Verwerkte Unicode verschijnt hier...",
+        "label_input_decode": "Unicode om te decoderen",
+        "label_output_decoded": "Gedecodeerde tekst",
+        "btn_process_decode": "Unicode Decoderen"
+    },
+    "content": {
+        "p1": "Onze gratis Unicode Encoder & Decoder tool helpt u tekst te coderen naar Unicode escape-reeksen (bijv. \\u0041) voor veilig gebruik in JavaScript, JSON en andere programmeercontexten, of ze terug te decoderen naar leesbare tekst. Perfect voor ontwikkelaars, data-analisten en iedereen die te maken heeft met internationale tekensets. 100% gratis, verwerking aan de clientzijde zorgt ervoor dat uw gegevens privé blijven.",
+        "what_title": "Wat is Unicode-codering?",
+        "what_desc": "Unicode-codering zet tekens om in hun overeenkomstige Unicode-codepunten, vaak weergegeven als escape-reeksen zoals \\uXXXX. Dit zorgt ervoor dat tekst met speciale tekens, emoji's of niet-Latijnse schriften veilig kan worden weergegeven in omgevingen die doorgaans alleen ASCII ondersteunen, zoals broncodebestanden of JSON-gegevens.",
+        "features_title": "Kenmerken",
+        "features": {
+            "instant": {
+                "title": "Directe conversie",
+                "desc": "Codeer of decodeer Unicode in milliseconden"
+            },
+            "bidirectional": {
+                "title": "Bidirectioneel",
+                "desc": "Codeer naar Unicode-formaat of decodeer terug naar origineel"
+            },
+            "privacy": {
+                "title": "Privacy eerst",
+                "desc": "Alle verwerking gebeurt in uw browser"
+            },
+            "copy": {
+                "title": "Kopiëren met één klik",
+                "desc": "Kopieer gecodeerde\/gedecodeerde tekst onmiddellijk"
+            },
+            "free": {
+                "title": "100% gratis",
+                "desc": "Geen limieten, geen registratie vereist"
+            },
+            "universal": {
+                "title": "Universele ondersteuning",
+                "desc": "Werkt met alle Unicode-tekens en schriften"
+            }
+        },
+        "uses_title": "Veelvoorkomende gebruiksvoorbeelden",
+        "uses": {
+            "programming": {
+                "title": "Programmeren",
+                "desc": "Sluit speciale tekens veilig in in JavaScript- of Java-broncode"
+            },
+            "data": {
+                "title": "Gegevensserialisatie",
+                "desc": "Zorg voor veilige overdracht van niet-ASCII-tekens in JSON"
+            },
+            "international": {
+                "title": "Internationalisering",
+                "desc": "Debug en toon tekst in verschillende talen en schriften"
+            },
+            "security": {
+                "title": "Beveiliging",
+                "desc": "Analyseer verduisterde code of gegevens die Unicode-escapes bevatten"
+            }
+        },
+        "how_to_title": "Hoe te gebruiken",
+        "how_to": {
+            "step1": {
+                "title": "Kies modus",
+                "desc": "Selecteer \"Unicode Coderen\" of \"Unicode Decoderen\" op basis van uw behoefte"
+            },
+            "step2": {
+                "title": "Tekst invoeren",
+                "desc": "Plak uw tekst of Unicode-escapes in het invoerveld"
+            },
+            "step3": {
+                "title": "Verwerken",
+                "desc": "Klik op de codeer- of decodeerknop"
+            },
+            "step4": {
+                "title": "Resultaat kopiëren",
+                "desc": "Klik op \"Kopiëren\" om de verwerkte tekst naar het klembord te kopiëren"
+            },
+            "step5": {
+                "title": "Overal gebruiken",
+                "desc": "Plak het resultaat in uw code of applicatie"
+            }
+        },
+        "examples_title": "Unicode-voorbeelden",
+        "examples": {
+            "simple": {
+                "title": "Eenvoudig\/ASCII:",
+                "desc": "Origineel: \"A\" → Gecodeerd: \"\\u0041\""
+            },
+            "special": {
+                "title": "Speciale tekens:",
+                "desc": "Origineel: \"©\" → Gecodeerd: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emoji's\/Multi-byte:",
+                "desc": "Origineel: \"🌟\" → Gecodeerd: \"\\uD83C\\uDF1F\" (surrogaatparen) of \"\\u2B50\" afhankelijk van de weergave"
+            }
+        },
+        "faq_title": "Veelgestelde vragen",
+        "faq": {
+            "q1": "Waarom Unicode escape-reeksen gebruiken?",
+            "a1": "Ze stellen u in staat om elk teken te vertegenwoordigen met alleen ASCII-tekens, wat compatibiliteit garandeert tussen verschillende systemen, coderingen en bestandsoverdrachten die mogelijk geen ruwe Unicode correct verwerken.",
+            "q2": "Welk formaat wordt gebruikt?",
+            "a2": "Deze tool gebruikt doorgaans het JavaScript\/JSON-stijl \\uXXXX-formaat voor tekens uit de Basic Multilingual Plane.",
+            "q3": "Is dit anders dan URL-codering?",
+            "a3": "Ja. URL-codering gebruikt %XX hex-waarden, voornamelijk voor URL's. Unicode-escaping gebruikt \\uXXXX en wordt gebruikt in strings in programmeertalen zoals JavaScript, Java en Python.",
+            "q4": "Zijn mijn gegevens veilig?",
+            "a4": "Ja! Alle codering en decodering vindt volledig plaats in uw browser met behulp van JavaScript. Uw tekst verlaat nooit uw apparaat."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in om te verwerken",
+        "success_encode": "✓ Unicode succesvol gecodeerd",
+        "success_decode": "✓ Unicode succesvol gedecodeerd",
+        "error_process": "✗ Fout bij verwerken Unicode: ",
+        "error_no_copy": "Geen uitvoer om te kopiëren",
+        "success_copy": "✓ Gekopieerd naar klembord"
+    }
+}

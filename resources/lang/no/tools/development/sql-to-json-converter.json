@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "SQL til JSON Converter - Gratis online databaseverktøy",
+        "description": "Transform SQL INSERT-setninger til JSON-matriser umiddelbart med vårt gratis onlineverktøy. Rask, nøyaktig og sikker.",
+        "h1": "SQL til JSON-konvertering",
+        "subtitle": "Konverter enkelt mellom SQL-data og JSON-objekter"
+    },
+    "editor": {
+        "btn_encode": "JSON til SQL-modus",
+        "btn_decode": "SQL til JSON-modus",
+        "label_table": "Tabellnavn",
+        "ph_table": "Skriv inn tabellnavn (f.eks. brukere)",
+        "label_input_json": "JSON-inngang",
+        "ph_input_json": "Lim inn JSON-arrayen din her...",
+        "label_output_sql": "SQL-utgang",
+        "ph_output_sql": "Generert SQL vises her...",
+        "label_input_sql": "SQL-inndata",
+        "label_output_json": "JSON-utgang",
+        "btn_convert_sql": "Generer SQL",
+        "btn_convert_json": "Generer JSON",
+        "btn_clear": "Klar",
+        "btn_copy": "Kopier utgang"
+    },
+    "content": {
+        "hero_title": "SQL til JSON-konvertering",
+        "hero_subtitle": "Toveis konvertering for moderne utviklere",
+        "p1": "Moderne applikasjoner trives med JSON, men databaser snakker fortsatt SQL. Vår toveis-omformer bygger bro over dette gapet uten problemer. Enten du trenger å gjøre databaseeksport til JSON for API-en din, eller JSON-data til SQL-seed-skript, gir dette verktøyet en rask, sikker og nøyaktig løsning.",
+        "integration_title": "Sømløs integrasjon",
+        "integration_desc": "Flytt enkelt data mellom relasjonsdatabasen og nettapplikasjonen din. Parseren vår håndterer standard SQL INSERT-setninger og konverterer dem til strukturerte JSON-objekter, og bevarer datatyper og verdier.",
+        "features_title": "Nøkkelfunksjoner",
+        "features": {
+            "instant": {
+                "title": "Øyeblikkelige resultater",
+                "desc": "Konverteringer skjer i sanntid mens du klikker."
+            },
+            "bidirectional": {
+                "title": "Dobbel modus",
+                "desc": "Bytt mellom SQL-til-JSON- og JSON-til-SQL-moduser."
+            },
+            "security": {
+                "title": "Sikker konvertering",
+                "desc": "Behandlingen er 100 % klientside for maksimalt personvern."
+            },
+            "custom": {
+                "title": "Ren formatering",
+                "desc": "Utdata er profesjonelt formatert og klar til bruk."
+            },
+            "types": {
+                "title": "Typebevissthet",
+                "desc": "Håndterer null, tall og strenger på riktig måte."
+            },
+            "free": {
+                "title": "Helt gratis",
+                "desc": "Ingen abonnement eller bruksgrenser."
+            }
+        },
+        "uses_title": "Vanlige brukstilfeller",
+        "uses": {
+            "seeding": {
+                "title": "Database seeding",
+                "desc": "Generer raskt SQL-skript for å fylle ut utviklermiljøet ditt."
+            },
+            "export": {
+                "title": "Dataeksport",
+                "desc": "Konverter SQL-spørringsresultater til JSON for analyse."
+            },
+            "migration": {
+                "title": "API-migrering",
+                "desc": "Forbered eldre databasedata for bruk i moderne REST APIer."
+            },
+            "testing": {
+                "title": "Hånte data",
+                "desc": "Lag JSON mock-data fra eksisterende SQL-tabeller."
+            },
+            "docs": {
+                "title": "Dokumentasjon",
+                "desc": "Inkluder JSON-eksempler på databasestrukturen din i dokumenter."
+            },
+            "prototype": {
+                "title": "Rask prototyping",
+                "desc": "Flytt data raskt mellom stater under utvikling."
+            }
+        },
+        "how_title": "Hvordan bruke",
+        "how_steps": {
+            "1": {
+                "title": "Velg Modus",
+                "desc": "Velg mellom JSON til SQL eller SQL til JSON ved å bruke knappene."
+            },
+            "2": {
+                "title": "Inndata",
+                "desc": "Lim inn kildekoden i venstre redigeringsområde."
+            },
+            "3": {
+                "title": "Sett tabellnavn",
+                "desc": "Hvis du konverterer til SQL, spesifiser måldatabasetabellen."
+            },
+            "4": {
+                "title": "Generere",
+                "desc": "Klikk \"Generer\" for å se transformasjonen umiddelbart."
+            },
+            "5": {
+                "title": "Kopier resultat",
+                "desc": "Bruk 'Kopier'-knappen for å hente utdataene dine."
+            }
+        },
+        "samples_title": "Konverteringsprøver",
+        "samples": [
+            {
+                "title": "SQL Insert to JSON",
+                "desc": "INSERT INTO users (name, age) VALUES ('Alice', 25); → [{\"name\": \"Alice\", \"age\": 25}]"
+            },
+            {
+                "title": "JSON to SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO table (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Hvilke SQL-setninger støttes?",
+            "a1": "For øyeblikket støtter verktøyet standard INSERT INTO-setninger med definerte kolonnenavn.",
+            "q2": "Er dataene mine trygge?",
+            "a2": "Ja, vi sender aldri dataene dine til serveren vår. All logikk kjører i nettleseren din.",
+            "q3": "Kan jeg konvertere flere rader?",
+            "a3": "Ja, verktøyet håndterer multi-line SQL eller store JSON-matriser effektivt.",
+            "q4": "Klarer den spesialtegn?",
+            "a4": "Ja, den unnslipper enkelt anførselstegn og håndterer grunnleggende spesialtegn."
+        }
+    },
+    "js": {
+        "error_empty": "Vennligst skriv inn noen data for å behandle",
+        "placeholder_table_name": "brukere",
+        "error_general": "Konverteringsfeil:",
+        "error_invalid_array": "Feil: Inndata må være en JSON-gruppe med objekter.",
+        "error_empty_array": "Feil: JSON-matrisen er tom.",
+        "success_sql": "✓ SQL generert vellykket!",
+        "error_no_statements": "Fant ingen gyldige SQL INSERT-setninger.",
+        "success_json": "✓ JSON generert vellykket!",
+        "error_no_copy": "Ikke noe innhold å kopiere.",
+        "success_copy": "✓ Utdata kopiert til utklippstavlen!"
+    }
+}

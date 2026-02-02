@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "title": "무료 스네이크 케이스 변환기 - 온라인 문자열 도구",
+        "description": "텍스트를 snake_case(스네이크 케이스) 형식으로 즉시 변환하세요. 데이터베이스 필드 및 프로그래밍에 적합한 무료 온라인 도구입니다.",
+        "h1": "스네이크 케이스 변환기",
+        "subtitle": "데이터베이스 및 코딩 작법을 위해 텍스트를 snake_case로 변환"
+    },
+    "editor": {
+        "label_input": "입력 텍스트",
+        "ph_input": "Hello World Example",
+        "btn_convert": "snake_case로 변환",
+        "btn_clear": "지우기",
+        "btn_copy": "복사",
+        "label_output": "출력 (snake_case)",
+        "ph_output": "hello_world_example"
+    },
+    "content": {
+        "p1": "저희 무료 온라인 변환기를 사용하여 텍스트를 snake_case 형식으로 변환하세요. snake_case는 모든 문자를 소문자로 쓰고 단어 사이를 밑줄(_)로 연결하는 방식으로, SQL 데이터베이스 열 이름, Python 변수 명명 및 다양한 설정 파일 규격에서 표준으로 사용됩니다.",
+        "features_title": "주요 성능",
+        "features": {
+            "python": {
+                "title": "Python Standard",
+                "desc": "Generates variable names that follow PEP 8 style guidelines."
+            },
+            "instant": {
+                "title": "Instant Conversion",
+                "desc": "Convert to snake_case in milliseconds."
+            },
+            "privacy": {
+                "title": "데이터 보안",
+                "desc": "로컬 브라우저에서 모든 작업이 진행되어 입력된 코드를 외부로 전송하지 않습니다."
+            },
+            "bulk": {
+                "title": "Bulk Processing",
+                "desc": "Convert multiple names at once."
+            },
+            "smart": {
+                "title": "지능적 감지",
+                "desc": "카멜 케이스나 하이픈 기반 텍스트도 자동으로 파악하여 밑줄 체계로 변환합니다."
+            },
+            "free": {
+                "title": "영구 무제한 무료",
+                "desc": "개발자의 생산성 향상을 위해 모든 기능을 아무런 제약 없이 무료로 제공합니다."
+            }
+        },
+        "uses_title": "스네이크 케이스 활용 분야",
+        "uses": {
+            "python": {
+                "title": "Python 및 Ruby 코딩",
+                "desc": "변수와 함수 이름을 짓는 PEP 8 스타일의 스네이크 케이스를 지원합니다."
+            },
+            "db": {
+                "title": "Database Columns",
+                "desc": "Standard for column names (e.g., created_at, user_id)."
+            },
+            "config": {
+                "title": "설정 파일 및 환경 변수",
+                "desc": ".env 파일이나 JSON 설정의 키 이름을 관리하기 쉽게 규격화합니다."
+            },
+            "ruby": {
+                "title": "Ruby Development",
+                "desc": "Follow Ruby naming conventions for variables and methods."
+            },
+            "data": {
+                "title": "📊 Data Science",
+                "desc": "Format column names in pandas DataFrames and CSV files"
+            },
+            "api": {
+                "title": "REST API 설계",
+                "desc": "일부 API 명세에서 요구하는 하단 밑줄 기반의 매개변수 이름을 생성합니다."
+            }
+        },
+        "how_to_title": "How to Use",
+        "how_to_steps": [
+            {
+                "title": "Paste Text",
+                "desc": "Paste your text in the input box."
+            },
+            {
+                "title": "Convert",
+                "desc": "The converter replaces spaces and hyphens with underscores."
+            },
+            {
+                "title": "Lowercase",
+                "desc": "It converts all characters to lowercase."
+            },
+            {
+                "title": "Cleanup",
+                "desc": "Consecutive underscores are reduced to one."
+            },
+            {
+                "title": "Result",
+                "desc": "The snake_case result is ready to use."
+            }
+        ],
+        "examples_title": "변환 예시",
+        "examples": {
+            "var": {
+                "title": "Variable Names:"
+            },
+            "func": {
+                "title": "Function Names:"
+            },
+            "db": {
+                "title": "Database Columns:"
+            },
+            "config": {
+                "title": "Config Keys:"
+            }
+        },
+        "faq_title": "자주 묻는 질문",
+        "faq": {
+            "q1": "왜 이름이 '스네이크' 케이스인가요?",
+            "a1": "단어 사이의 밑줄이 바닥을 기어가는 뱀(Snake)처럼 보이기 때문입니다.",
+            "q2": "kebab-case와 무엇이 다른가요?",
+            "a2": "스네이크 케이스는 밑줄(_)을, 케밥 케이스는 대시(-)를 사용합니다.",
+            "q3": "대문자 스네이크 케이스(SCREAMING_SNAKE_CASE)도 되나요?",
+            "a3": "결과를 복사한 뒤 당사의 대문자 변환기를 활용하여 쉽게 만들 수 있습니다.",
+            "q4": "숫자가 포함된 경우는요?",
+            "a4": "숫자는 그대로 유지되며 숫자 앞뒤의 공백은 적절히 밑줄로 대체됩니다.",
+            "q5": "Is this tool free?",
+            "a5": "Yes! Completely free with no limits. All processing happens in your browser for privacy and speed."
+        }
+    },
+    "js": {
+        "error_empty": "변환할 텍스트를 입력하세요",
+        "success_converted": "✓ Converted to snake_case successfully!",
+        "error_no_copy": "복사할 내용이 없습니다!",
+        "success_copy": "✓ 클립보드에 복사되었습니다!"
+    }
+}

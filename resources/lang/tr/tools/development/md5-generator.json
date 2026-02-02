@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "MD5 Karma Oluşturucu - Ücretsiz Çevrimiçi Güvenlik Aracı",
+        "description": "Herhangi bir metinden anında MD5 hash kodları oluşturun",
+        "h1": "MD5 Karma Oluşturucu",
+        "subtitle": "Herhangi bir metinden anında MD5 hash kodları oluşturun"
+    },
+    "editor": {
+        "label_input": "Metni Girin",
+        "ph_input": "Hash oluşturulacak metni girin...",
+        "btn_generate": "MD5 Hash Oluştur",
+        "label_result": "MD5 Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "MD5 Hash Oluşturucu",
+        "hero_subtitle": "Herhangi bir metinden anında MD5 hash kodları oluşturun",
+        "p1": "Ücretsiz çevrimiçi MD5 hash oluşturucumuzla herhangi bir metin, şifre veya veri dizesinden anında MD5 hash kodları oluşturun. MD5 (Message-Digest Algorithm 5), 128 bitlik (32 karakterlik onaltılık) bir hash değeri üreten yaygın olarak kullanılan bir kriptografik hash fonksiyonudur. Veri bütünlüğü doğrulaması, sağlama toplamı (checksum) oluşturma ve hash fonksiyonlarını anlamak için mükemmeldir. Tam gizlilik için tüm işlemler tarayıcınızda gerçekleşir.",
+        "what_title": "🔐 MD5 Nedir?",
+        "what_desc": "MD5, herhangi bir uzunluktaki girdiyi alan ve genellikle 32 karakterlik bir onaltılık sayı olarak temsil edilen sabit bir 128 bitlik hash değeri üreten bir kriptografik hash fonksiyonudur. Aynı girdi her zaman aynı hash'i üretir, ancak girdideki en küçük değişiklik bile tamamen farklı bir hash oluşturur.",
+        "features_title": "✅ MD5 Avantajları",
+        "features": {
+            "fast": "<strong>Hızlı İşleme:<\/strong> Son derece hızlı hash oluşturma",
+            "fixed": "<strong>Sabit Uzunluk:<\/strong> Her zaman 128 bitlik çıktı üretir",
+            "deterministic": "<strong>Belirleyici (Deterministic):<\/strong> Aynı girdi = aynı hash",
+            "support": "<strong>Geniş Destek:<\/strong> Tüm programlama dillerinde mevcuttur"
+        },
+        "uses_title": "📊 Yaygın Kullanım Durumları",
+        "uses": {
+            "verify": "<strong>Dosya Doğrulama:<\/strong> Dosya bütünlüğünü kontrol edin",
+            "checksum": "<strong>Sağlama Toplamları:<\/strong> İndirmeleri doğrulayın",
+            "cache": "<strong>Önbellek Anahtarları:<\/strong> Benzersiz tanımlayıcılar oluşturun",
+            "integrity": "<strong>Veri Bütünlüğü:<\/strong> Değişiklikleri algılayın"
+        },
+        "warning_title": "⚠️ Güvenlik Uyarısı",
+        "warning_desc": "<strong>MD5'i şifre hashleme veya güvenliğin kritik olduğu uygulamalar için KULLANMAYIN!<\/strong> MD5 kriptografik olarak kırılmıştır ve çakışma (collision) saldırılarına karşı savunmasızdır. Şifre hashleme için bcrypt, Argon2 veya PBKDF2 gibi modern algoritmalar kullanın.",
+        "compare_title": "🔄 MD5 ve Diğer Hash Fonksiyonları Karşılaştırması",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128 bit çıktı",
+                "desc2": "Hızlı ancak kriptografi için güvensiz"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160 bit çıktı",
+                "desc2": "Güvenlik kullanımı için artık önerilmiyor"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit çıktı",
+                "desc2": "Günümüzde güvenli ve yaygın kullanılıyor"
+            }
+        },
+        "faq_title": "❓ Sıkça Sorulan Sorular",
+        "faq": {
+            "q1": "MD5 şifreler için güvenli mi?",
+            "a1": "Hayır! MD5 kriptografik olarak kırılmıştır ve asla şifre hashleme için kullanılmamalıdır. Bunun yerine bcrypt, Argon2 veya PBKDF2 kullanın.",
+            "q2": "Bir MD5 hash'ini geri döndürebilir miyim?",
+            "a2": "Hayır, MD5 tek yönlü bir fonksiyondur; orijinal girdiyi elde etmek için bir hash'i tersine çeviremezsiniz. Ancak, saldırganlar girdileri bulmak için gökkuşağı tabloları (rainbow tables) kullanabilir.",
+            "q3": "Verilerim bir sunucuya gönderiliyor mu?",
+            "a3": "Hayır! Tüm MD5 hash oluşturma işlemleri JavaScript kullanılarak tamamen tarayıcınızda gerçekleşir. Verileriniz asla cihazınızdan ayrılmaz."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen bir metin girin",
+        "btn_copied": "Kopyalandı!"
+    }
+}

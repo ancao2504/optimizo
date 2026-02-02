@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - 免费 JSON Web 令牌调试器",
+        "description": "即时解码并检查您的 JWT 令牌的 Header(头部)、Payload(负载) 和 Signature(签名)。",
+        "h1": "智威汤逊解码器",
+        "subtitle": "瞬间解码并检查您的 JSON Web Token"
+    },
+    "editor": {
+        "label_input": "输入经过编码的 JWT",
+        "ph_input": "在此粘贴您的 JWT 令牌 (xxxxx.yyyyy.zzzzz)",
+        "btn_decode": "解码智威汤逊",
+        "btn_clear": "清空",
+        "btn_example": "例子",
+        "label_payload": "Payload (数据载荷)",
+        "label_signature": "Signature (签名)",
+        "note_signature": "◈ 注意：签名验证需要秘钥"
+    },
+    "content": {
+        "hero_title": "专业的 JWT 调试工具",
+        "hero_subtitle": "即时解析 JWT 信息 - 安全查阅令牌中的声明与元数据",
+        "p1": "JSON Web Tokens (JWT) 常用于现代 Web 应用的身份验证。我们的免费在线 JWT 解码器允许您在不泄露私钥的情况下，查看任何 JWT 令牌内部包含的信息。只需粘贴经过编码的令牌，即可瞬间查看其算法标识、过期时间（exp）、签发机构（iss）以及自定义数据载荷。它是开发人员调试身份验证流程和验证令牌有效性的利器。",
+        "what_title": "ðŸ” 什么是 JWT？",
+        "what_desc": "JSON Web Token (JWT) 是一种紧凑、URL 安全的方式，用于表示两方之间的声明。 JWT 由三部分组成：Header（算法和令牌类型]、Payload（声明\/数据）和 Signature（验证），用点分隔。",
+        "features_title": "主要功能",
+        "features": {
+            "instant": {
+                "title": "即时解码",
+                "desc": "在几毫秒内解码 JWT"
+            },
+            "structured": {
+                "title": "结构化视图",
+                "desc": "分别查看标头、有效负载和签名"
+            },
+            "privacy": {
+                "title": "隐私第一",
+                "desc": "所有解码都在您的浏览器中进行"
+            }
+        },
+        "uses_title": "为什么使用 JWT 解码器？",
+        "uses": {
+            "debug": {
+                "title": "调试",
+                "desc": "通过检查 JWT 内容来调试身份验证问题"
+            },
+            "validate": {
+                "title": "○…验证",
+                "desc": "验证 JWT 声明和过期时间"
+            },
+            "learn": {
+                "title": "学习",
+                "desc": "了解 JWT 结构和组件"
+            },
+            "dev": {
+                "title": "§发展",
+                "desc": "在您的应用程序中测试 JWT 生成和解析"
+            }
+        },
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "它会验证签名吗？",
+            "a1": "该在线工具旨在进行快速“解码”和预览。为了保证您的私钥安全，它不涉及签名验证环节。请在您的后端系统中使用专用库执行验证流程。",
+            "q2": "我的令牌会被记录吗？",
+            "a2": "绝对不会。所有的逻辑都是通过客户端 JavaScript 完成的，整个过程完全离线，您的敏感令牌信息不会离开您的电脑。",
+            "q3": "为什么 Payload 中的时间戳是一串数字？",
+            "a3": "JWT 遵循 Unix 时间戳标准。这意味着 `exp` 或 `iat` 字段显示的是自 1970 年以来的秒数，您可以将其转换为人类可读的时间格式。"
+        }
+    },
+    "js": {
+        "error_empty": "请先粘贴一个 JWT 令牌",
+        "error_invalid_format": "JWT 格式无效。 JWT 应该由点分隔的 3 个部分组成。",
+        "success_decode": "✓ JWT 解码成功！",
+        "error_decode": "✔ 解码 JWT 时出错："
+    }
+}

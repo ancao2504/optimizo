@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "DNS Lookup Tool - Free Online DNS Record Checker",
+        "description": "Free DNS lookup tool to check DNS records for any domain. View A, AAAA, MX, NS, TXT, CNAME records instantly. Essential for troubleshooting email and domain configuration.",
+        "h1": "DNS Lookup Tool",
+        "subtitle": "Query DNS records to find nameservers, MX, A, CNAME & TXT records instantly"
+    },
+    "form": {
+        "domain_label": "Domain Name",
+        "domain_placeholder": "example.com",
+        "button": "Lookup DNS"
+    },
+    "results": {
+        "title": "DNS Records"
+    },
+    "content": {
+        "what_is_title": "What is DNS Lookup?",
+        "what_is_desc": "DNS Lookup is a tool that queries Domain Name System servers to retrieve DNS records for a domain. DNS records contain important information about how a domain is configured, including mail servers (MX records), nameservers (NS records), IP addresses (A\/AAAA records), and text records (TXT records) used for verification and security.",
+        "why_use_title": "Why Use DNS Lookup?",
+        "why_use_desc": "DNS Lookup is essential for troubleshooting email delivery issues, verifying domain configuration, checking nameserver settings, validating SPF and DKIM records, and understanding how a domain is set up. It's used by system administrators, web developers, and IT professionals daily.",
+        "record_types_title": "DNS Record Types",
+        "a_record": "<strong>A Record:<\/strong> Maps domain to IPv4 address",
+        "aaaa_record": "<strong>AAAA Record:<\/strong> Maps domain to IPv6 address",
+        "mx_record": "<strong>MX Record:<\/strong> Mail server information",
+        "ns_record": "<strong>NS Record:<\/strong> Nameserver information",
+        "txt_record": "<strong>TXT Record:<\/strong> Text records for verification",
+        "cname_record": "<strong>CNAME Record:<\/strong> Canonical name alias"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": "What is DNS lookup?",
+        "a1": "DNS lookup is the process of querying Domain Name System servers to retrieve DNS records for a domain. It translates human-readable domain names into IP addresses and provides information about mail servers, name servers, and other DNS configurations.",
+        "q2": "What are the different types of DNS records?",
+        "a2": "Common DNS record types include A (IPv4 address), AAAA (IPv6 address), MX (mail server), CNAME (alias), TXT (text data), NS (name server), and SOA (start of authority). Each record type serves a specific purpose in domain configuration.",
+        "q3": "How long does DNS propagation take?",
+        "a3": "DNS propagation typically takes 24-48 hours globally, though changes can appear within minutes on some servers. The time depends on TTL (Time To Live) settings and how quickly DNS servers refresh their cache.",
+        "q4": "Why is my DNS lookup failing?",
+        "a4": "DNS lookup failures can occur due to incorrect domain name, DNS server issues, firewall blocking, or the domain not being properly configured. Check your domain spelling and ensure your DNS records are correctly set up.",
+        "q5": "Can I lookup DNS records for any domain?",
+        "a5": "Yes, you can perform DNS lookups for any publicly registered domain. However, some organizations may restrict certain DNS queries for security reasons."
+    },
+    "js": {
+        "looking_up": "Looking up DNS records...",
+        "records_label": "DNS Records",
+        "success": "DNS lookup completed successfully",
+        "error": "Failed to lookup DNS records",
+        "lookup_dns": "Lookup DNS"
+    }
+}

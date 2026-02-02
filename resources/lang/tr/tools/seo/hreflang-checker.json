@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker - Ücretsiz Çevrimiçi Etiket Doğrulayıcı",
+        "description": "Google'ın hedef kitleniz ve diliniz için doğru URL'yi sunduğundan emin olmak için hreflang etiketlerinizi kontrol edin.",
+        "h1": "Hreflang Denetleyicisi",
+        "subtitle": "Uluslararası SEO için ücretsiz hreflang etiketi çıkarma ve doğrulama aracı"
+    },
+    "form": {
+        "url_label": "Kontrol Edilecek URL'yi Girin",
+        "url_placeholder": "https:\/\/example.com\/page",
+        "user_agent_label": "Kullanıcı Aracısı (User Agent)",
+        "user_agent_default": "Varsayılan (Tarayıcı)",
+        "user_agent_googlebot": "Googlebot (Masaüstü)",
+        "user_agent_bingbot": "Bingbot (Masaüstü)",
+        "button": "Hreflang Etiketlerini Kontrol Et"
+    },
+    "content": {
+        "main_title": "Hreflang Etiket Kontrolü",
+        "main_subtitle": "Uluslararası içeriğinizin doğru kitleye ulaştığından emin olun. Hreflang uygulamasını doğrulayın ve yaygın SEO hatalarını düzeltin.",
+        "intro": "Hreflang etiketleri, birden fazla dilde veya ülkede hizmet veren web siteleri için çok önemlidir. Ücretsiz aracımız, HTML başlığından ve HTTP başlıklarından `rel=\"alternate\" hreflang=\"x\"` etiketlerini çıkarır ve doğrular. Yerelleştirilmiş içeriğin Google ve diğer arama motorlarında doğru şekilde dizine eklenmesini sağlamak için karşılıklı (return) etiketleri kontrol eder.",
+        "features_title": "Neden Hreflang Etiketlerini Kontrol Etmelisiniz?",
+        "feature1_title": "Karşılıklı Etiket Doğrulaması",
+        "feature1_desc": "Hreflang etiketleri çiftler halinde çalışmalıdır. Aracımız, A Sayfasının B Sayfasına bağlantı verdiğini ve B Sayfasının tekrar A Sayfasına bağlantı verip vermediğini otomatik olarak kontrol eder.",
+        "feature2_title": "Yaygın Hataları Tespit Etme",
+        "feature2_desc": "Eksik dönüş etiketlerini, geçersiz dil kodlarını (ISO 639-1) ve yanlış ülke kodlarını (ISO 3166-1 Alpha-2).",
+        "feature3_title": "SEO Sorunlarını Önleme",
+        "feature3_desc": "Yanlış hreflang uygulaması, yinelenen içerik sorunlarına ve arama sonuçlarında yanlış dil sürümünün gösterilmesine neden olabilir.",
+        "how_title": "Hreflang Kontrol Aracı Nasıl Kullanılır",
+        "step1_title": "URL Girin",
+        "step1_desc": "Analiz etmek istediğiniz sayfanın tam URL'sini yapıştırın (ör. https:\/\/example.com).",
+        "step2_title": "Kullanıcı Aracısını Seçin",
+        "step2_desc": "Googlebot ile kontrol etmeniz önerilir, ancak standart bir tarayıcı olarak da kontrol edebilirsiniz.",
+        "step3_title": "Sonuçları Analiz Edin",
+        "step3_desc": "Sayfayı getiririz ve bulunan tüm alternatif bağlantıların ve doğrulama durumlarının bir listesini gösteririz.",
+        "step4_title": "Sorunları Düzeltin",
+        "step4_desc": "'Dönüş Etiketi Yok' (Missing Return Tag) hatası görürseniz, referans verilen sayfayı karşılıklı bir bağlantı içerecek şekilde güncelleyin.",
+        "faq_title": "Sıkça Sorulan Sorular",
+        "faq1_q": "Hreflang etiketi nedir?",
+        "faq1_a": "Hreflang, bir web sayfasının dilini ve coğrafi hedefini belirtmek için kullanılan bir HTML niteliğidir. Arama motorlarına, kullanıcıların diline veya bölgesine göre sayfanın hangi sürümünün gösterileceğini söyler.",
+        "faq2_q": "Dönüş etiketleri (return tags) neden önemlidir?",
+        "faq2_a": "Google, başka bir sitenin sayfasını keyfi olarak kendi alternatif sürümü olarak iddia etmesini önlemek için dönüş bağlantıları gerektirir. A Sayfası B Sayfasına bağlantı veriyorsa, B Sayfası da A Sayfasına bağlantı vermelidir.",
+        "faq3_q": "Bu araç x-default etiketini kontrol ediyor mu?",
+        "faq3_a": "Evet, aracımız başka hiçbir dil eşleşmediğinde veya ana dil seçim sayfası için kullanılan `x-default` etiketini tanımlar ve doğrular.",
+        "faq4_q": "HTTP başlıklarındaki hreflang kontrol edilebilir mi?",
+        "faq4_a": "Evet! Hem HTML `<head>` bölümünü hem de HTTP yanıt başlıklarındaki `Link: <url>; rel=\"alternate\"; hreflang=\"code\"` niteliklerini kontrol ediyoruz.",
+        "faq5_q": "Hreflang hataları varsa ne olur?",
+        "faq5_a": "Arama motorları geçersiz etiketleri yok sayabilir, bu da kullanıcılara yanlış dil sürümünün gösterilmesine veya yinelenen içerik cezalarına yol açabilir.",
+        "faq6_q": "Bu araç ücretsiz mi?",
+        "faq6_a": "Evet, mükemmel uluslararası SEO sağlamak için sınırsız sayıda kontrol yapabilirsiniz."
+    }
+}

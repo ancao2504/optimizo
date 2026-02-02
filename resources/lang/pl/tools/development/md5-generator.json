@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "Generator skrótu MD5 - bezpłatne narzędzie bezpieczeństwa online",
+        "description": "Generuj skróty MD5 z dowolnego tekstu natychmiastowo",
+        "h1": "Generator skrótu MD5",
+        "subtitle": "Generuj skróty MD5 z dowolnego tekstu natychmiastowo"
+    },
+    "editor": {
+        "label_input": "Wprowadź tekst",
+        "ph_input": "Wprowadź tekst do zahaszowania...",
+        "btn_generate": "Generuj skrót MD5",
+        "label_result": "Skrót MD5",
+        "btn_copy": "Kopiuj"
+    },
+    "content": {
+        "hero_title": "Generator skrótów MD5",
+        "hero_subtitle": "Generuj skróty MD5 z dowolnego tekstu natychmiastowo",
+        "p1": "Generuj skróty MD5 z dowolnego tekstu, hasła lub ciągu danych natychmiastowo za pomocą naszego darmowego generatora skrótów MD5 online. MD5 (Message-Digest Algorithm 5) to powszechnie używana kryptograficzna funkcja skrótu, która tworzy 128-bitową (32-znakową szesnastkową) wartość skrótu. Idealny do weryfikacji integralności danych, generowania sum kontrolnych i zrozumienia funkcji skrótu. Całe przetwarzanie odbywa się w Twojej przeglądarce, zapewniając pełną prywatność.",
+        "what_title": "🔓 Co to jest MD5?",
+        "what_desc": "MD5 to kryptograficzna funkcja skrótu, która przyjmuje dane wejściowe dowolnej długości i tworzy stałą 128-bitową wartość skrótu, zazwyczaj reprezentowaną jako 32-znakowa liczba szesnastkowa. To samo wejście zawsze daje ten sam skrót, ale nawet niewielka zmiana w wejściu tworzy zupełnie inny skrót.",
+        "features_title": "✅ Zalety MD5",
+        "features": {
+            "fast": "<strong>Szybkie przetwarzanie:<\/strong> Niezwykle szybkie generowanie skrótów",
+            "fixed": "<strong>Stała długość:<\/strong> Zawsze generuje 128-bitowe wyjście",
+            "deterministic": "<strong>Deterministyczny:<\/strong> To samo wejście = ten sam skrót",
+            "support": "<strong>Szerokie wsparcie:<\/strong> Dostępny we wszystkich językach programowania"
+        },
+        "uses_title": "📊 Typowe przypadki użycia",
+        "uses": {
+            "verify": "<strong>Weryfikacja plików:<\/strong> Sprawdź integralność plików",
+            "checksum": "<strong>Sumy kontrolne:<\/strong> Weryfikuj pobierane pliki",
+            "cache": "<strong>Klucze pamięci podręcznej:<\/strong> Generuj unikalne identyfikatory",
+            "integrity": "<strong>Integralność danych:<\/strong> Wykrywaj zmiany"
+        },
+        "warning_title": "⚠️ Ostrzeżenie bezpieczeństwa",
+        "warning_desc": "<strong>NIE używaj MD5 do haszowania haseł lub zastosowań krytycznych dla bezpieczeństwa!<\/strong> MD5 jest kryptograficznie złamany i podatny na ataki kolizyjne. Do haszowania haseł używaj nowoczesnych algorytmów, takich jak bcrypt, Argon2 lub PBKDF2.",
+        "compare_title": "🔄 MD5 kontra inne funkcje skrótu",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128-bitowe wyjście",
+                "desc2": "Szybkie, ale niebezpieczne dla kryptografii"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160-bitowe wyjście",
+                "desc2": "Również przestarzałe dla zastosowań bezpieczeństwa"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256-bitowe wyjście",
+                "desc2": "Bezpieczne i szeroko stosowane dzisiaj"
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Czy MD5 jest bezpieczne dla haseł?",
+            "a1": "Nie! MD5 jest kryptograficznie złamane i nigdy nie powinno być używane do haszowania haseł. Użyj zamiast tego bcrypt, Argon2 lub PBKDF2.",
+            "q2": "Czy mogę odwrócić skrót MD5?",
+            "a2": "Nie, MD5 to funkcja jednokierunkowa - nie można odwrócić skrótu, aby uzyskać oryginalne wejście. Jednak atakujący mogą używać tablic tęczowych, aby znaleźć wejścia.",
+            "q3": "Czy moje dane są wysyłane na serwer?",
+            "a3": "Nie! Całe generowanie skrótu MD5 odbywa się całkowicie w Twojej przeglądarce przy użyciu JavaScript. Twoje dane nigdy nie opuszczają urządzenia."
+        }
+    },
+    "js": {
+        "error_empty": "Wprowadź tekst",
+        "btn_copied": "Skopiowano!"
+    }
+}

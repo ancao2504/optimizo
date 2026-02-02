@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "SQL naar JSON-converter - Gratis online databasetool",
+        "description": "Transformeer SQL INSERT-statements onmiddellijk in JSON-arrays met onze gratis online tool. Snel, nauwkeurig en veilig.",
+        "h1": "SQL naar JSON-converter",
+        "subtitle": "Eenvoudig schakelen tussen SQL-gegevens en JSON-objecten"
+    },
+    "editor": {
+        "btn_encode": "JSON naar SQL Modus",
+        "btn_decode": "SQL naar JSON Modus",
+        "label_table": "Tabelnaam",
+        "ph_table": "Voer tabelnaam in (bijv. gebruikers)",
+        "label_input_json": "JSON-invoer",
+        "ph_input_json": "Plak hier uw JSON-array...",
+        "label_output_sql": "SQL-uitvoer",
+        "ph_output_sql": "Gegenereerde SQL verschijnt hier...",
+        "label_input_sql": "SQL-invoer",
+        "label_output_json": "JSON-uitvoer",
+        "btn_convert_sql": "SQL genereren",
+        "btn_convert_json": "JSON genereren",
+        "btn_clear": "Wissen",
+        "btn_copy": "Uitvoer kopiëren"
+    },
+    "content": {
+        "hero_title": "SQL naar JSON Omzetter",
+        "hero_subtitle": "Bidirectionele conversie voor moderne ontwikkelaars",
+        "p1": "Moderne applicaties draaien op JSON, maar databases spreken nog steeds SQL. Onze bidirectionele omzetter overbrugt deze kloof moeiteloos. Of u nu database-exports wilt omzetten naar JSON voor uw API, of JSON-gegevens naar SQL-seeding-scripts, deze tool biedt een snelle, veilige en nauwkeurige oplossing.",
+        "integration_title": "Naadloze integratie",
+        "integration_desc": "Verplaats gegevens eenvoudig tussen uw relationele database en uw webapplicatie. Onze parser verwerkt standaard SQL INSERT-statements en zet ze om in gestructureerde JSON-objecten, waarbij gegevenstypen en waarden behouden blijven.",
+        "features_title": "Belangrijkste kenmerken",
+        "features": {
+            "instant": {
+                "title": "Direct resultaat",
+                "desc": "Conversies gebeuren in realtime terwijl u klikt."
+            },
+            "bidirectional": {
+                "title": "Dubbele modus",
+                "desc": "Schakel eenvoudig tussen SQL-naar-JSON en JSON-naar-SQL modi."
+            },
+            "security": {
+                "title": "Veilige conversie",
+                "desc": "Verwerking vindt 100% aan de clientzijde plaats voor maximale privacy."
+            },
+            "custom": {
+                "title": "Schone formattering",
+                "desc": "De uitvoer is professioneel geformatteerd en klaar voor gebruik."
+            },
+            "types": {
+                "title": "Type-bewust",
+                "desc": "Verwerkt nulls, getallen en strings correct."
+            },
+            "free": {
+                "title": "Helemaal gratis",
+                "desc": "Geen abonnement of gebruiksbeperkingen."
+            }
+        },
+        "uses_title": "Veelvoorkomende gebruiksvoorbeelden",
+        "uses": {
+            "seeding": {
+                "title": "Databasezaaien",
+                "desc": "Genereer snel SQL-scripts om uw ontwikkelomgeving te vullen."
+            },
+            "export": {
+                "title": "Gegevensexport",
+                "desc": "Zet SQL-queryresultaten om naar JSON voor analyse."
+            },
+            "migration": {
+                "title": "API-migratie",
+                "desc": "Bereid legacy databasegegevens voor op gebruik in moderne REST-API's."
+            },
+            "testing": {
+                "title": "Mock-gegevens",
+                "desc": "Maak JSON-mock-gegevens van bestaande SQL-tabellen."
+            },
+            "docs": {
+                "title": "Documentatie",
+                "desc": "Voeg JSON-voorbeelden van uw databasestructuur toe aan uw documentatie."
+            },
+            "prototype": {
+                "title": "Snel prototypen",
+                "desc": "Verplaats gegevens snel tussen verschillende toestanden tijdens de ontwikkeling."
+            }
+        },
+        "how_title": "Hoe te gebruiken",
+        "how_steps": {
+            "1": {
+                "title": "Selecteer modus",
+                "desc": "Kies tussen JSON-naar-SQL of SQL-naar-JSON met behulp van de knoppen."
+            },
+            "2": {
+                "title": "Gegevens invoeren",
+                "desc": "Plak uw broncode in het linker editor-gebied."
+            },
+            "3": {
+                "title": "Tabelnaam instellen",
+                "desc": "Geef bij het converteren naar SQL de doeldatabase-tabel op."
+            },
+            "4": {
+                "title": "Genereren",
+                "desc": "Klik op 'Genereren' om de transformatie onmiddellijk te zien."
+            },
+            "5": {
+                "title": "Resultaat kopiëren",
+                "desc": "Gebruik de knop 'Kopiëren' om uw uitvoer op te halen."
+            }
+        },
+        "samples_title": "Conversievoorbeelden",
+        "samples": [
+            {
+                "title": "SQL Insert naar JSON",
+                "desc": "INSERT INTO gebruikers (naam, leeftijd) VALUES ('Alice', 25); → [{\"naam\": \"Alice\", \"leeftijd\": 25}]"
+            },
+            {
+                "title": "JSON naar SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO tabel (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Veelgestelde vragen",
+        "faq": {
+            "q1": "Welke SQL-statements worden ondersteund?",
+            "a1": "Momenteel ondersteunt de tool standaard INSERT INTO statements met gedefinieerde kolomnamen.",
+            "q2": "Zijn mijn gegevens veilig?",
+            "a2": "Ja, we sturen uw gegevens nooit naar onze server. Alle logica draait in uw browser.",
+            "q3": "Kan ik meerdere rijen converteren?",
+            "a3": "Ja, de tool verwerkt meerregelige SQL of grote JSON-arrays efficiënt.",
+            "q4": "Verwerkt het speciale tekens?",
+            "a4": "Ja, het ontsnapt enkele aanhalingstekens correct en verwerkt basis speciale tekens."
+        }
+    },
+    "js": {
+        "error_empty": "Voer wat gegevens in om te verwerken",
+        "placeholder_table_name": "gebruikers",
+        "error_general": "Conversiefout: ",
+        "error_invalid_array": "Fout: Invoer moet een JSON-array van objecten zijn.",
+        "error_empty_array": "Fout: JSON-array is leeg.",
+        "success_sql": "✓ SQL succesvol gegenereerd!",
+        "error_no_statements": "Geen geldige SQL INSERT-statements gevonden.",
+        "success_json": "✓ JSON succesvol gegenereerd!",
+        "error_no_copy": "Geen inhoud om te kopiëren.",
+        "success_copy": "✓ Uitvoer gekopieerd naar klembord!"
+    }
+}

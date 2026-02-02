@@ -1,0 +1,70 @@
+{
+    "meta": {
+        "title": "Binary'den Hex'e Dönüştürücü - Ücretsiz Çevrimiçi Temel Çeviri",
+        "description": "İkili (taban-2) ve onaltılı (taban-16) arasında hızlı ve güvenilir çevrimiçi dönüştürücü. Geliştiriciler, öğrenciler ve bilişim profesyonelleri için temel araç.",
+        "h1": "İkili ↔ Hex Dönüştürücü",
+        "subtitle": "Doğrudan ikili ve onaltılı sayısal dönüşüm için nihai araç."
+    },
+    "editor": {
+        "mode_bin_hex": "İkiliden Onaltılıya",
+        "mode_hex_bin": "Onaltılıdan İkiliye",
+        "label_bin": "İkili Giriş",
+        "ph_bin": "İkili basamakları girin (örn. 10101011)...",
+        "label_out_hex": "Onaltılı Çıkış",
+        "ph_hex": "Onaltılı sonuç burada görünecek...",
+        "btn_convert_hex": "Onaltılıya Dönüştür",
+        "btn_clear": "Hepsini Temizle",
+        "btn_copy": "Sonucu Kopyala",
+        "label_hex": "Onaltılı Giriş",
+        "label_out_bin": "İkili Çıkış",
+        "btn_convert_bin": "İkiliye Dönüştür"
+    },
+    "content": {
+        "p1": "İkiliden Onaltılıya Dönüştürücümüz bilişim topluluğu için oluşturulmuş özel ve yüksek performanslı bir araçtır. İkili (taban-2) ve Onaltılı (taban-16), düşük seviyeli bilişimdeki en önemli iki sayı sistemidir. Bir onaltılı basamak tam olarak dört ikili bite karşılık geldiğinden, bu dönüştürücü bu iki temel veri temsili arasında doğrudan, hatasız bir köprü sağlar.",
+        "what_title": "Neden İkiliden Onaltılıya Dönüştürme Yapılır?",
+        "what_desc": "İkili donanımın dili olsa da, insanların uzun 0 ve 1 dizilerini okuması ve hatırlaması son derece zordur. Onaltılı sistem aynı verinin çok daha kompakt bir temsilini sağlar. Örneğin, 8 bitlik ikili dize \"10101011\" onaltılı sistemde sadece \"AB\"dir. Bu kompaktlık, onaltılı sistemi bellek adreslerini, renk kodlarını ve bayt düzeyindeki verileri temsil etmek için standart hale getirir.",
+        "features": {
+            "instant": {
+                "title": "Gerçek Zamanlı Dönüşüm",
+                "desc": "Sunucu tarafında gecikme olmadan hızlıca sonuç alın."
+            },
+            "bidirectional": {
+                "title": "Tam Çift Yönlü Destek",
+                "desc": "İkiliden Onaltılıya ve Onaltılıdan İkiliye modları arasında kolayca geçiş yapın."
+            },
+            "privacy": {
+                "title": "%100 Gizlilik",
+                "desc": "Tüm işlemler yerel makinenizde yapılır; verileriniz asla cihazınızdan çıkmaz."
+            },
+            "copy": {
+                "title": "Anında Kopyalama",
+                "desc": "Tüm sonuçlar için yerleşik pano desteğiyle zaman kazanın."
+            }
+        },
+        "uses": {
+            "title": "Pratik Uygulamalar",
+            "memory": {
+                "title": "Bellek Adresleme",
+                "desc": "İkili değerleri işletim sistemleri ve hata ayıklayıcılar tarafından kullanılan onaltılı adreslere dönüştürün."
+            },
+            "colors": {
+                "title": "Renk Temsili",
+                "desc": "8 bitlik ikili bileşenlerin HTML renk kodlarındaki 2 basamaklı onaltılı değerleri nasıl oluşturduğunu anlayın."
+            },
+            "encoding": {
+                "title": "Veri Kodlama",
+                "desc": "Ağ iletişimi ve dosya biçimlerinde kullanılan bayt akışlarını ve veri paketlerini analiz edin."
+            }
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen dönüştürülecek bir değer girin",
+        "error_invalid_bin": "Geçersiz ikili sayı. Sadece 0 ve 1 kullanın.",
+        "success_hex": "✓ Onaltılıya başarıyla dönüştürüldü!",
+        "error_invalid_hex": "Geçersiz onaltılı sayı. 0-9 ve A-F kullanın.",
+        "success_bin": "✓ İkiliye başarıyla dönüştürüldü!",
+        "error_general": "Dönüşüm hatası: ",
+        "error_no_output": "Kopyalanacak bir şey yok! Lütfen önce bir dönüşüm yapın.",
+        "success_copy": "✓ Panoya kopyalandı!"
+    }
+}

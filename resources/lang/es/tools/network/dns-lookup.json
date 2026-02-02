@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "Herramienta de búsqueda DNS - Consultar registros DNS en línea gratis",
+        "description": "Herramienta gratuita de búsqueda DNS para verificar registros DNS de cualquier dominio. Ver registros A, AAAA, MX, NS, TXT, CNAME al instante.",
+        "h1": "Búsqueda DNS",
+        "subtitle": "Consulte registros DNS para encontrar servidores de nombres, registros MX, A, CNAME y TXT al instante"
+    },
+    "form": {
+        "domain_label": "Nombre de dominio",
+        "domain_placeholder": "ejemplo.com",
+        "button": "Buscar DNS"
+    },
+    "results": {
+        "title": "Resultados de búsqueda DNS"
+    },
+    "content": {
+        "what_is_title": "¿Qué es la búsqueda DNS?",
+        "what_is_desc": "La búsqueda DNS es una herramienta que consulta los servidores del Sistema de Nombres de Dominio para recuperar los registros DNS de un dominio. Los registros DNS contienen información importante sobre cómo está configurado un dominio, incluyendo servidores de correo (registros MX), servidores de nombres (registros NS), direcciones IP (registros A\/AAAA) y registros de texto (registros TXT) utilizados para verificación y seguridad.",
+        "why_use_title": "¿Por qué usar la búsqueda DNS?",
+        "why_use_desc": "La búsqueda DNS es esencial para solucionar problemas de entrega de correo electrónico, verificar la configuración del dominio, comprobar los ajustes del servidor de nombres, validar registros SPF y DKIM, y comprender cómo está configurado un dominio. Es utilizado diariamente por administradores de sistemas, desarrolladores web y profesionales de TI.",
+        "record_types_title": "Tipos de registros DNS",
+        "a_record": "<strong>Registro A:<\/strong> Asocia el dominio a una dirección IPv4",
+        "aaaa_record": "<strong>Registro AAAA:<\/strong> Asocia el dominio a una dirección IPv6",
+        "mx_record": "<strong>Registro MX:<\/strong> Información del servidor de correo",
+        "ns_record": "<strong>Registro NS:<\/strong> Información del servidor de nombres",
+        "txt_record": "<strong>Registro TXT:<\/strong> Registros de texto para verificación",
+        "cname_record": "<strong>Registro CNAME:<\/strong> Alias de nombre canónico"
+    },
+    "faq": {
+        "title": "Preguntas frecuentes sobre búsqueda DNS",
+        "q1": "¿Cuánto tardan en actualizarse los cambios de DNS?",
+        "a1": "La propagación de DNS puede tardar de unos minutos hasta 48 horas, dependiendo de los valores de TTL (Time to Live).",
+        "q2": "¿Qué es un registro MX?",
+        "a2": "Un registro de Intercambio de Correo (MX) especifica el servidor de correo responsable de recibir mensajes de correo electrónico en nombre de un dominio.",
+        "q3": "¿Puedo buscar registros de cualquier dominio?",
+        "a3": "Sí, el sistema DNS es público por diseño, lo que le permite consultar registros de cualquier dominio registrado.",
+        "q4": "¿Qué es un registro TXT?",
+        "a4": "Los registros de texto se utilizan a menudo para la verificación de la propiedad del dominio y para configuraciones de seguridad de correo como SPF y DKIM.",
+        "q5": "¿Cuál es la diferencia entre registros A y CNAME?",
+        "a5": "Un registro A apunta un dominio directamente a una IP, mientras que un CNAME apunta un dominio a otro nombre de dominio."
+    },
+    "js": {
+        "looking_up": "Buscando...",
+        "records_label": "Registros",
+        "success": "¡Éxito!",
+        "error": "Ocurrió un error al buscar los registros.",
+        "lookup_dns": "Buscar DNS"
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML Encoder & Decoder – bezplatný online nástroj pro entity",
+        "description": "Kódujte a dekódujte HTML entity pro prevenci XSS útoků pomocí našeho bezplatného online nástroje.",
+        "h1": "HTML kodér a dekodér",
+        "subtitle": "Kódujte a dekódujte HTML entity pro prevenci XSS útoků"
+    },
+    "editor": {
+        "mode_encode": "Zakódovat HTML",
+        "mode_decode": "Dekódovat HTML",
+        "label_input_encode": "Zadejte HTML ke kódování",
+        "ph_input_encode": "<div>Ahoj a vítejte<\/div>",
+        "btn_encode": "Zakódovat HTML",
+        "btn_clear": "Vymazat",
+        "btn_copy": "Kopírovat",
+        "label_output_encode": "Zakódované HTML",
+        "ph_output": "Zde se zobrazí zpracované HTML...",
+        "label_input_decode": "Zadejte HTML k dekódování",
+        "label_output_decode": "Dekódované HTML",
+        "btn_decode": "Dekódovat HTML"
+    },
+    "content": {
+        "hero_title": "Bezplatný HTML kodér a dekodér",
+        "hero_subtitle": "Kódujte a dekódujte HTML entity pro prevenci XSS útoků",
+        "p1": "Náš bezplatný nástroj pro kódování a dekódování HTML vám pomůže zakódovat speciální znaky v HTML pro bezpečné zobrazení na webových stránkách nebo dekódovat zakódované HTML zpět do původního formátu. Ideální pro vývojáře, bezpečnostní experty a kohokoli, kdo pracuje se surovým HTML.",
+        "what_title": "🔗 Co je kódování HTML?",
+        "what_desc": "Kódování HTML převádí znaky, které mají v HTML speciální význam (jako <, >, &, \") na jejich odpovídající HTML entity (jako &lt;, &gt;, &amp;, &quot;). To brání prohlížeči v jejich interpretaci jako HTML značek, což je zásadní pro prevenci útoků Cross-Site Scripting (XSS).",
+        "features_title": "✨ Funkce",
+        "features": {
+            "fast": {
+                "title": "Okamžitý převod",
+                "desc": "Kódujte nebo dekódujte HTML v milisekundách"
+            },
+            "bidirectional": {
+                "title": "Obousměrný",
+                "desc": "Kódujte speciální znaky nebo dekódujte entity zpět na text"
+            },
+            "privacy": {
+                "title": "Soukromí na prvním místě",
+                "desc": "Veškeré zpracování probíhá ve vašem prohlížeči"
+            },
+            "copy": {
+                "title": "Kopírování jedním kliknutím",
+                "desc": "Okamžitě zkopírujte zpracované HTML do schránky"
+            },
+            "free": {
+                "title": "100% Zdarma",
+                "desc": "Žádné limity, žádná registrace není vyžadována"
+            },
+            "safe": {
+                "title": "Zaměřeno na bezpečnost",
+                "desc": "Pomáhá předcházet zranitelnostem XSS"
+            }
+        },
+        "uses_title": "🎯 Běžné příklady použití",
+        "uses": {
+            "security": {
+                "title": "🔒 Bezpečnost",
+                "desc": "Sanitize uživatelský vstup pro prevenci útoků XSS kódováním speciálních znaků."
+            },
+            "display": {
+                "title": "💻 Zobrazení kódu",
+                "desc": "Zobrazte surový HTML kód na webové stránce, aniž by jej prohlížeč vykreslil."
+            },
+            "data": {
+                "title": "📊 Ukládání dat",
+                "desc": "Ukládejte obsah bezpečně do databází bez obav z problémů s parsováním HTML."
+            },
+            "email": {
+                "title": "📧 Emailové šablony",
+                "desc": "Zajistěte, aby se speciální znaky v HTML emailech zobrazovaly správně."
+            }
+        },
+        "how_title": "📚 Jak používat",
+        "how_steps": {
+            "1": "Vložte své HTML nebo text do vstupního pole",
+            "2": "Klikněte na tlačítko zpracování pro převod",
+            "3": "Zkopírujte výsledek do schránky",
+            "4": "Zkopírujte zakódovaný\/dekódovaný výsledek a použijte jej ve svých HTML, XML nebo webových aplikacích."
+        },
+        "examples_title": "💡 Příklady kódování HTML",
+        "examples": {
+            "1": {
+                "title": "Uvozovky:",
+                "code": "\"Ahoj\" → &quot;Ahoj&quot;"
+            },
+            "2": {
+                "title": "ampersand:",
+                "code": "Tom & Jerry → Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Kódování speciálních znaků",
+                "code": "&lt;script&gt;upozornění(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;upozornění(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&gt;"
+            }
+        },
+        "faq_title": "❓ Často kladené otázky",
+        "faq": {
+            "q1": "Proč musím kódovat HTML?",
+            "a1": "Kódování je nezbytné pro bezpečnost, aby se zabránilo prohlížeči ve spouštění škodlivých skriptů (XSS) a pro správné zobrazení fragmentů kódu.",
+            "q2": "Které znaky jsou kódovány?",
+            "a2": "Vždy jsou kódovány základní znaky jako <, >, &, \" a '. Mohou být kódovány také rozšířené znaky ASCII.",
+            "q3": "Je to vratné?",
+            "a3": "Ano, dekódování proces přesně zvrátí a obnoví původní text."
+        }
+    },
+    "js": {
+        "error_empty": "Zadejte prosím HTML ke zpracování",
+        "success_encode": "✓ HTML bylo úspěšně zakódováno",
+        "success_decode": "✓ HTML bylo úspěšně dekódováno",
+        "error_process": "✗ Chyba při zpracování HTML: ",
+        "error_no_copy": "Není co kopírovat",
+        "success_copy": "✓ Zkopírováno do schránky"
+    }
+}

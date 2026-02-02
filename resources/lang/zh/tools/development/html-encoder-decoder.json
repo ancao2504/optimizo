@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML 编码器和解码器 - 免费在线实体工具",
+        "description": "即时对您的文本或 HTML 代码进行编码（实体化）或解码。快速处理特殊符号和安全实体。",
+        "h1": "HTML 编码器和解码器",
+        "subtitle": "瞬间安全地转换 HTML 实体与代码"
+    },
+    "editor": {
+        "mode_encode": "编码 HTML",
+        "mode_decode": "解码 HTML",
+        "label_input_encode": "输入 HTML 进行编码",
+        "ph_input_encode": "<div>您好，欢迎<\/div>",
+        "btn_encode": "编码为实体",
+        "btn_clear": "清空内容",
+        "btn_copy": "复制结果",
+        "label_output_encode": "编码 HTML",
+        "ph_output": "转换后的内容将显示在此处...",
+        "label_input_decode": "输入 HTML 进行解码",
+        "label_output_decode": "解码后的 HTML",
+        "btn_decode": "解码为源代码"
+    },
+    "content": {
+        "hero_title": "专业的 HTML 实体处理工具",
+        "hero_subtitle": "防止 XSS 攻击，确保您的代码在任何浏览器中都能正确显示",
+        "p1": "在网页开发中，有些字符（如 <、>、& 和 \"）具有特殊的含义，如果直接放在 HTML 中可能会导致显示错误甚至安全漏洞。我们的免费在线 HTML 编码器能帮您将这些字符转换为实体（如 &lt; 和 &gt;）。反之，我们的解码器也能帮您将复杂的实体代码还原成易读的文本，是前端开发中不可或缺的安全工具。",
+        "what_title": "ðŸ”— 什么是 HTML 编码？",
+        "what_desc": "HTML 编码将 HTML 中具有特殊含义的字符（如 <、>、&、\"）转换为相应的 HTML 实体（如 &lt;、>、&amp;、&quot;）。这可以防止浏览器将它们解释为 HTML 标签，这对于防止跨站脚本 (XSS) 攻击至关重要。",
+        "features_title": "主要功能",
+        "features": {
+            "fast": {
+                "title": "即时转换",
+                "desc": "在几毫秒内编码或解码 HTML"
+            },
+            "bidirectional": {
+                "title": "双向",
+                "desc": "对特殊字符进行编码或将实体解码回文本"
+            },
+            "privacy": {
+                "title": "隐私第一",
+                "desc": "所有处理都发生在您的浏览器中"
+            },
+            "copy": {
+                "title": "一键复制",
+                "desc": "立即将处理后的 HTML 复制到剪贴板"
+            },
+            "free": {
+                "title": "100% 免费",
+                "desc": "无限制，无需注册"
+            },
+            "safe": {
+                "title": "注重安全",
+                "desc": "帮助防止 XSS 漏洞"
+            }
+        },
+        "uses_title": "常见使用场景",
+        "uses": {
+            "security": {
+                "title": "防御安全威胁",
+                "desc": "通过实体编码过滤动态生成的 HTML 内容，预防潜在的脚本注入风险。"
+            },
+            "display": {
+                "title": "在网页中显示代码",
+                "desc": "为博客或技术文档编码 HTML 片段，以避免浏览器渲染这些演示代码。"
+            },
+            "data": {
+                "title": "ð“Š 数据存储",
+                "desc": "将内容安全地存储在数据库中，无需担心 HTML 解析问题。"
+            },
+            "email": {
+                "title": "ð“§ 电子邮件模板",
+                "desc": "确保特殊字符在 HTML 电子邮件中正确呈现。"
+            }
+        },
+        "how_title": "如何进行编码或解码",
+        "how_steps": {
+            "1": "将 HTML 或文本粘贴到输入字段中",
+            "2": "单击处理按钮进行转换",
+            "3": "将结果复制到剪贴板",
+            "4": "复制编码\/解码结果并在 HTML、XML 或 Web 应用程序中使用它。"
+        },
+        "examples_title": "HTML 编码示例",
+        "examples": {
+            "1": {
+                "title": "引号：",
+                "code": "“你好”→“你好”"
+            },
+            "2": {
+                "title": "与符号：",
+                "code": "汤姆和杰瑞 → 汤姆和杰瑞杰瑞"
+            },
+            "3": {
+                "title": "对特殊字符进行编码",
+                "code": "&lt;脚本&gt;警报(“XSS”)&lt;\/脚本&gt; → <script>alert(&quot;XSS&quot;)&amp;lt;\/script>;"
+            }
+        },
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "什么是 HTML 实体？",
+            "a1": "HTML 实体是以 & 开头、以 ; 结尾的短代码，用于表示 HTML 中的预留字符、不可见字符或键盘上没有的字符。",
+            "q2": "解码后我的代码会被执行吗？",
+            "a2": "在该工具的输出框中，它是以文本形式显示的，非常安全。但请注意，如果您将解码后的内容粘贴到自己的 HTML 源代码中并打开，浏览器就会执行它。",
+            "q3": "支持所有的 HTML 标签吗？",
+            "a3": "是的。该工具不仅处理 <、> 符号，还会对所有可能引起歧义或跨字符集损坏的特殊符号进行全面的实体化映射。"
+        }
+    },
+    "js": {
+        "error_empty": "请先粘贴一些内容",
+        "success_encode": "✓ 已成功编码为 HTML 实体！",
+        "success_decode": "✓ 已成功解码为源代码！",
+        "error_process": "✔ 处理 HTML 时出错：",
+        "error_no_copy": "没有可复制的结果",
+        "success_copy": "✓ 已复制到剪贴板！"
+    }
+}

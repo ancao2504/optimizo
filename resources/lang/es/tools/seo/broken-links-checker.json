@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Broken Link Checker — Buscador de enlaces rotos 404",
+        "description": "Herramienta gratuita para detectar enlaces rotos en su sitio web. Encuentre y corrija errores 404 para mejorar su SEO y la experiencia del usuario.",
+        "h1": "Verificador de Enlaces Rotos",
+        "subtitle": "Encuentre y corrija enlaces rotos en su sitio para mejor SEO y UX"
+    },
+    "interface": {
+        "scan_title": "Buscador de Enlaces Rotos",
+        "scan_subtitle": "Encuentre enlaces rotos, redirecciones y más.",
+        "url_label": "URL del sitio web",
+        "button": "Escanear enlaces rotos",
+        "button_scanning": "Escaneando...",
+        "legend_ok": "200 OK",
+        "legend_err": "404\/Error"
+    },
+    "progress": {
+        "extracting": "Extrayendo enlaces...",
+        "stop": "Detener",
+        "processing": "Procesando enlaces secuencialmente...",
+        "processed": "Procesado",
+        "of": "de",
+        "links": "enlaces",
+        "checking": "Verificando enlaces..."
+    },
+    "stats": {
+        "total": "Total de enlaces",
+        "working": "Funcionando (200)",
+        "redirects": "Redirecciones (3xx)",
+        "broken": "Rotos (4xx\/5xx)"
+    },
+    "results": {
+        "download": "Descargar informe CSV",
+        "detailed_analysis": "Análisis detallado",
+        "status": "Estado",
+        "link_url": "URL del enlace",
+        "anchor_text": "Texto de anclaje",
+        "type": "Tipo"
+    },
+    "content": {
+        "main_title": "¿Por qué verificar enlaces rotos?",
+        "main_subtitle": "Los enlaces rotos dañan la credibilidad, la experiencia del usuario y el rendimiento SEO de su sitio web. Nuestro verificador gratuito le ayuda a identificar y corregir enlaces muertos antes de que afecten sus clasificaciones.",
+        "what_is_title": "¿Qué es un Verificador de Enlaces Rotos?",
+        "what_is_desc": "Un verificador de enlaces rotos es una herramienta que escanea sus páginas web para encontrar enlaces que ya no funcionan (errores 404, errores de servidor o redirecciones). Le ayuda a mantener un sitio saludable identificando enlaces muertos.",
+        "how_works_title": "¿Cómo funciona?",
+        "how_works_intro": "Nuestro verificador de enlaces rotos sigue un proceso simple de 3 pasos:",
+        "how_works_step1": "<strong>Escanear:<\/strong> Ingrese la URL y extraeremos todos los enlaces de la página.",
+        "how_works_step2": "<strong>Verificar:<\/strong> Probamos cada enlace para verificar su estado HTTP.",
+        "how_works_step3": "<strong>Informar:<\/strong> Obtenga un informe detallado con los enlaces que necesitan reparación.",
+        "pro_tip_title": "💡 Consejo Pro:",
+        "pro_tip_desc": "Ejecute este verificador mensualmente para detectar enlaces rotos antes de que afecten su SEO. ¡Mantener su sitio limpio es vital!",
+        "types_title": "Tipos de Enlaces Rotos",
+        "common_causes_title": "Causas comunes de enlaces rotos",
+        "cc_1": "❌ <strong>Errores tipográficos:<\/strong> Enlaces mal escritos durante la creación del contenido.",
+        "cc_2": "❌ <strong>Páginas eliminadas:<\/strong> Contenido borrado sin configurar redirecciones 301.",
+        "cc_3": "❌ <strong>Reestructuración:<\/strong> Cambios en la estructura de URL durante rediseños del sitio.",
+        "cc_4": "❌ <strong>Enlaces externos:<\/strong> Sitios de terceros que han movido o borrado su contenido.",
+        "cc_5": "❌ <strong>Dominios caducados:<\/strong> Sitios vinculados que ya no existen.",
+        "cc_6": "❌ <strong>Cambios de protocolo:<\/strong> Migraciones de HTTP a HTTPS mal configuradas.",
+        "best_practices_title": "Mejores prácticas para enlaces"
+    },
+    "benefits": {
+        "ux_title": "Experiencia del Usuario",
+        "ux_desc": "Los enlaces rotos frustran a los visitantes y aumentan la tasa de rebote. Mantenga a sus usuarios felices con una navegación fluida.",
+        "seo_title": "Impacto en SEO",
+        "seo_desc": "Los buscadores penalizan los sitios con muchos errores. Mantenga sus posiciones arreglando los enlaces muertos rápidamente.",
+        "maintenance_title": "Mantenimiento fácil",
+        "maintenance_desc": "Identifique y corrija problemas rápidamente antes de que dañen la reputación de su sitio web."
+    },
+    "link_types": {
+        "type1_title": "🔴 404 No encontrado",
+        "type1_desc": "El error más común. La página ya no existe en el servidor.",
+        "type2_title": "🟡 Redirecciones 301\/302",
+        "type2_desc": "La página se ha movido. Aunque no está \"roto\", demasiadas redirecciones ralentizan el sitio.",
+        "type3_title": "🔴 Errores de servidor 500",
+        "type3_desc": "El servidor encontró un error interno. Estos requieren atención inmediata.",
+        "type4_title": "🟢 Errores de tiempo de espera",
+        "type4_desc": "El servidor tardó demasiado en responder, lo que puede indicar problemas de rendimiento."
+    },
+    "best_practices": {
+        "bp1_title": "Auditorías regulares",
+        "bp1_desc": "Revise su sitio mensualmente, especialmente después de actualizar el contenido.",
+        "bp2_title": "Use redirecciones 301",
+        "bp2_desc": "Al mover o eliminar páginas, configure siempre redirecciones permanentes.",
+        "bp3_title": "Monitoree enlaces externos",
+        "bp3_desc": "Los sitios externos cambian a menudo; revise sus enlaces salientes trimestralmente.",
+        "bp4_title": "Documente los cambios",
+        "bp4_desc": "Lleve un registro de los cambios de URL y redirecciones para referencia futura.",
+        "bp5_title": "Arregle enlaces internos primero",
+        "bp5_desc": "Priorice los enlaces de su propio dominio, ya que tiene control total sobre ellos.",
+        "bp6_title": "Use URLs relativas",
+        "bp6_desc": "Para enlaces internos, use URLs relativas para evitar problemas al cambiar de dominio."
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "q1": "¿Con qué frecuencia debo buscar enlaces rotos?",
+        "a1": "Para la mayoría de los sitios, una revisión mensual es suficiente. Sitios de alto tráfico deben hacerlo semanalmente.",
+        "q2": "¿Los enlaces rotos dañan mi SEO?",
+        "a2": "Sí, indirectamente. Muchos enlaces rotos indican un mal mantenimiento, aumentan el rebote y gastan el presupuesto de rastreo.",
+        "q3": "¿Cuál es la diferencia entre enlaces internos y externos?",
+        "a3": "Los <strong>internos<\/strong> apuntan a su propio dominio. Los <strong>externos<\/strong> apuntan a otros sitios. Usted debe corregir ambos para una salud óptima.",
+        "q4": "¿Puedo verificar todo mi sitio web?",
+        "a4": "Esta herramienta analiza una página a la vez para ofrecer resultados rápidos. Recomendamos empezar por sus páginas más importantes.",
+        "q_what_to_do": "¿Qué debo hacer al encontrar enlaces rotos?",
+        "a_what_to_do_intro": "Siga este orden de prioridad:",
+        "a_what_to_do_li1": "<strong>Enlaces internos:<\/strong> Configure una redirección 301 o actualice el enlace directamente.",
+        "a_what_to_do_li2": "<strong>Enlaces externos:<\/strong> Busque una alternativa funcional o elimine el enlace si no es necesario.",
+        "a_what_to_do_li3": "<strong>Sin alternativa:<\/strong> Borre el enlace y ajuste el texto circundante.",
+        "a_what_to_do_li4": "<strong>Documente todo:<\/strong> Guarde un registro para evitar repetir errores en el futuro."
+    },
+    "js": {
+        "stopping": "Deteniendo escaneo...",
+        "scan_stopped": "Escaneo detenido",
+        "scan_complete": "¡Escaneo completado!",
+        "error_prefix": "Error: ",
+        "pending": "Pendiente",
+        "internal": "Interno",
+        "external": "Externo"
+    }
+}

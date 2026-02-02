@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode Encoder & Decoder - Gratis textverktyg online",
+        "description": "Koda och avkoda Unicode-escape-sekvenser för JavaScript och JSON med vårt gratisverktyg.",
+        "h1": "Unicode-kodare och avkodare",
+        "subtitle": "Koda och avkoda Unicode-escape-sekvenser för JavaScript och JSON"
+    },
+    "editor": {
+        "btn_encode": "Koda Unicode",
+        "btn_decode": "Avkoda Unicode",
+        "label_input_encode": "Ange text att koda",
+        "ph_input": "Hej Världen",
+        "btn_process_encode": "Koda Unicode",
+        "btn_clear": "Rensa",
+        "btn_copy": "Kopiera",
+        "label_output_encoded": "Kodad Unicode",
+        "ph_output": "Bearbetad Unicode visas här...",
+        "label_input_decode": "Ange Unicode att avkoda",
+        "label_output_decoded": "Avkodad text",
+        "btn_process_decode": "Avkoda Unicode"
+    },
+    "content": {
+        "p1": "Vårt gratis Unicode-kodare och avkodare-verktyg hjälper dig att koda text till Unicode-escape-sekvenser (t.ex. \\u0041) för säker användning i JavaScript, JSON och andra programmeringssammanhang, eller avkoda dem tillbaka till läsbar text. Perfekt för utvecklare, dataanalytiker och alla som hanterar internationella teckenuppsättningar. 100% gratis, bearbetning på klientsidan säkerställer att din data förblir privat.",
+        "what_title": "Vad är Unicode-kodning?",
+        "what_desc": "Unicode-kodning konverterar tecken till deras motsvarande Unicode-kodpunkter, ofta representerade som escape-sekvenser som \\uXXXX. Detta säkerställer att text som innehåller specialtecken, emojis eller icke-latinska skrifter kan representeras säkert i miljöer som vanligtvis endast stöder ASCII, såsom källkodsfiler eller JSON-data.",
+        "features_title": "Funktioner",
+        "features": {
+            "instant": {
+                "title": "Omedelbar konvertering",
+                "desc": "Koda eller avkoda Unicode på millisekunder"
+            },
+            "bidirectional": {
+                "title": "Dubbelriktad",
+                "desc": "Koda till Unicode-format eller avkoda tillbaka till originalet"
+            },
+            "privacy": {
+                "title": "Integritet först",
+                "desc": "All bearbetning sker i din webbläsare"
+            },
+            "copy": {
+                "title": "Enklicks-kopiering",
+                "desc": "Kopiera kodad\/avkodad text direkt"
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "Inga gränser, ingen registrering krävs"
+            },
+            "universal": {
+                "title": "Universellt stöd",
+                "desc": "Fungerar med alla Unicode-tecken och skrifter"
+            }
+        },
+        "uses_title": "Vanliga användningsområden",
+        "uses": {
+            "programming": {
+                "title": "Programmering",
+                "desc": "Bädda in specialtecken i JavaScript- eller Java-källkod säkert"
+            },
+            "data": {
+                "title": "Dataserialisering",
+                "desc": "Säkerställ säker överföring av icke-ASCII-tecken i JSON"
+            },
+            "international": {
+                "title": "Internationalisering",
+                "desc": "Felsök och visa text på olika språk och skrifter"
+            },
+            "security": {
+                "title": "Säkerhet",
+                "desc": "Analysera obfuskerad kod eller data som innehåller Unicode-escapes"
+            }
+        },
+        "how_to_title": "Hur man använder",
+        "how_to": {
+            "step1": {
+                "title": "Välj läge",
+                "desc": "Välj \"Koda Unicode\" eller \"Avkoda Unicode\" beroende på ditt behov"
+            },
+            "step2": {
+                "title": "Ange text",
+                "desc": "Klistra in din text eller Unicode-escapes i inmatningsfältet"
+            },
+            "step3": {
+                "title": "Bearbeta",
+                "desc": "Klicka på koda eller avkoda-knappen"
+            },
+            "step4": {
+                "title": "Kopiera resultat",
+                "desc": "Klicka på \"Kopiera\" för att kopiera den bearbetade texten till urklipp"
+            },
+            "step5": {
+                "title": "Använd var som helst",
+                "desc": "Klistra in resultatet i din kod eller applikation"
+            }
+        },
+        "examples_title": "Unicode-exempel",
+        "examples": {
+            "simple": {
+                "title": "Enkel\/ASCII:",
+                "desc": "Original: \"A\" → Kodad: \"\\u0041\""
+            },
+            "special": {
+                "title": "Specialtecken:",
+                "desc": "Original: \"©\" → Kodad: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emojis\/multibyte:",
+                "desc": "Original: \"🌟\" → Kodad: \"\\uD83C\\uDF1F\" (surrogatpar) eller \"\\u2B50\" beroende på representation"
+            }
+        },
+        "faq_title": "Vanliga frågor",
+        "faq": {
+            "q1": "Varför använda Unicode-escape-sekvenser?",
+            "a1": "De låter dig representera vilket tecken som helst med endast ASCII-tecken, vilket säkerställer kompatibilitet mellan olika system, kodningar och filöverföringar som kanske inte hanterar rå Unicode korrekt.",
+            "q2": "Vilket format används?",
+            "a2": "Detta verktyg använder vanligtvis JavaScript\/JSON-stilen \\uXXXX-format för Basic Multilingual Plane-tecken.",
+            "q3": "Är detta annorlunda än URL-kodning?",
+            "a3": "Ja. URL-kodning använder %XX hex-värden främst för URL:er. Unicode-escaping använder \\uXXXX och används i strängar i programmeringsspråk som JavaScript, Java och Python.",
+            "q4": "Är min data säker?",
+            "a4": "Ja! All kodning och avkodning sker helt i din webbläsare med JavaScript. Din text lämnar aldrig din enhet."
+        }
+    },
+    "js": {
+        "error_empty": "Vänligen ange text att bearbeta",
+        "success_encode": "✓ Unicode kodad framgångsrikt",
+        "success_decode": "✓ Unicode avkodad framgångsrikt",
+        "error_process": "✗ Fel vid bearbetning av Unicode: ",
+        "error_no_copy": "Ingen utdata att kopiera",
+        "success_copy": "✓ Kopierad till urklipp"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Trình kiểm tra Hreflang - Trình xác thực thẻ trực tuyến miễn phí",
+        "description": "Kiểm tra thẻ hreflang của bạn để đảm bảo Google hiển thị đúng URL cho đối tượng và ngôn ngữ mục tiêu của bạn.",
+        "h1": "Trình kiểm tra Hreflang",
+        "subtitle": "Công cụ miễn phí để trích xuất và xác thực thuộc tính hreflang cho SEO quốc tế"
+    },
+    "form": {
+        "url_label": "Nhập URL để kiểm tra",
+        "url_placeholder": "https:\/\/example.com\/page",
+        "user_agent_label": "Tác nhân người dùng (User Agent)",
+        "user_agent_default": "Mặc định (Trình duyệt)",
+        "user_agent_googlebot": "Googlebot (Máy tính)",
+        "user_agent_bingbot": "Bingbot (Máy tính)",
+        "button": "Kiểm tra thẻ Hreflang"
+    },
+    "content": {
+        "main_title": "Kiểm tra thẻ Hreflang",
+        "main_subtitle": "Đảm bảo nội dung quốc tế của bạn tiếp cận đúng đối tượng. Xác thực triển khai hreflang và sửa các lỗi SEO phổ biến.",
+        "intro": "Thẻ Hreflang rất cần thiết cho các trang web phục vụ nhiều ngôn ngữ hoặc quốc gia. Công cụ miễn phí của chúng tôi trích xuất và xác thực thẻ `rel=\"alternate\" hreflang=\"x\"` từ HTML và tiêu đề HTTP. Nó kiểm tra các thẻ trả về (return tags) để đảm bảo nội dung bản địa hóa được lập chỉ mục chính xác trên Google và các công cụ tìm kiếm khác.",
+        "features_title": "Tại sao phải kiểm tra thẻ Hreflang?",
+        "feature1_title": "Xác thực thẻ trả về",
+        "feature1_desc": "Thẻ Hreflang phải hoạt động theo cặp. Công cụ của chúng tôi tự động kiểm tra xem Trang A có liên kết đến Trang B không, và liệu Trang B có liên kết ngược lại Trang A không.",
+        "feature2_title": "Phát hiện lỗi phổ biến",
+        "feature2_desc": "Tìm các thẻ trả về bị thiếu, mã ngôn ngữ không hợp lệ (ISO 639-1) và mã quốc gia sai (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Ngăn ngừa vấn đề SEO",
+        "feature3_desc": "Triển khai hreflang sai có thể dẫn đến các vấn đề về nội dung trùng lặp và hiển thị sai phiên bản ngôn ngữ trong kết quả tìm kiếm.",
+        "how_title": "Cách sử dụng Trình kiểm tra Hreflang",
+        "step1_title": "Nhập URL",
+        "step1_desc": "Dán URL đầy đủ của trang bạn muốn phân tích (ví dụ: https:\/\/example.com).",
+        "step2_title": "Chọn Tác nhân người dùng",
+        "step2_desc": "Khuyên dùng kiểm tra dưới dạng Googlebot, nhưng bạn cũng có thể kiểm tra như một trình duyệt tiêu chuẩn.",
+        "step3_title": "Phân tích kết quả",
+        "step3_desc": "Chúng tôi sẽ tìm nạp trang và hiển thị danh sách tất cả các liên kết thay thế được tìm thấy và trạng thái xác thực của chúng.",
+        "step4_title": "Sửa lỗi",
+        "step4_desc": "Nếu bạn thấy lỗi 'Missing Return Tag', hãy cập nhật trang được tham chiếu để bao gồm liên kết tương hỗ.",
+        "faq_title": "Câu hỏi thường gặp",
+        "faq1_q": "Thẻ hreflang là gì?",
+        "faq1_a": "Hreflang là một thuộc tính HTML được sử dụng để chỉ định ngôn ngữ và mục tiêu địa lý của một trang web. Nó cho các công cụ tìm kiếm biết phiên bản nào của trang sẽ hiển thị cho người dùng dựa trên ngôn ngữ hoặc khu vực của họ.",
+        "faq2_q": "Tại sao thẻ trả về lại quan trọng?",
+        "faq2_a": "Google yêu cầu các liên kết trả về để ngăn chặn ai đó tuyên bố rằng một trang của trang web khác là phiên bản thay thế của họ. Nếu Trang A liên kết đến Trang B, thì Trang B phải liên kết ngược lại Trang A.",
+        "faq3_q": "Công cụ này có kiểm tra x-default không?",
+        "faq3_a": "Có, công cụ của chúng tôi xác định và xác thực thẻ `x-default`, được sử dụng khi không có ngôn ngữ nào khác khớp hoặc cho trang chọn ngôn ngữ chính.",
+        "faq4_q": "Tôi có thể kiểm tra hreflang trong tiêu đề HTTP không?",
+        "faq4_a": "Có! Chúng tôi kiểm tra cả phần HTML `<head>` và các thuộc tính `Link: <url>; rel=\"alternate\"; hreflang=\"code\"` trong tiêu đề phản hồi HTTP.",
+        "faq5_q": "Điều gì xảy ra nếu có lỗi hreflang?",
+        "faq5_a": "Các công cụ tìm kiếm có thể bỏ qua các thẻ không hợp lệ, dẫn đến việc hiển thị sai phiên bản ngôn ngữ cho người dùng hoặc bị phạt nội dung trùng lặp.",
+        "faq6_q": "Công cụ này có miễn phí không?",
+        "faq6_a": "Có, bạn có thể thực hiện kiểm tra không giới hạn miễn phí để đảm bảo SEO quốc tế hoàn hảo."
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "Instrument de căutare DNS - Verificator de înregistrări DNS online gratuit",
+        "description": "Unealtă gratuită de căutare DNS pentru a verifica înregistrările DNS ale oricărui domeniu. Vizualizează instantaneu înregistrările A, AAAA, MX, NS, TXT, CNAME. Esențial pentru depanarea e-mailului.",
+        "h1": "Instrumentul de căutare DNS",
+        "subtitle": "Interoghează înregistrările DNS pentru nameservere, MX, A, CNAME și TXT instantaneu"
+    },
+    "form": {
+        "domain_label": "Nume Domeniu",
+        "domain_placeholder": "exemplu.ro",
+        "button": "Căutare DNS"
+    },
+    "results": {
+        "title": "Rezultate DNS pentru"
+    },
+    "content": {
+        "what_is_title": "Ce este Căutarea DNS?",
+        "what_is_desc": "Căutarea DNS este o unealtă care interoghează serverele Domain Name System pentru a recupera înregistrările DNS ale unui domeniu. Aceste înregistrări conțin informații cruciale despre configurarea domeniului, inclusiv serverele de mail (MX), nameserverele (NS), adresele IP (A\/AAAA) și înregistrările text (TXT) folosite pentru verificare și securitate.",
+        "why_use_title": "De ce să folosești Căutarea DNS?",
+        "why_use_desc": "Verificarea DNS este esențială pentru diagnosticarea problemelor de livrare a e-mailurilor, verificarea configurării domeniului, validarea înregistrărilor SPF și DKIM și înțelegerea modului în care un domeniu este configurat. Este utilă pentru administratori de sistem, developeri și profesioniști IT.",
+        "record_types_title": "Tipuri de Înregistrări DNS",
+        "a_record": "<strong>Înregistrare A:<\/strong> Asociază domeniul cu o adresă IPv4",
+        "aaaa_record": "<strong>Înregistrare AAAA:<\/strong> Asociază domeniul cu o adresă IPv6",
+        "mx_record": "<strong>Înregistrare MX:<\/strong> Informații despre serverele de e-mail",
+        "ns_record": "<strong>Înregistrare NS:<\/strong> Informații despre serverele de nume (Nameservers)",
+        "txt_record": "<strong>Înregistrare TXT:<\/strong> Înregistrări text pentru verificare și securitate",
+        "cname_record": "<strong>Înregistrare CNAME:<\/strong> Alias pentru numele canonic"
+    },
+    "faq": {
+        "title": "Întrebări Frecvente DNS",
+        "q1": "Cât timp durează propagarea DNS?",
+        "a1": "Propagarea DNS poate dura de la câteva minute până la 48 de ore, deși majoritatea schimbărilor sunt vizibile în câteva ore.",
+        "q2": "Ce este un TTL în DNS?",
+        "a2": "TTL (Time To Live) este o setare care indică serverelor DNS cât timp trebuie să păstreze în cache înregistrarea respectivă înainte de a interoga din nou sursa.",
+        "q3": "De ce nu văd noile mele înregistrări?",
+        "a3": "Este posibil ca vechile înregistrări să fie încă în cache-ul browserului sau al ISP-ului tău. Încearcă să golești cache-ul DNS sau să folosești această unealtă care face interogări direct.",
+        "q4": "Ce este înregistrarea MX?",
+        "a4": "MX (Mail Exchanger) specifică serverul responsabil pentru primirea e-mailurilor pe domeniul tău.",
+        "q5": "Este acest instrument sigur?",
+        "a5": "Da, instrumentul face doar interogări publice asupra înregistrărilor DNS, fără a modifica nimic și fără a colecta date private."
+    },
+    "js": {
+        "looking_up": "Se caută înregistrările DNS...",
+        "records_label": "Înregistrări",
+        "success": "Înregistrări DNS recuperate cu succes",
+        "error": "Nu s-au putut recupera înregistrările DNS pentru acest domeniu",
+        "lookup_dns": "Căutare DNS"
+    }
+}

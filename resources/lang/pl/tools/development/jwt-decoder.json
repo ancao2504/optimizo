@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "Dekoder JWT online — bezpłatny debuger tokenów sieciowych JSON",
+        "description": "Dekoduj i sprawdzaj tokeny JSON Web Tokens (JWT) - Zobacz nagłówek, ładunek i podpis!",
+        "h1": "Dekoder JWT",
+        "subtitle": "Dekoduj i sprawdzaj tokeny JSON Web Tokens (JWT) - Zobacz nagłówek, ładunek i podpis!"
+    },
+    "editor": {
+        "label_input": "Wprowadź token JWT",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Dekoduj JWT",
+        "btn_clear": "Wyczyść",
+        "btn_example": "Przykład",
+        "label_payload": "Ładunek (Roszczenia)",
+        "label_signature": "Podpis",
+        "note_signature": "⚠️ Uwaga: Weryfikacja podpisu wymaga tajnego klucza"
+    },
+    "content": {
+        "hero_title": "Darmowy Dekoder JWT Online",
+        "hero_subtitle": "Dekoduj i sprawdzaj tokeny JSON Web Tokens natychmiastowo",
+        "p1": "Nasze darmowe narzędzie Dekoder JWT pozwala dekodować i sprawdzać tokeny JSON Web Tokens (JWT), aby zobaczyć ich komponenty: nagłówek, ładunek i podpis. Idealne do debugowania problemów z uwierzytelnianiem, zrozumienia struktury tokenów i walidacji roszczeń JWT.",
+        "what_title": "🔎 Co to jest JWT?",
+        "what_desc": "JSON Web Token (JWT) to kompaktowy, bezpieczny dla adresów URL sposób reprezentowania roszczeń między dwiema stronami. JWT składają się z trzech części: Nagłówka (algorytm i typ tokena), Ładunku (roszczenia\/dane) i Podpisu (weryfikacja), oddzielonych kropkami.",
+        "features_title": "✨ Funkcje",
+        "features": {
+            "instant": {
+                "title": "Natychmiastowe dekodowanie",
+                "desc": "Dekoduj JWT w milisekundach"
+            },
+            "structured": {
+                "title": "Ustrukturyzowany widok",
+                "desc": "Zobacz nagłówek, ładunek i podpis osobno"
+            },
+            "privacy": {
+                "title": "Prywatność przede wszystkim",
+                "desc": "Całe dekodowanie odbywa się w Twojej przeglądarce"
+            }
+        },
+        "uses_title": "🎯 Typowe przypadki użycia",
+        "uses": {
+            "debug": {
+                "title": "🐛 Debugowanie",
+                "desc": "Debuguj problemy z uwierzytelnianiem poprzez inspekcję zawartości JWT"
+            },
+            "validate": {
+                "title": "✅ Walidacja",
+                "desc": "Weryfikuj roszczenia JWT i czasy wygaśnięcia"
+            },
+            "learn": {
+                "title": "📚 Nauka",
+                "desc": "Zrozum strukturę i komponenty JWT"
+            },
+            "dev": {
+                "title": "🔧 Rozwój",
+                "desc": "Testuj generowanie i parsowanie JWT w swoich aplikacjach"
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Czy bezpiecznie jest dekodować tutaj JWT?",
+            "a1": "Tak! Całe dekodowanie odbywa się w Twojej przeglądarce. Twój JWT nigdy nie opuszcza urządzenia. Jednak nigdy nie udostępniaj publicznie JWT, ponieważ mogą zawierać wrażliwe informacje.",
+            "q2": "Czy to narzędzie może zweryfikować podpisy JWT?",
+            "a2": "To narzędzie dekoduje i wyświetla komponenty JWT, ale nie weryfikuje podpisów, ponieważ wymaga to tajnego klucza, który nigdy nie powinien być udostępniany.",
+            "q3": "Czym są roszczenia JWT?",
+            "a3": "Roszczenia to oświadczenia o podmiocie (zazwyczaj użytkowniku) i dodatkowe dane. Typowe roszczenia to 'sub' (podmiot), 'exp' (wygaśnięcie) i 'iat' (wydany)."
+        }
+    },
+    "js": {
+        "error_empty": "Wprowadź token JWT",
+        "error_invalid_format": "Nieprawidłowy format JWT. JWT powinien składać się z 3 części oddzielonych kropkami.",
+        "success_decode": "✓ JWT zdekodowany pomyślnie",
+        "error_decode": "✗ Błąd dekodowania JWT: "
+    }
+}

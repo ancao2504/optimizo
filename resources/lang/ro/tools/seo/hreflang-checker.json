@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker - Validator de etichete online gratuit",
+        "description": "Validează etichetele hreflang pentru a te asigura că Google afișează URL-urile corecte de limbă sau regiune publicului tău.",
+        "h1": "Hreflang Checker",
+        "subtitle": "Instrument gratuit pentru extragerea și validarea atributelor hreflang pentru SEO internațional."
+    },
+    "form": {
+        "url_label": "Introdu URL pentru verificare",
+        "url_placeholder": "https:\/\/exemplu.ro\/pagina",
+        "user_agent_label": "Agent utilizator",
+        "user_agent_default": "Implicit (Browser)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Verifică Etichete Hreflang"
+    },
+    "content": {
+        "main_title": "Verificator Etichete Hreflang",
+        "main_subtitle": "Asigură-te că conținutul tău internațional ajunge la publicul potrivit. Validează implementarea hreflang și corectează erorile comune SEO.",
+        "intro": "Etichetele Hreflang sunt esențiale pentru site-urile care servesc mai multe limbi sau țări. Instrumentul nostru gratuit extrage și validează etichetele `rel=\"alternate\" hreflang=\"x\"` din antetul HTML al paginii tale și antetele HTTP. Verifică etichetele reciproce (de retur) pentru a garanta că Google și alte motoare de căutare indexează corect conținutul tău localizat.",
+        "features_title": "De ce să verifici etichetele Hreflang?",
+        "feature1_title": "Validare etichete reciproce",
+        "feature1_desc": "Etichetele Hreflang trebuie să funcționeze în perechi. Instrumentul nostru verifică automat dacă pagina A trimite către pagina B, și dacă pagina B trimite înapoi către pagina A.",
+        "feature2_title": "Detectare erori comune",
+        "feature2_desc": "Găsește etichete de retur lipsă, coduri de limbă invalide (ISO 639-1) și coduri de țară incorecte (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Prevenire probleme SEO",
+        "feature3_desc": "Implementarea incorectă a hreflang poate duce la probleme de conținut duplicat și la afișarea paginilor în limba greșită în rezultatele căutării.",
+        "how_title": "Cum să folosești verificatorul Hreflang",
+        "step1_title": "Introdu URL",
+        "step1_desc": "Lipește URL-ul complet al paginii pe care dorești să o analizezi (ex. https:\/\/exemplu.ro).",
+        "step2_title": "Selectează User Agent",
+        "step2_desc": "Se recomandă verificarea cu Googlebot, dar poți verifica și ca browser standard.",
+        "step3_title": "Analizează rezultatele",
+        "step3_desc": "Vom prelua pagina și vom lista toate link-urile alternative găsite împreună cu statusul lor de validare.",
+        "step4_title": "Corectează problemele",
+        "step4_desc": "Dacă apar erori 'Etichetă de retur lipsă', actualizează paginile referențiate pentru a include link-ul reciproc.",
+        "faq_title": "Întrebări Frecvente",
+        "faq1_q": "Ce este o etichetă hreflang?",
+        "faq1_a": "Hreflang este un atribut HTML folosit pentru a specifica limba și țintirea geografică a unei pagini web. Îi spune motoarelor de căutare ce versiune a unei pagini să arate utilizatorilor din diferite țări sau limbi.",
+        "faq2_q": "De ce sunt importante etichetele de retur?",
+        "faq2_a": "Google necesită link-uri de retur pentru a preveni ca cineva să revendice arbitrar o pagină de pe un alt site ca fiind o versiune alternativă a propriei pagini. Dacă pagina A trimite la pagina B, pagina B trebuie să trimită înapoi la pagina A.",
+        "faq3_q": "Verifică acest instrument eticheta x-default?",
+        "faq3_a": "Da, instrumentul nostru identifică și validează eticheta hreflang `x-default`, folosită pentru limbi nepotrivite sau selectoare de țară stricte.",
+        "faq4_q": "Pot verifica hreflang în antetele HTTP?",
+        "faq4_a": "Da! Verificăm atât secțiunea HTML `<head>` cât și antetele de răspuns HTTP pentru atribute `Link: <url>; rel=\"alternate\"; hreflang=\"code\"`.",
+        "faq5_q": "Ce se întâmplă dacă am erori hreflang?",
+        "faq5_a": "Motoarele de căutare pot ignora etichetele invalide, ceea ce duce la neafișarea versiunilor lingvistice corecte utilizatorilor potriviți sau posibile penalizări pentru conținut duplicat.",
+        "faq6_q": "Este acest instrument gratuit?",
+        "faq6_a": "Da, poți efectua verificări nelimitate gratuit pentru a te asigura că SEO-ul tău internațional este perfect."
+    }
+}

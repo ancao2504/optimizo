@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online - Gratis nätverksanalysverktyg",
+        "description": "Gratis onlineverktyg för traceroute. Snabbt, säkert och enkelt att använda.",
+        "h1": "Traceroute",
+        "subtitle": "Den bästa traceroute för utvecklare och IT-proffs"
+    },
+    "form": {
+        "host_label": "Värd eller IP-adress",
+        "host_placeholder": "Ange domän eller IP-adress",
+        "button": "Starta Traceroute",
+        "button_loading": "Spårar rutt..."
+    },
+    "results": {
+        "title": "Traceroute-resultat"
+    },
+    "content": {
+        "what_is_title": "Vad är Traceroute?",
+        "what_is_desc": "Detta är ett gratis onlineverktyg för traceroute.",
+        "why_use_title": "Varför använda Traceroute?",
+        "why_use_desc": "Traceroute visar sökvägsdata från din dator till en destinationsserver, och visar varje hopp (router) längs vägen. Det är viktigt för att diagnostisera nätverksavbrott, identifiera routingproblem och förstå nätverkstopologi.",
+        "hops_title": "Förstå humle",
+        "hop1": "Hopp 1: Din lokala router\/gateway",
+        "hop2": "Hopp 2-3: Din internetleverantörs nätverk",
+        "hop3": "Hopp 4-6: Regional internet ryggrad",
+        "hop4": "Hopp 7-10: Destinations-ISP-nätverk",
+        "hop5": "Hop 11+: Destinationsservernätverk",
+        "hop6": "Varje hopp lägger till latens - färre hopp betyder generellt snabbare anslutning",
+        "issues_title": "Vanliga frågor",
+        "issues_desc": "Hög latens vid specifika hopp indikerar överbelastning eller routingproblem. Asterisker (*) betyder att routrar inte svarar på traceroute-paket (ofta på grund av brandväggsregler). Paketförlust vid mellanhopp kanske inte påverkar slutdestinationen om paket når den framgångsrikt."
+    },
+    "faq": {
+        "title": "Vanliga frågor",
+        "q1": "Vad är traceroute?",
+        "a1": "Traceroute är ett nätverksdiagnostikverktyg som spårar sökvägen för datapaketen från din dator till en destinationsserver. Den visar varje router (hopp) längs rutten och mäter tiden det tar vid varje steg, vilket hjälper till att identifiera var nätverksförseningar eller fel uppstår.",
+        "q2": "Varför visar vissa humle asterisker (*)?",
+        "a2": "Asterisker indikerar att en router inte svarade på traceroute-sonden inom timeoutperioden. Detta beror ofta på brandväggskonfigurationer som blockerar ICMP-paket för säkerhets skull. Det betyder inte nödvändigtvis att det finns ett problem - paketen kan fortfarande nå destinationen.",
+        "q3": "Hur många humle är normalt?",
+        "a3": "Typiska internetrutter har 10-20 hopp. Lokala nätverksdestinationer kan ha 1-5 hopp, medan internationella rutter kan ha 20-30 hopp. Fler hopp betyder i allmänhet längre avstånd och potentiellt högre latens, men effektiv routing är viktigare än antalet hopp."
+    }
+}

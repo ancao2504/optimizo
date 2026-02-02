@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - ilmainen JSON Web Token Debugger",
+        "description": "Pura ja tarkasta JSON Web Tokens (JWT) - Näytä otsikko, hyötykuorma ja allekirjoitus!",
+        "h1": "JWT dekooderi",
+        "subtitle": "Pura ja tutki JSON Web Tokeneita (JWT)"
+    },
+    "editor": {
+        "label_input": "Syötä JWT-token",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Pura JWT",
+        "btn_clear": "Selkeä",
+        "btn_example": "Esimerkki",
+        "label_payload": "Data (Payload)",
+        "label_signature": "Allekirjoitus",
+        "note_signature": "âš ï¸ Huomautus: Allekirjoituksen vahvistaminen vaatii salaisen avaimen"
+    },
+    "content": {
+        "hero_title": "Ilmainen JWT-dekooderi verkossa",
+        "hero_subtitle": "Pura ja tarkasta JSON-verkkotunnukset välittömästi",
+        "p1": "Ilmaisen JWT-dekooderityökalumme avulla voit purkaa ja tarkastaa JSON Web Tokeneita (JWT) nähdäksesi niiden otsikon, hyötykuorman ja allekirjoituskomponentit. Täydellinen todennusongelmien virheenkorjaukseen, tunnuksen rakenteen ymmärtämiseen ja JWT-vaatimusten vahvistamiseen.",
+        "what_title": "ðŸ” Mikä on JWT?",
+        "what_desc": "JSON Web Token (JWT) on kompakti, URL-osoiteturvallinen tapa edustaa vaatimuksia kahden osapuolen välillä. JWT:t koostuvat kolmesta osasta: otsikko (algoritmi ja tunnuksen tyyppi], hyötykuorma (vaatimukset\/tiedot) ja allekirjoitus (vahvistus) pisteillä erotettuna.",
+        "features_title": "âœ¨ Ominaisuudet",
+        "features": {
+            "instant": {
+                "title": "Välitön dekoodaus",
+                "desc": "Pura JWT:t millisekunneissa"
+            },
+            "structured": {
+                "title": "Strukturoitu näkymä",
+                "desc": "Katso otsikko, hyötykuorma ja allekirjoitus erikseen"
+            },
+            "privacy": {
+                "title": "Yksityisyys ensin",
+                "desc": "Kaikki dekoodaus tapahtuu selaimessasi"
+            }
+        },
+        "uses_title": "🎯 Yleiset käyttötapaukset",
+        "uses": {
+            "debug": {
+                "title": "ðŸ› Virheenkorjaus",
+                "desc": "Korjaa todennusongelmat tarkistamalla JWT:n sisältö"
+            },
+            "validate": {
+                "title": "âœ… Vahvistus",
+                "desc": "Tarkista JWT-vaatimukset ja vanhenemisajat"
+            },
+            "learn": {
+                "title": "📚 Oppiminen",
+                "desc": "Ymmärrä JWT:n rakenne ja komponentit"
+            },
+            "dev": {
+                "title": "🔧 Kehitys",
+                "desc": "Testaa JWT:n luomista ja jäsentämistä sovelluksissasi"
+            }
+        },
+        "faq_title": "â“ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Onko turvallista purkaa JWT:t täällä?",
+            "a1": "Kyllä! Kaikki dekoodaus tapahtuu selaimessasi. JWT ei koskaan poistu laitteestasi. Älä kuitenkaan koskaan jaa JWT:itä julkisesti, koska ne voivat sisältää arkaluonteisia tietoja.",
+            "q2": "Voiko tämä työkalu tarkistaa JWT-allekirjoitukset?",
+            "a2": "Tämä työkalu purkaa ja näyttää JWT-komponentit, mutta ei tarkista allekirjoituksia, koska se vaatii salaisen avaimen, jota ei saa koskaan jakaa.",
+            "q3": "Mitä ovat JWT:n väitteet?",
+            "a3": "Väitteet ovat väitteitä kokonaisuudesta (tyypillisesti käyttäjästä) ja lisätietoja. Yleisiä väitteitä ovat \"sub\" (aihe]), \"exp\" (expiration) ja \"iat\" (myönnetty)."
+        }
+    },
+    "js": {
+        "error_empty": "Anna JWT-tunnus",
+        "error_invalid_format": "Virheellinen JWT-muoto. JWT:ssä tulisi olla 3 pisteellä erotettua osaa.",
+        "success_decode": "âœ“ JWT purettu onnistuneesti",
+        "error_decode": "✗ Virhe purettaessa JWT:tä:"
+    }
+}

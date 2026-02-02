@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "title": "URL-Encoder und -Decoder – kostenloses Online-Prozent-Tool",
+        "description": "URLs für die sichere Webübertragung mit unserem kostenlosen Online-Tool kodieren und dekodieren.",
+        "h1": "URL-Encoder und -Decoder",
+        "subtitle": "URLs für die sichere Webübertragung kodieren und dekodieren"
+    },
+    "editor": {
+        "btn_encode": "URL kodieren",
+        "btn_decode": "URL dekodieren",
+        "label_input_encode": "Zu kodierende URL eingeben",
+        "ph_input": "https:\/\/example.com\/search?name=John Doe&age=30",
+        "btn_process_encode": "URL kodieren",
+        "btn_clear": "Löschen",
+        "btn_copy": "Kopieren",
+        "label_output_encoded": "Kodierte URL",
+        "ph_output": "Die verarbeitete URL erscheint hier...",
+        "label_input_decode": "Zu dekodierende URL eingeben",
+        "label_output_decoded": "Dekodierte URL",
+        "btn_process_decode": "URL dekodieren"
+    },
+    "content": {
+        "p1": "Unser kostenloses URL Encoder & Decoder Tool hilft Ihnen, Sonderzeichen in URLs für die sichere Übertragung über das Internet zu kodieren oder kodierte URLs wieder in ihr ursprüngliches Format zu dekodieren. Perfekt für Entwickler, SEO-Profis und alle, die mit Web-URLs arbeiten. 100 % kostenlos, clientseitige Verarbeitung gewährleistet, dass Ihre Daten privat bleiben.",
+        "what_title": "Was ist die URL-Kodierung?",
+        "what_desc": "Die URL-Kodierung (auch Prozentkodierung genannt) konvertiert Sonderzeichen in URLs in ein Format, das über das Internet übertragen werden kann. Leerzeichen werden zu %20, Sonderzeichen wie & werden zu %26 und so weiter. Dies stellt sicher, dass URLs über alle Browser und Systeme hinweg korrekt funktionieren.",
+        "features_title": "Funktionen",
+        "features": {
+            "instant": {
+                "title": "Sofortige Konvertierung",
+                "desc": "URLs in Millisekunden kodieren oder dekodieren"
+            },
+            "bidirectional": {
+                "title": "Bidirektional",
+                "desc": "In das URL-Format kodieren oder zurück in das Original dekodieren"
+            },
+            "privacy": {
+                "title": "Privatsphäre zuerst",
+                "desc": "Die gesamte Verarbeitung erfolgt in Ihrem Browser"
+            },
+            "copy": {
+                "title": "Kopieren mit einem Klick",
+                "desc": "Kodierte\/dekodierte URLs sofort kopieren"
+            },
+            "free": {
+                "title": "100 % kostenlos",
+                "desc": "Keine Limits, keine Registrierung erforderlich"
+            },
+            "universal": {
+                "title": "Universelle Unterstützung",
+                "desc": "Funktioniert mit allen URL-Formaten und Charakteren"
+            }
+        },
+        "uses_title": "Häufige Anwendungsfälle",
+        "uses": {
+            "query": {
+                "title": "Abfrageparameter",
+                "desc": "Sonderzeichen in URL-Abfragezeichenfolgen für API-Aufrufe und Webanfragen kodieren"
+            },
+            "analytics": {
+                "title": "Analytics-Tracking",
+                "desc": "UTM-Parameter und Tracking-URLs für Marketingkampagnen kodieren"
+            },
+            "auth": {
+                "title": "Authentifizierung",
+                "desc": "Anmeldedaten und Token in OAuth- und API-Authentifizierung kodieren"
+            },
+            "i18n": {
+                "title": "Internationalisierung",
+                "desc": "Nicht-ASCII-Zeichen in URLs für globale Kompatibilität kodieren"
+            },
+            "seo": {
+                "title": "SEO & Weiterleitungen",
+                "desc": "Korrekt kodierte Weiterleitungs-URLs und kanonische Links erstellen"
+            },
+            "email": {
+                "title": "E-Mail-Links",
+                "desc": "Mailto-Links mit Betreffzeilen und Textinhalt kodieren"
+            }
+        },
+        "how_to_title": "Benutzung",
+        "how_to": {
+            "step1": {
+                "title": "Modus wählen",
+                "desc": "Wählen Sie je nach Bedarf \"URL kodieren\" oder \"URL dekodieren\""
+            },
+            "step2": {
+                "title": "URL eingeben",
+                "desc": "Fügen Sie Ihre URL oder Ihren Text in das Eingabefeld ein"
+            },
+            "step3": {
+                "title": "Verarbeiten",
+                "desc": "Klicken Sie auf die Schaltfläche \"URL kodieren\" oder \"URL dekodieren\""
+            },
+            "step4": {
+                "title": "Ergebnis kopieren",
+                "desc": "Klicken Sie auf \"Kopieren\", um die verarbeitete URL in die Zwischenablage zu kopieren"
+            },
+            "step5": {
+                "title": "Überall verwenden",
+                "desc": "Fügen Sie die kodierte\/dekodierte URL in Ihre Anwendung ein"
+            }
+        },
+        "examples_title": "URL-Kodierungsbeispiele",
+        "examples": {
+            "space": {
+                "title": "Leerzeichen:",
+                "desc": "Original: \"Hello World\" → Kodiert: \"Hello%20World\""
+            },
+            "special": {
+                "title": "Sonderzeichen:",
+                "desc": "Original: \"name=John&age=30\" → Kodiert: \"name%3DJohn%26age%3D30\""
+            },
+            "full": {
+                "title": "Vollständige URL:",
+                "desc": "Original: \"https:\/\/example.com\/search?q=hello world\" → Kodiert: \"https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world\""
+            }
+        },
+        "faq_title": "Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Wann sollte ich URLs kodieren?",
+            "a1": "Kodieren Sie URLs, wenn Sie diese als Abfrageparameter übergeben, in Datenbanken speichern oder wenn sie Sonderzeichen wie Leerzeichen, &, =, ? oder Nicht-ASCII-Zeichen enthalten.",
+            "q2": "Welche Zeichen müssen kodiert werden?",
+            "a2": "Reservierte Zeichen wie : \/ ? # [ ] @ ! $ & ' ( ) * + , ; = und unsichere Zeichen wie Leerzeichen, <, >, \", {, }, |, \\, ^, `, sowie Nicht-ASCII-Zeichen müssen kodiert werden.",
+            "q3": "Ist URL-Kodierung dasselbe wie Base64?",
+            "a3": "Nein. Die URL-Kodierung konvertiert bestimmte Zeichen in das %XX-Format, während Base64 ganze Daten in einen anderen Zeichensatz kodiert. Sie dienen unterschiedlichen Zwecken.",
+            "q4": "Kann ich ganze URLs kodieren?",
+            "a4": "Ja, aber normalerweise kodieren Sie nur den Teil der Abfragezeichenfolge. Das Kodieren der gesamten URL einschließlich des Protokolls (https:\/\/) ist weniger üblich und kann Probleme verursachen.",
+            "q5": "Sind meine Daten sicher?",
+            "a5": "Ja! Die gesamte Kodierung und Dekodierung erfolgt vollständig in Ihrem Browser mittels JavaScript. Ihre URLs verlassen niemals Ihr Gerät und werden nicht an einen Server gesendet."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte geben Sie eine URL zum Verarbeiten ein",
+        "success_encode": "✓ URL erfolgreich kodiert",
+        "success_decode": "✓ URL erfolgreich dekodiert",
+        "error_process": "✗ Fehler beim Verarbeiten der URL: ",
+        "error_no_copy": "Keine Ausgabe zum Kopieren vorhanden",
+        "success_copy": "✓ In die Zwischenablage kopiert"
+    }
+}

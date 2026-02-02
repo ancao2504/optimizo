@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Convertor JSON în SQL - Instrument gratuit de migrare online",
+        "description": "Transformă instantaneu datele JSON în instrucțiuni SQL INSERT. Perfect pentru popularea bazelor de date și migrarea datelor.",
+        "h1": "Convertor JSON în SQL",
+        "subtitle": "Convertește tablourile și obiectele JSON în scripturi SQL valide"
+    },
+    "editor": {
+        "label_tablename": "Nume Tabel",
+        "ph_tablename": "Introdu nume tabel (ex: users)",
+        "btn_convert": "Generează SQL",
+        "btn_clear": "Șterge",
+        "btn_copy": "Copiază SQL",
+        "btn_example": "Încarcă Exemplu",
+        "label_input": "Introducere JSON",
+        "ph_input": "Lipește tabloul tău JSON aici...",
+        "label_output": "Rezultat SQL",
+        "ph_output": "Instrucțiunile SQL INSERT generate vor apărea aici..."
+    },
+    "content": {
+        "hero_title": "Conversie Fără Efort JSON în SQL",
+        "hero_subtitle": "Cel mai rapid mod de a genera scripturi de populare a bazei de date",
+        "p1": "Convertirea datelor JSON în instrucțiuni SQL INSERT nu ar trebui să fie o sarcină manuală. Convertorul nostru JSON în SQL se ocupă de partea grea mapând automat cheile tale JSON la coloanele bazei de date și escapând valorile pentru o inserare sigură. Este un instrument esențial pentru dezvoltatorii care lucrează la migrări de date, testare sau inițializarea bazei de date.",
+        "what_title": "Când să folosești acest instrument?",
+        "what_desc": "Dacă ai o colecție de date în format JSON — cum ar fi un export dintr-o bază de date NoSQL sau un răspuns API — și trebuie să le inserezi într'o bază de date relațională precum MySQL, PostgreSQL sau SQL Server, acest instrument este pentru tine. Formatează fiecare obiect într'o instrucțiune SQL curată.",
+        "features_title": "Caracteristici Cheie",
+        "features": {
+            "fast": {
+                "title": "Generare Instantanee",
+                "desc": "Generează sute de linii SQL într'o clipită."
+            },
+            "private": {
+                "title": "Confidențialitate Garantată",
+                "desc": "Toată procesarea este locală. Datele tale sensibile rămân în browserul tău."
+            },
+            "copy": {
+                "title": "Export cu un Singur Clic",
+                "desc": "Copiază întregul script sau descarcă-l pentru migrările tale."
+            },
+            "smart": {
+                "title": "Escapare Inteligentă",
+                "desc": "Gestionează automat ghilimelele și caracterele speciale în șiruri."
+            },
+            "free": {
+                "title": "100% Gratuit",
+                "desc": "Fără limite, fără înregistrare, fără bătăi de cap."
+            },
+            "db": {
+                "title": "Compatibil Cross-DB",
+                "desc": "Generează SQL standard compatibil cu majoritatea sistemelor de baze de date."
+            }
+        },
+        "uses_title": "Cazuri de Utilizare Profesionale",
+        "uses": {
+            "migration": {
+                "title": "Migrarea Datelor",
+                "desc": "Mută ușor datele din sisteme bazate pe JSON în baze de date SQL."
+            },
+            "import": {
+                "title": "Import în Masă",
+                "desc": "Încarcă volume mari de date de test sau de producție rapid."
+            },
+            "api": {
+                "title": "De la API la Bază de Date",
+                "desc": "Convertește rezultatele API-urilor terțe direct în inserții SQL."
+            },
+            "test": {
+                "title": "Popularea Datelor de Test",
+                "desc": "Creează scripturi SQL pentru popularea mediilor de dezvoltare."
+            },
+            "backup": {
+                "title": "Restaurarea Copiilor de Rezervă",
+                "desc": "Transformă copiile de rezervă JSON înapoi în scripturi SQL funcționale."
+            },
+            "dev": {
+                "title": "Prototipare Rapidă",
+                "desc": "Populează rapid noile tabele de baze de date în timpul dezvoltării."
+            }
+        },
+        "how_title": "📚 Cum să folosești",
+        "how_steps": [
+            "Introdu <strong>Numele Tabelului<\/strong> bazei de date țintă",
+            "Lipește <strong>JSON<\/strong>-ul tău (trebuie să fie un tablou sau un obiect)",
+            "Fă clic pe <strong>Generează SQL<\/strong> pentru a crea scriptul",
+            "<strong>Copiază<\/strong> rezultatul SQL în clipboard"
+        ],
+        "faq_title": "❓ Întrebări Frecvente",
+        "faq": {
+            "q1": "Ce format JSON este necesar?",
+            "a1": "Instrumentul funcționează cel mai bine cu un tablou de obiecte, unde fiecare obiect reprezintă un rând din baza de date.",
+            "q2": "Gestionează obiectele imbricate?",
+            "a2": "În prezent, mapează cheile de la nivelul superior. Obiectele imbricate sunt de obicei transformate în șiruri sau ignorate în funcție de nevoile bazei tale de date.",
+            "q3": "Există o limită de rânduri?",
+            "a3": "Nu există o limită strictă, deși performanța browserului tău poate varia în cazul a mii de rânduri."
+        },
+        "tips_title": "💡 Sfaturi Pro",
+        "tips_list": [
+            "Asigură-te că cheile JSON se potrivesc exact cu numele coloanelor SQL.",
+            "Verifică întotdeauna SQL-ul generat înainte de a-l rula pe o bază de date de producție.",
+            "Folosește butonul \"Exemplu\" pentru a vedea structura JSON așteptată."
+        ]
+    },
+    "js": {
+        "error_empty": "Te rugăm să introduci datele JSON și un nume de tabel",
+        "success_convert": "✓ SQL generat cu succes!",
+        "error_convert": "Eroare la generarea SQL: ",
+        "error_no_copy": "Nu există SQL de copiat. Te rugăm să convertești JSON mai întâi.",
+        "success_copy": "✓ SQL copiat în clipboard!"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "JSON 到 SQL 转换器 - 免费在线迁移工具",
+        "description": "即时将您的 JSON 数据转换为 SQL INSERT 语句。快速、安全且易于使用的在线数据库工具。",
+        "h1": "JSON 到 SQL 转换器",
+        "subtitle": "瞬间将 JSON 数组转换为 SQL 插入脚本"
+    },
+    "editor": {
+        "label_tablename": "表名",
+        "ph_tablename": "输入表名称（例如用户）",
+        "btn_convert": "生成 SQL",
+        "btn_clear": "清空内容",
+        "btn_copy": "复制 SQL",
+        "btn_example": "加载示例",
+        "label_input": "JSON 输入",
+        "ph_input": "[{\"name\": \"张三\", \"age\": 30}, {\"name\": \"李四\", \"age\": 25}]",
+        "label_output": "SQL 输出",
+        "ph_output": "生成的 SQL INSERT 语句将显示在此处..."
+    },
+    "content": {
+        "hero_title": "智能 JSON 转 SQL 生成器",
+        "hero_subtitle": "极速从 JSON 数据中提取模式并构建数据库插入脚本",
+        "p1": "手动编写数百个 SQL INSERT 命令既耗时又容易出错。我们的免费在线 JSON 转 SQL 转换器可以自动化这一过程。通过上传或粘贴 JSON 数组，您可以立即获得针对 MySQL、PostgreSQL、SQL Server 或 SQLite 优化的结构化 SQL 脚本。整个过程在您的浏览器中离线运行，确保敏感业务数据永不外泄。",
+        "what_title": "何时使用此工具？",
+        "what_desc": "如果您有 JSON 格式的数据集合（例如从 NoSQL 数据库导出或 API 响应），并且需要将其插入到 MySQL、PostgreSQL 或 SQL Server 等关系数据库中，那么此工具非常适合您。它将每个对象格式化为干净的 SQL 语句。",
+        "features_title": "主要功能",
+        "features": {
+            "fast": {
+                "title": "即时生成",
+                "desc": "眨眼间生成数百条 SQL 行。"
+            },
+            "private": {
+                "title": "隐私保证",
+                "desc": "所有处理都是本地的。您的敏感数据保留在您的浏览器中。"
+            },
+            "copy": {
+                "title": "一键导出",
+                "desc": "复制整个脚本或下载它以进行迁移。"
+            },
+            "smart": {
+                "title": "智能逃脱",
+                "desc": "自动处理字符串中的引号和特殊字符。"
+            },
+            "free": {
+                "title": "100% 免费",
+                "desc": "没有限制，无需注册，没有麻烦。"
+            },
+            "db": {
+                "title": "跨数据库友好",
+                "desc": "生成与大多数数据库系统兼容的标准 SQL。"
+            }
+        },
+        "uses_title": "常见使用场景",
+        "uses": {
+            "migration": {
+                "title": "数据库迁移",
+                "desc": "将来自 NoSQL（如 MongoDB）的 JSON 导出文件快速转换为关系型数据库所需的 SQL 格式。"
+            },
+            "import": {
+                "title": "批量导入",
+                "desc": "快速加载大量测试或生产数据。"
+            },
+            "api": {
+                "title": "数据库API",
+                "desc": "将第三方 API 结果直接转换为 SQL 插入。"
+            },
+            "test": {
+                "title": "测试数据播种",
+                "desc": "创建用于填充开发环境的 SQL 脚本。"
+            },
+            "backup": {
+                "title": "数据恢复",
+                "desc": "将以 JSON 格式备份的临时数据片段，在灾难恢复时转回数据库可执行的 SQL 操作。"
+            },
+            "dev": {
+                "title": "快速原型制作",
+                "desc": "在开发过程中快速填充新的数据库表。"
+            }
+        },
+        "how_title": "如何生成 SQL 脚本",
+        "how_steps": [
+            "在顶部或设定栏中输入您的<strong>数据库表名<\/strong>",
+            "<strong>粘贴<\/strong>您的 JSON 数组到左侧输入框内",
+            "点击<strong>“生成 SQL”<\/strong>按钮执行转换",
+            "即时预览并<strong>复制<\/strong>生成的 SQL 代码语句"
+        ],
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "它支持哪些 SQL 方言？",
+            "a1": "它生成的语句遵循标准的 SQL INSERT 语法，兼容 MySQL、PostgreSQL、MS SQL Server、SQLite 和 Oracle 等大多数流行数据库。",
+            "q2": "如果 JSON 是嵌套的怎么办？",
+            "a2": "为了保证 SQL 结构的原子性，目前工具优先处理简单的 JSON 对象数组。对于高度嵌套的属性，建议先进行数据扁平化处理。",
+            "q3": "会有性能或隐私风险吗？",
+            "a3": "完全没有。由于脚本在您的浏览器内存中生成，数据不经过服务器，隐私极高，且生成速度非常快。"
+        },
+        "tips_title": "专业提示",
+        "tips_list": [
+            "确保您的 JSON 键与您的 SQL 列名称完全匹配。",
+            "在生产数据库上运行生成的 SQL 之前，请务必验证它。",
+            "使用“示例”按钮查看预期的 JSON 结构。"
+        ]
+    },
+    "js": {
+        "error_empty": "请先粘贴 JSON 数据",
+        "success_convert": "✓ SQL 已成功生成！",
+        "error_convert": "生成 SQL 时出错：",
+        "error_no_copy": "没有可复制的输出结果",
+        "success_copy": "✓ 已复制到剪贴板！"
+    }
+}

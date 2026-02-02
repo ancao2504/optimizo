@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": "Base64 Encoder & Decoder - Gratis online utviklerverktøy",
+        "description": "Kod og dekod Base64-data umiddelbart med vårt gratis verktøy online",
+        "h1": "Base64-koder og dekoder",
+        "subtitle": "Kod og dekod Base64-data umiddelbart"
+    },
+    "editor": {
+        "tab_encode": "Kod til Base64",
+        "tab_decode": "Dekod fra Base64",
+        "label_encode": "Skriv inn tekst som skal kodes",
+        "ph_encode": "Skriv inn teksten din her...",
+        "desc_encode": "Skriv inn hvilken som helst tekst for å konvertere den til Base64-format",
+        "btn_encode": "Kod til Base64",
+        "label_decode": "Skriv inn Base64 som skal dekodes",
+        "ph_decode": "Skriv inn Base64-kodet streng...",
+        "desc_decode": "Skriv inn Base64-kodet tekst for å dekode den tilbake til ren tekst",
+        "btn_decode": "Dekod fra Base64",
+        "result_title": "Resultat",
+        "btn_copy": "Kopier resultat"
+    },
+    "content": {
+        "what_title": "Hva er Base64-koding?",
+        "what_desc": "Base64 er et binært-til-tekst-kodingsskjema som representerer binære data i et ASCII-strengformat. Det brukes ofte til å kode data som må lagres eller overføres over medier designet for å håndtere tekst. Vårt gratis Base64-koder- og dekoderverktøy lar utviklere, dataanalytikere og IT-fagfolk raskt konvertere tekst til Base64 eller dekode Base64-strenger tilbake til lesbar tekst. Perfekt for API-utvikling, dataoverføring, e-postvedlegg, innebygging av bilder i HTML\/CSS og håndtering av binære data i JSON.",
+        "features": {
+            "secure": {
+                "title": "Sikker koding",
+                "desc": "All behandling skjer i nettleseren din - dataene dine forlater aldri datamaskinen"
+            },
+            "instant": {
+                "title": "Øyeblikkelig konvertering",
+                "desc": "Kod eller dekod Base64-data i millisekunder med prosessering på klientsiden"
+            },
+            "easy": {
+                "title": "Enkel å bruke",
+                "desc": "Enkelt grensesnitt med faner for koding og dekoding med ett-klikks kopi"
+            }
+        },
+        "how_to": {
+            "title": "Slik bruker du Base64-koder\/dekoder",
+            "encode": {
+                "title": "Koding av tekst",
+                "step1": "Klikk på \"Encode to Base64\"-fanen",
+                "step2": "Lim inn eller skriv inn teksten i inndataområdet",
+                "step3": "Klikk på \"Encode to Base64\"-knappen",
+                "step4": "Kopier det Base64-kodede resultatet"
+            },
+            "decode": {
+                "title": "Dekoding Base64",
+                "step1": "Klikk på \"Decode from Base64\"-fanen",
+                "step2": "Lim inn Base64-strengen i inndataområdet",
+                "step3": "Klikk på \"Decode from Base64\"-knappen",
+                "step4": "Kopier det dekodede rentekstresultatet"
+            }
+        },
+        "uses": {
+            "title": "Common Base64 Use Cases",
+            "api": {
+                "title": "API-autentisering",
+                "desc": "Kod inn legitimasjon for grunnleggende autentisering i HTTP-hoder og API-forespørsler."
+            },
+            "data_uri": {
+                "title": "Data-URIer",
+                "desc": "Bygg inn bilder, fonter og filer direkte i HTML, CSS eller JSON ved å bruke Base64-data-URIer."
+            },
+            "email": {
+                "title": "E-postvedlegg",
+                "desc": "Kod binære vedlegg i MIME-e-postmeldinger for sikker overføring."
+            },
+            "storage": {
+                "title": "Datalagring",
+                "desc": "Lagre binære data i tekstbaserte formater som JSON, XML eller databaser."
+            }
+        },
+        "bottom": {
+            "h1": "Base64-koder og dekoder",
+            "subtitle": "Kod og dekod Base64-data umiddelbart",
+            "desc": "Base64 er et binært-til-tekst-kodingsskjema som konverterer binære data til ASCII-tekstformat. Vår gratis Base64 Encoder & Decoder hjelper utviklere, systemadministratorer og IT-fagfolk med å kode tekst til Base64 eller dekode Base64 tilbake til lesbar tekst umiddelbart. Perfekt for API-autentisering, data-URIer, e-postvedlegg og sikker dataoverføring. All behandling skjer i nettleseren din for fullstendig personvern.",
+            "works_title": "🔄 Hvordan Base64 fungerer",
+            "works_encoding": "Konverterer binære data til ASCII-tekst med 64 tegn",
+            "works_encoding_sub": "A-Z, a-z, 0-9, +, \/ (og = for utfylling)",
+            "works_decoding": "Konverterer Base64-tekst tilbake til originale binære data",
+            "works_decoding_sub": "Reverserer kodingsprosessen perfekt",
+            "cases_title": "✅ Vanlige brukstilfeller",
+            "case_api": "API-autentisering",
+            "case_api_desc": "Kod inn legitimasjon for Basic Auth i HTTP-hoder",
+            "case_uri": "Data-URIer",
+            "case_uri_desc": "Legg inn bilder og filer direkte i HTML\/CSS",
+            "case_email": "E-postvedlegg",
+            "case_email_desc": "Kode binære filer for e-postoverføring",
+            "case_url": "URL-parametere",
+            "case_url_desc": "Send binærdata trygt i URL-er",
+            "case_storage": "Datalagring",
+            "case_storage_desc": "Lagre binære data i bare tekstdatabaser",
+            "case_web": "Webutvikling",
+            "case_web_desc": "Kode JSON, XML og konfigurasjonsfiler",
+            "best_practices_title": "💡 Base64 beste praksis",
+            "best_practices_list": [
+                "Base64 øker datastørrelsen med omtrent 33 %",
+                "Ikke egnet for kryptering - bruk riktige krypteringsalgoritmer",
+                "Perfekt for koding av binære data i kun tekstsystemer",
+                "Valider alltid dekodede data før du bruker dem",
+                "Bruk URL-sikker Base64 for URL-er (erstatter +\/= med -_)"
+            ]
+        },
+        "faq": {
+            "title": "❓ Ofte stilte spørsmål",
+            "q1": "Er Base64-koding sikker?",
+            "a1": "Ingen! Base64 er IKKE kryptering - det er ganske enkelt koding. Alle kan dekode Base64-data umiddelbart. Bruk aldri Base64 alene for sikkerhets skyld. For kryptering, bruk riktige kryptografiske algoritmer som AES, RSA eller TLS\/SSL.",
+            "q2": "Hvorfor øker Base64 filstørrelsen?",
+            "a2": "Base64-koding øker datastørrelsen med omtrent 33 % fordi den representerer 3 byte med binære data ved bruk av 4 ASCII-tegn. Denne overheaden er avveiningen for å gjøre binære data trygge for kun tekstsystemer.",
+            "q3": "Hva brukes Base64 til?",
+            "a3": "Base64 brukes til å kode binære data (bilder, filer, legitimasjon) til ASCII-tekst for overføring over kun tekstsystemer som e-post, URL-er, JSON, XML og HTTP-overskrifter. Det er viktig for API-autentisering, data-URIer og e-postvedlegg.",
+            "q4": "Sendes dataene mine til en server?",
+            "a4": "Ingen! All Base64-koding og dekoding skjer utelukkende i nettleseren din ved å bruke JavaScript. Dataene dine forlater aldri enheten din og blir ikke lagret, overført eller logget noe sted. Personvernet ditt er fullstendig beskyttet.",
+            "q5": "Kan jeg kode bilder til Base64?",
+            "a5": "Ja! Mens verktøyet vårt koder tekst, kan du kode bilder ved hjelp av spesialiserte verktøy. Base64-kodede bilder kan bygges inn direkte i HTML\/CSS ved hjelp av data-URIer (data:image\/png;base64,...). Dette er nyttig for små bilder, men øker sidestørrelsen."
+        }
+    },
+    "js": {
+        "error_empty_encode": "Vennligst skriv inn tekst som skal kodes",
+        "error_encoding": "Feil ved koding av tekst:",
+        "error_empty_decode": "Vennligst skriv inn Base64-streng som skal dekodes",
+        "error_invalid": "Ugyldig Base64-streng. Vennligst sjekk inndata.",
+        "copied": "Kopiert!"
+    }
+}

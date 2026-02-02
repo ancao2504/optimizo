@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "Dekodér JWT online – bezplatný ladicí program webových tokenů JSON",
+        "description": "Dekodujte a prozkoumejte JSON Web Tokens (JWT) – zobrazte hlavičku, payload a podpis!",
+        "h1": "Dekodér JWT",
+        "subtitle": "Dekodujte a prozkoumejte JSON Web Tokens (JWT) – zobrazte hlavičku, payload a podpis!"
+    },
+    "editor": {
+        "label_input": "Zadejte JWT token",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Dekodovat JWT",
+        "btn_clear": "Vymazat",
+        "btn_example": "Příklad",
+        "label_payload": "Payload (Tvrzení)",
+        "label_signature": "Podpis",
+        "note_signature": "⚠️ Poznámka: Ověření podpisu vyžaduje tajný klíč"
+    },
+    "content": {
+        "hero_title": "Bezplatný JWT dekodér online",
+        "hero_subtitle": "Dekodujte a prozkoumejte JSON Web Tokens okamžitě",
+        "p1": "Náš bezplatný nástroj JWT dekodér vám umožňuje dekódovat a prozkoumat JSON Web Tokens (JWT) a zobrazit jejich součásti: hlavičku (header), payload a podpis (signature). Ideální pro ladění problémů s autentizací, pochopení struktury tokenů a validaci JWT tvrzení (claims).",
+        "what_title": "🔍 Co je JWT?",
+        "what_desc": "JSON Web Token (JWT) je kompaktní, URL-bezpečný prostředek pro reprezentaci tvrzení mezi dvěma stranami. JWT se skládají ze tří částí: Hlavička (algoritmus a typ tokenu), Payload (data\/tvrzení) a Podpis (ověření), oddělených tečkami.",
+        "features_title": "✨ Funkce",
+        "features": {
+            "instant": {
+                "title": "Okamžité dekódování",
+                "desc": "Dekódování JWT během milisekund"
+            },
+            "structured": {
+                "title": "Strukturované zobrazení",
+                "desc": "Zobrazte hlavičku, payload a podpis samostatně"
+            },
+            "privacy": {
+                "title": "Soukromí na prvním místě",
+                "desc": "Veškeré dekódování probíhá ve vašem prohlížeči"
+            }
+        },
+        "uses_title": "🎯 Běžné příklady použití",
+        "uses": {
+            "debug": {
+                "title": "🐛 Ladění",
+                "desc": "Ladění problémů s autentizací kontrolou obsahu JWT"
+            },
+            "validate": {
+                "title": "✅ Validace",
+                "desc": "Ověřování JWT tvrzení a časů expirace"
+            },
+            "learn": {
+                "title": "📚 Učení",
+                "desc": "Pochopení struktury a součástí JWT"
+            },
+            "dev": {
+                "title": "🛠️ Vývoj",
+                "desc": "Testování generování a analýzy JWT ve vašich aplikacích"
+            }
+        },
+        "faq_title": "❓ Často kladené otázky",
+        "faq": {
+            "q1": "Je bezpečné zde dekódovat JWT?",
+            "a1": "Ano! Veškeré dekódování probíhá ve vašem prohlížeči. Váš JWT nikdy neopustí vaše zařízení. Nikdy však s nikým nesdílejte JWT veřejně, protože mohou obsahovat citlivé informace.",
+            "q2": "Může tento nástroj ověřit podpisy JWT?",
+            "a2": "Tento nástroj dekóduje a zobrazuje součásti JWT, ale neověřuje podpisy, protože to vyžaduje tajný klíč, který by neměl být nikdy sdílen.",
+            "q3": "Co jsou JWT tvrzení (claims)?",
+            "a3": "Tvrzení jsou prohlášení o entitě (obvykle o uživateli) a další data. Mezi běžná tvrzení patří „sub“ (předmět), „exp“ (expirace) a „iat“ (vydáno v)."
+        }
+    },
+    "js": {
+        "error_empty": "Zadejte prosím JWT token",
+        "error_invalid_format": "Neplatný formát JWT. JWT by měl mít 3 části oddělené tečkami.",
+        "success_decode": "✓ JWT byl úspěšně dekódován",
+        "error_decode": "✗ Chyba při dekódování JWT: "
+    }
+}

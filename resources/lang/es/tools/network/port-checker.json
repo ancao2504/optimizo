@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Verificador de puertos abierto - Comprobar puertos abiertos de IP en línea gratis",
+        "description": "Herramienta gratuita de verificación de puertos para comprobar si un puerto específico está abierto en su IP o servidor. Verifique reglas de firewall y reenvío de puertos.",
+        "h1": "Verificador de puertos abiertos",
+        "subtitle": "Compruebe si los puertos de red están abiertos и accesibles desde Internet"
+    },
+    "form": {
+        "host_label": "Host or IP Address",
+        "host_placeholder": "example.com or 8.8.8.8",
+        "port_label": "Número de puerto",
+        "port_placeholder": "ej. 80, 443, 21",
+        "button": "Comprobar puerto"
+    },
+    "results": {
+        "title": "Resultados de la comprobación del puerto"
+    },
+    "content": {
+        "what_is_title": "¿Qué es el Verificador de Puertos?",
+        "what_is_desc": "Un Verificador de Puertos es una herramienta utilizada para identificar si un puerto específico en una dirección IP o servidor está abierto и aceptando conexiones desde Internet. Los puertos son puntos finales de comunicación virtuales utilizados por diferentes servicios y aplicaciones para enviar и recibir datos. Esta herramienta es esencial para verificar si el reenvío de puertos está configurado correctamente и si los servicios de su servidor son accesibles externamente.",
+        "why_check_title": "Why Check Ports?",
+        "why_check_desc": "Port checking serves multiple critical purposes in network management and security. System administrators verify that services are accessible on their intended ports after configuration changes. Security professionals scan for open ports to identify potential vulnerabilities and ensure unnecessary ports are closed. Developers test whether their applications are properly listening on configured ports. Network troubleshooters use port checking to diagnose why services aren't accessible, determining if the issue is with the service itself, firewall rules, or network routing.",
+        "common_ports_title": "Puertos comunes y sus servicios",
+        "port1": "<strong>Port 80:<\/strong> HTTP (web traffic)",
+        "port2": "<strong>Port 443:<\/strong> HTTPS (secure web traffic)",
+        "port3": "<strong>Port 22:<\/strong> SSH (secure shell access)",
+        "port4": "<strong>Port 21:<\/strong> FTP (file transfer)",
+        "port5": "<strong>Port 25:<\/strong> SMTP (email sending)",
+        "port6": "<strong>Port 3306:<\/strong> MySQL database",
+        "port7": "<strong>Port 3389:<\/strong> RDP (Remote Desktop)",
+        "security_title": "Security Implications",
+        "security_desc": "Open ports represent potential entry points for attackers. Best security practice dictates keeping only necessary ports open and closing or filtering all others. Regularly scanning your own servers helps identify unintended open ports that could be exploited. However, port scanning others' systems without permission may be illegal and is considered hostile activity. Always ensure you have authorization before scanning ports on systems you don't own."
+    },
+    "faq": {
+        "title": "Preguntas frecuentes sobre Verificador de Puertos",
+        "q1": "¿Por qué mi puerto aparece como cerrado?",
+        "a1": "Un puerto puede aparecer cerrado si el servicio no se está ejecutando, si el firewall lo bloquea o si el reenvío de puertos no está configurado en el router.",
+        "q2": "¿Cómo abro un puerto?",
+        "a2": "Debe acceder a la configuración de su router, buscar la sección de Port Forwarding (Reenvío de puertos) и añadir una regla para el puerto и la IP interna deseada.",
+        "q3": "¿Es seguro tener puertos abiertos?",
+        "a3": "Tener puertos abiertos es necesario para que los servicios funcionen, pero solo debe abrir los que realmente necesita и asegurarse de que los servicios detrás de ellos estén actualizados.",
+        "q4": "¿Cuál es la diferencia entre un puerto abierto y filtrado?",
+        "a4": "Un puerto abierto acepta conexiones. Un puerto filtrado significa que un firewall está bloqueando la solicitud и ocultando su estado real.",
+        "q5": "¿Puedo comprobar puertos en cualquier IP?",
+        "a5": "Sí, puede ingresar cualquier dirección IP pública o dominio para verificar el estado de sus puertos desde una red externa."
+    },
+    "js": {
+        "checking": "Comprobando...",
+        "success": "¡Comprobación finalizada!",
+        "error": "Ocurrió un error al comprobar el puerto.",
+        "check_port": "Comprobar puerto"
+    }
+}

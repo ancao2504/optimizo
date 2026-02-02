@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Reverse DNS Lookup – Kostenloses Online-IP-to-Domain-Tool",
+        "description": "Kostenloses Online-Tool für Reverse-DNS-Abfragen. Finden Sie sofort den Hostnamen zu jeder IP-Adresse. Schnell, sicher und einfach zu bedienen.",
+        "h1": "Reverse-DNS-Suche",
+        "subtitle": "Finden Sie sofort den Domainnamen oder Hostnamen, der mit einer IP-Adresse verknüpft ist"
+    },
+    "form": {
+        "ip_label": "IP-Adresse eingeben",
+        "ip_placeholder": "z. B. 8.8.8.8",
+        "button": "Reverse DNS abfragen",
+        "button_loading": "Wird abgefragt..."
+    },
+    "results": {
+        "title": "Reverse-DNS-Ergebnisse"
+    },
+    "content": {
+        "what_is_title": "Was ist eine Reverse-DNS-Abfrage?",
+        "what_is_desc": "Die Reverse-DNS-Abfrage (rDNS) ist der Prozess zur Bestimmung des Domainnamens oder Hostnamens, der einer IP-Adresse zugeordnet ist. Im Gegensatz zu einer Standard-DNS-Abfrage, die einen Domainnamen in eine IP-Adresse umwandelt (Vorwärts-Lookup), macht rDNS das Gegenteil. Es wird oft verwendet, um die Identität eines Servers zu verifizieren oder Netzwerkprobleme zu beheben.",
+        "why_use_title": "Warum eine Reverse-DNS-Abfrage verwenden?",
+        "why_use_desc": "Reverse DNS wird häufig für Sicherheits- und Verifizierungszwecke eingesetzt. Es hilft dabei, die Quelle von eingehendem Datenverkehr zu identifizieren, E-Mail-Absender zu verifizieren (um Spam zu verhindern) und Netzwerkverbindungsprobleme zu diagnostizieren. Viele Mailserver verlangen gültige rDNS-Einträge, um eingehende E-Mails zu akzeptieren.",
+        "ptr_records_title": "PTR-Einträge verstehen",
+        "ptr_record1": "<strong>PTR Record:<\/strong> Ein Pointer Record (PTR) ist der Typ von DNS-Eintrag, der für Reverse-DNS-Abfragen verwendet wird.",
+        "ptr_record2": "<strong>Mapping:<\/strong> Er verknüpft eine IP-Adresse zurück mit einem Hostnamen.",
+        "ptr_record3": "<strong>Verifizierung:<\/strong> Entscheidend für die Zustellbarkeit von E-Mails und Sicherheitsüberprüfungen.",
+        "ptr_record4": "<strong>IP-zu-Host:<\/strong> Unverzichtbar für die Identifizierung des wahren Eigentümers einer IP-Adresse.",
+        "ptr_record5": "<strong>Spam-Prävention:<\/strong> Wird von Mailservern verwendet, um die Authentizität des Absenders zu validieren.",
+        "ptr_record6": "<strong>Netzwerk-Logs:<\/strong> Hilfreich, um Netzwerkprotokolle menschenlesbar zu machen, indem Hostnamen anstelle von IPs angezeigt werden.",
+        "use_cases_title": "Häufige Anwendungsfälle",
+        "use_cases_desc": "Zu den häufigsten Anwendungsfällen gehören die Überprüfung der Herkunft von Webverkehr, die Diagnose von Netzlatenzen oder Routing-Problemen, die Validierung von E-Mail-Server-Konfigurationen und die Verbesserung von Cybersicherheits-Audits durch die Identifizierung potenziell bösartiger IP-Adressen."
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen (FAQ)",
+        "q1": "Was ist ein PTR-Eintrag?",
+        "a1": "Ein PTR-Eintrag (Pointer Record) ist ein Typ von DNS-Eintrag, der eine IP-Adresse einem Hostnamen zuordnet. Er ist die Kernkomponente einer Reverse-DNS-Abfrage.",
+        "q2": "Warum ist Reverse DNS wichtig für E-Mails?",
+        "a2": "Viele E-Mail-Anbieter nutzen Reverse DNS, um zu prüfen, ob der sendende Server legitim ist. Wenn die IP eines Servers keinen passenden rDNS-Eintrag hat, könnten E-Mails als Spam markiert werden.",
+        "q3": "Kann jede IP-Adresse einen Reverse-DNS-Eintrag haben?",
+        "a3": "Ja, aber der Eigentümer der IP-Adresse (normalerweise der ISP oder Hosting-Anbieter) muss den PTR-Eintrag in seinen DNS-Einstellungen konfigurieren."
+    }
+}

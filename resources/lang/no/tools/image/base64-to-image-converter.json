@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Dekod Base64 til bilde - Gratis online dekoder",
+        "description": "Konverter Base64-kodede strenger tilbake til bilder (PNG, JPG, GIF). Gratis online dekoder.",
+        "h1": "Dekod Base64 til bilde",
+        "subtitle": "Konverter Base64-kodede strenger tilbake til bilder umiddelbart"
+    },
+    "input": {
+        "title": "Lim inn Base64-streng",
+        "desc": "Lim inn koden under for å vise bildet",
+        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Dekod bilde"
+    },
+    "result": {
+        "image_alt": "Dekodet bilde",
+        "success": "Bildet ble dekodet!",
+        "btn_download": "Last ned bilde",
+        "btn_clear": "Tøm"
+    },
+    "content": {
+        "title": "Dekod Base64 til bilde",
+        "p1": "Fant du en lang streng med tilfeldige tegn som begynner med <code>data:bilde\/...<\/code> og vet ikke hva det er? Det er sannsynligvis et Base64-kodet bilde.",
+        "p2": "Vår <strong>Base64 til bildedekoder<\/strong> konverterer den tekststrengen tilbake til en synlig bildefil (PNG, JPG, GIF, etc.) som du kan se og laste ned til datamaskinen din.",
+        "features": {
+            "preview": {
+                "title": "Øyeblikkelig forhåndsvisning",
+                "desc": "Se bildet umiddelbart. Vi analyserer de binære dataene og gjengir dem på skjermen din."
+            },
+            "auto": {
+                "title": "Auto-deteksjon",
+                "desc": "Vi oppdager automatisk filformatet (PNG, JPEG, GIF) fra overskriften til Base64-strengen."
+            },
+            "download": {
+                "title": "Last ned fil",
+                "desc": "Lagre det dekodede resultatet som en ekte bildefil på harddisken med ett klikk."
+            }
+        },
+        "how_to": {
+            "title": "Hvordan dekode?",
+            "list": [
+                "Lim inn Base64-strengen i tekstområdet.",
+                "Vi prøver umiddelbart å lese strengen.",
+                "Hvis gyldig, vises bildet til venstre.",
+                "Klikk på \"Last ned bilde\" for å lagre det."
+            ]
+        },
+        "use_cases": {
+            "title": "Vanlige brukstilfeller",
+            "list": [
+                "Feilsøking: Sjekker hvilke bildedata som sendes i API-svar eller lagres i databaser.",
+                "Gjenoppretting: Trekker ut bilder innebygd i CSS-filer eller HTML-maler.",
+                "Bekreftelse: Sikre at en Base64-streng ikke er ødelagt."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Vennligst lim inn en Base64-streng først.",
+        "invalid_error": "Ugyldig Base64-streng eller bildeformat som ikke støttes."
+    }
+}

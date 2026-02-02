@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "DNS-Lookup-Tool – Kostenloser Online-DNS-Eintragsprüfer",
+        "description": "Kostenloses DNS-Lookup-Tool zur Überprüfung von DNS-Einträgen für jede Domain. Zeigen Sie A-, AAAA-, MX-, NS-, TXT- und CNAME-Einträge sofort an. Unverzichtbar für die Fehlerbehebung bei E-Mails und Domain-Konfigurationen.",
+        "h1": "DNS-Suchtool",
+        "subtitle": "Fragen Sie DNS-Einträge ab, um Nameserver, MX, A, CNAME & TXT-Einträge sofort zu finden"
+    },
+    "form": {
+        "domain_label": "Domainname",
+        "domain_placeholder": "beispiel.de",
+        "button": "DNS nachschlagen"
+    },
+    "results": {
+        "title": "DNS-Ergebnisse"
+    },
+    "content": {
+        "what_is_title": "Was ist DNS-Lookup?",
+        "what_is_desc": "DNS-Lookup ist ein Tool, das Domain-Name-System-Server abfragt, um DNS-Einträge für eine Domain abzurufen. DNS-Einträge enthalten wichtige Informationen über die Konfiguration einer Domain, einschließlich Mail-Server (MX-Einträge), Nameserver (NS-Einträge), IP-Adressen (A\/AAAA-Einträge) und Text-Einträge (TXT-Einträge), die zur Verifizierung und Sicherheit verwendet werden.",
+        "why_use_title": "Warum DNS-Lookup verwenden?",
+        "why_use_desc": "DNS-Lookup ist unverzichtbar für die Behebung von Problemen bei der E-Mail-Zustellung, die Verifizierung der Domain-Konfiguration, die Überprüfung von Nameserver-Einstellungen, die Validierung von SPF- und DKIM-Einträgen und das Verständnis der Einrichtung einer Domain. Es wird täglich von Systemadministratoren, Webentwicklern und IT-Profis genutzt.",
+        "record_types_title": "DNS-Eintragstypen",
+        "a_record": "<strong>A Record:<\/strong> Verknüpft Domain mit IPv4-Adresse",
+        "aaaa_record": "<strong>AAAA Record:<\/strong> Verknüpft Domain mit IPv6-Adresse",
+        "mx_record": "<strong>MX Record:<\/strong> Informationen zum Mail-Server",
+        "ns_record": "<strong>NS Record:<\/strong> Nameserver-Informationen",
+        "txt_record": "<strong>TXT Record:<\/strong> Texteinträge zur Verifizierung",
+        "cname_record": "<strong>CNAME Record:<\/strong> Kanonischer Namens-Alias"
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen (FAQ)",
+        "q1": "Wie schnell werden DNS-Änderungen wirksam?",
+        "a1": "DNS-Änderungen können aufgrund der DNS-Propagierung zwischen wenigen Minuten und bis zu 48 Stunden dauern. Dies hängt vom TTL-Wert (Time to Live) der Einträge ab.",
+        "q2": "Was ist ein MX-Eintrag?",
+        "a2": "Ein MX-Eintrag (Mail Exchanger) gibt an, welcher Mail-Server für den Empfang von E-Mails im Namen einer Domain verantwortlich ist.",
+        "q3": "Warum sehe ich meine neuen DNS-Einträge noch nicht?",
+        "a3": "Dies liegt meist am Caching Ihres Browsers, Betriebssystems oder Internetanbieters. Nutzen Sie Tools wie unseres, um die Einträge direkt von den Nameservern abzufragen.",
+        "q4": "Was ist der Unterschied zwischen A- und AAAA-Einträgen?",
+        "a4": "Ein A-Eintrag verweist auf eine IPv4-Adresse (z. B. 192.168.1.1), während ein AAAA-Eintrag auf eine IPv6-Adresse verweist.",
+        "q5": "Können mehrere A-Einträge für eine Domain existieren?",
+        "a5": "Ja, dies wird oft für das Load Balancing verwendet, um den Datenverkehr auf mehrere Server zu verteilen."
+    },
+    "js": {
+        "looking_up": "DNS wird abgefragt...",
+        "records_label": "Einträge",
+        "success": "DNS-Einträge erfolgreich abgerufen",
+        "error": "Fehler beim Abrufen der DNS-Einträge",
+        "lookup_dns": "DNS nachschlagen"
+    }
+}

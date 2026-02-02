@@ -1,0 +1,97 @@
+{
+    "meta": {
+        "title": "Convertidor de YAML a JSON: herramienta de datos en línea gratuita",
+        "description": "Convierte archivos de configuración YAML a formato JSON al instante. Útil para DevOps y desarrollo web.",
+        "h1": "Convertidor de YAML a JSON",
+        "subtitle": "Transforma configuraciones YAML a formato JSON al instante"
+    },
+    "editor": {
+        "btn_convert": "Convertir",
+        "btn_copy": "Copiar JSON",
+        "btn_download": "Descargar JSON",
+        "btn_example": "Ejemplo",
+        "btn_clear": "Limpiar",
+        "label_input": "Entrada YAML",
+        "ph_input": "Pega tu YAML aquí...",
+        "label_output": "Salida JSON",
+        "ph_output": "Resultado JSON..."
+    },
+    "content": {
+        "h2": "Sobre el convertidor de YAML a JSON",
+        "p1": "Esta herramienta es vital para desarrolladores que manejan pipelines CI\/CD y despliegues en la nube.",
+        "features_title": "Ventajas de YAML a JSON",
+        "features": {
+            "syntax": {
+                "title": "Resaltado de Sintaxis",
+                "desc": "Edita con colores para mayor claridad."
+            },
+            "nested": {
+                "title": "Estructuras Complejas",
+                "desc": "Soporte para mapas y listas anidadas."
+            },
+            "array": {
+                "title": "Manejo de Colecciones",
+                "desc": "Conversión precisa de listas YAML a arreglos JSON."
+            },
+            "pretty": {
+                "title": "JSON Elegante",
+                "desc": "Salida lista para usar con el espaciado correcto."
+            },
+            "instant": {
+                "title": "Instantáneo",
+                "desc": "Transformación en tiempo real."
+            },
+            "privacy": {
+                "title": "Seguridad",
+                "desc": "Todo el proceso ocurre en tu navegador."
+            }
+        },
+        "uses_title": "¿Por qué convertir YAML a JSON?",
+        "uses": {
+            "config": {
+                "title": "Configuraciones",
+                "desc": "Usa archivos YAML para humanos en apps que solo leen JSON."
+            },
+            "pipeline": {
+                "title": "Pipelines Automáticos",
+                "desc": "Valida tus scripts de GitHub Actions o GitLab."
+            },
+            "k8s": {
+                "title": "Kubernetes",
+                "desc": "Verifica la estructura de tus manifiestos K8s."
+            },
+            "docker": {
+                "title": "Docker",
+                "desc": "Inspecciona archivos Compose de forma estructurada."
+            }
+        },
+        "how_to_title": "Instrucciones de Uso",
+        "how_to_steps": [
+            {
+                "title": "Entrada",
+                "desc": "Introduce tu código YAML."
+            },
+            {
+                "title": "Procesar",
+                "desc": "Presiona el botón 'Convertir'."
+            },
+            {
+                "title": "Finalizar",
+                "desc": "Copia el JSON generado."
+            }
+        ],
+        "faq_title": "Preguntas",
+        "faq": {
+            "q1": "¿Maneja comentarios?",
+            "a1": "YAML los permite, pero se eliminan en el JSON final.",
+            "q2": "¿Es rápido?",
+            "a2": "Sí, es casi instantáneo."
+        }
+    },
+    "js": {
+        "error_process": "Error convirtiendo YAML: ",
+        "error_no_copy": "No hay JSON para copiar",
+        "success_copy": "¡JSON copiado al portapapeles!",
+        "error_no_download": "No hay contenido para descargar"
+    }
+}

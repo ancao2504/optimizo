@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "SQL から JSON コンバーター - 無料のオンライン データベース ツール",
+        "description": "SQL INSERT 文を即座に JSON 配列へ変換。無料のオンラインツールで高速、正確、安全に変換可能です。",
+        "h1": "SQLからJSONへのコンバータ",
+        "subtitle": "SQL データと JSON オブジェクトの相互変換を簡単に"
+    },
+    "editor": {
+        "btn_encode": "JSON から SQL モード",
+        "btn_decode": "SQL から JSON モード",
+        "label_table": "テーブル名",
+        "ph_table": "テーブル名を入力 (例: users)",
+        "label_input_json": "JSON 入力",
+        "ph_input_json": "ここに JSON 配列を貼り付けてください...",
+        "label_output_sql": "SQL 出力",
+        "ph_output_sql": "生成された SQL がここに表示されます...",
+        "label_input_sql": "SQL 入力",
+        "label_output_json": "JSON 出力",
+        "btn_convert_sql": "SQL を生成",
+        "btn_convert_json": "JSON を生成",
+        "btn_clear": "クリア",
+        "btn_copy": "出力をコピー"
+    },
+    "content": {
+        "hero_title": "SQL JSON 変換ツール",
+        "hero_subtitle": "現代の開発者のための双方向変換",
+        "p1": "現代のアプリケーションは JSON を多用しますが、データベースはいまだに SQL を話します。当ツールの双方向変換ツールは、このギャップを難なく埋めます。データベースのエクスポートを API 用の JSON に変換したい場合も、JSON データを SQL シーディング・スクリプトに変換したい場合も、このツールは高速、安全、かつ正確なソリューションを提供します。",
+        "integration_title": "シームレスな統合",
+        "integration_desc": "リレーショナル・データベースとウェブアプリケーションの間でデータを簡単に移動。当ツールのパーサーは、標準的な SQL INSERT 文を処理し、データ型と値を保持したまま構造化された JSON オブジェクトに変換します。",
+        "features_title": "主な機能",
+        "features": {
+            "instant": {
+                "title": "即時結果",
+                "desc": "クリックするとリアルタイムで変換が行われます。"
+            },
+            "bidirectional": {
+                "title": "デュアルモード",
+                "desc": "SQL から JSON、JSON から SQL のモードを切り替え可能です。"
+            },
+            "security": {
+                "title": "安全な変換",
+                "desc": "処理は 100% クライアントサイドで行われ、プライバシーを最大限に保護します。"
+            },
+            "custom": {
+                "title": "クリーンな整形",
+                "desc": "出力はプロフェッショナルに整形され、すぐに使用できます。"
+            },
+            "types": {
+                "title": "型を認識",
+                "desc": "null、数値、文字列を正しく処理します。"
+            },
+            "free": {
+                "title": "完全に無料",
+                "desc": "サブスクリプションや使用制限はありません。"
+            }
+        },
+        "uses_title": "主な活用シーン",
+        "uses": {
+            "seeding": {
+                "title": "データベース・シーディング",
+                "desc": "開発環境にデータを投入するための SQL スクリプトを迅速に生成します。"
+            },
+            "export": {
+                "title": "データエクスポート",
+                "desc": "SQL クエリの結果を分析用に JSON に変換します。"
+            },
+            "migration": {
+                "title": "API 移行",
+                "desc": "レガシー・データベースのデータを現代の REST API で使用できるように準備します。"
+            },
+            "testing": {
+                "title": "モックデータ",
+                "desc": "既存の SQL テーブルから JSON モックデータを作成します。"
+            },
+            "docs": {
+                "title": "ドキュメント作成",
+                "desc": "ドキュメント内にデータベース構造の JSON 例を含めます。"
+            },
+            "prototype": {
+                "title": "迅速なプロトタイピング",
+                "desc": "開発中にデータ形式を素早く切り替えます。"
+            }
+        },
+        "how_title": "使い方",
+        "how_steps": {
+            "1": {
+                "title": "モードを選択",
+                "desc": "ボタンを使用して「JSON から SQL」または「SQL から JSON」を選択します。"
+            },
+            "2": {
+                "title": "データを入力",
+                "desc": "左側のエディタエリアにソースコードを貼り付けます。"
+            },
+            "3": {
+                "title": "テーブル名を設定",
+                "desc": "SQL に変換する場合は、対象となるデータベーステーブルを指定します。"
+            },
+            "4": {
+                "title": "生成",
+                "desc": "「生成」をクリックすると、即座に変換されます。"
+            },
+            "5": {
+                "title": "結果をコピー",
+                "desc": "「コピー」ボタンを使用して出力を取得します。"
+            }
+        },
+        "samples_title": "変換サンプル",
+        "samples": [
+            {
+                "title": "SQL インサートから JSON へ",
+                "desc": "INSERT INTO users (name, age) VALUES ('Alice', 25); → [{\"name\": \"Alice\", \"age\": 25}]"
+            },
+            {
+                "title": "JSON から SQL インサートへ",
+                "desc": "[{\"id\": 1}] → INSERT INTO table (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "よくある質問",
+        "faq": {
+            "q1": "どのような SQL ステートメントに対応していますか？",
+            "a1": "現在、このツールは列名が定義された標準的な INSERT INTO ステートメントをサポートしています。",
+            "q2": "データは安全ですか？",
+            "a2": "はい、データがサーバーに送信されることはありません。すべてのロジックはブラウザ内で実行されます。",
+            "q3": "複数行を変換できますか？",
+            "a3": "はい、複数行の SQL や大規模な JSON 配列を効率的に処理できます。",
+            "q4": "特殊文字は処理されますか？",
+            "a4": "はい、シングルクォートのエスケープや基本的な特殊文字を正しく処理します。"
+        }
+    },
+    "js": {
+        "error_empty": "処理するデータを入力してください",
+        "placeholder_table_name": "ユーザー",
+        "error_general": "変換エラー: ",
+        "error_invalid_array": "エラー: 入力は JSON オブジェクトの配列である必要があります。",
+        "error_empty_array": "エラー: JSON 配列が空です。",
+        "success_sql": "✓ SQL が正常に生成されました！",
+        "error_no_statements": "有効な SQL INSERT 文が見つかりません。",
+        "success_json": "✓ JSON が正常に生成されました！",
+        "error_no_copy": "コピーする内容がありません。",
+        "success_copy": "✓ 出力をクリップボードにコピーしました！"
+    }
+}

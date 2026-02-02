@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Konverter JSON ke SQL - Alat Migrasi Online Gratis",
+        "description": "Ubah data JSON menjadi pernyataan SQL INSERT secara instan. Sempurna untuk penyemaian basis data dan migrasi data.",
+        "h1": "Konverter JSON ke SQL",
+        "subtitle": "Konversikan array dan objek JSON menjadi skrip SQL yang valid"
+    },
+    "editor": {
+        "label_tablename": "Nama Tabel",
+        "ph_tablename": "Masukkan nama tabel (misalnya, pengguna)",
+        "btn_convert": "Hasilkan SQL",
+        "btn_clear": "Jernih",
+        "btn_copy": "Salin SQL",
+        "btn_example": "Contoh Beban",
+        "label_input": "Masukan JSON",
+        "ph_input": "Tempelkan array JSON Anda di sini...",
+        "label_output": "Keluaran SQL",
+        "ph_output": "Pernyataan SQL INSERT yang dihasilkan akan muncul di sini..."
+    },
+    "content": {
+        "hero_title": "Konversi JSON ke SQL yang mudah",
+        "hero_subtitle": "Cara tercepat untuk menghasilkan skrip penyemaian basis data",
+        "p1": "Mengonversi data JSON ke pernyataan SQL INSERT seharusnya tidak menjadi tugas manual. Konverter JSON ke SQL kami menangani pekerjaan berat dengan secara otomatis memetakan kunci JSON Anda ke kolom database dan meng-escape nilai untuk penyisipan yang aman. Ini adalah alat penting bagi pengembang yang mengerjakan migrasi data, pengujian, atau inisialisasi database.",
+        "what_title": "Kapan Menggunakan Alat Ini?",
+        "what_desc": "Jika Anda memiliki kumpulan data dalam format JSON—seperti ekspor dari database NoSQL atau respons API—dan Anda perlu memasukkannya ke dalam database relasional seperti MySQL, PostgreSQL, atau SQL Server, alat ini cocok untuk Anda. Ini memformat setiap objek menjadi pernyataan SQL yang bersih.",
+        "features_title": "Fitur Utama",
+        "features": {
+            "fast": {
+                "title": "Generasi Instan",
+                "desc": "Hasilkan ratusan baris SQL dalam sekejap mata."
+            },
+            "private": {
+                "title": "Privasi Terjamin",
+                "desc": "Semua pemrosesan bersifat lokal. Data sensitif Anda tetap ada di browser Anda."
+            },
+            "copy": {
+                "title": "Ekspor Sekali Klik",
+                "desc": "Salin seluruh skrip atau unduh untuk migrasi Anda."
+            },
+            "smart": {
+                "title": "Pelarian Cerdas",
+                "desc": "Secara otomatis menangani tanda kutip dan karakter khusus dalam string."
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "Tanpa batasan, tanpa registrasi, tanpa kerumitan."
+            },
+            "db": {
+                "title": "Ramah Lintas DB",
+                "desc": "Menghasilkan SQL standar yang kompatibel dengan sebagian besar sistem database."
+            }
+        },
+        "uses_title": "Kasus Penggunaan Profesional",
+        "uses": {
+            "migration": {
+                "title": "Migrasi Data",
+                "desc": "Memindahkan data dengan mudah dari sistem berbasis JSON ke database SQL."
+            },
+            "import": {
+                "title": "Impor Massal",
+                "desc": "Memuat data pengujian atau produksi dalam jumlah besar dengan cepat."
+            },
+            "api": {
+                "title": "API ke Basis Data",
+                "desc": "Konversikan hasil API pihak ketiga langsung ke sisipan SQL."
+            },
+            "test": {
+                "title": "Uji Penyemaian Data",
+                "desc": "Buat skrip SQL untuk mengisi lingkungan pengembangan."
+            },
+            "backup": {
+                "title": "Restorasi Cadangan",
+                "desc": "Ubah cadangan JSON kembali menjadi skrip SQL yang berfungsi."
+            },
+            "dev": {
+                "title": "Pembuatan Prototipe Cepat",
+                "desc": "Isi tabel database baru dengan cepat selama pengembangan."
+            }
+        },
+        "how_title": "Cara Menggunakan",
+        "how_steps": [
+            "Masukkan <strong>Nama Tabel<\/strong> database target",
+            "Tempelkan <strong>JSON<\/strong> Anda (harus berupa array atau objek)",
+            "Klik <strong>Hasilkan SQL<\/strong> untuk membuat skrip",
+            "<strong>Salin<\/strong> keluaran SQL ke papan klip Anda"
+        ],
+        "faq_title": "Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Format JSON apa yang diperlukan?",
+            "a1": "Alat ini bekerja paling baik dengan array objek, di mana setiap objek mewakili baris database.",
+            "q2": "Apakah itu menangani objek bersarang?",
+            "a2": "Saat ini memetakan kunci tingkat atas. Objek bersarang biasanya dirangkai atau dilewati tergantung pada kebutuhan DB Anda.",
+            "q3": "Apakah ada batasan baris?",
+            "a3": "Tidak ada batasan pasti, meskipun kinerja browser Anda mungkin bervariasi hingga ribuan baris."
+        },
+        "tips_title": "Kiat Pro",
+        "tips_list": [
+            "Pastikan kunci JSON Anda sama persis dengan nama kolom SQL Anda.",
+            "Selalu verifikasi SQL yang dihasilkan sebelum menjalankannya di database produksi.",
+            "Gunakan tombol \"Contoh\" untuk melihat struktur JSON yang diharapkan."
+        ]
+    },
+    "js": {
+        "error_empty": "Silakan masukkan data JSON dan nama tabel",
+        "success_convert": "✓ SQL berhasil dibuat!",
+        "error_convert": "Kesalahan saat membuat SQL:",
+        "error_no_copy": "Tidak ada SQL untuk disalin. Harap konversi JSON terlebih dahulu.",
+        "success_copy": "✓ SQL disalin ke papan klip!"
+    }
+}

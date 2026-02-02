@@ -1,0 +1,86 @@
+{
+    "meta": {
+        "title": "YouTube 频道 ID 查找器 - 免费在线工具",
+        "description": "即时查找任何 YouTube 频道的唯一 ID。适用于开发人员、营销人员和创作者的简单工具。无需 API 密钥，完全免费。",
+        "h1": "YouTube 频道 ID 查找器",
+        "subtitle": "即时查找任何 YouTube 频道 ID。API 集成和数据分析的必备工具。"
+    },
+    "form": {
+        "title": "查找 YouTube 频道 ID",
+        "url_label": "YouTube 频道 URL 或用户名",
+        "url_placeholder": "https:\/\/www.youtube.com\/@channelname 或 https:\/\/www.youtube.com\/c\/channelname",
+        "url_help": "输入 YouTube 频道 URL 或 @用户名以查找其 ID",
+        "find_button": "立即查询频道 ID"
+    },
+    "js": {
+        "success_title": "已找到频道 ID！",
+        "channel_id": "频道 ID",
+        "copy": "复制",
+        "error_enter_url": "请输入 YouTube 频道 URL",
+        "error_valid_url": "请输入有效的 YouTube 频道 URL",
+        "finding": "正在查询 ID...",
+        "error_failed": "获取频道 ID 失败，请重试。",
+        "channel_name": "频道名称",
+        "channel_url": "频道 URL",
+        "copied": "已复制！"
+    },
+    "content": {
+        "main_title": "即时查询 YouTube 频道 ID",
+        "main_subtitle": "获取任何频道的唯一 ID，用于 API 集成、数据分析和开发工作",
+        "main_description": "我们的免费 YouTube 频道 ID 查询器可帮助开发人员、营销人员及内容创作者快速找回任何 YouTube 频道的唯一标识符。无论您是需要进行 API 集成、使用分析工具、还是第三方应用开发，都可以在无需 API 密钥的情况下即时获得准确的频道 ID。",
+        "feature_instant_desc": "立即获得频道 ID，无需等待，无需复杂的设置",
+        "feature_formats": "支持所有 URL 格式",
+        "feature_formats_desc": "支持 @username, \/c\/channelname, \/channel\/ID 以及 \/user\/username",
+        "feature_copy": "一键便捷复制",
+        "feature_copy_desc": "一键复制到剪贴板，方便您快速在项目中使用",
+        "api_dev_title": "🔧 API 与开发应用",
+        "api_dev_1": "YouTube Data API v3 集成的必要参数",
+        "api_dev_2": "构建自定义 YouTube 分析工具的核心基础",
+        "api_dev_3": "频道订阅追踪和第三方应用对接的必需项",
+        "api_dev_4": "自动化内容管理系统的关键标识符",
+        "marketing_title": "📊 营销与分析",
+        "marketing_1": "追踪竞争对手频道的运营表现",
+        "marketing_2": "监测和记录红人合作的专属 ID",
+        "marketing_3": "验证频道的真实性以及其在数据库中的映射",
+        "marketing_4": "深度分析频道增长趋势的底层数据"
+    },
+    "features": {
+        "instant": "即时结果"
+    },
+    "use_cases": {
+        "title": "常用场景",
+        "case1": "API 集成对接",
+        "case1_desc": "在您的应用程序中使用频道 ID 调用 YouTube 数据 API",
+        "case2": "自定义分析工具",
+        "case2_desc": "构建自定义的数据面板和指标追踪系统",
+        "case3": "红人营销管理",
+        "case3_desc": "高效地管理和追踪大批量网红合作伙伴的频道",
+        "case4": "RSS 订阅源生成",
+        "case4_desc": "使用频道 ID 为特定频道创建专属的 RSS 视频源",
+        "case5": "内容策展与策略",
+        "case5_desc": "为内容营销策略组织、分类并存储频道信息",
+        "case6": "工作流自动化",
+        "case6_desc": "自动化监测频道动态及原始数据采集"
+    },
+    "pro_tips": {
+        "title": "💡 专家贴士：使用频道 ID",
+        "tip1": "频道 ID 通常以 \"UC\" 开头，后跟 22 个字符",
+        "tip2": "为了 API 调用的稳定性，建议使用频道 ID 而非用户名",
+        "tip3": "即使频道名或句柄更改，频道 ID 也永远不会改变",
+        "tip4": "将频道 ID 存储在您的数据库中，实现长期数据追踪",
+        "tip5": "利用频道 ID 创建直接 RSS 源：youtube.com\/feeds\/videos.xml?channel_id=ID"
+    },
+    "faq": {
+        "title": "❓ 常见问题解答",
+        "q1": "什么是 YouTube 频道 ID？",
+        "a1": "YouTube 频道 ID 是 YouTube 分配给每个频道的唯一且永久的 24 位标识符（以 \"UC\" 开头）。无论频道名称或自定义 URL 如何更改，该 ID 都保持不变。",
+        "q2": "为什么我需要频道 ID 而不是直接用频道名称？",
+        "a2": "YouTube API 的大多数操作都强制要求使用频道 ID。相比之下，频道名称是可以随时更改的，而 ID 是永久性的，在 API 调用和集成工具中更可靠。",
+        "q4": "这个工具是免费使用的吗？",
+        "a4": "当然！我们的频道 ID 查询器完全免费，没有限制，无需注册，也不需要 API 密钥。您可以随时使用。",
+        "q5": "获取频道 ID 后我可以用它做什么？",
+        "a5": "您可以将其与 YouTube Data API 结合使用来获取频道统计、自动订阅、提取视频列表、生成 RSS 订阅源，或集成到第三方分析和管理工具中。",
+        "q6": "该工具支持哪些 URL 格式？",
+        "a6": "我们支持所有格式：@句柄 (youtube.com\/@username)、\/c\/ (youtube.com\/c\/channelname)、\/channel\/ (youtube.com\/channel\/ID) 以及 \/user\/ (youtube.com\/user\/username)。"
+    }
+}

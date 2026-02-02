@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode Encoder & Decoder - Free Online Text Tool",
+        "description": "Encode and decode Unicode escape sequences for JavaScript and JSON with our free tool.",
+        "h1": "Unicode Encoder & Decoder",
+        "subtitle": "Encode and decode Unicode escape sequences for JavaScript and JSON"
+    },
+    "editor": {
+        "btn_encode": "Encode Unicode",
+        "btn_decode": "Decode Unicode",
+        "label_input_encode": "Enter Text to Encode",
+        "ph_input": "Hello ä¸–ç•Œ",
+        "btn_process_encode": "Encode Unicode",
+        "btn_clear": "Clear",
+        "btn_copy": "Copy",
+        "label_output_encoded": "Encoded Unicode",
+        "ph_output": "Processed Unicode will appear here...",
+        "label_input_decode": "Enter Unicode to Decode",
+        "label_output_decoded": "Decoded Text",
+        "btn_process_decode": "Decode Unicode"
+    },
+    "content": {
+        "p1": "Our free Unicode Encoder & Decoder tool helps you encode text into Unicode escape sequences (e.g., \\u0041) for safe use in JavaScript, JSON, and other programming contexts, or decode them back to readable text. Perfect for developers, data analysts, and anyone dealing with international character sets. 100% free, client-side processing ensures your data stays private.",
+        "what_title": "What is Unicode Encoding?",
+        "what_desc": "Unicode encoding converts characters into their corresponding Unicode code points, often represented as escape sequences like \\uXXXX. This ensures that text containing special characters, emojis, or non-Latin scripts can be safely represented in environments that typically support only ASCII, such as source code files or JSON data.",
+        "features_title": "Features",
+        "features": {
+            "instant": {
+                "title": "Instant Conversion",
+                "desc": "Encode or decode Unicode in milliseconds"
+            },
+            "bidirectional": {
+                "title": "Bidirectional",
+                "desc": "Encode to Unicode format or decode back to original"
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All processing happens in your browser"
+            },
+            "copy": {
+                "title": "One-Click Copy",
+                "desc": "Copy encoded\/decoded text instantly"
+            },
+            "free": {
+                "title": "100% Free",
+                "desc": "No limits, no registration required"
+            },
+            "universal": {
+                "title": "Universal Support",
+                "desc": "Works with all Unicode characters and scripts"
+            }
+        },
+        "uses_title": "Common Use Cases",
+        "uses": {
+            "programming": {
+                "title": "Programming",
+                "desc": "Embed special characters in JavaScript or Java source code safely"
+            },
+            "data": {
+                "title": "Data Serialization",
+                "desc": "Ensure safe transmission of non-ASCII characters in JSON"
+            },
+            "international": {
+                "title": "Internationalization",
+                "desc": "Debug and display text in various languages and scripts"
+            },
+            "security": {
+                "title": "Security",
+                "desc": "Analyze obfuscated code or data containing Unicode escapes"
+            }
+        },
+        "how_to_title": "How to Use",
+        "how_to": {
+            "step1": {
+                "title": "Choose Mode",
+                "desc": "Select \"Encode Unicode\" or \"Decode Unicode\" based on your need"
+            },
+            "step2": {
+                "title": "Enter Text",
+                "desc": "Paste your text or Unicode escapes in the input field"
+            },
+            "step3": {
+                "title": "Process",
+                "desc": "Click the encode or decode button"
+            },
+            "step4": {
+                "title": "Copy Result",
+                "desc": "Click \"Copy\" to copy the processed text to clipboard"
+            },
+            "step5": {
+                "title": "Use Anywhere",
+                "desc": "Paste the result in your code or application"
+            }
+        },
+        "examples_title": "Unicode Examples",
+        "examples": {
+            "simple": {
+                "title": "Simple\/ASCII:",
+                "desc": "Original: \"A\" â†’ Encoded: \"\\u0041\""
+            },
+            "special": {
+                "title": "Special Characters:",
+                "desc": "Original: \"Â©\" â†’ Encoded: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emojis\/Multi-byte:",
+                "desc": "Original: \"ðŸŒŸ\" â†’ Encoded: \"\\uD83C\\uDF1F\" (surrogate pairs) or \"\\u2B50\" depending on representation"
+            }
+        },
+        "faq_title": "Frequently Asked Questions",
+        "faq": {
+            "q1": "Why use Unicode escape sequences?",
+            "a1": "They allow you to represent any character using only ASCII characters, which ensures compatibility across different systems, encodings, and file transfers that might not handle raw Unicode correctly.",
+            "q2": "What format is used?",
+            "a2": "This tool typically uses the JavaScript\/JSON style \\uXXXX format for Basic Multilingual Plane characters.",
+            "q3": "Is this different from URL encoding?",
+            "a3": "Yes. URL encoding uses %XX hex values mainly for URLs. Unicode escaping uses \\uXXXX and is used in strings in programming languages like JavaScript, Java, and Python.",
+            "q4": "Is my data secure?",
+            "a4": "Yes! All encoding and decoding happens entirely in your browser using JavaScript. Your text never leaves your device."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter text to process",
+        "success_encode": "âœ“ Unicode encoded successfully",
+        "success_decode": "âœ“ Unicode decoded successfully",
+        "error_process": "✗ Error processing Unicode: ",
+        "error_no_copy": "No output to copy",
+        "success_copy": "âœ“ Copied to clipboard"
+    }
+}

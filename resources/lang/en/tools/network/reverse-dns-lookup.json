@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Reverse DNS Lookup - Free Online IP to Domain Tool",
+        "description": "Free online reverse DNS lookup tool. Find the hostname associated with any IP address instantly. Fast, secure, and easy to use.",
+        "h1": "Reverse DNS Lookup",
+        "subtitle": "Find the domain name or hostname associated with an IP address instantly"
+    },
+    "form": {
+        "ip_label": "Enter IP Address",
+        "ip_placeholder": "e.g., 8.8.8.8",
+        "button": "Lookup Reverse DNS",
+        "button_loading": "Looking up..."
+    },
+    "results": {
+        "title": "Reverse DNS Results"
+    },
+    "content": {
+        "what_is_title": "What is Reverse DNS Lookup?",
+        "what_is_desc": "Reverse DNS lookup (rDNS) is the process of determining the domain name or hostname associated with an IP address. Unlike a standard DNS lookup that converts a domain name to an IP address (forward lookup), rDNS does the opposite. It's often used to verify the identity of a server or to troubleshoot network issues.",
+        "why_use_title": "Why Use Reverse DNS Lookup?",
+        "why_use_desc": "Reverse DNS is widely used for security and verification purposes. It helps identify the source of incoming traffic, verify email senders (to prevent spam), and troubleshoot network connectivity issues. Many mail servers require valid rDNS records to accept incoming emails.",
+        "ptr_records_title": "Understanding PTR Records",
+        "ptr_record1": "<strong>PTR Record:<\/strong> A Pointer Record (PTR) is the type of DNS record used for reverse DNS lookups.",
+        "ptr_record2": "<strong>Mapping:<\/strong> It maps an IP address back to a hostname.",
+        "ptr_record3": "<strong>Verification:<\/strong> Crucial for email deliverability and security verification.",
+        "ptr_record4": "<strong>IP-to-Host:<\/strong> Essential for identifying the true owner of an IP address.",
+        "ptr_record5": "<strong>Spam Prevention:<\/strong> Used by mail servers to validate sender authenticity.",
+        "ptr_record6": "<strong>Network Logs:<\/strong> Helpful for making network logs human-readable by showing hostnames.",
+        "use_cases_title": "Common Use Cases",
+        "use_cases_desc": "Common use cases include verifying the origin of web traffic, diagnosing network latency or routing problems, validating email server configurations, and enhancing cybersecurity audits by identifying potentially malicious IP addresses."
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": "What is a PTR record?",
+        "a1": "A PTR (Pointer) record is a type of DNS record that maps an IP address to a hostname. It is the core component of a reverse DNS lookup.",
+        "q2": "Why is reverse DNS important for email?",
+        "a2": "Many email providers use reverse DNS to verify that the sending server is legitimate. If a server's IP address doesn't have a matching rDNS record, its emails may be flagged as spam.",
+        "q3": "Can any IP address have a reverse DNS record?",
+        "a3": "Yes, but the owner of the IP address (typically the ISP or hosting provider) must configure the PTR record in their DNS settings."
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Ping Test Tool Online - Gratis netwerklatentiecontrole",
+        "description": "Gratis ping-testtool om netwerklatentie, pakketverlies en serverbereikbaarheid te controleren. Test direct de verbinding met elke host of IP-adres.",
+        "h1": "Ping-testtool",
+        "subtitle": "Test de reactietijd van de server en netwerkverbinding vanaf meerdere locaties"
+    },
+    "form": {
+        "host_label": "Host of IP-adres",
+        "host_placeholder": "google.com of 8.8.8.8",
+        "button": "Host Pingen"
+    },
+    "results": {
+        "title": "Ping Resultaten"
+    },
+    "content": {
+        "what_is_title": "Wat is een Ping Test?",
+        "what_is_desc": "Ping is een diagnostisch hulpmiddel voor netwerken dat de bereikbaarheid van een host test. Het meet de 'round-trip time' (de tijd die een bericht nodig heeft om van bron naar bestemming en weer terug te gaan). Ping werkt door ICMP Echo Request-pakketten naar de doelhost te sturen en te wachten op een antwoord. Het is een fundamentele test om te zien of een apparaat online is.",
+        "why_use_title": "Waarom een Ping Test gebruiken?",
+        "why_use_desc": "Ping-testen zijn essentieel voor het oplossen van netwerkproblemen en het monitoren van prestaties. Beheerders gebruiken ping om connectiviteit te verifiëren, verbindingsfouten te diagnosticeren en latentie te meten. Het helpt bij het identificeren van pakketverlies, wat kan duiden op netwerkcongestie of hardwareproblemen. Gamers gebruiken ping om de vertraging naar een server te controleren.",
+        "metrics_title": "Ping Statistieken Begrijpen",
+        "metric1": "<strong>Pakketten Verzonden\/Ontvangen:<\/strong> Aantal verzoeken en succesvolle antwoorden.",
+        "metric2": "<strong>Pakketverlies:<\/strong> Percentage pakketten dat geen antwoord heeft gekregen.",
+        "metric3": "<strong>Minimum Tijd:<\/strong> De snelste geregistreerde reactietijd.",
+        "metric4": "<strong>Gemiddelde Tijd:<\/strong> De gemiddelde latentie over alle pings.",
+        "metric5": "<strong>Maximum Tijd:<\/strong> De traagste geregistreerde reactietijd.",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Aantal netwerkstappen voordat het pakket vervalt.",
+        "interpreting_title": "Resultaten Interpreteren",
+        "interpreting_desc": "Goede ping-tijden zijn meestal onder de 50ms voor lokale verbindingen en onder de 100ms voor internationale verbindingen. Tijden tussen 100-200ms zijn acceptabel maar kunnen vertraging (lag) veroorzaken in games. Alles boven de 200ms duidt op mogelijke netwerkproblemen. Pakketverlies boven de 1% moet nader worden onderzocht."
+    },
+    "faq": {
+        "title": "Veelgestelde Vragen",
+        "q1": "Wat is een 'Request Timed Out'?",
+        "a1": "Dit betekent dat de server niet binnen de gestelde tijd heeft gereageerd. De server kan offline zijn of pings blokkeren via een firewall.",
+        "q2": "Waarom is mijn ping zo hoog tijdens het gamen?",
+        "a2": "Dit kan komen door een trage internetverbinding, netwerkdrukte in huis, of omdat de gameserver fysiek erg ver weg staat.",
+        "q3": "Heeft Wi-Fi invloed op de ping?",
+        "a3": "Ja, Wi-Fi is vaak minder stabiel en heeft een hogere latentie dan een bedrade ethernetverbinding.",
+        "q4": "Is '0ms' mogelijk?",
+        "a4": "In de praktijk niet, tenzij u uw eigen computer pingt. Er is altijd enige tijd nodig voor dataoverdracht.",
+        "q5": "Wat is 'jitter'?",
+        "a5": "Jitter is de variatie in ping-tijden. Een stabiele verbinding heeft een lage jitter."
+    },
+    "js": {
+        "pinging": "Bezig met pingen...",
+        "success": "Ping succesvol",
+        "error": "Fout bij pingen",
+        "ping_host": "Host Pingen"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "JSON Formatter Online - 免费的 JSON Prettifier 工具",
+        "description": "使用我们的免费在线工具格式化、验证和压缩您的 JSON 数据",
+        "h1": "JSON 格式化程序",
+        "subtitle": "格式化、验证和压缩您的 JSON 数据"
+    },
+    "editor": {
+        "title": "格式化您的 JSON 数据",
+        "label_input": "输入 JSON 数据",
+        "ph_input": "{\"name\": \"张三\", \"age\": 30, \"city\": \"北京\"}",
+        "help_text": "在此粘贴您的 JSON 数据以进行格式化、美化或压缩",
+        "btn_format": "格式化与美化",
+        "btn_minify": "压缩 JSON",
+        "label_results": "格式化后的 JSON",
+        "btn_copy": "复制内容"
+    },
+    "content": {
+        "why_title": "为什么要使用我们的 JSON 格式化工具？",
+        "why_desc": "JSON（JavaScript 对象符号）是 Web 开发、API 和配置文件中最常用的数据交换格式。我们的免费在线 JSON 格式化工具可帮助开发人员、数据分析师和 IT 专业人员快速格式化、美化、验证和压缩 JSON 数据。无论您是在调试 API 响应、整理配置文件还是为生产环境准备 JSON，我们的工具都能提供带有语法高亮和错误检测的即时结果。非常适合处理 REST API、NoSQL 数据库和现代 Web 应用程序的开发人员。",
+        "features": {
+            "instant": {
+                "title": "即时格式化",
+                "desc": "在几毫秒内完成 JSON 格式化和美化，支持代码缩进和语法高亮"
+            },
+            "error": {
+                "title": "错误检测",
+                "desc": "自动检测并高亮显示 JSON 语法错误，并提供有用的错误提示"
+            },
+            "privacy": {
+                "title": "100% 隐私",
+                "desc": "所有处理均在您的浏览器中完成 - 您的 JSON 数据永远不会离开您的计算机"
+            }
+        },
+        "how_title": "简单 3 步格式化 JSON",
+        "how_steps": {
+            "1": {
+                "title": "选择操作",
+                "desc": "点击“格式化与美化”进行格式化，或点击“压缩 JSON”进行压缩"
+            },
+            "2": {
+                "title": "复制结果",
+                "desc": "点击复制按钮，将处理后的 JSON 复制到剪贴板"
+            },
+            "3": {
+                "title": "格式化或缩小",
+                "desc": "根据您的需要选择美化（带缩进的格式）或缩小（压缩为单行）您的 JSON 数据。"
+            }
+        },
+        "uses_title": "常见 JSON 格式化使用场景",
+        "uses": {
+            "api": {
+                "title": "API 响应调试",
+                "desc": "格式化混乱的 API 响应，轻松阅读和调试来自 REST API、GraphQL 和 Web 服务的数据。"
+            },
+            "config": {
+                "title": "配置文件",
+                "desc": "整理并验证应用程序的 JSON 配置文件，如 package.json、tsconfig.json 等。"
+            },
+            "db": {
+                "title": "数据库数据",
+                "desc": "格式化来自 MongoDB、CouchDB 和 Firebase 等 NoSQL 数据库的 JSON 数据，以提高可读性。"
+            },
+            "export": {
+                "title": "数据导入\/导出",
+                "desc": "准备导出的 JSON 数据，或验证导入的 JSON 数据以确保结构和语法正确。"
+            }
+        },
+        "tips_title": "JSON 最佳实践与提示",
+        "tips": {
+            "validate": {
+                "title": "✓ 务必验证 JSON",
+                "desc": "在部署到生产环境之前，使用 JSON 验证器捕获语法错误。无效的 JSON 可能会导致应用程序崩溃。"
+            },
+            "indent": {
+                "title": "✓ 使用正确的缩进",
+                "desc": "在开发和调试过程中，使用 2 或 4 个空格的缩进格式化 JSON，以提高可读性。"
+            },
+            "minify": {
+                "title": "✓ 为生产环境压缩",
+                "desc": "在部署到生产环境之前压缩 JSON 数据，以减小文件体积并提高加载速度。"
+            },
+            "naming": {
+                "title": "✓ 使用一致的命名",
+                "desc": "在整个 JSON 结构中保持一致的驼峰式 (camelCase) 或下划线式 (snake_case) 命名规范。"
+            }
+        },
+        "faq_title": "❓ 常见问题解答",
+        "faq": {
+            "q1": "我的 JSON 数据安全吗？",
+            "a1": "是的，绝对安全。我们的 JSON 格式化工具完全使用 JavaScript 在您的浏览器中运行。您的数据永远不会发送到我们的服务器，也不会存储在任何地方。",
+            "q2": "为什么压缩 JSON 很重要？",
+            "a2": "压缩会移除不必要的空格和换行符，从而显著减小文件体积。这对于提高 API 性能和减少生产环境中的带宽消耗至关重要。",
+            "q3": "我可以验证不完整的 JSON 吗？",
+            "a3": "该工具需要有效的 JSON 结构才能进行格式化或压缩。但是，它提供了详细的错误消息，帮助您定位和修复 JSON 数据中的问题。",
+            "q4": "它支持超大 JSON 文件吗？",
+            "a4": "是的，该工具经过优化，可以高效处理大型 JSON 数据集，但极大的文件处理能力取决于您浏览器的内存限制。"
+        }
+    },
+    "js": {
+        "error_empty_format": "请输入要格式化的 JSON 数据",
+        "error_invalid": "无效的 JSON：",
+        "error_empty_minify": "请输入要压缩的 JSON 数据",
+        "success_copy": "已复制！",
+        "error_copy": "复制失败，请手动复制。"
+    }
+}

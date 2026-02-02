@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online - Alat Analisis Jaringan Gratis",
+        "description": "Alat traceroute online gratis. Cepat, aman dan mudah digunakan.",
+        "h1": "Traceroute",
+        "subtitle": "Traceroute terbaik untuk pengembang dan profesional TI"
+    },
+    "form": {
+        "host_label": "Host atau Alamat IP",
+        "host_placeholder": "Masukkan domain atau alamat IP",
+        "button": "Mulai Traceroute",
+        "button_loading": "Menelusuri rute..."
+    },
+    "results": {
+        "title": "Hasil Traceroute"
+    },
+    "content": {
+        "what_is_title": "Apa itu Traceroute?",
+        "what_is_desc": "Ini adalah alat online gratis untuk melacak rute.",
+        "why_use_title": "Mengapa Menggunakan Traceroute?",
+        "why_use_desc": "Traceroute menunjukkan jalur yang diambil data dari komputer Anda ke server tujuan, menampilkan setiap hop (router) di sepanjang jalan. Ini penting untuk mendiagnosis perlambatan jaringan, mengidentifikasi masalah perutean, dan memahami topologi jaringan.",
+        "hops_title": "Memahami Hop",
+        "hop1": "Hop 1: Router\/gateway lokal Anda",
+        "hop2": "Hop 2-3: Jaringan ISP Anda",
+        "hop3": "Hop 4-6: Tulang punggung internet regional",
+        "hop4": "Hop 7-10: Jaringan ISP tujuan",
+        "hop5": "Hop 11+: Jaringan server tujuan",
+        "hop6": "Setiap hop menambah latensi - lebih sedikit hop biasanya berarti koneksi lebih cepat",
+        "issues_title": "Masalah Umum",
+        "issues_desc": "Latensi tinggi pada hop tertentu menunjukkan masalah kemacetan atau perutean. Tanda bintang (*) berarti router tidak merespons paket traceroute (seringkali karena aturan firewall). Kehilangan paket pada hop perantara mungkin tidak mempengaruhi tujuan akhir jika paket berhasil mencapainya."
+    },
+    "faq": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "q1": "Apa itu traceroute?",
+        "a1": "Traceroute adalah alat diagnostik jaringan yang melacak jalur yang diambil paket data dari komputer Anda ke server tujuan. Ini menunjukkan setiap router (hop) di sepanjang rute dan mengukur waktu yang dibutuhkan pada setiap langkah, membantu mengidentifikasi di mana terjadi penundaan atau kegagalan jaringan.",
+        "q2": "Mengapa beberapa hop menunjukkan tanda bintang (*)?",
+        "a2": "Tanda bintang menunjukkan bahwa router tidak merespons probe traceroute dalam periode waktu habis. Hal ini sering kali disebabkan oleh konfigurasi firewall yang memblokir paket ICMP demi keamanan. Ini tidak berarti ada masalah - paket mungkin masih sampai di tujuan.",
+        "q3": "Berapa banyak lompatan yang normal?",
+        "a3": "Rute internet pada umumnya memiliki 10-20 lompatan. Tujuan jaringan lokal mungkin memiliki 1-5 hop, sedangkan rute internasional dapat memiliki 20-30 hop. Semakin banyak lompatan umumnya berarti jarak yang lebih jauh dan potensi latensi yang lebih tinggi, namun perutean yang efisien lebih penting daripada jumlah lompatan."
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Port Checker Tool - Free Online Open Port Scanner",
+        "description": "Free port checker tool to test if ports are open, closed, or filtered. Check TCP\/UDP ports instantly for network troubleshooting and security auditing.",
+        "h1": "Port Checker Tool",
+        "subtitle": "Check if ports are open on any server for troubleshooting connectivity"
+    },
+    "form": {
+        "host_label": "Host or IP Address",
+        "host_placeholder": "example.com or 8.8.8.8",
+        "port_label": "Port Number",
+        "port_placeholder": "80",
+        "button": "Check Port"
+    },
+    "results": {
+        "title": "Port Status"
+    },
+    "content": {
+        "what_is_title": "What is Port Checker?",
+        "what_is_desc": "A Port Checker is a network diagnostic tool that determines whether a specific TCP or UDP port on a server or device is open (accepting connections), closed (rejecting connections), or filtered (blocked by a firewall). Ports are virtual endpoints for network communication, with each port number (1-65535) potentially hosting different services. Common ports include 80 for HTTP web traffic, 443 for HTTPS, 22 for SSH, and 25 for email. Checking port status is essential for network configuration, security auditing, and troubleshooting connectivity issues.",
+        "why_check_title": "Why Check Ports?",
+        "why_check_desc": "Port checking serves multiple critical purposes in network management and security. System administrators verify that services are accessible on their intended ports after configuration changes. Security professionals scan for open ports to identify potential vulnerabilities and ensure unnecessary ports are closed. Developers test whether their applications are properly listening on configured ports. Network troubleshooters use port checking to diagnose why services aren't accessible, determining if the issue is with the service itself, firewall rules, or network routing.",
+        "common_ports_title": "Common Ports",
+        "port1": "<strong>Port 80:<\/strong> HTTP (web traffic)",
+        "port2": "<strong>Port 443:<\/strong> HTTPS (secure web traffic)",
+        "port3": "<strong>Port 22:<\/strong> SSH (secure shell access)",
+        "port4": "<strong>Port 21:<\/strong> FTP (file transfer)",
+        "port5": "<strong>Port 25:<\/strong> SMTP (email sending)",
+        "port6": "<strong>Port 3306:<\/strong> MySQL database",
+        "port7": "<strong>Port 3389:<\/strong> RDP (Remote Desktop)",
+        "security_title": "Security Implications",
+        "security_desc": "Open ports represent potential entry points for attackers. Best security practice dictates keeping only necessary ports open and closing or filtering all others. Regularly scanning your own servers helps identify unintended open ports that could be exploited. However, port scanning others' systems without permission may be illegal and is considered hostile activity. Always ensure you have authorization before scanning ports on systems you don't own."
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": "What is a port checker?",
+        "a1": "A port checker tests whether a specific network port on a server is open and accepting connections. It's essential for troubleshooting servers, firewalls, and network services.",
+        "q2": "What are common ports and their uses?",
+        "a2": "Common ports include: 80 (HTTP), 443 (HTTPS), 21 (FTP), 22 (SSH), 25 (SMTP email), 3306 (MySQL), 3389 (Remote Desktop), 8080 (HTTP alternate). Each service uses specific ports for communication.",
+        "q3": "Why is my port closed?",
+        "a3": "Ports can be closed due to firewall rules, router configuration, service not running, ISP blocking, or incorrect port forwarding. Check your firewall settings, ensure the service is running, and verify port forwarding rules.",
+        "q4": "Is it safe to open ports?",
+        "a4": "Opening ports exposes services to the internet, which can be a security risk if not properly configured. Only open necessary ports, use strong authentication, keep software updated, and consider using VPN for sensitive services.",
+        "q5": "What's the difference between TCP and UDP ports?",
+        "a5": "TCP ports provide reliable, ordered data delivery (used for web, email, file transfer). UDP ports are faster but don't guarantee delivery (used for gaming, streaming, DNS). Both can use the same port numbers."
+    },
+    "js": {
+        "checking": "Checking port status...",
+        "success": "Port check completed",
+        "error": "Port check failed",
+        "check_port": "Check Port"
+    }
+}

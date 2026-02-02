@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "JSON-zu-SQL-Konverter – kostenloses Online-Migrationstool",
+        "description": "Transformieren Sie JSON-Daten sofort in SQL-INSERT-Anweisungen. Perfekt für das Datenbank-Seeding und die Datenmigration.",
+        "h1": "JSON-zu-SQL-Konverter",
+        "subtitle": "JSON-Arrays und -Objekte in gültige SQL-Skripte konvertieren"
+    },
+    "editor": {
+        "label_tablename": "Tabellenname",
+        "ph_tablename": "Tabellenname eingeben (z. B. users)",
+        "btn_convert": "SQL generieren",
+        "btn_clear": "Löschen",
+        "btn_copy": "SQL kopieren",
+        "btn_example": "Beispiel laden",
+        "label_input": "JSON-Eingabe",
+        "ph_input": "Fügen Sie hier Ihr JSON-Array ein...",
+        "label_output": "SQL-Ausgabe",
+        "ph_output": "Die generierten SQL-INSERT-Anweisungen erscheinen hier..."
+    },
+    "content": {
+        "hero_title": "Mühelose JSON-zu-SQL-Konvertierung",
+        "hero_subtitle": "Der schnellste Weg, Datenbank-Seeding-Skripte zu erstellen",
+        "p1": "Das Konvertieren von JSON-Daten in SQL-INSERT-Anweisungen sollte keine manuelle Aufgabe sein. Unser JSON-zu-SQL-Konverter übernimmt die mühsame Arbeit, indem er Ihre JSON-Schlüssel automatisch Datenbankspalten zuordnet und Werte für eine sichere Einfügung maskiert. Er ist ein unverzichtbares Werkzeug für Entwickler, die an Datenmigrationen, Tests oder Datenbankinitialisierungen arbeiten.",
+        "what_title": "Wann sollte man dieses Tool verwenden?",
+        "what_desc": "Wenn Sie eine Datensammlung im JSON-Format haben – wie zum Beispiel einen Export aus einer NoSQL-Datenbank oder eine API-Antwort – und diese in eine relationale Datenbank wie MySQL, PostgreSQL oder SQL Server einfügen müssen, ist dieses Tool genau richtig für Sie. Es formatiert jedes Objekt in eine saubere SQL-Anweisung.",
+        "features_title": "Hauptfunktionen",
+        "features": {
+            "fast": {
+                "title": "Sofortige Generierung",
+                "desc": "Generieren Sie hunderte von SQL-Zeilen im Handumdrehen."
+            },
+            "private": {
+                "title": "Privatsphäre garantiert",
+                "desc": "Die gesamte Verarbeitung erfolgt lokal. Ihre sensiblen Daten bleiben in Ihrem Browser."
+            },
+            "copy": {
+                "title": "Export mit einem Klick",
+                "desc": "Kopieren Sie das gesamte Skript oder laden Sie es für Ihre Migrationen herunter."
+            },
+            "smart": {
+                "title": "Intelligentes Maskieren",
+                "desc": "Behandelt automatisch Anführungszeichen und Sonderzeichen in Strings."
+            },
+            "free": {
+                "title": "100 % kostenlos",
+                "desc": "Keine Limits, keine Registrierung, kein Aufwand."
+            },
+            "db": {
+                "title": "Datenbankübergreifend",
+                "desc": "Erzeugt Standard-SQL, das mit den meisten Datenbank-Systemen kompatibel ist."
+            }
+        },
+        "uses_title": "Professionelle Anwendungsfälle",
+        "uses": {
+            "migration": {
+                "title": "Datenmigration",
+                "desc": "Verschieben Sie Daten einfach von JSON-basierten Systemen in SQL-Datenbanken."
+            },
+            "import": {
+                "title": "Massenimport",
+                "desc": "Laden Sie große Mengen an Test- oder Produktionsdaten schnell hoch."
+            },
+            "api": {
+                "title": "API zu Datenbank",
+                "desc": "Konvertieren Sie API-Ergebnisse von Drittanbietern direkt in SQL-Inserts."
+            },
+            "test": {
+                "title": "Testdaten-Seeding",
+                "desc": "Erstellen Sie SQL-Skripte zum Befüllen von Entwicklungsumgebungen."
+            },
+            "backup": {
+                "title": "Backup-Wiederherstellung",
+                "desc": "Verwandeln Sie JSON-Backups wieder in funktionale SQL-Skripte."
+            },
+            "dev": {
+                "title": "Schnelles Prototyping",
+                "desc": "Befüllen Sie während der Entwicklung schnell neue Datenbanktabellen."
+            }
+        },
+        "how_title": "Benutzung",
+        "how_steps": [
+            "Geben Sie den Ziel-Datenbank-<strong>Tabellennamen<\/strong> ein",
+            "Fügen Sie Ihr <strong>JSON<\/strong> ein (muss ein Array oder Objekt sein)",
+            "Klicken Sie auf <strong>SQL generieren<\/strong>, um das Skript zu erstellen",
+            "<strong>Kopieren<\/strong> Sie die SQL-Ausgabe in Ihre Zwischenablage"
+        ],
+        "faq_title": "Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Welches JSON-Format ist erforderlich?",
+            "a1": "Das Tool funktioniert am besten mit einem Array von Objekten, wobei jedes Objekt eine Datenbankzeile darstellt.",
+            "q2": "Werden verschachtelte Objekte unterstützt?",
+            "a2": "Es werden derzeit die Schlüssel der obersten Ebene zugeordnet. Verschachtelte Objekte werden normalerweise in Strings umgewandelt oder übersprungen, je nach Datenbankanforderungen.",
+            "q3": "Gibt es ein Limit für die Zeilenanzahl?",
+            "a3": "Es gibt kein festes Limit, obwohl die Leistung Ihres Browsers bei tausenden von Zeilen variieren kann."
+        },
+        "tips_title": "Profi-Tipps",
+        "tips_list": [
+            "Stellen Sie sicher, dass Ihre JSON-Schlüssel exakt mit Ihren SQL-Spaltennamen übereinstimmen.",
+            "Überprüfen Sie das generierte SQL immer, bevor Sie es in einer Live-Datenbank ausführen.",
+            "Verwenden Sie die Schaltfläche \"Beispiel\", um die erwartete JSON-Struktur zu sehen."
+        ]
+    },
+    "js": {
+        "error_empty": "Bitte geben Sie JSON-Daten und einen Tabellennamen ein",
+        "success_convert": "✓ SQL erfolgreich generiert!",
+        "error_convert": "Fehler beim Generieren von SQL: ",
+        "error_no_copy": "Kein SQL zum Kopieren vorhanden. Bitte konvertieren Sie zuerst JSON.",
+        "success_copy": "✓ SQL in die Zwischenablage kopiert!"
+    }
+}

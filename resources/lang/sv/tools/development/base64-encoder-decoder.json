@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": "Base64 Encoder & Decoder - Gratis online utvecklarverktyg",
+        "description": "Koda och avkoda Base64-data direkt med vårt gratis onlineverktyg",
+        "h1": "Base64 Encoder & Decoder",
+        "subtitle": "Koda och avkoda Base64-data direkt"
+    },
+    "editor": {
+        "tab_encode": "Koda till Base64",
+        "tab_decode": "Avkoda från Base64",
+        "label_encode": "Ange text att koda",
+        "ph_encode": "Ange din text här...",
+        "desc_encode": "Ange valfri text för att konvertera den till Base64-format",
+        "btn_encode": "Koda till Base64",
+        "label_decode": "Ange Base64 att avkoda",
+        "ph_decode": "Ange Base64-kodad sträng...",
+        "desc_decode": "Ange Base64-kodad text för att avkoda den tillbaka till oformaterad text",
+        "btn_decode": "Avkoda från Base64",
+        "result_title": "Resultat",
+        "btn_copy": "Kopiera resultat"
+    },
+    "content": {
+        "what_title": "Vad är Base64-kodning?",
+        "what_desc": "Base64 är ett kodningsschema för binär-till-text som representerar binär data i ett ASCII-strängformat. Det används ofta för att koda data som behöver lagras eller överföras via media som är utformade för att hantera text. Vårt gratis Base64-kodar- och avkodarverktyg låter utvecklare, dataanalytiker och IT-proffs snabbt konvertera text till Base64 eller avkoda Base64-strängar tillbaka till läsbar text. Perfekt för API-utveckling, dataöverföring, e-postbilagor, inbäddning av bilder i HTML\/CSS och hantering av binär data i JSON.",
+        "features": {
+            "secure": {
+                "title": "Säker kodning",
+                "desc": "All bearbetning sker i din webbläsare - din data lämnar aldrig din dator"
+            },
+            "instant": {
+                "title": "Omedelbar konvertering",
+                "desc": "Koda eller avkoda Base64-data på millisekunder med bearbetning på klientsidan"
+            },
+            "easy": {
+                "title": "Lätt att använda",
+                "desc": "Enkelt flikgränssnitt för kodning och avkodning med kopiering med ett klick"
+            }
+        },
+        "how_to": {
+            "title": "Hur man använder Base64-kodare\/avkodare",
+            "encode": {
+                "title": "Koda text",
+                "step1": "Klicka på fliken \"Koda till Base64\"",
+                "step2": "Klistra in eller skriv din text i inmatningsområdet",
+                "step3": "Klicka på knappen \"Koda till Base64\"",
+                "step4": "Kopiera det Base64-kodade resultatet"
+            },
+            "decode": {
+                "title": "Avkoda Base64",
+                "step1": "Klicka på fliken \"Avkoda från Base64\"",
+                "step2": "Klistra in din Base64-sträng i inmatningsområdet",
+                "step3": "Klicka på knappen \"Avkoda från Base64\"",
+                "step4": "Kopiera det avkodade resultatet i oformaterad text"
+            }
+        },
+        "uses": {
+            "title": "Vanliga användningsområden för Base64",
+            "api": {
+                "title": "API-autentisering",
+                "desc": "Koda inloggningsuppgifter för Basic Authentication i HTTP-rubriker och API-förfrågningar."
+            },
+            "data_uri": {
+                "title": "Data-URI:er",
+                "desc": "Bädda in bilder, typsnitt och filer direkt i HTML, CSS eller JSON med hjälp av Base64 data-URI:er."
+            },
+            "email": {
+                "title": "E-postbilagor",
+                "desc": "Koda binära bilagor i MIME-e-postmeddelanden för säker överföring."
+            },
+            "storage": {
+                "title": "Datalagring",
+                "desc": "Lagra binär data i textbaserade format som JSON, XML eller databaser."
+            }
+        },
+        "bottom": {
+            "h1": "Base64-kodare & avkodare",
+            "subtitle": "Koda och avkoda Base64-data direkt",
+            "desc": "Base64 är ett kodningsschema för binär-till-text som konverterar binär data till ASCII-textformat. Vår gratis Base64-kodare & avkodare hjälper utvecklare, systemadministratörer och IT-proffs att koda text till Base64 eller avkoda Base64 tillbaka till läsbar text direkt. Perfekt för API-autentisering, data-URI:er, e-postbilagor och säker dataöverföring. All bearbetning sker i din webbläsare för fullständig integritet.",
+            "works_title": "🔄 Hur Base64 fungerar",
+            "works_encoding": "Konverterar binär data till ASCII-text med hjälp av 64 tecken",
+            "works_encoding_sub": "A-Z, a-z, 0-9, +, \/ (och = för utfyllnad)",
+            "works_decoding": "Konverterar Base64-text tillbaka till ursprunglig binär data",
+            "works_decoding_sub": "Vänder på kodningsprocessen perfekt",
+            "cases_title": "✅ Vanliga användningsfall",
+            "case_api": "API-autentisering",
+            "case_api_desc": "Koda referenser för Basic Auth i HTTP-rubriker",
+            "case_uri": "Data-URI:er",
+            "case_uri_desc": "Bädda in bilder och filer direkt i HTML\/CSS",
+            "case_email": "E-postbilagor",
+            "case_email_desc": "Koda binära filer för e-postöverföring",
+            "case_url": "URL-parametrar",
+            "case_url_desc": "Skicka binär data säkert i URL:er",
+            "case_storage": "Datalagring",
+            "case_storage_desc": "Lagra binär data i textbaserade databaser",
+            "case_web": "Webbutveckling",
+            "case_web_desc": "Koda JSON, XML och konfigurationsfiler",
+            "best_practices_title": "💡 Base64 Bästa praxis",
+            "best_practices_list": [
+                "Base64 ökar datastorleken med cirka 33%",
+                "Inte lämpligt för kryptering - använd riktiga krypteringsalgoritmer",
+                "Perfekt för att koda binär data i textbaserade system",
+                "Validera alltid avkodad data innan du använder den",
+                "Använd URL-säker Base64 för URL:er (ersätter +\/= med -_)"
+            ]
+        },
+        "faq": {
+            "title": "❓ Vanliga frågor",
+            "q1": "Är Base64-kodning säker?",
+            "a1": "Nej! Base64 är INTE kryptering - det är helt enkelt kodning. Vem som helst kan avkoda Base64-data direkt. Använd aldrig Base64 ensamt för säkerhet. För kryptering, använd riktiga kryptografiska algoritmer som AES, RSA eller TLS\/SSL.",
+            "q2": "Varför ökar Base64 filstorleken?",
+            "a2": "Base64-kodning ökar datastorleken med cirka 33% eftersom det representerar 3 byte binär data med hjälp av 4 ASCII-tecken. Denna overhead är kompromissen för att göra binär data säker för textbaserade system.",
+            "q3": "Vad används Base64 till?",
+            "a3": "Base64 används för att koda binär data (bilder, filer, referenser) till ASCII-text för överföring över textbaserade system som e-post, URL:er, JSON, XML och HTTP-rubriker. Det är viktigt för API-autentisering, data-URI:er och e-postbilagor.",
+            "q4": "Skickas min data till en server?",
+            "a4": "Nej! All Base64-kodning och avkodning sker helt i din webbläsare med JavaScript. Din data lämnar aldrig din enhet och lagras, överförs eller loggas ingenstans. Din integritet är helt skyddad.",
+            "q5": "Kan jag koda bilder till Base64?",
+            "a5": "Ja! Medan vårt verktyg kodar text kan du koda bilder med hjälp av specialiserade verktyg. Base64-kodade bilder kan bäddas in direkt i HTML\/CSS med hjälp av data-URI:er (data:image\/png;base64,...). Detta är användbart för små bilder men ökar sidstorleken."
+        }
+    },
+    "js": {
+        "error_empty_encode": "Vänligen ange text att koda",
+        "error_encoding": "Fel vid kodning av text: ",
+        "error_empty_decode": "Vänligen ange Base64-sträng att avkoda",
+        "error_invalid": "Ogiltig Base64-sträng. Vänligen kontrollera din inmatning.",
+        "copied": "Kopierat!"
+    }
+}

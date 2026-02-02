@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "Công cụ tra cứu DNS - Trình kiểm tra bản ghi DNS trực tuyến miễn phí",
+        "description": "Công cụ tr cứu DNS miễn phí để kiểm tr các bản ghi DNS cho bất kỳ tên miền nào. Xem các bản ghi , , MX, NS, TXT, CNME ngy lập tức. Thiết yếu để khắc phục sự cố emil và cấu hình tên miền.",
+        "h1": "Công cụ tra cứu DNS",
+        "subtitle": "Truy vấn các bản ghi DNS để tìm nmeserver, các bản ghi MX, , CNME & TXT ngy lập tức"
+    },
+    "form": {
+        "domain_label": "Tên Miền",
+        "domain_placeholder": "exmple.com",
+        "button": "Tr Cứu DNS"
+    },
+    "results": {
+        "title": "DNS Rechoặcds"
+    },
+    "content": {
+        "what_is_title": "Tr Cứu DNS Là Gì?",
+        "what_is_desc": "Tr cứu DNS là một công cụ truy vấn các máy chủ Hệ thống Tên Miền để lấy các bản ghi DNS cho một tên miền. Các bản ghi DNS chứ thông tin qun trọng về cách một tên miền được cấu hình, bo gồm máy chủ thư (bản ghi MX), nmeserver (bản ghi NS), đị chỉ IP (bản ghi \/) và các bản ghi văn bản (bản ghi TXT) được sử dụng để xác minh và bảo mật.",
+        "why_use_title": "Tại So Nên Sử Dụng Tr Cứu DNS?",
+        "why_use_desc": "Tr cứu DNS là thiết yếu để khắc phục các sự cố phân phối emil, xác minh cấu hình tên miền, kiểm tr cài đặt nmeserver, xác thực các bản ghi SPF và DKIM, và hiểu cách một tên miền được thiết lập. Nó được sử dụng bởi các quản trị viên hệ thống, nhà phát triển web và các chuyên gi CNTT hàng ngày.",
+        "record_types_title": "Các Loại Bản Ghi DNS",
+        "a_record": "<strong>Bản ghi :<\/strong> Ánh xạ tên miền tới đị chỉ IPv4",
+        "aaaa_record": "<strong>Bản ghi :<\/strong> Ánh xạ tên miền tới đị chỉ IPv6",
+        "mx_record": "<strong>Bản ghi MX:<\/strong> Thông tin máy chủ thư",
+        "ns_record": "<strong>Bản ghi NS:<\/strong> Thông tin nmeserver",
+        "txt_record": "<strong>Bản ghi TXT:<\/strong> Các bản ghi văn bản để xác minh",
+        "cname_record": "<strong>Bản ghi CNME:<\/strong> Bí dnh tên chính tắc"
+    },
+    "faq": {
+        "title": "Câu hỏi thường gặp",
+        "q1": "là gì DNS lookup?",
+        "a1": "DNS lookup là process of querying Domin Nme System servers retrieve DNS rechoặcds fhoặc domin. It trnsltes humn-redble domin nmes thành IP ddresses và provides infhoặcmtion bout mil servers, nme servers, và or DNS configurtions.",
+        "q2": "Wht re different types of DNS rechoặcds?",
+        "a2": "Common DNS rechoặcd types include (IPv4 ddress), (IPv6 ddress), MX (mil server), CNME (llà), TXT (text dt), NS (nme server), và SO (strt of uthhoặcity). Ech rechoặcd type serves specific purpose in domin configurtion.",
+        "q3": "How long does DNS propgtion tke?",
+        "a3": "DNS propgtion typiclly tkes 24-48 hours globlly, though chnges cn pper vớiin minutes on some servers. The time depends on TTL (Time Live) settings và how quickly DNS servers refresh ir cche.",
+        "q4": "Tại so là my DNS lookup filing?",
+        "a4": "DNS lookup filures cn occur due inchoặcrect domin nme, DNS server làsues, firewll blocking, hoặc domin not being properly configured. Check your domin spelling và ensure your DNS rechoặcds re choặcrectly set up.",
+        "q5": "Cn I lookup DNS rechoặcds fhoặc ny domin?",
+        "a5": "Có, you cn perfhoặcm DNS lookups fhoặc ny publicly reglàtered domin. However, some hoặcgniztions my restrict certin DNS queries fhoặc security resons."
+    },
+    "js": {
+        "looking_up": "Looking up DNS rechoặcds...",
+        "records_label": "DNS Rechoặcds",
+        "success": "DNS lookup completed successfully",
+        "error": "Filed lookup DNS rechoặcds",
+        "lookup_dns": "Lookup DNS"
+    }
+}

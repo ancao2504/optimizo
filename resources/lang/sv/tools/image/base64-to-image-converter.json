@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Avkoda Base64 till bild - Gratis onlineavkodare",
+        "description": "Konvertera Base64-kodade strängar tillbaka till bilder (PNG, JPG, GIF). Gratis online avkodare och visualiserare.",
+        "h1": "Avkoda Base64 till bild",
+        "subtitle": "Konvertera Base64-kodade strängar tillbaka till bilder (PNG, JPG, GIF) omedelbart"
+    },
+    "input": {
+        "title": "Klistra in Base64-sträng",
+        "desc": "Klistra in din kod nedan för att visualisera bilden",
+        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Avkoda bild"
+    },
+    "result": {
+        "image_alt": "Avkodad bild",
+        "success": "Bild avkodad framgångsrikt",
+        "btn_download": "Ladda ner bild",
+        "btn_clear": "Rensa mönster"
+    },
+    "content": {
+        "title": "Avkoda Base64 till bild",
+        "p1": "Hittat en lång sträng av slumpmässiga tecken som börjar med <code>data:image\/...<\/code> och vet inte vad det är? Det är troligen en Base64-kodad bild.",
+        "p2": "Vår <strong>Base64 till bild-avkodare<\/strong> konverterar den textsträngen tillbaka till en synlig bildfil (PNG, JPG, GIF, etc.) som du kan visa och ladda ner till din dator.",
+        "features": {
+            "preview": {
+                "title": "Omedelbar förhandsgranskning",
+                "desc": "Se bilden omedelbart. Vi parsar binärdata och renderar den på din skärm."
+            },
+            "auto": {
+                "title": "Automatisk detektering",
+                "desc": "Vi upptäcker automatiskt filformatet (PNG, JPEG, GIF) från huvudet på Base64-strängen."
+            },
+            "download": {
+                "title": "Ladda ner fil",
+                "desc": "Spara det avkodade resultatet som en riktig bildfil till din hårddisk med ett klick."
+            }
+        },
+        "how_to": {
+            "title": "Hur avkodar man?",
+            "list": [
+                "Klistra in din Base64-sträng i textfältet.",
+                "Vi försöker omedelbart läsa strängen.",
+                "Om den är giltig visas bilden till vänster.",
+                "Klicka på \"Ladda ner bild\" för att spara den."
+            ]
+        },
+        "use_cases": {
+            "title": "Vanliga användningsområden",
+            "list": [
+                "Felsökning: Kontrollera vilken bilddata som skickas i API-svar eller lagras i databaser.",
+                "Återställning: Extrahera bilder inbäddade i CSS-filer eller HTML-mallar.",
+                "Verifiering: Säkerställ att en Base64-sträng inte är skadad."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Vänligen klistra in en Base64-sträng först.",
+        "invalid_error": "Ogiltig Base64-sträng eller bildformat som inte stöds."
+    }
+}

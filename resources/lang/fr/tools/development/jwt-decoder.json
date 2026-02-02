@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "Décodeur JWT en ligne - Débogueur de jeton Web JSON gratuit",
+        "description": "Décodez et inspectez les jetons Web JSON (JWT) - Visualisez l'en-tête, la charge utile et la signature !",
+        "h1": "Décodeur JWT",
+        "subtitle": "Décodez et inspectez les jetons Web JSON (JWT) instantanément"
+    },
+    "editor": {
+        "label_input": "Entrer le jeton JWT",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Décoder le JWT",
+        "btn_clear": "Effacer",
+        "btn_example": "Exemple",
+        "label_payload": "Charge utile (Claims)",
+        "label_signature": "Signature",
+        "note_signature": "⚠️ Note : La vérification de la signature nécessite la clé secrète"
+    },
+    "content": {
+        "hero_title": "Décodeur JWT gratuit en ligne",
+        "hero_subtitle": "Décodez et inspectez les jetons Web JSON instantanément",
+        "p1": "Notre outil gratuit Décodeur JWT vous permet de décoder et d'inspecter les jetons Web JSON (JWT) pour visualiser leurs composants d'en-tête, de charge utile et de signature. Parfait pour déboguer les problèmes d'authentification, comprendre la structure des jetons et valider les revendications JWT.",
+        "what_title": "🔍 Qu'est-ce que le JWT ?",
+        "what_desc": "Le JSON Web Token (JWT) est un moyen compact et sûr pour les URL de représenter des revendications entre deux parties. Les JWT se composent de trois parties : En-tête (algorithme et type de jeton), Charge utile (revendications\/données) et Signature (vérification), séparées par des points.",
+        "features_title": "✨ Caractéristiques",
+        "features": {
+            "instant": {
+                "title": "Décodage instantané",
+                "desc": "Décodez les JWT en millisecondes"
+            },
+            "structured": {
+                "title": "Vue structurée",
+                "desc": "Visualisez séparément l'en-tête, la charge utile et la signature"
+            },
+            "privacy": {
+                "title": "Confidentialité d'abord",
+                "desc": "Tout le décodage se passe dans votre navigateur"
+            }
+        },
+        "uses_title": "🎯 Cas d'utilisation courants",
+        "uses": {
+            "debug": {
+                "title": "🐛 Débogage",
+                "desc": "Déboguez les problèmes d'authentification en inspectant le contenu du JWT"
+            },
+            "validate": {
+                "title": "✅ Validation",
+                "desc": "Vérifiez les revendications JWT et les délais d'expiration"
+            },
+            "learn": {
+                "title": "📚 Apprentissage",
+                "desc": "Comprenez la structure et les composants du JWT"
+            },
+            "dev": {
+                "title": "🛠️ Développement",
+                "desc": "Testez la génération et l'analyse de JWT dans vos applications"
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Est-il sûr de décoder des JWT ici ?",
+            "a1": "Oui ! Tout le décodage se passe dans votre navigateur. Votre JWT ne quitte jamais votre appareil. Cependant, ne partagez jamais de JWT publiquement car ils peuvent contenir des informations sensibles.",
+            "q2": "Cet outil peut-il vérifier les signatures JWT ?",
+            "a2": "Cet outil décode et affiche les composants JWT mais ne vérifie pas les signatures, car cela nécessite la clé secrète qui ne doit jamais être partagée.",
+            "q3": "Que sont les revendications JWT ?",
+            "a3": "Les revendications sont des déclarations sur une entité (généralement l'utilisateur) et des données supplémentaires. Les revendications courantes incluent 'sub' (sujet), 'exp' (expiration) et 'iat' (émis à)."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez entrer un jeton JWT",
+        "error_invalid_format": "Format JWT invalide. Le JWT doit comporter 3 parties séparées par des points.",
+        "success_decode": "✓ JWT décodé avec succès",
+        "error_decode": "✗ Erreur lors du décodage du JWT : "
+    }
+}

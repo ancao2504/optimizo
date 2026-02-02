@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - Gratis JSON Web Token Debugger",
+        "description": "Avkoda och inspektera JSON Web Tokens (JWT) - Visa header, payload och signatur!",
+        "h1": "JWT-avkodare",
+        "subtitle": "Avkoda och inspektera JSON Web Tokens (JWT) - Visa header, payload och signatur!"
+    },
+    "editor": {
+        "label_input": "Ange JWT-token",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Avkoda JWT",
+        "btn_clear": "Rensa",
+        "btn_example": "Exempel",
+        "label_payload": "Payload (Anspråk)",
+        "label_signature": "Signatur",
+        "note_signature": "⚠️ Obs: Signaturverifiering kräver den hemliga nyckeln"
+    },
+    "content": {
+        "hero_title": "Gratis JWT-avkodare online",
+        "hero_subtitle": "Avkoda och inspektera JSON Web Tokens direkt",
+        "p1": "Vår gratis JWT-avkodare låter dig avkoda och inspektera JSON Web Tokens (JWT) för att se deras header, payload och signaturkomponenter. Perfekt för att felsöka autentiseringsproblem, förstå tokenstruktur och validera JWT-anspråk.",
+        "what_title": "🔍 Vad är JWT?",
+        "what_desc": "JSON Web Token (JWT) är ett kompakt, URL-säkert sätt att representera anspråk mellan två parter. JWT:er består av tre delar: Header (algoritm och tokentyp), Payload (anspråk\/data) och Signatur (verifiering), separerade med punkter.",
+        "features_title": "✨ Funktioner",
+        "features": {
+            "instant": {
+                "title": "Omedelbar avkodning",
+                "desc": "Avkoda JWT:er på millisekunder"
+            },
+            "structured": {
+                "title": "Strukturerad vy",
+                "desc": "Se header, payload och signatur separat"
+            },
+            "privacy": {
+                "title": "Integritet först",
+                "desc": "All avkodning sker i din webbläsare"
+            }
+        },
+        "uses_title": "🎯 Vanliga användningsområden",
+        "uses": {
+            "debug": {
+                "title": "🐛 Felsökning",
+                "desc": "Felsök autentiseringsproblem genom att inspektera JWT-innehåll"
+            },
+            "validate": {
+                "title": "✅ Validering",
+                "desc": "Verifiera JWT-anspråk och utgångstider"
+            },
+            "learn": {
+                "title": "📚 Lärande",
+                "desc": "Förstå JWT-struktur och komponenter"
+            },
+            "dev": {
+                "title": "🔧 Utveckling",
+                "desc": "Testa JWT-generering och tolkning i dina applikationer"
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Är det säkert att avkoda JWT:er här?",
+            "a1": "Ja! All avkodning sker i din webbläsare. Din JWT lämnar aldrig din enhet. Dela dock aldrig JWT:er offentligt eftersom de kan innehålla känslig information.",
+            "q2": "Kan detta verktyg verifiera JWT-signaturer?",
+            "a2": "Detta verktyg avkodar och visar JWT-komponenter men verifierar inte signaturer, eftersom det kräver den hemliga nyckeln som aldrig bör delas.",
+            "q3": "Vad är JWT-anspråk?",
+            "a3": "Anspråk är uttalanden om en entitet (vanligtvis användaren) och ytterligare data. Vanliga anspråk inkluderar 'sub' (ämne), 'exp' (utgång) och 'iat' (utfärdad vid)."
+        }
+    },
+    "js": {
+        "error_empty": "Vänligen ange en JWT-token",
+        "error_invalid_format": "Ogiltigt JWT-format. JWT ska ha 3 delar separerade med punkter.",
+        "success_decode": "✓ JWT avkodad framgångsrikt",
+        "error_decode": "✗ Fel vid avkodning av JWT: "
+    }
+}

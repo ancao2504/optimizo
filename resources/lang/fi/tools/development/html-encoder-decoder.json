@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML Encoder & Decoder - ilmainen online-yksikkötyökalu",
+        "description": "Koodaa ja pura HTML-entiteettejä XSS-hyökkäysten estämiseksi.",
+        "h1": "HTML-kooderi ja dekooderi",
+        "subtitle": "Koodaa ja pura HTML-entiteettejä turvallisesti"
+    },
+    "editor": {
+        "mode_encode": "Koodaa HTML",
+        "mode_decode": "Pura HTML",
+        "label_input_encode": "Kirjoita HTML koodataksesi",
+        "ph_input_encode": "<div>Hei ja tervetuloa<\/div>",
+        "btn_encode": "Koodaa HTML",
+        "btn_clear": "Tyhjennä",
+        "btn_copy": "Kopioi",
+        "label_output_encode": "Koodattu HTML",
+        "ph_output": "Käsitelty HTML näkyy täällä...",
+        "label_input_decode": "Kirjoita HTML purkaaksesi",
+        "label_output_decode": "Dekoodattu HTML",
+        "btn_decode": "Pura HTML"
+    },
+    "content": {
+        "hero_title": "Ilmainen HTML-kooderi ja dekooderi",
+        "hero_subtitle": "Koodaa ja purkaa HTML-kokonaisuuksia XSS-hyökkäysten estämiseksi",
+        "p1": "Ilmainen HTML Encoder & Decoder -työkalumme auttaa sinua koodaamaan erikoismerkkejä HTML-kieleen, jotta ne voidaan näyttää turvallisesti verkkosivuilla, tai purkaa koodatun HTML:n takaisin alkuperäiseen muotoonsa. Täydellinen kehittäjille, tietoturva-ammattilaisille ja kaikille raaka-HTML:n kanssa työskenteleville.",
+        "what_title": "🔗 Mikä on HTML-koodaus?",
+        "what_desc": "HTML-koodaus muuntaa merkit, joilla on erityinen merkitys HTML:ssä (kuten <, >, &, \") niitä vastaaviksi HTML-kokonaisuuksiksi (kuten &lt;, &gt;, &amp;, &quot;). Tämä estää selainta tulkitsemasta niitä HTML-tunnisteiksi, mikä on ratkaisevan tärkeää XSS-hyökkäysten estämisessä.",
+        "features_title": "âœ¨ Ominaisuudet",
+        "features": {
+            "fast": {
+                "title": "Välitön muunnos",
+                "desc": "Koodaa tai purkaa HTML millisekunneissa"
+            },
+            "bidirectional": {
+                "title": "Kaksisuuntainen",
+                "desc": "Koodaa erikoismerkkejä tai purkaa entiteetit takaisin tekstiksi"
+            },
+            "privacy": {
+                "title": "Yksityisyys ensin",
+                "desc": "Kaikki käsittely tapahtuu selaimessasi"
+            },
+            "copy": {
+                "title": "Kopioi yhdellä napsautuksella",
+                "desc": "Kopioi käsitelty HTML leikepöydälle välittömästi"
+            },
+            "free": {
+                "title": "100 % ilmainen",
+                "desc": "Ei rajoituksia, ei vaadi rekisteröitymistä"
+            },
+            "safe": {
+                "title": "Turvallisuuteen keskittynyt",
+                "desc": "Auttaa estämään XSS-haavoittuvuuksia"
+            }
+        },
+        "uses_title": "🎯 Yleiset käyttötapaukset",
+        "uses": {
+            "security": {
+                "title": "🔒 Turvallisuus",
+                "desc": "Puhdista käyttäjän syöte estääksesi XSS-hyökkäykset koodaamalla erikoismerkkejä."
+            },
+            "display": {
+                "title": "💻 Koodinäyttö",
+                "desc": "Näytä raaka HTML-koodi verkkosivulla ilman, että selain hahmontaa sitä."
+            },
+            "data": {
+                "title": "📊 Tietojen tallennus",
+                "desc": "Tallenna sisältöä turvallisesti tietokantoihin huolehtimatta HTML-jäsennysongelmista."
+            },
+            "email": {
+                "title": "📧 Sähköpostimallit",
+                "desc": "Varmista, että erikoismerkit näkyvät oikein HTML-sähköposteissa."
+            }
+        },
+        "how_title": "📚 Kuinka käyttää",
+        "how_steps": {
+            "1": "Liitä HTML-koodisi tai tekstisi syöttökenttään",
+            "2": "Napsauta prosessipainiketta muuntaaksesi",
+            "3": "Kopioi tulos leikepöydälle",
+            "4": "Kopioi koodattu\/dekoodattu tulos ja käytä sitä HTML-, XML- tai verkkosovelluksissasi."
+        },
+        "examples_title": "💡 Esimerkkejä HTML-koodauksesta",
+        "examples": {
+            "1": {
+                "title": "Lainausmerkit:",
+                "code": "\"Hei\" â†' &quot;Hei&quot;"
+            },
+            "2": {
+                "title": "Et:",
+                "code": "Tom & Jerry – Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "Erikoismerkkien koodaus",
+                "code": "&lt;script&gt;hälytys(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;hälytys(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&amp;gt;"
+            }
+        },
+        "faq_title": "â“ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Miksi minun täytyy koodata HTML?",
+            "a1": "Koodaus on olennaista turvallisuuden kannalta, jotta selain estetään suorittamasta haitallisia komentosarjoja (XSS) ja jotta koodinpätkät näytetään oikein.",
+            "q2": "Mitkä merkit on koodattu?",
+            "a2": "Tärkeimmät merkit, kuten <, >, &, \" ja \", ovat aina koodattuja. Myös laajennetut ASCII-merkit voivat olla koodattuja.",
+            "q3": "Onko se palautuva?",
+            "a3": "Kyllä, dekoodaus kääntää prosessin täsmälleen päinvastaiseksi ja palauttaa alkuperäisen tekstin."
+        }
+    },
+    "js": {
+        "error_empty": "Anna käsiteltävä HTML",
+        "success_encode": "âœ“ HTML-koodaus onnistui",
+        "success_decode": "âœ“ HTML-koodin purkaminen onnistui",
+        "error_process": "✗ Virhe HTML-koodin käsittelyssä:",
+        "error_no_copy": "Ei tulostetta kopioitavaksi",
+        "success_copy": "âœ“ Kopioitu leikepöydälle"
+    }
+}

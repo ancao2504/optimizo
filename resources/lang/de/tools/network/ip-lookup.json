@@ -1,0 +1,57 @@
+{
+    "meta": {
+        "title": "IP Lookup Tool – Kostenloser Online-IP-Geolocation-Checker",
+        "description": "Kostenloses IP-Lookup-Tool zum Finden detaillierter Informationen über jede IP-Adresse. Zeigen Sie Standort, ISP, Hostnamen und mehr an. Unverzichtbar für Sicherheitsanalysen und Netzwerk-Fehlerbehebung.",
+        "h1": "IP-Suchtool",
+        "subtitle": "Detaillierte Informationen zu jeder IP-Adresse einschließlich Standort & ISP abrufen"
+    },
+    "form": {
+        "ip_label": "IP-Adresse",
+        "ip_placeholder": "8.8.8.8",
+        "button": "IP-Adresse nachschlagen"
+    },
+    "results": {
+        "title": "IP-Abfrage-Ergebnisse",
+        "ip_address": "IP-Adresse",
+        "type": "Typ",
+        "hostname": "Hostname",
+        "isp": "ISP (Internetanbieter)",
+        "country": "Land",
+        "region": "Region",
+        "city": "Stadt",
+        "timezone": "Zeitzone"
+    },
+    "content": {
+        "what_is_title": "Was ist IP-Lookup?",
+        "what_is_desc": "IP-Lookup ist ein Tool, das detaillierte Informationen zu jeder beliebigen IP-Adresse liefert. Es zeigt den geografischen Standort, den Internet-Service-Provider (ISP), den Hostnamen und andere technische Details an, die mit einer IP-Adresse verknüpft sind. Diese Informationen sind wertvoll für Netzwerkadministratoren, Sicherheitsexperten, Website-Besitzer und alle, die verstehen möchten, woher Internetverkehr stammt.",
+        "why_use_title": "Warum IP-Lookup verwenden?",
+        "why_use_desc": "IP-Lookup-Tools sind für verschiedene Zwecke unverzichtbar, darunter Sicherheitsanalyse, Betrugsprävention, Lokalisierung von Inhalten, Netzwerkfehlersuche und Compliance-Überprüfung. Website-Besitzer nutzen IP-Abfragen, um die Demografie ihrer Besucher zu verstehen, während Sicherheitsteams sie verwenden, um potenzielle Bedrohungen zu identifizieren und böswilligen Datenverkehr zu blockieren. Es ist auch nützlich, um VPN-Verbindungen zu verifizieren und den eigenen digitalen Fußabdruck im Internet zu verstehen.",
+        "features_title": "Hauptmerkmale",
+        "feature1_title": "🌍 Geolocation-Daten",
+        "feature1_desc": "Land, Region, Stadt und Koordinaten",
+        "feature2_title": "🏢 ISP-Informationen",
+        "feature2_desc": "Details zum Internet-Service-Provider",
+        "feature3_title": "🔗 Hostnamauflösung",
+        "feature3_desc": "Der mit der IP verknüpfte Domainname",
+        "feature4_title": "⚡ Sofortige Ergebnisse",
+        "feature4_desc": "Schnelle und genaue Abfrage"
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen (FAQ)",
+        "q1": "Wie genau ist die Geolocation per IP?",
+        "a1": "Die Genauigkeit auf Länderebene beträgt fast 100 %, auf Stadtebene liegt sie oft zwischen 50 % und 80 %. Sie zeigt den Standort des ISP-Einwahlpunkts, nicht unbedingt die exakte Hausadresse.",
+        "q2": "Was ist der Unterschied zwischen einer IP-Abfrage und WHOIS?",
+        "a2": "Eine IP-Abfrage konzentriert sich auf den Standort und das Netzwerk einer IP, während WHOIS Informationen über den Besitzer einer Domain oder eines IP-Blocks liefert.",
+        "q3": "Kann ich die reale Adresse einer Person über deren IP herausfinden?",
+        "a3": "Nein, IP-Geolocations zeigen nur den allgemeinen Standort (Stadt\/Region). Personenbezogene Daten wie Name oder exakte Adresse sind nur über den ISP mit richterlichem Beschluss zugänglich.",
+        "q4": "Warum zeigt IP-Lookup einen anderen Standort an, wenn ich ein VPN nutze?",
+        "a4": "Ein VPN leitet Ihren Verkehr über einen anderen Server um. Das Tool erkennt die IP des VPN-Servers, weshalb dessen Standort angezeigt wird.",
+        "q5": "Was bedeutet es, wenn ein Hostname nicht aufgelöst werden kann?",
+        "a5": "Das bedeutet, dass für diese IP-Adresse kein Reverse-DNS-Eintrag (PTR Record) konfiguriert wurde. Nicht alle IPs haben einen zugeordneten Hostnamen."
+    },
+    "js": {
+        "looking_up": "Daten werden abgerufen...",
+        "success": "IP-Informationen erfolgreich geladen",
+        "error": "Fehler beim Abrufen der IP-Daten"
+    }
+}

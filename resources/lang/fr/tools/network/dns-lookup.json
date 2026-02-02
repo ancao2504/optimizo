@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "Outil de recherche DNS - Vérificateur d'enregistrement DNS en ligne gratuit",
+        "description": "Outil de recherche DNS gratuit pour vérifier les enregistrements DNS de n'importe quel domaine. Visualisez instantanément les enregistrements A, AAAA, MX, NS, TXT, CNAME. Essentiel pour le dépannage de la configuration des e-mails et des domaines.",
+        "h1": "Outil de recherche DNS",
+        "subtitle": "Interrogez les enregistrements DNS pour trouver instantanément les serveurs de noms, les enregistrements MX, A, CNAME et TXT"
+    },
+    "form": {
+        "domain_label": "Nom de domaine",
+        "domain_placeholder": "exemple.com",
+        "button": "Recherche DNS"
+    },
+    "results": {
+        "title": "Résultats DNS pour"
+    },
+    "content": {
+        "what_is_title": "Qu'est-ce qu'une recherche DNS ?",
+        "what_is_desc": "La recherche DNS est un outil qui interroge les serveurs du système de noms de domaine pour récupérer les enregistrements DNS d'un domaine. Les enregistrements DNS contiennent des informations importantes sur la configuration d'un domaine, notamment les serveurs de messagerie (enregistrements MX), les serveurs de noms (enregistrements NS), les adresses IP (enregistrements A\/AAAA) et les enregistrements texte (enregistrements TXT) utilisés pour la vérification et la sécurité.",
+        "why_use_title": "Pourquoi utiliser la recherche DNS ?",
+        "why_use_desc": "La recherche DNS est essentielle pour dépanner les problèmes de distribution d'e-mails, vérifier la configuration d'un domaine, contrôler les paramètres des serveurs de noms, valider les enregistrements SPF et DKIM, et comprendre comment un domaine est configuré. Elle est utilisée quotidiennement par les administrateurs système, les développeurs web et les professionnels de l'informatique.",
+        "record_types_title": "Types d'enregistrements DNS",
+        "a_record": "<strong>Enregistrement A :<\/strong> Associe un domaine à une adresse IPv4",
+        "aaaa_record": "<strong>Enregistrement AAAA :<\/strong> Associe un domaine à une adresse IPv6",
+        "mx_record": "<strong>Enregistrement MX :<\/strong> Informations sur le serveur de messagerie",
+        "ns_record": "<strong>Enregistrement NS :<\/strong> Informations sur le serveur de noms",
+        "txt_record": "<strong>Enregistrement TXT :<\/strong> Enregistrements texte pour la vérification",
+        "cname_record": "<strong>Enregistrement CNAME :<\/strong> Alias de nom canonique"
+    },
+    "faq": {
+        "title": "Foire aux questions sur le DNS",
+        "q1": "Combien de temps prend la propagation DNS ?",
+        "a1": "La propagation DNS peut prendre de quelques minutes à 48 heures, bien qu'elle soit souvent beaucoup plus rapide de nos jours.",
+        "q2": "Qu'est-ce que le TTL dans les enregistrements DNS ?",
+        "a2": "Le TTL (Time To Live) est un paramètre qui indique aux serveurs DNS combien de temps mettre en cache un enregistrement avant d'en demander un nouveau.",
+        "q3": "Pourquoi mes changements DNS ne sont-ils pas visibles ?",
+        "a3": "Cela est généralement dû à la mise en cache DNS sur votre ordinateur, votre routeur ou votre fournisseur d'accès à Internet.",
+        "q4": "Quelle est la différence entre un enregistrement A et CNAME ?",
+        "a4": "Un enregistrement A pointe vers une adresse IP, tandis qu'un CNAME pointe vers un autre nom de domaine.",
+        "q5": "À quoi servent les enregistrements MX ?",
+        "a5": "Les enregistrements MX (Mail Exchanger) indiquent aux serveurs de messagerie où envoyer les e-mails destinés à votre domaine."
+    },
+    "js": {
+        "looking_up": "Recherche en cours...",
+        "records_label": "Enregistrements",
+        "success": "Récupération des enregistrements réussie",
+        "error": "Échec de la récupération des enregistrements DNS",
+        "lookup_dns": "Recherche DNS"
+    }
+}

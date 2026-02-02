@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Konwerter obrazu na Base64 — bezpłatne narzędzie online do tworzenia ciągów znaków",
+        "description": "Konwertuj obrazy na ciągi znaków zakodowane w Base64 w celu osadzenia w HTML lub CSS. Darmowe narzędzie online obsługujące PNG, JPG, GIF.",
+        "h1": "Konwertuj obraz na ciąg Base64",
+        "subtitle": "Konwertuj obrazy na ciągi znaków zakodowane w Base64 w celu osadzenia w HTML lub CSS"
+    },
+    "input": {
+        "title": "Prześlij obraz",
+        "desc": "Przeciągnij i upuść plik obrazu tutaj",
+        "drop_title": "Upuść plik obrazu tutaj",
+        "drop_desc": "Obsługuje wszystkie formaty obrazów"
+    },
+    "editor": {
+        "image_alt": "Podgląd",
+        "label_string": "Ciąg Base64",
+        "btn_copy": "Kopiuj do schowka",
+        "char_count": "Liczba znaków",
+        "mime_type": "Typ MIME"
+    },
+    "content": {
+        "title": "Konwertuj obraz na ciąg Base64",
+        "p1": "Programiści i projektanci stron internetowych często muszą osadzać obrazy bezpośrednio w plikach HTML lub CSS, aby zmniejszyć liczbę żądań HTTP.",
+        "p2": "Nasz <strong>konwerter obrazu na Base64<\/strong> koduje plik obrazu w długi ciąg znaków reprezentujący dane binarne. Możesz wkleić ten ciąg bezpośrednio do swojego kodu.",
+        "features": {
+            "clipboard": {
+                "title": "Gotowy do schowka",
+                "desc": "Kopiowanie jednym kliknięciem. Formatujemy dane wyjściowe dla HTML (`&lt;img src=\"...\"&gt;`) lub CSS (`background: url(...)`)."
+            },
+            "requests": {
+                "title": "Zmniejsz liczbę żądań",
+                "desc": "Osadzanie małych ikon i logo jako Base64 eliminuje narzut sieciowy związany z pobieraniem zewnętrznych plików obrazów."
+            },
+            "formats": {
+                "title": "Dowolny format",
+                "desc": "Działa z plikami PNG, JPG, GIF, WEBP, SVG, a nawet ICO."
+            }
+        },
+        "how_to": {
+            "title": "Jak używać?",
+            "list": [
+                "Wybierz plik obrazu.",
+                "Narzędzie natychmiast konwertuje plik na Data URI.",
+                "Kliknij „Kopiuj do schowka”, aby pobrać kod.",
+                "Wstaw go do atrybutu `src` lub pliku CSS."
+            ]
+        },
+        "use_cases": {
+            "title": "Kiedy używać Base64?",
+            "list": [
+                "Małe obrazy: Najlepiej nadaje się do ikon, spinnerów i małych logo (poniżej 10 KB).",
+                "Aplikacje jednoplikowe: Gdy musisz spakować wszystko do jednego pliku HTML (np. szablony e-mail).",
+                "Dostęp offline: Zapewnia ładowanie obrazów nawet bez połączenia sieciowego, jeśli plik HTML zostanie zapisany lokalnie."
+            ]
+        }
+    },
+    "js": {
+        "copied": "Skopiowano!"
+    }
+}

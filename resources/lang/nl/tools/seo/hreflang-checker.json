@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker - Gratis online tagvalidator",
+        "description": "Valideer uw hreflang-tags om ervoor te zorgen dat Google de juiste taal- of regio-URL's aan uw publiek toont.",
+        "h1": "Hreflang-checker",
+        "subtitle": "Gratis tool om hreflang-attributen te extraheren en te valideren voor internationale SEO."
+    },
+    "form": {
+        "url_label": "Voer URL in om te controleren",
+        "url_placeholder": "https:\/\/voorbeeld.nl\/pagina",
+        "user_agent_label": "Gebruikersagent",
+        "user_agent_default": "Standaard (Browser)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Controleer Hreflang Tags"
+    },
+    "content": {
+        "main_title": "Hreflang-tagcontrole",
+        "main_subtitle": "Zorg ervoor dat uw internationale content het juiste publiek bereikt. Valideer de hreflang-implementatie en herstel veelvoorkomende SEO-fouten.",
+        "intro": "Hreflang-tags zijn essentieel voor websites die meerdere talen of landen bedienen. Onze gratis tool extraheert en valideert `rel=\"alternate\" hreflang=\"x\"` tags uit de HTML-header van uw pagina en HTTP-headers. Het controleert wederzijdse (return) tags om te garanderen dat Google en andere zoekmachines uw gelokaliseerde content correct indexeren.",
+        "features_title": "Waarom uw Hreflang-tags controleren?",
+        "feature1_title": "Valideer wederzijdse tags",
+        "feature1_desc": "Hreflang-tags moeten in paren werken. Onze tool controleert automatisch of pagina A naar pagina B linkt, en of pagina B teruglinkt naar pagina A.",
+        "feature2_title": "Detecteer veelvoorkomende fouten",
+        "feature2_desc": "Vind ontbrekende return-tags, ongeldige taalcodes (ISO 639-1) en onjuiste landcodes (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Voorkom SEO-problemen",
+        "feature3_desc": "Onjuiste hreflang-implementatie kan leiden tot problemen met dubbele content en het tonen van verkeerde taalpagina's in zoekresultaten.",
+        "how_title": "Hoe de Hreflang Checker te gebruiken",
+        "step1_title": "Voer URL in",
+        "step1_desc": "Plak de volledige URL van de pagina die u wilt analyseren (bijv. https:\/\/voorbeeld.nl).",
+        "step2_title": "Selecteer User Agent",
+        "step2_desc": "Controleren met Googlebot wordt aanbevolen, maar u kunt ook controleren als standaardbrowser.",
+        "step3_title": "Analyseer resultaten",
+        "step3_desc": "We halen de pagina op en tonen alle gevonden alternatieve links samen met hun validatiestatus.",
+        "step4_title": "Herstel problemen",
+        "step4_desc": "Als er fouten 'Ontbrekende return-tag' verschijnen, update dan uw gerefereerde pagina's om de wederzijdse link op te nemen.",
+        "faq_title": "Veelgestelde vragen",
+        "faq1_q": "Wat is een hreflang-tag?",
+        "faq1_a": "Hreflang is een HTML-attribuut dat wordt gebruikt om de taal en geografische targeting van een webpagina te specificeren. Het vertelt zoekmachines welke versie van een pagina aan gebruikers in verschillende landen of talen moet worden getoond.",
+        "faq2_q": "Waarom zijn return-tags belangrijk?",
+        "faq2_a": "Google vereist links om te voorkomen dat iemand willekeurig een pagina op een andere site claimt als een alternatieve versie van hun eigen pagina. Als pagina A naar pagina B linkt, moet pagina B teruglinken naar pagina A.",
+        "faq3_q": "Controleert deze tool de x-default tag?",
+        "faq3_a": "Ja, onze tool identificeert en valideert de `x-default` hreflang-tag, die wordt gebruikt voor niet-overeenkomende talen of strikte landkiezers.",
+        "faq4_q": "Kan ik hreflang in HTTP-headers controleren?",
+        "faq4_a": "Ja! We controleren zowel de HTML `<head>`-sectie als de HTTP-responsheaders op attributen `Link: <url>; rel=\"alternate\"; hreflang=\"code\"`.",
+        "faq5_q": "Wat gebeurt er als ik hreflang-fouten heb?",
+        "faq5_a": "Zoekmachines kunnen uw ongeldige tags negeren, wat leidt tot het niet tonen van de juiste taalversies aan de juiste gebruikers, of mogelijke straffen voor dubbele content.",
+        "faq6_q": "Is deze tool gratis?",
+        "faq6_a": "Ja, u kunt onbeperkt gratis controles uitvoeren om ervoor te zorgen dat uw internationale SEO perfect is."
+    }
+}

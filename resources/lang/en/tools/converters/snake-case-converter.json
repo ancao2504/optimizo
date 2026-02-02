@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "title": "Free Snake Case Converter - Online String Tool",
+        "description": "Convert text to snake_case format for Python variables and databases instantly.",
+        "h1": "Snake Case Converter",
+        "subtitle": "Convert text to snake_case for Python and databases"
+    },
+    "editor": {
+        "label_input": "Input Text",
+        "ph_input": "my variable name",
+        "btn_convert": "Convert to snake_case",
+        "btn_clear": "Clear",
+        "btn_copy": "Copy",
+        "label_output": "Output (snake_case)",
+        "ph_output": "my_variable_name"
+    },
+    "content": {
+        "p1": "Transform your text into snake_case format with our free online converter. Snake_case uses lowercase letters with underscores separating words, which is highly readable and machine-friendly.",
+        "features_title": "Features",
+        "features": {
+            "python": {
+                "title": "Python Standard",
+                "desc": "Generates variable names that follow PEP 8 style guidelines."
+            },
+            "instant": {
+                "title": "Instant Conversion",
+                "desc": "Convert to snake_case in milliseconds."
+            },
+            "privacy": {
+                "title": "Privacy Protected",
+                "desc": "All processing happens in your browser."
+            },
+            "bulk": {
+                "title": "Bulk Processing",
+                "desc": "Convert multiple names at once."
+            },
+            "smart": {
+                "title": "Smart Formatting",
+                "desc": "Automatically handles spaces and special characters."
+            },
+            "free": {
+                "title": "100% Free",
+                "desc": "No limits or registration required."
+            }
+        },
+        "uses_title": "When to Use Snake Case",
+        "uses": {
+            "python": {
+                "title": "Python Variables",
+                "desc": "The primary naming convention for variables and functions in these languages."
+            },
+            "db": {
+                "title": "Database Columns",
+                "desc": "Standard for column names (e.g., created_at, user_id)."
+            },
+            "config": {
+                "title": "Configuration Files",
+                "desc": "Commonly used in large-scale configuration and environment variables."
+            },
+            "ruby": {
+                "title": "Ruby Development",
+                "desc": "Follow Ruby naming conventions for variables and methods."
+            },
+            "data": {
+                "title": "📊 Data Science",
+                "desc": "Format column names in pandas DataFrames and CSV files"
+            },
+            "api": {
+                "title": "🔧 API Parameters",
+                "desc": "Create consistent parameter names for REST APIs"
+            }
+        },
+        "how_to_title": "How to Use",
+        "how_to_steps": [
+            {
+                "title": "Paste Text",
+                "desc": "Paste your text in the input box."
+            },
+            {
+                "title": "Convert",
+                "desc": "The converter replaces spaces and hyphens with underscores."
+            },
+            {
+                "title": "Lowercase",
+                "desc": "It converts all characters to lowercase."
+            },
+            {
+                "title": "Cleanup",
+                "desc": "Consecutive underscores are reduced to one."
+            },
+            {
+                "title": "Result",
+                "desc": "The snake_case result is ready to use."
+            }
+        ],
+        "examples_title": "Conversion Examples",
+        "examples": {
+            "var": {
+                "title": "Variable Names:"
+            },
+            "func": {
+                "title": "Function Names:"
+            },
+            "db": {
+                "title": "Database Columns:"
+            },
+            "config": {
+                "title": "Config Keys:"
+            }
+        },
+        "faq_title": "Frequently Asked Questions",
+        "faq": {
+            "q1": "What is snake_case?",
+            "a1": "Snake_case is a naming convention where words are lowercase and separated by underscores. Example: my_variable_name",
+            "q2": "When should I use snake_case?",
+            "a2": "Use snake_case for Python variables and functions, database column names, configuration keys, and Ruby method names. It's the standard in Python (PEP 8).",
+            "q3": "How is snake_case different from kebab-case?",
+            "a3": "Snake_case uses underscores (my_variable), while kebab-case uses hyphens (my-variable). Use snake_case for code, kebab-case for URLs and CSS.",
+            "q4": "Does this handle numbers?",
+            "a4": "Yes! The tool correctly handles numbers, preserving them while converting text (e.g., \"user 2 profile\" becomes \"user_2_profile\").",
+            "q5": "Is this tool free?",
+            "a5": "Yes! Completely free with no limits. All processing happens in your browser for privacy and speed."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter some text to convert",
+        "success_converted": "✓ Converted to snake_case successfully!",
+        "error_no_copy": "Nothing to copy! Please convert some text first.",
+        "success_copy": "✓ Copied to clipboard!"
+    }
+}

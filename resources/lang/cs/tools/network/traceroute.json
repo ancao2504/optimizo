@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Traceroute Online – bezplatný nástroj pro analýzu sítě",
+        "description": "Bezplatný online nástroj traceroute. Sledujte cestu paketů k jakékoli doméně nebo IP adrese. Odhalte zpoždění a problémy v síti.",
+        "h1": "Traceroute",
+        "subtitle": "Profesionální diagnostika síťové cesty pro vývojáře a IT experty"
+    },
+    "form": {
+        "host_label": "Hostitel nebo IP adresa",
+        "host_placeholder": "např. google.com nebo 8.8.8.8",
+        "button": "Spustit Traceroute",
+        "button_loading": "Sleduji cestu..."
+    },
+    "results": {
+        "title": "Výsledky Traceroute"
+    },
+    "content": {
+        "what_is_title": "Co je Traceroute?",
+        "what_is_desc": "Traceroute je nástroj pro diagnostiku sítě, který zobrazuje cestu (trasu) a měří zpoždění paketů napříč sítí Internet Protocol (IP). Umožňuje vidět každý router, přes který data procházejí na cestě k cíli.",
+        "why_use_title": "Proč používat Traceroute?",
+        "why_use_desc": "Pomáhá identifikovat, kde v síti dochází k latenci nebo výpadkům, zobrazením každého „skoku“ (hopu), přes který paket prochází. Je neocenitelný pro debugging síťových problémů a pochopení routování.",
+        "hops_title": "Porozumění skokům (hops)",
+        "hop1": "Každý řádek představuje router nebo uzel v síti.",
+        "hop2": "Zobrazuje se IP adresa a název hostitele daného uzlu.",
+        "hop3": "Měří se čas odezvy (latency) pro každý skok.",
+        "hop4": "Hvězdičky (*) značí vypršení časového limitu (timeout).",
+        "hop5": "Skoky pomáhají lokalizovat úzká hrdla v síti.",
+        "hop6": "Cílový uzel je posledním skokem v seznamu.",
+        "issues_title": "Běžné problémy v síti",
+        "issues_desc": "Traceroute může odhalit špatné směrování, přetížené uzly nebo firewally, které blokují ICMP pakety, což vede k 'Hvězdičkám' ve výsledcích."
+    },
+    "faq": {
+        "title": "Často kladené otázky",
+        "q1": "Co znamenají hvězdičky (*) v traceroute?",
+        "a1": "Hvězdičky znamenají, že uzel neodpověděl v časovém limitu. Často je to způsobeno firewallem, který zahazuje ICMP pakety, nebo přetížením routeru.",
+        "q2": "Jak číst výsledky traceroute?",
+        "a2": "Sledujte časy v milisekundách (ms). Pokud v určitém bodě čas prudce vzroste, pravděpodobně jste našli místo síťového přetížení.",
+        "q3": "Je online traceroute stejný jako v příkazovém řádku?",
+        "a3": "Princip je stejný, ale online nástroj spouští dotaz z našeho serveru, nikoliv z vašeho počítače, což je užitečné pro testování konektivity z jiného uzlu sítě."
+    }
+}

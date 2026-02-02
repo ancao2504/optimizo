@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "title": "URL Encoder & Decoder - Gratis online-procentverktyg",
+        "description": "Koda och avkoda URL:er för säker webböverföring med vårt gratis onlineverktyg.",
+        "h1": "URL Encoder & Decoder",
+        "subtitle": "Koda och avkoda URL:er för säker webböverföring"
+    },
+    "editor": {
+        "btn_encode": "Koda URL",
+        "btn_decode": "Avkoda URL",
+        "label_input_encode": "Ange URL att koda",
+        "ph_input": "https:\/\/example.com\/search?name=John Doe&age=30",
+        "btn_process_encode": "Koda URL",
+        "btn_clear": "Rensa",
+        "btn_copy": "Kopiera",
+        "label_output_encoded": "Kodad URL",
+        "ph_output": "Bearbetad URL visas här...",
+        "label_input_decode": "Ange URL att avkoda",
+        "label_output_decoded": "Avkodad URL",
+        "btn_process_decode": "Avkoda URL"
+    },
+    "content": {
+        "p1": "Vårt gratis URL-kodare & avkodare-verktyg hjälper dig att koda specialtecken i URL:er för säker överföring över internet, eller avkoda kodade URL:er tillbaka till sitt ursprungliga format. Perfekt för utvecklare, SEO-proffs och alla som arbetar med webb-URL:er. 100% gratis, bearbetning på klientsidan säkerställer att din data förblir privat.",
+        "what_title": "Vad är URL-kodning?",
+        "what_desc": "URL-kodning (även kallat procentkodning) konverterar specialtecken i URL:er till ett format som kan överföras över internet. Mellanslag blir %20, specialtecken som & blir %26, och så vidare. Detta säkerställer att URL:er fungerar korrekt i alla webbläsare och system.",
+        "features_title": "Funktioner",
+        "features": {
+            "instant": {
+                "title": "Omedelbar konvertering",
+                "desc": "Koda eller avkoda URL:er på millisekunder"
+            },
+            "bidirectional": {
+                "title": "Dubbelriktad",
+                "desc": "Koda till URL-format eller avkoda tillbaka till originalet"
+            },
+            "privacy": {
+                "title": "Integritet först",
+                "desc": "All bearbetning sker i din webbläsare"
+            },
+            "copy": {
+                "title": "Enklicks-kopiering",
+                "desc": "Kopiera kodad\/avkodad URL direkt"
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "Inga gränser, ingen registrering krävs"
+            },
+            "universal": {
+                "title": "Universellt stöd",
+                "desc": "Fungerar med alla URL-format och tecken"
+            }
+        },
+        "uses_title": "Vanliga användningsområden",
+        "uses": {
+            "query": {
+                "title": "Frågeparametrar",
+                "desc": "Koda specialtecken i URL-frågesträngar för API-anrop och webbförfrågningar"
+            },
+            "analytics": {
+                "title": "Analysspårning",
+                "desc": "Koda UTM-parametrar och spårnings-URL:er för marknadsföringskampanjer"
+            },
+            "auth": {
+                "title": "Autentisering",
+                "desc": "Koda referenser och tokens i OAuth- och API-autentisering"
+            },
+            "i18n": {
+                "title": "Internationalisering",
+                "desc": "Koda icke-ASCII-tecken i URL:er för global kompatibilitet"
+            },
+            "seo": {
+                "title": "SEO & Omdirigeringar",
+                "desc": "Skapa korrekt kodade omdirigerings-URL:er och kanoniska länkar"
+            },
+            "email": {
+                "title": "E-postlänkar",
+                "desc": "Koda mailto-länkar med ämnesrader och brödtextinnehåll"
+            }
+        },
+        "how_to_title": "Hur man använder",
+        "how_to": {
+            "step1": {
+                "title": "Välj läge",
+                "desc": "Välj \"Koda URL\" eller \"Avkoda URL\" beroende på ditt behov"
+            },
+            "step2": {
+                "title": "Ange URL",
+                "desc": "Klistra in din URL eller text i inmatningsfältet"
+            },
+            "step3": {
+                "title": "Bearbeta",
+                "desc": "Klicka på \"Koda URL\" eller \"Avkoda URL\"-knappen"
+            },
+            "step4": {
+                "title": "Kopiera resultat",
+                "desc": "Klicka på \"Kopiera\" för att kopiera den bearbetade URL:en till urklipp"
+            },
+            "step5": {
+                "title": "Använd var som helst",
+                "desc": "Klistra in den kodade\/avkodade URL:en i din applikation"
+            }
+        },
+        "examples_title": "URL-kodningsexempel",
+        "examples": {
+            "space": {
+                "title": "Mellanslag:",
+                "desc": "Original: \"Hello World\" → Kodad: \"Hello%20World\""
+            },
+            "special": {
+                "title": "Specialtecken:",
+                "desc": "Original: \"name=John&age=30\" → Kodad: \"name%3DJohn%26age%3D30\""
+            },
+            "full": {
+                "title": "Fullständig URL:",
+                "desc": "Original: \"https:\/\/example.com\/search?q=hello world\" → Kodad: \"https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world\""
+            }
+        },
+        "faq_title": "Vanliga frågor",
+        "faq": {
+            "q1": "När ska jag koda URL:er?",
+            "a1": "Koda URL:er när du skickar dem som frågeparametrar, lagrar dem i databaser eller när de innehåller specialtecken som mellanslag, &, =, ?, eller icke-ASCII-tecken.",
+            "q2": "Vilka tecken behöver kodas?",
+            "a2": "Reserverade tecken som : \/ ? # [ ] @ ! $ & ' ( ) * + , ; = och osäkra tecken som mellanslag, <, >, \", {, }, |, \\, ^, `, och icke-ASCII-tecken måste kodas.",
+            "q3": "Är URL-kodning samma sak som Base64?",
+            "a3": "Nej. URL-kodning konverterar specifika tecken till %XX-format, medan Base64 kodar hela data till en annan teckenuppsättning. De tjänar olika syften.",
+            "q4": "Kan jag koda hela URL:er?",
+            "a4": "Ja, men vanligtvis kodar du bara frågesträngsdelen. Att koda hela URL:en inklusive protokoll (https:\/\/) är mindre vanligt och kan orsaka problem.",
+            "q5": "Är min data säker?",
+            "a5": "Ja! All kodning och avkodning sker helt i din webbläsare med JavaScript. Dina URL:er lämnar aldrig din enhet eller skickas till någon server."
+        }
+    },
+    "js": {
+        "error_empty": "Vänligen ange en URL att bearbeta",
+        "success_encode": "✓ URL kodad framgångsrikt",
+        "success_decode": "✓ URL avkodad framgångsrikt",
+        "error_process": "✗ Fel vid bearbetning av URL: ",
+        "error_no_copy": "Ingen utdata att kopiera",
+        "success_copy": "✓ Kopierad till urklipp"
+    }
+}

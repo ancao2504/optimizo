@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JSON을 CSV로 변환기 - 무료 온라인 데이터 도구",
+        "description": "JSON 데이터를 CSV 형식으로 즉시 변환하여 엑셀에서 확인하세요. 빠르고 간편한 온라인 데이터 변환 도구.",
+        "h1": "JSON을 CSV로 변환기",
+        "subtitle": "JSON 데이터를 즉시 엑셀 호환 CSV 형식으로 변환"
+    },
+    "editor": {
+        "label_delimiter": "Select Delimiter",
+        "opt_comma": "Comma (,)",
+        "opt_semicolon": "Semicolon (;)",
+        "opt_tab": "Tab",
+        "opt_pipe": "Pipe (|)",
+        "btn_convert": "CSV로 변환하기",
+        "btn_copy": "복사",
+        "btn_download": "CSV 다운로드",
+        "btn_example": "Load Example",
+        "btn_clear": "지우기",
+        "label_input": "JSON 입력 (배열 형태 권장)",
+        "ph_input": "[{\"id\": 1, \"name\": \"John\"}, {\"id\": 2, \"name\": \"Jane\"}]",
+        "label_output": "변환된 CSV 결과",
+        "ph_output": "변환된 데이터가 여기에 표시됩니다..."
+    },
+    "content": {
+        "hero_title": "JSON을 엑셀용 CSV로 즉시 변환",
+        "p1": "웹 서비스의 데이터 규격인 JSON을 스프레드시트나 엑셀에서 바로 쓸 수 있는 CSV 형식으로 바꿔보세요. 데이터 분석, 보고서 작성, 혹은 대량의 정보를 표 형태로 정리해야 할 때 가장 빠르고 확실한 방법을 제공합니다.",
+        "features_title": "Key Features",
+        "features_list": {
+            "fast": "<strong>Instant Conversion:<\/strong> Results in milliseconds",
+            "secure": "<strong>Private & Secure:<\/strong> All data stays in your browser",
+            "format": "<strong>Smart Flattening:<\/strong> Correctly handles nested JSON objects",
+            "custom": "<strong>Custom Delimiters:<\/strong> Choose between comma, semicolon, or tabs",
+            "export": "<strong>Easy Export:<\/strong> Copy to clipboard or download as .csv",
+            "free": "<strong>100% Free:<\/strong> No limits, no registration required"
+        },
+        "uses_title": "Common Use Cases",
+        "uses": {
+            "api": {
+                "title": "API Data Analysis",
+                "desc": "Convert JSON responses from REST APIs into CSV format for easier analysis in spreadsheet software."
+            },
+            "db": {
+                "title": "Database Migration",
+                "desc": "Prepare JSON data for import into relational databases like MySQL or PostgreSQL."
+            },
+            "analysis": {
+                "title": "Data Visualization",
+                "desc": "Transform complex JSON datasets into a flat structure suitable for visualization tools."
+            },
+            "report": {
+                "title": "Quick Reporting",
+                "desc": "Generate readable CSV reports from structured JSON log files or application data."
+            }
+        },
+        "faq_title": "Frequently Asked Questions",
+        "faq": {
+            "q1": "Does it support nested JSON?",
+            "a1": "Yes, our tool automatically flattens nested objects so they appear as clearly labeled columns in your CSV.",
+            "q2": "Is my data uploaded?",
+            "a2": "No, all processing happens locally in your web browser. Your data is never sent to our servers.",
+            "q3": "Can I convert to TSV?",
+            "a3": "Yes, simply select the \"Tab\" delimiter option before converting.",
+            "q4": "What is the maximum file size?",
+            "a4": "The tool can handle large JSON files, though performance depends on your device's memory."
+        }
+    },
+    "js": {
+        "error_empty": "변환할 JSON 데이터를 입력하세요",
+        "error_convert": "Error converting JSON: ",
+        "error_no_copy": "No content to copy. Please convert JSON first.",
+        "success_copy": "✓ 클립보드에 복사되었습니다!",
+        "error_no_download": "No content to download. Please convert JSON first."
+    }
+}

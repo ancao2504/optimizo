@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "title": "Ilmainen ASCII-tekstimuunnin - Online-työkalu",
+        "description": "Muunna teksti ASCII-koodeiksi ja päinvastoin heti ilmaisella verkkotyökalullamme. Täydellinen koodaukseen, dekoodaukseen ja tietojen esittämiseen.",
+        "h1": "ASCII-muunnin",
+        "subtitle": "Käännä helposti tekstimerkkien ja niiden ASCII-arvojen välillä"
+    },
+    "editor": {
+        "to_ascii": "ASCII:ksi",
+        "to_text": "Tekstiksi",
+        "label_text": "Syötä teksti",
+        "ph_text": "Syötä teksti tähän (esim. Hei maailma)...",
+        "btn_convert_ascii": "Muunna ASCII:ksi",
+        "btn_clear": "Tyhjennä kaikki",
+        "btn_copy": "Kopioi tulos",
+        "label_output_ascii": "ASCII-koodien tulos",
+        "ph_ascii": "Syötä ASCII-koodit (esim. 72 101 108 108 111)...",
+        "label_ascii": "Syötä ASCII-koodit",
+        "label_output_text": "Tekstitulos",
+        "btn_convert_text": "Muunna tekstiksi"
+    },
+    "content": {
+        "title": "ASCII-muunnin: Teksti ASCII:ksi ja ASCII tekstiksi",
+        "subtitle": "Lopullinen työkalu merkkien ja koodien väliseen kääntämiseen ja binaaritietojen esittämiseen.",
+        "p1": "Ilmainen ASCII-muuntimemme on monipuolinen verkkotyökalu kehittäjille, opiskelijoille ja tekniikan harrastajille. Se tarjoaa saumattoman tavan muuntaa tavallinen teksti vastaaviksi ASCII-numeerisiksi arvoiksi ja päinvastoin. Olitpa sitten vianetsinnässä alhaisen tason koodissa, opettelemassa tietojen esittämistä tai tarvitset koodata\/dekoodata merkkijonoja tiettyjä protokollia varten, tämä työkalu tarjoaa välittömiä ja tarkkoja tuloksia suoraan selaimessasi.",
+        "what_title": "Mikä on ASCII?",
+        "what_desc": "ASCII (American Standard Code for Information Interchange) on merkistökoodausstandardi sähköiseen viestintään. Jokaiselle merkille (kirjain, numero tai symboli) on määritetty yksilöllinen numeerinen arvo väliltä 0–127. Esimerkiksi iso kirjain \"A\" on esitetty numerolla 65, kun taas välilyönti on 32. Näiden arvojen ymmärtäminen on perustavanlaatuista tietojenkäsittelytieteessä ja tietojen käsittelyssä.",
+        "features": {
+            "instant": {
+                "title": "Välitön muunnos",
+                "desc": "Saat tulokset reaaliajassa nappia painamalla."
+            },
+            "bidirectional": {
+                "title": "Kaksisuuntainen tuki",
+                "desc": "Vaihda helposti teksti-ASCII- ja ASCII-teksti-tilojen välillä."
+            },
+            "privacy": {
+                "title": "Yksityisyys taattu",
+                "desc": "Kaikki käsittely tapahtuu paikallisesti selaimessasi; tietojasi ei koskaan lähetetä palvelimillemme."
+            }
+        },
+        "uses": {
+            "title": "Yleisiä käyttötapauksia",
+            "programming": {
+                "title": "Ohjelmointi ja kehitys",
+                "desc": "Muunna merkit koodeiksi merkkijonon käsittelyä, merkkien vertailua ja alhaisen tason I\/O-toimintoja varten."
+            },
+            "learning": {
+                "title": "Koulutuskäyttö",
+                "desc": "Loistava resurssi opiskelijoille, jotka oppivat, miten tietokoneet esittävät tekstiä numeroina."
+            },
+            "encoding": {
+                "title": "Tietojen koodaus",
+                "desc": "Hyödyllinen yksinkertaisten koodattujen viestien luomiseen tai tietojen valmisteluun tiettyjä viestintäprotokollia varten."
+            },
+            "debugging": {
+                "title": "Vianetsintä ja ongelmanratkaisu",
+                "desc": "Tunnista piilotetut merkit tai ei-tulostettavat symbolit tarkastelemalla niiden numeerista ASCII-esitystä."
+            }
+        },
+        "examples": {
+            "title": "ASCII-taulukon kohokohdat",
+            "a_upper": "Iso kirjain \"A\"",
+            "a_lower": "Pieni kirjain \"a\"",
+            "zero": "Numero \"0\"",
+            "space": "Välilyöntimerkki"
+        },
+        "faq": {
+            "title": "Usein kysytyt kysymykset",
+            "q1": "Onko tämä ASCII-muunnin ilmainen käyttää?",
+            "a1": "Kyllä, ASCII-muuntimemme on 100 % ilmainen eikä vaadi rekisteröitymistä tai latauksia. Voit käyttää sitä niin usein kuin tarvitset.",
+            "q2": "Tukeeko tämä työkalu Unicodea tai laajennettua ASCII:ta?",
+            "a2": "Tällä hetkellä työkalu keskittyy vakio-ASCII-sarjaan (0–127). Useimmissa nykyaikaisissa tekstisovelluksissa vakio-ASCII kattaa perusasiat, mutta pyrimme laajentamaan tukea eri koodauksille.",
+            "q3": "Ovatko tietoni turvassa tätä työkalua käytettäessä?",
+            "a3": "Ehdoton. Työkalu käyttää asiakaspuolen JavaScriptiä kaikkiin muunnoksiin. Syöttötietosi eivät koskaan poistu tietokoneeltasi, eikä niitä koskaan tallenneta palvelimillemme."
+        }
+    },
+    "js": {
+        "error_empty": "Syötä muunnettavia tietoja",
+        "success_ascii": "✓ Muunnettu ASCII-koodeiksi onnistuneesti!",
+        "success_text": "✓ Muunnettu tekstiksi onnistuneesti!",
+        "error_invalid_ascii": "Virheellinen ASCII-koodi havaittu: ",
+        "error_general": "Muunnoksen aikana tapahtui virhe: ",
+        "error_no_output": "Ei mitään kopioitavaa! Muunna jotain ensin.",
+        "success_copy": "✓ Kopioitu leikepöydälle!"
+    }
+}

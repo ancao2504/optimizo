@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "title": "URL Encoder & Decoder - Free Online Percent Tool",
+        "description": "Encode and decode URLs for safe web transmission with our free online tool.",
+        "h1": "URL Encoder & Decoder",
+        "subtitle": "Encode and decode URLs for safe web transmission"
+    },
+    "editor": {
+        "btn_encode": "Encode URL",
+        "btn_decode": "Decode URL",
+        "label_input_encode": "Enter URL to Encode",
+        "ph_input": "https:\/\/example.com\/search?name=John Doe&age=30",
+        "btn_process_encode": "Encode URL",
+        "btn_clear": "Clear",
+        "btn_copy": "Copy",
+        "label_output_encoded": "Encoded URL",
+        "ph_output": "Processed URL will appear here...",
+        "label_input_decode": "Enter URL to Decode",
+        "label_output_decoded": "Decoded URL",
+        "btn_process_decode": "Decode URL"
+    },
+    "content": {
+        "p1": "Our free URL Encoder & Decoder tool helps you encode special characters in URLs for safe transmission over the internet, or decode encoded URLs back to their original format. Perfect for developers, SEO professionals, and anyone working with web URLs. 100% free, client-side processing ensures your data stays private.",
+        "what_title": "What is URL Encoding?",
+        "what_desc": "URL encoding (also called percent-encoding) converts special characters in URLs into a format that can be transmitted over the internet. Spaces become %20, special characters like & become %26, and so on. This ensures URLs work correctly across all browsers and systems.",
+        "features_title": "Features",
+        "features": {
+            "instant": {
+                "title": "Instant Conversion",
+                "desc": "Encode or decode URLs in milliseconds"
+            },
+            "bidirectional": {
+                "title": "Bidirectional",
+                "desc": "Encode to URL format or decode back to original"
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All processing happens in your browser"
+            },
+            "copy": {
+                "title": "One-Click Copy",
+                "desc": "Copy encoded\/decoded URLs instantly"
+            },
+            "free": {
+                "title": "100% Free",
+                "desc": "No limits, no registration required"
+            },
+            "universal": {
+                "title": "Universal Support",
+                "desc": "Works with all URL formats and characters"
+            }
+        },
+        "uses_title": "Common Use Cases",
+        "uses": {
+            "query": {
+                "title": "Query Parameters",
+                "desc": "Encode special characters in URL query strings for API calls and web requests"
+            },
+            "analytics": {
+                "title": "Analytics Tracking",
+                "desc": "Encode UTM parameters and tracking URLs for marketing campaigns"
+            },
+            "auth": {
+                "title": "Authentication",
+                "desc": "Encode credentials and tokens in OAuth and API authentication"
+            },
+            "i18n": {
+                "title": "Internationalization",
+                "desc": "Encode non-ASCII characters in URLs for global compatibility"
+            },
+            "seo": {
+                "title": "SEO & Redirects",
+                "desc": "Create properly encoded redirect URLs and canonical links"
+            },
+            "email": {
+                "title": "Email Links",
+                "desc": "Encode mailto links with subject lines and body content"
+            }
+        },
+        "how_to_title": "How to Use",
+        "how_to": {
+            "step1": {
+                "title": "Choose Mode",
+                "desc": "Select \"Encode URL\" or \"Decode URL\" based on your need"
+            },
+            "step2": {
+                "title": "Enter URL",
+                "desc": "Paste your URL or text in the input field"
+            },
+            "step3": {
+                "title": "Process",
+                "desc": "Click \"Encode URL\" or \"Decode URL\" button"
+            },
+            "step4": {
+                "title": "Copy Result",
+                "desc": "Click \"Copy\" to copy the processed URL to clipboard"
+            },
+            "step5": {
+                "title": "Use Anywhere",
+                "desc": "Paste the encoded\/decoded URL in your application"
+            }
+        },
+        "examples_title": "URL Encoding Examples",
+        "examples": {
+            "space": {
+                "title": "Space Character:",
+                "desc": "Original: \"Hello World\" â†’ Encoded: \"Hello%20World\""
+            },
+            "special": {
+                "title": "Special Characters:",
+                "desc": "Original: \"name=John&age=30\" â†’ Encoded: \"name%3DJohn%26age%3D30\""
+            },
+            "full": {
+                "title": "Full URL:",
+                "desc": "Original: \"https:\/\/example.com\/search?q=hello world\" â†’ Encoded: \"https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world\""
+            }
+        },
+        "faq_title": "Frequently Asked Questions",
+        "faq": {
+            "q1": "When should I encode URLs?",
+            "a1": "Encode URLs when passing them as query parameters, storing them in databases, or when they contain special characters like spaces, &, =, ?, or non-ASCII characters.",
+            "q2": "What characters need encoding?",
+            "a2": "Reserved characters like : \/ ? # [ ] @ ! $ & ' ( ) * + , ; = and unsafe characters like spaces, <, >, \", {, }, |, \\, ^, `, and non-ASCII characters must be encoded.",
+            "q3": "Is URL encoding the same as Base64?",
+            "a3": "No. URL encoding converts specific characters to %XX format, while Base64 encodes entire data into a different character set. They serve different purposes.",
+            "q4": "Can I encode entire URLs?",
+            "a4": "Yes, but typically you only encode the query string portion. Encoding the entire URL including protocol (https:\/\/) is less common and may cause issues.",
+            "q5": "Is my data secure?",
+            "a5": "Yes! All encoding and decoding happens entirely in your browser using JavaScript. Your URLs never leave your device or get sent to any server."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter a URL to process",
+        "success_encode": "âœ“ URL encoded successfully",
+        "success_decode": "âœ“ URL decoded successfully",
+        "error_process": "✗ Error processing URL: ",
+        "error_no_copy": "No output to copy",
+        "success_copy": "âœ“ Copied to clipboard"
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "title": "URL Encoder & Decoder – bezplatný online nástroj pro procento",
+        "description": "Kódujte a dekódujte URL pro bezpečný webový přenos pomocí našeho bezplatného online nástroje.",
+        "h1": "Kodér a dekodér URL",
+        "subtitle": "Kódujte a dekódujte URL pro bezpečný webový přenos"
+    },
+    "editor": {
+        "btn_encode": "Kódovat URL",
+        "btn_decode": "Dekódovat URL",
+        "label_input_encode": "Zadejte URL ke kódování",
+        "ph_input": "https:\/\/example.com\/search?name=Jan Novák&age=30",
+        "btn_process_encode": "Kódovat URL",
+        "btn_clear": "Vymazat",
+        "btn_copy": "Kopírovat",
+        "label_output_encoded": "Zakódovaná URL",
+        "ph_output": "Zde se zobrazí zpracovaná URL...",
+        "label_input_decode": "Zadejte URL k dekódování",
+        "label_output_decoded": "Dekódovaná URL",
+        "btn_process_decode": "Dekódovat URL"
+    },
+    "content": {
+        "p1": "Náš bezplatný nástroj URL kodér a dekodér vám pomůže zakódovat speciální znaky v URL pro bezpečný přenos po internetu, nebo dekódovat zakódované URL adresy zpět do jejich původního formátu. Ideální pro vývojáře, SEO profesionály a kohokoli, kdo pracuje s webovými URL adresami. 100% zdarma, zpracování na straně klienta zajišťuje soukromí vašich dat.",
+        "what_title": "🔐 Co je kódování URL?",
+        "what_desc": "Kódování URL (také nazývané percent-encoding) převádí speciální znaky v URL adresách do formátu, který lze přenášet po internetu. Mezery se stávají %20, speciální znaky jako & se stávají %26 a tak dále. To zajišťuje, že URL adresy fungují správně ve všech prohlížečích a systémech.",
+        "features_title": "✨ Funkce",
+        "features": {
+            "instant": {
+                "title": "Okamžitý převod",
+                "desc": "Kódujte nebo dekódujte URL během milisekund"
+            },
+            "bidirectional": {
+                "title": "Obousměrný",
+                "desc": "Kódujte do formátu URL nebo dekódujte zpět do originálu"
+            },
+            "privacy": {
+                "title": "Soukromí na prvním místě",
+                "desc": "Veškeré zpracování probíhá ve vašem prohlížeči"
+            },
+            "copy": {
+                "title": "Kopírování jedním kliknutím",
+                "desc": "Okamžitě zkopírujte zakódované\/dekódované URL adresy"
+            },
+            "free": {
+                "title": "100% Zdarma",
+                "desc": "Žádné limity, registrace není vyžadována"
+            },
+            "universal": {
+                "title": "Univerzální podpora",
+                "desc": "Funguje se všemi formáty URL a znaky"
+            }
+        },
+        "uses_title": "🎯 Běžné příklady použití",
+        "uses": {
+            "query": {
+                "title": "Parametry dotazu",
+                "desc": "Kódujte speciální znaky v řetězcích dotazů URL pro volání API a webové požadavky"
+            },
+            "analytics": {
+                "title": "Sledování analytiky",
+                "desc": "Kódujte parametry UTM a sledovací URL adresy pro marketingové kampaně"
+            },
+            "auth": {
+                "title": "Autentizace",
+                "desc": "Kódujte přihlašovací údaje a tokeny v OAuth a autentizaci API"
+            },
+            "i18n": {
+                "title": "Internacionalizace",
+                "desc": "Kódujte znaky mimo ASCII v URL adresách pro globální kompatibilitu"
+            },
+            "seo": {
+                "title": "SEO a přesměrování",
+                "desc": "Vytvářejte správně zakódované URL adresy pro přesměrování a kanonické odkazy"
+            },
+            "email": {
+                "title": "E-mailové odkazy",
+                "desc": "Kódujte odkazy mailto s předmětem a obsahem zprávy"
+            }
+        },
+        "how_to_title": "💡 Jak používat",
+        "how_to": {
+            "step1": {
+                "title": "Vyberte režim",
+                "desc": "Zvolte „Kódovat URL“ nebo „Dekódovat URL“ podle své potřeby"
+            },
+            "step2": {
+                "title": "Zadejte URL",
+                "desc": "Vložte svou URL nebo text do vstupního pole"
+            },
+            "step3": {
+                "title": "Zpracovat",
+                "desc": "Klikněte na tlačítko „Kódovat URL“ nebo „Dekódovat URL“"
+            },
+            "step4": {
+                "title": "Zkopírujte výsledek",
+                "desc": "Klikněte na „Kopírovat“ pro zkopírování zpracované URL adresy do schránky"
+            },
+            "step5": {
+                "title": "Použijte kdekoli",
+                "desc": "Vložte zakódovanou\/dekódovanou URL adresu do své aplikace"
+            }
+        },
+        "examples_title": "📊 Příklady kódování URL",
+        "examples": {
+            "space": {
+                "title": "Znak mezery:",
+                "desc": "Originál: „Hello World“ → Zakódováno: „Hello%20World“"
+            },
+            "special": {
+                "title": "Speciální znaky:",
+                "desc": "Originál: „name=John&age=30“ → Zakódováno: „name%3DJohn%26age%3D30“"
+            },
+            "full": {
+                "title": "Celá URL:",
+                "desc": "Originál: „https:\/\/example.com\/search?q=hello world“ → Zakódováno: „https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world“"
+            }
+        },
+        "faq_title": "❓ Často kladené otázky",
+        "faq": {
+            "q1": "Kdy bych měl kódovat URL?",
+            "a1": "Kódujte URL adresy, když je předáváte jako parametry dotazu, ukládáte je do databází nebo když obsahují speciální znaky jako mezery, &, =, ? nebo znaky mimo ASCII.",
+            "q2": "Které znaky vyžadují kódování?",
+            "a2": "Vyhrazené znaky jako : \/ ? # [ ] @ ! $ & ' ( ) * + , ; = a nebezpečné znaky jako mezery, <, >, \", {, }, |, \\, ^, `, a znaky mimo ASCII musí být zakódovány.",
+            "q3": "Je kódování URL stejné jako Base64?",
+            "a3": "No. Kódování URL převádí konkrétní znaky na formát %XX, zatímco Base64 kóduje celá data do jiné znakové sady. Slouží k různým účelům.",
+            "q4": "Mohu kódovat celé URL adresy?",
+            "a4": "Ano, ale typicky kódujete pouze část s řetězcem dotazu. Kódování celé URL včetně protokolu (https:\/\/) je méně obvyklé a může způsobit problémy.",
+            "q5": "Jsou moje data v bezpečí?",
+            "a5": "Ano! Veškeré kódování a dekódování probíhá zcela ve vašem prohlížeči pomocí JavaScriptu. Vaše URL adresy nikdy neopustí vaše zařízení ani nejsou odesílány na žádný server."
+        }
+    },
+    "js": {
+        "error_empty": "Zadejte prosím URL ke zpracování",
+        "success_encode": "✓ URL byla úspěšně zakódována",
+        "success_decode": "✓ URL byla úspěšně dekódována",
+        "error_process": "✗ Chyba při zpracování URL: ",
+        "error_no_copy": "Žádný výstup ke kopírování",
+        "success_copy": "✓ Zkopírováno do schránky"
+    }
+}

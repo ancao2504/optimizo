@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "title": "Convertisseur de cas de serpent gratuit - Outil de chaîne en ligne",
+        "description": "Convertissez instantanément du texte au format snake_case pour les variables Python et les bases de données.",
+        "h1": "Convertisseur de cas de serpent",
+        "subtitle": "Convertissez du texte en snake_case pour Python et les bases de données"
+    },
+    "editor": {
+        "label_input": "Texte d'entrée",
+        "ph_input": "mon nom de variable",
+        "btn_convert": "Convertir en snake_case",
+        "btn_clear": "Effacer",
+        "btn_copy": "Copier",
+        "label_output": "Sortie (snake_case)",
+        "ph_output": "mon_nom_de_variable"
+    },
+    "content": {
+        "p1": "Transformez votre texte au format snake_case grâce à notre convertisseur en ligne gratuit. Le snake_case utilise des lettres minuscules avec des traits de soulignement pour séparer les mots, ce qui est très lisible et adapté aux machines.",
+        "features_title": "Fonctionnalités",
+        "features": {
+            "python": {
+                "title": "Standard Python",
+                "desc": "Génère des noms de variables qui suivent les directives de style PEP 8."
+            },
+            "instant": {
+                "title": "Conversion instantanée",
+                "desc": "Convertissez en snake_case en quelques millisecondes."
+            },
+            "privacy": {
+                "title": "Confidentialité protégée",
+                "desc": "Tout le traitement s'effectue dans votre navigateur."
+            },
+            "bulk": {
+                "title": "Traitement en masse",
+                "desc": "Convertissez plusieurs noms à la fois."
+            },
+            "smart": {
+                "title": "Formatage intelligent",
+                "desc": "Gère automatiquement les espaces et les caractères spéciaux."
+            },
+            "free": {
+                "title": "100 % gratuit",
+                "desc": "Aucune limite ni inscription requise."
+            }
+        },
+        "uses_title": "Quand utiliser le snake_case",
+        "uses": {
+            "python": {
+                "title": "Variables Python",
+                "desc": "La principale convention de nommage pour les variables et les fonctions dans ces langages."
+            },
+            "db": {
+                "title": "Colonnes de base de données",
+                "desc": "Standard pour les noms de colonnes (ex : created_at, user_id)."
+            },
+            "config": {
+                "title": "Fichiers de configuration",
+                "desc": "Couramment utilisé dans les fichiers de configuration à grande échelle et les variables d'environnement."
+            },
+            "ruby": {
+                "title": "Développement Ruby",
+                "desc": "Respectez les conventions de nommage Ruby pour les variables et les méthodes."
+            },
+            "data": {
+                "title": "📊 Science des données",
+                "desc": "Formatez les noms de colonnes dans les DataFrames pandas et les fichiers CSV."
+            },
+            "api": {
+                "title": "🔧 Paramètres d'API",
+                "desc": "Créez des noms de paramètres cohérents pour les API REST."
+            }
+        },
+        "how_to_title": "Comment utiliser",
+        "how_to_steps": [
+            {
+                "title": "Coller le texte",
+                "desc": "Collez votre texte dans la boîte d'entrée."
+            },
+            {
+                "title": "Convertir",
+                "desc": "Le convertisseur remplace les espaces et les tirets par des traits de soulignement."
+            },
+            {
+                "title": "Minuscules",
+                "desc": "Il convertit tous les caractères en minuscules."
+            },
+            {
+                "title": "Nettoyage",
+                "desc": "Les traits de soulignement consécutifs sont réduits à un seul."
+            },
+            {
+                "title": "Résultat",
+                "desc": "Le résultat en snake_case est prêt à l'emploi."
+            }
+        ],
+        "examples_title": "Exemples de conversion",
+        "examples": {
+            "var": {
+                "title": "Noms de variables :"
+            },
+            "func": {
+                "title": "Noms de fonctions :"
+            },
+            "db": {
+                "title": "Colonnes de base de données :"
+            },
+            "config": {
+                "title": "Clés de configuration :"
+            }
+        },
+        "faq_title": "Foire aux questions",
+        "faq": {
+            "q1": "Qu'est-ce que le snake_case ?",
+            "a1": "Le snake_case est une convention de nommage où les mots sont en minuscules et séparés par des traits de soulignement. Exemple : mon_nom_de_variable",
+            "q2": "Quand dois-je utiliser le snake_case ?",
+            "a2": "Utilisez le snake_case pour les variables et fonctions Python, les noms de colonnes de base de données, les clés de configuration et les noms de méthodes Ruby. C'est la norme en Python (PEP 8).",
+            "q3": "En quoi le snake_case diffère-t-il du kebab-case ?",
+            "a3": "Le snake_case utilise des traits de soulignement (ma_variable), tandis que le kebab-case utilise des tirets (ma-variable). Utilisez le snake_case pour le code, le kebab-case pour les URL et le CSS.",
+            "q4": "Est-ce qu'il gère les nombres ?",
+            "a4": "Oui ! L'outil gère correctement les nombres, en les préservant tout en convertissant le texte (ex : « user 2 profile » devient « user_2_profile »).",
+            "q5": "Cet outil est-il gratuit ?",
+            "a5": "Oui ! Entièrement gratuit et sans limites. Tout le traitement se fait dans votre navigateur pour une confidentialité et une vitesse maximales."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez entrer du texte à convertir",
+        "success_converted": "✓ Conversion en snake_case réussie !",
+        "error_no_copy": "Rien à copier ! Veuillez d'abord convertir du texte.",
+        "success_copy": "✓ Copié dans le presse-papier !"
+    }
+}

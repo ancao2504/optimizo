@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Kontrola nefunkčních odkazů – bezplatný online audit webových stránek",
+        "description": "Bezplatný nástroj pro kontrolu nefunkčních odkazů. Skenujte svůj web na mrtvé odkazy, chyby 404 a fixujte URL pro lepší SEO.",
+        "h1": "Kontrola nefunkčních odkazů",
+        "subtitle": "Najděte a opravte nefunkční odkazy na svém webu pro lepší SEO a UX"
+    },
+    "interface": {
+        "scan_title": "Kontrola nefunkčních odkazů",
+        "scan_subtitle": "Najděte nefunkční odkazy, přesměrování a další problémy.",
+        "url_label": "URL adresa webu",
+        "button": "Skenovat nefunkční odkazy",
+        "button_scanning": "Skenuji...",
+        "legend_ok": "200 v pořádku",
+        "legend_err": "404\/Chyba"
+    },
+    "progress": {
+        "extracting": "Extrahuji odkazy...",
+        "stop": "Zastavit",
+        "processing": "Zpracovávám odkazy postupně...",
+        "processed": "Zpracováno",
+        "of": "z",
+        "links": "odkazů",
+        "checking": "Kontroluji odkazy..."
+    },
+    "stats": {
+        "total": "Celkem odkazů",
+        "working": "Funkční (200)",
+        "redirects": "Přesměrování (3xx)",
+        "broken": "Nefunkční (4xx\/5xx)"
+    },
+    "results": {
+        "download": "Stáhnout CSV report",
+        "detailed_analysis": "Podrobná analýza",
+        "status": "Stav",
+        "link_url": "URL odkazu",
+        "anchor_text": "Text odkazu (Anchor)",
+        "type": "Typ"
+    },
+    "content": {
+        "main_title": "Proč kontrolovat nefunkční odkazy?",
+        "main_subtitle": "Nefunkční odkazy poškozují důvěryhodnost vašeho webu, uživatelskou zkušenost (UX) a výkon v SEO. Náš bezplatný nástroj vám pomůže identifikovat a opravit mrtvé odkazy dříve, než uškodí vašim pozicím.",
+        "what_is_title": "Co je kontrola nefunkčních odkazů?",
+        "what_is_desc": "Kontrola nefunkčních odkazů je nástroj, který skenuje vaše webové stránky a hledá odkazy, které již nefungují (chyby 404, chyby serveru nebo nefunkční přesměrování). Pomáhá udržovat web v dobrém stavu.",
+        "how_works_title": "Jak to funguje?",
+        "how_works_intro": "Náš nástroj postupuje ve 3 jednoduchých krocích:",
+        "how_works_step1": "<strong>Skenování:<\/strong> Zadáte URL a my extrahujeme všechny odkazy z dané stránky.",
+        "how_works_step2": "<strong>Kontrola:<\/strong> Testujeme každý odkaz a ověřujeme jeho stav (200, 404, 301 atd.).",
+        "how_works_step3": "<strong>Report:<\/strong> Získáte podrobný přehled nefunkčních odkazů, které vyžadují opravu.",
+        "pro_tip_title": "💡 Pro tip:",
+        "pro_tip_desc": "Spouštějte tuto kontrolu pravidelně (měsíčně nebo čtvrtletně), abyste zachytili nové mrtvé odkazy. Dodržujte plán údržby pro zdravý web!",
+        "types_title": "Typy nefunkčních odkazů",
+        "common_causes_title": "Běžné příčiny nefunkčních odkazů",
+        "cc_1": "❌ <strong>Překlepy v URL:<\/strong> Chybně napsané odkazy při tvorbě obsahu.",
+        "cc_2": "❌ <strong>Smazané stránky:<\/strong> Odstraněný obsah bez nastavení 301 přesměrování.",
+        "cc_3": "❌ <strong>Restrukturalizace webu:<\/strong> Změny struktury URL při redesignu.",
+        "cc_4": "❌ <strong>Hniloba externích odkazů:<\/strong> Externí weby mažou nebo přesouvají svůj obsah.",
+        "cc_5": "❌ <strong>Expirace domény:<\/strong> Odkazované weby trvale zanikají.",
+        "cc_6": "❌ <strong>Změny protokolu:<\/strong> Přechod z HTTP na HTTPS bez správných přesměrování.",
+        "best_practices_title": "Doporučené postupy"
+    },
+    "benefits": {
+        "ux_title": "Uživatelská zkušenost",
+        "ux_desc": "Nefunkční odkazy frustrují návštěvníky a zvyšují bounce rate. Dopřejte uživatelům plynulé procházení webu.",
+        "seo_title": "Dopad na SEO",
+        "seo_desc": "Vyhledávače penalizují stránky s mnoha nefunkčními odkazy. Udržujte své pozice včasnou opravou mrtvých odkazů.",
+        "maintenance_title": "Snadná údržba",
+        "maintenance_desc": "Rychle identifikujte a opravte problémy dříve, než poškodí reputaci vašeho webu a viditelnost ve vyhledávání."
+    },
+    "link_types": {
+        "type1_title": "🔴 404 Nenalezeno",
+        "type1_desc": "Nejběžnější nefunkční odkaz. Stránka již na serveru neexistuje.",
+        "type2_title": "🟡 301\/302 Přesměrování",
+        "type2_desc": "Stránka se přesunula. I když není „mrtvá“, příliš mnoho přesměrování web zpomaluje.",
+        "type3_title": "🔴 500 Chyba serveru",
+        "type3_desc": "Server narazil na problém. Tyto chyby vyžadují okamžitou pozornost.",
+        "type4_title": "🟢 Timeout (Časový limit)",
+        "type4_desc": "Serveru trvalo příliš dlouho odpovědět. Může to značit problémy s výkonem."
+    },
+    "best_practices": {
+        "bp1_title": "Pravidelné audity",
+        "bp1_desc": "Kontrolujte web měsíčně, zejména po aktualizacích obsahu.",
+        "bp2_title": "Používejte 301 přesměrování",
+        "bp2_desc": "Při mazání stránek vždy nastavte trvalé přesměrování na nový relevantní obsah.",
+        "bp3_title": "Sledujte externí odkazy",
+        "bp3_desc": "Externí weby se často mění. Prověřujte odchozí odkazy jednou za čtvrtletí.",
+        "bp4_title": "Dokumentujte změny",
+        "bp4_desc": "Veďte si log změn URL pro budoucí referenci.",
+        "bp5_title": "Priorita vnitřních odkazů",
+        "bp5_desc": "Nejdříve opravte interní nefunkční odkazy, ty máte plně pod kontrolou.",
+        "bp6_title": "Relativní URL",
+        "bp6_desc": "Pro interní odkazy používejte relativní cesty, zamezíte problémům při změnách domény."
+    },
+    "faq": {
+        "title": "Často kladené otázky",
+        "q1": "Jak často bych měl kontrolovat nefunkční odkazy?",
+        "a1": "Pro většinu webů stačí měsíční kontrola. U e-shopů doporučujeme týdenní audit. Po každém velkém redesignu spusťte kontrolu ihned.",
+        "q2": "Škodí nefunkční odkazy mému SEO?",
+        "a2": "Ano, nepřímo. Pár mrtvých odkazů nevadí, ale <strong>velké množství<\/strong> signalizuje špatnou údržbu, což zvyšuje bounce rate a plýtvá crawl budgetem.",
+        "q3": "Jaký je rozdíl mezi interním a externím nefunkčním odkazem?",
+        "a3": "<strong>Interní<\/strong> míří na podstránky vaší domény. <strong>Externí<\/strong> míří na cizí weby. Ty byste měli buď opravit na funkční alternativu, nebo odstranit.",
+        "q4": "Mohu zkontrolovat celý web najednou?",
+        "a4": "Tento nástroj kontroluje <strong>jednu stránku po druhé<\/strong> pro rychlé a přesné výsledky. Pro celý web doporučujeme začít nejdůležitějšími vstupními stránkami.",
+        "q_what_to_do": "Co dělat, když najdu nefunkční odkaz?",
+        "a_what_to_do_intro": "Postupujte podle této priority:",
+        "a_what_to_do_li1": "<strong>Interní:<\/strong> Nastavte 301 přesměrování nebo odkaz rovnou opravte v kódu\/CMS.",
+        "a_what_to_do_li2": "<strong>Externí:<\/strong> Najděte funkční náhradu nebo využijte archive.org k dohledání starého obsahu.",
+        "a_what_to_do_li3": "<strong>Bez náhrady:<\/strong> Odkaz odstraňte a upravte okolní text, aby dával smysl.",
+        "a_what_to_do_li4": "<strong>Logování:<\/strong> Záznam o chybách vám pomůže odhalit opakující se vzorce problémů."
+    },
+    "js": {
+        "stopping": "Zastavuji skenování...",
+        "scan_stopped": "Skenování zastaveno",
+        "scan_complete": "Skenování dokončeno!",
+        "error_prefix": "Chyba: ",
+        "pending": "Čeká na vyřízení",
+        "internal": "Interní",
+        "external": "Externí"
+    }
+}

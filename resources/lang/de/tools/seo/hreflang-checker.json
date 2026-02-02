@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker – Kostenloser Online-Tag-Validator",
+        "description": "Validieren Sie Ihre hreflang-Tags, um sicherzustellen, dass Google die richtigen sprachlichen oder regionalen URLs für Ihre Zielgruppe anzeigt.",
+        "h1": "Hreflang-Checker",
+        "subtitle": "Kostenloses Tool zum Extrahieren und Validieren von hreflang-Attributen für internationales SEO."
+    },
+    "form": {
+        "url_label": "URL zur Überprüfung eingeben",
+        "url_placeholder": "https:\/\/beispiel.de\/seite",
+        "user_agent_label": "User Agent",
+        "user_agent_default": "Standard (Browser)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Hreflang-Tags prüfen"
+    },
+    "content": {
+        "main_title": "Hreflang-Tag-Checker",
+        "main_subtitle": "Stellen Sie sicher, dass Ihre internationalen Inhalte das richtige Publikum erreichen. Validieren Sie die Hreflang-Implementierung und beheben Sie häufige SEO-Fehler.",
+        "intro": "Hreflang-Tags sind für Websites, die mehrere Sprachen oder Länder bedienen, unerlässlich. Unser kostenloses Hreflang-Checker-Tool extrahiert und validiert `rel=\"alternate\" hreflang=\"x\"`-Tags aus dem HTML-Head und den HTTP-Headern Ihrer Seite. Es prüft auf wechselseitige (Return-)Tags, um sicherzustellen, dass Google und andere Suchmaschinen Ihre lokalisierten Inhalte korrekt indexieren.",
+        "features_title": "Warum Sie Ihre Hreflang-Tags überprüfen sollten",
+        "feature1_title": "Wechselseitige Tags validieren",
+        "feature1_desc": "Hreflang-Tags müssen paarweise funktionieren. Unser Tool prüft automatisch, ob Seite A auf Seite B verlinkt und ob Seite B auf Seite A zurückverlinkt.",
+        "feature2_title": "Häufige Fehler finden",
+        "feature2_desc": "Finden Sie fehlende Return-Tags, ungültige Sprachcodes (ISO 639-1) und falsche Ländercodes (ISO 3166-1 Alpha-2).",
+        "feature3_title": "SEO-Probleme vermeiden",
+        "feature3_desc": "Eine fehlerhafte Hreflang-Implementierung kann zu Problemen mit doppeltem Inhalt (Duplicate Content) führen, wodurch falsche Sprachseiten in den Suchergebnissen erscheinen.",
+        "how_title": "So verwenden Sie den Hreflang-Checker",
+        "step1_title": "URL eingeben",
+        "step1_desc": "Fügen Sie die vollständige URL der Seite ein, die Sie analysieren möchten (z. B. https:\/\/beispiel.de).",
+        "step2_title": "User Agent wählen",
+        "step2_desc": "Ein Check als Googlebot wird empfohlen, aber Sie können auch als Standardbrowser prüfen.",
+        "step3_title": "Ergebnisse analysieren",
+        "step3_desc": "Wir rufen die Seite ab und listen alle gefundenen alternativen Links sowie deren Verifizierungsstatus auf.",
+        "step4_title": "Probleme beheben",
+        "step4_desc": "Wenn Fehler 'Fehlendes Return-Tag' auftreten, aktualisieren Sie Ihre referenzierten Seiten, um den wechselseitigen Link einzubinden.",
+        "faq_title": "Häufig gestellte Fragen",
+        "faq1_q": "Was ist ein Hreflang-Tag?",
+        "faq1_a": "Hreflang ist ein HTML-Attribut, das die Sprache und geografische Ausrichtung einer Webseite spezifiziert. Es teilt Suchmaschinen mit, welche Version einer Seite Nutzern in verschiedenen Ländern oder Sprachen angezeigt werden soll.",
+        "faq2_q": "Warum sind Return-Tags wichtig?",
+        "faq2_a": "Google benötigt Rücklinks, um zu verhindern, dass jemand willkürlich eine Seite auf einer anderen Website als alternative Version der eigenen beansprucht. Wenn Seite A auf Seite B verlinkt, muss Seite B auf Seite A zurückverlinken.",
+        "faq3_q": "Prüft dieses Tool das x-default-Tag?",
+        "faq3_a": "Ja, unser Tool identifiziert und validiert das `x-default` Hreflang-Tag, das für nicht übereinstimmende Sprachen oder strikte Länderauswahl verwendet wird.",
+        "faq4_q": "Kann ich Hreflang in HTTP-Headern prüfen?",
+        "faq4_a": "Ja! Wir prüfen sowohl den HTML `<head>`-Bereich als auch die HTTP-Antwort-Header auf `Link: <url>; rel=\"alternate\"; hreflang=\"code\"`-Attribute.",
+        "faq5_q": "Was passiert bei Hreflang-Fehlern?",
+        "faq5_a": "Suchmaschinen ignorieren Ihre ungültigen Tags möglicherweise, was dazu führt, dass den richtigen Nutzern nicht die korrekten Sprachversionen angezeigt werden oder potenzielle Abstrafungen wegen doppeltem Inhalt drohen.",
+        "faq6_q": "Ist dieses Tool kostenlos?",
+        "faq6_a": "Ja, Sie können unbegrenzt viele Überprüfungen kostenlos durchführen, um sicherzustellen, dass Ihr internationales SEO perfekt ist."
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "JSON to SQL Converter - Free Online Migration Tool",
+        "description": "Transform JSON data into SQL INSERT statements instantly. Perfect for database seeding and data migration.",
+        "h1": "JSON to SQL Converter",
+        "subtitle": "Convert JSON arrays and objects to valid SQL scripts"
+    },
+    "editor": {
+        "label_tablename": "Table Name",
+        "ph_tablename": "Enter table name (e.g., users)",
+        "btn_convert": "Generate SQL",
+        "btn_clear": "Clear",
+        "btn_copy": "Copy SQL",
+        "btn_example": "Load Example",
+        "label_input": "JSON Input",
+        "ph_input": "Paste your JSON array here...",
+        "label_output": "SQL Output",
+        "ph_output": "Generated SQL INSERT statements will appear here..."
+    },
+    "content": {
+        "hero_title": "Effortless JSON to SQL Conversion",
+        "hero_subtitle": "The fastest way to generate database seeding scripts",
+        "p1": "Converting JSON data to SQL INSERT statements shouldn't be a manual task. Our JSON to SQL converter handles the heavy lifting by automatically mapping your JSON keys to database columns and escaping values for safe insertion. It is an essential tool for developers working on data migrations, testing, or database initialization.",
+        "what_title": "When to Use This Tool?",
+        "what_desc": "If you have a collection of data in JSON format—such as an export from a NoSQL database or an API response—and you need to insert it into a relational database like MySQL, PostgreSQL, or SQL Server, this tool is for you. It formats each object into a clean SQL statement.",
+        "features_title": "Key Features",
+        "features": {
+            "fast": {
+                "title": "Instant Generation",
+                "desc": "Generate hundreds of SQL lines in the blink of an eye."
+            },
+            "private": {
+                "title": "Privacy Guaranteed",
+                "desc": "All processing is local. Your sensitive data stays in your browser."
+            },
+            "copy": {
+                "title": "One-Click Export",
+                "desc": "Copy the entire script or download it for your migrations."
+            },
+            "smart": {
+                "title": "Smart Escaping",
+                "desc": "Automatically handles quotes and special characters in strings."
+            },
+            "free": {
+                "title": "100% Free",
+                "desc": "No limits, no registration, no hassle."
+            },
+            "db": {
+                "title": "Cross-DB Friendly",
+                "desc": "Generates standard SQL compatible with most database systems."
+            }
+        },
+        "uses_title": "Professional Use Cases",
+        "uses": {
+            "migration": {
+                "title": "Data Migration",
+                "desc": "Easily move data from JSON-based systems to SQL databases."
+            },
+            "import": {
+                "title": "Bulk Importing",
+                "desc": "Load large amounts of test or production data quickly."
+            },
+            "api": {
+                "title": "API to Database",
+                "desc": "Convert third-party API results directly into SQL inserts."
+            },
+            "test": {
+                "title": "Test Data Seeding",
+                "desc": "Create SQL scripts for populating development environments."
+            },
+            "backup": {
+                "title": "Backup Restoration",
+                "desc": "Turn JSON backups back into functional SQL scripts."
+            },
+            "dev": {
+                "title": "Rapid Prototyping",
+                "desc": "Quickly populate new database tables during development."
+            }
+        },
+        "how_title": "How to Use",
+        "how_steps": [
+            "Enter the target database <strong>Table Name<\/strong>",
+            "Paste your <strong>JSON<\/strong> (must be an array or object)",
+            "Click <strong>Generate SQL<\/strong> to create the script",
+            "<strong>Copy<\/strong> the SQL output to your clipboard"
+        ],
+        "faq_title": "Frequently Asked Questions",
+        "faq": {
+            "q1": "What JSON format is required?",
+            "a1": "The tool works best with an array of objects, where each object represents a database row.",
+            "q2": "Does it handle nested objects?",
+            "a2": "It currently maps top-level keys. Nested objects are usually stringified or skipped depending on your DB needs.",
+            "q3": "Is there a limit on rows?",
+            "a3": "There is no hard limit, though your browser's performance may vary with thousands of rows."
+        },
+        "tips_title": "Pro Tips",
+        "tips_list": [
+            "Ensure your JSON keys match your SQL column names exactly.",
+            "Always verify the generated SQL before running it on a production database.",
+            "Use the \"Example\" button to see the expected JSON structure."
+        ]
+    },
+    "js": {
+        "error_empty": "Please enter JSON data and a table name",
+        "success_convert": "✓ SQL generated successfully!",
+        "error_convert": "Error generating SQL: ",
+        "error_no_copy": "No SQL to copy. Please convert JSON first.",
+        "success_copy": "✓ SQL copied to clipboard!"
+    }
+}

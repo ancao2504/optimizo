@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Ping-Test-Tool online – kostenloser Netzwerk-Latenz-Checker",
+        "description": "Kostenloses Ping-Test-Tool zur Überprüfung der Netzwerklatenz, Paketverlust und Server-Erreichbarkeit. Testen Sie die Verbindung zu jedem Host oder jeder IP-Adresse sofort.",
+        "h1": "Ping-Testtool",
+        "subtitle": "Server-Antwortzeit und Netzwerkkonnektivität von mehreren Standorten testen"
+    },
+    "form": {
+        "host_label": "Host oder IP-Adresse",
+        "host_placeholder": "google.com oder 8.8.8.8",
+        "button": "Host anpingen"
+    },
+    "results": {
+        "title": "Ping-Ergebnisse"
+    },
+    "content": {
+        "what_is_title": "Was ist ein Ping-Test?",
+        "what_is_desc": "Ping ist ein Netzwerk-Diagnosetool, das die Erreichbarkeit eines Hosts in einem IP-Netzwerk testet. Es misst die Round-Trip-Zeit (Umlaufzeit) für Nachrichten, die vom Quellrechner zum Zielrechner und zurück gesendet werden. Ping funktioniert durch das Senden von ICMP (Internet Control Message Protocol) Echo Request-Paketen an den Ziel-Host und das Warten auf eine Antwort (Echo Reply). Das Tool ist nach dem Ping-Geräusch von Sonargeräten in U-Booten benannt, da es ähnlich ein Signal aussendet und auf eine Antwort wartet.",
+        "why_use_title": "Warum einen Ping-Test verwenden?",
+        "why_use_desc": "Ping-Tests sind für die Netzwerk-Fehlerbehebung und Leistungsüberwachung unverzichtbar. Systemadministratoren nutzen Ping, um die Netzwerkkonnektivität zu verifizieren, Verbindungsprobleme zu diagnostizieren und die Netzlatenz zu messen. Es hilft festzustellen, ob ein Server online und reaktionsfähig ist, Paketverluste zu erkennen (die auf Netzwerküberlastung oder Hardwareprobleme hinweisen können) und die Qualität von Netzwerkverbindungen zu messen. Gamer nutzen Ping, um die Serverlatenz vor dem Beitreten zu Online-Spielen zu prüfen, während Website-Besitzer die Reaktionsfähigkeit ihres Servers überwachen, um eine optimale Benutzererfahrung sicherzustellen.",
+        "metrics_title": "Ping-Metriken verstehen",
+        "metric1": "<strong>Pakete Gesendet\/Empfangen:<\/strong> Anzahl der Ping-Anfragen und erfolgreichen Antworten",
+        "metric2": "<strong>Paketverlust:<\/strong> Prozentsatz der Pakete, die keine Antwort erhalten haben",
+        "metric3": "<strong>Minimum Zeit:<\/strong> Die schnellste gemessene Round-Trip-Zeit",
+        "metric4": "<strong>Durchschnitt Zeit:<\/strong> Die mittlere Latenz über alle Pings hinweg",
+        "metric5": "<strong>Maximum Zeit:<\/strong> Die langsamste gemessene Round-Trip-Zeit",
+        "metric6": "<strong>TTL (Time To Live):<\/strong> Anzahl der Netzwerk-Sprünge (Hops), bevor das Paket abläuft",
+        "interpreting_title": "Ergebnisse interpretieren",
+        "interpreting_desc": "Gute Ping-Zeiten liegen typischerweise unter 50 ms für lokale Verbindungen und unter 100 ms für internationale Verbindungen. Zeiten zwischen 100 und 200 ms sind für die meisten Anwendungen akzeptabel, können aber in Echtzeit-Anwendungen wie Gaming oder Videokonferenzen zu spürbaren Verzögerungen führen. Alles über 200 ms deutet auf potenzielle Netzwerkprobleme hin. Ein Paketverlust von über 1 % deutet auf Netzwerkprobleme hin, die untersucht werden müssen. Konstante Ping-Zeiten weisen auf eine stabile Verbindung hin, während stark schwankende Zeiten auf Netzwerküberlastung oder Routing-Probleme hindeuten."
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen (FAQ)",
+        "q1": "Was ist eine gute Ping-Zeit?",
+        "a1": "Für Online-Gaming ist ein Ping unter 20 ms ideal, unter 50 ms sehr gut. Für allgemeines Surfen sind Werte bis 100 ms kaum spürbar. Über 150 ms treten merkliche Verzögerungen auf.",
+        "q2": "Was bedeutet Paketverlust (Packet Loss)?",
+        "a2": "Paketverlust tritt auf, wenn gesendete Datenpakete ihr Ziel nicht erreichen. Dies führt zu Unterbrechungen in Streams, Lag in Spielen oder fehlgeschlagenen Dateitransfers.",
+        "q3": "Warum ist mein Ping zu bestimmten Zeiten höher?",
+        "a3": "Dies liegt oft an der Netzwerkauslastung zu Stoßzeiten, wenn viele Menschen gleichzeitig das Internet nutzen, oder am Routing Ihres Providers.",
+        "q4": "Beeinflusst WLAN meinen Ping?",
+        "a4": "Ja, WLAN-Verbindungen haben oft eine höhere Latenz und sind störanfälliger als direkte Ethernet-Kabelverbindungen.",
+        "q5": "Was kann ich tun, um meinen Ping zu verbessern?",
+        "a5": "Nutzen Sie ein LAN-Kabel, schließen Sie Hintergrundanwendungen, starten Sie Ihren Router neu oder wählen Sie Server, die geografisch näher an Ihrem Standort liegen."
+    },
+    "js": {
+        "pinging": "Host wird angepingt...",
+        "success": "Ping erfolgreich durchgeführt",
+        "error": "Fehler beim Pingen des Hosts",
+        "ping_host": "Host anpingen"
+    }
+}

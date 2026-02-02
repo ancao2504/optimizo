@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "JSON Parser & Validator - Gratis online syntakstjek",
+        "description": "Parse, valider og visualiser JSON struktur",
+        "h1": "JSON Parser & Validator",
+        "subtitle": "Parse, valider og visualiser JSON struktur"
+    },
+    "editor": {
+        "label_input": "JSON-input",
+        "ph_input": "{\"name\": \"John Doe\", \"age\": 30, \"isActive\": true}",
+        "btn_parse": "Parse JSON",
+        "btn_beautify": "Forskøn",
+        "btn_minify": "Minificer",
+        "btn_clear": "Ryd",
+        "btn_load": "Indlæs Eksempel",
+        "title_tree": "JSON Trævisning"
+    },
+    "content": {
+        "hero_title": "Gratis JSON Parser & Validator",
+        "hero_subtitle": "Parse, valider, forskøn og minificer JSON data øjeblikkeligt",
+        "p1": "Vores gratis JSON Parser er et kraftfuldt online værktøj til udviklere, dataanalytikere og alle, der arbejder med JSON-data. Parse, valider, forskøn og minificer JSON øjeblikkeligt med en ren, intuitiv grænseflade. Perfekt til fejlfinding af API'er, formatering af konfigurationsfiler eller validering af JSON-struktur. 100% gratis, klientside behandling sikrer, at dine data forbliver private og sikre.",
+        "what_title": "📋 Hvad er JSON?",
+        "what_desc": "JSON (JavaScript Object Notation) er et letvægts dataudvekslingsformat, der er nemt for mennesker at læse og skrive, og nemt for maskiner at parse og generere. Det er det mest populære format til API'er, konfigurationsfiler og dataopbevaring. JSON bruger nøgle-værdi par og understøtter strenge, tal, booleans, arrays og indlejrede objekter.",
+        "features_title": "✨ Funktioner",
+        "features": {
+            "validate": {
+                "title": "JSON Validering",
+                "desc": "Valider øjeblikkeligt JSON syntaks og struktur"
+            },
+            "beautify": {
+                "title": "Forskøn JSON",
+                "desc": "Formater JSON med korrekt indrykning og afstand"
+            },
+            "minify": {
+                "title": "Minificer JSON",
+                "desc": "Komprimer JSON ved at fjerne whitespace"
+            },
+            "tree": {
+                "title": "Trævisning",
+                "desc": "Visualiser JSON struktur i træformat"
+            },
+            "privacy": {
+                "title": "Privatliv Først",
+                "desc": "Al behandling sker i din browser"
+            },
+            "instant": {
+                "title": "Øjeblikkelige resultater",
+                "desc": "Parse og formater JSON i millisekunder"
+            }
+        },
+        "uses_title": "🎯 Almindelige Anvendelser",
+        "uses": {
+            "api": {
+                "title": "🔌 API Udvikling",
+                "desc": "Test og fejlfind API-svar, valider anmodnings-payloads og formater JSON-data"
+            },
+            "config": {
+                "title": "⚙️ Konfigurationsfiler",
+                "desc": "Formater og valider konfigurationsfiler for applikationer, databaser og tjenester"
+            },
+            "analysis": {
+                "title": "📊 Data Analyse",
+                "desc": "Parse og visualiser JSON-data fra databaser, logfiler og analyseværktøjer"
+            },
+            "debug": {
+                "title": "🐛 Fejlfinding",
+                "desc": "Identificer syntaksfejl, valider struktur og fejlfind JSON-problemer"
+            },
+            "docs": {
+                "title": "📝 Dokumentation",
+                "desc": "Opret læsbare JSON-eksempler til API-dokumentation og tekniske vejledninger"
+            },
+            "migration": {
+                "title": "🔄 Datamigrering",
+                "desc": "Transformer og valider JSON under dataimport og eksport"
+            }
+        },
+        "how_title": "📚 Sådan bruges det",
+        "how_steps": [
+            "<strong>Indsæt JSON:<\/strong> Kopier og indsæt dine JSON-data i inputfeltet",
+            "<strong>Parse:<\/strong> Klik \"Parse JSON\" for at validere og visualisere strukturen",
+            "<strong>Forskøn:<\/strong> Klik \"Forskøn\" for at formatere med korrekt indrykning",
+            "<strong>Minificer:<\/strong> Klik \"Minificer\" for at komprimere og fjerne whitespace",
+            "<strong>Vis Træ:<\/strong> Se den hierarkiske struktur i trævisningsformat"
+        ],
+        "tips_title": "💡 JSON Bedste Praksis",
+        "tips_list": [
+            "<strong>Brug dobbelte anførselstegn:<\/strong> JSON kræver dobbelte anførselstegn for strenge, ikke enkelte",
+            "<strong>Ingen efterfølgende kommaer:<\/strong> Fjern kommaer efter det sidste element i objekter og arrays",
+            "<strong>Korrekte datatyper:<\/strong> Brug tal uden anførselstegn, booleans som true\/false, null for tomme værdier",
+            "<strong>Valider regelmæssigt:<\/strong> Valider altid JSON før udrulning eller produktionsbrug",
+            "<strong>Forskøn for læsbarhed:<\/strong> Formater JSON for nemmere fejlfinding og vedligeholdelse"
+        ],
+        "faq_title": "❓ Ofte Stillede Spørgsmål",
+        "faq": {
+            "q1": "Hvad er forskellen mellem forskøn og minificer?",
+            "a1": "Forskøn tilføjer indrykning og linjeskift for at gøre JSON menneskeligt læsbart. Minificer fjerner al whitespace for at reducere filstørrelse, hvilket gør det ideelt til produktionsmiljøer.",
+            "q2": "Er mine JSON-data sikre?",
+            "a2": "Ja! Al JSON parsing og formatering sker helt i din browser. Dine data forlader aldrig din enhed og sendes ikke til nogen server.",
+            "q3": "Kan jeg parse store JSON-filer?",
+            "a3": "Ja, vores parser kan håndtere store JSON-filer. Dog kan meget store filer (>10MB) tage længere tid at behandle afhængigt af din enheds ydeevne.",
+            "q4": "Hvilke fejl opdager parseren?",
+            "a4": "Parseren opdager syntaksfejl som manglende anførselstegn, efterfølgende kommaer, ugyldige tegn, uafsluttede parenteser og forkerte datatyper. Fejlmeddelelser viser den nøjagtige placering af problemet.",
+            "q5": "Kan jeg bruge dette til API-test?",
+            "a5": "Absolut! Dette værktøj er perfekt til at teste API-svar, validere anmodnings-payloads og formatere JSON-data fra API-kald."
+        }
+    },
+    "js": {
+        "error_empty_parse": "Indtast venligst JSON data at parse",
+        "success_valid": "✓ Gyldig JSON! Parset succesfuldt",
+        "error_invalid": "✗ Ugyldig JSON: ",
+        "error_empty_beautify": "Indtast venligst JSON data at forskønne",
+        "success_beautify": "✓ JSON forskønnet succesfuldt",
+        "error_beautify": "✗ Kan ikke forskønne ugyldig JSON: ",
+        "error_empty_minify": "Indtast venligst JSON data at minificere",
+        "success_minify": "✓ JSON minificeret succesfuldt",
+        "error_minify": "✗ Kan ikke minificere ugyldig JSON: ",
+        "success_load": "Eksempel JSON indlæst"
+    }
+}

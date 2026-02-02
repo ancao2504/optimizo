@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator – bezplatný online nástroj Crontab",
+        "description": "Vytvářejte plány cron snadno pomocí našeho vizuálního generátoru – není třeba si pamatovat syntaxi cron",
+        "h1": "Generátor úloh Cron",
+        "subtitle": "Vytvářejte plány cron snadno pomocí našeho vizuálního generátoru"
+    },
+    "editor": {
+        "common_settings": "Běžná nastavení",
+        "choose": "-- Vyberte --",
+        "options": {
+            "every_minute": "Každou minutu (* * * * *)",
+            "every_5_minutes": "Každých 5 minut (*\/5 * * * *)",
+            "every_15_minutes": "Každých 15 minut (*\/15 * * * *)",
+            "every_30_minutes": "Každých 30 minut (*\/30 * * * *)",
+            "every_hour": "Každou hodinu (0 * * * *)",
+            "every_day_midnight": "Každý den o půlnoci (0 0 * * *)",
+            "every_week": "Každý týden (0 0 * * 0)",
+            "every_month": "Každý měsíc (0 0 1 * *)"
+        },
+        "minute": "Minuta",
+        "every_minute": "Každou minutu (*)",
+        "hour": "Hodina",
+        "every_hour": "Každou hodinu (*)",
+        "day": "Den",
+        "every_day": "Každý den (*)",
+        "month": "Měsíc",
+        "every_month": "Každý měsíc (*)",
+        "weekday": "Den v týdnu",
+        "every_weekday": "Každý den v týdnu (*)",
+        "command": "Příkaz ke spuštění",
+        "ph_command": "\/usr\/bin\/php \/cesta\/k\/skriptu.php",
+        "generated_cron": "Vygenerovaný cron výraz",
+        "btn_copy": "Kopírovat cron",
+        "btn_clear": "Obnovit"
+    },
+    "content": {
+        "hero_title": "Generátor Cron úloh",
+        "p1": "Nastavení úloh cron může být matoucí kvůli kryptickým hvězdičkám a číslům. Náš bezplatný online generátor cron úloh vám umožní vytvářet dokonalé plány cron vizuálně. Ať už potřebujete spouštět skript každých 5 minut, o půlnoci nebo v určité dny v měsíci, náš nástroj pro vás okamžitě vygeneruje správnou syntaxi.",
+        "features": {
+            "visual": {
+                "title": "Vizuální editor",
+                "desc": "Vybírejte minuty, hodiny, dny a měsíce pomocí jednoduchého rozhraní."
+            },
+            "readable": {
+                "title": "Čitelný formát",
+                "desc": "Převádí cron výrazy do srozumitelného textového popisu."
+            }
+        },
+        "syntax_title": "📚 Porozumění syntaxi Cron",
+        "syntax_intro": "Existuje 5 polí cron výrazu oddělených mezerami:",
+        "syntax_fields": {
+            "min": "Minuta (0-59)",
+            "hour": "Hodina (0-23)",
+            "day": "Den v měsíci (1-31)",
+            "month": "Měsíc (1-12)",
+            "week": "Den v týdnu (0-6, neděle=0)"
+        },
+        "faq_title": "❓ Často kladené otázky",
+        "faq": {
+            "q1": "Co je to cron úloha?",
+            "a1": "Cron úloha je časově založený plánovač úloh v operačních systémech unixového typu. Uživatelé mohou naplánovat spouštění úloh (příkazů nebo skriptů) periodicky v pevně stanovených časech, datech nebo intervalech.",
+            "q2": "Jak nainstaluji cron úlohu?",
+            "a2": "K úpravě souboru cron obvykle použijete v terminálu příkaz `crontab -e`. Poté vložte vygenerovaný řádek na konec souboru.",
+            "q4": "Co znamená hvězdička (*)?",
+            "a4": "Hvězdička znamená „každý\/každou“. Například hvězdička v poli minut znamená „každou minutu“."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron výraz byl zkopírován do schránky!",
+        "no_copy": "Žádný cron výraz ke kopírování"
+    }
+}

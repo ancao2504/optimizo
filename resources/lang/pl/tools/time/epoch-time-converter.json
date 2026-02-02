@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Konwerter czasu epoki — bezpłatne narzędzie online dla systemu Unix",
+        "description": "Konwertuj znaczniki czasu Unix Epoch na czytelne dla człowieka daty i odwrotnie. Obsługa czasu lokalnego, GMT\/UTC i czasu względnego.",
+        "h1": "Konwerter czasu epoki",
+        "subtitle": "Konwertuj znaczniki czasu Unix na daty i odwrotnie"
+    },
+    "current_epoch": {
+        "title": "Bieżący znacznik czasu Unix",
+        "subtitle": "Sekundy od 1 stycznia 1970 (UTC)"
+    },
+    "click_to_copy": "Kliknij, aby skopiować",
+    "timestamp_to_date": {
+        "title": "Znacznik czasu na Datę",
+        "label": "Wprowadź Unix Timestamp",
+        "placeholder": "Np. 1696516200",
+        "button": "Konwertuj",
+        "result_gmt": "Czas GMT:",
+        "result_local": "Twój czas lokalny:",
+        "result_relative": "Relatywnie:"
+    },
+    "date_to_timestamp": {
+        "title": "Data na Znacznik czasu",
+        "label": "Wybierz Datę i Godzinę",
+        "checkbox": "Użyj czasu lokalnego (odznacz dla GMT)",
+        "button": "Konwertuj",
+        "result_title": "Wynik Unix Timestamp"
+    },
+    "content": {
+        "hero_title": "Rozszyfrowanie Unix Epoch",
+        "hero_description": "Czas Unix (lub czas Epoch) to system mierzący puls cyfrowego świata. Śledzi on liczbę sekund, które upłynęły od „Unix Epoch” — 00:00:00 UTC w dniu 1 stycznia 1970 roku.",
+        "why_title": "Dlaczego warto używać czasu Unix?",
+        "efficiency_title": "Wydajność",
+        "efficiency_desc": "Komputery wolą proste liczby całkowite od złożonych ciągów dat. Jest to szybsze w przetwarzaniu i przechowywaniu.",
+        "universal_title": "Uniwersalność",
+        "universal_desc": "Ignoruje strefy czasowe podczas przechowywania. 1696516200 to ten sam moment w Tokio, co w Nowym Jorku.",
+        "math_title": "Łatwe obliczenia",
+        "math_desc": "Obliczanie różnicy między dwiema datami sprowadza się do prostego odejmowania (A - B).",
+        "code_title": "Pobierz bieżący czas Epoch w swoim języku",
+        "apocalypse_title": "Problem roku 2038",
+        "apocalypse_desc": "19 stycznia 2038 r. w systemach 32-bitowych skończą się liczby do przechowywania czasu, co spowoduje „Unixowy Y2K”. Większość nowoczesnych systemów 64-bitowych jest bezpieczna przez kolejne 292 miliardy lat.",
+        "faq_title": "Często zadawane pytania"
+    },
+    "faq": {
+        "q1": "Czym jest milisekundowy czas Unix?",
+        "a1": "Niektóre systemy (jak JavaScript) używają milisekund zamiast sekund. Po prostu pomnóż czas Unix przez 1000 lub dodaj trzy zera na końcu.",
+        "q2": "Czy czas Unix obejmuje sekundy przestępne?",
+        "a2": "Większość implementacji czasu Unix nie śledzi sekund przestępnych, traktując każdy dzień tak, jakby miał dokładnie 86 400 sekund."
+    }
+}

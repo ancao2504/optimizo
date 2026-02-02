@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Narzędzie do sprawdzania portów — bezpłatny skaner otwartych portów online",
+        "description": "Bezpłatne narzędzie do sprawdzania portów, umożliwiające sprawdzenie, czy porty są otwarte, zamknięte lub filtrowane. Natychmiast sprawdzaj porty TCP\/UDP w celu rozwiązywania problemów z siecią i audytu bezpieczeństwa.",
+        "h1": "Narzędzie do sprawdzania portów",
+        "subtitle": "Aby rozwiązać problemy z łącznością, sprawdź, czy porty są otwarte na dowolnym serwerze"
+    },
+    "form": {
+        "host_label": "Host lub adres IP",
+        "host_placeholder": "przykład.com lub 8.8.8.8",
+        "port_label": "Numer portu",
+        "port_placeholder": "80",
+        "button": "Sprawdź Port"
+    },
+    "results": {
+        "title": "Stan portu"
+    },
+    "content": {
+        "what_is_title": "Co to jest sprawdzanie portów?",
+        "what_is_desc": "Port Checker to narzędzie do diagnostyki sieci, które określa, czy określony port TCP lub UDP na serwerze lub urządzeniu jest otwarty (akceptuje połączenia), zamknięty (odrzuca połączenia) czy filtrowany (blokowany przez zaporę). Porty to wirtualne punkty końcowe komunikacji sieciowej, a każdy numer portu (1-65535) może potencjalnie udostępniać różne usługi. Typowe porty to 80 dla ruchu internetowego HTTP, 443 dla HTTPS, 22 dla SSH i 25 dla poczty e-mail. Sprawdzanie stanu portu jest niezbędne do konfiguracji sieci, audytu bezpieczeństwa i rozwiązywania problemów z łącznością.",
+        "why_check_title": "Dlaczego warto sprawdzać porty?",
+        "why_check_desc": "Sprawdzanie portów służy wielu krytycznym celom w zarządzaniu siecią i bezpieczeństwie. Administratorzy systemu sprawdzają, czy usługi są dostępne na odpowiednich portach po zmianach konfiguracji. Specjaliści ds. bezpieczeństwa skanują w poszukiwaniu otwartych portów, aby zidentyfikować potencjalne luki i upewnić się, że niepotrzebne porty są zamknięte. Programiści testują, czy ich aplikacje prawidłowo nasłuchują na skonfigurowanych portach. Narzędzia do rozwiązywania problemów z siecią korzystają ze sprawdzania portów, aby zdiagnozować, dlaczego usługi są niedostępne i określić, czy problem dotyczy samej usługi, reguł zapory sieciowej czy routingu sieciowego.",
+        "common_ports_title": "Wspólne porty",
+        "port1": "<strong>Port 80:<\/strong> HTTP (ruch sieciowy)",
+        "port2": "<strong>Port 443:<\/strong> HTTPS (bezpieczny ruch sieciowy)",
+        "port3": "<strong>Port 22:<\/strong> SSH (bezpieczny dostęp do powłoki)",
+        "port4": "<strong>Port 21:<\/strong> FTP (transfer plików)",
+        "port5": "<strong>Port 25:<\/strong> SMTP (wysyłanie e-maili)",
+        "port6": "<strong>Port 3306:<\/strong> baza danych MySQL",
+        "port7": "<strong>Port 3389:<\/strong> RDP (pulpit zdalny)",
+        "security_title": "Implikacje dotyczące bezpieczeństwa",
+        "security_desc": "Otwarte porty reprezentują potencjalne punkty wejścia dla atakujących. Najlepsza praktyka bezpieczeństwa nakazuje otwieranie tylko niezbędnych portów i zamykanie lub filtrowanie wszystkich pozostałych. Regularne skanowanie własnych serwerów pomaga zidentyfikować niezamierzone otwarte porty, które można wykorzystać. Jednakże skanowanie portów systemów innych osób bez pozwolenia może być nielegalne i uważane za wrogie działanie. Zawsze upewnij się, że masz autoryzację przed skanowaniem portów w systemach, których nie jesteś właścicielem."
+    },
+    "faq": {
+        "title": "Często zadawane pytania",
+        "q1": "Co to jest kontroler portów?",
+        "a1": "Narzędzie do sprawdzania portów sprawdza, czy określony port sieciowy na serwerze jest otwarty i akceptuje połączenia. Jest niezbędny do rozwiązywania problemów z serwerami, zaporami sieciowymi i usługami sieciowymi.",
+        "q2": "Jakie są popularne porty i ich zastosowania?",
+        "a2": "Typowe porty to: 80 (HTTP), 443 (HTTPS), 21 (FTP), 22 (SSH), 25 (poczta SMTP), 3306 (MySQL), 3389 (Pulpit zdalny), 8080 (alternatywny HTTP). Każda usługa wykorzystuje do komunikacji określone porty.",
+        "q3": "Dlaczego mój port jest zamknięty?",
+        "a3": "Porty mogą zostać zamknięte z powodu reguł zapory sieciowej, konfiguracji routera, niedziałającej usługi, blokowania dostawcy usług internetowych lub nieprawidłowego przekierowania portów. Sprawdź ustawienia zapory sieciowej, upewnij się, że usługa jest uruchomiona i sprawdź reguły przekierowania portów.",
+        "q4": "Czy otwieranie portów jest bezpieczne?",
+        "a4": "Otwarcie portów naraża usługi na dostęp do Internetu, co może stanowić zagrożenie dla bezpieczeństwa, jeśli nie jest odpowiednio skonfigurowane. Otwieraj tylko niezbędne porty, korzystaj z silnego uwierzytelniania, aktualizuj oprogramowanie i rozważ użycie VPN w przypadku wrażliwych usług.",
+        "q5": "Jaka jest różnica między portami TCP i UDP?",
+        "a5": "Porty TCP zapewniają niezawodne, uporządkowane dostarczanie danych (wykorzystywane do Internetu, poczty e-mail, przesyłania plików). Porty UDP są szybsze, ale nie gwarantują dostawy (używane do gier, przesyłania strumieniowego, DNS). Obydwa mogą używać tych samych numerów portów."
+    },
+    "js": {
+        "checking": "Sprawdzam status portu...",
+        "success": "Kontrola portu zakończona",
+        "error": "Sprawdzanie portu nie powiodło się",
+        "check_port": "Sprawdź Port"
+    }
+}

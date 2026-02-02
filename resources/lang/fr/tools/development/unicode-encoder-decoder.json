@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Encodeur et décodeur Unicode - Outil de texte en ligne gratuit",
+        "description": "Codez et décodez les séquences d'échappement Unicode pour JavaScript et JSON avec notre outil gratuit.",
+        "h1": "Encodeur et décodeur Unicode",
+        "subtitle": "Encodez et décodez les séquences d'échappement Unicode pour JavaScript et JSON"
+    },
+    "editor": {
+        "btn_encode": "Encoder en Unicode",
+        "btn_decode": "Décoder l'Unicode",
+        "label_input_encode": "Entrez le texte à encoder",
+        "ph_input": "Bonjour 世界",
+        "btn_process_encode": "Encoder en Unicode",
+        "btn_clear": "Effacer",
+        "btn_copy": "Copier",
+        "label_output_encoded": "Unicode encodé",
+        "ph_output": "L'Unicode traité apparaîtra ici...",
+        "label_input_decode": "Entrez l'Unicode à décoder",
+        "label_output_decoded": "Texte décodé",
+        "btn_process_decode": "Décoder l'Unicode"
+    },
+    "content": {
+        "p1": "Notre outil gratuit d'encodage et de décodage Unicode vous aide à transformer du texte en séquences d'échappement Unicode (ex : \\u0041) pour une utilisation sûre dans JavaScript, JSON et d'autres contextes de programmation, ou à les décoder en texte lisible. Parfait pour les développeurs, les analystes de données et toute personne traitant des jeux de caractères internationaux. 100 % gratuit, le traitement côté client garantit la confidentialité de vos données.",
+        "what_title": "Qu'est-ce que l'encodage Unicode ?",
+        "what_desc": "L'encodage Unicode convertit les caractères en leurs points de code Unicode correspondants, souvent représentés sous forme de séquences d'échappement comme \\uXXXX. Cela garantit que le texte contenant des caractères spéciaux, des emojis ou des scripts non latins peut être représenté en toute sécurité dans des environnements qui ne prennent généralement en charge que l'ASCII, tels que les fichiers de code source ou les données JSON.",
+        "features_title": "Caractéristiques",
+        "features": {
+            "instant": {
+                "title": "Conversion instantanée",
+                "desc": "Encodez ou décodez l'Unicode en quelques millisecondes"
+            },
+            "bidirectional": {
+                "title": "Bidirectionnel",
+                "desc": "Encodez au format Unicode ou décodez vers le texte d'origine"
+            },
+            "privacy": {
+                "title": "Confidentialité d'abord",
+                "desc": "Tout le traitement se passe dans votre navigateur"
+            },
+            "copy": {
+                "title": "Copie en un clic",
+                "desc": "Copiez instantanément le texte encodé\/décodé"
+            },
+            "free": {
+                "title": "100 % gratuit",
+                "desc": "Aucune limite, aucune inscription requise"
+            },
+            "universal": {
+                "title": "Prise en charge universelle",
+                "desc": "Fonctionne avec tous les caractères et scripts Unicode"
+            }
+        },
+        "uses_title": "Cas d'utilisation courants",
+        "uses": {
+            "programming": {
+                "title": "Programmation",
+                "desc": "Incorporez en toute sécurité des caractères spéciaux dans le code source JavaScript ou Java"
+            },
+            "data": {
+                "title": "Sérialisation des données",
+                "desc": "Assurez la transmission sécurisée des caractères non ASCII en JSON"
+            },
+            "international": {
+                "title": "Internationalisation",
+                "desc": "Déboguez et affichez du texte dans diverses langues et écritures"
+            },
+            "security": {
+                "title": "Sécurité",
+                "desc": "Analysez le code obscurci ou les données contenant des échappements Unicode"
+            }
+        },
+        "how_to_title": "Comment utiliser",
+        "how_to": {
+            "step1": {
+                "title": "Choisir le mode",
+                "desc": "Sélectionnez \"Encoder en Unicode\" ou \"Décoder l'Unicode\" selon vos besoins"
+            },
+            "step2": {
+                "title": "Saisir le texte",
+                "desc": "Collez votre texte ou vos échappements Unicode dans le champ de saisie"
+            },
+            "step3": {
+                "title": "Traiter",
+                "desc": "Cliquez sur le bouton d'encodage ou de décodage"
+            },
+            "step4": {
+                "title": "Copier le résultat",
+                "desc": "Cliquez sur \"Copier\" pour copier le texte traité dans le presse-papiers"
+            },
+            "step5": {
+                "title": "Utiliser n'importe où",
+                "desc": "Collez le résultat dans votre code ou votre application"
+            }
+        },
+        "examples_title": "Exemples Unicode",
+        "examples": {
+            "simple": {
+                "title": "Simple\/ASCII :",
+                "desc": "Original : \"A\" → Encodé : \"\\u0041\""
+            },
+            "special": {
+                "title": "Caractères spéciaux :",
+                "desc": "Original : \"©\" → Encodé : \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emojis\/Multi-octets :",
+                "desc": "Original : \"🌟\" → Encodé : \"\\uD83C\\uDF1F\" (paires de substitution) ou \"\\u2B50\" selon la représentation"
+            }
+        },
+        "faq_title": "Foire aux questions",
+        "faq": {
+            "q1": "Pourquoi utiliser des séquences d'échappement Unicode ?",
+            "a1": "Elles vous permettent de représenter n'importe quel caractère en utilisant uniquement des caractères ASCII, ce qui garantit la compatibilité entre différents systèmes, encodages et transferts de fichiers qui pourraient ne pas gérer correctement l'Unicode brut.",
+            "q2": "Quel format est utilisé ?",
+            "a2": "Cet outil utilise généralement le format \\uXXXX de style JavaScript\/JSON pour les caractères du plan multilingue de base.",
+            "q3": "Est-ce différent de l'encodage URL ?",
+            "a3": "Oui. L'encodage URL utilise des valeurs hexadécimales %XX principalement pour les URL. L'échappement Unicode utilise \\uXXXX et est utilisé dans les chaînes de caractères des langages de programmation comme JavaScript, Java et Python.",
+            "q4": "Mes données sont-elles sécurisées ?",
+            "a4": "Oui ! Tout l'encodage et le décodage se font entièrement dans votre navigateur à l'aide de JavaScript. Votre texte ne quitte jamais votre appareil."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez entrer du texte à traiter",
+        "success_encode": "✓ Unicode encodé avec succès",
+        "success_decode": "✓ Unicode décodé avec succès",
+        "error_process": "✗ Erreur lors du traitement Unicode : ",
+        "error_no_copy": "Pas de sortie à copier",
+        "success_copy": "✓ Copié dans le presse-papiers !"
+    }
+}

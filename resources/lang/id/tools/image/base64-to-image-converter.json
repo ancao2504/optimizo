@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Decode Base64 ke Gambar - Decoder Online Gratis",
+        "description": "Konversikan string yang dikodekan Base64 kembali ke gambar (PNG, JPG, GIF). Dekoder dan visualisator online gratis.",
+        "h1": "Dekode Base64 ke Gambar",
+        "subtitle": "Konversikan string yang dikodekan Base64 kembali ke gambar (PNG, JPG, GIF) secara instan"
+    },
+    "input": {
+        "title": "Tempel String Base64",
+        "desc": "Tempelkan kode Anda di bawah ini untuk memvisualisasikan gambar",
+        "placeholder": "data:gambar\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Dekode Gambar"
+    },
+    "result": {
+        "image_alt": "Gambar yang Didekodekan",
+        "success": "Gambar Berhasil Didekodekan",
+        "btn_download": "Unduh Gambar",
+        "btn_clear": "Pola Jelas"
+    },
+    "content": {
+        "title": "Dekode Base64 ke Gambar",
+        "p1": "Menemukan rangkaian panjang karakter acak yang dimulai dengan <code>data:image\/...<\/code> dan tidak tahu apa itu? Kemungkinan itu adalah gambar yang dikodekan Base64.",
+        "p2": "<strong>Base64 ke Decoder Gambar<\/strong> kami mengonversi string teks tersebut kembali menjadi file gambar yang terlihat (PNG, JPG, GIF, dll.) yang dapat Anda lihat dan unduh ke komputer Anda.",
+        "features": {
+            "preview": {
+                "title": "Pratinjau Instan",
+                "desc": "Lihat langsung gambarnya. Kami mengurai data biner dan menampilkannya di layar Anda."
+            },
+            "auto": {
+                "title": "Deteksi Otomatis",
+                "desc": "Kami secara otomatis mendeteksi format file (PNG, JPEG, GIF) dari header string Base64."
+            },
+            "download": {
+                "title": "Unduh Berkas",
+                "desc": "Simpan hasil dekode sebagai file gambar asli ke hard drive Anda dengan satu klik."
+            }
+        },
+        "how_to": {
+            "title": "Bagaimana cara memecahkan kodenya?",
+            "list": [
+                "Rekatkan string Base64 Anda ke dalam area teks.",
+                "Kami langsung mencoba membaca string tersebut.",
+                "Jika valid, gambar muncul di sebelah kiri.",
+                "Klik \"Unduh Gambar\" untuk menyimpannya."
+            ]
+        },
+        "use_cases": {
+            "title": "Kasus Penggunaan Umum",
+            "list": [
+                "Debugging: Memeriksa data gambar apa yang dikirim dalam respons API atau disimpan dalam database.",
+                "Pemulihan: Mengekstraksi gambar yang tertanam dalam file CSS atau template HTML.",
+                "Verifikasi: Memastikan string Base64 tidak rusak."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Silakan tempel string Base64 terlebih dahulu.",
+        "invalid_error": "String Base64 tidak valid atau format gambar tidak didukung."
+    }
+}

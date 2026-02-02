@@ -153,33 +153,45 @@ if (!function_exists('__tool')) {
             'youtube-thumbnail-downloader' => 'youtube',
             'youtube-video-data-extractor' => 'youtube',
             'youtube-video-tags-extractor' => 'youtube',
+            'youtube-video-downloader' => 'video-downloader',
         ];
 
-        // Check if a tool-specific JSON file exists (new scalable strategy)
+        // Check for translation file in multiple locations (scalable strategy)
         static $translations = [];
         $locale = app()->getLocale();
+        $category = $slugToCategory[$slug] ?? 'utility';
 
-        $toolSpecificPath = base_path("resources/lang/$locale/tools/$slug.json");
-        $isToolSpecific = file_exists($toolSpecificPath);
+        $pathsToTry = [
+            'nested' => base_path("resources/lang/$locale/tools/$category/$slug.json"),
+            'tool' => base_path("resources/lang/$locale/tools/$slug.json"),
+            'category' => base_path("resources/lang/$locale/tools/$category.json"),
+        ];
 
-        if ($isToolSpecific) {
-            $categoryFile = $slug;
-            $cacheKey = "$locale.$categoryFile.specific";
-        } else {
-            $categoryFile = $slugToCategory[$slug] ?? 'utility';
-            $cacheKey = "$locale.$categoryFile";
+        $foundPath = null;
+        $strategy = null;
+
+        if (file_exists($pathsToTry['nested'])) {
+            $foundPath = $pathsToTry['nested'];
+            $strategy = 'specific';
+        } elseif (file_exists($pathsToTry['tool'])) {
+            $foundPath = $pathsToTry['tool'];
+            $strategy = 'specific';
+        } elseif (file_exists($pathsToTry['category'])) {
+            $foundPath = $pathsToTry['category'];
+            $strategy = 'category';
         }
 
+        $cacheKey = "$locale." . ($strategy === 'specific' ? "spec.$slug" : "cat.$category");
+
         if (!isset($translations[$cacheKey])) {
-            $jsonPath = $isToolSpecific ? $toolSpecificPath : base_path("resources/lang/$locale/tools/$categoryFile.json");
-            if (file_exists($jsonPath)) {
-                $translations[$cacheKey] = json_decode(file_get_contents($jsonPath), true) ?: [];
+            if ($foundPath && file_exists($foundPath)) {
+                $translations[$cacheKey] = json_decode(file_get_contents($foundPath), true) ?: [];
             } else {
                 $translations[$cacheKey] = [];
             }
         }
 
-        $data = $isToolSpecific ? $translations[$cacheKey] : ($translations[$cacheKey][$slug] ?? null);
+        $data = $strategy === 'specific' ? $translations[$cacheKey] : ($translations[$cacheKey][$slug] ?? null);
 
         // Traverse the nested key
         if ($data !== null) {
@@ -197,23 +209,37 @@ if (!function_exists('__tool')) {
         if ($data === null || (is_string($data) && strpos($data, '[Pending Translation') !== false)) {
             // Fallback to English if current locale is not English
             if ($locale !== 'en') {
-                $enToolSpecificPath = base_path("resources/lang/en/tools/$slug.json");
-                $isEnToolSpecific = file_exists($enToolSpecificPath);
+                $enPathsToTry = [
+                    'nested' => base_path("resources/lang/en/tools/$category/$slug.json"),
+                    'tool' => base_path("resources/lang/en/tools/$slug.json"),
+                    'category' => base_path("resources/lang/en/tools/$category.json"),
+                ];
 
-                if ($isEnToolSpecific) {
-                    $enCategoryFile = $slug;
-                    $enCacheKey = "en.$enCategoryFile.specific";
-                } else {
-                    $enCategoryFile = $slugToCategory[$slug] ?? 'utility';
-                    $enCacheKey = "en.$enCategoryFile";
+                $enFoundPath = null;
+                $enStrategy = null;
+
+                if (file_exists($enPathsToTry['nested'])) {
+                    $enFoundPath = $enPathsToTry['nested'];
+                    $enStrategy = 'specific';
+                } elseif (file_exists($enPathsToTry['tool'])) {
+                    $enFoundPath = $enPathsToTry['tool'];
+                    $enStrategy = 'specific';
+                } elseif (file_exists($enPathsToTry['category'])) {
+                    $enFoundPath = $enPathsToTry['category'];
+                    $enStrategy = 'category';
                 }
+
+                $enCacheKey = "en." . ($enStrategy === 'specific' ? "spec.$slug" : "cat.$category");
 
                 if (!isset($translations[$enCacheKey])) {
-                    $enJsonPath = $isEnToolSpecific ? $enToolSpecificPath : base_path("resources/lang/en/tools/$enCategoryFile.json");
-                    $translations[$enCacheKey] = file_exists($enJsonPath) ? json_decode(file_get_contents($enJsonPath), true) : [];
+                    if ($enFoundPath && file_exists($enFoundPath)) {
+                        $translations[$enCacheKey] = json_decode(file_get_contents($enFoundPath), true) ?: [];
+                    } else {
+                        $translations[$enCacheKey] = [];
+                    }
                 }
 
-                $enData = $isEnToolSpecific ? $translations[$enCacheKey] : ($translations[$enCacheKey][$slug] ?? null);
+                $enData = $enStrategy === 'specific' ? $translations[$enCacheKey] : ($translations[$enCacheKey][$slug] ?? null);
                 if ($enData !== null) {
                     $keys = explode('.', $key);
                     foreach ($keys as $k) {
@@ -231,7 +257,7 @@ if (!function_exists('__tool')) {
                 }
             }
 
-            return $default ?? "tools/$categoryFile.$slug.$key";
+            return $default ?? "tools/$category.$slug.$key";
         }
 
         return $data;

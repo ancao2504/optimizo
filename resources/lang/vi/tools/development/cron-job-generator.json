@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - Công cụ Crontab trực tuyến miễn phí",
+        "description": "Tạo lịch chạy cron dễ dàng với bộ tạo trực qun củ chúng tôi - không cần phải ghi nhớ cú pháp cron",
+        "h1": "Trình tạo công việc định kỳ",
+        "subtitle": "Tạo lịch chạy cron dễ dàng với bộ tạo trực qun củ chúng tôi"
+    },
+    "editor": {
+        "common_settings": "Cài Đặt Thường Gùng",
+        "choose": "-- Chọn --",
+        "options": {
+            "every_minute": "Mỗi phút (* * * * *)",
+            "every_5_minutes": "Mỗi 5 phút (*\/5 * * * *)",
+            "every_15_minutes": "Mỗi 15 phút (*\/15 * * * *)",
+            "every_30_minutes": "Mỗi 30 phút (*\/30 * * * *)",
+            "every_hour": "Mỗi giờ (0 * * * *)",
+            "every_day_midnight": "Mỗi ngày vào lúc nử đêm (0 0 * * *)",
+            "every_week": "Mỗi tuần (0 0 * * 0)",
+            "every_month": "Mỗi tháng (0 0 1 * *)"
+        },
+        "minute": "Phút",
+        "every_minute": "Mỗi phút (*)",
+        "hour": "Giờ",
+        "every_hour": "Mỗi giờ (*)",
+        "day": "Ngày",
+        "every_day": "Mỗi ngày (*)",
+        "month": "Tháng",
+        "every_month": "Mỗi tháng (*)",
+        "weekday": "Ngày trong tuần",
+        "every_weekday": "Mỗi ngày trong tuần (*)",
+        "command": "Lệnh Cần Chạy",
+        "ph_command": "\/usr\/bin\/php \/pth\/\/script.php",
+        "generated_cron": "Biểu Thức Cron Được Tạo",
+        "btn_copy": "So Chép Cron",
+        "btn_clear": "Đặt lại"
+    },
+    "content": {
+        "hero_title": "Bộ Tạo Cron Job",
+        "p1": "Thiết lập các cron job có thể gây nhầm lẫn với những dấu so và con số khó hiểu. Trình Tạo Cron Job trực tuyến miễn phí củ chúng tôi cho phép bạn xây dựng các lịch trình cron hoàn hảo một cách trực qun. Cho dù bạn cần chạy một tập lệnh mỗi 5 phút, vào lúc nử đêm, hy vào các ngày cụ thể trong tháng, công cụ củ chúng tôi sẽ tạo r cú pháp chính xác cho bạn ngy lập tức.",
+        "features": {
+            "visual": {
+                "title": "Trình Chỉnh Sử Trực Qun",
+                "desc": "Chọn phút, giờ, ngày và tháng bằng gio diện đơn giản"
+            },
+            "readable": {
+                "title": "Dễ Đọc Cho Con Người",
+                "desc": "Chuyển đổi biểu thức cron thành các mô tả bằng ngôn ngữ dễ hiểu"
+            }
+        },
+        "syntax_title": "📚 Hiểu Về Cú Pháp Cron",
+        "syntax_intro": "Một biểu thức cron bo gồm 5 trường cách nhu bởi dấu cách:",
+        "syntax_fields": {
+            "min": "Phút (0-59)",
+            "hour": "Giờ (0-23)",
+            "day": "Ngày trong tháng (1-31)",
+            "month": "Tháng (1-12)",
+            "week": "Ngày trong tuần (0-6, Chủ Nhật=0)"
+        },
+        "faq_title": "❓ Các Câu Hỏi Thường Gặp",
+        "faq": {
+            "q1": "Cron job là gì?",
+            "a1": "Cron job là bộ lập lịch công việc dự trên thời gin trong các hệ điều hành tương tự Unix. Người dùng có thể lập lịch các công việc (lệnh hoặc tập lệnh) để chạy định kỳ tại các thời điểm, ngày tháng hoặc khoảng thời gin cố định.",
+            "q2": "Làm thế nào để cài đặt một cron job?",
+            "a2": "Thông thường bạn sử dụng lệnh `crontb -e` trong cử sổ lệnh (terminl) để chỉnh sử tệp cron củ bạn. Su đó dán dòng dữ liệu đã được tạo vào cuối tệp.",
+            "q4": "Dấu so (*) có nghĩ là gì?",
+            "a4": "Dấu so có nghĩ là \"mọi\" hoặc \"mỗi\". Ví dụ, một dấu so trong trường phút có nghĩ là \"mỗi phút\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Biểu thức cron đã được so chép vào khy nhớ tạm!",
+        "no_copy": "Không có biểu thức cron nào để so chép"
+    }
+}

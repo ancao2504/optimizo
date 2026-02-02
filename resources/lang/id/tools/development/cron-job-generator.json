@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - Alat Crontab Online Gratis",
+        "description": "Buat jadwal cron dengan mudah menggunakan generator visual kami - tidak perlu menghafal sintaks cron",
+        "h1": "Generator Pekerjaan Cron",
+        "subtitle": "Buat jadwal cron dengan mudah menggunakan generator visual kami"
+    },
+    "editor": {
+        "common_settings": "Pengaturan Umum",
+        "choose": "-- Memilih --",
+        "options": {
+            "every_minute": "Setiap Menit (* * * * *)",
+            "every_5_minutes": "Setiap 5 Menit (*\/5 * * * *)",
+            "every_15_minutes": "Setiap 15 Menit (*\/15 * * * *)",
+            "every_30_minutes": "Setiap 30 Menit (*\/30 * * * *)",
+            "every_hour": "Setiap Jam (0 * * * *)",
+            "every_day_midnight": "Setiap Hari di Tengah Malam (0 0 * * *)",
+            "every_week": "Setiap Minggu (0 0 * * 0)",
+            "every_month": "Setiap Bulan (0 0 1 * *)"
+        },
+        "minute": "Menit",
+        "every_minute": "Setiap Menit (*)",
+        "hour": "Jam",
+        "every_hour": "Setiap Jam (*)",
+        "day": "Hari",
+        "every_day": "Setiap hari (*)",
+        "month": "Bulan",
+        "every_month": "Setiap Bulan (*)",
+        "weekday": "Hari kerja",
+        "every_weekday": "Setiap Hari Kerja (*)",
+        "command": "Perintah untuk Berlari",
+        "ph_command": "\/usr\/bin\/php \/path\/ke\/script.php",
+        "generated_cron": "Ekspresi Cron yang Dihasilkan",
+        "btn_copy": "Salin Cron",
+        "btn_clear": "Mengatur ulang"
+    },
+    "content": {
+        "hero_title": "Generator Pekerjaan Cron",
+        "p1": "Menyiapkan pekerjaan cron dapat membingungkan dengan tanda bintang dan angka yang samar. Generator Cron Job online gratis kami memungkinkan Anda membuat jadwal cron yang sempurna secara visual. Apakah Anda perlu menjalankan skrip setiap 5 menit, pada tengah malam, atau pada hari-hari tertentu dalam sebulan, alat kami menghasilkan sintaks yang tepat untuk Anda secara instan.",
+        "features": {
+            "visual": {
+                "title": "Penyunting Visual",
+                "desc": "Pilih menit, jam, hari, dan bulan menggunakan antarmuka sederhana"
+            },
+            "readable": {
+                "title": "Dapat Dibaca Manusia",
+                "desc": "Mengubah ekspresi cron menjadi deskripsi bahasa Inggris yang sederhana"
+            }
+        },
+        "syntax_title": "📚 Memahami Sintaks Cron",
+        "syntax_intro": "Ekspresi cron terdiri dari 5 bidang yang dipisahkan oleh spasi:",
+        "syntax_fields": {
+            "min": "Menit (0-59)",
+            "hour": "Jam (0-23)",
+            "day": "Hari dalam Bulan (1-31)",
+            "month": "Bulan (1-12)",
+            "week": "Hari dalam Seminggu (0-6, Minggu=0)"
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Apa itu pekerjaan cron?",
+            "a1": "Pekerjaan cron adalah penjadwal pekerjaan berbasis waktu di sistem operasi komputer mirip Unix. Pengguna dapat menjadwalkan pekerjaan (perintah atau skrip) untuk dijalankan secara berkala pada waktu, tanggal, atau interval yang tetap.",
+            "q2": "Bagaimana cara menginstal pekerjaan cron?",
+            "a2": "Anda biasanya menggunakan perintah `crontab -e` di terminal Anda untuk mengedit file cron Anda. Kemudian tempel baris yang dihasilkan di bagian bawah file.",
+            "q4": "Apa yang dimaksud dengan tanda bintang (*)?",
+            "a4": "Tanda bintang berarti \"setiap\". Misalnya, tanda bintang pada kolom menit berarti \"setiap menit\"."
+        }
+    },
+    "js": {
+        "success_copy": "✓ Ekspresi cron disalin ke clipboard!",
+        "no_copy": "Tidak ada ekspresi cron untuk disalin"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "DNS Arama Aracı - Ücretsiz Çevrimiçi DNS Kayıt Denetleyicisi",
+        "description": "Herhangi bir alan adı için DNS kayıtlarını kontrol etmek için ücretsiz DNS sorgulama aracı. A, AAAA, MX, NS, TXT, CNAME kayıtlarını anında görüntüleyin. E-posta ve alan adı yapılandırma sorunlarını gidermek için vazgeçilmezdir.",
+        "h1": "DNS Arama Aracı",
+        "subtitle": "Ad sunucularını, MX, A, CNAME ve TXT kayıtlarını anında bulmak için DNS kayıtlarını sorgulayın"
+    },
+    "form": {
+        "domain_label": "Alan Adı",
+        "domain_placeholder": "orneksite.com",
+        "button": "DNS Sorgula"
+    },
+    "results": {
+        "title": "Sorgu Sonuçları"
+    },
+    "content": {
+        "what_is_title": "DNS Sorgulama Nedir?",
+        "what_is_desc": "DNS Sorgulama, bir alan adının DNS kayıtlarını almak için Alan Adı Sistemi sunucularını sorgulayan bir araçtır. DNS kayıtları, bir alan adının nasıl yapılandırıldığına dair önemli bilgiler içerir; bunlar arasında posta sunucuları (MX kayıtları), ad sunucuları (NS kayıtları), IP adresleri (A\/AAAA kayıtları) ve doğrulama ile güvenlik için kullanılan metin kayıtları (TXT kayıtları) bulunur.",
+        "why_use_title": "Neden DNS Sorgulama Kullanılmalı?",
+        "why_use_desc": "DNS sorgulama; e-posta teslimat sorunlarını gidermek, alan adı yapılandırmasını doğrulamak, ad sunucusu ayarlarını kontrol etmek, SPF ve DKIM kayıtlarını onaylamak ve bir alan adının nasıl kurulduğunu anlamak için gereklidir. Sistem yöneticileri, web geliştiricileri ve BT profesyonelleri tarafından günlük olarak kullanılır.",
+        "record_types_title": "DNS Kayıt Türleri",
+        "a_record": "<strong>A Kaydı:<\/strong> Alan adını IPv4 adresine eşler",
+        "aaaa_record": "<strong>AAAA Kaydı:<\/strong> Alan adını IPv6 adresine eşler",
+        "mx_record": "<strong>MX Kaydı:<\/strong> Posta sunucusu bilgileri",
+        "ns_record": "<strong>NS Kaydı:<\/strong> Ad sunucusu bilgileri",
+        "txt_record": "<strong>TXT Kaydı:<\/strong> Doğrulama için metin kayıtları",
+        "cname_record": "<strong>CNAME Kaydı:<\/strong> Kurallı ad takma adı"
+    },
+    "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "q1": "DNS kayıtlarının güncellenmesi ne kadar sürer?",
+        "a1": "DNS yayılımı genellikle birkaç saat sürer ancak kayıtların dünya genelinde tamamen güncellenmesi 48 saati bulabilir.",
+        "q2": "MX kaydı nedir?",
+        "a2": "MX (Mail Exchanger) kaydı, alan adınız için e-postaları hangi posta sunucusunun kabul edeceğini belirten bir DNS kaydıdır.",
+        "q3": "SPF kaydı neden önemlidir?",
+        "a3": "SPF kaydı, alan adınız adına hangi posta sunucularının e-posta göndermeye yetkili olduğunu belirterek e-posta sahteciliğini önlemeye yardımcı olur.",
+        "q4": "TTL nedir?",
+        "a4": "TTL (Time To Live), bir DNS kaydının sunucular tarafından ne kadar süreyle önbelleğe alınacağını belirten değerdir.",
+        "q5": "Zerrin Kayıt (A Record) ve CNAME arasındaki fark nedir?",
+        "a5": "A kaydı bir alan adını doğrudan bir IP adresine yönlendirirken, CNAME kaydı bir alan adını başka bir alan adına (takma ad) yönlendirir."
+    },
+    "js": {
+        "looking_up": "Sorgulanıyor...",
+        "records_label": "Kayıtlar",
+        "success": "Başarılı!",
+        "error": "Hata oluştu",
+        "lookup_dns": "DNS Sorgula"
+    }
+}

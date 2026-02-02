@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "title": "Gratis Snake Case Converter - Online String Tool",
+        "description": "Konvertera text till snake_case-format för Python-variabler och databaser direkt.",
+        "h1": "Snake Case Converter",
+        "subtitle": "Konvertera text till snake_case för Python och databaser"
+    },
+    "editor": {
+        "label_input": "Inmatningstext",
+        "ph_input": "mitt variabelnamn",
+        "btn_convert": "Konvertera till snake_case",
+        "btn_clear": "Rensa",
+        "btn_copy": "Kopiera",
+        "label_output": "Resultat (snake_case)",
+        "ph_output": "mitt_variabel_namn"
+    },
+    "content": {
+        "p1": "Omvandla din text till snake_case-format med vår gratis onlinekonverterare. Snake-case använder gemener med understreck som separerar ord, vilket är mycket läsbart och maskinvänligt.",
+        "features_title": "Funktioner",
+        "features": {
+            "python": {
+                "title": "Python-standard",
+                "desc": "Genererar variabelnamn som följer PEP 8-stilriktlinjer."
+            },
+            "instant": {
+                "title": "Omedelbar konvertering",
+                "desc": "Konvertera till snake_case på millisekunder."
+            },
+            "privacy": {
+                "title": "Integritetsskyddat",
+                "desc": "All behandling sker i din webbläsare."
+            },
+            "bulk": {
+                "title": "Massbearbetning",
+                "desc": "Konvertera flera namn samtidigt."
+            },
+            "smart": {
+                "title": "Smart formatering",
+                "desc": "Hanterar automatiskt mellanslag och specialtecken."
+            },
+            "free": {
+                "title": "100% Gratis",
+                "desc": "Inga gränser eller registrering krävs."
+            }
+        },
+        "uses_title": "När ska man använda Snake Case",
+        "uses": {
+            "python": {
+                "title": "Python-variabler",
+                "desc": "Den primära namngivningskonventionen för variabler och funktioner i dessa språk."
+            },
+            "db": {
+                "title": "Databaskolumner",
+                "desc": "Standard för kolumnnamn (t.ex. created_at, user_id)."
+            },
+            "config": {
+                "title": "Konfigurationsfiler",
+                "desc": "Används vanligtvis i storskalig konfiguration och miljövariabler."
+            },
+            "ruby": {
+                "title": "Ruby-utveckling",
+                "desc": "Följ Ruby-namngivningskonventioner för variabler och metoder."
+            },
+            "data": {
+                "title": "📊 Datavetenskap",
+                "desc": "Formatera kolumnnamn i pandas DataFrames och CSV-filer"
+            },
+            "api": {
+                "title": "🔧 API-parametrar",
+                "desc": "Skapa konsekventa parameternamn för REST API:er"
+            }
+        },
+        "how_to_title": "Hur man använder",
+        "how_to_steps": [
+            {
+                "title": "Klistra in text",
+                "desc": "Klistra in din text i inmatningsrutan."
+            },
+            {
+                "title": "Konvertera",
+                "desc": "Konverteraren ersätter mellanslag och bindestreck med understreck."
+            },
+            {
+                "title": "Gemener",
+                "desc": "Den konverterar alla tecken till gemener."
+            },
+            {
+                "title": "Rensning",
+                "desc": "Efterföljande understreck reduceras till ett."
+            },
+            {
+                "title": "Resultat",
+                "desc": "Ditt snake_case-resultat är redo att användas."
+            }
+        ],
+        "examples_title": "Konverteringsexempel",
+        "examples": {
+            "var": {
+                "title": "Variabelnamn:"
+            },
+            "func": {
+                "title": "Funktionsnamn:"
+            },
+            "db": {
+                "title": "Databaskolumner:"
+            },
+            "config": {
+                "title": "Konfigurationsnycklar:"
+            }
+        },
+        "faq_title": "Vanliga frågor",
+        "faq": {
+            "q1": "Vad är snake_case?",
+            "a1": "Snake_case är en namngivningskonvention där ord är gemener och separerade med understreck. Exempel: mitt_variabel_namn",
+            "q2": "När ska jag använda snake_case?",
+            "a2": "Använd snake_case för Python-variabler och funktioner, databaskolumnnamn, konfigurationsnycklar och Ruby-metodnamn. Det är standarden i Python (PEP 8).",
+            "q3": "Hur skiljer sig snake_case från kebab-case?",
+            "a3": "Snake_case använder understreck (min_variabel), medan kebab-case använder bindestreck (min-variabel). Använd snake_case för kod, kebab-case för URL:er och CSS.",
+            "q4": "Hanterar detta siffror?",
+            "a4": "Ja! Verktyget hanterar siffror korrekt, bevarar dem samtidigt som texten konverteras (t.ex. \"användare 2 profil\" blir \"användare_2_profil\").",
+            "q5": "Är detta verktyg gratis?",
+            "a5": "Ja! Helt gratis utan begränsningar. All behandling sker i din webbläsare för integritet och hastighet."
+        }
+    },
+    "js": {
+        "error_empty": "Vänligen ange lite text att konvertera",
+        "success_converted": "✓ Konverterade till snake_case framgångsrikt!",
+        "error_no_copy": "Inget att kopiera! Vänligen konvertera lite text först.",
+        "success_copy": "✓ Kopierat till urklipp!"
+    }
+}

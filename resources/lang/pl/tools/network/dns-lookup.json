@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "Narzędzie wyszukiwania DNS — bezpłatne narzędzie do sprawdzania rekordów DNS online",
+        "description": "Darmowe narzędzie wyszukiwania DNS do sprawdzania rekordów DNS dowolnej domeny. Przeglądaj rekordy A, AAAA, MX, NS, TXT, CNAME błyskawicznie. Niezbędne do rozwiązywania problemów z pocztą e-mail i konfiguracją domeny.",
+        "h1": "Narzędzie wyszukiwania DNS",
+        "subtitle": "Odpytuj rekordy DNS, aby błyskawicznie znaleźć serwery nazw, rekordy MX, A, CNAME i TXT"
+    },
+    "form": {
+        "domain_label": "Nazwa domeny",
+        "domain_placeholder": "przykład.com",
+        "button": "Wyszukaj DNS"
+    },
+    "results": {
+        "title": "Wyniki wyszukiwania DNS"
+    },
+    "content": {
+        "what_is_title": "Czym jest wyszukiwanie DNS?",
+        "what_is_desc": "Wyszukiwanie DNS to narzędzie, które odpytuje serwery Systemu Nazw Domen (Domain Name System), aby pobrać rekordy DNS dla domeny. Rekordy DNS zawierają ważne informacje o konfiguracji domeny, w tym serwery pocztowe (rekordy MX), serwery nazw (rekordy NS), adresy IP (rekordy A\/AAAA) oraz rekordy tekstowe (rekordy TXT) używane do weryfikacji i bezpieczeństwa.",
+        "why_use_title": "Dlaczego warto korzystać z wyszukiwania DNS?",
+        "why_use_desc": "Wyszukiwanie DNS jest niezbędne do rozwiązywania problemów z dostarczaniem e-maili, weryfikacji konfiguracji domeny, sprawdzania ustawień serwerów nazw, walidacji rekordów SPF i DKIM oraz zrozumienia sposobu konfiguracji domeny. Jest używane codziennie przez administratorów systemów, deweloperów stron internetowych i specjalistów IT.",
+        "record_types_title": "Typy rekordów DNS",
+        "a_record": "<strong>Rekord A:<\/strong> Mapuje domenę na adres IPv4",
+        "aaaa_record": "<strong>Rekord AAAA:<\/strong> Mapuje domenę na adres IPv6",
+        "mx_record": "<strong>Rekord MX:<\/strong> Informacje o serwerze pocztowym",
+        "ns_record": "<strong>Rekord NS:<\/strong> Informacje o serwerze nazw",
+        "txt_record": "<strong>Rekord TXT:<\/strong> Rekordy tekstowe do weryfikacji",
+        "cname_record": "<strong>Rekord CNAME:<\/strong> Alias nazwy kanonicznej"
+    },
+    "faq": {
+        "title": "Często zadawane pytania",
+        "q1": "Czym jest rekord DNS?",
+        "a1": "Rekord DNS to instrukcja znajdująca się na autorytatywnych serwerach DNS, która dostarcza informacji o domenie, takich jak adres IP z nią powiązany i sposób obsługi żądań dla tej domeny.",
+        "q2": "Jak długo trwa aktualizacja DNS?",
+        "a2": "Zmiany DNS mogą zająć od kilku minut do 48 godzin, aby w pełni rozprzestrzenić się w Internecie. Jest to znane jako propagacja DNS.",
+        "q3": "Co to jest TTL?",
+        "a3": "TTL (Time To Live) to ustawienie w rekordzie DNS, które określa, jak długo rekord powinien być przechowywany w pamięci podręcznej przez serwery DNS, zanim zostanie pobrana nowa kopia.",
+        "q4": "Czym jest rekord MX?",
+        "a4": "Rekord Mail Exchanger (MX) określa serwer pocztowy odpowiedzialny za przyjmowanie wiadomości e-mail w imieniu nazwy domeny.",
+        "q5": "Czy mogę sprawdzić rekordy dowolnej domeny?",
+        "a5": "Tak, rekordy DNS są publicznie dostępne, więc możesz sprawdzić konfigurację dowolnej publicznie zarejestrowanej domeny."
+    },
+    "js": {
+        "looking_up": "Trwa wyszukiwanie...",
+        "records_label": "Rekordy",
+        "success": "Pomyślnie pobrano rekordy",
+        "error": "Nie udało się pobrać rekordów DNS",
+        "lookup_dns": "Wyszukaj DNS"
+    }
+}

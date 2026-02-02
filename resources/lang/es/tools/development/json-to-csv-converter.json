@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "Convertidor de JSON a CSV: herramienta de datos en línea gratuita",
+        "description": "Convierta datos JSON a formato CSV al instante con nuestro convertidor gratuito en línea. Rápido, seguro y fácil de usar con opciones de delimitador.",
+        "h1": "Convertidor de JSON a CSV",
+        "subtitle": "Transforme arreglos y objetos JSON en hojas de cálculo CSV limpias"
+    },
+    "editor": {
+        "label_delimiter": "Seleccionar delimitador",
+        "opt_comma": "Coma (,)",
+        "opt_semicolon": "Punto y coma (;)",
+        "opt_tab": "Tabulación (TSV)",
+        "opt_pipe": "Tubería (|)",
+        "btn_convert": "Convertir a CSV",
+        "btn_copy": "Copiar CSV",
+        "btn_download": "Descargar .csv",
+        "btn_example": "Cargar ejemplo",
+        "btn_clear": "Borrar todo",
+        "label_input": "JSON de entrada",
+        "ph_input": "Pegue sus datos JSON aquí...",
+        "label_output": "CSV de salida",
+        "ph_output": "El CSV convertido aparecerá aquí..."
+    },
+    "content": {
+        "hero_title": "El convertidor definitivo de JSON a CSV",
+        "p1": "Nuestro convertidor gratuito de JSON a CSV en línea está diseñado para desarrolladores, analistas de datos y cualquier persona que busque transformar estructuras JSON complejas en formatos de hoja de cálculo legibles. Ya sea que tenga una lista simple de objetos o una estructura profundamente anidada, nuestra herramienta aplana los datos y genera un archivo CSV limpio en segundos.",
+        "features_title": "Características potentes",
+        "features_list": {
+            "fast": "<strong>Instant Conversion:<\/strong> Results in milliseconds",
+            "secure": "<strong>Private & Secure:<\/strong> All data stays in your browser",
+            "format": "<strong>Smart Flattening:<\/strong> Correctly handles nested JSON objects",
+            "custom": "<strong>Custom Delimiters:<\/strong> Choose between comma, semicolon, or tabs",
+            "export": "<strong>Easy Export:<\/strong> Copy to clipboard or download as .csv",
+            "free": "<strong>100% Free:<\/strong> No limits, no registration required"
+        },
+        "uses_title": "Casos de uso comunes",
+        "uses": {
+            "api": {
+                "title": "Extracción de datos de API",
+                "desc": "Convierta respuestas JSON sin procesar de API REST a CSV para una revisión más fácil."
+            },
+            "db": {
+                "title": "Importación de bases de datos",
+                "desc": "Prepare datos JSON para importar en bases de datos relacionales como MySQL o PostgreSQL."
+            },
+            "analysis": {
+                "title": "Análisis de datos",
+                "desc": "Transforme el conjunto de datos JSON en CSV para su uso en Microsoft Excel o Google Sheets."
+            },
+            "report": {
+                "title": "Generación de informes",
+                "desc": "Formatee rápidamente datos estructurados para presentaciones e informes comerciales."
+            }
+        },
+        "faq_title": "Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Es compatible con JSON anidado?",
+            "a1": "Sí, nuestra herramienta aplana objetos anidados. Por ejemplo, {\"user\": {\"name\": \"Juan\"}} se convierte en una columna llamada \"user.name\".",
+            "q2": "¿Son seguros mis datos?",
+            "a2": "Absolutamente. Utilizamos JavaScript 100% del lado del cliente para la conversión. Sus datos nunca salen de su computadora.",
+            "q3": "¿Puedo convertir archivos JSON grandes?",
+            "a3": "Sí, nuestro analizador puede manejar archivos JSON grandes. Sin embargo, los archivos muy grandes (>10MB) pueden tardar más en procesarse dependiendo del rendimiento de su dispositivo.",
+            "q4": "¿Cuál es el delimitador para TSV?",
+            "a4": "Para obtener un archivo de valores separados por pestañas (TSV), simplemente seleccione la opción \"Pestaña\" en el menú desplegable del delimitador."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor, ingrese un texto JSON para convertir.",
+        "error_convert": "Error al convertir JSON a CSV: ",
+        "error_no_copy": "No hay contenido CSV para copiar. Primero convierta el JSON.",
+        "success_copy": "✓ ¡CSV copiado al portapapeles!",
+        "error_no_download": "No hay contenido CSV para descargar. Primero convierta el JSON."
+    }
+}

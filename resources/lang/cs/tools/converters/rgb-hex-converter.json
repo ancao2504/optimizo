@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "title": "Převodník barev RGB na HEX – bezplatný online nástroj pro návrh",
+        "description": "Převeďte barvy mezi formáty RGB a HEX okamžitě pomocí našeho bezplatného online nástroje pro převod barev.",
+        "h1": "Převodník barev RGB na HEX",
+        "subtitle": "Převádějte barvy mezi formáty RGB a HEX okamžitě"
+    },
+    "editor": {
+        "rgb_to_hex": "RGB na HEX",
+        "label_red": "Červená (0-255)",
+        "label_green": "Zelená (0-255)",
+        "label_blue": "Modrá (0-255)",
+        "label_hex": "HEX barva",
+        "hex_to_rgb": "HEX na RGB",
+        "label_hex_input": "HEX barva",
+        "ph_hex": "#FF0000",
+        "label_rgb_output": "RGB barva"
+    },
+    "content": {
+        "p1": "Převeďte barvy mezi formáty RGB a HEX okamžitě pomocí našeho bezplatného online nástroje pro převod barev. Ideální pro webdesignéry, vývojáře, grafiky a kohokoli, kdo pracuje s digitálními barvami.",
+        "formats_title": "Porozumění barevným formátům",
+        "formats": {
+            "rgb": {
+                "title": "RGB (Červená, Zelená, Modrá)",
+                "format": "Formát",
+                "format_val": "rgb(červená, zelená, modrá)",
+                "range": "Rozsah",
+                "range_val": "0-255 pro každý kanál",
+                "used_in": "Běžně používáno v",
+                "used_in_val": "Digitální obrazovky, monitory, TV"
+            },
+            "hex": {
+                "title": "HEX (Hexadecimální)",
+                "format": "Formát",
+                "format_val": "#RRGGBB",
+                "range": "Rozsah",
+                "range_val": "00-FF pro každý kanál (hex)",
+                "used_in": "Běžně používáno v",
+                "used_in_val": "Webdesign, CSS, HTML"
+            }
+        },
+        "why_title": "Proč převádět mezi RGB a HEX?",
+        "why_list": [
+            {
+                "title": "Webové standardy",
+                "desc": "HEX je nejpoužívanějším formátem v CSS pro definování barev webových stránek."
+            },
+            {
+                "title": "Univerzální shoda",
+                "desc": "Zajistěte konzistentní barvy napříč různými návrhářskými nástroji a platformami."
+            },
+            {
+                "title": "Snadné použití",
+                "desc": "Rychle získejte HEX kódy z hodnot RGB pro efektivní stylování."
+            }
+        ],
+        "how_work_title": "Jak převod barev funguje",
+        "how_work_t1": "RGB na HEX",
+        "how_work_p1": "Každý barevný kanál (R, G, B) je převeden z desítkové hodnoty 0-255 na hexadecimální hodnotu 00-FF.",
+        "how_work_t2": "HEX na RGB",
+        "how_work_p2": "Hexadecimální řetězec je rozdělen na dvojice a každá dvojice je převedena zpět na desítkovou hodnotu 0-255.",
+        "uses_title": "Běžné příklady použití",
+        "uses": {
+            "web": {
+                "title": "Webový vývoj",
+                "desc": "Převádějte barvy z grafických návrhů (RGB) na HEX kódy připravené pro CSS na webu."
+            },
+            "graphic": {
+                "title": "Grafický design",
+                "desc": "Slaďte barvy mezi Adobe Photoshop (RGB) a nástroji pro webdesign (HEX)."
+            },
+            "brand": {
+                "title": "Firemní identita",
+                "desc": "Dokumentujte barvy značky v obou formátech pro tisk (RGB) i web (HEX)."
+            }
+        },
+        "practices_title": "Nejlepší postupy pro barevné formáty",
+        "practices_list": [
+            "Používejte HEX pro kompaktní velikost souborů CSS.",
+            "Používejte RGB (konkrétně RGBA), když potřebujete průhlednost.",
+            "Zůstaňte u jednoho formátu v rámci projektu pro zachování konzistence."
+        ],
+        "pro_tip_title": "💡 Tip pro profesionály",
+        "pro_tip_desc": "Shorthand HEX: Barvy jako #FF0000 lze zkrátit na #F00, pokud je každá dvojice číslic stejná.",
+        "faq_title": "Často kladené otázky",
+        "faq": {
+            "q1": "Jaký je rozdíl mezi RGB a HEX?",
+            "a1": "RGB používá desítková čísla (0-255) pro každý barevný kanál, zatímco HEX používá hexadecimální soustavu (00-FF).",
+            "q2": "Mohu v CSS používat RGB?",
+            "a2": "Ano! CSS podporuje jak rgb(255, 0, 0), tak #FF0000.",
+            "q3": "Co znamená symbol # v HEX kódech?",
+            "a3": "Symbol # označuje, že následující znaky tvoří hexadecimální kód barvy.",
+            "q4": "Jsou 3místné a 6místné HEX kódy stejné?",
+            "a4": "3místné HEX kódy jsou zkratkou pro 6místné kódy, ve kterých je každá číslice zdvojená."
+        }
+    },
+    "js": {
+        "invalid_hex": "Neplatný HEX"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Công cụ kiểm tra Ping trực tuyến - Trình kiểm tra độ trễ mạng miễn phí",
+        "description": "Công cụ kiểm tr ping miễn phí để kiểm tr độ trễ mạng, mất gói và khả năng tiếp cận máy chủ. Kiểm tr kết nối tới bất kỳ máy chủ hoặc đị chỉ IP nào ngy lập tức. Thiết yếu để khắc phục sự cố mạng.",
+        "h1": "Công cụ kiểm tra Ping",
+        "subtitle": "Kiểm tr thời gin phản hồi củ máy chủ và kết nối mạng từ nhiều vị trí"
+    },
+    "form": {
+        "host_label": "Host hoặc Đị Chỉ IP",
+        "host_placeholder": "google.com hoặc 8.8.8.8",
+        "button": "Ping Host"
+    },
+    "results": {
+        "title": "Ping Kết quảs"
+    },
+    "content": {
+        "what_is_title": "Kiểm Tr Ping Là Gì?",
+        "what_is_desc": "Ping là một công cụ chẩn đoán mạng nhằm kiểm tr khả năng tiếp cận củ một máy chủ trên mạng Gio thức Internet (IP). Nó đo lường thời gin khứ hồi cho các tin nhắn được gửi từ nguồn đến máy tính đích và ngược lại. Ping hoạt động bằng cách gửi các gói Gio thức Điều khiển Tin nhắn Internet (ICMP) Echo Request đến máy chủ đích và chờ đợi Phản hồi Echo (Echo Reply). Công cụ này được đặt tên o âm thnh ping củ sonr được sử dụng trong việc phát hiện tàu ngầm, vì nó tương tự như việc phát r một tín hiệu và lắng nghe phản hồi.",
+        "why_use_title": "Tại So Nên Sử Dụng Kiểm Tr Ping?",
+        "why_use_desc": "Kiểm tr ping là thiết yếu để khắc phục sự cố mạng và giám sát hiệu suất. Các quản trị viên hệ thống sử dụng ping để xác minh kết nối mạng, chẩn đoán các sự cố kết nối và đo độ trễ mạng. Nó giúp xác định máy chủ có đng trực tuyến và phản hồi hy không, phát hiện mất gói tin có thể cho thấy tình trạng tắc nghẽn mạng hoặc các vấn đề về phần cứng, và đo lường chất lượng kết nối mạng. Gme thủ sử dụng ping để kiểm tr độ trễ củ máy chủ trước khi thm gi các trò chơi trực tuyến, trong khi chủ sở hữu trng web o dõi khả năng phản hồi củ máy chủ để đảm bảo trải nghiệm người dùng tối ưu.",
+        "metrics_title": "Hiểu Các Chỉ Số Ping",
+        "metric1": "<strong>Gói tin Đã gửi\/Đã nhận:<\/strong> số lượng yêu cầu ping và các phản hồi thành công",
+        "metric2": "<strong>Mất gói tin:<\/strong> Tỷ lệ phần trăm các gói tin không nhận được phản hồi",
+        "metric3": "<strong>Thời gin tối thiểu:<\/strong> Thời gin khứ hồi nhnh nhất được ghi lại",
+        "metric4": "<strong>Thời gin trung bình:<\/strong> Độ trễ trung bình củ tất cả các lần ping",
+        "metric5": "<strong>Thời gin tối đ:<\/strong> Thời gin khứ hồi chậm nhất được ghi lại",
+        "metric6": "<strong>TTL (Thời gin tồn tại):<\/strong> Số bước nhảy mạng trước khi gói tin hết hạn",
+        "interpreting_title": "Giải Thích Kết Quả",
+        "interpreting_desc": "Thời gin ping tốt thường là dưới 50ms cho các kết nối cục bộ và dưới 100ms cho các kết nối quốc tế. Thời gin từ 100-200ms là có thể chấp nhận được đối với hầu hết các ứng dụng nhưng có thể gây r hiện tượng lg đáng kể trong các ứng dụng thời gin thực như chơi gme hoặc hội nghị truyền hình. Bất cứ con số nào trên 200ms đều cho thấy các vấn đề mạng tiềm ẩn. Mất gói tin trên 1% cho thấy các vấn đề mạng cần được điều tr. Thời gin ping nhất quán cho thấy các kết nối ổn định, trong khi thời gin thy đổi nhiều cho thấy tình trạng tắc nghẽn mạng hoặc các vấn đề về định tuyến."
+    },
+    "faq": {
+        "title": "Câu hỏi thường gặp",
+        "q1": "là gì ping test?",
+        "a1": "ping test sends dt pckets server và mesures time it tkes receive response. It's used check netwhoặck connectivity, mesure ltency, và dignose connection làsues.",
+        "q2": "là gì good ping time?",
+        "a2": "Fhoặc generl browsing: under 100ms là good. Fhoặc gming: under 50ms là idel, under 20ms là excellent. Fhoặc video clls: under 150ms là cceptble. Lower ping mens fster response times.",
+        "q3": "Tại so là my ping high?",
+        "a3": "High ping cn be cused by netwhoặck congestion, dlàtnce server, pohoặc WiFi signl, làP throttling, hoặc o mny devices on your netwhoặck. Try using wired connection, closing bvàwidth-hevy pplictions, hoặc contcting your làP.",
+        "q4": "Wht does \"Request timed out\" men?",
+        "a4": "Request timeout mens server didn't respond vớiin expected time. Thlà cn indicte server là down, blocking ping requests (firewll), hoặc re's netwhoặck connectivity làsue.",
+        "q5": "Cn I ping ny website?",
+        "a5": "Most websites cn be pinged, but some servers block ICMP ping requests fhoặc security resons. If ping fils, website might still be ccessible vi browser - try using or công cụs like trceroute hoặc phoặct checker."
+    },
+    "js": {
+        "pinging": "Pinging host...",
+        "success": "Ping completed successfully",
+        "error": "Ping filed",
+        "ping_host": "Ping Host"
+    }
+}

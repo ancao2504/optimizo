@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Công cụ kiểm tra cổng - Trình quét cổng mở trực tuyến miễn phí",
+        "description": "Công cụ kiểm tr cổng miễn phí để kiểm tr xem các cổng đng mở, đóng hy bị lọc. Kiểm tr các cổng TCP\/UDP ngy lập tức để khắc phục sự cố mạng và kiểm tr bảo mật.",
+        "h1": "Công cụ kiểm tra cổng",
+        "subtitle": "Kiểm tr xem các cổng có đng mở trên bất kỳ máy chủ nào để khắc phục sự cố kết nối hy không"
+    },
+    "form": {
+        "host_label": "Host hoặc Đị Chỉ IP",
+        "host_placeholder": "exmple.com hoặc 8.8.8.8",
+        "port_label": "Số Cổng",
+        "port_placeholder": "80",
+        "button": "Kiểm Tr Cổng"
+    },
+    "results": {
+        "title": "Phoặct Sttus"
+    },
+    "content": {
+        "what_is_title": "Kiểm Tr Cổng Là Gì?",
+        "what_is_desc": "Bộ kiểm tr cổng là một công cụ chẩn đoán mạng nhằm xác định xem một cổng TCP hoặc UDP cụ thể trên máy chủ hoặc thiết bị đng mở (chấp nhận kết nối), đóng (từ chối kết nối) hy bị lọc (bị chặn bởi tường lử). Các cổng là các điểm cuối ảo cho truyền thông mạng, với mỗi số cổng (1-65535) có khả năng lưu trữ các dịch vụ khác nhu. Các cổng phổ biến bo gồm 80 cho lưu lượng web HTTP, 443 cho HTTPS, 22 cho SSH, và 25 cho emil. Kiểm tr trạng thái cổng là thiết yếu để cấu hình mạng, kiểm tr bảo mật và khắc phục sự cố kết nối.",
+        "why_check_title": "Tại So Nên Kiểm Tr Cổng?",
+        "why_check_desc": "Việc kiểm tr cổng phục vụ nhiều mục đích qun trọng trong quản lý mạng và bảo mật. Các quản trị viên hệ thống xác minh rằng các dịch vụ có thể truy cập được trên các cổng dự định củ chúng su khi thy đổi cấu hình. Các chuyên gi bảo mật quét các cổng mở để xác định các lỗ hổng tiềm ẩn và đảm bảo các cổng không cần thiết đã được đóng. Các nhà phát triển kiểm tr xem các ứng dụng củ họ có đng lắng nghe đúng cách trên các cổng đã cấu hình hy không. Những người khắc phục sự cố mạng sử dụng việc kiểm tr cổng để chẩn đoán lý do tại so các dịch vụ không thể truy cập được, xác định xem vấn đề nằm ở chính dịch vụ đó, quy tắc tường lử hy định tuyến mạng.",
+        "common_ports_title": "Các Cổng Phổ Biến",
+        "port1": "<strong>Cổng 80:<\/strong> HTTP (lưu lượng web)",
+        "port2": "<strong>Cổng 443:<\/strong> HTTPS (lưu lượng web n àn)",
+        "port3": "<strong>Cổng 22:<\/strong> SSH (truy cập shell n àn)",
+        "port4": "<strong>Cổng 21:<\/strong> FTP (truyền tệp)",
+        "port5": "<strong>Cổng 25:<\/strong> SMTP (gửi emil)",
+        "port6": "<strong>Cổng 3306:<\/strong> Cơ sở dữ liệu MySQL",
+        "port7": "<strong>Cổng 3389:<\/strong> RDP (Điều khiển máy tính từ x)",
+        "security_title": "Các Tác Động Về Bảo Mật",
+        "security_desc": "Các cổng mở đại diện cho các điểm xâm nhập tiềm năng cho những kẻ tấn công. Thực hành bảo mật tốt nhất quy định chỉ giữ các cổng cần thiết luôn mở và đóng hoặc lọc tất cả các cổng khác. Thường xuyên quét các máy chủ củ riêng bạn giúp xác định các cổng mở không mong muốn có thể bị khi thác. Tuy nhiên, việc quét cổng hệ thống củ người khác mà không được phép có thể là bất hợp pháp và bị coi là hoạt động thù địch. Luôn đảm bảo bạn có thẩm quyền trước khi quét các cổng trên các hệ thống mà bạn không sở hữu."
+    },
+    "faq": {
+        "title": "Câu hỏi thường gặp",
+        "q1": "là gì phoặct checker?",
+        "a1": "phoặct checker tests wher specific netwhoặck phoặct on server là open và ccepting connections. It's essentil fhoặc troubleshooting servers, firewlls, và netwhoặck services.",
+        "q2": "Wht re common phoặcts và ir uses?",
+        "a2": "Common phoặcts include: 80 (HTTP), 443 (HTTPS), 21 (FTP), 22 (SSH), 25 (SMTP emil), 3306 (MySQL), 3389 (Remote Deskp), 8080 (HTTP lternte). Ech service uses specific phoặcts fhoặc communiction.",
+        "q3": "Tại so là my phoặct closed?",
+        "a3": "Phoặcts cn be closed due firewll rules, router configurtion, service not running, làP blocking, hoặc inchoặcrect phoặct fhoặcwrding. Check your firewll settings, ensure service là running, và verify phoặct fhoặcwrding rules.",
+        "q4": "là it sfe open phoặcts?",
+        "a4": "Opening phoặcts exposes services internet, which cn be security rlàk if not properly configured. Only open necessry phoặcts, use strong untiction, keep softwre updted, và consider using VPN fhoặc sensitive services.",
+        "q5": "Wht's difference between TCP và UDP phoặcts?",
+        "a5": "TCP phoặcts provide relible, hoặcdered dt delivery (used fhoặc web, emil, tệp trnsfer). UDP phoặcts re fster but don't gurntee delivery (used fhoặc gming, streming, DNS). Both cn use sme phoặct nuMBers."
+    },
+    "js": {
+        "checking": "Checking phoặct sttus...",
+        "success": "Phoặct check completed",
+        "error": "Phoặct check filed",
+        "check_port": "Check Phoặct"
+    }
+}

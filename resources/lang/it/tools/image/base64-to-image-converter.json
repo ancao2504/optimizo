@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "Decodifica Base64 in immagine: decodificatore online gratuito",
+        "description": "Converti stringhe codificate in Base64 in immagini (PNG, JPG, GIF). Decoder e visualizzatore online gratuito.",
+        "h1": "Decodifica Base64 in immagine",
+        "subtitle": "Converti istantaneamente stringhe codificate in Base64 in immagini (PNG, JPG, GIF)"
+    },
+    "input": {
+        "title": "Incolla la Stringa Base64",
+        "desc": "Incolla il tuo codice qui sotto per visualizzare l'immagine",
+        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Decodifica Immagine"
+    },
+    "result": {
+        "image_alt": "Immagine Decodificata",
+        "success": "Immagine Decodificata con Successo",
+        "btn_download": "Scarica Immagine",
+        "btn_clear": "Cancella Schema"
+    },
+    "content": {
+        "title": "Decodifica Base64 in Immagine",
+        "p1": "Hai trovato una lunga stringa di caratteri casuali che inizia con <code>data:image\/...<\/code> e non sai cos'è? Probabilmente è un'immagine codificata in Base64.",
+        "p2": "Il nostro <strong>Decoder da Base64 a Immagine<\/strong> converte quella stringa di testo in un file immagine visibile (PNG, JPG, GIF, ecc.) che puoi visualizzare e scaricare sul tuo computer.",
+        "features": {
+            "preview": {
+                "title": "Anteprima Istantanea",
+                "desc": "Vedi l'immagine immediatamente. Analizziamo i dati binari e li visualizziamo sullo schermo."
+            },
+            "auto": {
+                "title": "Rilevamento Automatico",
+                "desc": "Rileviamo automaticamente il formato del file (PNG, JPEG, GIF) dall'intestazione della stringa Base64."
+            },
+            "download": {
+                "title": "Scarica File",
+                "desc": "Salva il risultato decodificato come un vero file immagine sul tuo disco rigido con un clic."
+            }
+        },
+        "how_to": {
+            "title": "Come Decodificare?",
+            "list": [
+                "Incolla la tua stringa Base64 nell'area di testo.",
+                "Tentiamo istantaneamente di leggere la stringa.",
+                "Se valida, l'immagine appare a sinistra.",
+                "Clicca su \"Scarica Immagine\" per salvarla."
+            ]
+        },
+        "use_cases": {
+            "title": "Casi d'Uso Comuni",
+            "list": [
+                "Debugging: Verificare quali dati immagine vengono inviati nelle risposte API o memorizzati nei database.",
+                "Recupero: Estrarre immagini incorporate nei file CSS o nei template HTML.",
+                "Verifica: Assicurarsi che una stringa Base64 non sia corrotta."
+            ]
+        }
+    },
+    "js": {
+        "input_required": "Per favore, incolla prima una stringa Base64.",
+        "invalid_error": "Stringa Base64 non valida o formato immagine non supportato."
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker - ilmainen online-tunnisteen vahvistaja",
+        "description": "Validoi hreflang-tunnisteet varmistaaksesi, että Google näyttää oikeat kieli- tai alueversiot kohdeyleisöllesi.",
+        "h1": "Hreflang Checker",
+        "subtitle": "Ilmainen työkalu hreflang-määritteiden poimintaan ja validointiin kansainvälistä hakukoneoptimointia varten."
+    },
+    "form": {
+        "url_label": "Syötä tarkistettava URL",
+        "url_placeholder": "https:\/\/esimerkki.fi\/sivu",
+        "user_agent_label": "Käyttäjäagentti",
+        "user_agent_default": "Oletus (Selain)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Tarkista hreflang-tunnisteet"
+    },
+    "content": {
+        "main_title": "Hreflang-tunnisteiden tarkistaja",
+        "main_subtitle": "Varmista, että kansainvälinen sisältösi tavoittaa oikean yleisön. Validoi hreflang-toteutus ja korjaa yleiset SEO-virheet.",
+        "intro": "Hreflang-tunnisteet ovat välttämättömiä monikielisille tai useissa maissa toimiville sivustoille. Ilmainen työkalumme poimii ja validoi `rel=\"alternate\" hreflang=\"x\"` -tunnisteet sivusi HTML-otsakkeesta ja HTTP-otsakkeista. Se tarkistaa vastavuoroiset (paluu)tunnisteet taatakseen, että Google ja muut hakukoneet indeksoivat lokalisoidun sisältösi oikein.",
+        "features_title": "Miksi tarkistaa hreflang-tunnisteet?",
+        "feature1_title": "Validoi vastavuoroiset tunnisteet",
+        "feature1_desc": "Hreflang-tunnisteiden on toimittava pareittain. Työkalumme tarkistaa automaattisesti, linkittääkö sivu A sivuun B, ja linkittääkö sivu B takaisin sivuun A.",
+        "feature2_title": "Havaitse yleiset virheet",
+        "feature2_desc": "Löydä puuttuvat paluutunnisteet, virheelliset kielikoodit (ISO 639-1) ja väärät maakoodit (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Ehkäise SEO-ongelmat",
+        "feature3_desc": "Virheellinen hreflang-toteutus voi johtaa tuplasisältöongelmiin ja vääränkielisten sivujen näkymiseen hakutuloksissa.",
+        "how_title": "Miten käyttää Hreflang-tarkistajaa",
+        "step1_title": "Syötä URL",
+        "step1_desc": "Liitä analysoitavan sivun koko URL (esim. https:\/\/esimerkki.fi).",
+        "step2_title": "Valitse User Agent",
+        "step2_desc": "Suosittelemme tarkistusta Googlebotilla, mutta voit tarkistaa myös tavallisella selaimella.",
+        "step3_title": "Analysoi tulokset",
+        "step3_desc": "Haemme sivun ja listaamme kaikki löydetyt vaihtoehtoiset linkit sekä niiden validointitilan.",
+        "step4_title": "Korjaa ongelmat",
+        "step4_desc": "Jos näet virheen 'Puuttuva paluutunniste', päivitä viitatut sivut sisältämään vastavuoroinen linkki.",
+        "faq_title": "Usein kysytyt kysymykset",
+        "faq1_q": "Mikä on hreflang-tunniste?",
+        "faq1_a": "Hreflang on HTML-määrite, jolla määritetään verkkosivun kieli ja maantieteellinen kohdennus. Se kertoo hakukoneille, mitä versiota sivusta tulisi näyttää käyttäjille eri maissa tai kielialueilla.",
+        "faq2_q": "Miksi paluutunnisteet ovat tärkeitä?",
+        "faq2_a": "Google vaatii paluulinkit estääkseen ketään mielivaltaisesti väittämästä toisen sivuston sivua omaksi vaihtoehtoiseksi versiokseen. Jos sivu A linkittää sivuun B, sivun B on linkitettävä takaisin sivuun A.",
+        "faq3_q": "Tarkistaako tämä työkalu x-default-tunnisteen?",
+        "faq3_a": "Kyllä, työkalumme tunnistaa ja validoi `x-default` hreflang-tunnisteen, jota käytetään, kun mikään kieli tai maa ei täsmää.",
+        "faq4_q": "Voinko tarkistaa hreflangit HTTP-otsakkeista?",
+        "faq4_a": "Kyllä! Tarkistamme sekä HTML `<head>` -osion että HTTP-vastausotsakkeet `Link: <url>; rel=\"alternate\"; hreflang=\"code\"` -määritteiden varalta.",
+        "faq5_q": "Mitä tapahtuu, jos minulla on hreflang-virheitä?",
+        "faq5_a": "Hakukoneet saattavat jättää virheelliset tunnisteet huomiotta, mikä voi johtaa siihen, että oikeita kieliversioita ei näytetä oikeille käyttäjille, tai mahdollisiin rangaistuksiin tuplasisällöstä.",
+        "faq6_q": "Onko tämä työkalu ilmainen?",
+        "faq6_a": "Kyllä, voit suorittaa rajattomasti tarkistuksia ilmaiseksi varmistaaksesi täydellisen kansainvälisen hakukoneoptimoinnin."
+    }
+}

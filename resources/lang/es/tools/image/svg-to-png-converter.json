@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Convertidor de SVG a PNG: herramienta ráster en línea gratuita",
+        "description": "Convierta SVG a PNG al instante. Perfecto para asegurar compatibilidad con aplicaciones que no soportan archivos vectoriales.",
+        "h1": "Convertidor de SVG a PNG",
+        "subtitle": "Convierta Scalable Vector Graphics (SVG) a imágenes PNG al instante"
+    },
+    "input": {
+        "title": "Subir Archivo SVG",
+        "desc": "Arrastre su archivo SVG aquí",
+        "drop_title": "Suelte el archivo SVG aquí",
+        "drop_desc": "Soporta SVG, SVGZ (Máx 10MB)"
+    },
+    "editor": {
+        "image_alt": "Vista Previa",
+        "checkerboard": "El fondo cuadriculado indica transparencia",
+        "output_format": "Formato de Salida:",
+        "scale_label": "Multiplicador de Resolución (Escala)",
+        "scale_1": "1x (Original)",
+        "scale_2": "2x (Alta Res)",
+        "scale_4": "4x (Ultra Res)",
+        "btn_convert": "Convertir a PNG y Descargar"
+    },
+    "content": {
+        "title": "Rasterizar SVG a PNG en Alta Res",
+        "p1": "Los SVG son perfectos para la web, pero imposibles de usar en redes sociales, documentos de Word o como adjuntos de correo.",
+        "p2": "Nuestro <strong>Convertidor de SVG a PNG<\/strong> permite convertir su logo o icono vectorial en una imagen PNG transparente de alta calidad. Con la <strong>función de escalado<\/strong>, produzca imágenes de ultra resolución.",
+        "features": {
+            "transparency": {
+                "title": "Mantiene Transparencia",
+                "desc": "A diferencia de JPG, PNG mantiene el fondo transparente. Ideal para superposiciones y logos."
+            },
+            "scaling": {
+                "title": "Escalado hasta 4x",
+                "desc": "Exporte al cuádruple del tamaño original. Obtenga bordes nítidos incluso para formatos de impresión grandes."
+            },
+            "browser": {
+                "title": "Basado en el Navegador",
+                "desc": "Rápido y seguro. No se suben archivos a ningún servidor."
+            }
+        },
+        "how_to": {
+            "title": "¿Cómo convertir SVG a PNG?",
+            "list": [
+                "Suelte su archivo `.svg` en la zona de carga.",
+                "Seleccione `1x`, `2x` o `4x`. Mejor escala significa mayor calidad.",
+                "Revise la vista previa; el fondo de tablero indica transparencia.",
+                "Pulse el botón para generar y descargar su PNG."
+            ]
+        },
+        "why": {
+            "title": "¿Por qué convertir vectores?",
+            "p1": "Los vectores son fórmulas; los PNG son píxeles. Necesitas píxeles para:",
+            "list": [
+                "Fotos de perfil (Twitter\/LinkedIn suelen rechazar SVG).",
+                "Incrustar en correos (el soporte SVG es pobre).",
+                "Uso en editores de video o herramientas gráficas simples."
+            ]
+        },
+        "faq": {
+            "title": "Preguntas Frecuentes",
+            "q1": "¿Es el resultado transparente?",
+            "a1": "Sí, si su fuente SVG tiene un fondo transparente, el PNG resultante también lo tendrá.",
+            "q2": "¿Se pierde calidad al escalar?",
+            "a2": "No, ya que SVG es un formato vectorial, escalarlo antes de rasterizar mantiene los bordes perfectamente nítidos."
+        }
+    },
+    "js": {
+        "invalid_image": "Por favor, suba una imagen SVG válida"
+    }
+}

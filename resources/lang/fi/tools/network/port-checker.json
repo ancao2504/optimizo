@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Portin tarkistustyökalu - ilmainen online-avoin porttilukija",
+        "description": "Ilmainen porttitarkistus. Testaa onko jokin portti auki, kiinni vai suodatettu. Välttämätön vianetsintään ja tietoturvaan.",
+        "h1": "Portin tarkistustyökalu",
+        "subtitle": "Tarkista ovatko portit auki millä tahansa palvelimella"
+    },
+    "form": {
+        "host_label": "Isäntä tai IP-osoite",
+        "host_placeholder": "esimerkki.fi tai 8.8.8.8",
+        "port_label": "Portin numero",
+        "port_placeholder": "80",
+        "button": "Tarkista portti"
+    },
+    "results": {
+        "title": "Tulokset"
+    },
+    "content": {
+        "what_is_title": "Mikä on porttitarkistus?",
+        "what_is_desc": "Porttitarkistus on työkalu, joka määrittää, onko palvelimen TCP\/UDP-portti auki, kiinni vai suodatettu (palomuuri estää). Portit ovat virtuaalisia päätepisteitä viestinnälle (1-65535). Esimerkiksi portti 80 on HTTP-liikenteelle ja 443 HTTPS:lle.",
+        "why_check_title": "Miksi tarkistaa portteja?",
+        "why_check_desc": "Ylläpitäjät varmistavat työkaluilla, että palvelut ovat saatavilla suoraan portista. Kehittäjät testaavat sovellustensa kuuntelua ja tietoturva-ammattilaiset havaitsevat haavoittuvuuksia.",
+        "common_ports_title": "Yleisimmät portit",
+        "port1": "<strong>Portti 80:<\/strong> HTTP (web-liikenne)",
+        "port2": "<strong>Portti 443:<\/strong> HTTPS (suojattu web-liikenne)",
+        "port3": "<strong>Portti 22:<\/strong> SSH (suojattu yhteys)",
+        "port4": "<strong>Portti 21:<\/strong> FTP (tiedostojen siirto)",
+        "port5": "<strong>Portti 25:<\/strong> SMTP (sähköpostin lähetys)",
+        "port6": "<strong>Portti 3306:<\/strong> MySQL-tietokanta",
+        "port7": "<strong>Portti 3389:<\/strong> RDP (etätyöpöytä)",
+        "security_title": "Tietoturvavaikutukset",
+        "security_desc": "Avoimet portit ovat mahdollisia sisääntuloreittejä hyökkääjille. Paras käytäntö on pitää vain välttämättömät portit auki ja suodattaa muut."
+    },
+    "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "q1": "Mikä on porttitarkistus?",
+        "a1": "Porttitarkistus testaa, onko palvelimen tietty verkkoportti auki ja hyväksyykö yhteydet. Se on välttämätön palvelimien, palomuurien ja verkkopalvelujen vianmäärityksessä.",
+        "q2": "Mitkä ovat yleiset portit ja niiden käyttötarkoitukset?",
+        "a2": "Yleisiä portteja ovat: 80 (HTTP), 443 (HTTPS), 21 (FTP), 22 (SSH), 25 (SMTP-sähköposti), 3306 (MySQL), 3389 (etätyöpöytä), 8080 (HTTP vaihtoehtoinen). Jokainen palvelu käyttää tiettyjä portteja viestintään.",
+        "q3": "Miksi porttini on suljettu?",
+        "a3": "Portit voidaan sulkea palomuurisääntöjen, reitittimen asetusten, palvelun toimimattomuuden, Internet-palveluntarjoajan eston tai virheellisen portin edelleenlähetyksen vuoksi. Tarkista palomuuriasetuksesi, varmista, että palvelu on käynnissä ja tarkista portin edelleenlähetyssäännöt.",
+        "q4": "Onko porttien avaaminen turvallista?",
+        "a4": "Porttien avaaminen paljastaa palvelut Internetille, mikä voi olla turvallisuusriski, jos sitä ei ole määritetty oikein. Avaa vain tarvittavat portit, käytä vahvaa todennusta, pidä ohjelmistot ajan tasalla ja harkitse VPN:n käyttöä arkaluonteisissa palveluissa.",
+        "q5": "Mitä eroa on TCP- ja UDP-porteilla?",
+        "a5": "TCP-portit tarjoavat luotettavan, tilatun tiedonsiirron (käytetään verkkoon, sähköpostiin, tiedostojen siirtoon). UDP-portit ovat nopeampia, mutta eivät takaa toimitusta (käytetään pelaamiseen, suoratoistoon, DNS:ään). Molemmat voivat käyttää samoja porttinumeroita."
+    },
+    "js": {
+        "checking": "Tarkistetaan...",
+        "success": "Tarkistus valmis",
+        "error": "Virhe tarkistuksessa",
+        "check_port": "Tarkista portti"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "title": "RGB 到 HEX 颜色转换器 - 免费在线设计工具",
+        "description": "使用我们的免费在线颜色转换工具，即时在 RGB 和 HEX 格式之间转换颜色。",
+        "h1": "RGB 到 HEX 颜色转换器",
+        "subtitle": "即时在 RGB 和 HEX 格式之间转换颜色"
+    },
+    "editor": {
+        "rgb_to_hex": "RGB 转 HEX",
+        "label_red": "红 (0-255)",
+        "label_green": "绿 (0-255)",
+        "label_blue": "蓝 (0-255)",
+        "label_hex": "HEX 颜色",
+        "hex_to_rgb": "HEX 转 RGB",
+        "label_hex_input": "HEX 颜色",
+        "ph_hex": "#FF0000",
+        "label_rgb_output": "RGB 颜色"
+    },
+    "content": {
+        "p1": "使用我们的免费在线颜色转换工具，即时在 RGB 和 HEX 格式之间转换颜色。非常适合网页设计师、开发人员、图形艺术家以及任何处理数字颜色的人员。",
+        "formats_title": "了解颜色格式",
+        "formats": {
+            "rgb": {
+                "title": "RGB (红, 绿, 蓝)",
+                "format": "格式",
+                "format_val": "rgb(红, 绿, 蓝)",
+                "range": "范围",
+                "range_val": "每个通道 0-255",
+                "used_in": "常用场景",
+                "used_in_val": "数字屏幕、显示器、电视"
+            },
+            "hex": {
+                "title": "HEX (十六进制)",
+                "format": "格式",
+                "format_val": "#RRGGBB",
+                "range": "范围",
+                "range_val": "每个通道 00-FF (十六进制)",
+                "used_in": "常用场景",
+                "used_in_val": "网页设计、CSS、HTML"
+            }
+        },
+        "why_title": "为什么要在 RGB 和 HEX 之间转换？",
+        "why_list": [
+            {
+                "title": "网页标准",
+                "desc": "HEX 是 CSS 中定义网站颜色最常用的格式。"
+            },
+            {
+                "title": "通用匹配",
+                "desc": "确保颜色在不同的设计工具和平台中保持一致。"
+            },
+            {
+                "title": "易于使用",
+                "desc": "快速从 RGB 值获取 HEX 代码，实现高效样式设置。"
+            }
+        ],
+        "how_work_title": "颜色转换原理",
+        "how_work_t1": "RGB 转 HEX",
+        "how_work_p1": "每个颜色通道（R, G, B）从 0-255 十进制转换为 00-FF 十六进制值。",
+        "how_work_t2": "HEX 转 RGB",
+        "how_work_p2": "十六进制字符串被拆分为成对，每对转换回 0-255 十进制值。",
+        "uses_title": "常见使用场景",
+        "uses": {
+            "web": {
+                "title": "网页开发",
+                "desc": "将设计稿颜色 (RGB) 转换为适用于网站的 CSS HEX 代码"
+            },
+            "graphic": {
+                "title": "图形设计",
+                "desc": "在 Adobe Photoshop (RGB) 和网页设计工具 (HEX) 之间匹配颜色"
+            },
+            "brand": {
+                "title": "品牌指南",
+                "desc": "在文档中以打印 (RGB) 和网页 (HEX) 两种格式记录品牌颜色"
+            }
+        },
+        "practices_title": "颜色格式最佳实践",
+        "practices_list": [
+            "使用 HEX 以获得较小的 CSS 文件体积。",
+            "当需要不透明度\/透明度时使用 RGB（特别是 RGBA）。",
+            "在单个项目中坚持使用一种格式以保持一致性。"
+        ],
+        "pro_tip_title": "💡 小提示",
+        "pro_tip_desc": "HEX 缩写：当每对数字相同时，像 #FF0000 这样的颜色可以缩写为 #F00。",
+        "faq_title": "常见问题解答",
+        "faq": {
+            "q1": "RGB 和 HEX 有什么区别？",
+            "a1": "RGB 对每个颜色通道使用十进制数 (0-255)，而 HEX 使用十六进制 (00-FF)。",
+            "q2": "我可以在 CSS 中使用 RGB 吗？",
+            "a2": "是的！CSS 同时支持 rgb(255, 0, 0) 和 #FF0000。",
+            "q3": "HEX 代码中的 # 符号是什么意思？",
+            "a3": "# 符号表示后面的字符是十六进制颜色代码。",
+            "q4": "3 位和 6 位 HEX 代码是一样的吗？",
+            "a4": "3 位 HEX 代码是 6 位代码的缩写，其中每个数字都重复一次。"
+        }
+    },
+    "js": {
+        "invalid_hex": "无效的 HEX"
+    }
+}

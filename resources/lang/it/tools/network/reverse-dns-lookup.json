@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Ricerca DNS inversa: strumento online gratuito per IP to Domain",
+        "description": "Strumento online gratuito di ricerca DNS inversa. Trova istantaneamente il nome host associato a qualsiasi indirizzo IP. Veloce, sicuro e facile da usare.",
+        "h1": "Ricerca DNS inversa",
+        "subtitle": "Trova istantaneamente il nome di dominio o l'host associato a un indirizzo IP"
+    },
+    "form": {
+        "ip_label": "Inserisci Indirizzo IP",
+        "ip_placeholder": "es. 8.8.8.8",
+        "button": "Cerca DNS Inverso",
+        "button_loading": "Ricerca in corso..."
+    },
+    "results": {
+        "title": "Risultati DNS Inverso"
+    },
+    "content": {
+        "what_is_title": "Cos'è la Ricerca DNS Inversa?",
+        "what_is_desc": "La ricerca DNS inversa (rDNS) è il processo di determinazione del nome di dominio o dell'host associato a un indirizzo IP. A differenza di una ricerca DNS standard che converte un nome di dominio in un indirizzo IP (ricerca diretta), la rDNS fa l'opposto. Viene spesso utilizzata per verificare l'identità di un server o per risolvere problemi di rete.",
+        "why_use_title": "Perché usare la Ricerca DNS Inversa?",
+        "why_use_desc": "Il DNS inverso è ampiamente utilizzato per scopi di sicurezza e verifica. Aiuta a identificare la fonte del traffico in entrata, verificare i mittenti di email (per prevenire lo spam) e risolvere problemi di connettività di rete. Molti server di posta richiedono record rDNS validi per accettare email in entrata.",
+        "ptr_records_title": "Comprendere i Record PTR",
+        "ptr_record1": "<strong>Record PTR:<\/strong> Un record Pointer (PTR) è il tipo di record DNS utilizzato per le ricerche DNS inverse.",
+        "ptr_record2": "<strong>Mappatura:<\/strong> Mappa un indirizzo IP a un nome host.",
+        "ptr_record3": "<strong>Verifica:<\/strong> Fondamentale per la consegnabilità delle email e la verifica della sicurezza.",
+        "ptr_record4": "<strong>IP-to-Host:<\/strong> Essenziale per identificare il vero proprietario di un indirizzo IP.",
+        "ptr_record5": "<strong>Prevenzione Spam:<\/strong> Utilizzato dai server di posta per convalidare l'autenticità del mittente.",
+        "ptr_record6": "<strong>Log di Rete:<\/strong> Utile per rendere leggibili i log di rete mostrando i nomi host dei dispositivi.",
+        "use_cases_title": "Casi d'Uso Comuni",
+        "use_cases_desc": "I casi d'uso comuni includono la verifica dell'origine del traffico web, la diagnostica della latenza di rete o dei problemi di instradamento, la convalida delle configurazioni dei server email e il miglioramento dei controlli di sicurezza informatica attraverso l'identificazione di indirizzi IP potenzialmente dannosi."
+    },
+    "faq": {
+        "title": "Domande Frequenti",
+        "q1": "Cos'è un record PTR?",
+        "a1": "Un record PTR (Pointer) è un tipo di record DNS che mappa un indirizzo IP a un nome host. È il componente principale di una ricerca DNS inversa.",
+        "q2": "Perché il DNS inverso è importante per le email?",
+        "a2": "Molti provider di posta utilizzano il DNS inverso per verificare che il server di invio sia legittimo. Se l'indirizzo IP di un server non ha un record rDNS corrispondente, le sue email potrebbero essere contrassegnate come spam.",
+        "q3": "Qualsiasi indirizzo IP può avere un record DNS inverso?",
+        "a3": "Sì, ma il proprietario dell'indirizzo IP (in genere l'ISP o il provider di hosting) deve configurare il record PTR nelle proprie impostazioni DNS."
+    }
+}

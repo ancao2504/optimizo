@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Strumento di controllo delle porte: scanner di porte aperte online gratuito",
+        "description": "Strumento gratuito di verifica porte per testare se le porte sono aperte, chiuse o filtrate. Controlla istantaneamente le porte TCP\/UDP per la risoluzione dei problemi di rete e il controllo della sicurezza.",
+        "h1": "Strumento di controllo delle porte",
+        "subtitle": "Controlla se le porte sono aperte su qualsiasi server per risolvere problemi di connettività"
+    },
+    "form": {
+        "host_label": "Host o Indirizzo IP",
+        "host_placeholder": "esempio.it oppure 8.8.8.8",
+        "port_label": "Numero Porta",
+        "port_placeholder": "80",
+        "button": "Controlla Porta"
+    },
+    "results": {
+        "title": "Risultato Controllo Porta"
+    },
+    "content": {
+        "what_is_title": "Cos'è la Verifica delle Porte?",
+        "what_is_desc": "Un Port Checker è uno strumento diagnostico di rete che determina se una specifica porta TCP o UDP su un server o dispositivo è aperta (accetta connessioni), chiusa (rifiuta connessioni) o filtrata (bloccata da un firewall). Le porte sono punti finali virtuali per la comunicazione di rete, con ogni numero di porta (1-65535) che può potenzialmente ospitare servizi diversi. Le porte comuni includono la 80 per il traffico web HTTP, la 443 per l'HTTPS, la 22 per l'SSH e la 25 per l'email. Il controllo dello stato delle porte è essenziale per la configurazione della rete, il controllo della sicurezza e la risoluzione dei problemi di connettività.",
+        "why_check_title": "Perché controllare le porte?",
+        "why_check_desc": "Il controllo delle porte serve a molteplici scopi critici nella gestione della rete e nella sicurezza. Gli amministratori di sistema verificano che i servizi siano accessibili sulle porte previste dopo modifiche alla configurazione. I professionisti della sicurezza scansionano le porte aperte per identificare potenziali vulnerabilità e assicurarsi che le porte non necessarie siano chiuse. Gli sviluppatori testano se le loro applicazioni sono correttamente in ascolto sulle porte configurate. Chi risolve problemi di rete utilizza il controllo delle porte per diagnosticare perché i servizi non sono accessibili, determinando se il problema risiede nel servizio stesso, nelle regole del firewall o nell'instradamento di rete.",
+        "common_ports_title": "Porte Comuni",
+        "port1": "<strong>Porta 80:<\/strong> HTTP (traffico web)",
+        "port2": "<strong>Porta 443:<\/strong> HTTPS (traffico web sicuro)",
+        "port3": "<strong>Porta 22:<\/strong> SSH (accesso shell sicuro)",
+        "port4": "<strong>Porta 21:<\/strong> FTP (trasferimento file)",
+        "port5": "<strong>Porta 25:<\/strong> SMTP (invio email)",
+        "port6": "<strong>Porta 3306:<\/strong> Database MySQL",
+        "port7": "<strong>Porta 3389:<\/strong> RDP (Desktop remoto)",
+        "security_title": "Implicazioni per la sicurezza",
+        "security_desc": "Le porte aperte rappresentano potenziali punti di ingresso per gli aggressori. Le migliori pratiche di sicurezza prevedono di mantenere aperte solo le porte necessarie e di chiudere o filtrare tutte le altre. La scansione regolare dei propri server aiuta a identificare porte aperte involontariamente che potrebbero essere sfruttate. Tuttavia, la scansione delle porte di sistemi altrui senza autorizzazione può essere illegale ed è considerata un'attività ostile. Assicurati sempre di avere l'autorizzazione prima di scansionare le porte su sistemi non di tua proprietà."
+    },
+    "faq": {
+        "title": "Domande Frequenti sulla Verifica Porte",
+        "q1": "Cosa significa porta 'Aperta'?",
+        "a1": "Significa che c'è un servizio in ascolto su quella porta che è pronto ad accettare connessioni dall'esterno.",
+        "q2": "Cosa significa porta 'Filtrata'?",
+        "a2": "Significa che un firewall o un altro dispositivo di rete sta bloccando l'accesso alla porta, impedendo allo strumento di determinare se sia aperta o chiusa.",
+        "q3": "Perché la mia porta è chiusa se il servizio è attivo?",
+        "a3": "Potrebbe essere perché il servizio è in ascolto solo su 'localhost' (127.0.0.1) invece che sull'interfaccia di rete pubblica, o perché il firewall del sistema sta bloccando la porta.",
+        "q4": "È sicuro avere porte aperte?",
+        "a4": "È sicuro se il servizio su quella porta è necessario, aggiornato e configurato correttamente, ma ogni porta aperta è un potenziale rischio.",
+        "q5": "Posso controllare le porte della mia rete locale?",
+        "a5": "Sì, se fornisci l'indirizzo IP locale corretto e sei connesso a quella rete, oppure puoi controllare il tuo IP pubblico per vedere cosa è visibile dall'esterno."
+    },
+    "js": {
+        "checking": "Verifica in corso...",
+        "success": "Controllo completato",
+        "error": "Errore durante il controllo della porta",
+        "check_port": "Controlla Porta"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Conversor JSON para SQL - Ferramenta de migração online gratuita",
+        "description": "Transforme dados JSON em instruções SQL INSERT instantaneamente. Perfeito para preenchimento de banco de dados e migração de dados.",
+        "h1": "Conversor JSON para SQL",
+        "subtitle": "Converta arrays e objetos JSON em scripts SQL válidos"
+    },
+    "editor": {
+        "label_tablename": "Nome da Tabela",
+        "ph_tablename": "Digite o nome da tabela (ex: usuarios)",
+        "btn_convert": "Gerar SQL",
+        "btn_clear": "Limpar",
+        "btn_copy": "Copiar SQL",
+        "btn_example": "Carregar Exemplo",
+        "label_input": "Entrada JSON",
+        "ph_input": "Cole seu array JSON aqui...",
+        "label_output": "Saída SQL",
+        "ph_output": "As instruções SQL INSERT geradas aparecerão aqui..."
+    },
+    "content": {
+        "hero_title": "Conversão Simples de JSON para SQL",
+        "hero_subtitle": "A maneira mais rápida de gerar scripts de preenchimento de banco de dados",
+        "p1": "Converter dados JSON em instruções SQL INSERT não deve ser uma tarefa manual. Nosso conversor de JSON para SQL cuida do trabalho pesado mapeando automaticamente suas chaves JSON para colunas de banco de dados e escapando valores para inserção segura. É uma ferramenta essencial para desenvolvedores que trabalham em migrações de dados, testes ou inicialização de banco de dados.",
+        "what_title": "Quando usar esta ferramenta?",
+        "what_desc": "Se você tem uma coleção de dados no formato JSON — como uma exportação de um banco de dados NoSQL ou uma resposta de API — e precisa inseri-la em um banco de dados relacional como MySQL, PostgreSQL ou SQL Server, esta ferramenta é para você. Ela formata cada objeto em uma instrução SQL limpa.",
+        "features_title": "Principais Recursos",
+        "features": {
+            "fast": {
+                "title": "Geração Instantânea",
+                "desc": "Gere centenas de linhas SQL num piscar de olhos."
+            },
+            "private": {
+                "title": "Privacidade Garantida",
+                "desc": "Todo o processamento é local. Seus dados confidenciais permanecem no seu navegador."
+            },
+            "copy": {
+                "title": "Exportação em Um Clique",
+                "desc": "Copie o script inteiro ou baixe-o para suas migrações."
+            },
+            "smart": {
+                "title": "Escape Inteligente",
+                "desc": "Lida automaticamente com aspas e caracteres especiais em strings."
+            },
+            "free": {
+                "title": "100% Gratuito",
+                "desc": "Sem limites, sem registro, sem complicações."
+            },
+            "db": {
+                "title": "Compatível com Vários Bancos",
+                "desc": "Gera SQL padrão compatível com a maioria dos sistemas de banco de dados."
+            }
+        },
+        "uses_title": "Casos de Uso Profissionais",
+        "uses": {
+            "migration": {
+                "title": "Migração de Dados",
+                "desc": "Mova facilmente dados de sistemas baseados em JSON para bancos de dados SQL."
+            },
+            "import": {
+                "title": "Importação em Massa",
+                "desc": "Carregue grandes quantidades de dados de teste ou produção rapidamente."
+            },
+            "api": {
+                "title": "API para Banco de Dados",
+                "desc": "Converta resultados de APIs de terceiros diretamente em inserções SQL."
+            },
+            "test": {
+                "title": "Preenchimento de Dados de Teste",
+                "desc": "Crie scripts SQL para popular ambientes de desenvolvimento."
+            },
+            "backup": {
+                "title": "Restauração de Backup",
+                "desc": "Transforme backups JSON novamente em scripts SQL funcionais."
+            },
+            "dev": {
+                "title": "Prototipagem Rápida",
+                "desc": "Popule rapidamente novas tabelas de banco de dados durante o desenvolvimento."
+            }
+        },
+        "how_title": "Como usar",
+        "how_steps": [
+            "Digite o <strong>Nome da Tabela<\/strong> do banco de dados de destino",
+            "Cole seu <strong>JSON<\/strong> (deve ser um array ou objeto)",
+            "Clique em <strong>Gerar SQL<\/strong> para criar o script",
+            "<strong>Copie<\/strong> a saída SQL para sua área de transferência"
+        ],
+        "faq_title": "Perguntas Frequentes",
+        "faq": {
+            "q1": "Qual formato JSON é necessário?",
+            "a1": "A ferramenta funciona melhor com um array de objetos, onde cada objeto representa uma linha do banco de dados.",
+            "q2": "Ele lida com objetos aninhados?",
+            "a2": "Atualmente, ele mapeia chaves de nível superior. Objetos aninhados geralmente são convertidos em strings ou ignorados, dependendo das necessidades do seu BD.",
+            "q3": "Existe um limite de linhas?",
+            "a3": "Não há limite rígido, embora o desempenho do seu navegador possa variar com milhares de linhas."
+        },
+        "tips_title": "Dicas Pro",
+        "tips_list": [
+            "Certifique-se de que suas chaves JSON correspondam exatamente aos nomes das colunas SQL.",
+            "Sempre verifique o SQL gerado antes de executá-lo em um banco de dados de produção.",
+            "Use o botão \"Exemplo\" para ver a estrutura JSON esperada."
+        ]
+    },
+    "js": {
+        "error_empty": "Por favor, insira os dados JSON e um nome de tabela",
+        "success_convert": "✓ SQL gerado com sucesso!",
+        "error_convert": "Erro ao gerar SQL: ",
+        "error_no_copy": "Nenhum SQL para copiar. Por favor, converta o JSON primeiro.",
+        "success_copy": "✓ SQL copiado para a área de transferência!"
+    }
+}

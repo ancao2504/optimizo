@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode Encoder & Decoder - Instrument de text online gratuit",
+        "description": "Codifică și decodifică secvențe de escape Unicode pentru JavaScript și JSON. Instrument sigur pentru dezvoltatori.",
+        "h1": "Codificator și decodor Unicode",
+        "subtitle": "Codifică și decodifică textul în secvențe Unicode"
+    },
+    "editor": {
+        "btn_encode": "Codifică Unicode",
+        "btn_decode": "Decodifică Unicode",
+        "label_input_encode": "Introdu textul pentru codificare",
+        "ph_input": "Salut lume ✨",
+        "btn_process_encode": "Codifică Unicode",
+        "btn_clear": "Șterge",
+        "btn_copy": "Copiază",
+        "label_output_encoded": "Unicode Codificat",
+        "ph_output": "Rezultatul va apărea aici...",
+        "label_input_decode": "Introdu Unicode pentru decodificare",
+        "label_output_decoded": "Text Decodificat",
+        "btn_process_decode": "Decodifică Unicode"
+    },
+    "content": {
+        "p1": "Instrumentul nostru gratuit de Codificare și Decodificare Unicode te ajută să transformi textul în secvențe de escape Unicode (ex: \\u0041) pentru utilizarea sigură în JavaScript, JSON și alte contexte de programare, sau să le decodifici înapoi în text lizibil. Perfect pentru dezvoltatori și analiști de date. Procesarea 100% locală asigură confidențialitatea datelor tale.",
+        "what_title": "🔍 Ce este Codificarea Unicode?",
+        "what_desc": "Codificarea Unicode transformă caracterele în punctele lor de cod Unicode corespunzătoare, reprezentate adesea ca secvențe de escape precum \\uXXXX. Acest lucru asigură că textul care conține caractere speciale, emoji-uri sau scripturi non-latine poate fi reprezentat în siguranță în medii care suportă de obicei doar ASCII.",
+        "features_title": "✨ Caracteristici",
+        "features": {
+            "instant": {
+                "title": "Conversie Instantanee",
+                "desc": "Codifică sau decodifică Unicode în milisecunde"
+            },
+            "bidirectional": {
+                "title": "Bidirecțional",
+                "desc": "Transformă în format Unicode sau înapoi în original"
+            },
+            "privacy": {
+                "title": "Confidențialitate",
+                "desc": "Toată procesarea are loc în browserul tău"
+            },
+            "copy": {
+                "title": "Copiere la un clic",
+                "desc": "Copiază rezultatul instantaneu în clipboard"
+            },
+            "free": {
+                "title": "100% Gratuit",
+                "desc": "Fără limite, fără înregistrare necesară"
+            },
+            "universal": {
+                "title": "Suport Universal",
+                "desc": "Funcționează cu toate caracterele și scripturile Unicode"
+            }
+        },
+        "uses_title": "🎯 Cazuri Comune de Utilizare",
+        "uses": {
+            "programming": {
+                "title": "Programare",
+                "desc": "Incorporează caractere speciale în codul sursă JavaScript sau Java în siguranță"
+            },
+            "data": {
+                "title": "Serializarea Datelor",
+                "desc": "Asigură transmiterea sigură a caracterelor non-ASCII în JSON"
+            },
+            "international": {
+                "title": "Internaționalizare",
+                "desc": "Depanează și afișează text în diverse limbi și scripturi"
+            },
+            "security": {
+                "title": "Securitate",
+                "desc": "Analizează codul ocultat sau datele care conțin escape-uri Unicode"
+            }
+        },
+        "how_to_title": "📚 Cum se folosește",
+        "how_to": {
+            "step1": {
+                "title": "Alege Modul",
+                "desc": "Selectează \"Codifică Unicode\" sau \"Decodifică Unicode\" în funcție de nevoie"
+            },
+            "step2": {
+                "title": "Introdu Textul",
+                "desc": "Lipește textul sau secvențele Unicode în câmpul de intrare"
+            },
+            "step3": {
+                "title": "Procesează",
+                "desc": "Fă clic pe butonul de codificare sau decodificare"
+            },
+            "step4": {
+                "title": "Copiază Rezultatul",
+                "desc": "Fă clic pe \"Copiază\" pentru a prelua rezultatul"
+            },
+            "step5": {
+                "title": "Utilizează Oriunde",
+                "desc": "Lipește rezultatul în codul sau aplicația ta"
+            }
+        },
+        "examples_title": "💡 Exemple Unicode",
+        "examples": {
+            "simple": {
+                "title": "Simplu\/ASCII:",
+                "desc": "Original: \"A\" → Codificat: \"\\u0041\""
+            },
+            "special": {
+                "title": "Caractere Speciale:",
+                "desc": "Original: \"©\" → Codificat: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emoji-uri:",
+                "desc": "Original: \"🌟\" → Codificat: \"\\uD83C\\uDF1F\""
+            }
+        },
+        "faq_title": "❓ Întrebări Frecvente",
+        "faq": {
+            "q1": "De ce să folosesc secvențe de escape Unicode?",
+            "a1": "Acestea îți permit să reprezinți orice caracter folosind doar caractere ASCII, asigurând compatibilitatea pe diverse sisteme și transferuri de fișiere.",
+            "q2": "Ce format este utilizat?",
+            "a2": "Acest instrument folosește stilul JavaScript\/JSON \\uXXXX pentru caracterele de bază.",
+            "q3": "Este diferit de codificarea URL?",
+            "a3": "Da. Codificarea URL folosește valori hex %XX. Escaparea Unicode folosește \\uXXXX și este utilizată în codul sursă.",
+            "q4": "Sunt datele mele în siguranță?",
+            "a4": "Da! Toată codificarea și decodificarea au loc în browserul tău folosind JavaScript."
+        }
+    },
+    "js": {
+        "error_empty": "Te rugăm să introduci text pentru procesare",
+        "success_encode": "✓ Unicode codificat cu succes",
+        "success_decode": "✓ Unicode decodificat cu succes",
+        "error_process": "✗ Eroare la procesarea Unicode: ",
+        "error_no_copy": "Nu există rezultat de copiat",
+        "success_copy": "✓ Copiat în clipboard"
+    }
+}

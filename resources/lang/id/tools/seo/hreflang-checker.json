@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Pemeriksa HReflang - Validator Tag Online Gratis",
+        "description": "Periksa tag hreflang Anda untuk memastikan Google menyajikan URL yang tepat untuk audiens dan bahasa target Anda.",
+        "h1": "Pemeriksa HReflang",
+        "subtitle": "Alat gratis untuk mengekstrak dan memvalidasi tag hreflang untuk SEO internasional"
+    },
+    "form": {
+        "url_label": "Masukkan URL untuk Diperiksa",
+        "url_placeholder": "https:\/\/example.com\/page",
+        "user_agent_label": "Agen Pengguna",
+        "user_agent_default": "Bawaan (Peramban)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Cek Tag Hreflang"
+    },
+    "content": {
+        "main_title": "Pemeriksa Tag Hreflang",
+        "main_subtitle": "Pastikan konten internasional Anda menjangkau audiens yang tepat. Validasi implementasi hreflang dan perbaiki kesalahan SEO yang umum.",
+        "intro": "Tag hreflang sangat penting untuk situs web yang melayani berbagai bahasa atau negara. Alat gratis kami mengekstrak dan memvalidasi tag `rel=\"alternate\" hreflang=\"x\"` dari HTML dan header HTTP. Ini memeriksa tag balik (return tag) untuk memastikan konten lokal diindeks dengan benar di Google dan mesin pencari lainnya.",
+        "features_title": "Mengapa Memeriksa Tag Hreflang?",
+        "feature1_title": "Validasi Tag Balik",
+        "feature1_desc": "Tag hreflang harus bekerja berpasangan. Alat kami secara otomatis memeriksa apakah Halaman A menaut ke Halaman B, dan apakah Halaman B menaut kembali ke Halaman A.",
+        "feature2_title": "Deteksi Kesalahan Umum",
+        "feature2_desc": "Temukan tag balik yang hilang, kode bahasa yang tidak valid (ISO 639-1), dan kode negara yang salah (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Cegah Masalah SEO",
+        "feature3_desc": "Implementasi hreflang yang salah dapat menyebabkan masalah konten duplikat dan versi bahasa yang salah muncul di hasil pencarian.",
+        "how_title": "Cara Menggunakan Hreflang Checker",
+        "step1_title": "Masukkan URL",
+        "step1_desc": "Tempel URL lengkap halaman yang ingin Anda analisis (misalnya https:\/\/example.com).",
+        "step2_title": "Pilih User Agent",
+        "step2_desc": "Disarankan untuk memeriksa sebagai Googlebot, tetapi Anda juga dapat memeriksa sebagai browser standar.",
+        "step3_title": "Analisis Hasil",
+        "step3_desc": "Kami akan mengambil halaman tersebut dan menampilkan daftar semua tautan alternatif yang ditemukan beserta status validasinya.",
+        "step4_title": "Perbaiki Masalah",
+        "step4_desc": "Jika Anda melihat kesalahan 'Missing Return Tag', perbarui halaman yang dirujuk untuk menyertakan tautan timbal balik.",
+        "faq_title": "Pertanyaan yang Sering Diajukan",
+        "faq1_q": "Apa itu tag hreflang?",
+        "faq1_a": "Hreflang adalah atribut HTML yang digunakan untuk menentukan bahasa dan penargetan geografis halaman web. Ini memberi tahu mesin pencari versi halaman mana yang harus ditampilkan kepada pengguna berdasarkan bahasa atau wilayah mereka.",
+        "faq2_q": "Mengapa tag balik (return tag) itu penting?",
+        "faq2_a": "Google mewajibkan tautan balik untuk mencegah seseorang mengklaim halaman situs lain sebagai versi alternatifnya. Jika Halaman A menaut ke Halaman B, Halaman B harus menaut kembali ke Halaman A.",
+        "faq3_q": "Apakah alat ini memeriksa tag x-default?",
+        "faq3_a": "Ya, alat kami mengidentifikasi dan memvalidasi tag `x-default`, yang digunakan ketika tidak ada bahasa lain yang cocok atau untuk halaman pemilih bahasa utama.",
+        "faq4_q": "Bisakah saya memeriksa hreflang di header HTTP?",
+        "faq4_a": "Ya! Kami memeriksa bagian HTML `<head>` dan juga atribut `Link: <url>; rel=\"alternate\"; hreflang=\"code\"` di header respons HTTP.",
+        "faq5_q": "Apa yang terjadi jika ada kesalahan hreflang?",
+        "faq5_a": "Mesin pencari mungkin mengabaikan tag yang tidak valid, yang mengarah pada versi bahasa yang salah ditampilkan kepada pengguna atau penalti konten duplikat.",
+        "faq6_q": "Apakah alat ini gratis?",
+        "faq6_a": "Ya, Anda dapat melakukan pemeriksaan tanpa batas secara gratis untuk memastikan SEO internasional yang sempurna."
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Pencarian DNS Terbalik - Alat IP ke Domain Online Gratis",
+        "description": "Alat pencarian DNS terbalik online gratis. Temukan nama host yang terkait dengan alamat IP apa pun secara instan. Cepat, aman, dan mudah digunakan.",
+        "h1": "Membalikkan Pencarian DNS",
+        "subtitle": "Temukan nama domain atau nama host yang terkait dengan alamat IP secara instan"
+    },
+    "form": {
+        "ip_label": "Masukkan Alamat IP",
+        "ip_placeholder": "misalnya, 8.8.8.8",
+        "button": "Pencarian DNS Terbalik",
+        "button_loading": "Melihat ke atas..."
+    },
+    "results": {
+        "title": "Membalikkan Hasil DNS"
+    },
+    "content": {
+        "what_is_title": "Apa itu Pencarian DNS Terbalik?",
+        "what_is_desc": "Reverse DNS lookup (rDNS) adalah proses menentukan nama domain atau nama host yang terkait dengan alamat IP. Berbeda dengan pencarian DNS standar yang mengubah nama domain menjadi alamat IP (pencarian maju), rDNS melakukan yang sebaliknya. Ini sering digunakan untuk memverifikasi identitas server atau untuk memecahkan masalah jaringan.",
+        "why_use_title": "Mengapa Menggunakan Pencarian DNS Terbalik?",
+        "why_use_desc": "Reverse DNS banyak digunakan untuk tujuan keamanan dan verifikasi. Ini membantu mengidentifikasi sumber lalu lintas masuk, memverifikasi pengirim email (untuk mencegah spam), dan memecahkan masalah konektivitas jaringan. Banyak server email memerlukan catatan rDNS yang valid untuk menerima email masuk.",
+        "ptr_records_title": "Memahami Catatan PTR",
+        "ptr_record1": "<strong>Catatan PTR:<\/strong> Catatan Penunjuk (PTR) adalah jenis catatan DNS yang digunakan untuk pencarian DNS terbalik.",
+        "ptr_record2": "<strong>Pemetaan:<\/strong> Ini memetakan alamat IP kembali ke nama host.",
+        "ptr_record3": "<strong>Verifikasi:<\/strong> Penting untuk kemampuan pengiriman email dan verifikasi keamanan.",
+        "ptr_record4": "<strong>IP-to-Host:<\/strong> Penting untuk mengidentifikasi pemilik sebenarnya dari sebuah alamat IP.",
+        "ptr_record5": "<strong>Pencegahan Spam:<\/strong> Digunakan oleh server email untuk memvalidasi keaslian pengirim.",
+        "ptr_record6": "<strong>Log Jaringan:<\/strong> Bermanfaat untuk membuat log jaringan dapat dibaca manusia dengan menampilkan nama host.",
+        "use_cases_title": "Kasus Penggunaan Umum",
+        "use_cases_desc": "Kasus penggunaan umum termasuk memverifikasi asal lalu lintas web, mendiagnosis latensi jaringan atau masalah perutean, memvalidasi konfigurasi server email, dan meningkatkan audit keamanan siber dengan mengidentifikasi alamat IP yang berpotensi berbahaya."
+    },
+    "faq": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "q1": "Apa itu catatan PTR?",
+        "a1": "Catatan PTR (Penunjuk) adalah jenis catatan DNS yang memetakan alamat IP ke nama host. Ini adalah komponen inti dari pencarian DNS terbalik.",
+        "q2": "Mengapa DNS terbalik penting untuk email?",
+        "a2": "Banyak penyedia email menggunakan DNS terbalik untuk memverifikasi bahwa server pengirimnya sah. Jika alamat IP server tidak memiliki data rDNS yang cocok, emailnya mungkin ditandai sebagai spam.",
+        "q3": "Bisakah alamat IP mana pun memiliki catatan DNS terbalik?",
+        "a3": "Ya, tapi pemilik alamat IP (biasanya ISP atau penyedia hosting) harus mengonfigurasi data PTR di pengaturan DNS mereka."
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "title": "Strumento di ricerca DNS: controllo record DNS online gratuito",
+        "description": "Strumento di ricerca DNS gratuito per controllare i record DNS di qualsiasi dominio. Visualizza istantaneamente i record A, AAAA, MX, NS, TXT, CNAME. Essenziale per risolvere problemi di email e configurazione del dominio.",
+        "h1": "Strumento di ricerca DNS",
+        "subtitle": "Interroga i record DNS per trovare istantaneamente nameserver, record MX, A, CNAME e TXT"
+    },
+    "form": {
+        "domain_label": "Nome del Dominio",
+        "domain_placeholder": "esempio.it",
+        "button": "Cerca DNS"
+    },
+    "results": {
+        "title": "Risultati Ricerca DNS"
+    },
+    "content": {
+        "what_is_title": "Cos'è la Ricerca DNS?",
+        "what_is_desc": "La Ricerca DNS è uno strumento che interroga i server del Domain Name System per recuperare i record DNS di un dominio. I record DNS contengono informazioni importanti su come è configurato un dominio, inclusi i server di posta (record MX), i nameserver (record NS), gli indirizzi IP (record A\/AAAA) e i record di testo (record TXT) utilizzati per la verifica e la sicurezza.",
+        "why_use_title": "Perché usare la Ricerca DNS?",
+        "why_use_desc": "La ricerca DNS è essenziale per risolvere problemi di consegna delle email, verificare la configurazione del dominio, controllare le impostazioni dei nameserver, convalidare i record SPF e DKIM e capire come è configurato un dominio. Viene utilizzato quotidianamente da amministratori di sistema, sviluppatori web e professionisti IT.",
+        "record_types_title": "Tipi di Record DNS",
+        "a_record": "<strong>Record A:<\/strong> Mappa il dominio all'indirizzo IPv4",
+        "aaaa_record": "<strong>Record AAAA:<\/strong> Mappa il dominio all'indirizzo IPv6",
+        "mx_record": "<strong>Record MX:<\/strong> Informazioni sul server di posta",
+        "ns_record": "<strong>Record NS:<\/strong> Informazioni sul nameserver",
+        "txt_record": "<strong>Record TXT:<\/strong> Record di testo per la verifica",
+        "cname_record": "<strong>Record CNAME:<\/strong> Alias del nome canonico"
+    },
+    "faq": {
+        "title": "Domande Frequenti sul DNS",
+        "q1": "Quanto tempo impiegano le modifiche al DNS per propagarsi?",
+        "a1": "La propagazione DNS può richiedere da pochi minuti fino a 48 ore, a seconda del valore TTL (Time To Live) dei record.",
+        "q2": "Cos'è un record MX?",
+        "a2": "Un record Mail Exchanger (MX) specifica il server di posta responsabile dell'accettazione dei messaggi email per conto di un nome di dominio.",
+        "q3": "Qual è la differenza tra record A e CNAME?",
+        "a3": "Un record A punta un dominio a un indirizzo IP, mentre un record CNAME punta un dominio a un altro nome di dominio.",
+        "q4": "Perché il controllo del DNS è importante per la sicurezza?",
+        "a4": "Permette di verificare che i record di sicurezza come SPF, DKIM e DMARC siano impostati correttamente per prevenire lo spoofing delle email.",
+        "q5": "Posso controllare i DNS di qualsiasi sito?",
+        "a5": "Sì, le informazioni DNS sono pubbliche e possono essere consultate per qualsiasi dominio registrato su internet."
+    },
+    "js": {
+        "looking_up": "Ricerca DNS in corso...",
+        "records_label": "Record",
+        "success": "Ricerca completata con successo",
+        "error": "Errore durante la ricerca DNS",
+        "lookup_dns": "Cerca DNS"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "title": "Epoch Time Converter - Gratis online Unix-verktøy",
+        "description": "Konverter Unix Epoch-tidsstempler til lesbare datoer og omvendt. Støtte for lokal tid, GMT\/UTC og relativ tid.",
+        "h1": "Epoch Time Converter",
+        "subtitle": "Konverter Unix-tidsstempler til lesbare datoer og omvendt"
+    },
+    "current_epoch": {
+        "title": "Gjeldende Unix-tidsstempel",
+        "subtitle": "Live epoketid i sekunder"
+    },
+    "click_to_copy": "Klikk for å kopiere",
+    "timestamp_to_date": {
+        "title": "Konverter tidsstempel til dato",
+        "label": "Skriv inn Unix-tidsstempel",
+        "placeholder": "f.eks. 1234567890",
+        "button": "Konverter til dato",
+        "result_gmt": "GMT\/UTC",
+        "result_local": "Din lokale tid",
+        "result_relative": "Slektning"
+    },
+    "date_to_timestamp": {
+        "title": "Konverter dato til tidsstempel",
+        "label": "Velg dato og klokkeslett",
+        "checkbox": "Bruk gjeldende tid",
+        "button": "Konverter til tidsstempel",
+        "result_title": "Unix tidsstempel"
+    },
+    "content": {
+        "hero_title": "Forstå Unix Epoch",
+        "hero_description": "Unix-tid (eller Epoch-tid) er systemet som sjekker hjerteslagene i den digitale verden. Den sporer antall sekunder som har gått siden \"Unix Epoch\" – 00:00:00 UTC den 1. januar 1970.",
+        "why_title": "Hvorfor bruke Unix-tid?",
+        "efficiency_title": "Effektivitet",
+        "efficiency_desc": "Datamaskiner foretrekker enkle heltall fremfor komplekse datostrenger. Det er raskere å behandle og lagre.",
+        "universal_title": "Universelt",
+        "universal_desc": "Det ignorerer tidssoner ved lagring. 1696516200 er det samme øyeblikket i Tokyo som i New York.",
+        "math_title": "Enkel matematikk",
+        "math_desc": "Beregning av forskjellen mellom to datoer er så enkelt som subtraksjon (A - B).",
+        "code_title": "Hent gjeldende Epoch i ditt språk",
+        "apocalypse_title": "År 2038-problemet",
+        "apocalypse_desc": "Den 19. januar 2038 vil 32-bits systemer gå tom for numre å lagre tiden i. De fleste moderne 64-bits systemer er allerede trygge i de neste 292 milliarder årene.",
+        "faq_title": "Ofte stilte spørsmål"
+    },
+    "faq": {
+        "q1": "Hva er Unix-tidsstempel (epoketid)?",
+        "a1": "Unix-tidsstempel (også kjent som epoketid eller POSIX-tid) er antall sekunder som har gått siden 1. januar 1970, 00:00:00 UTC. Det er en mye brukt standard for å representere tid i datasystemer og programmering.",
+        "q2": "Hvorfor bruke epoketid i stedet for vanlige datoer?",
+        "a2": "Epoketid er tidssone-uavhengig, noe som gjør den perfekt for lagring av datoer i databaser og APIer. Det er et enkelt heltall som er enkelt å sammenligne, sortere og beregne tidsforskjeller. De fleste programmeringsspråk har innebygde funksjoner for å konvertere mellom epoketid og lesbare datoer."
+    }
+}

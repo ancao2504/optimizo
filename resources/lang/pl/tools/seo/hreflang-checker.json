@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "title": "Hreflang Checker — darmowy internetowy moduł sprawdzania poprawności tagów",
+        "description": "Sprawdź poprawność tagów hreflang, aby mieć pewność, że Google wyświetla odbiorcom właściwe adresy URL dla danego języka lub regionu.",
+        "h1": "Kontroler Hreflang",
+        "subtitle": "Darmowe narzędzie do wyodrębniania i sprawdzania atrybutów hreflang dla międzynarodowego SEO."
+    },
+    "form": {
+        "url_label": "Wprowadź adres URL do sprawdzenia",
+        "url_placeholder": "https:\/\/przyklad.pl\/strona",
+        "user_agent_label": "Agent użytkownika",
+        "user_agent_default": "Domyślny (Przeglądarka)",
+        "user_agent_googlebot": "Googlebot (Desktop)",
+        "user_agent_bingbot": "Bingbot (Desktop)",
+        "button": "Sprawdź tagi Hreflang"
+    },
+    "content": {
+        "main_title": "Narzędzie do sprawdzania tagów Hreflang",
+        "main_subtitle": "Upewnij się, że Twoje treści międzynarodowe docierają do właściwych odbiorców. Sprawdź wdrożenie hreflang i napraw typowe błędy SEO.",
+        "intro": "Tagi Hreflang są niezbędne dla stron internetowych obsługujących wiele języków lub krajów. Nasze darmowe narzędzie wyodrębnia i weryfikuje tagi `rel=\"alternate\" hreflang=\"x\"` z nagłówka HTML strony oraz nagłówków HTTP. Sprawdza tagi zwrotne, aby zagwarantować, że Google i inne wyszukiwarki poprawnie indeksują zlokalizowane treści.",
+        "features_title": "Dlaczego warto sprawdzać tagi Hreflang?",
+        "feature1_title": "Weryfikacja tagów zwrotnych",
+        "feature1_desc": "Tagi Hreflang muszą działać w parze. Nasze narzędzie automatycznie sprawdza, czy strona A linkuje do strony B, a strona B linkuje z powrotem do strony A.",
+        "feature2_title": "Wykrywanie typowych błędów",
+        "feature2_desc": "Znajdź brakujące tagi zwrotne, nieprawidłowe kody języków (ISO 639-1) i błędne kody krajów (ISO 3166-1 Alpha-2).",
+        "feature3_title": "Zapobieganie problemom SEO",
+        "feature3_desc": "Nieprawidłowe wdrożenie hreflang może prowadzić do problemów z duplikacją treści i wyświetlania stron w niewłaściwym języku w wynikach wyszukiwania.",
+        "how_title": "Jak używać sprawdzacza Hreflang",
+        "step1_title": "Wprowadź URL",
+        "step1_desc": "Wklej pełny adres URL strony, którą chcesz przeanalizować (np. https:\/\/przyklad.pl).",
+        "step2_title": "Wybierz User Agent",
+        "step2_desc": "Zaleca się sprawdzanie jako Googlebot, ale możesz także sprawdzić jako standardowa przeglądarka.",
+        "step3_title": "Analizuj wyniki",
+        "step3_desc": "Pobierzemy stronę i wylistujemy wszystkie znalezione alternatywne linki wraz z ich statusem weryfikacji.",
+        "step4_title": "Napraw problemy",
+        "step4_desc": "Jeśli pojawią się błędy 'Brakujący tag zwrotny', zaktualizuj wskazane strony, aby zawierały link wzajemny.",
+        "faq_title": "Często zadawane pytania",
+        "faq1_q": "Co to jest tag hreflang?",
+        "faq1_a": "Hreflang to atrybut HTML używany do określenia języka i kierowania geograficznego strony internetowej. Mówi wyszukiwarkom, którą wersję strony pokazać użytkownikom w różnych krajach lub językach.",
+        "faq2_q": "Dlaczego tagi zwrotne są ważne?",
+        "faq2_a": "Google wymaga linków zwrotnych, aby zapobiec arbitralnemu przypisywaniu strony w innej witrynie jako alternatywnej wersji własnej. Jeśli strona A linkuje do strony B, strona B musi linkować z powrotem do strony A.",
+        "faq3_q": "Czy to narzędzie sprawdza tag x-default?",
+        "faq3_a": "Tak, nasze narzędzie identyfikuje i weryfikuje tag hreflang `x-default`, używany dla języków niepasujących lub ścisłych selektorów kraju.",
+        "faq4_q": "Czy mogę sprawdzić hreflang w nagłówkach HTTP?",
+        "faq4_a": "Tak! Sprawdzamy zarówno sekcję HTML `<head>`, jak i nagłówki odpowiedzi HTTP pod kątem atrybutów `Link: <url>; rel=\"alternate\"; hreflang=\"code\"`.",
+        "faq5_q": "Co się stanie, jeśli mam błędy hreflang?",
+        "faq5_a": "Wyszukiwarki mogą zignorować nieprawidłowe tagi, co może prowadzić do niewyświetlania właściwych wersji językowych odpowiednim użytkownikom lub potencjalnych kar za duplikację treści.",
+        "faq6_q": "Czy to narzędzie jest darmowe?",
+        "faq6_a": "Tak, możesz wykonywać nielimitowane sprawdzenia za darmo, aby zapewnić doskonałe międzynarodowe SEO."
+    }
+}

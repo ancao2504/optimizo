@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML Kodlayıcı ve Kod Çözücü - Ücretsiz Çevrimiçi Varlık Aracı",
+        "description": "Ücretsiz çevrimiçi aracımızla XSS saldırılarını önlemek için HTML varlıklarını kodlayın ve çözün",
+        "h1": "HTML Kodlayıcı ve Kod Çözücü",
+        "subtitle": "XSS saldırılarını önlemek için HTML varlıklarını kodlayın ve çözün"
+    },
+    "editor": {
+        "mode_encode": "HTML Kodla",
+        "mode_decode": "HTML Çöz",
+        "label_input_encode": "Kodlanacak HTML'i Girin",
+        "ph_input_encode": "<div>Merhaba ve Hoş Geldiniz<\/div>",
+        "btn_encode": "HTML Kodla",
+        "btn_clear": "Temizle",
+        "btn_copy": "Kopyala",
+        "label_output_encode": "Kodlanmış HTML",
+        "ph_output": "İşlenmiş HTML burada görünecek...",
+        "label_input_decode": "Çözülecek HTML'i Girin",
+        "label_output_decode": "Çözülmüş HTML",
+        "btn_decode": "HTML Çöz"
+    },
+    "content": {
+        "hero_title": "Ücretsiz HTML Kodlayıcı ve Kod Çözücü",
+        "hero_subtitle": "XSS saldırılarını önlemek için HTML varlıklarını kodlayın ve çözün",
+        "p1": "Ücretsiz HTML Kodlayıcı ve Kod Çözücü aracımız; web sayfalarında güvenli görüntüleme için HTML'deki özel karakterleri kodlamanıza veya kodlanmış HTML'yi orijinal formatına döndürmenize yardımcı olur. Geliştiriciler, güvenlik profesyonelleri ve ham HTML ile çalışan herkes için mükemmeldir.",
+        "what_title": "🔗 HTML Kodlama Nedir?",
+        "what_desc": "HTML kodlama, HTML'de özel anlamı olan karakterleri (<, >, &, \" gibi) karşılık gelen HTML varlıklarına (&lt;, &gt;, &amp;, &quot; gibi) dönüştürür. Bu, tarayıcının bunları HTML etiketleri olarak yorumlamasını engeller; bu durum Siteler Arası Betik Çalıştırma (XSS) saldırılarını önlemek için kritiktir.",
+        "features_title": "✨ Özellikler",
+        "features": {
+            "fast": {
+                "title": "Anında Dönüşüm",
+                "desc": "Milisaniyeler içinde HTML kodlayın veya çözün"
+            },
+            "bidirectional": {
+                "title": "Çift Yönlü",
+                "desc": "Özel karakterleri kodlayın veya varlıkları tekrar metne dönüştürün"
+            },
+            "privacy": {
+                "title": "Önce Gizlilik",
+                "desc": "Tüm işlemler tarayıcınızda gerçekleşir"
+            },
+            "copy": {
+                "title": "Tek Tıkla Kopyalama",
+                "desc": "İşlenmiş HTML'yi anında panoya kopyalayın"
+            },
+            "free": {
+                "title": "%100 Ücretsiz",
+                "desc": "Sınır yok, kayıt gerekmez"
+            },
+            "safe": {
+                "title": "Güvenlik Odaklı",
+                "desc": "XSS açıklarını önlemeye yardımcı olur"
+            }
+        },
+        "uses_title": "🎯 Yaygın Kullanım Durumları",
+        "uses": {
+            "security": {
+                "title": "🔒 Güvenlik",
+                "desc": "Özel karakterleri kodlayarak XSS saldırılarını önlemek için kullanıcı girişlerini temizleyin."
+            },
+            "display": {
+                "title": "💻 Kod Görüntüleme",
+                "desc": "Tarayıcı tarafından işlenmeden bir web sayfasında ham HTML kodunu görüntüleyin."
+            },
+            "data": {
+                "title": "📊 Veri Depolama",
+                "desc": "HTML ayrıştırma sorunları endişesi duymadan içeriği veritabanlarında güvenle saklayın."
+            },
+            "email": {
+                "title": "✉️ E-posta Şablonları",
+                "desc": "Özel karakterlerin HTML e-postalarında doğru şekilde işlenmesini sağlayın."
+            }
+        },
+        "how_title": "📚 Nasıl Kullanılır",
+        "how_steps": {
+            "1": "HTML'nizi veya metninizi giriş alanına yapıştırın",
+            "2": "Dönüştürmek için işlem düğmesine tıklayın",
+            "3": "Sonucu panoya kopyalayın",
+            "4": "Kopyala the encoded\/decoded Sonuç and Kullanın it in your HTML, XML, or web applications."
+        },
+        "examples_title": "💡 HTML Kodlama Örnekleri",
+        "examples": {
+            "1": {
+                "title": "Tırnak İşaretleri:",
+                "code": "\"Merhaba\" → &quot;Merhaba&quot;"
+            },
+            "2": {
+                "title": "Ve İşareti (Ampersand):",
+                "code": "Ali & Veli → Ali &amp; Veli"
+            },
+            "3": {
+                "title": "Encoding Special Characters",
+                "code": "&lt;script&gt;alert(\"XSS\")&lt;\/script&gt; → &amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;\/script&amp;gt;"
+            }
+        },
+        "faq_title": "❓ Sıkça Sorulan Sorular",
+        "faq": {
+            "q1": "HTML'yi neden kodlamam gerekiyor?",
+            "a1": "Kodlama, tarayıcının kötü niyetli betikleri (XSS) yürütmesini önlemek ve kod parçacıklarını doğru şekilde görüntülemek için güvenlik açısından esastır.",
+            "q2": "Hangi karakterler kodlanır?",
+            "a2": "<, >, &, \", ve ' gibi temel karakterler her zaman kodlanır. Genişletilmiş ASCII karakterleri de kodlanabilir.",
+            "q3": "Geri döndürülebilir mi?",
+            "a3": "Evet, kod çözme (decoding) işlemi süreci tam olarak tersine çevirerek orijinal metni geri getirir."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen işlemek için HTML girin",
+        "success_encode": "✓ HTML başarıyla kodlandı",
+        "success_decode": "✓ HTML başarıyla çözüldü",
+        "error_process": "✗ HTML işlenirken hata oluştu: ",
+        "error_no_copy": "Kopyalanacak çıktı yok",
+        "success_copy": "✓ Panoya kopyalandı"
+    }
+}

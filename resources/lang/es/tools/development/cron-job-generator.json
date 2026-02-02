@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Generador de trabajos cron: herramienta Crontab gratuita en línea",
+        "description": "Constructor visual de tareas Cron. Genera expresiones sin memorizar el código.",
+        "h1": "Generador de trabajos cron",
+        "subtitle": "Crea programas Cron visualmente y sin errores"
+    },
+    "editor": {
+        "common_settings": "Ajustes comunes",
+        "choose": "-- Seleccionar --",
+        "options": {
+            "every_minute": "Cada minuto (* * * * *)",
+            "every_5_minutes": "Cada 5 minutos (*\/5 * * * *)",
+            "every_15_minutes": "Cada 15 minutos (*\/15 * * * *)",
+            "every_30_minutes": "Cada 30 minutos (*\/30 * * * *)",
+            "every_hour": "Cada hora (0 * * * *)",
+            "every_day_midnight": "Cada día a medianoche (0 0 * * *)",
+            "every_week": "Cada semana (0 0 * * 0)",
+            "every_month": "Cada mes (0 0 1 * *)"
+        },
+        "minute": "Minuto",
+        "every_minute": "Cada minuto (*)",
+        "hour": "Hora",
+        "every_hour": "Cada hora (*)",
+        "day": "Día",
+        "every_day": "Cada día (*)",
+        "month": "Mes",
+        "every_month": "Cada mes (*)",
+        "weekday": "Día de la semana",
+        "every_weekday": "Cada día de la semana (*)",
+        "command": "Comando a ejecutar",
+        "ph_command": "\/usr\/bin\/php \/ruta\/al\/script.php",
+        "generated_cron": "Expresión Cron Generada",
+        "btn_copy": "Copiar Cron",
+        "btn_clear": "Reiniciar"
+    },
+    "content": {
+        "hero_title": "Generador de Tareas Cron",
+        "p1": "Configurar tareas cron puede ser confuso con asteriscos y nÃºmeros crÃ­pticos. Nuestro Generador de Tareas Cron gratuito en lÃ­nea te permite construir programaciones cron perfectas visualmente. Ya sea que necesites ejecutar un script cada 5 minutos, a medianoche o en dÃ­as especÃ­ficos del mes, nuestra herramienta genera la sintaxis correcta para ti al instante.",
+        "features": {
+            "visual": {
+                "title": "Editor Visual",
+                "desc": "Selecciona minutos, horas, dÃ­as y meses usando una interfaz simple"
+            },
+            "readable": {
+                "title": "Legible para Humanos",
+                "desc": "Convierte expresiones cron a descripciones en espaÃ±ol simple"
+            }
+        },
+        "syntax_title": "ðŸ“š Entendiendo la Sintaxis Cron",
+        "syntax_intro": "Una expresiÃ³n cron consiste en 5 campos separados por espacios:",
+        "syntax_fields": {
+            "min": "Minuto (0-59)",
+            "hour": "Hora (0-23)",
+            "day": "DÃ­a del Mes (1-31)",
+            "month": "Mes (1-12)",
+            "week": "DÃ­a de la Semana (0-6, Domingo=0)"
+        },
+        "faq_title": "â“ Preguntas Frecuentes",
+        "faq": {
+            "q1": "Â¿QuÃ© es una tarea cron?",
+            "a1": "Una tarea cron es un programador de trabajos basado en tiempo en sistemas operativos tipo Unix. Los usuarios pueden programar trabajos (comandos o scripts) para ejecutarse periÃ³dicamente en tiempos, fechas o intervalos fijos.",
+            "q2": "Â¿CÃ³mo instalo una tarea cron?",
+            "a2": "TÃ­picamente usas el comando `crontab -e` en tu terminal para editar tu archivo cron. Luego pega la lÃ­nea generada al final del archivo.",
+            "q4": "Â¿QuÃ© significa el asterisco (*)?",
+            "a4": "Un asterisco significa \"cada\". Por ejemplo, un asterisco en el campo de minuto significa \"cada minuto\"."
+        }
+    },
+    "js": {
+        "success_copy": "¡Expresión Cron copiada con éxito!",
+        "no_copy": "No hay expresión cron para copiar"
+    }
+}

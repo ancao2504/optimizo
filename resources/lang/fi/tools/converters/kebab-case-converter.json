@@ -1,0 +1,129 @@
+{
+    "meta": {
+        "title": "Ilmainen Kebab Case Converter - Online URL String Tool",
+        "description": "Muunna teksti kebab-case-muotoon URL-osoitteita ja tiedostonimiä varten ilmaisella verkkotyökalullamme.",
+        "h1": "Kebab Case Converter",
+        "subtitle": "Muunna teksti kebab-case-muotoon URL-osoitteita ja tiedostonimiä varten"
+    },
+    "editor": {
+        "label_input": "Syötä teksti",
+        "ph_input": "hei maailma esimerkki",
+        "btn_convert": "Muunna kebab-caseksi",
+        "btn_clear": "Tyhjennä",
+        "btn_copy": "Kopioi",
+        "label_output": "Tulos (kebab-case)",
+        "ph_output": "hei-maailma-esimerkki"
+    },
+    "content": {
+        "hero_title": "kebab-case-muunnin",
+        "hero_subtitle": "Lopullinen työkalu hakukoneystävällisten URL-osoitteiden ja tiedostonimien nimeämiseen.",
+        "p1": "Muunna tekstisi kebab-case-muotoon ilmaisella verkkomuuntimellamme. kebab-case (tunnetaan myös nimillä spinal-case tai param-case) on nimeämiskäytäntö, jossa kaikki kirjaimet ovat pieniä ja sanat erotetaan yhdysmerkeillä (-). Se on standardi URL-slugien ja usein myös CSS-luokkanimien nimeämisessä.",
+        "features_title": "Ominaisuudet",
+        "features": {
+            "url": {
+                "title": "Puhtaat URL-osoitteet",
+                "desc": "Hakukoneet suosivat yhdysmerkkejä URL-osoitteisiin."
+            },
+            "instant": {
+                "title": "Välitön muunnos",
+                "desc": "Saat lopputuloksen heti muunnosnapin painamisen jälkeen."
+            },
+            "privacy": {
+                "title": "Yksityisyys suojattu",
+                "desc": "Tekstisi ei koskaan poistu laitteestasi."
+            },
+            "bulk": {
+                "title": "Massakäsittely",
+                "desc": "Muunna pitkiä tekstejä tai useita rivejä yhdellä kertaa."
+            },
+            "smart": {
+                "title": "Älykäs käsittely",
+                "desc": "Tunnistaa ja korvaa välilyönnit, alaviivat ja erikoismerkit yhdysmerkeillä."
+            },
+            "free": {
+                "title": "Täysin ilmainen",
+                "desc": "Tehokas työkalu kaikkien vapaaseen käyttöön."
+            }
+        },
+        "uses_title": "Milloin käyttää kebab-case-muotoa",
+        "uses": {
+            "url": {
+                "title": "URL Slugs",
+                "desc": "Luettavien, hakuystävällisten URL-osoitteiden luominen blogikirjoituksille ja tuotteille."
+            },
+            "css": {
+                "title": "CSS-luokat",
+                "desc": "Yleisin tapa nimetä luokkia ja id-tunnuksia tyylitiedostoissa (esim. .paa-valikko)."
+            },
+            "file": {
+                "title": "Tiedoston nimeäminen",
+                "desc": "Standardi eri alustojen yhteensopiville tiedostonimille."
+            },
+            "html": {
+                "title": "HTML-tunnukset",
+                "desc": "Kuvaavien, yksilöllisten tunnusten antaminen elementeillesi."
+            },
+            "pkg": {
+                "title": "Pakettien nimet",
+                "desc": "Yleinen npm:ssä ja muissa nykyaikaisissa paketinhallintaohjelmissa."
+            },
+            "domain": {
+                "title": "Verkkotunnukset",
+                "desc": "Monisanaisten verkkotunnusten rekisteröintien muotoilu."
+            }
+        },
+        "how_title": "Näin työkalumme toimii",
+        "how_to_steps": [
+            {
+                "title": "Insert Text",
+                "desc": "Enter your phrase or URL fragment."
+            },
+            {
+                "title": "Automatic Format",
+                "desc": "The tool turns everything to lowercase."
+            },
+            {
+                "title": "Hyphenation",
+                "desc": "It replaces all non-alphanumeric characters with hyphens."
+            },
+            {
+                "title": "Cleanup",
+                "desc": "It handles multiple spaces or hyphens gracefully."
+            },
+            {
+                "title": "Ready to Use",
+                "desc": "The kebab-case text is outputted."
+            }
+        ],
+        "samples_title": "Esimerkkejä",
+        "samples": [
+            {
+                "title": "URL Slug",
+                "desc": "My Web Page → my-web-page"
+            },
+            {
+                "title": "CSS Class",
+                "desc": "Header Navigation → header-navigation"
+            }
+        ],
+        "faq_title": "Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mikä on kebab-case?",
+            "a1": "Kebab-case on nimeämistyyli, jossa sanat erotetaan viivoilla, kuten vartaassa (kebabissa).",
+            "q2": "Miksi se on parempi URL-osoitteissa?",
+            "a2": "Hakukoneet tunnistavat yhdysmerkin (-) sananerottimeksi paremmin kuin alaviivan (_) tai välilyönnin.",
+            "q3": "Miten se eroaa snake_casesta?",
+            "a3": "Snake_case käyttää alaviivaa (alaviiva_erotin), kun taas kebab-case käyttää viivaa (viiva-erotin).",
+            "q4": "Voiko se sisältää numeroita?",
+            "a4": "Kyllä, numerot säilyvät osana nimeä (esim. sivu-1-otsikko).",
+            "q5": "Poistaako se äidinkieliset merkit (ä, ö)?",
+            "a5": "Työkalu yleensä muuntaa ne ASCII-vastikkeiksi (a, o) parhaan yhteensopivuuden takaamiseksi."
+        }
+    },
+    "js": {
+        "error_empty": "Syötä tekstiä muunnettavaksi",
+        "success_convert": "✓ Muunnettu kebab-caseksi onnistuneesti!",
+        "error_copy": "Ei mitään kopioitavaa! Muunna ensin tekstiä.",
+        "success_copy": "✓ Kopioitu leikepöydälle!"
+    }
+}

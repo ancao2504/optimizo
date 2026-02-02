@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "유니코드 인코더 및 디코더 - 무료 온라인 텍스트 도구",
+        "description": "유니코드 이스케이프 시퀀스를 인코딩하거나 복원하세요. JS 및 JSON 개발을 위한 무료 온라인 도구.",
+        "h1": "유니코드 인코더 및 디코더",
+        "subtitle": "JavaScript 및 JSON용 유니코드 이스케이프 시퀀스 관리"
+    },
+    "editor": {
+        "btn_encode": "Unicode로 인코딩",
+        "btn_decode": "Unicode에서 디코딩",
+        "label_input_encode": "인코딩할 텍스트 입력",
+        "ph_input": "안녕하세요 (Hello World)",
+        "btn_process_encode": "Unicode로 변환",
+        "btn_clear": "지우기",
+        "btn_copy": "복사",
+        "label_output_encoded": "인코딩된 결과 (Unicode)",
+        "ph_output": "처리된 유니코드가 여기에 표시됩니다...",
+        "label_input_decode": "디코딩할 Unicode 입력",
+        "label_output_decoded": "복원된 텍스트 결과",
+        "btn_process_decode": "텍스트로 변환"
+    },
+    "content": {
+        "p1": "특수 문자나 비라틴계 문자를 코딩 환경에서 안전하게 처리하고 싶을 때 유니코드 이스케이프 시퀀스(\\uXXXX)는 필수적입니다. 당사의 도구는 일반 텍스트를 이러한 시퀀스로 바꾸거나, 암호 같은 코드를 다시 우리가 읽을 수 있는 언어로 해독해 줍니다. 100% 브라우저 기반 처리로 정보가 안전하게 보호됩니다.",
+        "what_title": "What is Unicode Encoding?",
+        "what_desc": "Unicode encoding converts characters into their corresponding Unicode code points, often represented as escape sequences like \\uXXXX. This ensures that text containing special characters, emojis, or non-Latin scripts can be safely represented in environments that typically support only ASCII, such as source code files or JSON data.",
+        "features_title": "Features",
+        "features": {
+            "instant": {
+                "title": "Instant Conversion",
+                "desc": "Encode or decode Unicode in milliseconds"
+            },
+            "bidirectional": {
+                "title": "양방향 변환 시스템",
+                "desc": "상황에 맞춰 인코딩과 디코딩을 자유롭게 오가며 작업 효율을 높입니다."
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All processing happens in your browser"
+            },
+            "copy": {
+                "title": "One-Click Copy",
+                "desc": "Copy encoded\/decoded text instantly"
+            },
+            "free": {
+                "title": "100% Free",
+                "desc": "No limits, no registration required"
+            },
+            "universal": {
+                "title": "모든 문자 지원",
+                "desc": "전 세계 모든 언어, 특수 기호, 이모지까지 완벽하게 대응합니다."
+            }
+        },
+        "uses_title": "Common Use Cases",
+        "uses": {
+            "programming": {
+                "title": "Programming",
+                "desc": "Embed special characters in JavaScript or Java source code safely"
+            },
+            "data": {
+                "title": "Data Serialization",
+                "desc": "Ensure safe transmission of non-ASCII characters in JSON"
+            },
+            "international": {
+                "title": "Internationalization",
+                "desc": "Debug and display text in various languages and scripts"
+            },
+            "security": {
+                "title": "Security",
+                "desc": "Analyze obfuscated code or data containing Unicode escapes"
+            }
+        },
+        "how_to_title": "How to Use",
+        "how_to": {
+            "step1": {
+                "title": "Choose Mode",
+                "desc": "Select \"Encode Unicode\" or \"Decode Unicode\" based on your need"
+            },
+            "step2": {
+                "title": "Enter Text",
+                "desc": "Paste your text or Unicode escapes in the input field"
+            },
+            "step3": {
+                "title": "Process",
+                "desc": "Click the encode or decode button"
+            },
+            "step4": {
+                "title": "Copy Result",
+                "desc": "Click \"Copy\" to copy the processed text to clipboard"
+            },
+            "step5": {
+                "title": "Use Anywhere",
+                "desc": "Paste the result in your code or application"
+            }
+        },
+        "examples_title": "Unicode Examples",
+        "examples": {
+            "simple": {
+                "title": "Simple\/ASCII:",
+                "desc": "Original: \"A\" â†’ Encoded: \"\\u0041\""
+            },
+            "special": {
+                "title": "Special Characters:",
+                "desc": "Original: \"Â©\" â†’ Encoded: \"\\u00A9\""
+            },
+            "emoji": {
+                "title": "Emojis\/Multi-byte:",
+                "desc": "Original: \"ðŸŒŸ\" â†’ Encoded: \"\\uD83C\\uDF1F\" (surrogate pairs) or \"\\u2B50\" depending on representation"
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "왜 유니코드 이스케이프를 쓰나요?",
+            "a1": "소스 코드 인코딩 문제로 문자가 깨지는 것을 방지하고, ASCII만 지원하는 오래된 시스템에서도 다국어 데이터를 안전하게 유지하기 위해 사용합니다.",
+            "q2": "URL 인코딩과 무엇이 다른가요?",
+            "a2": "URL 인코딩은 %XX 형식을 쓰며 주로 웹 주소에 쓰이지만, 유니코드 이스케이프는 \\uXXXX 형식을 쓰며 프로그래밍 코드 내부에서 주로 쓰입니다.",
+            "q3": "Is this different from URL encoding?",
+            "a3": "Yes. URL encoding uses %XX hex values mainly for URLs. Unicode escaping uses \\uXXXX and is used in strings in programming languages like JavaScript, Java, and Python.",
+            "q4": "Is my data secure?",
+            "a4": "Yes! All encoding and decoding happens entirely in your browser using JavaScript. Your text never leaves your device."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter text to process",
+        "success_encode": "âœ“ Unicode encoded successfully",
+        "success_decode": "âœ“ Unicode decoded successfully",
+        "error_process": "âœ— Error processing Unicode: ",
+        "error_no_copy": "No output to copy",
+        "success_copy": "âœ“ Copied to clipboard"
+    }
+}

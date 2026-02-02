@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "Decodificador JWT Online - Depurador JSON Web Token Gratuito",
+        "description": "Decodifique e inspecione JSON Web Tokens (JWT) - Visualize cabeçalho, payload e assinatura!",
+        "h1": "Decodificador JWT",
+        "subtitle": "Decodifique e inspecione JSON Web Tokens (JWT) - Visualize cabeçalho, payload e assinatura!"
+    },
+    "editor": {
+        "label_input": "Inserir Token JWT",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Decodificar JWT",
+        "btn_clear": "Limpar",
+        "btn_example": "Exemplo",
+        "label_payload": "Payload (Claims)",
+        "label_signature": "Assinatura",
+        "note_signature": "⚠️ Observação: A verificação da assinatura requer a chave secreta"
+    },
+    "content": {
+        "hero_title": "Decodificador JWT Online Gratuito",
+        "hero_subtitle": "Decodifique e inspecione JSON Web Tokens instantaneamente",
+        "p1": "Nossa ferramenta gratuita de Decodificador JWT permite que você decodifique e inspecione JSON Web Tokens (JWT) para visualizar seus componentes de cabeçalho, payload e assinatura. Perfeito para depurar problemas de autenticação, entender a estrutura do token e validar reivindicações JWT.",
+        "what_title": "🔍 O que é JWT?",
+        "what_desc": "JSON Web Token (JWT) é um meio compacto e seguro para URL de representar reivindicações entre duas partes. Os JWTs consistem em três partes: Cabeçalho (algoritmo e tipo de token), Payload (reivindicações\/dados) e Assinatura (verificação), separados por pontos.",
+        "features_title": "✨ Recursos",
+        "features": {
+            "instant": {
+                "title": "Decodificação Instantânea",
+                "desc": "Decodifique JWTs em milissegundos"
+            },
+            "structured": {
+                "title": "Visualização Estruturada",
+                "desc": "Veja o cabeçalho, payload e assinatura separadamente"
+            },
+            "privacy": {
+                "title": "Privacidade em Primeiro Lugar",
+                "desc": "Toda a decodificação acontece no seu navegador"
+            }
+        },
+        "uses_title": "🎯 Casos de Uso Comuns",
+        "uses": {
+            "debug": {
+                "title": "🐞 Depuração",
+                "desc": "Depure problemas de autenticação inspecionando o conteúdo do JWT"
+            },
+            "validate": {
+                "title": "✅ Validação",
+                "desc": "Verifique as reivindicações JWT e os horários de expiração"
+            },
+            "learn": {
+                "title": "📚 Aprendizado",
+                "desc": "Entenda a estrutura e os componentes do JWT"
+            },
+            "dev": {
+                "title": "🔧 Desenvolvimento",
+                "desc": "Teste a geração e análise de JWT em seus aplicativos"
+            }
+        },
+        "faq_title": "❓ Perguntas Frequentes",
+        "faq": {
+            "q1": "É seguro decodificar JWTs aqui?",
+            "a1": "Sim! Toda a decodificação acontece no seu navegador. Seu JWT nunca sai do seu dispositivo. No entanto, nunca compartilhe JWTs publicamente, pois eles podem conter informações confidenciais.",
+            "q2": "Esta ferramenta pode verificar assinaturas JWT?",
+            "a2": "Esta ferramenta decodifica e exibe componentes JWT, mas não verifica assinaturas, pois isso requer a chave secreta, que nunca deve ser compartilhada.",
+            "q3": "O que são reivindicações JWT?",
+            "a3": "Reivindicações são declarações sobre uma entidade (normalmente o usuário) e dados adicionais. Reivindicações comuns incluem 'sub' (assunto), 'exp' (expiração) e 'iat' (emitido em)."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor, insira um token JWT",
+        "error_invalid_format": "Formato JWT inválido. O JWT deve ter 3 partes separadas por pontos.",
+        "success_decode": "✓ JWT decodificado com sucesso",
+        "error_decode": "✗ Erro ao decodificar JWT: "
+    }
+}
