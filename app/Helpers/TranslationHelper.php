@@ -153,7 +153,7 @@ if (!function_exists('__tool')) {
             'youtube-thumbnail-downloader' => 'youtube',
             'youtube-video-data-extractor' => 'youtube',
             'youtube-video-tags-extractor' => 'youtube',
-            'youtube-video-downloader' => 'video-downloader',
+            'youtube-video-downloader' => 'downloader',
         ];
 
         // Check for translation file in multiple locations (scalable strategy)
