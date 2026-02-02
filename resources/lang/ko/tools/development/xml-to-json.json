@@ -1,130 +1,102 @@
 {
     "meta": {
-        "title": "XML을 JSON으로 변환기 - 무료 온라인 파서 도구",
-        "description": "XML 데이터를 현대적인 JSON 형식으로 즉시 변환하세요. API 연동을 위한 무료 온라인 도구.",
-        "subtitle": "레거시 XML 데이터를 깨끗한 JSON 구조로 즉시 변환",
-        "h1": "XML-JSON 변환기"
+        "title": "XML-JSON 변환기 - 무료 온라인 데이터 변환 도구",
+        "description": "XML을 JSON으로 쉽게 변환하세요. 웹 개발 및 데이터 처리를 위한 빠르고, 무료이며 안전한 변환기.",
+        "h1": "XML-JSON 변환기",
+        "subtitle": "XML 데이터를 JSON 구조로 즉시 변환"
     },
     "editor": {
-        "btn_convert": "Convert to JSON",
-        "btn_copy": "Copy JSON",
-        "btn_download": "Download",
-        "btn_example": "Load Example",
-        "btn_clear": "Clear",
-        "label_input": "XML Input",
-        "ph_input": "<?xml version=\"1.0\"?>\n<root>\n  <item>Your XML here...<\/item>\n<\/root>",
-        "label_output": "JSON Output",
-        "ph_output": "Converted JSON will appear here..."
+        "btn_convert": "JSON으로 변환",
+        "btn_clear": "지우기",
+        "btn_copy": "복사",
+        "btn_example": "예제 불러오기",
+        "label_input": "XML 입력",
+        "ph_input": "여기에 XML 데이터를 입력하세요...",
+        "label_output": "JSON 출력",
+        "ph_output": "변환된 JSON이 여기에 표시됩니다..."
     },
     "content": {
-        "h2": "Free XML to JSON Converter Online",
-        "p1": "Transform XML data into JSON format instantly with our powerful, free online XML to JSON converter. Perfect for developers, data analysts, and anyone working with API integrations, data migration, or modern web applications.",
-        "p2": "XML (eXtensible Markup Language) has been a standard for data exchange for decades, but modern applications increasingly prefer JSON (JavaScript Object Notation) for its simplicity and native JavaScript support. Our converter bridges this gap, allowing you to seamlessly transform XML documents into clean, readable JSON format.",
-        "p3": "Whether you're migrating legacy systems, integrating with RESTful APIs, or simply need to convert configuration files, our tool handles it all with precision and speed. No installation required, no registration needed – just paste your XML and get instant results.",
-        "features_title": "Powerful Features",
+        "hero_title": "XML을 JSON으로 원활하게 변환",
+        "hero_subtitle": "개발자와 데이터 분석가를 위한 최고의 XML-JSON 도구",
+        "p1": "레거시 XML 데이터를 최신 JSON 형식으로 변환해야 하나요? 저희 변환기는 복잡한 XML 구조, 속성 및 중첩된 태그를 깨끗한 JSON 객체로 쉽고 정확하게 처리합니다.",
+        "what_title": "왜 XML을 JSON으로 변환하나요?",
+        "what_desc": "XML은 수년간 데이터 교환의 표준이었지만, JSON은 가벼운 특성으로 인해 현대 웹 API 및 JavaScript 애플리케이션에서 선호되는 형식이 되었습니다. 변환을 통해 레거시 데이터 소스와 최신 웹 기술 간의 상호 운용성을 확보할 수 있습니다.",
+        "features_title": "기능",
         "features": {
             "fast": {
-                "title": "Lightning Fast",
-                "desc": "Instant conversion with real-time processing. No waiting, no delays."
+                "title": "번개처럼 빠른 속도",
+                "desc": "최적화된 파싱 알고리즘을 사용하여 대용량 XML 파일도 즉시 변환합니다."
+            },
+            "structure": {
+                "title": "구조 보존",
+                "desc": "변환 중에 XML 속성, 텍스트 노드 및 계층 구조를 보존합니다."
             },
             "secure": {
-                "title": "100% Secure",
-                "desc": "All conversion happens in your browser. Your data never leaves your device."
+                "title": "브라우저 기반",
+                "desc": "서버로 데이터가 전송되지 않습니다. 보안을 위해 클라이언트 측에서 100% 처리됩니다."
+            },
+            "clean": {
+                "title": "깔끔한 출력",
+                "desc": "애플리케이션에서 즉시 사용할 수 있는 축소되거나 형식이 지정된 JSON을 생성합니다."
             },
             "attributes": {
-                "title": "Attribute Handling",
-                "desc": "Preserves XML attributes and converts them properly to JSON structure."
-            },
-            "nested": {
-                "title": "Nested Structure",
-                "desc": "Maintains complex hierarchical data structures during conversion."
-            },
-            "pretty": {
-                "title": "Pretty Formatting",
-                "desc": "Clean, indented JSON output that's easy to read and understand."
-            },
-            "validation": {
-                "title": "Error Validation",
-                "desc": "Detects and reports invalid XML syntax with helpful error messages."
+                "title": "속성 지원",
+                "desc": "XML 속성을 JSON 속성으로 지능적으로 매핑하여 데이터 손실을 방지합니다."
             }
         },
-        "uses_title": "Common Use Cases",
+        "uses_title": "사용 사례",
         "uses": {
-            "api": {
-                "title": "API Integration",
-                "desc": "Convert XML API responses to JSON for modern web applications and RESTful services."
+            "web": {
+                "title": "웹 개발",
+                "desc": "프런트엔드 애플리케이션에서 쉽게 사용하기 위해 SOAP 응답을 JSON으로 변환합니다."
             },
-            "migration": {
-                "title": "Data Migration",
-                "desc": "Transform XML databases and exports to JSON for NoSQL systems like MongoDB."
+            "api": {
+                "title": "API 마이그레이션",
+                "desc": "XML 기반 백엔드에서 JSON RESTful 서비스로 전환하는 데 도움이 됩니다."
+            },
+            "data": {
+                "title": "데이터 분석",
+                "desc": "JSON용으로 제작된 최신 데이터 도구로 XML 로그 또는 문서를 처리합니다."
             },
             "config": {
-                "title": "Configuration Files",
-                "desc": "Convert XML configuration files to JSON for modern applications and build tools."
-            },
-            "soap": {
-                "title": "SOAP to REST",
-                "desc": "Transform SOAP XML responses to JSON for RESTful services."
-            },
-            "rss": {
-                "title": "RSS Feeds",
-                "desc": "Convert RSS and Atom feeds (XML format) to JSON for parsing in JS apps."
-            },
-            "analysis": {
-                "title": "Data Analysis",
-                "desc": "Convert XML data exports to JSON for easier analysis with JavaScript libraries."
+                "title": "구성 파일",
+                "desc": "XML 구성을 Node.js 앱을 위한 JSON으로 변환합니다."
             }
         },
-        "how_to_title": "How XML to JSON Conversion Works",
-        "how_to_desc": "Our XML to JSON converter uses advanced parsing algorithms to accurately transform XML documents into JSON format.",
-        "steps": [
-            {
-                "title": "Paste Your XML",
-                "desc": "Copy and paste your XML code into the input field above."
+        "how_title": "사용 방법",
+        "how_steps": {
+            "1": {
+                "title": "1단계: XML 입력",
+                "desc": "XML 데이터를 왼쪽 패널에 붙여넣으세요."
             },
-            {
-                "title": "Click Convert",
-                "desc": "Press the \"Convert to JSON\" button to start the transformation."
+            "2": {
+                "title": "2단계: 변환",
+                "desc": "'JSON으로 변환' 버튼을 클릭하세요."
             },
-            {
-                "title": "Copy and Use",
-                "desc": "Review the beautifully formatted JSON results and use the copy button for easy export."
+            "3": {
+                "title": "3단계: 복사/다운로드",
+                "desc": "나온 JSON 코드를 복사하거나 나중에 사용할 수 있도록 저장하세요."
             }
-        ],
-        "example_title": "Example Conversion",
-        "faq_title": "Frequently Asked Questions",
+        },
+        "faq_title": "자주 묻는 질문",
         "faq": {
-            "q1": "Is this converter free to use?",
-            "a1": "Yes, our XML to JSON converter is 100% free with no hidden costs or registration required.",
-            "q2": "Is my data secure?",
-            "a2": "Absolutely. All processing happens locally in your browser, meaning your data never leaves your device.",
-            "q3": "Does it support nested structures?",
-            "a3": "Yes, it correctly handles complex nested XML elements and preserves their hierarchical relationships.",
-            "q4": "How are attributes handled?",
-            "a4": "XML attributes are converted into JSON properties, typically prefixed with an underscore for clarity."
-        },
-        "tips_title": "Tips & Best Practices",
-        "tips": [
-            {
-                "title": "Validate Your XML",
-                "desc": "Ensure your XML is well-formed before conversion to avoid processing errors."
-            },
-            {
-                "title": "Use Pretty Printing",
-                "desc": "Our tool automatically formats the JSON output for maximum readability."
-            },
-            {
-                "title": "Browser Privacy",
-                "desc": "Since it runs client-side, you can even use it offline once the page is loaded."
-            }
-        ]
+            "q1": "이 변환기는 무료인가요?",
+            "a1": "네, 완전히 무료이며 제한 없이 사용할 수 있습니다.",
+            "q2": "제 데이터는 안전한가요?",
+            "a2": "네, 변환은 브라우저에서 로컬로 이루어집니다. 데이터는 서버에 업로드되지 않습니다.",
+            "q3": "잘못된 XML을 처리하나요?",
+            "a3": "기본적인 오류 수정은 시도하지만 최상의 결과를 위해서는 유효한 XML이 권장됩니다.",
+            "q4": "속성은 어떻게 처리되나요?",
+            "a4": "속성은 JSON 내의 키-값 쌍으로 변환되며, 종종 텍스트 내용과 구별하기 위해 접두사가 붙습니다.",
+            "q5": "파일 크기 제한이 있나요?",
+            "a5": "엄격한 제한은 없지만 매우 큰 파일은 기기의 메모리에 따라 브라우저 속도를 저하시킬 수 있습니다."
+        }
     },
     "js": {
-        "error_empty": "Please enter some XML data to convert.",
-        "error_syntax": "\\n\\nPlease check your XML syntax.",
-        "error_process": "Error converting XML: ",
-        "error_no_copy": "No JSON to copy. Please convert XML first.",
-        "success_copy": "Copied!",
-        "error_no_download": "No JSON to download. Please convert XML first."
+        "error_empty": "변환할 XML 데이터를 입력하세요",
+        "success_convert": "✓ XML이 JSON으로 성공적으로 변환되었습니다!",
+        "error_convert": "XML 변환 오류: ",
+        "error_no_copy": "복사할 내용이 없습니다. 먼저 변환하세요.",
+        "success_copy": "✓ JSON이 클립보드에 복사되었습니다!"
     }
 }

@@ -1,97 +1,92 @@
 {
     "meta": {
-        "title": "YAML-JSON 변환기 - 무료 온라인 데이터 도구",
-        "description": "YAML 설정 파일을 JSON 형식으로 즉시 변환하세요. 설정 최적화를 위한 무료 온라인 도구.",
+        "title": "YAML-JSON 변환기 - 무료 온라인 개발자 도구",
+        "description": "YAML을 JSON 형식으로 즉시 변환하세요. 구성 파일 및 데이터 처리를 위한 빠르고 정확한 변환기.",
         "h1": "YAML-JSON 변환기",
-        "subtitle": "YAML 데이터를 표준 JSON 형식으로 실시간 변환"
+        "subtitle": "YAML 구성 및 데이터를 JSON 객체로 변환"
     },
     "editor": {
-        "btn_convert": "Convert",
-        "btn_copy": "Copy JSON",
-        "btn_download": "Download",
-        "btn_example": "Example",
-        "btn_clear": "Clear",
-        "label_input": "YAML Input",
-        "ph_input": "Paste your YAML data here...",
-        "label_output": "JSON Output",
-        "ph_output": "Converted JSON will appear here..."
+        "btn_convert": "JSON으로 변환",
+        "btn_clear": "지우기",
+        "btn_copy": "복사",
+        "btn_example": "예제 불러오기",
+        "label_input": "YAML 입력",
+        "ph_input": "여기에 YAML을 붙여넣으세요...",
+        "label_output": "JSON 출력",
+        "ph_output": "JSON 결과가 여기에 표시됩니다..."
     },
     "content": {
-        "h2": "About YAML to JSON Converter",
-        "p1": "Convert YAML configuration files to JSON format instantly with our free online YAML to JSON converter. Perfect for developers working with configuration files, CI\/CD pipelines, and data transformation.",
-        "features_title": "Key Features",
+        "hero_title": "YAML에서 JSON으로 쉽게 변환",
+        "hero_subtitle": "DevOps 및 개발자를 위한 필수 변환 도구",
+        "p1": "가독성이 좋은 YAML 데이터를 웹 애플리케이션용 JSON으로 변환해야 하나요? 저희의 실시간 변환기는 복잡한 YAML 구조를 유효한 JSON으로 원활하게 변환하여 Kubernetes 구성, CI/CD 파이프라인 및 앱 개발을 더 쉽게 만듭니다.",
+        "what_title": "YAML과 JSON",
+        "what_desc": "YAML(YAML Ain't Markup Language)은 사람이 읽기 쉬운 형식으로 구성 파일에 자주 사용되는 반면, JSON(JavaScript Object Notation)은 웹 데이터 전송의 표준입니다. 이 도구는 둘 사이를 쉽게 전환하여 플랫폼 간 호환성을 보장합니다.",
+        "features_title": "왜 이 도구를 사용해야 하나요?",
         "features": {
-            "syntax": {
-                "title": "Syntax Validation",
-                "desc": "Detects YAML syntax errors"
+            "realtime": {
+                "title": "실시간 변환",
+                "desc": "입력하는 즉시 도구가 실시간으로 YAML을 JSON으로 변환합니다."
             },
-            "nested": {
-                "title": "Nested Structure",
-                "desc": "Preserves complex hierarchies"
+            "error": {
+                "title": "오류 감지",
+                "desc": "잘못된 구문에 대한 즉각적인 피드백을 받아 YAML 문제를 빠르게 수정할 수 있습니다."
             },
-            "array": {
-                "title": "Array Support",
-                "desc": "Handles YAML lists and sequences"
+            "client": {
+                "title": "클라이언트 측 보안",
+                "desc": "데이터는 기기 내에서 처리됩니다. 서버로 전송되지 않습니다."
             },
-            "pretty": {
-                "title": "Pretty Formatting",
-                "desc": "Clean, readable JSON output"
-            },
-            "instant": {
-                "title": "Instant Conversion",
-                "desc": "Real-time transformation"
-            },
-            "privacy": {
-                "title": "Privacy First",
-                "desc": "All processing in browser"
+            "complex": {
+                "title": "복잡한 구조 처리",
+                "desc": "중첩된 목록, 객체 및 다양한 데이터 유형을 정확하게 변환합니다."
             }
         },
-        "uses_title": "Common Use Cases",
+        "uses_title": "사용 시기",
         "uses": {
-            "config": {
-                "title": "Config Files",
-                "desc": "Convert YAML configuration files to JSON for applications."
+            "devops": {
+                "title": "클라우드 구성",
+                "desc": "다른 도구와의 상호 운용성을 위해 Kubernetes 또는 Docker Compose YAML을 JSON으로 변환합니다."
             },
-            "pipeline": {
-                "title": "CI\/CD Pipelines",
-                "desc": "Transform YAML pipeline configs to JSON format."
+            "api": {
+                "title": "API 디버깅",
+                "desc": "간소화된 YAML로 요청을 작성한 다음 테스트를 위해 JSON으로 변환합니다."
             },
-            "k8s": {
-                "title": "Kubernetes",
-                "desc": "Convert Kubernetes YAML manifests to JSON."
-            },
-            "docker": {
-                "title": "Docker Compose",
-                "desc": "Transform Docker Compose YAML to JSON."
+            "app": {
+                "title": "앱 구성",
+                "desc": "웹 앱에서 직접 사용하기 위해 YAML 구성 파일을 JSON으로 전환합니다."
             }
         },
-        "how_to_title": "How to Use YAML to JSON Converter",
-        "how_to_steps": [
-            {
-                "title": "Paste YAML",
-                "desc": "Copy and paste your YAML code into the input area."
+        "how_title": "작동 방식",
+        "how_steps": {
+            "1": {
+                "title": "입력",
+                "desc": "왼쪽 창에 YAML 데이터를 입력하거나 붙여넣으세요."
             },
-            {
-                "title": "Automatic Conversion",
-                "desc": "The tool converts YAML to JSON in real-time as you type."
+            "2": {
+                "title": "변환",
+                "desc": "오른쪽 창에서 JSON 출력을 자동으로 확인하세요. (또는 변환 클릭)"
             },
-            {
-                "title": "Copy or Download",
-                "desc": "Copy the resulting JSON or download it as a .json file."
+            "3": {
+                "title": "사용",
+                "desc": "결과 JSON을 복사하여 워크플로우에 붙여넣으세요."
             }
-        ],
-        "faq_title": "Frequently Asked Questions",
+        },
+        "faq_title": "질문과 답변",
         "faq": {
-            "q1": "Is it free?",
-            "a1": "Yes, our YAML to JSON converter is 100% free.",
-            "q2": "Is my data secure?",
-            "a2": "Yes, all conversion happens in your browser. We don't store your data."
+            "q1": "무료인가요?",
+            "a1": "네, 완전히 무료입니다.",
+            "q2": "데이터는 안전한가요?",
+            "a2": "네, 모든 변환은 브라우저에서 로컬로 수행됩니다.",
+            "q3": "유효하지 않은 YAML을 처리하나요?",
+            "a3": "구문 오류를 파악하는 데 도움이 되도록 오류 메시지를 표시합니다.",
+            "q4": "YAML 1.2를 지원하나요?",
+            "a4": "네, 최신 YAML 표준 및 사양을 지원합니다."
         }
     },
     "js": {
-        "error_process": "Error converting YAML: ",
-        "error_no_copy": "No JSON to copy. Please convert YAML first.",
-        "success_copy": "JSON copied to clipboard!",
-        "error_no_download": "No JSON to download. Please convert YAML first."
+        "error_empty": "변환할 YAML 데이터를 입력하세요",
+        "success_convert": "✓ YAML이 JSON으로 성공적으로 변환되었습니다!",
+        "error_convert": "YAML 변환 오류: ",
+        "error_no_copy": "복사할 내용이 없습니다.",
+        "success_copy": "✓ JSON이 복사되었습니다!"
     }
 }

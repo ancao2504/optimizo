@@ -6,12 +6,12 @@
         "subtitle": "JSON 데이터를 데이터베이스용 SQL 쿼리로 즉시 변환"
     },
     "editor": {
-        "label_tablename": "Table Name",
-        "ph_tablename": "Enter table name (e.g., users)",
+        "label_tablename": "테이블 이름",
+        "ph_tablename": "테이블 이름을 입력하세요 (예: users)",
         "btn_convert": "SQL 생성하기",
         "btn_clear": "지우기",
         "btn_copy": "쿼리 복사",
-        "btn_example": "Load Example",
+        "btn_example": "예제 불러오기",
         "label_input": "JSON 데이터 입력",
         "ph_input": "[{\"name\": \"Alice\", \"age\": 25}, {\"name\": \"Bob\", \"age\": 30}]",
         "label_output": "생성된 SQL 쿼리",
@@ -19,92 +19,92 @@
     },
     "content": {
         "hero_title": "JSON 데이터를 SQL 쿼리로 자동 변환",
-        "hero_subtitle": "The fastest way to generate database seeding scripts",
+        "hero_subtitle": "데이터베이스 시딩 스크립트를 생성하는 가장 빠른 방법",
         "p1": "개발 현장에서 수집된 JSON 데이터를 데이터베이스에 직접 넣고 싶을 때, 수동으로 쿼리를 짤 필요가 없습니다. 당사의 도구는 JSON 배열의 각 객체를 분석하여 해당되는 SQL `INSERT` 구문을 자동으로 생성해 줍니다. MySQL, PostgreSQL, SQLite 등 주요 DB에서 바로 사용 가능합니다.",
-        "what_title": "When to Use This Tool?",
-        "what_desc": "If you have a collection of data in JSON format—such as an export from a NoSQL database or an API response—and you need to insert it into a relational database like MySQL, PostgreSQL, or SQL Server, this tool is for you. It formats each object into a clean SQL statement.",
-        "features_title": "Key Features",
+        "what_title": "이 도구는 언제 사용하나요?",
+        "what_desc": "NoSQL 데이터베이스나 API 응답과 같은 JSON 형식의 데이터 컬렉션이 있고 이를 MySQL, PostgreSQL 또는 SQL Server와 같은 관계형 데이터베이스에 삽입해야 하는 경우 이 도구가 적합합니다. 각 객체를 깔끔한 SQL 문으로 포맷합니다.",
+        "features_title": "주요 기능",
         "features": {
             "fast": {
-                "title": "Instant Generation",
-                "desc": "Generate hundreds of SQL lines in the blink of an eye."
+                "title": "즉시 생성",
+                "desc": "눈 깜짝할 사이에 수백 줄의 SQL을 생성합니다."
             },
             "private": {
                 "title": "안전한 변환",
                 "desc": "DB 정보 노출 위험 없이 브라우저 로컬에서 안전하게 변환됩니다."
             },
             "copy": {
-                "title": "One-Click Export",
-                "desc": "Copy the entire script or download it for your migrations."
+                "title": "원클릭 내보내기",
+                "desc": "전체 스크립트를 복사하거나 마이그레이션을 위해 다운로드합니다."
             },
             "smart": {
-                "title": "Smart Escaping",
-                "desc": "Automatically handles quotes and special characters in strings."
+                "title": "스마트 이스케이프",
+                "desc": "문자열 내의 따옴표와 특수 문자를 자동으로 처리합니다."
             },
             "free": {
-                "title": "100% Free",
-                "desc": "No limits, no registration, no hassle."
+                "title": "100% 무료",
+                "desc": "제한 없음, 등록 없음, 번거로움 없음."
             },
             "db": {
-                "title": "Cross-DB Friendly",
-                "desc": "Generates standard SQL compatible with most database systems."
+                "title": "데이터베이스 호환성",
+                "desc": "대부분의 데이터베이스 시스템과 호환되는 표준 SQL을 생성합니다."
             }
         },
-        "uses_title": "Professional Use Cases",
+        "uses_title": "전문적 사용 사례",
         "uses": {
             "migration": {
-                "title": "Data Migration",
-                "desc": "Easily move data from JSON-based systems to SQL databases."
+                "title": "데이터 마이그레이션",
+                "desc": "JSON 기반 시스템에서 SQL 데이터베이스로 데이터를 쉽게 이동합니다."
             },
             "import": {
-                "title": "Bulk Importing",
-                "desc": "Load large amounts of test or production data quickly."
+                "title": "대량 가져오기",
+                "desc": "대량의 테스트 또는 프로덕션 데이터를 빠르게 로드합니다."
             },
             "api": {
-                "title": "API to Database",
-                "desc": "Convert third-party API results directly into SQL inserts."
+                "title": "API를 데이터베이스로",
+                "desc": "타사 API 결과를 SQL 삽입으로 직접 변환합니다."
             },
             "test": {
-                "title": "Test Data Seeding",
-                "desc": "Create SQL scripts for populating development environments."
+                "title": "테스트 데이터 시딩",
+                "desc": "개발 환경을 채우기 위한 SQL 스크립트를 만듭니다."
             },
             "backup": {
-                "title": "Backup Restoration",
-                "desc": "Turn JSON backups back into functional SQL scripts."
+                "title": "백업 복원",
+                "desc": "JSON 백업을 다시 기능적인 SQL 스크립트로 전환합니다."
             },
             "dev": {
-                "title": "Rapid Prototyping",
-                "desc": "Quickly populate new database tables during development."
+                "title": "빠른 프로토타이핑",
+                "desc": "개발 중에 새 데이터베이스 테이블을 빠르게 채웁니다."
             }
         },
-        "how_title": "How to Use",
+        "how_title": "사용 방법",
         "how_steps": [
-            "Enter the target database <strong>Table Name<\/strong>",
-            "Paste your <strong>JSON<\/strong> (must be an array or object)",
-            "Click <strong>Generate SQL<\/strong> to create the script",
-            "<strong>Copy<\/strong> the SQL output to your clipboard"
+            "대상 데이터베이스 <strong>테이블 이름<\/strong>을 입력하세요",
+            "<strong>JSON<\/strong>을 붙여넣으세요 (배열 또는 객체여야 함)",
+            "<strong>SQL 생성<\/strong>을 클릭하여 스크립트를 만드세요",
+            "SQL 출력을 <strong>복사<\/strong>하여 클립보드에 저장하세요"
         ],
-        "faq_title": "Frequently Asked Questions",
+        "faq_title": "자주 묻는 질문",
         "faq": {
-            "q1": "What JSON format is required?",
-            "a1": "The tool works best with an array of objects, where each object represents a database row.",
-            "q2": "Does it handle nested objects?",
-            "a2": "It currently maps top-level keys. Nested objects are usually stringified or skipped depending on your DB needs.",
-            "q3": "Is there a limit on rows?",
-            "a3": "There is no hard limit, though your browser's performance may vary with thousands of rows."
+            "q1": "어떤 JSON 형식이 필요한가요?",
+            "a1": "이 도구는 각 객체가 데이터베이스 행을 나타내는 객체 배열에서 가장 잘 작동합니다.",
+            "q2": "중첩된 객체를 처리하나요?",
+            "a2": "현재 최상위 키를 매핑합니다. 중첩된 객체는 DB 요구 사항에 따라 문자열화되거나 건너뜁니다.",
+            "q3": "행 수에 제한이 있나요?",
+            "a3": "엄격한 제한은 없지만, 수천 개의 행이 있는 경우 브라우저 성능에 따라 달라질 수 있습니다."
         },
-        "tips_title": "Pro Tips",
+        "tips_title": "프로 팁",
         "tips_list": [
-            "Ensure your JSON keys match your SQL column names exactly.",
-            "Always verify the generated SQL before running it on a production database.",
-            "Use the \"Example\" button to see the expected JSON structure."
+            "JSON 키가 SQL 열 이름과 정확히 일치하는지 확인하세요.",
+            "프로덕션 데이터베이스에서 실행하기 전에 항상 생성된 SQL을 확인하세요.",
+            "\"예제\" 버튼을 사용하여 예상되는 JSON 구조를 확인하세요."
         ]
     },
     "js": {
-        "error_empty": "Please enter JSON data and a table name",
-        "success_convert": "✓ SQL generated successfully!",
-        "error_convert": "Error generating SQL: ",
-        "error_no_copy": "No SQL to copy. Please convert JSON first.",
-        "success_copy": "✓ SQL copied to clipboard!"
+        "error_empty": "JSON 데이터와 테이블 이름을 입력하세요",
+        "success_convert": "✓ SQL이 성공적으로 생성되었습니다!",
+        "error_convert": "SQL 생성 오류: ",
+        "error_no_copy": "복사할 SQL이 없습니다. 먼저 JSON을 변환하세요.",
+        "success_copy": "✓ SQL이 클립보드에 복사되었습니다!"
     }
 }

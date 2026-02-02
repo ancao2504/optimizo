@@ -14,7 +14,7 @@
     },
     "content": {
         "hero_title": "빠르고 정확한 MD5 해시 생성기",
-        "hero_subtitle": "Generate MD5 hashes from any text instantly",
+        "hero_subtitle": "모든 텍스트에서 즉시 MD5 해시 생성",
         "p1": "입력된 텍스트, 비밀번호 조각 또는 데이터 문자열을 128비트(32자 16진수) 해시값으로 즉시 변환하세요. MD5(Message-Digest Algorithm 5)는 파일의 무결성을 확인하거나 데이터의 지문을 생성할 때 세계적으로 널리 쓰이는 알고리즘입니다. 모든 과정은 브라우저에서 처리되어 데이터 유출 걱정 없이 안전합니다.",
         "what_title": "🔐 MD5란 무엇인가요?",
         "what_desc": "MD5는 임의의 길이를 가진 입력을 받아 고정된 길이의 128비트 지문 값을 출력하는 해시 함수입니다. 같은 입력은 항상 같은 결과를 내놓지만, 입력값이 아주 조금만 바뀌어도 완전히 다른 해시가 생성되는 특성이 있어 '데이터 무결성' 검사에 유용합니다.",
@@ -25,31 +25,31 @@
             "deterministic": "<strong>확정적 결과:<\/strong> 동일 입력에 대해 항상 일관된 해시를 보장합니다.",
             "support": "<strong>범용성:<\/strong> 모든 프로그래밍 언어와 시스템에서 호환됩니다."
         },
-        "uses_title": "ðŸ“Š Common Use Cases",
+        "uses_title": "📊 일반적인 사용 사례",
         "uses": {
-            "verify": "<strong>File Verification:<\/strong> Check file integrity",
-            "checksum": "<strong>Checksums:<\/strong> Verify downloads",
-            "cache": "<strong>Cache Keys:<\/strong> Generate unique identifiers",
-            "integrity": "<strong>Data Integrity:<\/strong> Detect changes"
+            "verify": "<strong>파일 검증:<\/strong> 파일 무결성 확인",
+            "checksum": "<strong>체크섬:<\/strong> 다운로드 확인",
+            "cache": "<strong>캐시 키:<\/strong> 고유 식별자 생성",
+            "integrity": "<strong>데이터 무결성:<\/strong> 변경 사항 감지"
         },
         "warning_title": "⚠️ 보안 주의사항",
         "warning_desc": "<strong>주의: 현대적인 보안이 필요한 비밀번호 저장 등에는 MD5를 사용하지 마세요!<\/strong> MD5는 수학적으로 취약점이 발견되어 충돌 공격에 노출될 수 있습니다. 중요한 비밀번호 저장에는 bcrypt나 Argon2 사용을 강력히 권장합니다.",
-        "compare_title": "ðŸ”„ MD5 vs Other Hash Functions",
+        "compare_title": "🔄 MD5 대 기타 해시 함수",
         "compare": {
             "md5": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Fast but insecure for cryptography"
+                "desc1": "128비트 출력",
+                "desc2": "빠르지만 암호화에는 안전하지 않음"
             },
             "sha1": {
                 "title": "SHA-1",
-                "desc1": "160-bit output",
-                "desc2": "Also deprecated for security use"
+                "desc1": "160비트 출력",
+                "desc2": "보안 용도로는 사용 중단됨"
             },
             "sha256": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure and widely used today"
+                "desc1": "256비트 출력",
+                "desc2": "오늘날 널리 사용되며 안전함"
             }
         },
         "faq_title": "❓ 자주 묻는 질문",
@@ -58,12 +58,12 @@
             "a1": "아니요, 해시는 일방향(one-way) 함수이므로 역계산이 불가능합니다. 다만, 흔한 단어는 미리 계산된 DB(Rainbow Table)를 통해 유추될 수 있습니다.",
             "q2": "파일의 변조 여부를 확인할 수 있나요?",
             "a2": "네, 내려받은 파일의 MD5 값과 제공된 값이 일치한다면 전송 과정에서 데이터가 변조되지 않았음을 의미합니다.",
-            "q3": "Is my data sent to a server?",
-            "a3": "No! All MD5 hash generation happens entirely in your browser using JavaScript. Your data never leaves your device."
+            "q3": "제 데이터가 서버로 전송되나요?",
+            "a3": "아니요! 모든 MD5 해시 생성은 JavaScript를 사용하여 브라우저에서 전적으로 이루어집니다. 귀하의 데이터는 기기를 떠나지 않습니다."
         }
     },
     "js": {
-        "error_empty": "Please enter some text",
-        "btn_copied": "Copied!"
+        "error_empty": "텍스트를 입력하세요",
+        "btn_copied": "복사됨!"
     }
 }

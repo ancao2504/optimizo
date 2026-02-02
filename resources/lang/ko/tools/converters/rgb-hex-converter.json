@@ -6,82 +6,82 @@
         "subtitle": "웹 디자인과 프론트엔드 개발을 위한 최고의 색상 도구."
     },
     "editor": {
-        "rgb_to_hex": "RGB to HEX",
-        "label_red": "Red (0-255)",
-        "label_green": "Green (0-255)",
-        "label_blue": "Blue (0-255)",
+        "rgb_to_hex": "RGB를 HEX로",
+        "label_red": "빨강 (0-255)",
+        "label_green": "초록 (0-255)",
+        "label_blue": "파랑 (0-255)",
         "label_hex": "HEX 코드",
-        "hex_to_rgb": "HEX to RGB",
-        "label_hex_input": "HEX Color",
+        "hex_to_rgb": "HEX를 RGB로",
+        "label_hex_input": "HEX 색상",
         "ph_hex": "#000000",
-        "label_rgb_output": "RGB Color"
+        "label_rgb_output": "RGB 색상"
     },
     "content": {
         "p1": "웹 프로젝트에서 색상을 처리하는 방식은 매우 다양합니다. 저희 RGB ↔ HEX 변환기는 디자인 툴에서 얻은 RGB 값(0-255)을 CSS에 필요한 HEX 코드(#FFFFFF)로, 또는 그 반대로 즉시 변경해 줍니다. 실시간 미리보기 기능을 통해 선택한 색상이 실제 화면에서 어떻게 보이는지 바로 확인할 수 있습니다.",
-        "formats_title": "Understanding Color Formats",
+        "formats_title": "색상 형식 이해하기",
         "formats": {
             "rgb": {
-                "title": "RGB (Red, Green, Blue)",
-                "format": "Format",
+                "title": "RGB (빨강, 초록, 파랑)",
+                "format": "형식",
                 "format_val": "rgb(red, green, blue)",
-                "range": "Range",
-                "range_val": "0-255 for each channel",
-                "used_in": "Commonly Used In",
-                "used_in_val": "Digital screens, monitors, TV"
+                "range": "범위",
+                "range_val": "각 채널당 0-255",
+                "used_in": "일반적으로 사용됨",
+                "used_in_val": "디지털 화면, 모니터, TV"
             },
             "hex": {
-                "title": "HEX (Hexadecimal)",
-                "format": "Format",
+                "title": "HEX (16진수)",
+                "format": "형식",
                 "format_val": "#RRGGBB",
-                "range": "Range",
-                "range_val": "00-FF for each channel (hex)",
-                "used_in": "Commonly Used In",
-                "used_in_val": "Web design, CSS, HTML"
+                "range": "범위",
+                "range_val": "각 채널당 00-FF (16진수)",
+                "used_in": "일반적으로 사용됨",
+                "used_in_val": "웹 디자인, CSS, HTML"
             }
         },
-        "why_title": "Why Convert Between RGB and HEX?",
+        "why_title": "왜 RGB와 HEX 사이를 변환하나요?",
         "why_list": [
             {
-                "title": "Web Standards",
-                "desc": "HEX is the most used format in CSS for defining website colors."
+                "title": "웹 표준",
+                "desc": "HEX는 웹사이트 색상을 정의하는 데 CSS에서 가장 많이 사용되는 형식입니다."
             },
             {
-                "title": "Universal Matching",
-                "desc": "Ensure consistent colors across different design tools and platforms."
+                "title": "보편적 일치",
+                "desc": "다양한 디자인 도구 및 플랫폼에서 일관된 색상을 보장합니다."
             },
             {
-                "title": "Ease of Use",
-                "desc": "Quickly get HEX codes from RGB values for efficient styling."
+                "title": "사용 편의성",
+                "desc": "효율적인 스타일링을 위해 RGB 값에서 HEX 코드를 빠르게 얻을 수 있습니다."
             }
         ],
-        "how_work_title": "How Color Conversion Works",
-        "how_work_t1": "RGB to HEX",
-        "how_work_p1": "Each color channel (R, G, B) is converted from a 0-255 decimal to a 00-FF hexadecimal value.",
-        "how_work_t2": "HEX to RGB",
-        "how_work_p2": "The hex string is split into pairs and each pair is converted back to a 0-255 decimal value.",
+        "how_work_title": "색상 변환 작동 방식",
+        "how_work_t1": "RGB에서 HEX로",
+        "how_work_p1": "각 색상 채널(R, G, B)은 0-255 10진수에서 00-FF 16진수 값으로 변환됩니다.",
+        "how_work_t2": "HEX에서 RGB로",
+        "how_work_p2": "16진수 문자열을 쌍으로 나누고 각 쌍을 다시 0-255 10진수 값으로 변환합니다.",
         "uses_title": "실제 디자인 활용",
         "uses": {
             "web": {
-                "title": "Web Development",
-                "desc": "Convert design mockup colors (RGB) to CSS-ready HEX codes for websites"
+                "title": "웹 개발",
+                "desc": "웹사이트용으로 디자인 목업 색상(RGB)을 CSS 지원 HEX 코드로 변환합니다"
             },
             "graphic": {
-                "title": "Graphic Design",
-                "desc": "Match colors between Adobe Photoshop (RGB) and web design tools (HEX)"
+                "title": "그래픽 디자인",
+                "desc": "Adobe Photoshop(RGB)과 웹 디자인 도구(HEX) 간의 색상을 일치시킵니다"
             },
             "brand": {
                 "title": "브랜드 가이드",
                 "desc": "회사의 로고와 브랜드 색상을 디지털 플랫폼 전반에 일관되게 적용합니다."
             }
         },
-        "practices_title": "Color Format Best Practices",
+        "practices_title": "색상 형식 모범 사례",
         "practices_list": [
-            "Use HEX for compact CSS file sizes.",
-            "Use RGB (specifically RGBA) when you need opacity\/transparency.",
-            "Stick to one format within a single project for consistency."
+            "작은 CSS 파일 크기를 위해 HEX를 사용하세요.",
+            "불투명도/투명도가 필요한 경우 RGB(구체적으로 RGBA)를 사용하세요.",
+            "일관성을 위해 단일 프로젝트 내에서 하나의 형식을 고수하세요."
         ],
-        "pro_tip_title": "💡 Pro Tip",
-        "pro_tip_desc": "HEX shorthand: Colors like #FF0000 can be shortened to #F00 when each pair of digits is identical.",
+        "pro_tip_title": "💡 프로 팁",
+        "pro_tip_desc": "HEX 줄임말: #FF0000과 같은 색상은 각 숫자 쌍이 동일할 때 #F00으로 줄일 수 있습니다.",
         "faq_title": "자주 묻는 질문",
         "faq": {
             "q1": "3자리 HEX 코드도 지원하나요?",
@@ -95,6 +95,6 @@
         }
     },
     "js": {
-        "invalid_hex": "Invalid HEX"
+        "invalid_hex": "유효하지 않은 HEX"
     }
 }

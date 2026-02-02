@@ -6,125 +6,125 @@
         "subtitle": "모든 숫자 진법(Base 2-36) 사이를 정밀하게 변환"
     },
     "editor": {
-        "label_from": "From Base",
+        "label_from": "원본 진법",
         "bases": {
-            "2": "Decimal (Base 10)",
-            "8": "Octal",
-            "10": "Decimal",
-            "16": "Hexadecimal",
-            "generic": "Base :base"
+            "2": "2진수 (Binary)",
+            "8": "8진수 (Octal)",
+            "10": "10진수 (Decimal)",
+            "16": "16진수 (Hexadecimal)",
+            "generic": ":base 진법"
         },
-        "label_to": "To Base",
-        "btn_swap": "Swap Bases",
-        "presets": "Quick Presets:",
+        "label_to": "대상 진법",
+        "btn_swap": "진법 교체",
+        "presets": "빠른 사전 설정:",
         "preset_labels": {
-            "bin_dec": "Binary → Dec",
-            "dec_hex": "Dec → Hex",
-            "hex_bin": "Hex → Binary",
-            "dec_oct": "Dec → Octal"
+            "bin_dec": "2진수 → 10진수",
+            "dec_hex": "10진수 → 16진수",
+            "hex_bin": "16진수 → 2진수",
+            "dec_oct": "10진수 → 8진수"
         },
-        "label_input": "Input Number",
-        "ph_input": "Enter your number here...",
-        "label_output": "Resulting Value",
-        "ph_output": "Converted result will appear here...",
-        "btn_convert": "Convert Number",
-        "btn_clear": "Clear All",
-        "btn_copy": "Copy Result"
+        "label_input": "입력 숫자",
+        "ph_input": "여기에 숫자를 입력하세요...",
+        "label_output": "결과 값",
+        "ph_output": "변환된 결과가 여기에 표시됩니다...",
+        "btn_convert": "숫자 변환",
+        "btn_clear": "모두 지우기",
+        "btn_copy": "결과 복사"
     },
     "content": {
-        "hero_title": "Universal Number Base Converter",
-        "hero_subtitle": "Instantly transform values between any numeric base from 2 to 36.",
-        "p1": "Our Universal Number Base Converter is a powerful, all-in-one utility designed for maximum flexibility. While most tools limit you to common bases like binary, decimal, or hex, our converter empowers you to work with any base from 2 to 36. This includes duodecimal (base 12), vigesimal (base 20), and even base 36 (digits 0-9 and letters A-Z). It is an essential companion for programmers working with custom encodings, students exploring number theory, and engineers designing unique data structures.",
-        "what_title": "What are Number Bases?",
-        "what_desc": "A number base (also known as a radix) represents the number of unique digits, including zero, that a numeric system uses to represent values. For instance, the decimal system (base 10) we use daily has ten unique digits (0-9). Computers thrive on the binary system (base 2), while developers frequently use octal (base 8) and hexadecimal (base 16) for more compact data representation. Bases higher than 10 use letters of the alphabet to represent values; for example, in base 16, A represents 10 and F represents 15.",
-        "features_title": "Primary Tool Features",
+        "hero_title": "범용 숫자 진법 변환기",
+        "hero_subtitle": "2진법에서 36진법까지 모든 숫자 진법 사이를 즉시 변환하세요.",
+        "p1": "저희 범용 숫자 진법 변환기는 최대의 유연성을 위해 설계된 강력한 올인원 유틸리티입니다. 대부분의 도구가 2진수, 10진수 또는 16진수와 같은 일반적인 진법으로 제한하는 반면, 저희 변환기는 2에서 36사이의 모든 진법으로 작업할 수 있도록 지원합니다. 여기에는 12진수, 20진수, 심지어 36진수(숫자 0-9 및 문자 A-Z)도 포함됩니다. 사용자 지정 인코딩으로 작업하는 프로그래머, 정수론을 탐구하는 학생 및 고유한 데이터 구조를 설계하는 엔지니어에게 필수적인 동반자입니다.",
+        "what_title": "숫자 진법이란 무엇인가요?",
+        "what_desc": "숫자 진법(기수라고도 함)은 숫자 시스템이 값을 나타내는 데 사용하는 0을 포함한 고유한 숫자의 수를 나타냅니다. 예를 들어, 우리가 매일 사용하는 10진수 시스템(10진법)은 10개의 고유한 숫자(0-9)를 갖습니다. 컴퓨터는 2진수 시스템(2진법)에서 번성하는 반면, 개발자는 더 간결한 데이터 표현을 위해 8진수(8진법) 및 16진수(16진법)를 자주 사용합니다. 10진법보다 높은 진법은 알파벳 문자를 사용하여 값을 나타냅니다. 예를 들어, 16진법에서 A는 10을 나타내고 F는 15를 나타냅니다.",
+        "features_title": "주요 도구 기능",
         "features": {
             "instant": {
-                "title": "Near-Zero Latency",
-                "desc": "Algorithms optimized for speed, delivering results as you type or click."
+                "title": "제로에 가까운 대기 시간",
+                "desc": "속도에 최적화된 알고리즘으로 입력하거나 클릭하는 즉시 결과를 제공합니다."
             },
             "universal": {
-                "title": "Omni-Base Support",
-                "desc": "Full freedom to choose any source and target base between 2 and 36."
+                "title": "모든 진법 지원",
+                "desc": "2에서 36 사이의 소스 및 대상 진법을 자유롭게 선택할 수 있습니다."
             },
             "presets": {
-                "title": "Smart Presets",
-                "desc": "One-click shortcuts for the most common industry-standard conversions."
+                "title": "스마트 사전 설정",
+                "desc": "가장 일반적인 산업 표준 변환을 위한 원클릭 단축키입니다."
             },
             "swap": {
-                "title": "Instant Swap",
-                "desc": "Quickly reverse your From and To bases with a dedicated button."
+                "title": "즉시 교체",
+                "desc": "전용 버튼으로 시작 및 대상 진법을 빠르게 뒤집으세요."
             },
             "privacy": {
-                "title": "Secure Computing",
-                "desc": "Your numbers are never sent to a server; all logic runs locally in your browser."
+                "title": "보안 컴퓨팅",
+                "desc": "귀하의 숫자는 서버로 전송되지 않습니다. 모든 논리는 브라우저에서 로컬로 실행됩니다."
             },
             "free": {
-                "title": "Free for All",
-                "desc": "No registration, no limits, and no hidden subscription fees."
+                "title": "모두에게 무료",
+                "desc": "등록, 제한 및 숨겨진 구독료가 없습니다."
             }
         },
-        "uses_title": "Professional Applications",
+        "uses_title": "전문 응용 분야",
         "uses": {
             "programming": {
-                "title": "Full-Stack Programming",
-                "desc": "Work with custom bases for unique ID generators, data compression, and obscured identifiers."
+                "title": "풀스택 프로그래밍",
+                "desc": "고유 ID 생성기, 데이터 압축 및 난독화 식별자를 위해 사용자 지정 진법을 사용하세요."
             },
             "education": {
-                "title": "Computer Science Education",
-                "desc": "Visualize how numbers transition between different positional systems for academic study."
+                "title": "컴퓨터 과학 교육",
+                "desc": "학업 연구를 위해 숫자가 서로 다른 위치 시스템 간에 어떻게 전환되는지 시각화하세요."
             },
             "crypto": {
-                "title": "Creative Cryptography",
-                "desc": "Experiment with non-standard bases for simple encoding and puzzle creation."
+                "title": "창의적 암호화",
+                "desc": "간단한 인코딩 및 퍼즐 생성을 위해 비표준 진법으로 실험해보세요."
             },
             "web": {
-                "title": "Advanced Web Dev",
-                "desc": "Analyze and convert URL identifiers or unique keys that utilize higher bases like base-36."
+                "title": "고급 웹 개발",
+                "desc": "36진법과 같이 더 높은 진법을 활용하는 URL 식별자 또는 고유 키를 분석하고 변환하세요."
             }
         },
-        "how_title": "User Operations Guide",
+        "how_title": "사용자 조작 가이드",
         "how_steps": {
             "1": {
-                "title": "Select To Base",
-                "desc": "Choose the target base for your conversion."
+                "title": "대상 진법 선택",
+                "desc": "변환할 대상 진법을 선택하세요."
             },
             "2": {
-                "title": "Enter Value",
-                "desc": "Input the number strings using the allowed characters for your source base."
+                "title": "값 입력",
+                "desc": "소스 진법에 허용되는 문자를 사용하여 숫자 문자열을 입력하세요."
             },
             "3": {
-                "title": "Execute",
-                "desc": "Click \"Convert Number\" to process the transformation."
+                "title": "실행",
+                "desc": "\"숫자 변환\"을 클릭하여 변환을 처리하세요."
             },
             "4": {
-                "title": "Capture Result",
-                "desc": "Copy the resulting value for use in your external applications."
+                "title": "결과 캡처",
+                "desc": "외부 애플리케이션에서 사용할 수 있도록 결과 값을 복사하세요."
             },
             "5": {
-                "title": "Copy Result:",
-                "desc": "Click \"Copy\" to copy the converted number"
+                "title": "결과 복사:",
+                "desc": "\"복사\"를 클릭하여 변환된 숫자를 복사하세요"
             }
         },
         "faq_title": "자주 묻는 질문",
         "faq": {
-            "q1": "What is the highest base supported?",
-            "a1": "This converter supports all bases from 2 to 36. Base 36 uses digits 0-9 and letters A-Z, providing 36 unique symbols.",
-            "q2": "How do bases higher than 10 work?",
-            "a2": "Bases higher than 10 use letters A-Z to represent values 10-35. For example, in hexadecimal (base 16), A=10, B=11, C=12, D=13, E=14, F=15.",
-            "q3": "Can I convert negative numbers?",
-            "a3": "Yes, the converter handles negative numbers. The negative sign is preserved during conversion.",
-            "q4": "Is my data secure?",
-            "a4": "Absolutely! All conversions happen entirely in your browser using JavaScript. Your numbers never leave your device or get sent to any server."
+            "q1": "지원되는 가장 높은 진법은 무엇인가요?",
+            "a1": "이 변환기는 2에서 36까지의 모든 진법을 지원합니다. 36진법은 숫자 0-9와 문자 A-Z를 사용하여 36개의 고유한 기호를 제공합니다.",
+            "q2": "10진법보다 높은 진법은 어떻게 작동하나요?",
+            "a2": "10진법보다 높은 진법은 문자 A-Z를 사용하여 10-35 값을 나타냅니다. 예를 들어, 16진수(16진법)에서 A=10, B=11, C=12, D=13, E=14, F=15입니다.",
+            "q3": "음수를 변환할 수 있나요?",
+            "a3": "네, 변환기는 음수를 처리합니다. 마이너스 기호는 변환 중에도 유지됩니다.",
+            "q4": "제 데이터는 안전한가요?",
+            "a4": "물론입니다! 모든 변환은 JavaScript를 사용하여 브라우저에서 전적으로 이루어집니다. 귀하의 숫자는 기기를 떠나거나 서버로 전송되지 않습니다."
         }
     },
     "js": {
-        "error_empty": "Please enter a number to convert.",
-        "error_invalid": "Invalid input for base :base. Only characters :chars are allowed.",
-        "error_format": "Invalid number format detected.",
-        "success_convert": "✓ Converted from base :from to base :to successfully!",
-        "error_general": "An unexpected error occurred: ",
-        "error_copy": "Nothing to copy! Please perform a conversion first.",
-        "success_copy": "✓ Copied to clipboard!"
+        "error_empty": "변환할 숫자를 입력하세요.",
+        "error_invalid": ":base 진법에 대한 입력이 유효하지 않습니다. 문자 :chars 만 허용됩니다.",
+        "error_format": "유효하지 않은 숫자 형식이 감지되었습니다.",
+        "success_convert": "✓ :from 진법에서 :to 진법으로 성공적으로 변환되었습니다!",
+        "error_general": "예상치 못한 오류가 발생했습니다: ",
+        "error_copy": "복사할 내용이 없습니다! 먼저 변환을 수행하세요.",
+        "success_copy": "✓ 클립보드에 복사되었습니다!"
     }
 }

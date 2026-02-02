@@ -23,96 +23,96 @@
         "p1": "웹 브라우저는 주소창에 특정 문자들만 포함할 것을 허용합니다. 공백이나 한글, 특수 기호가 섞인 URL을 공유하거나 API 호출에 써야 할 때 퍼센트 인코딩(%XX)은 필수입니다. 당사의 도구는 이를 즉시 해결해 주며, 모든 연산은 로컬에서 이루어져 보안상 완벽하게 안전합니다.",
         "what_title": "🌐 URL 인코딩이란?",
         "what_desc": "퍼센트 인코딩이라고도 불리는 URL 인코딩은 인터넷을 통해 전송되는 URL 내의 안전하지 않은 문자들을 %와 16진수 숫자의 조합으로 바꾸는 과정입니다. 예를 들어 공백은 %20으로, 한글 '가'는 UTF-8 기준 %EA%B0%80로 변환되어 어떤 시스템에서도 주소 오류 없이 전달되도록 돕습니다.",
-        "features_title": "Features",
+        "features_title": "기능",
         "features": {
             "instant": {
                 "title": "실시간 처리",
                 "desc": "입력과 동시에 즉성에서 인코딩\/디코딩 결과를 보여줍니다."
             },
             "bidirectional": {
-                "title": "Bidirectional",
-                "desc": "Encode to URL format or decode back to original"
+                "title": "양방향",
+                "desc": "URL 형식으로 인코딩하거나 원본으로 다시 디코딩합니다."
             },
             "privacy": {
-                "title": "Privacy First",
-                "desc": "All processing happens in your browser"
+                "title": "개인정보 보호 우선",
+                "desc": "모든 처리는 브라우저에서 이루어집니다."
             },
             "copy": {
-                "title": "One-Click Copy",
-                "desc": "Copy encoded\/decoded URLs instantly"
+                "title": "원클릭 복사",
+                "desc": "인코딩\/디코딩된 URL을 즉시 복사합니다."
             },
             "free": {
-                "title": "100% Free",
-                "desc": "No limits, no registration required"
+                "title": "100% 무료",
+                "desc": "제한 없음, 등록 필요 없음"
             },
             "universal": {
-                "title": "Universal Support",
-                "desc": "Works with all URL formats and characters"
+                "title": "범용 지원",
+                "desc": "모든 URL 형식 및 문자와 작동합니다."
             }
         },
-        "uses_title": "Common Use Cases",
+        "uses_title": "일반적인 사용 사례",
         "uses": {
             "query": {
-                "title": "Query Parameters",
-                "desc": "Encode special characters in URL query strings for API calls and web requests"
+                "title": "쿼리 매개변수",
+                "desc": "API 호출 및 웹 요청을 위해 URL 쿼리 문자열의 특수 문자를 인코딩합니다."
             },
             "analytics": {
-                "title": "Analytics Tracking",
-                "desc": "Encode UTM parameters and tracking URLs for marketing campaigns"
+                "title": "분석 추적",
+                "desc": "마케팅 캠페인을 위한 UTM 매개변수 및 추적 URL을 인코딩합니다."
             },
             "auth": {
-                "title": "Authentication",
-                "desc": "Encode credentials and tokens in OAuth and API authentication"
+                "title": "인증",
+                "desc": "OAuth 및 API 인증에서 자격 증명 및 토큰을 인코딩합니다."
             },
             "i18n": {
-                "title": "Internationalization",
-                "desc": "Encode non-ASCII characters in URLs for global compatibility"
+                "title": "국제화",
+                "desc": "글로벌 호환성을 위해 URL의 비 ASCII 문자를 인코딩합니다."
             },
             "seo": {
-                "title": "SEO & Redirects",
-                "desc": "Create properly encoded redirect URLs and canonical links"
+                "title": "SEO 및 리디렉션",
+                "desc": "올바르게 인코딩된 리디렉션 URL과 표준 링크를 만듭니다."
             },
             "email": {
-                "title": "Email Links",
-                "desc": "Encode mailto links with subject lines and body content"
+                "title": "이메일 링크",
+                "desc": "제목과 본문 내용이 포함된 mailto 링크를 인코딩합니다."
             }
         },
-        "how_to_title": "How to Use",
+        "how_to_title": "사용 방법",
         "how_to": {
             "step1": {
-                "title": "Choose Mode",
-                "desc": "Select \"Encode URL\" or \"Decode URL\" based on your need"
+                "title": "모드 선택",
+                "desc": "필요에 따라 \"URL 인코딩\" 또는 \"URL 디코딩\"을 선택하세요"
             },
             "step2": {
-                "title": "Enter URL",
-                "desc": "Paste your URL or text in the input field"
+                "title": "URL 입력",
+                "desc": "입력 필드에 URL 또는 텍스트를 붙여넣으세요"
             },
             "step3": {
-                "title": "Process",
-                "desc": "Click \"Encode URL\" or \"Decode URL\" button"
+                "title": "처리",
+                "desc": "\"URL 인코딩\" 또는 \"URL 디코딩\" 버튼을 클릭하세요"
             },
             "step4": {
-                "title": "Copy Result",
-                "desc": "Click \"Copy\" to copy the processed URL to clipboard"
+                "title": "결과 복사",
+                "desc": "\"복사\"를 클릭하여 처리된 URL을 클립보드에 복사하세요"
             },
             "step5": {
-                "title": "Use Anywhere",
-                "desc": "Paste the encoded\/decoded URL in your application"
+                "title": "어디서나 사용",
+                "desc": "인코딩/디코딩된 URL을 애플리케이션에 붙여넣으세요"
             }
         },
-        "examples_title": "URL Encoding Examples",
+        "examples_title": "URL 인코딩 예제",
         "examples": {
             "space": {
-                "title": "Space Character:",
-                "desc": "Original: \"Hello World\" â†’ Encoded: \"Hello%20World\""
+                "title": "공백 문자:",
+                "desc": "원본: \"Hello World\" → 인코딩됨: \"Hello%20World\""
             },
             "special": {
-                "title": "Special Characters:",
-                "desc": "Original: \"name=John&age=30\" â†’ Encoded: \"name%3DJohn%26age%3D30\""
+                "title": "특수 문자:",
+                "desc": "원본: \"name=John&age=30\" → 인코딩됨: \"name%3DJohn%26age%3D30\""
             },
             "full": {
-                "title": "Full URL:",
-                "desc": "Original: \"https:\/\/example.com\/search?q=hello world\" â†’ Encoded: \"https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world\""
+                "title": "전체 URL:",
+                "desc": "원본: \"https:\/\/example.com\/search?q=hello world\" → 인코딩됨: \"https%3A%2F%2Fexample.com%2Fsearch%3Fq%3Dhello%20world\""
             }
         },
         "faq_title": "❓ URL 인코딩 FAQ",
@@ -121,12 +121,12 @@
             "a1": "아니요, URL 인코딩은 오직 웹 주소 체계에 맞추기 위한 것이고, Base64는 이진 데이터를 텍스트로 바꾸는 범용 인코딩입니다. 목적이 완전히 다릅니다.",
             "q2": "전체 주소를 다 인코딩해야 하나요?",
             "a2": "일반적으로는 '?' 뒤에 오는 파라미터(쿼리 스트링) 부분만 인코딩하는 것이 올바른 사용법입니다.",
-            "q3": "Is URL encoding the same as Base64?",
-            "a3": "No. URL encoding converts specific characters to %XX format, while Base64 encodes entire data into a different character set. They serve different purposes.",
-            "q4": "Can I encode entire URLs?",
-            "a4": "Yes, but typically you only encode the query string portion. Encoding the entire URL including protocol (https:\/\/) is less common and may cause issues.",
-            "q5": "Is my data secure?",
-            "a5": "Yes! All encoding and decoding happens entirely in your browser using JavaScript. Your URLs never leave your device or get sent to any server."
+            "q3": "URL 인코딩은 Base64와 동일한가요?",
+            "a3": "아니요. URL 인코딩은 특정 문자를 %XX 형식으로 변환하는 반면 Base64는 전체 데이터를 다른 문자 집합으로 인코딩합니다. 그들은 다른 목적으로 사용됩니다.",
+            "q4": "전체 URL을 인코딩할 수 있나요?",
+            "a4": "네, 하지만 일반적으로 쿼리 문자열 부분만 인코딩합니다. 프로토콜(https:\/\/)을 포함한 전체 URL을 인코딩하는 것은 흔하지 않으며 문제를 일으킬 수 있습니다.",
+            "q5": "제 데이터는 안전한가요?",
+            "a5": "네! 모든 인코딩 및 디코딩은 JavaScript를 사용하여 브라우저에서 전적으로 이루어집니다. 귀하의 URL은 기기를 떠나거나 서버로 전송되지 않습니다."
         }
     },
     "js": {
@@ -134,7 +134,7 @@
         "success_encode": "✓ URL 인코딩 성공!",
         "success_decode": "✓ URL 디코딩 성공!",
         "error_process": "✗ 처리 중 오류 발생: ",
-        "error_no_copy": "No output to copy",
+        "error_no_copy": "복사할 내용이 없습니다",
         "success_copy": "✓ 클립보드에 복사되었습니다"
     }
 }
