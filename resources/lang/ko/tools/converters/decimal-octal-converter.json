@@ -18,14 +18,14 @@
         "label_octal": "8진수",
         "label_result_decimal": "10진수 출력",
         "btn_convert_decimal": "10진수로 변환",
-        "error_empty": "Please enter a number to convert",
-        "error_invalid_decimal": "Invalid decimal number. Please use digits 0-9.",
-        "success_octal": "✓ Converted to octal successfully!",
-        "error_invalid_octal": "Invalid octal number. Please use digits 0-7.",
-        "success_decimal": "✓ Converted to decimal successfully!",
-        "error_general": "An error occurred: ",
-        "error_no_copy": "Nothing to copy! Please convert a number first.",
-        "success_copy": "✓ Copied to clipboard!"
+        "error_empty": "변환할 숫자를 입력하세요",
+        "error_invalid_decimal": "유효하지 않은 10진수입니다. 0-9 숫자를 사용하세요.",
+        "success_octal": "✓ 8진수로 성공적으로 변환되었습니다!",
+        "error_invalid_octal": "유효하지 않은 8진수입니다. 0-7 숫자를 사용하세요.",
+        "success_decimal": "✓ 10진수로 성공적으로 변환되었습니다!",
+        "error_general": "오류가 발생했습니다: ",
+        "error_no_copy": "복사할 내용이 없습니다! 먼저 숫자를 변환하세요.",
+        "success_copy": "✓ 클립보드에 복사되었습니다!"
     },
     "content": {
         "p1": "저희 10진수 8진수 변환기는 10진수(Base-10)와 8진수(Base-8) 숫자 시스템 사이에서 정확한 변환을 제공하는 특수 공학용 도구입니다. 8진수는 특히 유닉스(Unix) 계열 시스템의 파일 권한 및 특정 레거시 컴퓨팅 분야에서 중요하게 사용됩니다. 이 도구는 복잡한 계산 없이 즉각적인 결과를 보장합니다.",
@@ -42,46 +42,46 @@
                 "desc": "최적화된 코드로 복잡한 변환도 1초 이내에 완료하세요."
             },
             "bi": {
-                "title": "Bidirectional",
-                "desc": "Seamlessly switch between dec-to-oct and oct-to-dec modes."
+                "title": "양방향 변환",
+                "desc": "10진수-8진수 및 8진수-10진수 모드를 원활하게 전환하세요."
             },
             "secure": {
-                "title": "Privacy Guaranteed",
-                "desc": "Calculations happen in your browser; no data is sent to our servers."
+                "title": "개인정보 보호",
+                "desc": "계산은 브라우저에서 이루어지며, 데이터는 서버로 전송되지 않습니다."
             },
             "copy": {
-                "title": "Result Copying",
-                "desc": "Copy your converted values with a single click."
+                "title": "결과 복사",
+                "desc": "한 번의 클릭으로 변환된 값을 복사하세요."
             },
             "free": {
-                "title": "Zero Cost",
-                "desc": "Free access to all conversion features forever."
+                "title": "완전 무료",
+                "desc": "모든 변환 기능을 평생 무료로 이용하세요."
             },
             "universal": {
-                "title": "Universal Access",
-                "desc": "Works smoothly on all devices and modern web browsers."
+                "title": "범용 접근성",
+                "desc": "모든 기기와 최신 웹 브라우저에서 원활하게 작동합니다."
             }
         },
         "uses": {
             "linux": {
-                "title": "Linux Permissions",
-                "desc": "Calculate numeric permission values for the chmod command (e.g., 755)."
+                "title": "리눅스 권한",
+                "desc": "chmod 명령에 대한 숫자 권한 값을 계산합니다 (예: 755)."
             },
             "computing": {
-                "title": "Computer Science",
-                "desc": "Learn how positional numeral systems function beyond base-2, 10, and 16."
+                "title": "컴퓨터 과학",
+                "desc": "2진법, 10진법, 16진법을 넘어선 위치 기수법의 작동 원리를 학습합니다."
             },
             "permission": {
-                "title": "Access Control",
-                "desc": "Manage security settings in systems that utilize octal representation."
+                "title": "접근 제어",
+                "desc": "8진수 표현을 사용하는 시스템에서 보안 설정을 관리합니다."
             },
             "legacy": {
                 "title": "레거시 시스템 분석",
                 "desc": "과거 12비트나 36비트 워드 기반의 레거시 메인프레임 데이터를 해석합니다."
             },
             "aviation": {
-                "title": "Aviation Transponders",
-                "desc": "Understand the squawk codes used by aircraft, which are octal values."
+                "title": "항공 트랜스폰더",
+                "desc": "항공기에서 사용하는 스쿼크(squawk) 코드를 이해합니다. 이는 8진수 값입니다."
             },
             "education": {
                 "title": "기초 수학 및 IT 교육",
@@ -106,26 +106,26 @@
                 "desc": "출력된 결과를 확인하고 복사 버튼을 눌러 프로젝트에 활용하세요."
             },
             "5": {
-                "title": "Copy",
-                "desc": "Quickly copy the result for use in your code or documents."
+                "title": "복사",
+                "desc": "코드나 문서에 사용하기 위해 결과를 빠르게 복사하세요."
             }
         },
         "examples": {
             "small": {
-                "title": "Single Digit",
-                "desc": "Decimal: 7 → Octal: 7"
+                "title": "한 자리 숫자",
+                "desc": "10진수: 7 → 8진수: 7"
             },
             "large": {
-                "title": "Double Octal",
-                "desc": "Decimal: 64 → Octal: 100"
+                "title": "두 자리 8진수",
+                "desc": "10진수: 64 → 8진수: 100"
             },
             "rights": {
-                "title": "Permission Value",
-                "desc": "Decimal: 493 → Octal: 755"
+                "title": "권한 값",
+                "desc": "10진수: 493 → 8진수: 755"
             },
             "max": {
-                "title": "Transition",
-                "desc": "Decimal: 1024 → Octal: 2000"
+                "title": "전환점",
+                "desc": "10진수: 1024 → 8진수: 2000"
             }
         },
         "faq": {
@@ -135,10 +135,10 @@
             "a2": "현재 버전은 정수(자연수) 변환에 최적화되어 있습니다.",
             "q3": "보안상 안전한가요?",
             "a3": "네, 데이터가 외부 서버로 전송되지 않고 브라우저 가상 머신에서만 작동하므로 매우 안전합니다.",
-            "q4": "Does this work on smartphones?",
-            "a4": "Absolutely! The tool is fully responsive and works great on any mobile device.",
-            "q5": "Is my input data secure?",
-            "a5": "Yes. Since the conversion logic runs entirely on your local computer via JavaScript, your data is never uploaded to the cloud."
+            "q4": "스마트폰에서 작동하나요?",
+            "a4": "물론입니다! 이 도구는 완전 반응형이며 모든 모바일 기기에서 훌륭하게 작동합니다.",
+            "q5": "제 입력 데이터는 안전한가요?",
+            "a5": "네. 변환 로직이 자바스크립트를 통해 로컬 컴퓨터에서 완전히 실행되므로 데이터가 클라우드로 업로드되지 않습니다."
         }
     }
 }
