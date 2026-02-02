@@ -35,7 +35,7 @@ class YoutubeVideoDownloaderController extends Controller
 
         $url = $request->url;
 
-        $command = ['yt-dlp', '--dump-json', '--no-warnings', $url];
+        $command = array_merge($this->getCommandPrefix(), ['--dump-json', '--no-warnings', $url]);
 
         // Explicitly pass environment variables to fix Python initialization error on Windows
         $env = [
@@ -119,7 +119,7 @@ class YoutubeVideoDownloaderController extends Controller
             set_time_limit(0);
             ob_implicit_flush(true);
 
-            $cmd = ['yt-dlp', '-o', $outputPath, '--newline', '--progress'];
+            $cmd = array_merge($this->getCommandPrefix(), ['-o', $outputPath, '--newline', '--progress']);
 
             if ($ext === 'mp3') {
                 $cmd = array_merge($cmd, ['-x', '--audio-format', 'mp3', '--audio-quality', '0']);
@@ -204,5 +204,14 @@ class YoutubeVideoDownloaderController extends Controller
             abort(404);
 
         return response()->download($path)->deleteFileAfterSend(true);
+    }
+
+    private function getCommandPrefix()
+    {
+        if (PHP_OS_FAMILY === 'Windows') {
+            return ['yt-dlp'];
+        }
+        // Server command as requested
+        return ['python3.12', '-m', 'yt_dlp'];
     }
 }
