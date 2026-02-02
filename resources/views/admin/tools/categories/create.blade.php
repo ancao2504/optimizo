@@ -28,15 +28,7 @@
 
                         {{-- Removed Type Field as this is implicitly Tool Categories --}}
 
-                        <div class="form-group">
-                            <label for="parent_id">Parent Category <span class="text-muted">(Optional)</span></label>
-                            <select name="parent_id" id="parent_id" class="form-control">
-                                <option value="">None (Top Level)</option>
-                                @foreach($parents as $parent)
-                                    <option value="{{ $parent->id }}">{{ $parent->name }}</option>
-                                @endforeach
-                            </select>
-                        </div>
+
 
                         <div class="form-group">
                             <label for="description">Description</label>

@@ -19,18 +19,7 @@
             <div class="card-tools">
                 <!-- Filter Form -->
                 <form action="{{ route('admin.tools.categories.index') }}" method="GET" class="form-inline">
-                    <div class="input-group input-group-sm mr-2">
-                        <select name="parent_id" class="form-control" onchange="this.form.submit()">
-                            <option value="">All Levels</option>
-                            <option value="top" {{ request('parent_id') == 'top' ? 'selected' : '' }}>Top Level Only</option>
-                            <option disabled>──────────</option>
-                            @foreach($parents as $parent)
-                                <option value="{{ $parent->id }}" {{ request('parent_id') == $parent->id ? 'selected' : '' }}>
-                                    Subcategories of {{ $parent->name }}
-                                </option>
-                            @endforeach
-                        </select>
-                    </div>
+
 
                     <div class="input-group input-group-sm">
                         <input type="text" name="search" class="form-control" placeholder="Search..."
@@ -47,7 +36,7 @@
                 <thead class="bg-light">
                     <tr>
                         <th class="border-top-0">Name & Description</th>
-                        <th class="border-top-0">Level / Parent</th>
+
                         <th class="border-top-0">Slug</th>
                         <th class="border-top-0 text-center">Tools Count</th>
                         <th class="border-top-0 text-right">Actions</th>
@@ -64,19 +53,11 @@
                                     </small>
                                 @endif
                             </td>
-                            <td class="align-middle">
-                                @if($category->parent)
-                                    <span class="badge badge-info px-2 py-1">
-                                        <i class="fas fa-level-up-alt mr-1"></i> {{ $category->parent->name }}
-                                    </span>
-                                @else
-                                    <span class="badge badge-secondary px-2 py-1">Top Level</span>
-                                @endif
-                            </td>
+
                             <td class="align-middle text-muted">{{ $category->slug }}</td>
                             <td class="align-middle text-center">
                                 @php
-                                    $count = $category->parent_id ? $category->sub_tools_count : $category->tools_count;
+                                    $count = $category->tools_count;
                                     $badgeClass = $count > 0 ? 'badge-success' : 'badge-light text-muted border';
                                 @endphp
                                 <span class="badge {{ $badgeClass }} badge-pill px-3 py-1" style="font-size: 0.9em;">
