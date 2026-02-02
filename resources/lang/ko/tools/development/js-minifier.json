@@ -15,25 +15,25 @@
         "label_output": "JS 출력"
     },
     "content": {
-        "about_title": "What is a JavaScript Minifier?",
-        "about_desc": "A JavaScript Minifier is a tool that compresses JavaScript code by removing unnecessary characters like whitespace, comments, and line breaks without changing functionality. Minified JavaScript files are significantly smaller, leading to faster page load times and improved website performance. Our free online JS minifier also includes a beautify feature to format JavaScript with proper indentation for better readability during development.",
-        "why_title": "Why Minify JavaScript?",
-        "why_desc": "Minifying JavaScript is essential for web performance optimization. Smaller JS files mean faster downloads, reduced bandwidth usage, and improved page load times. This is especially important for mobile users and users with slower internet connections. Minified JavaScript reduces server load and improves user experience. For production websites, minification is a standard best practice that can significantly improve Core Web Vitals scores.",
+        "about_title": "자바스크립트 미니파이어란 무엇인가요?",
+        "about_desc": "자바스크립트 미니파이어(JavaScript Minifier)는 불필요한 공백, 주석, 줄바꿈 등을 제거하여 기능을 변경하지 않으면서 코드의 크기를 줄이는 도구입니다. 압축된 자바스크립트 파일은 용량이 훨씬 작아 페이지 로딩 속도를 높이고 웹사이트 성능을 향상시킵니다. 또한 저희 무료 온라인 도구는 개발 중 가독성을 높이기 위해 적절한 들여쓰기로 코드를 정리해주는 Beautify 기능도 제공합니다.",
+        "why_title": "왜 자바스크립트를 압축해야 하나요?",
+        "why_desc": "자바스크립트 압축은 웹 성능 최적화에 필수적입니다. 파일 크기가 작아지면 다운로드 속도가 빨라지고 대역폭 사용량이 줄어들며 페이지 로드 시간이 단축됩니다. 이는 모바일 사용자나 인터넷 속도가 느린 사용자에게 특히 중요합니다. 또한 압축된 자바스크립트는 서버 부하를 줄이고 사용자 경험을 개선합니다. 프로덕션 웹사이트의 경우, 미니피케이션(Minification)은 Core Web Vitals 점수를 높이는 표준 모범 사례입니다.",
         "features_title": "✨ 주요 기능",
         "features_list": {
-            "minify": "<strong>Minify JavaScript:<\/strong> Remove whitespace and comments to reduce file size",
-            "beautify": "<strong>Beautify JavaScript:<\/strong> Format JS with proper indentation",
-            "instant": "<strong>Instant Results:<\/strong> Process JavaScript in real-time",
-            "copy": "<strong>Copy Output:<\/strong> Easily copy minified JavaScript",
-            "secure": "<strong>Secure & Private:<\/strong> All processing in browser",
-            "free": "<strong>Free to Use:<\/strong> No registration required"
+            "minify": "<strong>자바스크립트 압축:<\/strong> 공백과 주석을 제거하여 파일 크기 감소",
+            "beautify": "<strong>자바스크립트 정렬:<\/strong> 적절한 들여쓰기로 JS 코드 포맷팅",
+            "instant": "<strong>즉각적인 결과:<\/strong> 실시간으로 자바스크립트 처리",
+            "copy": "<strong>출력 복사:<\/strong> 압축된 자바스크립트를 쉽게 복사",
+            "secure": "<strong>보안 및 프라이버시:<\/strong> 모든 처리는 브라우저 내에서 수행",
+            "free": "<strong>무료 사용:<\/strong> 회원가입 필요 없음"
         },
-        "how_title": "How to Use",
+        "how_title": "사용 방법",
         "how_steps": [
-            "Paste your JavaScript code into the input field",
-            "Click \"Minify JS\" to compress the code",
-            "Click \"Beautify JS\" to format with indentation",
-            "Copy the output using \"Copy Output\" button"
+            "입력 필드에 자바스크립트 코드를 붙여넣으세요",
+            "'JS 압축하기'를 클릭하여 코드를 압축하세요",
+            "'JS 정렬하기'를 클릭하여 코드를 보기 좋게 정리하세요",
+            "'결과 복사' 버튼을 사용하여 출력 내용을 복사하세요"
         ],
         "faq_title": "❓ 자주 묻는 질문",
         "faq": {
@@ -43,17 +43,17 @@
             "a2": "미니파이어는 주로 용량 절감을 위해 공백을 지우는 것에 집중하는 반면, 난독화는 코드를 읽기 힘들게 꼬는 것에 더 집중합니다.",
             "q3": "ES6+ 최신 구문도 지원하나요?",
             "a3": "네, 최신 자바스크립트 표준 구문을 문제없이 처리할 수 있습니다.",
-            "q4": "Can I unminify JavaScript?",
-            "a4": "Yes, use the \"Beautify JS\" button to format minified JavaScript with proper indentation.",
-            "q5": "Does minifying affect JavaScript functionality?",
-            "a5": "No, minification only removes unnecessary characters. The JavaScript works exactly the same."
+            "q4": "자바스크립트 압축을 해제할 수 있나요?",
+            "a4": "네, 'JS 정렬하기' 버튼을 사용하면 압축된 자바스크립트를 원래의 들여쓰기 된 형태로 복원할 수 있습니다.",
+            "q5": "압축하면 자바스크립트 기능에 영향을 주나요?",
+            "a5": "아니요, 미니피케이션은 불필요한 문자만 제거할 뿐 자바스크립트의 동작은 정확히 동일하게 유지됩니다."
         }
     },
     "js": {
         "error_empty": "처리할 JavaScript 코드를 입력하세요",
         "success_minify": "✓ JS가 성공적으로 압축되었습니다",
         "success_beautify": "✓ JS가 성공적으로 정렬되었습니다",
-        "error_no_copy": "No output to copy",
+        "error_no_copy": "복사할 내용이 없습니다",
         "success_copy": "✓ 클립보드에 복사되었습니다"
     }
 }
