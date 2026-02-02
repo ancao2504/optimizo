@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Process;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Log;
 
 class YoutubeVideoDownloaderController extends Controller
 {
@@ -29,31 +30,53 @@ class YoutubeVideoDownloaderController extends Controller
 
     public function process(Request $request)
     {
+        set_time_limit(300); // 5 minutes
         $request->validate([
             'url' => 'required|url'
         ]);
 
         $url = $request->url;
 
-        $command = array_merge($this->getCommandPrefix(), ['--dump-json', '--no-warnings', $url]);
+        // Optimizations: Force IPv4 (fixes IPv6 stalling), No Playlist (only 1 video), No Check Certificate
+        $command = array_merge($this->getCommandPrefix(), [
+            '--dump-json',
+            '--no-warnings',
+            '--force-ipv4',
+            '--no-playlist',
+            '--no-check-certificate',
+            $url
+        ]);
 
-        // Explicitly pass environment variables to fix Python initialization error on Windows
-        $env = [
-            'SystemRoot' => getenv('SystemRoot'),
-            'PATH' => getenv('PATH'),
-            'TEMP' => getenv('TEMP'),
-            'RelPath' => '.'
-        ];
+        // Environment variables
+        $env = [];
+        if (PHP_OS_FAMILY === 'Windows') {
+            $env = [
+                'SystemRoot' => getenv('SystemRoot'),
+                'PATH' => getenv('PATH'),
+                'TEMP' => getenv('TEMP'),
+                'RelPath' => '.'
+            ];
+        } else {
+            // On Linux/Server, explicitly pass PATH to ensure custom locations are included
+            $env = ['PATH' => getenv('PATH')];
+        }
 
-        $result = Process::env($env)->run($command);
+        Log::info('YouTube Downloader Command:', ['cmd' => implode(' ', $command)]);
+
+        // Increase timeout to 5 minutes (300s) to handle slow server connections
+        $result = Process::env($env)->timeout(300)->run($command);
 
         if ($result->failed()) {
             $error = $result->errorOutput();
-            if (empty($error))
+            if (empty($error)) {
                 $error = $result->output();
+            }
+
+            Log::error('YouTube Downloader Failed:', ['error' => $error, 'output' => $result->output()]);
 
             if ($request->ajax() || $request->wantsJson()) {
-                return response()->json(['success' => false, 'error' => 'Failed to extract video data. please try again'], 500);
+                // Return actual error for debugging (remove in production if sensitive)
+                return response()->json(['success' => false, 'error' => 'Server Error: ' . substr($error, 0, 200)], 500);
             }
             return back()->with('error', 'Failed to extract video data');
         }
@@ -143,12 +166,15 @@ class YoutubeVideoDownloaderController extends Controller
                 2 => ["pipe", "w"]
             ];
 
-            $env = [
-                'SystemRoot' => getenv('SystemRoot'),
-                'PATH' => getenv('PATH'),
-                'TEMP' => getenv('TEMP'),
-                'RelPath' => '.'
-            ];
+            $env = null;
+            if (PHP_OS_FAMILY === 'Windows') {
+                $env = [
+                    'SystemRoot' => getenv('SystemRoot'),
+                    'PATH' => getenv('PATH'),
+                    'TEMP' => getenv('TEMP'),
+                    'RelPath' => '.'
+                ];
+            }
 
             $process = proc_open($commandStr, $descriptorSpec, $pipes, null, $env);
 
