@@ -377,7 +377,7 @@
                 btnText.text(translations.processing);
 
                 $.ajax({
-                    url: '{{ route("video-downloader.youtube-video-downloader.process") }}',
+                    url: '{{ route("downloader.youtube-video-downloader.process") }}',
                     method: 'POST',
                     data: {
                         _token: '{{ csrf_token() }}',
@@ -407,17 +407,17 @@
             function displayResults(data) {
                 // Video Info
                 const videoInfoHtml = `
-                                                <div class="w-full md:w-1/3">
-                                                    <img src="${data.thumbnail}" class="w-full rounded-lg shadow-lg border border-gray-200" alt="Thumbnail">
-                                                </div>
-                                                <div class="w-full md:w-2/3 space-y-3">
-                                                    <h3 class="text-xl font-bold text-gray-900 line-clamp-2">${data.title}</h3>
-                                                    <div class="flex flex-wrap gap-2 text-sm text-gray-600">
-                                                        <span class="bg-gray-100 px-3 py-1 rounded-full">Duration: ${formatDuration(data.duration)}</span>
-                                                        <span class="bg-gray-100 px-3 py-1 rounded-full">Views: ${formatNumber(data.view_count)}</span>
+                                                    <div class="w-full md:w-1/3">
+                                                        <img src="${data.thumbnail}" class="w-full rounded-lg shadow-lg border border-gray-200" alt="Thumbnail">
                                                     </div>
-                                                </div>
-                                            `;
+                                                    <div class="w-full md:w-2/3 space-y-3">
+                                                        <h3 class="text-xl font-bold text-gray-900 line-clamp-2">${data.title}</h3>
+                                                        <div class="flex flex-wrap gap-2 text-sm text-gray-600">
+                                                            <span class="bg-gray-100 px-3 py-1 rounded-full">Duration: ${formatDuration(data.duration)}</span>
+                                                            <span class="bg-gray-100 px-3 py-1 rounded-full">Views: ${formatNumber(data.view_count)}</span>
+                                                        </div>
+                                                    </div>
+                                                `;
                 $('#videoInfo').html(videoInfoHtml);
 
                 // Download Buttons
@@ -427,22 +427,22 @@
                 if (data.qualities && data.qualities.length > 0) {
                     data.qualities.forEach(q => {
                         const btnHtml = `
-                                                        <button onclick="startDownload('${q.id}')" 
-                                                            class="flex items-center justify-between w-full px-5 py-4 bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-200 rounded-xl transition-all group">
-                                                            <div class="flex items-center gap-3">
-                                                                <span class="bg-white p-2 rounded-lg shadow-sm text-gray-700 group-hover:text-red-600">
-                                                                    ${q.icon === 'audio' ? '🎵' : '📺'}
-                                                                </span>
-                                                                <div class="text-left">
-                                                                    <div class="font-bold text-gray-900 group-hover:text-red-700">${q.label}</div>
-                                                                    <div class="text-xs text-gray-500">${q.description}</div>
+                                                            <button onclick="startDownload('${q.id}')" 
+                                                                class="flex items-center justify-between w-full px-5 py-4 bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-200 rounded-xl transition-all group">
+                                                                <div class="flex items-center gap-3">
+                                                                    <span class="bg-white p-2 rounded-lg shadow-sm text-gray-700 group-hover:text-red-600">
+                                                                        ${q.icon === 'audio' ? '🎵' : '📺'}
+                                                                    </span>
+                                                                    <div class="text-left">
+                                                                        <div class="font-bold text-gray-900 group-hover:text-red-700">${q.label}</div>
+                                                                        <div class="text-xs text-gray-500">${q.description}</div>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="bg-white px-3 py-1 rounded-lg text-sm font-semibold text-gray-600 shadow-sm border border-gray-100 group-hover:border-red-100 group-hover:text-red-600">
-                                                                Download
-                                                            </div>
-                                                        </button>
-                                                    `;
+                                                                <div class="bg-white px-3 py-1 rounded-lg text-sm font-semibold text-gray-600 shadow-sm border border-gray-100 group-hover:border-red-100 group-hover:text-red-600">
+                                                                    Download
+                                                                </div>
+                                                            </button>
+                                                        `;
                         buttonsContainer.append(btnHtml);
                     });
                 }
@@ -479,7 +479,7 @@
             $('#progressBar').css('width', '0%');
             $('#progressText').text('0%');
 
-            const url = `{{ route('video-downloader.youtube-video-downloader.search') }}?url=${encodeURIComponent(currentVideoData.url)}&format_str=${encodeURIComponent(q.format_str)}&title=${encodeURIComponent(currentVideoData.title)}&ext=${encodeURIComponent(q.ext || 'mp4')}&_token={{ csrf_token() }}`;
+            const url = `{{ route('downloader.youtube-video-downloader.search') }}?url=${encodeURIComponent(currentVideoData.url)}&format_str=${encodeURIComponent(q.format_str)}&title=${encodeURIComponent(currentVideoData.title)}&ext=${encodeURIComponent(q.ext || 'mp4')}&_token={{ csrf_token() }}`;
 
             if (currentEventSource) {
                 currentEventSource.close();
@@ -512,7 +512,7 @@
                     $('#progressText').text('100%');
 
                     // Trigger download
-                    window.location.href = `{{ route('video-downloader.youtube-video-downloader.file') }}?filename=${encodeURIComponent(data.filename)}`;
+                    window.location.href = `{{ route('downloader.youtube-video-downloader.file') }}?filename=${encodeURIComponent(data.filename)}`;
 
                     // Close modal after short delay
                     setTimeout(() => {
