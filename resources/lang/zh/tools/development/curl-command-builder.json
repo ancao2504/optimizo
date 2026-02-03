@@ -17,7 +17,41 @@
         "generated_label": "生成的命令",
         "btn_copy": "复制 cURL"
     },
+    "content": {
+        "main_title": "使用我们的在线 cURL 命令生成器掌握 API 请求",
+        "main_subtitle": "直观地构建复杂的 cURL 命令。不再有语法错误或死记硬背标志。测试 API，调试端点并立即生成代码片段。",
+        "intro": "cURL (Client URL) 是开发人员使用 URL 传输数据的瑞士军刀。虽然功能强大，但其命令行语法可能令人望而生畏，拥有数百个标志和选项。我们的 **在线 cURL 命令生成器** 通过提供用户友好的可视化界面简化了此过程。无论您是需要测试 REST API，调试 webhook 还是为您的文档生成请求，此工具都可以帮助您在几秒钟内构建有效、安全且即使可用的 cURL 命令。支持 GET、POST、PUT、DELETE 和 PATCH 方法，以及自定义标头和 JSON 正文，使其成为前端和后端开发人员必不可少的实用程序。",
+        "features_title": "为什么使用我们的 cURL 生成器？",
+        "feature1_title": "可视化构建",
+        "feature1_desc": "忘记丢失的引号或放错位置的标志。填写一个简单的表格，我们为您处理语法生成。",
+        "feature2_title": "支持所有方法",
+        "feature2_desc": "完全支持标准 HTTP 方法（GET、POST、PUT、DELETE、PATCH），确保与任何 RESTful API 的兼容性。",
+        "feature3_title": "即时复制和运行",
+        "feature3_desc": "生成干净、bash 就绪的命令，您可以直接将其粘贴到终端或脚本文件中。",
+        "how_title": "如何构建 cURL 命令",
+        "step1_title": "选择 HTTP 方法",
+        "step1_desc": "为您的请求选择适当的操作（例如，GET 用于检索数据，POST 用于发送数据）。",
+        "step2_title": "输入请求 URL",
+        "step2_desc": "粘贴完整的 API 端点 URL，包括 https:// 协议和任何查询参数。",
+        "step3_title": "添加标头和正文",
+        "step3_desc": "包括必要的标头，如 'Authorization' 或 'Content-Type'，并为 POST/PUT 请求添加 JSON 数据。",
+        "step4_title": "复制生成的命令",
+        "step4_desc": "您的命令会在您键入时自动构建。单击复制按钮并在您的终端中运行它。",
+        "faq_title": "常见问题解答",
+        "faq1_q": "cURL 有什么用？",
+        "faq1_a": "cURL 是一个命令行工具，用于向服务器传输数据或从服务器传输数据。开发人员使用它来测试 API、下载文件和自动化数据传输任务。",
+        "faq2_q": "我需要安装 cURL 才能使用它吗？",
+        "faq2_a": "不，这是一个基于 Web 的生成器，可帮助您 *编写* 命令。要 *运行* 命令，您需要在计算机上安装 cURL（它预装在 macOS、Linux 和 Windows 10/11 上）。",
+        "faq3_q": "如何发送 JSON 数据？",
+        "faq3_a": "选择 POST 或 PUT 作为方法，然后在“请求正文”选项卡中输入您的 JSON。我们的工具会自动将其格式化为 -d 标志。",
+        "faq4_q": "我可以添加身份验证标头吗？",
+        "faq4_a": "是的！转到“标头”选项卡，并添加键 'Authorization' 和您的值（例如 'Bearer YOUR_TOKEN'）。",
+        "faq5_q": "我的数据安全吗？",
+        "faq5_a": "绝对安全。所有命令生成都在您的浏览器中进行。我们不会存储或将您的 API 密钥或请求数据传输到我们的服务器。",
+        "faq6_q": "使用的什么 shell 语法？",
+        "faq6_a": "生成的命令使用标准 Bash 语法，与 Linux、macOS 和 Windows 上的 Git Bash 兼容。"
+    },
     "js": {
-        "success_copy": "✓ cURL 命令已复制到剪贴板！"
+        "success_copy": "命令已复制！"
     }
 }

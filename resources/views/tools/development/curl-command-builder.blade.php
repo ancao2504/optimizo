@@ -94,6 +94,88 @@
 
             <div id="statusMessage" class="hidden mt-4 p-4 rounded-xl font-semibold text-center"></div>
         </div>
+        <!-- SEO Content -->
+        <div class="space-y-12 mt-8 font-sans">
+            <!-- Intro Card -->
+            <div class="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-3xl p-8 md:p-12 border border-indigo-100 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-gradient-to-br from-indigo-200 to-blue-200 rounded-full opacity-20 blur-3xl"></div>
+                <div class="relative z-10 text-center">
+                    <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6 tracking-tight leading-tight">
+                        {{ __tool('curl-command-builder', 'content.main_title') }}
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                        {{ __tool('curl-command-builder', 'content.main_subtitle') }}
+                    </p>
+                    <div class="mt-8 text-gray-700 leading-relaxed text-lg">
+                        {{ __tool('curl-command-builder', 'content.intro') }}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div>
+                <h3 class="text-3xl font-bold text-gray-900 mb-10 text-center">
+                    {{ __tool('curl-command-builder', 'content.features_title') }}</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    @foreach (['feature1', 'feature2', 'feature3'] as $feature)
+                        <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl hover:border-indigo-100 transition-all duration-300 group">
+                            <div class="w-14 h-14 bg-indigo-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-indigo-600 transition-colors duration-300">
+                                <svg class="h-8 w-8 text-indigo-600 group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    @if($loop->index == 0)
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                    @elseif($loop->index == 1)
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+                                    @else
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                                    @endif
+                                </svg>
+                            </div>
+                            <h4 class="text-xl font-bold text-gray-900 mb-3">
+                                {{ __tool('curl-command-builder', "content.{$feature}_title") }}</h4>
+                            <p class="text-gray-600">{{ __tool('curl-command-builder', "content.{$feature}_desc") }}</p>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+
+            <!-- How to Guide -->
+            <div class="bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-12">
+                <h3 class="text-3xl font-bold text-gray-900 mb-8">{{ __tool('curl-command-builder', 'content.how_title') }}</h3>
+                <div class="space-y-8">
+                    @foreach(range(1, 4) as $step)
+                        <div class="flex flex-col md:flex-row gap-6 items-start">
+                            <div class="flex-shrink-0 w-10 h-10 bg-indigo-600 text-white rounded-full flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-200">
+                                {{ $step }}
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-900 mb-2">
+                                    {{ __tool('curl-command-builder', "content.step{$step}_title") }}</h4>
+                                <p class="text-gray-600">{{ __tool('curl-command-builder', "content.step{$step}_desc") }}</p>
+                            </div>
+                        </div>
+                        @if(!$loop->last)
+                            <div class="relative pl-5 md:pl-0">
+                                <div class="absolute left-5 top-0 bottom-0 w-0.5 bg-gray-100 hidden md:block"></div>
+                            </div>
+                        @endif
+                    @endforeach
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div>
+                <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+                    {{ __tool('curl-command-builder', 'content.faq_title') }}</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    @foreach(range(1, 6) as $i)
+                        <div class="bg-gray-50 rounded-xl p-6 hover:bg-white hover:shadow-lg transition-all border border-gray-100 h-full">
+                            <h4 class="font-bold text-gray-900 mb-3">{{ __tool('curl-command-builder', "content.faq{$i}_q") }}</h4>
+                            <p class="text-gray-600 text-sm">{{ __tool('curl-command-builder', "content.faq{$i}_a") }}</p>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
     </div>
 
     @push('scripts')
