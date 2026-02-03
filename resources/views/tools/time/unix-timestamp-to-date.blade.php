@@ -65,7 +65,8 @@
         <div class="grid md:grid-cols-2 gap-8 mb-16">
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
                 <h2 class="text-2xl font-bold text-gray-900 mb-4">
-                    {{ __tool('unix-timestamp-to-date', 'content.what_is_title') }}</h2>
+                    {{ __tool('unix-timestamp-to-date', 'content.what_is_title') }}
+                </h2>
                 <div class="prose prose-indigo text-gray-600">
                     <p>{{ __tool('unix-timestamp-to-date', 'content.what_is_desc') }}</p>
                 </div>
@@ -73,10 +74,9 @@
 
             <div
                 class="bg-gradient-to-br from-indigo-600 to-purple-700 rounded-2xl shadow-xl p-8 text-white flex flex-col justify-center">
-                <h3 class="text-xl font-bold mb-2">Pro Tip</h3>
+                <h3 class="text-xl font-bold mb-2">{{ __tool('unix-timestamp-to-date', 'content.pro_tip_title') }}</h3>
                 <p class="opacity-90 leading-relaxed">
-                    Unix time is the number of seconds that have elapsed since the Unix epoch, minus leap seconds; the Unix
-                    epoch is 00:00:00 UTC on 1 January 1970.
+                    {{ __tool('unix-timestamp-to-date', 'content.pro_tip_desc') }}
                 </p>
             </div>
         </div>
