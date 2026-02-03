@@ -37,15 +37,8 @@ class YoutubeVideoDownloaderController extends Controller
 
         $url = $request->url;
 
-        // Optimizations: Force IPv4 (fixes IPv6 stalling), No Playlist (only 1 video), No Check Certificate
-        $command = array_merge($this->getCommandPrefix(), [
-            '--dump-json',
-            '--no-warnings',
-            '--force-ipv4',
-            '--no-playlist',
-            '--no-check-certificate',
-            $url
-        ]);
+        // Use centralized common flags including cookies if available and User-Agent
+        $command = array_merge($this->getCommandPrefix(), ['--dump-json', '--flat-playlist'], $this->getCommonFlags(), [$url]);
 
         // Environment variables
         $env = [];
@@ -142,7 +135,7 @@ class YoutubeVideoDownloaderController extends Controller
             set_time_limit(0);
             ob_implicit_flush(true);
 
-            $cmd = array_merge($this->getCommandPrefix(), ['-o', $outputPath, '--newline', '--progress']);
+            $cmd = array_merge($this->getCommandPrefix(), ['-o', $outputPath, '--newline', '--progress'], $this->getCommonFlags());
 
             if ($ext === 'mp3') {
                 $cmd = array_merge($cmd, ['-x', '--audio-format', 'mp3', '--audio-quality', '0']);
@@ -239,5 +232,43 @@ class YoutubeVideoDownloaderController extends Controller
         }
         // Server command as requested
         return ['python3.12', '-m', 'yt_dlp'];
+    }
+
+    private function getCommonFlags()
+    {
+        $flags = [
+            '--no-warnings',
+            '--force-ipv4',
+            '--no-playlist',
+            '--no-check-certificate',
+            '--user-agent',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        ];
+
+        // Check for cookies in multiple locations
+        $paths = [
+            storage_path('app/youtube_cookies.txt'),
+            storage_path('app/public/youtube_cookies.txt'),
+            base_path('youtube_cookies.txt'),
+            public_path('youtube_cookies.txt')
+        ];
+
+        $cookieFile = null;
+        foreach ($paths as $path) {
+            if (file_exists($path)) {
+                $cookieFile = $path;
+                break;
+            }
+        }
+
+        if ($cookieFile) {
+            Log::info("YouTube Downloader: Using cookies from $cookieFile");
+            $flags[] = '--cookies';
+            $flags[] = $cookieFile;
+        } else {
+            Log::warning("YouTube Downloader: No cookies file found. Checked: " . implode(', ', $paths));
+        }
+
+        return $flags;
     }
 }
