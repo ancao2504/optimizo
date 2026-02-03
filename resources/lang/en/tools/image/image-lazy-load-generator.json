@@ -1,0 +1,54 @@
+{
+    "meta": {
+        "title": "Image Lazy-Load Generator - Create LQIP Placeholders",
+        "h1": "Image Lazy-Load Generator",
+        "subtitle": "Generate lightweight image placeholders and lazy-loading implementation code.",
+        "desc": "Generate low-quality image placeholders (LQIP) and lazy-loading code for your website images. Improve page speed and SEO."
+    },
+    "input": {
+        "title": "Generate Lazy Load Code",
+        "desc": "Upload an image to generate a lightweight placeholder and implementation code.",
+        "drop_title": "Drag & Drop Image here",
+        "drop_desc": "or click to upload"
+    },
+    "settings": {
+        "title": "Generator Settings"
+    },
+    "result": {},
+    "content": {
+        "title": "Online Lazy Loading Generator",
+        "p1": "Improve your website's perceived performance and Core Web Vitals with our Image Lazy-Load Generator. By using Low Quality Image Placeholders (LQIP), you can show users a blurred or solid color preview while the full image loads in the background.",
+        "p2": "This tool automatically creates the tiny base64 placeholder and provides the HTML, CSS, and JavaScript needed to implement efficient lazy loading.",
+        "features": {
+            "lqip": {
+                "title": "LQIP Generation",
+                "desc": "Creates ultra-small base64 thumbnails (less than 1KB) to serve as instant placeholders."
+            },
+            "code": {
+                "title": "Ready-to-Use Code",
+                "desc": "Get the complete HTML, CSS, and vanilla JavaScript snippet for Intersection Observer implementation."
+            },
+            "styles": {
+                "title": "Multiple Styles",
+                "desc": "Choose between blurred thumbnails or dominant color placeholders."
+            }
+        },
+        "how_to": {
+            "title": "How to Implement Lazy Loading",
+            "list": [
+                "Upload your high-res image.",
+                "Adjust the blur amount and placeholder style.",
+                "Copy the HTML code and replace your existing `<img>` tag.",
+                "Add the CSS and JavaScript to your page footer.",
+                "Ensure the `data-src` matches your actual image path on your server."
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "q1": "What is LQIP?",
+            "a1": "LQIP stands for Low Quality Image Placeholder. It's a tiny version of your image shown immediately while the real one downloads.",
+            "q2": "Does this require jQuery?",
+            "a2": "No, the generated code uses vanilla JavaScript and the modern Intersection Observer API."
+        }
+    }
+}
