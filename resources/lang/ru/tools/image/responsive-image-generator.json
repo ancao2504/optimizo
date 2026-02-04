@@ -1,99 +1,99 @@
 {
     "meta": {
-        "title": "Responsive Image Generator - Create Srcset Online",
-        "h1": "Responsive Image Generator",
-        "subtitle": "Generate perfectly sized images and HTML srcset code for all devices.",
-        "desc": "Generate responsive images and HTML srcset attributes online. Create perfectly sized images for mobile, tablet, and desktop automatically."
+        "title": "Генератор адаптивных изображений — создание Srcset онлайн",
+        "h1": "Генератор адаптивных изображений",
+        "subtitle": "Создавайте изображения идеального размера и HTML-код srcset для всех устройств.",
+        "desc": "Генерируйте адаптивные изображения и атрибуты HTML srcset онлайн. Автоматически создавайте изображения идеального размера для мобильных устройств, планшетов и ПК."
     },
     "input": {
-        "title": "Generate Responsive Images",
-        "desc": "Upload an image to create multiple resized versions and the HTML srcset code.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Создать адаптивные изображения",
+        "desc": "Загрузите изображение, чтобы создать несколько версий с измененным размером и HTML-код srcset.",
+        "drop_title": "Перетащите изображение сюда",
+        "drop_desc": "или нажмите, чтобы загрузить"
     },
     "settings": {
-        "title": "Breakpoint Settings"
+        "title": "Настройки контрольных точек"
     },
     "result": {
-        "title": "Generated Assets",
-        "assets_desc": "Your resized images and integration code are ready.",
-        "btn_download_all": "Download All (ZIP)",
-        "code_snippet": "Copy HTML Code"
+        "title": "Сгенерированные ресурсы",
+        "assets_desc": "Ваши изображения с измененным размером и код интеграции готовы.",
+        "btn_download_all": "Скачать все (ZIP)",
+        "code_snippet": "Копировать HTML-код"
     },
     "content": {
         "intro": {
-            "title": "One Image, Every Screen: The Professional Guide to Responsive Imagery",
-            "subtitle": "Bridge the gap between high-definition quality and cellular speed with our automated srcset generator.",
-            "p1": "In the modern web landscape, your users are visiting you on a vast spectrum of hardware. One visitor might be using a 4K desktop monitor with a gigabit connection, while another is on a four-year-old smartphone using a shaky 3G signal in a basement. If you serve the same 4400-pixel wide hero image to both, you are punishing your mobile users with massive load times and data costs. Our Responsive Image Generator is built to solve this 'one-size-fits-all' dilemma, allowing you to generate a suite of perfectly sized images and the intelligent HTML code needed to deliver them.",
-            "p2": "The magic of modern responsive design lies in the `srcset` attribute. Unlike the old `src` attribute which forced a single file down every pipe, `srcset` provides the browser with a menu of options. You provide the images, and the browser—using its knowledge of the user's screen width and resolution—picks the most efficient file for the job. Our tool automates the tedious manual work of resizing, renaming, and coding these alternatives, transforming a high-resolution master file into a production-ready responsive asset package in seconds.",
-            "p3": "Whether you're a frontend developer striving for a perfect Lighthouse score, a designer ensuring your UI is crisp on Retina displays, or a blogger wanting to make your site accessible to users around the world, our online generator offers a frictionless, professional-grade workflow. We prioritize speed, accuracy, and performance, giving you the power to build a truly 'mobile-first' experience without the manual labor of traditional asset management."
+            "title": "Одно изображение, любой экран: профессиональное руководство по адаптивности",
+            "subtitle": "Преодолейте разрыв между качеством высокой четкости и скоростью сотовой связи с помощью нашего автоматизированного генератора srcset.",
+            "p1": "В современном веб-пространстве ваши пользователи посещают вас с огромного спектра устройств. Один посетитель может использовать настольный монитор 4K с гигабитным подключением, а другой — четырехлетний смартфон с шатким сигналом 3G в подвале. Если вы предоставляете одно и то же изображение шириной 4400 пикселей обоим, вы наказываете своих мобильных пользователей огромным временем загрузки и расходами на данные. Наш генератор адаптивных изображений создан для решения этой дилеммы «один размер для всех», позволяя вам генерировать набор изображений идеального размера и интеллектуальный HTML-код, необходимый для их доставки.",
+            "p2": "Магия современного адаптивного дизайна заключается в атрибуте `srcset`. В отличие от старого атрибута `src`, который пропускал один файл для всех, `srcset` предоставляет браузеру меню опций. Вы предоставляете изображения, а браузер, используя свои знания о ширине экрана и разрешении пользователя, выбирает наиболее эффективный файл для работы. Наш инструмент автоматизирует утомительную ручную работу по изменению размера, переименованию и кодированию этих альтернатив, превращая мастер-файл высокого разрешения в готовый к использованию пакет адаптивных ресурсов за считанные секунды.",
+            "p3": "Независимо от того, являетесь ли вы фронтенд-разработчиком, стремящимся к идеальной оценке Lighthouse, дизайнером, обеспечивающим четкость вашего интерфейса на дисплеях Retina, или блоггером, желающим сделать свой сайт доступным для пользователей по всему миру, наш онлайн-генератор предлагает бесперебойный рабочий процесс профессионального уровня. Мы уделяем первостепенное внимание скорости, точности и производительности, давая вам возможность создать действительно «mobile-first» опыт без ручного труда по традиционному управлению активами."
         },
         "story": {
-            "title": "The Infinite Viewport: Why Responsive Images are the Foundation of Modern UX",
-            "p1": "To understand the utility of our tool, you must understand 'Data Waste.' If you display an image at 300 pixels wide on a phone, but the file you're sending is 2000 pixels wide, you're sending roughly 40 times more data than necessary. This 'over-serving' is the leading cause of high bounce rates on mobile devices. Our generator creates the 'Breakpoints'—the specific widths where the image changes size—ensuring that every user gets 'just enough' pixels to look perfect, and not a single byte more.",
-            "p2": "The 'Density' factor is another critical layer. Modern phones have 'Retina' or 'High-DPI' screens that require twice as much detail as a standard monitor. If you only provide a 'small' version for mobile, your site will look blurry on high-end phones. Our tool helps you generate @2x and @3x versions if needed, creating a comprehensive list of assets that ensures your brand looks 'pixel-perfect' whether it's on a budget tablet or a flagship smartphone.",
-            "p3": "The `srcset` and `sizes` attributes are the 'logic' of responsive images. Writing these by hand is notoriously difficult and prone to errors. You have to specify the width of each image in 'w' units and then tell the browser how much of the viewport the image will take up using media queries. Our tool generates this complex HTML string for you automatically. You simply copy and paste the code, and your images instantly become 'browser-aware,' responding dynamically to the user's environment without an extra line of JavaScript.",
-            "p4": "Performance SEO is the final hidden benefit. Google's 'mobile-first' indexing weights page speed heavily. By using responsive images to reduce your mobile payload by 70-90%, you are signaling to search engines that your site is technically superior and optimized for all users. It's one of the most effective technical SEO 'quick wins' available, and our tool makes it as easy as a single upload.",
-            "p5": "Workflow Integration is where we help professional teams. If your designers are handing off massive 10MB Photoshop exports, your developers shouldn't have to manually save ten different versions. They can simply run the master file through our generator. It's a standardized, repeatable process that ensures every image on your site follows the same high-performance rules, regardless of who created it or when it was uploaded.",
-            "p6": "Why use our online tool instead of a build-step plugin? Many build-step tools like Webpack or Gulp are 'black boxes' that are hard to configure. Our tool gives you a visual preview. You can see the file sizes of each breakpoint before you download them. You have the control to add or remove specific widths based on your project's unique layout. It's a 'Precision Tool' for developers who want to understand and control their asset pipeline.",
-            "p7": "Trust-based responsive asset architecture. Serving the right image shouldn't mean uploading your proprietary assets to a data-scraping server. Because our Responsive Image Generator uses the local power of your browser's rendering engine (Canvas and local blobs), your files aren't stored on our machines. The resizing and the code generation happen on your device, ensuring that your high-value photography and UI assets remain your private property from start to finish.",
-            "p8": "In conclusion, the Responsive Image Generator is about inclusivity. It's about ensuring your message reaches every user, regardless of their technology or their location. Use our tool to build a faster, sharper, and more professional web, and treat every one of your visitors to a perfectly optimized visual experience. It's the final piece of the modern performance puzzle."
+            "title": "Бесконечное окно просмотра: почему адаптивные изображения — основа современного UX",
+            "p1": "Чтобы понять полезность нашего инструмента, вы должны понять «информационные отходы». Если вы отображаете изображение шириной 300 пикселей на телефоне, но отправляемый вами файл имеет ширину 2000 пикселей, вы отправляете примерно в 40 раз больше данных, чем необходимо. Это «чрезмерное обслуживание» является основной причиной высоких показателей отказов на мобильных устройствах. Наш генератор создает «контрольные точки» — определенную ширину, при которой изображение меняет размер, — гарантируя, что каждый пользователь получит «ровно столько» пикселей, сколько нужно для идеального вида, и ни единым байтом больше.",
+            "p2": "Фактор «Плотности» — еще один важный уровень. Современные телефоны имеют экраны «Retina» или «High-DPI», для которых требуется в два раза больше деталей, чем для стандартного монитора. Если вы предоставляете только «маленькую» версию для мобильных устройств, ваш сайт будет выглядеть размытым на дорогих телефонах. Наш инструмент помогает вам генерировать версии @2x и @3x при необходимости, создавая полный список ресурсов, который гарантирует, что ваш бренд будет выглядеть «пиксель в пиксель» идеально, будь то бюджетный планшет или флагманский смартфон.",
+            "p3": "Атрибуты `srcset` и `sizes` — это «логика» адаптивных изображений. Писать их вручную, как известно, трудно и чревато ошибками. Вы должны указать ширину каждого изображения в единицах 'w', а затем сообщить браузеру, какую часть области просмотра будет занимать изображение, используя медиа-запросы. Наш инструмент автоматически генерирует эту сложную строку HTML для вас. Вы просто копируете и вставляете код, и ваши изображения мгновенно становятся «браузерно-ориентированными», динамически реагируя на среду пользователя без лишней строки JavaScript.",
+            "p4": "SEO-производительность — последнее скрытое преимущество. Индексация Google «mobile-first» сильно зависит от скорости страницы. Используя адаптивные изображения для снижения мобильной нагрузки на 70-90%, вы сигнализируете поисковым системам, что ваш сайт технически превосходен и оптимизирован для всех пользователей. Это одна из самых эффективных технических «быстрых побед» SEO, и наш инструмент делает ее такой же простой, как одна загрузка.",
+            "p5": "Интеграция рабочего процесса — это то, где мы помогаем профессиональным командам. Если ваши дизайнеры передают массивные экспорты Photoshop объемом 10 МБ, ваши разработчики не должны вручную сохранять десять разных версий. Они могут просто пропустить мастер-файл через наш генератор. Это стандартизированный, повторяемый процесс, который гарантирует, что каждое изображение на вашем сайте будет соответствовать одним и тем же правилам высокой производительности, независимо от того, кто его создал или когда оно было загружено.",
+            "p6": "Зачем использовать наш онлайн-инструмент вместо плагина сборки? Многие инструменты сборки, такие как Webpack или Gulp, являются «черными ящиками», которые сложно настроить. Наш инструмент дает вам визуальный предварительный просмотр. Вы можете увидеть размер файла каждой контрольной точки перед их загрузкой. У вас есть возможность добавить или удалить определенную ширину в зависимости от уникального макета вашего проекта. Это «точный инструмент» для разработчиков, которые хотят понимать и контролировать свой конвейер активов.",
+            "p7": "Архитектура адаптивных ресурсов, основанная на доверии. Предоставление правильного изображения не должно означать загрузку ваших проприетарных ресурсов на сервер для сбора данных. Поскольку наш генератор адаптивных изображений использует локальную мощность движка рендеринга вашего браузера (Canvas и локальные blob-объекты), ваши файлы не сохраняются на наших машинах. Изменение размера и генерация кода происходят на вашем устройстве, гарантируя, что ваши ценные фотографии и ресурсы пользовательского интерфейса останутся вашей частной собственностью от начала до конца.",
+            "p8": "В заключение, генератор адаптивных изображений — это инклюзивность. Речь идет о том, чтобы ваше сообщение дошло до каждого пользователя, независимо от его технологии или местоположения. Используйте наш инструмент, чтобы создать более быстрый, четкий и профессиональный веб, и порадуйте каждого из ваших посетителей идеально оптимизированным визуальным опытом. Это последняя деталь современной головоломки производительности."
         },
         "features": {
-            "title": "Professional Utilities for Multi-Device Image Management",
-            "f1_title": "Automated Multi-Breakpoint Resizing",
-            "f1_desc": "Generate up to five different versions of your image in a single pass, targeting standard mobile, tablet, and desktop widths with medical precision.",
-            "f2_title": "Intelligent HTML Srcset Generator",
-            "f2_desc": "Get copy-pasteable HTML that includes the `srcset` and `sizes` attributes, correctly mapped to your generated file names for instant implementation.",
-            "f3_title": "High-Quality Resampling Logic",
-            "f3_desc": "Uses advanced interpolation algorithms to ensure that your resized images remain sharp and clear, avoiding the 'blur' of low-quality browser rescaling.",
-            "f4_title": "Asset Package Creator",
-            "f4_desc": "Download all your resized versions in a single organized folder. We handle the naming conventions (e.g., image-mobile.jpg, image-desktop.jpg) automatically.",
-            "f5_title": "Viewport-Aware Code Logic",
-            "f5_desc": "Generated code includes responsive hints that help the browser decide which image to download before the main CSS has even finished loading.",
-            "f6_title": "Secure On-Device Asset Generation",
-            "f6_desc": "Resizing and code generation happen entirely in your local browser sandbox. Your high-res source files are never uploaded or stored on our servers."
+            "title": "Профессиональные утилиты для управления изображениями на нескольких устройствах",
+            "f1_title": "Автоматическое изменение размера для нескольких контрольных точек",
+            "f1_desc": "Создавайте до пяти различных версий вашего изображения за один проход, ориентируясь на стандартную ширину мобильных устройств, планшетов и настольных компьютеров с медицинской точностью.",
+            "f2_title": "Интеллектуальный генератор HTML Srcset",
+            "f2_desc": "Получите готовый к копированию HTML, включающий атрибуты `srcset` и `sizes`, правильно сопоставленные с вашими сгенерированными именами файлов для мгновенного внедрения.",
+            "f3_title": "Логика передискретизации высокого качества",
+            "f3_desc": "Использует передовые алгоритмы интерполяции, чтобы ваши изображения с измененным размером оставались четкими и ясными, избегая «размытия» при некачественном масштабировании браузера.",
+            "f4_title": "Создатель пакета ресурсов",
+            "f4_desc": "Загрузите все версии с измененным размером в одной организованной папке. Мы автоматически обрабатываем соглашения об именовании (например, image-mobile.jpg, image-desktop.jpg).",
+            "f5_title": "Логика кода с учетом области просмотра",
+            "f5_desc": "Сгенерированный код включает адаптивные подсказки, которые помогают браузеру решить, какое изображение загрузить, еще до завершения загрузки основного CSS.",
+            "f6_title": "Безопасная генерация ресурсов на устройстве",
+            "f6_desc": "Изменение размера и генерация кода происходят полностью в песочнице вашего локального браузера. Ваши исходные файлы высокого разрешения никогда не загружаются и не хранятся на наших серверах."
         },
         "how_to": {
-            "title": "Master the Scale: How to Create Responsive Images",
-            "step1_title": "Upload the Global Master",
-            "step1_desc": "Select your highest-resolution version of the photo (e.g., 4000px wide). This provides the best data for creating the smaller breakpoints.",
-            "step2_title": "Define Your Target Widths",
-            "step2_desc": "Choose the breakpoints that match your CSS. Standard values like 480px, 768px, 1200px, and 1920px cover the vast majority of devices.",
-            "step3_title": "Batch Process the Assets",
-            "step3_desc": "Click the generate button. Our engine will create the individual files for each width while simultaneously building the HTML code block.",
-            "step4_title": "Download the Zip Archive",
-            "step4_desc": "Retrieve all your new, optimized image files. Upload them to the same folder on your server where your original image was located.",
-            "step5_title": "Integrate the Srcset Code",
-            "step5_desc": "Copy the generated code snippet. Paste it into your HTML or CMS, replacing your old, static `<img>` or `<picture>` tags.",
-            "step6_title": "Test on Different Devices",
-            "step6_desc": "Open your site on a phone and a desktop. Use the browser inspector to verify that the browser is indeed picking the smaller file for the smaller screen."
+            "title": "Освойте масштаб: как создавать адаптивные изображения",
+            "step1_title": "Загрузите глобальный мастер-файл",
+            "step1_desc": "Выберите версию фотографии с самым высоким разрешением (например, шириной 4000 пикселей). Это обеспечивает лучшие данные для создания меньших контрольных точек.",
+            "step2_title": "Определите целевую ширину",
+            "step2_desc": "Выберите контрольные точки, соответствующие вашему CSS. Стандартные значения, такие как 480px, 768px, 1200px и 1920px, охватывают подавляющее большинство устройств.",
+            "step3_title": "Пакетная обработка ресурсов",
+            "step3_desc": "Нажмите кнопку генерации. Наш движок создаст отдельные файлы для каждой ширины, одновременно создавая блок HTML-кода.",
+            "step4_title": "Скачайте Zip-архив",
+            "step4_desc": "Получите все ваши новые, оптимизированные файлы изображений. Загрузите их в ту же папку на вашем сервере, где находилось исходное изображение.",
+            "step5_title": "Интегрируйте код Srcset",
+            "step5_desc": "Скопируйте сгенерированный фрагмент кода. Вставьте его в свой HTML или CMS, заменив старые статические теги `<img>` или `<picture>`.",
+            "step6_title": "Протестируйте на разных устройствах",
+            "step6_desc": "Откройте свой сайт на телефоне и на компьютере. Используйте инспектор браузера, чтобы убедиться, что браузер действительно выбирает меньший файл для меньшего экрана."
         },
         "faq": {
-            "title": "Responsive Mastery: Adaptive Image Strategy FAQ",
-            "q1": "Why not just use 'width: 100%' in CSS?",
-            "a1": "'Width: 100%' makes an image fit the screen visually, but it still forces the phone to download the same 'huge' file size as a desktop.",
-            "q2": "What is the 'w' unit in srcset?",
-            "a2": "The 'w' unit tells the browser the physical width of the image in pixels. It helps the browser do the math for which file to download.",
-            "q3": "Do I need the <picture> tag or just <img> with srcset?",
-            "a3": "For most responsive images (resizing for width), `<img>` with `srcset` is best. Use `<picture>` if you need 'Art Direction' (different crops for different screens).",
-            "q4": "Will my images load twice if I use srcset?",
-            "a4": "No. The browser is very smart—it analyzes the `srcset` and the screen width *before* it starts any download, picking only the single best file.",
-            "q5": "Is there a limit on file resolution?",
-            "a5": "We can process master files up to 20-25MB, making it suitable for professional DSLR exports and 4K photography.",
-            "q6": "Does this tool work with WebP?",
-            "a6": "Yes! We recommend using WebP for your responsive assets to get the greatest possible speed benefit for your mobile visitors.",
-            "q7": "How many breakpoints should I use?",
-            "a7": "Three to four is usually enough (Mobile, Tablet, Desktop, Wide). Adding more creates diminishing returns and more assets to manage.",
-            "q8": "Can I use this for background images?",
-            "a8": "Responsive background images use CSS Media Queries. Our tool is optimized for the standard and more efficient HTML `<img>` markup.",
-            "q9": "Is the generator free for agencies?",
-            "a9": "Yes! Our responsive image tool is free for everyone, with no limits on how many images you can optimize per day.",
-            "q10": "Are my images safe from being stored?",
-            "a10": "Absolutely. Resizing happens locally in your browser's memory. Your assets never reach our servers, ensuring 100% intellectual property security."
+            "title": "Адаптивное мастерство: часто задаваемые вопросы о стратегии адаптивных изображений",
+            "q1": "Почему бы просто не использовать 'width: 100%' в CSS?",
+            "a1": "'Width: 100%' визуально подгоняет изображение под экран, но все равно заставляет телефон скачивать тот же «огромный» файл, что и компьютер.",
+            "q2": "Что такое единица 'w' в srcset?",
+            "a2": "Единица «w» сообщает браузеру физическую ширину изображения в пикселях. Она помогает браузеру выполнять математические расчеты, чтобы выбрать файл для загрузки.",
+            "q3": "Нужен ли мне тег <picture> или просто <img> с srcset?",
+            "a3": "Для большинства адаптивных изображений (изменение размера по ширине) лучше всего подходит `<img>` с `srcset`. Используйте `<picture>`, если вам нужна «художественная постановка» (разная обрезка для разных экранов).",
+            "q4": "Будут ли мои изображения загружаться дважды, если я использую srcset?",
+            "a4": "Нет. Браузер очень умный — он анализирует `srcset` и ширину экрана *до* начала загрузки, выбирая только один лучший файл.",
+            "q5": "Есть ли ограничение на разрешение файла?",
+            "a5": "Мы можем обрабатывать мастер-файлы размером до 20-25 МБ, что делает их пригодными для профессионального экспорта DSLR и фотографии 4K.",
+            "q6": "Работает ли этот инструмент с WebP?",
+            "a6": "Да! Мы рекомендуем использовать WebP для ваших адаптивных ресурсов, чтобы получить максимальную скорость для ваших мобильных посетителей.",
+            "q7": "Сколько контрольных точек я должен использовать?",
+            "a7": "Обычно достаточно трех-четырех (мобильный, планшет, рабочий стол, широкий экран). Добавление большего количества создает убывающую отдачу и больше ресурсов для управления.",
+            "q8": "Могу ли я использовать это для фоновых изображений?",
+            "a8": "Адаптивные фоновые изображения используют медиа-запросы CSS. Наш инструмент оптимизирован для стандартной и более эффективной разметки HTML `<img>`.",
+            "q9": "Генератор бесплатен для агентств?",
+            "a9": "Да! Наш инструмент адаптивных изображений бесплатен для всех, без ограничений на количество изображений, которые вы можете оптимизировать в день.",
+            "q10": "Защищены ли мои изображения от сохранения?",
+            "a10": "Безусловно. Изменение размера происходит локально в памяти вашего браузера. Ваши ресурсы никогда не попадают на наши серверы, обеспечивая 100% безопасность интеллектуальной собственности."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Ошибка преобразования изображения: "
     }
 }

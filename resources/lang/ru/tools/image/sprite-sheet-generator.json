@@ -1,98 +1,98 @@
 {
     "meta": {
-        "title": "Sprite Sheet Generator - Create CSS Sprites Online",
-        "h1": "Sprite Sheet Generator",
-        "subtitle": "Combine multiple images into a single sprite sheet and generate CSS code.",
-        "desc": "Combine multiple images into a single sprite sheet and generate CSS code automatically. Reduce HTTP requests and optimize website performance."
+        "title": "Генератор спрайт-листов - Онлайн создание CSS спрайтов",
+        "h1": "Генератор спрайт-листов",
+        "subtitle": "Объедините несколько изображений в один лист спрайтов и сгенерируйте CSS-код.",
+        "desc": "Объединяйте несколько изображений в один спрайт-лист и автоматически генерируйте CSS-код. Сократите HTTP-запросы и оптимизируйте производительность сайта."
     },
     "input": {
-        "title": "Generate CSS Sprite Sheet",
-        "desc": "Upload multiple icons or images to pack them into a single file.",
-        "drop_title": "Drag & Drop Images here",
-        "drop_desc": "or click to upload multiple files"
+        "title": "Создать CSS спрайт-лист",
+        "desc": "Загрузите несколько иконок или изображений, чтобы упаковать их в один файл.",
+        "drop_title": "Перетащите изображения сюда",
+        "drop_desc": "или нажмите, чтобы загрузить несколько файлов"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "Настройки генератора"
     },
     "result": {
-        "title": "Generated Sprite Sheet",
-        "css_title": "Copy CSS Code",
-        "btn_download": "Download Sprite Sheet"
+        "title": "Сгенерированный спрайт-лист",
+        "css_title": "Копировать CSS-код",
+        "btn_download": "Скачать спрайт-лист"
     },
     "content": {
         "intro": {
-            "title": "The Art of Efficiency: Mastering the CSS Sprite Sheet Generator",
-            "subtitle": "Boost your website's performance by consolidating dozens of images into a single, high-speed asset.",
-            "p1": "In the world of high-performance web development, every millisecond counts. One of the most common bottlenecks for page load speed isn't just the 'size' of your images, but the 'number' of requests the browser has to make to fetch them. If your site has twenty icons, that's twenty individual HTTP requests, twenty handshakes with the server, and twenty potential delays. Our Sprite Sheet Generator is designed to solve this problem by packing all your small assets into a single image file—a technique known as CSS Spriting.",
-            "p2": "A 'Sprite Sheet' is essentially a grid of multiple images combined into one large 'atlas.' To display a specific icon, you use CSS to define the sprite sheet as the background and then use 'offset' coordinates to show only the portion of the sheet you need. This reduces your server overhead from twenty requests to just one. Our tool automates the tedious math involved in this process, generating both the optimized sprite image and the precise CSS code you need to implement it in seconds.",
-            "p3": "Whether you're building a massive enterprise application with hundreds of UI icons, a mobile game with character animations, or a personal blog with custom social media buttons, our online generator offers a professional-grade solution. We prioritize packing efficiency and ease of implementation, helping you create cleaner code and faster websites, completely for free and without any complex CLI tools."
+            "title": "Искусство эффективности: освоение генератора CSS спрайтов",
+            "subtitle": "Повысьте производительность вашего сайта, объединив десятки изображений в один высокоскоростной ресурс.",
+            "p1": "В мире высокопроизводительной веб-разработки каждая миллисекунда на счету. Одно из самых распространенных узких мест для скорости загрузки страницы — это не только «размер» ваших изображений, но и «количество» запросов, которые браузер должен сделать для их получения. Если на вашем сайте двадцать иконок, это двадцать отдельных HTTP-запросов, двадцать рукопожатий с сервером и двадцать потенциальных задержек. Наш генератор спрайт-листов предназначен для решения этой проблемы путем упаковки всех ваших небольших ресурсов в один файл изображения — метод, известный как CSS Spriting.",
+            "p2": "«Спрайт-лист» — это, по сути, сетка из нескольких изображений, объединенных в один большой «атлас». Чтобы отобразить определенную иконку, вы используете CSS, чтобы определить спрайт-лист в качестве фона, а затем используете координаты «смещения», чтобы показать только ту часть листа, которая вам нужна. Это снижает нагрузку на ваш сервер с двадцати запросов до одного. Наш инструмент автоматизирует утомительную математику, связанную с этим процессом, генерируя как оптимизированное изображение спрайта, так и точный CSS-код, необходимый для его реализации за считанные секунды.",
+            "p3": "Независимо от того, создаете ли вы массивное корпоративное приложение с сотнями иконок пользовательского интерфейса, мобильную игру с анимацией персонажей или личный блог с пользовательскими кнопками социальных сетей, наш онлайн-генератор предлагает решение профессионального уровня. Мы уделяем первостепенное внимание эффективности упаковки и простоте реализации, помогая вам создавать более чистый код и более быстрые веб-сайты, совершенно бесплатно и без каких-либо сложных инструментов командной строки."
         },
         "story": {
-            "title": "Smoothing the Page Load: Why Sprite Sheets are a Developer's Best Friend",
-            "p1": "To understand why sprite sheets work, you have to look at the 'Perceived Performance' of a website. When a browser loads a page, it requests images in parallel. However, most browsers have a limit on how many simultaneous connections they can open to a single domain (usually six). If you have sixty small icons, the browser has to queue them in batches, leading to the 'pop-in' effect where icons appear one by one. By using a single sprite sheet, you bypass this queue entirely. The sheet loads once, and every icon is ready instantly.",
-            "p2": "The 'Packing Problem' is the mathematical core of our tool. If you just place images randomly, you end up with a lot of 'dead space' (empty transparent pixels), which makes the file larger than it needs to be. Our generator uses a smart packing algorithm that analyzes the dimensions of every uploaded image and arranges them into a tight grid with minimal padding. This ensures that your single request is as small and efficient as possible, maximizing the performance gain of the technique.",
-            "p3": "CSS Background Position is the magic wand that makes it all work. For every icon in your sheet, our tool calculates the exact X and Y coordinates (in pixels) of its top-left corner. We then generate a CSS class that sets the background-position to those values. Instead of writing 'background-image: icon1.png', you just apply a class like `.icon-home`. Our tool generates all these classes for you, so you can copy and paste them directly into your stylesheet.",
-            "p4": "Animation and Game Development are other huge use cases for sprite sheets. If you're creating a character that walks or jumps, you need to swap out 'frames' of animation very quickly. loading separate files for every frame would cause flickering as the browser tries to catch up. A sprite sheet puts every frame of the animation into a single strip, allowing for smooth, zero-latency frame swapping. It's the standard for 2D game engines and web-based animations.",
-            "p5": "Retina and High-DPI support is also easier with sprites. Instead of maintaining two versions of every icon (standard and @2x), you only have to maintain two versions of the sprite sheet. This simplifies your asset management and ensures that your UI looks crisp and professional on every screen, from budget laptops to the latest high-end smartphones.",
-            "p6": "Why Professional Devs Choose Our Generator Manual spriting in Photoshop or Figma is incredibly tedious. You have to create a grid, align pixels perfectly, and then manually record the coordinates for every single item. If you add one new icon, you often have to redo the whole thing. Our generator makes this a 'one-click' update process. Upload your new batch, and get a fresh sheet and fresh CSS in an instant.",
-            "p7": "Security and Workflow are key. We understand that your icons and UI assets are the 'secret sauce' of your design. Because our Sprite Sheet Generator operates locally in your browser, your assets aren't stored on our servers. The 'packing' math happens on your device, and you download the result directly. It's a secure, private, and instantaneous part of your professional development pipeline.",
-            "p8": "In conclusion, the Sprite Sheet Generator is about more than just images; it's about site architecture. It's about being a smarter developer who understands how the web actually works. Use our tool to consolidate your assets, reduce your server load, and provide your users with the fastest, smoothest experience possible. It's the technical secret to a professional-grade frontend."
+            "title": "Сглаживание загрузки страницы: почему спрайт-листы — лучшие друзья разработчика",
+            "p1": "Чтобы понять, почему работают спрайт-листы, вам нужно посмотреть на «воспринимаемую производительность» веб-сайта. Когда браузер загружает страницу, он запрашивает изображения параллельно. Однако большинство браузеров имеют ограничение на количество одновременных подключений, которые они могут открыть к одному домену (обычно шесть). Если у вас есть шестьдесят маленьких иконок, браузер должен ставить их в очередь партиями, что приводит к эффекту «появления», когда иконки появляются одна за другой. Используя один спрайт-лист, вы полностью обходите эту очередь. Лист загружается один раз, и каждая иконка становится доступна мгновенно.",
+            "p2": "«Задача упаковки» — это математическое ядро нашего инструмента. Если вы просто разместите изображения случайным образом, вы получите много «мертвого пространства» (пустых прозрачных пикселей), что делает файл больше, чем нужно. Наш генератор использует интеллектуальный алгоритм упаковки, который анализирует размеры каждого загруженного изображения и упорядочивает их в плотную сетку с минимальными отступами. Это гарантирует, что ваш единственный запрос будет максимально маленьким и эффективным, максимизируя прирост производительности от этой техники.",
+            "p3": "CSS Background Position — это волшебная палочка, которая заставляет все это работать. Для каждой иконки на вашем листе наш инструмент вычисляет точные координаты X и Y (в пикселях) ее верхнего левого угла. Затем мы генерируем CSS-класс, который устанавливает background-position в эти значения. Вместо того чтобы писать 'background-image: icon1.png', вы просто применяете класс, например `.icon-home`. Наш инструмент генерирует все эти классы для вас, поэтому вы можете скопировать и вставить их непосредственно в свою таблицу стилей.",
+            "p4": "Анимация и разработка игр — другие огромные варианты использования спрайт-листов. Если вы создаете персонажа, который ходит или прыгает, вам нужно очень быстро менять «кадры» анимации. Загрузка отдельных файлов для каждого кадра вызовет мерцание, так как браузер пытается угнаться. Спрайт-лист помещает каждый кадр анимации в одну полосу, обеспечивая плавную смену кадров с нулевой задержкой. Это стандарт для 2D-игровых движков и веб-анимации.",
+            "p5": "Поддержка Retina и High-DPI также проще со спрайтами. Вместо того чтобы поддерживать две версии каждой иконки (стандартную и @2x), вам нужно поддерживать только две версии спрайт-листа. Это упрощает управление вашими активами и гарантирует, что ваш интерфейс будет выглядеть четким и профессиональным на любом экране, от бюджетных ноутбуков до новейших смартфонов высокого класса.",
+            "p6": "Почему профессиональные разработчики выбирают наш генератор Ручное создание спрайтов в Photoshop или Figma невероятно утомительно. Вы должны создать сетку, идеально выровнять пиксели, а затем вручную записать координаты для каждого элемента. Если вы добавите одну новую иконку, вам часто придется переделывать все заново. Наш генератор делает этот процесс обновлением «в один клик». Загрузите новую партию и получите новый лист и новый CSS в одно мгновение.",
+            "p7": "Безопасность и рабочий процесс являются ключевыми. Мы понимаем, что ваши иконки и ресурсы пользовательского интерфейса — это «секретный ингредиент» вашего дизайна. Поскольку наш генератор спрайт-листов работает локально в вашем браузере, ваши активы не сохраняются на наших серверах. Математика «упаковки» происходит на вашем устройстве, и вы загружаете результат напрямую. Это безопасная, конфиденциальная и мгновенная часть вашего профессионального конвейера разработки.",
+            "p8": "В заключение, генератор спрайт-листов — это больше, чем просто изображения; это архитектура сайта. Речь идет о том, чтобы быть более умным разработчиком, который понимает, как на самом деле работает Интернет. Используйте наш инструмент, чтобы консолидировать свои активы, снизить нагрузку на сервер и предоставить пользователям максимально быстрый и плавный опыт. Это технический секрет профессионального фронтенда."
         },
         "features": {
-            "title": "High-Efficiency Utilities for Frontend Optimization",
-            "f1_title": "Automatic Coordinate Generation",
-            "f1_desc": "We do the math so you don't have to. Instantly get precise X and Y coordinates for every individual image in your consolidated sprite sheet.",
-            "f2_title": "Smart-Grid Packing Algorithm",
-            "f2_desc": "Our engine intelligently arranges images of varying sizes into the most efficient grid possible, minimizing empty space and reducing final file size.",
-            "f3_title": "Ready-to-Use CSS Classes",
-            "f3_desc": "Generates a clean, copy-pasteable CSS block with individual classes for every asset, including background-position and dimension properties.",
-            "f4_title": "Customizable Layout Modes",
-            "f4_desc": "Choose between Vertical strips, Horizontal strips, or the most efficient 'Grid' mode based on the needs of your specific project architecture.",
-            "f5_title": "Padding and Spacing Control",
-            "f5_desc": "Add custom spacing between sprites to prevent 'pixel bleeding'—where parts of the adjacent icon accidentally show through in your UI.",
-            "f6_title": "Local Memory Processing Protection",
-            "f6_desc": "Your UI assets are your property. All packing and code generation happens right in your browser, ensuring no data ever leaves your device."
+            "title": "Высокоэффективные утилиты для оптимизации фронтенда",
+            "f1_title": "Автоматическая генерация координат",
+            "f1_desc": "Мы делаем математику, чтобы вам не пришлось. Мгновенно получайте точные координаты X и Y для каждого отдельного изображения в вашем консолидированном спрайт-листе.",
+            "f2_title": "Алгоритм упаковки Smart-Grid",
+            "f2_desc": "Наш движок интеллектуально упорядочивает изображения разного размера в максимально эффективную сетку, минимизируя пустое пространство и уменьшая итоговый размер файла.",
+            "f3_title": "Готовые к использованию CSS-классы",
+            "f3_desc": "Генерирует чистый, готовый к копированию блок CSS с отдельными классами для каждого ресурса, включая свойства background-position и размеры.",
+            "f4_title": "Настраиваемые режимы макета",
+            "f4_desc": "Выбирайте между вертикальными полосами, горизонтальными полосами или наиболее эффективным режимом «Сетка» в зависимости от потребностей архитектуры вашего конкретного проекта.",
+            "f5_title": "Контроль отступов и интервалов",
+            "f5_desc": "Добавьте пользовательский интервал между спрайтами, чтобы предотвратить «просачивание пикселей» — когда части соседней иконки случайно отображаются в вашем интерфейсе.",
+            "f6_title": "Защита локальной обработки памяти",
+            "f6_desc": "Ваши ресурсы пользовательского интерфейса — ваша собственность. Вся упаковка и генерация кода происходят прямо в вашем браузере, гарантируя, что никакие данные никогда не покинут ваше устройство."
         },
         "how_to": {
-            "title": "A Guide to High-Speed Assets: How to Use the Generator",
-            "step1_title": "Collect Your Small Assets",
-            "step1_desc": "Gather all the small icons, buttons, or frames of an animation that you want to combine. Ensure they are in a high-quality format like PNG.",
-            "step2_title": "Batch Upload to the Tool",
-            "step2_desc": "Select all files at once and upload them. The tool will immediately create a visual preview of how they can be packed together.",
-            "step3_title": "Configure the Optimization",
-            "step3_desc": "Adjust the 'Padding' if you're worried about edges appearing on retina screens, or choose a 'Vertical' layout if you're building a side-menu or filmstrip.",
-            "step4_title": "Review the Sprite Preview",
-            "step4_desc": "Check the generated sheet. Ensure every item is visible and that the grid is tight and efficient with no wasted space.",
-            "step5_title": "Download the Atlas Image",
-            "step5_desc": "Click the 'Download Sprite Sheet' button to save the consolidated image file to your project's assets folder.",
-            "step6_title": "Implement the CSS Code",
-            "step6_desc": "Copy the generated CSS block and paste it into your styles. Use the individual class names on your HTML elements to display the icons."
+            "title": "Руководство по высокоскоростным активам: как использовать генератор",
+            "step1_title": "Соберите свои мелкие активы",
+            "step1_desc": "Соберите все маленькие иконки, кнопки или кадры анимации, которые вы хотите объединить. Убедитесь, что они в высококачественном формате, например PNG.",
+            "step2_title": "Пакетная загрузка в инструмент",
+            "step2_desc": "Выберите все файлы сразу и загрузите их. Инструмент немедленно создаст визуальный предварительный просмотр того, как их можно упаковать вместе.",
+            "step3_title": "Настройте оптимизацию",
+            "step3_desc": "Отрегулируйте «Отступ», если вы беспокоитесь о краях, появляющихся на экранах retina, или выберите «Вертикальный» макет, если вы создаете боковое меню или диафильм.",
+            "step4_title": "Проверьте предварительный просмотр спрайта",
+            "step4_desc": "Проверьте сгенерированный лист. Убедитесь, что каждый элемент виден, а сетка плотная и эффективная без лишнего пространства.",
+            "step5_title": "Скачайте изображение атласа",
+            "step5_desc": "Нажмите кнопку «Скачать спрайт-лист», чтобы сохранить консолидированный файл изображения в папку ресурсов вашего проекта.",
+            "step6_title": "Внедрите CSS-код",
+            "step6_desc": "Скопируйте сгенерированный блок CSS и вставьте его в свои стили. Используйте отдельные имена классов для ваших элементов HTML, чтобы отобразить иконки."
         },
         "faq": {
-            "title": "Sprite Sheet Mastery: Game Asset Creation Secrets",
-            "q1": "Are sprite sheets still relevant with HTTP\/2?",
-            "a1": "Yes! While HTTP\/2 handles multiple requests better, sprite sheets are still faster because they reduce the total amount of metadata and compression overhead.",
-            "q2": "What happens if I have images of different sizes?",
-            "a2": "Our smart-grid algorithm is designed for this! It will arrange your images of all shapes and sizes into the most compact rectangle possible.",
-            "q3": "Should I use JPG or PNG for my sprite sheet?",
-            "a3": "We strongly recommend PNG. It handles the 'sharp edges' of icons better and supports transparency, which is essential for most web UI work.",
-            "q4": "Is there a limit on how many images I can include?",
-            "a4": "Technically, no. However, we recommend sticking to around 50-100 images per sheet to keep the file dimensions from becoming overwhelmingly large.",
-            "q5": "What is 'Pixel Bleeding'?",
-            "a5": "This occurs when sub-pixel rendering shows a sliver of the next image in the sheet. Add 1-2 pixels of 'Padding' in our tool to prevent this.",
-            "q6": "Does this tool support SVG?",
-            "a6": "This tool is for raster sprites (PNG\/JPG). For SVGs, you should use an 'SVG Sprite' approach which is handled differently in modern browsers.",
-            "q7": "How do I update a sprite sheet later?",
-            "a7": "Just re-upload the original icons plus the new one. Our tool will give you a new sheet and new CSS in seconds.",
-            "q8": "Is this tool free for game developers?",
-            "a8": "Yes! Whether you're making a web site or a mobile game, our generator is 100% free with no commercial restrictions.",
-            "q9": "Can browsers cache sprite sheets?",
-            "a9": "Yes! This is one of the biggest benefits. The browser only has to cache one file to have every icon ready for all pages of your site.",
-            "q10": "Is my proprietary icon data safe?",
-            "a10": "Absolutely. Because your files are processed locally in your browser, your designs are never uploaded, stored, or viewed by our system."
+            "title": "Мастерство создания спрайт-листов: секреты создания игровых активов",
+            "q1": "Актуальны ли спрайт-листы с HTTP/2?",
+            "a1": "Да! Хотя HTTP/2 лучше справляется с несколькими запросами, спрайт-листы все равно быстрее, поскольку они уменьшают общий объем метаданных и накладные расходы на сжатие.",
+            "q2": "Что произойдет, если у меня изображения разного размера?",
+            "a2": "Наш алгоритм smart-grid разработан для этого! Он упорядочит ваши изображения всех форм и размеров в максимально компактный прямоугольник.",
+            "q3": "Что использовать: JPG или PNG для моего спрайт-листа?",
+            "a3": "Мы настоятельно рекомендуем PNG. Он лучше справляется с «острыми краями» иконок и поддерживает прозрачность, что важно для большинства работ с веб-интерфейсом.",
+            "q4": "Есть ли ограничение на количество изображений, которые я могу включить?",
+            "a4": "Технически нет. Однако мы рекомендуем придерживаться около 50-100 изображений на лист, чтобы размеры файла не становились слишком большими.",
+            "q5": "Что такое «просачивание пикселей»?",
+            "a5": "Это происходит, когда субпиксельный рендеринг показывает полоску следующего изображения на листе. Добавьте 1-2 пикселя «Отступа» в нашем инструменте, чтобы предотвратить это.",
+            "q6": "Поддерживает ли этот инструмент SVG?",
+            "a6": "Этот инструмент предназначен для растровых спрайтов (PNG/JPG). Для SVG следует использовать подход «SVG Sprite», который обрабатывается по-другому в современных браузерах.",
+            "q7": "Как обновить спрайт-лист позже?",
+            "a7": "Просто загрузите исходные иконки плюс новую. Наш инструмент предоставит вам новый лист и новый CSS за секунды.",
+            "q8": "Бесплатен ли этот инструмент для разработчиков игр?",
+            "a8": "Да! Независимо от того, создаете ли вы веб-сайт или мобильную игру, наш генератор на 100% бесплатен без каких-либо коммерческих ограничений.",
+            "q9": "Могут ли браузеры кэшировать спрайт-листы?",
+            "a9": "Да! Это одно из самых больших преимуществ. Браузеру нужно кэшировать только один файл, чтобы иметь каждую иконку готовой для всех страниц вашего сайта.",
+            "q10": "Защищены ли мои собственные данные иконок?",
+            "a10": "Безусловно. Поскольку ваши файлы обрабатываются локально в вашем браузере, ваши дизайны никогда не загружаются, не сохраняются и не просматриваются нашей системой."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Ошибка преобразования изображения: "
     }
 }

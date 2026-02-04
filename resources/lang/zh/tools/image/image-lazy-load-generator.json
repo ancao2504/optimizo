@@ -1,100 +1,100 @@
 {
     "meta": {
-        "title": "Image Lazy-Load Generator - Create LQIP Placeholders",
-        "h1": "Image Lazy-Load Generator",
-        "subtitle": "Generate lightweight image placeholders and lazy-loading implementation code.",
-        "desc": "Generate low-quality image placeholders (LQIP) and lazy-loading code for your website images. Improve page speed and SEO."
+        "title": "图片懒加载生成器 - 创建 LQIP 占位符",
+        "h1": "图片懒加载生成器",
+        "subtitle": "生成轻量级图片占位符和懒加载实现代码。",
+        "desc": "为您的网站图片生成低质量图片占位符 (LQIP) 和懒加载代码。提高页面速度和 SEO。"
     },
     "input": {
-        "title": "Generate Lazy Load Code",
-        "desc": "Upload an image to generate a lightweight placeholder and implementation code.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "生成懒加载代码",
+        "desc": "上传一张图片以生成轻量级占位符和实现代码。",
+        "drop_title": "将图片拖放到此处",
+        "drop_desc": "或点击上传"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "生成器设置"
     },
     "result": {
-        "title": "Implementation Code",
-        "html_title": "HTML Snippet",
-        "css_title": "CSS Styles",
-        "js_title": "JavaScript Logic",
-        "btn_download": "Copy All Code"
+        "title": "实施代码",
+        "html_title": "HTML 代码片段",
+        "css_title": "CSS 样式",
+        "js_title": "JavaScript 逻辑",
+        "btn_download": "复制代码"
     },
     "content": {
         "intro": {
-            "title": "Speed Without Compromise: Mastering the Image Lazy-Load Generator",
-            "subtitle": "Optimize your Core Web Vitals and delight your users with modern lazy-loading techniques.",
-            "p1": "In the race for a perfect Google PageSpeed score, images are often your greatest hurdle. A modern, high-definition website can easily require several megabytes of data just to display the hero section and gallery. If a browser tries to load all these images at once, it creates a massive traffic jam that delays the rendering of your text and interactive elements. Our Image Lazy-Load Generator is the professional solution to this bottleneck, allowing you to implement 'Smart Loading' that only fetches images as the user scrolls them into view.",
-            "p2": "The secret to a great lazy-loading experience isn't just 'delaying' the load; it's providing a high-quality 'Placeholder.' Instead of showing a jarring empty white box, our tool generates a Low-Quality Image Placeholder (LQIP). This is an ultra-small, blurred version of your original photo encoded in base64. Because the placeholder is tiny (often less than 1KB), it loads instantly, giving your users a beautiful, 'pulsing' preview while the high-resolution original downloads silently in the background.",
-            "p3": "Whether you are a web developer trying to hit 100 on Lighthouse, a WordPress user wanting to custom-optimize a landing page, or a shop owner with an image-heavy catalog, our online generator offers an automated, code-ready workflow. We handle the image processing and the complex JavaScript implementation, leaving you with a simple copy-paste snippet that will transform your site's performance and SEO ranking."
+            "title": "速度不打折：掌握图片懒加载生成器",
+            "subtitle": "优化您的核心 Web Vitals，并用现代懒加载技术取悦您的用户。",
+            "p1": "在争取完美的 Google PageSpeed 分数的竞赛中，图片通常是您最大的障碍。一个现代的高清网站可能需要数兆字节的数据才能显示首屏部分和画廊。如果浏览器尝试立即加载所有这些图片，就会造成巨大的流量拥堵，延迟文本和交互元素的渲染。我们的图片懒加载生成器是解决这一瓶颈的专业解决方案，允许您实施“智能加载”，仅在用户滚动到图片时才获取图片。",
+            "p2": "出色的懒加载体验的秘诀不仅在于“延迟”加载；还在于提供高质量的“占位符”。我们的工具不是显示一个令人不快的空白色框，而是生成低质量图像占位符 (LQIP)。这是以 base64 编码的原始照片的超小、模糊版本。因为占位符很小（通常小于 1KB），所以它会立即加载，为您的用户提供美丽、“脉动”的预览，而高分辨率原始图则在后台静默下载。",
+            "p3": "无论您是试图在 Lighthouse 上达到 100 分的 Web 开发人员，想要自定义优化着陆页的 WordPress 用户，还是拥有大量图片目录的店主，我们的在线生成器都提供自动化的、代码就绪的工作流程。我们处理图像处理和复杂的 JavaScript 实现，留给您一个简单的复制粘贴片段，这将改变您网站的性能和 SEO 排名。"
         },
         "story": {
-            "title": "Perceived Performance: Why Lazy Loading is Essential for Modern SEO",
-            "p1": "To understand the impact of lazy loading, we must look at 'Core Web Vitals,' specifically 'Largest Contentful Paint' (LCP). Google measures how fast the largest visual element on your screen appears. If you have many images loading simultaneously, they compete for bandwidth, slowing down the LCP. By using our lazy-load generator, you prioritize the viewport. The browser ignores below-the-fold images and focuses all its power on what the user is actually looking at, resulting in a significantly faster LCP score.",
-            "p2": "The LQIP Technique (Low Quality Image Placeholder) is where our tool shines. Traditional lazy loading often causes a 'jumpy' layout when images finally pop in. Our tool solves this by creating a placeholder that has the exact same aspect ratio as the original. This 'Aspect Ratio Box' reserves the space on the page, preventing layout shifts (CLS) and providing a smooth, high-end feel that mimics the loading style of major platforms like Medium, Pinterest, and Instagram.",
-            "p3": "Base64 Encoding is the mechanism we use for speed. Instead of the browser having to make a new network request for the placeholder, we embed the placeholder data directly into the HTML code. This 'Inline' data is parsed instantly by the browser. It's the ultimate 'zero-latency' solution for image previews. Our generator creates these base64 strings automatically from your high-res uploads, ensuring they are optimized for the smallest possible byte count.",
-            "p4": "Intersection Observer API is the modern JavaScript engine behind our code snippets. In the old days, lazy loading required heavy libraries or clunky 'scroll' events that slowed down the browser. Our generated code uses the native Intersection Observer, which is a high-performance browser feature designed specifically to detect when an element enters a user's screen. It's lightweight, standardized, and works perfectly across all modern mobile and desktop browsers.",
-            "p5": "Progressive Enhancement is a key part of our philosophy. We don't just give you a script; we give you a robust implementation pattern. Our code includes a 'noscript' fallback, ensuring that users with JavaScript disabled still see your images. It also includes CSS transitions to smoothly fade the high-res image over the placeholder once it arrives, creating a polished, professional 'zoom' or 'fade' effect that enhances your site's user experience.",
-            "p6": "The Technological Edge of Our Generator Writing custom lazy-loading logic for every image on a page is incredibly time-consuming and prone to errors. You have to create the small thumbnails, encode them, build the HTML structure, and maintain the JS. Our tool handles all three dimensions of the problem in one pass. You upload the file, choose your blur level, and get a production-ready block of code that 'just works.'",
-            "p7": "Security and Performance go hand-in-hand. Your site assets and UI designs stay within your browser's local sandbox. Because the generation of the LQIP and the code construction happen via local JavaScript on our page, your images aren't uploaded to a remote server for permanent storage. You get the speed of an professional CDN tool with the privacy of a local script.",
-            "p8": "In conclusion, the Image Lazy-Load Generator is about respect for the user's data and time. It's about building a better web that is fast for everyone, regardless of their connection speed. Use our tool to optimize your visuals, boost your SEO, and create a sophisticated loading experience that makes your website stand out as a high-performance platform."
+            "title": "感知性能：为什么懒加载对现代 SEO 至关重要",
+            "p1": "要了解懒加载的影响，我们必须查看“核心 Web Vitals”，特别是“最大内容绘制” (LCP)。Google 测量屏幕上最大视觉元素出现的速度。如果您有许多图片同时加载，它们会争夺带宽，从而降低 LCP。通过使用我们的懒加载生成器，您可以优先考虑视口。浏览器忽略首屏以下的图片，并将所有能力集中在用户实际看到的内容上，从而显著提高 LCP 分数。",
+            "p2": "LQIP 技术（低质量图像占位符）是我们工具的亮点。传统的懒加载通常在图片最终弹出时导致“跳跃”布局。我们的工具通过创建一个与原始图片具有完全相同纵横比的占位符来解决这个问题。这个“纵横比框”在页面上保留空间，防止布局偏移 (CLS)，并提供类似于 Medium、Pinterest 和 Instagram 等主要平台加载风格的流畅、高端感觉。",
+            "p3": "Base64 编码是我们用于速度的机制。浏览器不必为占位符发出新的网络请求，我们将占位符数据直接嵌入到 HTML 代码中。这种“内联”数据由浏览器立即解析。这是图片预览的终极“零延迟”解决方案。我们的生成器自动从您的高分辨率上传中创建这些 base64 字符串，确保它们针对最小可能的字节数进行了优化。",
+            "p4": "Intersection Observer API 是我们代码片段背后的现代 JavaScript 引擎。在过去，懒加载需要繁重的库或笨拙的“滚动”事件，这会降低浏览器的速度。我们生成的代码使用原生 Intersection Observer，这是一种专门用于检测元素何时进入用户屏幕的高性能浏览器功能。它是轻量级的、标准化的，并且在所有现代移动和桌面浏览器上都能完美运行。",
+            "p5": "渐进增强是我们理念的关键部分。我们不只是给您一个脚本；我们给您一个健壮的实现模式。我们的代码包含“noscript”回退，确保禁用 JavaScript 的用户仍然可以看到您的图片。它还包括 CSS 过渡，以便一旦高分辨率图片到达，就平滑地将其淡入占位符之上，从而创建一种抛光的、专业的“缩放”或“淡入”效果，增强您网站的用户体验。",
+            "p6": "我们生成器的技术优势 为页面上的每张图片编写自定义懒加载逻辑非常耗时且容易出错。您必须创建小缩略图，对它们进行编码，构建 HTML 结构并维护 JS。我们的工具一次性处理问题的这三个维度。您上传文件，选择模糊级别，然后获得一个“有效”的生产就绪代码块。",
+            "p7": "安全性和性能齐头并进。您的站点资产和 UI 设计保留在浏览器的本地沙箱中。由于 LQIP 的生成和代码构建是通过我们页面上的本地 JavaScript 进行的，因此您的图片不会上传到远程服务器进行永久存储。您获得了专业 CDN 工具的速度和本地脚本的隐私。",
+            "p8": "总之，图片懒加载生成器是关于尊重用户的数据和时间。它是关于构建一个更好的网络，无论连接速度如何，对每个人来说都很快。使用我们的工具优化您的视觉效果，提升您的 SEO，并创建一种复杂的加载体验，使您的网站作为高性能平台脱颖而出。"
         },
         "features": {
-            "title": "Expert Utilities for Full-Stack Performance Optimization",
-            "f1_title": "Automated LQIP Generator",
-            "f1_desc": "Instantly creates ultra-low resolution, base64-encoded versions of your images to serve as instant, zero-latency placeholders.",
-            "f2_title": "Intersection Observer Logic",
-            "f2_desc": "Generates lean, modern vanilla JavaScript that uses the browser's native API to trigger image loading only when needed, minimizing CPU usage.",
-            "f3_title": "Aspect Ratio Preservation",
-            "f3_desc": "Calculates and includes intrinsic aspect ratio box code to prevent 'Cumulative Layout Shift' (CLS) and ensure a stable, professional page load.",
-            "f4_title": "Custom Blur Intensity",
-            "f4_desc": "Control the aesthetic of your placeholders. Choose from a subtle blur to a heavy, artistic wash to match your site's design language.",
-            "f5_title": "Modern & Legacy Fallbacks",
-            "f5_desc": "Includes standardized 'loading=lazy' attributes along with custom JS-driven observers and 'noscript' tags for maximum cross-browser compatibility.",
-            "f6_title": "Zero-Upload Local Logic",
-            "f6_desc": "All image processing and string encoding happens right in your browser. No data is stored or logged on our servers, ensuring total asset privacy."
+            "title": "用于全栈性能优化的专家实用程序",
+            "f1_title": "自动 LQIP 生成器",
+            "f1_desc": "立即创建图片的超低分辨率、base64 编码版本，作为即时、零延迟的占位符。",
+            "f2_title": "Intersection Observer 逻辑",
+            "f2_desc": "生成精简、现代的原生 JavaScript，使用浏览器的原生 API 仅在需要时触发图片加载，最大限度地减少 CPU 使用率。",
+            "f3_title": "纵横比保留",
+            "f3_desc": "计算并包含固有纵横比框代码，以防止“累积布局偏移” (CLS) 并确保稳定、专业的页面加载。",
+            "f4_title": "自定义模糊强度",
+            "f4_desc": "控制占位符的美感。从细微的模糊到浓重的艺术渲染中进行选择，以匹配您网站的设计语言。",
+            "f5_title": "现代和旧版回退",
+            "f5_desc": "包括标准化的 'loading=lazy' 属性以及自定义 JS 驱动的观察器和 'noscript' 标签，以实现最大的跨浏览器兼容性。",
+            "f6_title": "零上传本地逻辑",
+            "f6_desc": "所有图像处理和字符串编码都直接在您的浏览器中进行。没有数据存储或记录在我们的服务器上，确保完全的资产隐私。"
         },
         "how_to": {
-            "title": "Master the Load: How to Implement Lazy Loading",
-            "step1_title": "Upload the High-Res Asset",
-            "step2_desc": "Drop the original image you want to optimize into the tool. It should be the final, web-ready version of the file.",
-            "step2_title": "Configure Placeholder Style",
-            "step3_desc": "Choose your preferred 'Blur' level. A higher blur creates a softer, more abstract placeholder that works well for large hero images.",
-            "step3_title": "Generate the Code Block",
-            "step4_desc": "The tool will instantly generate three sections: HTML for the image tag, CSS for the fade effect, and JS for the scroll detection.",
-            "step4_title": "Integrate into Your Page",
-            "step5_desc": "Replace your standard `<img>` tags with our generated HTML. Add the provided CSS to your stylesheet and the JS to your footer.",
-            "step5_title": "Verify Data-Src Paths",
-            "step6_desc": "Ensure the `data-src` attribute in our code points to the real location of your image file on your server or CDN.",
-            "step6_title": "Confirm and Test",
-            "step1_desc": "Refresh your site. You should see the blurred placeholder appear instantly and then smoothly fade into the full image as you scroll."
+            "title": "掌握加载：如何实施懒加载",
+            "step1_title": "上传高分辨率资产",
+            "step2_desc": "将您想要优化的原始图片拖放到工具中。它应该是文件的最终、Web 就绪版本。",
+            "step2_title": "配置占位符样式",
+            "step3_desc": "选择您喜欢的“模糊”级别。较高的模糊度会产生更柔和、更抽象的占位符，非常适合大型英雄图片。",
+            "step3_title": "生成代码块",
+            "step4_desc": "该工具将立即生成三个部分：用于图片标签的 HTML、用于淡入效果的 CSS 和用于滚动检测的 JS。",
+            "step4_title": "集成到您的页面中",
+            "step5_desc": "将您的标准 `<img>` 标签替换为我们生成的 HTML。将提供的 CSS 添加到您的样式表，将 JS 添加到您的页脚。",
+            "step5_title": "验证 Data-Src 路径",
+            "step6_desc": "确保我们在代码中的 `data-src` 属性指向您服务器或 CDN 上图片文件的真实位置。",
+            "step6_title": "确认和测试",
+            "step1_desc": "刷新您的网站。您应该会看到模糊的占位符立即出现，然后在您滚动时平滑地淡入完整图片。"
         },
         "faq": {
-            "title": "Lazy Loading Knowledge Base: Lazy-Loading Optimization FAQ",
-            "q1": "What is the benefit of using Base64 for placeholders?",
-            "a1": "Base64 allows the tiny placeholder to be loaded inside the HTML itself, meaning zero extra network requests and an 'instant' appear time.",
-            "q2": "Will lazy loading hurt my SEO?",
-            "a2": "No. In fact, it helps! Google's crawler is now very good at reading lazy-loaded images, and the performance boost will improve your Rank.",
-            "q3": "Does this tool work with WordPress?",
-            "a3": "Yes. You can use our code in 'Custom HTML' blocks or code-snippet plugins to manually optimize high-traffic landing pages.",
-            "q4": "What is the difference between this and 'loading=lazy'?",
-            "a4": "Native 'loading=lazy' is simple but provides no placeholder. Our tool adds the LQIP and fade-in effect for a much more professional feel.",
-            "q5": "Does the code require any libraries like jQuery?",
-            "a5": "No. Our generated code is 100% vanilla JavaScript, making it lightweight and future-proof with zero external dependencies.",
-            "q6": "Is this tool free for developers?",
-            "a6": "Yes! Our generator is 100% free for both personal and commercial projects, from small blogs to enterprise apps.",
-            "q7": "How do I know the placeholder is small enough?",
-            "a7": "We target a maximum size of 1KB per placeholder. Most are actually around 500 bytes, which is less than a few sentences of text.",
-            "q8": "Is responsive code generation mobile-ready?",
-            "a8": "Yes. Intersection Observer is supported by Safari, Chrome, and Firefox on all modern mobile devices (iOS and Android).",
-            "q9": "Is this generator suitable for CSS background-image properties?",
-            "a9": "This version is specifically for `<img>` tags. For background images, the principles are similar but the implementation code is different.",
-            "q10": "How do I keep my source images private?",
-            "a10": "Since our tool processes everything locally in your browser via JS, your full-resolution source data never leaves your computer."
+            "title": "懒加载知识库：懒加载优化常见问题解答",
+            "q1": "使用 Base64 作为占位符有什么好处？",
+            "a1": "Base64 允许将微小的占位符加载到 HTML 本身内部，这意味着零额外网络请求和“即时”出现时间。",
+            "q2": "懒加载会损害我的 SEO 吗？",
+            "a2": "不会。事实上，它有帮助！Google 的爬虫现在非常擅长读取懒加载图片，性能提升将提高您的排名。",
+            "q3": "此工具适用于 WordPress 吗？",
+            "a3": "是的。您可以在“自定义 HTML”块或代码片段插件中使用我们的代码来手动优化高流量着陆页。",
+            "q4": "这与 'loading=lazy' 有什么区别？",
+            "a4": "原生 'loading=lazy' 很简单，但不提供占位符。我们的工具添加了 LQIP 和淡入效果，带来更专业的感觉。",
+            "q5": "代码是否需要像 jQuery 这样的库？",
+            "a5": "不需要。我们生成的代码是 100% 原生 JavaScript，使其轻量级且面向未来，零外部依赖。",
+            "q6": "此工具对开发人员免费吗？",
+            "a6": "是的！我们的生成器对个人和商业项目都是 100% 免费的，从小型博客到企业应用程序。",
+            "q7": "我怎么知道占位符足够小？",
+            "a7": "我们的目标是每个占位符最大 1KB。大多数实际上在 500 字节左右，这少于几句话的文本。",
+            "q8": "响应式代码生成是否适合移动设备？",
+            "a8": "是的。所有现代移动设备（iOS 和 Android）上的 Safari、Chrome 和 Firefox 都支持 Intersection Observer。",
+            "q9": "此生成器适合 CSS background-image 属性吗？",
+            "a9": "此版本专门用于 `<img>` 标签。对于背景图片，原理相似，但实现代码不同。",
+            "q10": "如何保持我的源图片私密？",
+            "a10": "由于我们的工具通过 JS 在您的浏览器中本地处理所有内容，因此您的全分辨率源数据永远不会离开您的计算机。"
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "转换图像时出错："
     }
 }

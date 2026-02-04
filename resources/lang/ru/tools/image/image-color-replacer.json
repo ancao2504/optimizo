@@ -1,94 +1,94 @@
 {
     "meta": {
-        "title": "Image Color Replacer - Change Colors in Images Online",
-        "h1": "Image Color Replacer",
-        "subtitle": "Swap specific colors in your photos or logos easily online.",
-        "desc": "Replace specific colors in your images online. Change red to blue, background colors, or object colors easily with our free tool."
+        "title": "Замена цвета изображения — менять цвета на картинках онлайн",
+        "h1": "Замена цвета изображения",
+        "subtitle": "Легко меняйте определенные цвета на своих фотографиях или логотипах онлайн.",
+        "desc": "Заменяйте определенные цвета в ваших изображениях онлайн. Смените красный на синий, цвет фона или цвет объекта с помощью нашего бесплатного инструмента."
     },
     "input": {
-        "title": "Replace Color in Image",
-        "desc": "Upload an image, pick a color to replace, and choose a new color.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Заменить цвет на изображении",
+        "desc": "Загрузите изображение, выберите цвет для замены и выберите новый цвет.",
+        "drop_title": "Перетащите изображение сюда",
+        "drop_desc": "или нажмите, чтобы загрузить"
     },
     "result": {
-        "applied": "Color Swapped Successfully",
-        "btn_download": "Download New Image"
+        "applied": "Цвет успешно заменен",
+        "btn_download": "Скачать новое изображение"
     },
     "content": {
         "intro": {
-            "title": "Creative Color Transformation: The Ultimate Image Color Replacer",
-            "subtitle": "Redefine your visual aesthetic by swapping any color with surgical precision.",
-            "p1": "Have you ever found the perfect stock photo but wished the subject's shirt was blue instead of red? Or perhaps you've designed a logo that looks great, but your client wants to see it in five different brand colors? Traditionally, these simple color swaps required expensive software like Adobe Photoshop and a high level of technical skill in using 'Color Range' selections and adjustment layers. Our Image Color Replacer changes the game, providing a sophisticated, browser-based solution that allows you to swap any color in your image with a single click.",
-            "p2": "The power of our tool lies in its intelligent color-matching algorithm. It doesn't just look for a single exact HEX code; it understands the concept of 'color families.' By using our advanced tolerance slider, you can decide exactly how broad or narrow your color replacement should be. This allows you to replace a solid color in a logo with 100% accuracy, or subtly shift the hue of a complex organic object like a flower or a piece of clothing while maintaining its natural highlights and shadows.",
-            "p3": "Whether you are a product marketer visualizing a new line of items, a web designer adjusting site assets to match a new CSS theme, or a casual user correcting a 'red eye' or background distraction, our online tool provides a professional-grade workspace. We prioritize speed and privacy, ensuring that your color transformations happen instantly, for free, and without ever compromising your data security."
+            "title": "Творческая трансформация цвета: идеальный заменитель цвета изображения",
+            "subtitle": "Переопределите свою визуальную эстетику, меняя любой цвет с хирургической точностью.",
+            "p1": "Вы когда-нибудь находили идеальное стоковое фото, но хотели, чтобы рубашка объекта была синей, а не красной? Или, может быть, вы разработали логотип, который отлично выглядит, но ваш клиент хочет увидеть его в пяти различных фирменных цветах? Традиционно эти простые замены цвета требовали дорогостоящего программного обеспечения, такого как Adobe Photoshop, и высокого уровня технических навыков использования выделений «Цветовой диапазон» и корректирующих слоев. Наш заменитель цвета изображения меняет правила игры, предоставляя сложное решение на основе браузера, которое позволяет вам менять любой цвет на вашем изображении одним щелчком мыши.",
+            "p2": "Сила нашего инструмента заключается в его интеллектуальном алгоритме сопоставления цветов. Он не просто ищет один точный HEX-код; он понимает концепцию «семейств цветов». Используя наш продвинутый ползунок допуска, вы можете точно решить, насколько широкой или узкой должна быть замена цвета. Это позволяет вам заменить сплошной цвет в логотипе со 100% точностью или слегка изменить оттенок сложного органического объекта, такого как цветок или предмет одежды, сохраняя при этом его естественные блики и тени.",
+            "p3": "Независимо от того, являетесь ли вы маркетологом продукта, визуализирующим новую линейку товаров, веб-дизайнером, настраивающим активы сайта в соответствии с новой темой CSS, или обычным пользователем, исправляющим «красные глаза» или отвлекающий фон, наш онлайн-инструмент предоставляет рабочее пространство профессионального уровня. Мы уделяем приоритетное внимание скорости и конфиденциальности, гарантируя, что ваши цветовые преобразования происходят мгновенно, бесплатно и без ущерба для безопасности ваших данных."
         },
         "story": {
-            "title": "The Technology Behind Selective Color Replacement",
-            "p1": "To appreciate how our Image Color Replacer works, one must look at the 'Euclidean Distance' in color space. Every pixel in your image is a point in a three-dimensional RGB cube. When you pick a color to replace, you are establishing a 'target' coordinate. Our algorithm then scans the entire image, calculating the mathematical distance between every pixel and that target. The 'Tolerance' slider defines the radius of the sphere around that target—pixels inside the sphere get replaced, while those outside remain untouched.",
-            "p2": "A common challenge in color replacement is 'aliasing'—the jagged edges that appear when you change one color but the pixels next to it stay the same. Our tool handles this through 'edge feathering' and 'partial replacement.' By analyzing the alpha-blending of edges, we can apply a percentage of the new color to pixels that are only partially 'matched' to the target, resulting in a smooth, natural transition that doesn't look like a digital cutout.",
-            "p3": "Why is this better than a simple 'paint bucket' tool found in basic photo editors? A paint bucket only fills continuous areas. Our global color replacer works throughout the entire image. If you have a specific shade of yellow scattered across multiple parts of a technical diagram, our tool will find and replace all of them simultaneously, ensuring perfect consistency and saving you minutes of tedious clicking.",
-            "p4": "Branding iteration is a massive use case. When companies rebrand, they often have hundreds of legacy assets in old colors. Instead of manually editing every SVG or PNG file, you can run them through our color replacer. It's an essential utility for 'Visual Identity Audits,' allowing designers to quickly see how existing assets would look under a new color palette without committing to hours of manual labor in a desktop app.",
-            "p5": "E-commerce and Product Photography benefit significantly from our 'Recolor' technology. Many small business owners take one high-quality product photo and use our tool to create 'Color Variations' for their shop. Instead of setting up a separate photo shoot for a red shirt, blue shirt, and green shirt, you can simply shoot the white one and use our replacer to generate the rest of the product line. It's about saving time and money while maintaining a professional appearance.",
-            "p6": "Color Theory and Education are also supported by our tool. Students use it to experiment with 'Complementary' and 'Analogous' color schemes in real-world images. Seeing how an image's mood changes when you swap a warm tone for a cool one is one of the fastest ways to learn the psychological impact of color in design and marketing.",
-            "p7": "Security is a top priority. Color replacement often involves sensitive company logos or unreleased product designs. We use the latest encryption and temporary processing protocols to ensure that your files are handled in a sandbox environment. Your proprietary colors and designs are never stored on our database, and we certainly don't use them to train any AI or marketing models.",
-            "p8": "In summary, the Image Color Replacer is a bridge between your creative imagination and the final digital output. Don't let the colors of the past limit your vision for the future. Use our tool to experiment, refine, and perfect your images with the precision and speed of a professional studio."
+            "title": "Технология выборочной замены цвета",
+            "p1": "Чтобы оценить, как работает наш заменитель цвета изображения, нужно взглянуть на «Евклидово расстояние» в цветовом пространстве. Каждый пиксель на вашем изображении — это точка в трехмерном кубе RGB. Когда вы выбираете цвет для замены, вы устанавливаете «целевую» координату. Затем наш алгоритм сканирует все изображение, вычисляя математическое расстояние между каждым пикселем и этой целью. Ползунок «Допуск» определяет радиус сферы вокруг этой цели — пиксели внутри сферы заменяются, а те, что снаружи, остаются нетронутыми.",
+            "p2": "Распространенной проблемой при замене цвета является «алиасинг» — неровные края, которые появляются, когда вы меняете один цвет, но пиксели рядом с ним остаются прежними. Наш инструмент справляется с этим с помощью «растушевки краев» и «частичной замены». Анализируя альфа-смешивание краев, мы можем применить процент нового цвета к пикселям, которые лишь частично «совпадают» с целью, в результате чего получается плавный, естественный переход, который не похож на цифровую вырезку.",
+            "p3": "Почему это лучше, чем простой инструмент «ведро с краской», который есть в базовых фоторедакторах? Ведро с краской заполняет только непрерывные области. Наш глобальный заменитель цвета работает по всему изображению. Если у вас есть определенный оттенок желтого, разбросанный по нескольким частям технической диаграммы, наш инструмент найдет и заменит их все одновременно, гарантируя идеальную согласованность и экономя вам минуты утомительного нажатия.",
+            "p4": "Итерация брендинга — это масштабный вариант использования. Когда компании проводят ребрендинг, у них часто остаются сотни устаревших активов в старых цветах. Вместо того чтобы вручную редактировать каждый файл SVG или PNG, вы можете прогнать их через наш заменитель цвета. Это необходимая утилита для «аудита визуальной идентичности», позволяющая дизайнерам быстро увидеть, как существующие активы будут выглядеть в новой цветовой палитре, не тратя часы на ручную работу в настольном приложении.",
+            "p5": "Электронная коммерция и предметная фотография значительно выигрывают от нашей технологии «Recolor». Многие владельцы малого бизнеса делают одну качественную фотографию продукта и используют наш инструмент для создания «цветовых вариаций» для своего магазина. Вместо того, чтобы организовывать отдельную фотосессию для красной рубашки, синей рубашки и зеленой рубашки, вы можете просто сфотографировать белую и использовать наш заменитель для создания остальной части линейки продуктов. Речь идет об экономии времени и денег при сохранении профессионального внешнего вида.",
+            "p6": "Теория цвета и образование также поддерживаются нашим инструментом. Студенты используют его для экспериментов с «комплементарными» и «аналогичными» цветовыми схемами в реальных изображениях. Видеть, как меняется настроение изображения, когда вы меняете теплый тон на холодный, — это один из самых быстрых способов узнать о психологическом воздействии цвета в дизайне и маркетинге.",
+            "p7": "Безопасность является высшим приоритетом. Замена цвета часто включает в себя конфиденциальные логотипы компаний или невыпущенные дизайны продуктов. Мы используем новейшие протоколы шифрования и временной обработки, чтобы гарантировать, что ваши файлы обрабатываются в среде песочницы. Ваши собственные цвета и дизайны никогда не сохраняются в нашей базе данных, и мы определенно не используем их для обучения каких-либо моделей ИИ или маркетинга.",
+            "p8": "Подводя итог, можно сказать, что Image Color Replacer — это мост между вашим творческим воображением и конечным цифровым результатом. Не позволяйте цветам прошлого ограничивать ваше видение будущего. Используйте наш инструмент, чтобы экспериментировать, совершенствовать и доводить свои изображения до идеала с точностью и скоростью профессиональной студии."
         },
         "features": {
-            "title": "Advanced Utilities for Global Color Replacement",
-            "f1_title": "Smart Tolerance Control",
-            "f1_desc": "Finely tune the color matching threshold. Go from an exact pixel match to a broad range of similar shades and highlights with a single slider.",
-            "f2_title": "Precise Eye-Dropper Select",
-            "f2_desc": "Sample the 'Source' color directly from your image using our high-magnification lens, ensuring you target exactly the shade you intend to change.",
-            "f3_title": "Full Spectrum Color Picker",
-            "f3_desc": "Choose your 'Destination' color from millions of possibilities using our integrated HEX\/RGB\/HSL picker, or paste a specific code from your brand kit.",
-            "f4_title": "Global Image Application",
-            "f4_desc": "Replaces colors across the entire image grid simultaneously, providing perfect consistency for branding and technical diagrams.",
-            "f5_title": "Real-Time Visual Preview",
-            "f5_desc": "Adjust your settings and see the results instantly on the canvas. Fine-tune your tolerance levels before committing to the final download.",
-            "f6_title": "Sandboxed Chromatic Processing",
-            "f6_desc": "All processing is handled temporarily using your device's resources. We provide professional utilities without compromising your private designs."
+            "title": "Расширенные утилиты для глобальной замены цвета",
+            "f1_title": "Контроль интеллектуального допуска",
+            "f1_desc": "Тонкая настройка порога соответствия цвета. Переходите от точного совпадения пикселей к широкому диапазону похожих оттенков и бликов с помощью одного ползунка.",
+            "f2_title": "Точный выбор пипеткой",
+            "f2_desc": "Возьмите образец «Исходного» цвета прямо с вашего изображения, используя нашу линзу с большим увеличением, чтобы убедиться, что вы нацелились именно на тот оттенок, который хотите изменить.",
+            "f3_title": "Полноспектральный выбор цвета",
+            "f3_desc": "Выберите «Целевой» цвет из миллионов вариантов, используя наш встроенный палитру HEX/RGB/HSL, или вставьте определенный код из вашего бренд-кита.",
+            "f4_title": "Глобальное применение изображения",
+            "f4_desc": "Заменяет цвета по всей сетке изображения одновременно, обеспечивая идеальную согласованность для брендинга и технических диаграмм.",
+            "f5_title": "Визуальный просмотр в реальном времени",
+            "f5_desc": "Настройте параметры и мгновенно увидите результаты на холсте. Тонко настройте уровни допуска перед тем, как совершить окончательную загрузку.",
+            "f6_title": "Изолированная хроматическая обработка",
+            "f6_desc": "Вся обработка выполняется временно с использованием ресурсов вашего устройства. Мы предоставляем профессиональные утилиты без ущерба для ваших частных разработок."
         },
         "how_to": {
-            "title": "Master the Swap: How to Use the Color Replacer",
-            "step1_title": "Upload Your Graphic",
-            "step1_desc": "Drag and drop your logo, photo, or design into the tool. We support high-resolution JPG, PNG, and WebP files.",
-            "step2_title": "Pick the Source Color",
-            "step2_desc": "Click the 'From' eyedropper and then click on the part of the image you want to change. The magnifier will help you hit the right pixel.",
-            "step3_title": "Select the Target Hue",
-            "step3_desc": "Click the 'To' color box and use the color picker or HEX input to define what the new color should be.",
-            "step4_title": "Calibrate Tolerance",
-            "step4_desc": "Slide the tolerance bar. If 'too much' of the image is changing, lower the value. If edges are being missed, increase it.",
-            "step5_title": "Analyze and Apply",
-            "step5_desc": "Review the preview image. Look for smooth edges and consistent coverage across all parts of the image.",
-            "step6_title": "Download the New Version",
-            "step6_desc": "Once you're happy, hit the download button. Your newly recolored image is ready for your project or website!"
+            "title": "Овладейте заменой: как использовать заменитель цвета",
+            "step1_title": "Загрузите свою графику",
+            "step1_desc": "Перетащите свой логотип, фотографию или дизайн в инструмент. Мы поддерживаем файлы JPG, PNG и WebP высокого разрешения.",
+            "step2_title": "Выберите исходный цвет",
+            "step2_desc": "Нажмите пипетку «Откуда», а затем щелкните по части изображения, которую хотите изменить. Лупа поможет вам попасть в нужный пиксель.",
+            "step3_title": "Выберите целевой оттенок",
+            "step3_desc": "Нажмите на цветовое поле «Куда» и используйте палитру цветов или ввод HEX, чтобы определить, каким должен быть новый цвет.",
+            "step4_title": "Откалибруйте допуск",
+            "step4_desc": "Сдвиньте ползунок допуска. Если меняется «слишком много» изображения, уменьшите значение. Если края пропускаются, увеличьте его.",
+            "step5_title": "Проанализируйте и примените",
+            "step5_desc": "Просмотрите предварительное изображение. Ищите гладкие края и равномерное покрытие во всех частях изображения.",
+            "step6_title": "Загрузите новую версию",
+            "step6_desc": "Как только вы будете довольны, нажмите кнопку загрузки. Ваше заново раскрашенное изображение готово для вашего проекта или веб-сайта!"
         },
         "faq": {
-            "title": "Image Color Replacer: Pro-Tips and FAQ",
-            "q1": "Why did my whole image turn a new color when I changed a small part?",
-            "a1": "This usually means your 'Tolerance' is set too high. Lower the slider to make the tool more picky about which pixels it chooses to replace.",
-            "q2": "Can I replace multiple colors at once?",
-            "a2": "Our current tool is optimized for one global color swap at a time to ensure maximum precision. You can download the file and re-upload it for a second color.",
-            "q3": "Does it work with gradients?",
-            "a3": "Yes, but you will need to find the 'sweet spot' with the tolerance slider to catch all the intermediate shades of the gradient effectively.",
-            "q4": "Will my transparent background be affected?",
-            "a4": "No. Our tool is designed to ignore transparent pixels, ensuring that your logos and icons maintain their original transparent backgrounds.",
-            "q5": "Is it safe for professional design work?",
-            "a5": "Yes. We use high-precision math to ensure colors are mapped correctly. It is a trusted tool for rapid prototyping and color iteration.",
-            "q6": "Why does the color look slightly different on my phone?",
-            "a6": "Different screens have different color calibrations. For professional work, we recommend checking the results on a calibrated monitor using HEX codes.",
-            "q7": "Can I undo a color replacement?",
-            "a7": "The preview updates in real-time as you move the sliders. If you don't like a change, simply adjust the colors or clear the selection.",
-            "q8": "Does the tool support very large images?",
-            "a8": "Yes, our engine can handle high-res photos up to 15-20MB, making it suitable for both web assets and printable graphics.",
-            "q9": "What is the best format to upload?",
-            "a9": "For logos, we recommend PNG for the best clarity. For photos, JPG or WebP will work perfectly.",
-            "q10": "Is there a limit on how many colors I can change per day?",
-            "a10": "No, our service is completely free and unlimited. Use it as often as your creative process requires."
+            "title": "Замена цвета изображения: советы профессионалов и FAQ",
+            "q1": "Почему все мое изображение стало нового цвета, когда я изменил небольшую часть?",
+            "a1": "Обычно это означает, что ваш «Допуск» установлен слишком высоко. Опустите ползунок, чтобы инструмент стал более разборчивым в выборе пикселей для замены.",
+            "q2": "Могу ли я заменить несколько цветов одновременно?",
+            "a2": "Наш текущий инструмент оптимизирован для одной глобальной замены цвета за раз, чтобы обеспечить максимальную точность. Вы можете загрузить файл и повторно загрузить его для второго цвета.",
+            "q3": "Работает ли это с градиентами?",
+            "a3": "Да, но вам нужно будет найти «золотую середину» с помощью ползунка допуска, чтобы эффективно уловить все промежуточные оттенки градиента.",
+            "q4": "Будет ли затронут мой прозрачный фон?",
+            "a4": "Нет. Наш инструмент предназначен для игнорирования прозрачных пикселей, гарантируя, что ваши логотипы и иконки сохранят свой исходный прозрачный фон.",
+            "q5": "Безопасно ли это для профессиональной дизайнерской работы?",
+            "a5": "Да. Мы используем высокоточную математику, чтобы гарантировать правильное отображение цветов. Это надежный инструмент для быстрого прототипирования и итерации цвета.",
+            "q6": "Почему цвет на моем телефоне выглядит немного иначе?",
+            "a6": "У разных экранов разная калибровка цвета. Для профессиональной работы мы рекомендуем проверять результаты на откалиброванном мониторе с использованием кодов HEX.",
+            "q7": "Могу ли я отменить замену цвета?",
+            "a7": "Предварительный просмотр обновляется в реальном времени по мере перемещения ползунков. Если вам не нравится изменение, просто настройте цвета или очистите выделение.",
+            "q8": "Поддерживает ли инструмент очень большие изображения?",
+            "a8": "Да, наш движок может обрабатывать фото высокого разрешения до 15–20 МБ, что делает его пригодным как для веб-активов, так и для печатной графики.",
+            "q9": "Какой формат лучше всего загружать?",
+            "a9": "Для логотипов мы рекомендуем PNG для наилучшей четкости. Для фотографий отлично подойдут JPG или WebP.",
+            "q10": "Есть ли ограничение на количество цветов, которые я могу изменить в день?",
+            "a10": "Нет, наш сервис полностью бесплатен и безлимитен. Используйте его так часто, как того требует ваш творческий процесс."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Ошибка преобразования изображения: "
     }
 }

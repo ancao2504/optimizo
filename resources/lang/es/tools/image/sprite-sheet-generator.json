@@ -1,98 +1,98 @@
 {
     "meta": {
-        "title": "Sprite Sheet Generator - Create CSS Sprites Online",
-        "h1": "Sprite Sheet Generator",
-        "subtitle": "Combine multiple images into a single sprite sheet and generate CSS code.",
-        "desc": "Combine multiple images into a single sprite sheet and generate CSS code automatically. Reduce HTTP requests and optimize website performance."
+        "title": "Generador de Hojas de Sprites - Crear Sprites CSS en Línea",
+        "h1": "Generador de Hojas de Sprites",
+        "subtitle": "Combina múltiples imágenes en una sola hoja de sprites y genera código CSS.",
+        "desc": "Combina múltiples imágenes en una sola hoja de sprites y genera código CSS automáticamente. Reduce las solicitudes HTTP y optimiza el rendimiento del sitio web."
     },
     "input": {
-        "title": "Generate CSS Sprite Sheet",
-        "desc": "Upload multiple icons or images to pack them into a single file.",
-        "drop_title": "Drag & Drop Images here",
-        "drop_desc": "or click to upload multiple files"
+        "title": "Generar Hoja de Sprites CSS",
+        "desc": "Sube múltiples iconos o imágenes para empaquetarlos en un solo archivo.",
+        "drop_title": "Arrastra y suelta las imágenes aquí",
+        "drop_desc": "o haz clic para subir múltiples archivos"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "Configuración del Generador"
     },
     "result": {
-        "title": "Generated Sprite Sheet",
-        "css_title": "Copy CSS Code",
-        "btn_download": "Download Sprite Sheet"
+        "title": "Hoja de Sprites Generada",
+        "css_title": "Copiar Código CSS",
+        "btn_download": "Descargar Hoja de Sprites"
     },
     "content": {
         "intro": {
-            "title": "The Art of Efficiency: Mastering the CSS Sprite Sheet Generator",
-            "subtitle": "Boost your website's performance by consolidating dozens of images into a single, high-speed asset.",
-            "p1": "In the world of high-performance web development, every millisecond counts. One of the most common bottlenecks for page load speed isn't just the 'size' of your images, but the 'number' of requests the browser has to make to fetch them. If your site has twenty icons, that's twenty individual HTTP requests, twenty handshakes with the server, and twenty potential delays. Our Sprite Sheet Generator is designed to solve this problem by packing all your small assets into a single image file—a technique known as CSS Spriting.",
-            "p2": "A 'Sprite Sheet' is essentially a grid of multiple images combined into one large 'atlas.' To display a specific icon, you use CSS to define the sprite sheet as the background and then use 'offset' coordinates to show only the portion of the sheet you need. This reduces your server overhead from twenty requests to just one. Our tool automates the tedious math involved in this process, generating both the optimized sprite image and the precise CSS code you need to implement it in seconds.",
-            "p3": "Whether you're building a massive enterprise application with hundreds of UI icons, a mobile game with character animations, or a personal blog with custom social media buttons, our online generator offers a professional-grade solution. We prioritize packing efficiency and ease of implementation, helping you create cleaner code and faster websites, completely for free and without any complex CLI tools."
+            "title": "El Arte de la Eficiencia: Dominando el Generador de Hojas de Sprites CSS",
+            "subtitle": "Mejora el rendimiento de tu sitio web consolidando docenas de imágenes en un solo activo de alta velocidad.",
+            "p1": "En el mundo del desarrollo web de alto rendimiento, cada milisegundo cuenta. Uno de los cuellos de botella más comunes para la velocidad de carga de la página no es solo el 'tamaño' de tus imágenes, sino el 'número' de solicitudes que el navegador tiene que hacer para obtenerlas. Si tu sitio tiene veinte iconos, eso son veinte solicitudes HTTP individuales, veinte apretones de manos con el servidor y veinte posibles retrasos. Nuestro Generador de Hojas de Sprites está diseñado para resolver este problema empaquetando todos tus activos pequeños en un solo archivo de imagen —una técnica conocida como CSS Spriting.",
+            "p2": "Una 'Hoja de Sprites' es esencialmente una cuadrícula de múltiples imágenes combinadas en un gran 'atlas'. Para mostrar un icono específico, usas CSS para definir la hoja de sprites como fondo y luego usas coordenadas de 'desplazamiento' para mostrar solo la parte de la hoja que necesitas. Esto reduce la sobrecarga de tu servidor de veinte solicitudes a solo una. Nuestra herramienta automatiza las tediosas matemáticas involucradas en este proceso, generando tanto la imagen de sprite optimizada como el código CSS preciso que necesitas para implementarla en segundos.",
+            "p3": "Ya sea que estés construyendo una aplicación empresarial masiva con cientos de iconos de interfaz de usuario, un juego móvil con animaciones de personajes o un blog personal con botones de redes sociales personalizados, nuestro generador en línea ofrece una solución de nivel profesional. Priorizamos la eficiencia del empaquetado y la facilidad de implementación, ayudándote a crear un código más limpio y sitios web más rápidos, completamente gratis y sin herramientas CLI complejas."
         },
         "story": {
-            "title": "Smoothing the Page Load: Why Sprite Sheets are a Developer's Best Friend",
-            "p1": "To understand why sprite sheets work, you have to look at the 'Perceived Performance' of a website. When a browser loads a page, it requests images in parallel. However, most browsers have a limit on how many simultaneous connections they can open to a single domain (usually six). If you have sixty small icons, the browser has to queue them in batches, leading to the 'pop-in' effect where icons appear one by one. By using a single sprite sheet, you bypass this queue entirely. The sheet loads once, and every icon is ready instantly.",
-            "p2": "The 'Packing Problem' is the mathematical core of our tool. If you just place images randomly, you end up with a lot of 'dead space' (empty transparent pixels), which makes the file larger than it needs to be. Our generator uses a smart packing algorithm that analyzes the dimensions of every uploaded image and arranges them into a tight grid with minimal padding. This ensures that your single request is as small and efficient as possible, maximizing the performance gain of the technique.",
-            "p3": "CSS Background Position is the magic wand that makes it all work. For every icon in your sheet, our tool calculates the exact X and Y coordinates (in pixels) of its top-left corner. We then generate a CSS class that sets the background-position to those values. Instead of writing 'background-image: icon1.png', you just apply a class like `.icon-home`. Our tool generates all these classes for you, so you can copy and paste them directly into your stylesheet.",
-            "p4": "Animation and Game Development are other huge use cases for sprite sheets. If you're creating a character that walks or jumps, you need to swap out 'frames' of animation very quickly. loading separate files for every frame would cause flickering as the browser tries to catch up. A sprite sheet puts every frame of the animation into a single strip, allowing for smooth, zero-latency frame swapping. It's the standard for 2D game engines and web-based animations.",
-            "p5": "Retina and High-DPI support is also easier with sprites. Instead of maintaining two versions of every icon (standard and @2x), you only have to maintain two versions of the sprite sheet. This simplifies your asset management and ensures that your UI looks crisp and professional on every screen, from budget laptops to the latest high-end smartphones.",
-            "p6": "Why Professional Devs Choose Our Generator Manual spriting in Photoshop or Figma is incredibly tedious. You have to create a grid, align pixels perfectly, and then manually record the coordinates for every single item. If you add one new icon, you often have to redo the whole thing. Our generator makes this a 'one-click' update process. Upload your new batch, and get a fresh sheet and fresh CSS in an instant.",
-            "p7": "Security and Workflow are key. We understand that your icons and UI assets are the 'secret sauce' of your design. Because our Sprite Sheet Generator operates locally in your browser, your assets aren't stored on our servers. The 'packing' math happens on your device, and you download the result directly. It's a secure, private, and instantaneous part of your professional development pipeline.",
-            "p8": "In conclusion, the Sprite Sheet Generator is about more than just images; it's about site architecture. It's about being a smarter developer who understands how the web actually works. Use our tool to consolidate your assets, reduce your server load, and provide your users with the fastest, smoothest experience possible. It's the technical secret to a professional-grade frontend."
+            "title": "Suavizando la Carga de la Página: Por qué las Hojas de Sprites son el Mejor Amigo del Desarrollador",
+            "p1": "Para entender por qué funcionan las hojas de sprites, debes mirar el 'Rendimiento Percibido' de un sitio web. Cuando un navegador carga una página, solicita imágenes en paralelo. Sin embargo, la mayoría de los navegadores tienen un límite en cuántas conexiones simultáneas pueden abrir a un solo dominio (generalmente seis). Si tienes sesenta iconos pequeños, el navegador tiene que ponerlos en cola en lotes, lo que lleva al efecto de 'aparición repentina' donde los iconos aparecen uno por uno. Al usar una sola hoja de sprites, evitas esta cola por completo. La hoja se carga una vez, y cada icono está listo al instante.",
+            "p2": "El 'Problema de Empaquetado' es el núcleo matemático de nuestra herramienta. Si simplemente colocas imágenes al azar, terminas con mucho 'espacio muerto' (píxeles transparentes vacíos), lo que hace que el archivo sea más grande de lo necesario. Nuestro generador utiliza un algoritmo de empaquetado inteligente que analiza las dimensiones de cada imagen subida y las organiza en una cuadrícula ajustada con un relleno mínimo. Esto asegura que tu única solicitud sea lo más pequeña y eficiente posible, maximizando la ganancia de rendimiento de la técnica.",
+            "p3": "La Posición de Fondo CSS es la varita mágica que hace que todo funcione. Para cada icono en tu hoja, nuestra herramienta calcula las coordenadas X e Y exactas (en píxeles) de su esquina superior izquierda. Luego generamos una clase CSS que establece la posición de fondo a esos valores. En lugar de escribir 'background-image: icon1.png', simplemente aplicas una clase como `.icon-home`. Nuestra herramienta genera todas estas clases por ti, para que puedas copiarlas y pegarlas directamente en tu hoja de estilos.",
+            "p4": "La Animación y el Desarrollo de Juegos son otros grandes casos de uso para las hojas de sprites. Si estás creando un personaje que camina o salta, necesitas intercambiar 'frames' de animación muy rápidamente. Cargar archivos separados para cada frame causaría parpadeo mientras el navegador intenta ponerse al día. Una hoja de sprites coloca cada frame de la animación en una sola tira, permitiendo un intercambio de frames suave y sin latencia. Es el estándar para motores de juegos 2D y animaciones basadas en la web.",
+            "p5": "El soporte Retina y High-DPI también es más fácil con sprites. En lugar de mantener dos versiones de cada icono (estándar y @2x), solo tienes que mantener dos versiones de la hoja de sprites. Esto simplifica la gestión de tus activos y asegura que tu interfaz de usuario se vea nítida y profesional en cada pantalla, desde portátiles económicos hasta los últimos teléfonos inteligentes de gama alta.",
+            "p6": "Por qué los Desarrolladores Profesionales Eligen Nuestro Generador. El spriting manual en Photoshop o Figma es increíblemente tedioso. Tienes que crear una cuadrícula, alinear píxeles perfectamente, y luego registrar manualmente las coordenadas para cada ítem único. Si agregas un nuevo icono, a menudo tienes que rehacer todo. Nuestro generador hace de esto un proceso de actualización de 'un clic'. Sube tu nuevo lote, y obtén una hoja fresca y un CSS fresco en un instante.",
+            "p7": "La Seguridad y el Flujo de Trabajo son clave. Entendemos que tus iconos y activos de interfaz de usuario son la 'salsa secreta' de tu diseño. Debido a que nuestro Generador de Hojas de Sprites opera localmente en tu navegador, tus activos no se almacenan en nuestros servidores. Las matemáticas de 'empaquetado' ocurren en tu dispositivo, y descargas el resultado directamente. Es una parte segura, privada e instantánea de tu tubería de desarrollo profesional.",
+            "p8": "En conclusión, el Generador de Hojas de Sprites trata sobre más que solo imágenes; trata sobre arquitectura del sitio. Se trata de ser un desarrollador más inteligente que entiende cómo funciona realmente la web. Usa nuestra herramienta para consolidar tus activos, reducir la carga de tu servidor y proporcionar a tus usuarios la experiencia más rápida y suave posible. Es el secreto técnico para un frontend de nivel profesional."
         },
         "features": {
-            "title": "High-Efficiency Utilities for Frontend Optimization",
-            "f1_title": "Automatic Coordinate Generation",
-            "f1_desc": "We do the math so you don't have to. Instantly get precise X and Y coordinates for every individual image in your consolidated sprite sheet.",
-            "f2_title": "Smart-Grid Packing Algorithm",
-            "f2_desc": "Our engine intelligently arranges images of varying sizes into the most efficient grid possible, minimizing empty space and reducing final file size.",
-            "f3_title": "Ready-to-Use CSS Classes",
-            "f3_desc": "Generates a clean, copy-pasteable CSS block with individual classes for every asset, including background-position and dimension properties.",
-            "f4_title": "Customizable Layout Modes",
-            "f4_desc": "Choose between Vertical strips, Horizontal strips, or the most efficient 'Grid' mode based on the needs of your specific project architecture.",
-            "f5_title": "Padding and Spacing Control",
-            "f5_desc": "Add custom spacing between sprites to prevent 'pixel bleeding'—where parts of the adjacent icon accidentally show through in your UI.",
-            "f6_title": "Local Memory Processing Protection",
-            "f6_desc": "Your UI assets are your property. All packing and code generation happens right in your browser, ensuring no data ever leaves your device."
+            "title": "Utilidades de Alta Eficiencia para Optimización Frontend",
+            "f1_title": "Generación Automática de Coordenadas",
+            "f1_desc": "Hacemos las matemáticas para que tú no tengas que hacerlo. Obtén instantáneamente coordenadas X e Y precisas para cada imagen individual en tu hoja de sprites consolidada.",
+            "f2_title": "Algoritmo de Empaquetado Cuadrícula-Inteligente",
+            "f2_desc": "Nuestro motor organiza inteligentemente imágenes de varios tamaños en la cuadrícula más eficiente posible, minimizando el espacio vacío y reduciendo el tamaño final del archivo.",
+            "f3_title": "Clases CSS Listas para Usar",
+            "f3_desc": "Genera un bloque CSS limpio y listo para copiar y pegar con clases individuales para cada activo, incluyendo propiedades de posición de fondo y dimensiones.",
+            "f4_title": "Modos de Diseño Personalizables",
+            "f4_desc": "Elige entre tiras Verticales, tiras Horizontales o el modo 'Cuadrícula' más eficiente basado en las necesidades de la arquitectura específica de tu proyecto.",
+            "f5_title": "Control de Relleno y Espaciado",
+            "f5_desc": "Agrega espaciado personalizado entre sprites para prevenir el 'sangrado de píxeles' —donde partes del icono adyacente se muestran accidentalmente en tu interfaz de usuario.",
+            "f6_title": "Protección de Procesamiento de Memoria Local",
+            "f6_desc": "Tus activos de interfaz de usuario son tu propiedad. Todo el empaquetado y la generación de código ocurren directamente en tu navegador, asegurando que ningún dato salga nunca de tu dispositivo."
         },
         "how_to": {
-            "title": "A Guide to High-Speed Assets: How to Use the Generator",
-            "step1_title": "Collect Your Small Assets",
-            "step1_desc": "Gather all the small icons, buttons, or frames of an animation that you want to combine. Ensure they are in a high-quality format like PNG.",
-            "step2_title": "Batch Upload to the Tool",
-            "step2_desc": "Select all files at once and upload them. The tool will immediately create a visual preview of how they can be packed together.",
-            "step3_title": "Configure the Optimization",
-            "step3_desc": "Adjust the 'Padding' if you're worried about edges appearing on retina screens, or choose a 'Vertical' layout if you're building a side-menu or filmstrip.",
-            "step4_title": "Review the Sprite Preview",
-            "step4_desc": "Check the generated sheet. Ensure every item is visible and that the grid is tight and efficient with no wasted space.",
-            "step5_title": "Download the Atlas Image",
-            "step5_desc": "Click the 'Download Sprite Sheet' button to save the consolidated image file to your project's assets folder.",
-            "step6_title": "Implement the CSS Code",
-            "step6_desc": "Copy the generated CSS block and paste it into your styles. Use the individual class names on your HTML elements to display the icons."
+            "title": "Una Guía para Activos de Alta Velocidad: Cómo Usar el Generador",
+            "step1_title": "Recolecciona Tus Activos Pequeños",
+            "step1_desc": "Reúne todos los iconos pequeños, botones o frames de una animación que quieras combinar. Asegúrate de que estén en un formato de alta calidad como PNG.",
+            "step2_title": "Subida por Lotes a la Herramienta",
+            "step2_desc": "Selecciona todos los archivos a la vez y súbelos. La herramienta creará inmediatamente una vista previa visual de cómo pueden empaquetarse juntos.",
+            "step3_title": "Configura la Optimización",
+            "step3_desc": "Ajusta el 'Relleno' si te preocupan los bordes apareciendo en pantallas retina, o elige un diseño 'Vertical' si estás construyendo un menú lateral o tira de película.",
+            "step4_title": "Revisa la Vista Previa del Sprite",
+            "step4_desc": "Revisa la hoja generada. Asegúrate de que cada ítem sea visible y que la cuadrícula esté ajustada y eficiente sin espacio desperdiciado.",
+            "step5_title": "Descarga la Imagen Atlas",
+            "step5_desc": "Haz clic en el botón 'Descargar Hoja de Sprites' para guardar el archivo de imagen consolidado en la carpeta de activos de tu proyecto.",
+            "step6_title": "Implementa el Código CSS",
+            "step6_desc": "Copia el bloque CSS generado y pégalo en tus estilos. Usa los nombres de clase individuales en tus elementos HTML para mostrar los iconos."
         },
         "faq": {
-            "title": "Sprite Sheet Mastery: Game Asset Creation Secrets",
-            "q1": "Are sprite sheets still relevant with HTTP\/2?",
-            "a1": "Yes! While HTTP\/2 handles multiple requests better, sprite sheets are still faster because they reduce the total amount of metadata and compression overhead.",
-            "q2": "What happens if I have images of different sizes?",
-            "a2": "Our smart-grid algorithm is designed for this! It will arrange your images of all shapes and sizes into the most compact rectangle possible.",
-            "q3": "Should I use JPG or PNG for my sprite sheet?",
-            "a3": "We strongly recommend PNG. It handles the 'sharp edges' of icons better and supports transparency, which is essential for most web UI work.",
-            "q4": "Is there a limit on how many images I can include?",
-            "a4": "Technically, no. However, we recommend sticking to around 50-100 images per sheet to keep the file dimensions from becoming overwhelmingly large.",
-            "q5": "What is 'Pixel Bleeding'?",
-            "a5": "This occurs when sub-pixel rendering shows a sliver of the next image in the sheet. Add 1-2 pixels of 'Padding' in our tool to prevent this.",
-            "q6": "Does this tool support SVG?",
-            "a6": "This tool is for raster sprites (PNG\/JPG). For SVGs, you should use an 'SVG Sprite' approach which is handled differently in modern browsers.",
-            "q7": "How do I update a sprite sheet later?",
-            "a7": "Just re-upload the original icons plus the new one. Our tool will give you a new sheet and new CSS in seconds.",
-            "q8": "Is this tool free for game developers?",
-            "a8": "Yes! Whether you're making a web site or a mobile game, our generator is 100% free with no commercial restrictions.",
-            "q9": "Can browsers cache sprite sheets?",
-            "a9": "Yes! This is one of the biggest benefits. The browser only has to cache one file to have every icon ready for all pages of your site.",
-            "q10": "Is my proprietary icon data safe?",
-            "a10": "Absolutely. Because your files are processed locally in your browser, your designs are never uploaded, stored, or viewed by our system."
+            "title": "Maestría en Hoja de Sprites: Secretos de Creación de Activos de Juegos",
+            "q1": "¿Son las hojas de sprites todavía relevantes con HTTP/2?",
+            "a1": "¡Sí! Aunque HTTP/2 maneja mejor múltiples solicitudes, las hojas de sprites siguen siendo más rápidas porque reducen la cantidad total de metadatos y la sobrecarga de compresión.",
+            "q2": "¿Qué pasa si tengo imágenes de diferentes tamaños?",
+            "a2": "¡Nuestro algoritmo de cuadrícula inteligente está diseñado para esto! Organizará tus imágenes de todas las formas y tamaños en el rectángulo más compacto posible.",
+            "q3": "¿Debería usar JPG o PNG para mi hoja de sprites?",
+            "a3": "Recomendamos encarecidamente PNG. Maneja mejor los 'bordes nítidos' de los iconos y soporta transparencia, lo cual es esencial para la mayoría de los trabajos de interfaz de usuario web.",
+            "q4": "¿Hay un límite en cuántas imágenes puedo incluir?",
+            "a4": "Técnicamente, no. Sin embargo, recomendamos mantenerse alrededor de 50-100 imágenes por hoja para evitar que las dimensiones del archivo se vuelvan abrumadoramente grandes.",
+            "q5": "¿Qué es el 'Sangrado de Píxeles'?",
+            "a5": "Esto ocurre cuando el renderizado de sub-píxeles muestra una astilla de la siguiente imagen en la hoja. Agrega 1-2 píxeles de 'Relleno' en nuestra herramienta para prevenir esto.",
+            "q6": "¿Soporta esta herramienta SVG?",
+            "a6": "Esta herramienta es para sprites rasterizados (PNG/JPG). Para SVGs, deberías usar un enfoque 'SVG Sprite' que se maneja de manera diferente en los navegadores modernos.",
+            "q7": "¿Cómo actualizo una hoja de sprites más tarde?",
+            "a7": "Simplemente vuelve a subir los iconos originales más el nuevo. Nuestra herramienta te dará una hoja fresca y un CSS fresco en segundos.",
+            "q8": "¿Es esta herramienta gratuita para desarrolladores de juegos?",
+            "a8": "¡Sí! Ya sea que estés haciendo un sitio web o un juego móvil, nuestro generador es 100% gratuito sin restricciones comerciales.",
+            "q9": "¿Pueden los navegadores almacenar en caché las hojas de sprites?",
+            "a9": "¡Sí! Este es uno de los mayores beneficios. El navegador solo tiene que almacenar en caché un archivo para tener cada icono listo para todas las páginas de tu sitio.",
+            "q10": "¿Está segura mi información de iconos propietaria?",
+            "a10": "Absolutamente. Debido a que tus archivos se procesan localmente en tu navegador, tus diseños nunca son subidos, almacenados o vistos por nuestro sistema."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Error al convertir imagen: "
     }
 }

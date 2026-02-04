@@ -1,99 +1,99 @@
 {
     "meta": {
-        "title": "Responsive Image Generator - Create Srcset Online",
-        "h1": "Responsive Image Generator",
-        "subtitle": "Generate perfectly sized images and HTML srcset code for all devices.",
-        "desc": "Generate responsive images and HTML srcset attributes online. Create perfectly sized images for mobile, tablet, and desktop automatically."
+        "title": "响应式图片生成器 - 在线创建 Srcset",
+        "h1": "响应式图片生成器",
+        "subtitle": "为所有设备生成完美尺寸的图片和 HTML srcset 代码。",
+        "desc": "在线生成响应式图片和 HTML srcset 属性。自动为移动设备、平板电脑和桌面设备创建完美尺寸的图片。"
     },
     "input": {
-        "title": "Generate Responsive Images",
-        "desc": "Upload an image to create multiple resized versions and the HTML srcset code.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "生成响应式图片",
+        "desc": "上传一张图片以创建多个调整大小的版本和 HTML srcset 代码。",
+        "drop_title": "将图片拖放到此处",
+        "drop_desc": "或点击上传"
     },
     "settings": {
-        "title": "Breakpoint Settings"
+        "title": "断点设置"
     },
     "result": {
-        "title": "Generated Assets",
-        "assets_desc": "Your resized images and integration code are ready.",
-        "btn_download_all": "Download All (ZIP)",
-        "code_snippet": "Copy HTML Code"
+        "title": "生成的资源",
+        "assets_desc": "您调整大小的图片和集成代码已准备就绪。",
+        "btn_download_all": "全部下载 (ZIP)",
+        "code_snippet": "复制 HTML 代码"
     },
     "content": {
         "intro": {
-            "title": "One Image, Every Screen: The Professional Guide to Responsive Imagery",
-            "subtitle": "Bridge the gap between high-definition quality and cellular speed with our automated srcset generator.",
-            "p1": "In the modern web landscape, your users are visiting you on a vast spectrum of hardware. One visitor might be using a 4K desktop monitor with a gigabit connection, while another is on a four-year-old smartphone using a shaky 3G signal in a basement. If you serve the same 4400-pixel wide hero image to both, you are punishing your mobile users with massive load times and data costs. Our Responsive Image Generator is built to solve this 'one-size-fits-all' dilemma, allowing you to generate a suite of perfectly sized images and the intelligent HTML code needed to deliver them.",
-            "p2": "The magic of modern responsive design lies in the `srcset` attribute. Unlike the old `src` attribute which forced a single file down every pipe, `srcset` provides the browser with a menu of options. You provide the images, and the browser—using its knowledge of the user's screen width and resolution—picks the most efficient file for the job. Our tool automates the tedious manual work of resizing, renaming, and coding these alternatives, transforming a high-resolution master file into a production-ready responsive asset package in seconds.",
-            "p3": "Whether you're a frontend developer striving for a perfect Lighthouse score, a designer ensuring your UI is crisp on Retina displays, or a blogger wanting to make your site accessible to users around the world, our online generator offers a frictionless, professional-grade workflow. We prioritize speed, accuracy, and performance, giving you the power to build a truly 'mobile-first' experience without the manual labor of traditional asset management."
+            "title": "一张图片，适配所有屏幕：响应式图像专业指南",
+            "subtitle": "使用我们的自动 srcset 生成器，弥合高清质量和蜂窝网络速度之间的差距。",
+            "p1": "在现代网络环境中，您的用户使用各种硬件访问您的网站。一位访客可能使用的是带有千兆连接的 4K 桌面显示器，而另一位访客可能在地下室使用信号不稳定的 3G 网络和四年前的智能手机。如果您向两者提供相同的 4400 像素宽的英雄图片，您就在用巨大的加载时间和数据成本惩罚您的移动用户。我们的响应式图片生成器专为解决这种“一刀切”的困境而设计，允许您生成一套完美尺寸的图片和交付它们所需的智能 HTML 代码。",
+            "p2": "现代响应式设计的魔力在于 `srcset` 属性。与强迫每个管道使用单个文件的旧 `src` 属性不同，`srcset` 为浏览器提供了一个选项菜单。您提供图片，浏览器——利用其对用户屏幕宽度和分辨率的了解——挑选最有效的文件来完成工作。我们的工具自动化了调整大小、重命名和编码这些替代方案的繁琐手动工作，在几秒钟内将高分辨率主文件转换为生产就绪的响应式资源包。",
+            "p3": "无论您是争取完美 Lighthouse 分数的前端开发人员，确保 UI 在 Retina 显示器上清晰的设计师，还是希望网站可供全球用户访问的博主，我们的在线生成器都提供了无摩擦的、专业级的工作流程。我们优先考虑速度、准确性和性能，让您有能力构建真正的“移动优先”体验，而无需传统资产管理的体力劳动。"
         },
         "story": {
-            "title": "The Infinite Viewport: Why Responsive Images are the Foundation of Modern UX",
-            "p1": "To understand the utility of our tool, you must understand 'Data Waste.' If you display an image at 300 pixels wide on a phone, but the file you're sending is 2000 pixels wide, you're sending roughly 40 times more data than necessary. This 'over-serving' is the leading cause of high bounce rates on mobile devices. Our generator creates the 'Breakpoints'—the specific widths where the image changes size—ensuring that every user gets 'just enough' pixels to look perfect, and not a single byte more.",
-            "p2": "The 'Density' factor is another critical layer. Modern phones have 'Retina' or 'High-DPI' screens that require twice as much detail as a standard monitor. If you only provide a 'small' version for mobile, your site will look blurry on high-end phones. Our tool helps you generate @2x and @3x versions if needed, creating a comprehensive list of assets that ensures your brand looks 'pixel-perfect' whether it's on a budget tablet or a flagship smartphone.",
-            "p3": "The `srcset` and `sizes` attributes are the 'logic' of responsive images. Writing these by hand is notoriously difficult and prone to errors. You have to specify the width of each image in 'w' units and then tell the browser how much of the viewport the image will take up using media queries. Our tool generates this complex HTML string for you automatically. You simply copy and paste the code, and your images instantly become 'browser-aware,' responding dynamically to the user's environment without an extra line of JavaScript.",
-            "p4": "Performance SEO is the final hidden benefit. Google's 'mobile-first' indexing weights page speed heavily. By using responsive images to reduce your mobile payload by 70-90%, you are signaling to search engines that your site is technically superior and optimized for all users. It's one of the most effective technical SEO 'quick wins' available, and our tool makes it as easy as a single upload.",
-            "p5": "Workflow Integration is where we help professional teams. If your designers are handing off massive 10MB Photoshop exports, your developers shouldn't have to manually save ten different versions. They can simply run the master file through our generator. It's a standardized, repeatable process that ensures every image on your site follows the same high-performance rules, regardless of who created it or when it was uploaded.",
-            "p6": "Why use our online tool instead of a build-step plugin? Many build-step tools like Webpack or Gulp are 'black boxes' that are hard to configure. Our tool gives you a visual preview. You can see the file sizes of each breakpoint before you download them. You have the control to add or remove specific widths based on your project's unique layout. It's a 'Precision Tool' for developers who want to understand and control their asset pipeline.",
-            "p7": "Trust-based responsive asset architecture. Serving the right image shouldn't mean uploading your proprietary assets to a data-scraping server. Because our Responsive Image Generator uses the local power of your browser's rendering engine (Canvas and local blobs), your files aren't stored on our machines. The resizing and the code generation happen on your device, ensuring that your high-value photography and UI assets remain your private property from start to finish.",
-            "p8": "In conclusion, the Responsive Image Generator is about inclusivity. It's about ensuring your message reaches every user, regardless of their technology or their location. Use our tool to build a faster, sharper, and more professional web, and treat every one of your visitors to a perfectly optimized visual experience. It's the final piece of the modern performance puzzle."
+            "title": "无限视口：为什么响应式图片是现代 UX 的基础",
+            "p1": "要做了解我们工具的效用，您必须了解“数据浪费”。如果您在手机上以 300 像素宽显示图片，但您发送的文件是 2000 像素宽，那么您发送的数据大约是必要的 40 倍。这种“过度服务”是移动设备上高跳出率的主要原因。我们的生成器创建“断点”——即图片改变大小的特定宽度——确保每个用户获得“足够”的像素以看起来完美，而不会多出一个字节。",
+            "p2": "“密度”因素是另一个关键层。现代手机拥有“Retina”或“高 DPI”屏幕，需要比标准显示器多两倍的细节。如果您只为移动设备提供“小”版本，您的网站在高端手机上看起来会很模糊。我们的工具可以根据需要帮助您生成 @2x 和 @3x 版本，创建一个全面的资产列表，确保您的品牌无论是在预算平板电脑还是旗舰智能手机上看起来都是“像素完美”的。",
+            "p3": "‘srcset’和‘sizes’属性是响应式图片的“逻辑”。手动编写这些内容非常困难且容易出错。您必须以 'w' 单位指定每张图片的宽度，然后使用媒体查询告诉浏览器图片将占据视口的多少。我们的工具会自动为您生成这个复杂的 HTML 字符串。您只需复制并粘贴代码，您的图片就会立即变得“具有浏览器意识”，动态响应用户环境，而无需额外的一行 JavaScript。",
+            "p4": "性能 SEO 是最后的隐藏好处。谷歌的“移动优先”索引非常看重页面速度。通过使用响应式图片将您的移动负载减少 70-90%，您向搜索引擎发出信号，表明您的网站在技术上通过卓越并为所有用户进行了优化。这是可用的最有效的技术 SEO“速赢”之一，我们的工具使其像单次上传一样简单。",
+            "p5": "工作流程集成是我们帮助专业团队的地方。如果您的设计师正在移交巨大的 10MB Photoshop 导出文件，您的开发人员不应该手动保存十个不同的版本。他们只需通过我们的生成器运行主文件。这是一个标准化的、可重复的过程，确保您网站上的每张图片都遵循相同的高性能规则，无论谁创建了它或何时上传了它。",
+            "p6": "为什么使用我们的在线工具而不是构建步骤插件？许多像 Webpack 或 Gulp 这样的构建步骤工具是难以配置的“黑匣子”。我们的工具为您提供可视化预览。您可以在下载之前查看每个断点的文件大小。您可以控制根据项目的独特布局添加或删除特定宽度。对于想要了解和控制其资产管道的开发人员来说，这是一个“精密工具”。",
+            "p7": "基于信任的响应式资产架构。提供正确的图片不应意味着将您的专有资产上传到数据抓取服务器。由于我们的响应式图片生成器使用浏览器渲染引擎（Canvas 和本地 blob）的本地能力，您的文件不会存储在我们的机器上。调整大小和代码生成发生在您的设备上，确保您的高价值摄影和 UI 资产自始至终是您的私有财产。",
+            "p8": "总之，响应式图片生成器关于包容性。它是关于确保您的信息触达每个用户，无论他们的技术或位置如何。使用我们的工具构建更快、更清晰、更专业的网络，并让您的每位访客都能获得完美优化的视觉体验。这是现代性能拼图的最后一块。"
         },
         "features": {
-            "title": "Professional Utilities for Multi-Device Image Management",
-            "f1_title": "Automated Multi-Breakpoint Resizing",
-            "f1_desc": "Generate up to five different versions of your image in a single pass, targeting standard mobile, tablet, and desktop widths with medical precision.",
-            "f2_title": "Intelligent HTML Srcset Generator",
-            "f2_desc": "Get copy-pasteable HTML that includes the `srcset` and `sizes` attributes, correctly mapped to your generated file names for instant implementation.",
-            "f3_title": "High-Quality Resampling Logic",
-            "f3_desc": "Uses advanced interpolation algorithms to ensure that your resized images remain sharp and clear, avoiding the 'blur' of low-quality browser rescaling.",
-            "f4_title": "Asset Package Creator",
-            "f4_desc": "Download all your resized versions in a single organized folder. We handle the naming conventions (e.g., image-mobile.jpg, image-desktop.jpg) automatically.",
-            "f5_title": "Viewport-Aware Code Logic",
-            "f5_desc": "Generated code includes responsive hints that help the browser decide which image to download before the main CSS has even finished loading.",
-            "f6_title": "Secure On-Device Asset Generation",
-            "f6_desc": "Resizing and code generation happen entirely in your local browser sandbox. Your high-res source files are never uploaded or stored on our servers."
+            "title": "多设备图片管理的专业实用程序",
+            "f1_title": "自动多断点调整大小",
+            "f1_desc": "一次生成多达五个不同版本的图片，以医疗级的精度针对标准移动、平板电脑和桌面宽度。",
+            "f2_title": "智能 HTML Srcset 生成器",
+            "f2_desc": "获取包含 `srcset` 和 `sizes` 属性的可复制粘贴 HTML，正确映射到您生成的文件名以进行即时实现。",
+            "f3_title": "高质量重采样逻辑",
+            "f3_desc": "使用先进的插值算法确保您调整大小的图片保持清晰，避免低质量浏览器重新缩放的“模糊”。",
+            "f4_title": "资源包创建器",
+            "f4_desc": "在一个有组织的文件夹中下载所有调整大小的版本。我们会自动处理命名约定（例如，image-mobile.jpg，image-desktop.jpg）。",
+            "f5_title": "视口感知代码逻辑",
+            "f5_desc": "生成的代码包含响应式提示，帮助浏览器在主 CSS 加载完成之前决定下载哪张图片。",
+            "f6_title": "安全的设备上资产生成",
+            "f6_desc": "调整大小和代码生成完全在您的本地浏览器沙盒中进行。您的高分辨率源文件永远不会上传或存储在我们的服务器上。"
         },
         "how_to": {
-            "title": "Master the Scale: How to Create Responsive Images",
-            "step1_title": "Upload the Global Master",
-            "step1_desc": "Select your highest-resolution version of the photo (e.g., 4000px wide). This provides the best data for creating the smaller breakpoints.",
-            "step2_title": "Define Your Target Widths",
-            "step2_desc": "Choose the breakpoints that match your CSS. Standard values like 480px, 768px, 1200px, and 1920px cover the vast majority of devices.",
-            "step3_title": "Batch Process the Assets",
-            "step3_desc": "Click the generate button. Our engine will create the individual files for each width while simultaneously building the HTML code block.",
-            "step4_title": "Download the Zip Archive",
-            "step4_desc": "Retrieve all your new, optimized image files. Upload them to the same folder on your server where your original image was located.",
-            "step5_title": "Integrate the Srcset Code",
-            "step5_desc": "Copy the generated code snippet. Paste it into your HTML or CMS, replacing your old, static `<img>` or `<picture>` tags.",
-            "step6_title": "Test on Different Devices",
-            "step6_desc": "Open your site on a phone and a desktop. Use the browser inspector to verify that the browser is indeed picking the smaller file for the smaller screen."
+            "title": "掌握规模：如何创建响应式图片",
+            "step1_title": "上传全局主文件",
+            "step1_desc": "选择照片的最高分辨率版本（例如，4000px 宽）。这为创建较小的断点提供了最佳数据。",
+            "step2_title": "定义您的目标宽度",
+            "step2_desc": "选择与您的 CSS 匹配的断点。如 480px, 768px, 1200px 和 1920px 这样的标准值涵盖了绝大多数设备。",
+            "step3_title": "批量处理资产",
+            "step3_desc": "点击生成按钮。我们的引擎将为每个宽度创建单独的文件，同时构建 HTML 代码块。",
+            "step4_title": "下载 Zip 归档",
+            "step4_desc": "获取所有新的、优化的图片文件。将它们上传到服务器上原始图片所在的同一文件夹中。",
+            "step5_title": "集成 Srcset 代码",
+            "step5_desc": "复制生成的代码片段。将其粘贴到您的 HTML 或 CMS 中，替换您旧的、静态的 `<img>` 或 `<picture>` 标签。",
+            "step6_title": "在不同设备上测试",
+            "step6_desc": "在手机和台式机上打开您的网站。使用浏览器检查器验证浏览器是否确实为较小的屏幕选择了较小的文件。"
         },
         "faq": {
-            "title": "Responsive Mastery: Adaptive Image Strategy FAQ",
-            "q1": "Why not just use 'width: 100%' in CSS?",
-            "a1": "'Width: 100%' makes an image fit the screen visually, but it still forces the phone to download the same 'huge' file size as a desktop.",
-            "q2": "What is the 'w' unit in srcset?",
-            "a2": "The 'w' unit tells the browser the physical width of the image in pixels. It helps the browser do the math for which file to download.",
-            "q3": "Do I need the <picture> tag or just <img> with srcset?",
-            "a3": "For most responsive images (resizing for width), `<img>` with `srcset` is best. Use `<picture>` if you need 'Art Direction' (different crops for different screens).",
-            "q4": "Will my images load twice if I use srcset?",
-            "a4": "No. The browser is very smart—it analyzes the `srcset` and the screen width *before* it starts any download, picking only the single best file.",
-            "q5": "Is there a limit on file resolution?",
-            "a5": "We can process master files up to 20-25MB, making it suitable for professional DSLR exports and 4K photography.",
-            "q6": "Does this tool work with WebP?",
-            "a6": "Yes! We recommend using WebP for your responsive assets to get the greatest possible speed benefit for your mobile visitors.",
-            "q7": "How many breakpoints should I use?",
-            "a7": "Three to four is usually enough (Mobile, Tablet, Desktop, Wide). Adding more creates diminishing returns and more assets to manage.",
-            "q8": "Can I use this for background images?",
-            "a8": "Responsive background images use CSS Media Queries. Our tool is optimized for the standard and more efficient HTML `<img>` markup.",
-            "q9": "Is the generator free for agencies?",
-            "a9": "Yes! Our responsive image tool is free for everyone, with no limits on how many images you can optimize per day.",
-            "q10": "Are my images safe from being stored?",
-            "a10": "Absolutely. Resizing happens locally in your browser's memory. Your assets never reach our servers, ensuring 100% intellectual property security."
+            "title": "响应式精通：自适应图片策略常见问题解答",
+            "q1": "为什么不直接在 CSS 中使用 'width: 100%'？",
+            "a1": "'Width: 100%' 使图片在视觉上适应屏幕，但它仍然强迫手机下载与桌面相同的“巨大”文件大小。",
+            "q2": "srcset 中的 'w' 单位是什么？",
+            "a2": "'w' 单位告诉浏览器图片的物理宽度（以像素为单位）。它帮助浏览器计算要下载哪个文件。",
+            "q3": "我需要 <picture> 标签还是只需带有 srcset 的 <img>？",
+            "a3": "对于大多数响应式图片（调整宽度），带有 `srcset` 的 `<img>` 是最好的。如果您需要“艺术指导”（不同屏幕的不同裁剪），请使用 `<picture>`。",
+            "q4": "如果我使用 srcset，我的图片会加载两次吗？",
+            "a4": "不会。浏览器非常聪明——它会在开始任何下载*之前*分析 `srcset` 和屏幕宽度，只选择一个最合适的文件。",
+            "q5": "文件分辨率有限制吗？",
+            "a5": "我们可以处理高达 20-25MB 的主文件，使其适合专业 DSLR 导出和 4K 摄影。",
+            "q6": "此工具适用于 WebP 吗？",
+            "a6": "是的！我们建议为您的响应式资产使用 WebP，以便为您的移动访客获得最大的速度优势。",
+            "q7": "我应该使用多少个断点？",
+            "a7": "三到四个通常就足够了（移动、平板电脑、桌面、宽屏）。添加更多会产生递减的回报和更多的资产管理。",
+            "q8": "我可以将其用于背景图片吗？",
+            "a8": "响应式背景图片使用 CSS 媒体查询。我们的工具针对标准且更高效的 HTML `<img>` 标记进行了优化。",
+            "q9": "生成器对代理机构免费吗？",
+            "a9": "是的！我们的响应式图片工具对所有人免费，不限制您每天优化的图片数量。",
+            "q10": "我的图片能免于被存储吗？",
+            "a10": "当然。调整大小发生在您浏览器的内存中。您的资产永远不会到达我们的服务器，确保 100% 的知识产权安全。"
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "转换图像时出错："
     }
 }

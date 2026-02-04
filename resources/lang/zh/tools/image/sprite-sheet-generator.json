@@ -1,98 +1,98 @@
 {
     "meta": {
-        "title": "Sprite Sheet Generator - Create CSS Sprites Online",
-        "h1": "Sprite Sheet Generator",
-        "subtitle": "Combine multiple images into a single sprite sheet and generate CSS code.",
-        "desc": "Combine multiple images into a single sprite sheet and generate CSS code automatically. Reduce HTTP requests and optimize website performance."
+        "title": "精灵图生成器 - 在线创建 CSS Sprite",
+        "h1": "精灵图生成器",
+        "subtitle": "将多张图片合并为一张精灵图并生成 CSS 代码。",
+        "desc": "在线合并多张图片为一张精灵图并自动生成 CSS 代码。减少 HTTP 请求并优化网站性能。"
     },
     "input": {
-        "title": "Generate CSS Sprite Sheet",
-        "desc": "Upload multiple icons or images to pack them into a single file.",
-        "drop_title": "Drag & Drop Images here",
-        "drop_desc": "or click to upload multiple files"
+        "title": "生成 CSS 精灵图",
+        "desc": "上传多个图标或图片以将它们打包到一个文件中。",
+        "drop_title": "将图片拖放到此处",
+        "drop_desc": "或点击上传多个文件"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "生成器设置"
     },
     "result": {
-        "title": "Generated Sprite Sheet",
-        "css_title": "Copy CSS Code",
-        "btn_download": "Download Sprite Sheet"
+        "title": "生成的精灵图",
+        "css_title": "复制 CSS 代码",
+        "btn_download": "下载精灵图"
     },
     "content": {
         "intro": {
-            "title": "The Art of Efficiency: Mastering the CSS Sprite Sheet Generator",
-            "subtitle": "Boost your website's performance by consolidating dozens of images into a single, high-speed asset.",
-            "p1": "In the world of high-performance web development, every millisecond counts. One of the most common bottlenecks for page load speed isn't just the 'size' of your images, but the 'number' of requests the browser has to make to fetch them. If your site has twenty icons, that's twenty individual HTTP requests, twenty handshakes with the server, and twenty potential delays. Our Sprite Sheet Generator is designed to solve this problem by packing all your small assets into a single image file—a technique known as CSS Spriting.",
-            "p2": "A 'Sprite Sheet' is essentially a grid of multiple images combined into one large 'atlas.' To display a specific icon, you use CSS to define the sprite sheet as the background and then use 'offset' coordinates to show only the portion of the sheet you need. This reduces your server overhead from twenty requests to just one. Our tool automates the tedious math involved in this process, generating both the optimized sprite image and the precise CSS code you need to implement it in seconds.",
-            "p3": "Whether you're building a massive enterprise application with hundreds of UI icons, a mobile game with character animations, or a personal blog with custom social media buttons, our online generator offers a professional-grade solution. We prioritize packing efficiency and ease of implementation, helping you create cleaner code and faster websites, completely for free and without any complex CLI tools."
+            "title": "效率的艺术：掌握 CSS 精灵图生成器",
+            "subtitle": "通过将数十张图片整合为单个高速资源来提升网站性能。",
+            "p1": "在高性能 Web 开发的世界中，每一毫秒都很重要。页面加载速度最常见的瓶颈之一不仅是图片的“大小”，还有浏览器获取它们必须发出的请求“数量”。如果您的网站有 20 个图标，那就是 20 个单独的 HTTP 请求，与服务器的 20 次握手，以及 20 次潜在的延迟。我们的精灵图生成器旨在通过将所有小资源打包到一个图像文件中来解决这个问题——这种技术称为 CSS Spriting。",
+            "p2": "“精灵图”本质上是合并成一个大“图集”的多张图片的网格。要显示特定图标，您使用 CSS 将精灵图定义为背景，然后使用“偏移”坐标仅显示您需要的部分。这将您的服务器开销从 20 个请求减少到仅 1 个。我们的工具会自动完成此过程中涉及的繁琐数学运算，在几秒钟内生成优化的精灵图和您实现它所需的精确 CSS 代码。",
+            "p3": "无论您是构建拥有数百个 UI 图标的大型企业应用程序，带有角色动画的手机游戏，还是带有自定义社交媒体按钮的个人博客，我们的在线生成器都提供了专业级的解决方案。我们优先考虑打包效率和易于实施，帮助您创建更清晰的代码和更快的网站，完全免费且无需任何复杂的 CLI 工具。"
         },
         "story": {
-            "title": "Smoothing the Page Load: Why Sprite Sheets are a Developer's Best Friend",
-            "p1": "To understand why sprite sheets work, you have to look at the 'Perceived Performance' of a website. When a browser loads a page, it requests images in parallel. However, most browsers have a limit on how many simultaneous connections they can open to a single domain (usually six). If you have sixty small icons, the browser has to queue them in batches, leading to the 'pop-in' effect where icons appear one by one. By using a single sprite sheet, you bypass this queue entirely. The sheet loads once, and every icon is ready instantly.",
-            "p2": "The 'Packing Problem' is the mathematical core of our tool. If you just place images randomly, you end up with a lot of 'dead space' (empty transparent pixels), which makes the file larger than it needs to be. Our generator uses a smart packing algorithm that analyzes the dimensions of every uploaded image and arranges them into a tight grid with minimal padding. This ensures that your single request is as small and efficient as possible, maximizing the performance gain of the technique.",
-            "p3": "CSS Background Position is the magic wand that makes it all work. For every icon in your sheet, our tool calculates the exact X and Y coordinates (in pixels) of its top-left corner. We then generate a CSS class that sets the background-position to those values. Instead of writing 'background-image: icon1.png', you just apply a class like `.icon-home`. Our tool generates all these classes for you, so you can copy and paste them directly into your stylesheet.",
-            "p4": "Animation and Game Development are other huge use cases for sprite sheets. If you're creating a character that walks or jumps, you need to swap out 'frames' of animation very quickly. loading separate files for every frame would cause flickering as the browser tries to catch up. A sprite sheet puts every frame of the animation into a single strip, allowing for smooth, zero-latency frame swapping. It's the standard for 2D game engines and web-based animations.",
-            "p5": "Retina and High-DPI support is also easier with sprites. Instead of maintaining two versions of every icon (standard and @2x), you only have to maintain two versions of the sprite sheet. This simplifies your asset management and ensures that your UI looks crisp and professional on every screen, from budget laptops to the latest high-end smartphones.",
-            "p6": "Why Professional Devs Choose Our Generator Manual spriting in Photoshop or Figma is incredibly tedious. You have to create a grid, align pixels perfectly, and then manually record the coordinates for every single item. If you add one new icon, you often have to redo the whole thing. Our generator makes this a 'one-click' update process. Upload your new batch, and get a fresh sheet and fresh CSS in an instant.",
-            "p7": "Security and Workflow are key. We understand that your icons and UI assets are the 'secret sauce' of your design. Because our Sprite Sheet Generator operates locally in your browser, your assets aren't stored on our servers. The 'packing' math happens on your device, and you download the result directly. It's a secure, private, and instantaneous part of your professional development pipeline.",
-            "p8": "In conclusion, the Sprite Sheet Generator is about more than just images; it's about site architecture. It's about being a smarter developer who understands how the web actually works. Use our tool to consolidate your assets, reduce your server load, and provide your users with the fastest, smoothest experience possible. It's the technical secret to a professional-grade frontend."
+            "title": "顺滑的页面加载：为什么精灵图是开发者的好朋友",
+            "p1": "要了解为什么精灵图有效，您必须查看网站的“感知性能”。当浏览器加载页面时，它会并行请求图像。但是，大多数浏览器对可以向单个域打开的并发连接数有限制（通常为六个）。如果您有 60 个小图标，浏览器必须分批排队，导致图标一个接一个出现的“弹出”效果。通过使用单个精灵图，您可以完全绕过此队列。图表加载一次，每个图标都立即准备就绪。",
+            "p2": "“打包问题”是我们工具的数学核心。如果您只是随机放置图片，最终会得到很多“死区”（空的透明像素），这会使文件比需要的更大。我们的生成器使用智能打包算法，分析每个上传图片的尺寸，并将它们排列成紧密的网格，填充最少。这确保您的单个请求尽可能小且高效，最大化技术的性能增益。",
+            "p3": "CSS 背景位置是使其全部工作的魔杖。对于图表中的每个图标，我们的工具计算其左上角的精确 X 和 Y 坐标（以像素为单位）。然后我们生成一个 CSS 类，将 background-position 设置为这些值。您只需应用像 `.icon-home` 这样的类，而不是编写 'background-image: icon1.png'。我们的工具会为您生成所有这些类，因此您可以直接将它们复制并粘贴到样式表中。",
+            "p4": "动画和游戏开发是精灵图的其他巨大用例。如果您正在创建行走的或是跳跃的角色，您需要非常快速地换出动画的“帧”。为每帧加载单独的文件会导致闪烁，因为浏览器试图跟上。精灵图将动画的每帧放入单个条带中，允许平滑、零延迟的帧交换。这是 2D 游戏引擎和基于 Web 的动画的标准。",
+            "p5": "使用精灵图也更容易实现 Retina 和高 DPI 支持。您不必维护每个图标的两个版本（标准和 @2x），只需维护精灵图的两个版本。这简化了您的资产管理，并确保您的 UI 在每个屏幕上看起来清晰专业，从预算笔记本电脑到最新的高端智能手机。",
+            "p6": "为什么专业开发人员选择我们的生成器 在 Photoshop 或 Figma 中手动制作精灵图非常乏味。您必须创建一个网格，完美对齐像素，然后手动记录每个项目的坐标。如果添加一个新图标，通常必须重做整个事情。我们的生成器使这成为“一键”更新过程。上传您的新批次，瞬间获得新的图表和新的 CSS。",
+            "p7": "安全和工作流程是关键。我们了解您的图标和 UI 资产是您设计的“秘密武器”。因为我们的精灵图生成器在您的浏览器中本地运行，所以您的资产不会存储在我们的服务器上。“打包”数学运算发生在您的设备上，您可以直接下载结果。这是您专业开发管道中安全、私密且即时的部分。",
+            "p8": "总之，精灵图生成器不仅关于图片；它关于网站架构。它是关于成为一名了解网络实际运作方式的更聪明的开发人员。使用我们的工具整合您的资产，减少服务器负载，并为您的用户提供尽可能快速、流畅的体验。这是专业级前端的技术秘密。"
         },
         "features": {
-            "title": "High-Efficiency Utilities for Frontend Optimization",
-            "f1_title": "Automatic Coordinate Generation",
-            "f1_desc": "We do the math so you don't have to. Instantly get precise X and Y coordinates for every individual image in your consolidated sprite sheet.",
-            "f2_title": "Smart-Grid Packing Algorithm",
-            "f2_desc": "Our engine intelligently arranges images of varying sizes into the most efficient grid possible, minimizing empty space and reducing final file size.",
-            "f3_title": "Ready-to-Use CSS Classes",
-            "f3_desc": "Generates a clean, copy-pasteable CSS block with individual classes for every asset, including background-position and dimension properties.",
-            "f4_title": "Customizable Layout Modes",
-            "f4_desc": "Choose between Vertical strips, Horizontal strips, or the most efficient 'Grid' mode based on the needs of your specific project architecture.",
-            "f5_title": "Padding and Spacing Control",
-            "f5_desc": "Add custom spacing between sprites to prevent 'pixel bleeding'—where parts of the adjacent icon accidentally show through in your UI.",
-            "f6_title": "Local Memory Processing Protection",
-            "f6_desc": "Your UI assets are your property. All packing and code generation happens right in your browser, ensuring no data ever leaves your device."
+            "title": "用于前端优化的高效实用程序",
+            "f1_title": "自动坐标生成",
+            "f1_desc": "我们为您做数学运算，以此您不必亲自做。立即获得合并精灵图中每个单独图片的精确 X 和 Y 坐标。",
+            "f2_title": "智能网格打包算法",
+            "f2_desc": "我们的引擎智能地将不同尺寸的图片排列成尽可能高效的网格，最大限度地减少空白空间并减小最终文件大小。",
+            "f3_title": "即用型 CSS 类",
+            "f3_desc": "生成干净、可复制粘贴的 CSS 块，其中包含每个资产的单独类，包括背景位置和尺寸属性。",
+            "f4_title": "可定制的布局模式",
+            "f4_desc": "根据您特定项目架构的需求，在垂直条带、水平条带或最高效的“网格”模式之间进行选择。",
+            "f5_title": "填充和间距控制",
+            "f5_desc": "在精灵之间添加自定义间距以防止“像素出血”——即相邻图标的部分意外显示在您的 UI 中。",
+            "f6_title": "本地内存处理保护",
+            "f6_desc": "您的 UI 资产是您的财产。所有打包和代码生成都直接在您的浏览器中进行，确保没有任何数据离开您的设备。"
         },
         "how_to": {
-            "title": "A Guide to High-Speed Assets: How to Use the Generator",
-            "step1_title": "Collect Your Small Assets",
-            "step1_desc": "Gather all the small icons, buttons, or frames of an animation that you want to combine. Ensure they are in a high-quality format like PNG.",
-            "step2_title": "Batch Upload to the Tool",
-            "step2_desc": "Select all files at once and upload them. The tool will immediately create a visual preview of how they can be packed together.",
-            "step3_title": "Configure the Optimization",
-            "step3_desc": "Adjust the 'Padding' if you're worried about edges appearing on retina screens, or choose a 'Vertical' layout if you're building a side-menu or filmstrip.",
-            "step4_title": "Review the Sprite Preview",
-            "step4_desc": "Check the generated sheet. Ensure every item is visible and that the grid is tight and efficient with no wasted space.",
-            "step5_title": "Download the Atlas Image",
-            "step5_desc": "Click the 'Download Sprite Sheet' button to save the consolidated image file to your project's assets folder.",
-            "step6_title": "Implement the CSS Code",
-            "step6_desc": "Copy the generated CSS block and paste it into your styles. Use the individual class names on your HTML elements to display the icons."
+            "title": "高速资产指南：如何使用生成器",
+            "step1_title": "收集您的小资源",
+            "step1_desc": "收集您想要合并的所有小图标、按钮或动画帧。确保它们是像 PNG 这样的高质量格式。",
+            "step2_title": "批量上传到工具",
+            "step2_desc": "一次选择所有文件并上传。工具将立即创建它们如何打包在一起的视觉预览。",
+            "step3_title": "配置优化",
+            "step3_desc": "如果您担心 Retina 屏幕边缘出现，请调整“填充”，或者如果您正在构建侧边菜单或幻灯片，请选择“垂直”布局。",
+            "step4_title": "查看精灵预览",
+            "step4_desc": "检查生成的图表。确保每个项目都可见，并且网格紧凑高效，没有浪费空间。",
+            "step5_title": "下载图集图片",
+            "step5_desc": "点击“下载精灵图”按钮将合并的图片文件保存到项目的资源文件夹中。",
+            "step6_title": "实施 CSS 代码",
+            "step6_desc": "复制生成的 CSS 块并将其粘贴到您的样式中。在 HTML 元素上使用单独的类名来显示图标。"
         },
         "faq": {
-            "title": "Sprite Sheet Mastery: Game Asset Creation Secrets",
-            "q1": "Are sprite sheets still relevant with HTTP\/2?",
-            "a1": "Yes! While HTTP\/2 handles multiple requests better, sprite sheets are still faster because they reduce the total amount of metadata and compression overhead.",
-            "q2": "What happens if I have images of different sizes?",
-            "a2": "Our smart-grid algorithm is designed for this! It will arrange your images of all shapes and sizes into the most compact rectangle possible.",
-            "q3": "Should I use JPG or PNG for my sprite sheet?",
-            "a3": "We strongly recommend PNG. It handles the 'sharp edges' of icons better and supports transparency, which is essential for most web UI work.",
-            "q4": "Is there a limit on how many images I can include?",
-            "a4": "Technically, no. However, we recommend sticking to around 50-100 images per sheet to keep the file dimensions from becoming overwhelmingly large.",
-            "q5": "What is 'Pixel Bleeding'?",
-            "a5": "This occurs when sub-pixel rendering shows a sliver of the next image in the sheet. Add 1-2 pixels of 'Padding' in our tool to prevent this.",
-            "q6": "Does this tool support SVG?",
-            "a6": "This tool is for raster sprites (PNG\/JPG). For SVGs, you should use an 'SVG Sprite' approach which is handled differently in modern browsers.",
-            "q7": "How do I update a sprite sheet later?",
-            "a7": "Just re-upload the original icons plus the new one. Our tool will give you a new sheet and new CSS in seconds.",
-            "q8": "Is this tool free for game developers?",
-            "a8": "Yes! Whether you're making a web site or a mobile game, our generator is 100% free with no commercial restrictions.",
-            "q9": "Can browsers cache sprite sheets?",
-            "a9": "Yes! This is one of the biggest benefits. The browser only has to cache one file to have every icon ready for all pages of your site.",
-            "q10": "Is my proprietary icon data safe?",
-            "a10": "Absolutely. Because your files are processed locally in your browser, your designs are never uploaded, stored, or viewed by our system."
+            "title": "精灵图精通：游戏资产创建秘密",
+            "q1": "精灵图在 HTTP/2 下还有意义吗？",
+            "a1": "是的！虽然 HTTP/2 更好地处理多个请求，但精灵图仍然更快，因为它们减少了元数据总量和压缩开销。",
+            "q2": "如果我有不同尺寸的图片怎么办？",
+            "a2": "我们的智能网格算法专为此设计！它会将各种形状和大小的图片排列成尽可能紧凑的矩形。",
+            "q3": "我应该为精灵图使用 JPG 还是 PNG？",
+            "a3": "我们强烈建议使用 PNG。它更好地处理图标的“锐利边缘”并支持透明度，这对于大多数 Web UI 工作至关重要。",
+            "q4": "我可以包含多少张图片有限制吗？",
+            "a4": "技术上没有。但是，我们建议每张图表保持在 50-100 张图片左右，以防止文件尺寸变得过大。",
+            "q5": "什么是“像素出血”？",
+            "a5": "当子像素渲染显示图表中下一张图片的一小部分时，就会发生这种情况。在我们的工具中添加 1-2 像素的“填充”以防止这种情况。",
+            "q6": "此工具支持 SVG 吗？",
+            "a6": "此工具适用于光栅精灵 (PNG/JPG)。对于 SVG，您应该使用在现代浏览器中处理方式不同的“SVG Sprite”方法。",
+            "q7": "以后如何更新精灵图？",
+            "a7": "只需重新上传原始图标加上新图标。我们的工具将在几秒钟内为您提供新图表和新 CSS。",
+            "q8": "此工具对游戏开发者免费吗？",
+            "a8": "是的！无论您是制作网站还是手机游戏，我们的生成器都是 100% 免费的，没有商业限制。",
+            "q9": "浏览器可以缓存精灵图吗？",
+            "a9": "是的！这是最大的好处之一。浏览器只需缓存一个文件即可为您网站的所有页面准备好每个图标。",
+            "q10": "我的专有图标数据安全吗？",
+            "a10": "当然。因为您的文件在浏览器中本地处理，您的设计永远不会被上传、存储或查看。"
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "转换图像时出错："
     }
 }
