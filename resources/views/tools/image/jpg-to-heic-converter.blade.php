@@ -7,73 +7,66 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <x-tool-hero :tool="$tool" />
 
-        <div class="bg-white rounded-2xl p-6 md:p-8 shadow-2xl border-2 border-indigo-50 mb-12">
-            <div class="text-center mb-8">
-                <h2 class="text-2xl font-bold text-gray-900 mb-2">{!! __tool('jpg-to-heic-converter', 'input.title') !!}
-                </h2>
-                <p class="text-gray-600">{!! __tool('jpg-to-heic-converter', 'input.desc') !!}</p>
-            </div>
-
+        <x-tool-ui-card :title="__tool('jpg-to-heic-converter', 'input.title')"
+            :description="__tool('jpg-to-heic-converter', 'input.desc')">
             <!-- Upload Area -->
-            <div id="dropZone"
-                class="border-3 border-dashed border-indigo-200 rounded-2xl p-8 hover:border-indigo-400 hover:bg-indigo-50 transition-all cursor-pointer text-center relative group">
-                <input type="file" id="imageInput" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-                    accept="image/jpeg, image/jpg">
-                <div class="space-y-4 pointer-events-none">
-                    <div
-                        class="inline-flex items-center justify-center w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full group-hover:scale-110 transition-transform">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-lg font-bold text-gray-700">
-                            {!! __tool('jpg-to-heic-converter', 'input.drop_title') !!}</p>
-                        <p class="text-sm text-gray-500">{!! __tool('jpg-to-heic-converter', 'input.drop_desc') !!}</p>
-                    </div>
-                </div>
-            </div>
+            <x-file-dropzone id="dropZone" inputId="imageInput" accept="image/jpeg, image/jpg"
+                :title="__tool('jpg-to-heic-converter', 'input.drop_title')" :subtitle="__tool('jpg-to-heic-converter', 'input.drop_desc')" />
 
             <!-- Loading State -->
-            <div id="loadingIndicator" class="hidden mt-8 text-center">
-                <svg class="animate-spin h-10 w-10 text-indigo-600 mx-auto mb-4" xmlns="http://www.w3.org/2000/svg"
-                    fill="none" viewBox="0 0 24 24">
-                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                    <path class="opacity-75" fill="currentColor"
-                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
-                    </path>
-                </svg>
-                <p class="text-lg font-bold text-gray-700">{!! __tool('jpg-to-heic-converter', 'loading.title') !!}</p>
-                <p class="text-sm text-gray-500">{!! __tool('jpg-to-heic-converter', 'loading.desc') !!}</p>
+            <div id="loadingIndicator" class="hidden py-12 text-center">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-indigo-50 rounded-full mb-6 relative">
+                    <div class="absolute inset-0 rounded-full border-4 border-indigo-100"></div>
+                    <div class="absolute inset-0 rounded-full border-4 border-indigo-500 border-t-transparent animate-spin">
+                    </div>
+                    <svg class="w-6 h-6 text-indigo-600 relative z-10" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">{!! __tool('jpg-to-heic-converter', 'loading.title') !!}
+                </h3>
+                <p class="text-gray-500">{!! __tool('jpg-to-heic-converter', 'loading.desc') !!}</p>
             </div>
 
             <!-- Result Area -->
-            <div id="resultArea" class="hidden mt-8 text-center">
-                <div class="bg-indigo-50 rounded-xl p-8 max-w-md mx-auto border border-indigo-100">
+            <div id="resultArea" class="hidden py-12 text-center max-w-lg mx-auto">
+                <div
+                    class="bg-gradient-to-br from-indigo-50 to-white rounded-3xl p-10 border border-indigo-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] relative overflow-hidden">
                     <div
-                        class="w-16 h-16 bg-white text-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-indigo-100 rounded-full opacity-50 blur-2xl">
+                    </div>
+
+                    <div
+                        class="w-20 h-20 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-sm relative z-10">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">Conversion Successful!</h3>
-                    <p class="text-gray-600 mb-6">Your JPG has been converted to HEIC format.</p>
+
+                    <h3 class="text-2xl font-black text-gray-900 mb-2 relative z-10">Conversion Successful!</h3>
+                    <p class="text-gray-500 mb-8 relative z-10">Your image has been converted to high-efficiency HEIC
+                        format.</p>
 
                     <a id="downloadLink" href="#"
-                        class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 shadow-sm transition-all w-full">
-                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        class="inline-flex items-center justify-center w-full px-8 py-4 border border-transparent text-lg font-bold rounded-2xl text-white bg-indigo-600 hover:bg-indigo-700 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5 relative z-10">
+                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                         </svg>
                         {!! __tool('jpg-to-heic-converter', 'result.btn_download') !!}
                     </a>
+
+                    <button id="convertAnother"
+                        class="mt-6 text-gray-500 hover:text-indigo-600 font-bold text-sm transition-colors relative z-10">
+                        Convert Another Image
+                    </button>
                 </div>
             </div>
-        </div>
+        </x-tool-ui-card>
 
-        <!-- SEO Content -->
         <x-tool-content :tool="$tool" />
     </div>
 
@@ -84,17 +77,26 @@
             const resultArea = document.getElementById('resultArea');
             const loadingIndicator = document.getElementById('loadingIndicator');
             const downloadLink = document.getElementById('downloadLink');
+            const convertAnother = document.getElementById('convertAnother');
+
+            imageInput.addEventListener('change', (e) => {
+                if (e.target.files[0]) processFile(e.target.files[0]);
+            });
 
             // Drag & Drop
-            dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('border-indigo-500', 'bg-indigo-50'); });
-            dropZone.addEventListener('dragleave', (e) => { e.preventDefault(); dropZone.classList.remove('border-indigo-500', 'bg-indigo-50'); });
+            dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('border-indigo-500', 'bg-indigo-50/50'); });
+            dropZone.addEventListener('dragleave', (e) => { e.preventDefault(); dropZone.classList.remove('border-indigo-500', 'bg-indigo-50/50'); });
             dropZone.addEventListener('drop', (e) => {
                 e.preventDefault();
-                dropZone.classList.remove('border-indigo-500', 'bg-indigo-50');
+                dropZone.classList.remove('border-indigo-500', 'bg-indigo-50/50');
                 if (e.dataTransfer.files[0]) processFile(e.dataTransfer.files[0]);
             });
 
-            imageInput.addEventListener('change', (e) => { if (e.target.files[0]) processFile(e.target.files[0]); });
+            convertAnother.addEventListener('click', () => {
+                imageInput.value = '';
+                resultArea.classList.add('hidden');
+                dropZone.classList.remove('hidden');
+            });
 
             function processFile(file) {
                 if (!file.type.match('image/jp.*')) {
@@ -121,8 +123,6 @@
                         if (data.success) {
                             downloadLink.href = data.download_url;
                             resultArea.classList.remove('hidden');
-
-                            // Optional: Reset dropzone nicely or leave result open
                         } else {
                             dropZone.classList.remove('hidden');
                             alert(data.message || '{!! __tool('jpg-to-heic-converter', 'js.error_conversion') !!}');

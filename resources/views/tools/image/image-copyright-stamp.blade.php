@@ -7,52 +7,30 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <x-tool-hero :tool="$tool" />
 
-        <div class="bg-white rounded-2xl p-6 md:p-8 shadow-2xl border-2 border-indigo-50 mb-12">
-            <div class="text-center mb-8">
-                <h2 class="text-2xl font-bold text-gray-900 mb-2">{!! __tool('image-copyright-stamp', 'input.title') !!}
-                </h2>
-                <p class="text-gray-600">{!! __tool('image-copyright-stamp', 'input.desc') !!}</p>
-            </div>
-
+        <x-tool-ui-card :title="__tool('image-copyright-stamp', 'input.title')"
+            :description="__tool('image-copyright-stamp', 'input.desc')">
             <!-- Upload Area -->
-            <div id="dropZone"
-                class="border-3 border-dashed border-indigo-200 rounded-2xl p-8 hover:border-indigo-400 hover:bg-indigo-50 transition-all cursor-pointer text-center relative group">
-                <input type="file" id="imageInput" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-                    accept="image/*">
-                <div class="space-y-4 pointer-events-none">
-                    <div
-                        class="inline-flex items-center justify-center w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full group-hover:scale-110 transition-transform">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-lg font-bold text-gray-700">
-                            {!! __tool('image-copyright-stamp', 'input.drop_title') !!}</p>
-                        <p class="text-sm text-gray-500">{!! __tool('image-copyright-stamp', 'input.drop_desc') !!}</p>
-                    </div>
-                </div>
-            </div>
+            <x-file-dropzone id="dropZone" inputId="imageInput" accept="image/*" :title="__tool('image-copyright-stamp', 'input.drop_title')" :subtitle="__tool('image-copyright-stamp', 'input.drop_desc')" />
 
             <!-- Editor Area -->
             <div id="editorArea" class="hidden mt-8 grid lg:grid-cols-3 gap-8">
                 <!-- Left Column: Canvas -->
-                <div class="lg:col-span-2 bg-gray-50 rounded-xl p-4 flex items-center justify-center border border-gray-200 relative overflow-hidden"
-                    style="min-height: 400px;">
-                    <canvas id="imageCanvas" class="max-w-full rounded shadow-sm"></canvas>
+                <div
+                    class="lg:col-span-2 bg-gray-50 rounded-2xl p-4 flex items-center justify-center border border-gray-100 relative overflow-hidden min-h-[400px]">
+                    <canvas id="imageCanvas" class="max-w-full rounded shadow-sm cursor-crosshair"></canvas>
                 </div>
 
                 <!-- Right Column: Controls -->
                 <div class="flex flex-col space-y-6">
-                    <div class="bg-indigo-50 p-6 rounded-2xl border border-indigo-100 space-y-6">
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 space-y-6">
 
                         <!-- Tabs for Text vs Image -->
-                        <div class="flex border-b border-indigo-200">
+                        <div class="flex border-b border-gray-200">
                             <button id="tabText"
-                                class="flex-1 py-2 font-semibold text-indigo-600 border-b-2 border-indigo-600">Text
+                                class="flex-1 py-2 font-bold text-indigo-600 border-b-2 border-indigo-600 transition-colors">Text
                                 Stamp</button>
-                            <button id="tabImage" class="flex-1 py-2 font-semibold text-gray-500 hover:text-indigo-600">Logo
+                            <button id="tabImage"
+                                class="flex-1 py-2 font-bold text-gray-400 hover:text-indigo-600 transition-colors">Logo
                                 Stamp</button>
                         </div>
 
@@ -60,19 +38,25 @@
                         <div id="textControls">
                             <div class="space-y-4">
                                 <div>
-                                    <label class="block text-sm font-bold text-gray-700 mb-1">Watermark Text</label>
-                                    <input type="text" id="watermarkText" class="w-full rounded border-gray-300"
+                                    <label class="block text-sm font-bold text-gray-700 mb-2">Watermark Text</label>
+                                    <input type="text" id="watermarkText"
+                                        class="w-full rounded-xl border-gray-200 bg-white shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2.5"
                                         placeholder="© Copyright 2026">
                                 </div>
-                                <div class="grid grid-cols-2 gap-2">
+                                <div class="grid grid-cols-2 gap-3">
                                     <div>
-                                        <label class="block text-xs font-semibold text-gray-500 mb-1">Color</label>
-                                        <input type="color" id="textColor" class="w-full h-8 rounded cursor-pointer"
-                                            value="#ffffff">
+                                        <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Color</label>
+                                        <div class="relative">
+                                            <input type="color" id="textColor"
+                                                class="w-full h-10 rounded-lg cursor-pointer border border-gray-200 p-1"
+                                                value="#ffffff">
+                                        </div>
                                     </div>
                                     <div>
-                                        <label class="block text-xs font-semibold text-gray-500 mb-1">Font Size</label>
-                                        <input type="number" id="textSize" class="w-full rounded border-gray-300 h-8"
+                                        <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Font
+                                            Size</label>
+                                        <input type="number" id="textSize"
+                                            class="w-full rounded-xl border-gray-200 h-10 bg-white shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2.5"
                                             value="30" min="10" max="200">
                                     </div>
                                 </div>
@@ -83,42 +67,48 @@
                         <div id="imageControls" class="hidden">
                             <div class="space-y-4">
                                 <div>
-                                    <label class="block text-sm font-bold text-gray-700 mb-1">Upload Logo</label>
+                                    <label class="block text-sm font-bold text-gray-700 mb-2">Upload Logo</label>
                                     <input type="file" id="logoInput"
-                                        class="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100"
+                                        class="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-semibold file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100 transition-colors"
                                         accept="image/*">
                                 </div>
                                 <div>
-                                    <label class="block text-xs font-semibold text-gray-500 mb-1">Size Scale (%)</label>
+                                    <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Size Scale
+                                        (%)</label>
                                     <input type="range" id="logoSize" min="10" max="200" value="50"
-                                        class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                                        class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-indigo-600">
                                 </div>
                             </div>
                         </div>
 
                         <!-- Common Controls -->
-                        <div class="pt-4 border-t border-indigo-200">
-                            <div class="mb-4">
-                                <label class="block text-sm font-bold text-gray-700 mb-1">Opacity (%)</label>
+                        <div class="pt-6 border-t border-gray-200">
+                            <div class="mb-6">
+                                <label class="block text-sm font-bold text-gray-700 mb-2">Opacity (%)</label>
                                 <input type="range" id="opacityRange" min="0" max="100" value="80"
-                                    class="w-full h-2 bg-white rounded-lg appearance-none cursor-pointer border border-gray-200">
+                                    class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-indigo-600">
                             </div>
 
                             <div class="grid grid-cols-3 gap-2">
-                                <button class="pos-btn bg-white border border-gray-300 rounded p-2 hover:bg-gray-50"
-                                    data-pos="top-left">TL</button>
-                                <button class="pos-btn bg-white border border-gray-300 rounded p-2 hover:bg-gray-50"
+                                <button
+                                    class="pos-btn bg-white border border-gray-200 rounded-xl p-2 hover:bg-indigo-50 hover:text-indigo-600 font-bold text-xs text-gray-600 transition-colors shadow-sm"
+                                    data-pos="top-left">Top Left</button>
+                                <button
+                                    class="pos-btn bg-white border border-gray-200 rounded-xl p-2 hover:bg-indigo-50 hover:text-indigo-600 font-bold text-xs text-gray-600 transition-colors shadow-sm"
                                     data-pos="center">Center</button>
-                                <button class="pos-btn bg-white border border-gray-300 rounded p-2 hover:bg-gray-50"
-                                    data-pos="bottom-right">BR</button>
+                                <button
+                                    class="pos-btn bg-white border border-gray-200 rounded-xl p-2 hover:bg-indigo-50 hover:text-indigo-600 font-bold text-xs text-gray-600 transition-colors shadow-sm"
+                                    data-pos="bottom-right">Bottom Right</button>
                             </div>
-                            <p class="text-xs text-gray-500 mt-2 text-center">Drag watermark on image to position manually.
+                            <p class="text-xs text-gray-400 mt-3 text-center">
+                                <span class="inline-block w-2 h-2 rounded-full bg-indigo-500 mr-1"></span>
+                                Drag watermark on image to position manually
                             </p>
                         </div>
                     </div>
 
                     <button id="downloadBtn"
-                        class="w-full bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 text-white font-bold py-4 rounded-xl shadow-lg transform hover:scale-[1.01] transition-all flex items-center justify-center gap-2">
+                        class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
@@ -127,12 +117,12 @@
                     </button>
 
                     <button id="uploadNewBtn"
-                        class="text-center text-gray-500 hover:text-indigo-600 font-medium transition-colors">
-                        Upload New Image
+                        class="text-center text-gray-500 hover:text-indigo-600 font-medium transition-colors text-sm">
+                        Stamp Another Image
                     </button>
                 </div>
             </div>
-        </div>
+        </x-tool-ui-card>
 
         <x-tool-content :tool="$tool" />
     </div>
@@ -171,17 +161,17 @@
             let isDragging = false;
 
             // Init
-            logoImg.src = ''; // Empty initially
+            logoImg.src = '';
 
             // Tabs
             tabText.addEventListener('click', () => {
                 activeMode = 'text';
                 textControls.classList.remove('hidden');
                 imageControls.classList.add('hidden');
-                tabText.classList.add('text-indigo-600', 'border-b-2', 'border-indigo-600');
-                tabText.classList.remove('text-gray-500');
-                tabImage.classList.remove('text-indigo-600', 'border-b-2', 'border-indigo-600');
-                tabImage.classList.add('text-gray-500');
+                tabText.classList.add('text-indigo-600', 'border-indigo-600');
+                tabText.classList.remove('text-gray-400');
+                tabImage.classList.remove('text-indigo-600', 'border-indigo-600');
+                tabImage.classList.add('text-gray-400');
                 draw();
             });
 
@@ -189,19 +179,19 @@
                 activeMode = 'image';
                 imageControls.classList.remove('hidden');
                 textControls.classList.add('hidden');
-                tabImage.classList.add('text-indigo-600', 'border-b-2', 'border-indigo-600');
-                tabImage.classList.remove('text-gray-500');
-                tabText.classList.remove('text-indigo-600', 'border-b-2', 'border-indigo-600');
-                tabText.classList.add('text-gray-500');
+                tabImage.classList.add('text-indigo-600', 'border-indigo-600');
+                tabImage.classList.remove('text-gray-400');
+                tabText.classList.remove('text-indigo-600', 'border-indigo-600');
+                tabText.classList.add('text-gray-400');
                 draw();
             });
 
             // File Uploads
-            dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('border-indigo-500', 'bg-indigo-50'); });
-            dropZone.addEventListener('dragleave', (e) => { e.preventDefault(); dropZone.classList.remove('border-indigo-500', 'bg-indigo-50'); });
+            dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('border-indigo-500', 'bg-indigo-50/50'); });
+            dropZone.addEventListener('dragleave', (e) => { e.preventDefault(); dropZone.classList.remove('border-indigo-500', 'bg-indigo-50/50'); });
             dropZone.addEventListener('drop', (e) => {
                 e.preventDefault();
-                dropZone.classList.remove('border-indigo-500', 'bg-indigo-50');
+                dropZone.classList.remove('border-indigo-500', 'bg-indigo-50/50');
                 if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]);
             });
 
@@ -215,9 +205,6 @@
             }
 
             mainImg.onload = () => {
-                // Set canvas size (fit to container width but keep ratio, or limit max width?)
-                // For high quality output, we want canvas to be full resolution of image?
-                // Yes, better to scale via CSS.
                 canvas.width = mainImg.width;
                 canvas.height = mainImg.height;
 
@@ -286,10 +273,6 @@
 
                 let x = (e.clientX - rect.left) * scaleX;
                 let y = (e.clientY - rect.top) * scaleY;
-
-                // Clamp
-                // x = Math.max(0, Math.min(canvas.width, x));
-                // y = Math.max(0, Math.min(canvas.height, y));
 
                 watermarkPos = { x, y };
                 requestAnimationFrame(draw);

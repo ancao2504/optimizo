@@ -7,85 +7,64 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <x-tool-hero :tool="$tool" />
 
-        <div class="bg-white rounded-2xl p-6 md:p-8 shadow-2xl border-2 border-indigo-50 mb-12">
-            <div class="text-center mb-8">
-                <h2 class="text-2xl font-bold text-gray-900 mb-2">{!! __tool('image-noise-reducer', 'input.title') !!}</h2>
-                <p class="text-gray-600">{!! __tool('image-noise-reducer', 'input.desc') !!}</p>
-            </div>
-
+        <x-tool-ui-card :title="__tool('image-noise-reducer', 'input.title')" :description="__tool('image-noise-reducer', 'input.desc')">
             <!-- Upload Area -->
-            <div id="dropZone"
-                class="border-3 border-dashed border-indigo-200 rounded-2xl p-8 hover:border-indigo-400 hover:bg-indigo-50 transition-all cursor-pointer text-center relative group">
-                <input type="file" id="imageInput" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-                    accept="image/*">
-                <div class="space-y-4 pointer-events-none">
-                    <div
-                        class="inline-flex items-center justify-center w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full group-hover:scale-110 transition-transform">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-lg font-bold text-gray-700">{!! __tool('image-noise-reducer', 'input.drop_title') !!}
-                        </p>
-                        <p class="text-sm text-gray-500">{!! __tool('image-noise-reducer', 'input.drop_desc') !!}</p>
-                    </div>
-                </div>
-            </div>
+            <x-file-dropzone id="dropZone" inputId="imageInput" accept="image/*" :title="__tool('image-noise-reducer', 'input.drop_title')" :subtitle="__tool('image-noise-reducer', 'input.drop_desc')" />
 
             <!-- Editor/Preview Area -->
             <div id="editorArea" class="hidden mt-8 grid lg:grid-cols-3 gap-8">
                 <!-- Left Column: Canvas -->
-                <div class="lg:col-span-2 bg-gray-50 rounded-xl p-4 flex items-center justify-center border border-gray-200 relative"
-                    style="min-height: 400px;">
+                <div
+                    class="lg:col-span-2 bg-gray-50 rounded-2xl p-4 flex items-center justify-center border border-gray-100 relative min-h-[400px]">
                     <canvas id="imageCanvas" class="max-w-full rounded shadow-sm"></canvas>
                 </div>
 
                 <!-- Right Column: Settings -->
                 <div class="flex flex-col space-y-6">
-                    <div class="bg-indigo-50 p-6 rounded-2xl border border-indigo-100">
-                        <h3 class="font-bold text-gray-800 mb-4">{!! __tool('image-noise-reducer', 'settings.title') !!}
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100">
+                        <h3 class="font-bold text-gray-800 mb-4 text-lg">
+                            {!! __tool('image-noise-reducer', 'settings.title') !!}
                         </h3>
 
                         <!-- Smoothness Level -->
                         <div class="mb-6">
                             <div class="flex justify-between items-center mb-2">
-                                <label for="strengthRange" class="text-sm font-medium text-gray-700">Denoise
+                                <label for="strengthRange" class="text-sm font-bold text-gray-700">Denoise
                                     Strength</label>
-                                <span id="strengthVal" class="text-sm font-bold text-indigo-600">Medium</span>
+                                <span id="strengthVal" class="text-sm font-bold text-indigo-600">Low (Median)</span>
                             </div>
                             <input type="range" id="strengthRange" min="1" max="5" value="1" step="1"
-                                class="w-full h-2 bg-white rounded-lg appearance-none cursor-pointer border border-gray-200">
-                            <p class="text-xs text-gray-500 mt-2">Higher strength might blur details. "1" is a standard
-                                Median filter.</p>
+                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-indigo-600">
+                            <p class="text-xs text-gray-500 mt-2 bg-white p-2 rounded border border-gray-100">
+                                <strong>Tip:</strong> Higher strength applies multiple passes but might blur extensive
+                                details.
+                            </p>
                         </div>
 
-                        <div class="flex gap-2">
+                        <div class="flex gap-3">
                             <button id="resetBtn"
-                                class="flex-1 px-4 py-2 bg-white border border-gray-300 rounded-lg text-sm hover:bg-gray-50">Reset</button>
+                                class="flex-1 px-4 py-2.5 bg-white border border-gray-200 rounded-xl text-sm font-bold text-gray-700 hover:bg-gray-50 transition-colors shadow-sm">Reset</button>
                             <button id="applyBtn"
-                                class="flex-1 px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm hover:bg-indigo-700">Apply</button>
+                                class="flex-1 px-4 py-2.5 bg-indigo-600 text-white rounded-xl text-sm font-bold hover:bg-indigo-700 transition-colors shadow-md">Apply</button>
                         </div>
-                        <p class="text-xs text-gray-500 mt-2">Note: Processing large images may take time.</p>
                     </div>
 
                     <button id="downloadBtn"
-                        class="w-full bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-bold py-4 rounded-xl shadow-lg transform hover:scale-[1.01] transition-all flex items-center justify-center gap-2">
+                        class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                         </svg>
-                        Download Denoised Image
+                        Download Image
                     </button>
 
                     <button id="uploadNewBtn"
-                        class="text-center text-gray-500 hover:text-indigo-600 font-medium transition-colors">
-                        Upload New Image
+                        class="text-center text-gray-500 hover:text-indigo-600 font-medium transition-colors text-sm">
+                        Process Another Image
                     </button>
                 </div>
             </div>
-        </div>
+        </x-tool-ui-card>
 
         <x-tool-content :tool="$tool" />
     </div>
@@ -108,11 +87,11 @@
             let originalImg = new Image();
 
             // Drag & Drop
-            dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('border-indigo-500', 'bg-indigo-50'); });
-            dropZone.addEventListener('dragleave', (e) => { e.preventDefault(); dropZone.classList.remove('border-indigo-500', 'bg-indigo-50'); });
+            dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('border-indigo-500', 'bg-indigo-50/50'); });
+            dropZone.addEventListener('dragleave', (e) => { e.preventDefault(); dropZone.classList.remove('border-indigo-500', 'bg-indigo-50/50'); });
             dropZone.addEventListener('drop', (e) => {
                 e.preventDefault();
-                dropZone.classList.remove('border-indigo-500', 'bg-indigo-50');
+                dropZone.classList.remove('border-indigo-500', 'bg-indigo-50/50');
                 if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]);
             });
 
@@ -146,7 +125,15 @@
             });
 
             applyBtn.addEventListener('click', () => {
-                setTimeout(applyDenoise, 10);
+                const originalText = applyBtn.innerText;
+                applyBtn.innerText = 'Processing...';
+                applyBtn.disabled = true;
+
+                setTimeout(() => {
+                    applyDenoise();
+                    applyBtn.innerText = originalText;
+                    applyBtn.disabled = false;
+                }, 50);
             });
 
             resetBtn.addEventListener('click', () => {
@@ -156,19 +143,6 @@
             });
 
             function applyDenoise() {
-                // Using Median filter - distinct from Gaussian blur, better at preserving edges while removing salt-and-pepper noise
-                // Strength determines window size? 
-                // Window size: 1 -> 3x3, 2 -> 5x5 ?? 5x5 is very slow in JS
-                // Let's stick to 3x3 window but iterate multiple times for strength > 1 or use simple blur for higher levels?
-                // Actually Median filter is best for noise. 
-                // Let's implement 3x3 median filter.
-
-                // For higher strengths, maybe we just run it multiple times?
-                // Or we can simple use a Mean filter (Blur) but that blurs edges too much.
-                // Let's do: Level 1 = 1 pass Median 3x3
-                // Level 2 = 2 passes Median 3x3
-                // ...
-
                 const w = canvas.width;
                 const h = canvas.height;
                 let imageData = ctx.getImageData(0, 0, w, h);

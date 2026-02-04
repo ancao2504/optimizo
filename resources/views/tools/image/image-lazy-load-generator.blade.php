@@ -7,46 +7,25 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <x-tool-hero :tool="$tool" />
 
-        <div class="bg-white rounded-2xl p-6 md:p-8 shadow-2xl border-2 border-indigo-50 mb-12">
-            <div class="text-center mb-8">
-                <h2 class="text-2xl font-bold text-gray-900 mb-2">{!! __tool('image-lazy-load-generator', 'input.title') !!}
-                </h2>
-                <p class="text-gray-600">{!! __tool('image-lazy-load-generator', 'input.desc') !!}</p>
-            </div>
-
+        <x-tool-ui-card :title="__tool('image-lazy-load-generator', 'input.title')"
+            :description="__tool('image-lazy-load-generator', 'input.desc')">
             <!-- Upload Area -->
-            <div id="dropZone"
-                class="border-3 border-dashed border-indigo-200 rounded-2xl p-8 hover:border-indigo-400 hover:bg-indigo-50 transition-all cursor-pointer text-center relative group">
-                <input type="file" id="imageInput" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-                    accept="image/*">
-                <div class="space-y-4 pointer-events-none">
-                    <div
-                        class="inline-flex items-center justify-center w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full group-hover:scale-110 transition-transform">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-lg font-bold text-gray-700">
-                            {!! __tool('image-lazy-load-generator', 'input.drop_title') !!}</p>
-                        <p class="text-sm text-gray-500">{!! __tool('image-lazy-load-generator', 'input.drop_desc') !!}</p>
-                    </div>
-                </div>
-            </div>
+            <x-file-dropzone id="dropZone" inputId="imageInput" accept="image/*" :title="__tool('image-lazy-load-generator', 'input.drop_title')" :subtitle="__tool('image-lazy-load-generator', 'input.drop_desc')" />
 
             <!-- Editor/Result Area -->
             <div id="editorArea" class="hidden mt-8 grid lg:grid-cols-2 gap-8">
                 <!-- Left Column: Settings & Preview -->
                 <div class="flex flex-col space-y-6">
-                    <div class="bg-indigo-50 p-6 rounded-2xl border border-indigo-100">
-                        <h3 class="font-bold text-gray-800 mb-4">
-                            {!! __tool('image-lazy-load-generator', 'settings.title') !!}</h3>
+                    <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+                        <h3 class="font-bold text-gray-900 mb-4 text-lg border-b border-gray-100 pb-3">
+                            {!! __tool('image-lazy-load-generator', 'settings.title') !!}
+                        </h3>
 
                         <div class="space-y-4">
                             <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Placeholder Style</label>
-                                <select id="styleSelect" class="w-full rounded border-gray-300">
+                                <label class="block text-sm font-bold text-gray-700 mb-2">Placeholder Style</label>
+                                <select id="styleSelect"
+                                    class="w-full rounded-xl border-gray-200 bg-gray-50 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2.5">
                                     <option value="lqip">Low Quality Image Placeholder (LQIP)</option>
                                     <option value="color">Dominant Color</option>
                                     <option value="blur">Blurred</option>
@@ -54,47 +33,52 @@
                             </div>
 
                             <div id="qualityControl">
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Blur Amount</label>
+                                <label class="block text-sm font-bold text-gray-700 mb-2">Blur Amount</label>
                                 <input type="range" id="blurRange" min="0" max="20" value="10"
-                                    class="w-full h-2 bg-white rounded-lg appearance-none cursor-pointer border border-gray-200">
+                                    class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-indigo-600">
                             </div>
                         </div>
                     </div>
 
-                    <div class="bg-gray-50 rounded-xl p-4 border border-gray-200 flex flex-col items-center justify-center">
-                        <h4 class="text-sm font-bold text-gray-600 mb-2">Preview (Placeholder)</h4>
-                        <img id="previewImg" class="max-w-full rounded shadow-sm border border-gray-300" />
-                        <p class="text-xs text-gray-400 mt-2" id="previewSize">Size: 0kb</p>
+                    <div
+                        class="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-inner flex flex-col items-center justify-center">
+                        <h4 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">Preview</h4>
+                        <img id="previewImg"
+                            class="max-w-full rounded shadow-sm border border-gray-200 w-full object-cover" />
+                        <p class="text-xs text-indigo-600 font-mono mt-3 bg-white px-3 py-1 rounded-full border border-gray-200 shadow-sm"
+                            id="previewSize">Size: 0kb</p>
                     </div>
                 </div>
 
                 <!-- Right Column: Code Output -->
-                <div class="flex flex-col space-y-4">
-                    <h3 class="font-bold text-gray-800">Generated HTML & JS</h3>
+                <div class="flex flex-col space-y-6">
+                    <h3 class="font-bold text-gray-900 text-lg">Generated Code</h3>
 
                     <div class="relative">
-                        <label class="block text-xs font-semibold text-gray-500 mb-1">HTML Code</label>
+                        <label class="block text-xs font-bold text-gray-500 uppercase mb-2">HTML Code</label>
                         <textarea id="htmlOutput"
-                            class="w-full h-32 rounded-lg border-gray-300 font-mono text-xs bg-gray-50" readonly></textarea>
+                            class="w-full h-32 rounded-xl border-gray-200 font-mono text-xs bg-gray-900 text-gray-300 p-4 focus:ring-indigo-500 focus:border-indigo-500"
+                            readonly></textarea>
                         <button
-                            class="absolute top-6 right-2 text-indigo-600 hover:text-indigo-800 text-xs font-bold copy-btn"
+                            class="absolute top-9 right-3 bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-colors copy-btn backdrop-blur-sm"
                             data-target="htmlOutput">Copy</button>
                     </div>
 
                     <div class="relative">
-                        <label class="block text-xs font-semibold text-gray-500 mb-1">CSS (Optional)</label>
-                        <textarea id="cssOutput" class="w-full h-24 rounded-lg border-gray-300 font-mono text-xs bg-gray-50"
+                        <label class="block text-xs font-bold text-gray-500 uppercase mb-2">CSS</label>
+                        <textarea id="cssOutput"
+                            class="w-full h-24 rounded-xl border-gray-200 font-mono text-xs bg-gray-900 text-gray-300 p-4"
                             readonly>.lazy { opacity: 0; transition: opacity 0.3s; }
     .lazy.loaded { opacity: 1; }</textarea>
                         <button
-                            class="absolute top-6 right-2 text-indigo-600 hover:text-indigo-800 text-xs font-bold copy-btn"
+                            class="absolute top-9 right-3 bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-colors copy-btn backdrop-blur-sm"
                             data-target="cssOutput">Copy</button>
                     </div>
 
                     <div class="relative">
-                        <label class="block text-xs font-semibold text-gray-500 mb-1">JavaScript (Intersection
-                            Observer)</label>
-                        <textarea id="jsOutput" class="w-full h-48 rounded-lg border-gray-300 font-mono text-xs bg-gray-50"
+                        <label class="block text-xs font-bold text-gray-500 uppercase mb-2">JavaScript</label>
+                        <textarea id="jsOutput"
+                            class="w-full h-48 rounded-xl border-gray-200 font-mono text-xs bg-gray-900 text-gray-300 p-4"
                             readonly>document.addEventListener("DOMContentLoaded", function() {
       const lazyImages = document.querySelectorAll("img.lazy");
       const observer = new IntersectionObserver((entries, observer) => {
@@ -110,17 +94,17 @@
       lazyImages.forEach(img => observer.observe(img));
     });</textarea>
                         <button
-                            class="absolute top-6 right-2 text-indigo-600 hover:text-indigo-800 text-xs font-bold copy-btn"
+                            class="absolute top-9 right-3 bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-colors copy-btn backdrop-blur-sm"
                             data-target="jsOutput">Copy</button>
                     </div>
 
                     <button id="uploadNewBtn"
-                        class="w-full bg-white border border-gray-300 text-gray-700 font-bold py-3 rounded-xl hover:bg-gray-50 transition-all">
+                        class="w-full bg-white border border-gray-200 text-gray-600 font-bold py-3 rounded-xl hover:bg-gray-50 hover:text-indigo-600 transition-all shadow-sm">
                         Process Another Image
                     </button>
                 </div>
             </div>
-        </div>
+        </x-tool-ui-card>
 
         <x-tool-content :tool="$tool" />
     </div>
@@ -147,11 +131,11 @@
             const canvas = document.createElement('canvas');
             const ctx = canvas.getContext('2d');
 
-            dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('border-indigo-500', 'bg-indigo-50'); });
-            dropZone.addEventListener('dragleave', (e) => { e.preventDefault(); dropZone.classList.remove('border-indigo-500', 'bg-indigo-50'); });
+            dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('border-indigo-500', 'bg-indigo-50/50'); });
+            dropZone.addEventListener('dragleave', (e) => { e.preventDefault(); dropZone.classList.remove('border-indigo-500', 'bg-indigo-50/50'); });
             dropZone.addEventListener('drop', (e) => {
                 e.preventDefault();
-                dropZone.classList.remove('border-indigo-500', 'bg-indigo-50');
+                dropZone.classList.remove('border-indigo-500', 'bg-indigo-50/50');
                 if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]);
             });
 
@@ -173,7 +157,7 @@
                     document.execCommand('copy');
                     const originalText = btn.innerText;
                     btn.innerText = 'Copied!';
-                    setTimeout(() => btn.innerText = originalText, 2000);
+                    setTimeout(() => btn.innerText = 'Copy', 2000);
                 });
             });
 
@@ -227,14 +211,12 @@
                     placeholderDataUrl = canvas.toDataURL('image/png');
 
                 } else {
-                    // LQIP
-                    // If blur needed, we can apply css blur to the preview img
+                    // LQIP - use JPEG logic
                     placeholderDataUrl = canvas.toDataURL('image/jpeg', 0.5);
                 }
 
                 previewImg.src = placeholderDataUrl;
                 previewImg.style.filter = (style === 'blur' || style === 'lqip') ? `blur(${blur}px)` : 'none';
-                previewImg.style.width = '100%';
 
                 // Calculate size
                 const sizeKB = (placeholderDataUrl.length * 3 / 4) / 1024;
@@ -242,11 +224,12 @@
 
                 // Generate HTML
                 const imgTag = `<img src="${placeholderDataUrl}" 
-             data-src="${originalFile.name}" 
-             class="lazy" 
-             alt="Lazy loaded image"
-             style="width: 100%; aspect-ratio: ${originalImg.width}/${originalImg.height}; ${(style === 'blur' || style === 'lqip') ? 'filter: blur(' + blur + 'px); transition: filter 0.3s;' : ''}"
-             onload="this.style.filter='none'">`;
+              data-src="${originalFile.name}" 
+              class="lazy" 
+              alt="Lazy loaded image"
+              width="${originalImg.width}" height="${originalImg.height}"
+              style="width: 100%; height: auto; aspect-ratio: ${originalImg.width}/${originalImg.height}; ${(style === 'blur' || style === 'lqip') ? 'filter: blur(' + blur + 'px); transition: filter 0.3s;' : ''}"
+              onload="this.style.filter='none'">`;
 
                 htmlOutput.value = imgTag;
             }
