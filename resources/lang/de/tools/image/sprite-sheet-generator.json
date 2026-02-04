@@ -1,0 +1,98 @@
+{
+    "meta": {
+        "title": "Sprite Sheet Generator - CSS Sprites online erstellen",
+        "h1": "Sprite Sheet Generator",
+        "subtitle": "Kombinieren Sie mehrere Bilder zu einem einzelnen Sprite Sheet und generieren Sie CSS-Code.",
+        "desc": "Kombinieren Sie mehrere Bilder zu einem einzigen Sprite Sheet und generieren Sie automatisch CSS-Code. Reduzieren Sie HTTP-Anfragen und optimieren Sie die Website-Leistung."
+    },
+    "input": {
+        "title": "CSS Sprite Sheet generieren",
+        "desc": "Laden Sie mehrere Icons oder Bilder hoch, um sie in eine einzelne Datei zu packen.",
+        "drop_title": "Bilder hier ablegen",
+        "drop_desc": "oder klicken, um mehrere Dateien hochzuladen"
+    },
+    "settings": {
+        "title": "Generator-Einstellungen"
+    },
+    "result": {
+        "title": "Generiertes Sprite Sheet",
+        "css_title": "CSS-Code kopieren",
+        "btn_download": "Sprite Sheet herunterladen"
+    },
+    "content": {
+        "intro": {
+            "title": "Die Kunst der Effizienz: Meistern Sie den CSS Sprite Sheet Generator",
+            "subtitle": "Steigern Sie die Leistung Ihrer Website, indem Sie Dutzende von Bildern in einem einzigen High-Speed-Asset konsolidieren.",
+            "p1": "In der Welt der leistungsstarken Webentwicklung zählt jede Millisekunde. Einer der häufigsten Engpässe für die Seitenladegeschwindigkeit ist nicht nur die 'Größe' Ihrer Bilder, sondern die 'Anzahl' der Anfragen, die der Browser stellen muss, um sie abzurufen. Wenn Ihre Website zwanzig Symbole hat, sind das zwanzig einzelne HTTP-Anfragen, zwanzig Handshakes mit dem Server und zwanzig potenzielle Verzögerungen. Unser Sprite Sheet Generator wurde entwickelt, um dieses Problem zu lösen, indem er alle Ihre kleinen Assets in eine einzige Bilddatei packt – eine Technik, die als CSS Spriting bekannt ist.",
+            "p2": "Ein 'Sprite Sheet' ist im Wesentlichen ein Raster aus mehreren Bildern, die zu einem großen 'Atlas' kombiniert sind. Um ein bestimmtes Symbol anzuzeigen, verwenden Sie CSS, um das Sprite Sheet als Hintergrund zu definieren, und verwenden dann 'Offset'-Koordinaten, um nur den Teil des Sheets anzuzeigen, den Sie benötigen. Dies reduziert Ihren Serveraufwand von zwanzig Anfragen auf nur eine. Unser Tool automatisiert die mühsame Mathematik, die mit diesem Prozess verbunden ist, und generiert sowohl das optimierte Sprite-Bild als auch den präzisen CSS-Code, den Sie benötigen, um es in Sekunden zu implementieren.",
+            "p3": "Egal, ob Sie eine riesige Unternehmensanwendung mit Hunderten von UI-Symbolen, ein Handyspiel mit Charakteranimationen oder einen persönlichen Blog mit benutzerdefinierten Social-Media-Buttons erstellen – unser Online-Generator bietet eine Lösung auf professionellem Niveau. Wir priorisieren Packeffizienz und einfache Implementierung und helfen Ihnen, saubereren Code und schnellere Websites zu erstellen, völlig kostenlos und ohne komplexe CLI-Tools."
+        },
+        "story": {
+            "title": "Glättung des Seitenladens: Warum Sprite Sheets der beste Freund eines Entwicklers sind",
+            "p1": "Um zu verstehen, warum Sprite Sheets funktionieren, muss man sich die 'Wahrgenommene Leistung' einer Website ansehen. Wenn ein Browser eine Seite lädt, fordert er Bilder parallel an. Die meisten Browser haben jedoch ein Limit, wie viele gleichzeitige Verbindungen sie zu einer einzelnen Domain öffnen können (normalerweise sechs). Wenn Sie sechzig kleine Symbole haben, muss der Browser sie stapelweise in die Warteschlange stellen, was zum 'Pop-in'-Effekt führt, bei dem Symbole nacheinander erscheinen. Durch die Verwendung eines einzigen Sprite Sheets umgehen Sie diese Warteschlange vollständig. Das Sheet lädt einmal, und jedes Symbol ist sofort bereit.",
+            "p2": "Das 'Packproblem' ist der mathematische Kern unseres Tools. Wenn Sie Bilder einfach zufällig platzieren, erhalten Sie viel 'toten Raum' (leere transparente Pixel), was die Datei unnötig groß macht. Unser Generator verwendet einen intelligenten Packalgorithmus, der die Abmessungen jedes hochgeladenen Bildes analysiert und sie in einem engen Raster mit minimaler Polsterung anordnet. Dies stellt sicher, dass Ihre einzelne Anfrage so klein und effizient wie möglich ist, wodurch der Leistungsgewinn der Technik maximiert wird.",
+            "p3": "CSS Background Position ist der Zauberstab, der alles möglich macht. Für jedes Symbol in Ihrem Sheet berechnet unser Tool die genauen X- und Y-Koordinaten (in Pixeln) seiner oberen linken Ecke. Wir generieren dann eine CSS-Klasse, die die background-position auf diese Werte setzt. Anstatt 'background-image: icon1.png' zu schreiben, wenden Sie einfach eine Klasse wie `.icon-home` an. Unser Tool generiert alle diese Klassen für Sie, sodass Sie sie direkt in Ihr Stylesheet kopieren und einfügen können.",
+            "p4": "Animation und Spieleentwicklung sind weitere große Anwendungsfälle für Sprite Sheets. Wenn Sie einen Charakter erstellen, der geht oder springt, müssen Sie 'Frames' der Animation sehr schnell austauschen. Das Laden separater Dateien für jeden Frame würde zu Flackern führen, während der Browser versucht, Schritt zu halten. Ein Sprite Sheet legt jeden Frame der Animation in einen einzelnen Streifen, was einen reibungslosen Frame-Austausch ohne Latenz ermöglicht. Es ist der Standard für 2D-Spiele-Engines und webbasierte Animationen.",
+            "p5": "Retina- und High-DPI-Unterstützung ist mit Sprites ebenfalls einfacher. Anstatt zwei Versionen jedes Symbols (Standard und @2x) zu verwalten, müssen Sie nur zwei Versionen des Sprite Sheets verwalten. Dies vereinfacht Ihre Asset-Verwaltung und stellt sicher, dass Ihre Benutzeroberfläche auf jedem Bildschirm, von Budget-Laptops bis zu den neuesten High-End-Smartphones, gestochen scharf und professionell aussieht.",
+            "p6": "Warum professionelle Entwickler unseren Generator wählen? Das manuelle Spriting in Photoshop oder Figma ist unglaublich mühsam. Sie müssen ein Raster erstellen, Pixel perfekt ausrichten und dann die Koordinaten für jedes einzelne Element manuell aufzeichnen. Wenn Sie ein neues Symbol hinzufügen, müssen Sie oft alles von vorne machen. Unser Generator macht dies zu einem 'One-Click'-Update-Prozess. Laden Sie Ihren neuen Batch hoch und erhalten Sie im Handumdrehen ein frisches Sheet und frisches CSS.",
+            "p7": "Sicherheit und Workflow sind der Schlüssel. Wir verstehen, dass Ihre Symbole und UI-Assets die 'Geheimzutat' Ihres Designs sind. Da unser Sprite Sheet Generator lokal in Ihrem Browser arbeitet, werden Ihre Assets nicht auf unseren Servern gespeichert. Die 'Pack'-Mathematik erfolgt auf Ihrem Gerät, und Sie laden das Ergebnis direkt herunter. Es ist ein sicherer, privater und sofortiger Teil Ihrer professionellen Entwicklungspipeline.",
+            "p8": "Zusammenfassend geht es beim Sprite Sheet Generator um mehr als nur Bilder; es geht um die Website-Architektur. Es geht darum, ein klügerer Entwickler zu sein, der versteht, wie das Web tatsächlich funktioniert. Nutzen Sie unser Tool, um Ihre Assets zu konsolidieren, Ihre Serverlast zu reduzieren und Ihren Benutzern das schnellstmögliche und reibungsloseste Erlebnis zu bieten. Es ist das technische Geheimnis eines professionellen Frontends."
+        },
+        "features": {
+            "title": "Hocheffiziente Dienstprogramme zur Frontend-Optimierung",
+            "f1_title": "Automatische Koordinatengenerierung",
+            "f1_desc": "Wir übernehmen die Mathematik, damit Sie es nicht müssen. Erhalten Sie sofort präzise X- und Y-Koordinaten für jedes einzelne Bild in Ihrem konsolidierten Sprite Sheet.",
+            "f2_title": "Smart-Grid Packalgorithmus",
+            "f2_desc": "Unsere Engine ordnet Bilder unterschiedlicher Größe intelligent in einem möglichst effizienten Raster an, wodurch leerer Raum minimiert und die endgültige Dateigröße reduziert wird.",
+            "f3_title": "Gebrauchsfertige CSS-Klassen",
+            "f3_desc": "Generiert einen sauberen, kopierbaren CSS-Block mit individuellen Klassen für jedes Asset, einschließlich background-position und Dimensionseigenschaften.",
+            "f4_title": "Anpassbare Layout-Modi",
+            "f4_desc": "Wählen Sie zwischen vertikalen Streifen, horizontalen Streifen oder dem effizientesten 'Grid'-Modus basierend auf den Anforderungen Ihrer spezifischen Projektarchitektur.",
+            "f5_title": "Steuerung von Abstand und Padding",
+            "f5_desc": "Fügen Sie benutzerdefinierten Abstand zwischen Sprites hinzu, um 'Pixelbluten' zu verhindern – wo Teile des benachbarten Symbols versehentlich in Ihrer Benutzeroberfläche durchscheinen.",
+            "f6_title": "Lokaler Speicherverarbeitungsschutz",
+            "f6_desc": "Ihre UI-Assets sind Ihr Eigentum. Die gesamte Packung und Codegenerierung erfolgt direkt in Ihrem Browser, wodurch sichergestellt wird, dass niemals Daten Ihr Gerät verlassen."
+        },
+        "how_to": {
+            "title": "Eine Anleitung zu High-Speed-Assets: So verwenden Sie den Generator",
+            "step1_title": "Sammeln Sie Ihre kleinen Assets",
+            "step1_desc": "Sammeln Sie alle kleinen Symbole, Schaltflächen oder Frames einer Animation, die Sie kombinieren möchten. Stellen Sie sicher, dass sie in einem hochwertigen Format wie PNG vorliegen.",
+            "step2_title": "Batch-Upload in das Tool",
+            "step2_desc": "Wählen Sie alle Dateien auf einmal aus und laden Sie sie hoch. Das Tool erstellt sofort eine visuelle Vorschau, wie sie zusammengepackt werden können.",
+            "step3_title": "Konfigurieren Sie die Optimierung",
+            "step3_desc": "Passen Sie das 'Padding' an, wenn Sie sich Sorgen um Ränder auf Retina-Bildschirmen machen, oder wählen Sie ein 'Vertikales' Layout, wenn Sie ein Seitenmenü oder einen Filmstreifen erstellen.",
+            "step4_title": "Überprüfen Sie die Sprite-Vorschau",
+            "step4_desc": "Überprüfen Sie das generierte Sheet. Stellen Sie sicher, dass jedes Element sichtbar ist und dass das Raster eng und effizient ist, ohne verschwendeten Platz.",
+            "step5_title": "Laden Sie das Atlas-Bild herunter",
+            "step5_desc": "Klicken Sie auf die Schaltfläche 'Sprite Sheet herunterladen', um die konsolidierte Bilddatei im Assets-Ordner Ihres Projekts zu speichern.",
+            "step6_title": "Implementieren Sie den CSS-Code",
+            "step6_desc": "Kopieren Sie den generierten CSS-Block und fügen Sie ihn in Ihre Styles ein. Verwenden Sie die einzelnen Klassennamen auf Ihren HTML-Elementen, um die Symbole anzuzeigen."
+        },
+        "faq": {
+            "title": "Sprite Sheet Meisterschaft: Geheimnisse der Game-Asset-Erstellung",
+            "q1": "Sind Sprite Sheets mit HTTP/2 noch relevant?",
+            "a1": "Ja! Obwohl HTTP/2 mehrere Anfragen besser handhabt, sind Sprite Sheets immer noch schneller, da sie die Gesamtmenge an Metadaten und Komprimierungsoverhead reduzieren.",
+            "q2": "Was passiert, wenn ich Bilder unterschiedlicher Größe habe?",
+            "a2": "Unser Smart-Grid-Algorithmus ist dafür konzipiert! Er ordnet Ihre Bilder aller Formen und Größen in einem möglichst kompakten Rechteck an.",
+            "q3": "Sollte ich JPG oder PNG für mein Sprite Sheet verwenden?",
+            "a3": "Wir empfehlen dringend PNG. Es handhabt die 'scharfen Kanten' von Symbolen besser und unterstützt Transparenz, was für die meisten Web-UI-Arbeiten unerlässlich ist.",
+            "q4": "Gibt es eine Begrenzung, wie viele Bilder ich einfügen kann?",
+            "a4": "Technisch nein. Wir empfehlen jedoch, sich an etwa 50-100 Bilder pro Sheet zu halten, damit die Dateidimensionen nicht überwältigend groß werden.",
+            "q5": "Was ist 'Pixel Bluten'?",
+            "a5": "Dies tritt auf, wenn Sub-Pixel-Rendering einen Splitter des nächsten Bildes im Sheet anzeigt. Fügen Sie in unserem Tool 1-2 Pixel 'Padding' hinzu, um dies zu verhindern.",
+            "q6": "Unterstützt dieses Tool SVG?",
+            "a6": "Dieses Tool ist für Raster-Sprites (PNG/JPG). Für SVGs sollten Sie einen 'SVG Sprite'-Ansatz verwenden, der in modernen Browsern anders gehandhabt wird.",
+            "q7": "Wie aktualisiere ich ein Sprite Sheet später?",
+            "a7": "Laden Sie einfach die ursprünglichen Symbole plus das neue erneut hoch. Unser Tool gibt Ihnen in Sekunden ein neues Sheet und neues CSS.",
+            "q8": "Ist dieses Tool für Spieleentwickler kostenlos?",
+            "a8": "Ja! Egal, ob Sie eine Website oder ein Handyspiel erstellen, unser Generator ist zu 100% kostenlos und ohne kommerzielle Einschränkungen.",
+            "q9": "Können Browser Sprite Sheets zwischenspeichern?",
+            "a9": "Ja! Dies ist einer der größten Vorteile. Der Browser muss nur eine Datei zwischenspeichern, um jedes Symbol für alle Seiten Ihrer Website bereit zu haben.",
+            "q10": "Sind meine proprietären Symboldaten sicher?",
+            "a10": "Absolut. Da Ihre Dateien lokal in Ihrem Browser verarbeitet werden, werden Ihre Designs niemals von unserem System hochgeladen, gespeichert oder angesehen."
+        }
+    },
+    "js": {
+        "error_conversion": "Fehler beim Konvertieren des Bildes: "
+    }
+}

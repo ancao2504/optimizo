@@ -1,0 +1,99 @@
+{
+    "meta": {
+        "title": "Générateur d'Images Responsives - Créer Srcset en ligne",
+        "h1": "Générateur d'Images Responsives",
+        "subtitle": "Générez des images parfaitement dimensionnées et le code HTML srcset pour tous les appareils.",
+        "desc": "Générez des images responsives et des attributs HTML srcset en ligne. Créez automatiquement des images parfaitement dimensionnées pour mobile, tablette et bureau."
+    },
+    "input": {
+        "title": "Générer des Images Responsives",
+        "desc": "Téléchargez une image pour créer plusieurs versions redimensionnées et le code HTML srcset.",
+        "drop_title": "Glissez et déposez l'image ici",
+        "drop_desc": "ou cliquez pour télécharger"
+    },
+    "settings": {
+        "title": "Paramètres de Breakpoint"
+    },
+    "result": {
+        "title": "Actifs Générés",
+        "assets_desc": "Vos images redimensionnées et le code d'intégration sont prêts.",
+        "btn_download_all": "Tout Télécharger (ZIP)",
+        "code_snippet": "Copier le Code HTML"
+    },
+    "content": {
+        "intro": {
+            "title": "Une Image, Chaque Écran : Le Guide Professionnel de l'Imagerie Responsive",
+            "subtitle": "Comblez le fossé entre la haute définition et la vitesse cellulaire avec notre générateur srcset automatisé.",
+            "p1": "Dans le paysage Web moderne, vos utilisateurs vous visitent sur un vaste spectre de matériel. Un visiteur peut utiliser un moniteur de bureau 4K avec une connexion gigabit, tandis qu'un autre utilise un smartphone vieux de quatre ans avec un signal 3G instable dans un sous-sol. Si vous servez la même image de héros de 4400 pixels de large aux deux, vous punissez vos utilisateurs mobiles avec des temps de chargement massifs et des coûts de données élevés. Notre Générateur d'Images Responsives est conçu pour résoudre ce dilemme de la 'taille unique', vous permettant de générer une suite d'images parfaitement dimensionnées et le code HTML intelligent nécessaire pour les livrer.",
+            "p2": "La magie du design responsive moderne réside dans l'attribut `srcset`. Contrairement à l'ancien attribut `src` qui imposait un seul fichier à tout le monde, `srcset` fournit au navigateur un menu d'options. Vous fournissez les images et le navigateur — utilisant sa connaissance de la largeur et de la résolution de l'écran de l'utilisateur — choisit le fichier le plus efficace pour le travail. Notre outil automatise le travail manuel fastidieux de redimensionnement, de renommage et de codage de ces alternatives, transformant un fichier maître haute résolution en un paquet d'actifs responsifs prêt pour la production en quelques secondes.",
+            "p3": "Que vous soyez un développeur frontend visant un score Lighthouse parfait, un designer s'assurant que votre interface utilisateur est nette sur les écrans Retina, ou un blogueur voulant rendre votre site accessible aux utilisateurs du monde entier, notre générateur en ligne offre un flux de travail sans friction et de qualité professionnelle. Nous privilégions la vitesse, la précision et la performance, vous donnant le pouvoir de construire une expérience véritablement 'mobile-first' sans le travail manuel de la gestion traditionnelle des actifs."
+        },
+        "story": {
+            "title": "Le Viewport Infini : Pourquoi les Images Responsives sont le Fondement de l'UX Moderne",
+            "p1": "Pour comprendre l'utilité de notre outil, vous devez comprendre le 'Gaspillage de Données'. Si vous affichez une image à 300 pixels de large sur un téléphone, mais que le fichier que vous envoyez fait 2000 pixels de large, vous envoyez environ 40 fois plus de données que nécessaire. Ce 'sur-service' est la principale cause des taux de rebond élevés sur les appareils mobiles. Notre générateur crée les 'Breakpoints' — les largeurs spécifiques où l'image change de taille — garantissant que chaque utilisateur obtient 'juste assez' de pixels pour paraître parfait, et pas un seul octet de plus.",
+            "p2": "Le facteur de 'Densité' est une autre couche critique. Les téléphones modernes ont des écrans 'Retina' ou 'High-DPI' qui nécessitent deux fois plus de détails qu'un moniteur standard. Si vous ne fournissez qu'une version 'petite' pour mobile, votre site aura l'air flou sur les téléphones haut de gamme. Notre outil vous aide à générer des versions @2x et @3x si nécessaire, créant une liste complète d'actifs qui garantit que votre marque paraisse 'pixel-perfect' qu'elle soit sur une tablette bon marché ou un smartphone phare.",
+            "p3": "Les attributs `srcset` et `sizes` sont la 'logique' des images responsives. Les écrire à la main est notoirement difficile et sujet aux erreurs. Vous devez spécifier la largeur de chaque image en unités 'w' et ensuite dire au navigateur combien du viewport l'image occupera à l'aide de requêtes médias. Notre outil génère cette chaîne HTML complexe pour vous automatiquement. Vous copiez et collez simplement le code, et vos images deviennent instantanément 'conscientes du navigateur', répondant dynamiquement à l'environnement de l'utilisateur sans une ligne supplémentaire de JavaScript.",
+            "p4": "Le SEO de performance est le dernier avantage caché. L'indexation 'mobile-first' de Google accorde une grande importance à la vitesse de la page. En utilisant des images responsives pour réduire votre charge mobile de 70 à 90 %, vous signalez aux moteurs de recherche que votre site est techniquement supérieur et optimisé pour tous les utilisateurs. C'est l'une des 'victoires rapides' de SEO technique les plus efficaces disponibles, et notre outil rend cela aussi facile qu'un simple téléchargement.",
+            "p5": "L'intégration du flux de travail est là où nous aidons les équipes professionnelles. Si vos designers remettent des exports Photoshop massifs de 10 Mo, vos développeurs ne devraient pas avoir à enregistrer manuellement dix versions différentes. Ils peuvent simplement passer le fichier maître dans notre générateur. C'est un processus standardisé et répétable qui garantit que chaque image de votre site suit les mêmes règles de haute performance, peu importe qui l'a créée ou quand elle a été téléchargée.",
+            "p6": "Pourquoi utiliser notre outil en ligne au lieu d'un plugin d'étape de construction ? De nombreux outils d'étape de construction comme Webpack ou Gulp sont des 'boîtes noires' difficiles à configurer. Notre outil vous donne un aperçu visuel. Vous pouvez voir la taille des fichiers de chaque breakpoint avant de les télécharger. Vous avez le contrôle pour ajouter ou supprimer des largeurs spécifiques en fonction de la mise en page unique de votre projet. C'est un 'Outil de Précision' pour les développeurs qui veulent comprendre et contrôler leur pipeline d'actifs.",
+            "p7": "Architecture d'actifs responsifs basée sur la confiance. Servir la bonne image ne devrait pas signifier télécharger vos actifs propriétaires sur un serveur de scraping de données. Parce que notre Générateur d'Images Responsives utilise la puissance locale du moteur de rendu de votre navigateur (Canvas et blobs locaux), vos fichiers ne sont pas stockés sur nos machines. Le redimensionnement et la génération de code se produisent sur votre appareil, garantissant que votre photographie de haute valeur et vos actifs d'interface utilisateur restent votre propriété privée du début à la fin.",
+            "p8": "En conclusion, le Générateur d'Images Responsives concerne l'inclusivité. Il s'agit de s'assurer que votre message atteint chaque utilisateur, peu importe sa technologie ou son emplacement. Utilisez notre outil pour construire un Web plus rapide, plus net et plus professionnel, et offrez à chacun de vos visiteurs une expérience visuelle parfaitement optimisée. C'est la pièce finale du puzzle de la performance moderne."
+        },
+        "features": {
+            "title": "Utilitaires Professionnels pour la Gestion d'Images Multi-Appareils",
+            "f1_title": "Redimensionnement Automatique Multi-Breakpoint",
+            "f1_desc": "Générez jusqu'à cinq versions différentes de votre image en un seul passage, ciblant les largeurs standard mobiles, tablettes et de bureau avec une précision médicale.",
+            "f2_title": "Générateur HTML Srcset Intelligent",
+            "f2_desc": "Obtenez un HTML copiable-collable qui inclut les attributs `srcset` et `sizes`, correctement mappés à vos noms de fichiers générés pour une mise en œuvre instantanée.",
+            "f3_title": "Logique de Rééchantillonnage de Haute Qualité",
+            "f3_desc": "Utilise des algorithmes d'interpolation avancés pour garantir que vos images redimensionnées restent nettes et claires, évitant le 'flou' du redimensionnement de navigateur de mauvaise qualité.",
+            "f4_title": "Créateur de Paquet d'Actifs",
+            "f4_desc": "Téléchargez toutes vos versions redimensionnées dans un seul dossier organisé. Nous gérons automatiquement les conventions de nommage (ex : image-mobile.jpg, image-desktop.jpg).",
+            "f5_title": "Logique de Code Consciente du Viewport",
+            "f5_desc": "Le code généré inclut des indices responsifs qui aident le navigateur à décider quelle image télécharger avant même que le CSS principal ait fini de charger.",
+            "f6_title": "Génération d'Actifs Sécurisée sur l'Appareil",
+            "f6_desc": "Le redimensionnement et la génération de code se produisent entièrement dans votre bac à sable de navigateur local. Vos fichiers source haute résolution ne sont jamais téléchargés ou stockés sur nos serveurs."
+        },
+        "how_to": {
+            "title": "Maîtriser l'Échelle : Comment Créer des Images Responsives",
+            "step1_title": "Téléchargez le Maître Global",
+            "step1_desc": "Sélectionnez votre version de la photo à la plus haute résolution (ex : 4000px de large). Cela fournit les meilleures données pour créer les plus petits breakpoints.",
+            "step2_title": "Définissez Vos Largeurs Cibles",
+            "step2_desc": "Choisissez les breakpoints qui correspondent à votre CSS. Les valeurs standard comme 480px, 768px, 1200px et 1920px couvrent la grande majorité des appareils.",
+            "step3_title": "Traitement par Lot des Actifs",
+            "step3_desc": "Cliquez sur le bouton générer. Notre moteur créera les fichiers individuels pour chaque largeur tout en construisant simultanément le bloc de code HTML.",
+            "step4_title": "Téléchargez l'Archive Zip",
+            "step4_desc": "Récupérez tous vos nouveaux fichiers image optimisés. Téléchargez-les dans le même dossier sur votre serveur où se trouvait votre image originale.",
+            "step5_title": "Intégrez le Code Srcset",
+            "step5_desc": "Copiez l'extrait de code généré. Collez-le dans votre HTML ou CMS, en remplaçant vos anciennes balises statiques `<img>` ou `<picture>`.",
+            "step6_title": "Testez sur Différents Appareils",
+            "step6_desc": "Ouvrez votre site sur un téléphone et un ordinateur de bureau. Utilisez l'inspecteur du navigateur pour vérifier que le navigateur choisit bien le fichier plus petit pour l'écran plus petit."
+        },
+        "faq": {
+            "title": "Maîtrise Responsive : FAQ Stratégie d'Image Adaptative",
+            "q1": "Pourquoi ne pas simplement utiliser 'width: 100%' en CSS ?",
+            "a1": "'Width: 100%' fait en sorte qu'une image s'adapte visuellement à l'écran, mais cela oblige toujours le téléphone à télécharger la même taille de fichier 'énorme' qu'un ordinateur de bureau.",
+            "q2": "Qu'est-ce que l'unité 'w' dans srcset ?",
+            "a2": "L'unité 'w' indique au navigateur la largeur physique de l'image en pixels. Elle aide le navigateur à faire le calcul pour savoir quel fichier télécharger.",
+            "q3": "Ai-je besoin de la balise <picture> ou juste <img> avec srcset ?",
+            "a3": "Pour la plupart des images responsives (redimensionnement pour la largeur), `<img>` avec `srcset` est le meilleur. Utilisez `<picture>` si vous avez besoin de 'Direction Artistique' (des recadrages différents pour des écrans différents).",
+            "q4": "Mes images chargeront-elles deux fois si j'utilise srcset ?",
+            "a4": "Non. Le navigateur est très intelligent — il analyse le `srcset` et la largeur de l'écran *avant* de commencer tout téléchargement, ne choisissant que le seul meilleur fichier.",
+            "q5": "Y a-t-il une limite sur la résolution du fichier ?",
+            "a5": "Nous pouvons traiter des fichiers maîtres jusqu'à 20-25 Mo, ce qui convient aux exports DSLR professionnels et à la photographie 4K.",
+            "q6": "Cet outil fonctionne-t-il avec WebP ?",
+            "a6": "Oui ! Nous recommandons d'utiliser WebP pour vos actifs responsifs afin d'obtenir le plus grand avantage de vitesse possible pour vos visiteurs mobiles.",
+            "q7": "Combien de breakpoints devrais-je utiliser ?",
+            "a7": "Trois à quatre suffisent généralement (Mobile, Tablette, Bureau, Large). En ajouter plus crée des rendements décroissants et plus d'actifs à gérer.",
+            "q8": "Puis-je utiliser cela pour des images d'arrière-plan ?",
+            "a8": "Les images d'arrière-plan responsives utilisent des requêtes média CSS. Notre outil est optimisé pour le balisage HTML standard et plus efficace `<img>`.",
+            "q9": "Ce générateur est-il gratuit pour les agences ?",
+            "a9": "Oui ! Notre outil d'image responsive est gratuit pour tout le monde, sans limite sur le nombre d'images que vous pouvez optimiser par jour.",
+            "q10": "Mes images sont-elles à l'abri d'être stockées ?",
+            "a10": "Absolument. Le redimensionnement se produit localement dans la mémoire de votre navigateur. Vos actifs n'atteignent jamais nos serveurs, garantissant une sécurité de la propriété intellectuelle à 100 %."
+        }
+    },
+    "js": {
+        "error_conversion": "Erreur lors de la conversion de l'image : "
+    }
+}

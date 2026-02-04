@@ -1,0 +1,98 @@
+{
+    "meta": {
+        "title": "Générateur de Feuilles de Sprites - Créer des Sprites CSS en ligne",
+        "h1": "Générateur de Feuilles de Sprites",
+        "subtitle": "Combinez plusieurs images en une seule feuille de sprites et générez du code CSS.",
+        "desc": "Combinez plusieurs images en une seule feuille de sprites et générez du code CSS automatiquement. Réduisez les requêtes HTTP et optimisez les performances du site Web."
+    },
+    "input": {
+        "title": "Générer une Feuille de Sprites CSS",
+        "desc": "Téléchargez plusieurs icônes ou images pour les empaqueter dans un seul fichier.",
+        "drop_title": "Glissez et déposez les images ici",
+        "drop_desc": "ou cliquez pour télécharger plusieurs fichiers"
+    },
+    "settings": {
+        "title": "Paramètres du Générateur"
+    },
+    "result": {
+        "title": "Feuille de Sprites Générée",
+        "css_title": "Copier le Code CSS",
+        "btn_download": "Télécharger la Feuille de Sprites"
+    },
+    "content": {
+        "intro": {
+            "title": "L'Art de l'Efficacité : Maîtriser le Générateur de Feuilles de Sprites CSS",
+            "subtitle": "Boostez les performances de votre site Web en consolidant des dizaines d'images en un seul actif haute vitesse.",
+            "p1": "Dans le monde du développement Web haute performance, chaque milliseconde compte. L'un des goulots d'étranglement les plus courants pour la vitesse de chargement des pages n'est pas seulement la 'taille' de vos images, mais le 'nombre' de requêtes que le navigateur doit faire pour les récupérer. Si votre site a vingt icônes, cela fait vingt requêtes HTTP individuelles, vingt poignées de main avec le serveur et vingt retards potentiels. Notre Générateur de Feuilles de Sprites est conçu pour résoudre ce problème en empaquetant tous vos petits actifs dans un seul fichier image — une technique connue sous le nom de CSS Spriting.",
+            "p2": "Une 'Feuille de Sprites' est essentiellement une grille de plusieurs images combinées en un seul grand 'atlas'. Pour afficher une icône spécifique, vous utilisez CSS pour définir la feuille de sprites comme arrière-plan, puis utilisez les coordonnées de 'décalage' pour n'afficher que la partie de la feuille dont vous avez besoin. Cela réduit la surcharge de votre serveur de vingt requêtes à une seule. Notre outil automatise les mathématiques fastidieuses impliquées dans ce processus, générant à la fois l'image de sprite optimisée et le code CSS précis dont vous avez besoin pour la mettre en œuvre en quelques secondes.",
+            "p3": "Que vous construisiez une application d'entreprise massive avec des centaines d'icônes d'interface utilisateur, un jeu mobile avec des animations de personnages ou un blog personnel avec des boutons de médias sociaux personnalisés, notre générateur en ligne offre une solution de qualité professionnelle. Nous privilégions l'efficacité de l'emballage et la facilité de mise en œuvre, vous aidant à créer un code plus propre et des sites Web plus rapides, entièrement gratuitement et sans aucun outil CLI complexe."
+        },
+        "story": {
+            "title": "Lisser le Chargement de la Page : Pourquoi les Feuilles de Sprites sont le Meilleur Ami du Développeur",
+            "p1": "Pour comprendre pourquoi les feuilles de sprites fonctionnent, vous devez regarder la 'Performance Perçue' d'un site Web. Lorsqu'un navigateur charge une page, il demande des images en parallèle. Cependant, la plupart des navigateurs ont une limite sur le nombre de connexions simultanées qu'ils peuvent ouvrir vers un seul domaine (généralement six). Si vous avez soixante petites icônes, le navigateur doit les mettre en file d'attente par lots, ce qui entraîne l'effet de 'pop-in' où les icônes apparaissent une par une. En utilisant une seule feuille de sprites, vous contournez entièrement cette file d'attente. La feuille se charge une fois, et chaque icône est prête instantanément.",
+            "p2": "Le 'Problème de l'Empaquetage' est le cœur mathématique de notre outil. Si vous placez simplement des images au hasard, vous vous retrouvez avec beaucoup 'd'espace mort' (pixels transparents vides), ce qui rend le fichier plus grand qu'il ne devrait l'être. Notre générateur utilise un algorithme d'empaquetage intelligent qui analyse les dimensions de chaque image téléchargée et les organise dans une grille serrée avec un minimum de remplissage. Cela garantit que votre requête unique est aussi petite et efficace que possible, maximisant le gain de performance de la technique.",
+            "p3": "CSS Background Position est la baguette magique qui fait tout fonctionner. Pour chaque icône de votre feuille, notre outil calcule les coordonnées X et Y exactes (en pixels) de son coin supérieur gauche. Nous générons ensuite une classe CSS qui définit la position de l'arrière-plan sur ces valeurs. Au lieu d'écrire 'background-image: icon1.png', vous appliquez simplement une classe comme `.icon-home`. Notre outil génère toutes ces classes pour vous, afin que vous puissiez les copier et les coller directement dans votre feuille de style.",
+            "p4": "L'Animation et le Développement de Jeux sont d'autres cas d'utilisation énormes pour les feuilles de sprites. Si vous créez un personnage qui marche ou saute, vous devez échanger des 'cadres' d'animation très rapidement. Charger des fichiers séparés pour chaque cadre provoquerait un scintillement car le navigateur essaie de rattraper son retard. Une feuille de sprites met chaque cadre de l'animation dans une seule bande, permettant un échange de cadres fluide et sans latence. C'est la norme pour les moteurs de jeux 2D et les animations basées sur le Web.",
+            "p5": "Le support Retina et High-DPI est également plus facile avec les sprites. Au lieu de maintenir deux versions de chaque icône (standard et @2x), vous n'avez qu'à maintenir deux versions de la feuille de sprites. Cela simplifie la gestion de vos actifs et garantit que votre interface utilisateur semble nette et professionnelle sur chaque écran, des ordinateurs portables bon marché aux derniers smartphones haut de gamme.",
+            "p6": "Pourquoi les Développeurs Professionnels Choisissent Notre Générateur. Le spritage manuel dans Photoshop ou Figma est incroyablement fastidieux. Vous devez créer une grille, aligner les pixels parfaitement, puis enregistrer manuellement les coordonnées pour chaque élément unique. Si vous ajoutez une nouvelle icône, vous devez souvent tout refaire. Notre générateur fait de cela un processus de mise à jour 'en un clic'. Téléchargez votre nouveau lot et obtenez une feuille fraîche et un CSS frais en un instant.",
+            "p7": "La Sécurité et le Flux de Travail sont essentiels. Nous comprenons que vos icônes et actifs d'interface utilisateur sont la 'sauce secrète' de votre conception. Parce que notre Générateur de Feuilles de Sprites fonctionne localement dans votre navigateur, vos actifs ne sont pas stockés sur nos serveurs. Les mathématiques 'd'empaquetage' se produisent sur votre appareil, et vous téléchargez le résultat directement. C'est une partie sécurisée, privée et instantanée de votre pipeline de développement professionnel.",
+            "p8": "En conclusion, le Générateur de Feuilles de Sprites concerne plus que de simples images ; il s'agit d'architecture de site. Il s'agit d'être un développeur plus intelligent qui comprend comment le Web fonctionne réellement. Utilisez notre outil pour consolider vos actifs, réduire la charge de votre serveur et offrir à vos utilisateurs l'expérience la plus rapide et la plus fluide possible. C'est le secret technique d'un frontend de qualité professionnelle."
+        },
+        "features": {
+            "title": "Utilitaires Haute Efficacité pour l'Optimisation Frontend",
+            "f1_title": "Génération Automatique de Coordonnées",
+            "f1_desc": "Nous faisons les calculs pour que vous n'ayez pas à le faire. Obtenez instantanément des coordonnées X et Y précises pour chaque image individuelle dans votre feuille de sprites consolidée.",
+            "f2_title": "Algorithme d'Empaquetage Smart-Grid",
+            "f2_desc": "Notre moteur organise intelligemment les images de différentes tailles dans la grille la plus efficace possible, minimisant l'espace vide et réduisant la taille finale du fichier.",
+            "f3_title": "Classes CSS Prêtes à l'Emploi",
+            "f3_desc": "Génère un bloc CSS propre et copiable-collable avec des classes individuelles pour chaque actif, y compris les propriétés de position d'arrière-plan et de dimension.",
+            "f4_title": "Modes de Mise en Page Personnalisables",
+            "f4_desc": "Choisissez entre des bandes Verticales, des bandes Horizontales ou le mode 'Grille' le plus efficace en fonction des besoins de l'architecture spécifique de votre projet.",
+            "f5_title": "Contrôle du Remplissage et de l'Espacement",
+            "f5_desc": "Ajoutez un espacement personnalisé entre les sprites pour éviter le 'saignement de pixels' — où des parties de l'icône adjacente apparaissent accidentellement dans votre interface utilisateur.",
+            "f6_title": "Protection du Traitement de la Mémoire Locale",
+            "f6_desc": "Vos actifs d'interface utilisateur sont votre propriété. Tout l'empaquetage et la génération de code se produisent directement dans votre navigateur, garantissant qu'aucune donnée ne quitte jamais votre appareil."
+        },
+        "how_to": {
+            "title": "Un Guide des Actifs Haute Vitesse : Comment Utiliser le Générateur",
+            "step1_title": "Collectez Vos Petits Actifs",
+            "step1_desc": "Rassemblez toutes les petites icônes, boutons ou cadres d'une animation que vous souhaitez combiner. Assurez-vous qu'ils sont dans un format de haute qualité comme PNG.",
+            "step2_title": "Téléchargement par Lot vers l'Outil",
+            "step2_desc": "Sélectionnez tous les fichiers à la fois et téléchargez-les. L'outil créera immédiatement un aperçu visuel de la façon dont ils peuvent être empaquetés ensemble.",
+            "step3_title": "Configurez l'Optimisation",
+            "step3_desc": "Ajustez le 'Remplissage' si vous craignez que les bords n'apparaissent sur les écrans retina, ou choisissez une disposition 'Verticale' si vous construisez un menu latéral ou une bande de film.",
+            "step4_title": "Vérifiez l'Aperçu du Sprite",
+            "step4_desc": "Vérifiez la feuille générée. Assurez-vous que chaque élément est visible et que la grille est serrée et efficace sans espace perdu.",
+            "step5_title": "Téléchargez l'Image Atlas",
+            "step5_desc": "Cliquez sur le bouton 'Télécharger la Feuille de Sprites' pour enregistrer le fichier image consolidé dans le dossier d'actifs de votre projet.",
+            "step6_title": "Implémentez le Code CSS",
+            "step6_desc": "Copiez le bloc CSS généré et collez-le dans vos styles. Utilisez les noms de classe individuels sur vos éléments HTML pour afficher les icônes."
+        },
+        "faq": {
+            "title": "Maîtrise de la Feuille de Sprites : Secrets de Création d'Actifs de Jeu",
+            "q1": "Les feuilles de sprites sont-elles toujours pertinentes avec HTTP/2 ?",
+            "a1": "Oui ! Bien que HTTP/2 gère mieux les requêtes multiples, les feuilles de sprites sont toujours plus rapides car elles réduisent la quantité totale de métadonnées et la surcharge de compression.",
+            "q2": "Que se passe-t-il si j'ai des images de tailles différentes ?",
+            "a2": "Notre algorithme de grille intelligente est conçu pour cela ! Il organisera vos images de toutes formes et tailles dans le rectangle le plus compact possible.",
+            "q3": "Dois-je utiliser JPG ou PNG pour ma feuille de sprites ?",
+            "a3": "Nous recommandons fortement le PNG. Il gère mieux les 'bords nets' des icônes et prend en charge la transparence, ce qui est essentiel pour la plupart des travaux d'interface utilisateur Web.",
+            "q4": "Y a-t-il une limite au nombre d'images que je peux inclure ?",
+            "a4": "Techniquement, non. Cependant, nous recommandons de s'en tenir à environ 50-100 images par feuille pour éviter que les dimensions du fichier ne deviennent trop grandes.",
+            "q5": "Qu'est-ce que le 'Saignement de Pixels' ?",
+            "a5": "Cela se produit lorsque le rendu sous-pixel montre un éclat de l'image suivante dans la feuille. Ajoutez 1-2 pixels de 'Remplissage' dans notre outil pour éviter cela.",
+            "q6": "Cet outil prend-il en charge le SVG ?",
+            "a6": "Cet outil est pour les sprites raster (PNG/JPG). Pour les SVG, vous devriez utiliser une approche 'SVG Sprite' qui est gérée différemment dans les navigateurs modernes.",
+            "q7": "Comment mettre à jour une feuille de sprites plus tard ?",
+            "a7": "Il suffit de re-télécharger les icônes originales plus la nouvelle. Notre outil vous donnera une nouvelle feuille et un nouveau CSS en quelques secondes.",
+            "q8": "Cet outil est-il gratuit pour les développeurs de jeux ?",
+            "a8": "Oui ! Que vous fassiez un site Web ou un jeu mobile, notre générateur est 100 % gratuit sans restrictions commerciales.",
+            "q9": "Les navigateurs peuvent-ils mettre en cache les feuilles de sprites ?",
+            "a9": "Oui ! C'est l'un des plus grands avantages. Le navigateur n'a besoin de mettre en cache qu'un seul fichier pour avoir chaque icône prête pour toutes les pages de votre site.",
+            "q10": "Mes données d'icônes propriétaires sont-elles en sécurité ?",
+            "a10": "Absolument. Parce que vos fichiers sont traités localement dans votre navigateur, vos conceptions ne sont jamais téléchargées, stockées ou consultées par notre système."
+        }
+    },
+    "js": {
+        "error_conversion": "Erreur lors de la conversion de l'image : "
+    }
+}

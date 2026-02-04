@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "title": "Generador de Carga Diferida de Imagen - Crear Marcadores de Posición LQIP",
+        "h1": "Generador de Carga Diferida de Imagen",
+        "subtitle": "Genera marcadores de posición de imagen ligeros y código de implementación de carga diferida.",
+        "desc": "Genera marcadores de posición de imagen de baja calidad (LQIP) y código de carga diferida para las imágenes de tu sitio web. Mejora la velocidad de la página y el SEO."
+    },
+    "input": {
+        "title": "Generar Código de Carga Diferida",
+        "desc": "Sube una imagen para generar un marcador de posición ligero y código de implementación.",
+        "drop_title": "Arrastra y suelta la imagen aquí",
+        "drop_desc": "o haz clic para subir"
+    },
+    "settings": {
+        "title": "Configuración del Generador"
+    },
+    "result": {
+        "title": "Código de Implementación",
+        "html_title": "Fragmento HTML",
+        "css_title": "Estilos CSS",
+        "js_title": "Lógica JavaScript",
+        "btn_download": "Copiar Todo el Código"
+    },
+    "content": {
+        "intro": {
+            "title": "Velocidad Sin Compromiso: Dominando el Generador de Carga Diferida de Imagen",
+            "subtitle": "Optimiza tus Core Web Vitals y deleita a tus usuarios con técnicas modernas de carga diferida.",
+            "p1": "En la carrera por una puntuación perfecta de Google PageSpeed, las imágenes son a menudo tu mayor obstáculo. Un sitio web moderno de alta definición puede requerir fácilmente varios megabytes de datos solo para mostrar la sección principal y la galería. Si un navegador intenta cargar todas estas imágenes a la vez, crea un atasco masivo que retrasa la representación de tu texto y elementos interactivos. Nuestro Generador de Carga Diferida de Imagen es la solución profesional para este cuello de botella, permitiéndote implementar 'Carga Inteligente' que solo obtiene imágenes a medida que el usuario las desplaza hacia la vista.",
+            "p2": "El secreto de una gran experiencia de carga diferida no es solo 'retrasar' la carga; es proporcionar un 'Marcador de Posición' de alta calidad. En lugar de mostrar un cuadro blanco vacío discordante, nuestra herramienta genera un Marcador de Posición de Imagen de Baja Calidad (LQIP). Esta es una versión ultra pequeña y borrosa de tu foto original codificada en base64. Debido a que el marcador de posición es pequeño (a menudo menos de 1 KB), se carga al instante, dando a tus usuarios una hermosa vista previa 'latente' mientas el original de alta resolución se descarga silenciosamente en segundo plano.",
+            "p3": "Ya seas un desarrollador web tratando de llegar a 100 en Lighthouse, un usuario de WordPress que quiere optimizar una página de destino, o un dueño de tienda con un catálogo pesado en imágenes, nuestro generador en línea ofrece un flujo de trabajo automatizado y listo para código. Nos encargamos del procesamiento de imágenes y la compleja implementación de JavaScript, dejándote con un fragmento simple de copiar y pegar que transformará el rendimiento de tu sitio y la clasificación SEO."
+        },
+        "story": {
+            "title": "Rendimiento Percibido: Por qué la Carga Diferida es Esencial para el SEO Moderno",
+            "p1": "Para comprender el impacto de la carga diferida, debemos mirar los 'Core Web Vitals', específicamente 'Largest Contentful Paint' (LCP). Google mide qué tan rápido aparece el elemento visual más grande en tu pantalla. Si tienes muchas imágenes cargando simultáneamente, compiten por el ancho de banda, ralentizando el LCP. Al usar nuestro generador de carga diferida, priorizas la ventana gráfica. El navegador ignora las imágenes debajo del pliegue y enfoca todo su poder en lo que el usuario está mirando realmente, resultando en una puntuación LCP significativamente más rápida.",
+            "p2": "La Técnica LQIP (Marcador de Posición de Imagen de Baja Calidad) es donde brilla nuestra herramienta. La carga diferida tradicional a menudo causa un diseño 'saltarín' cuando las imágenes finalmente aparecen. Nuestra herramienta resuelve esto creando un marcador de posición que tiene exactamente la misma relación de aspecto que el original. Este 'Cuadro de Relación de Aspecto' reserva el espacio en la página, evitando cambios de diseño (CLS) y proporcionando una sensación suave y de alta gama que imita el estilo de carga de plataformas importantes como Medium, Pinterest e Instagram.",
+            "p3": "La Codificación Base64 es el mecanismo que usamos para la velocidad. En lugar de que el navegador tenga que hacer una nueva solicitud de red para el marcador de posición, incrustamos los datos del marcador de posición directamente en el código HTML. Estos datos 'en línea' son analizados instantáneamente por el navegador. Es la solución definitiva de 'latencia cero' para vistas previas de imágenes. Nuestro generador crea estas cadenas base64 automáticamente a partir de tus cargas de alta resolución, asegurando que estén optimizadas para el recuento de bytes más pequeño posible.",
+            "p4": "La API Intersection Observer es el motor JavaScript moderno detrás de nuestros fragmentos de código. En los viejos tiempos, la carga diferida requería bibliotecas pesadas o eventos de 'desplazamiento' torpes que ralentizaban el navegador. Nuestro código generado utiliza el Intersection Observer nativo, que es una característica del navegador de alto rendimiento diseñada específicamente para detectar cuando un elemento entra en la pantalla de un usuario. Es ligero, estandarizado y funciona perfectamente en todos los navegadores móviles y de escritorio modernos.",
+            "p5": "La Mejora Progresiva es una parte clave de nuestra filosofía. No solo te damos un script; te damos un patrón de implementación robusto. Nuestro código incluye un respaldo 'noscript', asegurando que los usuarios con JavaScript deshabilitado aún vean tus imágenes. También incluye transiciones CSS para desvanecer suavemente la imagen de alta resolución sobre el marcador de posición una vez que llega, creando un efecto de 'zoom' o 'desvanecimiento' pulido y profesional que mejora la experiencia del usuario de tu sitio.",
+            "p6": "La Ventaja Tecnológica de Nuestro Generador. Escribir lógica de carga diferida personalizada para cada imagen en una página es increíblemente lento y propenso a errores. Tienes que crear las miniaturas pequeñas, codificarlas, construir la estructura HTML y mantener el JS. Nuestra herramienta maneja las tres dimensiones del problema en una sola pasada. Subes el archivo, eliges tu nivel de desenfoque y obtienes un bloque de código listo para producción que 'simplemente funciona'.",
+            "p7": "La Seguridad y el Rendimiento van de la mano. Los activos de tu sitio y los diseños de interfaz de usuario permanecen dentro del entorno de pruebas local de tu navegador. Debido a que la generación del LQIP y la construcción del código ocurren a través de JavaScript local en nuestra página, tus imágenes no se cargan en un servidor remoto para su almacenamiento permanente. Obtienes la velocidad de una herramienta CDN profesional con la privacidad de un script local.",
+            "p8": "En conclusión, el Generador de Carga Diferida de Imagen trata sobre el respeto por los datos y el tiempo del usuario. Se trata de construir una web mejor que sea rápida para todos, independientemente de su velocidad de conexión. Utiliza nuestra herramienta para optimizar tus imágenes, aumentar tu SEO y crear una experiencia de carga sofisticada que haga que tu sitio web se destaque como una plataforma de alto rendimiento."
+        },
+        "features": {
+            "title": "Utilidades Expertas para la Optimización de Rendimiento Full-Stack",
+            "f1_title": "Generador LQIP Automatizado",
+            "f1_desc": "Crea instantáneamente versiones de resolución ultra baja codificadas en base64 de tus imágenes para servir como marcadores de posición instantáneos de latencia cero.",
+            "f2_title": "Lógica de Intersection Observer",
+            "f2_desc": "Genera JavaScript vainilla moderno y ligero que utiliza la API nativa del navegador para activar la carga de imágenes solo cuando es necesario, minimizando el uso de la CPU.",
+            "f3_title": "Preservación de Relación de Aspecto",
+            "f3_desc": "Calcula e incluye código de cuadro de relación de aspecto intrínseco para evitar el 'Cambio de Diseño Acumulativo' (CLS) y asegurar una carga de página estable y profesional.",
+            "f4_title": "Intensidad de Desenfoque Personalizada",
+            "f4_desc": "Controla la estética de tus marcadores de posición. Elige desde un desenfoque sutil hasta un lavado artístico pesado para que coincida con el lenguaje de diseño de tu sitio.",
+            "f5_title": "Respaldos Modernos y Heredados",
+            "f5_desc": "Incluye atributos estandarizados 'loading=lazy' junto con observadores JS personalizados y etiquetas 'noscript' para máxima compatibilidad entre navegadores.",
+            "f6_title": "Lógica Local Sin Carga",
+            "f6_desc": "Todo el procesamiento de imágenes y la codificación de cadenas ocurre directamente en tu navegador. No se almacenan ni registran datos en nuestros servidores, asegurando total privacidad de activos."
+        },
+        "how_to": {
+            "title": "Domina la Carga: Cómo Implementar Carga Diferida",
+            "step1_title": "Sube el Activo de Alta Resolución",
+            "step2_desc": "Suelta la imagen original que deseas optimizar en la herramienta. Debe ser la versión final lista para la web del archivo.",
+            "step2_title": "Configura el Estilo del Marcador de Posición",
+            "step3_desc": "Elige tu nivel de 'Desenfoque' preferido. Un desenfoque más alto crea un marcador de posición más suave y abstracto que funciona bien para imágenes de héroe grandes.",
+            "step3_title": "Genera el Bloque de Código",
+            "step4_desc": "La herramienta generará instantáneamente tres secciones: HTML para la etiqueta de imagen, CSS para el efecto de desvanecimiento y JS para la detección de desplazamiento.",
+            "step4_title": "Integra en tu Página",
+            "step5_desc": "Reemplaza tus etiquetas `<img>` estándar con nuestro HTML generado. Añade el CSS proporcionado a tu hoja de estilo y el JS a tu pie de página.",
+            "step5_title": "Verifica Rutas Data-Src",
+            "step6_desc": "Asegúrate de que el atributo `data-src` en nuestro código apunte a la ubicación real de tu archivo de imagen en tu servidor o CDN.",
+            "step6_title": "Confirma y Prueba",
+            "step1_desc": "Actualiza tu sitio. Deberías ver aparecer el marcador de posición borroso instantáneamente y luego desvanecerse suavemente en la imagen completa a medida que te desplazas."
+        },
+        "faq": {
+            "title": "Base de Conocimiento de Carga Diferida: FAQ de Optimización de Carga Diferida",
+            "q1": "¿Cuál es el beneficio de usar Base64 para marcadores de posición?",
+            "a1": "Base64 permite que el pequeño marcador de posición se cargue dentro del HTML mismo, lo que significa cero solicitudes de red adicionales y un tiempo de aparición 'instantáneo'.",
+            "q2": "¿La carga diferida dañará mi SEO?",
+            "a2": "No. De hecho, ¡ayuda! El rastreador de Google ahora es muy bueno leyendo imágenes de carga diferida, y el aumento de rendimiento mejorará tu clasificación.",
+            "q3": "¿Funciona esta herramienta con WordPress?",
+            "a3": "Sí. Puedes usar nuestro código en bloques 'HTML Personalizado' o complementos de fragmentos de código para optimizar manualmente páginas de destino de alto tráfico.",
+            "q4": "¿Cuál es la diferencia entre esto y 'loading=lazy'?",
+            "a4": "El nativo 'loading=lazy' es simple pero no proporciona marcador de posición. Nuestra herramienta añade el LQIP y el efecto de desvanecimiento para una sensación mucho más profesional.",
+            "q5": "¿El código requiere alguna biblioteca como jQuery?",
+            "a5": "No. Nuestro código generado es 100% JavaScript vainilla, lo que lo hace ligero y a prueba de futuro con cero dependencias externas.",
+            "q6": "¿Es esta herramienta gratuita para desarrolladores?",
+            "a6": "¡Sí! Nuestro generador es 100% gratuito tanto para proyectos personales como comerciales, desde pequeños blogs hasta aplicaciones empresariales.",
+            "q7": "¿Cómo sé que el marcador de posición es lo suficientemente pequeño?",
+            "a7": "Apuntamos a un tamaño máximo de 1 KB por marcador de posición. La mayoría son en realidad alrededor de 500 bytes, que es menos que unas pocas oraciones de texto.",
+            "q8": "¿Es la generación de código responsive lista para móviles?",
+            "a8": "Sí. Intersection Observer es compatible con Safari, Chrome y Firefox en todos los dispositivos móviles modernos (iOS y Android).",
+            "q9": "¿Es este generador adecuado para propiedades background-image de CSS?",
+            "a9": "Esta versión es específicamente para etiquetas `<img>`. Para imágenes de fondo, los principios son similares pero el código de implementación es diferente.",
+            "q10": "¿Cómo mantengo mis imágenes de origen privadas?",
+            "a10": "Dado que nuestra herramienta procesa todo localmente en tu navegador vía JS, tus datos de fuente de resolución completa nunca salen de tu computadora."
+        }
+    },
+    "js": {
+        "error_conversion": "Error al convertir la imagen: "
+    }
+}

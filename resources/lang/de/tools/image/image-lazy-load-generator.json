@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "title": "Bild Lazy-Load Generator - LQIP-Platzhalter erstellen",
+        "h1": "Bild Lazy-Load Generator",
+        "subtitle": "Generieren Sie leichte Bildplatzhalter und Lazy-Loading-Implementierungscode.",
+        "desc": "Generieren Sie Platzhalterbilder mit niedriger Qualität (LQIP) und Lazy-Loading-Code für Ihre Website-Bilder. Verbessern Sie Seitengeschwindigkeit und SEO."
+    },
+    "input": {
+        "title": "Lazy Load Code generieren",
+        "desc": "Laden Sie ein Bild hoch, um einen leichten Platzhalter und Implementierungscode zu generieren.",
+        "drop_title": "Bild hier ablegen",
+        "drop_desc": "oder klicken zum Hochladen"
+    },
+    "settings": {
+        "title": "Generator-Einstellungen"
+    },
+    "result": {
+        "title": "Implementierungscode",
+        "html_title": "HTML-Snippet",
+        "css_title": "CSS-Stile",
+        "js_title": "JavaScript-Logik",
+        "btn_download": "Diesen Code kopieren"
+    },
+    "content": {
+        "intro": {
+            "title": "Geschwindigkeit ohne Kompromisse: Den Bild Lazy-Load Generator meistern",
+            "subtitle": "Optimieren Sie Ihre Core Web Vitals und begeistern Sie Ihre Nutzer mit modernen Lazy-Loading-Techniken.",
+            "p1": "Im Rennen um einen perfekten Google PageSpeed-Score sind Bilder oft Ihre größte Hürde. Eine moderne, hochauflösende Website kann leicht mehrere Megabyte an Daten erfordern, nur um den Hero-Bereich und die Galerie anzuzeigen. Wenn ein Browser versucht, alle diese Bilder auf einmal zu laden, entsteht ein massiver Stau, der das Rendern Ihrer Text- und interaktiven Elemente verzögert. Unser Bild Lazy-Load Generator ist die professionelle Lösung für diesen Flaschenhals, mit der Sie 'Smart Loading' implementieren können, das Bilder erst abruft, wenn der Benutzer sie in den Sichtbereich scrollt.",
+            "p2": "Das Geheimnis eines großartigen Lazy-Loading-Erlebnisses ist nicht nur das 'Verzögern' des Ladens; es ist die Bereitstellung eines hochwertigen 'Platzhalters'. Anstatt eine störende leere weiße Box anzuzeigen, generiert unser Tool einen Platzhalter mit niedriger Qualität (LQIP). Dies ist eine ultrakleine, unscharfe Version Ihres Originalfotos, die in Base64 codiert ist. Da der Platzhalter winzig ist (oft weniger als 1 KB), wird er sofort geladen und gibt Ihren Benutzern eine schöne, 'pulsierende' Vorschau, während das hochauflösende Original im Hintergrund lautlos heruntergeladen wird.",
+            "p3": "Egal, ob Sie ein Webentwickler sind, der versucht, 100 auf Lighthouse zu erreichen, ein WordPress-Benutzer, der eine Landingpage individuell optimieren möchte, oder ein Ladenbesitzer mit einem bildlastigen Katalog, unser Online-Generator bietet einen automatisierten, code-bereiten Workflow. Wir kümmern uns um die Bildverarbeitung und die komplexe JavaScript-Implementierung und überlassen Ihnen ein einfaches Copy-Paste-Snippet, das die Leistung und das SEO-Ranking Ihrer Website transformiert."
+        },
+        "story": {
+            "title": "Wahrgenommene Leistung: Warum Lazy Loading für modernes SEO unerlässlich ist",
+            "p1": "Um die Auswirkungen von Lazy Loading zu verstehen, müssen wir uns die 'Core Web Vitals' ansehen, insbesondere 'Largest Contentful Paint' (LCP). Google misst, wie schnell das größte visuelle Element auf Ihrem Bildschirm erscheint. Wenn Sie viele Bilder gleichzeitig laden, konkurrieren sie um Bandbreite und verlangsamen das LCP. Durch die Verwendung unseres Lazy-Load-Generators priorisieren Sie den Ansichtsbereich (Viewport). Der Browser ignoriert Bilder 'below the fold' und konzentriert seine ganze Kraft auf das, was der Benutzer tatsächlich ansieht, was zu einem deutlich schnelleren LCP-Score führt.",
+            "p2": "Die LQIP-Technik (Low Quality Image Placeholder) ist dort, wo unser Tool glänzt. Traditionelles Lazy Loading verursacht oft ein 'springendes' Layout, wenn Bilder endlich auftauchen. Unser Tool löst dies, indem es einen Platzhalter erstellt, der genau das gleiche Seitenverhältnis wie das Original hat. Diese 'Seitenverhältnis-Box' reserviert den Platz auf der Seite, verhindert Layout-Verschiebungen (CLS) und bietet ein glattes, hochwertiges Gefühl, das den Ladestil großer Plattformen wie Medium, Pinterest und Instagram nachahmt.",
+            "p3": "Base64-Codierung ist der Mechanismus, den wir für Geschwindigkeit verwenden. Anstatt dass der Browser eine neue Netzwerkanforderung für den Platzhalter stellen muss, betten wir die Platzhalterdaten direkt in den HTML-Code ein. Diese 'Inline'-Daten werden vom Browser sofort geparst. Es ist die ultimative 'Null-Latenz'-Lösung für Bildvorschauen. Unser Generator erstellt diese Base64-Strings automatisch aus Ihren hochauflösenden Uploads und stellt sicher, dass sie für die kleinstmögliche Byteanzahl optimiert sind.",
+            "p4": "Die Intersection Observer API ist die moderne JavaScript-Engine hinter unseren Code-Snippets. Früher erforderte Lazy Loading schwere Bibliotheken oder klobige 'Scroll'-Ereignisse, die den Browser verlangsamten. Unser generierter Code verwendet den nativen Intersection Observer, eine Hochleistungs-Browserfunktion, die speziell entwickelt wurde, um zu erkennen, wenn ein Element den Bildschirm eines Benutzers betritt. Er ist leichtgewichtig, standardisiert und funktioniert perfekt in allen modernen mobilen und Desktop-Browsern.",
+            "p5": "Progressive Verbesserung ist ein zentraler Bestandteil unserer Philosophie. Wir geben Ihnen nicht nur ein Skript; wir geben Ihnen ein robustes Implementierungsmuster. Unser Code enthält einen 'noscript'-Fallback, der sicherstellt, dass Benutzer mit deaktiviertem JavaScript Ihre Bilder trotzdem sehen können. Er enthält auch CSS-Übergänge, um das hochauflösende Bild sanft über den Platzhalter zu blenden, sobald es ankommt, wodurch ein polierter, professioneller 'Zoom'- oder 'Fade'-Effekt entsteht, der das Benutzererlebnis Ihrer Website verbessert.",
+            "p6": "Der technologische Vorsprung unseres Generators: Das Schreiben benutzerdefinierter Lazy-Loading-Logik für jedes Bild auf einer Seite ist unglaublich zeitaufwändig und fehleranfällig. Sie müssen die kleinen Thumbnails erstellen, sie codieren, die HTML-Struktur erstellen und das JS pflegen. Unser Tool bewältigt alle drei Dimensionen des Problems in einem Durchgang. Sie laden die Datei hoch, wählen Ihren Unschärfegrad und erhalten einen produktionsbereiten Codeblock, der 'einfach funktioniert'.",
+            "p7": "Sicherheit und Leistung gehen Hand in Hand. Ihre Site-Assets und UI-Designs bleiben in der lokalen Sandbox Ihres Browsers. Da die Generierung des LQIP und die Codekonstruktion über lokales JavaScript auf unserer Seite erfolgen, werden Ihre Bilder nicht zur dauerhaften Speicherung auf einen entfernten Server hochgeladen. Sie erhalten die Geschwindigkeit eines professionellen CDN-Tools mit der Privatsphäre eines lokalen Skripts.",
+            "p8": "Zusammenfassend geht es beim Bild Lazy-Load Generator um Respekt für die Daten und Zeit des Benutzers. Es geht darum, ein besseres Web zu bauen, das für alle schnell ist, unabhängig von ihrer Verbindungsgeschwindigkeit. Nutzen Sie unser Tool, um Ihre Visuals zu optimieren, Ihr SEO zu steigern und ein ausgefeiltes Ladeerlebnis zu schaffen, das Ihre Website als Hochleistungsplattform hervorhebt."
+        },
+        "features": {
+            "title": "Experten-Dienstprogramme für Full-Stack-Leistungsoptimierung",
+            "f1_title": "Automatisierter LQIP-Generator",
+            "f1_desc": "Erstellt sofort ultra-niedrig aufgelöste, Base64-codierte Versionen Ihrer Bilder, die als sofortige Null-Latenz-Platzhalter dienen.",
+            "f2_title": "Intersection Observer Logik",
+            "f2_desc": "Generiert schlankes, modernes Vanilla-JavaScript, das die native API des Browsers verwendet, um das Laden von Bildern nur bei Bedarf auszulösen und die CPU-Auslastung zu minimieren.",
+            "f3_title": "Erhalt des Seitenverhältnisses",
+            "f3_desc": "Berechnet und fügt intrinsischen Seitenverhältnis-Box-Code ein, um 'Cumulative Layout Shift' (CLS) zu verhindern und ein stabiles, professionelles Laden der Seite zu gewährleisten.",
+            "f4_title": "Benutzerdefinierte Unschärfeintensität",
+            "f4_desc": "Steuern Sie die Ästhetik Ihrer Platzhalter. Wählen Sie von einer subtilen Unschärfe bis zu einem starken, künstlerischen Wash, um der Designsprache Ihrer Website zu entsprechen.",
+            "f5_title": "Moderne & Legacy-Fallbacks",
+            "f5_desc": "Enthält standardisierte 'loading=lazy'-Attribute zusammen mit benutzerdefinierten JS-gesteuerten Observers und 'noscript'-Tags für maximale browserübergreifende Kompatibilität.",
+            "f6_title": "Null-Upload lokale Logik",
+            "f6_desc": "Die gesamte Bildverarbeitung und String-Codierung erfolgt direkt in Ihrem Browser. Es werden keine Daten auf unseren Servern gespeichert oder protokolliert, was absolute Asset-Privatsphäre gewährleistet."
+        },
+        "how_to": {
+            "title": "Meistere das Laden: So implementieren Sie Lazy Loading",
+            "step1_title": "Laden Sie das High-Res-Asset hoch",
+            "step2_desc": "Legen Sie das Originalbild, das Sie optimieren möchten, in das Tool. Es sollte die endgültige, webbereite Version der Datei sein.",
+            "step2_title": "Platzhalterstil konfigurieren",
+            "step3_desc": "Wählen Sie Ihren bevorzugten 'Unschärfe'-Grad. Eine stärkere Unschärfe erzeugt einen weicheren, abstrakteren Platzhalter, der gut für große Hero-Images funktioniert.",
+            "step3_title": "Generieren Sie den Codeblock",
+            "step4_desc": "Das Tool generiert sofort drei Abschnitte: HTML für das Image-Tag, CSS für den Fade-Effekt und JS für die Scroll-Erkennung.",
+            "step4_title": "In Ihre Seite integrieren",
+            "step5_desc": "Ersetzen Sie Ihre Standard-`<img>`-Tags durch unser generiertes HTML. Fügen Sie das bereitgestellte CSS zu Ihrem Stylesheet und das JS zu Ihrer Fußzeile hinzu.",
+            "step5_title": "Data-Src-Pfade überprüfen",
+            "step6_desc": "Stellen Sie sicher, dass das `data-src`-Attribut in unserem Code auf den tatsächlichen Speicherort Ihrer Bilddatei auf Ihrem Server oder CDN verweist.",
+            "step6_title": "Bestätigen und Testen",
+            "step1_desc": "Aktualisieren Sie Ihre Website. Sie sollten sehen, wie der unscharfe Platzhalter sofort erscheint und dann sanft in das volle Bild überblendet, während Sie scrollen."
+        },
+        "faq": {
+            "title": "Lazy Loading Wissensdatenbank: FAQ zur Lazy-Loading-Optimierung",
+            "q1": "Was ist der Vorteil der Verwendung von Base64 für Platzhalter?",
+            "a1": "Base64 ermöglicht es, den winzigen Platzhalter innerhalb des HTML selbst zu laden, was null zusätzliche Netzwerkanforderungen und eine 'sofortige' Erscheinungszeit bedeutet.",
+            "q2": "Wird Lazy Loading meinem SEO schaden?",
+            "a2": "Nein. Tatsächlich hilft es! Der Crawler von Google ist jetzt sehr gut darin, Lazy-Loaded-Bilder zu lesen, und der Leistungsschub wird Ihr Ranking verbessern.",
+            "q3": "Funktioniert dieses Tool mit WordPress?",
+            "a3": "Ja. Sie können unseren Code in 'Benutzerdefiniertes HTML'-Blöcken oder Code-Snippet-Plugins verwenden, um stark frequentierte Landingpages manuell zu optimieren.",
+            "q4": "Was ist der Unterschied zwischen diesem und 'loading=lazy'?",
+            "a4": "Natives 'loading=lazy' ist einfach, bietet aber keinen Platzhalter. Unser Tool fügt den LQIP und den Fade-In-Effekt für ein viel professionelleres Gefühl hinzu.",
+            "q5": "Erfordert der Code Bibliotheken wie jQuery?",
+            "a5": "Nein. Unser generierter Code ist 100% Vanilla-JavaScript, was ihn leichtgewichtig und zukunftssicher ohne externe Abhängigkeiten macht.",
+            "q6": "Ist dieses Tool für Entwickler kostenlos?",
+            "a6": "Ja! Unser Generator ist zu 100% kostenlos für persönliche und kommerzielle Projekte, von kleinen Blogs bis hin zu Unternehmens-Apps.",
+            "q7": "Woher weiß ich, dass der Platzhalter klein genug ist?",
+            "a7": "Wir zielen auf eine maximale Größe von 1 KB pro Platzhalter ab. Die meisten sind tatsächlich etwa 500 Byte groß, was weniger als ein paar Sätze Text ist.",
+            "q8": "Ist die responsive Codegenerierung mobilbereit?",
+            "a8": "Ja. Intersection Observer wird von Safari, Chrome und Firefox auf allen modernen mobilen Geräten (iOS und Android) unterstützt.",
+            "q9": "Ist dieser Generator für CSS-background-image-Eigenschaften geeignet?",
+            "a9": "Diese Version ist speziell für `<img>`-Tags. Für Hintergrundbilder sind die Prinzipien ähnlich, aber der Implementierungscode ist anders.",
+            "q10": "Wie halte ich meine Quellbilder privat?",
+            "a10": "Da unser Tool alles lokal in Ihrem Browser über JS verarbeitet, verlassen Ihre Daten in voller Auflösung niemals Ihren Computer."
+        }
+    },
+    "js": {
+        "error_conversion": "Fehler beim Konvertieren des Bildes: "
+    }
+}

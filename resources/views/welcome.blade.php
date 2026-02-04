@@ -543,7 +543,7 @@
                 </a>
 
                 <!-- Internet Speed Test -->
-                <a href="{{ route('utility.speed-test') }}"
+                <a href="{{ route('network.internet-speed-test') }}"
                     class="group bg-white rounded-2xl p-6 shadow-lg border-2 border-teal-200 hover:border-teal-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                     <div class="flex items-center gap-4 mb-4">
                         <div
