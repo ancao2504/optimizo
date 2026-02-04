@@ -247,18 +247,4 @@
             </section>
         @endif
     </div>
-@else
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center border-2 border-dashed border-red-300 bg-red-50 rounded-xl mt-16">
-        <h3 class="text-lg font-bold text-red-700">Content Not Found (Debug Mode)</h3>
-        <p class="text-red-600">
-            Slug: {{ $slug }}<br>
-            V2 Detected: {{ $hasV2Content ? 'YES' : 'NO' }}<br>
-            V1 Detected: {{ $hasV1Content ? 'YES' : 'NO' }}
-        </p>
-        <div class="mt-4 text-left bg-white p-4 rounded border border-red-200 text-xs font-mono overflow-auto max-h-48">
-            <strong>Check Details:</strong><br>
-            V1 Title: {{ __tool($slug, 'content.title', 'NULL') }}<br>
-            V1 P1: {{ __tool($slug, 'content.p1', 'NULL') }}
-        </div>
-    </div>
 @endif
