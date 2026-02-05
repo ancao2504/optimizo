@@ -36,9 +36,20 @@ class PngToHeicConverterController extends Controller
             $inputPath = $file->getRealPath();
             $outputPath = $storagePath . '/' . $newFilename;
 
-            // Execute magick command
+            // Determine which command to use
+            $binary = 'magick';
+
+            // Check if magick exists and is runnable
+            $processCheck = new Process(['magick', '-version']);
+            $processCheck->run();
+
+            if (!$processCheck->isSuccessful()) {
+                $binary = 'convert';
+            }
+
+            // Execute magick/convert command
             // magick input.png output.heic
-            $command = ['magick', $inputPath, $outputPath];
+            $command = [$binary, $inputPath, $outputPath];
 
             $process = new Process($command);
             $process->setTimeout(60);
@@ -46,6 +57,13 @@ class PngToHeicConverterController extends Controller
 
             if (!$process->isSuccessful()) {
                 throw new ProcessFailedException($process);
+            }
+
+            if (!file_exists($outputPath) || filesize($outputPath) === 0) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Conversion failed: Output file not created or empty.'
+                ], 500);
             }
 
             return response()->json([

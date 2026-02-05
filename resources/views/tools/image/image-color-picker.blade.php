@@ -165,6 +165,10 @@
             }
 
             img.onload = () => {
+                // Show editor first so we can get valid dimensions
+                dropZone.classList.add('hidden');
+                editorArea.classList.remove('hidden');
+
                 const maxWidth = editorArea.clientWidth * 0.65;
                 let width = img.width;
                 let height = img.height;
@@ -177,9 +181,6 @@
                 canvas.width = width;
                 canvas.height = height;
                 ctx.drawImage(img, 0, 0, width, height);
-
-                dropZone.classList.add('hidden');
-                editorArea.classList.remove('hidden');
             };
 
             canvas.addEventListener('mousemove', (e) => {

@@ -40,8 +40,19 @@ class ImageMetadataRemoverController extends Controller
             mkdir($storagePath, 0755, true);
         }
 
+        // Determine which command to use
+        $binary = 'magick';
+
+        // Check if magick exists and is runnable
+        $processCheck = new Process(['magick', '-version']);
+        $processCheck->run();
+
+        if (!$processCheck->isSuccessful()) {
+            $binary = 'convert';
+        }
+
         // Use ImageMagick 'magick' command with '-strip' to remove all profiles and comments
-        $command = ['magick', $inputPath, '-strip', $outputPath];
+        $command = [$binary, $inputPath, '-strip', $outputPath];
 
         $process = new Process($command);
         $process->setTimeout(60);
@@ -49,6 +60,13 @@ class ImageMetadataRemoverController extends Controller
 
         if (!$process->isSuccessful()) {
             throw new ProcessFailedException($process);
+        }
+
+        if (!file_exists($outputPath) || filesize($outputPath) === 0) {
+            return response()->json([
+                'download_url' => null, // Or handle error appropriately
+                'message' => 'Processing failed: Output file not created or empty.'
+            ], 500);
         }
 
         return response()->json([

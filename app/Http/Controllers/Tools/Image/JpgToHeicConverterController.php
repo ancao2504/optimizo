@@ -37,9 +37,23 @@ class JpgToHeicConverterController extends Controller
             $inputPath = $file->getRealPath();
             $outputPath = $storagePath . '/' . $newFilename;
 
-            // Execute magick command
+            // Determine which command to use
+            $binary = 'magick';
+
+            // Check if magick exists and is runnable
+            $processCheck = new Process(['magick', '-version']);
+            $processCheck->run();
+
+            if (!$processCheck->isSuccessful()) {
+                // Determine if we should fallback to convert, primarily for Linux environments
+                // On Windows, 'convert' is often a system tool, so be careful.
+                // However, on the Linux server where magick is missing, this is the intended path.
+                $binary = 'convert';
+            }
+
+            // Execute magick/convert command
             // magick input.jpg output.heic
-            $command = ['magick', $inputPath, $outputPath];
+            $command = [$binary, $inputPath, $outputPath];
 
             $process = new Process($command);
             $process->setTimeout(60);
@@ -47,6 +61,13 @@ class JpgToHeicConverterController extends Controller
 
             if (!$process->isSuccessful()) {
                 throw new ProcessFailedException($process);
+            }
+
+            if (!file_exists($outputPath) || filesize($outputPath) === 0) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Conversion failed: Output file not created or empty.'
+                ], 500);
             }
 
             return response()->json([
