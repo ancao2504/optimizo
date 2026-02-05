@@ -76,7 +76,7 @@ class CategoryController extends Controller
         $category = \App\Models\Category::where('slug', $slug)->firstOrFail();
 
         // Fetch all active tools for this category
-        $tools = $category->tools()->active()->ordered()->get();
+        $tools = $category->tools()->active()->orderBy('name', 'asc')->get();
 
         return view('categories.index', compact('category', 'tools'));
     }
