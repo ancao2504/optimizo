@@ -49,6 +49,19 @@
                 "Single-File Apps: When you need to bundle everything into one HTML file (e.g., email templates).",
                 "Offline Access: Ensures images load even without a network connection if the HTML is saved locally."
             ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "q1": "What is Base64 encoding?",
+            "a1": "Base64 is a way to represent binary data (like images) using only printable text characters. This allows you to embed images directly into code files.",
+            "q2": "Will this increase the file size?",
+            "a2": "Yes, Base64 encoding typically increases the file size by about 33%. It is recommended only for small images (icons, logos) to avoid performance issues.",
+            "q3": "Which browsers support Data URIs?",
+            "a3": "Data URIs are supported by all modern browsers (Chrome, Firefox, Safari, Edge) and IE8+.",
+            "q4": "Is it secure?",
+            "a4": "Yes, the conversion happens entirely in your browser. Your images are never uploaded to our servers.",
+            "q5": "Can I convert large images?",
+            "a5": "Technically yes, but it's not recommended. Large Base64 strings can bloat your HTML/CSS and slow down page rendering."
         }
     },
     "js": {
