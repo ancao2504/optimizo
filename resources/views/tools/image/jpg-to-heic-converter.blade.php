@@ -13,7 +13,7 @@
                 :title="__tool('jpg-to-heic-converter', 'input.drop_title')" :subtitle="__tool('jpg-to-heic-converter', 'input.drop_desc')" />
 
             <!-- Loading State -->
-            <div id="loadingIndicator" class="hidden py-12 text-center">
+            <div id="loadingIndicator" class="hidden relative border-2 border-dashed border-indigo-200 rounded-3xl p-10 md:p-16 text-center bg-white shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
                 <div class="inline-flex items-center justify-center w-16 h-16 bg-indigo-50 rounded-full mb-6 relative">
                     <div class="absolute inset-0 rounded-full border-4 border-indigo-100"></div>
                     <div class="absolute inset-0 rounded-full border-4 border-indigo-500 border-t-transparent animate-spin">
@@ -32,12 +32,7 @@
 
             <!-- Result Area -->
             <div id="resultArea" class="hidden py-12 text-center max-w-lg mx-auto">
-                <div
-                    class="bg-gradient-to-br from-indigo-50 to-white rounded-3xl p-10 border border-indigo-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] relative overflow-hidden">
-                    <div
-                        class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-indigo-100 rounded-full opacity-50 blur-2xl">
-                    </div>
-
+                <div class="relative border-2 border-dashed border-indigo-200 rounded-3xl p-10 md:p-16 text-center bg-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden">
                     <div
                         class="w-20 h-20 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-sm relative z-10">
                         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
