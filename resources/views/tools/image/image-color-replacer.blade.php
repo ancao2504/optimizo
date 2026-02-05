@@ -226,20 +226,25 @@
             }
 
             img.onload = () => {
-                const maxWidth = editorArea.clientWidth * 0.65;
+                dropZone.classList.add('hidden');
+                editorArea.classList.remove('hidden');
+
+                const containerWidth = editorArea.clientWidth;
+                // Fallback if container is 0
+                const maxWidth = (containerWidth > 0 ? containerWidth : window.innerWidth) * 0.65;
+                
                 let width = img.width;
                 let height = img.height;
                 if (width > maxWidth) {
                     height = (maxWidth / width) * height;
                     width = maxWidth;
                 }
-                canvas.width = width;
-                canvas.height = height;
+                
+                canvas.width = Math.max(1, Math.floor(width));
+                canvas.height = Math.max(1, Math.floor(height));
+                
                 ctx.drawImage(img, 0, 0, width, height);
                 originalImageData = ctx.getImageData(0, 0, width, height);
-
-                dropZone.classList.add('hidden');
-                editorArea.classList.remove('hidden');
             };
 
             // Pick color logic
