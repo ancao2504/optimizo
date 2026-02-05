@@ -208,7 +208,13 @@
             }
 
             originalImg.onload = () => {
-                const maxWidth = editorArea.clientWidth * 0.65;
+                dropZone.classList.add('hidden');
+                editorArea.classList.remove('hidden');
+
+                const containerWidth = editorArea.clientWidth; 
+                // Fallback to window width if container is somehow still 0 (shouldn't happen if visible)
+                const maxWidth = (containerWidth > 0 ? containerWidth : window.innerWidth) * 0.65;
+                
                 let width = originalImg.width;
                 let height = originalImg.height;
 
@@ -217,11 +223,11 @@
                     width = maxWidth;
                 }
 
-                canvas.width = width;
-                canvas.height = height;
+                // Ensure positive integers for canvas dimensions
+                canvas.width = Math.max(1, Math.floor(width));
+                canvas.height = Math.max(1, Math.floor(height));
+                
                 applyEffects();
-                dropZone.classList.add('hidden');
-                editorArea.classList.remove('hidden');
             };
 
             function updatePreview() {
