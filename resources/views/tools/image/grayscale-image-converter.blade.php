@@ -7,8 +7,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <x-tool-hero :tool="$tool" />
 
-        <x-tool-ui-card :title="__tool('grayscale-image-converter', 'input.title')"
-            :description="__tool('grayscale-image-converter', 'input.desc')">
+
             <!-- Upload Area -->
             <x-file-dropzone id="dropZone" inputId="imageInput" accept="image/*" :title="__tool('grayscale-image-converter', 'input.drop_title')" :subtitle="__tool('grayscale-image-converter', 'input.drop_desc')" />
 
@@ -63,31 +62,10 @@
                     </button>
                 </div>
             </div>
-        </x-tool-ui-card>
+
 
         <div class="space-y-32 mt-24 font-sans mb-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- Intro Section -->
-            <section class="max-w-5xl mx-auto text-center relative">
-                <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,rgba(200,200,200,0.15)_0%,rgba(255,255,255,0)_70%)] blur-3xl"></div>
-                
-                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gray-50 border border-gray-100 shadow-sm mb-10 transition-transform hover:scale-105 cursor-default">
-                    <span class="relative flex h-2 w-2">
-                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-400 opacity-75"></span>
-                      <span class="relative inline-flex rounded-full h-2 w-2 bg-gray-500"></span>
-                    </span>
-                    <span class="text-xs font-bold tracking-wide uppercase text-gray-700">Photo Effects</span>
-                </div>
 
-                <h2 class="text-5xl md:text-7xl font-black text-gray-900 mb-8 tracking-tight leading-[1.1] drop-shadow-sm">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-700 to-gray-800">
-                        {{ __tool('grayscale-image-converter', 'content.intro.title') ?: 'Convert to Grayscale' }}
-                    </span>
-                </h2>
-                
-                <p class="text-xl md:text-2xl text-gray-600 mb-14 leading-relaxed font-light max-w-3xl mx-auto">
-                    {{ __tool('grayscale-image-converter', 'content.intro.subtitle') }}
-                </p>
-            </section>
 
             <!-- Features Grid -->
             <section class="relative">
