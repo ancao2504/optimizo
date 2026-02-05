@@ -23,27 +23,24 @@
         "p1": "開発者やウェブデザイナーは、HTTPリクエストを減らすために画像をHTMLやCSSファイルに直接埋め込むことがよくあります。",
         "p2": "当ツールの<strong>画像-Base64変換ツール<\/strong>は、画像ファイルをバイナリデータを表す長い文字列にエンコードします。この文字列をコードに直接貼り付けることができます。",
         "features": {
-            "clipboard": {
-                "title": "コピーが簡単",
-                "desc": "ワンクリックでコピー可能。HTML（`&lt;img src=\"...\"&gt;`）やCSS（`background: url(...)`）形式で出力します。"
-            },
-            "requests": {
-                "title": "リクエスト削減",
-                "desc": "小さなアイコンやロゴをBase64として埋め込むことで、外部画像ファイル取得のためのネットワークオーバーヘッドを排除できます。"
-            },
-            "formats": {
-                "title": "全形式対応",
-                "desc": "PNG, JPG, GIF, WEBP, SVGだけでなく、ICOファイルにも対応しています。"
-            }
+            "title": "Key Features",
+            "f1_title": "Clipboard Ready",
+            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
+            "f2_title": "Reduce Requests",
+            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
+            "f3_title": "Any Format",
+            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
         },
         "how_to": {
             "title": "使い方は？",
-            "list": [
-                "画像ファイルを選択します。",
-                "ツールが即座にファイルをData URI形式に変換します。",
-                "「クリップボードにコピー」をクリックしてコードを取得します。",
-                "HTMLの`src`属性やCSSファイルに挿入します。"
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Select your image file.",
+            "step2_title": "Step 2",
+            "step2_desc": "The tool immediately converts the file to a Data URI.",
+            "step3_title": "Step 3",
+            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
+            "step4_title": "Step 4",
+            "step4_desc": "Insert it into your `src` attribute or CSS file."
         },
         "use_cases": {
             "title": "Base64を使うべき時は？",

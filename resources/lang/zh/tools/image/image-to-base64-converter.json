@@ -23,27 +23,24 @@
         "p1": "开发者和网页设计师经常需要将小型图片直接嵌入到 HTML 或 CSS 文件中，以减少额外的 HTTP 请求并提升页面加载速度。",
         "p2": "我们的 <strong>图片转 Base64 转换器<\/strong> 会将您的图片文件编码为一段代表二进制数据的长文本字符串。您可以直接将此字符串粘贴到代码中引用图片。",
         "features": {
-            "clipboard": {
-                "title": "一键复制",
-                "desc": "支持一键复制到剪贴板。我们提供了标准的 Data URI 格式，可直接用于 `&lt;img src=\"...\"&gt;` 或 CSS `url(...)`。"
-            },
-            "requests": {
-                "title": "减少 HTTP 请求",
-                "desc": "将小图标和 Logo 嵌入为 Base64 可以减少网络开销，无需单独加载外部图片资源。"
-            },
-            "formats": {
-                "title": "全格式支持",
-                "desc": "适用于 PNG、JPG、GIF、WEBP、SVG 甚至 ICO 图标文件。"
-            }
+            "title": "Key Features",
+            "f1_title": "Clipboard Ready",
+            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
+            "f2_title": "Reduce Requests",
+            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
+            "f3_title": "Any Format",
+            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
         },
         "how_to": {
             "title": "如何使用？",
-            "list": [
-                "在该工具中选择或上传您的图片文件。",
-                "工具会立即通过本地算法将其转换为 Data URI 编码。",
-                "点击“复制到剪贴板”按钮获取生成的代码。",
-                "将其粘贴到 HTML 的 `src` 属性或 CSS 的配置文件中。"
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Select your image file.",
+            "step2_title": "Step 2",
+            "step2_desc": "The tool immediately converts the file to a Data URI.",
+            "step3_title": "Step 3",
+            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
+            "step4_title": "Step 4",
+            "step4_desc": "Insert it into your `src` attribute or CSS file."
         },
         "use_cases": {
             "title": "什么时候该使用 Base64？",

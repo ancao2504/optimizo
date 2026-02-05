@@ -23,27 +23,24 @@
         "p1": "Vývojáři a weboví designéři často potřebují vložit obrázky přímo do souborů HTML nebo CSS, aby snížili počet požadavků HTTP.",
         "p2": "Náš <strong>převodník obrázků na Base64<\/strong> zakóduje váš soubor obrázku do dlouhého řetězce znaků, který reprezentuje binární data. Tento řetězec můžete vložit přímo do svého kódu.",
         "features": {
-            "clipboard": {
-                "title": "Připraveno ke zkopírování",
-                "desc": "Kopírování jedním kliknutím. Výstup formátujeme pro HTML (`&lt;img src=\"...\"&gt;`) nebo CSS (`background: url(...)`)."
-            },
-            "requests": {
-                "title": "Snížení počtu požadavků",
-                "desc": "Vkládání malých ikon a log jako Base64 eliminuje režii sítě spojenou s načítáním externích obrázkových souborů."
-            },
-            "formats": {
-                "title": "Jakýkoli formát",
-                "desc": "Funguje se soubory PNG, JPG, GIF, WEBP, SVG a dokonce i ICO."
-            }
+            "title": "Key Features",
+            "f1_title": "Clipboard Ready",
+            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
+            "f2_title": "Reduce Requests",
+            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
+            "f3_title": "Any Format",
+            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
         },
         "how_to": {
             "title": "Jak na to?",
-            "list": [
-                "Vyberte soubor obrázku.",
-                "Nástroj soubor okamžitě převede na Data URI.",
-                "Klikněte na „Kopírovat do schránky“ pro získání kódu.",
-                "Vložte jej do atributu `src` nebo souboru CSS."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Select your image file.",
+            "step2_title": "Step 2",
+            "step2_desc": "The tool immediately converts the file to a Data URI.",
+            "step3_title": "Step 3",
+            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
+            "step4_title": "Step 4",
+            "step4_desc": "Insert it into your `src` attribute or CSS file."
         },
         "use_cases": {
             "title": "Kdy použít Base64?",

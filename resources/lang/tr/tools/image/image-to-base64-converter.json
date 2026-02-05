@@ -23,27 +23,24 @@
         "p1": "Geliştiriciler ve web tasarımcıları, HTTP isteklerini azaltmak için genellikle görüntüleri doğrudan HTML veya CSS dosyalarına gömmeye ihtiyaç duyarlar.",
         "p2": "<strong>Görüntüden Base64'e Dönüştürücümüz<\/strong>, görüntü dosyanızı ikili verileri temsil eden uzun bir karakter dizisine kodlar. Bu dizeyi doğrudan kodunuza yapıştırabilirsiniz.",
         "features": {
-            "clipboard": {
-                "title": "Panoya Hazır",
-                "desc": "Tek tıklamayla kopyalayın. Çıktıyı HTML (`&lt;img src=\"...\"&gt;`) veya CSS (`background: url(...)`) için formatlıyoruz."
-            },
-            "requests": {
-                "title": "İstekleri Azaltın",
-                "desc": "Küçük simgeleri ve logoları Base64 olarak gömmek, harici görüntü dosyalarını çekmenin ağ yükünü ortadan kaldırır."
-            },
-            "formats": {
-                "title": "Herhangi Bir Format",
-                "desc": "PNG, JPG, GIF, WEBP, SVG ve hatta ICO dosyalarıyla çalışır."
-            }
+            "title": "Key Features",
+            "f1_title": "Clipboard Ready",
+            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
+            "f2_title": "Reduce Requests",
+            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
+            "f3_title": "Any Format",
+            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
         },
         "how_to": {
             "title": "Nasıl Kullanılır?",
-            "list": [
-                "Görüntü dosyanızı seçin.",
-                "Araç, dosyayı anında bir Veri URI'sine (Data URI) dönüştürür.",
-                "Kodu almak için \"Panoya Kopyala\"ya tıklayın.",
-                "Onu `src` özniteliğinize veya CSS dosyanıza yerleştirin."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Select your image file.",
+            "step2_title": "Step 2",
+            "step2_desc": "The tool immediately converts the file to a Data URI.",
+            "step3_title": "Step 3",
+            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
+            "step4_title": "Step 4",
+            "step4_desc": "Insert it into your `src` attribute or CSS file."
         },
         "use_cases": {
             "title": "Ne Zaman Base64 Kullanılmalı?",

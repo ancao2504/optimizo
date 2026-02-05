@@ -1,67 +1,95 @@
 {
     "meta": {
-        "title": "WebP to JPG Converter - Free Online Image Converter",
-        "description": "Convert WebP images to JPG format instantly in your browser. Fast, free, and secure conversion.",
-        "h1": "WebP to JPG Converter",
-        "subtitle": "Transform WebP images into universally compatible JPGs."
+        "title": "WebP 转 JPG 转换器 - 批量 & 无损转换",
+        "description": "立即将 WebP 转换为 JPG。我们的免费工具解决了兼容性问题。",
+        "h1": "WebP 转 JPG 转换器",
+        "subtitle": "立即将现代 WebP 文件转换为兼容的 JPG 图片。"
     },
     "input": {
-        "title": "Convert WebP to JPG",
-        "desc": "Upload your WebP images and convert them to standard JPG files instantly.",
-        "drop_title": "Drag & Drop WebP file here",
-        "drop_desc": "or click to browse photos"
+        "title": "上传 WebP",
+        "desc": "拖放 .webp 文件到这里",
+        "drop_title": "把文件拖到这里",
+        "drop_desc": "支持 WebP，动态 WebP（静态输出） - 最大 10MB"
     },
     "editor": {
-        "image_alt": "Preview",
-        "note": "Note:",
-        "note_text": "Transparent backgrounds (common in WEBP) will be verified to white.",
-        "output_format": "Output Format:",
-        "btn_convert": "Convert to JPG & Download"
+        "image_alt": "WebP 预览",
+        "note": "透明度：",
+        "note_text": "JPG 不支持透明度。透明区域将填充为白色。",
+        "output_format": "输出格式：",
+        "btn_convert": "转换为 JPG 并下载"
     },
     "content": {
-        "title": "将 WebP 转换为 JPG 以获得更佳兼容性",
-        "p1": "虽然 WebP 是未来的主流格式，但许多基于本地的编辑器、甚至一些较旧的社交平台和办公软件仍然无法原生支持它。我们的 <strong>WebP 转 JPG 转换器<\/strong> 帮您解决此类兼容性阻碍。",
-        "p2": "我们的工具通过高质量的重采样技术，在保障画质的前提下，将新时代的 WebP 编码还原为无处不在的 standard JPEG 格式，让您的图片通行互联网。",
+        "intro": {
+            "title": "WebP 与 JPG 兼容性困境",
+            "p1": "WebP 是现代网络图片标准。但这种效率带来了问题。许多旧系统难以打开 WebP。",
+            "p2": "我们的 **WebP 转 JPG 转换器** 弥补了这一差距。立即将您的 WebP 资产转换为通用的 JPEG 格式。",
+            "p3": "我们的工具专为质量设计，执行深度解码。保留颜色配置。"
+        },
         "features": {
-            "universal": {
-                "title": "全球通行兼容",
-                "desc": "JPG 格式可被市面上几乎所有的数字设备和操作系统完美识别。"
-            },
-            "secure": {
-                "title": "隐私保护专家",
-                "desc": "转换引擎驻留在您的设备本地。您的图片不会被发送至云端处理，捍卫您的数字隐私。"
-            },
-            "smart": {
-                "title": "智能背景处理",
-                "desc": "自动检测 WebP 中的透明像素并用干净的白色背景填充它们。"
-            }
+            "title": "主要功能",
+            "f1_title": "高质量",
+            "f1_desc": "高级编码保持视觉保真度。",
+            "f2_title": "100% 隐私",
+            "f2_desc": "处理在浏览器中进行。",
+            "f3_title": "智能背景",
+            "f3_desc": "自动用白色填充透明度。",
+            "f4_title": "批量处理",
+            "f4_desc": "一次转换多张图片。",
+            "f5_title": "跨平台",
+            "f5_desc": "适用于所有设备。",
+            "f6_title": "保留元数据",
+            "f6_desc": "保留 EXIF 数据。"
         },
         "how_to": {
-            "title": "操作指南",
-            "list": [
-                "点击选框或将 WebP 图片拖入页面。",
-                "工具将显示图片的实时预览。",
-                "点击“转换为 JPG”按钮。系统将自动处理透明度和压缩。",
-                "您的新 .jpg 文件将立即下载。"
-            ]
+            "title": "如何使用",
+            "step1_title": "选择文件",
+            "step1_desc": "将文件拖入浏览器。",
+            "step2_title": "检查预览",
+            "step2_desc": "确认文件已准备好。",
+            "step3_title": "开始转换",
+            "step3_desc": "点击 '转换为 JPG'。",
+            "step4_title": "下载结果",
+            "step4_desc": "立即保存 jpg 文件。"
         },
-        "why": {
-            "title": "为什么转换 WebP？",
-            "list": [
-                "编辑软件：许多桌面端编辑器（如旧版 Photoshop）原生并不支持 WebP。",
-                "电子邮件：Outlook 等邮件客户端可能无法正确渲染嵌入的 WebP 图片。",
-                "冲印打印：照片冲印店通常只接受标准的 JPG 或 TIFF 文件。"
-            ]
+        "story": {
+            "title": "为什么兼容性很重要",
+            "p1": "访问需求推动了向 JPG 的转换。",
+            "sub_1": {
+                "title": "软件的'围墙花园'",
+                "p1": "桌面系统接受 WebP 较慢。JPG 总是有效的。",
+                "p2": "社交媒体通常需要 JPG。"
+            },
+            "sub_2": {
+                "title": "Alpha 通道冲突",
+                "p1": "我们用白色背景解决黑色徽标问题。",
+                "sub_3": {
+                    "title": "夺回控制权",
+                    "p1": "随处使用您的图片。"
+                }
+            }
         },
         "faq": {
-            "title": "常见问题解答",
-            "q1": "透明背景会怎么样？",
-            "a1": "由于 JPG 不支持透明度，我们的工具会将透明区域替换为白色。这非常适合产品图和 Logo。",
-            "q2": "它安全吗？",
-            "a2": "是的。不同于需要上传文件到服务器的其他转换器，本工具 100% 在您的设备上运行。您的数据保持私密。"
+            "title": "常见问题",
+            "q1": "质量会下降吗？",
+            "a1": "使用我们的设置几乎察觉不到。",
+            "q2": "为什么文件变大了？",
+            "a2": "JPG 的压缩效率低于 WebP。",
+            "q3": "动态 WebP？",
+            "a3": "转换第一帧。",
+            "q4": "免费吗？",
+            "a4": "是的，100% 免费。",
+            "q5": "iPhone？",
+            "a5": "是的，在 Safari 中可用。",
+            "q6": "透明度？",
+            "a6": "填充为白色。",
+            "q7": "只是改名？",
+            "a7": "不，是真正的转换。",
+            "q8": "大小限制？",
+            "a8": "10MB。",
+            "q9": "安装？",
+            "a9": "不。",
+            "q10": "时间？",
+            "a10": "不到 1 秒。"
         }
-    },
-    "js": {
-        "invalid_image": "请上传有效的 WebP 图片"
     }
 }

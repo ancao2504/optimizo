@@ -22,27 +22,24 @@
         "p1": "Нашли длинную строку случайных символов, начинающуюся с <code>data:image\/...<\/code>, и не знаете, что это? Скорее всего, это изображение, закодированное в Base64.",
         "p2": "Наш <strong>Декодер Base64 в изображение<\/strong> преобразует эту текстовую строку обратно в видимый файл изображения (PNG, JPG, GIF и т.д.), который вы можете просмотреть и скачать на свой компьютер.",
         "features": {
-            "preview": {
-                "title": "Мгновенный просмотр",
-                "desc": "Увидьте изображение немедленно. Мы разбираем двоичные данные и отображаем их на вашем экране."
-            },
-            "auto": {
-                "title": "Автоопределение",
-                "desc": "Мы автоматически определяем формат файла (PNG, JPEG, GIF) по заголовку строки Base64."
-            },
-            "download": {
-                "title": "Скачивание файла",
-                "desc": "Сохраните декодированный результат как реальный файл изображения на свой жесткий диск в один клик."
-            }
+            "title": "Key Features",
+            "f1_title": "Instant Preview",
+            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
+            "f2_title": "Auto-Detection",
+            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
+            "f3_title": "Download File",
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
         },
         "how_to": {
             "title": "Как декодировать?",
-            "list": [
-                "Вставьте строку Base64 в текстовое поле.",
-                "Мы мгновенно попытаемся прочитать строку.",
-                "Если она валидна, изображение появится слева.",
-                "Нажмите \"Скачать изображение\", чтобы сохранить его."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Paste your Base64 string into the textarea.",
+            "step2_title": "Step 2",
+            "step2_desc": "We instantly attempt to read the string.",
+            "step3_title": "Step 3",
+            "step3_desc": "If valid, the image appears on the left.",
+            "step4_title": "Step 4",
+            "step4_desc": "Click \"Download Image\" to save it."
         },
         "use_cases": {
             "title": "Распространенные варианты использования",

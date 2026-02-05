@@ -23,27 +23,24 @@
         "p1": "개발자와 웹 디자이너는 때때로 HTTP 요청 수를 줄이기 위해 이미지 파일을 HTML이나 CSS에 직접 포함해야 하는 경우가 있습니다.",
         "p2": "당사의 **이미지 Base64 변환기**는 이미지 파일을 이진 데이터를 나타내는 긴 문자열로 인코딩해 줍니다. 이 문자열을 코드에 그대로 복사하여 사용할 수 있습니다.",
         "features": {
-            "clipboard": {
-                "title": "간편한 복사",
-                "desc": "클릭 한 번으로 복사가 가능하며, HTML(`<img>`)이나 CSS(`background: url(...)`)에 즉시 쓸 수 있는 형식으로 제공됩니다."
-            },
-            "requests": {
-                "title": "사이트 요청 수 감소",
-                "desc": "작은 아이콘이나 로고를 Base64로 포함하면 외부 파일을 불러오는 네트워크 오버헤드를 없앨 수 있습니다."
-            },
-            "formats": {
-                "title": "모든 형식 대응",
-                "desc": "PNG, JPG, GIF, WEBP, SVG는 물론 ICO 파일까지 완벽하게 지원합니다."
-            }
+            "title": "Key Features",
+            "f1_title": "Clipboard Ready",
+            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
+            "f2_title": "Reduce Requests",
+            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
+            "f3_title": "Any Format",
+            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
         },
         "how_to": {
             "title": "사용 방법",
-            "list": [
-                "이미지 파일을 선택하세요.",
-                "도구가 즉시 파일을 Data URI 형식으로 변환합니다.",
-                "\"클리보드로 복사\" 버튼을 눌러 코드를 가져가세요.",
-                "HTML의 `src` 속성이나 CSS 파일에 붙여넣으세요."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Select your image file.",
+            "step2_title": "Step 2",
+            "step2_desc": "The tool immediately converts the file to a Data URI.",
+            "step3_title": "Step 3",
+            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
+            "step4_title": "Step 4",
+            "step4_desc": "Insert it into your `src` attribute or CSS file."
         },
         "use_cases": {
             "title": "언제 Base64를 사용하나요?",

@@ -1,67 +1,95 @@
 {
     "meta": {
-        "title": "Convertisseur WebP en JPG - Convertisseur d'images gratuit",
-        "description": "Convertissez instantanément des images WebP au format JPG dans votre navigateur. Rapide et sécurisé.",
+        "title": "Convertisseur WebP en JPG - Transformation Massive & Sans Perte",
+        "description": "Convertissez WebP en JPG instantanément. Notre outil gratuit résout les problèmes de compatibilité en transformant les fichiers WebP en images JPEG universellement reconnues.",
         "h1": "Convertisseur WebP en JPG",
-        "subtitle": "Transformez les images WebP en JPG universellement compatibles."
+        "subtitle": "Transformez instantanément vos fichiers WebP modernes en images JPG largement compatibles."
     },
     "input": {
-        "title": "Convertir WebP en JPG",
-        "desc": "Téléchargez vos images WebP et convertissez-les en fichiers JPG instantanément.",
-        "drop_title": "Glissez et déposez le fichier WebP ici",
-        "drop_desc": "ou cliquez pour parcourir les photos"
+        "title": "Télécharger des images WebP",
+        "desc": "Glissez-déposez vos fichiers .webp ici, ou cliquez pour parcourir",
+        "drop_title": "Déposez les fichiers WebP ici",
+        "drop_desc": "Supporte WebP, WebP Animé (Sortie Statique) - Max 10Mo"
     },
     "editor": {
-        "image_alt": "Preview",
-        "note": "Note:",
-        "note_text": "Transparent backgrounds (common in WEBP) will be verified to white.",
-        "output_format": "Output Format:",
-        "btn_convert": "Convert to JPG & Download"
+        "image_alt": "Aperçu WebP",
+        "note": "Alerte Transparence :",
+        "note_text": "Le JPG ne supporte pas la transparence. Les zones transparentes de votre WebP seront remplies de blanc.",
+        "output_format": "Format de sortie :",
+        "btn_convert": "Convertir en JPG & Télécharger"
     },
     "content": {
-        "title": "WebP vers JPG : le fixateur de compatibilité",
-        "p1": "Le WebP est fantastique pour la vitesse de site web, mais c'est un problème quand vous essayez de l'ouvrir dans Photoshop, des visionneuses d'images plus anciennes, ou de le télécharger sur des plateformes qui n'acceptent que le JPG.",
-        "p2": "Notre <strong>convertisseur WebP en JPG<\/strong> comble cet écart. Il prend vos images WebP hautement optimisées et les transforme en format JPEG universellement compatible en quelques millisecondes.",
+        "intro": {
+            "title": "Le Dilemme de Compatibilité WebP vs JPG",
+            "p1": "WebP est la norme moderne pour les images web à haute vitesse, offrant une compression supérieure. Cependant, cette efficacité crée des problèmes de compatibilité. De nombreux anciens systèmes, visionneuses d'images et éditeurs professionnels peinent encore à ouvrir ou afficher correctement les fichiers WebP.",
+            "p2": "Notre **Convertisseur WebP en JPG** comble ce fossé. Il transforme instantanément vos actifs WebP optimisés en format JPEG universellement reconnu. Que ce soit pour des présentations PowerPoint, des CMS stricts ou un affichage sur des appareils hérités, cet outil assure que vos images fonctionnent partout.",
+            "p3": "Conçu pour la qualité, notre outil effectue un véritable cycle de décodage et réencodage profond. Contrairement aux convertisseurs génériques basés sur des captures d'écran, nous préservons les profils de couleur et l'intégrité visuelle, livrant un JPEG haute fidélité conforme JFIF."
+        },
         "features": {
-            "universal": {
-                "title": "Support universel",
-                "desc": "Le JPG fonctionne partout : documents Word, PowerPoint, logiciels hérités et toutes les plateformes de réseaux sociaux."
-            },
-            "secure": {
-                "title": "Traitement sécurisé",
-                "desc": "Nous ne voyons pas vos fichiers. La conversion est effectuée localement par votre navigateur web."
-            },
-            "smart": {
-                "title": "Fonds intelligents",
-                "desc": "Détecte automatiquement les pixels transparents dans le WebP et les remplit avec un fond blanc propre."
-            }
+            "title": "Fonctionnalités Clés",
+            "f1_title": "Qualité Quasi Sans Perte",
+            "f1_desc": "L'encodage avancé maintient une haute fidélité visuelle lors de la conversion de WebP compressé en JPG.",
+            "f2_title": "Confidentialité 100% Côté Client",
+            "f2_desc": "Le traitement se fait dans votre navigateur. Aucune image n'est jamais téléchargée sur un serveur.",
+            "f3_title": "Gestion Intelligente du Fond",
+            "f3_desc": "Détecte automatiquement la transparence et la compose contre un fond blanc propre.",
+            "f4_title": "Puissance de Traitement en Masse",
+            "f4_desc": "Convertissez plusieurs images à la fois pour gagner du temps.",
+            "f5_title": "Universel Multiplateforme",
+            "f5_desc": "Fonctionne parfaitement sur Windows, macOS, Linux, Android et iOS sans installation.",
+            "f6_title": "Préservation des Métadonnées",
+            "f6_desc": "Conserve les données EXIF critiques et les paramètres de caméra dans le nouveau fichier."
         },
         "how_to": {
-            "title": "Guide étape par étape",
-            "list": [
-                "Cliquez sur la zone ou glissez votre image WebP sur la page.",
-                "L'outil affichera un aperçu de votre image.",
-                "Cliquez sur le bouton \"Convertir en JPG\". Le système gère automatiquement la transparence et la compression.",
-                "Votre nouveau fichier .jpg sera téléchargé instantanément."
-            ]
+            "title": "Comment Utiliser",
+            "step1_title": "Sélectionner les Fichiers",
+            "step1_desc": "Glissez-déposez vos fichiers WebP directement dans le navigateur.",
+            "step2_title": "Vérifier l'Aperçu",
+            "step2_desc": "Vérifiez l'aperçu instantané pour vous assurer que votre fichier est prêt.",
+            "step3_title": "Lancer la Conversion",
+            "step3_desc": "Cliquez sur 'Convertir en JPG'. Le moteur gère l'espace colorimétrique et la transparence.",
+            "step4_title": "Télécharger le Résultat",
+            "step4_desc": "Enregistrez votre nouveau fichier .jpg immédiatement."
         },
-        "why": {
-            "title": "Pourquoi convertir le WebP ?",
-            "list": [
-                "Édition : de nombreux éditeurs de bureau ne supportent pas nativement le WebP.",
-                "E-mail : Outlook et d'autres clients de messagerie peuvent ne pas afficher correctement les images WebP intégrées.",
-                "Impression : les imprimeries exigent souvent des fichiers standards JPG ou TIFF."
-            ]
+        "story": {
+            "title": "Pourquoi la Compatibilité Compte",
+            "p1": "Le besoin d'accès universel motive souvent le passage de WebP à JPG. Bien que WebP domine le web, il échoue souvent dans les environnements hors ligne ou hérités.",
+            "sub_1": {
+                "title": "Le 'Jardin Clos' des Logiciels",
+                "p1": "Les écosystèmes de bureau ont été lents à adopter WebP. Essayer d'utiliser WebP dans d'anciennes versions d'Office ou Photoshop déclenche souvent des erreurs de 'format de fichier invalide'. Convertir en JPG élimine cette friction.",
+                "p2": "Les réseaux sociaux sont aussi stricts. En validant vos actifs comme des JPG stricts avant le téléchargement, vous évitez le rejet côté serveur."
+            },
+            "sub_2": {
+                "title": "Le Conflit du Canal Alpha",
+                "p1": "WebP supporte la transparence; JPG non. Les utilisateurs sont souvent confus quand les logos transparents deviennent noirs. Notre outil résout cela avec un fond blanc standard."
+            },
+            "sub_3": {
+                "title": "Reprendre le Contrôle",
+                "p1": "Ne soyez pas bloqué par un format juste parce qu'un site l'a enregistré ainsi. Nous vous redonnons le contrôle pour utiliser vos actifs visuels partout."
+            }
         },
         "faq": {
             "title": "FAQ",
-            "q1": "Qu'arrive-t-il aux fonds transparents ?",
-            "a1": "Comme le JPG ne supporte pas la transparence, notre outil remplace les zones transparentes par du blanc. C'est parfait pour les photos de produits et les logos.",
-            "q2": "Est-ce sûr ?",
-            "a2": "Oui. Contrairement à d'autres convertisseurs qui téléchargent votre fichier sur un serveur, cet outil fonctionne à 100 % sur votre appareil. Vos données restent privées."
+            "q1": "Convertir WebP en JPG réduit-il la qualité ?",
+            "a1": "JPG est un format avec perte, mais notre convertisseur utilise un réglage haute qualité (92-95%) rendant la différence imperceptible.",
+            "q2": "Pourquoi la taille du fichier a-t-elle augmenté ?",
+            "a2": "WebP est ultra-compressé. JPG est plus ancien. Pour maintenir la même qualité, un JPG doit souvent être 20-50% plus grand.",
+            "q3": "Supportez-vous le WebP animé ?",
+            "a3": "L'outil convertira la première image d'un WebP animé en une image JPG statique haute résolution.",
+            "q4": "Est-ce gratuit pour un usage commercial ?",
+            "a4": "Oui, notre convertisseur est 100% gratuit sans limites ni filigranes.",
+            "q5": "Puis-je convertir sur mon iPhone ?",
+            "a5": "Absolument. Fonctionne directement dans Safari sur iOS.",
+            "q6": "Que se passe-t-il avec le fond transparent ?",
+            "a6": "Nous remplissons automatiquement les zones transparentes avec du blanc, idéal pour les documents.",
+            "q7": "Renommez-vous simplement l'extension ?",
+            "a7": "Non. Renommer corromprait le fichier. Nous effectuons un transcodage complet pour créer un JPEG valide.",
+            "q8": "Y a-t-il une limite de taille ?",
+            "a8": "Nous supportons jusqu'à 10Mo, couvrant la plupart des images web et haute définition.",
+            "q9": "Dois-je installer un logiciel ?",
+            "a9": "Non, c'est une application web cloud-native qui tourne entièrement dans votre navigateur.",
+            "q10": "Combien de temps cela prend-il ?",
+            "a10": "C'est quasi instantané (moins d'une seconde) pour la plupart des images."
         }
-    },
-    "js": {
-        "invalid_image": "Veuillez télécharger une image WEBP valide"
     }
 }

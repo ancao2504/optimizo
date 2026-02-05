@@ -23,27 +23,24 @@
         "p1": "Desenvolvedores e web designers muitas vezes precisam incorporar imagens diretamente em arquivos HTML ou CSS para reduzir as solicitações HTTP.",
         "p2": "Nosso <strong>Conversor de Imagem para Base64<\/strong> codifica seu arquivo de imagem em uma longa sequência de caracteres que representa os dados binários. Você pode colar essa string diretamente no seu código.",
         "features": {
-            "clipboard": {
-                "title": "Pronto para Área de Transferência",
-                "desc": "Cópia com um clique. Formatamos a saída para HTML (`&lt;img src=\"...\"&gt;`) ou CSS (`background: url(...)`)."
-            },
-            "requests": {
-                "title": "Reduzir Solicitações",
-                "desc": "Incorporar pequenos ícones e logotipos como Base64 elimina a sobrecarga de rede de buscar arquivos de imagem externos."
-            },
-            "formats": {
-                "title": "Qualquer Formato",
-                "desc": "Funciona com arquivos PNG, JPG, GIF, WEBP, SVG e até mesmo ICO."
-            }
+            "title": "Key Features",
+            "f1_title": "Clipboard Ready",
+            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
+            "f2_title": "Reduce Requests",
+            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
+            "f3_title": "Any Format",
+            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
         },
         "how_to": {
             "title": "Como usar?",
-            "list": [
-                "Selecione seu arquivo de imagem.",
-                "A ferramenta converte imediatamente o arquivo em um Data URI.",
-                "Clique em \"Copiar para Área de Transferência\" para pegar o código.",
-                "Insira-o no seu atributo `src` ou arquivo CSS."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Select your image file.",
+            "step2_title": "Step 2",
+            "step2_desc": "The tool immediately converts the file to a Data URI.",
+            "step3_title": "Step 3",
+            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
+            "step4_title": "Step 4",
+            "step4_desc": "Insert it into your `src` attribute or CSS file."
         },
         "use_cases": {
             "title": "Quando usar Base64?",

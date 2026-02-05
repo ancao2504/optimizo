@@ -23,27 +23,24 @@
         "p1": "Kehittäjien ja verkkosuunnittelijoiden on usein upotettava kuvat suoraan HTML- tai CSS-tiedostoihin HTTP-pyyntöjen vähentämiseksi.",
         "p2": "<strong>Image to Base64 -muunnin<\/strong> koodaa kuvatiedostosi pitkäksi merkkijonoksi, joka edustaa binaaridataa. Voit liittää tämän merkkijonon suoraan koodiisi.",
         "features": {
-            "clipboard": {
-                "title": "Leikepöytä valmis",
-                "desc": "Kopio yhdellä napsautuksella. Muotoilemme tulosteen HTML:lle (`&lt;img src=\"...\"&gt;`) tai CSS:lle (`background: url(...)`)."
-            },
-            "requests": {
-                "title": "Vähennä pyyntöjä",
-                "desc": "Pienten kuvakkeiden ja logojen upottaminen Base64:llä eliminoi ulkoisten kuvatiedostojen noutamisesta aiheutuvat verkkokulut."
-            },
-            "formats": {
-                "title": "Mikä tahansa muoto",
-                "desc": "Toimii PNG-, JPG-, GIF-, WEBP-, SVG- ja jopa ICO-tiedostojen kanssa."
-            }
+            "title": "Key Features",
+            "f1_title": "Clipboard Ready",
+            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
+            "f2_title": "Reduce Requests",
+            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
+            "f3_title": "Any Format",
+            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
         },
         "how_to": {
             "title": "Kuinka käyttää?",
-            "list": [
-                "Valitse kuvatiedostosi.",
-                "Työkalu muuntaa tiedoston välittömästi Data URI:ksi.",
-                "Napsauta \"Kopioi leikepöydälle\" nappaaksesi koodi.",
-                "Lisää se src-attribuuttiisi tai CSS-tiedostoosi."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Select your image file.",
+            "step2_title": "Step 2",
+            "step2_desc": "The tool immediately converts the file to a Data URI.",
+            "step3_title": "Step 3",
+            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
+            "step4_title": "Step 4",
+            "step4_desc": "Insert it into your `src` attribute or CSS file."
         },
         "use_cases": {
             "title": "Milloin Base64:ää käytetään?",

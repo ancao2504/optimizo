@@ -22,27 +22,24 @@
         "p1": "Löytyikö pitkä rimsu satunnaisia merkkejä, joka alkaa <code>data:image\/...<\/code>? Se on todennäköisesti Base64-koodattu kuva.",
         "p2": "Meidän <strong>Base64-kuva-dekooderimme<\/strong> muuntaa tekstin takaisin näkyväksi kuvaksi (PNG, JPG, GIF jne.), jonka voit ladata koneellesi.",
         "features": {
-            "preview": {
-                "title": "Välitön esikatselu",
-                "desc": "Näet kuvan heti. Jäsennämme binääritiedon ja näytämme sen ruudullasi."
-            },
-            "auto": {
-                "title": "Automaattinen tunnistus",
-                "desc": "Tunnistamme tiedostomuodon (PNG, JPEG, GIF) automaattisesti koodin alusta."
-            },
-            "download": {
-                "title": "Lataa tiedosto",
-                "desc": "Tallenna purettu tulos oikeana kuvatiedostona yhdellä klikkauksella."
-            }
+            "title": "Key Features",
+            "f1_title": "Instant Preview",
+            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
+            "f2_title": "Auto-Detection",
+            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
+            "f3_title": "Download File",
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
         },
         "how_to": {
             "title": "Miten purkaminen tapahtuu?",
-            "list": [
-                "Liitä Base64-koodi tekstikenttään.",
-                "Yritämme lukea koodin välittömästi.",
-                "Jos koodi on kelvollinen, kuva ilmestyy vasemmalle.",
-                "Klikkaa \"Lataa kuva\" tallentaaksesi sen."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Paste your Base64 string into the textarea.",
+            "step2_title": "Step 2",
+            "step2_desc": "We instantly attempt to read the string.",
+            "step3_title": "Step 3",
+            "step3_desc": "If valid, the image appears on the left.",
+            "step4_title": "Step 4",
+            "step4_desc": "Click \"Download Image\" to save it."
         },
         "use_cases": {
             "title": "Yleisimmät käyttötapaukset",

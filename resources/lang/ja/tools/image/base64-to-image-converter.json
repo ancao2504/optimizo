@@ -22,27 +22,24 @@
         "p1": "<code>data:image\/...<\/code> で始まる不規則な文字列を受け取ってお困りですか？それはおそらくBase64エンコードされた画像データです。",
         "p2": "当ツールの<strong>Base64画像デコーダー<\/strong>は、その文字列をPCで閲覧・ダウンロード可能な画像ファイル（PNG, JPG, GIFなど）に変換します。",
         "features": {
-            "preview": {
-                "title": "インスタントプレビュー",
-                "desc": "バイナリデータを解析し、画面上に即座に画像を表示します。"
-            },
-            "auto": {
-                "title": "自動形式検出",
-                "desc": "Base64文字列のヘッダーから自動的にファイル形式（PNG, JPEG, GIF）を特定します。"
-            },
-            "download": {
-                "title": "ファイルダウンロード",
-                "desc": "デコードされた結果を実際の画像ファイルとして、ワンクリックで保存できます。"
-            }
+            "title": "Key Features",
+            "f1_title": "Instant Preview",
+            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
+            "f2_title": "Auto-Detection",
+            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
+            "f3_title": "Download File",
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
         },
         "how_to": {
             "title": "使い方は？",
-            "list": [
-                "テキストエリアにBase64文字列を貼り付けます。",
-                "ツールが即座に文字列の読み取りを開始します。",
-                "有効なデータであれば、左側に画像が表示されます。",
-                "「画像をダウンロード」をクリックして保存します。"
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Paste your Base64 string into the textarea.",
+            "step2_title": "Step 2",
+            "step2_desc": "We instantly attempt to read the string.",
+            "step3_title": "Step 3",
+            "step3_desc": "If valid, the image appears on the left.",
+            "step4_title": "Step 4",
+            "step4_desc": "Click \"Download Image\" to save it."
         },
         "use_cases": {
             "title": "主な活用シーン",

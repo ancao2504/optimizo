@@ -1,67 +1,95 @@
 {
     "meta": {
-        "title": "WebP'den JPG'e Dönüştürücü - Ücretsiz Online Resim Dönüştürücü",
-        "description": "WebP resimlerini tarayıcınızda anında JPG formatına dönüştürün. Hızlı, ücretsiz ve güvenli dönüşüm.",
-        "h1": "WebP'den JPG'e Dönüştürücü",
-        "subtitle": "WebP resimlerini evrensel uyumlu JPG dosyalarına dönüştürün."
+        "title": "WebP'den JPG'ye Dönüştürücü - Toplu & Kayıpsız Dönüşüm",
+        "description": "WebP'yi anında JPG'ye dönüştürün. Ücretsiz aracımız uyumluluk sorunlarını çözer.",
+        "h1": "WebP'den JPG'ye Dönüştürücü",
+        "subtitle": "Modern WebP dosyalarını anında uyumlu JPG görüntülerine dönüştürün."
     },
     "input": {
-        "title": "WebP'yi JPG'e Dönüştür",
-        "desc": "WebP resimlerinizi yükleyin ve anında standart JPG dosyalarına dönüştürün.",
-        "drop_title": "WebP dosyasını buraya sürükleyip bırakın",
-        "drop_desc": "veya fotoğraflara göz atmak için tıklayın"
+        "title": "WebP Yükle",
+        "desc": ".webp dosyalarını buraya sürükleyin veya göz atın",
+        "drop_title": "Dosyaları buraya bırakın",
+        "drop_desc": "WebP, Animasyonlu WebP (Statik Çıktı) - Maks 10MB"
     },
     "editor": {
-        "image_alt": "Preview",
-        "note": "Not:",
-        "note_text": "Şeffaf arka plan beyaz ile doldurulacaktır.",
+        "image_alt": "WebP Önizleme",
+        "note": "Şeffaflık Uyarısı:",
+        "note_text": "JPG şeffaflığı desteklemez. Şeffaf alanlar beyaz ile doldurulacaktır.",
         "output_format": "Çıktı Formatı:",
-        "btn_convert": "JPG'e Dönüştür"
+        "btn_convert": "JPG'ye Dönüştür & İndir"
     },
     "content": {
-        "title": "WebP'yi Anında JPG'ye Dönüştürün",
-        "p1": "WebP web için harikadır, ancak Microsoft Word, eski fotoğraf görüntüleyiciler ve belirli sosyal medya platformları gibi birçok uygulama hala tam olarak desteklememektedir.",
-        "p2": "<strong>WebP'den JPG'e Dönüştürücümüz<\/strong>, modern web görsellerinizi evrensel JPEG standardına dönüştürmenizi sağlar. Bir WebP dosyasını günlük çevrimdışı görevler için 'kullanılabilir' hale getirmenin en hızlı yoludur.",
+        "intro": {
+            "title": "WebP vs. JPG Uyumluluk İkilemi",
+            "p1": "WebP, üstün sıkıştırma sunan modern web standardıdır. Ancak bu verimlilik uyumluluk sorunları yaratır. Birçok eski sistem ve profesyonel editör hala WebP dosyalarını açmakta zorlanıyor.",
+            "p2": "Bizim **WebP - JPG Dönüştürücü**müz bu boşluğu doldurur. Optimize edilmiş WebP varlıklarınızı evrensel olarak tanınan JPEG formatına dönüştürür. PowerPoint veya katı CMS yüklemeleri için idealdir.",
+            "p3": "Kalite için tasarlandı, aracımız gerçek bir derin kod çözme ve yeniden kodlama döngüsü gerçekleştirir. Renk profillerini ve görsel bütünlüğü koruruz."
+        },
         "features": {
-            "universal": {
-                "title": "Evrensel Standart",
-                "desc": "JPG her yerde çalışır. Matbaalardan eski sistemlere kadar JPG en güvenli seçimdir."
-            },
-            "secure": {
-                "title": "Güvenli İşleme",
-                "desc": "Dosyalarınızı görmüyoruz. Dönüştürme işlemi web tarayıcınız tarafından yerel olarak gerçekleştirilir."
-            },
-            "smart": {
-                "title": "Akıllı Arka Planlar",
-                "desc": "WebP'deki şeffaf pikselleri otomatik olarak algılar ve bunları temiz bir beyaz arka planla doldurur."
-            }
+            "title": "Temel Özellikler",
+            "f1_title": "Kayıpsız Gibi Kalite",
+            "f1_desc": "Gelişmiş kodlama, WebP'den JPG'ye dönüşümde yüksek görsel sadakati korur.",
+            "f2_title": "%100 İstemci Taraflı Gizlilik",
+            "f2_desc": "İşlem tarayıcınızda gerçekleşir. Sunucuya resim yüklenmez.",
+            "f3_title": "Akıllı Arka Plan",
+            "f3_desc": "Şeffaflığı otomatik algılar ve temiz beyaz arka planla birleştirir.",
+            "f4_title": "Toplu İşleme",
+            "f4_desc": "Zaman kazanmak için birden fazla resmi aynı anda dönüştürün.",
+            "f5_title": "Çapraz Platform",
+            "f5_desc": "Windows, macOS, Linux, Android ve iOS'ta kurulumsuz çalışır.",
+            "f6_title": "Metadata Koruma",
+            "f6_desc": "Kritik EXIF verilerini ve kamera ayarlarını yeni dosyada korur."
         },
         "how_to": {
-            "title": "WebP'yi JPG'ye Nasıl Dönüştürürsünüz?",
-            "list": [
-                "Sürükleyerek veya tıklayarak `.webp` dosyanızı seçin.",
-                "İstediğiniz kaliteyi seçin. En iyi sonuçlar için %90'ı öneririz.",
-                "Sonucu anında önizleme penceresinde görün.",
-                "JPG dosyanızı indirin ve istediğiniz yerde kullanın."
-            ]
+            "title": "Nasıl Kullanılır",
+            "step1_title": "Dosya Seç",
+            "step1_desc": "WebP dosyalarınızı doğrudan tarayıcıya sürükleyin.",
+            "step2_title": "Önizlemeyi Kontrol Et",
+            "step2_desc": "Dosyanızın hazır olduğundan emin olmak için önizlemeyi doğrulayın.",
+            "step3_title": "Dönüşümü Başlat",
+            "step3_desc": "'JPG'ye Dönüştür'e tıklayın. Motor renk uzayını ve şeffaflığı halleder.",
+            "step4_title": "Sonucu İndir",
+            "step4_desc": "Yeni .jpg dosyanızı hemen kaydedin."
         },
-        "why": {
-            "title": "Neden WebP'yi Dönüştürmelisiniz?",
-            "list": [
-                "Düzenleme: Birçok masaüstü düzenleyicisi genellikle WebP'yi yerel olarak desteklemez.",
-                "E-posta: Outlook ve diğer e-posta istemcileri, WebP görüntülerini metin içinde doğru şekilde oluşturmayabilir.",
-                "Yazdırma: Matbaalar genellikle standart JPG veya TIFF dosyalarına ihtiyaç duyar."
-            ]
+        "story": {
+            "title": "Uyumluluk Neden Önemli",
+            "p1": "Evrensel erişim ihtiyacı genellikle WebP'den JPG'ye geçişi tetikler. WebP web'e hakim olsa da, çevrimdışı ortamlarda başarısız olabilir.",
+            "sub_1": {
+                "title": "Yazılımın 'Duvarlı Bahçesi'",
+                "p1": "Masaüstü ekosistemleri WebP'yi benimsemekte yavaş kaldı. Eski Office veya Photoshop sürümlerinde WebP kullanmak hatalara neden olur. JPG'ye dönüşüm bunu çözer.",
+                "p2": "Sosyal medya da katıdır. Yüklemeden önce varlıklarınızı JPG olarak doğrulayarak reddedilmeyi önlersiniz."
+            },
+            "sub_2": {
+                "title": "Alfa Kanalı Çatışması",
+                "p1": "WebP şeffaflığı destekler; JPG desteklemez. Şeffaf logolar siyaha döndüğünde kullanıcılar şaşırır. Aracımız bunu beyaz mat ile çözer.",
+                "sub_3": {
+                    "title": "Kontrolü Geri Almak",
+                    "p1": "Bir formata kilitlenmeyin. Görsel varlıklarınızı istediğiniz yazılımda kullanma kontrolünü size veriyoruz."
+                }
+            }
         },
         "faq": {
-            "title": "Sıkça Sorulan Sorular",
-            "q1": "Neden WebP'yi dönüştürmeliyim?",
-            "a1": "Uyumluluk ana sebeptir. WebP'yi tanımayan bir yazılımda resim kullanmanız gerekiyorsa, JPG en iyi çözümdür.",
-            "q2": "Dosya boyutunu etkiler mi?",
-            "a2": "Evet, aynı kalitedeki WebP dosyalarına göre JPG dosyaları genellikle daha büyüktür. Bu, uyumluluk için gerekli bir ödündür."
+            "title": "SSS",
+            "q1": "Dönüşüm kaliteyi düşürür mü?",
+            "a1": "JPG kayıplıdır, ancak yüksek kalite ayarı (%92-95) farkı belirsiz kılar.",
+            "q2": "Dosya boyutu neden arttı?",
+            "a2": "WebP ultra sıkıştırılmıştır. Aynı kalite için JPG genellikle %20-50 daha büyük olmalıdır.",
+            "q3": "Animasyonlu WebP destekleniyor mu?",
+            "a3": "İlk kareyi statik JPG'ye dönüştürürüz.",
+            "q4": "Ücretsiz mi?",
+            "a4": "Evet, kişisel ve ticari kullanım için %100 ücretsiz.",
+            "q5": "iPhone'da kullanabilir miyim?",
+            "a5": "Kesinlikle. iOS Safari'de doğrudan çalışır.",
+            "q6": "Şeffaf arka plana ne olur?",
+            "a6": "Otomatik olarak beyazla dolduruyoruz.",
+            "q7": "Sadece uzantıyı mı değiştiriyorsunuz?",
+            "a7": "Hayır. Tam bir yeniden kodlama yapıyoruz.",
+            "q8": "Boyut sınırı var mı?",
+            "a8": "10MB'a kadar destekliyoruz.",
+            "q9": "Yazılım yüklemeli miyim?",
+            "a9": "Hayır, tamamen tarayıcıda çalışır.",
+            "q10": "Ne kadar sürer?",
+            "a10": "Neredeyse anlık (1 saniye altı)."
         }
-    },
-    "js": {
-        "invalid_image": "Lütfen geçerli bir WebP resmi yükleyin"
     }
 }

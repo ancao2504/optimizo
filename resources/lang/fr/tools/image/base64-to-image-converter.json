@@ -22,27 +22,24 @@
         "p1": "Vous avez trouvé une longue chaîne de caractères aléatoires commençant par <code>data:image\/...<\/code> et vous ne savez pas ce que c'est ? Il s'agit probablement d'une image encodée en Base64.",
         "p2": "Notre <strong>décodeur Base64 en image<\/strong> convertit cette chaîne de texte en un fichier image visible (PNG, JPG, GIF, etc.) que vous pouvez visualiser et télécharger sur votre ordinateur.",
         "features": {
-            "preview": {
-                "title": "Aperçu instantané",
-                "desc": "Visualisez l'image immédiatement. Nous analysons les données binaires et les affichons sur votre écran."
-            },
-            "auto": {
-                "title": "Détection automatique",
-                "desc": "Nous détectons automatiquement le format de fichier (PNG, JPEG, GIF) à partir de l'en-tête de la chaîne Base64."
-            },
-            "download": {
-                "title": "Télécharger le fichier",
-                "desc": "Enregistrez le résultat décodé sous forme de véritable fichier image sur votre disque dur en un seul clic."
-            }
+            "title": "Key Features",
+            "f1_title": "Instant Preview",
+            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
+            "f2_title": "Auto-Detection",
+            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
+            "f3_title": "Download File",
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
         },
         "how_to": {
             "title": "Comment décoder ?",
-            "list": [
-                "Collez votre chaîne Base64 dans la zone de texte.",
-                "Nous tentons instantanément de lire la chaîne.",
-                "Si elle est valide, l'image apparaît sur la gauche.",
-                "Cliquez sur \"Télécharger l'image\" pour l'enregistrer."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Paste your Base64 string into the textarea.",
+            "step2_title": "Step 2",
+            "step2_desc": "We instantly attempt to read the string.",
+            "step3_title": "Step 3",
+            "step3_desc": "If valid, the image appears on the left.",
+            "step4_title": "Step 4",
+            "step4_desc": "Click \"Download Image\" to save it."
         },
         "use_cases": {
             "title": "Cas d'utilisation courants",

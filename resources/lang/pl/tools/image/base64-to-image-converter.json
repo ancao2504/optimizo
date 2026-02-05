@@ -22,27 +22,24 @@
         "p1": "Znalazłeś długi ciąg losowych znaków zaczynający się od <code>data:image\/...<\/code> i nie wiesz, co to jest? To prawdopodobnie obraz zakodowany w Base64.",
         "p2": "Nasz <strong>dekoder Base64 na obraz<\/strong> konwertuje ten ciąg tekstowy z powrotem na widoczny plik obrazu (PNG, JPG, GIF itp.), który możesz wyświetlić i pobrać na swój komputer.",
         "features": {
-            "preview": {
-                "title": "Natychmiastowy podgląd",
-                "desc": "Zobacz obraz natychmiast. Analizujemy dane binarne i wyświetlamy je na ekranie."
-            },
-            "auto": {
-                "title": "Automatyczne wykrywanie",
-                "desc": "Automatycznie wykrywamy format pliku (PNG, JPEG, GIF) na podstawie nagłówka ciągu Base64."
-            },
-            "download": {
-                "title": "Pobierz plik",
-                "desc": "Zapisz zdekodowany wynik jako prawdziwy plik obrazu na swoim dysku twardym jednym kliknięciem."
-            }
+            "title": "Key Features",
+            "f1_title": "Instant Preview",
+            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
+            "f2_title": "Auto-Detection",
+            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
+            "f3_title": "Download File",
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
         },
         "how_to": {
             "title": "Jak dekodować?",
-            "list": [
-                "Wklej ciąg Base64 w pole tekstowe.",
-                "Natychmiast spróbujemy odczytać ciąg.",
-                "Jeśli jest prawidłowy, obraz pojawi się po lewej stronie.",
-                "Kliknij „Pobierz obraz”, aby go zapisać."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Paste your Base64 string into the textarea.",
+            "step2_title": "Step 2",
+            "step2_desc": "We instantly attempt to read the string.",
+            "step3_title": "Step 3",
+            "step3_desc": "If valid, the image appears on the left.",
+            "step4_title": "Step 4",
+            "step4_desc": "Click \"Download Image\" to save it."
         },
         "use_cases": {
             "title": "Typowe zastosowania",

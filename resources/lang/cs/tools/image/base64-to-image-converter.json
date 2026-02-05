@@ -22,27 +22,24 @@
         "p1": "Našli jste dlouhý řetězec náhodných znaků začínající na <code>data:image\/...<\/code> a nevíte, co to je? Pravděpodobně jde o obrázek kódovaný v Base64.",
         "p2": "Náš <strong>dekodér Base64 na obrázek<\/strong> převede tento textový řetězec zpět na viditelný obrázkový soubor (PNG, JPG, GIF atd.), který si můžete prohlédnout a stáhnout do svého počítače.",
         "features": {
-            "preview": {
-                "title": "Okamžitý náhled",
-                "desc": "Obrázek uvidíte okamžitě. Analyzujeme binární data a vykreslíme je na vaší obrazovce."
-            },
-            "auto": {
-                "title": "Automatická detekce",
-                "desc": "Automaticky detekujeme formát souboru (PNG, JPEG, GIF) z hlavičky Base64 řetězce."
-            },
-            "download": {
-                "title": "Stáhnout soubor",
-                "desc": "Uložte dekódovaný výsledek jako skutečný obrázkový soubor na svůj pevný disk jedním kliknutím."
-            }
+            "title": "Key Features",
+            "f1_title": "Instant Preview",
+            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
+            "f2_title": "Auto-Detection",
+            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
+            "f3_title": "Download File",
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
         },
         "how_to": {
             "title": "Jak dekódovat?",
-            "list": [
-                "Vložte svůj Base64 řetězec do textového pole.",
-                "Okamžitě se pokusíme řetězec přečíst.",
-                "Pokud je platný, obrázek se objeví vlevo.",
-                "Klikněte na „Stáhnout obrázek“ pro jeho uložení."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Paste your Base64 string into the textarea.",
+            "step2_title": "Step 2",
+            "step2_desc": "We instantly attempt to read the string.",
+            "step3_title": "Step 3",
+            "step3_desc": "If valid, the image appears on the left.",
+            "step4_title": "Step 4",
+            "step4_desc": "Click \"Download Image\" to save it."
         },
         "use_cases": {
             "title": "Běžné případy použití",

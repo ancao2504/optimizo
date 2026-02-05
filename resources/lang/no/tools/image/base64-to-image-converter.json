@@ -22,27 +22,24 @@
         "p1": "Fant du en lang streng med tilfeldige tegn som begynner med <code>data:bilde\/...<\/code> og vet ikke hva det er? Det er sannsynligvis et Base64-kodet bilde.",
         "p2": "Vår <strong>Base64 til bildedekoder<\/strong> konverterer den tekststrengen tilbake til en synlig bildefil (PNG, JPG, GIF, etc.) som du kan se og laste ned til datamaskinen din.",
         "features": {
-            "preview": {
-                "title": "Øyeblikkelig forhåndsvisning",
-                "desc": "Se bildet umiddelbart. Vi analyserer de binære dataene og gjengir dem på skjermen din."
-            },
-            "auto": {
-                "title": "Auto-deteksjon",
-                "desc": "Vi oppdager automatisk filformatet (PNG, JPEG, GIF) fra overskriften til Base64-strengen."
-            },
-            "download": {
-                "title": "Last ned fil",
-                "desc": "Lagre det dekodede resultatet som en ekte bildefil på harddisken med ett klikk."
-            }
+            "title": "Key Features",
+            "f1_title": "Instant Preview",
+            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
+            "f2_title": "Auto-Detection",
+            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
+            "f3_title": "Download File",
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
         },
         "how_to": {
             "title": "Hvordan dekode?",
-            "list": [
-                "Lim inn Base64-strengen i tekstområdet.",
-                "Vi prøver umiddelbart å lese strengen.",
-                "Hvis gyldig, vises bildet til venstre.",
-                "Klikk på \"Last ned bilde\" for å lagre det."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Paste your Base64 string into the textarea.",
+            "step2_title": "Step 2",
+            "step2_desc": "We instantly attempt to read the string.",
+            "step3_title": "Step 3",
+            "step3_desc": "If valid, the image appears on the left.",
+            "step4_title": "Step 4",
+            "step4_desc": "Click \"Download Image\" to save it."
         },
         "use_cases": {
             "title": "Vanlige brukstilfeller",

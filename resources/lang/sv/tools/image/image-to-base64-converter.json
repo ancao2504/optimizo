@@ -23,27 +23,24 @@
         "p1": "Utvecklare och webbdesigners behöver ofta bädda in bilder direkt i HTML- eller CSS-filer för att minska HTTP-förfrågningar.",
         "p2": "Vår <strong>Bild till Base64-konverterare<\/strong> kodar din bildfil till en lång sträng av tecken som representerar binärdata. Du kan klistra in denna sträng direkt i din kod.",
         "features": {
-            "clipboard": {
-                "title": "Redo för urklipp",
-                "desc": "Kopiera med ett klick. Vi formaterar utdata för HTML (`&lt;img src=\"...\"&gt;`) eller CSS (`background: url(...)`)."
-            },
-            "requests": {
-                "title": "Minska förfrågningar",
-                "desc": "Att bädda in små ikoner och logotyper som Base64 eliminerar nätverkskostnaden för att hämta externa bildfiler."
-            },
-            "formats": {
-                "title": "Alla format",
-                "desc": "Fungerar med PNG, JPG, GIF, WEBP, SVG och till och med ICO-filer."
-            }
+            "title": "Key Features",
+            "f1_title": "Clipboard Ready",
+            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
+            "f2_title": "Reduce Requests",
+            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
+            "f3_title": "Any Format",
+            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
         },
         "how_to": {
             "title": "Hur använder man?",
-            "list": [
-                "Välj din bildfil.",
-                "Verktyget konverterar omedelbart filen till en Data URI.",
-                "Klicka på \"Kopiera till urklipp\" för att hämta koden.",
-                "Sätt in den i ditt `src`-attribut eller CSS-fil."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Select your image file.",
+            "step2_title": "Step 2",
+            "step2_desc": "The tool immediately converts the file to a Data URI.",
+            "step3_title": "Step 3",
+            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
+            "step4_title": "Step 4",
+            "step4_desc": "Insert it into your `src` attribute or CSS file."
         },
         "use_cases": {
             "title": "När ska man använda Base64?",

@@ -22,27 +22,24 @@
         "p1": "Ai găsit un șir lung de caractere aleatorii care începe cu <code>data:image\/...<\/code> și nu știi ce este? Cel mai probabil este o imagine codificată în Base64.",
         "p2": "<strong>Decodificatorul nostru Base64 în Imagine<\/strong> transformă acel text înapoi într-un fișier imagine vizibil (PNG, JPG, GIF etc.) pe care îl poți vedea și descărca pe computerul tău.",
         "features": {
-            "preview": {
-                "title": "Previzualizare Instantanee",
-                "desc": "Vezi imaginea imediat. Parsăm datele binare și le redăm direct pe ecran."
-            },
-            "auto": {
-                "title": "Detecție Automată",
-                "desc": "Detectăm automat formatul fișierului (PNG, JPEG, GIF) din antetul șirului Base64."
-            },
-            "download": {
-                "title": "Descarcă Fișierul",
-                "desc": "Salvează rezultatul decodificat ca un fișier imagine real pe hard disk cu un singur clic."
-            }
+            "title": "Key Features",
+            "f1_title": "Instant Preview",
+            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
+            "f2_title": "Auto-Detection",
+            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
+            "f3_title": "Download File",
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
         },
         "how_to": {
             "title": "Cum se decodifică?",
-            "list": [
-                "Lipește șirul Base64 în zona de text.",
-                "Sistemul va încerca instantaneu să citească codul.",
-                "Dacă este valid, imaginea va apărea în partea stângă.",
-                "Apasă pe \"Descarcă Imaginea\" pentru a o salva."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Paste your Base64 string into the textarea.",
+            "step2_title": "Step 2",
+            "step2_desc": "We instantly attempt to read the string.",
+            "step3_title": "Step 3",
+            "step3_desc": "If valid, the image appears on the left.",
+            "step4_title": "Step 4",
+            "step4_desc": "Click \"Download Image\" to save it."
         },
         "use_cases": {
             "title": "Cazuri de utilizare comune",

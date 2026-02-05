@@ -22,27 +22,24 @@
         "p1": "<code>data:image\/...<\/code> ile başlayan uzun bir rastgele karakter dizisi buldunuz ve ne olduğunu bilmiyor musunuz? Büyük olasılıkla Base64 kodlu bir görüntüdür.",
         "p2": "<strong>Base64'den Görüntüye Kod Çözücümüz<\/strong>, bu metin dizisini bilgisayarınızda görüntüleyebileceğiniz ve indirebileceğiniz görünür bir görüntü dosyasına (PNG, JPG, GIF vb.) geri dönüştürür.",
         "features": {
-            "preview": {
-                "title": "Anında Önizleme",
-                "desc": "Görüntüyü anında görün. İkili verileri ayrıştırır ve ekranınızda oluştururuz."
-            },
-            "auto": {
-                "title": "Otomatik Algılama",
-                "desc": "Dosya formatını (PNG, JPEG, GIF) Base64 dizesinin başlığından otomatik olarak algılarız."
-            },
-            "download": {
-                "title": "Dosyayı İndir",
-                "desc": "Çözülen sonucu tek tıklamayla gerçek bir görüntü dosyası olarak sabit diskinize kaydedin."
-            }
+            "title": "Key Features",
+            "f1_title": "Instant Preview",
+            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
+            "f2_title": "Auto-Detection",
+            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
+            "f3_title": "Download File",
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
         },
         "how_to": {
             "title": "Nasıl Çözülür?",
-            "list": [
-                "Base64 dizenizi metin alanına yapıştırın.",
-                "Dizeyi anında okumaya çalışırız.",
-                "Eğer geçerliyse, görüntü solda belirir.",
-                "Kaydetmek için \"Görüntüyü İndir\"e tıklayın."
-            ]
+            "step1_title": "Step 1",
+            "step1_desc": "Paste your Base64 string into the textarea.",
+            "step2_title": "Step 2",
+            "step2_desc": "We instantly attempt to read the string.",
+            "step3_title": "Step 3",
+            "step3_desc": "If valid, the image appears on the left.",
+            "step4_title": "Step 4",
+            "step4_desc": "Click \"Download Image\" to save it."
         },
         "use_cases": {
             "title": "Yaygın Kullanım Durumları",

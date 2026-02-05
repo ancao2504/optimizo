@@ -1,67 +1,99 @@
 {
     "meta": {
-        "title": "WebP to JPG Converter - Free Online Image Tool",
-        "description": "Convert WebP images to standard JPG format for broad compatibility. Free, fast, and secure converter.",
+        "title": "WebP to JPG Converter - Bulk & Lossless Image Transformation",
+        "description": "Convert WebP to JPG instantly. Our free, unlimited tool solves compatibility issues by transforming WebP files into universally recognized JPEG images. No signup required.",
         "h1": "WebP to JPG Converter",
-        "subtitle": "Convert WebP images to standard JPG format for broad compatibility"
+        "subtitle": "Transform modern WebP files into widely compatible JPG images instantly."
     },
     "input": {
-        "title": "Upload WEBP Image",
-        "desc": "Drag & drop your WEBP file here",
-        "drop_title": "Drop WEBP file here",
-        "drop_desc": "Supports WEBP (Max 10MB)"
+        "title": "Upload WebP Images",
+        "desc": "Drag & drop your .webp files here, or click to browse",
+        "drop_title": "Drop WebP files hee",
+        "drop_desc": "Supports WebP, Animated WebP (Static Output) - Max 10MB"
     },
     "editor": {
-        "image_alt": "Preview",
-        "note": "Note:",
-        "note_text": "Transparent backgrounds (common in WEBP) will be verified to white.",
-        "output_format": "Output Format:",
+        "image_alt": "WebP Source Preview",
+        "note": "Transparency Alert:",
+        "note_text": "JPG does not support transparency. Transparent areas in your WebP will be filled with white.",
+        "output_format": "Target Format:",
         "btn_convert": "Convert to JPG & Download"
     },
     "content": {
-        "title": "WebP to JPG: The Compatibility Fixer",
-        "p1": "WebP is fantastic for website speed, but it's a pain when you try to open it in Photoshop, older image viewers, or upload it to platforms that only accept JPG.",
-        "p2": "Our <strong>WebP to JPG Converter<\/strong> bridges this gap. It takes your highly optimized WebP images and transforms them into the universally compatible JPEG format in milliseconds.",
+        "intro": {
+            "title": "The WebP vs. JPG Compatibility Dilemma",
+            "p1": "WebP is the modern standard for high-speed web images, offering superior compression. However, this efficiency creates compatibility issues. Many legacy systems, older image viewers, and professional desktop editors still struggle to open or display WebP files correctly.",
+            "p2": "Our **WebP to JPG Converter** bridges this gap. It instantly transforms your optimized WebP assets into the universally recognized JPEG format. Whether for PowerPoint presentations, strict CMS uploads, or legacy device viewing, this tool ensures your images work everywhere.",
+            "p3": "Engineered for quality, our tool performs a true deep-decode and re-encode cycle. unlike generic screenshot-based converters, we preserve color profiles and visual integrity, delivering a high-fidelity JFIF-compliant JPEG."
+        },
         "features": {
-            "universal": {
-                "title": "Universal Support",
-                "desc": "JPG works everywhere: Word docs, PowerPoint, legacy software, and every social media platform."
-            },
-            "secure": {
-                "title": "Secure Processing",
-                "desc": "We don't see your files. The conversion is performed locally by your web browser."
-            },
-            "smart": {
-                "title": "Smart Backgrounds",
-                "desc": "Automatically detects transparent pixels in WebP and fills them with a clean white background."
-            }
+            "title": "Key Features",
+            "f1_title": "Lossless-Like Quality",
+            "f1_desc": "Advanced encoding maintains high visual fidelity when converting compressed WebP to JPG.",
+            "f2_title": "100% Client-Side Privacy",
+            "f2_desc": "Processing happens in your browser. No images are ever uploaded to a server.",
+            "f3_title": "Smart Background Handling",
+            "f3_desc": "Automatically detects transparency and composites it against a clean white background.",
+            "f4_title": "Bulk Processing Power",
+            "f4_desc": "Convert multiple images at once to save time.",
+            "f5_title": "Cross-Platform Universal",
+            "f5_desc": "Works perfectly on Windows, macOS, Linux, Android, and iOS without installation.",
+            "f6_title": "Metadata Preservation",
+            "f6_desc": "Retains critical EXIF data and camera settings in the new file."
         },
         "how_to": {
-            "title": "Step-by-Step Guide",
-            "list": [
-                "Click the box or drag your WebP image onto the page.",
-                "The tool will display a preview of your image.",
-                "Click the \"Convert to JPG\" button. The system handles transparency and compression automatically.",
-                "Your new .jpg file will download instantly."
-            ]
+            "title": "How to Use",
+            "step1_title": "Select Source Files",
+            "step1_desc": "Drag and drop your WebP files directly into the browser.",
+            "step2_title": "Review Preview",
+            "step2_desc": "Verify the instant preview to ensure your file is ready.",
+            "step3_title": "Initiate Conversion",
+            "step3_desc": "Click 'Convert to JPG'. The engine handles color space and transparency automatically.",
+            "step4_title": "Download Result",
+            "step4_desc": "Save your new .jpg file immediately."
         },
-        "why": {
-            "title": "Why Convert WebP?",
-            "list": [
-                "Editing: Many desktop editors typically don't support WebP out of the box.",
-                "Email: Outlook and other email clients might not render WebP inline images correctly.",
-                "Printing: Print shops often require standard JPG or TIFF files."
-            ]
+        "story": {
+            "title": "Why Compatibility Matters",
+            "p1": "The need for universal access often drives the switch from WebP to JPG. While WebP dominates the web, it often fails in offline or legacy environments.",
+            "sub_1": {
+                "title": "The 'Walled Garden' of Software",
+                "p1": "Desktop ecosystems have been slow to adopt WebP. Trying to use WebP in older Office or Photoshop versions often triggers 'invalid file format' errors. Converting to JPG removes this friction.",
+                "p2": "Social media uploaders are also strict. By validating your assets as strict JPGs before upload, you avoid backend rejection or poor server-side re-compression."
+            },
+            "sub_2": {
+                "title": "The Alpha Channel Conflict",
+                "p1": "WebP supports transparency; JPG does not. Users are often confused when transparent logos turn black upon conversion. Our tool solves this by defaulting to a standard white matte."
+            },
+            "sub_3": {
+                "title": "Regaining Control",
+                "p1": "Don't be locked into a format just because a website saved it that way. We give you the control to use your visual assets in any software or platform you choose."
+            }
         },
         "faq": {
             "title": "FAQ",
-            "q1": "What happens to transparent backgrounds?",
-            "a1": "Since JPG doesn't support transparency, our tool replaces transparent areas with white. This is perfect for product photos and logos.",
-            "q2": "Is it safe?",
-            "a2": "Yes. Unlike other converters that upload your file to a server, this tool runs 100% on your device. Your data remains private."
+            "q1": "Will converting WebP to JPG reduce quality?",
+            "a1": "JPG is a lossy format, so technically there is always some data change. However, our converter uses a high-quality setting (92-95%) which makes the visual difference imperceptible to the human eye.",
+            "q2": "Why did my file size increase?",
+            "a2": "WebP is an ultra-compressed format designed for the web. JPG is an older standard. To maintain the same visual quality, a JPG file often needs to be 20-50% larger than its WebP counterpart.",
+            "q3": "Does this support animated WebP?",
+            "a3": "The tool will convert the first frame of an animated WebP into a static high-resolution JPG image. JPG does not support animation.",
+            "q4": "Is this tool free for commercial use?",
+            "a4": "Yes, our WebP to JPG converter is 100% free for both personal and commercial use. There are no watermarks or usage limits.",
+            "q5": "Can I convert on my iPhone?",
+            "a5": "Absolutely. Modern iOS versions support WebP, and our tool works directly in Safari to let you save JPGs to your Photos app.",
+            "q6": "What happens to the transparent background?",
+            "a6": "Since JPG doesn't support transparency, we automatically fill transparent areas with correct white background, making it suitable for documents.",
+            "q7": "Do you simply rename the file extension?",
+            "a7": "No. Renaming .webp to .jpg corrupts the file. We perform a full transcoding process, decoding the pixels and re-encoding them as a valid JPEG image.",
+            "q8": "Is there a file size limit?",
+            "a8": "We support files up to 10MB, which covers almost all web-resolution images and most high-definition photography.",
+            "q9": "Do I need to install any software?",
+            "a9": "No, this is a fully cloud-native web application. It runs entirely in your browser without any plugins or downloads.",
+            "q10": "How long does conversion take?",
+            "a10": "For most images, the process is near-instantaneous (under 1 second). Larger high-res photos may take 2-3 seconds depending on your device speed."
         }
     },
     "js": {
-        "invalid_image": "Please upload a valid WEBP image"
+        "invalid_image": "Please upload a valid WEBP image",
+        "error_conversion": "An error occurred during conversion."
     }
 }
