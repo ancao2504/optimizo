@@ -1,96 +1,98 @@
 {
     "meta": {
-        "title": "Image Color Picker - Extract Colors from Images Online",
-        "h1": "Image Color Picker",
-        "subtitle": "Identify and extract any color from your photos with pixel-perfection.",
-        "desc": "Pick colors from any image online. Get precise HEX, RGB, and HSL codes directly from your photos with our free color picker tool."
+        "title": "Kuvan värinpoimija - Ilmainen online-pipettityökalu",
+        "h1": "Kuvan värinpoimija",
+        "subtitle": "Poimi tarkkoja värejä mistä tahansa kuvasta.",
+        "desc": "Poimi tarkkoja värejä mistä tahansa kuvasta. Saat HEX-, RGB- ja HSL-arvot suunnittelu- ja kehitystyöhön."
     },
     "input": {
-        "title": "Pick Color from Image",
-        "desc": "Upload an image and click anywhere to get the color code.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Poimi värejä kuvasta",
+        "desc": "Lataa kuva ja napsauta mitä tahansa kohtaa poimiaksesi värin.",
+        "drop_title": "Vedä ja pudota kuva tähän",
+        "drop_desc": "tai napsauta ladataksesi"
     },
-    "result": {
-        "color_swatch": "Selected Color",
-        "hex": "HEX Code",
-        "rgb": "RGB Values",
-        "hsl": "HSL Values"
+    "editor": {
+        "image_alt": "Esikatselu",
+        "pick_instruction": "Napsauta kuvaa poimiaksesi värin",
+        "hex": "HEX",
+        "rgb": "RGB",
+        "hsl": "HSL",
+        "btn_copy": "Kopioi"
     },
     "content": {
         "intro": {
-            "title": "Mastering Your Palette: The Definitive Guide to Online Image Color Extraction",
-            "subtitle": "Bridge the gap between inspiration and implementation with our pixel-perfect color picker.",
-            "p1": "Every great design starts with a spark of inspiration, and often, that inspiration comes from the colors we see in the world around us—a sunset, a vintage poster, or a stunning piece of modern digital art. However, identifying the exact digital signature of those colors has historically required expensive design software or clunky browser extensions. Our Image Color Picker is designed to simplify this process, giving you a professional-grade eyedropper tool that works directly in your web browser, allowing you to extract HEX, RGB, and HSL codes with surgical precision.",
-            "p2": "In the world of web development and UI\/UX design, consistency is everything. A single shade of blue that is slightly 'off' can break a brand's visual identity. Our tool empowers you to upload any image—whether it's a high-resolution photograph, a logo file, or a screenshot of a competitor's website—and find the exact color values used. We've built in a high-magnification zoom feature that lets you navigate individual pixels, ensuring that you don't just get 'a' color, but 'the' color you were looking for.",
-            "p3": "Beyond simple extraction, our tool is built for a fast-paced creative workflow. We provide color values in multiple formats (HEX, RGB, and HSL) so you can copy and paste them directly into your CSS files, design mockups, or brand guidelines. It's a frictionless way to build a professional color palette from any source, completely free and without the need for an account."
+            "title": "Pikselin Täydellinen: Täydellinen Opas Kuvan Värinpoimintaan",
+            "subtitle": "Poimi tarkat värikoodit mistä tahansa kuvasta välittömästi ammattimaiseen suunnitteluun.",
+            "p1": "Jokainen suunnittelija on kokenut sen hetken: näet täydellisen värin verkkosivustolla, valokuvassa tai pelaajan näytöllä ja haluat epätoivoisesti selvittää sen tarkan koodin. Kuvan värinpoimijamme on ratkaisu tähän ongelmaan.",
+            "p2": "Työkalu on suunniteltu antamaan sinulle absoluuttinen pikselintarkkuus. Lataa mikä tahansa kuva, napsauta mitä tahansa kohtaa ja saat välittömästi tarkan HEX-, RGB- ja HSL-koodin suoraan leikepöydällesi.",
+            "p3": "Olipa kyseessä web-suunnittelija, joka rakentaa väripaletteja, sisustusarkkitehti, joka yrittää löytää tiettyä sävyä, tai graafinen suunnittelija, joka työskentelee brändi-identiteetin parissa — työkalumme tarjoaa ammattitason tarkkuuden."
         },
         "story": {
-            "title": "The Science of Color Picking: From Pixels to Design Systems",
-            "p1": "To appreciate the power of an image color picker, it's helpful to understand how computers represent color. Most digital images use the RGB (Red, Green, Blue) model, where each pixel is assigned a value for each color channel. When you use our 'eyedropper' tool, you are essentially querying the underlying data array of the image to find the exact numerical values for a specific coordinate. This raw data is then converted into different human-readable formats like HEX or HSL.",
-            "p2": "HEX (Hexadecimal) is the language of the web. It's a six-character code like #3498db that browsers use to render colors. While developers love HEX for its brevity, designers often prefer HSL (Hue, Saturation, Lightness) because it's more 'intuitive.' If you want to make a color slightly lighter or less vibrant, adjusting the HSL values is much easier than doing the math for a HEX string. Our tool provides both, ensuring that every member of a creative team has the data they need.",
-            "p3": "One of the biggest challenges in color extraction is sub-pixel anti-aliasing. In many images, the edges of objects are 'blurred' by the computer to make them look smooth. This means that if you click on the very edge of a logo, you might get a mixture of the logo color and the background color. Our built-in magnifier tool is essential here, allowing you to see exactly which pixel your cursor is over, avoiding the 'muddy' colors that often result from imprecise selection.",
-            "p4": "Branding and Identity are perhaps the most common use cases for our tool. Professional brand kits often lose their original documentation over time. If you're a new designer tasked with creating a flyer for a company, you can simply upload their existing logo to our tool and instantly recover their exact 'Brand Blue' or 'Logo Red.' It's an essential utility for maintaining visual continuity across different platforms and media types.",
-            "p5": "Web Accessibility is another critical area where our color picker shines. To meet WCAG standards, text must have a certain contrast ratio against its background. Designers use our tool to pick the background color from a hero image and then use those HEX codes in a contrast checker to ensure their typography remains legible for users with vision impairments. It's about being both creative and responsible.",
-            "p6": "Consider the inspiration phase of a project. Many designers keep 'mood boards' or 'swipe files.' By using our color picker on your inspiration gallery, you can build a cohesive color scheme for a new website in minutes. You can extract the dominant tones and the subtle accent colors, creating a palette that is grounded in real-world aesthetics rather than just random color spectrum selections.",
-            "p7": "Security is a high priority for our users. Design drafts and internal assets are often sensitive. Because our Image Color Picker processes your images locally in your browser using the HTML5 Canvas API, your images are never actually sent to our servers. This ensures 100% privacy—your designs never leave your machine, and your creative secrets stay your own.",
-            "p8": "In conclusion, a color picker is more than just a tool; it's the glue that binds inspiration to implementation. Whether you're a seasoned developer or a first-time designer, use our Image Color Picker to take the guesswork out of your color workflow. It's precise, it's fast, and it's designed to make your creative life easier."
+            "title": "Väritieteen Ymmärtäminen: Pikselistä Paletiksi",
+            "p1": "Ymmärtääksesi kuinka värinpoimija toimii, meidän on ensin ymmärrettävä kuinka digitaaliset kuvat tallentavat väriä. Jokainen pikseli koostuu kolmesta kanavasta: punainen (R), vihreä (G) ja sininen (B), joiden arvot vaihtelevat 0-255.",
+            "p2": "HEX-muoto on web-suunnittelijoiden suosioma. Se on kompakti heksadesimaaliesitys, joka alkaa #-merkillä ja sisältää kuusi merkkiä. Esimerkiksi #FF5733 tarkoittaa kirkasta oranssia.",
+            "p3": "RGB-muoto on intuitiivisin, koska se vastaa suoraan näytön fyysisten pikaleiden toimintaa. Jokainen kanava vaihtelee 0-255 välillä.",
+            "p4": "HSL (Hue, Saturation, Lightness) on suunnittelijaystävävin muoto. Se erottaa värin sävyn sen voimakkuudesta ja kirkkaudesta, mikä tekee värivarianttien luomisesta intuitiivista.",
+            "p5": "Brändisuunnittelussa värinpoiminta on kriittinen taito. Kun asiakas lähettää inspiraatiokuvan, tarvitset tarkat koodit jokaiselle avainvärille.",
+            "p6": "Verkkokehityksessä tarkat värikoodit ovat välttämättömiä. CSS käyttää HEX- ja RGB-arvoja, ja pienikin poikkeama voi häiritä visuaalista yhtenäisyyttä.",
+            "p7": "Yksityisyys on sisäänrakennettu arkkitehtuuriimme. Kuvasi käsitellään paikallisesti selaimessasi. Ei latauksia, ei palvelinvarastointia.",
+            "p8": "Yhteenvetona: värinpoimija muuntaa visuaalisen inspiraation käyttökelpoisiksi koodeiksi. Se on silta suunnittelun ja toteutuksen välillä."
         },
         "features": {
-            "title": "Professional Features for Designers and Developers",
-            "f1_title": "High-Precision Magnifier",
-            "f1_desc": "Built-in zoom lens that follows your cursor, allowing you to select individual pixels with extreme accuracy even in busy or complex images.",
-            "f2_title": "Multi-Format Output",
-            "f2_desc": "Instantly provides HEX, RGB, and HSL values for every selection, catering to both web development and creative design needs.",
-            "f3_title": "100% Privacy via Browser Processing",
-            "f3_desc": "Utilizes your device's local power to process images. Your files are never uploaded, stored, or viewed by our servers.",
-            "f4_title": "History & Swatch Palettes",
-            "f4_desc": "Keep track of your recently picked colors in a visual history list, making it easy to build a complete project palette in one session.",
-            "f5_title": "Instant Copy to Clipboard",
-            "f5_desc": "Single-click copying for all color codes. Speed up your CSS and design workflow by moving data directly from your image to your code.",
-            "f6_title": "Mobile-Friendly Interactivity",
-            "f6_desc": "Touch-optimized interface that allows you to tap and pick colors from your smartphone or tablet's photo gallery on the fly."
+            "title": "Ammattitason Värinpoimintaominaisuudet",
+            "f1_title": "Pikselintarkka Poiminta",
+            "f1_desc": "Napsauta mitä tahansa pikseliä kuvassa ja saat sen tarkan väriarvon — ei arvailuja, ei likimääräisyyksiä.",
+            "f2_title": "Kolme Värimuotoa",
+            "f2_desc": "Saat samanaikaisesti HEX-, RGB- ja HSL-arvot. Kopioi suoraan CSS:ään, suunnitteluohjelmistoon tai projektidokumentaatioon.",
+            "f3_title": "Visuaalinen Esikatseluruutu",
+            "f3_desc": "Valittu väri näkyy suuressa esikatselupaneelissa, jotta voit arvioida sävyn todellisen ulkonäön kontekstissa.",
+            "f4_title": "Yhden Napsautuksen Kopiointi",
+            "f4_desc": "Kopioi mikä tahansa värimuoto leikepöydällesi yhdellä napsautuksella — suoraan koodieditoriin tai suunnitteluohjelmistoon.",
+            "f5_title": "Paikallinen Käsittely",
+            "f5_desc": "Kaikki pikselianalyysi tapahtuu selaimessasi. Kuviasi ei ladata millekään palvelimelle.",
+            "f6_title": "Korkean Resoluution Tuki",
+            "f6_desc": "Käsittelee suuret valokuvat ammattilaiskameroista ja suunnittelutiedostoja täydellä resoluutiolla."
         },
         "how_to": {
-            "title": "A Guide to Pixel-Perfect Color Selection",
-            "step1_title": "Select Source for Color Sampling",
-            "step1_desc": "Drop your image into the tool or browse your device. We support all common formats like JPG, PNG, and WebP.",
-            "step2_title": "Position the Magnifier",
-            "step2_desc": "Move your cursor over the area you want to inspect. The magnifier tool will show you a zoomed-in view of the pixel grid.",
-            "step3_title": "Lock Your Pixel",
-            "step3_desc": "Click on the exact pixel you want. The tool will freeze the values in the result panel, so you don't lose the selection.",
-            "step4_title": "Choose Your Format",
-            "step4_desc": "Look at the result panel to see the HEX code, RGB triplet, and HSL values for your chosen color.",
-            "step5_title": "Copy and Implement",
-            "step5_desc": "Click the copy icon next to your preferred format. Paste it directly into your CSS, Photoshop, or Canva project.",
-            "step6_title": "Build Your Palette",
-            "step6_desc": "Continue picking colors to build a full scheme. Use the history list to review and compare your selections."
+            "title": "Kuinka Poimia Värejä Kuvasta",
+            "step1_title": "Lataa Kuvasi",
+            "step1_desc": "Vedä ja pudota kuva tai napsauta valitaksesi tiedoston laitteeltasi. Tuemme kaikkia yleisiä kuvamuotoja.",
+            "step2_title": "Napsauta Kohdetta",
+            "step2_desc": "Vie hiiri kuvan päälle ja napsauta haluamaasi pikseliä. Kohdistin näyttää tarkan paikan.",
+            "step3_title": "Näe Tulokset",
+            "step3_desc": "HEX-, RGB- ja HSL-arvot ilmestyvät välittömästi esikatselupaneeliin.",
+            "step4_title": "Kopioi ja Käytä",
+            "step4_desc": "Napsauta kopiointipainiketta siirtääksesi värikoodin suoraan leikepöydällesi. Liitä se suunnitteluprojektiisi.",
+            "step5_title": "Tutki Lisää",
+            "step5_desc": "Napsauta kuvan eri osia kerätäksesi kokonaisen väripaletin inspiraatiokuvastasi.",
+            "step6_title": "Dokumentoi Paletti",
+            "step6_desc": "Kopioi kaikki poimitut värit suunnitteludokumentaatioosi tai CSS-tiedostoon."
         },
         "faq": {
-            "title": "Image Color Picker: Color Identification FAQ",
-            "q1": "Is the color picker's accuracy affected by image quality?",
-            "a1": "Yes. If an image is heavily compressed (blurry), the pixel colors may shift slightly. For best results, use high-resolution, uncompressed images.",
-            "q2": "What is the difference between HEX and RGB?",
-            "a2": "HEX is a base-16 code used primarily in web development. RGB is a triplet of numbers (0-255) used by computers and monitors to define color mixes.",
-            "q3": "Can I pick a color from a website directly?",
-            "a3": "You can take a screenshot of any website and upload it to our tool to find its colors. Many browsers also have built-in dev tools for this.",
-            "q4": "Does the tool work with transparent PNGs?",
-            "a4": "Yes. If you click on a transparent area, the tool will typically return the color of the underlying canvas (usually white or checkered).",
-            "q5": "Is there a limit on the number of colors I can pick?",
-            "a5": "No, you can pick as many colors as you need. There are no limits or restrictions on our free online tool.",
-            "q6": "Why would I use HSL instead of HEX?",
-            "a6": "HSL is more intuitive for adjusting colors (e.g., making a color 10% darker), while HEX is just a computer code that is hard to read for humans.",
-            "q7": "Is this tool safe for company logos?",
-            "a7": "Absolutely. Because your image stays in your browser and is never uploaded to our servers, your sensitive company assets remain private.",
-            "q8": "Does the tool work on iPhones and iPads?",
-            "a8": "Yes, our tool is fully responsive and uses touch events to allow color picking on mobile devices.",
-            "q9": "Can I save my color palette for later?",
-            "a9": "The history list is available during your current session. We recommend copying the HEX codes into a document for long-term storage.",
-            "q10": "What does a 'pixel' actually represent in color terms?",
-            "a10": "A pixel is the smallest unit of a digital image. In a standard image, it's a single color value composed of Red, Green, and Blue light data."
+            "title": "Värinpoiminnan Usein Kysytyt Kysymykset",
+            "q1": "Mikä on HEX-värikoodi?",
+            "a1": "HEX on heksadesimaaliesitys väristä, jota käytetään laajalti web-suunnittelussa ja CSS:ssä. Se alkaa #-merkillä ja sisältää kuusi merkkiä.",
+            "q2": "Mikä ero on RGB:llä ja HSL:llä?",
+            "a2": "RGB kuvaa väriä punaisen, vihreän ja sinisen sekoituksena. HSL erottaa sävyn, kylläisyyden ja kirkkauden, mikä on intuitiivisempi suunnittelijoille.",
+            "q3": "Voinko poimia värejä GIF-kuvista?",
+            "a3": "Kyllä! Poimija toimii ensimmäisestä ruudusta. Staattisissa kuvissa (JPG, PNG, WebP) se toimii suoraan.",
+            "q4": "Toimiiko tämä mobiilissa?",
+            "a4": "Kyllä, voit napauttaa kuvan mitä tahansa kohtaa mobiililaitteella poimiaksesi värin.",
+            "q5": "Kuinka tarkka värinpoiminta on?",
+            "a5": "Täydellisesti tarkka. Luemme tarkan pikseliarvon kuvan datatasonvälillä — ei arvailuja tai likimääräisyyksiä.",
+            "q6": "Tarvitaanko tili?",
+            "a6": "Ei. Työkalu on täysin ilmainen ja anonyymi. Ei rekisteröitymistä.",
+            "q7": "Voiko tämä korvata Photoshopin pipettityökalun?",
+            "a7": "Kuville ehdottomasti. Poimme pixelintarkan väritiedon ilman raskaan ohjelmiston asennusta.",
+            "q8": "Tukeeko se läpinäkyviä kuvia?",
+            "a8": "Kyllä. Jos napsautat läpinäkyvää aluetta, näet alfa-arvon omassa kanavassaan.",
+            "q9": "Miten kopioin värin CSS:ään?",
+            "a9": "Napsauta 'Kopioi'-painiketta haluamasi muodon vieressä (HEX, RGB tai HSL), ja se siirtyy leikepöydällesi liitettäväksi suoraan CSS-tiedostoon.",
+            "q10": "Onko työkalu ilmainen ammattikäyttöön?",
+            "a10": "Kyllä, täysin ilmainen kaikille käyttäjille ilman rajoituksia."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Virhe kuvan muuntamisessa: "
     }
 }

@@ -14,3 +14,7 @@ Route::middleware('auth.basic')->group(function () {
     Route::post('/media', [MediaController::class, 'upload']);
     Route::post('/logout', [AuthController::class, 'logout']);
 });
+
+Route::get('/test-connection', function () {
+    return 'Local Server';
+});
