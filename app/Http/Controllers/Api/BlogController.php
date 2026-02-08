@@ -85,15 +85,19 @@ class BlogController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Display the specified resource by ID or slug.
      */
-    public function show($id)
+    public function show($idOrSlug)
     {
-        $post = Post::with(['categories', 'author'])->find($id);
+        $query = Post::with(['categories', 'author']);
 
-        if (!$post) {
-            // Try to find by slug if ID not found
-            $post = Post::with(['categories', 'author'])->where('slug', $id)->first();
+        if (is_numeric($idOrSlug)) {
+            // Try by ID first, then fall back to slug
+            $post = $query->where('id', $idOrSlug)->first()
+                ?? Post::with(['categories', 'author'])->where('slug', $idOrSlug)->first();
+        } else {
+            // Non-numeric: go straight to slug lookup
+            $post = $query->where('slug', $idOrSlug)->first();
         }
 
         if (!$post) {
