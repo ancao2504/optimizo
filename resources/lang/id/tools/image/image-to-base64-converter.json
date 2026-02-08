@@ -1,57 +1,59 @@
 {
     "meta": {
-        "title": "Konverter Gambar ke Base64 - Alat String Online Gratis",
-        "description": "Konversikan gambar ke string yang dikodekan Base64 untuk disematkan dalam HTML atau CSS. Alat online gratis yang mendukung PNG, JPG, GIF.",
-        "h1": "Konversi Gambar ke String Base64",
-        "subtitle": "Konversikan gambar ke string yang dikodekan Base64 untuk disematkan dalam HTML atau CSS"
+        "title": "Konverter Gambar ke Base64 - Encoder Online Gratis",
+        "description": "Konversikan gambar apa pun (PNG, JPG, GIF) ke string Base64 untuk digunakan langsung dalam CSS atau HTML.",
+        "h1": "Konverter Gambar ke Base64",
+        "subtitle": "Ubah gambar menjadi string Base64 untuk penyematan langsung dalam kode"
     },
     "input": {
-        "title": "Unggah Gambar",
-        "desc": "Seret & letakkan file gambar Anda di sini",
-        "drop_title": "Letakkan file gambar di sini",
-        "drop_desc": "Mendukung Semua Format Gambar"
+        "title": "Unggah Gambar untuk Dikodekan",
+        "desc": "Pilih file gambar untuk dikodekan menjadi string Base64.",
+        "drop_title": "Seret & Letakkan gambar di sini",
+        "drop_desc": "atau klik untuk menelusuri"
     },
     "editor": {
-        "image_alt": "Preview",
-        "label_string": "Tali Base64",
-        "btn_copy": "Salin ke Papan Klip",
-        "char_count": "Jumlah Karakter",
-        "mime_type": "Tipe MIME"
+        "image_alt": "Gambar yang Diunggah",
+        "output_title": "Output Base64 Anda",
+        "output_placeholder": "String Base64 yang dikodekan akan muncul di sini...",
+        "label_datauri": "Sertakan Data URI Prefix",
+        "btn_copy": "Salin Base64"
     },
     "content": {
-        "title": "Konversi Gambar ke String Base64",
-        "p1": "Pengembang dan perancang web sering kali perlu menyematkan gambar langsung ke file HTML atau CSS untuk mengurangi permintaan HTTP.",
-        "p2": "<strong>Konverter Gambar ke Base64<\/strong> kami mengkodekan file gambar Anda menjadi serangkaian karakter panjang yang mewakili data biner. Anda dapat menempelkan string ini langsung ke kode Anda.",
+        "title": "Kodekan Gambar ke Base64",
+        "p1": "Terkadang cara paling efisien untuk menampilkan gambar kecil bukan dengan membuat permintaan HTTP terpisah, tetapi dengan <strong>menyematkannya langsung dalam kode</strong> Anda sebagai string Base64.",
+        "p2": "Alat <strong>Gambar ke Base64</strong> kami membaca file gambar Anda dan mengubahnya menjadi string teks panjang yang dapat Anda tempelkan langsung ke dalam stylesheet CSS (<code>background-image: url(data:...)</code>) atau atribut <code>src</code> tag HTML <code>img</code>.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Clipboard Ready",
-            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
-            "f2_title": "Reduce Requests",
-            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
-            "f3_title": "Any Format",
-            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
+            "title": "Fitur Utama",
+            "f1_title": "Encoding Instan",
+            "f1_desc": "Unggah gambar dan dapatkan string Base64 dalam milidetik. Tidak ada antrian atau waktu tunggu.",
+            "f2_title": "Data URI Toggle",
+            "f2_desc": "Pilih apakah akan menyertakan prefix data:image/... untuk penyematan langsung dalam HTML atau CSS.",
+            "f3_title": "Dukungan Multi-Format",
+            "f3_desc": "Kodekan file PNG, JPG, GIF, WebP, dan SVG menjadi Base64."
         },
         "how_to": {
-            "title": "Bagaimana cara menggunakannya?",
-            "step1_title": "Step 1",
-            "step1_desc": "Select your image file.",
-            "step2_title": "Step 2",
-            "step2_desc": "The tool immediately converts the file to a Data URI.",
-            "step3_title": "Step 3",
-            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
-            "step4_title": "Step 4",
-            "step4_desc": "Insert it into your `src` attribute or CSS file."
+            "title": "Cara Menggun Base64",
+            "step1_title": "Langkah 1",
+            "step1_desc": "Unggah gambar yang ingin Anda kodekan.",
+            "step2_title": "Langkah 2",
+            "step2_desc": "Pilih apakah akan menyertakan prefix Data URI.",
+            "step3_title": "Langkah 3",
+            "step3_desc": "String Base64 muncul secara otomatis di area output.",
+            "step4_title": "Langkah 4",
+            "step4_desc": "Klik 'Salin Base64' untuk menyalinnya ke clipboard Anda."
         },
         "use_cases": {
-            "title": "Kapan menggunakan Base64?",
+            "title": "Kasus Penggunaan Umum",
             "list": [
-                "Gambar Kecil: Terbaik untuk ikon, spinner, dan logo kecil (di bawah 10KB).",
-                "Aplikasi File Tunggal: Saat Anda perlu menggabungkan semuanya ke dalam satu file HTML (misalnya, template email).",
-                "Akses Offline: Memastikan gambar dimuat bahkan tanpa koneksi jaringan jika HTML disimpan secara lokal."
+                "Penyematan: Memasukkan ikon kecil atau gambar UI langsung ke CSS tanpa memerlukan permintaan HTTP tambahan.",
+                "Email: Menyematkan gambar langsung dalam template email HTML agar terlihat di semua klien email.",
+                "Prototyping: Menyisipkan gambar cepat saat membuat prototipe halaman web tanpa server file."
             ]
         }
     },
     "js": {
-        "copied": "Disalin!"
+        "no_file": "Silakan pilih file gambar terlebih dahulu.",
+        "copy_success": "Berhasil disalin ke clipboard!",
+        "copy_fail": "Gagal menyalin."
     }
 }

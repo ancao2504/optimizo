@@ -1,61 +1,95 @@
 {
     "meta": {
-        "title": "Konverter SVG ke JPG - Pengonversi Gambar Online Gratis",
-        "description": "Konversi gambar SVG ke format JPG secara instan di browser Anda. Konversi cepat, gratis, dan aman.",
+        "title": "Konverter SVG ke JPG - Konverter Gambar Online Gratis",
         "h1": "Konverter SVG ke JPG",
-        "subtitle": "Ubah gambar SVG menjadi JPG yang kompatibel secara universal."
+        "subtitle": "Ubah gambar vektor SVG menjadi file JPG raster.",
+        "desc": "Konversikan file SVG ke format JPG secara instan. Ubah grafik vektor menjadi gambar raster. Gratis dan aman."
     },
     "input": {
         "title": "Konversi SVG ke JPG",
-        "desc": "Unggah gambar SVG Anda dan konversi menjadi file JPG standar secara instan.",
-        "drop_title": "Seret & Lepas file SVG di sini",
-        "drop_desc": "atau klik untuk menelusuri foto"
+        "desc": "Unggah file SVG Anda dan konversikan ke gambar JPG raster.",
+        "drop_title": "Seret & Letakkan file SVG di sini",
+        "drop_desc": "atau klik untuk mengunggah"
     },
-    "editor": {
-        "image_alt": "Preview",
-        "note": "Catatan:",
-        "note_text": "Latar belakang transparan akan diisi dengan warna putih.",
-        "output_format": "Format Keluaran:",
-        "scale_label": "Skala (Scale)",
-        "scale_1": "1x (Ukuran Asli)",
-        "scale_2": "2x (Resolusi Tinggi)",
-        "scale_4": "4x (Ultra HD)",
-        "btn_convert": "Konversi ke JPG"
+    "result": {
+        "converted_to": "Dikonversi ke",
+        "image_alt": "Pratinjau Gambar SVG",
+        "btn_download": "Unduh JPG"
     },
     "content": {
-        "title": "Konversi Format SVG ke JPG",
-        "p1": "Perlu menggunakan logo di dokumen atau di situs web yang tidak menerima file vektor? <strong>Konverter SVG ke JPG<\/strong> kami adalah jawabannya.",
-        "p2": "Ini menciptakan file gambar yang solid dan memiliki kompatibilitas tinggi dari sumber vektor Anda. Kami secara otomatis menangani transparansi dengan menambahkan latar belakang putih bersih, memastikan grafis Anda terlihat profesional di media apa pun.",
+        "intro": {
+            "title": "Dari Vektor ke Raster: Panduan Konversi SVG ke JPG",
+            "subtitle": "Ubah grafik vektor skalabel menjadi gambar JPG universal yang kompatibel di mana saja.",
+            "p1": "SVG (Scalable Vector Graphics) adalah format berbasis XML yang mendefinisikan gambar menggunakan rumus matematika — bukan piksel. Ini membuatnya berukuran sangat kecil dan dapat diskalakan tanpa batas. Tetapi tidak semua platform mendukung SVG.",
+            "p2": "Ketika Anda memerlukan versi raster dari logo, ikon, atau grafik SVG — untuk email, presentasi, atau platform yang tidak mendukung SVG — konversi ke JPG adalah solusinya.",
+            "p3": "Alat kami me-render SVG pada resolusi yang Anda tentukan dan mengekspor gambar JPG berkualitas tinggi, langsung di browser Anda."
+        },
+        "story": {
+            "title": "Vektor vs Raster: Kapan Menggunakan Masing-Masing",
+            "p1": "SVG ideal untuk logo, ikon, diagram, dan grafik yang perlu ditampilkan di berbagai ukuran. File SVG bisa diperbesar 1000x tanpa kehilangan ketajaman.",
+            "p2": "Tetapi JPG diperlukan untuk kompatibilitas universal. Email, dokumen Word, presentasi PowerPoint, dan banyak platform tidak mendukung SVG.",
+            "p3": "Resolusi rendering penting. SVG tidak memiliki resolusi intrinsik, jadi saat mengonversi ke raster, Anda harus memilih ukuran piksel yang sesuai.",
+            "p4": "Latar belakang transparan di SVG akan diisi dengan putih saat konversi ke JPG — karena JPG tidak mendukung transparansi.",
+            "p5": "Untuk ikon dan logo beresolusi tinggi, kami merekomendasikan rendering pada 2x atau 3x ukuran target untuk hasil tajam pada layar retina.",
+            "p6": "Alat kami menggunakan mesin rendering Canvas browser untuk konversi yang akurat dan berkualitas tinggi.",
+            "p7": "Privasi terjamin — ke SVG Anda diproses secara lokal.",
+            "p8": "Singkatnya: SVG ke JPG menjembatani dunia vektor dan raster untuk kompatibilitas maksimal."
+        },
         "features": {
-            "title": "Key Features",
-            "f1_title": "Maximum Compatibility",
-            "f1_desc": "JPG is opened by literally every digital device and software created in the last 30 years.",
-            "f2_title": "4x High Resolution",
-            "f2_desc": "Scale up your SVG before saving to ensure your JPG is sharp, not blurry.",
-            "f3_title": "Secure Client-Side",
-            "f3_desc": "Processing happens in your browser. We never see your files."
+            "title": "Fitur Konversi SVG ke JPG",
+            "f1_title": "Rendering Berkualitas Tinggi",
+            "f1_desc": "Mesin Canvas browser merender SVG dengan presisi dan akurasi penuh.",
+            "f2_title": "Kontrol Resolusi",
+            "f2_desc": "Pilih ukuran output — dari ikon kecil hingga gambar beresolusi tinggi.",
+            "f3_title": "Penanganan Warna Akurat",
+            "f3_desc": "Warna SVG (termasuk gradien dan filter) dirender dengan akurat.",
+            "f4_title": "Pemrosesan Instan",
+            "f4_desc": "Rendering dan konversi real-time tanpa server.",
+            "f5_title": "100% Privat",
+            "f5_desc": "Tidak ada unggahan. Semuanya diproses di browser Anda.",
+            "f6_title": "Gratis Tanpa Batas",
+            "f6_desc": "Gunakan tanpa watermark, tanpa registrasi, tanpa batasan."
         },
         "how_to": {
-            "title": "Instruksi Mudah",
-            "step1_title": "Step 1",
-            "step1_desc": "Click \"Upload\" or drag your file to the center box.",
-            "step2_title": "Step 2",
-            "step2_desc": "Choose a scaling factor (e.g., 2x or 4x) for higher quality results.",
-            "step3_title": "Step 3",
-            "step3_desc": "Observe the image. Note that transparent backgrounds are now white.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Convert to JPG & Download\"."
+            "title": "Cara Mengonversi SVG ke JPG",
+            "step1_title": "Pilih File SVG",
+            "step1_desc": "Seret file .svg Anda ke zona unggah.",
+            "step2_title": "Rendering Otomatis",
+            "step2_desc": "Mesin kami me-render SVG pada resolusi tinggi.",
+            "step3_title": "Atur Ukuran Output",
+            "step3_desc": "Pilih dimensi piksel yang diinginkan untuk JPG.",
+            "step4_title": "Pratinjau Hasil",
+            "step4_desc": "Verifikasi bahwa semua elemen SVG di-render dengan benar.",
+            "step5_title": "Unduh JPG",
+            "step5_desc": "Simpan gambar JPG raster yang dihasilkan.",
+            "step6_title": "Gunakan di Mana Saja",
+            "step6_desc": "JPG kompatibel dengan semua platform, email, dan perangkat."
         },
-        "why": {
-            "title": "Mengapa memilih JPG daripada PNG untuk Vektor?",
-            "p1": "Meskipun PNG mendukung transparansi, JPG menghasilkan ukuran file yang lebih kecil untuk gambar yang kompleks dan berwarna.",
-            "list": [
-                "File Lebih Kecil: Lebih baik untuk email dan lampiran.",
-                "Tidak Ada Masalah Transparansi: Beberapa pemirsa menganggap transparansi sebagai warna hitam. JPG memaksakan latar belakang putih, memastikan logo Anda dapat dibaca."
-            ]
+        "faq": {
+            "title": "FAQ Konversi SVG ke JPG",
+            "q1": "Apakah font SVG dirender dengan benar?",
+            "a1": "Font yang disematkan dalam SVG dirender. Font yang direferensikan secara eksternal mungkin di-substitusi.",
+            "q2": "Apa yang terjadi dengan transparansi?",
+            "a2": "JPG tidak mendukung transparansi. Area transparan diisi dengan warna putih.",
+            "q3": "Bisakah mengatur kualitas JPG?",
+            "a3": "Ya, kami menyediakan slider kualitas untuk mengontrol rasio ukuran/kualitas.",
+            "q4": "Apakah animasi SVG didukung?",
+            "a4": "Kami menangkap frame pertama dari SVG animasi. Untuk animasi penuh, gunakan format video.",
+            "q5": "Apakah ini gratis?",
+            "a5": "Ya, sepenuhnya gratis.",
+            "q6": "Apakah file SVG saya aman?",
+            "a6": "Ya. Pemrosesan lokal — tidak ada unggahan.",
+            "q7": "Resolusi maksimum?",
+            "a7": "Tergantung pada memori perangkat. Biasanya mendukung hingga 4000x4000 piksel.",
+            "q8": "Bisakah konversi batch?",
+            "a8": "Saat ini satu file per sesi.",
+            "q9": "Apakah filter dan efek SVG didukung?",
+            "a9": "Ya, mesin rendering kami mendukung filter SVG standar.",
+            "q10": "Berfungsi di ponsel?",
+            "a10": "Ya! Responsif dan berfungsi di semua perangkat."
         }
     },
     "js": {
-        "invalid_image": "Harap unggah gambar SVG yang valid"
+        "error_conversion": "Kesalahan saat mengonversi gambar: "
     }
 }

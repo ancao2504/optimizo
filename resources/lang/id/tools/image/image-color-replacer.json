@@ -1,94 +1,97 @@
 {
     "meta": {
-        "title": "Image Color Replacer - Change Colors in Images Online",
-        "h1": "Image Color Replacer",
-        "subtitle": "Swap specific colors in your photos or logos easily online.",
-        "desc": "Replace specific colors in your images online. Change red to blue, background colors, or object colors easily with our free tool."
+        "title": "Pengganti Warna Gambar - Edit Warna Foto Online",
+        "h1": "Pengganti Warna Gambar",
+        "subtitle": "Ganti warna tertentu dalam gambar Anda dengan warna yang berbeda secara instan.",
+        "desc": "Ganti warna tertentu dalam gambar secara online. Ubah latar belakang, ganti warna logo, dan banyak lagi. Gratis dan aman."
     },
     "input": {
-        "title": "Replace Color in Image",
-        "desc": "Upload an image, pick a color to replace, and choose a new color.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Ganti Warna dalam Gambar",
+        "desc": "Unggah gambar dan pilih warna yang ingin Anda ganti.",
+        "drop_title": "Seret & Letakkan gambar di sini",
+        "drop_desc": "atau klik untuk mengunggah"
+    },
+    "settings": {
+        "title": "Pengaturan Penggantian Warna"
     },
     "result": {
-        "applied": "Color Swapped Successfully",
-        "btn_download": "Download New Image"
+        "applied": "Penggantian warna diterapkan",
+        "btn_download": "Unduh Gambar yang Diedit"
     },
     "content": {
         "intro": {
-            "title": "Creative Color Transformation: The Ultimate Image Color Replacer",
-            "subtitle": "Redefine your visual aesthetic by swapping any color with surgical precision.",
-            "p1": "Have you ever found the perfect stock photo but wished the subject's shirt was blue instead of red? Or perhaps you've designed a logo that looks great, but your client wants to see it in five different brand colors? Traditionally, these simple color swaps required expensive software like Adobe Photoshop and a high level of technical skill in using 'Color Range' selections and adjustment layers. Our Image Color Replacer changes the game, providing a sophisticated, browser-based solution that allows you to swap any color in your image with a single click.",
-            "p2": "The power of our tool lies in its intelligent color-matching algorithm. It doesn't just look for a single exact HEX code; it understands the concept of 'color families.' By using our advanced tolerance slider, you can decide exactly how broad or narrow your color replacement should be. This allows you to replace a solid color in a logo with 100% accuracy, or subtly shift the hue of a complex organic object like a flower or a piece of clothing while maintaining its natural highlights and shadows.",
-            "p3": "Whether you are a product marketer visualizing a new line of items, a web designer adjusting site assets to match a new CSS theme, or a casual user correcting a 'red eye' or background distraction, our online tool provides a professional-grade workspace. We prioritize speed and privacy, ensuring that your color transformations happen instantly, for free, and without ever compromising your data security."
+            "title": "Materi Transformasi Warna: Ubah Warna Apa Pun dalam Gambar Anda",
+            "subtitle": "Ganti warna tertentu tanpa memengaruhi bagian gambar lainnya.",
+            "p1": "Pernahkah Anda ingin mengubah warna langit dalam foto, mengganti latar belakang logo, atau menukar warna produk tanpa membuka editor gambar yang rumit? Alat Pengganti Warna Gambar kami membuatnya semudah memilih warna sumber dan target.",
+            "p2": "Alat kami bekerja berdasarkan prinsip sederhana namun kuat: identifikasi piksel dengan warna tertentu (ditambah toleransi), dan ganti dengan warna baru pilihan Anda. Kontrol toleransi memungkinkan Anda mencocokkan variasi alami dalam foto.",
+            "p3": "Baik untuk rebranding warna merek, mockup produk dalam berbagai warna, atau pengeditan artistik — alat ini menyediakan solusi cepat tanpa perlu keahlian Photoshop."
         },
         "story": {
-            "title": "The Technology Behind Selective Color Replacement",
-            "p1": "To appreciate how our Image Color Replacer works, one must look at the 'Euclidean Distance' in color space. Every pixel in your image is a point in a three-dimensional RGB cube. When you pick a color to replace, you are establishing a 'target' coordinate. Our algorithm then scans the entire image, calculating the mathematical distance between every pixel and that target. The 'Tolerance' slider defines the radius of the sphere around that target—pixels inside the sphere get replaced, while those outside remain untouched.",
-            "p2": "A common challenge in color replacement is 'aliasing'—the jagged edges that appear when you change one color but the pixels next to it stay the same. Our tool handles this through 'edge feathering' and 'partial replacement.' By analyzing the alpha-blending of edges, we can apply a percentage of the new color to pixels that are only partially 'matched' to the target, resulting in a smooth, natural transition that doesn't look like a digital cutout.",
-            "p3": "Why is this better than a simple 'paint bucket' tool found in basic photo editors? A paint bucket only fills continuous areas. Our global color replacer works throughout the entire image. If you have a specific shade of yellow scattered across multiple parts of a technical diagram, our tool will find and replace all of them simultaneously, ensuring perfect consistency and saving you minutes of tedious clicking.",
-            "p4": "Branding iteration is a massive use case. When companies rebrand, they often have hundreds of legacy assets in old colors. Instead of manually editing every SVG or PNG file, you can run them through our color replacer. It's an essential utility for 'Visual Identity Audits,' allowing designers to quickly see how existing assets would look under a new color palette without committing to hours of manual labor in a desktop app.",
-            "p5": "E-commerce and Product Photography benefit significantly from our 'Recolor' technology. Many small business owners take one high-quality product photo and use our tool to create 'Color Variations' for their shop. Instead of setting up a separate photo shoot for a red shirt, blue shirt, and green shirt, you can simply shoot the white one and use our replacer to generate the rest of the product line. It's about saving time and money while maintaining a professional appearance.",
-            "p6": "Color Theory and Education are also supported by our tool. Students use it to experiment with 'Complementary' and 'Analogous' color schemes in real-world images. Seeing how an image's mood changes when you swap a warm tone for a cool one is one of the fastest ways to learn the psychological impact of color in design and marketing.",
-            "p7": "Security is a top priority. Color replacement often involves sensitive company logos or unreleased product designs. We use the latest encryption and temporary processing protocols to ensure that your files are handled in a sandbox environment. Your proprietary colors and designs are never stored on our database, and we certainly don't use them to train any AI or marketing models.",
-            "p8": "In summary, the Image Color Replacer is a bridge between your creative imagination and the final digital output. Don't let the colors of the past limit your vision for the future. Use our tool to experiment, refine, and perfect your images with the precision and speed of a professional studio."
+            "title": "Kekuatan Penggantian Warna: Studi Kasus & Aplikasi Nyata",
+            "p1": "Rebranding korporat adalah kasus penggunaan utama. Saat perusahaan mengubah warna merek, ribuan aset perlu diperbarui. Alat kami dapat mengganti warna logo lama dengan yang baru dalam hitungan detik.",
+            "p2": "E-commerce menggunakan penggantian warna untuk menunjukkan produk dalam berbagai variasi warna. Satu foto produk dapat menghasilkan beberapa versi warna tanpa pemotretan ulang.",
+            "p3": "Desain interior virtual memungkinkan klien melihat bagaimana warna cat yang berbeda akan terlihat di ruangan mereka. Cukup ganti warna dinding dalam foto.",
+            "p4": "Pengeditan artistik dan kreatif: ubah langit menjadi ungu, rumput menjadi biru, atau buat efek pop-art yang menarik.",
+            "p5": "Konsistensi merek lintas platform: pastikan ikon dan grafik menggunakan warna yang tepat di setiap tempat.",
+            "p6": "Toleransi warna adalah fitur kunci. Foto dunia nyata jarang memiliki satu warna homogen — ada gradasi, bayangan, dan noise. Slider toleransi kami memungkinkan pencocokan yang cerdas.",
+            "p7": "Semua pemrosesan terjadi secara lokal di browser Anda — privasi dan keamanan terjamin.",
+            "p8": "Singkatnya: alat ini memberi Anda kekuatan Photoshop untuk penggantian warna dalam antarmuka yang sederhana dan intuitif."
         },
         "features": {
-            "title": "Advanced Utilities for Global Color Replacement",
-            "f1_title": "Smart Tolerance Control",
-            "f1_desc": "Finely tune the color matching threshold. Go from an exact pixel match to a broad range of similar shades and highlights with a single slider.",
-            "f2_title": "Precise Eye-Dropper Select",
-            "f2_desc": "Sample the 'Source' color directly from your image using our high-magnification lens, ensuring you target exactly the shade you intend to change.",
-            "f3_title": "Full Spectrum Color Picker",
-            "f3_desc": "Choose your 'Destination' color from millions of possibilities using our integrated HEX\/RGB\/HSL picker, or paste a specific code from your brand kit.",
-            "f4_title": "Global Image Application",
-            "f4_desc": "Replaces colors across the entire image grid simultaneously, providing perfect consistency for branding and technical diagrams.",
-            "f5_title": "Real-Time Visual Preview",
-            "f5_desc": "Adjust your settings and see the results instantly on the canvas. Fine-tune your tolerance levels before committing to the final download.",
-            "f6_title": "Sandboxed Chromatic Processing",
-            "f6_desc": "All processing is handled temporarily using your device's resources. We provide professional utilities without compromising your private designs."
+            "title": "Alat Penggantian Warna Profesional",
+            "f1_title": "Pemilihan Warna Presisi",
+            "f1_desc": "Pilih warna sumber langsung dari gambar menggunakan eyedropper bawaan.",
+            "f2_title": "Kontrol Toleransi Cerdas",
+            "f2_desc": "Sesuaikan sensitivitas pencocokan untuk menangkap variasi warna alami dalam foto.",
+            "f3_title": "Pratinjau Real-Time",
+            "f3_desc": "Lihat hasil penggantian warna secara langsung saat Anda menyesuaikan pengaturan.",
+            "f4_title": "Pelestarian Detail",
+            "f4_desc": "Hanya warna yang berubah — tekstur, bayangan, dan detail tetap utuh.",
+            "f5_title": "Pemilih Warna Target Lengkap",
+            "f5_desc": "Pilih warna pengganti mana pun menggunakan pemilih warna HEX/RGB penuh.",
+            "f6_title": "Pemrosesan Privat",
+            "f6_desc": "Tidak ada unggahan server. Penggantian warna terjadi sepenuhnya di browser Anda."
         },
         "how_to": {
-            "title": "Master the Swap: How to Use the Color Replacer",
-            "step1_title": "Upload Your Graphic",
-            "step1_desc": "Drag and drop your logo, photo, or design into the tool. We support high-resolution JPG, PNG, and WebP files.",
-            "step2_title": "Pick the Source Color",
-            "step2_desc": "Click the 'From' eyedropper and then click on the part of the image you want to change. The magnifier will help you hit the right pixel.",
-            "step3_title": "Select the Target Hue",
-            "step3_desc": "Click the 'To' color box and use the color picker or HEX input to define what the new color should be.",
-            "step4_title": "Calibrate Tolerance",
-            "step4_desc": "Slide the tolerance bar. If 'too much' of the image is changing, lower the value. If edges are being missed, increase it.",
-            "step5_title": "Analyze and Apply",
-            "step5_desc": "Review the preview image. Look for smooth edges and consistent coverage across all parts of the image.",
-            "step6_title": "Download the New Version",
-            "step6_desc": "Once you're happy, hit the download button. Your newly recolored image is ready for your project or website!"
+            "title": "Cara Mengganti Warna dalam Gambar",
+            "step1_title": "Unggah Gambar Anda",
+            "step1_desc": "Seret dan letakkan gambar yang ingin Anda edit ke zona unggah.",
+            "step2_title": "Pilih Warna Sumber",
+            "step2_desc": "Gunakan eyedropper untuk mengklik warna yang ingin Anda ganti dalam gambar.",
+            "step3_title": "Atur Toleransi",
+            "step3_desc": "Sesuaikan slider toleransi untuk menentukan seberapa mirip warna harus cocok.",
+            "step4_title": "Pilih Warna Target",
+            "step4_desc": "Gunakan pemilih warna untuk memilih warna pengganti baru.",
+            "step5_title": "Tinjau Pratinjau",
+            "step5_desc": "Periksa pratinjau real-time untuk memastikan hasil sesuai harapan.",
+            "step6_title": "Unduh Hasil",
+            "step6_desc": "Simpan gambar yang telah diedit dengan warna baru."
         },
         "faq": {
-            "title": "Image Color Replacer: Pro-Tips and FAQ",
-            "q1": "Why did my whole image turn a new color when I changed a small part?",
-            "a1": "This usually means your 'Tolerance' is set too high. Lower the slider to make the tool more picky about which pixels it chooses to replace.",
-            "q2": "Can I replace multiple colors at once?",
-            "a2": "Our current tool is optimized for one global color swap at a time to ensure maximum precision. You can download the file and re-upload it for a second color.",
-            "q3": "Does it work with gradients?",
-            "a3": "Yes, but you will need to find the 'sweet spot' with the tolerance slider to catch all the intermediate shades of the gradient effectively.",
-            "q4": "Will my transparent background be affected?",
-            "a4": "No. Our tool is designed to ignore transparent pixels, ensuring that your logos and icons maintain their original transparent backgrounds.",
-            "q5": "Is it safe for professional design work?",
-            "a5": "Yes. We use high-precision math to ensure colors are mapped correctly. It is a trusted tool for rapid prototyping and color iteration.",
-            "q6": "Why does the color look slightly different on my phone?",
-            "a6": "Different screens have different color calibrations. For professional work, we recommend checking the results on a calibrated monitor using HEX codes.",
-            "q7": "Can I undo a color replacement?",
-            "a7": "The preview updates in real-time as you move the sliders. If you don't like a change, simply adjust the colors or clear the selection.",
-            "q8": "Does the tool support very large images?",
-            "a8": "Yes, our engine can handle high-res photos up to 15-20MB, making it suitable for both web assets and printable graphics.",
-            "q9": "What is the best format to upload?",
-            "a9": "For logos, we recommend PNG for the best clarity. For photos, JPG or WebP will work perfectly.",
-            "q10": "Is there a limit on how many colors I can change per day?",
-            "a10": "No, our service is completely free and unlimited. Use it as often as your creative process requires."
+            "title": "FAQ Penggantian Warna Gambar",
+            "q1": "Bisakah mengganti beberapa warna sekaligus?",
+            "a1": "Saat ini kami mendukung satu penggantian warna per sesi untuk presisi terbaik.",
+            "q2": "Apa itu toleransi warna?",
+            "a2": "Toleransi menentukan seberapa mirip piksel harus dengan warna yang dipilih untuk diganti. Toleransi lebih tinggi menangkap lebih banyak variasi.",
+            "q3": "Apakah bayangan dan gradasi terpengaruh?",
+            "a3": "Pengaturan toleransi yang tepat memungkinkan Anda mempertahankan gradasi alami sambil mengganti warna dasar.",
+            "q4": "Berfungsi dengan latar belakang transparan?",
+            "a4": "Ya! Piksel transparan tidak terpengaruh — hanya piksel dengan warna yang cocok yang diganti.",
+            "q5": "Apakah kualitas gambar berkurang?",
+            "a5": "Tidak. Kami hanya mengubah nilai warna piksel yang cocok. Resolusi dan kualitas tetap sama.",
+            "q6": "Format apa yang didukung?",
+            "a6": "JPG, PNG, WebP, dan BMP.",
+            "q7": "Bisakah mengganti warna di bagian tertentu saja?",
+            "a7": "Alat ini mengganti semua piksel yang cocok di seluruh gambar. Untuk penggantian area tertentu, gunakan editor gambar profesional.",
+            "q8": "Apakah gambar saya aman?",
+            "a8": "Ya. Pemrosesan lokal di browser Anda — tidak ada gambar yang diunggah.",
+            "q9": "Apakah ini gratis?",
+            "a9": "Ya, sepenuhnya gratis tanpa batasan.",
+            "q10": "Berfungsi di ponsel?",
+            "a10": "Ya! Desain responsif dan berfungsi di semua perangkat."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Kesalahan saat memproses gambar: "
     }
 }

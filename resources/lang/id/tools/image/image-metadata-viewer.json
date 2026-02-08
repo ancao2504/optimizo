@@ -1,97 +1,97 @@
 {
     "meta": {
-        "title": "Image Metadata Viewer - View EXIF Data Online",
-        "h1": "Image Metadata Viewer",
-        "subtitle": "Extract and view hidden EXIF data and metadata from your photos.",
-        "desc": "View hidden EXIF metadata from your photos online. Check camera settings, GPS location, and more with our free metadata viewer."
+        "title": "Penampil Metadata Gambar - Baca Data EXIF Online",
+        "h1": "Penampil Metadata Gambar",
+        "subtitle": "Lihat data EXIF, GPS, dan metadata tersembunyi dalam foto Anda.",
+        "desc": "Lihat metadata EXIF tersembunyi dalam foto Anda termasuk lokasi GPS, pengaturan kamera, dan informasi teknis. Online dan gratis."
     },
     "input": {
-        "title": "View Image Metadata",
-        "desc": "Upload an image to reveal its hidden EXIF data and information.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Lihat Metadata Gambar",
+        "desc": "Unggah foto untuk melihat semua data tersembunyi yang tertanam.",
+        "drop_title": "Seret & Letakkan gambar di sini",
+        "drop_desc": "atau klik untuk mengunggah"
+    },
+    "settings": {
+        "title": "Opsi Tampilan"
     },
     "result": {
-        "title": "Image Metadata Results",
-        "filename": "Filename",
-        "filesize": "File Size",
-        "format": "Image Format"
+        "applied": "Metadata diekstrak",
+        "btn_download": "Ekspor Data Metadata"
     },
     "content": {
         "intro": {
-            "title": "The Hidden Biography of Every Photo: Mastering the Metadata Viewer",
-            "subtitle": "Peel back the layers of your images to reveal the precise technical and geographic data hidden within.",
-            "p1": "Every time you press the shutter button on a digital camera or tap the screen of your smartphone, you're doing more than just capturing a moment in time. You're creating a complex digital document. Hidden beneath the surface of the pixels is a wealth of information known as metadata—the 'data about the data.' Our Image Metadata Viewer is designed to be your window into this secret biography, allowing you to extract and read the technical settings, timestamps, and geolocation coordinates that tell the story of how and where your image was born.",
-            "p2": "The most common form of image metadata is EXIF (Exchangeable Image File Format). This standard was created to help photographers and developers understand the technical environment of a photo. It stores everything from the camera's manufacturer and model to the specific lens used, the aperture settings, the shutter speed, and whether or not a flash was triggered. Our online viewer provides a clean, organized table of these attributes, turning a wall of raw binary code into a readable report that anyone can understand.",
-            "p3": "Whether you're a professional photographer analyzing your shooting habits, a digital forensic enthusiast verifying the authenticity of an image, or a privacy-conscious user checking if your social media photos contain your home address, our tool provides a secure, instantaneous solution. We prioritize data accuracy and user privacy, processing your images for extraction without ever storing your personal information on our permanent databases."
+            "title": "Buka Rahasia Foto: Panduan Metadata Gambar",
+            "subtitle": "Temukan informasi tersembunyi yang tertanam dalam setiap foto digital.",
+            "p1": "Setiap foto digital lebih dari sekadar piksel. Tertanam di dalam file adalah lapisan data tersembunyi yang disebut metadata — informasi tentang kapan, di mana, dan bagaimana foto diambil. Penampil Metadata Gambar kami mengungkap semua informasi ini.",
+            "p2": "Metadata EXIF mencakup model kamera, pengaturan lensa (aperture, shutter speed, ISO), koordinat GPS, tanggal pengambilan, profil warna, dan bahkan perangkat lunak yang digunakan untuk mengedit foto.",
+            "p3": "Baik untuk fotografer yang belajar dari pengaturan mereka, penyelidik forensik digital, atau siapa pun yang ingin tahu tentang foto — alat kami menyediakan pembacaan metadata yang lengkap."
         },
         "story": {
-            "title": "Behind the Pixels: Why Metadata Matters in a Digital World",
-            "p1": "To appreciate the utility of a metadata viewer, we must look at the different 'dialects' of image information. Beyond standard EXIF data, there is also IPTC (International Press Telecommunications Council) data, which is used by journalists for captions and copyright, and XMP (Extensible Metadata Platform), created by Adobe to track editing history. Our tool is designed to scan for all of these headers, giving you a holistic view of the image's lifecycle.",
-            "p2": "GPS and Geolocation are perhaps the most sensitive parts of metadata. Modern smartphones automatically embed the latitude and longitude of where a photo was taken. While this is great for organizing your vacation album, it can be a significant security risk if you share photos taken at home or at a sensitive work location. Our viewer allows you to check for this data before you share, giving you the power to see exactly what a social media site or a savvy stranger could potentially learn about your daily routine.",
-            "p3": "Camera DNA—the technical specs—is a goldmine for learning photographers. Have you ever wondered how a professional got a specific look in a photo? By uploading their original file to our metadata viewer, you can see their ISO, aperture, and focal length. It's like looking at the recipe for a perfect meal. You can use this information to replicate settings and improve your own technical mastery of the craft.",
-            "p4": "Verification and Trust are critical in an era of AI-generated content and heavy photo manipulation. Metadata often contains markers from the software used to edit a photo. If an image claims to be a 'raw' news photo but the metadata shows it was saved five times in Photoshop, that's a red flag. Our tool helps you perform basic digital due diligence, providing a layer of transparency and accountability to the visuals you encounter online.",
-            "p5": "Copyright and Ownership are facilitated by metadata. Professional photographers embed their name, website, and copyright status directly into the file header. If you find an image and want to use it legally, our viewer can often help you identify the original creator. Conversely, if you're an artist, you can use our tool to verify that your uploaded images are correctly displaying your credit line to the world.",
-            "p6": "Why Trust Our Metadata Inspector? Many operating systems bury metadata deep in 'Properties' or 'Get Info' menus, which often hide the technical or 'obscure' EXIF tags. Our tool presents everything in a single, comprehensive list. We don't hide the raw tags; we explain them. It's a professional-grade inspection tool that's as easy to use as a basic web search.",
-            "p7": "Security and Privacy are our guiding principles. Inspecting metadata shouldn't mean sharing it with a third party. Because our Image Metadata Viewer uses client-side JavaScript to 'read' the headers of your files, your images are never actually uploaded to our servers for storage. The extraction happens in a secure, temporary sandbox in your browser, and once you close the tab, all traces of the image and its data are purged.",
-            "p8": "In conclusion, metadata is the invisible ink of the digital century. It adds context, accountability, and depth to every visual we create. Use our Image Metadata Viewer to explore your own archives, learn the secrets of great photography, and take control of your digital privacy. It's the simplest way to see the full picture."
+            "title": "Cerita di Balik Piksel: Memahami Metadata EXIF",
+            "p1": "EXIF (Exchangeable Image File Format) adalah standar yang mendefinisikan bagaimana informasi tambahan disimpan dalam file gambar. Standar ini didefinisikan oleh Japan Electronic Industries Association.",
+            "p2": "Untuk fotografer, metadata EXIF adalah buku harian pembelajaran. Anda bisa melihat pengaturan tepat yang menghasilkan bidikan favorit Anda — aperture, shutter speed, ISO, panjang fokus.",
+            "p3": "Penyelidik forensik digital menggunakan metadata untuk memverifikasi keaslian foto, menentukan kapan dan di mana foto diambil, dan mendeteksi manipulasi.",
+            "p4": "Kurator seni dan museum menggunakan metadata untuk mendokumentasikan dan mengarsipkan karya fotografi digital.",
+            "p5": "Pengembang web menggunakan metadata untuk mengoptimalkan gambar — memahami orientasi, profil warna, dan resolusi.",
+            "p6": "Alat kami membaca semua tag EXIF standar dan menampilkannya dalam format yang mudah dibaca.",
+            "p7": "Pemrosesan lokal — foto Anda tidak pernah diunggah ke server kami.",
+            "p8": "Singkatnya: metadata gambar adalah jendela ke cerita di balik setiap foto."
         },
         "features": {
-            "title": "Advanced Utilities for Detailed Image Inspection",
-            "f1_title": "EXIF\/IPTC\/XMP Multi-Scan",
-            "f1_desc": "Comprehensive header analysis that extracts technical camera settings, journalistic captions, and Adobe-standard editing history in one pass.",
-            "f2_title": "Geolocation Mapping",
-            "f2_desc": "Detects hidden GPS coordinates (latitude, longitude, and even altitude) to show you exactly where the image was captured on the globe.",
-            "f3_title": "Camera Artifact Detection",
-            "f3_desc": "Identifies the specific camera model, serial number (where available), and lens specifications used for the shot.",
-            "f4_title": "Technical Exposure Report",
-            "f4_desc": "Detailed breakdown of the 'Big Three' settings: ISO, Aperture, and Shutter Speed, along with metering modes and focal length.",
-            "f5_title": "Browser-Based Security",
-            "f5_desc": "Your metadata stays yours. We use local JavaScript to read your files, meaning your photos never reach our servers and are never stored.",
-            "f6_title": "Universal File Compatibility",
-            "f6_desc": "Supports JPG, TIFF, and WebP, as well as many professional RAW formats. If it has metadata, we can find it."
+            "title": "Alat Profesional untuk Analisis Metadata",
+            "f1_title": "Pembacaan EXIF Lengkap",
+            "f1_desc": "Membaca semua tag EXIF standar termasuk pengaturan kamera, lensa, dan parameter eksposur.",
+            "f2_title": "Peta Lokasi GPS",
+            "f2_desc": "Jika foto mengandung data GPS, kami menampilkan lokasi pada peta interaktif.",
+            "f3_title": "Informasi Kamera Detail",
+            "f3_desc": "Lihat merek, model, firmware kamera, dan detail lensa yang digunakan.",
+            "f4_title": "Data Teknis Eksposur",
+            "f4_desc": "Aperture, shutter speed, ISO, mode metering, mode flash, dan white balance.",
+            "f5_title": "Profil Warna & ICC",
+            "f5_desc": "Identifikasi ruang warna dan profil ICC yang tertanam dalam gambar.",
+            "f6_title": "Pemrosesan Lokal",
+            "f6_desc": "Metadata dibaca secara lokal di browser Anda — foto tidak pernah diunggah."
         },
         "how_to": {
-            "title": "Master the Inspection: How to View Metadata",
-            "step1_title": "Initialize Data Archive Analysis",
-            "step1_desc": "Drag and drop the file you want to inspect. For best results, use the original file from the camera rather than a version downloaded from social media.",
-            "step2_title": "Header Analysis Phase",
-            "step2_desc": "The tool instantly parses the file's binary headers, looking for standard and proprietary metadata markers from various manufacturers.",
-            "step3_title": "Review the Technical Data",
-            "step3_desc": "Scroll through the generated list. Check the 'Camera' section for settings and the 'Software' section for editing history.",
-            "step4_title": "Inspect the Location Data",
-            "step4_desc": "Look for the GPS section. If the photo was taken with a smartphone or GPS-enabled camera, the coordinates will be listed here.",
-            "step5_title": "Verify Copyright and Authorship",
-            "step5_desc": "Check the IPC sections to see if an artist or photographer has embedded their name and copyright terms into the file.",
-            "step6_title": "Close and Purge",
-            "step6_desc": "Once you've seen what you need, simply close the page. No data is saved, and your privacy is maintained throughout the process."
+            "title": "Cara Membaca Metadata Gambar",
+            "step1_title": "Pilih Foto",
+            "step1_desc": "Seret dan letakkan foto dari kamera, ponsel, atau file digital apa pun.",
+            "step2_title": "Pembacaan Otomatis",
+            "step2_desc": "Alat kami secara otomatis mengekstrak semua metadata dari file gambar.",
+            "step3_title": "Jelajahi Data EXIF",
+            "step3_desc": "Tinjau pengaturan kamera, tanggal, lokasi, dan informasi teknis.",
+            "step4_title": "Periksa Lokasi GPS",
+            "step4_desc": "Jika tersedia, lihat lokasi pengambilan foto pada peta.",
+            "step5_title": "Analisis Pengaturan",
+            "step5_desc": "Belajar dari aperture, shutter speed, dan ISO yang digunakan.",
+            "step6_title": "Ekspor Data",
+            "step6_desc": "Ekspor data metadata dalam format yang mudah dibaca untuk referensi."
         },
-        "how_to_title": "A Guide to Digital Forensics",
         "faq": {
-            "title": "Metadata Knowledge Base: EXIF\/IPTC Inspection FAQ",
-            "q1": "Why can't I see any metadata on a photo I downloaded from Facebook?",
-            "a1": "Most social media sites (Facebook, Instagram, Twitter) strip metadata for privacy and optimization during the upload process.",
-            "q2": "What is the most important metadata tag?",
-            "a2": "For photographers, it's the ISO, Aperture, and Shutter Speed. For privacy, it's the GPS coordinates.",
-            "q3": "Can metadata be faked?",
-            "a3": "Yes. It is possible to edit or 'spoof' metadata using specialized software. Always treat it as a helpful guide rather than absolute legal proof.",
-            "q4": "Will my image be changed after viewing?",
-            "a4": "No. Our tool is strictly a 'viewer.' We read the data but do not modify or save the file in any way.",
-            "q5": "Does the tool work with RAW files?",
-            "a5": "Yes! We support many professional RAW formats (CR2, NEF, ARW) which often contain the most comprehensive metadata of all.",
-            "q6": "Is this tool free for personal use?",
-            "a6": "Absolutely. Our metadata viewer is 100% free and requires no account or registration.",
-            "q7": "How do I know if a photo has a GPS location?",
-            "a7": "Upload the file; if a 'GPS' section appears in our results, the location data is present. If not, the photo is likely 'clean.'",
-            "q8": "Can I view the metadata of many photos at once?",
-            "a8": "Currently, we process images one by one to ensure the most detailed and accurate report for each individual file.",
-            "q9": "What is IPTC data used for?",
-            "a9": "IPTC is used mainly by news agencies to store captions, keywords, and legal instructions for photo usage.",
-            "q10": "Is my data safe on this website?",
-            "a10": "Yes. We use client-side processing, meaning your photo stays in your browser and is never stored on our servers."
+            "title": "FAQ Metadata Gambar",
+            "q1": "Semua foto memiliki metadata?",
+            "a1": "Hampir semua foto digital memiliki metadata. Beberapa platform media sosial menghapusnya saat mengunggah.",
+            "q2": "Bisakah saya melihat di mana foto diambil?",
+            "a2": "Ya, jika kamera/ponsel memiliki GPS aktif saat foto diambil.",
+            "q3": "Apakah tangkapan layar memiliki metadata?",
+            "a3": "Tangkapan layar memiliki metadata minimal — biasanya tanggal, ukuran, dan perangkat.",
+            "q4": "Bisakah metadata dimanipulasi?",
+            "a4": "Ya, metadata bisa diedit atau dihapus. Itulah mengapa forensik digital tidak hanya mengandalkan metadata.",
+            "q5": "Format apa yang didukung?",
+            "a5": "JPG, PNG, WebP, TIFF, dan HEIC.",
+            "q6": "Apakah foto saya aman?",
+            "a6": "Ya. Pembacaan metadata terjadi secara lokal di browser — tidak ada unggahan.",
+            "q7": "Apakah ini gratis?",
+            "a7": "Ya, sepenuhnya gratis.",
+            "q8": "Bisakah digunakan untuk investigasi?",
+            "a8": "Ya. Alat kami berguna untuk verifikasi foto dan investigasi forensik dasar.",
+            "q9": "Apakah video memiliki metadata serupa?",
+            "a9": "Ya, tetapi alat ini khusus untuk gambar. Video memerlukan alat terpisah.",
+            "q10": "Berfungsi di ponsel?",
+            "a10": "Ya! Responsif dan berfungsi di semua perangkat."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Kesalahan saat memproses gambar: "
     }
 }

@@ -1,99 +1,99 @@
 {
     "meta": {
-        "title": "Responsive Image Generator - Create Srcset Online",
-        "h1": "Responsive Image Generator",
-        "subtitle": "Generate perfectly sized images and HTML srcset code for all devices.",
-        "desc": "Generate responsive images and HTML srcset attributes online. Create perfectly sized images for mobile, tablet, and desktop automatically."
+        "title": "Generator Gambar Responsif - Buat Srcset Online",
+        "h1": "Generator Gambar Responsif",
+        "subtitle": "Buat gambar berukuran sempurna dan kode HTML srcset untuk semua perangkat.",
+        "desc": "Buat gambar responsif dan atribut HTML srcset secara online. Hasilkan gambar untuk mobile, tablet, dan desktop secara otomatis."
     },
     "input": {
-        "title": "Generate Responsive Images",
-        "desc": "Upload an image to create multiple resized versions and the HTML srcset code.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Buat Gambar Responsif",
+        "desc": "Unggah gambar untuk membuat beberapa versi yang di-resize dan kode HTML srcset.",
+        "drop_title": "Seret & Letakkan Gambar di sini",
+        "drop_desc": "atau klik untuk mengunggah"
     },
     "settings": {
-        "title": "Breakpoint Settings"
+        "title": "Pengaturan Breakpoint"
     },
     "result": {
-        "title": "Generated Assets",
-        "assets_desc": "Your resized images and integration code are ready.",
-        "btn_download_all": "Download All (ZIP)",
-        "code_snippet": "Copy HTML Code"
+        "title": "Aset yang Dihasilkan",
+        "assets_desc": "Gambar yang di-resize dan kode integrasi Anda sudah siap.",
+        "btn_download_all": "Unduh Semua (ZIP)",
+        "code_snippet": "Salin Kode HTML"
     },
     "content": {
         "intro": {
-            "title": "One Image, Every Screen: The Professional Guide to Responsive Imagery",
-            "subtitle": "Bridge the gap between high-definition quality and cellular speed with our automated srcset generator.",
-            "p1": "In the modern web landscape, your users are visiting you on a vast spectrum of hardware. One visitor might be using a 4K desktop monitor with a gigabit connection, while another is on a four-year-old smartphone using a shaky 3G signal in a basement. If you serve the same 4400-pixel wide hero image to both, you are punishing your mobile users with massive load times and data costs. Our Responsive Image Generator is built to solve this 'one-size-fits-all' dilemma, allowing you to generate a suite of perfectly sized images and the intelligent HTML code needed to deliver them.",
-            "p2": "The magic of modern responsive design lies in the `srcset` attribute. Unlike the old `src` attribute which forced a single file down every pipe, `srcset` provides the browser with a menu of options. You provide the images, and the browser—using its knowledge of the user's screen width and resolution—picks the most efficient file for the job. Our tool automates the tedious manual work of resizing, renaming, and coding these alternatives, transforming a high-resolution master file into a production-ready responsive asset package in seconds.",
-            "p3": "Whether you're a frontend developer striving for a perfect Lighthouse score, a designer ensuring your UI is crisp on Retina displays, or a blogger wanting to make your site accessible to users around the world, our online generator offers a frictionless, professional-grade workflow. We prioritize speed, accuracy, and performance, giving you the power to build a truly 'mobile-first' experience without the manual labor of traditional asset management."
+            "title": "Satu Gambar, Setiap Layar: Panduan Profesional Gambar Responsif",
+            "subtitle": "Kurangi gap antara kualitas definisi tinggi dan kecepatan seluler dengan generator srcset otomatis kami.",
+            "p1": "Dalam lanskap web modern, pengguna Anda mengunjungi dari spektrum perangkat yang luas. Seorang pengunjung mungkin menggunakan monitor 4K dengan koneksi gigabit, sementara yang lain di smartphone dengan sinyal 3G yang lemah. Generator Gambar Responsif kami memecahkan dilema ini.",
+            "p2": "Keajaiban desain responsif modern terletak pada atribut `srcset`. Berbeda dengan atribut `src` lama yang memaksakan satu file, `srcset` menyediakan menu opsi kepada browser. Alat kami mengotomatiskan pekerjaan resize, penamaan, dan pengkodean.",
+            "p3": "Baik Anda pengembang frontend, desainer, atau blogger — generator online kami menawarkan alur kerja profesional tanpa gesekan."
         },
         "story": {
-            "title": "The Infinite Viewport: Why Responsive Images are the Foundation of Modern UX",
-            "p1": "To understand the utility of our tool, you must understand 'Data Waste.' If you display an image at 300 pixels wide on a phone, but the file you're sending is 2000 pixels wide, you're sending roughly 40 times more data than necessary. This 'over-serving' is the leading cause of high bounce rates on mobile devices. Our generator creates the 'Breakpoints'—the specific widths where the image changes size—ensuring that every user gets 'just enough' pixels to look perfect, and not a single byte more.",
-            "p2": "The 'Density' factor is another critical layer. Modern phones have 'Retina' or 'High-DPI' screens that require twice as much detail as a standard monitor. If you only provide a 'small' version for mobile, your site will look blurry on high-end phones. Our tool helps you generate @2x and @3x versions if needed, creating a comprehensive list of assets that ensures your brand looks 'pixel-perfect' whether it's on a budget tablet or a flagship smartphone.",
-            "p3": "The `srcset` and `sizes` attributes are the 'logic' of responsive images. Writing these by hand is notoriously difficult and prone to errors. You have to specify the width of each image in 'w' units and then tell the browser how much of the viewport the image will take up using media queries. Our tool generates this complex HTML string for you automatically. You simply copy and paste the code, and your images instantly become 'browser-aware,' responding dynamically to the user's environment without an extra line of JavaScript.",
-            "p4": "Performance SEO is the final hidden benefit. Google's 'mobile-first' indexing weights page speed heavily. By using responsive images to reduce your mobile payload by 70-90%, you are signaling to search engines that your site is technically superior and optimized for all users. It's one of the most effective technical SEO 'quick wins' available, and our tool makes it as easy as a single upload.",
-            "p5": "Workflow Integration is where we help professional teams. If your designers are handing off massive 10MB Photoshop exports, your developers shouldn't have to manually save ten different versions. They can simply run the master file through our generator. It's a standardized, repeatable process that ensures every image on your site follows the same high-performance rules, regardless of who created it or when it was uploaded.",
-            "p6": "Why use our online tool instead of a build-step plugin? Many build-step tools like Webpack or Gulp are 'black boxes' that are hard to configure. Our tool gives you a visual preview. You can see the file sizes of each breakpoint before you download them. You have the control to add or remove specific widths based on your project's unique layout. It's a 'Precision Tool' for developers who want to understand and control their asset pipeline.",
-            "p7": "Trust-based responsive asset architecture. Serving the right image shouldn't mean uploading your proprietary assets to a data-scraping server. Because our Responsive Image Generator uses the local power of your browser's rendering engine (Canvas and local blobs), your files aren't stored on our machines. The resizing and the code generation happen on your device, ensuring that your high-value photography and UI assets remain your private property from start to finish.",
-            "p8": "In conclusion, the Responsive Image Generator is about inclusivity. It's about ensuring your message reaches every user, regardless of their technology or their location. Use our tool to build a faster, sharper, and more professional web, and treat every one of your visitors to a perfectly optimized visual experience. It's the final piece of the modern performance puzzle."
+            "title": "Viewport Tak Terbatas: Mengapa Gambar Responsif adalah Fondasi UX Modern",
+            "p1": "Untuk memahami utilitas alat kami, Anda harus memahami 'Pemborosan Data'. Jika Anda menampilkan gambar 300 piksel di ponsel tetapi file yang dikirim 2000 piksel lebar, Anda mengirim 40x lebih banyak data dari yang diperlukan.",
+            "p2": "Faktor 'Kepadatan' adalah lapisan kritikal lainnya. Ponsel modern memerlukan detail dua kali lipat dari monitor standar. Alat kami membantu membuat versi @2x dan @3x.",
+            "p3": "Atribut `srcset` dan `sizes` adalah 'logika' gambar responsif. Menulisnya manual sangat sulit dan rentan kesalahan. Alat kami menghasilkan string HTML kompleks ini secara otomatis.",
+            "p4": "SEO performa adalah manfaat tersembunyi. Indeks 'mobile-first' Google sangat menilai kecepatan halaman. Mengurangi payload mobile 70-90% memberi sinyal keunggulan teknis.",
+            "p5": "Integrasi alur kerja membantu tim profesional. Designer menyerahkan file besar, developer cukup menjalankannya melalui generator kami.",
+            "p6": "Mengapa alat online kami? Banyak alat build-step adalah 'kotak hitam'. Alat kami memberi pratinjau visual — Anda bisa melihat ukuran file setiap breakpoint.",
+            "p7": "Arsitektur aset berbasis kepercayaan. Generator kami menggunakan mesin render browser lokal Anda. File tidak disimpan di server kami.",
+            "p8": "Singkatnya: Generator Gambar Responsif adalah tentang inklusivitas — memastikan pesan Anda menjangkau setiap pengguna."
         },
         "features": {
-            "title": "Professional Utilities for Multi-Device Image Management",
-            "f1_title": "Automated Multi-Breakpoint Resizing",
-            "f1_desc": "Generate up to five different versions of your image in a single pass, targeting standard mobile, tablet, and desktop widths with medical precision.",
-            "f2_title": "Intelligent HTML Srcset Generator",
-            "f2_desc": "Get copy-pasteable HTML that includes the `srcset` and `sizes` attributes, correctly mapped to your generated file names for instant implementation.",
-            "f3_title": "High-Quality Resampling Logic",
-            "f3_desc": "Uses advanced interpolation algorithms to ensure that your resized images remain sharp and clear, avoiding the 'blur' of low-quality browser rescaling.",
-            "f4_title": "Asset Package Creator",
-            "f4_desc": "Download all your resized versions in a single organized folder. We handle the naming conventions (e.g., image-mobile.jpg, image-desktop.jpg) automatically.",
-            "f5_title": "Viewport-Aware Code Logic",
-            "f5_desc": "Generated code includes responsive hints that help the browser decide which image to download before the main CSS has even finished loading.",
-            "f6_title": "Secure On-Device Asset Generation",
-            "f6_desc": "Resizing and code generation happen entirely in your local browser sandbox. Your high-res source files are never uploaded or stored on our servers."
+            "title": "Utilitas Profesional untuk Manajemen Gambar Multi-Perangkat",
+            "f1_title": "Resize Multi-Breakpoint Otomatis",
+            "f1_desc": "Hasilkan hingga lima versi gambar dalam satu kali proses, menargetkan lebar standar mobile, tablet, dan desktop.",
+            "f2_title": "Generator HTML Srcset Cerdas",
+            "f2_desc": "Dapatkan HTML siap pakai yang mencakup atribut `srcset` dan `sizes`, dipetakan dengan benar ke nama file.",
+            "f3_title": "Logika Resampling Berkualitas Tinggi",
+            "f3_desc": "Menggunakan algoritma interpolasi canggih untuk memastikan gambar yang di-resize tetap tajam dan jernih.",
+            "f4_title": "Pembuat Paket Aset",
+            "f4_desc": "Unduh semua versi yang di-resize dalam satu folder terorganisir dengan konvensi penamaan otomatis.",
+            "f5_title": "Logika Kode Viewport-Aware",
+            "f5_desc": "Kode yang dihasilkan mencakup petunjuk responsif yang membantu browser memilih gambar sebelum CSS selesai dimuat.",
+            "f6_title": "Generasi Aset Lokal yang Aman",
+            "f6_desc": "Resize dan generasi kode terjadi sepenuhnya di sandbox browser lokal Anda."
         },
         "how_to": {
-            "title": "Master the Scale: How to Create Responsive Images",
-            "step1_title": "Upload the Global Master",
-            "step1_desc": "Select your highest-resolution version of the photo (e.g., 4000px wide). This provides the best data for creating the smaller breakpoints.",
-            "step2_title": "Define Your Target Widths",
-            "step2_desc": "Choose the breakpoints that match your CSS. Standard values like 480px, 768px, 1200px, and 1920px cover the vast majority of devices.",
-            "step3_title": "Batch Process the Assets",
-            "step3_desc": "Click the generate button. Our engine will create the individual files for each width while simultaneously building the HTML code block.",
-            "step4_title": "Download the Zip Archive",
-            "step4_desc": "Retrieve all your new, optimized image files. Upload them to the same folder on your server where your original image was located.",
-            "step5_title": "Integrate the Srcset Code",
-            "step5_desc": "Copy the generated code snippet. Paste it into your HTML or CMS, replacing your old, static `<img>` or `<picture>` tags.",
-            "step6_title": "Test on Different Devices",
-            "step6_desc": "Open your site on a phone and a desktop. Use the browser inspector to verify that the browser is indeed picking the smaller file for the smaller screen."
+            "title": "Cara Membuat Gambar Responsif",
+            "step1_title": "Unggah Master Global",
+            "step1_desc": "Pilih versi foto beresolusi tertinggi (mis. 4000px lebar). Ini menyediakan data terbaik untuk breakpoint yang lebih kecil.",
+            "step2_title": "Tentukan Lebar Target",
+            "step2_desc": "Pilih breakpoint yang cocok dengan CSS Anda. Nilai standar seperti 480px, 768px, 1200px, dan 1920px mencakup mayoritas perangkat.",
+            "step3_title": "Proses Batch Aset",
+            "step3_desc": "Klik tombol generate. Mesin kami membuat file individual untuk setiap lebar sambil membangun blok kode HTML.",
+            "step4_title": "Unduh Arsip ZIP",
+            "step4_desc": "Ambil semua file gambar baru yang dioptimalkan. Unggah ke folder yang sama di server.",
+            "step5_title": "Integrasikan Kode Srcset",
+            "step5_desc": "Salin kode yang dihasilkan. Tempelkan ke HTML atau CMS, menggantikan tag `<img>` atau `<picture>` lama.",
+            "step6_title": "Uji di Berbagai Perangkat",
+            "step6_desc": "Buka situs di ponsel dan desktop. Gunakan inspector browser untuk memverifikasi browser memilih file yang tepat."
         },
         "faq": {
-            "title": "Responsive Mastery: Adaptive Image Strategy FAQ",
-            "q1": "Why not just use 'width: 100%' in CSS?",
-            "a1": "'Width: 100%' makes an image fit the screen visually, but it still forces the phone to download the same 'huge' file size as a desktop.",
-            "q2": "What is the 'w' unit in srcset?",
-            "a2": "The 'w' unit tells the browser the physical width of the image in pixels. It helps the browser do the math for which file to download.",
-            "q3": "Do I need the <picture> tag or just <img> with srcset?",
-            "a3": "For most responsive images (resizing for width), `<img>` with `srcset` is best. Use `<picture>` if you need 'Art Direction' (different crops for different screens).",
-            "q4": "Will my images load twice if I use srcset?",
-            "a4": "No. The browser is very smart—it analyzes the `srcset` and the screen width *before* it starts any download, picking only the single best file.",
-            "q5": "Is there a limit on file resolution?",
-            "a5": "We can process master files up to 20-25MB, making it suitable for professional DSLR exports and 4K photography.",
-            "q6": "Does this tool work with WebP?",
-            "a6": "Yes! We recommend using WebP for your responsive assets to get the greatest possible speed benefit for your mobile visitors.",
-            "q7": "How many breakpoints should I use?",
-            "a7": "Three to four is usually enough (Mobile, Tablet, Desktop, Wide). Adding more creates diminishing returns and more assets to manage.",
-            "q8": "Can I use this for background images?",
-            "a8": "Responsive background images use CSS Media Queries. Our tool is optimized for the standard and more efficient HTML `<img>` markup.",
-            "q9": "Is the generator free for agencies?",
-            "a9": "Yes! Our responsive image tool is free for everyone, with no limits on how many images you can optimize per day.",
-            "q10": "Are my images safe from being stored?",
-            "a10": "Absolutely. Resizing happens locally in your browser's memory. Your assets never reach our servers, ensuring 100% intellectual property security."
+            "title": "FAQ Strategi Gambar Adaptif Responsif",
+            "q1": "Mengapa tidak cukup 'width: 100%' di CSS?",
+            "a1": "'Width: 100%' membuat gambar cocok secara visual, tetapi ponsel tetap mengunduh file 'besar' yang sama.",
+            "q2": "Apa itu unit 'w' di srcset?",
+            "a2": "Unit 'w' memberitahu browser lebar fisik gambar dalam piksel. Ini membantu browser menghitung file mana yang diunduh.",
+            "q3": "Apakah saya perlu tag <picture> atau cukup <img> dengan srcset?",
+            "a3": "Untuk kebanyakan gambar responsif, `<img>` dengan `srcset` sudah cukup. Gunakan `<picture>` jika Anda memerlukan crop berbeda untuk layar berbeda.",
+            "q4": "Apakah gambar dimuat dua kali dengan srcset?",
+            "a4": "Tidak. Browser menganalisis `srcset` dan lebar layar *sebelum* memulai unduhan, hanya memilih satu file terbaik.",
+            "q5": "Apakah ada batasan resolusi file?",
+            "a5": "Kami dapat memproses file master hingga 20-25MB.",
+            "q6": "Apakah alat ini bekerja dengan WebP?",
+            "a6": "Ya! Kami merekomendasikan WebP untuk aset responsif Anda demi kecepatan maksimal.",
+            "q7": "Berapa banyak breakpoint yang harus saya gunakan?",
+            "a7": "Tiga hingga empat biasanya cukup (Mobile, Tablet, Desktop, Wide).",
+            "q8": "Bisakah digunakan untuk gambar latar belakang?",
+            "a8": "Gambar latar responsif menggunakan CSS Media Queries. Alat kami dioptimalkan untuk markup HTML `<img>` standar.",
+            "q9": "Apakah generator gratis untuk agensi?",
+            "a9": "Ya! Alat gambar responsif kami gratis untuk semua tanpa batasan.",
+            "q10": "Apakah gambar saya aman dari penyimpanan?",
+            "a10": "Tentu saja. Resize terjadi secara lokal di memori browser. Aset Anda tidak pernah mencapai server kami."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Kesalahan saat mengonversi gambar: "
     }
 }
