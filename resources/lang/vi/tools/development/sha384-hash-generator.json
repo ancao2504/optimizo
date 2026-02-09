@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "SHA-384 Hash Generator - Công cụ trực tuyến miễn phí",
-        "description": "Generate SHA-384 hashes from any text. Truncated SHA-512 variant offering 192 bits of collision resistance. Free, instant, and secure.",
-        "h1": "SHA-384 Hash Generator",
-        "subtitle": "Generate 384-bit SHA-384 cryptographic hashes for high-security applications"
+        "title": "Tạo Hash SHA-384 - Công cụ Trực tuyến Miễn phí",
+        "description": "Tạo hash SHA-384 từ bất kỳ văn bản nào. Biến thể cắt ngắn SHA-512 với khả năng chống 192-bit. Miễn phí.",
+        "h1": "Tạo Hash SHA-384",
+        "subtitle": "Tạo Hash SHA-384 — Cho Ứng dụng Bảo mật Cao"
     },
     "editor": {
-        "label_input": "Nhập văn bản",
-        "ph_input": "Nhập văn bản để tạo SHA-384 hash...",
-        "btn_generate": "Tạo SHA-384 Hash",
-        "label_result": "SHA-384 Hash",
+        "label_input": "Nhập Văn bản",
+        "ph_input": "Nhập văn bản để tạo hash SHA-384...",
+        "btn_generate": "Tạo Hash SHA-384",
+        "label_result": "Hash SHA-384",
         "btn_copy": "Sao chép"
     },
     "content": {
-        "hero_title": "SHA-384 Hash Generator",
-        "hero_subtitle": "High-security 384-bit cryptographic hashing",
-        "p1": "SHA-384 is a member of the SHA-2 family that produces a 384-bit (96-character hex) hash value. It is actually a truncated version of SHA-512, using different initial hash values and outputting only 384 of the 512 computed bits. SHA-384 is used in government and financial systems requiring higher security than SHA-256 but where the full 512-bit output of SHA-512 is excessive. It's specified in TLS cipher suites and digital signature standards.",
-        "what_title": "What is SHA-384?",
-        "what_desc": "SHA-384 uses the exact same algorithm as SHA-512 internally — processing data in 1024-bit blocks through 80 rounds of operations on 64-bit words. The difference lies in the initialization vectors (different starting values) and the final output being truncated to 384 bits. This makes it impossible to use SHA-512 results to derive SHA-384 results or vice versa.",
-        "features_title": "✅ SHA-384 Advantages",
+        "hero_title": "Tạo Hash SHA-384",
+        "hero_subtitle": "Hash mật mã bảo mật cao 384-bit",
+        "p1": "SHA-384 là thành viên họ SHA-2 tạo hash 384-bit (96 ký tự thập lục phân). Là phiên bản cắt ngắn SHA-512 với giá trị khởi tạo khác.",
+        "what_title": "SHA-384 là gì?",
+        "what_desc": "SHA-384 sử dụng thuật toán SHA-512 — khối 1024-bit qua 80 vòng phép toán 64-bit.",
+        "features_title": "✅ Ưu điểm",
         "features": {
-            "fast": "<strong>192-bit Security:</strong> Higher collision resistance than SHA-256",
-            "fixed": "<strong>384-bit Output:</strong> 96-character hexadecimal digest",
-            "deterministic": "<strong>64-bit Optimized:</strong> Uses 64-bit operations, fast on modern CPUs",
-            "support": "<strong>Government Approved:</strong> NIST recommended for sensitive applications"
+            "fast": "<strong>Bảo mật 192-bit:</strong> Khả năng chống xung đột cao hơn SHA-256",
+            "fixed": "<strong>Đầu ra 384-bit:</strong> Digest 96 ký tự",
+            "deterministic": "<strong>Tối ưu 64-bit:</strong> Sử dụng phép toán 64-bit",
+            "support": "<strong>Chứng nhận chính phủ:</strong> NIST khuyến nghị"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Ứng dụng",
         "uses": {
-            "verify": "<strong>TLS Cipher Suites:</strong> Used in ECDHE-RSA-AES256-SHA384",
-            "checksum": "<strong>Digital Signatures:</strong> High-security document signing",
-            "cache": "<strong>Government Systems:</strong> FIPS 180-4 compliant applications",
-            "integrity": "<strong>Financial Protocols:</strong> Banking and payment security"
+            "verify": "<strong>Bộ TLS:</strong> Kết nối bảo mật cao",
+            "checksum": "<strong>Chữ ký số:</strong> Ký bảo mật cao",
+            "cache": "<strong>Hệ thống chính phủ:</strong> Ứng dụng FIPS 180-4",
+            "integrity": "<strong>Giao thức tài chính:</strong> Giao dịch ngân hàng"
         },
-        "warning_title": "💡 When to Use SHA-384",
-        "warning_desc": "<strong>SHA-384 sits between SHA-256 and SHA-512 in security level.</strong> Choose SHA-384 when your security requirements exceed SHA-256's 128-bit collision resistance, or when you need the 64-bit performance of SHA-512 but want a shorter output. For most applications, SHA-256 is sufficient.",
-        "compare_title": "🔄 SHA-2 Family Comparison",
+        "warning_title": "💡 Khi nào Dùng",
+        "warning_desc": "<strong>SHA-384 nằm giữa SHA-256 và SHA-512.</strong> Chọn SHA-384 khi nhu cầu vượt 128-bit của SHA-256.",
+        "compare_title": "🔄 Họ SHA-2",
         "compare": {
             "md5": {
                 "title": "SHA-256",
-                "desc1": "256-bit, 32-bit ops",
-                "desc2": "128-bit collision resistance"
+                "desc1": "256-bit",
+                "desc2": "Chống 128-bit"
             },
             "sha1": {
                 "title": "SHA-384",
-                "desc1": "384-bit, 64-bit ops",
-                "desc2": "192-bit collision resistance"
+                "desc1": "384-bit",
+                "desc2": "Chống 192-bit"
             },
             "sha256": {
                 "title": "SHA-512",
-                "desc1": "512-bit, 64-bit ops",
-                "desc2": "256-bit collision resistance"
+                "desc1": "512-bit",
+                "desc2": "Chống 256-bit"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Câu hỏi Thường gặp",
         "faq": {
-            "q1": "Why use SHA-384 instead of SHA-256?",
-            "a1": "SHA-384 provides 192 bits of collision resistance vs. SHA-256's 128 bits. It also runs SHA-512 internally, which is faster on 64-bit processors, making it both more secure and potentially faster.",
-            "q2": "Is SHA-384 just truncated SHA-512?",
-            "a2": "Yes, but with different initial values. This means you cannot derive a SHA-384 hash from a SHA-512 hash of the same data. They are independent despite sharing the same core algorithm.",
-            "q3": "Where is SHA-384 required?",
-            "a3": "SHA-384 is often required in government (Suite B cryptography), financial systems, and TLS configurations where higher-than-256-bit security is mandated."
+            "q1": "Tại sao SHA-384 thay vì SHA-256?",
+            "a1": "SHA-384 cung cấp khả năng chống 192-bit và nhanh hơn trên bộ xử lý 64-bit.",
+            "q2": "SHA-384 có phải SHA-512 cắt ngắn?",
+            "a2": "Đúng, nhưng với giá trị khởi tạo khác.",
+            "q3": "SHA-384 cần ở đâu?",
+            "a3": "Hệ thống chính phủ, tài chính và cấu hình TLS bảo mật cao."
         }
     },
     "js": {

@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "SHA-1 Hash Generator - 免费在线工具",
-        "description": "Generate SHA-1 hashes from any text instantly. 160-bit cryptographic hash used in Git, TLS, and digital certificates. Free online SHA-1 generator.",
-        "h1": "SHA-1 Hash Generator",
-        "subtitle": "Generate 160-bit SHA-1 cryptographic hashes from any text"
+        "title": "SHA-1哈希生成器 - 免费在线工具",
+        "description": "从任何文本生成SHA-1哈希。驱动Git的160位摘要函数。免费。",
+        "h1": "SHA-1哈希生成器",
+        "subtitle": "生成160位SHA-1哈希 — 驱动Git的函数"
     },
     "editor": {
         "label_input": "输入文本",
-        "ph_input": "输入文本以生成 SHA-1 hash...",
-        "btn_generate": "生成 SHA-1 Hash",
-        "label_result": "SHA-1 Hash",
+        "ph_input": "输入文本以生成SHA-1哈希...",
+        "btn_generate": "生成SHA-1哈希",
+        "label_result": "SHA-1哈希",
         "btn_copy": "复制"
     },
     "content": {
-        "hero_title": "SHA-1 Hash Generator",
-        "hero_subtitle": "Compute 160-bit SHA-1 message digests instantly",
-        "p1": "SHA-1 (Secure Hash Algorithm 1) was designed by the NSA and published by NIST in 1995. It produces a 160-bit (40-character hex) hash value. SHA-1 was the most widely used hash function for nearly two decades, securing SSL/TLS connections, digital certificates, and version control systems. While deprecated for security since 2017, SHA-1 remains deeply embedded in systems like Git where it serves as a content identifier.",
-        "what_title": "What is SHA-1?",
-        "what_desc": "SHA-1 processes data in 512-bit blocks through 80 rounds of operations, producing a 160-bit message digest. It was designed to be computationally infeasible to find two different messages with the same hash (collision resistance) or to reconstruct the original message from its hash (preimage resistance). Google demonstrated the first practical collision attack (SHAttered) in 2017.",
-        "features_title": "✅ SHA-1 Characteristics",
+        "hero_title": "SHA-1哈希生成器",
+        "hero_subtitle": "驱动Git的160位摘要函数",
+        "p1": "SHA-1是NSA设计的加密哈希函数，生成160位摘要（40个十六进制字符）。2017年已实证实际碰撞，但SHA-1仍用于Git的提交标识。",
+        "what_title": "什么是SHA-1？",
+        "what_desc": "SHA-1以512位块处理数据，经过80轮位运算、模加法和循环移位。",
+        "features_title": "✅ 特点",
         "features": {
-            "fast": "<strong>Fast Processing:</strong> Efficient on modern hardware",
-            "fixed": "<strong>160-bit Output:</strong> Always produces a 40-character hexadecimal hash",
-            "deterministic": "<strong>Widely Deployed:</strong> Used in Git, older TLS, and legacy systems",
-            "support": "<strong>Well Analyzed:</strong> Decades of cryptanalysis research"
+            "fast": "<strong>Git VCS：</strong> 标识Git仓库中的每个提交和对象",
+            "fixed": "<strong>160位输出：</strong> 40位十六进制摘要",
+            "deterministic": "<strong>广泛支持：</strong> 所有编程语言中普遍可用",
+            "support": "<strong>快速：</strong> 硬件支持下的快速计算"
         },
-        "uses_title": "📊 Where SHA-1 is Used",
+        "uses_title": "📊 用途",
         "uses": {
-            "verify": "<strong>Git:</strong> Content-addressable storage and commit identification",
-            "checksum": "<strong>Legacy TLS:</strong> Older SSL/TLS certificate signatures",
-            "cache": "<strong>HMAC-SHA1:</strong> Still considered safe for HMAC constructions",
-            "integrity": "<strong>File Verification:</strong> Checksums for software downloads"
+            "verify": "<strong>Git：</strong> 提交标识、分支和合并",
+            "checksum": "<strong>校验和：</strong> 文件完整性验证",
+            "cache": "<strong>遗留系统：</strong> 旧版SSL/TLS证书",
+            "integrity": "<strong>指纹：</strong> 内容标识"
         },
-        "warning_title": "⚠️ Security Warning",
-        "warning_desc": "<strong>SHA-1 is deprecated for cryptographic security.</strong> Google's SHAttered attack proved practical collisions in 2017. All major browsers and CA/Browser Forum have stopped accepting SHA-1 certificates. Use SHA-256 or SHA-512 for new applications. Note: HMAC-SHA1 remains secure due to the HMAC construction.",
-        "compare_title": "🔄 SHA-1 vs SHA-2 Family",
+        "warning_title": "⚠️ 弃用警告",
+        "warning_desc": "<strong>SHA-1在密码学上已过时。</strong> Google和CWI Amsterdam在2017年实证了实际碰撞（SHAttered攻击）。请使用SHA-256。",
+        "compare_title": "🔄 SHA-1对比",
         "compare": {
             "md5": {
-                "title": "SHA-1",
-                "desc1": "160-bit output",
-                "desc2": "Deprecated, collisions found"
+                "title": "MD5",
+                "desc1": "128位",
+                "desc2": "已破解 — 请勿使用"
             },
             "sha1": {
-                "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure, recommended standard"
+                "title": "SHA-1",
+                "desc1": "160位",
+                "desc2": "已过时 — 碰撞已知"
             },
             "sha256": {
-                "title": "SHA-512",
-                "desc1": "512-bit output",
-                "desc2": "Highest security, faster on 64-bit"
+                "title": "SHA-256",
+                "desc1": "256位",
+                "desc2": "安全 — 推荐"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ 常见问题",
         "faq": {
-            "q1": "Is SHA-1 still safe to use?",
-            "a1": "Not for security purposes. SHA-1 collisions have been demonstrated. However, it's still fine for non-security uses like Git commits or non-cryptographic checksums.",
-            "q2": "Why does Git still use SHA-1?",
-            "a2": "Git uses SHA-1 as a content identifier, not for security. Git is transitioning to SHA-256, but SHA-1 remains the default for backward compatibility.",
-            "q3": "What should I use instead of SHA-1?",
-            "a3": "Use SHA-256 for general purposes or SHA-512 for maximum security. For password hashing, use bcrypt or Argon2 instead of any SHA variant."
+            "q1": "SHA-1还安全吗？",
+            "a1": "不安全。2017年已实证实际碰撞。SHA-1不再被接受用于数字签名。",
+            "q2": "Git为什么还用SHA-1？",
+            "a2": "Git正在逐步迁移到SHA-256。SHA-1的速度和Git中的非加密使用使迁移不那么紧急。",
+            "q3": "应该用什么代替SHA-1？",
+            "a3": "大多数应用使用SHA-256。"
         }
     },
     "js": {

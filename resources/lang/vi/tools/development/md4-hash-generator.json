@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "MD4 Hash Generator - Công cụ trực tuyến miễn phí",
-        "description": "Generate MD4 hashes from any text instantly. Predecessor to MD5, still used in NTLM authentication. Free online MD4 hash generator.",
-        "h1": "MD4 Hash Generator",
-        "subtitle": "Generate MD4 message digest hashes from any text input"
+        "title": "Tạo Hash MD4 - Công cụ Trực tuyến Miễn phí",
+        "description": "Tạo hash MD4 từ bất kỳ văn bản nào. Tiền thân lịch sử của MD5 bởi Ron Rivest. Miễn phí.",
+        "h1": "Tạo Hash MD4",
+        "subtitle": "Tạo Hash MD4 128-bit — Nguồn gốc Mật mã Hiện đại"
     },
     "editor": {
-        "label_input": "Nhập văn bản",
-        "ph_input": "Nhập văn bản để tạo MD4 hash...",
-        "btn_generate": "Tạo MD4 Hash",
-        "label_result": "MD4 Hash",
+        "label_input": "Nhập Văn bản",
+        "ph_input": "Nhập văn bản để tạo hash MD4...",
+        "btn_generate": "Tạo Hash MD4",
+        "label_result": "Hash MD4",
         "btn_copy": "Sao chép"
     },
     "content": {
-        "hero_title": "MD4 Hash Generator",
-        "hero_subtitle": "Generate 128-bit MD4 message digests instantly",
-        "p1": "MD4 (Message-Digest Algorithm 4) was designed by Ronald Rivest in 1990 as a fast cryptographic hash function. It produces a 128-bit (32-character hex) hash value. While MD4 is now considered cryptographically broken and should not be used for security, it remains historically significant as the direct predecessor to both MD5 and the SHA family of algorithms. It's still actively used in Microsoft's NTLM authentication protocol.",
-        "what_title": "What is MD4?",
-        "what_desc": "MD4 processes input in 512-bit blocks and produces a 128-bit hash through three rounds of operations. Each round uses a different nonlinear function. Rivest optimized MD4 for speed on 32-bit processors, making it one of the fastest hash functions of its era. MD5 was later created as a more secure replacement after weaknesses were found in MD4.",
-        "features_title": "✅ MD4 Characteristics",
+        "hero_title": "Tạo Hash MD4",
+        "hero_subtitle": "Hàm băm tiên phong định hình mật mã hiện đại",
+        "p1": "MD4 (Message Digest 4) là hàm băm mật mã được Ron Rivest thiết kế tại MIT năm 1990. Tạo hash 128-bit (32 ký tự thập lục phân).",
+        "what_title": "MD4 là gì?",
+        "what_desc": "MD4 xử lý dữ liệu trong các khối 512-bit qua 3 vòng (tổng cộng 48 phép toán).",
+        "features_title": "✅ Đặc điểm",
         "features": {
-            "fast": "<strong>Very Fast:</strong> Designed for maximum speed on 32-bit processors",
-            "fixed": "<strong>128-bit Output:</strong> Produces a 32-character hexadecimal hash",
-            "deterministic": "<strong>Historical Importance:</strong> Ancestor of MD5and SHA families",
-            "support": "<strong>NTLM Usage:</strong> Still used in Windows NTLM authentication"
+            "fast": "<strong>Tiên phong lịch sử:</strong> Thiết lập khung Merkle-Damgård",
+            "fixed": "<strong>Đầu ra 128-bit:</strong> Tóm tắt thập lục phân 32 chữ số",
+            "deterministic": "<strong>Ảnh hưởng trực tiếp:</strong> Sinh ra MD5, SHA-1, SHA-2",
+            "support": "<strong>Đơn giản:</strong> Chỉ 48 phép toán mỗi khối"
         },
-        "uses_title": "📊 Where MD4 is Still Used",
+        "uses_title": "📊 Ứng dụng",
         "uses": {
-            "verify": "<strong>NTLM Authentication:</strong> Windows domain authentication",
-            "checksum": "<strong>ED2K Links:</strong> eDonkey2000 file hashing",
-            "cache": "<strong>Legacy Systems:</strong> Older systems requiring MD4 compatibility",
-            "integrity": "<strong>Research:</strong> Studying hash function evolution"
+            "verify": "<strong>Hệ thống cũ:</strong> Giao thức xác thực NTLM",
+            "checksum": "<strong>Giáo dục:</strong> Học thiết kế hàm băm",
+            "cache": "<strong>Nghiên cứu:</strong> Phân tích mật mã vi phân",
+            "integrity": "<strong>Phi bảo mật:</strong> Checksum nhanh"
         },
-        "warning_title": "⚠️ Security WARNING",
-        "warning_desc": "<strong>MD4 is COMPLETELY BROKEN cryptographically.</strong> Full collisions can be found in milliseconds. NEVER use MD4 for security, password hashing, or digital signatures. It is included here for compatibility with legacy systems only. Use SHA-256 or SHA-512 for any security purpose.",
-        "compare_title": "🔄 MD4 vs Related Algorithms",
+        "warning_title": "⚠️ Cảnh báo Bảo mật",
+        "warning_desc": "<strong>MD4 đã bị phá hoàn toàn — không dùng cho bảo mật.</strong> Sử dụng SHA-256.",
+        "compare_title": "🔄 MD4 vs Hiện đại",
         "compare": {
             "md5": {
                 "title": "MD4",
-                "desc1": "128-bit, 3 rounds",
-                "desc2": "Broken - collisions in ms"
+                "desc1": "128-bit, 3 vòng",
+                "desc2": "Đã bị phá — chỉ lịch sử"
             },
             "sha1": {
                 "title": "MD5",
-                "desc1": "128-bit, 4 rounds",
-                "desc2": "Also broken, but slower to attack"
+                "desc1": "128-bit, 4 vòng",
+                "desc2": "Cũng đã bị phá"
             },
             "sha256": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure, recommended for new systems"
+                "desc1": "256-bit, 64 vòng",
+                "desc2": "Tiêu chuẩn an toàn hiện đại"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Câu hỏi Thường gặp",
         "faq": {
-            "q1": "Why does MD4 still exist if it's broken?",
-            "a1": "MD4 is still used in Microsoft's NTLM authentication and eDonkey file sharing. Legacy compatibility keeps it alive, though all new systems should avoid it.",
-            "q2": "What's the difference between MD4 and MD5?",
-            "a2": "MD5 added a fourth round of operations and modified the step functions to fix weaknesses in MD4. Both produce 128-bit hashes, but MD5 is more collision-resistant (though also broken).",
-            "q3": "Is my data sent to a server?",
-            "a3": "The hash is computed on our server via a secure AJAX request, but your data is never stored and the connection is encrypted."
+            "q1": "Tại sao MD4 vẫn được dùng?",
+            "a1": "MD4 chủ yếu được tìm thấy trong các giao thức cũ như Windows NTLM.",
+            "q2": "MD4 bị phá như thế nào?",
+            "a2": "Thông qua phân tích mật mã vi phân.",
+            "q3": "Mối quan hệ MD4 và MD5?",
+            "a3": "MD5 là phiên bản kế thừa trực tiếp. Rivest thêm vòng thứ 4 và các phép toán bổ sung."
         }
     },
     "js": {

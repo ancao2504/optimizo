@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "GOST Hash Generator - Công cụ trực tuyến miễn phí",
-        "description": "Generate GOST R 34.11-94 hashes from any text. Russian federal standard 256-bit cryptographic hash function. Free, instant, and private.",
-        "h1": "GOST Hash Generator",
-        "subtitle": "Generate GOST R 34.11-94 hashes — Russian federal cryptographic standard"
+        "title": "Tạo Hash GOST - Công cụ Trực tuyến Miễn phí",
+        "description": "Tạo hash GOST R 34.11-94 từ bất kỳ văn bản nào. Tiêu chuẩn crypto 256-bit Liên Xô/Nga. Miễn phí.",
+        "h1": "Tạo Hash GOST",
+        "subtitle": "Tạo Hash GOST R 34.11-94 — Tiêu chuẩn Crypto Nga"
     },
     "editor": {
-        "label_input": "Nhập văn bản",
-        "ph_input": "Nhập văn bản để tạo GOST hash...",
-        "btn_generate": "Tạo GOST Hash",
-        "label_result": "GOST Hash",
+        "label_input": "Nhập Văn bản",
+        "ph_input": "Nhập văn bản để tạo hash GOST...",
+        "btn_generate": "Tạo Hash GOST",
+        "label_result": "Hash GOST",
         "btn_copy": "Sao chép"
     },
     "content": {
-        "hero_title": "GOST R 34.11-94 Hash Generator",
-        "hero_subtitle": "Russian federal standard 256-bit cryptographic hashing",
-        "p1": "GOST R 34.11-94 is the Russian federal standard (GOST = 'Gosudarstvennyy Standart', meaning 'State Standard') for cryptographic hash functions. It produces a 256-bit (64-character hex) hash value. Developed in the Soviet era and standardized in 1994, GOST hash is widely used in Russian government, banking, and PKI systems. It's mandatory for digital signatures, document authentication, and secure communications within the Russian Federation.",
-        "what_title": "What is GOST Hash?",
-        "what_desc": "GOST R 34.11-94 is built on top of the GOST 28147-89 block cipher (the Russian equivalent of DES/AES). It processes data in 256-bit blocks through a series of cipher-based compression steps. The algorithm maintains a 256-bit hash state, a 256-bit checksum, and a 256-bit block count. Unlike Merkle-Damgård designs, GOST includes a finalization step that incorporates both the checksum and block count for added security.",
-        "features_title": "✅ GOST Hash Features",
+        "hero_title": "Tạo Hash GOST",
+        "hero_subtitle": "GOST R 34.11-94 — Tiêu chuẩn mật mã Nga",
+        "p1": "GOST R 34.11-94 là hàm băm mật mã tiêu chuẩn quốc gia Nga. Tạo hash 256-bit (64 ký tự thập lục phân). Dựa trên mã khối GOST 28147-89, đại diện cho mật mã Liên Xô/Nga độc lập khỏi thiết kế NSA.",
+        "what_title": "Hash GOST là gì?",
+        "what_desc": "GOST R 34.11-94 xử lý khối 256-bit sử dụng cấu trúc Davies-Meyer dựa trên GOST 28147-89.",
+        "features_title": "✅ Đặc điểm",
         "features": {
-            "fast": "<strong>256-bit Output:</strong> 64-character hexadecimal digest",
-            "fixed": "<strong>Russian Standard:</strong> Mandatory for Russian government applications",
-            "deterministic": "<strong>Cipher-Based:</strong> Built on GOST 28147-89 block cipher",
-            "support": "<strong>Unique Design:</strong> Includes checksum and counter in finalization"
+            "fast": "<strong>Tiêu chuẩn quốc gia:</strong> GOST R 34.11-94 chính thức",
+            "fixed": "<strong>Đầu ra 256-bit:</strong> 64 ký tự hex như SHA-256",
+            "deterministic": "<strong>Độc lập NSA:</strong> Thiết kế Liên Xô/Nga hoàn toàn độc lập",
+            "support": "<strong>Ảnh hưởng toàn cầu:</strong> Hướng tiếp cận thay thế thiết kế hash"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Ứng dụng",
         "uses": {
-            "verify": "<strong>Russian Government:</strong> Official document authentication",
-            "checksum": "<strong>Digital Signatures:</strong> GOST R 34.10 signature scheme",
-            "cache": "<strong>Banking:</strong> Russian financial transaction verification",
-            "integrity": "<strong>PKI:</strong> Russian public key infrastructure certificates"
+            "verify": "<strong>Tuân thủ Nga:</strong> Chữ ký số chính phủ và ngân hàng",
+            "checksum": "<strong>CryptoPro CSP:</strong> Cơ sở hạ tầng crypto Nga",
+            "cache": "<strong>Đa dạng crypto:</strong> Thuật toán độc lập từ thiết kế phương Tây",
+            "integrity": "<strong>Nghiên cứu học thuật:</strong> Phân tích mật mã so sánh"
         },
-        "warning_title": "💡 Background",
-        "warning_desc": "<strong>GOST R 34.11-94 has been superseded by GOST R 34.11-2012 (Streebog)</strong> for new Russian applications. However, the 1994 version remains in widespread use for legacy compatibility. The algorithm is considered secure against practical attacks despite theoretical weaknesses found in the S-box choices.",
-        "compare_title": "🔄 GOST vs International Standards",
+        "warning_title": "⚠️ Lưu ý",
+        "warning_desc": "<strong>GOST R 34.11-94 đã được thay thế bởi Streebog (GOST R 34.11-2012).</strong> Dùng Streebog hoặc SHA-256 cho ứng dụng mới.",
+        "compare_title": "🔄 GOST vs Tiêu chuẩn Phương Tây",
         "compare": {
             "md5": {
                 "title": "GOST R 34.11-94",
-                "desc1": "256-bit, cipher-based",
-                "desc2": "Russian federal standard"
+                "desc1": "256-bit, thiết kế Nga",
+                "desc2": "Tiêu chuẩn Liên Xô gốc"
             },
             "sha1": {
                 "title": "SHA-256",
-                "desc1": "256-bit, Merkle-Damgård",
-                "desc2": "International NIST standard"
+                "desc1": "256-bit, thiết kế NSA",
+                "desc2": "Tiêu chuẩn Mỹ/Quốc tế"
             },
             "sha256": {
-                "title": "Streebog (2012)",
+                "title": "Streebog",
                 "desc1": "256/512-bit",
-                "desc2": "Modern Russian standard"
+                "desc2": "Kế thừa GOST hiện đại"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Câu hỏi Thường gặp",
         "faq": {
-            "q1": "Is GOST hash the same as SHA-256?",
-            "a1": "No. While both produce 256-bit hashes, they use completely different internal designs. GOST is cipher-based (using GOST 28147-89), while SHA-256 uses the Merkle-Damgård construction. They are not interchangeable.",
-            "q2": "When should I use GOST hash?",
-            "a2": "Use GOST hash when interacting with Russian government systems, banking infrastructure, or when GOST compliance is required. For all other purposes, SHA-256 is the international standard.",
-            "q3": "What replaced GOST R 34.11-94?",
-            "a3": "GOST R 34.11-2012, known as Streebog, replaced the 1994 standard. It offers both 256-bit and 512-bit variants with a modern design addressing known weaknesses of the original."
+            "q1": "Sự khác biệt GOST hash cũ và mới?",
+            "a1": "GOST R 34.11-94 dùng mã GOST 28147-89. Streebog (2012) kiến trúc hoàn toàn mới.",
+            "q2": "Hash GOST có an toàn?",
+            "a2": "Tấn công lý thuyết đã tìm thấy nhưng chưa có tấn công thực tế đầy đủ. Phiên bản cũ cho hệ thống cũ.",
+            "q3": "Tại sao Nga tạo tiêu chuẩn riêng?",
+            "a3": "Chủ quyền crypto. GOST đại diện triết lý crypto độc lập từ thuật toán NSA."
         }
     },
     "js": {

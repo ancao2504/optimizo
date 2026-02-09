@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "SHA-384 Hash Generator - 免费在线工具",
-        "description": "Generate SHA-384 hashes from any text. Truncated SHA-512 variant offering 192 bits of collision resistance. Free, instant, and secure.",
-        "h1": "SHA-384 Hash Generator",
-        "subtitle": "Generate 384-bit SHA-384 cryptographic hashes for high-security applications"
+        "title": "SHA-384哈希生成器 - 免费在线工具",
+        "description": "从任何文本生成SHA-384哈希。具有192位抵抗的SHA-512截断变体。免费。",
+        "h1": "SHA-384哈希生成器",
+        "subtitle": "生成SHA-384哈希 — 高安全性应用"
     },
     "editor": {
         "label_input": "输入文本",
-        "ph_input": "输入文本以生成 SHA-384 hash...",
-        "btn_generate": "生成 SHA-384 Hash",
-        "label_result": "SHA-384 Hash",
+        "ph_input": "输入文本以生成SHA-384哈希...",
+        "btn_generate": "生成SHA-384哈希",
+        "label_result": "SHA-384哈希",
         "btn_copy": "复制"
     },
     "content": {
-        "hero_title": "SHA-384 Hash Generator",
-        "hero_subtitle": "High-security 384-bit cryptographic hashing",
-        "p1": "SHA-384 is a member of the SHA-2 family that produces a 384-bit (96-character hex) hash value. It is actually a truncated version of SHA-512, using different initial hash values and outputting only 384 of the 512 computed bits. SHA-384 is used in government and financial systems requiring higher security than SHA-256 but where the full 512-bit output of SHA-512 is excessive. It's specified in TLS cipher suites and digital signature standards.",
-        "what_title": "What is SHA-384?",
-        "what_desc": "SHA-384 uses the exact same algorithm as SHA-512 internally — processing data in 1024-bit blocks through 80 rounds of operations on 64-bit words. The difference lies in the initialization vectors (different starting values) and the final output being truncated to 384 bits. This makes it impossible to use SHA-512 results to derive SHA-384 results or vice versa.",
-        "features_title": "✅ SHA-384 Advantages",
+        "hero_title": "SHA-384哈希生成器",
+        "hero_subtitle": "384位高安全性加密哈希",
+        "p1": "SHA-384是SHA-2家族成员，生成384位哈希（96个十六进制字符）。它是具有不同初始值的SHA-512截断版本。",
+        "what_title": "什么是SHA-384？",
+        "what_desc": "SHA-384内部使用与SHA-512相同的算法 — 1024位块经过80轮64位运算。",
+        "features_title": "✅ 优势",
         "features": {
-            "fast": "<strong>192-bit Security:</strong> Higher collision resistance than SHA-256",
-            "fixed": "<strong>384-bit Output:</strong> 96-character hexadecimal digest",
-            "deterministic": "<strong>64-bit Optimized:</strong> Uses 64-bit operations, fast on modern CPUs",
-            "support": "<strong>Government Approved:</strong> NIST recommended for sensitive applications"
+            "fast": "<strong>192位安全：</strong> 比SHA-256更高的碰撞抵抗",
+            "fixed": "<strong>384位输出：</strong> 96字符摘要",
+            "deterministic": "<strong>64位优化：</strong> 使用64位运算",
+            "support": "<strong>政府认证：</strong> NIST推荐"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 用途",
         "uses": {
-            "verify": "<strong>TLS Cipher Suites:</strong> Used in ECDHE-RSA-AES256-SHA384",
-            "checksum": "<strong>Digital Signatures:</strong> High-security document signing",
-            "cache": "<strong>Government Systems:</strong> FIPS 180-4 compliant applications",
-            "integrity": "<strong>Financial Protocols:</strong> Banking and payment security"
+            "verify": "<strong>TLS套件：</strong> ECDHE-RSA-AES256-SHA384",
+            "checksum": "<strong>数字签名：</strong> 高安全性签名",
+            "cache": "<strong>政府系统：</strong> FIPS 180-4应用",
+            "integrity": "<strong>金融协议：</strong> 银行交易"
         },
-        "warning_title": "💡 When to Use SHA-384",
-        "warning_desc": "<strong>SHA-384 sits between SHA-256 and SHA-512 in security level.</strong> Choose SHA-384 when your security requirements exceed SHA-256's 128-bit collision resistance, or when you need the 64-bit performance of SHA-512 but want a shorter output. For most applications, SHA-256 is sufficient.",
-        "compare_title": "🔄 SHA-2 Family Comparison",
+        "warning_title": "💡 使用时机",
+        "warning_desc": "<strong>SHA-384介于SHA-256和SHA-512之间。</strong> 当需求超过SHA-256的128位时选择SHA-384。",
+        "compare_title": "🔄 SHA-2家族",
         "compare": {
             "md5": {
                 "title": "SHA-256",
-                "desc1": "256-bit, 32-bit ops",
-                "desc2": "128-bit collision resistance"
+                "desc1": "256位",
+                "desc2": "128位抵抗"
             },
             "sha1": {
                 "title": "SHA-384",
-                "desc1": "384-bit, 64-bit ops",
-                "desc2": "192-bit collision resistance"
+                "desc1": "384位",
+                "desc2": "192位抵抗"
             },
             "sha256": {
                 "title": "SHA-512",
-                "desc1": "512-bit, 64-bit ops",
-                "desc2": "256-bit collision resistance"
+                "desc1": "512位",
+                "desc2": "256位抵抗"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ 常见问题",
         "faq": {
-            "q1": "Why use SHA-384 instead of SHA-256?",
-            "a1": "SHA-384 provides 192 bits of collision resistance vs. SHA-256's 128 bits. It also runs SHA-512 internally, which is faster on 64-bit processors, making it both more secure and potentially faster.",
-            "q2": "Is SHA-384 just truncated SHA-512?",
-            "a2": "Yes, but with different initial values. This means you cannot derive a SHA-384 hash from a SHA-512 hash of the same data. They are independent despite sharing the same core algorithm.",
-            "q3": "Where is SHA-384 required?",
-            "a3": "SHA-384 is often required in government (Suite B cryptography), financial systems, and TLS configurations where higher-than-256-bit security is mandated."
+            "q1": "为什么用SHA-384而不是SHA-256？",
+            "a1": "SHA-384提供192位抵抗（SHA-256为128位），在64位处理器上更快。",
+            "q2": "SHA-384只是截断的SHA-512？",
+            "a2": "是的，但使用不同的初始值。",
+            "q3": "哪里需要SHA-384？",
+            "a3": "政府系统、金融和高安全性TLS配置。"
         }
     },
     "js": {

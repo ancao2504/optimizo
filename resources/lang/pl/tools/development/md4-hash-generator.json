@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "MD4 Hash Generator - Darmowe narzędzie online",
-        "description": "Generate MD4 hashes from any text instantly. Predecessor to MD5, still used in NTLM authentication. Free online MD4 hash generator.",
-        "h1": "MD4 Hash Generator",
-        "subtitle": "Generate MD4 message digest hashes from any text input"
+        "title": "Generator skrótu MD4 - Darmowe narzędzie online",
+        "description": "Wygeneruj skrót MD4 z dowolnego tekstu. Historyczny poprzednik MD5 autorstwa Rona Rivesta. Bezpłatnie.",
+        "h1": "Generator skrótu MD4",
+        "subtitle": "Generuj 128-bitowy skrót MD4 — Początki nowoczesnej kryptografii"
     },
     "editor": {
         "label_input": "Wprowadź tekst",
-        "ph_input": "Wprowadź tekst, aby wygenerować MD4 hash...",
-        "btn_generate": "Generuj MD4 Hash",
-        "label_result": "MD4 Hash",
+        "ph_input": "Wprowadź tekst, aby wygenerować skrót MD4...",
+        "btn_generate": "Generuj skrót MD4",
+        "label_result": "Skrót MD4",
         "btn_copy": "Kopiuj"
     },
     "content": {
-        "hero_title": "MD4 Hash Generator",
-        "hero_subtitle": "Generate 128-bit MD4 message digests instantly",
-        "p1": "MD4 (Message-Digest Algorithm 4) was designed by Ronald Rivest in 1990 as a fast cryptographic hash function. It produces a 128-bit (32-character hex) hash value. While MD4 is now considered cryptographically broken and should not be used for security, it remains historically significant as the direct predecessor to both MD5 and the SHA family of algorithms. It's still actively used in Microsoft's NTLM authentication protocol.",
-        "what_title": "What is MD4?",
-        "what_desc": "MD4 processes input in 512-bit blocks and produces a 128-bit hash through three rounds of operations. Each round uses a different nonlinear function. Rivest optimized MD4 for speed on 32-bit processors, making it one of the fastest hash functions of its era. MD5 was later created as a more secure replacement after weaknesses were found in MD4.",
-        "features_title": "✅ MD4 Characteristics",
+        "hero_title": "Generator skrótu MD4",
+        "hero_subtitle": "Pionierska funkcja skrótu, która ukształtowała nowoczesną kryptografię",
+        "p1": "MD4 (Message Digest 4) to kryptograficzna funkcja skrótu zaprojektowana przez Rona Rivesta na MIT w 1990 roku. Generuje 128-bitowy skrót (32 znaki szesnastkowe).",
+        "what_title": "Czym jest MD4?",
+        "what_desc": "MD4 przetwarza dane w 512-bitowych blokach przez 3 rundy (łącznie 48 operacji).",
+        "features_title": "✅ Cechy",
         "features": {
-            "fast": "<strong>Very Fast:</strong> Designed for maximum speed on 32-bit processors",
-            "fixed": "<strong>128-bit Output:</strong> Produces a 32-character hexadecimal hash",
-            "deterministic": "<strong>Historical Importance:</strong> Ancestor of MD5and SHA families",
-            "support": "<strong>NTLM Usage:</strong> Still used in Windows NTLM authentication"
+            "fast": "<strong>Historyczny pionier:</strong> Ustanowił ramę Merkle-Damgård",
+            "fixed": "<strong>128-bitowe wyjście:</strong> 32-cyfrowy skrót szesnastkowy",
+            "deterministic": "<strong>Bezpośredni wpływ:</strong> Dał początek MD5, SHA-1 i SHA-2",
+            "support": "<strong>Prostota:</strong> Tylko 48 operacji na blok"
         },
-        "uses_title": "📊 Where MD4 is Still Used",
+        "uses_title": "📊 Zastosowania",
         "uses": {
-            "verify": "<strong>NTLM Authentication:</strong> Windows domain authentication",
-            "checksum": "<strong>ED2K Links:</strong> eDonkey2000 file hashing",
-            "cache": "<strong>Legacy Systems:</strong> Older systems requiring MD4 compatibility",
-            "integrity": "<strong>Research:</strong> Studying hash function evolution"
+            "verify": "<strong>Starsze systemy:</strong> Protokół uwierzytelniania NTLM",
+            "checksum": "<strong>Edukacja:</strong> Nauka projektowania funkcji skrótu",
+            "cache": "<strong>Badania:</strong> Różnicowa kryptoanaliza",
+            "integrity": "<strong>Niezwiązane z bezpieczeństwem:</strong> Szybka suma kontrolna"
         },
-        "warning_title": "⚠️ Security WARNING",
-        "warning_desc": "<strong>MD4 is COMPLETELY BROKEN cryptographically.</strong> Full collisions can be found in milliseconds. NEVER use MD4 for security, password hashing, or digital signatures. It is included here for compatibility with legacy systems only. Use SHA-256 or SHA-512 for any security purpose.",
-        "compare_title": "🔄 MD4 vs Related Algorithms",
+        "warning_title": "⚠️ Ostrzeżenie bezpieczeństwa",
+        "warning_desc": "<strong>MD4 jest całkowicie złamany — nie używaj do celów bezpieczeństwa.</strong> Użyj SHA-256.",
+        "compare_title": "🔄 MD4 vs nowoczesne",
         "compare": {
             "md5": {
                 "title": "MD4",
-                "desc1": "128-bit, 3 rounds",
-                "desc2": "Broken - collisions in ms"
+                "desc1": "128-bitowy, 3 rundy",
+                "desc2": "Złamany — tylko historyczny"
             },
             "sha1": {
                 "title": "MD5",
-                "desc1": "128-bit, 4 rounds",
-                "desc2": "Also broken, but slower to attack"
+                "desc1": "128-bitowy, 4 rundy",
+                "desc2": "Również złamany"
             },
             "sha256": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure, recommended for new systems"
+                "desc1": "256-bitowy, 64 rundy",
+                "desc2": "Nowoczesny bezpieczny standard"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Często zadawane pytania",
         "faq": {
-            "q1": "Why does MD4 still exist if it's broken?",
-            "a1": "MD4 is still used in Microsoft's NTLM authentication and eDonkey file sharing. Legacy compatibility keeps it alive, though all new systems should avoid it.",
-            "q2": "What's the difference between MD4 and MD5?",
-            "a2": "MD5 added a fourth round of operations and modified the step functions to fix weaknesses in MD4. Both produce 128-bit hashes, but MD5 is more collision-resistant (though also broken).",
-            "q3": "Is my data sent to a server?",
-            "a3": "The hash is computed on our server via a secure AJAX request, but your data is never stored and the connection is encrypted."
+            "q1": "Dlaczego MD4 jest nadal używany?",
+            "a1": "MD4 występuje głównie w starszych protokołach jak Windows NTLM.",
+            "q2": "Jak złamano MD4?",
+            "a2": "Poprzez różnicową kryptoanalizę.",
+            "q3": "Relacja MD4 i MD5?",
+            "a3": "MD5 jest bezpośrednim następcą. Rivest dodał 4. rundę i dodatkowe operacje."
         }
     },
     "js": {
-        "error_empty": "Proszę wprowadzić tekst",
+        "error_empty": "Wprowadź tekst",
         "btn_copied": "Skopiowano!",
         "btn_generating": "Generowanie...",
-        "error_failed": "Generowanie hasha nie powiodło się. Spróbuj ponownie."
+        "error_failed": "Nie udało się wygenerować skrótu. Spróbuj ponownie."
     }
 }

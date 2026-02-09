@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "SHA-256 Hash Generator - Gratis onlineverktyg",
-        "description": "Generate SHA-256 hashes from any text. The gold standard of cryptographic hash functions used in Bitcoin, TLS 1.3, and digital signatures. Free and instant.",
-        "h1": "SHA-256 Hash Generator",
-        "subtitle": "Generate 256-bit SHA-256 cryptographic hashes — the industry standard"
+        "title": "SHA-256 Hash-generator - Gratis onlineverktyg",
+        "description": "Generera SHA-256-hash från valfri text. Guldstandarden inom kryptografiska hashfunktioner. Gratis.",
+        "h1": "SHA-256 Hash-generator",
+        "subtitle": "Generera SHA-256-hash — Industrins kryptografistandard"
     },
     "editor": {
         "label_input": "Ange text",
-        "ph_input": "Ange text för att generera SHA-256 hash...",
-        "btn_generate": "Generera SHA-256 Hash",
-        "label_result": "SHA-256 Hash",
+        "ph_input": "Ange text för att generera SHA-256-hash...",
+        "btn_generate": "Generera SHA-256-hash",
+        "label_result": "SHA-256-hash",
         "btn_copy": "Kopiera"
     },
     "content": {
-        "hero_title": "SHA-256 Hash Generator",
-        "hero_subtitle": "The gold standard cryptographic hash function for security",
-        "p1": "SHA-256 (Secure Hash Algorithm 256-bit) is the most widely used cryptographic hash function in the world today. Part of the SHA-2 family designed by the NSA, it produces a 256-bit (64-character hex) hash. SHA-256 is the backbone of Bitcoin mining, TLS 1.3 certificate verification, code signing, blockchain technology, and virtually every modern security protocol. It remains unbroken with no practical attacks found.",
-        "what_title": "What is SHA-256?",
-        "what_desc": "SHA-256 processes data in 512-bit blocks through 64 rounds of compression, using a combination of bitwise operations, modular additions, and compression functions. The result is a 256-bit digest that exhibits excellent avalanche properties — changing a single bit in the input changes approximately 50% of the output bits unpredictably.",
-        "features_title": "✅ SHA-256 Advantages",
+        "hero_title": "SHA-256 Hash-generator",
+        "hero_subtitle": "Säker kryptografisk hashfunktion — standarden",
+        "p1": "SHA-256 är världens mest använda kryptografiska hashfunktion. Medlem av SHA-2-familjen från NSA, genererar en 256-bitars hash (64 hexadecimala tecken).",
+        "what_title": "Vad är SHA-256?",
+        "what_desc": "SHA-256 bearbetar data i 512-bitars block genom 64 komprimeringsrundor.",
+        "features_title": "✅ Fördelar",
         "features": {
-            "fast": "<strong>Cryptographically Secure:</strong> No known practical attacks after 20+ years",
-            "fixed": "<strong>256-bit Output:</strong> 64-character hex digest with 2^128 collision resistance",
-            "deterministic": "<strong>Universal Standard:</strong> NIST, ISO, and IETF recommended",
-            "support": "<strong>Hardware Support:</strong> Intel SHA extensions, ARM Crypto extensions"
+            "fast": "<strong>Kryptografiskt säker:</strong> 20+ år utan praktiska attacker",
+            "fixed": "<strong>256-bitars utdata:</strong> 64-siffrig digest",
+            "deterministic": "<strong>Universell standard:</strong> Rekommenderad av NIST, ISO, IETF",
+            "support": "<strong>Hårdvarustöd:</strong> Intel SHA och ARM Crypto Extensions"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Användning",
         "uses": {
-            "verify": "<strong>Blockchain:</strong> Bitcoin proof-of-work and Merkle trees",
-            "checksum": "<strong>TLS 1.3:</strong> Certificate and handshake verification",
-            "cache": "<strong>Code Signing:</strong> Software integrity verification",
-            "integrity": "<strong>Digital Signatures:</strong> Document and transaction signing"
+            "verify": "<strong>Blockchain:</strong> Bitcoin proof of work och Merkle-träd",
+            "checksum": "<strong>TLS 1.3:</strong> Certifikatverifiering och handskak",
+            "cache": "<strong>Kodsignering:</strong> Verifiering av mjukvaruintegritet",
+            "integrity": "<strong>Digitala signaturer:</strong> Dokument- och transaktionssignering"
         },
-        "warning_title": "💡 Best Practice",
-        "warning_desc": "<strong>SHA-256 is secure for hashing but NOT for password storage directly.</strong> While the hash function itself is strong, passwords should use slow algorithms like bcrypt, Argon2, or PBKDF2 with SHA-256 to resist brute-force attacks. SHA-256 alone is too fast for password hashing.",
-        "compare_title": "🔄 SHA-256 vs Other Hash Functions",
+        "warning_title": "💡 Bästa praxis",
+        "warning_desc": "<strong>SHA-256 är säker för hashing, men använd inte direkt för lösenordslagring.</strong> Använd bcrypt eller Argon2.",
+        "compare_title": "🔄 SHA-256-jämförelse",
         "compare": {
             "md5": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Broken — do not use for security"
+                "desc1": "128-bitar",
+                "desc2": "Brutet"
             },
             "sha1": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure standard, recommended"
+                "desc1": "256-bitar",
+                "desc2": "Säker standard, rekommenderad"
             },
             "sha256": {
                 "title": "SHA-512",
-                "desc1": "512-bit output",
-                "desc2": "Faster on 64-bit, higher margin"
+                "desc1": "512-bitar",
+                "desc2": "Snabbare på 64-bit"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Vanliga frågor",
         "faq": {
-            "q1": "Is SHA-256 still secure in 2025?",
-            "a1": "Yes. SHA-256 has no known practical attacks. It provides 128 bits of collision resistance and 256 bits of preimage resistance, which remains far beyond current computing capabilities.",
-            "q2": "SHA-256 vs SHA-512 — which should I use?",
-            "a2": "SHA-256 is sufficient for most applications. SHA-512 is faster on 64-bit processors and provides a higher security margin. Both are secure; choose based on your platform.",
-            "q3": "Can quantum computers break SHA-256?",
-            "a3": "Grover's algorithm reduces SHA-256's collision resistance to 128 bits, which is still considered secure. Post-quantum hash functions are being researched but SHA-256 remains safe for current use."
+            "q1": "Är SHA-256 säkert 2025?",
+            "a1": "Ja. Inga kända praktiska attacker.",
+            "q2": "SHA-256 vs SHA-512?",
+            "a2": "SHA-256 räcker för de flesta applikationer.",
+            "q3": "Kan kvantdatorer knäcka SHA-256?",
+            "a3": "Grovers algoritm reducerar kollisionsmotståndet till 128 bitar, vilket fortfarande anses säkert."
         }
     },
     "js": {
         "error_empty": "Vänligen ange text",
         "btn_copied": "Kopierat!",
         "btn_generating": "Genererar...",
-        "error_failed": "Hash-generering misslyckades. Försök igen."
+        "error_failed": "Kunde inte generera hash. Försök igen."
     }
 }

@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "CRC-32 Hash Generator - Công cụ trực tuyến miễn phí",
-        "description": "Generate CRC-32 checksums from any text instantly. Industry-standard error detection algorithm used in Ethernet, ZIP, and PNG. Free and private.",
-        "h1": "CRC-32 Hash Generator",
-        "subtitle": "Generate CRC-32 checksums for reliable error detection and data integrity"
+        "title": "Tạo Hash CRC-32 - Công cụ Trực tuyến Miễn phí",
+        "description": "Tạo hash CRC-32 từ bất kỳ văn bản nào. Kiểm tra Dư thừa Tuần hoàn tiêu chuẩn. Miễn phí.",
+        "h1": "Tạo Hash CRC-32",
+        "subtitle": "Tạo Checksum CRC-32 — Tiêu chuẩn Công nghiệp"
     },
     "editor": {
-        "label_input": "Nhập văn bản",
-        "ph_input": "Nhập văn bản để tạo CRC-32 hash...",
-        "btn_generate": "Tạo CRC-32 Hash",
-        "label_result": "CRC-32 Hash",
+        "label_input": "Nhập Văn bản",
+        "ph_input": "Nhập văn bản để tạo hash CRC-32...",
+        "btn_generate": "Tạo Hash CRC-32",
+        "label_result": "Hash CRC-32",
         "btn_copy": "Sao chép"
     },
     "content": {
-        "hero_title": "CRC-32 Hash Generator",
-        "hero_subtitle": "Compute CRC-32 checksums for data integrity verification",
-        "p1": "CRC-32 (Cyclic Redundancy Check 32-bit) is an error-detecting code used extensively in digital networks and storage devices. It produces a 32-bit checksum that can detect common types of data corruption. CRC-32 is the backbone of Ethernet frame checking, ZIP file integrity, PNG image validation, and dozens of other standards that rely on reliable error detection.",
-        "what_title": "What is CRC-32?",
-        "what_desc": "CRC-32 treats the input data as a polynomial and divides it by a fixed generator polynomial (0xEDB88320 for IEEE 802.3). The remainder of this division becomes the 32-bit checksum. This mathematical approach gives CRC-32 excellent error detection properties, catching all single-bit errors, all double-bit errors, and any burst error of 32 bits or fewer.",
-        "features_title": "✅ CRC-32 Advantages",
+        "hero_title": "Tạo Hash CRC-32",
+        "hero_subtitle": "Kiểm tra Dư thừa Tuần hoàn tiêu chuẩn cho tính toàn vẹn dữ liệu",
+        "p1": "CRC-32 là hàm checksum phi mật mã được sử dụng rộng rãi nhất thế giới. Tạo hash 32-bit (8 ký tự thập lục phân) thông qua phép chia đa thức.",
+        "what_title": "CRC-32 là gì?",
+        "what_desc": "CRC-32 coi dữ liệu đầu vào là đa thức lớn và tính phần dư khi chia cho đa thức sinh cố định.",
+        "features_title": "✅ Ưu điểm",
         "features": {
-            "fast": "<strong>Hardware Optimized:</strong> Many CPUs include CRC-32 instructions for maximum speed",
-            "fixed": "<strong>32-bit Output:</strong> Always produces an 8-character hexadecimal checksum",
-            "deterministic": "<strong>Excellent Detection:</strong> Catches all common error patterns",
-            "support": "<strong>Universal Standard:</strong> Used in Ethernet, ZIP, PNG, MPEG-2, and more"
+            "fast": "<strong>Tăng tốc phần cứng:</strong> Lệnh Intel CRC32 tính ở tốc độ bộ nhớ",
+            "fixed": "<strong>Phát hiện mạnh:</strong> Phát hiện tất cả lỗi 1-bit, 2-bit và bit lẻ",
+            "deterministic": "<strong>Tiêu chuẩn phổ quát:</strong> Ethernet, USB, ZIP, PNG, MPEG-2",
+            "support": "<strong>Đơn giản & nhanh:</strong> Bảng tra cứu cho tính toán nhanh"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Ứng dụng",
         "uses": {
-            "verify": "<strong>Network Protocols:</strong> Ethernet and Wi-Fi frame checking",
-            "checksum": "<strong>File Archives:</strong> ZIP, RAR, and 7-Zip integrity verification",
-            "cache": "<strong>Image Formats:</strong> PNG chunk validation",
-            "integrity": "<strong>Storage:</strong> Disk sector integrity checks"
+            "verify": "<strong>Lưu trữ:</strong> Xác minh tính toàn vẹn ZIP và gzip",
+            "checksum": "<strong>Mạng:</strong> Xác thực khung Ethernet",
+            "cache": "<strong>Lưu trữ:</strong> Tính toàn vẹn hệ thống tệp",
+            "integrity": "<strong>Đa phương tiện:</strong> Tính toàn vẹn tệp PNG và MPEG"
         },
-        "warning_title": "⚠️ Important Note",
-        "warning_desc": "<strong>CRC-32 is NOT a cryptographic hash function.</strong> It is designed to detect accidental data corruption, not malicious tampering. An attacker can easily create different inputs with the same CRC-32 value. For security, use SHA-256 or SHA-512.",
-        "compare_title": "🔄 CRC-32 vs Other Algorithms",
+        "warning_title": "⚠️ Lưu ý Bảo mật",
+        "warning_desc": "<strong>CRC-32 không phải hàm băm mật mã.</strong> Được thiết kế để phát hiện lỗi ngẫu nhiên, không phải ngăn chặn thay đổi cố ý.",
+        "compare_title": "🔄 So sánh CRC-32",
         "compare": {
             "md5": {
                 "title": "CRC-32",
-                "desc1": "32-bit output",
-                "desc2": "Best for error detection"
+                "desc1": "32-bit, đa thức",
+                "desc2": "Phát hiện lỗi, không phải crypto"
             },
             "sha1": {
                 "title": "Adler-32",
-                "desc1": "32-bit output",
-                "desc2": "Faster but weaker detection"
+                "desc1": "32-bit, số học",
+                "desc2": "Nhanh hơn nhưng phát hiện kém hơn"
             },
             "sha256": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Cryptographic (deprecated)"
+                "desc1": "128-bit, mật mã",
+                "desc2": "Chậm hơn nhiều nhưng an toàn hơn"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Câu hỏi Thường gặp",
         "faq": {
-            "q1": "What's the difference between CRC-32 and CRC-32B?",
-            "a1": "CRC-32 uses the standard ITU polynomial, while CRC-32B uses the IEEE 802.3 polynomial. CRC-32B is the more commonly used variant in modern applications like ZIP files and Ethernet.",
-            "q2": "Can CRC-32 detect all errors?",
-            "a2": "CRC-32 detects all single-bit errors, all double-bit errors, and all burst errors up to 32 bits. It has a 99.99999995% chance of detecting longer burst errors.",
-            "q3": "Is CRC-32 suitable for password hashing?",
-            "a3": "Absolutely not. CRC-32 is a checksum, not a cryptographic hash. It's trivially easy to find collisions. Use bcrypt or Argon2 for passwords."
+            "q1": "Sự khác biệt CRC-32 và CRC-32B?",
+            "a1": "Chúng sử dụng đa thức sinh khác nhau. CRC-32B là biến thể mặc định của PHP.",
+            "q2": "Tại sao CRC-32 không dùng cho bảo mật?",
+            "a2": "CRC-32 tuyến tính và có thể đảo ngược. Kẻ tấn công dễ dàng tạo xung đột.",
+            "q3": "CRC-32 có phát hiện mọi lỗi?",
+            "a3": "Không. CRC-32 phát hiện tất cả lỗi 1-bit và 2-bit nhưng một số mẫu có thể bị bỏ qua."
         }
     },
     "js": {

@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "Tiger-160 Hash Generator - Công cụ trực tuyến miễn phí",
-        "description": "Generate Tiger-160 hashes from any text. 160-bit variant of the Tiger hash function optimized for 64-bit systems. Free and instant.",
-        "h1": "Tiger-160 Hash Generator",
-        "subtitle": "Generate 160-bit Tiger-160 hashes — balanced speed and security"
+        "title": "Tạo Hash Tiger-160 - Công cụ Trực tuyến Miễn phí",
+        "description": "Tạo hash Tiger-160 từ bất kỳ văn bản nào. Biến thể 160-bit của hàm Tiger. Miễn phí.",
+        "h1": "Tạo Hash Tiger-160",
+        "subtitle": "Tạo Hash Tiger-160 — Cân bằng Tốc độ & Bảo mật"
     },
     "editor": {
-        "label_input": "Nhập văn bản",
-        "ph_input": "Nhập văn bản để tạo Tiger-160 hash...",
-        "btn_generate": "Tạo Tiger-160 Hash",
-        "label_result": "Tiger-160 Hash",
+        "label_input": "Nhập Văn bản",
+        "ph_input": "Nhập văn bản để tạo hash Tiger-160...",
+        "btn_generate": "Tạo Hash Tiger-160",
+        "label_result": "Hash Tiger-160",
         "btn_copy": "Sao chép"
     },
     "content": {
-        "hero_title": "Tiger-160 Hash Generator",
-        "hero_subtitle": "160-bit Tiger hash for balanced performance and security",
-        "p1": "Tiger-160 is the middle variant of the Tiger hash family, producing a 160-bit (40-character hex) hash value. Like SHA-1, it outputs 160 bits, but Tiger-160 is significantly faster on 64-bit processors due to its native 64-bit operations. It takes the first 160 bits of the full Tiger-192 computation, providing a good balance between hash length and collision resistance.",
-        "what_title": "What is Tiger-160?",
-        "what_desc": "Tiger-160 uses the same algorithm as Tiger-192 but truncates the output to 160 bits. The full Tiger algorithm processes 512-bit blocks through 24 rounds using four S-boxes. Tiger-160 provides 80-bit collision resistance, matching SHA-1's theoretical security level but with better performance on 64-bit architectures.",
-        "features_title": "✅ Tiger-160 Features",
+        "hero_title": "Tạo Hash Tiger-160",
+        "hero_subtitle": "Hash Tiger 160-bit cân bằng hiệu năng và bảo mật",
+        "p1": "Tiger-160 là biến thể trung gian của họ Tiger, tạo hash 160-bit (40 ký tự thập lục phân). Đầu ra 160-bit giống SHA-1 nhưng nhanh hơn nhiều trên bộ xử lý 64-bit.",
+        "what_title": "Tiger-160 là gì?",
+        "what_desc": "Tiger-160 dùng cùng thuật toán Tiger-192 nhưng cắt ngắn đầu ra thành 160-bit. Cung cấp khả năng chống xung đột 80-bit.",
+        "features_title": "✅ Đặc điểm",
         "features": {
-            "fast": "<strong>SHA-1 Alternative:</strong> Same output length, faster on 64-bit",
-            "fixed": "<strong>160-bit Output:</strong> 40-character hexadecimal digest",
-            "deterministic": "<strong>80-bit Security:</strong> Matches SHA-1 collision resistance",
-            "support": "<strong>64-bit Speed:</strong> Outperforms SHA-1 on modern processors"
+            "fast": "<strong>Thay thế SHA-1:</strong> Cùng kích thước, nhanh hơn trên 64-bit",
+            "fixed": "<strong>Đầu ra 160-bit:</strong> Digest 40 ký tự",
+            "deterministic": "<strong>Bảo mật 80-bit:</strong> Khả năng chống tương đương SHA-1",
+            "support": "<strong>Tốc độ 64-bit:</strong> Vượt SHA-1 trên bộ xử lý hiện đại"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Ứng dụng",
         "uses": {
-            "verify": "<strong>File Verification:</strong> Fast integrity checks on 64-bit systems",
-            "checksum": "<strong>SHA-1 Replacement:</strong> Drop-in for 160-bit hash needs",
-            "cache": "<strong>Content Hashing:</strong> Unique identifiers for cached content",
-            "integrity": "<strong>Database Indexing:</strong> Efficient hash-based lookups"
+            "verify": "<strong>Xác minh tệp:</strong> Kiểm tra nhanh trên 64-bit",
+            "checksum": "<strong>Thay thế SHA-1:</strong> Thay thế trực tiếp cho hash 160-bit",
+            "cache": "<strong>Băm nội dung:</strong> Định danh cache riêng theo nội dung",
+            "integrity": "<strong>Lập chỉ mục:</strong> Tra cứu hiệu quả dựa trên hash"
         },
-        "warning_title": "⚠️ Security Note",
-        "warning_desc": "<strong>Tiger-160 provides 80-bit collision resistance</strong>, similar to SHA-1. This level is considered below modern recommendations (128-bit minimum). For security-critical applications, use Tiger-192 or SHA-256.",
-        "compare_title": "🔄 Tiger-160 vs SHA-1",
+        "warning_title": "⚠️ Lưu ý",
+        "warning_desc": "<strong>Tiger-160 cung cấp khả năng chống 80-bit.</strong> Dùng SHA-256 cho bảo mật quan trọng.",
+        "compare_title": "🔄 So sánh",
         "compare": {
             "md5": {
                 "title": "Tiger-160",
-                "desc1": "160-bit, 64-bit ops",
-                "desc2": "Faster on 64-bit CPUs"
+                "desc1": "160-bit, phép toán 64-bit",
+                "desc2": "Nhanh hơn trên 64-bit"
             },
             "sha1": {
                 "title": "SHA-1",
-                "desc1": "160-bit, 32-bit ops",
-                "desc2": "More widely supported"
+                "desc1": "160-bit, phép toán 32-bit",
+                "desc2": "Hỗ trợ rộng hơn"
             },
             "sha256": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Higher security, recommended"
+                "desc1": "256-bit",
+                "desc2": "An toàn hơn"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Câu hỏi Thường gặp",
         "faq": {
-            "q1": "Tiger-160 vs SHA-1 — which should I choose?",
-            "a1": "If speed on 64-bit systems is critical, Tiger-160 wins. For maximum compatibility, SHA-1 is more widely supported. For security, neither — use SHA-256.",
-            "q2": "Is Tiger-160 more secure than SHA-1?",
-            "a2": "They have the same theoretical collision resistance (80 bits). SHA-1 has known practical collisions; Tiger has none yet. However, Tiger has received less cryptanalysis attention.",
-            "q3": "Why truncate Tiger-192 to 160 bits?",
-            "a3": "Some protocols and systems require exactly 160-bit hashes (matching SHA-1 output size). Tiger-160 provides this compatibility while maintaining Tiger's speed advantage."
+            "q1": "Tiger-160 vs SHA-1?",
+            "a1": "Tốc độ 64-bit: Tiger-160. Tương thích: SHA-1. Bảo mật: SHA-256.",
+            "q2": "Tiger-160 an toàn hơn SHA-1?",
+            "a2": "Khả năng chống lý thuyết tương đương. SHA-1 có xung đột đã biết, Tiger thì không.",
+            "q3": "Tại sao cắt Tiger-192 thành 160-bit?",
+            "a3": "Một số giao thức yêu cầu hash chính xác 160-bit."
         }
     },
     "js": {

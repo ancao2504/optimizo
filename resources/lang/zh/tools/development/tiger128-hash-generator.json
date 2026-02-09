@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "Tiger-128 Hash Generator - 免费在线工具",
-        "description": "Generate Tiger-128 hashes from any text. Fast 128-bit hash optimized for 64-bit platforms. Free, instant, and private.",
-        "h1": "Tiger-128 Hash Generator",
-        "subtitle": "Generate Tiger-128 hashes — optimized for 64-bit performance"
+        "title": "Tiger-128哈希生成器 - 免费在线工具",
+        "description": "从任何文本生成Tiger-128哈希。为64位系统优化的快速128位哈希。免费。",
+        "h1": "Tiger-128哈希生成器",
+        "subtitle": "生成Tiger-128哈希 — 为64位性能优化"
     },
     "editor": {
         "label_input": "输入文本",
-        "ph_input": "输入文本以生成 Tiger-128 hash...",
-        "btn_generate": "生成 Tiger-128 Hash",
-        "label_result": "Tiger-128 Hash",
+        "ph_input": "输入文本以生成Tiger-128哈希...",
+        "btn_generate": "生成Tiger-128哈希",
+        "label_result": "Tiger-128哈希",
         "btn_copy": "复制"
     },
     "content": {
-        "hero_title": "Tiger-128 Hash Generator",
-        "hero_subtitle": "High-speed 128-bit hashing for 64-bit processors",
-        "p1": "Tiger-128 is a truncated version of the Tiger hash function, designed by Ross Anderson and Eli Biham in 1995. It produces a 128-bit (32-character hex) hash value by taking the first 128 bits of the full Tiger-192 output. Tiger was specifically designed for 64-bit platforms, where it achieves excellent performance by using 64-bit multiplications and S-box lookups. Tiger-128 is used in file-sharing protocols and integrity verification.",
-        "what_title": "What is Tiger-128?",
-        "what_desc": "Tiger processes data in 512-bit blocks through 24 rounds organized in three passes. Each pass uses four S-boxes with 256 entries of 64 bits each. Tiger-128 truncates the full 192-bit Tiger output to 128 bits, providing the same speed with a shorter digest suitable for applications needing MD5-length checksums.",
-        "features_title": "✅ Tiger-128 Features",
+        "hero_title": "Tiger-128哈希生成器",
+        "hero_subtitle": "64位处理器的高速128位哈希",
+        "p1": "Tiger-128是Ross Anderson和Eli Biham于1995年设计的Tiger哈希函数的截断版本。生成128位哈希（32个十六进制字符），专为64位平台设计。",
+        "what_title": "什么是Tiger-128？",
+        "what_desc": "Tiger以512位块在3遍24轮中处理数据。Tiger-128将完整的192位输出截断为128位。",
+        "features_title": "✅ 特点",
         "features": {
-            "fast": "<strong>64-bit Optimized:</strong> Exceptionally fast on modern 64-bit CPUs",
-            "fixed": "<strong>128-bit Output:</strong> Compact 32-character hex digest",
-            "deterministic": "<strong>S-box Design:</strong> Four large S-boxes for strong diffusion",
-            "support": "<strong>File Sharing:</strong> Used in ed2k and DC++ (Direct Connect) protocols"
+            "fast": "<strong>64位优化：</strong> 在现代处理器上极快",
+            "fixed": "<strong>128位输出：</strong> 紧凑的32字符摘要",
+            "deterministic": "<strong>S-box设计：</strong> 4个大型替换表",
+            "support": "<strong>文件共享：</strong> 用于ed2k和DC++协议"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 用途",
         "uses": {
-            "verify": "<strong>P2P Networks:</strong> File identification in sharing protocols",
-            "checksum": "<strong>Integrity Checks:</strong> Fast file verification on 64-bit systems",
-            "cache": "<strong>Fingerprinting:</strong> Content-addressable storage identifiers",
-            "integrity": "<strong>Deduplication:</strong> Detecting duplicate files efficiently"
+            "verify": "<strong>P2P网络：</strong> 共享协议中的文件标识",
+            "checksum": "<strong>完整性检查：</strong> 64位系统上的快速验证",
+            "cache": "<strong>指纹：</strong> 基于内容的存储标识符",
+            "integrity": "<strong>去重：</strong> 高效重复检测"
         },
-        "warning_title": "⚠️ Security Note",
-        "warning_desc": "<strong>Tiger-128's 128-bit output provides only 64-bit collision resistance.</strong> Similar to MD5 in collision strength. For cryptographic security, use Tiger-192 or SHA-256. Tiger-128 is best suited for checksums and non-security fingerprinting.",
-        "compare_title": "🔄 Tiger Family Comparison",
+        "warning_title": "⚠️ 注意",
+        "warning_desc": "<strong>Tiger-128仅提供64位碰撞抵抗。</strong> 加密安全请使用SHA-256。",
+        "compare_title": "🔄 Tiger家族",
         "compare": {
             "md5": {
                 "title": "Tiger-128",
-                "desc1": "128-bit, fast on 64-bit",
-                "desc2": "64-bit collision resistance"
+                "desc1": "128位",
+                "desc2": "64位抵抗"
             },
             "sha1": {
                 "title": "Tiger-160",
-                "desc1": "160-bit output",
-                "desc2": "80-bit collision resistance"
+                "desc1": "160位",
+                "desc2": "80位抵抗"
             },
             "sha256": {
                 "title": "Tiger-192",
-                "desc1": "192-bit (full)",
-                "desc2": "96-bit collision resistance"
+                "desc1": "192位",
+                "desc2": "96位抵抗"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ 常见问题",
         "faq": {
-            "q1": "Why was Tiger designed for 64-bit?",
-            "a1": "In 1995, 64-bit processors were emerging and existing hash functions (MD5, SHA-1) were optimized for 32-bit. Tiger filled the gap with native 64-bit operations for superior performance.",
-            "q2": "Tiger-128 vs MD5 — which is faster?",
-            "a2": "On 64-bit systems, Tiger-128 is significantly faster than MD5. On 32-bit systems, MD5 may be faster due to its 32-bit-optimized design.",
-            "q3": "Is Tiger-128 still relevant?",
-            "a3": "It's used in P2P file sharing and as a fast checksum. For new projects needing speed, consider BLAKE3 or xxHash. For security, use SHA-256."
+            "q1": "Tiger为什么为64位设计？",
+            "a1": "1995年64位处理器出现，现有哈希函数针对32位优化。",
+            "q2": "Tiger-128 vs MD5？",
+            "a2": "在64位系统上Tiger-128比MD5快得多。",
+            "q3": "Tiger-128还有用吗？",
+            "a3": "用于P2P文件共享。新项目考虑BLAKE3。"
         }
     },
     "js": {

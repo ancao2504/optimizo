@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "GOST Hash Generator - Alat online gratis",
-        "description": "Generate GOST R 34.11-94 hashes from any text. Russian federal standard 256-bit cryptographic hash function. Free, instant, and private.",
-        "h1": "GOST Hash Generator",
-        "subtitle": "Generate GOST R 34.11-94 hashes — Russian federal cryptographic standard"
+        "title": "Generator Hash GOST - Alat Online Gratis",
+        "description": "Buat hash GOST R 34.11-94 dari teks apa pun. Standar kripto 256-bit Soviet/Rusia. Gratis.",
+        "h1": "Generator Hash GOST",
+        "subtitle": "Buat Hash GOST R 34.11-94 — Standar Kripto Rusia"
     },
     "editor": {
-        "label_input": "Masukkan teks",
-        "ph_input": "Masukkan teks untuk menghasilkan GOST hash...",
-        "btn_generate": "Hasilkan GOST Hash",
-        "label_result": "GOST Hash",
+        "label_input": "Masukkan Teks",
+        "ph_input": "Masukkan teks untuk menghasilkan hash GOST...",
+        "btn_generate": "Buat Hash GOST",
+        "label_result": "Hash GOST",
         "btn_copy": "Salin"
     },
     "content": {
-        "hero_title": "GOST R 34.11-94 Hash Generator",
-        "hero_subtitle": "Russian federal standard 256-bit cryptographic hashing",
-        "p1": "GOST R 34.11-94 is the Russian federal standard (GOST = 'Gosudarstvennyy Standart', meaning 'State Standard') for cryptographic hash functions. It produces a 256-bit (64-character hex) hash value. Developed in the Soviet era and standardized in 1994, GOST hash is widely used in Russian government, banking, and PKI systems. It's mandatory for digital signatures, document authentication, and secure communications within the Russian Federation.",
-        "what_title": "What is GOST Hash?",
-        "what_desc": "GOST R 34.11-94 is built on top of the GOST 28147-89 block cipher (the Russian equivalent of DES/AES). It processes data in 256-bit blocks through a series of cipher-based compression steps. The algorithm maintains a 256-bit hash state, a 256-bit checksum, and a 256-bit block count. Unlike Merkle-Damgård designs, GOST includes a finalization step that incorporates both the checksum and block count for added security.",
-        "features_title": "✅ GOST Hash Features",
+        "hero_title": "Generator Hash GOST",
+        "hero_subtitle": "GOST R 34.11-94 — Standar kriptografis Rusia",
+        "p1": "GOST R 34.11-94 adalah fungsi hash kriptografis standar nasional Rusia. Menghasilkan hash 256-bit (64 karakter heksadesimal). Berbasis GOST 28147-89 block cipher, mewakili kriptografi Soviet/Rusia yang independen dari desain NSA.",
+        "what_title": "Apa itu GOST Hash?",
+        "what_desc": "GOST R 34.11-94 memproses blok 256-bit menggunakan konstruksi Davies-Meyer berbasis GOST 28147-89.",
+        "features_title": "✅ Fitur",
         "features": {
-            "fast": "<strong>256-bit Output:</strong> 64-character hexadecimal digest",
-            "fixed": "<strong>Russian Standard:</strong> Mandatory for Russian government applications",
-            "deterministic": "<strong>Cipher-Based:</strong> Built on GOST 28147-89 block cipher",
-            "support": "<strong>Unique Design:</strong> Includes checksum and counter in finalization"
+            "fast": "<strong>Standar nasional:</strong> GOST R 34.11-94 resmi",
+            "fixed": "<strong>Output 256-bit:</strong> 64 karakter hex seperti SHA-256",
+            "deterministic": "<strong>Independen NSA:</strong> Desain Soviet/Rusia sepenuhnya independen",
+            "support": "<strong>Pengaruh global:</strong> Pendekatan alternatif desain hash"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Penggunaan",
         "uses": {
-            "verify": "<strong>Russian Government:</strong> Official document authentication",
-            "checksum": "<strong>Digital Signatures:</strong> GOST R 34.10 signature scheme",
-            "cache": "<strong>Banking:</strong> Russian financial transaction verification",
-            "integrity": "<strong>PKI:</strong> Russian public key infrastructure certificates"
+            "verify": "<strong>Kepatuhan Rusia:</strong> Tanda tangan digital pemerintah dan perbankan",
+            "checksum": "<strong>CryptoPro CSP:</strong> Infrastruktur kripto Rusia",
+            "cache": "<strong>Keragaman kripto:</strong> Algoritma independen dari desain Barat",
+            "integrity": "<strong>Riset akademis:</strong> Kriptanalisis komparatif"
         },
-        "warning_title": "💡 Background",
-        "warning_desc": "<strong>GOST R 34.11-94 has been superseded by GOST R 34.11-2012 (Streebog)</strong> for new Russian applications. However, the 1994 version remains in widespread use for legacy compatibility. The algorithm is considered secure against practical attacks despite theoretical weaknesses found in the S-box choices.",
-        "compare_title": "🔄 GOST vs International Standards",
+        "warning_title": "⚠️ Catatan",
+        "warning_desc": "<strong>GOST R 34.11-94 telah digantikan oleh Streebog (GOST R 34.11-2012).</strong> Gunakan Streebog atau SHA-256 untuk aplikasi baru.",
+        "compare_title": "🔄 GOST vs Standar Barat",
         "compare": {
             "md5": {
                 "title": "GOST R 34.11-94",
-                "desc1": "256-bit, cipher-based",
-                "desc2": "Russian federal standard"
+                "desc1": "256-bit, desain Rusia",
+                "desc2": "Standar Soviet asli"
             },
             "sha1": {
                 "title": "SHA-256",
-                "desc1": "256-bit, Merkle-Damgård",
-                "desc2": "International NIST standard"
+                "desc1": "256-bit, desain NSA",
+                "desc2": "Standar AS/Internasional"
             },
             "sha256": {
-                "title": "Streebog (2012)",
+                "title": "Streebog",
                 "desc1": "256/512-bit",
-                "desc2": "Modern Russian standard"
+                "desc2": "Penerus GOST modern"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Pertanyaan Umum",
         "faq": {
-            "q1": "Is GOST hash the same as SHA-256?",
-            "a1": "No. While both produce 256-bit hashes, they use completely different internal designs. GOST is cipher-based (using GOST 28147-89), while SHA-256 uses the Merkle-Damgård construction. They are not interchangeable.",
-            "q2": "When should I use GOST hash?",
-            "a2": "Use GOST hash when interacting with Russian government systems, banking infrastructure, or when GOST compliance is required. For all other purposes, SHA-256 is the international standard.",
-            "q3": "What replaced GOST R 34.11-94?",
-            "a3": "GOST R 34.11-2012, known as Streebog, replaced the 1994 standard. It offers both 256-bit and 512-bit variants with a modern design addressing known weaknesses of the original."
+            "q1": "Perbedaan GOST hash lama dan baru?",
+            "a1": "GOST R 34.11-94 menggunakan cipher GOST 28147-89. Streebog (2012) arsitektur baru sepenuhnya.",
+            "q2": "Apakah GOST hash aman?",
+            "a2": "Serangan teoritis ditemukan tapi tidak ada serangan praktis penuh. Versi lama untuk sistem lama.",
+            "q3": "Mengapa Rusia membuat standar sendiri?",
+            "a3": "Kedaulatan kripto. GOST mewakili filosofi kripto independen dari algoritma NSA."
         }
     },
     "js": {
         "error_empty": "Silakan masukkan teks",
-        "btn_copied": "Disalin!",
-        "btn_generating": "Menghasilkan...",
-        "error_failed": "Gagal menghasilkan hash. Coba lagi."
+        "btn_copied": "Tersalin!",
+        "btn_generating": "Membuat...",
+        "error_failed": "Gagal membuat hash. Silakan coba lagi."
     }
 }

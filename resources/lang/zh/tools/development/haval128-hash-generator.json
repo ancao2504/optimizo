@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "Haval-128 Hash Generator - 免费在线工具",
-        "description": "Generate Haval-128 hashes from any text. Variable-round cryptographic hash with 128-bit output. Free, instant, and private.",
-        "h1": "Haval-128 Hash Generator",
-        "subtitle": "Generate Haval-128 hashes — the variable-round hash function"
+        "title": "Haval-128哈希生成器 - 免费在线工具",
+        "description": "从任何文本生成Haval-128哈希。可变长度和轮数的哈希函数。免费。",
+        "h1": "Haval-128哈希生成器",
+        "subtitle": "生成Haval-128哈希 — 灵活的长度和轮数"
     },
     "editor": {
         "label_input": "输入文本",
-        "ph_input": "输入文本以生成 Haval-128 hash...",
-        "btn_generate": "生成 Haval-128 Hash",
-        "label_result": "Haval-128 Hash",
+        "ph_input": "输入文本以生成Haval-128哈希...",
+        "btn_generate": "生成Haval-128哈希",
+        "label_result": "Haval-128哈希",
         "btn_copy": "复制"
     },
     "content": {
-        "hero_title": "Haval-128 Hash Generator",
-        "hero_subtitle": "Variable-round cryptographic hashing with configurable security",
-        "p1": "HAVAL (HAsh of VAriable Length) is a unique cryptographic hash function designed by Yuliang Zheng, Josef Pieprzyk, and Jennifer Seberry in 1992. HAVAL is notable for being the first hash function with variable output length (128, 160, 192, 224, or 256 bits) and variable number of rounds (3, 4, or 5). This tool generates 128-bit HAVAL hashes using 3 rounds, providing a compact fingerprint for data identification.",
-        "what_title": "What is Haval-128?",
-        "what_desc": "HAVAL processes data in 1024-bit blocks (twice the size of MD5's 512-bit blocks) through its configurable rounds. Each round consists of 32 steps, making a 3-round HAVAL execute 96 steps total. The large block size allows HAVAL to process data more efficiently than MD5 or SHA-1 per block, while the variable parameters let users trade speed for security.",
-        "features_title": "✅ Haval-128 Features",
+        "hero_title": "Haval-128哈希生成器",
+        "hero_subtitle": "128位输出的灵活哈希函数",
+        "p1": "Haval在输出长度（128/160/192/224/256位）和轮数（3/4/5）方面提供独特的灵活性。Haval-128生成128位哈希（32个十六进制字符）。1992年由Zheng、Pieprzyk和Seberry设计。",
+        "what_title": "什么是Haval-128？",
+        "what_desc": "Haval以1024位块处理数据 — 是MD5和SHA-1的两倍。支持8个32位状态变量和可调轮数。",
+        "features_title": "✅ 特点",
         "features": {
-            "fast": "<strong>Variable Design:</strong> Configurable rounds (3, 4, or 5) and output length",
-            "fixed": "<strong>128-bit Output:</strong> 32-character hexadecimal digest",
-            "deterministic": "<strong>Large Blocks:</strong> 1024-bit blocks for efficient processing",
-            "support": "<strong>Flexible Security:</strong> Choose between speed and security"
+            "fast": "<strong>独特灵活性：</strong> 可调输出长度和轮数",
+            "fixed": "<strong>1024位块：</strong> 每块处理更多数据",
+            "deterministic": "<strong>安全选项：</strong> 3至5轮",
+            "support": "<strong>128位输出：</strong> 紧凑的32字符摘要"
         },
-        "uses_title": "📊 Use Cases",
+        "uses_title": "📊 用途",
         "uses": {
-            "verify": "<strong>Data Fingerprinting:</strong> Compact identifiers for data objects",
-            "checksum": "<strong>Checksums:</strong> Non-security integrity verification",
-            "cache": "<strong>Legacy Systems:</strong> Systems designed around HAVAL",
-            "integrity": "<strong>Research:</strong> Studying variable-parameter hash function design"
+            "verify": "<strong>嵌入式系统：</strong> 根据资源调整长度",
+            "checksum": "<strong>完整性检查：</strong> 3轮快速检查",
+            "cache": "<strong>学术研究：</strong> 速度-安全平衡研究",
+            "integrity": "<strong>遗留系统：</strong> 具有Haval接口的系统"
         },
-        "warning_title": "⚠️ Security Warning",
-        "warning_desc": "<strong>HAVAL-128 with 3 rounds is NOT secure.</strong> Collisions have been found for 3-round and 4-round variants. The 128-bit output limits collision resistance to 64 bits at best. For any security purpose, use SHA-256 or SHA-512.",
-        "compare_title": "🔄 Haval vs Other 128-bit Hashes",
+        "warning_title": "⚠️ 安全提示",
+        "warning_desc": "<strong>Haval-128已发现漏洞。</strong> 在3轮和4轮变体中发现了碰撞。请使用SHA-256。",
+        "compare_title": "🔄 Haval vs 其他",
         "compare": {
             "md5": {
                 "title": "Haval-128",
-                "desc1": "128-bit, 1024-bit blocks",
-                "desc2": "Variable rounds, large blocks"
+                "desc1": "128位，1024位块",
+                "desc2": "灵活但有漏洞"
             },
             "sha1": {
                 "title": "MD5",
-                "desc1": "128-bit, 512-bit blocks",
-                "desc2": "More widely supported"
+                "desc1": "128位，512位块",
+                "desc2": "更广泛普及"
             },
             "sha256": {
-                "title": "RIPEMD-128",
-                "desc1": "128-bit, dual-chain",
-                "desc2": "European parallel design"
+                "title": "SHA-256",
+                "desc1": "256位",
+                "desc2": "现代安全标准"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ 常见问题",
         "faq": {
-            "q1": "What makes HAVAL unique?",
-            "a1": "HAVAL is the first hash function with both variable output length and variable number of rounds. Users choose 3, 4, or 5 rounds and 128 to 256-bit output, allowing fine-tuned speed/security tradeoffs.",
-            "q2": "Is 3-round HAVAL secure?",
-            "a2": "No. Collisions have been found for 3-round HAVAL. Even 4-round HAVAL has been attacked. Only 5-round HAVAL-256 might offer reasonable security, but SHA-256 is always preferred.",
-            "q3": "Why use 1024-bit blocks instead of 512-bit?",
-            "a3": "Larger blocks mean fewer compression function calls for the same amount of data, improving throughput. HAVAL processes data at roughly twice the rate per block compared to MD5."
+            "q1": "Haval的独特之处？",
+            "a1": "Haval是唯一同时提供输出长度和轮数选择的哈希函数。",
+            "q2": "Haval-128比MD5更安全吗？",
+            "a2": "两者都有漏洞。都不适合现代安全。",
+            "q3": "Haval为什么没有普及？",
+            "a3": "缺乏标准化和低轮变体的漏洞。"
         }
     },
     "js": {

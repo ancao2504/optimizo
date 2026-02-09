@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "Snefru Hash Generator - Công cụ trực tuyến miễn phí",
-        "description": "Generate Snefru hashes from any text. Xerox PARC-designed hash function producing 128 or 256-bit digests. Free online Snefru generator.",
-        "h1": "Snefru Hash Generator",
-        "subtitle": "Generate Snefru hashes — Xerox PARC's historic hash function"
+        "title": "Tạo Hash Snefru - Công cụ Trực tuyến Miễn phí",
+        "description": "Tạo hash Snefru từ bất kỳ văn bản nào. Hàm băm lịch sử từ Xerox PARC. Miễn phí.",
+        "h1": "Tạo Hash Snefru",
+        "subtitle": "Tạo Hash Snefru — Hàm Băm Lịch sử Xerox PARC"
     },
     "editor": {
-        "label_input": "Nhập văn bản",
-        "ph_input": "Nhập văn bản để tạo Snefru hash...",
-        "btn_generate": "Tạo Snefru Hash",
-        "label_result": "Snefru Hash",
+        "label_input": "Nhập Văn bản",
+        "ph_input": "Nhập văn bản để tạo hash Snefru...",
+        "btn_generate": "Tạo Hash Snefru",
+        "label_result": "Hash Snefru",
         "btn_copy": "Sao chép"
     },
     "content": {
-        "hero_title": "Snefru Hash Generator",
-        "hero_subtitle": "Generate Snefru hashes — an early landmark in cryptographic design",
-        "p1": "Snefru is a cryptographic hash function designed by Ralph Merkle at Xerox PARC in 1990, named after the Egyptian Pharaoh Sneferu. It can produce either 128-bit or 256-bit hash values. Snefru is historically significant as one of the first hash functions designed using the Merkle-Damgård construction, which later became the basis for MD5, SHA-1, and SHA-2. While broken for security use, Snefru remains important for understanding hash function evolution.",
-        "what_title": "What is Snefru?",
-        "what_desc": "Snefru processes input in 512-bit blocks (for 128-bit output) or 384-bit blocks (for 256-bit output) using a series of reversible rounds with S-box-based mixing. The original 2-round version was quickly broken by Eli Biham and Adi Shamir using differential cryptanalysis. The strengthened 8-round version is more resistant but still not considered secure by modern standards.",
-        "features_title": "✅ Snefru Characteristics",
+        "hero_title": "Tạo Hash Snefru",
+        "hero_subtitle": "Cột mốc trong thiết kế mật mã",
+        "p1": "Snefru là hàm băm mật mã do Ralph Merkle thiết kế năm 1990 tại Xerox PARC, đặt theo tên Pharaoh Sneferu. Có thể tạo hash 128-bit hoặc 256-bit.",
+        "what_title": "Snefru là gì?",
+        "what_desc": "Snefru xử lý dữ liệu trong khối 512-bit (đầu ra 128-bit) hoặc 384-bit (đầu ra 256-bit) sử dụng trộn dựa trên bảng thay thế.",
+        "features_title": "✅ Đặc điểm",
         "features": {
-            "fast": "<strong>Historical Pioneer:</strong> One of the first Merkle-Damgård hash functions",
-            "fixed": "<strong>256-bit Output:</strong> Produces a 64-character hexadecimal hash",
-            "deterministic": "<strong>Xerox PARC:</strong> Designed by Ralph Merkle, inventor of Merkle trees",
-            "support": "<strong>Educational Value:</strong> Key to understanding hash function evolution"
+            "fast": "<strong>Tiên phong lịch sử:</strong> Một trong những hàm băm Merkle-Damgård đầu tiên",
+            "fixed": "<strong>Đầu ra 256-bit:</strong> Digest 64 ký tự",
+            "deterministic": "<strong>Xerox PARC:</strong> Merkle thiết kế, người phát minh cây Merkle",
+            "support": "<strong>Giá trị giáo dục:</strong> Quan trọng để hiểu lịch sử hash"
         },
-        "uses_title": "📊 Use Cases",
+        "uses_title": "📊 Ứng dụng",
         "uses": {
-            "verify": "<strong>Legacy Systems:</strong> Compatibility with older Xerox systems",
-            "checksum": "<strong>Education:</strong> Teaching cryptographic hash function design",
-            "cache": "<strong>Research:</strong> Studying differential cryptanalysis resistance",
-            "integrity": "<strong>Historical Analysis:</strong> Understanding hash evolution from Snefru to SHA-2"
+            "verify": "<strong>Hệ thống cũ:</strong> Tương thích hệ thống Xerox cũ",
+            "checksum": "<strong>Giáo dục:</strong> Học thiết kế hàm băm",
+            "cache": "<strong>Nghiên cứu:</strong> Nghiên cứu phân tích vi phân",
+            "integrity": "<strong>Phân tích lịch sử:</strong> Tiến hóa từ Snefru đến SHA-2"
         },
-        "warning_title": "⚠️ Security Warning",
-        "warning_desc": "<strong>Snefru is BROKEN for cryptographic purposes.</strong> Differential cryptanalysis by Biham and Shamir found collisions in the 2-round version, and attacks exist on the higher-round versions. Do NOT use Snefru for security. Use SHA-256 or SHA-512 instead.",
-        "compare_title": "🔄 Snefru vs Modern Algorithms",
+        "warning_title": "⚠️ Cảnh báo",
+        "warning_desc": "<strong>Snefru đã bị phá về mật mã.</strong> Xung đột tìm thấy qua phân tích vi phân. Dùng SHA-256.",
+        "compare_title": "🔄 Snefru vs Hiện đại",
         "compare": {
             "md5": {
                 "title": "Snefru",
-                "desc1": "128/256-bit, S-box based",
-                "desc2": "Broken — historical interest only"
+                "desc1": "128/256-bit",
+                "desc2": "Đã bị phá — chỉ lịch sử"
             },
             "sha1": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Also broken, but more widely used"
+                "desc1": "128-bit",
+                "desc2": "Cũng bị phá"
             },
             "sha256": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure modern standard"
+                "desc1": "256-bit",
+                "desc2": "Tiêu chuẩn an toàn hiện đại"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Câu hỏi Thường gặp",
         "faq": {
-            "q1": "Why is Snefru named after a pharaoh?",
-            "a1": "Ralph Merkle named it after the Egyptian Pharaoh Sneferu, following a tradition of naming cryptographic algorithms after Egyptian elements (similar to how Khufu and Khafre block ciphers were named).",
-            "q2": "How was Snefru broken?",
-            "a2": "Eli Biham and Adi Shamir applied differential cryptanalysis to find collisions in the 2-round version. Their attack was later extended to higher round counts, demonstrating fundamental weaknesses in the design.",
-            "q3": "What's Snefru's legacy?",
-            "a3": "Snefru helped establish the Merkle-Damgård construction as the dominant paradigm for hash function design. Its vulnerabilities also spurred research into differential cryptanalysis resistance."
+            "q1": "Tại sao đặt tên theo Pharaoh?",
+            "a1": "Ralph Merkle theo truyền thống đặt tên thuật toán crypto với yếu tố Ai Cập.",
+            "q2": "Snefru bị phá thế nào?",
+            "a2": "Biham và Shamir tìm xung đột ở phiên bản 2-vòng qua phân tích vi phân.",
+            "q3": "Di sản của Snefru?",
+            "a3": "Snefru giúp thiết lập Merkle-Damgård là mô hình thiết kế hash chính."
         }
     },
     "js": {

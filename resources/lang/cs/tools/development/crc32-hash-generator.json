@@ -1,69 +1,69 @@
 {
     "meta": {
-        "title": "CRC-32 Hash Generator - Bezplatný online nástroj",
-        "description": "Generate CRC-32 checksums from any text instantly. Industry-standard error detection algorithm used in Ethernet, ZIP, and PNG. Free and private.",
-        "h1": "CRC-32 Hash Generator",
-        "subtitle": "Generate CRC-32 checksums for reliable error detection and data integrity"
+        "title": "Generátor hashe CRC-32 - Bezplatný online nástroj",
+        "description": "Vygenerujte hash CRC-32 z libovolného textu. Standardní cyklický redundantní kontrolní součet. Zdarma.",
+        "h1": "Generátor hashe CRC-32",
+        "subtitle": "Generujte kontrolní součet CRC-32 — Průmyslový standard"
     },
     "editor": {
         "label_input": "Zadejte text",
-        "ph_input": "Zadejte text pro generování CRC-32 hash...",
-        "btn_generate": "Generovat CRC-32 Hash",
-        "label_result": "CRC-32 Hash",
+        "ph_input": "Zadejte text pro vygenerování hashe CRC-32...",
+        "btn_generate": "Generovat hash CRC-32",
+        "label_result": "Hash CRC-32",
         "btn_copy": "Kopírovat"
     },
     "content": {
-        "hero_title": "CRC-32 Hash Generator",
-        "hero_subtitle": "Compute CRC-32 checksums for data integrity verification",
-        "p1": "CRC-32 (Cyclic Redundancy Check 32-bit) is an error-detecting code used extensively in digital networks and storage devices. It produces a 32-bit checksum that can detect common types of data corruption. CRC-32 is the backbone of Ethernet frame checking, ZIP file integrity, PNG image validation, and dozens of other standards that rely on reliable error detection.",
-        "what_title": "What is CRC-32?",
-        "what_desc": "CRC-32 treats the input data as a polynomial and divides it by a fixed generator polynomial (0xEDB88320 for IEEE 802.3). The remainder of this division becomes the 32-bit checksum. This mathematical approach gives CRC-32 excellent error detection properties, catching all single-bit errors, all double-bit errors, and any burst error of 32 bits or fewer.",
-        "features_title": "✅ CRC-32 Advantages",
+        "hero_title": "Generátor hashe CRC-32",
+        "hero_subtitle": "Standardní cyklický redundantní kontrolní součet pro integritu dat",
+        "p1": "CRC-32 je celosvětově nejpoužívanější nekryptografická funkce kontrolního součtu. Generuje 32bitový hash (8 hexadecimálních znaků) pomocí polynomiálního dělení.",
+        "what_title": "Co je CRC-32?",
+        "what_desc": "CRC-32 zachází se vstupem jako s velkým polynomem a počítá zbytek po dělení pevným generujícím polynomem.",
+        "features_title": "✅ Výhody",
         "features": {
-            "fast": "<strong>Hardware Optimized:</strong> Many CPUs include CRC-32 instructions for maximum speed",
-            "fixed": "<strong>32-bit Output:</strong> Always produces an 8-character hexadecimal checksum",
-            "deterministic": "<strong>Excellent Detection:</strong> Catches all common error patterns",
-            "support": "<strong>Universal Standard:</strong> Used in Ethernet, ZIP, PNG, MPEG-2, and more"
+            "fast": "<strong>Hardwarová akcelerace:</strong> Instrukce Intel CRC32 počítá rychlostí paměti",
+            "fixed": "<strong>Silná detekce:</strong> Detekuje všechny 1bitové, 2bitové a chyby lichého počtu bitů",
+            "deterministic": "<strong>Univerzální standard:</strong> Ethernet, USB, ZIP, PNG, MPEG-2",
+            "support": "<strong>Jednoduché a rychlé:</strong> Vyhledávací tabulky pro rychlý výpočet"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Použití",
         "uses": {
-            "verify": "<strong>Network Protocols:</strong> Ethernet and Wi-Fi frame checking",
-            "checksum": "<strong>File Archives:</strong> ZIP, RAR, and 7-Zip integrity verification",
-            "cache": "<strong>Image Formats:</strong> PNG chunk validation",
-            "integrity": "<strong>Storage:</strong> Disk sector integrity checks"
+            "verify": "<strong>Archivace:</strong> Ověření integrity ZIP a gzip",
+            "checksum": "<strong>Sítě:</strong> Validace Ethernet rámců",
+            "cache": "<strong>Úložiště:</strong> Integrita souborového systému",
+            "integrity": "<strong>Multimédia:</strong> Integrita souborů PNG a MPEG"
         },
-        "warning_title": "⚠️ Important Note",
-        "warning_desc": "<strong>CRC-32 is NOT a cryptographic hash function.</strong> It is designed to detect accidental data corruption, not malicious tampering. An attacker can easily create different inputs with the same CRC-32 value. For security, use SHA-256 or SHA-512.",
-        "compare_title": "🔄 CRC-32 vs Other Algorithms",
+        "warning_title": "⚠️ Bezpečnostní upozornění",
+        "warning_desc": "<strong>CRC-32 není kryptografická hashovací funkce.</strong> Navržen pro detekci náhodných chyb, ne pro prevenci záměrných úprav.",
+        "compare_title": "🔄 Srovnání CRC-32",
         "compare": {
             "md5": {
                 "title": "CRC-32",
-                "desc1": "32-bit output",
-                "desc2": "Best for error detection"
+                "desc1": "32bitový, polynomiální",
+                "desc2": "Detekce chyb, ne krypto"
             },
             "sha1": {
                 "title": "Adler-32",
-                "desc1": "32-bit output",
-                "desc2": "Faster but weaker detection"
+                "desc1": "32bitový, aritmetický",
+                "desc2": "Rychlejší, slabší detekce"
             },
             "sha256": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Cryptographic (deprecated)"
+                "desc1": "128bitový, kryptografický",
+                "desc2": "Mnohem pomalejší, bezpečnější"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Často kladené otázky",
         "faq": {
-            "q1": "What's the difference between CRC-32 and CRC-32B?",
-            "a1": "CRC-32 uses the standard ITU polynomial, while CRC-32B uses the IEEE 802.3 polynomial. CRC-32B is the more commonly used variant in modern applications like ZIP files and Ethernet.",
-            "q2": "Can CRC-32 detect all errors?",
-            "a2": "CRC-32 detects all single-bit errors, all double-bit errors, and all burst errors up to 32 bits. It has a 99.99999995% chance of detecting longer burst errors.",
-            "q3": "Is CRC-32 suitable for password hashing?",
-            "a3": "Absolutely not. CRC-32 is a checksum, not a cryptographic hash. It's trivially easy to find collisions. Use bcrypt or Argon2 for passwords."
+            "q1": "Jaký je rozdíl mezi CRC-32 a CRC-32B?",
+            "a1": "Používají různé generující polynomy. CRC-32B je výchozí varianta PHP.",
+            "q2": "Proč CRC-32 není vhodný pro bezpečnost?",
+            "a2": "CRC-32 je lineární a reverzibilní. Útočníci mohou snadno vytvořit kolize.",
+            "q3": "Detekuje CRC-32 všechny chyby?",
+            "a3": "Ne. CRC-32 detekuje všechny 1bitové a 2bitové chyby, ale některé vzory mohou zůstat neodhaleny."
         }
     },
     "js": {
-        "error_empty": "Prosím zadejte text",
+        "error_empty": "Zadejte text",
         "btn_copied": "Zkopírováno!",
         "btn_generating": "Generování...",
         "error_failed": "Generování hashe selhalo. Zkuste to znovu."

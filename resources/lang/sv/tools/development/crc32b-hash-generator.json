@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "CRC-32B Hash Generator - Gratis onlineverktyg",
-        "description": "Generate CRC-32B (IEEE 802.3) checksums from any text. The standard CRC used in Ethernet, ZIP, and PNG. Free, instant, and private.",
-        "h1": "CRC-32B Hash Generator",
-        "subtitle": "Generate CRC-32B checksums using the IEEE 802.3 standard polynomial"
+        "title": "CRC-32B Hash-generator - Gratis onlineverktyg",
+        "description": "Generera CRC-32B-hash från valfri text. Standard CRC-32-variant i PHP och Python. Gratis.",
+        "h1": "CRC-32B Hash-generator",
+        "subtitle": "Generera CRC-32B-hash — PHPs standardvariant"
     },
     "editor": {
         "label_input": "Ange text",
-        "ph_input": "Ange text för att generera CRC-32B hash...",
-        "btn_generate": "Generera CRC-32B Hash",
-        "label_result": "CRC-32B Hash",
+        "ph_input": "Ange text för att generera CRC-32B-hash...",
+        "btn_generate": "Generera CRC-32B-hash",
+        "label_result": "CRC-32B-hash",
         "btn_copy": "Kopiera"
     },
     "content": {
-        "hero_title": "CRC-32B Hash Generator",
-        "hero_subtitle": "The industry-standard IEEE 802.3 CRC checksum generator",
-        "p1": "CRC-32B is the most widely used variant of the CRC-32 family, employing the IEEE 802.3 polynomial (0x04C11DB7). It is the standard checksum in Ethernet networking, ZIP archives, PNG images, and countless other protocols. When people refer to 'CRC-32' in practice, they almost always mean CRC-32B. This tool generates the exact same checksums used by WinZip, 7-Zip, and network hardware worldwide.",
-        "what_title": "What is CRC-32B?",
-        "what_desc": "CRC-32B uses the generator polynomial 0x04C11DB7, standardized by IEEE 802.3 for Ethernet. The 'B' suffix distinguishes it from other CRC-32 variants using different polynomials. It provides the same mathematical guarantees as CRC-32 but is the de facto standard for modern applications, making it the most compatible choice.",
-        "features_title": "✅ CRC-32B Advantages",
+        "hero_title": "CRC-32B Hash-generator",
+        "hero_subtitle": "Standard CRC-32B-polynom för dataintegritet",
+        "p1": "CRC-32B är den mest populära varianten i CRC-32-familjen som använder det reflekterade polynomet 0xEDB88320. Det är standard CRC-32-implementeringen i PHP, Python, Java och de flesta programmeringsspråk.",
+        "what_title": "Vad är CRC-32B?",
+        "what_desc": "CRC-32B använder den reflekterade formen 0xEDB88320 av polynomet 0x04C11DB7.",
+        "features_title": "✅ Fördelar",
         "features": {
-            "fast": "<strong>Industry Standard:</strong> The CRC-32 variant used by ZIP, PNG, Ethernet",
-            "fixed": "<strong>Maximum Compatibility:</strong> Matches output of standard tools and libraries",
-            "deterministic": "<strong>Proven Reliable:</strong> Decades of deployment in production systems",
-            "support": "<strong>Hardware Accelerated:</strong> SSE 4.2 CRC32 instruction support"
+            "fast": "<strong>Språkstandard:</strong> Standard i PHP, Python, Java",
+            "fixed": "<strong>Stark detektering:</strong> Detekterar alla 1-bits- och 2-bitarsfel",
+            "deterministic": "<strong>Kompatibilitet:</strong> Konsekventa resultat över plattformar",
+            "support": "<strong>Hårdvaruaccelererad:</strong> Inbyggt CPU-stöd"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Användning",
         "uses": {
-            "verify": "<strong>ZIP Archives:</strong> Standard file integrity check in ZIP format",
-            "checksum": "<strong>Ethernet:</strong> Frame Check Sequence in IEEE 802.3",
-            "cache": "<strong>PNG Images:</strong> Chunk integrity verification",
-            "integrity": "<strong>MPEG-2:</strong> Transport stream error detection"
+            "verify": "<strong>Filvalidering:</strong> Integritetskontroll av nedladdningar",
+            "checksum": "<strong>Databaser:</strong> Detektering av datakorruption",
+            "cache": "<strong>API:</strong> Validering av nyttolastintegritet",
+            "integrity": "<strong>Versionshantering:</strong> Detektering av filändringar"
         },
-        "warning_title": "⚠️ Important Note",
-        "warning_desc": "<strong>CRC-32B is a checksum, not a cryptographic hash.</strong> While excellent for detecting accidental corruption, it provides no security against intentional data manipulation. Use SHA-256 or SHA-512 for cryptographic security.",
-        "compare_title": "🔄 CRC-32B vs Other Variants",
+        "warning_title": "⚠️ Anmärkning",
+        "warning_desc": "<strong>CRC-32B är funktionellt identisk med CRC-32 i de flesta programmeringsspråk.</strong>",
+        "compare_title": "🔄 CRC-32-varianter",
         "compare": {
             "md5": {
-                "title": "CRC-32B (IEEE)",
-                "desc1": "32-bit, 0x04C11DB7",
-                "desc2": "Most widely used standard"
+                "title": "CRC-32B",
+                "desc1": "Polynom 0xEDB88320",
+                "desc2": "Mest populära standard"
             },
             "sha1": {
-                "title": "CRC-32 (ITU)",
-                "desc1": "32-bit, different poly",
-                "desc2": "Older variant, less common"
+                "title": "CRC-32",
+                "desc1": "Alternativ variant",
+                "desc2": "Annat polynom"
             },
             "sha256": {
-                "title": "CRC-32C (Castagnoli)",
-                "desc1": "32-bit, 0x1EDC6F41",
-                "desc2": "Used in iSCSI, better detection"
+                "title": "CRC-32C",
+                "desc1": "Castagnoli-polynom",
+                "desc2": "Optimerad för iSCSI"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Vanliga frågor",
         "faq": {
-            "q1": "Should I use CRC-32 or CRC-32B?",
-            "a1": "Use CRC-32B. It's the IEEE 802.3 standard and is what most software and hardware implementations use. When documentation says 'CRC-32' without qualification, they typically mean CRC-32B.",
-            "q2": "Will my CRC-32B match WinZip/7-Zip?",
-            "a2": "Yes. CRC-32B uses the same IEEE 802.3 polynomial as ZIP, gzip, PNG, and virtually all standard tools.",
-            "q3": "Is CRC-32B better than Adler-32?",
-            "a3": "CRC-32B has stronger error detection, especially for short data blocks. Adler-32 is faster in software but less reliable for data under 1000 bytes."
+            "q1": "Skillnad mellan CRC-32 och CRC-32B?",
+            "a1": "De använder olika generatorpolynom.",
+            "q2": "Är CRC-32B kryptografiskt säkert?",
+            "a2": "Nej. Som alla CRC-varianter är det en kontrollsumma för feldetektering.",
+            "q3": "Vilka språk använder CRC-32B?",
+            "a3": "PHP (crc32()), Python (binascii.crc32()), Java, .NET."
         }
     },
     "js": {
         "error_empty": "Vänligen ange text",
         "btn_copied": "Kopierat!",
         "btn_generating": "Genererar...",
-        "error_failed": "Hash-generering misslyckades. Försök igen."
+        "error_failed": "Kunde inte generera hash. Försök igen."
     }
 }

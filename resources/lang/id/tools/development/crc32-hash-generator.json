@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "CRC-32 Hash Generator - Alat online gratis",
-        "description": "Generate CRC-32 checksums from any text instantly. Industry-standard error detection algorithm used in Ethernet, ZIP, and PNG. Free and private.",
-        "h1": "CRC-32 Hash Generator",
-        "subtitle": "Generate CRC-32 checksums for reliable error detection and data integrity"
+        "title": "Generator Hash CRC-32 - Alat Online Gratis",
+        "description": "Buat hash CRC-32 dari teks apa pun. Cyclic Redundancy Check standar. Gratis.",
+        "h1": "Generator Hash CRC-32",
+        "subtitle": "Buat Checksum CRC-32 — Standar Industri"
     },
     "editor": {
-        "label_input": "Masukkan teks",
-        "ph_input": "Masukkan teks untuk menghasilkan CRC-32 hash...",
-        "btn_generate": "Hasilkan CRC-32 Hash",
-        "label_result": "CRC-32 Hash",
+        "label_input": "Masukkan Teks",
+        "ph_input": "Masukkan teks untuk menghasilkan hash CRC-32...",
+        "btn_generate": "Buat Hash CRC-32",
+        "label_result": "Hash CRC-32",
         "btn_copy": "Salin"
     },
     "content": {
-        "hero_title": "CRC-32 Hash Generator",
-        "hero_subtitle": "Compute CRC-32 checksums for data integrity verification",
-        "p1": "CRC-32 (Cyclic Redundancy Check 32-bit) is an error-detecting code used extensively in digital networks and storage devices. It produces a 32-bit checksum that can detect common types of data corruption. CRC-32 is the backbone of Ethernet frame checking, ZIP file integrity, PNG image validation, and dozens of other standards that rely on reliable error detection.",
-        "what_title": "What is CRC-32?",
-        "what_desc": "CRC-32 treats the input data as a polynomial and divides it by a fixed generator polynomial (0xEDB88320 for IEEE 802.3). The remainder of this division becomes the 32-bit checksum. This mathematical approach gives CRC-32 excellent error detection properties, catching all single-bit errors, all double-bit errors, and any burst error of 32 bits or fewer.",
-        "features_title": "✅ CRC-32 Advantages",
+        "hero_title": "Generator Hash CRC-32",
+        "hero_subtitle": "Cyclic Redundancy Check standar untuk integritas data",
+        "p1": "CRC-32 adalah fungsi checksum non-kriptografis paling banyak digunakan di dunia. Menghasilkan hash 32-bit (8 karakter heksadesimal) melalui pembagian polinomial.",
+        "what_title": "Apa itu CRC-32?",
+        "what_desc": "CRC-32 memperlakukan data input sebagai polinomial besar dan menghitung sisa pembagian dengan polinomial generator tetap.",
+        "features_title": "✅ Keunggulan",
         "features": {
-            "fast": "<strong>Hardware Optimized:</strong> Many CPUs include CRC-32 instructions for maximum speed",
-            "fixed": "<strong>32-bit Output:</strong> Always produces an 8-character hexadecimal checksum",
-            "deterministic": "<strong>Excellent Detection:</strong> Catches all common error patterns",
-            "support": "<strong>Universal Standard:</strong> Used in Ethernet, ZIP, PNG, MPEG-2, and more"
+            "fast": "<strong>Akselerasi hardware:</strong> Instruksi Intel CRC32 menghitung pada kecepatan memori",
+            "fixed": "<strong>Deteksi kuat:</strong> Mendeteksi semua kesalahan 1-bit, 2-bit, dan ganjil-bit",
+            "deterministic": "<strong>Standar universal:</strong> Ethernet, USB, ZIP, PNG, MPEG-2",
+            "support": "<strong>Sederhana & cepat:</strong> Tabel lookup untuk komputasi cepat"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Penggunaan",
         "uses": {
-            "verify": "<strong>Network Protocols:</strong> Ethernet and Wi-Fi frame checking",
-            "checksum": "<strong>File Archives:</strong> ZIP, RAR, and 7-Zip integrity verification",
-            "cache": "<strong>Image Formats:</strong> PNG chunk validation",
-            "integrity": "<strong>Storage:</strong> Disk sector integrity checks"
+            "verify": "<strong>Pengarsipan:</strong> Verifikasi integritas ZIP dan gzip",
+            "checksum": "<strong>Jaringan:</strong> Validasi frame Ethernet",
+            "cache": "<strong>Penyimpanan:</strong> Integritas sistem file",
+            "integrity": "<strong>Multimedia:</strong> Integritas file PNG dan MPEG"
         },
-        "warning_title": "⚠️ Important Note",
-        "warning_desc": "<strong>CRC-32 is NOT a cryptographic hash function.</strong> It is designed to detect accidental data corruption, not malicious tampering. An attacker can easily create different inputs with the same CRC-32 value. For security, use SHA-256 or SHA-512.",
-        "compare_title": "🔄 CRC-32 vs Other Algorithms",
+        "warning_title": "⚠️ Catatan Keamanan",
+        "warning_desc": "<strong>CRC-32 bukan fungsi hash kriptografis.</strong> Dirancang untuk deteksi kesalahan acak, bukan pencegahan manipulasi.",
+        "compare_title": "🔄 Perbandingan CRC-32",
         "compare": {
             "md5": {
                 "title": "CRC-32",
-                "desc1": "32-bit output",
-                "desc2": "Best for error detection"
+                "desc1": "32-bit, polinomial",
+                "desc2": "Deteksi kesalahan, bukan kripto"
             },
             "sha1": {
                 "title": "Adler-32",
-                "desc1": "32-bit output",
-                "desc2": "Faster but weaker detection"
+                "desc1": "32-bit, aritmatika",
+                "desc2": "Lebih cepat tapi deteksi kurang"
             },
             "sha256": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Cryptographic (deprecated)"
+                "desc1": "128-bit, kriptografis",
+                "desc2": "Jauh lebih lambat tapi aman"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Pertanyaan Umum",
         "faq": {
-            "q1": "What's the difference between CRC-32 and CRC-32B?",
-            "a1": "CRC-32 uses the standard ITU polynomial, while CRC-32B uses the IEEE 802.3 polynomial. CRC-32B is the more commonly used variant in modern applications like ZIP files and Ethernet.",
-            "q2": "Can CRC-32 detect all errors?",
-            "a2": "CRC-32 detects all single-bit errors, all double-bit errors, and all burst errors up to 32 bits. It has a 99.99999995% chance of detecting longer burst errors.",
-            "q3": "Is CRC-32 suitable for password hashing?",
-            "a3": "Absolutely not. CRC-32 is a checksum, not a cryptographic hash. It's trivially easy to find collisions. Use bcrypt or Argon2 for passwords."
+            "q1": "Apa perbedaan CRC-32 dan CRC-32B?",
+            "a1": "Mereka menggunakan polinomial generator berbeda. CRC-32B adalah varian default PHP.",
+            "q2": "Mengapa CRC-32 tidak untuk keamanan?",
+            "a2": "CRC-32 linear dan reversibel. Penyerang mudah membuat tabrakan.",
+            "q3": "Apakah CRC-32 mendeteksi semua kesalahan?",
+            "a3": "Tidak. CRC-32 mendeteksi semua kesalahan 1-bit dan 2-bit tapi beberapa pola bisa terlewat."
         }
     },
     "js": {
         "error_empty": "Silakan masukkan teks",
-        "btn_copied": "Disalin!",
-        "btn_generating": "Menghasilkan...",
-        "error_failed": "Gagal menghasilkan hash. Coba lagi."
+        "btn_copied": "Tersalin!",
+        "btn_generating": "Membuat...",
+        "error_failed": "Gagal membuat hash. Silakan coba lagi."
     }
 }

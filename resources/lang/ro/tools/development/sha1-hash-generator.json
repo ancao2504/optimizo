@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "SHA-1 Hash Generator - Instrument online gratuit",
-        "description": "Generate SHA-1 hashes from any text instantly. 160-bit cryptographic hash used in Git, TLS, and digital certificates. Free online SHA-1 generator.",
-        "h1": "SHA-1 Hash Generator",
-        "subtitle": "Generate 160-bit SHA-1 cryptographic hashes from any text"
+        "title": "Generator hash SHA-1 - Instrument online gratuit",
+        "description": "Generați hash SHA-1 din orice text. Funcție digest de 160 biți care alimentează Git. Gratuit.",
+        "h1": "Generator hash SHA-1",
+        "subtitle": "Generați hash SHA-1 de 160 biți — Funcția care alimentează Git"
     },
     "editor": {
         "label_input": "Introduceți textul",
-        "ph_input": "Introduceți textul pentru a genera SHA-1 hash...",
-        "btn_generate": "Generează SHA-1 Hash",
-        "label_result": "SHA-1 Hash",
+        "ph_input": "Introduceți textul pentru a genera hash-ul SHA-1...",
+        "btn_generate": "Generează hash SHA-1",
+        "label_result": "Hash SHA-1",
         "btn_copy": "Copiază"
     },
     "content": {
-        "hero_title": "SHA-1 Hash Generator",
-        "hero_subtitle": "Compute 160-bit SHA-1 message digests instantly",
-        "p1": "SHA-1 (Secure Hash Algorithm 1) was designed by the NSA and published by NIST in 1995. It produces a 160-bit (40-character hex) hash value. SHA-1 was the most widely used hash function for nearly two decades, securing SSL/TLS connections, digital certificates, and version control systems. While deprecated for security since 2017, SHA-1 remains deeply embedded in systems like Git where it serves as a content identifier.",
-        "what_title": "What is SHA-1?",
-        "what_desc": "SHA-1 processes data in 512-bit blocks through 80 rounds of operations, producing a 160-bit message digest. It was designed to be computationally infeasible to find two different messages with the same hash (collision resistance) or to reconstruct the original message from its hash (preimage resistance). Google demonstrated the first practical collision attack (SHAttered) in 2017.",
-        "features_title": "✅ SHA-1 Characteristics",
+        "hero_title": "Generator hash SHA-1",
+        "hero_subtitle": "Funcție digest de 160 biți care alimentează Git",
+        "p1": "SHA-1 este o funcție hash criptografică proiectată de NSA care generează un digest de 160 biți (40 caractere hexadecimale). Coliziune practică demonstrată în 2017.",
+        "what_title": "Ce este SHA-1?",
+        "what_desc": "SHA-1 procesează datele în blocuri de 512 biți prin 80 runde de operații pe biți.",
+        "features_title": "✅ Caracteristici",
         "features": {
-            "fast": "<strong>Fast Processing:</strong> Efficient on modern hardware",
-            "fixed": "<strong>160-bit Output:</strong> Always produces a 40-character hexadecimal hash",
-            "deterministic": "<strong>Widely Deployed:</strong> Used in Git, older TLS, and legacy systems",
-            "support": "<strong>Well Analyzed:</strong> Decades of cryptanalysis research"
+            "fast": "<strong>Git VCS:</strong> Identifică fiecare commit și obiect în depozitele Git",
+            "fixed": "<strong>Ieșire de 160 biți:</strong> Digest de 40 cifre",
+            "deterministic": "<strong>Suport larg:</strong> Disponibil în toate limbajele de programare",
+            "support": "<strong>Rapid:</strong> Calcul rapid cu suport hardware"
         },
-        "uses_title": "📊 Where SHA-1 is Used",
+        "uses_title": "📊 Utilizări",
         "uses": {
-            "verify": "<strong>Git:</strong> Content-addressable storage and commit identification",
-            "checksum": "<strong>Legacy TLS:</strong> Older SSL/TLS certificate signatures",
-            "cache": "<strong>HMAC-SHA1:</strong> Still considered safe for HMAC constructions",
-            "integrity": "<strong>File Verification:</strong> Checksums for software downloads"
+            "verify": "<strong>Git:</strong> Identificare commituri, ramificări, fuzionări",
+            "checksum": "<strong>Sumă de control:</strong> Verificarea integrității fișierelor",
+            "cache": "<strong>Sisteme vechi:</strong> Certificate SSL/TLS vechi",
+            "integrity": "<strong>Amprentă:</strong> Identificarea conținutului"
         },
-        "warning_title": "⚠️ Security Warning",
-        "warning_desc": "<strong>SHA-1 is deprecated for cryptographic security.</strong> Google's SHAttered attack proved practical collisions in 2017. All major browsers and CA/Browser Forum have stopped accepting SHA-1 certificates. Use SHA-256 or SHA-512 for new applications. Note: HMAC-SHA1 remains secure due to the HMAC construction.",
-        "compare_title": "🔄 SHA-1 vs SHA-2 Family",
+        "warning_title": "⚠️ Avertisment de depreciere",
+        "warning_desc": "<strong>SHA-1 este criptografic depreciat.</strong> Google și CWI Amsterdam au demonstrat coliziune practică în 2017 (SHAttered). Folosiți SHA-256.",
+        "compare_title": "🔄 Comparație SHA-1",
         "compare": {
             "md5": {
-                "title": "SHA-1",
-                "desc1": "160-bit output",
-                "desc2": "Deprecated, collisions found"
+                "title": "MD5",
+                "desc1": "128 biți",
+                "desc2": "Spart — nu folosiți"
             },
             "sha1": {
-                "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure, recommended standard"
+                "title": "SHA-1",
+                "desc1": "160 biți",
+                "desc2": "Depreciat — coliziuni cunoscute"
             },
             "sha256": {
-                "title": "SHA-512",
-                "desc1": "512-bit output",
-                "desc2": "Highest security, faster on 64-bit"
+                "title": "SHA-256",
+                "desc1": "256 biți",
+                "desc2": "Sigur — recomandat"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Întrebări frecvente",
         "faq": {
-            "q1": "Is SHA-1 still safe to use?",
-            "a1": "Not for security purposes. SHA-1 collisions have been demonstrated. However, it's still fine for non-security uses like Git commits or non-cryptographic checksums.",
-            "q2": "Why does Git still use SHA-1?",
-            "a2": "Git uses SHA-1 as a content identifier, not for security. Git is transitioning to SHA-256, but SHA-1 remains the default for backward compatibility.",
-            "q3": "What should I use instead of SHA-1?",
-            "a3": "Use SHA-256 for general purposes or SHA-512 for maximum security. For password hashing, use bcrypt or Argon2 instead of any SHA variant."
+            "q1": "Mai e SHA-1 sigur?",
+            "a1": "Nu. Coliziune practică demonstrată în 2017.",
+            "q2": "De ce Git folosește încă SHA-1?",
+            "a2": "Git migrează gradual la SHA-256.",
+            "q3": "Ce înlocuiește SHA-1?",
+            "a3": "SHA-256 pentru majoritatea aplicațiilor."
         }
     },
     "js": {
-        "error_empty": "Vă rugăm introduceți textul",
+        "error_empty": "Introduceți textul",
         "btn_copied": "Copiat!",
         "btn_generating": "Se generează...",
-        "error_failed": "Generarea hash-ului a eșuat. Încercați din nou."
+        "error_failed": "Nu s-a putut genera hash-ul. Încercați din nou."
     }
 }

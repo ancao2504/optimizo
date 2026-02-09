@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "Adler-32 Checksum Generator Hash Generator - Công cụ trực tuyến miễn phí",
-        "description": "Generate Adler-32 checksums from any text instantly. Fast, lightweight checksum algorithm perfect for data integrity verification. Free and private.",
-        "h1": "Adler-32 Checksum Generator Hash Generator",
-        "subtitle": "Generate Adler-32 checksums from any text for fast data integrity checks"
+        "title": "Tạo Hash Adler-32 - Công cụ Trực tuyến Miễn phí",
+        "description": "Tạo hash Adler-32 từ bất kỳ văn bản nào. Hàm checksum nhanh trong thư viện nén zlib. Miễn phí.",
+        "h1": "Tạo Hash Adler-32",
+        "subtitle": "Tạo Checksum Adler-32 — Nhanh & Nhẹ"
     },
     "editor": {
-        "label_input": "Nhập văn bản",
-        "ph_input": "Nhập văn bản để tạo Adler-32 Checksum Generator hash...",
-        "btn_generate": "Tạo Adler-32 Checksum Generator Hash",
-        "label_result": "Adler-32 Checksum Generator Hash",
+        "label_input": "Nhập Văn bản",
+        "ph_input": "Nhập văn bản để tạo hash Adler-32...",
+        "btn_generate": "Tạo Hash Adler-32",
+        "label_result": "Hash Adler-32",
         "btn_copy": "Sao chép"
     },
     "content": {
-        "hero_title": "Adler-32 Checksum Generator",
-        "hero_subtitle": "Generate lightning-fast Adler-32 checksums for data integrity verification",
-        "p1": "The Adler-32 checksum is one of the fastest checksum algorithms available, designed by Mark Adler in 1995. It produces a 32-bit checksum value and is widely used in the zlib compression library, which powers gzip, PNG images, and countless data transfer protocols. While not cryptographic, Adler-32 excels at quickly detecting accidental data corruption during transmission or storage.",
-        "what_title": "What is Adler-32?",
-        "what_desc": "Adler-32 is a checksum algorithm that computes two 16-bit sums (A and B) over the input data. Sum A is the running total of all bytes plus 1, and Sum B is the running total of all Sum A values. The final checksum is B × 65536 + A. This dual-sum approach makes it faster than CRC-32 while still providing reliable error detection for most applications.",
-        "features_title": "✅ Adler-32 Advantages",
+        "hero_title": "Tạo Hash Adler-32",
+        "hero_subtitle": "Hàm checksum siêu nhanh để phát hiện lỗi",
+        "p1": "Adler-32 là hàm checksum được Mark Adler thiết kế năm 1995. Tạo hash 32-bit (8 ký tự thập lục phân). Được sử dụng rộng rãi trong thư viện nén zlib và giao thức rsync.",
+        "what_title": "Adler-32 là gì?",
+        "what_desc": "Adler-32 sử dụng hai tổng: A (tổng tất cả byte + 1) và B (tổng tích lũy của tất cả giá trị A). Cả hai đều lấy modulo với số nguyên tố 65521.",
+        "features_title": "✅ Ưu điểm",
         "features": {
-            "fast": "<strong>Blazing Fast:</strong> Significantly faster than CRC-32 for software implementations",
-            "fixed": "<strong>32-bit Output:</strong> Always produces an 8-character hexadecimal checksum",
-            "deterministic": "<strong>Deterministic:</strong> Same input always produces the same checksum",
-            "support": "<strong>zlib Standard:</strong> Used in zlib, gzip, and PNG file formats"
+            "fast": "<strong>Siêu nhanh:</strong> Nhanh hơn đáng kể so với CRC-32 trong phần mềm",
+            "fixed": "<strong>Chi phí thấp:</strong> Sử dụng CPU và bộ nhớ tối thiểu",
+            "deterministic": "<strong>Triển khai đơn giản:</strong> Chỉ vài dòng mã",
+            "support": "<strong>Đã chứng minh trong sản xuất:</strong> Hàng tỷ luồng đã xử lý trong zlib"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Ứng dụng",
         "uses": {
-            "verify": "<strong>Compression:</strong> Integrated in zlib/gzip data streams",
-            "checksum": "<strong>Network Protocols:</strong> Quick integrity checks in data transfer",
-            "cache": "<strong>File Validation:</strong> Detect accidental data corruption",
-            "integrity": "<strong>Streaming Data:</strong> Real-time integrity monitoring"
+            "verify": "<strong>Nén zlib:</strong> Xác minh tính toàn vẹn luồng",
+            "checksum": "<strong>Giao thức rsync:</strong> Phát hiện thay đổi tệp nhanh",
+            "cache": "<strong>Kiểm tra mạng:</strong> Xác thực gói tin nhẹ",
+            "integrity": "<strong>Truyền dữ liệu:</strong> Phát hiện lỗi luồng"
         },
-        "warning_title": "⚠️ Important Note",
-        "warning_desc": "<strong>Adler-32 is NOT a cryptographic hash.</strong> It is designed for speed and error detection, not security. It has known weaknesses with short messages (under 100 bytes) where its error detection is weaker than CRC-32. For security purposes, use SHA-256 or SHA-512.",
-        "compare_title": "🔄 Adler-32 vs Other Checksums",
+        "warning_title": "⚠️ Lưu ý Bảo mật",
+        "warning_desc": "<strong>Adler-32 không phải là hàm băm mật mã.</strong> Đây là checksum để phát hiện lỗi, không phải bảo mật. Sử dụng SHA-256 cho mật mã.",
+        "compare_title": "🔄 So sánh Adler-32",
         "compare": {
             "md5": {
                 "title": "Adler-32",
-                "desc1": "32-bit output",
-                "desc2": "Fastest software checksum"
+                "desc1": "32-bit, phi mật mã",
+                "desc2": "Nhanh nhất, phát hiện tối thiểu"
             },
             "sha1": {
                 "title": "CRC-32",
-                "desc1": "32-bit output",
-                "desc2": "Better error detection, slower"
+                "desc1": "32-bit, đa thức",
+                "desc2": "Chậm hơn nhưng phát hiện tốt hơn"
             },
             "sha256": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Cryptographic (deprecated)"
+                "desc1": "128-bit, mật mã",
+                "desc2": "Bảo mật cao hơn nhiều"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Câu hỏi Thường gặp",
         "faq": {
-            "q1": "Is Adler-32 secure?",
-            "a1": "No. Adler-32 is a checksum, not a cryptographic hash. It's designed to detect accidental errors, not intentional tampering. Use SHA-256 for security.",
-            "q2": "Why use Adler-32 over CRC-32?",
-            "a2": "Adler-32 is faster to compute in software. It's ideal when speed is critical and the data blocks are large enough (over 100 bytes) for reliable detection.",
-            "q3": "Where is Adler-32 used?",
-            "a3": "Adler-32 is used in the zlib compression library (gzip, PNG format), rsync, and many network protocols for quick data integrity verification."
+            "q1": "Sự khác biệt giữa Adler-32 và CRC-32?",
+            "a1": "Adler-32 tính toán nhanh hơn nhưng phát hiện ít loại lỗi hơn CRC-32.",
+            "q2": "Có thể dùng Adler-32 cho bảo mật?",
+            "a2": "Không. Adler-32 là checksum, không phải hash mật mã.",
+            "q3": "Tại sao zlib dùng Adler-32?",
+            "a3": "zlib ưu tiên tốc độ."
         }
     },
     "js": {

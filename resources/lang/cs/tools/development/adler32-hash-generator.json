@@ -1,69 +1,69 @@
 {
     "meta": {
-        "title": "Adler-32 Checksum Generator Hash Generator - Bezplatný online nástroj",
-        "description": "Generate Adler-32 checksums from any text instantly. Fast, lightweight checksum algorithm perfect for data integrity verification. Free and private.",
-        "h1": "Adler-32 Checksum Generator Hash Generator",
-        "subtitle": "Generate Adler-32 checksums from any text for fast data integrity checks"
+        "title": "Generátor hashe Adler-32 - Bezplatný online nástroj",
+        "description": "Vygenerujte hash Adler-32 z libovolného textu. Rychlý kontrolní součet používaný v kompresní knihovně zlib. Zdarma.",
+        "h1": "Generátor hashe Adler-32",
+        "subtitle": "Generujte kontrolní součet Adler-32 — Rychlý a lehký"
     },
     "editor": {
         "label_input": "Zadejte text",
-        "ph_input": "Zadejte text pro generování Adler-32 Checksum Generator hash...",
-        "btn_generate": "Generovat Adler-32 Checksum Generator Hash",
-        "label_result": "Adler-32 Checksum Generator Hash",
+        "ph_input": "Zadejte text pro vygenerování hashe Adler-32...",
+        "btn_generate": "Generovat hash Adler-32",
+        "label_result": "Hash Adler-32",
         "btn_copy": "Kopírovat"
     },
     "content": {
-        "hero_title": "Adler-32 Checksum Generator",
-        "hero_subtitle": "Generate lightning-fast Adler-32 checksums for data integrity verification",
-        "p1": "The Adler-32 checksum is one of the fastest checksum algorithms available, designed by Mark Adler in 1995. It produces a 32-bit checksum value and is widely used in the zlib compression library, which powers gzip, PNG images, and countless data transfer protocols. While not cryptographic, Adler-32 excels at quickly detecting accidental data corruption during transmission or storage.",
-        "what_title": "What is Adler-32?",
-        "what_desc": "Adler-32 is a checksum algorithm that computes two 16-bit sums (A and B) over the input data. Sum A is the running total of all bytes plus 1, and Sum B is the running total of all Sum A values. The final checksum is B × 65536 + A. This dual-sum approach makes it faster than CRC-32 while still providing reliable error detection for most applications.",
-        "features_title": "✅ Adler-32 Advantages",
+        "hero_title": "Generátor hashe Adler-32",
+        "hero_subtitle": "Ultrarychlá funkce kontrolního součtu pro detekci chyb",
+        "p1": "Adler-32 je funkce kontrolního součtu navržená Markem Adlerem v roce 1995. Generuje 32bitový hash (8 hexadecimálních znaků). Široce používaná v kompresní knihovně zlib a protokolu rsync.",
+        "what_title": "Co je Adler-32?",
+        "what_desc": "Adler-32 používá dva součty: A (součet všech bytů + 1) a B (kumulativní součet všech hodnot A). Oba se počítají modulo prvočíslem 65521.",
+        "features_title": "✅ Výhody",
         "features": {
-            "fast": "<strong>Blazing Fast:</strong> Significantly faster than CRC-32 for software implementations",
-            "fixed": "<strong>32-bit Output:</strong> Always produces an 8-character hexadecimal checksum",
-            "deterministic": "<strong>Deterministic:</strong> Same input always produces the same checksum",
-            "support": "<strong>zlib Standard:</strong> Used in zlib, gzip, and PNG file formats"
+            "fast": "<strong>Ultrarychlý:</strong> Výrazně rychlejší než CRC-32 v softwaru",
+            "fixed": "<strong>Nízká režie:</strong> Minimální spotřeba CPU a paměti",
+            "deterministic": "<strong>Jednoduchá implementace:</strong> Jen pár řádků kódu",
+            "support": "<strong>Prověřený v produkci:</strong> Miliardy proudů zpracovaných v zlib"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Použití",
         "uses": {
-            "verify": "<strong>Compression:</strong> Integrated in zlib/gzip data streams",
-            "checksum": "<strong>Network Protocols:</strong> Quick integrity checks in data transfer",
-            "cache": "<strong>File Validation:</strong> Detect accidental data corruption",
-            "integrity": "<strong>Streaming Data:</strong> Real-time integrity monitoring"
+            "verify": "<strong>Komprese zlib:</strong> Ověření integrity proudu",
+            "checksum": "<strong>Protokol rsync:</strong> Rychlá detekce změn v souborech",
+            "cache": "<strong>Síťové kontroly:</strong> Lehká validace paketů",
+            "integrity": "<strong>Přenos dat:</strong> Detekce chyb proudu"
         },
-        "warning_title": "⚠️ Important Note",
-        "warning_desc": "<strong>Adler-32 is NOT a cryptographic hash.</strong> It is designed for speed and error detection, not security. It has known weaknesses with short messages (under 100 bytes) where its error detection is weaker than CRC-32. For security purposes, use SHA-256 or SHA-512.",
-        "compare_title": "🔄 Adler-32 vs Other Checksums",
+        "warning_title": "⚠️ Bezpečnostní upozornění",
+        "warning_desc": "<strong>Adler-32 není kryptografická hashovací funkce.</strong> Je to kontrolní součet pro detekci chyb, ne pro bezpečnost. Pro kryptografii použijte SHA-256.",
+        "compare_title": "🔄 Srovnání Adler-32",
         "compare": {
             "md5": {
                 "title": "Adler-32",
-                "desc1": "32-bit output",
-                "desc2": "Fastest software checksum"
+                "desc1": "32bitový, nekryptografický",
+                "desc2": "Nejrychlejší, minimální detekce"
             },
             "sha1": {
                 "title": "CRC-32",
-                "desc1": "32-bit output",
-                "desc2": "Better error detection, slower"
+                "desc1": "32bitový, polynomiální",
+                "desc2": "Pomalejší, lepší detekce"
             },
             "sha256": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Cryptographic (deprecated)"
+                "desc1": "128bitový, kryptografický",
+                "desc2": "Mnohem více bezpečnosti"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Často kladené otázky",
         "faq": {
-            "q1": "Is Adler-32 secure?",
-            "a1": "No. Adler-32 is a checksum, not a cryptographic hash. It's designed to detect accidental errors, not intentional tampering. Use SHA-256 for security.",
-            "q2": "Why use Adler-32 over CRC-32?",
-            "a2": "Adler-32 is faster to compute in software. It's ideal when speed is critical and the data blocks are large enough (over 100 bytes) for reliable detection.",
-            "q3": "Where is Adler-32 used?",
-            "a3": "Adler-32 is used in the zlib compression library (gzip, PNG format), rsync, and many network protocols for quick data integrity verification."
+            "q1": "Jaký je rozdíl mezi Adler-32 a CRC-32?",
+            "a1": "Adler-32 je rychlejší na výpočet, ale detekuje méně typů chyb než CRC-32.",
+            "q2": "Může se Adler-32 použít pro bezpečnost?",
+            "a2": "Ne. Adler-32 je kontrolní součet, ne kryptografický hash.",
+            "q3": "Proč zlib používá Adler-32?",
+            "a3": "zlib upřednostňuje rychlost."
         }
     },
     "js": {
-        "error_empty": "Prosím zadejte text",
+        "error_empty": "Zadejte text",
         "btn_copied": "Zkopírováno!",
         "btn_generating": "Generování...",
         "error_failed": "Generování hashe selhalo. Zkuste to znovu."

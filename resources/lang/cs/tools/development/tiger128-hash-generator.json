@@ -1,69 +1,69 @@
 {
     "meta": {
-        "title": "Tiger-128 Hash Generator - Bezplatný online nástroj",
-        "description": "Generate Tiger-128 hashes from any text. Fast 128-bit hash optimized for 64-bit platforms. Free, instant, and private.",
-        "h1": "Tiger-128 Hash Generator",
-        "subtitle": "Generate Tiger-128 hashes — optimized for 64-bit performance"
+        "title": "Generátor hashe Tiger-128 - Bezplatný online nástroj",
+        "description": "Vygenerujte hash Tiger-128 z libovolného textu. Rychlý 128bitový hash optimalizovaný pro 64bitové systémy. Zdarma.",
+        "h1": "Generátor hashe Tiger-128",
+        "subtitle": "Generujte hash Tiger-128 — Optimalizovaný pro 64-bit"
     },
     "editor": {
         "label_input": "Zadejte text",
-        "ph_input": "Zadejte text pro generování Tiger-128 hash...",
-        "btn_generate": "Generovat Tiger-128 Hash",
-        "label_result": "Tiger-128 Hash",
+        "ph_input": "Zadejte text pro vygenerování hashe Tiger-128...",
+        "btn_generate": "Generovat hash Tiger-128",
+        "label_result": "Hash Tiger-128",
         "btn_copy": "Kopírovat"
     },
     "content": {
-        "hero_title": "Tiger-128 Hash Generator",
-        "hero_subtitle": "High-speed 128-bit hashing for 64-bit processors",
-        "p1": "Tiger-128 is a truncated version of the Tiger hash function, designed by Ross Anderson and Eli Biham in 1995. It produces a 128-bit (32-character hex) hash value by taking the first 128 bits of the full Tiger-192 output. Tiger was specifically designed for 64-bit platforms, where it achieves excellent performance by using 64-bit multiplications and S-box lookups. Tiger-128 is used in file-sharing protocols and integrity verification.",
-        "what_title": "What is Tiger-128?",
-        "what_desc": "Tiger processes data in 512-bit blocks through 24 rounds organized in three passes. Each pass uses four S-boxes with 256 entries of 64 bits each. Tiger-128 truncates the full 192-bit Tiger output to 128 bits, providing the same speed with a shorter digest suitable for applications needing MD5-length checksums.",
-        "features_title": "✅ Tiger-128 Features",
+        "hero_title": "Generátor hashe Tiger-128",
+        "hero_subtitle": "Rychlý 128bitový hash pro 64bitové procesory",
+        "p1": "Tiger-128 je zkrácená verze hashovací funkce Tiger navržené Rossem Andersonem a Eli Bihamem v roce 1995. Generuje 128bitový hash (32 hexadecimálních znaků).",
+        "what_title": "Co je Tiger-128?",
+        "what_desc": "Tiger zpracovává data v 512bitových blocích přes 3 průchody po 24 kolech. Tiger-128 zkracuje plný 192bitový výstup na 128 bitů.",
+        "features_title": "✅ Vlastnosti",
         "features": {
-            "fast": "<strong>64-bit Optimized:</strong> Exceptionally fast on modern 64-bit CPUs",
-            "fixed": "<strong>128-bit Output:</strong> Compact 32-character hex digest",
-            "deterministic": "<strong>S-box Design:</strong> Four large S-boxes for strong diffusion",
-            "support": "<strong>File Sharing:</strong> Used in ed2k and DC++ (Direct Connect) protocols"
+            "fast": "<strong>Optimalizace 64-bit:</strong> Extrémně rychlý na moderních procesorech",
+            "fixed": "<strong>128bitový výstup:</strong> Kompaktní 32znakový digest",
+            "deterministic": "<strong>Design S-box:</strong> 4 velké substituční tabulky",
+            "support": "<strong>Sdílení souborů:</strong> Používaný v protokolech ed2k a DC++"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Použití",
         "uses": {
-            "verify": "<strong>P2P Networks:</strong> File identification in sharing protocols",
-            "checksum": "<strong>Integrity Checks:</strong> Fast file verification on 64-bit systems",
-            "cache": "<strong>Fingerprinting:</strong> Content-addressable storage identifiers",
-            "integrity": "<strong>Deduplication:</strong> Detecting duplicate files efficiently"
+            "verify": "<strong>P2P sítě:</strong> Identifikace souborů v protokolech sdílení",
+            "checksum": "<strong>Kontrola integrity:</strong> Rychlé ověření na 64-bit",
+            "cache": "<strong>Otisk:</strong> Identifikátor úložiště podle obsahu",
+            "integrity": "<strong>Deduplikace:</strong> Efektivní detekce duplicit"
         },
-        "warning_title": "⚠️ Security Note",
-        "warning_desc": "<strong>Tiger-128's 128-bit output provides only 64-bit collision resistance.</strong> Similar to MD5 in collision strength. For cryptographic security, use Tiger-192 or SHA-256. Tiger-128 is best suited for checksums and non-security fingerprinting.",
-        "compare_title": "🔄 Tiger Family Comparison",
+        "warning_title": "⚠️ Poznámka",
+        "warning_desc": "<strong>Tiger-128 poskytuje pouze 64bitovou odolnost proti kolizím.</strong> Pro kryptografickou bezpečnost použijte SHA-256.",
+        "compare_title": "🔄 Rodina Tiger",
         "compare": {
             "md5": {
                 "title": "Tiger-128",
-                "desc1": "128-bit, fast on 64-bit",
-                "desc2": "64-bit collision resistance"
+                "desc1": "128bitový",
+                "desc2": "64bitová odolnost"
             },
             "sha1": {
                 "title": "Tiger-160",
-                "desc1": "160-bit output",
-                "desc2": "80-bit collision resistance"
+                "desc1": "160bitový",
+                "desc2": "80bitová odolnost"
             },
             "sha256": {
                 "title": "Tiger-192",
-                "desc1": "192-bit (full)",
-                "desc2": "96-bit collision resistance"
+                "desc1": "192bitový",
+                "desc2": "96bitová odolnost"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Často kladené otázky",
         "faq": {
-            "q1": "Why was Tiger designed for 64-bit?",
-            "a1": "In 1995, 64-bit processors were emerging and existing hash functions (MD5, SHA-1) were optimized for 32-bit. Tiger filled the gap with native 64-bit operations for superior performance.",
-            "q2": "Tiger-128 vs MD5 — which is faster?",
-            "a2": "On 64-bit systems, Tiger-128 is significantly faster than MD5. On 32-bit systems, MD5 may be faster due to its 32-bit-optimized design.",
-            "q3": "Is Tiger-128 still relevant?",
-            "a3": "It's used in P2P file sharing and as a fast checksum. For new projects needing speed, consider BLAKE3 or xxHash. For security, use SHA-256."
+            "q1": "Proč byl Tiger navržen pro 64-bit?",
+            "a1": "V roce 1995 se objevily 64bitové procesory a existující hashe byly optimalizovány pro 32-bit.",
+            "q2": "Tiger-128 vs MD5?",
+            "a2": "Tiger-128 je výrazně rychlejší než MD5 na 64bitových systémech.",
+            "q3": "Je Tiger-128 stále užitečný?",
+            "a3": "Používaný v P2P sdílení souborů. Nové projekty by měly zvážit BLAKE3."
         }
     },
     "js": {
-        "error_empty": "Prosím zadejte text",
+        "error_empty": "Zadejte text",
         "btn_copied": "Zkopírováno!",
         "btn_generating": "Generování...",
         "error_failed": "Generování hashe selhalo. Zkuste to znovu."

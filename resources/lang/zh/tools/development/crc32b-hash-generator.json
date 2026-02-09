@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "CRC-32B Hash Generator - 免费在线工具",
-        "description": "Generate CRC-32B (IEEE 802.3) checksums from any text. The standard CRC used in Ethernet, ZIP, and PNG. Free, instant, and private.",
-        "h1": "CRC-32B Hash Generator",
-        "subtitle": "Generate CRC-32B checksums using the IEEE 802.3 standard polynomial"
+        "title": "CRC-32B哈希生成器 - 免费在线工具",
+        "description": "从任何文本生成CRC-32B哈希。PHP和Python中的标准CRC-32变体。免费。",
+        "h1": "CRC-32B哈希生成器",
+        "subtitle": "生成CRC-32B哈希 — PHP标准变体"
     },
     "editor": {
         "label_input": "输入文本",
-        "ph_input": "输入文本以生成 CRC-32B hash...",
-        "btn_generate": "生成 CRC-32B Hash",
-        "label_result": "CRC-32B Hash",
+        "ph_input": "输入文本以生成CRC-32B哈希...",
+        "btn_generate": "生成CRC-32B哈希",
+        "label_result": "CRC-32B哈希",
         "btn_copy": "复制"
     },
     "content": {
-        "hero_title": "CRC-32B Hash Generator",
-        "hero_subtitle": "The industry-standard IEEE 802.3 CRC checksum generator",
-        "p1": "CRC-32B is the most widely used variant of the CRC-32 family, employing the IEEE 802.3 polynomial (0x04C11DB7). It is the standard checksum in Ethernet networking, ZIP archives, PNG images, and countless other protocols. When people refer to 'CRC-32' in practice, they almost always mean CRC-32B. This tool generates the exact same checksums used by WinZip, 7-Zip, and network hardware worldwide.",
-        "what_title": "What is CRC-32B?",
-        "what_desc": "CRC-32B uses the generator polynomial 0x04C11DB7, standardized by IEEE 802.3 for Ethernet. The 'B' suffix distinguishes it from other CRC-32 variants using different polynomials. It provides the same mathematical guarantees as CRC-32 but is the de facto standard for modern applications, making it the most compatible choice.",
-        "features_title": "✅ CRC-32B Advantages",
+        "hero_title": "CRC-32B哈希生成器",
+        "hero_subtitle": "数据完整性的标准CRC-32B多项式",
+        "p1": "CRC-32B是CRC-32家族中最常见的变体，使用反射多项式0xEDB88320。它是PHP、Python、Java及大多数编程语言中的标准CRC-32实现。",
+        "what_title": "什么是CRC-32B？",
+        "what_desc": "CRC-32B使用多项式0x04C11DB7的反射形式0xEDB88320。'B'后缀将其与其他CRC-32变体区分开。",
+        "features_title": "✅ 优势",
         "features": {
-            "fast": "<strong>Industry Standard:</strong> The CRC-32 variant used by ZIP, PNG, Ethernet",
-            "fixed": "<strong>Maximum Compatibility:</strong> Matches output of standard tools and libraries",
-            "deterministic": "<strong>Proven Reliable:</strong> Decades of deployment in production systems",
-            "support": "<strong>Hardware Accelerated:</strong> SSE 4.2 CRC32 instruction support"
+            "fast": "<strong>语言标准：</strong> PHP、Python、Java的默认实现",
+            "fixed": "<strong>强力检测：</strong> 检测所有1位和2位错误",
+            "deterministic": "<strong>互操作性：</strong> 跨平台一致结果",
+            "support": "<strong>硬件加速：</strong> 原生CPU支持"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 用途",
         "uses": {
-            "verify": "<strong>ZIP Archives:</strong> Standard file integrity check in ZIP format",
-            "checksum": "<strong>Ethernet:</strong> Frame Check Sequence in IEEE 802.3",
-            "cache": "<strong>PNG Images:</strong> Chunk integrity verification",
-            "integrity": "<strong>MPEG-2:</strong> Transport stream error detection"
+            "verify": "<strong>文件验证：</strong> 下载完整性检查",
+            "checksum": "<strong>数据库：</strong> 数据损坏检测",
+            "cache": "<strong>API：</strong> 负载完整性验证",
+            "integrity": "<strong>版本控制：</strong> 文件变更检测"
         },
-        "warning_title": "⚠️ Important Note",
-        "warning_desc": "<strong>CRC-32B is a checksum, not a cryptographic hash.</strong> While excellent for detecting accidental corruption, it provides no security against intentional data manipulation. Use SHA-256 or SHA-512 for cryptographic security.",
-        "compare_title": "🔄 CRC-32B vs Other Variants",
+        "warning_title": "⚠️ 说明",
+        "warning_desc": "<strong>CRC-32B在大多数编程语言中功能上等同于CRC-32。</strong>",
+        "compare_title": "🔄 CRC-32变体",
         "compare": {
             "md5": {
-                "title": "CRC-32B (IEEE)",
-                "desc1": "32-bit, 0x04C11DB7",
-                "desc2": "Most widely used standard"
+                "title": "CRC-32B",
+                "desc1": "多项式 0xEDB88320",
+                "desc2": "最常见标准"
             },
             "sha1": {
-                "title": "CRC-32 (ITU)",
-                "desc1": "32-bit, different poly",
-                "desc2": "Older variant, less common"
+                "title": "CRC-32",
+                "desc1": "替代变体",
+                "desc2": "不同多项式"
             },
             "sha256": {
-                "title": "CRC-32C (Castagnoli)",
-                "desc1": "32-bit, 0x1EDC6F41",
-                "desc2": "Used in iSCSI, better detection"
+                "title": "CRC-32C",
+                "desc1": "Castagnoli多项式",
+                "desc2": "为iSCSI优化"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ 常见问题",
         "faq": {
-            "q1": "Should I use CRC-32 or CRC-32B?",
-            "a1": "Use CRC-32B. It's the IEEE 802.3 standard and is what most software and hardware implementations use. When documentation says 'CRC-32' without qualification, they typically mean CRC-32B.",
-            "q2": "Will my CRC-32B match WinZip/7-Zip?",
-            "a2": "Yes. CRC-32B uses the same IEEE 802.3 polynomial as ZIP, gzip, PNG, and virtually all standard tools.",
-            "q3": "Is CRC-32B better than Adler-32?",
-            "a3": "CRC-32B has stronger error detection, especially for short data blocks. Adler-32 is faster in software but less reliable for data under 1000 bytes."
+            "q1": "CRC-32和CRC-32B的区别？",
+            "a1": "使用不同的生成多项式。CRC-32B使用最常见的反射形式。",
+            "q2": "CRC-32B加密安全吗？",
+            "a2": "不安全。与所有CRC变体一样，它是用于错误检测的校验和。",
+            "q3": "哪些语言使用CRC-32B？",
+            "a3": "PHP (crc32())、Python (binascii.crc32())、Java (java.util.zip.CRC32)、.NET。"
         }
     },
     "js": {

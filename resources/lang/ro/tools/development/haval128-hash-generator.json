@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "Haval-128 Hash Generator - Instrument online gratuit",
-        "description": "Generate Haval-128 hashes from any text. Variable-round cryptographic hash with 128-bit output. Free, instant, and private.",
-        "h1": "Haval-128 Hash Generator",
-        "subtitle": "Generate Haval-128 hashes — the variable-round hash function"
+        "title": "Generator hash Haval-128 - Instrument online gratuit",
+        "description": "Generați hash Haval-128 din orice text. Funcție hash flexibilă cu lungime și runde variabile. Gratuit.",
+        "h1": "Generator hash Haval-128",
+        "subtitle": "Generați hash Haval-128 — Lungime și runde flexibile"
     },
     "editor": {
         "label_input": "Introduceți textul",
-        "ph_input": "Introduceți textul pentru a genera Haval-128 hash...",
-        "btn_generate": "Generează Haval-128 Hash",
-        "label_result": "Haval-128 Hash",
+        "ph_input": "Introduceți textul pentru a genera hash-ul Haval-128...",
+        "btn_generate": "Generează hash Haval-128",
+        "label_result": "Hash Haval-128",
         "btn_copy": "Copiază"
     },
     "content": {
-        "hero_title": "Haval-128 Hash Generator",
-        "hero_subtitle": "Variable-round cryptographic hashing with configurable security",
-        "p1": "HAVAL (HAsh of VAriable Length) is a unique cryptographic hash function designed by Yuliang Zheng, Josef Pieprzyk, and Jennifer Seberry in 1992. HAVAL is notable for being the first hash function with variable output length (128, 160, 192, 224, or 256 bits) and variable number of rounds (3, 4, or 5). This tool generates 128-bit HAVAL hashes using 3 rounds, providing a compact fingerprint for data identification.",
-        "what_title": "What is Haval-128?",
-        "what_desc": "HAVAL processes data in 1024-bit blocks (twice the size of MD5's 512-bit blocks) through its configurable rounds. Each round consists of 32 steps, making a 3-round HAVAL execute 96 steps total. The large block size allows HAVAL to process data more efficiently than MD5 or SHA-1 per block, while the variable parameters let users trade speed for security.",
-        "features_title": "✅ Haval-128 Features",
+        "hero_title": "Generator hash Haval-128",
+        "hero_subtitle": "Funcție hash flexibilă cu ieșire de 128 biți",
+        "p1": "Haval oferă flexibilitate unică în lungimea ieșirii (128/160/192/224/256 biți) și numărul de runde (3/4/5). Haval-128 generează un hash de 128 biți (32 caractere hexadecimale).",
+        "what_title": "Ce este Haval-128?",
+        "what_desc": "Haval procesează datele în blocuri de 1024 biți — de două ori mai mari decât MD5 și SHA-1. Suportă 8 variabile de stare de 32 biți și runde configurabile.",
+        "features_title": "✅ Caracteristici",
         "features": {
-            "fast": "<strong>Variable Design:</strong> Configurable rounds (3, 4, or 5) and output length",
-            "fixed": "<strong>128-bit Output:</strong> 32-character hexadecimal digest",
-            "deterministic": "<strong>Large Blocks:</strong> 1024-bit blocks for efficient processing",
-            "support": "<strong>Flexible Security:</strong> Choose between speed and security"
+            "fast": "<strong>Flexibilitate unică:</strong> Lungime ieșire și runde configurabile",
+            "fixed": "<strong>Bloc de 1024 biți:</strong> Mai multe date pe bloc",
+            "deterministic": "<strong>Opțiuni securitate:</strong> De la 3 la 5 runde",
+            "support": "<strong>Ieșire 128 biți:</strong> Digest compact de 32 caractere"
         },
-        "uses_title": "📊 Use Cases",
+        "uses_title": "📊 Utilizări",
         "uses": {
-            "verify": "<strong>Data Fingerprinting:</strong> Compact identifiers for data objects",
-            "checksum": "<strong>Checksums:</strong> Non-security integrity verification",
-            "cache": "<strong>Legacy Systems:</strong> Systems designed around HAVAL",
-            "integrity": "<strong>Research:</strong> Studying variable-parameter hash function design"
+            "verify": "<strong>Sisteme embedded:</strong> Adaptarea lungimii la resurse",
+            "checksum": "<strong>Verificare integritate:</strong> Verificare rapidă cu 3 runde",
+            "cache": "<strong>Cercetare academică:</strong> Studiul echilibrului viteză-securitate",
+            "integrity": "<strong>Sisteme vechi:</strong> Sisteme cu interfață Haval"
         },
-        "warning_title": "⚠️ Security Warning",
-        "warning_desc": "<strong>HAVAL-128 with 3 rounds is NOT secure.</strong> Collisions have been found for 3-round and 4-round variants. The 128-bit output limits collision resistance to 64 bits at best. For any security purpose, use SHA-256 or SHA-512.",
-        "compare_title": "🔄 Haval vs Other 128-bit Hashes",
+        "warning_title": "⚠️ Notă de securitate",
+        "warning_desc": "<strong>Haval-128 are vulnerabilități cunoscute.</strong> Coliziuni găsite în variantele cu 3 și 4 runde. Folosiți SHA-256.",
+        "compare_title": "🔄 Haval vs altele",
         "compare": {
             "md5": {
                 "title": "Haval-128",
-                "desc1": "128-bit, 1024-bit blocks",
-                "desc2": "Variable rounds, large blocks"
+                "desc1": "128 biți, bloc 1024 biți",
+                "desc2": "Flexibil dar vulnerabil"
             },
             "sha1": {
                 "title": "MD5",
-                "desc1": "128-bit, 512-bit blocks",
-                "desc2": "More widely supported"
+                "desc1": "128 biți, bloc 512 biți",
+                "desc2": "Mai răspândit"
             },
             "sha256": {
-                "title": "RIPEMD-128",
-                "desc1": "128-bit, dual-chain",
-                "desc2": "European parallel design"
+                "title": "SHA-256",
+                "desc1": "256 biți",
+                "desc2": "Standard modern sigur"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Întrebări frecvente",
         "faq": {
-            "q1": "What makes HAVAL unique?",
-            "a1": "HAVAL is the first hash function with both variable output length and variable number of rounds. Users choose 3, 4, or 5 rounds and 128 to 256-bit output, allowing fine-tuned speed/security tradeoffs.",
-            "q2": "Is 3-round HAVAL secure?",
-            "a2": "No. Collisions have been found for 3-round HAVAL. Even 4-round HAVAL has been attacked. Only 5-round HAVAL-256 might offer reasonable security, but SHA-256 is always preferred.",
-            "q3": "Why use 1024-bit blocks instead of 512-bit?",
-            "a3": "Larger blocks mean fewer compression function calls for the same amount of data, improving throughput. HAVAL processes data at roughly twice the rate per block compared to MD5."
+            "q1": "Ce face Haval unic?",
+            "a1": "Haval e singura funcție hash cu alegere atât a lungimii ieșirii cât și a numărului de runde.",
+            "q2": "E Haval-128 mai sigur decât MD5?",
+            "a2": "Ambele au vulnerabilități. Niciunul nu e potrivit pentru securitate modernă.",
+            "q3": "De ce Haval nu e popular?",
+            "a3": "Lipsa standardizării și vulnerabilitățile în variantele cu runde puține."
         }
     },
     "js": {
-        "error_empty": "Vă rugăm introduceți textul",
+        "error_empty": "Introduceți textul",
         "btn_copied": "Copiat!",
         "btn_generating": "Se generează...",
-        "error_failed": "Generarea hash-ului a eșuat. Încercați din nou."
+        "error_failed": "Nu s-a putut genera hash-ul. Încercați din nou."
     }
 }

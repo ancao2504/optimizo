@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "Tiger-160 Hash Generator - Gratis nettverktøy",
-        "description": "Generate Tiger-160 hashes from any text. 160-bit variant of the Tiger hash function optimized for 64-bit systems. Free and instant.",
-        "h1": "Tiger-160 Hash Generator",
-        "subtitle": "Generate 160-bit Tiger-160 hashes — balanced speed and security"
+        "title": "Tiger-160 Hash-generator - Gratis nettverktøy",
+        "description": "Generer Tiger-160-hash fra hvilken som helst tekst. 160-bit variant av Tiger-funksjonen. Gratis.",
+        "h1": "Tiger-160 Hash-generator",
+        "subtitle": "Generer Tiger-160-hash — Balanse mellom hastighet og sikkerhet"
     },
     "editor": {
         "label_input": "Skriv inn tekst",
-        "ph_input": "Skriv inn tekst for å generere Tiger-160 hash...",
-        "btn_generate": "Generer Tiger-160 Hash",
-        "label_result": "Tiger-160 Hash",
+        "ph_input": "Skriv inn tekst for å generere Tiger-160-hash...",
+        "btn_generate": "Generer Tiger-160-hash",
+        "label_result": "Tiger-160-hash",
         "btn_copy": "Kopier"
     },
     "content": {
-        "hero_title": "Tiger-160 Hash Generator",
-        "hero_subtitle": "160-bit Tiger hash for balanced performance and security",
-        "p1": "Tiger-160 is the middle variant of the Tiger hash family, producing a 160-bit (40-character hex) hash value. Like SHA-1, it outputs 160 bits, but Tiger-160 is significantly faster on 64-bit processors due to its native 64-bit operations. It takes the first 160 bits of the full Tiger-192 computation, providing a good balance between hash length and collision resistance.",
-        "what_title": "What is Tiger-160?",
-        "what_desc": "Tiger-160 uses the same algorithm as Tiger-192 but truncates the output to 160 bits. The full Tiger algorithm processes 512-bit blocks through 24 rounds using four S-boxes. Tiger-160 provides 80-bit collision resistance, matching SHA-1's theoretical security level but with better performance on 64-bit architectures.",
-        "features_title": "✅ Tiger-160 Features",
+        "hero_title": "Tiger-160 Hash-generator",
+        "hero_subtitle": "160-bit Tiger-hash som balanserer ytelse og sikkerhet",
+        "p1": "Tiger-160 er en mellomvariant av Tiger-familien som genererer en 160-bits hash (40 heksadesimale tegn). Samme 160-bit utdata som SHA-1, men mye raskere på 64-bits prosessorer.",
+        "what_title": "Hva er Tiger-160?",
+        "what_desc": "Tiger-160 bruker samme algoritme som Tiger-192 men avkorter utdata til 160 bit. Gir 80-bit kollisjonsmotstand.",
+        "features_title": "✅ Egenskaper",
         "features": {
-            "fast": "<strong>SHA-1 Alternative:</strong> Same output length, faster on 64-bit",
-            "fixed": "<strong>160-bit Output:</strong> 40-character hexadecimal digest",
-            "deterministic": "<strong>80-bit Security:</strong> Matches SHA-1 collision resistance",
-            "support": "<strong>64-bit Speed:</strong> Outperforms SHA-1 on modern processors"
+            "fast": "<strong>SHA-1-alternativ:</strong> Samme størrelse, raskere på 64-bit",
+            "fixed": "<strong>160-bit utdata:</strong> 40-tegns digest",
+            "deterministic": "<strong>80-bit sikkerhet:</strong> Tilsvarende motstand som SHA-1",
+            "support": "<strong>64-bit hastighet:</strong> Overgår SHA-1 på moderne prosessorer"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Bruksområder",
         "uses": {
-            "verify": "<strong>File Verification:</strong> Fast integrity checks on 64-bit systems",
-            "checksum": "<strong>SHA-1 Replacement:</strong> Drop-in for 160-bit hash needs",
-            "cache": "<strong>Content Hashing:</strong> Unique identifiers for cached content",
-            "integrity": "<strong>Database Indexing:</strong> Efficient hash-based lookups"
+            "verify": "<strong>Filverifisering:</strong> Rask kontroll på 64-bit",
+            "checksum": "<strong>SHA-1-erstatning:</strong> Direkte erstatning for 160-bit hasher",
+            "cache": "<strong>Innholdshashing:</strong> Innholdsunike cache-identifikatorer",
+            "integrity": "<strong>Indeksering:</strong> Effektivt hashbasert oppslag"
         },
-        "warning_title": "⚠️ Security Note",
-        "warning_desc": "<strong>Tiger-160 provides 80-bit collision resistance</strong>, similar to SHA-1. This level is considered below modern recommendations (128-bit minimum). For security-critical applications, use Tiger-192 or SHA-256.",
-        "compare_title": "🔄 Tiger-160 vs SHA-1",
+        "warning_title": "⚠️ Merknad",
+        "warning_desc": "<strong>Tiger-160 gir 80-bit motstand.</strong> Bruk SHA-256 for kritisk sikkerhet.",
+        "compare_title": "🔄 Sammenligning",
         "compare": {
             "md5": {
                 "title": "Tiger-160",
-                "desc1": "160-bit, 64-bit ops",
-                "desc2": "Faster on 64-bit CPUs"
+                "desc1": "160-bit, 64-bit operasjoner",
+                "desc2": "Raskere på 64-bit"
             },
             "sha1": {
                 "title": "SHA-1",
-                "desc1": "160-bit, 32-bit ops",
-                "desc2": "More widely supported"
+                "desc1": "160-bit, 32-bit operasjoner",
+                "desc2": "Bredere støtte"
             },
             "sha256": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Higher security, recommended"
+                "desc1": "256-bit",
+                "desc2": "Sikrere"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Vanlige spørsmål",
         "faq": {
-            "q1": "Tiger-160 vs SHA-1 — which should I choose?",
-            "a1": "If speed on 64-bit systems is critical, Tiger-160 wins. For maximum compatibility, SHA-1 is more widely supported. For security, neither — use SHA-256.",
-            "q2": "Is Tiger-160 more secure than SHA-1?",
-            "a2": "They have the same theoretical collision resistance (80 bits). SHA-1 has known practical collisions; Tiger has none yet. However, Tiger has received less cryptanalysis attention.",
-            "q3": "Why truncate Tiger-192 to 160 bits?",
-            "a3": "Some protocols and systems require exactly 160-bit hashes (matching SHA-1 output size). Tiger-160 provides this compatibility while maintaining Tiger's speed advantage."
+            "q1": "Tiger-160 vs SHA-1?",
+            "a1": "64-bit hastighet: Tiger-160. Kompatibilitet: SHA-1. Sikkerhet: SHA-256.",
+            "q2": "Er Tiger-160 sikrere enn SHA-1?",
+            "a2": "Samme teoretiske motstand. SHA-1 har kjente kollisjoner, Tiger ikke.",
+            "q3": "Hvorfor avkorte Tiger-192 til 160 bit?",
+            "a3": "Noen protokoller krever nøyaktig 160-bit hash."
         }
     },
     "js": {
         "error_empty": "Vennligst skriv inn tekst",
         "btn_copied": "Kopiert!",
         "btn_generating": "Genererer...",
-        "error_failed": "Hash-generering mislyktes. Prøv igjen."
+        "error_failed": "Kunne ikke generere hash. Vennligst prøv igjen."
     }
 }

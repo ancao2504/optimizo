@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "SHA-256 Hash Generator - Darmowe narzędzie online",
-        "description": "Generate SHA-256 hashes from any text. The gold standard of cryptographic hash functions used in Bitcoin, TLS 1.3, and digital signatures. Free and instant.",
-        "h1": "SHA-256 Hash Generator",
-        "subtitle": "Generate 256-bit SHA-256 cryptographic hashes — the industry standard"
+        "title": "Generator skrótu SHA-256 - Darmowe narzędzie online",
+        "description": "Wygeneruj skrót SHA-256 z dowolnego tekstu. Złoty standard funkcji kryptograficznych skrótów. Bezpłatnie.",
+        "h1": "Generator skrótu SHA-256",
+        "subtitle": "Generuj skrót SHA-256 — Standard kryptografii przemysłowej"
     },
     "editor": {
         "label_input": "Wprowadź tekst",
-        "ph_input": "Wprowadź tekst, aby wygenerować SHA-256 hash...",
-        "btn_generate": "Generuj SHA-256 Hash",
-        "label_result": "SHA-256 Hash",
+        "ph_input": "Wprowadź tekst, aby wygenerować skrót SHA-256...",
+        "btn_generate": "Generuj skrót SHA-256",
+        "label_result": "Skrót SHA-256",
         "btn_copy": "Kopiuj"
     },
     "content": {
-        "hero_title": "SHA-256 Hash Generator",
-        "hero_subtitle": "The gold standard cryptographic hash function for security",
-        "p1": "SHA-256 (Secure Hash Algorithm 256-bit) is the most widely used cryptographic hash function in the world today. Part of the SHA-2 family designed by the NSA, it produces a 256-bit (64-character hex) hash. SHA-256 is the backbone of Bitcoin mining, TLS 1.3 certificate verification, code signing, blockchain technology, and virtually every modern security protocol. It remains unbroken with no practical attacks found.",
-        "what_title": "What is SHA-256?",
-        "what_desc": "SHA-256 processes data in 512-bit blocks through 64 rounds of compression, using a combination of bitwise operations, modular additions, and compression functions. The result is a 256-bit digest that exhibits excellent avalanche properties — changing a single bit in the input changes approximately 50% of the output bits unpredictably.",
-        "features_title": "✅ SHA-256 Advantages",
+        "hero_title": "Generator skrótu SHA-256",
+        "hero_subtitle": "Bezpieczna kryptograficzna funkcja skrótu — standard",
+        "p1": "SHA-256 jest najczęściej używaną kryptograficzną funkcją skrótu na świecie. Członek rodziny SHA-2 od NSA, generuje 256-bitowy skrót (64 znaki szesnastkowe).",
+        "what_title": "Czym jest SHA-256?",
+        "what_desc": "SHA-256 przetwarza dane w 512-bitowych blokach przez 64 rundy kompresji.",
+        "features_title": "✅ Zalety",
         "features": {
-            "fast": "<strong>Cryptographically Secure:</strong> No known practical attacks after 20+ years",
-            "fixed": "<strong>256-bit Output:</strong> 64-character hex digest with 2^128 collision resistance",
-            "deterministic": "<strong>Universal Standard:</strong> NIST, ISO, and IETF recommended",
-            "support": "<strong>Hardware Support:</strong> Intel SHA extensions, ARM Crypto extensions"
+            "fast": "<strong>Kryptograficznie bezpieczny:</strong> 20+ lat bez praktycznych ataków",
+            "fixed": "<strong>256-bitowe wyjście:</strong> 64-cyfrowy skrót",
+            "deterministic": "<strong>Standard uniwersalny:</strong> Zalecany przez NIST, ISO, IETF",
+            "support": "<strong>Wsparcie sprzętowe:</strong> Intel SHA i ARM Crypto Extensions"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Zastosowania",
         "uses": {
-            "verify": "<strong>Blockchain:</strong> Bitcoin proof-of-work and Merkle trees",
-            "checksum": "<strong>TLS 1.3:</strong> Certificate and handshake verification",
-            "cache": "<strong>Code Signing:</strong> Software integrity verification",
-            "integrity": "<strong>Digital Signatures:</strong> Document and transaction signing"
+            "verify": "<strong>Blockchain:</strong> Bitcoin proof of work i drzewa Merkle'a",
+            "checksum": "<strong>TLS 1.3:</strong> Weryfikacja certyfikatów i uzgadnianie",
+            "cache": "<strong>Podpisywanie kodu:</strong> Weryfikacja integralności oprogramowania",
+            "integrity": "<strong>Podpisy cyfrowe:</strong> Podpisywanie dokumentów i transakcji"
         },
-        "warning_title": "💡 Best Practice",
-        "warning_desc": "<strong>SHA-256 is secure for hashing but NOT for password storage directly.</strong> While the hash function itself is strong, passwords should use slow algorithms like bcrypt, Argon2, or PBKDF2 with SHA-256 to resist brute-force attacks. SHA-256 alone is too fast for password hashing.",
-        "compare_title": "🔄 SHA-256 vs Other Hash Functions",
+        "warning_title": "💡 Najlepsze praktyki",
+        "warning_desc": "<strong>SHA-256 jest bezpieczny do haszowania, ale nie używaj bezpośrednio do przechowywania haseł.</strong> Użyj bcrypt lub Argon2.",
+        "compare_title": "🔄 Porównanie SHA-256",
         "compare": {
             "md5": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Broken — do not use for security"
+                "desc1": "128-bitowy",
+                "desc2": "Złamany"
             },
             "sha1": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure standard, recommended"
+                "desc1": "256-bitowy",
+                "desc2": "Bezpieczny standard, zalecany"
             },
             "sha256": {
                 "title": "SHA-512",
-                "desc1": "512-bit output",
-                "desc2": "Faster on 64-bit, higher margin"
+                "desc1": "512-bitowy",
+                "desc2": "Szybszy na 64-bit"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Często zadawane pytania",
         "faq": {
-            "q1": "Is SHA-256 still secure in 2025?",
-            "a1": "Yes. SHA-256 has no known practical attacks. It provides 128 bits of collision resistance and 256 bits of preimage resistance, which remains far beyond current computing capabilities.",
-            "q2": "SHA-256 vs SHA-512 — which should I use?",
-            "a2": "SHA-256 is sufficient for most applications. SHA-512 is faster on 64-bit processors and provides a higher security margin. Both are secure; choose based on your platform.",
-            "q3": "Can quantum computers break SHA-256?",
-            "a3": "Grover's algorithm reduces SHA-256's collision resistance to 128 bits, which is still considered secure. Post-quantum hash functions are being researched but SHA-256 remains safe for current use."
+            "q1": "Czy SHA-256 jest bezpieczny w 2025?",
+            "a1": "Tak. Nie ma znanych praktycznych ataków.",
+            "q2": "SHA-256 vs SHA-512?",
+            "a2": "SHA-256 wystarcza do większości zastosowań.",
+            "q3": "Czy komputery kwantowe złamią SHA-256?",
+            "a3": "Algorytm Grovera redukuje odporność na kolizje do 128 bitów, co nadal uważa się za bezpieczne."
         }
     },
     "js": {
-        "error_empty": "Proszę wprowadzić tekst",
+        "error_empty": "Wprowadź tekst",
         "btn_copied": "Skopiowano!",
         "btn_generating": "Generowanie...",
-        "error_failed": "Generowanie hasha nie powiodło się. Spróbuj ponownie."
+        "error_failed": "Nie udało się wygenerować skrótu. Spróbuj ponownie."
     }
 }

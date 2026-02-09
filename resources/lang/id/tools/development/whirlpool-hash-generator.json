@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "Whirlpool Hash Generator - Alat online gratis",
-        "description": "Generate Whirlpool hashes from any text. 512-bit AES-based cryptographic hash endorsed by ISO and NESSIE. Free, instant, and secure.",
-        "h1": "Whirlpool Hash Generator",
-        "subtitle": "Generate 512-bit Whirlpool hashes — ISO-standard cryptographic security"
+        "title": "Generator Hash Whirlpool - Alat Online Gratis",
+        "description": "Buat hash Whirlpool dari teks apa pun. Hash kriptografis 512-bit berbasis prinsip AES, standar ISO. Gratis.",
+        "h1": "Generator Hash Whirlpool",
+        "subtitle": "Buat Hash Whirlpool 512-bit — Standar Kripto ISO"
     },
     "editor": {
-        "label_input": "Masukkan teks",
-        "ph_input": "Masukkan teks untuk menghasilkan Whirlpool hash...",
-        "btn_generate": "Hasilkan Whirlpool Hash",
-        "label_result": "Whirlpool Hash",
+        "label_input": "Masukkan Teks",
+        "ph_input": "Masukkan teks untuk menghasilkan hash Whirlpool...",
+        "btn_generate": "Buat Hash Whirlpool",
+        "label_result": "Hash Whirlpool",
         "btn_copy": "Salin"
     },
     "content": {
-        "hero_title": "Whirlpool Hash Generator",
-        "hero_subtitle": "ISO-standard 512-bit hash based on AES principles",
-        "p1": "Whirlpool is a cryptographic hash function that produces a 512-bit (128-character hex) hash value, designed by Vincent Rijmen (co-creator of AES) and Paulo Barreto. Whirlpool is based on a modified version of the AES block cipher and was adopted by the ISO/IEC 10118-3 international standard. It was also recommended by the European NESSIE project. Whirlpool provides 256-bit collision resistance, matching SHA-512.",
-        "what_title": "What is Whirlpool?",
-        "what_desc": "Whirlpool uses a Miyaguchi-Preneel compression function built on a specially designed block cipher called W. This cipher operates on 512-bit blocks with 512-bit keys through 10 rounds — similar in structure to AES-256. The cipher uses an 8×8 matrix of bytes (64 bytes = 512 bits), applying SubBytes, ShiftColumns, MixRows, and AddRoundKey operations.",
-        "features_title": "✅ Whirlpool Advantages",
+        "hero_title": "Generator Hash Whirlpool",
+        "hero_subtitle": "Hash standar ISO 512-bit berbasis prinsip AES",
+        "p1": "Whirlpool adalah fungsi hash kriptografis yang menghasilkan hash 512-bit (128 karakter heksadesimal), dirancang oleh Vincent Rijmen (co-designer AES) dan Paulo Barreto. Termasuk dalam standar ISO/IEC 10118-3.",
+        "what_title": "Apa itu Whirlpool?",
+        "what_desc": "Whirlpool menggunakan fungsi kompresi Miyaguchi-Preneel berdasarkan block cipher W. 10 ronde pada blok 512-bit.",
+        "features_title": "✅ Keunggulan",
         "features": {
-            "fast": "<strong>AES Heritage:</strong> Designed by AES co-creator Vincent Rijmen",
-            "fixed": "<strong>512-bit Output:</strong> 128-character hex, matching SHA-512 length",
-            "deterministic": "<strong>ISO Standard:</strong> Endorsed by ISO/IEC 10118-3",
-            "support": "<strong>NESSIE Recommended:</strong> European New European Schemes for Signatures"
+            "fast": "<strong>Warisan AES:</strong> Dirancang oleh co-designer AES Rijmen",
+            "fixed": "<strong>Output 512-bit:</strong> 128 karakter hex seperti SHA-512",
+            "deterministic": "<strong>Standar ISO:</strong> Bersertifikat ISO/IEC 10118-3",
+            "support": "<strong>Rekomendasi NESSIE:</strong> Standardisasi kripto Eropa"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Penggunaan",
         "uses": {
-            "verify": "<strong>Digital Signatures:</strong> High-security document and code signing",
-            "checksum": "<strong>File Integrity:</strong> Verifying large file downloads",
-            "cache": "<strong>TrueCrypt/VeraCrypt:</strong> Used in disk encryption software",
-            "integrity": "<strong>European Compliance:</strong> ISO/NESSIE-compliant hashing"
+            "verify": "<strong>Tanda tangan digital:</strong> Penandatanganan keamanan tinggi",
+            "checksum": "<strong>Integritas file:</strong> Verifikasi unduhan besar",
+            "cache": "<strong>TrueCrypt/VeraCrypt:</strong> Enkripsi disk",
+            "integrity": "<strong>Kepatuhan Eropa:</strong> Hashing sesuai ISO/NESSIE"
         },
-        "warning_title": "💡 Design Note",
-        "warning_desc": "<strong>Whirlpool provides the same 256-bit collision resistance as SHA-512</strong> but through a completely different internal design (AES-based vs. Merkle-Damgård). This design diversity makes it valuable as a second-opinion hash when you want independence from the SHA family.",
+        "warning_title": "💡 Catatan",
+        "warning_desc": "<strong>Whirlpool menyediakan resistensi tabrakan 256-bit sama seperti SHA-512</strong> tapi desain internal yang berbeda.",
         "compare_title": "🔄 Whirlpool vs SHA-512",
         "compare": {
             "md5": {
                 "title": "Whirlpool",
-                "desc1": "512-bit, AES-based",
-                "desc2": "ISO standard, AES designer"
+                "desc1": "512-bit, berbasis AES",
+                "desc2": "Standar ISO"
             },
             "sha1": {
                 "title": "SHA-512",
                 "desc1": "512-bit, Merkle-Damgård",
-                "desc2": "More widely deployed"
+                "desc2": "Lebih tersebar luas"
             },
             "sha256": {
-                "title": "SHA-3 (Keccak)",
-                "desc1": "Variable, sponge construct",
-                "desc2": "NIST SHA-3 winner"
+                "title": "SHA-3",
+                "desc1": "Variabel, sponge",
+                "desc2": "Pemenang kompetisi NIST"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Pertanyaan Umum",
         "faq": {
-            "q1": "Whirlpool vs SHA-512 — which is more secure?",
-            "a1": "Both provide 256-bit collision resistance. Neither has known practical attacks. SHA-512 is faster in software, but Whirlpool's AES-based design provides algorithmic diversity.",
-            "q2": "Why use Whirlpool over SHA-512?",
-            "a2": "Choose Whirlpool when you need an ISO-standard hash, want independence from NSA-designed algorithms, or need a hash from a completely different design family (AES-based vs. Merkle-Damgård).",
-            "q3": "Is Whirlpool used in any major software?",
-            "a3": "Yes. TrueCrypt and its successor VeraCrypt use Whirlpool as one of their hash options for key derivation. It's also available in GnuPG et Bouncy Castle cryptographic libraries."
+            "q1": "Whirlpool vs SHA-512?",
+            "a1": "Keduanya resistensi 256-bit. SHA-512 lebih cepat di perangkat lunak.",
+            "q2": "Mengapa memilih Whirlpool?",
+            "a2": "Kepatuhan ISO, independensi dari NSA, keragaman desain.",
+            "q3": "Whirlpool di perangkat lunak penting?",
+            "a3": "Ya. TrueCrypt/VeraCrypt, GnuPG, Bouncy Castle mendukung Whirlpool."
         }
     },
     "js": {
         "error_empty": "Silakan masukkan teks",
-        "btn_copied": "Disalin!",
-        "btn_generating": "Menghasilkan...",
-        "error_failed": "Gagal menghasilkan hash. Coba lagi."
+        "btn_copied": "Tersalin!",
+        "btn_generating": "Membuat...",
+        "error_failed": "Gagal membuat hash. Silakan coba lagi."
     }
 }

@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "SHA-512 Hash Generator - Alat online gratis",
-        "description": "Generate SHA-512 hashes from any text. Maximum-security 512-bit cryptographic hash. Used in SSH, IPsec, and high-security applications. Free and instant.",
-        "h1": "SHA-512 Hash Generator",
-        "subtitle": "Generate 512-bit SHA-512 hashes — maximum cryptographic security"
+        "title": "Generator Hash SHA-512 - Alat Online Gratis",
+        "description": "Buat hash SHA-512 dari teks apa pun. Hash kriptografis 512-bit keamanan maksimum. Gratis.",
+        "h1": "Generator Hash SHA-512",
+        "subtitle": "Buat Hash SHA-512 — Keamanan Kriptografis Maksimum"
     },
     "editor": {
-        "label_input": "Masukkan teks",
-        "ph_input": "Masukkan teks untuk menghasilkan SHA-512 hash...",
-        "btn_generate": "Hasilkan SHA-512 Hash",
-        "label_result": "SHA-512 Hash",
+        "label_input": "Masukkan Teks",
+        "ph_input": "Masukkan teks untuk menghasilkan hash SHA-512...",
+        "btn_generate": "Buat Hash SHA-512",
+        "label_result": "Hash SHA-512",
         "btn_copy": "Salin"
     },
     "content": {
-        "hero_title": "SHA-512 Hash Generator",
-        "hero_subtitle": "Maximum-security 512-bit cryptographic hashing",
-        "p1": "SHA-512 is the strongest member of the SHA-2 family, producing a 512-bit (128-character hex) hash value. It processes data using 64-bit operations, making it actually faster than SHA-256 on modern 64-bit processors. SHA-512 is used in SSH key fingerprints, IPsec, DNSSEC, and applications requiring the highest level of hash security. It provides 256 bits of collision resistance — far beyond what brute-force attacks can threaten.",
-        "what_title": "What is SHA-512?",
-        "what_desc": "SHA-512 processes data in 1024-bit blocks through 80 rounds of mixing operations, using eight 64-bit working variables. Each round applies bitwise rotations, shifts, and modular addition with 80 unique constants. The large block size and 64-bit operations make SHA-512 particularly efficient on 64-bit CPUs, often outperforming SHA-256 despite producing a longer hash.",
-        "features_title": "✅ SHA-512 Advantages",
+        "hero_title": "Generator Hash SHA-512",
+        "hero_subtitle": "Hash kriptografis 512-bit keamanan maksimum",
+        "p1": "SHA-512 adalah anggota paling kuat dari keluarga SHA-2, menghasilkan hash 512-bit (128 karakter heksadesimal). Lebih cepat dari SHA-256 di prosesor 64-bit modern.",
+        "what_title": "Apa itu SHA-512?",
+        "what_desc": "SHA-512 memproses data dalam blok 1024-bit menggunakan 8 variabel kerja 64-bit melalui 80 ronde.",
+        "features_title": "✅ Keunggulan",
         "features": {
-            "fast": "<strong>Faster on 64-bit:</strong> Native 64-bit operations outperform SHA-256 on modern CPUs",
-            "fixed": "<strong>512-bit Output:</strong> 128-character hex with 256-bit collision resistance",
-            "deterministic": "<strong>Maximum Security:</strong> Highest security margin in the SHA-2 family",
-            "support": "<strong>Quantum Resistant:</strong> 256-bit security even against Grover's algorithm"
+            "fast": "<strong>Lebih cepat di 64-bit:</strong> Operasi 64-bit native mengalahkan SHA-256",
+            "fixed": "<strong>Output 512-bit:</strong> 128 karakter, resistensi 256-bit",
+            "deterministic": "<strong>Keamanan maksimum:</strong> Margin keamanan tertinggi di SHA-2",
+            "support": "<strong>Tahan kuantum:</strong> Resistensi 256-bit terhadap Grover"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Penggunaan",
         "uses": {
-            "verify": "<strong>SSH:</strong> Key fingerprints and host verification",
-            "checksum": "<strong>IPsec:</strong> VPN tunnel integrity verification",
-            "cache": "<strong>DNSSEC:</strong> DNS record signing and validation",
-            "integrity": "<strong>Linux Auth:</strong> /etc/shadow password hashing (SHA-512-crypt)"
+            "verify": "<strong>SSH:</strong> Fingerprint kunci dan verifikasi host",
+            "checksum": "<strong>IPsec:</strong> Integritas tunnel VPN",
+            "cache": "<strong>DNSSEC:</strong> Penandatanganan record DNS",
+            "integrity": "<strong>Autentikasi Linux:</strong> Hashing kata sandi /etc/shadow"
         },
-        "warning_title": "💡 Performance Note",
-        "warning_desc": "<strong>SHA-512 is actually faster than SHA-256 on 64-bit systems.</strong> If you're running on a modern 64-bit processor, SHA-512 gives you both higher security AND better performance. On 32-bit or embedded systems, SHA-256 is faster. For password hashing, still use bcrypt or Argon2.",
-        "compare_title": "🔄 SHA-512 vs Other Hash Functions",
+        "warning_title": "💡 Catatan",
+        "warning_desc": "<strong>SHA-512 lebih cepat dari SHA-256 di sistem 64-bit.</strong> Untuk kata sandi gunakan bcrypt atau Argon2.",
+        "compare_title": "🔄 Perbandingan",
         "compare": {
             "md5": {
                 "title": "SHA-256",
-                "desc1": "256-bit, 32-bit ops",
-                "desc2": "Faster on 32-bit systems"
+                "desc1": "256-bit",
+                "desc2": "Lebih cepat di 32-bit"
             },
             "sha1": {
                 "title": "SHA-512",
-                "desc1": "512-bit, 64-bit ops",
-                "desc2": "Faster on 64-bit, highest security"
+                "desc1": "512-bit",
+                "desc2": "Lebih cepat & aman di 64-bit"
             },
             "sha256": {
                 "title": "SHA-3",
-                "desc1": "Variable output",
-                "desc2": "Different design, similar security"
+                "desc1": "Variabel",
+                "desc2": "Desain berbeda"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Pertanyaan Umum",
         "faq": {
-            "q1": "Is SHA-512 overkill for most applications?",
-            "a1": "From a security standpoint, SHA-256 is sufficient for decades. However, SHA-512 is often faster on 64-bit systems, so there's little reason not to use it if you don't need a short hash.",
-            "q2": "SHA-512 vs SHA-3 — which is better?",
-            "a2": "Both are secure. SHA-512 is faster in software, while SHA-3 (Keccak) has a fundamentally different design that provides diversity. Use SHA-512 for performance, SHA-3 for design independence.",
-            "q3": "How long would it take to crack SHA-512?",
-            "a3": "With 256-bit collision resistance, finding a collision would take roughly 2^256 operations. Even with all computing power on Earth, this would take longer than the age of the universe."
+            "q1": "Apakah SHA-512 berlebihan?",
+            "a1": "SHA-256 cukup untuk puluhan tahun. Tapi SHA-512 sering lebih cepat di sistem 64-bit.",
+            "q2": "SHA-512 vs SHA-3?",
+            "a2": "Keduanya aman. SHA-512 lebih cepat dalam perangkat lunak.",
+            "q3": "Berapa lama untuk membobol SHA-512?",
+            "a3": "Resistensi 256-bit — lebih lama dari usia alam semesta."
         }
     },
     "js": {
         "error_empty": "Silakan masukkan teks",
-        "btn_copied": "Disalin!",
-        "btn_generating": "Menghasilkan...",
-        "error_failed": "Gagal menghasilkan hash. Coba lagi."
+        "btn_copied": "Tersalin!",
+        "btn_generating": "Membuat...",
+        "error_failed": "Gagal membuat hash. Silakan coba lagi."
     }
 }

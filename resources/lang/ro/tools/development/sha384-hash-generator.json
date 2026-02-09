@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "SHA-384 Hash Generator - Instrument online gratuit",
-        "description": "Generate SHA-384 hashes from any text. Truncated SHA-512 variant offering 192 bits of collision resistance. Free, instant, and secure.",
-        "h1": "SHA-384 Hash Generator",
-        "subtitle": "Generate 384-bit SHA-384 cryptographic hashes for high-security applications"
+        "title": "Generator hash SHA-384 - Instrument online gratuit",
+        "description": "Generați hash SHA-384 din orice text. Variantă SHA-512 trunchiată cu rezistență de 192 biți. Gratuit.",
+        "h1": "Generator hash SHA-384",
+        "subtitle": "Generați hash SHA-384 — Pentru aplicații de înaltă securitate"
     },
     "editor": {
         "label_input": "Introduceți textul",
-        "ph_input": "Introduceți textul pentru a genera SHA-384 hash...",
-        "btn_generate": "Generează SHA-384 Hash",
-        "label_result": "SHA-384 Hash",
+        "ph_input": "Introduceți textul pentru a genera hash-ul SHA-384...",
+        "btn_generate": "Generează hash SHA-384",
+        "label_result": "Hash SHA-384",
         "btn_copy": "Copiază"
     },
     "content": {
-        "hero_title": "SHA-384 Hash Generator",
-        "hero_subtitle": "High-security 384-bit cryptographic hashing",
-        "p1": "SHA-384 is a member of the SHA-2 family that produces a 384-bit (96-character hex) hash value. It is actually a truncated version of SHA-512, using different initial hash values and outputting only 384 of the 512 computed bits. SHA-384 is used in government and financial systems requiring higher security than SHA-256 but where the full 512-bit output of SHA-512 is excessive. It's specified in TLS cipher suites and digital signature standards.",
-        "what_title": "What is SHA-384?",
-        "what_desc": "SHA-384 uses the exact same algorithm as SHA-512 internally — processing data in 1024-bit blocks through 80 rounds of operations on 64-bit words. The difference lies in the initialization vectors (different starting values) and the final output being truncated to 384 bits. This makes it impossible to use SHA-512 results to derive SHA-384 results or vice versa.",
-        "features_title": "✅ SHA-384 Advantages",
+        "hero_title": "Generator hash SHA-384",
+        "hero_subtitle": "Hash criptografic de 384 biți cu securitate ridicată",
+        "p1": "SHA-384 e un membru al familiei SHA-2, generând un hash de 384 biți (96 caractere hexadecimale). E o versiune trunchiată a SHA-512 cu valori inițiale diferite.",
+        "what_title": "Ce este SHA-384?",
+        "what_desc": "SHA-384 folosește intern algoritmul SHA-512 — blocuri de 1024 biți prin 80 runde de operații pe 64 biți.",
+        "features_title": "✅ Avantaje",
         "features": {
-            "fast": "<strong>192-bit Security:</strong> Higher collision resistance than SHA-256",
-            "fixed": "<strong>384-bit Output:</strong> 96-character hexadecimal digest",
-            "deterministic": "<strong>64-bit Optimized:</strong> Uses 64-bit operations, fast on modern CPUs",
-            "support": "<strong>Government Approved:</strong> NIST recommended for sensitive applications"
+            "fast": "<strong>Securitate 192 biți:</strong> Rezistență la coliziuni mai mare decât SHA-256",
+            "fixed": "<strong>Ieșire de 384 biți:</strong> Digest de 96 caractere",
+            "deterministic": "<strong>Optimizat 64 biți:</strong> Folosește operații pe 64 biți",
+            "support": "<strong>Certificare guvernamentală:</strong> Recomandat de NIST"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Utilizări",
         "uses": {
-            "verify": "<strong>TLS Cipher Suites:</strong> Used in ECDHE-RSA-AES256-SHA384",
-            "checksum": "<strong>Digital Signatures:</strong> High-security document signing",
-            "cache": "<strong>Government Systems:</strong> FIPS 180-4 compliant applications",
-            "integrity": "<strong>Financial Protocols:</strong> Banking and payment security"
+            "verify": "<strong>Suite TLS:</strong> Conexiuni de înaltă securitate",
+            "checksum": "<strong>Semnături digitale:</strong> Semnare de înaltă securitate",
+            "cache": "<strong>Sisteme guvernamentale:</strong> Aplicații FIPS 180-4",
+            "integrity": "<strong>Protocoale financiare:</strong> Tranzacții bancare"
         },
-        "warning_title": "💡 When to Use SHA-384",
-        "warning_desc": "<strong>SHA-384 sits between SHA-256 and SHA-512 in security level.</strong> Choose SHA-384 when your security requirements exceed SHA-256's 128-bit collision resistance, or when you need the 64-bit performance of SHA-512 but want a shorter output. For most applications, SHA-256 is sufficient.",
-        "compare_title": "🔄 SHA-2 Family Comparison",
+        "warning_title": "💡 Când să folosiți",
+        "warning_desc": "<strong>SHA-384 e între SHA-256 și SHA-512.</strong> Alegeți SHA-384 când nevoile depășesc rezistența de 128 biți a SHA-256.",
+        "compare_title": "🔄 Familia SHA-2",
         "compare": {
             "md5": {
                 "title": "SHA-256",
-                "desc1": "256-bit, 32-bit ops",
-                "desc2": "128-bit collision resistance"
+                "desc1": "256 biți",
+                "desc2": "Rezistență 128 biți"
             },
             "sha1": {
                 "title": "SHA-384",
-                "desc1": "384-bit, 64-bit ops",
-                "desc2": "192-bit collision resistance"
+                "desc1": "384 biți",
+                "desc2": "Rezistență 192 biți"
             },
             "sha256": {
                 "title": "SHA-512",
-                "desc1": "512-bit, 64-bit ops",
-                "desc2": "256-bit collision resistance"
+                "desc1": "512 biți",
+                "desc2": "Rezistență 256 biți"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Întrebări frecvente",
         "faq": {
-            "q1": "Why use SHA-384 instead of SHA-256?",
-            "a1": "SHA-384 provides 192 bits of collision resistance vs. SHA-256's 128 bits. It also runs SHA-512 internally, which is faster on 64-bit processors, making it both more secure and potentially faster.",
-            "q2": "Is SHA-384 just truncated SHA-512?",
-            "a2": "Yes, but with different initial values. This means you cannot derive a SHA-384 hash from a SHA-512 hash of the same data. They are independent despite sharing the same core algorithm.",
-            "q3": "Where is SHA-384 required?",
-            "a3": "SHA-384 is often required in government (Suite B cryptography), financial systems, and TLS configurations where higher-than-256-bit security is mandated."
+            "q1": "De ce SHA-384 în loc de SHA-256?",
+            "a1": "SHA-384 oferă rezistență de 192 biți și e mai rapid pe procesoare de 64 biți.",
+            "q2": "E SHA-384 un SHA-512 trunchiat?",
+            "a2": "Da, dar cu valori inițiale diferite.",
+            "q3": "Unde e necesar SHA-384?",
+            "a3": "Sisteme guvernamentale, finanțe și configurații TLS de înaltă securitate."
         }
     },
     "js": {
-        "error_empty": "Vă rugăm introduceți textul",
+        "error_empty": "Introduceți textul",
         "btn_copied": "Copiat!",
         "btn_generating": "Se generează...",
-        "error_failed": "Generarea hash-ului a eșuat. Încercați din nou."
+        "error_failed": "Nu s-a putut genera hash-ul. Încercați din nou."
     }
 }

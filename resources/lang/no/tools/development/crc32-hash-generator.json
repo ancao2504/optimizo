@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "CRC-32 Hash Generator - Gratis nettverktøy",
-        "description": "Generate CRC-32 checksums from any text instantly. Industry-standard error detection algorithm used in Ethernet, ZIP, and PNG. Free and private.",
-        "h1": "CRC-32 Hash Generator",
-        "subtitle": "Generate CRC-32 checksums for reliable error detection and data integrity"
+        "title": "CRC-32 Hash-generator - Gratis nettverktøy",
+        "description": "Generer CRC-32-hash fra hvilken som helst tekst. Standard syklisk redundanssjekk. Gratis.",
+        "h1": "CRC-32 Hash-generator",
+        "subtitle": "Generer CRC-32-sjekksum — Industristandard"
     },
     "editor": {
         "label_input": "Skriv inn tekst",
-        "ph_input": "Skriv inn tekst for å generere CRC-32 hash...",
-        "btn_generate": "Generer CRC-32 Hash",
-        "label_result": "CRC-32 Hash",
+        "ph_input": "Skriv inn tekst for å generere CRC-32-hash...",
+        "btn_generate": "Generer CRC-32-hash",
+        "label_result": "CRC-32-hash",
         "btn_copy": "Kopier"
     },
     "content": {
-        "hero_title": "CRC-32 Hash Generator",
-        "hero_subtitle": "Compute CRC-32 checksums for data integrity verification",
-        "p1": "CRC-32 (Cyclic Redundancy Check 32-bit) is an error-detecting code used extensively in digital networks and storage devices. It produces a 32-bit checksum that can detect common types of data corruption. CRC-32 is the backbone of Ethernet frame checking, ZIP file integrity, PNG image validation, and dozens of other standards that rely on reliable error detection.",
-        "what_title": "What is CRC-32?",
-        "what_desc": "CRC-32 treats the input data as a polynomial and divides it by a fixed generator polynomial (0xEDB88320 for IEEE 802.3). The remainder of this division becomes the 32-bit checksum. This mathematical approach gives CRC-32 excellent error detection properties, catching all single-bit errors, all double-bit errors, and any burst error of 32 bits or fewer.",
-        "features_title": "✅ CRC-32 Advantages",
+        "hero_title": "CRC-32 Hash-generator",
+        "hero_subtitle": "Standard syklisk redundanssjekk for dataintegritet",
+        "p1": "CRC-32 er verdens mest brukte ikke-kryptografiske sjekksumfunksjon. Genererer en 32-bits hash (8 heksadesimale tegn) gjennom polynomdivisjon.",
+        "what_title": "Hva er CRC-32?",
+        "what_desc": "CRC-32 behandler inndata som et stort polynom og beregner resten ved divisjon med et fast generatorpolynom.",
+        "features_title": "✅ Fordeler",
         "features": {
-            "fast": "<strong>Hardware Optimized:</strong> Many CPUs include CRC-32 instructions for maximum speed",
-            "fixed": "<strong>32-bit Output:</strong> Always produces an 8-character hexadecimal checksum",
-            "deterministic": "<strong>Excellent Detection:</strong> Catches all common error patterns",
-            "support": "<strong>Universal Standard:</strong> Used in Ethernet, ZIP, PNG, MPEG-2, and more"
+            "fast": "<strong>Maskinvareakselerert:</strong> Intel CRC32-instruksjon beregner med minnehastighet",
+            "fixed": "<strong>Sterk oppdagelse:</strong> Oppdager alle 1-bit-, 2-bit- og oddetallsbitfeil",
+            "deterministic": "<strong>Universell standard:</strong> Ethernet, USB, ZIP, PNG, MPEG-2",
+            "support": "<strong>Enkelt og raskt:</strong> Oppslagstabeller for rask beregning"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Bruksområder",
         "uses": {
-            "verify": "<strong>Network Protocols:</strong> Ethernet and Wi-Fi frame checking",
-            "checksum": "<strong>File Archives:</strong> ZIP, RAR, and 7-Zip integrity verification",
-            "cache": "<strong>Image Formats:</strong> PNG chunk validation",
-            "integrity": "<strong>Storage:</strong> Disk sector integrity checks"
+            "verify": "<strong>Arkivering:</strong> ZIP- og gzip-integritetssjekk",
+            "checksum": "<strong>Nettverk:</strong> Ethernet-rammevalidering",
+            "cache": "<strong>Lagring:</strong> Filsystemintegritet",
+            "integrity": "<strong>Multimedia:</strong> PNG- og MPEG-filintegritet"
         },
-        "warning_title": "⚠️ Important Note",
-        "warning_desc": "<strong>CRC-32 is NOT a cryptographic hash function.</strong> It is designed to detect accidental data corruption, not malicious tampering. An attacker can easily create different inputs with the same CRC-32 value. For security, use SHA-256 or SHA-512.",
-        "compare_title": "🔄 CRC-32 vs Other Algorithms",
+        "warning_title": "⚠️ Sikkerhetsmerknader",
+        "warning_desc": "<strong>CRC-32 er ikke en kryptografisk hashfunksjon.</strong> Designet for å oppdage tilfeldige feil, ikke forhindre bevisst endring.",
+        "compare_title": "🔄 CRC-32-sammenligning",
         "compare": {
             "md5": {
                 "title": "CRC-32",
-                "desc1": "32-bit output",
-                "desc2": "Best for error detection"
+                "desc1": "32-bit, polynom",
+                "desc2": "Feiloppdagelse, ikke krypto"
             },
             "sha1": {
                 "title": "Adler-32",
-                "desc1": "32-bit output",
-                "desc2": "Faster but weaker detection"
+                "desc1": "32-bit, aritmetisk",
+                "desc2": "Raskere men svakere oppdagelse"
             },
             "sha256": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Cryptographic (deprecated)"
+                "desc1": "128-bit, kryptografisk",
+                "desc2": "Mye tregere men sikrere"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Vanlige spørsmål",
         "faq": {
-            "q1": "What's the difference between CRC-32 and CRC-32B?",
-            "a1": "CRC-32 uses the standard ITU polynomial, while CRC-32B uses the IEEE 802.3 polynomial. CRC-32B is the more commonly used variant in modern applications like ZIP files and Ethernet.",
-            "q2": "Can CRC-32 detect all errors?",
-            "a2": "CRC-32 detects all single-bit errors, all double-bit errors, and all burst errors up to 32 bits. It has a 99.99999995% chance of detecting longer burst errors.",
-            "q3": "Is CRC-32 suitable for password hashing?",
-            "a3": "Absolutely not. CRC-32 is a checksum, not a cryptographic hash. It's trivially easy to find collisions. Use bcrypt or Argon2 for passwords."
+            "q1": "Hva er forskjellen mellom CRC-32 og CRC-32B?",
+            "a1": "De bruker forskjellige generatorpolynomer. CRC-32B er PHPs standardvariant.",
+            "q2": "Hvorfor er CRC-32 uegnet for sikkerhet?",
+            "a2": "CRC-32 er lineær og reversibel. Angripere kan enkelt lage kollisjoner.",
+            "q3": "Oppdager CRC-32 alle feil?",
+            "a3": "Nei. CRC-32 oppdager alle 1-bit- og 2-bitsfeil, men noen mønstre kan gå uoppdaget."
         }
     },
     "js": {
         "error_empty": "Vennligst skriv inn tekst",
         "btn_copied": "Kopiert!",
         "btn_generating": "Genererer...",
-        "error_failed": "Hash-generering mislyktes. Prøv igjen."
+        "error_failed": "Kunne ikke generere hash. Vennligst prøv igjen."
     }
 }

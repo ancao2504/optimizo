@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "CRC-32 Hash Generator - Ilmainen online-työkalu",
-        "description": "Generate CRC-32 checksums from any text instantly. Industry-standard error detection algorithm used in Ethernet, ZIP, and PNG. Free and private.",
-        "h1": "CRC-32 Hash Generator",
-        "subtitle": "Generate CRC-32 checksums for reliable error detection and data integrity"
+        "title": "CRC-32 -tiivisteen luonti - Ilmainen online-työkalu",
+        "description": "Luo CRC-32-tiiviste mistä tahansa tekstistä. Standardi Cyclic Redundancy Check. Ilmainen.",
+        "h1": "CRC-32 -tiivisteen luonti",
+        "subtitle": "Luo CRC-32-tarkistussumma — Teollisuusstandardi"
     },
     "editor": {
         "label_input": "Syötä teksti",
-        "ph_input": "Syötä teksti luodaksesi CRC-32 hash...",
-        "btn_generate": "Luo CRC-32 Hash",
-        "label_result": "CRC-32 Hash",
+        "ph_input": "Syötä teksti CRC-32-tiivisteen luomiseksi...",
+        "btn_generate": "Luo CRC-32-tiiviste",
+        "label_result": "CRC-32-tiiviste",
         "btn_copy": "Kopioi"
     },
     "content": {
-        "hero_title": "CRC-32 Hash Generator",
-        "hero_subtitle": "Compute CRC-32 checksums for data integrity verification",
-        "p1": "CRC-32 (Cyclic Redundancy Check 32-bit) is an error-detecting code used extensively in digital networks and storage devices. It produces a 32-bit checksum that can detect common types of data corruption. CRC-32 is the backbone of Ethernet frame checking, ZIP file integrity, PNG image validation, and dozens of other standards that rely on reliable error detection.",
-        "what_title": "What is CRC-32?",
-        "what_desc": "CRC-32 treats the input data as a polynomial and divides it by a fixed generator polynomial (0xEDB88320 for IEEE 802.3). The remainder of this division becomes the 32-bit checksum. This mathematical approach gives CRC-32 excellent error detection properties, catching all single-bit errors, all double-bit errors, and any burst error of 32 bits or fewer.",
-        "features_title": "✅ CRC-32 Advantages",
+        "hero_title": "CRC-32 -tiivisteen luonti",
+        "hero_subtitle": "Standardi Cyclic Redundancy Check tiedon eheydelle",
+        "p1": "CRC-32 on maailman laajimmin käytetty ei-kryptografinen tarkistussummafunktio. Se tuottaa 32-bittisen tiivisteen (8 heksadesimaalimerkkiä) polynomijaon avulla.",
+        "what_title": "Mikä on CRC-32?",
+        "what_desc": "CRC-32 käsittelee syötedataa suurena polynomina ja laskee jakojäännöksen kiinteällä generaattoripolynomilla.",
+        "features_title": "✅ Edut",
         "features": {
-            "fast": "<strong>Hardware Optimized:</strong> Many CPUs include CRC-32 instructions for maximum speed",
-            "fixed": "<strong>32-bit Output:</strong> Always produces an 8-character hexadecimal checksum",
-            "deterministic": "<strong>Excellent Detection:</strong> Catches all common error patterns",
-            "support": "<strong>Universal Standard:</strong> Used in Ethernet, ZIP, PNG, MPEG-2, and more"
+            "fast": "<strong>Laitteistokiihdytetty:</strong> Intel CRC32 -käsky laskee muistinopeudella",
+            "fixed": "<strong>Vahva havaitseminen:</strong> Havaitsee kaikki 1-bittisten, 2-bittisten ja parittomien bittien virheet",
+            "deterministic": "<strong>Universaali standardi:</strong> Ethernet, USB, ZIP, PNG, MPEG-2",
+            "support": "<strong>Yksinkertainen ja nopea:</strong> Hakutaulukot nopeaan laskentaan"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Käyttökohteet",
         "uses": {
-            "verify": "<strong>Network Protocols:</strong> Ethernet and Wi-Fi frame checking",
-            "checksum": "<strong>File Archives:</strong> ZIP, RAR, and 7-Zip integrity verification",
-            "cache": "<strong>Image Formats:</strong> PNG chunk validation",
-            "integrity": "<strong>Storage:</strong> Disk sector integrity checks"
+            "verify": "<strong>Arkistointi:</strong> ZIP- ja gzip-eheyden tarkistus",
+            "checksum": "<strong>Verkko:</strong> Ethernet-kehysten validointi",
+            "cache": "<strong>Tallennus:</strong> Tiedostojärjestelmän eheys",
+            "integrity": "<strong>Multimedia:</strong> PNG- ja MPEG-tiedostojen eheys"
         },
-        "warning_title": "⚠️ Important Note",
-        "warning_desc": "<strong>CRC-32 is NOT a cryptographic hash function.</strong> It is designed to detect accidental data corruption, not malicious tampering. An attacker can easily create different inputs with the same CRC-32 value. For security, use SHA-256 or SHA-512.",
-        "compare_title": "🔄 CRC-32 vs Other Algorithms",
+        "warning_title": "⚠️ Turvallisuushuomautus",
+        "warning_desc": "<strong>CRC-32 ei ole kryptografinen tiivistefunktio.</strong> Suunniteltu satunnaisten virheiden havaitsemiseen, ei tahallisen muokkauksen estämiseen.",
+        "compare_title": "🔄 CRC-32 vertailu",
         "compare": {
             "md5": {
                 "title": "CRC-32",
-                "desc1": "32-bit output",
-                "desc2": "Best for error detection"
+                "desc1": "32-bittinen, polynominen",
+                "desc2": "Virheiden havaitseminen, ei kryptoa"
             },
             "sha1": {
                 "title": "Adler-32",
-                "desc1": "32-bit output",
-                "desc2": "Faster but weaker detection"
+                "desc1": "32-bittinen, aritmeettinen",
+                "desc2": "Nopeampi mutta heikompi havaitseminen"
             },
             "sha256": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Cryptographic (deprecated)"
+                "desc1": "128-bittinen, kryptografinen",
+                "desc2": "Paljon hitaampi mutta turvallisempi"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Usein kysytyt kysymykset",
         "faq": {
-            "q1": "What's the difference between CRC-32 and CRC-32B?",
-            "a1": "CRC-32 uses the standard ITU polynomial, while CRC-32B uses the IEEE 802.3 polynomial. CRC-32B is the more commonly used variant in modern applications like ZIP files and Ethernet.",
-            "q2": "Can CRC-32 detect all errors?",
-            "a2": "CRC-32 detects all single-bit errors, all double-bit errors, and all burst errors up to 32 bits. It has a 99.99999995% chance of detecting longer burst errors.",
-            "q3": "Is CRC-32 suitable for password hashing?",
-            "a3": "Absolutely not. CRC-32 is a checksum, not a cryptographic hash. It's trivially easy to find collisions. Use bcrypt or Argon2 for passwords."
+            "q1": "Mitä eroa on CRC-32:lla ja CRC-32B:llä?",
+            "a1": "Ne käyttävät eri generaattoripolynomeja. CRC-32B on PHP:n oletusvariantti.",
+            "q2": "Miksi CRC-32 ei sovi turvallisuuteen?",
+            "a2": "CRC-32 on lineaarinen ja käännettävissä. Hyökkääjät voivat helposti luoda törmäyksiä.",
+            "q3": "Havaitseeko CRC-32 kaikki virheet?",
+            "a3": "Ei. CRC-32 havaitsee kaikki 1- ja 2-bittiset virheet, mutta jotkin kaavat voivat jäädä huomaamatta."
         }
     },
     "js": {
         "error_empty": "Syötä teksti",
         "btn_copied": "Kopioitu!",
         "btn_generating": "Luodaan...",
-        "error_failed": "Tiivisteen luominen epäonnistui. Yritä uudelleen."
+        "error_failed": "Tiivisteen luonti epäonnistui. Yritä uudelleen."
     }
 }

@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "CRC-32B Hash Generator - Darmowe narzędzie online",
-        "description": "Generate CRC-32B (IEEE 802.3) checksums from any text. The standard CRC used in Ethernet, ZIP, and PNG. Free, instant, and private.",
-        "h1": "CRC-32B Hash Generator",
-        "subtitle": "Generate CRC-32B checksums using the IEEE 802.3 standard polynomial"
+        "title": "Generator skrótu CRC-32B - Darmowe narzędzie online",
+        "description": "Wygeneruj skrót CRC-32B z dowolnego tekstu. Standardowy wariant CRC-32 w PHP i Pythonie. Bezpłatnie.",
+        "h1": "Generator skrótu CRC-32B",
+        "subtitle": "Generuj skrót CRC-32B — Standardowy wariant PHP"
     },
     "editor": {
         "label_input": "Wprowadź tekst",
-        "ph_input": "Wprowadź tekst, aby wygenerować CRC-32B hash...",
-        "btn_generate": "Generuj CRC-32B Hash",
-        "label_result": "CRC-32B Hash",
+        "ph_input": "Wprowadź tekst, aby wygenerować skrót CRC-32B...",
+        "btn_generate": "Generuj skrót CRC-32B",
+        "label_result": "Skrót CRC-32B",
         "btn_copy": "Kopiuj"
     },
     "content": {
-        "hero_title": "CRC-32B Hash Generator",
-        "hero_subtitle": "The industry-standard IEEE 802.3 CRC checksum generator",
-        "p1": "CRC-32B is the most widely used variant of the CRC-32 family, employing the IEEE 802.3 polynomial (0x04C11DB7). It is the standard checksum in Ethernet networking, ZIP archives, PNG images, and countless other protocols. When people refer to 'CRC-32' in practice, they almost always mean CRC-32B. This tool generates the exact same checksums used by WinZip, 7-Zip, and network hardware worldwide.",
-        "what_title": "What is CRC-32B?",
-        "what_desc": "CRC-32B uses the generator polynomial 0x04C11DB7, standardized by IEEE 802.3 for Ethernet. The 'B' suffix distinguishes it from other CRC-32 variants using different polynomials. It provides the same mathematical guarantees as CRC-32 but is the de facto standard for modern applications, making it the most compatible choice.",
-        "features_title": "✅ CRC-32B Advantages",
+        "hero_title": "Generator skrótu CRC-32B",
+        "hero_subtitle": "Standardowy wielomian CRC-32B dla integralności danych",
+        "p1": "CRC-32B jest najpopularniejszym wariantem rodziny CRC-32, używającym odbitego wielomianu 0xEDB88320. To domyślna implementacja CRC-32 w PHP, Pythonie, Javie i większości języków programowania.",
+        "what_title": "Czym jest CRC-32B?",
+        "what_desc": "CRC-32B używa odbitej formy 0xEDB88320 wielomianu 0x04C11DB7.",
+        "features_title": "✅ Zalety",
         "features": {
-            "fast": "<strong>Industry Standard:</strong> The CRC-32 variant used by ZIP, PNG, Ethernet",
-            "fixed": "<strong>Maximum Compatibility:</strong> Matches output of standard tools and libraries",
-            "deterministic": "<strong>Proven Reliable:</strong> Decades of deployment in production systems",
-            "support": "<strong>Hardware Accelerated:</strong> SSE 4.2 CRC32 instruction support"
+            "fast": "<strong>Standard języka:</strong> Domyślny w PHP, Pythonie, Javie",
+            "fixed": "<strong>Silne wykrywanie:</strong> Wykrywa wszystkie błędy 1- i 2-bitowe",
+            "deterministic": "<strong>Kompatybilność:</strong> Spójne wyniki na różnych platformach",
+            "support": "<strong>Akceleracja sprzętowa:</strong> Natywne wsparcie CPU"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Zastosowania",
         "uses": {
-            "verify": "<strong>ZIP Archives:</strong> Standard file integrity check in ZIP format",
-            "checksum": "<strong>Ethernet:</strong> Frame Check Sequence in IEEE 802.3",
-            "cache": "<strong>PNG Images:</strong> Chunk integrity verification",
-            "integrity": "<strong>MPEG-2:</strong> Transport stream error detection"
+            "verify": "<strong>Walidacja plików:</strong> Sprawdzanie integralności pobranych plików",
+            "checksum": "<strong>Bazy danych:</strong> Wykrywanie uszkodzenia danych",
+            "cache": "<strong>API:</strong> Walidacja integralności ładunku",
+            "integrity": "<strong>Kontrola wersji:</strong> Wykrywanie zmian w plikach"
         },
-        "warning_title": "⚠️ Important Note",
-        "warning_desc": "<strong>CRC-32B is a checksum, not a cryptographic hash.</strong> While excellent for detecting accidental corruption, it provides no security against intentional data manipulation. Use SHA-256 or SHA-512 for cryptographic security.",
-        "compare_title": "🔄 CRC-32B vs Other Variants",
+        "warning_title": "⚠️ Uwaga",
+        "warning_desc": "<strong>CRC-32B jest funkcjonalnie identyczny z CRC-32 w większości języków programowania.</strong>",
+        "compare_title": "🔄 Warianty CRC-32",
         "compare": {
             "md5": {
-                "title": "CRC-32B (IEEE)",
-                "desc1": "32-bit, 0x04C11DB7",
-                "desc2": "Most widely used standard"
+                "title": "CRC-32B",
+                "desc1": "Wielomian 0xEDB88320",
+                "desc2": "Najpopularniejszy standard"
             },
             "sha1": {
-                "title": "CRC-32 (ITU)",
-                "desc1": "32-bit, different poly",
-                "desc2": "Older variant, less common"
+                "title": "CRC-32",
+                "desc1": "Alternatywny wariant",
+                "desc2": "Inny wielomian"
             },
             "sha256": {
-                "title": "CRC-32C (Castagnoli)",
-                "desc1": "32-bit, 0x1EDC6F41",
-                "desc2": "Used in iSCSI, better detection"
+                "title": "CRC-32C",
+                "desc1": "Wielomian Castagnoli",
+                "desc2": "Zoptymalizowany dla iSCSI"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Często zadawane pytania",
         "faq": {
-            "q1": "Should I use CRC-32 or CRC-32B?",
-            "a1": "Use CRC-32B. It's the IEEE 802.3 standard and is what most software and hardware implementations use. When documentation says 'CRC-32' without qualification, they typically mean CRC-32B.",
-            "q2": "Will my CRC-32B match WinZip/7-Zip?",
-            "a2": "Yes. CRC-32B uses the same IEEE 802.3 polynomial as ZIP, gzip, PNG, and virtually all standard tools.",
-            "q3": "Is CRC-32B better than Adler-32?",
-            "a3": "CRC-32B has stronger error detection, especially for short data blocks. Adler-32 is faster in software but less reliable for data under 1000 bytes."
+            "q1": "Jaka jest różnica między CRC-32 a CRC-32B?",
+            "a1": "Używają różnych wielomianów generujących.",
+            "q2": "Czy CRC-32B jest kryptograficznie bezpieczny?",
+            "a2": "Nie. Jak wszystkie warianty CRC, to suma kontrolna do wykrywania błędów.",
+            "q3": "Jakie języki używają CRC-32B?",
+            "a3": "PHP (crc32()), Python (binascii.crc32()), Java, .NET."
         }
     },
     "js": {
-        "error_empty": "Proszę wprowadzić tekst",
+        "error_empty": "Wprowadź tekst",
         "btn_copied": "Skopiowano!",
         "btn_generating": "Generowanie...",
-        "error_failed": "Generowanie hasha nie powiodło się. Spróbuj ponownie."
+        "error_failed": "Nie udało się wygenerować skrótu. Spróbuj ponownie."
     }
 }

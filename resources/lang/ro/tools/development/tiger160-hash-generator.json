@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "Tiger-160 Hash Generator - Instrument online gratuit",
-        "description": "Generate Tiger-160 hashes from any text. 160-bit variant of the Tiger hash function optimized for 64-bit systems. Free and instant.",
-        "h1": "Tiger-160 Hash Generator",
-        "subtitle": "Generate 160-bit Tiger-160 hashes — balanced speed and security"
+        "title": "Generator hash Tiger-160 - Instrument online gratuit",
+        "description": "Generați hash Tiger-160 din orice text. Variantă de 160 biți a funcției Tiger. Gratuit.",
+        "h1": "Generator hash Tiger-160",
+        "subtitle": "Generați hash Tiger-160 — Echilibru între viteză și securitate"
     },
     "editor": {
         "label_input": "Introduceți textul",
-        "ph_input": "Introduceți textul pentru a genera Tiger-160 hash...",
-        "btn_generate": "Generează Tiger-160 Hash",
-        "label_result": "Tiger-160 Hash",
+        "ph_input": "Introduceți textul pentru a genera hash-ul Tiger-160...",
+        "btn_generate": "Generează hash Tiger-160",
+        "label_result": "Hash Tiger-160",
         "btn_copy": "Copiază"
     },
     "content": {
-        "hero_title": "Tiger-160 Hash Generator",
-        "hero_subtitle": "160-bit Tiger hash for balanced performance and security",
-        "p1": "Tiger-160 is the middle variant of the Tiger hash family, producing a 160-bit (40-character hex) hash value. Like SHA-1, it outputs 160 bits, but Tiger-160 is significantly faster on 64-bit processors due to its native 64-bit operations. It takes the first 160 bits of the full Tiger-192 computation, providing a good balance between hash length and collision resistance.",
-        "what_title": "What is Tiger-160?",
-        "what_desc": "Tiger-160 uses the same algorithm as Tiger-192 but truncates the output to 160 bits. The full Tiger algorithm processes 512-bit blocks through 24 rounds using four S-boxes. Tiger-160 provides 80-bit collision resistance, matching SHA-1's theoretical security level but with better performance on 64-bit architectures.",
-        "features_title": "✅ Tiger-160 Features",
+        "hero_title": "Generator hash Tiger-160",
+        "hero_subtitle": "Hash Tiger de 160 biți ce echilibrează performanța și securitatea",
+        "p1": "Tiger-160 e varianta de mijloc a familiei Tiger, generând un hash de 160 biți (40 caractere hexadecimale). Aceeași ieșire de 160 biți ca SHA-1, dar mult mai rapid pe procesoare de 64 biți.",
+        "what_title": "Ce este Tiger-160?",
+        "what_desc": "Tiger-160 folosește același algoritm ca Tiger-192, dar trunchiază ieșirea la 160 biți. Oferă rezistență de 80 biți la coliziuni.",
+        "features_title": "✅ Caracteristici",
         "features": {
-            "fast": "<strong>SHA-1 Alternative:</strong> Same output length, faster on 64-bit",
-            "fixed": "<strong>160-bit Output:</strong> 40-character hexadecimal digest",
-            "deterministic": "<strong>80-bit Security:</strong> Matches SHA-1 collision resistance",
-            "support": "<strong>64-bit Speed:</strong> Outperforms SHA-1 on modern processors"
+            "fast": "<strong>Alternativă SHA-1:</strong> Aceeași dimensiune, mai rapid pe 64 biți",
+            "fixed": "<strong>Ieșire de 160 biți:</strong> Digest de 40 caractere",
+            "deterministic": "<strong>Securitate 80 biți:</strong> Rezistență echivalentă cu SHA-1",
+            "support": "<strong>Viteză 64 biți:</strong> Depășește SHA-1 pe procesoare moderne"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Utilizări",
         "uses": {
-            "verify": "<strong>File Verification:</strong> Fast integrity checks on 64-bit systems",
-            "checksum": "<strong>SHA-1 Replacement:</strong> Drop-in for 160-bit hash needs",
-            "cache": "<strong>Content Hashing:</strong> Unique identifiers for cached content",
-            "integrity": "<strong>Database Indexing:</strong> Efficient hash-based lookups"
+            "verify": "<strong>Verificare fișiere:</strong> Control rapid pe 64 biți",
+            "checksum": "<strong>Înlocuitor SHA-1:</strong> Înlocuire directă pentru hash-uri de 160 biți",
+            "cache": "<strong>Hash conținut:</strong> Identificatori unici cache",
+            "integrity": "<strong>Indexare:</strong> Căutare eficientă bazată pe hash"
         },
-        "warning_title": "⚠️ Security Note",
-        "warning_desc": "<strong>Tiger-160 provides 80-bit collision resistance</strong>, similar to SHA-1. This level is considered below modern recommendations (128-bit minimum). For security-critical applications, use Tiger-192 or SHA-256.",
-        "compare_title": "🔄 Tiger-160 vs SHA-1",
+        "warning_title": "⚠️ Notă",
+        "warning_desc": "<strong>Tiger-160 oferă rezistență de 80 biți.</strong> Folosiți SHA-256 pentru securitate critică.",
+        "compare_title": "🔄 Comparație",
         "compare": {
             "md5": {
                 "title": "Tiger-160",
-                "desc1": "160-bit, 64-bit ops",
-                "desc2": "Faster on 64-bit CPUs"
+                "desc1": "160 biți, operații 64 biți",
+                "desc2": "Mai rapid pe 64 biți"
             },
             "sha1": {
                 "title": "SHA-1",
-                "desc1": "160-bit, 32-bit ops",
-                "desc2": "More widely supported"
+                "desc1": "160 biți, operații 32 biți",
+                "desc2": "Suport mai larg"
             },
             "sha256": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Higher security, recommended"
+                "desc1": "256 biți",
+                "desc2": "Mai sigur"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Întrebări frecvente",
         "faq": {
-            "q1": "Tiger-160 vs SHA-1 — which should I choose?",
-            "a1": "If speed on 64-bit systems is critical, Tiger-160 wins. For maximum compatibility, SHA-1 is more widely supported. For security, neither — use SHA-256.",
-            "q2": "Is Tiger-160 more secure than SHA-1?",
-            "a2": "They have the same theoretical collision resistance (80 bits). SHA-1 has known practical collisions; Tiger has none yet. However, Tiger has received less cryptanalysis attention.",
-            "q3": "Why truncate Tiger-192 to 160 bits?",
-            "a3": "Some protocols and systems require exactly 160-bit hashes (matching SHA-1 output size). Tiger-160 provides this compatibility while maintaining Tiger's speed advantage."
+            "q1": "Tiger-160 vs SHA-1?",
+            "a1": "Viteză 64 biți: Tiger-160. Compatibilitate: SHA-1. Securitate: SHA-256.",
+            "q2": "E Tiger-160 mai sigur decât SHA-1?",
+            "a2": "Aceeași rezistență teoretică. SHA-1 are coliziuni cunoscute, Tiger nu.",
+            "q3": "De ce să trunchiezi Tiger-192 la 160 biți?",
+            "a3": "Unele protocoale necesită exact hash de 160 biți."
         }
     },
     "js": {
-        "error_empty": "Vă rugăm introduceți textul",
+        "error_empty": "Introduceți textul",
         "btn_copied": "Copiat!",
         "btn_generating": "Se generează...",
-        "error_failed": "Generarea hash-ului a eșuat. Încercați din nou."
+        "error_failed": "Nu s-a putut genera hash-ul. Încercați din nou."
     }
 }

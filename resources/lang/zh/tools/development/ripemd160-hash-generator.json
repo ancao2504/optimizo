@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "RIPEMD-160 Hash Generator - 免费在线工具",
-        "description": "Generate RIPEMD-160 hashes from any text. Used in Bitcoin address generation and PGP fingerprints. Free, instant, and secure.",
-        "h1": "RIPEMD-160 Hash Generator",
-        "subtitle": "Generate 160-bit RIPEMD-160 hashes — the hash behind Bitcoin addresses"
+        "title": "RIPEMD-160哈希生成器 - 免费在线工具",
+        "description": "从任何文本生成RIPEMD-160哈希。用于比特币地址和PGP指纹。免费。",
+        "h1": "RIPEMD-160哈希生成器",
+        "subtitle": "生成RIPEMD-160哈希 — 比特币地址背后的哈希"
     },
     "editor": {
         "label_input": "输入文本",
-        "ph_input": "输入文本以生成 RIPEMD-160 hash...",
-        "btn_generate": "生成 RIPEMD-160 Hash",
-        "label_result": "RIPEMD-160 Hash",
+        "ph_input": "输入文本以生成RIPEMD-160哈希...",
+        "btn_generate": "生成RIPEMD-160哈希",
+        "label_result": "RIPEMD-160哈希",
         "btn_copy": "复制"
     },
     "content": {
-        "hero_title": "RIPEMD-160 Hash Generator",
-        "hero_subtitle": "The European hash function powering Bitcoin addresses",
-        "p1": "RIPEMD-160 is the most prominent member of the RIPEMD family, producing a 160-bit (40-character hex) hash value. It was developed by Hans Dobbertin, Antoon Bosselaers, and Bart Preneel at KU Leuven in Belgium. RIPEMD-160 is famously used in Bitcoin — every Bitcoin address is derived by applying SHA-256 followed by RIPEMD-160 (known as HASH160). It's also used in PGP/GPG key fingerprints.",
-        "what_title": "What is RIPEMD-160?",
-        "what_desc": "RIPEMD-160 extends the RIPEMD-128 design by adding a fifth round to each of its two parallel computation chains, totaling 160 operations per block. The left and right chains use different round constants and different orderings of the message words, then their results are combined. This architecture was explicitly designed to resist the differential cryptanalysis techniques that broke MD4 and weakened MD5.",
-        "features_title": "✅ RIPEMD-160 Advantages",
+        "hero_title": "RIPEMD-160哈希生成器",
+        "hero_subtitle": "比特币地址背后的欧洲哈希函数",
+        "p1": "RIPEMD-160生成160位哈希（40个十六进制字符），由比利时KU Leuven开发。用于比特币 — 每个比特币地址通过SHA-256后接RIPEMD-160（HASH160）派生。",
+        "what_title": "什么是RIPEMD-160？",
+        "what_desc": "RIPEMD-160扩展了RIPEMD-128的设计，在两条并行处理链中增加了第5轮。",
+        "features_title": "✅ 优势",
         "features": {
-            "fast": "<strong>Bitcoin Standard:</strong> Used in HASH160 for address generation",
-            "fixed": "<strong>160-bit Output:</strong> 40-character hex, 80-bit collision resistance",
-            "deterministic": "<strong>Independent Design:</strong> Not designed by any government agency",
-            "support": "<strong>Proven Security:</strong> No practical attacks found since 1996"
+            "fast": "<strong>比特币标准：</strong> 用于地址生成的HASH160",
+            "fixed": "<strong>160位输出：</strong> 40个十六进制字符",
+            "deterministic": "<strong>独立设计：</strong> 非政府机构设计",
+            "support": "<strong>经验证的安全：</strong> 自1996年以来无实际攻击"
         },
-        "uses_title": "📊 Where RIPEMD-160 is Used",
+        "uses_title": "📊 使用场景",
         "uses": {
-            "verify": "<strong>Bitcoin:</strong> SHA-256 + RIPEMD-160 = HASH160 for addresses",
-            "checksum": "<strong>PGP/GPG:</strong> Key fingerprint computation",
-            "cache": "<strong>Smart Cards:</strong> European EMV payment card authentication",
-            "integrity": "<strong>Crypto Diversity:</strong> Alternative to NSA-designed SHA algorithms"
+            "verify": "<strong>比特币：</strong> SHA-256 + RIPEMD-160 = HASH160",
+            "checksum": "<strong>PGP/GPG：</strong> 密钥指纹计算",
+            "cache": "<strong>智能卡：</strong> 欧洲EMV认证",
+            "integrity": "<strong>密码多样性：</strong> SHA算法的替代"
         },
-        "warning_title": "💡 Usage Context",
-        "warning_desc": "<strong>RIPEMD-160 provides 80-bit collision resistance</strong>, comparable to SHA-1. While no practical collisions have been found (unlike SHA-1), newer applications should consider SHA-256 for higher security margins. Bitcoin's continued use of RIPEMD-160 is protected by the outer SHA-256 layer in the HASH160 construction.",
-        "compare_title": "🔄 RIPEMD-160 vs Other 160-bit Hashes",
+        "warning_title": "💡 背景",
+        "warning_desc": "<strong>RIPEMD-160提供80位碰撞抵抗。</strong> 新应用建议使用SHA-256。",
+        "compare_title": "🔄 RIPEMD-160 vs 其他",
         "compare": {
             "md5": {
                 "title": "RIPEMD-160",
-                "desc1": "160-bit, dual-chain",
-                "desc2": "No known collisions"
+                "desc1": "160位，双链",
+                "desc2": "无已知碰撞"
             },
             "sha1": {
                 "title": "SHA-1",
-                "desc1": "160-bit, single-chain",
-                "desc2": "Collisions demonstrated (2017)"
+                "desc1": "160位，单链",
+                "desc2": "碰撞已实证（2017）"
             },
             "sha256": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Higher security, recommended"
+                "desc1": "256位",
+                "desc2": "更安全，推荐"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ 常见问题",
         "faq": {
-            "q1": "Why does Bitcoin use RIPEMD-160?",
-            "a1": "Bitcoin uses HASH160 (SHA-256 then RIPEMD-160) to shorten addresses while maintaining security diversity. Using two different hash families means an attacker must break both to forge an address.",
-            "q2": "Is RIPEMD-160 more secure than SHA-1?",
-            "a2": "In practice, yes. While both produce 160-bit hashes, RIPEMD-160 has no known practical collisions, whereas SHA-1 was broken by Google in 2017. The dual-chain design may provide structural advantages.",
-            "q3": "Should I use RIPEMD-160 for new projects?",
-            "a3": "For new projects, SHA-256 is recommended due to its higher security margin. Use RIPEMD-160 when Bitcoin compatibility is needed or when you specifically want an algorithm designed outside government agencies."
+            "q1": "比特币为什么使用RIPEMD-160？",
+            "a1": "比特币使用HASH160在保持密码多样性的同时缩短地址。",
+            "q2": "RIPEMD-160比SHA-1更安全吗？",
+            "a2": "实践中是的。未发现实际碰撞。",
+            "q3": "新项目应该使用RIPEMD-160吗？",
+            "a3": "新项目建议SHA-256。RIPEMD-160用于比特币兼容性。"
         }
     },
     "js": {

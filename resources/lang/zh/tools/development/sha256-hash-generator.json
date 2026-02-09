@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "SHA-256 Hash Generator - 免费在线工具",
-        "description": "Generate SHA-256 hashes from any text. The gold standard of cryptographic hash functions used in Bitcoin, TLS 1.3, and digital signatures. Free and instant.",
-        "h1": "SHA-256 Hash Generator",
-        "subtitle": "Generate 256-bit SHA-256 cryptographic hashes — the industry standard"
+        "title": "SHA-256哈希生成器 - 免费在线工具",
+        "description": "从任何文本生成SHA-256哈希。加密哈希函数的黄金标准。免费。",
+        "h1": "SHA-256哈希生成器",
+        "subtitle": "生成SHA-256哈希 — 密码学行业标准"
     },
     "editor": {
         "label_input": "输入文本",
-        "ph_input": "输入文本以生成 SHA-256 hash...",
-        "btn_generate": "生成 SHA-256 Hash",
-        "label_result": "SHA-256 Hash",
+        "ph_input": "输入文本以生成SHA-256哈希...",
+        "btn_generate": "生成SHA-256哈希",
+        "label_result": "SHA-256哈希",
         "btn_copy": "复制"
     },
     "content": {
-        "hero_title": "SHA-256 Hash Generator",
-        "hero_subtitle": "The gold standard cryptographic hash function for security",
-        "p1": "SHA-256 (Secure Hash Algorithm 256-bit) is the most widely used cryptographic hash function in the world today. Part of the SHA-2 family designed by the NSA, it produces a 256-bit (64-character hex) hash. SHA-256 is the backbone of Bitcoin mining, TLS 1.3 certificate verification, code signing, blockchain technology, and virtually every modern security protocol. It remains unbroken with no practical attacks found.",
-        "what_title": "What is SHA-256?",
-        "what_desc": "SHA-256 processes data in 512-bit blocks through 64 rounds of compression, using a combination of bitwise operations, modular additions, and compression functions. The result is a 256-bit digest that exhibits excellent avalanche properties — changing a single bit in the input changes approximately 50% of the output bits unpredictably.",
-        "features_title": "✅ SHA-256 Advantages",
+        "hero_title": "SHA-256哈希生成器",
+        "hero_subtitle": "安全的标准加密哈希函数",
+        "p1": "SHA-256是世界上最广泛使用的加密哈希函数。NSA SHA-2家族成员，生成256位哈希（64个十六进制字符）。SHA-256是比特币挖矿、TLS 1.3和代码签名的基础。",
+        "what_title": "什么是SHA-256？",
+        "what_desc": "SHA-256以512位块处理数据，经过64轮压缩。",
+        "features_title": "✅ 优势",
         "features": {
-            "fast": "<strong>Cryptographically Secure:</strong> No known practical attacks after 20+ years",
-            "fixed": "<strong>256-bit Output:</strong> 64-character hex digest with 2^128 collision resistance",
-            "deterministic": "<strong>Universal Standard:</strong> NIST, ISO, and IETF recommended",
-            "support": "<strong>Hardware Support:</strong> Intel SHA extensions, ARM Crypto extensions"
+            "fast": "<strong>加密安全：</strong> 20多年无已知实际攻击",
+            "fixed": "<strong>256位输出：</strong> 64位十六进制摘要",
+            "deterministic": "<strong>通用标准：</strong> NIST、ISO、IETF推荐",
+            "support": "<strong>硬件支持：</strong> Intel SHA和ARM Crypto扩展"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 用途",
         "uses": {
-            "verify": "<strong>Blockchain:</strong> Bitcoin proof-of-work and Merkle trees",
-            "checksum": "<strong>TLS 1.3:</strong> Certificate and handshake verification",
-            "cache": "<strong>Code Signing:</strong> Software integrity verification",
-            "integrity": "<strong>Digital Signatures:</strong> Document and transaction signing"
+            "verify": "<strong>区块链：</strong> 比特币工作量证明和默克尔树",
+            "checksum": "<strong>TLS 1.3：</strong> 证书验证和握手",
+            "cache": "<strong>代码签名：</strong> 软件完整性验证",
+            "integrity": "<strong>数字签名：</strong> 文档和交易签名"
         },
-        "warning_title": "💡 Best Practice",
-        "warning_desc": "<strong>SHA-256 is secure for hashing but NOT for password storage directly.</strong> While the hash function itself is strong, passwords should use slow algorithms like bcrypt, Argon2, or PBKDF2 with SHA-256 to resist brute-force attacks. SHA-256 alone is too fast for password hashing.",
-        "compare_title": "🔄 SHA-256 vs Other Hash Functions",
+        "warning_title": "💡 最佳实践",
+        "warning_desc": "<strong>SHA-256用于哈希是安全的，但不要直接用于密码存储。</strong> 请使用bcrypt或Argon2。",
+        "compare_title": "🔄 SHA-256对比",
         "compare": {
             "md5": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Broken — do not use for security"
+                "desc1": "128位",
+                "desc2": "已破解"
             },
             "sha1": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure standard, recommended"
+                "desc1": "256位",
+                "desc2": "安全标准，推荐"
             },
             "sha256": {
                 "title": "SHA-512",
-                "desc1": "512-bit output",
-                "desc2": "Faster on 64-bit, higher margin"
+                "desc1": "512位",
+                "desc2": "64位上更快"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ 常见问题",
         "faq": {
-            "q1": "Is SHA-256 still secure in 2025?",
-            "a1": "Yes. SHA-256 has no known practical attacks. It provides 128 bits of collision resistance and 256 bits of preimage resistance, which remains far beyond current computing capabilities.",
-            "q2": "SHA-256 vs SHA-512 — which should I use?",
-            "a2": "SHA-256 is sufficient for most applications. SHA-512 is faster on 64-bit processors and provides a higher security margin. Both are secure; choose based on your platform.",
-            "q3": "Can quantum computers break SHA-256?",
-            "a3": "Grover's algorithm reduces SHA-256's collision resistance to 128 bits, which is still considered secure. Post-quantum hash functions are being researched but SHA-256 remains safe for current use."
+            "q1": "SHA-256在2025年安全吗？",
+            "a1": "是的。无已知实际攻击。128位碰撞抵抗。",
+            "q2": "SHA-256 vs SHA-512？",
+            "a2": "SHA-256对大多数应用足够。SHA-512在64位处理器上更快。",
+            "q3": "量子计算机能破解SHA-256吗？",
+            "a3": "Grover算法将碰撞抵抗降低到128位，仍被认为是安全的。"
         }
     },
     "js": {

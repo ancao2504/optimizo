@@ -1,65 +1,65 @@
 {
     "meta": {
-        "title": "MD4 Hash Generator - 免费在线工具",
-        "description": "Generate MD4 hashes from any text instantly. Predecessor to MD5, still used in NTLM authentication. Free online MD4 hash generator.",
-        "h1": "MD4 Hash Generator",
-        "subtitle": "Generate MD4 message digest hashes from any text input"
+        "title": "MD4哈希生成器 - 免费在线工具",
+        "description": "从任何文本生成MD4哈希。Ron Rivest设计的MD5历史前身。免费。",
+        "h1": "MD4哈希生成器",
+        "subtitle": "生成128位MD4哈希 — 现代密码学的起源"
     },
     "editor": {
         "label_input": "输入文本",
-        "ph_input": "输入文本以生成 MD4 hash...",
-        "btn_generate": "生成 MD4 Hash",
-        "label_result": "MD4 Hash",
+        "ph_input": "输入文本以生成MD4哈希...",
+        "btn_generate": "生成MD4哈希",
+        "label_result": "MD4哈希",
         "btn_copy": "复制"
     },
     "content": {
-        "hero_title": "MD4 Hash Generator",
-        "hero_subtitle": "Generate 128-bit MD4 message digests instantly",
-        "p1": "MD4 (Message-Digest Algorithm 4) was designed by Ronald Rivest in 1990 as a fast cryptographic hash function. It produces a 128-bit (32-character hex) hash value. While MD4 is now considered cryptographically broken and should not be used for security, it remains historically significant as the direct predecessor to both MD5 and the SHA family of algorithms. It's still actively used in Microsoft's NTLM authentication protocol.",
-        "what_title": "What is MD4?",
-        "what_desc": "MD4 processes input in 512-bit blocks and produces a 128-bit hash through three rounds of operations. Each round uses a different nonlinear function. Rivest optimized MD4 for speed on 32-bit processors, making it one of the fastest hash functions of its era. MD5 was later created as a more secure replacement after weaknesses were found in MD4.",
-        "features_title": "✅ MD4 Characteristics",
+        "hero_title": "MD4哈希生成器",
+        "hero_subtitle": "塑造现代密码学的先驱哈希函数",
+        "p1": "MD4（消息摘要4）是Ron Rivest于1990年在MIT设计的加密哈希函数。生成128位哈希（32个十六进制字符）。虽然已被破解，但作为MD5、SHA-1和整个SHA-2家族的直接祖先，具有巨大的历史意义。",
+        "what_title": "什么是MD4？",
+        "what_desc": "MD4以512位块处理数据，经过3轮每轮16次运算（共48次）。维护4个32位状态变量。",
+        "features_title": "✅ 特点",
         "features": {
-            "fast": "<strong>Very Fast:</strong> Designed for maximum speed on 32-bit processors",
-            "fixed": "<strong>128-bit Output:</strong> Produces a 32-character hexadecimal hash",
-            "deterministic": "<strong>Historical Importance:</strong> Ancestor of MD5and SHA families",
-            "support": "<strong>NTLM Usage:</strong> Still used in Windows NTLM authentication"
+            "fast": "<strong>历史先驱：</strong> 建立了Merkle-Damgård框架",
+            "fixed": "<strong>128位输出：</strong> 32位十六进制摘要",
+            "deterministic": "<strong>直接影响：</strong> 催生了MD5、SHA-1和SHA-2",
+            "support": "<strong>简单：</strong> 每块仅48次运算"
         },
-        "uses_title": "📊 Where MD4 is Still Used",
+        "uses_title": "📊 用途",
         "uses": {
-            "verify": "<strong>NTLM Authentication:</strong> Windows domain authentication",
-            "checksum": "<strong>ED2K Links:</strong> eDonkey2000 file hashing",
-            "cache": "<strong>Legacy Systems:</strong> Older systems requiring MD4 compatibility",
-            "integrity": "<strong>Research:</strong> Studying hash function evolution"
+            "verify": "<strong>遗留系统：</strong> NTLM认证协议",
+            "checksum": "<strong>教育：</strong> 学习哈希函数设计",
+            "cache": "<strong>研究：</strong> 差分密码分析演化研究",
+            "integrity": "<strong>非安全：</strong> 快速校验和"
         },
-        "warning_title": "⚠️ Security WARNING",
-        "warning_desc": "<strong>MD4 is COMPLETELY BROKEN cryptographically.</strong> Full collisions can be found in milliseconds. NEVER use MD4 for security, password hashing, or digital signatures. It is included here for compatibility with legacy systems only. Use SHA-256 or SHA-512 for any security purpose.",
-        "compare_title": "🔄 MD4 vs Related Algorithms",
+        "warning_title": "⚠️ 安全警告",
+        "warning_desc": "<strong>MD4已完全被破解 — 请勿用于安全。</strong> 碰撞可在1秒内找到。请使用SHA-256。",
+        "compare_title": "🔄 MD4 vs 现代",
         "compare": {
             "md5": {
                 "title": "MD4",
-                "desc1": "128-bit, 3 rounds",
-                "desc2": "Broken - collisions in ms"
+                "desc1": "128位，3轮",
+                "desc2": "已破解 — 仅有历史价值"
             },
             "sha1": {
                 "title": "MD5",
-                "desc1": "128-bit, 4 rounds",
-                "desc2": "Also broken, but slower to attack"
+                "desc1": "128位，4轮",
+                "desc2": "也已破解"
             },
             "sha256": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure, recommended for new systems"
+                "desc1": "256位，64轮",
+                "desc2": "现代安全标准"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ 常见问题",
         "faq": {
-            "q1": "Why does MD4 still exist if it's broken?",
-            "a1": "MD4 is still used in Microsoft's NTLM authentication and eDonkey file sharing. Legacy compatibility keeps it alive, though all new systems should avoid it.",
-            "q2": "What's the difference between MD4 and MD5?",
-            "a2": "MD5 added a fourth round of operations and modified the step functions to fix weaknesses in MD4. Both produce 128-bit hashes, but MD5 is more collision-resistant (though also broken).",
-            "q3": "Is my data sent to a server?",
-            "a3": "The hash is computed on our server via a secure AJAX request, but your data is never stored and the connection is encrypted."
+            "q1": "MD4为什么还在使用？",
+            "a1": "MD4主要存在于Windows NTLM认证等遗留协议中。",
+            "q2": "MD4是怎么被破解的？",
+            "a2": "通过差分密码分析。以最小计算量即可找到完全碰撞。",
+            "q3": "MD4和MD5的关系？",
+            "a3": "MD5是直接后继者。Rivest增加了第4轮和额外运算。"
         }
     },
     "js": {

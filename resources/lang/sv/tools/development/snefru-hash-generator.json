@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "Snefru Hash Generator - Gratis onlineverktyg",
-        "description": "Generate Snefru hashes from any text. Xerox PARC-designed hash function producing 128 or 256-bit digests. Free online Snefru generator.",
-        "h1": "Snefru Hash Generator",
-        "subtitle": "Generate Snefru hashes — Xerox PARC's historic hash function"
+        "title": "Snefru Hash-generator - Gratis onlineverktyg",
+        "description": "Generera Snefru-hash från valfri text. Historisk hashfunktion från Xerox PARC. Gratis.",
+        "h1": "Snefru Hash-generator",
+        "subtitle": "Generera Snefru-hash — Historisk Xerox PARC-funktion"
     },
     "editor": {
         "label_input": "Ange text",
-        "ph_input": "Ange text för att generera Snefru hash...",
-        "btn_generate": "Generera Snefru Hash",
-        "label_result": "Snefru Hash",
+        "ph_input": "Ange text för att generera Snefru-hash...",
+        "btn_generate": "Generera Snefru-hash",
+        "label_result": "Snefru-hash",
         "btn_copy": "Kopiera"
     },
     "content": {
-        "hero_title": "Snefru Hash Generator",
-        "hero_subtitle": "Generate Snefru hashes — an early landmark in cryptographic design",
-        "p1": "Snefru is a cryptographic hash function designed by Ralph Merkle at Xerox PARC in 1990, named after the Egyptian Pharaoh Sneferu. It can produce either 128-bit or 256-bit hash values. Snefru is historically significant as one of the first hash functions designed using the Merkle-Damgård construction, which later became the basis for MD5, SHA-1, and SHA-2. While broken for security use, Snefru remains important for understanding hash function evolution.",
-        "what_title": "What is Snefru?",
-        "what_desc": "Snefru processes input in 512-bit blocks (for 128-bit output) or 384-bit blocks (for 256-bit output) using a series of reversible rounds with S-box-based mixing. The original 2-round version was quickly broken by Eli Biham and Adi Shamir using differential cryptanalysis. The strengthened 8-round version is more resistant but still not considered secure by modern standards.",
-        "features_title": "✅ Snefru Characteristics",
+        "hero_title": "Snefru Hash-generator",
+        "hero_subtitle": "Milstolpe i kryptografisk design",
+        "p1": "Snefru är en kryptografisk hashfunktion designad av Ralph Merkle 1990 vid Xerox PARC, uppkallad efter farao Sneferu. Kan generera 128-bitars eller 256-bitars hash.",
+        "what_title": "Vad är Snefru?",
+        "what_desc": "Snefru bearbetar data i 512-bitars block (128-bitars utdata) eller 384-bitars (256-bitars utdata) med substitutionstabellbaserad blandning.",
+        "features_title": "✅ Egenskaper",
         "features": {
-            "fast": "<strong>Historical Pioneer:</strong> One of the first Merkle-Damgård hash functions",
-            "fixed": "<strong>256-bit Output:</strong> Produces a 64-character hexadecimal hash",
-            "deterministic": "<strong>Xerox PARC:</strong> Designed by Ralph Merkle, inventor of Merkle trees",
-            "support": "<strong>Educational Value:</strong> Key to understanding hash function evolution"
+            "fast": "<strong>Historisk pionjär:</strong> En av de första Merkle-Damgård-hashfunktionerna",
+            "fixed": "<strong>256-bitars utdata:</strong> 64-teckens digest",
+            "deterministic": "<strong>Xerox PARC:</strong> Designad av Merkle, uppfinnaren av Merkle-träd",
+            "support": "<strong>Pedagogiskt värde:</strong> Viktigt för att förstå hashevolutionen"
         },
-        "uses_title": "📊 Use Cases",
+        "uses_title": "📊 Användning",
         "uses": {
-            "verify": "<strong>Legacy Systems:</strong> Compatibility with older Xerox systems",
-            "checksum": "<strong>Education:</strong> Teaching cryptographic hash function design",
-            "cache": "<strong>Research:</strong> Studying differential cryptanalysis resistance",
-            "integrity": "<strong>Historical Analysis:</strong> Understanding hash evolution from Snefru to SHA-2"
+            "verify": "<strong>Äldre system:</strong> Kompatibilitet med Xerox-system",
+            "checksum": "<strong>Utbildning:</strong> Lära sig hashfunktionsdesign",
+            "cache": "<strong>Forskning:</strong> Studier av differentiell analys",
+            "integrity": "<strong>Historisk analys:</strong> Evolutionen från Snefru till SHA-2"
         },
-        "warning_title": "⚠️ Security Warning",
-        "warning_desc": "<strong>Snefru is BROKEN for cryptographic purposes.</strong> Differential cryptanalysis by Biham and Shamir found collisions in the 2-round version, and attacks exist on the higher-round versions. Do NOT use Snefru for security. Use SHA-256 or SHA-512 instead.",
-        "compare_title": "🔄 Snefru vs Modern Algorithms",
+        "warning_title": "⚠️ Varning",
+        "warning_desc": "<strong>Snefru är kryptografiskt brutet.</strong> Kollisioner hittade genom differentiell analys. Använd SHA-256.",
+        "compare_title": "🔄 Snefru vs moderna",
         "compare": {
             "md5": {
                 "title": "Snefru",
-                "desc1": "128/256-bit, S-box based",
-                "desc2": "Broken — historical interest only"
+                "desc1": "128/256-bitar",
+                "desc2": "Brutet — bara historiskt"
             },
             "sha1": {
                 "title": "MD5",
-                "desc1": "128-bit output",
-                "desc2": "Also broken, but more widely used"
+                "desc1": "128-bitar",
+                "desc2": "Också brutet"
             },
             "sha256": {
                 "title": "SHA-256",
-                "desc1": "256-bit output",
-                "desc2": "Secure modern standard"
+                "desc1": "256-bitar",
+                "desc2": "Modern säker standard"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Vanliga frågor",
         "faq": {
-            "q1": "Why is Snefru named after a pharaoh?",
-            "a1": "Ralph Merkle named it after the Egyptian Pharaoh Sneferu, following a tradition of naming cryptographic algorithms after Egyptian elements (similar to how Khufu and Khafre block ciphers were named).",
-            "q2": "How was Snefru broken?",
-            "a2": "Eli Biham and Adi Shamir applied differential cryptanalysis to find collisions in the 2-round version. Their attack was later extended to higher round counts, demonstrating fundamental weaknesses in the design.",
-            "q3": "What's Snefru's legacy?",
-            "a3": "Snefru helped establish the Merkle-Damgård construction as the dominant paradigm for hash function design. Its vulnerabilities also spurred research into differential cryptanalysis resistance."
+            "q1": "Varför uppkallad efter en farao?",
+            "a1": "Ralph Merkle följde en tradition att namnge kryptoalgoritmer med egyptiska element.",
+            "q2": "Hur bröts Snefru?",
+            "a2": "Biham och Shamir hittade kollisioner i 2-rundsversioner genom differentiell kryptoanalys.",
+            "q3": "Vad är Snefrus arv?",
+            "a3": "Snefru bidrog till att etablera Merkle-Damgård som huvudparadigm för hashdesign."
         }
     },
     "js": {
         "error_empty": "Vänligen ange text",
         "btn_copied": "Kopierat!",
         "btn_generating": "Genererar...",
-        "error_failed": "Hash-generering misslyckades. Försök igen."
+        "error_failed": "Kunde inte generera hash. Försök igen."
     }
 }

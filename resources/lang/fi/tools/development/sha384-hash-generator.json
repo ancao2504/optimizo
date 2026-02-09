@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "SHA-384 Hash Generator - Ilmainen online-työkalu",
-        "description": "Generate SHA-384 hashes from any text. Truncated SHA-512 variant offering 192 bits of collision resistance. Free, instant, and secure.",
-        "h1": "SHA-384 Hash Generator",
-        "subtitle": "Generate 384-bit SHA-384 cryptographic hashes for high-security applications"
+        "title": "SHA-384 -tiivisteen luonti - Ilmainen online-työkalu",
+        "description": "Luo SHA-384-tiiviste mistä tahansa tekstistä. SHA-512:n katkaistu variantti 192-bitin vastustuskyvyllä. Ilmainen.",
+        "h1": "SHA-384 -tiivisteen luonti",
+        "subtitle": "Luo SHA-384-tiiviste — Korkean turvallisuuden sovelluksiin"
     },
     "editor": {
         "label_input": "Syötä teksti",
-        "ph_input": "Syötä teksti luodaksesi SHA-384 hash...",
-        "btn_generate": "Luo SHA-384 Hash",
-        "label_result": "SHA-384 Hash",
+        "ph_input": "Syötä teksti SHA-384-tiivisteen luomiseksi...",
+        "btn_generate": "Luo SHA-384-tiiviste",
+        "label_result": "SHA-384-tiiviste",
         "btn_copy": "Kopioi"
     },
     "content": {
-        "hero_title": "SHA-384 Hash Generator",
-        "hero_subtitle": "High-security 384-bit cryptographic hashing",
-        "p1": "SHA-384 is a member of the SHA-2 family that produces a 384-bit (96-character hex) hash value. It is actually a truncated version of SHA-512, using different initial hash values and outputting only 384 of the 512 computed bits. SHA-384 is used in government and financial systems requiring higher security than SHA-256 but where the full 512-bit output of SHA-512 is excessive. It's specified in TLS cipher suites and digital signature standards.",
-        "what_title": "What is SHA-384?",
-        "what_desc": "SHA-384 uses the exact same algorithm as SHA-512 internally — processing data in 1024-bit blocks through 80 rounds of operations on 64-bit words. The difference lies in the initialization vectors (different starting values) and the final output being truncated to 384 bits. This makes it impossible to use SHA-512 results to derive SHA-384 results or vice versa.",
-        "features_title": "✅ SHA-384 Advantages",
+        "hero_title": "SHA-384 -tiivisteen luonti",
+        "hero_subtitle": "384-bittinen korkean turvallisuuden kryptografinen tiiviste",
+        "p1": "SHA-384 on SHA-2-perheen jäsen, joka tuottaa 384-bittisen tiivisteen (96 heksadesimaalimerkkiä). Se on SHA-512:n katkaistu versio eri alkuarvoilla.",
+        "what_title": "Mikä on SHA-384?",
+        "what_desc": "SHA-384 käyttää sisäisesti samaa algoritmia kuin SHA-512 — 1024-bittiset lohkot 80 kierroksella 64-bittisiä operaatioita.",
+        "features_title": "✅ Edut",
         "features": {
-            "fast": "<strong>192-bit Security:</strong> Higher collision resistance than SHA-256",
-            "fixed": "<strong>384-bit Output:</strong> 96-character hexadecimal digest",
-            "deterministic": "<strong>64-bit Optimized:</strong> Uses 64-bit operations, fast on modern CPUs",
-            "support": "<strong>Government Approved:</strong> NIST recommended for sensitive applications"
+            "fast": "<strong>192-bitin turvallisuus:</strong> Korkeampi törmäysvastustus kuin SHA-256",
+            "fixed": "<strong>384-bittinen tuloste:</strong> 96-merkkinen tiiviste",
+            "deterministic": "<strong>64-bittinen optimointi:</strong> Käyttää 64-bittisiä operaatioita",
+            "support": "<strong>Hallitussertifioitu:</strong> NIST-suositeltu"
         },
-        "uses_title": "📊 Common Use Cases",
+        "uses_title": "📊 Käyttökohteet",
         "uses": {
-            "verify": "<strong>TLS Cipher Suites:</strong> Used in ECDHE-RSA-AES256-SHA384",
-            "checksum": "<strong>Digital Signatures:</strong> High-security document signing",
-            "cache": "<strong>Government Systems:</strong> FIPS 180-4 compliant applications",
-            "integrity": "<strong>Financial Protocols:</strong> Banking and payment security"
+            "verify": "<strong>TLS-sarjat:</strong> Korkean turvallisuuden yhteydet",
+            "checksum": "<strong>Digitaaliset allekirjoitukset:</strong> Korkean turvallisuuden allekirjoitus",
+            "cache": "<strong>Hallintojärjestelmät:</strong> FIPS 180-4 sovellukset",
+            "integrity": "<strong>Rahoitusprotokollat:</strong> Pankkitapahtumat"
         },
-        "warning_title": "💡 When to Use SHA-384",
-        "warning_desc": "<strong>SHA-384 sits between SHA-256 and SHA-512 in security level.</strong> Choose SHA-384 when your security requirements exceed SHA-256's 128-bit collision resistance, or when you need the 64-bit performance of SHA-512 but want a shorter output. For most applications, SHA-256 is sufficient.",
-        "compare_title": "🔄 SHA-2 Family Comparison",
+        "warning_title": "💡 Milloin käyttää",
+        "warning_desc": "<strong>SHA-384 on SHA-256:n ja SHA-512:n välissä.</strong> Valitse SHA-384, kun tarpeet ylittävät SHA-256:n 128-bitin.",
+        "compare_title": "🔄 SHA-2-perhe",
         "compare": {
             "md5": {
                 "title": "SHA-256",
-                "desc1": "256-bit, 32-bit ops",
-                "desc2": "128-bit collision resistance"
+                "desc1": "256-bittinen",
+                "desc2": "128-bitin vastustus"
             },
             "sha1": {
                 "title": "SHA-384",
-                "desc1": "384-bit, 64-bit ops",
-                "desc2": "192-bit collision resistance"
+                "desc1": "384-bittinen",
+                "desc2": "192-bitin vastustus"
             },
             "sha256": {
                 "title": "SHA-512",
-                "desc1": "512-bit, 64-bit ops",
-                "desc2": "256-bit collision resistance"
+                "desc1": "512-bittinen",
+                "desc2": "256-bitin vastustus"
             }
         },
-        "faq_title": "❓ Frequently Asked Questions",
+        "faq_title": "❓ Usein kysytyt kysymykset",
         "faq": {
-            "q1": "Why use SHA-384 instead of SHA-256?",
-            "a1": "SHA-384 provides 192 bits of collision resistance vs. SHA-256's 128 bits. It also runs SHA-512 internally, which is faster on 64-bit processors, making it both more secure and potentially faster.",
-            "q2": "Is SHA-384 just truncated SHA-512?",
-            "a2": "Yes, but with different initial values. This means you cannot derive a SHA-384 hash from a SHA-512 hash of the same data. They are independent despite sharing the same core algorithm.",
-            "q3": "Where is SHA-384 required?",
-            "a3": "SHA-384 is often required in government (Suite B cryptography), financial systems, and TLS configurations where higher-than-256-bit security is mandated."
+            "q1": "Miksi SHA-384 eikä SHA-256?",
+            "a1": "SHA-384 tarjoaa 192-bitin vastustuksen ja on nopeampi 64-bittisillä prosessoreilla.",
+            "q2": "Onko SHA-384 vain katkaistu SHA-512?",
+            "a2": "Kyllä, mutta eri alkuarvoilla.",
+            "q3": "Missä SHA-384 vaaditaan?",
+            "a3": "Hallintojärjestelmät, rahoitus ja korkean turvallisuuden TLS-asetukset."
         }
     },
     "js": {
         "error_empty": "Syötä teksti",
         "btn_copied": "Kopioitu!",
         "btn_generating": "Luodaan...",
-        "error_failed": "Tiivisteen luominen epäonnistui. Yritä uudelleen."
+        "error_failed": "Tiivisteen luonti epäonnistui. Yritä uudelleen."
     }
 }
