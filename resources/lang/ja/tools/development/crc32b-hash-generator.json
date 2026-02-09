@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "CRC-32Bハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからCRC-32Bハッシュを生成。PHPとPythonで標準のCRC-32バリアント。無料。",
+        "h1": "CRC-32Bハッシュジェネレーター",
+        "subtitle": "CRC-32Bハッシュを生成 — PHPの標準バリアント"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "CRC-32Bハッシュを生成するテキストを入力...",
+        "btn_generate": "CRC-32Bハッシュを生成",
+        "label_result": "CRC-32Bハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "CRC-32Bハッシュジェネレーター",
+        "hero_subtitle": "データ整合性のための標準CRC-32B多項式",
+        "p1": "CRC-32Bは、CRC-32ファミリーの中で最も一般的なバリアントで、反転多項式0xEDB88320を使用します。PHP、Python、Javaおよびほとんどのプログラミング言語における標準CRC-32実装です。",
+        "what_title": "CRC-32Bとは？",
+        "what_desc": "CRC-32Bは多項式0x04C11DB7の反転形式0xEDB88320を使用します。「B」接尾辞はこれを他のCRC-32バリアントと区別します。",
+        "features_title": "✅ 利点",
+        "features": {
+            "fast": "<strong>言語標準：</strong> PHP、Python、Javaのデフォルト実装",
+            "fixed": "<strong>強力な検出：</strong> 全ての1ビットと2ビットエラーを検出",
+            "deterministic": "<strong>相互運用性：</strong> プラットフォーム間で一貫した結果",
+            "support": "<strong>ハードウェア高速化：</strong> ネイティブCPUサポート"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>ファイル検証：</strong> ダウンロード整合性チェック",
+            "checksum": "<strong>データベース：</strong> データ破損検出",
+            "cache": "<strong>API：</strong> ペイロード整合性検証",
+            "integrity": "<strong>バージョン管理：</strong> ファイル変更検出"
+        },
+        "warning_title": "⚠️ 注意",
+        "warning_desc": "<strong>CRC-32Bはほとんどのプログラミング言語でCRC-32と機能的に同一です。</strong>",
+        "compare_title": "🔄 CRC-32バリアント",
+        "compare": {
+            "md5": {
+                "title": "CRC-32B",
+                "desc1": "多項式 0xEDB88320",
+                "desc2": "最も一般的な標準"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "代替バリアント",
+                "desc2": "異なる多項式"
+            },
+            "sha256": {
+                "title": "CRC-32C",
+                "desc1": "Castagnoli多項式",
+                "desc2": "iSCSI向けに最適化"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "CRC-32とCRC-32Bの違いは？",
+            "a1": "異なる生成多項式を使用。CRC-32Bは最も一般的な反転形式を使用します。",
+            "q2": "CRC-32Bは暗号学的に安全？",
+            "a2": "いいえ。全てのCRCバリアント同様、エラー検出用のチェックサムです。",
+            "q3": "どの言語がCRC-32Bを使用？",
+            "a3": "PHP (crc32())、Python (binascii.crc32())、Java (java.util.zip.CRC32)、.NET。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

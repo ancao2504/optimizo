@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Générateur de Hash MD4 - Outil en Ligne Gratuit",
+        "description": "Générez des hash MD4 à partir de n'importe quel texte. Prédécesseur historique de MD5 conçu par Ron Rivest. Gratuit.",
+        "h1": "Générateur de Hash MD4",
+        "subtitle": "Générez des hash MD4 128 bits — origine de la cryptographie moderne"
+    },
+    "editor": {
+        "label_input": "Saisir le texte",
+        "ph_input": "Saisissez le texte pour générer un hash MD4...",
+        "btn_generate": "Générer Hash MD4",
+        "label_result": "Hash MD4",
+        "btn_copy": "Copier"
+    },
+    "content": {
+        "hero_title": "Générateur de Hash MD4",
+        "hero_subtitle": "La fonction de hachage pionnière qui a fondé la cryptographie moderne",
+        "p1": "MD4 (Message Digest 4) est une fonction de hachage cryptographique conçue par Ron Rivest au MIT en 1990. Elle produit un hash de 128 bits (32 caractères hex). Bien que cryptographiquement cassée, MD4 a une importance historique immense comme ancêtre direct de MD5, SHA-1 et de toute la famille SHA-2.",
+        "what_title": "Qu'est-ce que MD4 ?",
+        "what_desc": "MD4 traite les données en blocs de 512 bits à travers trois rondes de 16 opérations chacune (48 au total). Elle maintient quatre variables d'état de 32 bits mélangées par des opérations bit à bit, addition modulaire et rotations.",
+        "features_title": "✅ Caractéristiques de MD4",
+        "features": {
+            "fast": "<strong>Pionnier historique :</strong> A établi le cadre Merkle-Damgård",
+            "fixed": "<strong>Sortie 128 bits :</strong> Digest hexadécimal de 32 chiffres",
+            "deterministic": "<strong>Influence directe :</strong> A mené directement à MD5, SHA-1 et SHA-2",
+            "support": "<strong>Simple :</strong> Seulement 48 opérations par bloc"
+        },
+        "uses_title": "📊 Cas d'utilisation",
+        "uses": {
+            "verify": "<strong>Systèmes hérités :</strong> Protocoles d'authentification NTLM",
+            "checksum": "<strong>Éducation :</strong> Apprentissage de la conception de fonctions de hachage",
+            "cache": "<strong>Recherche :</strong> Étude de l'évolution de la cryptanalyse différentielle",
+            "integrity": "<strong>Non sécuritaire :</strong> Sommes de contrôle rapides"
+        },
+        "warning_title": "⚠️ Avertissement de sécurité",
+        "warning_desc": "<strong>MD4 est complètement cassée — ne pas utiliser pour la sécurité.</strong> Les collisions se trouvent en moins d'une seconde. Utilisez SHA-256 ou SHA-512.",
+        "compare_title": "🔄 MD4 vs algorithmes modernes",
+        "compare": {
+            "md5": {
+                "title": "MD4",
+                "desc1": "128 bits, 3 rondes",
+                "desc2": "Cassée — historique uniquement"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128 bits, 4 rondes",
+                "desc2": "Cassée aussi, plus répandue"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bits, 64 rondes",
+                "desc2": "Standard moderne sécurisé"
+            }
+        },
+        "faq_title": "❓ Questions fréquentes",
+        "faq": {
+            "q1": "Pourquoi MD4 est-elle encore utilisée ?",
+            "a1": "MD4 apparaît principalement dans des protocoles hérités comme l'authentification NTLM sous Windows.",
+            "q2": "Comment MD4 a-t-elle été cassée ?",
+            "a2": "Par cryptanalyse différentielle. Des collisions complètes se trouvent avec un effort de calcul minimal.",
+            "q3": "Quelle est la relation entre MD4 et MD5 ?",
+            "a3": "MD5 est le successeur direct. Rivest a ajouté une quatrième ronde et des opérations supplémentaires."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez saisir du texte",
+        "btn_copied": "Copié !",
+        "btn_generating": "Génération...",
+        "error_failed": "Échec de la génération du hash. Réessayez."
+    }
+}

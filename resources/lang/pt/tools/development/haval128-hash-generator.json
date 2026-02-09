@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Gerador de Hash Haval-128 - Ferramenta Online Gratuita",
+        "description": "Gere hashes Haval-128 a partir de qualquer texto. Função hash de comprimento e rondas variáveis. Gratuito.",
+        "h1": "Gerador de Hash Haval-128",
+        "subtitle": "Gere hashes Haval-128 — flexibilidade em comprimento e rondas"
+    },
+    "editor": {
+        "label_input": "Introduzir texto",
+        "ph_input": "Introduza o texto para gerar um hash Haval-128...",
+        "btn_generate": "Gerar Hash Haval-128",
+        "label_result": "Hash Haval-128",
+        "btn_copy": "Copiar"
+    },
+    "content": {
+        "hero_title": "Gerador de Hash Haval-128",
+        "hero_subtitle": "Função hash flexível com saída de 128 bits",
+        "p1": "Haval oferece flexibilidade única no comprimento da saída (128/160/192/224/256 bits) e número de rondas (3/4/5). Haval-128 produz um hash de 128 bits (32 caracteres hex). Concebida em 1992 por Zheng, Pieprzyk e Seberry.",
+        "what_title": "O que é Haval-128?",
+        "what_desc": "Haval processa dados em blocos de 1024 bits — o dobro de MD5 e SHA-1. Mantém oito variáveis de estado de 32 bits com rondas ajustáveis.",
+        "features_title": "✅ Características",
+        "features": {
+            "fast": "<strong>Flexibilidade única:</strong> Comprimento e rondas ajustáveis",
+            "fixed": "<strong>Blocos 1024 bits:</strong> Processa mais dados por bloco",
+            "deterministic": "<strong>Opções de segurança:</strong> De 3 a 5 rondas",
+            "support": "<strong>Saída 128 bits:</strong> Digest compacto de 32 caracteres"
+        },
+        "uses_title": "📊 Casos de uso",
+        "uses": {
+            "verify": "<strong>Sistemas embebidos:</strong> Comprimento ajustável segundo recursos",
+            "checksum": "<strong>Verificação de integridade:</strong> Controlos rápidos com 3 rondas",
+            "cache": "<strong>Investigação académica:</strong> Estudo do equilíbrio velocidade-segurança",
+            "integrity": "<strong>Usos legados:</strong> Sistemas com interface Haval"
+        },
+        "warning_title": "⚠️ Nota de segurança",
+        "warning_desc": "<strong>Foram descobertas vulnerabilidades em Haval-128.</strong> Colisões encontradas nas variantes de 3 e 4 rondas. Use SHA-256.",
+        "compare_title": "🔄 Haval vs outras",
+        "compare": {
+            "md5": {
+                "title": "Haval-128",
+                "desc1": "128 bits, blocos 1024 bits",
+                "desc2": "Flexível mas vulnerável"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128 bits, blocos 512 bits",
+                "desc2": "Mais difundida"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bits",
+                "desc2": "Padrão moderno seguro"
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "O que torna Haval única?",
+            "a1": "Haval é a única função hash que permite escolher comprimento da saída e número de rondas.",
+            "q2": "Haval-128 é mais segura que MD5?",
+            "a2": "Ambas têm vulnerabilidades. Nenhuma é adequada para segurança moderna.",
+            "q3": "Porquê Haval não se impôs?",
+            "a3": "Falta de padronização e vulnerabilidades nos modos de poucas rondas."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor introduza texto",
+        "btn_copied": "Copiado!",
+        "btn_generating": "A gerar...",
+        "error_failed": "Falha ao gerar o hash. Tente novamente."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "CRC-32 Hash Oluşturucu - Ücretsiz Çevrimiçi Araç",
+        "description": "Herhangi bir metinden CRC-32 hash'leri oluşturun. Standart döngüsel artıklık kontrolü. Ücretsiz.",
+        "h1": "CRC-32 Hash Oluşturucu",
+        "subtitle": "CRC-32 sağlama toplamları oluşturun — endüstri standardı"
+    },
+    "editor": {
+        "label_input": "Metin girin",
+        "ph_input": "CRC-32 hash oluşturmak için metin girin...",
+        "btn_generate": "CRC-32 Hash Oluştur",
+        "label_result": "CRC-32 Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "CRC-32 Hash Oluşturucu",
+        "hero_subtitle": "Veri bütünlüğü için standart döngüsel artıklık kontrolü",
+        "p1": "CRC-32, dünyada en çok kullanılan kriptografik olmayan sağlama fonksiyonudur. Polinom bölme ile 32 bitlik hash (8 hex karakter) üretir. CRC-32 her yerdedir: ZIP ve PNG formatları, Ethernet ağları, USB protokolleri ve dosya sistemleri.",
+        "what_title": "CRC-32 nedir?",
+        "what_desc": "CRC-32, girdi verilerini dev bir polinom olarak ele alır ve sabit bir üreteç polinomuna bölmenin kalanını hesaplar.",
+        "features_title": "✅ Avantajlar",
+        "features": {
+            "fast": "<strong>Donanım hızlandırma:</strong> Intel CRC32 komutları bellek hızında hesaplar",
+            "fixed": "<strong>Güçlü tespit:</strong> Tüm 1, 2 bit ve tek bit hatalarını tespit eder",
+            "deterministic": "<strong>Evrensel standart:</strong> Ethernet, USB, ZIP, PNG, MPEG-2",
+            "support": "<strong>Basit ve hızlı:</strong> Hızlı hesaplama için arama tabloları"
+        },
+        "uses_title": "📊 Kullanım alanları",
+        "uses": {
+            "verify": "<strong>Arşivleme:</strong> ZIP ve gzip bütünlük doğrulama",
+            "checksum": "<strong>Ağlar:</strong> Ethernet çerçeve doğrulama",
+            "cache": "<strong>Depolama:</strong> Dosya sistemi bütünlüğü",
+            "integrity": "<strong>Multimedya:</strong> PNG ve MPEG dosya bütünlüğü"
+        },
+        "warning_title": "⚠️ Güvenlik notu",
+        "warning_desc": "<strong>CRC-32 kriptografik bir hash fonksiyonu değildir.</strong> Rastgele hataları tespit etmek için tasarlanmıştır, kasıtlı manipülasyona karşı koruma için değil.",
+        "compare_title": "🔄 CRC-32 karşılaştırması",
+        "compare": {
+            "md5": {
+                "title": "CRC-32",
+                "desc1": "32 bit, polinom",
+                "desc2": "Hata tespiti, kripto değil"
+            },
+            "sha1": {
+                "title": "Adler-32",
+                "desc1": "32 bit, aritmetik",
+                "desc2": "Daha hızlı, daha zayıf tespit"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128 bit, kriptografik",
+                "desc2": "Çok daha yavaş ama güvenli"
+            }
+        },
+        "faq_title": "❓ Sıkça sorulan sorular",
+        "faq": {
+            "q1": "CRC-32 ile CRC-32B arasındaki fark?",
+            "a1": "Farklı üreteç polinomları kullanırlar. CRC-32B, PHP'nin varsayılan olarak hesapladığı varyanttır.",
+            "q2": "CRC-32 neden güvenlik için kullanılmaz?",
+            "a2": "CRC-32 doğrusal ve tersine çevrilebilirdir. Bir saldırgan kolayca çarpışma oluşturabilir.",
+            "q3": "CRC-32 tüm hataları tespit eder mi?",
+            "a3": "Hayır. CRC-32 tüm 1 ve 2 bit hatalarını tespit eder ama bazı hata kalıplarını kaçırabilir."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen metin girin",
+        "btn_copied": "Kopyalandı!",
+        "btn_generating": "Oluşturuluyor...",
+        "error_failed": "Hash oluşturulamadı. Tekrar deneyin."
+    }
+}

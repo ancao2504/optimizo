@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Snefruハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからSnefruハッシュを生成。Xerox PARCの歴史的ハッシュ関数。無料。",
+        "h1": "Snefruハッシュジェネレーター",
+        "subtitle": "Snefruハッシュを生成 — Xerox PARCの歴史的ハッシュ関数"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "Snefruハッシュを生成するテキストを入力...",
+        "btn_generate": "Snefruハッシュを生成",
+        "label_result": "Snefruハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "Snefruハッシュジェネレーター",
+        "hero_subtitle": "暗号設計における歴史的マイルストーン",
+        "p1": "Snefruは1990年にXerox PARCのRalph Merkleが設計した暗号学的ハッシュ関数で、エジプトのファラオ・スネフェルにちなんで命名されました。128ビットまたは256ビットのハッシュを生成できます。",
+        "what_title": "Snefruとは？",
+        "what_desc": "Snefruはデータを512ビット（128ビット出力用）または384ビット（256ビット出力用）のブロックで、置換テーブルベースの混合で処理します。",
+        "features_title": "✅ 特性",
+        "features": {
+            "fast": "<strong>歴史的パイオニア：</strong> 最初のMerkle-Damgårdハッシュ関数の一つ",
+            "fixed": "<strong>256ビット出力：</strong> 64文字のダイジェスト",
+            "deterministic": "<strong>Xerox PARC：</strong> Merkleツリーの発明者Merkleが設計",
+            "support": "<strong>教育的価値：</strong> ハッシュの進化理解に重要"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>レガシーシステム：</strong> 古いXeroxシステムとの互換性",
+            "checksum": "<strong>教育：</strong> ハッシュ関数設計の学習",
+            "cache": "<strong>研究：</strong> 差分解析の研究",
+            "integrity": "<strong>歴史的分析：</strong> SnefruからSHA-2への進化"
+        },
+        "warning_title": "⚠️ 警告",
+        "warning_desc": "<strong>Snefruは暗号学的に破られています。</strong> 差分解析で衝突が発見されました。SHA-256を使用してください。",
+        "compare_title": "🔄 Snefru vs 現代",
+        "compare": {
+            "md5": {
+                "title": "Snefru",
+                "desc1": "128/256ビット",
+                "desc2": "破られた — 歴史的のみ"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128ビット",
+                "desc2": "これも破られた"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256ビット",
+                "desc2": "現代の安全な標準"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "なぜファラオの名前？",
+            "a1": "Ralph Merkleは暗号アルゴリズムにエジプト要素で名前をつける伝統に従いました。",
+            "q2": "Snefruはどう破られた？",
+            "a2": "BihamとShamirが差分解析を使用して2ラウンド版で衝突を発見しました。",
+            "q3": "Snefruの遺産は？",
+            "a3": "SnefruはMerkle-Damgårdをハッシュ設計の主要パラダイムとして確立するのに貢献しました。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

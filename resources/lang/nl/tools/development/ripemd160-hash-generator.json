@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "RIPEMD-160 Hash Generator - Gratis Online Tool",
+        "description": "Genereer RIPEMD-160 hashes van elke tekst. Gebruikt in Bitcoin-adressen en PGP-vingerafdrukken. Gratis.",
+        "h1": "RIPEMD-160 Hash Generator",
+        "subtitle": "Genereer RIPEMD-160 hashes — de hash achter Bitcoin-adressen"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een RIPEMD-160 hash te genereren...",
+        "btn_generate": "Genereer RIPEMD-160 Hash",
+        "label_result": "RIPEMD-160 Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "RIPEMD-160 Hash Generator",
+        "hero_subtitle": "De Europese hashfunctie achter Bitcoin-adressen",
+        "p1": "RIPEMD-160 produceert een 160-bit hash (40 hex tekens), ontwikkeld aan de KU Leuven in België. Gebruikt in Bitcoin — elk Bitcoin-adres wordt afgeleid via SHA-256 gevolgd door RIPEMD-160 (HASH160).",
+        "what_title": "Wat is RIPEMD-160?",
+        "what_desc": "RIPEMD-160 breidt het RIPEMD-128 ontwerp uit door een vijfde ronde toe te voegen aan elk van de twee parallelle verwerkingsketens.",
+        "features_title": "✅ Voordelen",
+        "features": {
+            "fast": "<strong>Bitcoin-standaard:</strong> Gebruikt in HASH160 voor adresgeneratie",
+            "fixed": "<strong>160 bit uitvoer:</strong> 40 hex tekens",
+            "deterministic": "<strong>Onafhankelijk ontwerp:</strong> Niet door overheidsinstanties ontworpen",
+            "support": "<strong>Bewezen beveiliging:</strong> Geen praktische aanval sinds 1996"
+        },
+        "uses_title": "📊 Waar gebruikt",
+        "uses": {
+            "verify": "<strong>Bitcoin:</strong> SHA-256 + RIPEMD-160 = HASH160",
+            "checksum": "<strong>PGP/GPG:</strong> Sleutelvingerafdrukberekening",
+            "cache": "<strong>Smartcards:</strong> Europese EMV-authenticatie",
+            "integrity": "<strong>Cryptografische diversiteit:</strong> Alternatief voor SHA-algoritmen"
+        },
+        "warning_title": "💡 Context",
+        "warning_desc": "<strong>RIPEMD-160 biedt 80 bit botsingsweerstand.</strong> Voor nieuwe toepassingen wordt SHA-256 aanbevolen.",
+        "compare_title": "🔄 RIPEMD-160 vs anderen",
+        "compare": {
+            "md5": {
+                "title": "RIPEMD-160",
+                "desc1": "160 bit, dubbele keten",
+                "desc2": "Geen bekende botsingen"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160 bit, enkele keten",
+                "desc2": "Botsingen gedemonstreerd (2017)"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Veiliger, aanbevolen"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Waarom gebruikt Bitcoin RIPEMD-160?",
+            "a1": "Bitcoin gebruikt HASH160 om adressen te verkorten terwijl cryptografische diversiteit behouden blijft.",
+            "q2": "Is RIPEMD-160 veiliger dan SHA-1?",
+            "a2": "In de praktijk ja. Geen praktische botsing gevonden.",
+            "q3": "Moet ik RIPEMD-160 gebruiken in nieuwe projecten?",
+            "a3": "Voor nieuwe projecten wordt SHA-256 aanbevolen. RIPEMD-160 is voor Bitcoin-compatibiliteit."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

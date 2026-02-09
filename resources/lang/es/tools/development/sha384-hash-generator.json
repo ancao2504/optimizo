@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Generador de Hash SHA-384 - Herramienta Online Gratuita",
+        "description": "Genera hashes SHA-384 desde cualquier texto. Variante truncada de SHA-512 con 192 bits de resistencia a colisiones. Gratis.",
+        "h1": "Generador de Hash SHA-384",
+        "subtitle": "Genera hashes SHA-384 — para aplicaciones de alta seguridad"
+    },
+    "editor": {
+        "label_input": "Introducir texto",
+        "ph_input": "Introduce texto para generar hash SHA-384...",
+        "btn_generate": "Generar Hash SHA-384",
+        "label_result": "Hash SHA-384",
+        "btn_copy": "Copiar"
+    },
+    "content": {
+        "hero_title": "Generador de Hash SHA-384",
+        "hero_subtitle": "Hash criptográfico de alta seguridad de 384 bits",
+        "p1": "SHA-384 es miembro de la familia SHA-2 y produce un hash de 384 bits (96 caracteres hex). Es una versión truncada de SHA-512 con valores iniciales diferentes. SHA-384 se usa en sistemas gubernamentales y financieros.",
+        "what_title": "¿Qué es SHA-384?",
+        "what_desc": "SHA-384 usa internamente el mismo algoritmo que SHA-512 — procesando en bloques de 1024 bits a través de 80 rondas con operaciones de 64 bits. La diferencia son los valores iniciales diferentes y el truncamiento a 384 bits.",
+        "features_title": "✅ Ventajas de SHA-384",
+        "features": {
+            "fast": "<strong>Seguridad de 192 bits:</strong> Mayor resistencia a colisiones que SHA-256",
+            "fixed": "<strong>Salida de 384 bits:</strong> Digest hexadecimal de 96 dígitos",
+            "deterministic": "<strong>Optimizado para 64 bits:</strong> Usa operaciones de 64 bits",
+            "support": "<strong>Certificación gubernamental:</strong> Recomendado por NIST"
+        },
+        "uses_title": "📊 Casos de uso",
+        "uses": {
+            "verify": "<strong>Suites TLS:</strong> ECDHE-RSA-AES256-SHA384",
+            "checksum": "<strong>Firmas digitales:</strong> Firma de documentos de alta seguridad",
+            "cache": "<strong>Sistemas gubernamentales:</strong> Aplicaciones compatibles con FIPS 180-4",
+            "integrity": "<strong>Protocolos financieros:</strong> Seguridad de transacciones bancarias"
+        },
+        "warning_title": "💡 Cuándo usar SHA-384",
+        "warning_desc": "<strong>SHA-384 está entre SHA-256 y SHA-512 en nivel de seguridad.</strong> Elige SHA-384 cuando los requisitos de seguridad superan los 128 bits de resistencia a colisiones de SHA-256.",
+        "compare_title": "🔄 Comparación familia SHA-2",
+        "compare": {
+            "md5": {
+                "title": "SHA-256",
+                "desc1": "256 bits, ops 32 bits",
+                "desc2": "128 bits resistencia a colisiones"
+            },
+            "sha1": {
+                "title": "SHA-384",
+                "desc1": "384 bits, ops 64 bits",
+                "desc2": "192 bits resistencia a colisiones"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512 bits, ops 64 bits",
+                "desc2": "256 bits resistencia a colisiones"
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Por qué SHA-384 en vez de SHA-256?",
+            "a1": "SHA-384 ofrece 192 bits de resistencia a colisiones vs 128 de SHA-256. Además es más rápido en procesadores de 64 bits.",
+            "q2": "¿SHA-384 es solo SHA-512 truncado?",
+            "a2": "Sí, pero con valores iniciales diferentes. No se puede derivar un hash SHA-384 de un hash SHA-512 de los mismos datos.",
+            "q3": "¿Dónde se requiere SHA-384?",
+            "a3": "SHA-384 se requiere a menudo en sistemas gubernamentales y financieros y configuraciones TLS con requisitos de seguridad elevados."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor introduce texto",
+        "btn_copied": "¡Copiado!",
+        "btn_generating": "Generando...",
+        "error_failed": "Error al generar el hash. Inténtalo de nuevo."
+    }
+}

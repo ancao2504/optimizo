@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "MD4 Hash Oluşturucu - Ücretsiz Çevrimiçi Araç",
+        "description": "Herhangi bir metinden MD4 hash'leri oluşturun. Ron Rivest tarafından tasarlanan MD5'in tarihsel öncüsü. Ücretsiz.",
+        "h1": "MD4 Hash Oluşturucu",
+        "subtitle": "128-bit MD4 hash'leri oluşturun — modern kriptografinin kökeni"
+    },
+    "editor": {
+        "label_input": "Metin girin",
+        "ph_input": "MD4 hash oluşturmak için metin girin...",
+        "btn_generate": "MD4 Hash Oluştur",
+        "label_result": "MD4 Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "MD4 Hash Oluşturucu",
+        "hero_subtitle": "Modern kriptografiyi kuran öncü hash fonksiyonu",
+        "p1": "MD4 (Message Digest 4), Ron Rivest tarafından 1990'da MIT'de tasarlanan kriptografik bir hash fonksiyonudur. 128 bitlik hash (32 hex karakter) üretir. Kriptografik olarak kırılmış olsa da MD4, MD5, SHA-1 ve tüm SHA-2 ailesinin doğrudan atası olarak muazzam tarihsel öneme sahiptir.",
+        "what_title": "MD4 nedir?",
+        "what_desc": "MD4, verileri 512 bitlik bloklarda her biri 16 işlemden oluşan üç turda (toplamda 48) işler. Dört adet 32 bitlik durum değişkeni tutar.",
+        "features_title": "✅ Özellikler",
+        "features": {
+            "fast": "<strong>Tarihsel öncü:</strong> Merkle-Damgård çerçevesini kurdu",
+            "fixed": "<strong>128 bit çıkış:</strong> 32 haneli onaltılık özet",
+            "deterministic": "<strong>Doğrudan etki:</strong> MD5, SHA-1 ve SHA-2'ye yol açtı",
+            "support": "<strong>Basit:</strong> Blok başına sadece 48 işlem"
+        },
+        "uses_title": "📊 Kullanım alanları",
+        "uses": {
+            "verify": "<strong>Eski sistemler:</strong> NTLM kimlik doğrulama protokolleri",
+            "checksum": "<strong>Eğitim:</strong> Hash fonksiyon tasarımı öğrenimi",
+            "cache": "<strong>Araştırma:</strong> Diferansiyel kriptanaliz evrimi çalışması",
+            "integrity": "<strong>Güvenlik dışı:</strong> Hızlı sağlama toplamları"
+        },
+        "warning_title": "⚠️ Güvenlik uyarısı",
+        "warning_desc": "<strong>MD4 tamamen kırılmıştır — güvenlik için kullanmayın.</strong> Çarpışmalar bir saniyeden az sürede bulunur. SHA-256 kullanın.",
+        "compare_title": "🔄 MD4 vs modern",
+        "compare": {
+            "md5": {
+                "title": "MD4",
+                "desc1": "128 bit, 3 tur",
+                "desc2": "Kırılmış — sadece tarihsel"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128 bit, 4 tur",
+                "desc2": "O da kırılmış"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit, 64 tur",
+                "desc2": "Modern güvenli standart"
+            }
+        },
+        "faq_title": "❓ Sıkça sorulan sorular",
+        "faq": {
+            "q1": "MD4 neden hâlâ kullanılıyor?",
+            "a1": "MD4 esas olarak Windows'taki NTLM kimlik doğrulama gibi eski protokollerde görülür.",
+            "q2": "MD4 nasıl kırıldı?",
+            "a2": "Diferansiyel kriptanaliz ile. Tam çarpışmalar minimum hesaplama çabasıyla bulunur.",
+            "q3": "MD4 ve MD5 arasındaki ilişki?",
+            "a3": "MD5 doğrudan halefidir. Rivest dördüncü bir tur ve ek işlemler ekledi."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen metin girin",
+        "btn_copied": "Kopyalandı!",
+        "btn_generating": "Oluşturuluyor...",
+        "error_failed": "Hash oluşturulamadı. Tekrar deneyin."
+    }
+}

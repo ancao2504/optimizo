@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "MD4 해시 생성기 - 무료 온라인 도구",
+        "description": "모든 텍스트에서 MD4 해시를 생성하세요. Ron Rivest가 설계한 MD5의 역사적 전신. 무료.",
+        "h1": "MD4 해시 생성기",
+        "subtitle": "128비트 MD4 해시 생성 — 현대 암호학의 기원"
+    },
+    "editor": {
+        "label_input": "텍스트 입력",
+        "ph_input": "MD4 해시를 생성할 텍스트를 입력하세요...",
+        "btn_generate": "MD4 해시 생성",
+        "label_result": "MD4 해시",
+        "btn_copy": "복사"
+    },
+    "content": {
+        "hero_title": "MD4 해시 생성기",
+        "hero_subtitle": "현대 암호학을 형성한 선구적 해시 함수",
+        "p1": "MD4(Message Digest 4)는 1990년 MIT의 Ron Rivest가 설계한 암호학적 해시 함수입니다. 128비트 해시(16진수 32자)를 생성합니다. 암호학적으로 깨졌지만, MD5, SHA-1, SHA-2 계열의 직접적 조상으로서 엄청난 역사적 중요성을 갖고 있습니다.",
+        "what_title": "MD4란?",
+        "what_desc": "MD4는 데이터를 512비트 블록으로 각 16연산의 3라운드(총 48)를 통해 처리합니다. 4개의 32비트 상태 변수를 유지합니다.",
+        "features_title": "✅ 특징",
+        "features": {
+            "fast": "<strong>역사적 선구자:</strong> Merkle-Damgård 프레임워크 확립",
+            "fixed": "<strong>128비트 출력:</strong> 32자리 16진수 다이제스트",
+            "deterministic": "<strong>직접적 영향:</strong> MD5, SHA-1, SHA-2로 이어짐",
+            "support": "<strong>간단:</strong> 블록당 48연산만"
+        },
+        "uses_title": "📊 용도",
+        "uses": {
+            "verify": "<strong>레거시 시스템:</strong> NTLM 인증 프로토콜",
+            "checksum": "<strong>교육:</strong> 해시 함수 설계 학습",
+            "cache": "<strong>연구:</strong> 차분 암호 분석 진화 연구",
+            "integrity": "<strong>비보안:</strong> 빠른 체크섬"
+        },
+        "warning_title": "⚠️ 보안 경고",
+        "warning_desc": "<strong>MD4는 완전히 깨졌습니다 — 보안에 사용하지 마세요.</strong> 충돌이 1초 이내에 발견됩니다. SHA-256을 사용하세요.",
+        "compare_title": "🔄 MD4 vs 현대",
+        "compare": {
+            "md5": {
+                "title": "MD4",
+                "desc1": "128비트, 3라운드",
+                "desc2": "깨짐 — 역사적 가치만"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128비트, 4라운드",
+                "desc2": "역시 깨짐"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256비트, 64라운드",
+                "desc2": "현대의 안전한 표준"
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "MD4가 아직 사용되는 이유는?",
+            "a1": "MD4는 주로 Windows의 NTLM 인증 등 레거시 프로토콜에서 발견됩니다.",
+            "q2": "MD4는 어떻게 깨졌나?",
+            "a2": "차분 암호 분석을 통해. 완전한 충돌이 최소한의 계산으로 발견됩니다.",
+            "q3": "MD4와 MD5의 관계는?",
+            "a3": "MD5는 직접적인 후계자입니다. Rivest가 4번째 라운드와 추가 연산을 추가했습니다."
+        }
+    },
+    "js": {
+        "error_empty": "텍스트를 입력하세요",
+        "btn_copied": "복사됨!",
+        "btn_generating": "생성 중...",
+        "error_failed": "해시 생성에 실패했습니다. 다시 시도하세요."
+    }
+}

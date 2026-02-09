@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Haval-128ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからHaval-128ハッシュを生成。可変長とラウンド数のハッシュ関数。無料。",
+        "h1": "Haval-128ハッシュジェネレーター",
+        "subtitle": "Haval-128ハッシュを生成 — 柔軟な長さとラウンド"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "Haval-128ハッシュを生成するテキストを入力...",
+        "btn_generate": "Haval-128ハッシュを生成",
+        "label_result": "Haval-128ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "Haval-128ハッシュジェネレーター",
+        "hero_subtitle": "128ビット出力の柔軟なハッシュ関数",
+        "p1": "Havalは出力長（128/160/192/224/256ビット）とラウンド数（3/4/5）の独自の柔軟性を提供します。Haval-128は128ビットハッシュ（16進数32文字）を生成します。1992年にZheng、Pieprzyk、Seberryにより設計されました。",
+        "what_title": "Haval-128とは？",
+        "what_desc": "Havalはデータを1024ビットブロックで処理します — MD5やSHA-1の2倍。調整可能なラウンド数で8つの32ビット状態変数をサポートします。",
+        "features_title": "✅ 特徴",
+        "features": {
+            "fast": "<strong>独自の柔軟性：</strong> 調整可能な出力長とラウンド",
+            "fixed": "<strong>1024ビットブロック：</strong> ブロックあたりより多くのデータを処理",
+            "deterministic": "<strong>セキュリティオプション：</strong> 3〜5ラウンド",
+            "support": "<strong>128ビット出力：</strong> コンパクトな32文字のダイジェスト"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>組込みシステム：</strong> リソースに応じた調整可能な長さ",
+            "checksum": "<strong>整合性チェック：</strong> 3ラウンドでの高速チェック",
+            "cache": "<strong>学術研究：</strong> 速度・セキュリティバランスの研究",
+            "integrity": "<strong>レガシーシステム：</strong> Havalインターフェースを持つシステム"
+        },
+        "warning_title": "⚠️ セキュリティ注意",
+        "warning_desc": "<strong>Haval-128に脆弱性が発見されています。</strong> 3ラウンドと4ラウンドバリアントで衝突が発見されました。SHA-256を使用してください。",
+        "compare_title": "🔄 Haval vs その他",
+        "compare": {
+            "md5": {
+                "title": "Haval-128",
+                "desc1": "128ビット、1024ビットブロック",
+                "desc2": "柔軟だが脆弱"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128ビット、512ビットブロック",
+                "desc2": "より広く普及"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256ビット",
+                "desc2": "現代の安全な標準"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "Havalをユニークにするものは？",
+            "a1": "Havalは出力長とラウンド数の両方で選択肢を提供する唯一のハッシュ関数です。",
+            "q2": "Haval-128はMD5より安全？",
+            "a2": "両方に脆弱性があります。どちらも現代のセキュリティには適していません。",
+            "q3": "Havalが普及しなかった理由は？",
+            "a3": "標準化の欠如と少ラウンドバリアントの脆弱性。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

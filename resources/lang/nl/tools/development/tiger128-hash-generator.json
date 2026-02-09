@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Tiger-128 Hash Generator - Gratis Online Tool",
+        "description": "Genereer Tiger-128 hashes van elke tekst. Snelle 128-bit hash geoptimaliseerd voor 64-bit systemen. Gratis.",
+        "h1": "Tiger-128 Hash Generator",
+        "subtitle": "Genereer Tiger-128 hashes — geoptimaliseerd voor 64-bit prestaties"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een Tiger-128 hash te genereren...",
+        "btn_generate": "Genereer Tiger-128 Hash",
+        "label_result": "Tiger-128 Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "Tiger-128 Hash Generator",
+        "hero_subtitle": "Hogesnelheids 128-bit hash voor 64-bit processoren",
+        "p1": "Tiger-128 is een afgekapte versie van de Tiger hashfunctie, ontworpen door Ross Anderson en Eli Biham in 1995. Produceert een 128-bit hash (32 hex tekens), specifiek ontworpen voor 64-bit platforms.",
+        "what_title": "Wat is Tiger-128?",
+        "what_desc": "Tiger verwerkt data in 512-bit blokken door 24 rondes georganiseerd in drie passen. Tiger-128 kapt de volledige 192-bit uitvoer af naar 128 bit.",
+        "features_title": "✅ Kenmerken",
+        "features": {
+            "fast": "<strong>64-bit optimalisatie:</strong> Uitzonderlijk snel op moderne processoren",
+            "fixed": "<strong>128 bit uitvoer:</strong> Compact 32-tekens digest",
+            "deterministic": "<strong>S-box ontwerp:</strong> Vier grote substitutietabellen",
+            "support": "<strong>Bestandsdeling:</strong> Gebruikt in ed2k- en DC++-protocollen"
+        },
+        "uses_title": "📊 Toepassingen",
+        "uses": {
+            "verify": "<strong>P2P-netwerken:</strong> Bestandsidentificatie in deelprotocollen",
+            "checksum": "<strong>Integriteitscontrole:</strong> Snelle verificatie op 64-bit systemen",
+            "cache": "<strong>Fingerprinting:</strong> Inhoudsgebaseerde opslagidentificatoren",
+            "integrity": "<strong>Deduplicatie:</strong> Efficiënte duplicaatdetectie"
+        },
+        "warning_title": "⚠️ Opmerking",
+        "warning_desc": "<strong>Tiger-128 biedt slechts 64 bit botsingsweerstand.</strong> Gebruik SHA-256 voor cryptografische beveiliging.",
+        "compare_title": "🔄 Tiger-familie",
+        "compare": {
+            "md5": {
+                "title": "Tiger-128",
+                "desc1": "128 bit",
+                "desc2": "64 bit weerstand"
+            },
+            "sha1": {
+                "title": "Tiger-160",
+                "desc1": "160 bit",
+                "desc2": "80 bit weerstand"
+            },
+            "sha256": {
+                "title": "Tiger-192",
+                "desc1": "192 bit",
+                "desc2": "96 bit weerstand"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Waarom is Tiger ontworpen voor 64-bit?",
+            "a1": "In 1995 kwamen 64-bit processoren op en bestaande hashfuncties waren geoptimaliseerd voor 32-bit.",
+            "q2": "Tiger-128 vs MD5?",
+            "a2": "Op 64-bit systemen is Tiger-128 aanzienlijk sneller dan MD5.",
+            "q3": "Is Tiger-128 nog relevant?",
+            "a3": "Gebruikt in P2P-bestandsdeling. Overweeg BLAKE3 voor nieuwe projecten."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Adler-32 Hash Generator - Kostenloses Online-Tool",
+        "description": "Generieren Sie Adler-32-Hashes aus jedem Text. Schnelle Prüfsummenfunktion für zlib-Komprimierung. Kostenlos und sofort.",
+        "h1": "Adler-32 Hash Generator",
+        "subtitle": "Adler-32-Prüfsummen generieren — schnell und leichtgewichtig"
+    },
+    "editor": {
+        "label_input": "Text eingeben",
+        "ph_input": "Text eingeben, um Adler-32-Hash zu generieren...",
+        "btn_generate": "Adler-32 Hash generieren",
+        "label_result": "Adler-32 Hash",
+        "btn_copy": "Kopieren"
+    },
+    "content": {
+        "hero_title": "Adler-32 Hash Generator",
+        "hero_subtitle": "Ultraschnelle Prüfsummenfunktion zur Fehlererkennung",
+        "p1": "Adler-32 ist eine Prüfsummenfunktion, die 1995 von Mark Adler entwickelt wurde. Sie erzeugt einen 32-Bit-Hashwert (8 Hex-Zeichen). Adler-32 wird häufig in der zlib-Komprimierungsbibliothek und im rsync-Protokoll verwendet. Es wurde entwickelt, um deutlich schneller als CRC-32 zu sein und dabei ausreichende Fehlererkennungsfähigkeiten beizubehalten.",
+        "what_title": "Was ist Adler-32?",
+        "what_desc": "Adler-32 verwendet zwei Prüfsummen: A (Summe aller Bytes plus eins) und B (kumulative Summe aller A-Werte). Beide werden modulo der Primzahl 65521 berechnet. Der endgültige Hash ist B × 65536 + A.",
+        "features_title": "✅ Vorteile von Adler-32",
+        "features": {
+            "fast": "<strong>Extrem schnell:</strong> Deutlich schneller als CRC-32 in Software",
+            "fixed": "<strong>Niedriger Overhead:</strong> Minimaler CPU-Verbrauch und geringer Speicherbedarf",
+            "deterministic": "<strong>Einfache Implementierung:</strong> Nur wenige Zeilen Code erforderlich",
+            "support": "<strong>Praxiserprobt:</strong> Milliarden von Streams in zlib verarbeitet"
+        },
+        "uses_title": "📊 Häufige Anwendungsfälle",
+        "uses": {
+            "verify": "<strong>zlib-Komprimierung:</strong> Stream-Integritätsprüfung",
+            "checksum": "<strong>rsync-Protokoll:</strong> Schnelle Dateiänderungserkennung",
+            "cache": "<strong>Netzwerkprüfungen:</strong> Leichtgewichtige Paketverifizierung",
+            "integrity": "<strong>Datenübertragung:</strong> Fehlererkennung in Streams"
+        },
+        "warning_title": "⚠️ Sicherheitshinweis",
+        "warning_desc": "<strong>Adler-32 ist keine kryptographische Hashfunktion.</strong> Es ist eine Prüfsumme zur Fehlererkennung, nicht für Sicherheit. Verwenden Sie SHA-256 für kryptographische Anforderungen.",
+        "compare_title": "🔄 Adler-32 im Vergleich",
+        "compare": {
+            "md5": {
+                "title": "Adler-32",
+                "desc1": "32 Bit, nicht-kryptographisch",
+                "desc2": "Am schnellsten, geringste Erkennung"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "32 Bit, Polynom",
+                "desc2": "Langsamer, bessere Erkennung"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128 Bit, kryptographisch",
+                "desc2": "Wesentlich höhere Sicherheit"
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Was ist der Unterschied zwischen Adler-32 und CRC-32?",
+            "a1": "Adler-32 ist schneller in der Berechnung, erkennt aber weniger Fehlermuster als CRC-32. CRC-32 verwendet Polynomdivision, die mehr Fehlersequenzen erfasst.",
+            "q2": "Kann ich Adler-32 für Sicherheitszwecke verwenden?",
+            "a2": "Nein. Adler-32 ist eine Prüfsumme, keine kryptographische Hashfunktion. Kollisionen lassen sich leicht erzeugen. Verwenden Sie SHA-256 oder SHA-512.",
+            "q3": "Warum verwendet zlib Adler-32 statt CRC-32?",
+            "a3": "zlib priorisiert Geschwindigkeit. Da komprimierte Daten üblicherweise auch höherstufige Prüfungen enthalten, wird die Geschwindigkeit von Adler-32 bevorzugt."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte Text eingeben",
+        "btn_copied": "Kopiert!",
+        "btn_generating": "Wird generiert...",
+        "error_failed": "Hash-Generierung fehlgeschlagen. Bitte erneut versuchen."
+    }
+}

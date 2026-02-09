@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Tiger-160 Hash Generator - Kostenloses Online-Tool",
+        "description": "Generieren Sie Tiger-160-Hashes aus jedem Text. 160-Bit-Variante der Tiger-Hashfunktion für 64-Bit-Systeme. Kostenlos.",
+        "h1": "Tiger-160 Hash Generator",
+        "subtitle": "Tiger-160-Hashes generieren — Balance zwischen Geschwindigkeit und Sicherheit"
+    },
+    "editor": {
+        "label_input": "Text eingeben",
+        "ph_input": "Text eingeben, um Tiger-160-Hash zu generieren...",
+        "btn_generate": "Tiger-160 Hash generieren",
+        "label_result": "Tiger-160 Hash",
+        "btn_copy": "Kopieren"
+    },
+    "content": {
+        "hero_title": "Tiger-160 Hash Generator",
+        "hero_subtitle": "Tiger-Hash mit 160 Bit für ausgewogene Performance und Sicherheit",
+        "p1": "Tiger-160 ist die mittlere Variante der Tiger-Hashfamilie und erzeugt einen 160-Bit-Hash (40 Hex-Zeichen). Wie SHA-1 gibt es 160 Bit aus, aber Tiger-160 ist auf 64-Bit-Prozessoren deutlich schneller.",
+        "what_title": "Was ist Tiger-160?",
+        "what_desc": "Tiger-160 verwendet denselben Algorithmus wie Tiger-192, kürzt die Ausgabe aber auf 160 Bit. Es bietet 80-Bit-Kollisionsresistenz.",
+        "features_title": "✅ Merkmale von Tiger-160",
+        "features": {
+            "fast": "<strong>SHA-1-Ersatz:</strong> Gleiche Ausgabelänge, schneller auf 64-Bit",
+            "fixed": "<strong>160-Bit-Ausgabe:</strong> 40-stelliger Hex-Digest",
+            "deterministic": "<strong>80-Bit-Sicherheit:</strong> Entspricht SHA-1 theoretisch",
+            "support": "<strong>64-Bit-Geschwindigkeit:</strong> Übertrifft SHA-1 auf modernen Prozessoren"
+        },
+        "uses_title": "📊 Anwendungsfälle",
+        "uses": {
+            "verify": "<strong>Dateiverifizierung:</strong> Schnelle Integritätsprüfungen auf 64-Bit",
+            "checksum": "<strong>SHA-1-Alternative:</strong> Direkter Ersatz für 160-Bit-Anforderungen",
+            "cache": "<strong>Content-Hashing:</strong> Cache-Inhaltsidentifikatoren",
+            "integrity": "<strong>Datenbankindizierung:</strong> Hash-basierte Suche"
+        },
+        "warning_title": "⚠️ Sicherheitshinweis",
+        "warning_desc": "<strong>Tiger-160 bietet 80-Bit-Kollisionsresistenz</strong>, ähnlich SHA-1. Für neue sicherheitskritische Anwendungen verwenden Sie SHA-256.",
+        "compare_title": "🔄 Tiger-160 vs. SHA-1",
+        "compare": {
+            "md5": {
+                "title": "Tiger-160",
+                "desc1": "160 Bit, 64-Bit-Ops",
+                "desc2": "Schneller auf 64-Bit"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160 Bit, 32-Bit-Ops",
+                "desc2": "Breiter unterstützt"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 Bit",
+                "desc2": "Höhere Sicherheit, empfohlen"
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Tiger-160 vs. SHA-1 — was wählen?",
+            "a1": "Für Geschwindigkeit auf 64-Bit: Tiger-160. Für maximale Kompatibilität: SHA-1. Für Sicherheit: SHA-256.",
+            "q2": "Ist Tiger-160 sicherer als SHA-1?",
+            "a2": "Gleiche theoretische Kollisionsresistenz. SHA-1 hat bekannte Kollisionen; Tiger nicht. Aber Tiger wurde weniger analysiert.",
+            "q3": "Warum Tiger-192 auf 160 Bit kürzen?",
+            "a3": "Einige Protokolle erfordern exakt 160-Bit-Hashes zur SHA-1-Kompatibilität."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte Text eingeben",
+        "btn_copied": "Kopiert!",
+        "btn_generating": "Wird generiert...",
+        "error_failed": "Hash-Generierung fehlgeschlagen. Bitte erneut versuchen."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "MD4ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからMD4ハッシュを生成。Ron Rivestが設計したMD5の歴史的前身。無料。",
+        "h1": "MD4ハッシュジェネレーター",
+        "subtitle": "128ビットMD4ハッシュを生成 — 現代暗号の起源"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "MD4ハッシュを生成するテキストを入力...",
+        "btn_generate": "MD4ハッシュを生成",
+        "label_result": "MD4ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "MD4ハッシュジェネレーター",
+        "hero_subtitle": "現代暗号を形作った先駆的ハッシュ関数",
+        "p1": "MD4（Message Digest 4）は、1990年にMITのRon Rivestによって設計された暗号学的ハッシュ関数です。128ビットハッシュ（16進数32文字）を生成します。暗号学的に破られていますが、MD5、SHA-1、SHA-2ファミリー全体の直接の祖先として計り知れない歴史的重要性を持っています。",
+        "what_title": "MD4とは？",
+        "what_desc": "MD4はデータを512ビットブロックで処理し、各16演算の3ラウンド（合計48）を通します。4つの32ビット状態変数を維持します。",
+        "features_title": "✅ 特徴",
+        "features": {
+            "fast": "<strong>歴史的先駆者：</strong> Merkle-Damgårdフレームワークを確立",
+            "fixed": "<strong>128ビット出力：</strong> 32桁の16進ダイジェスト",
+            "deterministic": "<strong>直接的影響：</strong> MD5、SHA-1、SHA-2に繋がった",
+            "support": "<strong>シンプル：</strong> ブロックあたりわずか48演算"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>レガシーシステム：</strong> NTLM認証プロトコル",
+            "checksum": "<strong>教育：</strong> ハッシュ関数設計の学習",
+            "cache": "<strong>研究：</strong> 差分解読法の進化の研究",
+            "integrity": "<strong>非セキュリティ：</strong> 高速チェックサム"
+        },
+        "warning_title": "⚠️ セキュリティ警告",
+        "warning_desc": "<strong>MD4は完全に破られています — セキュリティに使用しないでください。</strong> 衝突は1秒以内に発見されます。SHA-256を使用してください。",
+        "compare_title": "🔄 MD4 vs 現代",
+        "compare": {
+            "md5": {
+                "title": "MD4",
+                "desc1": "128ビット、3ラウンド",
+                "desc2": "破られた — 歴史的のみ"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128ビット、4ラウンド",
+                "desc2": "これも破られた"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256ビット、64ラウンド",
+                "desc2": "現代の安全な標準"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "MD4がまだ使われているのはなぜ？",
+            "a1": "MD4は主にWindowsのNTLM認証などのレガシープロトコルで見られます。",
+            "q2": "MD4はどのように破られた？",
+            "a2": "差分解読法により。完全な衝突が最小限の計算で発見されます。",
+            "q3": "MD4とMD5の関係は？",
+            "a3": "MD5は直接の後継です。Rivestは4番目のラウンドと追加の演算を加えました。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

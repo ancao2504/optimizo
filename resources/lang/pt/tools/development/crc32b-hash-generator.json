@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Gerador de Hash CRC-32B - Ferramenta Online Gratuita",
+        "description": "Gere hashes CRC-32B a partir de qualquer texto. A variante CRC-32 padrão em PHP e Python. Gratuito.",
+        "h1": "Gerador de Hash CRC-32B",
+        "subtitle": "Gere hashes CRC-32B — a variante padrão em PHP"
+    },
+    "editor": {
+        "label_input": "Introduzir texto",
+        "ph_input": "Introduza o texto para gerar um hash CRC-32B...",
+        "btn_generate": "Gerar Hash CRC-32B",
+        "label_result": "Hash CRC-32B",
+        "btn_copy": "Copiar"
+    },
+    "content": {
+        "hero_title": "Gerador de Hash CRC-32B",
+        "hero_subtitle": "Polinómio CRC-32B padrão para integridade de dados",
+        "p1": "CRC-32B é a variante mais comum da família CRC-32, usando o polinómio refletido 0xEDB88320. É a implementação CRC-32 padrão em PHP, Python, Java e na maioria das linguagens.",
+        "what_title": "O que é CRC-32B?",
+        "what_desc": "CRC-32B usa o polinómio 0x04C11DB7 na sua forma refletida 0xEDB88320. O sufixo 'B' distingue-o de outras variantes.",
+        "features_title": "✅ Vantagens",
+        "features": {
+            "fast": "<strong>Padrão nas linguagens:</strong> Implementação predefinida em PHP, Python, Java",
+            "fixed": "<strong>Deteção robusta:</strong> Deteta todos os erros de 1 e 2 bits",
+            "deterministic": "<strong>Interoperabilidade:</strong> Resultados consistentes entre plataformas",
+            "support": "<strong>Aceleração hardware:</strong> Suporte nativo CPU"
+        },
+        "uses_title": "📊 Casos de uso",
+        "uses": {
+            "verify": "<strong>Verificação de ficheiros:</strong> Controlo de integridade de downloads",
+            "checksum": "<strong>Bases de dados:</strong> Deteção de corrupção",
+            "cache": "<strong>APIs:</strong> Verificação de integridade de payloads",
+            "integrity": "<strong>Controlo de versão:</strong> Deteção de alterações"
+        },
+        "warning_title": "⚠️ Nota",
+        "warning_desc": "<strong>CRC-32B é funcionalmente idêntico a CRC-32 na maioria das linguagens.</strong>",
+        "compare_title": "🔄 Variantes CRC-32",
+        "compare": {
+            "md5": {
+                "title": "CRC-32B",
+                "desc1": "Polinómio 0xEDB88320",
+                "desc2": "Padrão mais comum"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "Variantes alternativas",
+                "desc2": "Diferentes polinómios"
+            },
+            "sha256": {
+                "title": "CRC-32C",
+                "desc1": "Polinómio Castagnoli",
+                "desc2": "Otimizado para iSCSI"
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "Diferença entre CRC-32 e CRC-32B?",
+            "a1": "Polinómios geradores diferentes. CRC-32B usa a forma refletida mais comum.",
+            "q2": "CRC-32B é criptograficamente seguro?",
+            "a2": "Não. É um checksum para deteção de erros, não para segurança.",
+            "q3": "Que linguagens usam CRC-32B?",
+            "a3": "PHP (crc32()), Python (binascii.crc32()), Java (java.util.zip.CRC32) e .NET."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor introduza texto",
+        "btn_copied": "Copiado!",
+        "btn_generating": "A gerar...",
+        "error_failed": "Falha ao gerar o hash. Tente novamente."
+    }
+}

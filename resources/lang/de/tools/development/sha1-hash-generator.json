@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-1 Hash Generator - Kostenloses Online-Tool",
+        "description": "Generieren Sie SHA-1-Hashes aus jedem Text. 160-Bit-Digest-Funktion, die Git und Legacy-Systeme antreibt. Kostenlos und sofort.",
+        "h1": "SHA-1 Hash Generator",
+        "subtitle": "SHA-1-Hashes mit 160 Bit generieren — die Hashfunktion hinter Git"
+    },
+    "editor": {
+        "label_input": "Text eingeben",
+        "ph_input": "Text eingeben, um SHA-1-Hash zu generieren...",
+        "btn_generate": "SHA-1 Hash generieren",
+        "label_result": "SHA-1 Hash",
+        "btn_copy": "Kopieren"
+    },
+    "content": {
+        "hero_title": "SHA-1 Hash Generator",
+        "hero_subtitle": "Die 160-Bit-Digest-Funktion, die Git antreibt",
+        "p1": "SHA-1 (Secure Hash Algorithm 1) ist eine kryptographische Hashfunktion der NSA, die einen 160-Bit-Digest (40 Hex-Zeichen) erzeugt. Obwohl praktische Kollisionen 2017 nachgewiesen wurden, wird SHA-1 weiterhin in Git zur Commit-Identifikation verwendet.",
+        "what_title": "Was ist SHA-1?",
+        "what_desc": "SHA-1 verarbeitet Daten in 512-Bit-Blöcken über 80 Runden von Operationen. Es erweitert einen 16-Wort-Nachrichtenplan auf 80 Wörter und wendet bitweise logische Operationen, modulare Additionen und zyklische Rotationen an.",
+        "features_title": "✅ Eigenschaften von SHA-1",
+        "features": {
+            "fast": "<strong>Git VCS:</strong> Identifiziert jeden Commit und jedes Objekt in Git-Repositories",
+            "fixed": "<strong>160-Bit-Ausgabe:</strong> 40-stelliger Hex-Digest",
+            "deterministic": "<strong>Breit unterstützt:</strong> Universell in allen Programmiersprachen verfügbar",
+            "support": "<strong>Schnell:</strong> Schnelle Berechnung mit Hardware-Unterstützung"
+        },
+        "uses_title": "📊 Häufige Anwendungsfälle",
+        "uses": {
+            "verify": "<strong>Git:</strong> Commit-Identifikation, Branching und Merging",
+            "checksum": "<strong>Dateiprüfsummen:</strong> Integritätsverifizierung",
+            "cache": "<strong>Legacy-Systeme:</strong> Ältere SSL/TLS-Zertifikate",
+            "integrity": "<strong>Fingerprinting:</strong> Inhaltsidentifikation"
+        },
+        "warning_title": "⚠️ Abkündigungshinweis",
+        "warning_desc": "<strong>SHA-1 ist kryptographisch veraltet.</strong> Google und CWI Amsterdam haben im Februar 2017 praktische Kollisionen nachgewiesen (SHAttered-Angriff). Verwenden Sie SHA-256 oder höher.",
+        "compare_title": "🔄 SHA-1 im Vergleich",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128 Bit",
+                "desc2": "Gebrochen — nicht verwenden"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160 Bit",
+                "desc2": "Veraltet — bekannte Kollisionen"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 Bit",
+                "desc2": "Sicher — empfohlen"
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Ist SHA-1 noch sicher?",
+            "a1": "Nein. Praktische Kollisionen wurden 2017 nachgewiesen. SHA-1 wird nicht mehr für digitale Signaturen oder Zertifikate akzeptiert.",
+            "q2": "Warum verwendet Git noch SHA-1?",
+            "a2": "Die Geschwindigkeit von SHA-1 und die Tatsache, dass Git es nicht im kryptographischen Sinne für Sicherheit nutzt, machten die Migration weniger dringend. Git migriert schrittweise zu SHA-256.",
+            "q3": "Was sollte statt SHA-1 verwendet werden?",
+            "a3": "Verwenden Sie SHA-256 für die meisten Anwendungen. Es bietet 128 Bit Kollisionsresistenz ohne bekannte praktische Angriffe."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte Text eingeben",
+        "btn_copied": "Kopiert!",
+        "btn_generating": "Wird generiert...",
+        "error_failed": "Hash-Generierung fehlgeschlagen. Bitte erneut versuchen."
+    }
+}

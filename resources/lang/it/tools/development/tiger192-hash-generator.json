@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Generatore di Hash Tiger-192 - Strumento Online Gratuito",
+        "description": "Genera hash Tiger-192 da qualsiasi testo. Hash Tiger completo a 192 bit per processori a 64 bit. Gratuito.",
+        "h1": "Generatore di Hash Tiger-192",
+        "subtitle": "Genera hash Tiger-192 completi — potenza massima Tiger"
+    },
+    "editor": {
+        "label_input": "Inserisci testo",
+        "ph_input": "Inserisci il testo per generare l'hash Tiger-192...",
+        "btn_generate": "Genera Hash Tiger-192",
+        "label_result": "Hash Tiger-192",
+        "btn_copy": "Copia"
+    },
+    "content": {
+        "hero_title": "Generatore di Hash Tiger-192",
+        "hero_subtitle": "Hash Tiger a piena potenza — 192 bit di sicurezza",
+        "p1": "Tiger-192 è la versione originale e completa della funzione hash Tiger. Produce un hash di 192 bit (48 caratteri hex) usando le tre parole di stato interne a 64 bit. Progettata per piattaforme a 64 bit con 96 bit di resistenza alle collisioni.",
+        "what_title": "Cos'è Tiger-192?",
+        "what_desc": "Tiger-192 elabora blocchi di 512 bit in tre passate di otto round ciascuna (24 round in totale). Le tre variabili di stato a 64 bit producono l'output di 192 bit.",
+        "features_title": "✅ Caratteristiche",
+        "features": {
+            "fast": "<strong>Velocità massima:</strong> Uno degli hash più veloci in 64 bit",
+            "fixed": "<strong>Output 192 bit:</strong> Digest di 48 caratteri",
+            "deterministic": "<strong>Sicurezza 96 bit:</strong> Forte resistenza alle collisioni",
+            "support": "<strong>Lunghezza unica:</strong> Pochi hash producono output di 192 bit"
+        },
+        "uses_title": "📊 Casi d'uso",
+        "uses": {
+            "verify": "<strong>Hashing ad alta velocità:</strong> Quando SHA-256 è troppo lento",
+            "checksum": "<strong>File system:</strong> Checksum veloci per grandi collezioni",
+            "cache": "<strong>Protocolli P2P:</strong> TTH in Direct Connect",
+            "integrity": "<strong>Deduplicazione:</strong> Identificazione rapida di blocchi duplicati"
+        },
+        "warning_title": "💡 Filosofia di design",
+        "warning_desc": "<strong>Tiger è stato progettato per la velocità senza sacrificare troppa sicurezza.</strong> Per sicurezza massima, SHA-256 o SHA-512 sono preferibili.",
+        "compare_title": "🔄 Confronto Tiger-192",
+        "compare": {
+            "md5": {
+                "title": "Tiger-192",
+                "desc1": "192 bit, ops 64 bit",
+                "desc2": "Più veloce in 64 bit, 96 bit sicurezza"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256 bit, ops 32 bit",
+                "desc2": "Più sicura, più standard"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512 bit, ops 64 bit",
+                "desc2": "Sicurezza massima"
+            }
+        },
+        "faq_title": "❓ Domande frequenti",
+        "faq": {
+            "q1": "Tiger-192 è abbastanza sicura?",
+            "a1": "96 bit di resistenza alle collisioni. Sotto la raccomandazione moderna di 128 bit, ma nessun attacco pratico noto.",
+            "q2": "Cos'è Tiger Tree Hash (TTH)?",
+            "a2": "TTH applica Tiger-192 in struttura ad albero Merkle per la verifica parziale dei file. Usato in DC++.",
+            "q3": "Tiger vs BLAKE3?",
+            "a3": "BLAKE3 è più veloce sull'hardware moderno grazie al parallelismo SIMD."
+        }
+    },
+    "js": {
+        "error_empty": "Inserisci del testo",
+        "btn_copied": "Copiato!",
+        "btn_generating": "Generazione...",
+        "error_failed": "Generazione hash fallita. Riprova."
+    }
+}

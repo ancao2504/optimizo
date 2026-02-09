@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Adler-32ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからAdler-32ハッシュを生成。zlib圧縮ライブラリで使用される高速チェックサム関数。無料。",
+        "h1": "Adler-32ハッシュジェネレーター",
+        "subtitle": "Adler-32チェックサムを生成 — 高速・軽量"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "Adler-32ハッシュを生成するテキストを入力...",
+        "btn_generate": "Adler-32ハッシュを生成",
+        "label_result": "Adler-32ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "Adler-32ハッシュジェネレーター",
+        "hero_subtitle": "エラー検出のための超高速チェックサム関数",
+        "p1": "Adler-32は、1995年にMark Adlerによって設計されたチェックサム関数です。32ビットハッシュ（16進数8文字）を生成します。zlib圧縮ライブラリやrsyncプロトコルで広く使用され、CRC-32より大幅に高速になるよう設計されています。",
+        "what_title": "Adler-32とは？",
+        "what_desc": "Adler-32は2つの合計を使用：A（全バイトの合計+1）とB（全A値の累積合計）。両方とも素数65521で剰余演算されます。最終ハッシュ：B × 65536 + A。",
+        "features_title": "✅ Adler-32の利点",
+        "features": {
+            "fast": "<strong>超高速：</strong> ソフトウェアでCRC-32より大幅に高速",
+            "fixed": "<strong>低消費：</strong> 最小限のCPUとメモリ使用量",
+            "deterministic": "<strong>簡単な実装：</strong> わずか数行のコードで実装可能",
+            "support": "<strong>実績のある本番利用：</strong> zlibで数十億のストリームを処理"
+        },
+        "uses_title": "📊 一般的な用途",
+        "uses": {
+            "verify": "<strong>zlib圧縮：</strong> ストリーム整合性検証",
+            "checksum": "<strong>rsyncプロトコル：</strong> 高速ファイル変更検出",
+            "cache": "<strong>ネットワークチェック：</strong> 軽量パケット検証",
+            "integrity": "<strong>データ転送：</strong> ストリームエラー検出"
+        },
+        "warning_title": "⚠️ セキュリティに関する注意",
+        "warning_desc": "<strong>Adler-32は暗号学的ハッシュ関数ではありません。</strong> エラー検出用のチェックサムであり、セキュリティ用ではありません。暗号学的な用途にはSHA-256を使用してください。",
+        "compare_title": "🔄 Adler-32の比較",
+        "compare": {
+            "md5": {
+                "title": "Adler-32",
+                "desc1": "32ビット、非暗号学的",
+                "desc2": "最速、最小限の検出"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "32ビット、多項式",
+                "desc2": "より遅いが検出力が高い"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128ビット、暗号学的",
+                "desc2": "はるかに高いセキュリティ"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "Adler-32とCRC-32の違いは？",
+            "a1": "Adler-32は計算が速いですが、CRC-32より検出できるエラーの種類が少ないです。CRC-32はより多くのエラーパターンを捕捉する多項式除算を使用します。",
+            "q2": "Adler-32をセキュリティに使えますか？",
+            "a2": "いいえ。Adler-32はチェックサムであり、暗号学的ハッシュ関数ではありません。衝突は容易に生成できます。",
+            "q3": "zlibがCRC-32の代わりにAdler-32を使うのはなぜ？",
+            "a3": "zlibは速度を優先しています。圧縮データには通常、上位レベルのチェックがあります。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

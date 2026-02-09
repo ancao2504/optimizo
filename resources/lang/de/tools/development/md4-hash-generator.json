@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "MD4 Hash Generator - Kostenloses Online-Tool",
+        "description": "Generieren Sie MD4-Hashes aus jedem Text. Historischer Vorgänger von MD5, entworfen von Ron Rivest. Kostenlos und sofort.",
+        "h1": "MD4 Hash Generator",
+        "subtitle": "MD4-Hashes mit 128 Bit generieren — Ursprung der modernen Kryptographie"
+    },
+    "editor": {
+        "label_input": "Text eingeben",
+        "ph_input": "Text eingeben, um MD4-Hash zu generieren...",
+        "btn_generate": "MD4 Hash generieren",
+        "label_result": "MD4 Hash",
+        "btn_copy": "Kopieren"
+    },
+    "content": {
+        "hero_title": "MD4 Hash Generator",
+        "hero_subtitle": "Die bahnbrechende Hashfunktion, die die moderne Kryptographie begründete",
+        "p1": "MD4 (Message Digest 4) ist eine kryptographische Hashfunktion, die 1990 von Ron Rivest am MIT entwickelt wurde. Sie erzeugt einen 128-Bit-Hashwert (32 Hex-Zeichen). Obwohl kryptographisch gebrochen, hat MD4 enorme historische Bedeutung als direkter Vorfahre von MD5, SHA-1 und der gesamten SHA-2-Familie.",
+        "what_title": "Was ist MD4?",
+        "what_desc": "MD4 verarbeitet Daten in 512-Bit-Blöcken über drei Runden mit jeweils 16 Operationen (48 insgesamt). Es hält vier 32-Bit-Zustandsvariablen, die durch bitweise Operationen, modulare Addition und Rotationen gemischt werden.",
+        "features_title": "✅ Eigenschaften von MD4",
+        "features": {
+            "fast": "<strong>Historischer Pionier:</strong> Grundlage des Merkle-Damgård-Frameworks",
+            "fixed": "<strong>128-Bit-Ausgabe:</strong> 32-stelliger Hex-Digest",
+            "deterministic": "<strong>Direkter Einfluss:</strong> Führte direkt zu MD5, SHA-1 und SHA-2",
+            "support": "<strong>Einfach:</strong> Nur 48 Operationen pro Block"
+        },
+        "uses_title": "📊 Anwendungsfälle",
+        "uses": {
+            "verify": "<strong>Legacy-Systeme:</strong> NTLM-Authentifizierungsprotokolle",
+            "checksum": "<strong>Bildung:</strong> Lernen des kryptographischen Hashfunktions-Designs",
+            "cache": "<strong>Forschung:</strong> Studium der Entwicklung der Differentialanalyse",
+            "integrity": "<strong>Nicht-sicherheitsbezogen:</strong> Schnelle Prüfsummen"
+        },
+        "warning_title": "⚠️ Sicherheitswarnung",
+        "warning_desc": "<strong>MD4 ist vollständig gebrochen — nicht für Sicherheit verwenden.</strong> Kollisionen können auf modernen Computern in unter einer Sekunde gefunden werden. Verwenden Sie SHA-256 oder SHA-512.",
+        "compare_title": "🔄 MD4 im Vergleich mit modernen Algorithmen",
+        "compare": {
+            "md5": {
+                "title": "MD4",
+                "desc1": "128 Bit, 3 Runden",
+                "desc2": "Gebrochen — nur historisch"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128 Bit, 4 Runden",
+                "desc2": "Ebenfalls gebrochen, aber weiter verbreitet"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 Bit, 64 Runden",
+                "desc2": "Sicherer moderner Standard"
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Warum wird MD4 noch verwendet?",
+            "a1": "MD4 erscheint hauptsächlich in Legacy-Protokollen wie der NTLM-Authentifizierung in Windows. Es sollte nicht in neuen Anwendungen verwendet werden.",
+            "q2": "Wie wurde MD4 gebrochen?",
+            "a2": "MD4 wurde durch differentielle Kryptoanalyse gebrochen. Vollständige Kollisionen können mit minimalem Rechenaufwand gefunden werden.",
+            "q3": "Was ist die Beziehung zwischen MD4 und MD5?",
+            "a3": "MD5 ist der direkte Nachfolger von MD4. Rivest fügte eine vierte Runde und zusätzliche Operationen hinzu."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte Text eingeben",
+        "btn_copied": "Kopiert!",
+        "btn_generating": "Wird generiert...",
+        "error_failed": "Hash-Generierung fehlgeschlagen. Bitte erneut versuchen."
+    }
+}

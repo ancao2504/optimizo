@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Tiger-128ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからTiger-128ハッシュを生成。64ビットシステム向けに最適化された高速128ビットハッシュ。無料。",
+        "h1": "Tiger-128ハッシュジェネレーター",
+        "subtitle": "Tiger-128ハッシュを生成 — 64ビットパフォーマンス向けに最適化"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "Tiger-128ハッシュを生成するテキストを入力...",
+        "btn_generate": "Tiger-128ハッシュを生成",
+        "label_result": "Tiger-128ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "Tiger-128ハッシュジェネレーター",
+        "hero_subtitle": "64ビットプロセッサ向け高速128ビットハッシュ",
+        "p1": "Tiger-128は、1995年にRoss AndersonとEli Bihamが設計したTigerハッシュ関数の切り詰め版です。128ビットハッシュ（16進数32文字）を生成し、64ビットプラットフォーム専用に設計されています。",
+        "what_title": "Tiger-128とは？",
+        "what_desc": "Tigerはデータを512ビットブロックで3パスに編成された24ラウンドで処理します。Tiger-128は完全な192ビット出力を128ビットに切り詰めます。",
+        "features_title": "✅ 特徴",
+        "features": {
+            "fast": "<strong>64ビット最適化：</strong> モダンプロセッサで非常に高速",
+            "fixed": "<strong>128ビット出力：</strong> コンパクトな32文字ダイジェスト",
+            "deterministic": "<strong>S-box設計：</strong> 4つの大きな置換テーブル",
+            "support": "<strong>ファイル共有：</strong> ed2kとDC++プロトコルで使用"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>P2Pネットワーク：</strong> 共有プロトコルでのファイル識別",
+            "checksum": "<strong>整合性チェック：</strong> 64ビットシステムでの高速検証",
+            "cache": "<strong>フィンガープリント：</strong> コンテンツベースのストレージ識別子",
+            "integrity": "<strong>重複排除：</strong> 効率的な重複検出"
+        },
+        "warning_title": "⚠️ 注意",
+        "warning_desc": "<strong>Tiger-128は64ビットの衝突耐性のみ提供します。</strong> 暗号セキュリティにはSHA-256を使用してください。",
+        "compare_title": "🔄 Tigerファミリー",
+        "compare": {
+            "md5": {
+                "title": "Tiger-128",
+                "desc1": "128ビット",
+                "desc2": "64ビット耐性"
+            },
+            "sha1": {
+                "title": "Tiger-160",
+                "desc1": "160ビット",
+                "desc2": "80ビット耐性"
+            },
+            "sha256": {
+                "title": "Tiger-192",
+                "desc1": "192ビット",
+                "desc2": "96ビット耐性"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "Tigerが64ビット向けに設計された理由は？",
+            "a1": "1995年に64ビットプロセッサが出現し、既存のハッシュ関数は32ビット向けに最適化されていました。",
+            "q2": "Tiger-128 vs MD5？",
+            "a2": "64ビットシステムでTiger-128はMD5より大幅に高速です。",
+            "q3": "Tiger-128はまだ有用？",
+            "a3": "P2Pファイル共有で使用されています。新しいプロジェクトにはBLAKE3を検討してください。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

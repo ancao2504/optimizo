@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Snefru Hash Generator - Free Online Tool",
+        "description": "Generate Snefru hashes from any text. Xerox PARC-designed hash function producing 128 or 256-bit digests. Free online Snefru generator.",
+        "h1": "Snefru Hash Generator",
+        "subtitle": "Generate Snefru hashes — Xerox PARC's historic hash function"
+    },
+    "editor": {
+        "label_input": "Enter Text",
+        "ph_input": "Enter text to generate Snefru hash...",
+        "btn_generate": "Generate Snefru Hash",
+        "label_result": "Snefru Hash",
+        "btn_copy": "Copy"
+    },
+    "content": {
+        "hero_title": "Snefru Hash Generator",
+        "hero_subtitle": "Generate Snefru hashes — an early landmark in cryptographic design",
+        "p1": "Snefru is a cryptographic hash function designed by Ralph Merkle at Xerox PARC in 1990, named after the Egyptian Pharaoh Sneferu. It can produce either 128-bit or 256-bit hash values. Snefru is historically significant as one of the first hash functions designed using the Merkle-Damgård construction, which later became the basis for MD5, SHA-1, and SHA-2. While broken for security use, Snefru remains important for understanding hash function evolution.",
+        "what_title": "What is Snefru?",
+        "what_desc": "Snefru processes input in 512-bit blocks (for 128-bit output) or 384-bit blocks (for 256-bit output) using a series of reversible rounds with S-box-based mixing. The original 2-round version was quickly broken by Eli Biham and Adi Shamir using differential cryptanalysis. The strengthened 8-round version is more resistant but still not considered secure by modern standards.",
+        "features_title": "✅ Snefru Characteristics",
+        "features": {
+            "fast": "<strong>Historical Pioneer:</strong> One of the first Merkle-Damgård hash functions",
+            "fixed": "<strong>256-bit Output:</strong> Produces a 64-character hexadecimal hash",
+            "deterministic": "<strong>Xerox PARC:</strong> Designed by Ralph Merkle, inventor of Merkle trees",
+            "support": "<strong>Educational Value:</strong> Key to understanding hash function evolution"
+        },
+        "uses_title": "📊 Use Cases",
+        "uses": {
+            "verify": "<strong>Legacy Systems:</strong> Compatibility with older Xerox systems",
+            "checksum": "<strong>Education:</strong> Teaching cryptographic hash function design",
+            "cache": "<strong>Research:</strong> Studying differential cryptanalysis resistance",
+            "integrity": "<strong>Historical Analysis:</strong> Understanding hash evolution from Snefru to SHA-2"
+        },
+        "warning_title": "⚠️ Security Warning",
+        "warning_desc": "<strong>Snefru is BROKEN for cryptographic purposes.</strong> Differential cryptanalysis by Biham and Shamir found collisions in the 2-round version, and attacks exist on the higher-round versions. Do NOT use Snefru for security. Use SHA-256 or SHA-512 instead.",
+        "compare_title": "🔄 Snefru vs Modern Algorithms",
+        "compare": {
+            "md5": {
+                "title": "Snefru",
+                "desc1": "128\/256-bit, S-box based",
+                "desc2": "Broken — historical interest only"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128-bit output",
+                "desc2": "Also broken, but more widely used"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256-bit output",
+                "desc2": "Secure modern standard"
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Why is Snefru named after a pharaoh?",
+            "a1": "Ralph Merkle named it after the Egyptian Pharaoh Sneferu, following a tradition of naming cryptographic algorithms after Egyptian elements (similar to how Khufu and Khafre block ciphers were named).",
+            "q2": "How was Snefru broken?",
+            "a2": "Eli Biham and Adi Shamir applied differential cryptanalysis to find collisions in the 2-round version. Their attack was later extended to higher round counts, demonstrating fundamental weaknesses in the design.",
+            "q3": "What's Snefru's legacy?",
+            "a3": "Snefru helped establish the Merkle-Damgård construction as the dominant paradigm for hash function design. Its vulnerabilities also spurred research into differential cryptanalysis resistance."
+        }
+    },
+    "js": {
+        "error_empty": "Please enter some text",
+        "btn_copied": "Copied!",
+        "btn_generating": "Generating...",
+        "error_failed": "Hash generation failed. Please try again."
+    }
+}

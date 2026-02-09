@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Tiger-192 Hash Oluşturucu - Ücretsiz Çevrimiçi Araç",
+        "description": "Herhangi bir metinden Tiger-192 hash'leri oluşturun. 64 bit işlemciler için tam 192 bitlik Tiger hash. Ücretsiz.",
+        "h1": "Tiger-192 Hash Oluşturucu",
+        "subtitle": "Tam Tiger-192 hash'leri oluşturun — maksimum Tiger gücü"
+    },
+    "editor": {
+        "label_input": "Metin girin",
+        "ph_input": "Tiger-192 hash oluşturmak için metin girin...",
+        "btn_generate": "Tiger-192 Hash Oluştur",
+        "label_result": "Tiger-192 Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "Tiger-192 Hash Oluşturucu",
+        "hero_subtitle": "Tam güçte Tiger — 192 bit güvenlik",
+        "p1": "Tiger-192, Tiger hash fonksiyonunun orijinal ve tam versiyonudur. Üç 64 bitlik dahili durum sözcüğünü kullanarak 192 bitlik hash (48 hex karakter) üretir.",
+        "what_title": "Tiger-192 nedir?",
+        "what_desc": "Tiger-192, 512 bitlik blokları her biri sekiz turdan oluşan üç geçişte (toplam 24 tur) işler.",
+        "features_title": "✅ Özellikler",
+        "features": {
+            "fast": "<strong>Maksimum hız:</strong> 64 bit'te en hızlı hash'lerden biri",
+            "fixed": "<strong>192 bit çıkış:</strong> 48 karakterlik özet",
+            "deterministic": "<strong>96 bit güvenlik:</strong> Güçlü çarpışma direnci",
+            "support": "<strong>Benzersiz uzunluk:</strong> Az sayıda hash 192 bit üretir"
+        },
+        "uses_title": "📊 Kullanım alanları",
+        "uses": {
+            "verify": "<strong>Yüksek hızlı hash'leme:</strong> SHA-256 çok yavaş olduğunda",
+            "checksum": "<strong>Dosya sistemleri:</strong> Büyük koleksiyonlar için hızlı sağlama toplamları",
+            "cache": "<strong>P2P protokoller:</strong> Direct Connect'te TTH",
+            "integrity": "<strong>Tekilleştirme:</strong> Hızlı kopya blok tanımlama"
+        },
+        "warning_title": "💡 Tasarım felsefesi",
+        "warning_desc": "<strong>Tiger, çok fazla güvenlik feda etmeden hız için tasarlandı.</strong> Maksimum güvenlik için SHA-256 veya SHA-512 tercih edilir.",
+        "compare_title": "🔄 Karşılaştırma",
+        "compare": {
+            "md5": {
+                "title": "Tiger-192",
+                "desc1": "192 bit, 64 bit işlem",
+                "desc2": "64 bit'te daha hızlı"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Daha güvenli, daha standart"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512 bit",
+                "desc2": "Maksimum güvenlik"
+            }
+        },
+        "faq_title": "❓ Sıkça sorulan sorular",
+        "faq": {
+            "q1": "Tiger-192 yeterince güvenli mi?",
+            "a1": "96 bit çarpışma direnci. Modern 128 bit önerisinin altında ama bilinen pratik saldırı yok.",
+            "q2": "Tiger Tree Hash (TTH) nedir?",
+            "a2": "TTH, Tiger-192'yi Merkle ağacı yapısında uygular. DC++'da kullanılır.",
+            "q3": "Tiger vs BLAKE3?",
+            "a3": "BLAKE3, SIMD paralelizmi sayesinde modern donanımda daha hızlıdır."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen metin girin",
+        "btn_copied": "Kopyalandı!",
+        "btn_generating": "Oluşturuluyor...",
+        "error_failed": "Hash oluşturulamadı. Tekrar deneyin."
+    }
+}

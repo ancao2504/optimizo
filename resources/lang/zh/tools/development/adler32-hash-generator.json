@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Adler-32哈希生成器 - 免费在线工具",
+        "description": "从任何文本生成Adler-32哈希。zlib压缩库中使用的快速校验和函数。免费。",
+        "h1": "Adler-32哈希生成器",
+        "subtitle": "生成Adler-32校验和 — 快速轻量"
+    },
+    "editor": {
+        "label_input": "输入文本",
+        "ph_input": "输入文本以生成Adler-32哈希...",
+        "btn_generate": "生成Adler-32哈希",
+        "label_result": "Adler-32哈希",
+        "btn_copy": "复制"
+    },
+    "content": {
+        "hero_title": "Adler-32哈希生成器",
+        "hero_subtitle": "用于错误检测的超快速校验和函数",
+        "p1": "Adler-32是Mark Adler于1995年设计的校验和函数。生成32位哈希（8个十六进制字符）。广泛用于zlib压缩库和rsync协议，设计比CRC-32快得多。",
+        "what_title": "什么是Adler-32？",
+        "what_desc": "Adler-32使用两个和：A（所有字节之和加1）和B（所有A值的累积和）。两者都对素数65521取模。最终哈希：B × 65536 + A。",
+        "features_title": "✅ 优势",
+        "features": {
+            "fast": "<strong>超高速：</strong> 软件中比CRC-32快得多",
+            "fixed": "<strong>低消耗：</strong> 最小CPU和内存使用",
+            "deterministic": "<strong>简单实现：</strong> 只需几行代码",
+            "support": "<strong>生产验证：</strong> 在zlib中处理了数十亿流"
+        },
+        "uses_title": "📊 常见用途",
+        "uses": {
+            "verify": "<strong>zlib压缩：</strong> 流完整性验证",
+            "checksum": "<strong>rsync协议：</strong> 快速文件变更检测",
+            "cache": "<strong>网络检查：</strong> 轻量级数据包验证",
+            "integrity": "<strong>数据传输：</strong> 流错误检测"
+        },
+        "warning_title": "⚠️ 安全提示",
+        "warning_desc": "<strong>Adler-32不是加密哈希函数。</strong> 它是用于错误检测的校验和，不用于安全。加密需求请使用SHA-256。",
+        "compare_title": "🔄 Adler-32对比",
+        "compare": {
+            "md5": {
+                "title": "Adler-32",
+                "desc1": "32位，非加密",
+                "desc2": "最快，最少检测"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "32位，多项式",
+                "desc2": "较慢但检测力更强"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128位，加密",
+                "desc2": "安全性更高"
+            }
+        },
+        "faq_title": "❓ 常见问题",
+        "faq": {
+            "q1": "Adler-32和CRC-32有什么区别？",
+            "a1": "Adler-32计算更快，但能检测的错误类型比CRC-32少。CRC-32使用多项式除法捕获更多错误模式。",
+            "q2": "Adler-32可以用于安全吗？",
+            "a2": "不能。Adler-32是校验和，不是加密哈希函数。碰撞很容易生成。",
+            "q3": "zlib为什么使用Adler-32而不是CRC-32？",
+            "a3": "zlib优先考虑速度。压缩数据通常有更高层级的检查。"
+        }
+    },
+    "js": {
+        "error_empty": "请输入文本",
+        "btn_copied": "已复制！",
+        "btn_generating": "生成中...",
+        "error_failed": "哈希生成失败。请重试。"
+    }
+}

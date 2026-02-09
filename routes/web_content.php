@@ -55,6 +55,7 @@ use App\Http\Controllers\Tools\Development\JsonToYamlConverterController;
 use App\Http\Controllers\Tools\Development\JwtDecoderController;
 use App\Http\Controllers\Tools\Development\MarkdownToHtmlConverterController;
 use App\Http\Controllers\Tools\Development\Md5GeneratorController;
+use App\Http\Controllers\Tools\Development\HashGeneratorController;
 use App\Http\Controllers\Tools\Development\SqlToJsonConverterController;
 use App\Http\Controllers\Tools\Development\UnicodeEncoderDecoderController;
 use App\Http\Controllers\Tools\Development\UrlEncoderDecoderController;
@@ -500,6 +501,31 @@ Route::prefix('tools')->group(function () use ($n) {
         return redirect()->route('development.sql-to-json-converter', [], 301);
     });
     Route::get('sql-to-json-converter', [SqlToJsonConverterController::class, 'index'])->name($n('development.sql-to-json-converter'));
+
+    // Hash Generator Tools
+    $hashTools = [
+        'adler32-hash-generator',
+        'crc32-hash-generator',
+        'crc32b-hash-generator',
+        'md4-hash-generator',
+        'sha1-hash-generator',
+        'sha256-hash-generator',
+        'sha384-hash-generator',
+        'sha512-hash-generator',
+        'ripemd128-hash-generator',
+        'ripemd160-hash-generator',
+        'tiger128-hash-generator',
+        'tiger160-hash-generator',
+        'tiger192-hash-generator',
+        'whirlpool-hash-generator',
+        'snefru-hash-generator',
+        'haval128-hash-generator',
+        'gost-hash-generator',
+    ];
+    foreach ($hashTools as $ht) {
+        Route::get($ht, [HashGeneratorController::class, 'index'])->defaults('slug', $ht)->name($n('development.' . $ht));
+        Route::post($ht, [HashGeneratorController::class, 'process'])->defaults('slug', $ht)->name($n('development.' . $ht . '.generate'));
+    }
 });
 
 // Converters Tools

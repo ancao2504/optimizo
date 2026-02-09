@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "CRC-32哈希生成器 - 免费在线工具",
+        "description": "从任何文本生成CRC-32哈希。标准循环冗余校验。免费。",
+        "h1": "CRC-32哈希生成器",
+        "subtitle": "生成CRC-32校验和 — 行业标准"
+    },
+    "editor": {
+        "label_input": "输入文本",
+        "ph_input": "输入文本以生成CRC-32哈希...",
+        "btn_generate": "生成CRC-32哈希",
+        "label_result": "CRC-32哈希",
+        "btn_copy": "复制"
+    },
+    "content": {
+        "hero_title": "CRC-32哈希生成器",
+        "hero_subtitle": "数据完整性的标准循环冗余校验",
+        "p1": "CRC-32是世界上最广泛使用的非加密校验和函数。通过多项式除法生成32位哈希（8个十六进制字符）。CRC-32无处不在：ZIP和PNG格式、以太网网络、USB协议和文件系统。",
+        "what_title": "什么是CRC-32？",
+        "what_desc": "CRC-32将输入数据视为一个大多项式，计算除以固定生成多项式后的余数。",
+        "features_title": "✅ 优势",
+        "features": {
+            "fast": "<strong>硬件加速：</strong> Intel CRC32指令以内存速度计算",
+            "fixed": "<strong>强力检测：</strong> 检测所有1位、2位和奇数位错误",
+            "deterministic": "<strong>通用标准：</strong> 以太网、USB、ZIP、PNG、MPEG-2",
+            "support": "<strong>简单快速：</strong> 查找表实现快速计算"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>归档：</strong> ZIP和gzip完整性验证",
+            "checksum": "<strong>网络：</strong> 以太网帧验证",
+            "cache": "<strong>存储：</strong> 文件系统完整性",
+            "integrity": "<strong>多媒体：</strong> PNG和MPEG文件完整性"
+        },
+        "warning_title": "⚠️ 安全提示",
+        "warning_desc": "<strong>CRC-32不是加密哈希函数。</strong> 设计用于检测随机错误，而非防止蓄意篡改。",
+        "compare_title": "🔄 CRC-32对比",
+        "compare": {
+            "md5": {
+                "title": "CRC-32",
+                "desc1": "32位，多项式",
+                "desc2": "错误检测，非加密"
+            },
+            "sha1": {
+                "title": "Adler-32",
+                "desc1": "32位，算术",
+                "desc2": "更快但检测力弱"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128位，加密",
+                "desc2": "慢得多但安全"
+            }
+        },
+        "faq_title": "❓ 常见问题",
+        "faq": {
+            "q1": "CRC-32和CRC-32B有什么区别？",
+            "a1": "使用不同的生成多项式。CRC-32B是PHP默认计算的变体。",
+            "q2": "CRC-32为什么不能用于安全？",
+            "a2": "CRC-32是线性可逆的。攻击者可以轻松生成碰撞。",
+            "q3": "CRC-32能检测所有错误吗？",
+            "a3": "不能。CRC-32检测所有1位和2位错误，但可能遗漏某些错误模式。"
+        }
+    },
+    "js": {
+        "error_empty": "请输入文本",
+        "btn_copied": "已复制！",
+        "btn_generating": "生成中...",
+        "error_failed": "哈希生成失败。请重试。"
+    }
+}

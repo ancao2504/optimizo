@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "RIPEMD-160ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからRIPEMD-160ハッシュを生成。BitcoinアドレスとPGPフィンガープリントで使用。無料。",
+        "h1": "RIPEMD-160ハッシュジェネレーター",
+        "subtitle": "RIPEMD-160ハッシュを生成 — Bitcoinアドレスの裏にあるハッシュ"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "RIPEMD-160ハッシュを生成するテキストを入力...",
+        "btn_generate": "RIPEMD-160ハッシュを生成",
+        "label_result": "RIPEMD-160ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "RIPEMD-160ハッシュジェネレーター",
+        "hero_subtitle": "Bitcoinアドレスの裏にある欧州ハッシュ関数",
+        "p1": "RIPEMD-160は160ビットハッシュ（16進数40文字）を生成し、ベルギーのKU Leuvenで開発されました。Bitcoinで使用 — 全てのBitcoinアドレスはSHA-256に続きRIPEMD-160（HASH160）で導出されます。",
+        "what_title": "RIPEMD-160とは？",
+        "what_desc": "RIPEMD-160はRIPEMD-128の設計を拡張し、2つの並列処理チェーンに5番目のラウンドを追加します。",
+        "features_title": "✅ 利点",
+        "features": {
+            "fast": "<strong>Bitcoin標準：</strong> アドレス生成のHASH160で使用",
+            "fixed": "<strong>160ビット出力：</strong> 16進数40文字",
+            "deterministic": "<strong>独立設計：</strong> 政府機関が設計していない",
+            "support": "<strong>実証済みセキュリティ：</strong> 1996年以来実用的な攻撃なし"
+        },
+        "uses_title": "📊 使用場面",
+        "uses": {
+            "verify": "<strong>Bitcoin：</strong> SHA-256 + RIPEMD-160 = HASH160",
+            "checksum": "<strong>PGP/GPG：</strong> 鍵フィンガープリント計算",
+            "cache": "<strong>スマートカード：</strong> 欧州EMV認証",
+            "integrity": "<strong>暗号多様性：</strong> SHAアルゴリズムの代替"
+        },
+        "warning_title": "💡 コンテキスト",
+        "warning_desc": "<strong>RIPEMD-160は80ビットの衝突耐性を提供します。</strong> 新しいアプリケーションにはSHA-256が推奨されます。",
+        "compare_title": "🔄 RIPEMD-160 vs その他",
+        "compare": {
+            "md5": {
+                "title": "RIPEMD-160",
+                "desc1": "160ビット、デュアルチェーン",
+                "desc2": "既知の衝突なし"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160ビット、シングルチェーン",
+                "desc2": "衝突が実証済み（2017年）"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256ビット",
+                "desc2": "より安全、推奨"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "BitcoinがRIPEMD-160を使う理由は？",
+            "a1": "BitcoinはHASH160を使用して暗号多様性を維持しながらアドレスを短縮します。",
+            "q2": "RIPEMD-160はSHA-1より安全？",
+            "a2": "実用的にはイエスです。実用的な衝突は見つかっていません。",
+            "q3": "新しいプロジェクトでRIPEMD-160を使うべき？",
+            "a3": "新しいプロジェクトにはSHA-256が推奨されます。RIPEMD-160はBitcoin互換性のためです。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

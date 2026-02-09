@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Tiger-192 Hash Generator - Công cụ trực tuyến miễn phí",
+        "description": "Generate Tiger-192 hashes from any text. Full 192-bit Tiger hash designed for 64-bit processors. Free, fast, and secure.",
+        "h1": "Tiger-192 Hash Generator",
+        "subtitle": "Generate full 192-bit Tiger hashes — maximum Tiger security"
+    },
+    "editor": {
+        "label_input": "Nhập văn bản",
+        "ph_input": "Nhập văn bản để tạo Tiger-192 hash...",
+        "btn_generate": "Tạo Tiger-192 Hash",
+        "label_result": "Tiger-192 Hash",
+        "btn_copy": "Sao chép"
+    },
+    "content": {
+        "hero_title": "Tiger-192 Hash Generator",
+        "hero_subtitle": "The full-strength Tiger hash — 192 bits of security",
+        "p1": "Tiger-192 is the original, full-strength version of the Tiger hash function by Ross Anderson and Eli Biham. It produces a 192-bit (48-character hex) hash value using all three 64-bit words of the internal state. Designed specifically for 64-bit platforms, Tiger-192 provides 96-bit collision resistance and exceptional throughput. It's one of the few hash functions that natively produces a 192-bit output.",
+        "what_title": "What is Tiger-192?",
+        "what_desc": "Tiger-192 processes 512-bit blocks through three passes of eight rounds each (24 rounds total). Each round uses lookup tables with 1024 entries (4 S-boxes × 256 entries × 64 bits). The algorithm maintains three 64-bit state variables (a, b, c) that are combined after all rounds to produce the 192-bit output. The key schedule multiplies message words to achieve rapid diffusion.",
+        "features_title": "✅ Tiger-192 Features",
+        "features": {
+            "fast": "<strong>Ultimate Speed:</strong> One of the fastest hash functions on 64-bit CPUs",
+            "fixed": "<strong>192-bit Output:</strong> 48-character hexadecimal digest",
+            "deterministic": "<strong>96-bit Security:</strong> Strong collision resistance",
+            "support": "<strong>Unique Length:</strong> One of few algorithms producing 192-bit hashes"
+        },
+        "uses_title": "📊 Common Use Cases",
+        "uses": {
+            "verify": "<strong>High-Speed Hashing:</strong> When SHA-256 is too slow for your throughput",
+            "checksum": "<strong>File Systems:</strong> Fast checksums for large file collections",
+            "cache": "<strong>P2P Protocols:</strong> TTH (Tiger Tree Hash) in Direct Connect",
+            "integrity": "<strong>Data Deduplication:</strong> Identifying duplicate blocks quickly"
+        },
+        "warning_title": "💡 Design Philosophy",
+        "warning_desc": "<strong>Tiger was designed for speed without sacrificing too much security.</strong> It achieves this through carefully chosen S-boxes and 64-bit operations. For maximum security, SHA-256 or SHA-512 are preferred. For maximum non-cryptographic speed, consider xxHash or BLAKE3.",
+        "compare_title": "🔄 Tiger-192 vs Other Algorithms",
+        "compare": {
+            "md5": {
+                "title": "Tiger-192",
+                "desc1": "192-bit, 64-bit ops",
+                "desc2": "Fastest on 64-bit, 96-bit security"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256-bit, 32-bit ops",
+                "desc2": "Higher security, more standard"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512-bit, 64-bit ops",
+                "desc2": "Highest security, also fast on 64-bit"
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Is Tiger-192 secure enough for modern use?",
+            "a1": "Tiger-192 provides 96-bit collision resistance. While below the 128-bit modern recommendation, no practical attacks exist. For new security applications, prefer SHA-256.",
+            "q2": "What is Tiger Tree Hash (TTH)?",
+            "a2": "TTH applies Tiger-192 in a Merkle tree structure, hashing file chunks independently. This allows verifying parts of a file without downloading the whole thing. It's used in Direct Connect (DC++) P2P.",
+            "q3": "Tiger vs BLAKE3 for speed?",
+            "a3": "BLAKE3 is faster on modern hardware due to SIMD parallelism. Tiger was designed when 64-bit scalar operations were cutting-edge. For new projects prioritizing speed, BLAKE3 is the modern choice."
+        }
+    },
+    "js": {
+        "error_empty": "Vui lòng nhập văn bản",
+        "btn_copied": "Đã sao chép!",
+        "btn_generating": "Đang tạo...",
+        "error_failed": "Tạo hash thất bại. Vui lòng thử lại."
+    }
+}

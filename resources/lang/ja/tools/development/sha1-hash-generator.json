@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-1ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからSHA-1ハッシュを生成。Gitを支える160ビットダイジェスト関数。無料。",
+        "h1": "SHA-1ハッシュジェネレーター",
+        "subtitle": "160ビットSHA-1ハッシュを生成 — Gitを支える関数"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "SHA-1ハッシュを生成するテキストを入力...",
+        "btn_generate": "SHA-1ハッシュを生成",
+        "label_result": "SHA-1ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "SHA-1ハッシュジェネレーター",
+        "hero_subtitle": "Gitを動かす160ビットダイジェスト関数",
+        "p1": "SHA-1はNSAが設計した暗号学的ハッシュ関数で、160ビットダイジェスト（16進数40文字）を生成します。2017年に実用的な衝突が実証されましたが、SHA-1は今でもGitでコミット識別に使用されています。",
+        "what_title": "SHA-1とは？",
+        "what_desc": "SHA-1はデータを512ビットブロックで80ラウンドのビット単位論理演算、剰余加算、循環シフトで処理します。",
+        "features_title": "✅ 特徴",
+        "features": {
+            "fast": "<strong>Git VCS：</strong> Gitリポジトリの全てのコミットとオブジェクトを識別",
+            "fixed": "<strong>160ビット出力：</strong> 40桁の16進ダイジェスト",
+            "deterministic": "<strong>幅広いサポート：</strong> 全てのプログラミング言語で普遍的に利用可能",
+            "support": "<strong>高速：</strong> ハードウェアサポートによる高速計算"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>Git：</strong> コミット識別、ブランチ、マージ",
+            "checksum": "<strong>チェックサム：</strong> ファイル整合性検証",
+            "cache": "<strong>レガシーシステム：</strong> 古いSSL/TLS証明書",
+            "integrity": "<strong>フィンガープリント：</strong> コンテンツ識別"
+        },
+        "warning_title": "⚠️ 非推奨警告",
+        "warning_desc": "<strong>SHA-1は暗号学的に陳腐化しています。</strong> GoogleとCWI Amsterdamが2017年に実用的な衝突を実証（SHAttered攻撃）。SHA-256を使用してください。",
+        "compare_title": "🔄 SHA-1の比較",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128ビット",
+                "desc2": "破られた — 使用しないで"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160ビット",
+                "desc2": "陳腐化 — 衝突が既知"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256ビット",
+                "desc2": "安全 — 推奨"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "SHA-1はまだ安全？",
+            "a1": "いいえ。2017年に実用的な衝突が実証されました。SHA-1はもはやデジタル署名に受け入れられていません。",
+            "q2": "Gitがまだ SHA-1を使っているのはなぜ？",
+            "a2": "GitはSHA-256への移行を徐々に進めています。SHA-1の速度とGitでの非暗号学的使用が移行を急がせませんでした。",
+            "q3": "SHA-1の代わりに何を使うべき？",
+            "a3": "ほとんどのアプリケーションにはSHA-256。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

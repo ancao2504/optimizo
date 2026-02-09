@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-1 Hash Generator - Gratis Online Tool",
+        "description": "Genereer SHA-1 hashes van elke tekst. De 160-bit digestfunctie achter Git. Gratis.",
+        "h1": "SHA-1 Hash Generator",
+        "subtitle": "Genereer 160-bit SHA-1 hashes — de functie achter Git"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een SHA-1 hash te genereren...",
+        "btn_generate": "Genereer SHA-1 Hash",
+        "label_result": "SHA-1 Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "SHA-1 Hash Generator",
+        "hero_subtitle": "De 160-bit digestfunctie die Git aandrijft",
+        "p1": "SHA-1 is een door de NSA ontworpen cryptografische hashfunctie die een 160-bit digest (40 hex tekens) produceert. Hoewel praktische botsingen in 2017 zijn gedemonstreerd, wordt SHA-1 nog steeds gebruikt in Git voor commit-identificatie.",
+        "what_title": "Wat is SHA-1?",
+        "what_desc": "SHA-1 verwerkt data in 512-bit blokken door 80 rondes van bitsgewijze logische bewerkingen, modulaire optelling en cyclische verschuivingen.",
+        "features_title": "✅ Kenmerken",
+        "features": {
+            "fast": "<strong>Git VCS:</strong> Identificeert elke commit en elk object in Git-repositories",
+            "fixed": "<strong>160 bit uitvoer:</strong> 40-cijferig hexadecimaal digest",
+            "deterministic": "<strong>Brede ondersteuning:</strong> Universeel beschikbaar in alle programmeertalen",
+            "support": "<strong>Snel:</strong> Snelle berekening met hardwareondersteuning"
+        },
+        "uses_title": "📊 Toepassingen",
+        "uses": {
+            "verify": "<strong>Git:</strong> Commit-identificatie, branching en merging",
+            "checksum": "<strong>Checksums:</strong> Bestandsintegriteitsverificatie",
+            "cache": "<strong>Legacy-systemen:</strong> Oudere SSL/TLS-certificaten",
+            "integrity": "<strong>Fingerprinting:</strong> Inhoudsidentificatie"
+        },
+        "warning_title": "⚠️ Afschrijvingswaarschuwing",
+        "warning_desc": "<strong>SHA-1 is cryptografisch verouderd.</strong> Google en CWI Amsterdam demonstreerden in 2017 praktische botsingen (SHAttered-aanval). Gebruik SHA-256.",
+        "compare_title": "🔄 SHA-1 vergelijking",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128 bit",
+                "desc2": "Gekraakt — niet gebruiken"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160 bit",
+                "desc2": "Verouderd — botsingen bekend"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Veilig — aanbevolen"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Is SHA-1 nog veilig?",
+            "a1": "Nee. Praktische botsingen zijn in 2017 gedemonstreerd. SHA-1 wordt niet meer geaccepteerd voor digitale handtekeningen.",
+            "q2": "Waarom gebruikt Git nog SHA-1?",
+            "a2": "Git migreert geleidelijk naar SHA-256. De snelheid van SHA-1 en het niet-cryptografische gebruik in Git maakten migratie minder urgent.",
+            "q3": "Wat moet ik gebruiken in plaats van SHA-1?",
+            "a3": "SHA-256 voor de meeste toepassingen."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

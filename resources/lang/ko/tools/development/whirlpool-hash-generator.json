@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Whirlpool 해시 생성기 - 무료 온라인 도구",
+        "description": "모든 텍스트에서 Whirlpool 해시를 생성하세요. AES 원리에 기반한 512비트 암호학적 해시, ISO 표준. 무료.",
+        "h1": "Whirlpool 해시 생성기",
+        "subtitle": "512비트 Whirlpool 해시 생성 — ISO 암호 표준"
+    },
+    "editor": {
+        "label_input": "텍스트 입력",
+        "ph_input": "Whirlpool 해시를 생성할 텍스트를 입력하세요...",
+        "btn_generate": "Whirlpool 해시 생성",
+        "label_result": "Whirlpool 해시",
+        "btn_copy": "복사"
+    },
+    "content": {
+        "hero_title": "Whirlpool 해시 생성기",
+        "hero_subtitle": "AES 원리에 기반한 512비트 ISO 표준 해시",
+        "p1": "Whirlpool은 512비트 해시(16진수 128자)를 생성하는 암호학적 해시 함수로, Vincent Rijmen(AES 공동 설계자)과 Paulo Barreto가 설계했습니다. ISO/IEC 10118-3 표준에 포함되어 있습니다.",
+        "what_title": "Whirlpool이란?",
+        "what_desc": "Whirlpool은 W 블록 암호에 기반한 Miyaguchi-Preneel 압축 함수를 사용합니다. 512비트 블록에서 10라운드로 동작합니다.",
+        "features_title": "✅ 장점",
+        "features": {
+            "fast": "<strong>AES 유산:</strong> AES 공동 설계자 Rijmen이 설계",
+            "fixed": "<strong>512비트 출력:</strong> SHA-512과 같은 128 hex 문자",
+            "deterministic": "<strong>ISO 표준:</strong> ISO/IEC 10118-3 인증",
+            "support": "<strong>NESSIE 권장:</strong> 유럽 암호 표준화"
+        },
+        "uses_title": "📊 용도",
+        "uses": {
+            "verify": "<strong>디지털 서명:</strong> 고보안 서명",
+            "checksum": "<strong>파일 무결성:</strong> 대용량 다운로드 검증",
+            "cache": "<strong>TrueCrypt/VeraCrypt:</strong> 디스크 암호화",
+            "integrity": "<strong>유럽 컴플라이언스:</strong> ISO/NESSIE 준수 해싱"
+        },
+        "warning_title": "💡 참고",
+        "warning_desc": "<strong>Whirlpool은 SHA-512과 동일한 256비트 저항성을 제공하지만</strong> 완전히 다른 내부 설계를 가지고 있습니다.",
+        "compare_title": "🔄 Whirlpool vs SHA-512",
+        "compare": {
+            "md5": {
+                "title": "Whirlpool",
+                "desc1": "512비트, AES 기반",
+                "desc2": "ISO 표준"
+            },
+            "sha1": {
+                "title": "SHA-512",
+                "desc1": "512비트, Merkle-Damgård",
+                "desc2": "더 널리 보급"
+            },
+            "sha256": {
+                "title": "SHA-3",
+                "desc1": "가변, 스펀지",
+                "desc2": "NIST 공모전 우승"
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "Whirlpool vs SHA-512?",
+            "a1": "둘 다 256비트 저항성. SHA-512가 소프트웨어에서 더 빠릅니다.",
+            "q2": "Whirlpool을 선택하는 이유는?",
+            "a2": "ISO 컴플라이언스, NSA로부터의 독립성, 설계 다양성.",
+            "q3": "Whirlpool이 주요 소프트웨어에서 사용되나요?",
+            "a3": "네. TrueCrypt/VeraCrypt, GnuPG, Bouncy Castle이 Whirlpool을 지원합니다."
+        }
+    },
+    "js": {
+        "error_empty": "텍스트를 입력하세요",
+        "btn_copied": "복사됨!",
+        "btn_generating": "생성 중...",
+        "error_failed": "해시 생성에 실패했습니다. 다시 시도하세요."
+    }
+}

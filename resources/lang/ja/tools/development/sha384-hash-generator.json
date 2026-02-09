@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-384ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからSHA-384ハッシュを生成。192ビット耐性のSHA-512切り詰めバリアント。無料。",
+        "h1": "SHA-384ハッシュジェネレーター",
+        "subtitle": "SHA-384ハッシュを生成 — 高セキュリティアプリケーション向け"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "SHA-384ハッシュを生成するテキストを入力...",
+        "btn_generate": "SHA-384ハッシュを生成",
+        "label_result": "SHA-384ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "SHA-384ハッシュジェネレーター",
+        "hero_subtitle": "384ビット高セキュリティ暗号学的ハッシュ",
+        "p1": "SHA-384はSHA-2ファミリーのメンバーで、384ビットハッシュ（16進数96文字）を生成します。異なる初期値を持つSHA-512の切り詰め版です。",
+        "what_title": "SHA-384とは？",
+        "what_desc": "SHA-384は内部的にSHA-512と同じアルゴリズムを使用します — 1024ビットブロックで80ラウンド、64ビット演算。",
+        "features_title": "✅ 利点",
+        "features": {
+            "fast": "<strong>192ビットセキュリティ：</strong> SHA-256より高い衝突耐性",
+            "fixed": "<strong>384ビット出力：</strong> 96文字のダイジェスト",
+            "deterministic": "<strong>64ビット最適化：</strong> 64ビット演算を使用",
+            "support": "<strong>政府認証：</strong> NIST推奨"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>TLSスイート：</strong> ECDHE-RSA-AES256-SHA384",
+            "checksum": "<strong>デジタル署名：</strong> 高セキュリティ署名",
+            "cache": "<strong>政府システム：</strong> FIPS 180-4アプリケーション",
+            "integrity": "<strong>金融プロトコル：</strong> 銀行取引"
+        },
+        "warning_title": "💡 使用時期",
+        "warning_desc": "<strong>SHA-384はSHA-256とSHA-512の中間です。</strong> 要件がSHA-256の128ビットを超える場合にSHA-384を選択。",
+        "compare_title": "🔄 SHA-2ファミリー",
+        "compare": {
+            "md5": {
+                "title": "SHA-256",
+                "desc1": "256ビット",
+                "desc2": "128ビット耐性"
+            },
+            "sha1": {
+                "title": "SHA-384",
+                "desc1": "384ビット",
+                "desc2": "192ビット耐性"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512ビット",
+                "desc2": "256ビット耐性"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "SHA-256の代わりにSHA-384を使う理由は？",
+            "a1": "SHA-384はSHA-256の128ビットに対して192ビットの耐性を提供し、64ビットプロセッサで高速です。",
+            "q2": "SHA-384は単なる切り詰めSHA-512？",
+            "a2": "はい、ただし異なる初期値を使用します。",
+            "q3": "SHA-384が必要な場面は？",
+            "a3": "政府システム、金融、高セキュリティTLS設定。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

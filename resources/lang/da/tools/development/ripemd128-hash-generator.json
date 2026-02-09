@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "RIPEMD-128 Hash Generator - Gratis onlineværktøj",
+        "description": "Generate RIPEMD-128 hashes from any text. European-designed 128-bit cryptographic hash function. Free online RIPEMD-128 generator.",
+        "h1": "RIPEMD-128 Hash Generator",
+        "subtitle": "Generate 128-bit RIPEMD-128 hashes — European cryptographic standard"
+    },
+    "editor": {
+        "label_input": "Indtast tekst",
+        "ph_input": "Indtast tekst for at generere RIPEMD-128 hash...",
+        "btn_generate": "Generer RIPEMD-128 Hash",
+        "label_result": "RIPEMD-128 Hash",
+        "btn_copy": "Kopier"
+    },
+    "content": {
+        "hero_title": "RIPEMD-128 Hash Generator",
+        "hero_subtitle": "European-designed 128-bit cryptographic hash function",
+        "p1": "RIPEMD-128 is a cryptographic hash function from the RIPEMD (RACE Integrity Primitives Evaluation Message Digest) family, developed in Europe as part of the EU RACE project. It produces a 128-bit (32-character hex) hash value. RIPEMD-128 was designed as a drop-in replacement for MD4 and MD5, offering comparable speed with a cleaner design philosophy born from open European academic research.",
+        "what_title": "What is RIPEMD-128?",
+        "what_desc": "RIPEMD-128 processes data in 512-bit blocks using two parallel computation chains (left and right) that are combined at the end. Each chain has four rounds of 16 steps. This dual-chain design provides resilience against certain classes of attacks that affect single-chain designs like MD5. RIPEMD-128 was specifically designed after analyzing the weaknesses discovered in MD4.",
+        "features_title": "✅ RIPEMD-128 Features",
+        "features": {
+            "fast": "<strong>Open Design:</strong> Developed through European academic research (not government agencies)",
+            "fixed": "<strong>128-bit Output:</strong> 32-character hexadecimal digest",
+            "deterministic": "<strong>Dual-Chain:</strong> Parallel computation increases resilience",
+            "support": "<strong>MD5 Alternative:</strong> Drop-in replacement with cleaner design"
+        },
+        "uses_title": "📊 Common Use Cases",
+        "uses": {
+            "verify": "<strong>Legacy Compatibility:</strong> Systems requiring 128-bit hash alternatives to MD5",
+            "checksum": "<strong>European Standards:</strong> Used in EU-origin cryptographic implementations",
+            "cache": "<strong>Checksums:</strong> Non-security-critical data integrity checks",
+            "integrity": "<strong>Academic Research:</strong> Studying parallel hash function design"
+        },
+        "warning_title": "⚠️ Security Note",
+        "warning_desc": "<strong>RIPEMD-128 provides only 64-bit collision resistance</strong>, similar to MD5. It should not be used for security-critical applications. Use RIPEMD-160 or SHA-256 for better security. RIPEMD-128 is suitable for checksums and non-security fingerprinting.",
+        "compare_title": "🔄 RIPEMD Family Comparison",
+        "compare": {
+            "md5": {
+                "title": "RIPEMD-128",
+                "desc1": "128-bit output",
+                "desc2": "European alternative to MD5"
+            },
+            "sha1": {
+                "title": "RIPEMD-160",
+                "desc1": "160-bit output",
+                "desc2": "Used in Bitcoin addresses"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128-bit output",
+                "desc2": "Same size but single-chain"
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Is RIPEMD-128 more secure than MD5?",
+            "a1": "They have similar collision resistance (64 bits), but RIPEMD-128's dual-chain design may resist certain structural attacks better. Neither should be used for security today.",
+            "q2": "What's the difference between RIPEMD-128 and RIPEMD-160?",
+            "a2": "RIPEMD-160 produces a longer 160-bit hash with 80-bit collision resistance. It adds a fifth round to each parallel chain, making it significantly more secure at the cost of some speed.",
+            "q3": "Why choose RIPEMD over SHA?",
+            "a3": "RIPEMD was designed through open European academic research, providing independence from NSA-designed algorithms. RIPEMD-160 is used in Bitcoin for this diversity reason."
+        }
+    },
+    "js": {
+        "error_empty": "Indtast venligst tekst",
+        "btn_copied": "Kopieret!",
+        "btn_generating": "Genererer...",
+        "error_failed": "Hash-generering mislykkedes. Prøv igen."
+    }
+}

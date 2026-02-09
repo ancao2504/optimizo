@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Generador de Hash Whirlpool - Herramienta Online Gratuita",
+        "description": "Genera hashes Whirlpool desde cualquier texto. Hash criptográfico de 512 bits basado en principios AES y estándar ISO. Gratis.",
+        "h1": "Generador de Hash Whirlpool",
+        "subtitle": "Genera hashes Whirlpool de 512 bits — estándar ISO criptográfico"
+    },
+    "editor": {
+        "label_input": "Introducir texto",
+        "ph_input": "Introduce texto para generar hash Whirlpool...",
+        "btn_generate": "Generar Hash Whirlpool",
+        "label_result": "Hash Whirlpool",
+        "btn_copy": "Copiar"
+    },
+    "content": {
+        "hero_title": "Generador de Hash Whirlpool",
+        "hero_subtitle": "Hash de 512 bits estándar ISO basado en principios AES",
+        "p1": "Whirlpool es una función hash criptográfica que produce un hash de 512 bits (128 caracteres hex), diseñada por Vincent Rijmen (co-diseñador de AES) y Paulo Barreto. Basada en una versión modificada del cifrado de bloques AES e incorporada al estándar ISO/IEC 10118-3.",
+        "what_title": "¿Qué es Whirlpool?",
+        "what_desc": "Whirlpool usa una función de compresión Miyaguchi-Preneel basada en un cifrado de bloques especialmente diseñado llamado W. Opera en bloques de 512 bits con claves de 512 bits a través de 10 rondas.",
+        "features_title": "✅ Ventajas de Whirlpool",
+        "features": {
+            "fast": "<strong>Legado AES:</strong> Diseñado por el co-diseñador de AES, Vincent Rijmen",
+            "fixed": "<strong>Salida de 512 bits:</strong> 128 caracteres hex, igual que SHA-512",
+            "deterministic": "<strong>Estándar ISO:</strong> Certificado ISO/IEC 10118-3",
+            "support": "<strong>Recomendado NESSIE:</strong> Estandarización criptográfica europea"
+        },
+        "uses_title": "📊 Casos de uso",
+        "uses": {
+            "verify": "<strong>Firmas digitales:</strong> Firma de documentos y código de alta seguridad",
+            "checksum": "<strong>Integridad de archivos:</strong> Verificación de descargas grandes",
+            "cache": "<strong>TrueCrypt/VeraCrypt:</strong> Cifrado de disco",
+            "integrity": "<strong>Cumplimiento europeo:</strong> Hashing conforme a ISO/NESSIE"
+        },
+        "warning_title": "💡 Nota de diseño",
+        "warning_desc": "<strong>Whirlpool ofrece la misma resistencia a colisiones de 256 bits que SHA-512</strong>, pero a través de un diseño interno completamente diferente (basado en AES vs Merkle-Damgård).",
+        "compare_title": "🔄 Whirlpool vs SHA-512",
+        "compare": {
+            "md5": {
+                "title": "Whirlpool",
+                "desc1": "512 bits, basado en AES",
+                "desc2": "Estándar ISO, diseñador de AES"
+            },
+            "sha1": {
+                "title": "SHA-512",
+                "desc1": "512 bits, Merkle-Damgård",
+                "desc2": "Más extendido"
+            },
+            "sha256": {
+                "title": "SHA-3",
+                "desc1": "Variable, esponja",
+                "desc2": "Ganador del concurso NIST SHA-3"
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "Whirlpool vs SHA-512 — ¿cuál es más seguro?",
+            "a1": "Ambos ofrecen 256 bits de resistencia a colisiones. Sin ataques prácticos conocidos. SHA-512 es más rápido en software.",
+            "q2": "¿Por qué elegir Whirlpool en vez de SHA-512?",
+            "a2": "Elige Whirlpool para cumplimiento ISO, independencia de algoritmos NSA o diversidad de diseño.",
+            "q3": "¿Se usa Whirlpool en software principal?",
+            "a3": "Sí. TrueCrypt/VeraCrypt, GnuPG y Bouncy Castle soportan Whirlpool."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor introduce texto",
+        "btn_copied": "¡Copiado!",
+        "btn_generating": "Generando...",
+        "error_failed": "Error al generar el hash. Inténtalo de nuevo."
+    }
+}

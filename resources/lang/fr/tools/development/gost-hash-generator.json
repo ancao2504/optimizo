@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Générateur de Hash GOST - Outil en Ligne Gratuit",
+        "description": "Générez des hash GOST R 34.11-94 à partir de n'importe quel texte. Le standard cryptographique russe/soviétique 256 bits. Gratuit.",
+        "h1": "Générateur de Hash GOST",
+        "subtitle": "Générez des hash GOST R 34.11-94 — le standard cryptographique russe"
+    },
+    "editor": {
+        "label_input": "Saisir le texte",
+        "ph_input": "Saisissez le texte pour générer un hash GOST...",
+        "btn_generate": "Générer Hash GOST",
+        "label_result": "Hash GOST",
+        "btn_copy": "Copier"
+    },
+    "content": {
+        "hero_title": "Générateur de Hash GOST",
+        "hero_subtitle": "GOST R 34.11-94 — Le standard cryptographique russe",
+        "p1": "GOST R 34.11-94 est une fonction de hachage cryptographique créée comme standard d'État russe (ГОСТ). Elle produit un hash de 256 bits (64 caractères hex). Basée sur le chiffrement par blocs GOST 28147-89, elle représente l'école cryptographique soviétique/russe indépendante des designs de la NSA.",
+        "what_title": "Qu'est-ce que GOST Hash ?",
+        "what_desc": "GOST R 34.11-94 traite des blocs de 256 bits en utilisant GOST 28147-89 comme chiffrement par blocs sous-jacent avec construction Davies-Meyer.",
+        "features_title": "✅ Propriétés de GOST Hash",
+        "features": {
+            "fast": "<strong>Standard d'État :</strong> GOST R 34.11-94 officiel russe",
+            "fixed": "<strong>Sortie 256 bits :</strong> 64 caractères hex, comme SHA-256",
+            "deterministic": "<strong>Indépendant de la NSA :</strong> Design soviétique/russe entièrement indépendant",
+            "support": "<strong>Influence mondiale :</strong> Montre une approche alternative du design de hachage"
+        },
+        "uses_title": "📊 Cas d'utilisation",
+        "uses": {
+            "verify": "<strong>Conformité russe :</strong> Signatures numériques gouvernementales et bancaires",
+            "checksum": "<strong>CryptoPro CSP :</strong> Infrastructure cryptographique russe",
+            "cache": "<strong>Diversité cryptographique :</strong> Algorithme indépendant des designs occidentaux",
+            "integrity": "<strong>Recherche académique :</strong> Analyse comparative des designs cryptographiques"
+        },
+        "warning_title": "⚠️ Note de sécurité",
+        "warning_desc": "<strong>GOST R 34.11-94 a été remplacé par Streebog (GOST R 34.11-2012).</strong> Pour les nouvelles applications, utilisez Streebog ou SHA-256.",
+        "compare_title": "🔄 GOST vs standards occidentaux",
+        "compare": {
+            "md5": {
+                "title": "GOST R 34.11-94",
+                "desc1": "256 bits, design russe",
+                "desc2": "Standard soviétique original"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256 bits, design NSA",
+                "desc2": "Standard américain/international"
+            },
+            "sha256": {
+                "title": "Streebog",
+                "desc1": "256/512 bits",
+                "desc2": "Successeur moderne de GOST"
+            }
+        },
+        "faq_title": "❓ Questions fréquentes",
+        "faq": {
+            "q1": "Différence entre ancien et nouveau GOST Hash ?",
+            "a1": "GOST R 34.11-94 utilise le chiffrement GOST 28147-89, tandis que Streebog (2012) a une architecture entièrement nouvelle.",
+            "q2": "GOST Hash est-il sûr ?",
+            "a2": "Des attaques théoriques ont été trouvées mais pas d'attaques pratiques complètes. La version ancienne est encore utilisée dans les systèmes hérités.",
+            "q3": "Pourquoi la Russie a développé ses propres standards ?",
+            "a3": "Souveraineté cryptographique. GOST représente une philosophie cryptographique indépendante des designs occidentaux."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez saisir du texte",
+        "btn_copied": "Copié !",
+        "btn_generating": "Génération...",
+        "error_failed": "Échec de la génération du hash. Réessayez."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Tiger-160 Hash Oluşturucu - Ücretsiz Çevrimiçi Araç",
+        "description": "Herhangi bir metinden Tiger-160 hash'leri oluşturun. Tiger fonksiyonunun 160 bitlik varyantı. Ücretsiz.",
+        "h1": "Tiger-160 Hash Oluşturucu",
+        "subtitle": "Tiger-160 hash'leri oluşturun — hız ve güvenlik dengesi"
+    },
+    "editor": {
+        "label_input": "Metin girin",
+        "ph_input": "Tiger-160 hash oluşturmak için metin girin...",
+        "btn_generate": "Tiger-160 Hash Oluştur",
+        "label_result": "Tiger-160 Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "Tiger-160 Hash Oluşturucu",
+        "hero_subtitle": "Dengeli performans ve güvenlik için 160 bitlik Tiger hash",
+        "p1": "Tiger-160, Tiger ailesinin ara varyantıdır, 160 bitlik hash (40 hex karakter) üretir. SHA-1 gibi 160 bit üretir ama Tiger-160, 64 bit işlemcilerde çok daha hızlıdır.",
+        "what_title": "Tiger-160 nedir?",
+        "what_desc": "Tiger-160, Tiger-192 ile aynı algoritmayı kullanır ama çıktıyı 160 bit'e kırpar. 80 bit çarpışma direnci sunar.",
+        "features_title": "✅ Özellikler",
+        "features": {
+            "fast": "<strong>SHA-1 yedeği:</strong> Aynı çıkış boyutu, 64 bit'te daha hızlı",
+            "fixed": "<strong>160 bit çıkış:</strong> 40 karakterlik özet",
+            "deterministic": "<strong>80 bit güvenlik:</strong> SHA-1 direncine eşit",
+            "support": "<strong>64 bit hız:</strong> Modern işlemcilerde SHA-1'i geçer"
+        },
+        "uses_title": "📊 Kullanım alanları",
+        "uses": {
+            "verify": "<strong>Dosya doğrulama:</strong> 64 bit sistemlerde hızlı kontroller",
+            "checksum": "<strong>SHA-1 alternatifi:</strong> 160 bitlik hash'ler için doğrudan değişim",
+            "cache": "<strong>İçerik hash'leme:</strong> Önbellek içeriği için benzersiz tanımlayıcılar",
+            "integrity": "<strong>İndeksleme:</strong> Hash tabanlı etkin arama"
+        },
+        "warning_title": "⚠️ Not",
+        "warning_desc": "<strong>Tiger-160, 80 bit direnç sunar.</strong> Kritik güvenlik için SHA-256 kullanın.",
+        "compare_title": "🔄 Karşılaştırma",
+        "compare": {
+            "md5": {
+                "title": "Tiger-160",
+                "desc1": "160 bit, 64 bit işlem",
+                "desc2": "64 bit'te daha hızlı"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160 bit, 32 bit işlem",
+                "desc2": "Daha yaygın desteklenir"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Daha güvenli"
+            }
+        },
+        "faq_title": "❓ Sıkça sorulan sorular",
+        "faq": {
+            "q1": "Tiger-160 vs SHA-1?",
+            "a1": "64 bit'te hız için: Tiger-160. Uyumluluk için: SHA-1. Güvenlik için: SHA-256.",
+            "q2": "Tiger-160, SHA-1'den daha mı güvenli?",
+            "a2": "Aynı teorik direnç. SHA-1'in bilinen çarpışmaları var; Tiger'ın yok.",
+            "q3": "Neden Tiger-192'yi 160 bit'e kırpmak?",
+            "a3": "Bazı protokoller tam olarak 160 bitlik hash gerektirir."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen metin girin",
+        "btn_copied": "Kopyalandı!",
+        "btn_generating": "Oluşturuluyor...",
+        "error_failed": "Hash oluşturulamadı. Tekrar deneyin."
+    }
+}

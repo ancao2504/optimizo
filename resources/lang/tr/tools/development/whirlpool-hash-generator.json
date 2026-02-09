@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Whirlpool Hash Oluşturucu - Ücretsiz Çevrimiçi Araç",
+        "description": "Herhangi bir metinden Whirlpool hash'leri oluşturun. AES prensiplerini temel alan 512 bitlik kriptografik hash, ISO standardı. Ücretsiz.",
+        "h1": "Whirlpool Hash Oluşturucu",
+        "subtitle": "512 bitlik Whirlpool hash'leri oluşturun — ISO kriptografik standardı"
+    },
+    "editor": {
+        "label_input": "Metin girin",
+        "ph_input": "Whirlpool hash oluşturmak için metin girin...",
+        "btn_generate": "Whirlpool Hash Oluştur",
+        "label_result": "Whirlpool Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "Whirlpool Hash Oluşturucu",
+        "hero_subtitle": "AES prensiplerini temel alan 512 bitlik ISO standardı hash",
+        "p1": "Whirlpool, 512 bitlik hash (128 hex karakter) üreten kriptografik hash fonksiyonudur. Vincent Rijmen (AES'in ortak tasarımcısı) ve Paulo Barreto tarafından tasarlanmıştır. ISO/IEC 10118-3 standardına dahildir.",
+        "what_title": "Whirlpool nedir?",
+        "what_desc": "Whirlpool, W adlı bir blok şifreye dayalı Miyaguchi-Preneel sıkıştırma fonksiyonu kullanır. 512 bitlik bloklarda 10 turda çalışır.",
+        "features_title": "✅ Avantajlar",
+        "features": {
+            "fast": "<strong>AES mirası:</strong> AES'in ortak tasarımcısı Rijmen tarafından tasarlandı",
+            "fixed": "<strong>512 bit çıkış:</strong> SHA-512 gibi 128 hex karakter",
+            "deterministic": "<strong>ISO standardı:</strong> ISO/IEC 10118-3 sertifikalı",
+            "support": "<strong>NESSIE önerisi:</strong> Avrupa kriptografik standardizasyonu"
+        },
+        "uses_title": "📊 Kullanım alanları",
+        "uses": {
+            "verify": "<strong>Dijital imzalar:</strong> Yüksek güvenlikli imzalama",
+            "checksum": "<strong>Dosya bütünlüğü:</strong> Büyük indirme doğrulama",
+            "cache": "<strong>TrueCrypt/VeraCrypt:</strong> Disk şifreleme",
+            "integrity": "<strong>Avrupa uyumluluğu:</strong> ISO/NESSIE uyumlu hash'leme"
+        },
+        "warning_title": "💡 Not",
+        "warning_desc": "<strong>Whirlpool, SHA-512 ile aynı 256 bit çarpışma direnci sunar</strong> ancak tamamen farklı dahili tasarımla.",
+        "compare_title": "🔄 Whirlpool vs SHA-512",
+        "compare": {
+            "md5": {
+                "title": "Whirlpool",
+                "desc1": "512 bit, AES tabanlı",
+                "desc2": "ISO standardı"
+            },
+            "sha1": {
+                "title": "SHA-512",
+                "desc1": "512 bit, Merkle-Damgård",
+                "desc2": "Daha yaygın"
+            },
+            "sha256": {
+                "title": "SHA-3",
+                "desc1": "Değişken, sünger",
+                "desc2": "NIST yarışma kazananı"
+            }
+        },
+        "faq_title": "❓ Sıkça sorulan sorular",
+        "faq": {
+            "q1": "Whirlpool vs SHA-512?",
+            "a1": "Her ikisi de 256 bit direnç sunar. SHA-512 yazılımda daha hızlıdır.",
+            "q2": "Neden Whirlpool seçmeli?",
+            "a2": "ISO uyumluluğu, NSA'dan bağımsızlık veya tasarım çeşitliliği için.",
+            "q3": "Whirlpool önemli yazılımlarda kullanılıyor mu?",
+            "a3": "Evet. TrueCrypt/VeraCrypt, GnuPG ve Bouncy Castle Whirlpool'u destekler."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen metin girin",
+        "btn_copied": "Kopyalandı!",
+        "btn_generating": "Oluşturuluyor...",
+        "error_failed": "Hash oluşturulamadı. Tekrar deneyin."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Générateur de Hash Whirlpool - Outil en Ligne Gratuit",
+        "description": "Générez des hash Whirlpool à partir de n'importe quel texte. Hash cryptographique 512 bits basé sur les principes AES et standard ISO. Gratuit.",
+        "h1": "Générateur de Hash Whirlpool",
+        "subtitle": "Générez des hash Whirlpool 512 bits — standard cryptographique ISO"
+    },
+    "editor": {
+        "label_input": "Saisir le texte",
+        "ph_input": "Saisissez le texte pour générer un hash Whirlpool...",
+        "btn_generate": "Générer Hash Whirlpool",
+        "label_result": "Hash Whirlpool",
+        "btn_copy": "Copier"
+    },
+    "content": {
+        "hero_title": "Générateur de Hash Whirlpool",
+        "hero_subtitle": "Hash 512 bits standard ISO basé sur les principes AES",
+        "p1": "Whirlpool est une fonction de hachage cryptographique produisant un hash de 512 bits (128 caractères hex), conçue par Vincent Rijmen (co-concepteur d'AES) et Paulo Barreto. Basée sur une version modifiée du chiffrement par blocs AES et intégrée au standard ISO/IEC 10118-3.",
+        "what_title": "Qu'est-ce que Whirlpool ?",
+        "what_desc": "Whirlpool utilise une fonction de compression Miyaguchi-Preneel basée sur un chiffrement par blocs spécialement conçu appelé W. Opera sur des blocs de 512 bits avec des clés de 512 bits en 10 rondes.",
+        "features_title": "✅ Avantages de Whirlpool",
+        "features": {
+            "fast": "<strong>Héritage AES :</strong> Conçu par le co-concepteur d'AES, Vincent Rijmen",
+            "fixed": "<strong>Sortie 512 bits :</strong> 128 caractères hex, comme SHA-512",
+            "deterministic": "<strong>Standard ISO :</strong> Certifié ISO/IEC 10118-3",
+            "support": "<strong>Recommandé NESSIE :</strong> Standardisation cryptographique européenne"
+        },
+        "uses_title": "📊 Cas d'utilisation",
+        "uses": {
+            "verify": "<strong>Signatures numériques :</strong> Signature haute sécurité de documents et code",
+            "checksum": "<strong>Intégrité de fichiers :</strong> Vérification de téléchargements volumineux",
+            "cache": "<strong>TrueCrypt/VeraCrypt :</strong> Chiffrement de disque",
+            "integrity": "<strong>Conformité européenne :</strong> Hachage conforme ISO/NESSIE"
+        },
+        "warning_title": "💡 Note de design",
+        "warning_desc": "<strong>Whirlpool offre la même résistance de 256 bits aux collisions que SHA-512</strong>, mais par un design interne entièrement différent (basé sur AES vs Merkle-Damgård).",
+        "compare_title": "🔄 Whirlpool vs SHA-512",
+        "compare": {
+            "md5": {
+                "title": "Whirlpool",
+                "desc1": "512 bits, basé AES",
+                "desc2": "Standard ISO, concepteur AES"
+            },
+            "sha1": {
+                "title": "SHA-512",
+                "desc1": "512 bits, Merkle-Damgård",
+                "desc2": "Plus répandu"
+            },
+            "sha256": {
+                "title": "SHA-3",
+                "desc1": "Variable, éponge",
+                "desc2": "Gagnant du concours NIST SHA-3"
+            }
+        },
+        "faq_title": "❓ Questions fréquentes",
+        "faq": {
+            "q1": "Whirlpool vs SHA-512 — lequel est plus sûr ?",
+            "a1": "Les deux offrent 256 bits de résistance aux collisions. Aucune attaque pratique connue. SHA-512 est plus rapide en logiciel.",
+            "q2": "Pourquoi choisir Whirlpool ?",
+            "a2": "Pour la conformité ISO, l'indépendance vis-à-vis de la NSA ou la diversité de design.",
+            "q3": "Whirlpool est-il utilisé dans des logiciels majeurs ?",
+            "a3": "Oui. TrueCrypt/VeraCrypt, GnuPG et Bouncy Castle supportent Whirlpool."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez saisir du texte",
+        "btn_copied": "Copié !",
+        "btn_generating": "Génération...",
+        "error_failed": "Échec de la génération du hash. Réessayez."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Snefru Hash Generator - Gratis Online Tool",
+        "description": "Genereer Snefru hashes van elke tekst. Historische hashfunctie van Xerox PARC. Gratis.",
+        "h1": "Snefru Hash Generator",
+        "subtitle": "Genereer Snefru hashes — historische hashfunctie van Xerox PARC"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een Snefru hash te genereren...",
+        "btn_generate": "Genereer Snefru Hash",
+        "label_result": "Snefru Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "Snefru Hash Generator",
+        "hero_subtitle": "Historische mijlpaal in cryptografisch ontwerp",
+        "p1": "Snefru is een cryptografische hashfunctie ontworpen door Ralph Merkle bij Xerox PARC in 1990, vernoemd naar de Egyptische farao Snefru. Kan 128- of 256-bit hashes produceren.",
+        "what_title": "Wat is Snefru?",
+        "what_desc": "Snefru verwerkt data in blokken van 512 bit (voor 128-bit uitvoer) of 384 bit (voor 256-bit uitvoer) met op substitutietabellen gebaseerde menging.",
+        "features_title": "✅ Eigenschappen",
+        "features": {
+            "fast": "<strong>Historische pionier:</strong> Een van de eerste Merkle-Damgård hashfuncties",
+            "fixed": "<strong>256 bit uitvoer:</strong> 64-tekens digest",
+            "deterministic": "<strong>Xerox PARC:</strong> Ontworpen door Merkle, uitvinder van Merkle-bomen",
+            "support": "<strong>Educatieve waarde:</strong> Belangrijk voor het begrijpen van hash-evolutie"
+        },
+        "uses_title": "📊 Toepassingen",
+        "uses": {
+            "verify": "<strong>Legacy-systemen:</strong> Compatibiliteit met oude Xerox-systemen",
+            "checksum": "<strong>Onderwijs:</strong> Leren over hashfunctie-ontwerp",
+            "cache": "<strong>Onderzoek:</strong> Studie van differentiële analyse",
+            "integrity": "<strong>Historische analyse:</strong> Evolutie van Snefru naar SHA-2"
+        },
+        "warning_title": "⚠️ Waarschuwing",
+        "warning_desc": "<strong>Snefru is cryptografisch gekraakt.</strong> Differentiële analyse vond botsingen. Gebruik SHA-256.",
+        "compare_title": "🔄 Snefru vs modern",
+        "compare": {
+            "md5": {
+                "title": "Snefru",
+                "desc1": "128/256 bit",
+                "desc2": "Gekraakt — alleen historisch"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128 bit",
+                "desc2": "Ook gekraakt"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Moderne veilige standaard"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Waarom een faraonaam?",
+            "a1": "Ralph Merkle volgde de traditie van het benoemen van cryptografische algoritmen naar Egyptische elementen.",
+            "q2": "Hoe is Snefru gekraakt?",
+            "a2": "Biham en Shamir gebruikten differentiële analyse om botsingen te vinden in de 2-rondenversie.",
+            "q3": "Wat is de nalatenschap van Snefru?",
+            "a3": "Snefru hielp Merkle-Damgård te vestigen als het dominante paradigma in hash-ontwerp."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

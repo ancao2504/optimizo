@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Generador de Hash Tiger-192 - Herramienta Online Gratuita",
+        "description": "Genera hashes Tiger-192 desde cualquier texto. Hash Tiger completo de 192 bits diseñado para procesadores de 64 bits. Gratis.",
+        "h1": "Generador de Hash Tiger-192",
+        "subtitle": "Genera hashes Tiger-192 completos de 192 bits — máxima seguridad Tiger"
+    },
+    "editor": {
+        "label_input": "Introducir texto",
+        "ph_input": "Introduce texto para generar hash Tiger-192...",
+        "btn_generate": "Generar Hash Tiger-192",
+        "label_result": "Hash Tiger-192",
+        "btn_copy": "Copiar"
+    },
+    "content": {
+        "hero_title": "Generador de Hash Tiger-192",
+        "hero_subtitle": "Hash Tiger a plena potencia — 192 bits de seguridad",
+        "p1": "Tiger-192 es la versión original y completa de la función hash Tiger. Produce un hash de 192 bits (48 caracteres hex) usando las tres palabras de estado internas de 64 bits. Diseñado para plataformas de 64 bits, ofrece 96 bits de resistencia a colisiones con rendimiento excepcional.",
+        "what_title": "¿Qué es Tiger-192?",
+        "what_desc": "Tiger-192 procesa bloques de 512 bits en tres pasadas de ocho rondas cada una (24 rondas en total). Las tres variables de estado de 64 bits se combinan después de todas las rondas para producir la salida de 192 bits.",
+        "features_title": "✅ Características de Tiger-192",
+        "features": {
+            "fast": "<strong>Máxima velocidad:</strong> Uno de los hashes más rápidos en 64 bits",
+            "fixed": "<strong>Salida de 192 bits:</strong> Digest hexadecimal de 48 caracteres",
+            "deterministic": "<strong>Seguridad de 96 bits:</strong> Fuerte resistencia a colisiones",
+            "support": "<strong>Longitud única:</strong> Pocos hashes producen salida de 192 bits"
+        },
+        "uses_title": "📊 Casos de uso",
+        "uses": {
+            "verify": "<strong>Hashing de alta velocidad:</strong> Cuando SHA-256 es demasiado lento",
+            "checksum": "<strong>Sistemas de archivos:</strong> Sumas de verificación rápidas para grandes colecciones",
+            "cache": "<strong>Protocolos P2P:</strong> TTH en Direct Connect",
+            "integrity": "<strong>Deduplicación:</strong> Identificación rápida de bloques duplicados"
+        },
+        "warning_title": "💡 Filosofía de diseño",
+        "warning_desc": "<strong>Tiger fue diseñado para velocidad sin sacrificar demasiada seguridad.</strong> Para máxima seguridad, SHA-256 o SHA-512 son preferibles.",
+        "compare_title": "🔄 Comparación de Tiger-192",
+        "compare": {
+            "md5": {
+                "title": "Tiger-192",
+                "desc1": "192 bits, ops 64 bits",
+                "desc2": "Más rápido en 64 bits, 96 bits seguridad"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256 bits, ops 32 bits",
+                "desc2": "Mayor seguridad, más estándar"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512 bits, ops 64 bits",
+                "desc2": "Máxima seguridad, también rápido en 64 bits"
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Es Tiger-192 suficientemente seguro para uso moderno?",
+            "a1": "96 bits de resistencia a colisiones. Por debajo de la recomendación moderna de 128 bits, pero sin ataques prácticos conocidos.",
+            "q2": "¿Qué es Tiger Tree Hash (TTH)?",
+            "a2": "TTH aplica Tiger-192 en estructura de árbol Merkle para verificación parcial de archivos. Usado en DC++.",
+            "q3": "Tiger vs BLAKE3 para velocidad?",
+            "a3": "BLAKE3 es más rápido en hardware moderno gracias al paralelismo SIMD."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor introduce texto",
+        "btn_copied": "¡Copiado!",
+        "btn_generating": "Generando...",
+        "error_failed": "Error al generar el hash. Inténtalo de nuevo."
+    }
+}

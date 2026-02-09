@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "RIPEMD-160 Hash Oluşturucu - Ücretsiz Çevrimiçi Araç",
+        "description": "Herhangi bir metinden RIPEMD-160 hash'leri oluşturun. Bitcoin adresleri ve PGP parmak izlerinde kullanılır. Ücretsiz.",
+        "h1": "RIPEMD-160 Hash Oluşturucu",
+        "subtitle": "RIPEMD-160 hash'leri oluşturun — Bitcoin adreslerinin arkasındaki hash"
+    },
+    "editor": {
+        "label_input": "Metin girin",
+        "ph_input": "RIPEMD-160 hash oluşturmak için metin girin...",
+        "btn_generate": "RIPEMD-160 Hash Oluştur",
+        "label_result": "RIPEMD-160 Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "RIPEMD-160 Hash Oluşturucu",
+        "hero_subtitle": "Bitcoin adreslerinin arkasındaki Avrupa hash fonksiyonu",
+        "p1": "RIPEMD-160, 160 bitlik hash (40 hex karakter) üretir, Belçika'daki KU Leuven'de geliştirilmiştir. Bitcoin'de kullanılır — her Bitcoin adresi SHA-256 ardından RIPEMD-160 (HASH160) ile türetilir.",
+        "what_title": "RIPEMD-160 nedir?",
+        "what_desc": "RIPEMD-160, RIPEMD-128 tasarımını iki paralel hesaplama zincirine beşinci bir tur ekleyerek genişletir.",
+        "features_title": "✅ Avantajlar",
+        "features": {
+            "fast": "<strong>Bitcoin standardı:</strong> Adres oluşturma için HASH160'ta kullanılır",
+            "fixed": "<strong>160 bit çıkış:</strong> 40 hex karakter",
+            "deterministic": "<strong>Bağımsız tasarım:</strong> Devlet kurumları tarafından tasarlanmamış",
+            "support": "<strong>Kanıtlanmış güvenlik:</strong> 1996'dan beri pratik saldırı yok"
+        },
+        "uses_title": "📊 Nerelerde kullanılır",
+        "uses": {
+            "verify": "<strong>Bitcoin:</strong> SHA-256 + RIPEMD-160 = HASH160",
+            "checksum": "<strong>PGP/GPG:</strong> Anahtar parmak izi hesaplama",
+            "cache": "<strong>Akıllı kartlar:</strong> Avrupa EMV kimlik doğrulama",
+            "integrity": "<strong>Kriptografik çeşitlilik:</strong> SHA algoritmalarına alternatif"
+        },
+        "warning_title": "💡 Bağlam",
+        "warning_desc": "<strong>RIPEMD-160, 80 bit çarpışma direnci sunar.</strong> Yeni uygulamalar için SHA-256 önerilir.",
+        "compare_title": "🔄 RIPEMD-160 vs diğerleri",
+        "compare": {
+            "md5": {
+                "title": "RIPEMD-160",
+                "desc1": "160 bit, çift zincir",
+                "desc2": "Bilinen çarpışma yok"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160 bit, tek zincir",
+                "desc2": "Çarpışmalar gösterildi (2017)"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Daha güvenli, önerilen"
+            }
+        },
+        "faq_title": "❓ Sıkça sorulan sorular",
+        "faq": {
+            "q1": "Bitcoin neden RIPEMD-160 kullanıyor?",
+            "a1": "Bitcoin, kriptografik çeşitliliği korurken adresleri kısaltmak için HASH160 kullanır.",
+            "q2": "RIPEMD-160, SHA-1'den daha mı güvenli?",
+            "a2": "Pratikte evet. Pratik çarpışma bulunamadı.",
+            "q3": "Yeni projelerde RIPEMD-160 kullanmalı mıyım?",
+            "a3": "Yeni projeler için SHA-256 önerilir. RIPEMD-160 Bitcoin uyumluluğu içindir."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen metin girin",
+        "btn_copied": "Kopyalandı!",
+        "btn_generating": "Oluşturuluyor...",
+        "error_failed": "Hash oluşturulamadı. Tekrar deneyin."
+    }
+}

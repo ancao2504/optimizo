@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Tiger-192ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからTiger-192ハッシュを生成。64ビットプロセッサ向けの完全192ビットTigerハッシュ。無料。",
+        "h1": "Tiger-192ハッシュジェネレーター",
+        "subtitle": "完全なTiger-192ハッシュを生成 — Tigerの最大パワー"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "Tiger-192ハッシュを生成するテキストを入力...",
+        "btn_generate": "Tiger-192ハッシュを生成",
+        "label_result": "Tiger-192ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "Tiger-192ハッシュジェネレーター",
+        "hero_subtitle": "Tigerフルパワー — 192ビットのセキュリティ",
+        "p1": "Tiger-192はTigerハッシュ関数のオリジナルかつ完全版です。3つの64ビット内部状態ワードを使用して192ビットハッシュ（16進数48文字）を生成します。",
+        "what_title": "Tiger-192とは？",
+        "what_desc": "Tiger-192は512ビットブロックを各8ラウンドの3パス（合計24ラウンド）で処理します。",
+        "features_title": "✅ 特徴",
+        "features": {
+            "fast": "<strong>最高速度：</strong> 64ビットで最も速いハッシュの一つ",
+            "fixed": "<strong>192ビット出力：</strong> 48文字のダイジェスト",
+            "deterministic": "<strong>96ビットセキュリティ：</strong> 強力な衝突耐性",
+            "support": "<strong>ユニークな長さ：</strong> 192ビット出力を生成するハッシュは稀"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>高速ハッシュ：</strong> SHA-256が遅すぎる場合",
+            "checksum": "<strong>ファイルシステム：</strong> 大規模コレクション向けの高速チェックサム",
+            "cache": "<strong>P2Pプロトコル：</strong> Direct ConnectでのTTH",
+            "integrity": "<strong>重複排除：</strong> 高速な重複ブロック識別"
+        },
+        "warning_title": "💡 設計哲学",
+        "warning_desc": "<strong>Tigerはセキュリティを過度に犠牲にせず速度を追求する設計です。</strong> 最大セキュリティにはSHA-256またはSHA-512が推奨されます。",
+        "compare_title": "🔄 比較",
+        "compare": {
+            "md5": {
+                "title": "Tiger-192",
+                "desc1": "192ビット、64ビット演算",
+                "desc2": "64ビットで高速"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256ビット",
+                "desc2": "より安全、より標準的"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512ビット",
+                "desc2": "最大セキュリティ"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "Tiger-192は十分安全？",
+            "a1": "96ビットの衝突耐性。現代の128ビット推奨を下回りますが、既知の実用的攻撃はありません。",
+            "q2": "Tiger Tree Hash（TTH）とは？",
+            "a2": "TTHはTiger-192をMerkleツリー構造で適用します。DC++で使用されています。",
+            "q3": "Tiger vs BLAKE3？",
+            "a3": "BLAKE3はSIMD並列性によりモダンハードウェアで高速です。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

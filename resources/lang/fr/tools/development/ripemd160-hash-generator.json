@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Générateur de Hash RIPEMD-160 - Outil en Ligne Gratuit",
+        "description": "Générez des hash RIPEMD-160 à partir de n'importe quel texte. Utilisé dans les adresses Bitcoin et les empreintes PGP. Gratuit.",
+        "h1": "Générateur de Hash RIPEMD-160",
+        "subtitle": "Générez des hash RIPEMD-160 — le hash derrière les adresses Bitcoin"
+    },
+    "editor": {
+        "label_input": "Saisir le texte",
+        "ph_input": "Saisissez le texte pour générer un hash RIPEMD-160...",
+        "btn_generate": "Générer Hash RIPEMD-160",
+        "label_result": "Hash RIPEMD-160",
+        "btn_copy": "Copier"
+    },
+    "content": {
+        "hero_title": "Générateur de Hash RIPEMD-160",
+        "hero_subtitle": "La fonction de hachage européenne derrière les adresses Bitcoin",
+        "p1": "RIPEMD-160 produit un hash de 160 bits (40 caractères hex), développé à la KU Leuven en Belgique. Utilisée dans Bitcoin — chaque adresse Bitcoin est dérivée avec SHA-256 suivi de RIPEMD-160 (connu sous le nom HASH160).",
+        "what_title": "Qu'est-ce que RIPEMD-160 ?",
+        "what_desc": "RIPEMD-160 étend le design de RIPEMD-128 en ajoutant une cinquième ronde à chacune des deux chaînes de calcul parallèles, totalisant 160 opérations par bloc.",
+        "features_title": "✅ Avantages de RIPEMD-160",
+        "features": {
+            "fast": "<strong>Standard Bitcoin :</strong> Utilisée dans HASH160 pour la génération d'adresses",
+            "fixed": "<strong>Sortie 160 bits :</strong> 40 caractères hex, 80 bits de résistance aux collisions",
+            "deterministic": "<strong>Conception indépendante :</strong> Non conçue par une agence gouvernementale",
+            "support": "<strong>Sécurité éprouvée :</strong> Aucune attaque pratique depuis 1996"
+        },
+        "uses_title": "📊 Où RIPEMD-160 est utilisée",
+        "uses": {
+            "verify": "<strong>Bitcoin :</strong> SHA-256 + RIPEMD-160 = HASH160 pour les adresses",
+            "checksum": "<strong>PGP/GPG :</strong> Calcul d'empreintes de clé",
+            "cache": "<strong>Cartes à puce :</strong> Authentification EMV européenne",
+            "integrity": "<strong>Diversité cryptographique :</strong> Alternative aux algorithmes SHA"
+        },
+        "warning_title": "💡 Contexte d'utilisation",
+        "warning_desc": "<strong>RIPEMD-160 offre 80 bits de résistance aux collisions.</strong> Pour les nouvelles applications, SHA-256 est recommandée.",
+        "compare_title": "🔄 RIPEMD-160 vs autres hash 160 bits",
+        "compare": {
+            "md5": {
+                "title": "RIPEMD-160",
+                "desc1": "160 bits, double chaîne",
+                "desc2": "Aucune collision connue"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160 bits, chaîne simple",
+                "desc2": "Collisions démontrées (2017)"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bits",
+                "desc2": "Plus sûre, recommandée"
+            }
+        },
+        "faq_title": "❓ Questions fréquentes",
+        "faq": {
+            "q1": "Pourquoi Bitcoin utilise RIPEMD-160 ?",
+            "a1": "Bitcoin utilise HASH160 pour raccourcir les adresses tout en maintenant la diversité cryptographique.",
+            "q2": "RIPEMD-160 est-elle plus sûre que SHA-1 ?",
+            "a2": "En pratique oui. Aucune collision pratique n'a été trouvée pour RIPEMD-160, contrairement à SHA-1.",
+            "q3": "Dois-je utiliser RIPEMD-160 dans de nouveaux projets ?",
+            "a3": "Pour les nouveaux projets, SHA-256 est recommandée. Utilisez RIPEMD-160 pour la compatibilité Bitcoin."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez saisir du texte",
+        "btn_copied": "Copié !",
+        "btn_generating": "Génération...",
+        "error_failed": "Échec de la génération du hash. Réessayez."
+    }
+}

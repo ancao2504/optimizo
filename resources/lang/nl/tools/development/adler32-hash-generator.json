@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Adler-32 Hash Generator - Gratis Online Tool",
+        "description": "Genereer Adler-32 hashes van elke tekst. Snelle checksumfunctie gebruikt in de zlib-compressiebibliotheek. Gratis.",
+        "h1": "Adler-32 Hash Generator",
+        "subtitle": "Genereer Adler-32 checksums — snel en lichtgewicht"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een Adler-32 hash te genereren...",
+        "btn_generate": "Genereer Adler-32 Hash",
+        "label_result": "Adler-32 Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "Adler-32 Hash Generator",
+        "hero_subtitle": "Ultra-snelle checksumfunctie voor foutdetectie",
+        "p1": "Adler-32 is een checksumfunctie ontworpen door Mark Adler in 1995. Het produceert een 32-bit hash (8 hexadecimale tekens). Breed gebruikt in de zlib-compressiebibliotheek en het rsync-protocol, ontworpen om aanzienlijk sneller te zijn dan CRC-32.",
+        "what_title": "Wat is Adler-32?",
+        "what_desc": "Adler-32 gebruikt twee sommen: A (som van alle bytes plus één) en B (cumulatieve som van alle A-waarden). Beide worden modulo het priemgetal 65521 berekend. De uiteindelijke hash: B × 65536 + A.",
+        "features_title": "✅ Voordelen",
+        "features": {
+            "fast": "<strong>Extreem snel:</strong> Aanzienlijk sneller dan CRC-32 in software",
+            "fixed": "<strong>Laag verbruik:</strong> Minimaal CPU- en geheugengebruik",
+            "deterministic": "<strong>Eenvoudige implementatie:</strong> Slechts een paar regels code nodig",
+            "support": "<strong>Productiebewezen:</strong> Miljarden streams verwerkt in zlib"
+        },
+        "uses_title": "📊 Veelvoorkomende toepassingen",
+        "uses": {
+            "verify": "<strong>zlib-compressie:</strong> Streamintegriteitsverificatie",
+            "checksum": "<strong>rsync-protocol:</strong> Snelle bestandswijzigingsdetectie",
+            "cache": "<strong>Netwerkcontroles:</strong> Lichtgewicht pakketverificatie",
+            "integrity": "<strong>Gegevensoverdracht:</strong> Streamfoutdetectie"
+        },
+        "warning_title": "⚠️ Beveiligingsopmerking",
+        "warning_desc": "<strong>Adler-32 is geen cryptografische hashfunctie.</strong> Het is een checksum voor foutdetectie, niet voor beveiliging. Gebruik SHA-256 voor cryptografische behoeften.",
+        "compare_title": "🔄 Adler-32 vergelijking",
+        "compare": {
+            "md5": {
+                "title": "Adler-32",
+                "desc1": "32 bit, niet-cryptografisch",
+                "desc2": "Snelst, minimale detectie"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "32 bit, polynoom",
+                "desc2": "Langzamer, betere detectie"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128 bit, cryptografisch",
+                "desc2": "Veel hogere beveiliging"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Wat is het verschil tussen Adler-32 en CRC-32?",
+            "a1": "Adler-32 is sneller te berekenen maar detecteert minder foutsoorten dan CRC-32. CRC-32 gebruikt polynoomdeling die meer foutpatronen vangt.",
+            "q2": "Kan ik Adler-32 gebruiken voor beveiliging?",
+            "a2": "Nee. Adler-32 is een checksum, geen cryptografische hashfunctie. Botsingen zijn eenvoudig te maken.",
+            "q3": "Waarom gebruikt zlib Adler-32 in plaats van CRC-32?",
+            "a3": "zlib geeft prioriteit aan snelheid. Gecomprimeerde data heeft doorgaans controles op een hoger niveau."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

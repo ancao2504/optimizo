@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "مولد هاش Whirlpool - أداة مجانية عبر الإنترنت",
+        "description": "أنشئ هاشات Whirlpool من أي نص. هاش تشفيري 512 بت مبني على مبادئ AES ومعتمد من ISO. مجاني وفوري.",
+        "h1": "مولد هاش Whirlpool",
+        "subtitle": "أنشئ هاشات Whirlpool بطول 512 بت — معيار ISO التشفيري"
+    },
+    "editor": {
+        "label_input": "أدخل النص",
+        "ph_input": "أدخل النص لتوليد هاش Whirlpool...",
+        "btn_generate": "توليد هاش Whirlpool",
+        "label_result": "هاش Whirlpool",
+        "btn_copy": "نسخ"
+    },
+    "content": {
+        "hero_title": "مولد هاش Whirlpool",
+        "hero_subtitle": "هاش 512 بت معيار ISO مبني على مبادئ AES",
+        "p1": "Whirlpool هي دالة هاش تشفيرية تُنتج قيمة هاش بطول 512 بت (128 حرف سداسي عشري)، صممها Vincent Rijmen (المشارك في تصميم AES) وPaulo Barreto. تعتمد Whirlpool على نسخة معدلة من تشفير الكتل AES واعتمدها معيار ISO/IEC 10118-3 الدولي.",
+        "what_title": "ما هو Whirlpool؟",
+        "what_desc": "تستخدم Whirlpool دالة ضغط Miyaguchi-Preneel مبنية على تشفير كتل مصمم خصيصاً يسمى W. يعمل هذا التشفير على كتل 512 بت مع مفاتيح 512 بت عبر 10 جولات — مشابه في البنية لـ AES-256.",
+        "features_title": "✅ مزايا Whirlpool",
+        "features": {
+            "fast": "<strong>إرث AES:</strong> صممه المشارك في تصميم AES، Vincent Rijmen",
+            "fixed": "<strong>خرج 512 بت:</strong> 128 حرف سداسي عشري، يطابق طول SHA-512",
+            "deterministic": "<strong>معيار ISO:</strong> معتمد من ISO/IEC 10118-3",
+            "support": "<strong>موصى به من NESSIE:</strong> مخططات التوقيع الأوروبية الجديدة"
+        },
+        "uses_title": "📊 حالات الاستخدام",
+        "uses": {
+            "verify": "<strong>التوقيعات الرقمية:</strong> توقيع المستندات والكود عالي الأمان",
+            "checksum": "<strong>سلامة الملفات:</strong> التحقق من تحميلات الملفات الكبيرة",
+            "cache": "<strong>TrueCrypt/VeraCrypt:</strong> يُستخدم في برمجيات تشفير الأقراص",
+            "integrity": "<strong>الامتثال الأوروبي:</strong> هاش متوافق مع ISO/NESSIE"
+        },
+        "warning_title": "💡 ملاحظة التصميم",
+        "warning_desc": "<strong>Whirlpool يوفر نفس مقاومة التصادم 256 بت مثل SHA-512</strong> لكن من خلال تصميم داخلي مختلف تماماً (مبني على AES مقابل Merkle-Damgård). هذا التنوع يجعله قيماً كرأي ثانٍ.",
+        "compare_title": "🔄 Whirlpool مقابل SHA-512",
+        "compare": {
+            "md5": {
+                "title": "Whirlpool",
+                "desc1": "512 بت، مبني على AES",
+                "desc2": "معيار ISO، مصمم AES"
+            },
+            "sha1": {
+                "title": "SHA-512",
+                "desc1": "512 بت، Merkle-Damgård",
+                "desc2": "أكثر انتشاراً"
+            },
+            "sha256": {
+                "title": "SHA-3",
+                "desc1": "متغير، بنية إسفنجية",
+                "desc2": "فائز مسابقة NIST SHA-3"
+            }
+        },
+        "faq_title": "❓ الأسئلة الشائعة",
+        "faq": {
+            "q1": "Whirlpool مقابل SHA-512 — أيهما أكثر أماناً؟",
+            "a1": "كلاهما يوفر 256 بت من مقاومة التصادم. لا هجمات عملية معروفة على أي منهما. SHA-512 أسرع في البرمجيات.",
+            "q2": "لماذا أختار Whirlpool بدلاً من SHA-512؟",
+            "a2": "اختر Whirlpool عندما تحتاج هاش معيار ISO، أو تريد استقلالاً عن خوارزميات NSA، أو تحتاج لعائلة تصميم مختلفة.",
+            "q3": "هل يُستخدم Whirlpool في برمجيات رئيسية؟",
+            "a3": "نعم. TrueCrypt وخليفته VeraCrypt يستخدمان Whirlpool كأحد خيارات الهاش. وهو متاح أيضاً في GnuPG وBouncy Castle."
+        }
+    },
+    "js": {
+        "error_empty": "الرجاء إدخال نص",
+        "btn_copied": "تم النسخ!",
+        "btn_generating": "جارٍ التوليد...",
+        "error_failed": "فشل توليد الهاش. حاول مرة أخرى."
+    }
+}

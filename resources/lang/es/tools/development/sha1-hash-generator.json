@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Generador de Hash SHA-1 - Herramienta Online Gratuita",
+        "description": "Genera hashes SHA-1 desde cualquier texto. Función digest de 160 bits que impulsa Git y sistemas legacy. Gratis e instantáneo.",
+        "h1": "Generador de Hash SHA-1",
+        "subtitle": "Genera hashes SHA-1 de 160 bits — la función hash detrás de Git"
+    },
+    "editor": {
+        "label_input": "Introducir texto",
+        "ph_input": "Introduce texto para generar hash SHA-1...",
+        "btn_generate": "Generar Hash SHA-1",
+        "label_result": "Hash SHA-1",
+        "btn_copy": "Copiar"
+    },
+    "content": {
+        "hero_title": "Generador de Hash SHA-1",
+        "hero_subtitle": "La función digest de 160 bits que impulsa Git",
+        "p1": "SHA-1 (Secure Hash Algorithm 1) es una función hash criptográfica de la NSA que produce un digest de 160 bits (40 caracteres hex). Aunque se demostraron colisiones prácticas en 2017, SHA-1 sigue siendo usado en Git para identificación de commits.",
+        "what_title": "¿Qué es SHA-1?",
+        "what_desc": "SHA-1 procesa datos en bloques de 512 bits a través de 80 rondas de operaciones. Expande un plan de mensaje de 16 palabras a 80 palabras y aplica operaciones lógicas a nivel de bits, adiciones modulares y rotaciones cíclicas.",
+        "features_title": "✅ Características de SHA-1",
+        "features": {
+            "fast": "<strong>Git VCS:</strong> Identifica cada commit y objeto en repositorios Git",
+            "fixed": "<strong>Salida de 160 bits:</strong> Digest hexadecimal de 40 dígitos",
+            "deterministic": "<strong>Amplio soporte:</strong> Disponible universalmente en todos los lenguajes",
+            "support": "<strong>Rápido:</strong> Cálculo veloz con soporte hardware"
+        },
+        "uses_title": "📊 Casos de uso comunes",
+        "uses": {
+            "verify": "<strong>Git:</strong> Identificación de commits, branching y merging",
+            "checksum": "<strong>Sumas de verificación:</strong> Verificación de integridad de archivos",
+            "cache": "<strong>Sistemas legacy:</strong> Certificados SSL/TLS antiguos",
+            "integrity": "<strong>Fingerprinting:</strong> Identificación de contenido"
+        },
+        "warning_title": "⚠️ Aviso de obsolescencia",
+        "warning_desc": "<strong>SHA-1 está criptográficamente obsoleto.</strong> Google y CWI Amsterdam demostraron colisiones prácticas en febrero de 2017 (ataque SHAttered). Usa SHA-256 o superior.",
+        "compare_title": "🔄 Comparación de SHA-1",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128 bits",
+                "desc2": "Roto — no usar"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160 bits",
+                "desc2": "Obsoleto — colisiones conocidas"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bits",
+                "desc2": "Seguro — recomendado"
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Es SHA-1 todavía seguro?",
+            "a1": "No. Se demostraron colisiones prácticas en 2017. SHA-1 ya no se acepta para firmas digitales ni certificados.",
+            "q2": "¿Por qué Git sigue usando SHA-1?",
+            "a2": "La velocidad de SHA-1 y que Git no lo usa criptográficamente hicieron menos urgente la migración. Git está migrando gradualmente a SHA-256.",
+            "q3": "¿Qué debería usar en lugar de SHA-1?",
+            "a3": "Usa SHA-256 para la mayoría de aplicaciones. Ofrece 128 bits de resistencia a colisiones sin ataques prácticos conocidos."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor introduce texto",
+        "btn_copied": "¡Copiado!",
+        "btn_generating": "Generando...",
+        "error_failed": "Error al generar el hash. Inténtalo de nuevo."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "MD4 Hash Generator - Gratis Online Tool",
+        "description": "Genereer MD4 hashes van elke tekst. Historische voorganger van MD5 ontworpen door Ron Rivest. Gratis.",
+        "h1": "MD4 Hash Generator",
+        "subtitle": "Genereer 128-bit MD4 hashes — de oorsprong van moderne cryptografie"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een MD4 hash te genereren...",
+        "btn_generate": "Genereer MD4 Hash",
+        "label_result": "MD4 Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "MD4 Hash Generator",
+        "hero_subtitle": "De pionierende hashfunctie die moderne cryptografie vormgaf",
+        "p1": "MD4 (Message Digest 4) is een cryptografische hashfunctie ontworpen door Ron Rivest in 1990 bij MIT. Het produceert een 128-bit hash (32 hex tekens). Hoewel cryptografisch gekraakt, heeft MD4 enorm historisch belang als directe voorouder van MD5, SHA-1 en de hele SHA-2 familie.",
+        "what_title": "Wat is MD4?",
+        "what_desc": "MD4 verwerkt data in 512-bit blokken door drie rondes van elk 16 bewerkingen (48 totaal). Het houdt vier 32-bit toestandsvariabelen bij.",
+        "features_title": "✅ Kenmerken",
+        "features": {
+            "fast": "<strong>Historische pionier:</strong> Vestigde het Merkle-Damgård framework",
+            "fixed": "<strong>128 bit uitvoer:</strong> 32-cijferig hexadecimaal digest",
+            "deterministic": "<strong>Directe invloed:</strong> Leidde tot MD5, SHA-1 en SHA-2",
+            "support": "<strong>Eenvoudig:</strong> Slechts 48 bewerkingen per blok"
+        },
+        "uses_title": "📊 Toepassingen",
+        "uses": {
+            "verify": "<strong>Legacy-systemen:</strong> NTLM-authenticatieprotocollen",
+            "checksum": "<strong>Onderwijs:</strong> Leren over hashfunctie-ontwerp",
+            "cache": "<strong>Onderzoek:</strong> Studie van differentiële cryptanalyse-evolutie",
+            "integrity": "<strong>Niet-beveiligingskritisch:</strong> Snelle checksums"
+        },
+        "warning_title": "⚠️ Beveiligingswaarschuwing",
+        "warning_desc": "<strong>MD4 is volledig gekraakt — gebruik het niet voor beveiliging.</strong> Botsingen worden in minder dan een seconde gevonden. Gebruik SHA-256.",
+        "compare_title": "🔄 MD4 vs modern",
+        "compare": {
+            "md5": {
+                "title": "MD4",
+                "desc1": "128 bit, 3 rondes",
+                "desc2": "Gekraakt — alleen historisch"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128 bit, 4 rondes",
+                "desc2": "Ook gekraakt"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit, 64 rondes",
+                "desc2": "Modern veilige standaard"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Waarom wordt MD4 nog gebruikt?",
+            "a1": "MD4 komt voornamelijk voor in legacy-protocollen zoals NTLM-authenticatie in Windows.",
+            "q2": "Hoe is MD4 gekraakt?",
+            "a2": "Via differentiële cryptanalyse. Volledige botsingen worden met minimale rekenkracht gevonden.",
+            "q3": "Relatie tussen MD4 en MD5?",
+            "a3": "MD5 is de directe opvolger. Rivest voegde een vierde ronde en extra bewerkingen toe."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Snefru Hash Oluşturucu - Ücretsiz Çevrimiçi Araç",
+        "description": "Herhangi bir metinden Snefru hash'leri oluşturun. Xerox PARC'tan tarihsel hash fonksiyonu. Ücretsiz.",
+        "h1": "Snefru Hash Oluşturucu",
+        "subtitle": "Snefru hash'leri oluşturun — Xerox PARC'tan tarihsel hash fonksiyonu"
+    },
+    "editor": {
+        "label_input": "Metin girin",
+        "ph_input": "Snefru hash oluşturmak için metin girin...",
+        "btn_generate": "Snefru Hash Oluştur",
+        "label_result": "Snefru Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "Snefru Hash Oluşturucu",
+        "hero_subtitle": "Kriptografik tasarımda tarihsel dönüm noktası",
+        "p1": "Snefru, Ralph Merkle tarafından 1990'da Xerox PARC'ta tasarlanan, Mısır firavunu Snefru'nun adını taşıyan kriptografik hash fonksiyonudur. 128 veya 256 bitlik hash üretebilir.",
+        "what_title": "Snefru nedir?",
+        "what_desc": "Snefru, verileri 512 bitlik (128 bit çıkış için) veya 384 bitlik (256 bit çıkış için) bloklarda yerine koyma kutusu tabanlı karıştırma ile işler.",
+        "features_title": "✅ Özellikler",
+        "features": {
+            "fast": "<strong>Tarihsel öncü:</strong> İlk Merkle-Damgård hash fonksiyonlarından biri",
+            "fixed": "<strong>256 bit çıkış:</strong> 64 karakterlik özet",
+            "deterministic": "<strong>Xerox PARC:</strong> Merkle ağaçlarının mucidi Merkle tarafından tasarlandı",
+            "support": "<strong>Eğitim değeri:</strong> Hash'leme evrimini anlamak için önemli"
+        },
+        "uses_title": "📊 Kullanım alanları",
+        "uses": {
+            "verify": "<strong>Eski sistemler:</strong> Eski Xerox sistemleriyle uyumluluk",
+            "checksum": "<strong>Eğitim:</strong> Hash fonksiyon tasarımı öğretimi",
+            "cache": "<strong>Araştırma:</strong> Diferansiyel analiz çalışması",
+            "integrity": "<strong>Tarihsel analiz:</strong> Snefru'dan SHA-2'ye evrim"
+        },
+        "warning_title": "⚠️ Uyarı",
+        "warning_desc": "<strong>Snefru kriptografik olarak kırılmıştır.</strong> Diferansiyel analiz çarpışmalar buldu. SHA-256 kullanın.",
+        "compare_title": "🔄 Snefru vs modern",
+        "compare": {
+            "md5": {
+                "title": "Snefru",
+                "desc1": "128/256 bit",
+                "desc2": "Kırılmış — sadece tarihsel"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128 bit",
+                "desc2": "O da kırılmış"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Modern güvenli standart"
+            }
+        },
+        "faq_title": "❓ Sıkça sorulan sorular",
+        "faq": {
+            "q1": "Neden bir firavun adı?",
+            "a1": "Ralph Merkle, kriptografik algoritmaları Mısır öğeleriyle adlandırma geleneğini takip etti.",
+            "q2": "Snefru nasıl kırıldı?",
+            "a2": "Biham ve Shamir, 2 turlu versiyonda çarpışmalar bulmak için diferansiyel analiz kullandı.",
+            "q3": "Snefru'nun mirası ne?",
+            "a3": "Snefru, Merkle-Damgård'ın baskın paradigma olarak yerleşmesine yardımcı oldu."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen metin girin",
+        "btn_copied": "Kopyalandı!",
+        "btn_generating": "Oluşturuluyor...",
+        "error_failed": "Hash oluşturulamadı. Tekrar deneyin."
+    }
+}

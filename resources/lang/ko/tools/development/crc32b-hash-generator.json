@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "CRC-32B 해시 생성기 - 무료 온라인 도구",
+        "description": "모든 텍스트에서 CRC-32B 해시를 생성하세요. PHP와 Python의 표준 CRC-32 변형. 무료.",
+        "h1": "CRC-32B 해시 생성기",
+        "subtitle": "CRC-32B 해시 생성 — PHP 표준 변형"
+    },
+    "editor": {
+        "label_input": "텍스트 입력",
+        "ph_input": "CRC-32B 해시를 생성할 텍스트를 입력하세요...",
+        "btn_generate": "CRC-32B 해시 생성",
+        "label_result": "CRC-32B 해시",
+        "btn_copy": "복사"
+    },
+    "content": {
+        "hero_title": "CRC-32B 해시 생성기",
+        "hero_subtitle": "데이터 무결성을 위한 표준 CRC-32B 다항식",
+        "p1": "CRC-32B는 CRC-32 계열에서 가장 일반적인 변형으로 반영 다항식 0xEDB88320을 사용합니다. PHP, Python, Java 및 대부분의 프로그래밍 언어에서 기본 CRC-32 구현입니다.",
+        "what_title": "CRC-32B란?",
+        "what_desc": "CRC-32B는 다항식 0x04C11DB7의 반영 형태 0xEDB88320을 사용합니다. 'B' 접미사는 다른 CRC-32 변형과 구별합니다.",
+        "features_title": "✅ 장점",
+        "features": {
+            "fast": "<strong>언어 표준:</strong> PHP, Python, Java의 기본 구현",
+            "fixed": "<strong>강력한 감지:</strong> 모든 1비트, 2비트 오류 감지",
+            "deterministic": "<strong>상호 운용성:</strong> 플랫폼 간 일관된 결과",
+            "support": "<strong>하드웨어 가속:</strong> 네이티브 CPU 지원"
+        },
+        "uses_title": "📊 용도",
+        "uses": {
+            "verify": "<strong>파일 검증:</strong> 다운로드 무결성 검사",
+            "checksum": "<strong>데이터베이스:</strong> 데이터 손상 감지",
+            "cache": "<strong>API:</strong> 페이로드 무결성 검증",
+            "integrity": "<strong>버전 관리:</strong> 파일 변경 감지"
+        },
+        "warning_title": "⚠️ 참고",
+        "warning_desc": "<strong>CRC-32B는 대부분의 프로그래밍 언어에서 CRC-32와 기능적으로 동일합니다.</strong>",
+        "compare_title": "🔄 CRC-32 변형",
+        "compare": {
+            "md5": {
+                "title": "CRC-32B",
+                "desc1": "다항식 0xEDB88320",
+                "desc2": "가장 일반적인 표준"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "대체 변형",
+                "desc2": "다른 다항식"
+            },
+            "sha256": {
+                "title": "CRC-32C",
+                "desc1": "Castagnoli 다항식",
+                "desc2": "iSCSI에 최적화"
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "CRC-32와 CRC-32B의 차이는?",
+            "a1": "서로 다른 생성 다항식을 사용합니다. CRC-32B는 가장 일반적인 반영 형태를 사용합니다.",
+            "q2": "CRC-32B는 암호학적으로 안전한가요?",
+            "a2": "아니요. 모든 CRC 변형과 마찬가지로 오류 감지용 체크섬입니다.",
+            "q3": "어떤 언어가 CRC-32B를 사용하나요?",
+            "a3": "PHP (crc32()), Python (binascii.crc32()), Java (java.util.zip.CRC32), .NET."
+        }
+    },
+    "js": {
+        "error_empty": "텍스트를 입력하세요",
+        "btn_copied": "복사됨!",
+        "btn_generating": "생성 중...",
+        "error_failed": "해시 생성에 실패했습니다. 다시 시도하세요."
+    }
+}

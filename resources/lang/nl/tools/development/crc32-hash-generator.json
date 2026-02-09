@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "CRC-32 Hash Generator - Gratis Online Tool",
+        "description": "Genereer CRC-32 hashes van elke tekst. Standaard cyclische redundantiecontrole. Gratis.",
+        "h1": "CRC-32 Hash Generator",
+        "subtitle": "Genereer CRC-32 checksums — industriestandaard"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een CRC-32 hash te genereren...",
+        "btn_generate": "Genereer CRC-32 Hash",
+        "label_result": "CRC-32 Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "CRC-32 Hash Generator",
+        "hero_subtitle": "Standaard cyclische redundantiecontrole voor gegevensintegriteit",
+        "p1": "CRC-32 is de meest gebruikte niet-cryptografische checksumfunctie ter wereld. Het produceert een 32-bit hash (8 hex tekens) via polynoomdeling. CRC-32 is overal: ZIP- en PNG-formaten, Ethernet-netwerken, USB-protocollen en bestandssystemen.",
+        "what_title": "Wat is CRC-32?",
+        "what_desc": "CRC-32 behandelt invoerdata als een groot polynoom en berekent de rest na deling door een vast generatorpolynoom.",
+        "features_title": "✅ Voordelen",
+        "features": {
+            "fast": "<strong>Hardwareversnelling:</strong> Intel CRC32-instructies berekenen op geheugensnelheid",
+            "fixed": "<strong>Sterke detectie:</strong> Detecteert alle 1-bit, 2-bit en oneven bitfouten",
+            "deterministic": "<strong>Universele standaard:</strong> Ethernet, USB, ZIP, PNG, MPEG-2",
+            "support": "<strong>Eenvoudig en snel:</strong> Opzoektabellen voor snelle berekening"
+        },
+        "uses_title": "📊 Toepassingen",
+        "uses": {
+            "verify": "<strong>Archivering:</strong> ZIP- en gzip-integriteitsverificatie",
+            "checksum": "<strong>Netwerken:</strong> Ethernet-frameverificatie",
+            "cache": "<strong>Opslag:</strong> Bestandssysteemintegriteit",
+            "integrity": "<strong>Multimedia:</strong> PNG- en MPEG-bestandsintegriteit"
+        },
+        "warning_title": "⚠️ Beveiligingsopmerking",
+        "warning_desc": "<strong>CRC-32 is geen cryptografische hashfunctie.</strong> Het is ontworpen om willekeurige fouten te detecteren, niet om te beschermen tegen opzettelijke manipulatie.",
+        "compare_title": "🔄 CRC-32 vergelijking",
+        "compare": {
+            "md5": {
+                "title": "CRC-32",
+                "desc1": "32 bit, polynoom",
+                "desc2": "Foutdetectie, niet crypto"
+            },
+            "sha1": {
+                "title": "Adler-32",
+                "desc1": "32 bit, rekenkundig",
+                "desc2": "Sneller, zwakkere detectie"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128 bit, cryptografisch",
+                "desc2": "Veel langzamer maar veilig"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Verschil tussen CRC-32 en CRC-32B?",
+            "a1": "Ze gebruiken verschillende generatorpolynomen. CRC-32B is de variant die PHP standaard berekent.",
+            "q2": "Waarom CRC-32 niet voor beveiliging?",
+            "a2": "CRC-32 is lineair en omkeerbaar. Een aanvaller kan eenvoudig botsingen maken.",
+            "q3": "Detecteert CRC-32 alle fouten?",
+            "a3": "Nee. CRC-32 detecteert alle 1- en 2-bitfouten maar kan sommige foutpatronen missen."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

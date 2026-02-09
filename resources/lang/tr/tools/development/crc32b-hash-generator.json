@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "CRC-32B Hash Oluşturucu - Ücretsiz Çevrimiçi Araç",
+        "description": "Herhangi bir metinden CRC-32B hash'leri oluşturun. PHP ve Python'da standart CRC-32 varyantı. Ücretsiz.",
+        "h1": "CRC-32B Hash Oluşturucu",
+        "subtitle": "CRC-32B hash'leri oluşturun — PHP'de standart varyant"
+    },
+    "editor": {
+        "label_input": "Metin girin",
+        "ph_input": "CRC-32B hash oluşturmak için metin girin...",
+        "btn_generate": "CRC-32B Hash Oluştur",
+        "label_result": "CRC-32B Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "CRC-32B Hash Oluşturucu",
+        "hero_subtitle": "Veri bütünlüğü için standart CRC-32B polinomu",
+        "p1": "CRC-32B, CRC-32 ailesinin en yaygın varyantıdır ve yansıtılmış polinom 0xEDB88320'yi kullanır. PHP, Python, Java ve çoğu programlama dilinde standart CRC-32 uygulamasıdır.",
+        "what_title": "CRC-32B nedir?",
+        "what_desc": "CRC-32B, 0x04C11DB7 polinomunu yansıtılmış formu olan 0xEDB88320'de kullanır. 'B' son eki onu diğer CRC-32 varyantlarından ayırır.",
+        "features_title": "✅ Avantajlar",
+        "features": {
+            "fast": "<strong>Dil standardı:</strong> PHP, Python, Java'da varsayılan uygulama",
+            "fixed": "<strong>Güçlü tespit:</strong> Tüm 1 ve 2 bit hatalarını tespit eder",
+            "deterministic": "<strong>Birlikte çalışabilirlik:</strong> Platformlar arası tutarlı sonuçlar",
+            "support": "<strong>Donanım hızlandırma:</strong> Doğal CPU desteği"
+        },
+        "uses_title": "📊 Kullanım alanları",
+        "uses": {
+            "verify": "<strong>Dosya doğrulama:</strong> İndirme bütünlük kontrolü",
+            "checksum": "<strong>Veritabanları:</strong> Veri bozulma tespiti",
+            "cache": "<strong>API'ler:</strong> Yük bütünlük doğrulama",
+            "integrity": "<strong>Sürüm kontrolü:</strong> Dosya değişiklik tespiti"
+        },
+        "warning_title": "⚠️ Not",
+        "warning_desc": "<strong>CRC-32B, çoğu programlama dilinde CRC-32 ile işlevsel olarak aynıdır.</strong>",
+        "compare_title": "🔄 CRC-32 varyantları",
+        "compare": {
+            "md5": {
+                "title": "CRC-32B",
+                "desc1": "Polinom 0xEDB88320",
+                "desc2": "En yaygın standart"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "Alternatif varyantlar",
+                "desc2": "Farklı polinomlar"
+            },
+            "sha256": {
+                "title": "CRC-32C",
+                "desc1": "Castagnoli polinomu",
+                "desc2": "iSCSI için optimize"
+            }
+        },
+        "faq_title": "❓ Sıkça sorulan sorular",
+        "faq": {
+            "q1": "CRC-32 ile CRC-32B arasındaki fark?",
+            "a1": "Farklı üreteç polinomları. CRC-32B en yaygın yansıtılmış formu kullanır.",
+            "q2": "CRC-32B kriptografik olarak güvenli mi?",
+            "a2": "Hayır. Tüm CRC varyantları gibi hata tespiti için sağlama toplamıdır.",
+            "q3": "Hangi diller CRC-32B kullanır?",
+            "a3": "PHP (crc32()), Python (binascii.crc32()), Java (java.util.zip.CRC32) ve .NET."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen metin girin",
+        "btn_copied": "Kopyalandı!",
+        "btn_generating": "Oluşturuluyor...",
+        "error_failed": "Hash oluşturulamadı. Tekrar deneyin."
+    }
+}

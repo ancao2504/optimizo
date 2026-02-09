@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-256 Hash Generator - Gratis Online Tool",
+        "description": "Genereer SHA-256 hashes van elke tekst. De gouden standaard van cryptografische hashfuncties. Gratis.",
+        "h1": "SHA-256 Hash Generator",
+        "subtitle": "Genereer SHA-256 hashes — de industriestandaard in cryptografie"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een SHA-256 hash te genereren...",
+        "btn_generate": "Genereer SHA-256 Hash",
+        "label_result": "SHA-256 Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "SHA-256 Hash Generator",
+        "hero_subtitle": "Standaard cryptografische hashfunctie voor beveiliging",
+        "p1": "SHA-256 is de meest gebruikte cryptografische hashfunctie ter wereld. Lid van de SHA-2 familie van de NSA, produceert het een 256-bit hash (64 hex tekens). SHA-256 is de ruggengraat van Bitcoin-mining, TLS 1.3 en code-ondertekening.",
+        "what_title": "Wat is SHA-256?",
+        "what_desc": "SHA-256 verwerkt data in 512-bit blokken door 64 compressierondes.",
+        "features_title": "✅ Voordelen",
+        "features": {
+            "fast": "<strong>Cryptografisch veilig:</strong> Geen bekende praktische aanval in meer dan 20 jaar",
+            "fixed": "<strong>256 bit uitvoer:</strong> 64-cijferig hexadecimaal digest",
+            "deterministic": "<strong>Universele standaard:</strong> Aanbevolen door NIST, ISO en IETF",
+            "support": "<strong>Hardwareondersteuning:</strong> Intel SHA- en ARM Crypto-extensies"
+        },
+        "uses_title": "📊 Toepassingen",
+        "uses": {
+            "verify": "<strong>Blockchain:</strong> Bitcoin Proof-of-Work en Merkle-bomen",
+            "checksum": "<strong>TLS 1.3:</strong> Certificaatverificatie en handshake",
+            "cache": "<strong>Code-ondertekening:</strong> Software-integriteitsverificatie",
+            "integrity": "<strong>Digitale handtekeningen:</strong> Document- en transactieondertekening"
+        },
+        "warning_title": "💡 Best practices",
+        "warning_desc": "<strong>SHA-256 is veilig voor hashing, maar niet direct voor wachtwoordopslag.</strong> Gebruik bcrypt of Argon2.",
+        "compare_title": "🔄 SHA-256 vergelijking",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128 bit",
+                "desc2": "Gekraakt"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Veilige standaard, aanbevolen"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512 bit",
+                "desc2": "Sneller op 64-bit"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Is SHA-256 veilig in 2025?",
+            "a1": "Ja. Geen bekende praktische aanval. 128 bit botsingsweerstand.",
+            "q2": "SHA-256 vs SHA-512?",
+            "a2": "SHA-256 is voldoende voor de meeste toepassingen. SHA-512 is sneller op 64-bit processoren.",
+            "q3": "Kunnen kwantumcomputers SHA-256 kraken?",
+            "a3": "Grovers algoritme vermindert botsingsweerstand tot 128 bit, wat nog als veilig wordt beschouwd."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

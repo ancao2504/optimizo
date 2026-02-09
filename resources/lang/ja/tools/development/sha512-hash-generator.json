@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-512ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからSHA-512ハッシュを生成。最大セキュリティの512ビット暗号学的ハッシュ。無料。",
+        "h1": "SHA-512ハッシュジェネレーター",
+        "subtitle": "SHA-512ハッシュを生成 — 最大の暗号学的セキュリティ"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "SHA-512ハッシュを生成するテキストを入力...",
+        "btn_generate": "SHA-512ハッシュを生成",
+        "label_result": "SHA-512ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "SHA-512ハッシュジェネレーター",
+        "hero_subtitle": "最大セキュリティの512ビット暗号学的ハッシュ",
+        "p1": "SHA-512はSHA-2ファミリーの最も強力なメンバーで、512ビットハッシュ（16進数128文字）を生成します。モダンな64ビットプロセッサではSHA-256より高速です。",
+        "what_title": "SHA-512とは？",
+        "what_desc": "SHA-512はデータを1024ビットブロックで8つの64ビット作業変数による80ラウンドで処理します。",
+        "features_title": "✅ 利点",
+        "features": {
+            "fast": "<strong>64ビットで高速：</strong> ネイティブ64ビット演算がSHA-256を上回る",
+            "fixed": "<strong>512ビット出力：</strong> 128文字、256ビット耐性",
+            "deterministic": "<strong>最大セキュリティ：</strong> SHA-2で最も高いセキュリティマージン",
+            "support": "<strong>量子耐性：</strong> Groverアルゴリズムに対して256ビット"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>SSH：</strong> 鍵フィンガープリントとホスト検証",
+            "checksum": "<strong>IPsec：</strong> VPNトンネル整合性",
+            "cache": "<strong>DNSSEC：</strong> DNSレコード署名",
+            "integrity": "<strong>Linux認証：</strong> /etc/shadowでのパスワードハッシュ"
+        },
+        "warning_title": "💡 注意",
+        "warning_desc": "<strong>SHA-512は64ビットシステムでSHA-256より高速です。</strong> パスワードにはbcryptまたはArgon2を使用してください。",
+        "compare_title": "🔄 比較",
+        "compare": {
+            "md5": {
+                "title": "SHA-256",
+                "desc1": "256ビット",
+                "desc2": "32ビットで高速"
+            },
+            "sha1": {
+                "title": "SHA-512",
+                "desc1": "512ビット",
+                "desc2": "64ビットで高速、より安全"
+            },
+            "sha256": {
+                "title": "SHA-3",
+                "desc1": "可変",
+                "desc2": "異なる設計"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "SHA-512は過剰？",
+            "a1": "SHA-256は数十年間十分です。しかしSHA-512は64ビットシステムでしばしば高速です。",
+            "q2": "SHA-512 vs SHA-3？",
+            "a2": "両方とも安全です。SHA-512はソフトウェアで高速です。",
+            "q3": "SHA-512を破るのにどれくらいかかる？",
+            "a3": "256ビットの耐性で、宇宙の年齢より長い。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

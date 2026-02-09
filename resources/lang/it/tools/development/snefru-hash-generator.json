@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Generatore di Hash Snefru - Strumento Online Gratuito",
+        "description": "Genera hash Snefru da qualsiasi testo. Funzione hash storica di Xerox PARC. Gratuito.",
+        "h1": "Generatore di Hash Snefru",
+        "subtitle": "Genera hash Snefru — la funzione hash storica di Xerox PARC"
+    },
+    "editor": {
+        "label_input": "Inserisci testo",
+        "ph_input": "Inserisci il testo per generare l'hash Snefru...",
+        "btn_generate": "Genera Hash Snefru",
+        "label_result": "Hash Snefru",
+        "btn_copy": "Copia"
+    },
+    "content": {
+        "hero_title": "Generatore di Hash Snefru",
+        "hero_subtitle": "Pietra miliare storica nella progettazione crittografica",
+        "p1": "Snefru è una funzione hash crittografica progettata da Ralph Merkle in Xerox PARC nel 1990, dal nome del faraone egizio Snefru. Può produrre hash di 128 o 256 bit ed è storicamente importante come una delle prime a usare la costruzione Merkle-Damgård.",
+        "what_title": "Cos'è Snefru?",
+        "what_desc": "Snefru elabora dati in blocchi di 512 bit (per output 128 bit) o 384 bit (per output 256 bit) usando mixing basato su box di sostituzione.",
+        "features_title": "✅ Proprietà",
+        "features": {
+            "fast": "<strong>Pioniere storico:</strong> Una delle prime funzioni hash Merkle-Damgård",
+            "fixed": "<strong>Output 256 bit:</strong> Digest di 64 caratteri",
+            "deterministic": "<strong>Xerox PARC:</strong> Progettata da Merkle, inventore degli alberi Merkle",
+            "support": "<strong>Valore educativo:</strong> Essenziale per comprendere l'evoluzione dell'hashing"
+        },
+        "uses_title": "📊 Casi d'uso",
+        "uses": {
+            "verify": "<strong>Sistemi legacy:</strong> Compatibilità con vecchi sistemi Xerox",
+            "checksum": "<strong>Educazione:</strong> Insegnamento della progettazione hash",
+            "cache": "<strong>Ricerca:</strong> Studio della resistenza all'analisi differenziale",
+            "integrity": "<strong>Analisi storica:</strong> Evoluzione da Snefru a SHA-2"
+        },
+        "warning_title": "⚠️ Avvertenza",
+        "warning_desc": "<strong>Snefru è crittograficamente compromessa.</strong> L'analisi differenziale di Biham e Shamir ha trovato collisioni. Usa SHA-256.",
+        "compare_title": "🔄 Snefru vs moderni",
+        "compare": {
+            "md5": {
+                "title": "Snefru",
+                "desc1": "128/256 bit",
+                "desc2": "Compromessa — solo storica"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128 bit",
+                "desc2": "Anche compromessa, più usata"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Standard moderno sicuro"
+            }
+        },
+        "faq_title": "❓ Domande frequenti",
+        "faq": {
+            "q1": "Perché il nome di un faraone?",
+            "a1": "Ralph Merkle seguì la tradizione di nominare algoritmi crittografici con elementi egizi.",
+            "q2": "Come è stata compromessa Snefru?",
+            "a2": "Biham e Shamir usarono l'analisi differenziale per trovare collisioni nella versione a 2 round.",
+            "q3": "Qual è l'eredità di Snefru?",
+            "a3": "Snefru ha aiutato a stabilire Merkle-Damgård come paradigma dominante nel design hash."
+        }
+    },
+    "js": {
+        "error_empty": "Inserisci del testo",
+        "btn_copied": "Copiato!",
+        "btn_generating": "Generazione...",
+        "error_failed": "Generazione hash fallita. Riprova."
+    }
+}

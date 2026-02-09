@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-1 Hash Oluşturucu - Ücretsiz Çevrimiçi Araç",
+        "description": "Herhangi bir metinden SHA-1 hash'leri oluşturun. Git'in arkasındaki 160 bitlik özet fonksiyonu. Ücretsiz.",
+        "h1": "SHA-1 Hash Oluşturucu",
+        "subtitle": "160 bit SHA-1 hash'leri oluşturun — Git'in arkasındaki fonksiyon"
+    },
+    "editor": {
+        "label_input": "Metin girin",
+        "ph_input": "SHA-1 hash oluşturmak için metin girin...",
+        "btn_generate": "SHA-1 Hash Oluştur",
+        "label_result": "SHA-1 Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "SHA-1 Hash Oluşturucu",
+        "hero_subtitle": "Git'i çalıştıran 160 bitlik özet fonksiyonu",
+        "p1": "SHA-1, 160 bitlik özet (40 hex karakter) üreten NSA tarafından geliştirilen kriptografik bir hash fonksiyonudur. Pratik çarpışmalar 2017'de gösterilmiş olsa da SHA-1 hâlâ Git'te commit tanımlama için kullanılır.",
+        "what_title": "SHA-1 nedir?",
+        "what_desc": "SHA-1, verileri 512 bitlik bloklarda 80 turda bit düzeyinde mantıksal işlemler, modüler toplama ve döngüsel kaydırmalarla işler.",
+        "features_title": "✅ Özellikler",
+        "features": {
+            "fast": "<strong>Git VCS:</strong> Git depolarındaki her commit ve nesneyi tanımlar",
+            "fixed": "<strong>160 bit çıkış:</strong> 40 haneli onaltılık özet",
+            "deterministic": "<strong>Geniş destek:</strong> Tüm programlama dillerinde evrensel olarak mevcut",
+            "support": "<strong>Hızlı:</strong> Donanım desteğiyle hızlı hesaplama"
+        },
+        "uses_title": "📊 Kullanım alanları",
+        "uses": {
+            "verify": "<strong>Git:</strong> Commit tanımlama, dallanma ve birleştirme",
+            "checksum": "<strong>Sağlama toplamları:</strong> Dosya bütünlük doğrulama",
+            "cache": "<strong>Eski sistemler:</strong> Eski SSL/TLS sertifikaları",
+            "integrity": "<strong>Parmak izi:</strong> İçerik tanımlama"
+        },
+        "warning_title": "⚠️ Kullanımdan kaldırma uyarısı",
+        "warning_desc": "<strong>SHA-1 kriptografik olarak eskimiştir.</strong> Google ve CWI Amsterdam 2017'de pratik çarpışmalar gösterdi (SHAttered saldırısı). SHA-256 kullanın.",
+        "compare_title": "🔄 SHA-1 karşılaştırması",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128 bit",
+                "desc2": "Kırılmış — kullanmayın"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160 bit",
+                "desc2": "Eskimiş — çarpışmalar biliniyor"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Güvenli — önerilen"
+            }
+        },
+        "faq_title": "❓ Sıkça sorulan sorular",
+        "faq": {
+            "q1": "SHA-1 hâlâ güvenli mi?",
+            "a1": "Hayır. 2017'de pratik çarpışmalar gösterildi. SHA-1 artık dijital imzalar için kabul edilmiyor.",
+            "q2": "Git neden hâlâ SHA-1 kullanıyor?",
+            "a2": "Git yavaş yavaş SHA-256'ya geçiyor. SHA-1'in hızı ve Git'teki kriptografik olmayan kullanımı geçişi daha az acil kıldı.",
+            "q3": "SHA-1 yerine ne kullanmalıyım?",
+            "a3": "Çoğu uygulama için SHA-256."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen metin girin",
+        "btn_copied": "Kopyalandı!",
+        "btn_generating": "Oluşturuluyor...",
+        "error_failed": "Hash oluşturulamadı. Tekrar deneyin."
+    }
+}

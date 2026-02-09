@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Générateur de Hash Snefru - Outil en Ligne Gratuit",
+        "description": "Générez des hash Snefru à partir de n'importe quel texte. Fonction de hachage historique de Xerox PARC. Gratuit.",
+        "h1": "Générateur de Hash Snefru",
+        "subtitle": "Générez des hash Snefru — la fonction de hachage historique de Xerox PARC"
+    },
+    "editor": {
+        "label_input": "Saisir le texte",
+        "ph_input": "Saisissez le texte pour générer un hash Snefru...",
+        "btn_generate": "Générer Hash Snefru",
+        "label_result": "Hash Snefru",
+        "btn_copy": "Copier"
+    },
+    "content": {
+        "hero_title": "Générateur de Hash Snefru",
+        "hero_subtitle": "Jalon historique dans la conception cryptographique",
+        "p1": "Snefru est une fonction de hachage cryptographique conçue par Ralph Merkle à Xerox PARC en 1990, nommée d'après le pharaon égyptien Snefru. Elle peut produire des hash de 128 ou 256 bits et est historiquement importante comme l'une des premières à utiliser la construction Merkle-Damgård.",
+        "what_title": "Qu'est-ce que Snefru ?",
+        "what_desc": "Snefru traite les données en blocs de 512 bits (pour sortie 128 bits) ou 384 bits (pour sortie 256 bits) en utilisant un mélange basé sur des boîtes de substitution.",
+        "features_title": "✅ Propriétés de Snefru",
+        "features": {
+            "fast": "<strong>Pionnier historique :</strong> L'une des premières fonctions de hachage utilisant Merkle-Damgård",
+            "fixed": "<strong>Sortie 256 bits :</strong> Digest hexadécimal de 64 caractères",
+            "deterministic": "<strong>Xerox PARC :</strong> Conçue par Ralph Merkle, inventeur des arbres Merkle",
+            "support": "<strong>Valeur éducative :</strong> Essentielle pour comprendre l'évolution du hachage"
+        },
+        "uses_title": "📊 Cas d'utilisation",
+        "uses": {
+            "verify": "<strong>Systèmes hérités :</strong> Compatibilité avec les anciens systèmes Xerox",
+            "checksum": "<strong>Éducation :</strong> Enseignement de la conception de fonctions de hachage",
+            "cache": "<strong>Recherche :</strong> Étude de la résistance à l'analyse différentielle",
+            "integrity": "<strong>Analyse historique :</strong> Comprendre l'évolution de Snefru à SHA-2"
+        },
+        "warning_title": "⚠️ Avertissement de sécurité",
+        "warning_desc": "<strong>Snefru est cryptographiquement cassée.</strong> L'analyse différentielle de Biham et Shamir a trouvé des collisions. Utilisez SHA-256 ou SHA-512.",
+        "compare_title": "🔄 Snefru vs algorithmes modernes",
+        "compare": {
+            "md5": {
+                "title": "Snefru",
+                "desc1": "128/256 bits",
+                "desc2": "Cassée — historique uniquement"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128 bits",
+                "desc2": "Aussi cassée, plus utilisée"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bits",
+                "desc2": "Standard moderne sécurisé"
+            }
+        },
+        "faq_title": "❓ Questions fréquentes",
+        "faq": {
+            "q1": "Pourquoi le nom d'un pharaon ?",
+            "a1": "Ralph Merkle a suivi une tradition de nommer les algorithmes cryptographiques avec des éléments égyptiens.",
+            "q2": "Comment Snefru a été cassée ?",
+            "a2": "Biham et Shamir ont utilisé l'analyse différentielle pour trouver des collisions dans la version à 2 rondes.",
+            "q3": "Quel est l'héritage de Snefru ?",
+            "a3": "Snefru a aidé à établir Merkle-Damgård comme paradigme dominant dans la conception de fonctions de hachage."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez saisir du texte",
+        "btn_copied": "Copié !",
+        "btn_generating": "Génération...",
+        "error_failed": "Échec de la génération du hash. Réessayez."
+    }
+}

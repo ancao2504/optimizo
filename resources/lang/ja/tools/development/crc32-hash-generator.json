@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "CRC-32ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからCRC-32ハッシュを生成。標準的な巡回冗長検査。無料。",
+        "h1": "CRC-32ハッシュジェネレーター",
+        "subtitle": "CRC-32チェックサムを生成 — 業界標準"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "CRC-32ハッシュを生成するテキストを入力...",
+        "btn_generate": "CRC-32ハッシュを生成",
+        "label_result": "CRC-32ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "CRC-32ハッシュジェネレーター",
+        "hero_subtitle": "データ整合性のための標準巡回冗長検査",
+        "p1": "CRC-32は世界で最も使用されている非暗号学的チェックサム関数です。多項式除算により32ビットハッシュ（16進数8文字）を生成します。CRC-32はあらゆる場所にあります：ZIPやPNG形式、Ethernetネットワーク、USBプロトコル、ファイルシステム。",
+        "what_title": "CRC-32とは？",
+        "what_desc": "CRC-32は入力データを巨大な多項式として扱い、固定された生成多項式で割った余りを計算します。",
+        "features_title": "✅ 利点",
+        "features": {
+            "fast": "<strong>ハードウェア高速化：</strong> Intel CRC32命令がメモリ速度で計算",
+            "fixed": "<strong>強力な検出：</strong> 全ての1ビット、2ビット、奇数ビットエラーを検出",
+            "deterministic": "<strong>ユニバーサル標準：</strong> Ethernet、USB、ZIP、PNG、MPEG-2",
+            "support": "<strong>シンプルで高速：</strong> 高速計算のためのルックアップテーブル"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>アーカイブ：</strong> ZIPとgzipの整合性検証",
+            "checksum": "<strong>ネットワーク：</strong> Ethernetフレーム検証",
+            "cache": "<strong>ストレージ：</strong> ファイルシステムの整合性",
+            "integrity": "<strong>マルチメディア：</strong> PNGとMPEGファイルの整合性"
+        },
+        "warning_title": "⚠️ セキュリティに関する注意",
+        "warning_desc": "<strong>CRC-32は暗号学的ハッシュ関数ではありません。</strong> ランダムなエラーの検出用であり、意図的な改ざんからの保護用ではありません。",
+        "compare_title": "🔄 CRC-32の比較",
+        "compare": {
+            "md5": {
+                "title": "CRC-32",
+                "desc1": "32ビット、多項式",
+                "desc2": "エラー検出、暗号ではない"
+            },
+            "sha1": {
+                "title": "Adler-32",
+                "desc1": "32ビット、算術",
+                "desc2": "より速いが検出力が弱い"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128ビット、暗号学的",
+                "desc2": "はるかに遅いが安全"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "CRC-32とCRC-32Bの違いは？",
+            "a1": "異なる生成多項式を使用します。CRC-32BはPHPがデフォルトで計算するバリアントです。",
+            "q2": "CRC-32がセキュリティに使えないのはなぜ？",
+            "a2": "CRC-32は線形で可逆的です。攻撃者は容易に衝突を生成できます。",
+            "q3": "CRC-32は全てのエラーを検出しますか？",
+            "a3": "いいえ。CRC-32は全ての1ビットと2ビットエラーを検出しますが、一部のエラーパターンを見逃す可能性があります。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

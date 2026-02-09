@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Whirlpoolハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからWhirlpoolハッシュを生成。AES原理に基づく512ビット暗号学的ハッシュ、ISO標準。無料。",
+        "h1": "Whirlpoolハッシュジェネレーター",
+        "subtitle": "512ビットWhirlpoolハッシュを生成 — ISO暗号標準"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "Whirlpoolハッシュを生成するテキストを入力...",
+        "btn_generate": "Whirlpoolハッシュを生成",
+        "label_result": "Whirlpoolハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "Whirlpoolハッシュジェネレーター",
+        "hero_subtitle": "AES原理に基づく512ビットISO標準ハッシュ",
+        "p1": "Whirlpoolは512ビットハッシュ（16進数128文字）を生成する暗号学的ハッシュ関数で、Vincent Rijmen（AESの共同設計者）とPaulo Barretoにより設計されました。ISO/IEC 10118-3標準に含まれています。",
+        "what_title": "Whirlpoolとは？",
+        "what_desc": "WhirlpoolはWブロック暗号に基づくMiyaguchi-Preneel圧縮関数を使用します。512ビットブロックで10ラウンド動作します。",
+        "features_title": "✅ 利点",
+        "features": {
+            "fast": "<strong>AESの遺産：</strong> AESの共同設計者Rijmenが設計",
+            "fixed": "<strong>512ビット出力：</strong> SHA-512と同じ128文字",
+            "deterministic": "<strong>ISO標準：</strong> ISO/IEC 10118-3認証済み",
+            "support": "<strong>NESSIE推奨：</strong> 欧州暗号標準化"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>デジタル署名：</strong> 高セキュリティ署名",
+            "checksum": "<strong>ファイル整合性：</strong> 大容量ダウンロードの検証",
+            "cache": "<strong>TrueCrypt/VeraCrypt：</strong> ディスク暗号化",
+            "integrity": "<strong>欧州コンプライアンス：</strong> ISO/NESSIE準拠のハッシュ"
+        },
+        "warning_title": "💡 注意",
+        "warning_desc": "<strong>WhirlpoolはSHA-512と同じ256ビットの衝突耐性を提供しますが</strong>、内部設計は完全に異なります。",
+        "compare_title": "🔄 Whirlpool vs SHA-512",
+        "compare": {
+            "md5": {
+                "title": "Whirlpool",
+                "desc1": "512ビット、AESベース",
+                "desc2": "ISO標準"
+            },
+            "sha1": {
+                "title": "SHA-512",
+                "desc1": "512ビット、Merkle-Damgård",
+                "desc2": "より広く普及"
+            },
+            "sha256": {
+                "title": "SHA-3",
+                "desc1": "可変、スポンジ",
+                "desc2": "NISTコンペ優勝"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "Whirlpool vs SHA-512？",
+            "a1": "両方とも256ビット耐性。SHA-512はソフトウェアで高速です。",
+            "q2": "Whirlpoolを選ぶ理由は？",
+            "a2": "ISOコンプライアンス、NSAからの独立性、設計の多様性のため。",
+            "q3": "Whirlpoolは重要なソフトウェアで使用されている？",
+            "a3": "はい。TrueCrypt/VeraCrypt、GnuPG、Bouncy CastleがWhirlpoolをサポートしています。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-256 Hash Generator - Kostenloses Online-Tool",
+        "description": "Generieren Sie SHA-256-Hashes aus jedem Text. Der Goldstandard der kryptographischen Hashfunktionen. Kostenlos und sofort.",
+        "h1": "SHA-256 Hash Generator",
+        "subtitle": "SHA-256-Hashes generieren — der Industriestandard für Kryptographie"
+    },
+    "editor": {
+        "label_input": "Text eingeben",
+        "ph_input": "Text eingeben, um SHA-256-Hash zu generieren...",
+        "btn_generate": "SHA-256 Hash generieren",
+        "label_result": "SHA-256 Hash",
+        "btn_copy": "Kopieren"
+    },
+    "content": {
+        "hero_title": "SHA-256 Hash Generator",
+        "hero_subtitle": "Die kryptographische Standard-Hashfunktion für Sicherheit",
+        "p1": "SHA-256 ist die weltweit am häufigsten verwendete kryptographische Hashfunktion. Als Teil der SHA-2-Familie der NSA erzeugt sie einen 256-Bit-Hash (64 Hex-Zeichen). SHA-256 ist das Rückgrat von Bitcoin-Mining, TLS 1.3 und Code-Signierung.",
+        "what_title": "Was ist SHA-256?",
+        "what_desc": "SHA-256 verarbeitet Daten in 512-Bit-Blöcken über 64 Runden der Komprimierung mit bitweisen Operationen, modularen Additionen und Komprimierungsfunktionen.",
+        "features_title": "✅ Vorteile von SHA-256",
+        "features": {
+            "fast": "<strong>Kryptographisch sicher:</strong> Keine bekannten praktischen Angriffe nach über 20 Jahren",
+            "fixed": "<strong>256-Bit-Ausgabe:</strong> 64-stelliger Hex-Digest",
+            "deterministic": "<strong>Universeller Standard:</strong> Empfohlen von NIST, ISO und IETF",
+            "support": "<strong>Hardware-Unterstützung:</strong> Intel SHA und ARM Crypto Erweiterungen"
+        },
+        "uses_title": "📊 Häufige Anwendungsfälle",
+        "uses": {
+            "verify": "<strong>Blockchain:</strong> Bitcoin Proof-of-Work und Merkle-Bäume",
+            "checksum": "<strong>TLS 1.3:</strong> Zertifikatsverifizierung und Handshake",
+            "cache": "<strong>Code-Signierung:</strong> Software-Integritätsverifizierung",
+            "integrity": "<strong>Digitale Signaturen:</strong> Dokument- und Transaktionssignierung"
+        },
+        "warning_title": "💡 Best Practices",
+        "warning_desc": "<strong>SHA-256 ist sicher zum Hashen, aber nicht direkt für Passwort-Speicherung geeignet.</strong> Passwörter sollten langsame Algorithmen wie bcrypt oder Argon2 verwenden.",
+        "compare_title": "🔄 SHA-256 im Vergleich",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128 Bit",
+                "desc2": "Gebrochen — nicht für Sicherheit"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256 Bit",
+                "desc2": "Sicherer Standard, empfohlen"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512 Bit",
+                "desc2": "Schneller auf 64-Bit, höhere Marge"
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Ist SHA-256 im Jahr 2025 noch sicher?",
+            "a1": "Ja. SHA-256 hat keine bekannten praktischen Angriffe. Es bietet 128 Bit Kollisionsresistenz und 256 Bit Preimage-Resistenz.",
+            "q2": "SHA-256 vs. SHA-512 — was soll ich verwenden?",
+            "a2": "SHA-256 reicht für die meisten Anwendungen. SHA-512 ist schneller auf 64-Bit-Prozessoren und bietet eine höhere Sicherheitsmarge.",
+            "q3": "Können Quantencomputer SHA-256 brechen?",
+            "a3": "Grovers Algorithmus reduziert die Kollisionsresistenz auf 128 Bit, was immer noch als sicher gilt."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte Text eingeben",
+        "btn_copied": "Kopiert!",
+        "btn_generating": "Wird generiert...",
+        "error_failed": "Hash-Generierung fehlgeschlagen. Bitte erneut versuchen."
+    }
+}

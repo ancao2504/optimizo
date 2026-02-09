@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-384 Hash Generator - Gratis nettverktøy",
+        "description": "Generate SHA-384 hashes from any text. Truncated SHA-512 variant offering 192 bits of collision resistance. Free, instant, and secure.",
+        "h1": "SHA-384 Hash Generator",
+        "subtitle": "Generate 384-bit SHA-384 cryptographic hashes for high-security applications"
+    },
+    "editor": {
+        "label_input": "Skriv inn tekst",
+        "ph_input": "Skriv inn tekst for å generere SHA-384 hash...",
+        "btn_generate": "Generer SHA-384 Hash",
+        "label_result": "SHA-384 Hash",
+        "btn_copy": "Kopier"
+    },
+    "content": {
+        "hero_title": "SHA-384 Hash Generator",
+        "hero_subtitle": "High-security 384-bit cryptographic hashing",
+        "p1": "SHA-384 is a member of the SHA-2 family that produces a 384-bit (96-character hex) hash value. It is actually a truncated version of SHA-512, using different initial hash values and outputting only 384 of the 512 computed bits. SHA-384 is used in government and financial systems requiring higher security than SHA-256 but where the full 512-bit output of SHA-512 is excessive. It's specified in TLS cipher suites and digital signature standards.",
+        "what_title": "What is SHA-384?",
+        "what_desc": "SHA-384 uses the exact same algorithm as SHA-512 internally — processing data in 1024-bit blocks through 80 rounds of operations on 64-bit words. The difference lies in the initialization vectors (different starting values) and the final output being truncated to 384 bits. This makes it impossible to use SHA-512 results to derive SHA-384 results or vice versa.",
+        "features_title": "✅ SHA-384 Advantages",
+        "features": {
+            "fast": "<strong>192-bit Security:</strong> Higher collision resistance than SHA-256",
+            "fixed": "<strong>384-bit Output:</strong> 96-character hexadecimal digest",
+            "deterministic": "<strong>64-bit Optimized:</strong> Uses 64-bit operations, fast on modern CPUs",
+            "support": "<strong>Government Approved:</strong> NIST recommended for sensitive applications"
+        },
+        "uses_title": "📊 Common Use Cases",
+        "uses": {
+            "verify": "<strong>TLS Cipher Suites:</strong> Used in ECDHE-RSA-AES256-SHA384",
+            "checksum": "<strong>Digital Signatures:</strong> High-security document signing",
+            "cache": "<strong>Government Systems:</strong> FIPS 180-4 compliant applications",
+            "integrity": "<strong>Financial Protocols:</strong> Banking and payment security"
+        },
+        "warning_title": "💡 When to Use SHA-384",
+        "warning_desc": "<strong>SHA-384 sits between SHA-256 and SHA-512 in security level.</strong> Choose SHA-384 when your security requirements exceed SHA-256's 128-bit collision resistance, or when you need the 64-bit performance of SHA-512 but want a shorter output. For most applications, SHA-256 is sufficient.",
+        "compare_title": "🔄 SHA-2 Family Comparison",
+        "compare": {
+            "md5": {
+                "title": "SHA-256",
+                "desc1": "256-bit, 32-bit ops",
+                "desc2": "128-bit collision resistance"
+            },
+            "sha1": {
+                "title": "SHA-384",
+                "desc1": "384-bit, 64-bit ops",
+                "desc2": "192-bit collision resistance"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512-bit, 64-bit ops",
+                "desc2": "256-bit collision resistance"
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Why use SHA-384 instead of SHA-256?",
+            "a1": "SHA-384 provides 192 bits of collision resistance vs. SHA-256's 128 bits. It also runs SHA-512 internally, which is faster on 64-bit processors, making it both more secure and potentially faster.",
+            "q2": "Is SHA-384 just truncated SHA-512?",
+            "a2": "Yes, but with different initial values. This means you cannot derive a SHA-384 hash from a SHA-512 hash of the same data. They are independent despite sharing the same core algorithm.",
+            "q3": "Where is SHA-384 required?",
+            "a3": "SHA-384 is often required in government (Suite B cryptography), financial systems, and TLS configurations where higher-than-256-bit security is mandated."
+        }
+    },
+    "js": {
+        "error_empty": "Vennligst skriv inn tekst",
+        "btn_copied": "Kopiert!",
+        "btn_generating": "Genererer...",
+        "error_failed": "Hash-generering mislyktes. Prøv igjen."
+    }
+}

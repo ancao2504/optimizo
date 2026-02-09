@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Générateur de Hash Adler-32 - Outil en Ligne Gratuit",
+        "description": "Générez des hash Adler-32 à partir de n'importe quel texte. Fonction de somme de contrôle rapide utilisée dans la compression zlib. Gratuit et instantané.",
+        "h1": "Générateur de Hash Adler-32",
+        "subtitle": "Générez des sommes de contrôle Adler-32 — rapides et légères"
+    },
+    "editor": {
+        "label_input": "Saisir le texte",
+        "ph_input": "Saisissez le texte pour générer un hash Adler-32...",
+        "btn_generate": "Générer Hash Adler-32",
+        "label_result": "Hash Adler-32",
+        "btn_copy": "Copier"
+    },
+    "content": {
+        "hero_title": "Générateur de Hash Adler-32",
+        "hero_subtitle": "Fonction de somme de contrôle ultra-rapide pour la détection d'erreurs",
+        "p1": "Adler-32 est une fonction de somme de contrôle conçue par Mark Adler en 1995. Elle produit un hash de 32 bits (8 caractères hexadécimaux). Largement utilisée dans la bibliothèque de compression zlib et le protocole rsync, elle a été conçue pour être significativement plus rapide que CRC-32 tout en maintenant des capacités adéquates de détection d'erreurs.",
+        "what_title": "Qu'est-ce qu'Adler-32 ?",
+        "what_desc": "Adler-32 utilise deux sommes de contrôle : A (somme de tous les octets plus un) et B (somme cumulative de toutes les valeurs A). Les deux sont calculées modulo le nombre premier 65521. Le hash final est B × 65536 + A.",
+        "features_title": "✅ Avantages d'Adler-32",
+        "features": {
+            "fast": "<strong>Extrêmement rapide :</strong> Significativement plus rapide que CRC-32 en logiciel",
+            "fixed": "<strong>Faible consommation :</strong> Utilisation minimale du CPU et empreinte mémoire réduite",
+            "deterministic": "<strong>Implémentation simple :</strong> Seulement quelques lignes de code nécessaires",
+            "support": "<strong>Éprouvée en production :</strong> Des milliards de flux traités dans zlib"
+        },
+        "uses_title": "📊 Cas d'utilisation courants",
+        "uses": {
+            "verify": "<strong>Compression zlib :</strong> Vérification d'intégrité des flux",
+            "checksum": "<strong>Protocole rsync :</strong> Détection rapide des modifications de fichiers",
+            "cache": "<strong>Vérifications réseau :</strong> Vérification légère des paquets",
+            "integrity": "<strong>Transfert de données :</strong> Détection d'erreurs dans les flux"
+        },
+        "warning_title": "⚠️ Note de sécurité",
+        "warning_desc": "<strong>Adler-32 n'est pas une fonction de hachage cryptographique.</strong> C'est une somme de contrôle pour la détection d'erreurs, pas pour la sécurité. Utilisez SHA-256 pour les besoins cryptographiques.",
+        "compare_title": "🔄 Comparaison d'Adler-32",
+        "compare": {
+            "md5": {
+                "title": "Adler-32",
+                "desc1": "32 bits, non cryptographique",
+                "desc2": "Le plus rapide, détection minimale"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "32 bits, polynomial",
+                "desc2": "Plus lent, meilleure détection"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128 bits, cryptographique",
+                "desc2": "Sécurité bien supérieure"
+            }
+        },
+        "faq_title": "❓ Questions fréquemment posées",
+        "faq": {
+            "q1": "Quelle est la différence entre Adler-32 et CRC-32 ?",
+            "a1": "Adler-32 est plus rapide à calculer mais détecte moins de types d'erreurs que CRC-32. CRC-32 utilise la division polynomiale qui capture plus de séquences d'erreurs.",
+            "q2": "Puis-je utiliser Adler-32 pour la sécurité ?",
+            "a2": "Non. Adler-32 est une somme de contrôle, pas une fonction de hachage cryptographique. Les collisions sont faciles à créer. Utilisez SHA-256 ou SHA-512.",
+            "q3": "Pourquoi zlib utilise Adler-32 plutôt que CRC-32 ?",
+            "a3": "zlib privilégie la vitesse. Les données compressées disposent typiquement de vérifications de niveau supérieur, la vitesse d'Adler-32 est donc préférée."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez saisir du texte",
+        "btn_copied": "Copié !",
+        "btn_generating": "Génération...",
+        "error_failed": "Échec de la génération du hash. Réessayez."
+    }
+}

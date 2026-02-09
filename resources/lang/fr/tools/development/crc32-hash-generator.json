@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Générateur de Hash CRC-32 - Outil en Ligne Gratuit",
+        "description": "Générez des hash CRC-32 à partir de n'importe quel texte. Contrôle de redondance cyclique standard pour la détection d'erreurs. Gratuit.",
+        "h1": "Générateur de Hash CRC-32",
+        "subtitle": "Générez des sommes de contrôle CRC-32 — standard industriel"
+    },
+    "editor": {
+        "label_input": "Saisir le texte",
+        "ph_input": "Saisissez le texte pour générer un hash CRC-32...",
+        "btn_generate": "Générer Hash CRC-32",
+        "label_result": "Hash CRC-32",
+        "btn_copy": "Copier"
+    },
+    "content": {
+        "hero_title": "Générateur de Hash CRC-32",
+        "hero_subtitle": "Contrôle de redondance cyclique standard pour l'intégrité des données",
+        "p1": "CRC-32 est la fonction de somme de contrôle non cryptographique la plus utilisée au monde. Elle produit un hash de 32 bits (8 caractères hex) par division polynomiale. CRC-32 est omniprésent : formats ZIP et PNG, réseaux Ethernet, protocoles USB et systèmes de fichiers.",
+        "what_title": "Qu'est-ce que CRC-32 ?",
+        "what_desc": "CRC-32 traite les données d'entrée comme un polynôme géant et calcule le reste de la division par un polynôme générateur fixe.",
+        "features_title": "✅ Avantages de CRC-32",
+        "features": {
+            "fast": "<strong>Accélération matérielle :</strong> Instructions Intel CRC32 calculent à la vitesse mémoire",
+            "fixed": "<strong>Détection robuste :</strong> Détecte toutes les erreurs de 1, 2 bits et impaires",
+            "deterministic": "<strong>Standard universel :</strong> Ethernet, USB, ZIP, PNG, MPEG-2",
+            "support": "<strong>Simple et rapide :</strong> Tables de recherche pour calcul véloce"
+        },
+        "uses_title": "📊 Cas d'utilisation",
+        "uses": {
+            "verify": "<strong>Archivage :</strong> Vérification d'intégrité ZIP et gzip",
+            "checksum": "<strong>Réseaux :</strong> Vérification de trames Ethernet",
+            "cache": "<strong>Stockage :</strong> Intégrité du système de fichiers",
+            "integrity": "<strong>Formats multimédia :</strong> Intégrité de fichiers PNG et MPEG"
+        },
+        "warning_title": "⚠️ Note de sécurité",
+        "warning_desc": "<strong>CRC-32 n'est pas une fonction de hachage cryptographique.</strong> Elle a été conçue pour détecter les erreurs aléatoires, pas pour protéger contre la manipulation intentionnelle.",
+        "compare_title": "🔄 Comparaison de CRC-32",
+        "compare": {
+            "md5": {
+                "title": "CRC-32",
+                "desc1": "32 bits, polynomial",
+                "desc2": "Détection d'erreurs, non crypto"
+            },
+            "sha1": {
+                "title": "Adler-32",
+                "desc1": "32 bits, arithmétique",
+                "desc2": "Plus rapide, détection plus faible"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128 bits, cryptographique",
+                "desc2": "Beaucoup plus lent, mais sécurisé"
+            }
+        },
+        "faq_title": "❓ Questions fréquentes",
+        "faq": {
+            "q1": "Quelle différence entre CRC-32 et CRC-32B ?",
+            "a1": "Ils utilisent des polynômes générateurs différents. CRC-32B est la variante que PHP calcule par défaut.",
+            "q2": "Pourquoi CRC-32 n'est pas utilisé pour la sécurité ?",
+            "a2": "CRC-32 est linéaire et réversible. Un attaquant peut facilement créer des collisions.",
+            "q3": "CRC-32 détecte-t-il toutes les erreurs ?",
+            "a3": "Non. CRC-32 détecte 100% des erreurs de 1 et 2 bits mais peut manquer certains motifs d'erreurs."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez saisir du texte",
+        "btn_copied": "Copié !",
+        "btn_generating": "Génération...",
+        "error_failed": "Échec de la génération du hash. Réessayez."
+    }
+}

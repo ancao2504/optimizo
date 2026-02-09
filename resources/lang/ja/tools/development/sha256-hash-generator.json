@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-256ハッシュジェネレーター - 無料オンラインツール",
+        "description": "任意のテキストからSHA-256ハッシュを生成。暗号学的ハッシュ関数のゴールドスタンダード。無料。",
+        "h1": "SHA-256ハッシュジェネレーター",
+        "subtitle": "SHA-256ハッシュを生成 — 暗号の業界標準"
+    },
+    "editor": {
+        "label_input": "テキストを入力",
+        "ph_input": "SHA-256ハッシュを生成するテキストを入力...",
+        "btn_generate": "SHA-256ハッシュを生成",
+        "label_result": "SHA-256ハッシュ",
+        "btn_copy": "コピー"
+    },
+    "content": {
+        "hero_title": "SHA-256ハッシュジェネレーター",
+        "hero_subtitle": "セキュリティのための標準暗号学的ハッシュ関数",
+        "p1": "SHA-256は世界で最も使用されている暗号学的ハッシュ関数です。NSAのSHA-2ファミリーのメンバーで、256ビットハッシュ（16進数64文字）を生成します。SHA-256はBitcoinマイニング、TLS 1.3、コード署名の基盤です。",
+        "what_title": "SHA-256とは？",
+        "what_desc": "SHA-256はデータを512ビットブロックで64ラウンドの圧縮処理します。",
+        "features_title": "✅ 利点",
+        "features": {
+            "fast": "<strong>暗号学的に安全：</strong> 20年以上にわたり実用的な攻撃なし",
+            "fixed": "<strong>256ビット出力：</strong> 64桁の16進ダイジェスト",
+            "deterministic": "<strong>ユニバーサル標準：</strong> NIST、ISO、IETFが推奨",
+            "support": "<strong>ハードウェアサポート：</strong> Intel SHAおよびARM Crypto拡張"
+        },
+        "uses_title": "📊 用途",
+        "uses": {
+            "verify": "<strong>ブロックチェーン：</strong> BitcoinのProof-of-WorkとMerkleツリー",
+            "checksum": "<strong>TLS 1.3：</strong> 証明書検証とハンドシェイク",
+            "cache": "<strong>コード署名：</strong> ソフトウェア整合性検証",
+            "integrity": "<strong>デジタル署名：</strong> 文書とトランザクションの署名"
+        },
+        "warning_title": "💡 ベストプラクティス",
+        "warning_desc": "<strong>SHA-256はハッシュ化には安全ですが、パスワード保存には直接使用しないでください。</strong> bcryptまたはArgon2を使用してください。",
+        "compare_title": "🔄 SHA-256の比較",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128ビット",
+                "desc2": "破られた"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256ビット",
+                "desc2": "安全な標準、推奨"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512ビット",
+                "desc2": "64ビットで高速"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "SHA-256は2025年に安全？",
+            "a1": "はい。実用的な攻撃は知られていません。128ビットの衝突耐性。",
+            "q2": "SHA-256 vs SHA-512？",
+            "a2": "SHA-256はほとんどのアプリケーションに十分です。SHA-512は64ビットプロセッサで高速です。",
+            "q3": "量子コンピュータはSHA-256を破れる？",
+            "a3": "Groverのアルゴリズムは衝突耐性を128ビットに低下させますが、まだ安全と考えられています。"
+        }
+    },
+    "js": {
+        "error_empty": "テキストを入力してください",
+        "btn_copied": "コピーしました！",
+        "btn_generating": "生成中...",
+        "error_failed": "ハッシュの生成に失敗しました。もう一度お試しください。"
+    }
+}

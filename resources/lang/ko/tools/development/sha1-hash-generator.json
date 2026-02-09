@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-1 해시 생성기 - 무료 온라인 도구",
+        "description": "모든 텍스트에서 SHA-1 해시를 생성하세요. Git을 구동하는 160비트 다이제스트 함수. 무료.",
+        "h1": "SHA-1 해시 생성기",
+        "subtitle": "160비트 SHA-1 해시 생성 — Git을 구동하는 함수"
+    },
+    "editor": {
+        "label_input": "텍스트 입력",
+        "ph_input": "SHA-1 해시를 생성할 텍스트를 입력하세요...",
+        "btn_generate": "SHA-1 해시 생성",
+        "label_result": "SHA-1 해시",
+        "btn_copy": "복사"
+    },
+    "content": {
+        "hero_title": "SHA-1 해시 생성기",
+        "hero_subtitle": "Git를 구동하는 160비트 다이제스트 함수",
+        "p1": "SHA-1은 NSA가 설계한 암호학적 해시 함수로 160비트 다이제스트(16진수 40자)를 생성합니다. 2017년 실용적 충돌이 시연되었지만, SHA-1은 여전히 Git에서 커밋 식별에 사용됩니다.",
+        "what_title": "SHA-1이란?",
+        "what_desc": "SHA-1은 데이터를 512비트 블록으로 80라운드의 비트별 논리 연산, 모듈러 덧셈, 순환 시프트로 처리합니다.",
+        "features_title": "✅ 특징",
+        "features": {
+            "fast": "<strong>Git VCS:</strong> Git 리포지토리의 모든 커밋과 객체 식별",
+            "fixed": "<strong>160비트 출력:</strong> 40자리 16진수 다이제스트",
+            "deterministic": "<strong>광범위한 지원:</strong> 모든 프로그래밍 언어에서 보편적으로 사용 가능",
+            "support": "<strong>빠름:</strong> 하드웨어 지원으로 빠른 계산"
+        },
+        "uses_title": "📊 용도",
+        "uses": {
+            "verify": "<strong>Git:</strong> 커밋 식별, 브랜칭, 머징",
+            "checksum": "<strong>체크섬:</strong> 파일 무결성 검증",
+            "cache": "<strong>레거시 시스템:</strong> 이전 SSL/TLS 인증서",
+            "integrity": "<strong>핑거프린팅:</strong> 콘텐츠 식별"
+        },
+        "warning_title": "⚠️ 폐기 경고",
+        "warning_desc": "<strong>SHA-1은 암호학적으로 구식입니다.</strong> Google과 CWI Amsterdam이 2017년 실용적 충돌을 시연했습니다(SHAttered 공격). SHA-256을 사용하세요.",
+        "compare_title": "🔄 SHA-1 비교",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128비트",
+                "desc2": "깨짐 — 사용 금지"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160비트",
+                "desc2": "구식 — 충돌 알려짐"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256비트",
+                "desc2": "안전 — 권장"
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "SHA-1은 아직 안전한가요?",
+            "a1": "아니요. 2017년 실용적 충돌이 시연되었습니다. SHA-1은 더 이상 디지털 서명에 허용되지 않습니다.",
+            "q2": "Git이 아직 SHA-1을 사용하는 이유는?",
+            "a2": "Git은 SHA-256으로 점진적 마이그레이션 중입니다. SHA-1의 속도와 Git에서의 비암호학적 사용이 마이그레이션을 덜 급하게 만들었습니다.",
+            "q3": "SHA-1 대신 무엇을 사용해야 하나요?",
+            "a3": "대부분의 애플리케이션에 SHA-256."
+        }
+    },
+    "js": {
+        "error_empty": "텍스트를 입력하세요",
+        "btn_copied": "복사됨!",
+        "btn_generating": "생성 중...",
+        "error_failed": "해시 생성에 실패했습니다. 다시 시도하세요."
+    }
+}

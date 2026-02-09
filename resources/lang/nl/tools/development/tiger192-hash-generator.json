@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Tiger-192 Hash Generator - Gratis Online Tool",
+        "description": "Genereer Tiger-192 hashes van elke tekst. Volledige 192-bit Tiger hash voor 64-bit processoren. Gratis.",
+        "h1": "Tiger-192 Hash Generator",
+        "subtitle": "Genereer volledige Tiger-192 hashes — maximale Tiger-kracht"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een Tiger-192 hash te genereren...",
+        "btn_generate": "Genereer Tiger-192 Hash",
+        "label_result": "Tiger-192 Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "Tiger-192 Hash Generator",
+        "hero_subtitle": "Tiger op volle kracht — 192 bit beveiliging",
+        "p1": "Tiger-192 is de originele en volledige versie van de Tiger hashfunctie. Produceert een 192-bit hash (48 hex tekens) met drie 64-bit woorden interne toestand.",
+        "what_title": "Wat is Tiger-192?",
+        "what_desc": "Tiger-192 verwerkt 512-bit blokken in drie passen van elk acht rondes (24 rondes totaal).",
+        "features_title": "✅ Kenmerken",
+        "features": {
+            "fast": "<strong>Maximale snelheid:</strong> Een van de snelste hashes op 64-bit",
+            "fixed": "<strong>192 bit uitvoer:</strong> 48-tekens digest",
+            "deterministic": "<strong>96-bit beveiliging:</strong> Sterk tegen botsingen",
+            "support": "<strong>Unieke lengte:</strong> Weinig hashes produceren 192-bit uitvoer"
+        },
+        "uses_title": "📊 Toepassingen",
+        "uses": {
+            "verify": "<strong>Hogesnelheidshashing:</strong> Als SHA-256 te langzaam is",
+            "checksum": "<strong>Bestandssystemen:</strong> Snelle checksums voor grote collecties",
+            "cache": "<strong>P2P-protocollen:</strong> TTH in Direct Connect",
+            "integrity": "<strong>Deduplicatie:</strong> Snelle duplicaatblokidentificatie"
+        },
+        "warning_title": "💡 Ontwerpfilosofie",
+        "warning_desc": "<strong>Tiger is ontworpen voor snelheid zonder overmatig in te leveren op beveiliging.</strong> Voor maximale beveiliging zijn SHA-256 of SHA-512 te verkiezen.",
+        "compare_title": "🔄 Vergelijking",
+        "compare": {
+            "md5": {
+                "title": "Tiger-192",
+                "desc1": "192 bit, 64-bit bew.",
+                "desc2": "Sneller op 64-bit"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Veiliger, standaarder"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512 bit",
+                "desc2": "Maximale beveiliging"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Is Tiger-192 veilig genoeg?",
+            "a1": "96 bit botsingsweerstand. Onder de moderne aanbeveling van 128 bit maar geen bekende praktische aanvallen.",
+            "q2": "Wat is Tiger Tree Hash (TTH)?",
+            "a2": "TTH past Tiger-192 toe in een Merkle-boomstructuur. Gebruikt in DC++.",
+            "q3": "Tiger vs BLAKE3?",
+            "a3": "BLAKE3 is sneller op moderne hardware dankzij SIMD-parallellisme."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

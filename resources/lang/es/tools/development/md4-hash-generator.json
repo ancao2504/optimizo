@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Generador de Hash MD4 - Herramienta Online Gratuita",
+        "description": "Genera hashes MD4 desde cualquier texto. Predecesor histórico de MD5 diseñado por Ron Rivest. Gratis e instantáneo.",
+        "h1": "Generador de Hash MD4",
+        "subtitle": "Genera hashes MD4 de 128 bits — origen de la criptografía moderna"
+    },
+    "editor": {
+        "label_input": "Introducir texto",
+        "ph_input": "Introduce texto para generar hash MD4...",
+        "btn_generate": "Generar Hash MD4",
+        "label_result": "Hash MD4",
+        "btn_copy": "Copiar"
+    },
+    "content": {
+        "hero_title": "Generador de Hash MD4",
+        "hero_subtitle": "La función hash pionera que fundó la criptografía moderna",
+        "p1": "MD4 (Message Digest 4) es una función hash criptográfica diseñada por Ron Rivest en el MIT en 1990. Produce un hash de 128 bits (32 caracteres hex). Aunque criptográficamente rota, MD4 tiene enorme importancia histórica como ancestro directo de MD5, SHA-1 y toda la familia SHA-2.",
+        "what_title": "¿Qué es MD4?",
+        "what_desc": "MD4 procesa datos en bloques de 512 bits a través de tres rondas de 16 operaciones cada una (48 en total). Mantiene cuatro variables de estado de 32 bits mezcladas mediante operaciones a nivel de bits, adición modular y rotaciones.",
+        "features_title": "✅ Características de MD4",
+        "features": {
+            "fast": "<strong>Pionero histórico:</strong> Estableció el marco Merkle-Damgård",
+            "fixed": "<strong>Salida de 128 bits:</strong> Digest hexadecimal de 32 dígitos",
+            "deterministic": "<strong>Influencia directa:</strong> Condujo directamente a MD5, SHA-1 y SHA-2",
+            "support": "<strong>Simple:</strong> Solo 48 operaciones por bloque"
+        },
+        "uses_title": "📊 Casos de uso",
+        "uses": {
+            "verify": "<strong>Sistemas legacy:</strong> Protocolos de autenticación NTLM",
+            "checksum": "<strong>Educación:</strong> Aprender diseño de funciones hash",
+            "cache": "<strong>Investigación:</strong> Estudio de la evolución del análisis diferencial",
+            "integrity": "<strong>No relacionado con seguridad:</strong> Sumas de verificación rápidas"
+        },
+        "warning_title": "⚠️ Advertencia de seguridad",
+        "warning_desc": "<strong>MD4 está completamente rota — no usar para seguridad.</strong> Las colisiones se pueden encontrar en menos de un segundo en ordenadores modernos. Usa SHA-256 o SHA-512.",
+        "compare_title": "🔄 MD4 vs. algoritmos modernos",
+        "compare": {
+            "md5": {
+                "title": "MD4",
+                "desc1": "128 bits, 3 rondas",
+                "desc2": "Rota — solo histórica"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128 bits, 4 rondas",
+                "desc2": "También rota, pero más usada"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256 bits, 64 rondas",
+                "desc2": "Estándar moderno seguro"
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Por qué se sigue usando MD4?",
+            "a1": "MD4 aparece principalmente en protocolos legacy como la autenticación NTLM en Windows. No debe usarse en aplicaciones nuevas.",
+            "q2": "¿Cómo se rompió MD4?",
+            "a2": "MD4 fue rota mediante criptoanálisis diferencial. Se pueden encontrar colisiones con esfuerzo computacional mínimo.",
+            "q3": "¿Cuál es la relación entre MD4 y MD5?",
+            "a3": "MD5 es el sucesor directo de MD4. Rivest añadió una cuarta ronda y operaciones adicionales."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor introduce texto",
+        "btn_copied": "¡Copiado!",
+        "btn_generating": "Generando...",
+        "error_failed": "Error al generar el hash. Inténtalo de nuevo."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "RIPEMD-128 Hash Generator - Kostenloses Online-Tool",
+        "description": "Generieren Sie RIPEMD-128-Hashes aus jedem Text. Europäische 128-Bit kryptographische Hashfunktion. Kostenlos und sofort.",
+        "h1": "RIPEMD-128 Hash Generator",
+        "subtitle": "RIPEMD-128-Hashes generieren — europäischer Standard"
+    },
+    "editor": {
+        "label_input": "Text eingeben",
+        "ph_input": "Text eingeben, um RIPEMD-128-Hash zu generieren...",
+        "btn_generate": "RIPEMD-128 Hash generieren",
+        "label_result": "RIPEMD-128 Hash",
+        "btn_copy": "Kopieren"
+    },
+    "content": {
+        "hero_title": "RIPEMD-128 Hash Generator",
+        "hero_subtitle": "Europäische 128-Bit kryptographische Hashfunktion",
+        "p1": "RIPEMD-128 ist eine kryptographische Hashfunktion der RIPEMD-Familie, entwickelt in Europa als Teil des EU-RACE-Projekts. Sie erzeugt einen 128-Bit-Hash (32 Hex-Zeichen) als sauberer Ersatz für MD4 und MD5.",
+        "what_title": "Was ist RIPEMD-128?",
+        "what_desc": "RIPEMD-128 verarbeitet Daten in 512-Bit-Blöcken mit zwei parallelen Berechnungsketten (links und rechts), die am Ende zusammengeführt werden. Jede Kette enthält vier Runden mit 16 Schritten.",
+        "features_title": "✅ Merkmale von RIPEMD-128",
+        "features": {
+            "fast": "<strong>Offenes Design:</strong> Durch europäische akademische Forschung entwickelt",
+            "fixed": "<strong>128-Bit-Ausgabe:</strong> 32-stelliger Hex-Digest",
+            "deterministic": "<strong>Doppelkette:</strong> Parallele Berechnung erhöht die Resistenz",
+            "support": "<strong>MD5-Ersatz:</strong> Direkter Ersatz mit sauberem Design"
+        },
+        "uses_title": "📊 Anwendungsfälle",
+        "uses": {
+            "verify": "<strong>Legacy-Kompatibilität:</strong> Systeme, die 128-Bit-Hash-Alternativen benötigen",
+            "checksum": "<strong>Europäische Standards:</strong> Europäisch entwickelte Kryptographie",
+            "cache": "<strong>Prüfsummen:</strong> Nicht-sicherheitsbezogene Datenintegritätsprüfungen",
+            "integrity": "<strong>Akademische Forschung:</strong> Studium paralleler Hashfunktionen"
+        },
+        "warning_title": "⚠️ Sicherheitshinweis",
+        "warning_desc": "<strong>RIPEMD-128 bietet nur 64-Bit-Kollisionsresistenz</strong>, ähnlich wie MD5. Verwenden Sie SHA-256 für bessere Sicherheit.",
+        "compare_title": "🔄 RIPEMD-Familie im Vergleich",
+        "compare": {
+            "md5": {
+                "title": "RIPEMD-128",
+                "desc1": "128 Bit",
+                "desc2": "Europäische MD5-Alternative"
+            },
+            "sha1": {
+                "title": "RIPEMD-160",
+                "desc1": "160 Bit",
+                "desc2": "Wird in Bitcoin-Adressen verwendet"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128 Bit",
+                "desc2": "Gleiche Größe, einzelne Kette"
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Ist RIPEMD-128 sicherer als MD5?",
+            "a1": "Sie haben ähnliche Kollisionsresistenz (64 Bit), aber das Doppelketten-Design von RIPEMD-128 kann bestimmten strukturellen Angriffen besser widerstehen.",
+            "q2": "Was ist der Unterschied zwischen RIPEMD-128 und RIPEMD-160?",
+            "a2": "RIPEMD-160 erzeugt einen 160-Bit-Hash mit 80-Bit-Kollisionsresistenz und fügt eine fünfte Runde pro paralleler Kette hinzu.",
+            "q3": "Warum RIPEMD statt SHA wählen?",
+            "a3": "RIPEMD wurde durch offene europäische akademische Forschung entwickelt und bietet Unabhängigkeit von NSA-entworfenen Algorithmen."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte Text eingeben",
+        "btn_copied": "Kopiert!",
+        "btn_generating": "Wird generiert...",
+        "error_failed": "Hash-Generierung fehlgeschlagen. Bitte erneut versuchen."
+    }
+}

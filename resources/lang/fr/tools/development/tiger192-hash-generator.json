@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Générateur de Hash Tiger-192 - Outil en Ligne Gratuit",
+        "description": "Générez des hash Tiger-192 à partir de n'importe quel texte. Hash Tiger complet 192 bits pour processeurs 64 bits. Gratuit.",
+        "h1": "Générateur de Hash Tiger-192",
+        "subtitle": "Générez des hash Tiger-192 complets — puissance maximale Tiger"
+    },
+    "editor": {
+        "label_input": "Saisir le texte",
+        "ph_input": "Saisissez le texte pour générer un hash Tiger-192...",
+        "btn_generate": "Générer Hash Tiger-192",
+        "label_result": "Hash Tiger-192",
+        "btn_copy": "Copier"
+    },
+    "content": {
+        "hero_title": "Générateur de Hash Tiger-192",
+        "hero_subtitle": "Hash Tiger à pleine puissance — 192 bits de sécurité",
+        "p1": "Tiger-192 est la version originale et complète de la fonction de hachage Tiger. Elle produit un hash de 192 bits (48 caractères hex) en utilisant les trois mots d'état internes de 64 bits. Conçue pour les plateformes 64 bits avec 96 bits de résistance aux collisions.",
+        "what_title": "Qu'est-ce que Tiger-192 ?",
+        "what_desc": "Tiger-192 traite des blocs de 512 bits en trois passes de huit rondes chacune (24 rondes au total). Les trois variables d'état de 64 bits produisent la sortie de 192 bits.",
+        "features_title": "✅ Caractéristiques de Tiger-192",
+        "features": {
+            "fast": "<strong>Vitesse maximale :</strong> L'un des hash les plus rapides en 64 bits",
+            "fixed": "<strong>Sortie 192 bits :</strong> Digest hexadécimal de 48 caractères",
+            "deterministic": "<strong>Sécurité 96 bits :</strong> Forte résistance aux collisions",
+            "support": "<strong>Longueur unique :</strong> Peu de hash produisent une sortie de 192 bits"
+        },
+        "uses_title": "📊 Cas d'utilisation",
+        "uses": {
+            "verify": "<strong>Hachage haute vitesse :</strong> Quand SHA-256 est trop lent",
+            "checksum": "<strong>Systèmes de fichiers :</strong> Sommes de contrôle rapides pour grandes collections",
+            "cache": "<strong>Protocoles P2P :</strong> TTH dans Direct Connect",
+            "integrity": "<strong>Déduplication :</strong> Identification rapide de blocs doublons"
+        },
+        "warning_title": "💡 Philosophie de design",
+        "warning_desc": "<strong>Tiger a été conçu pour la vitesse sans trop sacrifier la sécurité.</strong> Pour la sécurité maximale, SHA-256 ou SHA-512 sont préférables.",
+        "compare_title": "🔄 Comparaison Tiger-192",
+        "compare": {
+            "md5": {
+                "title": "Tiger-192",
+                "desc1": "192 bits, ops 64 bits",
+                "desc2": "Plus rapide en 64 bits, 96 bits sécurité"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256 bits, ops 32 bits",
+                "desc2": "Plus sûre, plus standard"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512 bits, ops 64 bits",
+                "desc2": "Sécurité maximale, aussi rapide en 64 bits"
+            }
+        },
+        "faq_title": "❓ Questions fréquentes",
+        "faq": {
+            "q1": "Tiger-192 est-elle assez sûre pour un usage moderne ?",
+            "a1": "96 bits de résistance aux collisions. En dessous de la recommandation moderne de 128 bits, mais aucune attaque pratique connue.",
+            "q2": "Qu'est-ce que Tiger Tree Hash (TTH) ?",
+            "a2": "TTH applique Tiger-192 dans une structure d'arbre Merkle pour la vérification partielle de fichiers. Utilisé dans DC++.",
+            "q3": "Tiger vs BLAKE3 pour la vitesse ?",
+            "a3": "BLAKE3 est plus rapide sur le matériel moderne grâce au parallélisme SIMD."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez saisir du texte",
+        "btn_copied": "Copié !",
+        "btn_generating": "Génération...",
+        "error_failed": "Échec de la génération du hash. Réessayez."
+    }
+}

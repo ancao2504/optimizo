@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Generatore di Hash Tiger-128 - Strumento Online Gratuito",
+        "description": "Genera hash Tiger-128 da qualsiasi testo. Hash veloce a 128 bit ottimizzato per piattaforme a 64 bit. Gratuito.",
+        "h1": "Generatore di Hash Tiger-128",
+        "subtitle": "Genera hash Tiger-128 — ottimizzato per prestazioni a 64 bit"
+    },
+    "editor": {
+        "label_input": "Inserisci testo",
+        "ph_input": "Inserisci il testo per generare l'hash Tiger-128...",
+        "btn_generate": "Genera Hash Tiger-128",
+        "label_result": "Hash Tiger-128",
+        "btn_copy": "Copia"
+    },
+    "content": {
+        "hero_title": "Generatore di Hash Tiger-128",
+        "hero_subtitle": "Hash ad alta velocità a 128 bit per processori a 64 bit",
+        "p1": "Tiger-128 è una versione troncata della funzione hash Tiger progettata da Ross Anderson ed Eli Biham nel 1995. Produce un hash di 128 bit (32 caratteri hex), progettata specificamente per piattaforme a 64 bit.",
+        "what_title": "Cos'è Tiger-128?",
+        "what_desc": "Tiger elabora dati in blocchi di 512 bit attraverso 24 round organizzati in tre passate. Tiger-128 tronca l'output completo di 192 bit a 128 bit.",
+        "features_title": "✅ Caratteristiche",
+        "features": {
+            "fast": "<strong>Ottimizzato per 64 bit:</strong> Eccezionalmente veloce su processori moderni",
+            "fixed": "<strong>Output 128 bit:</strong> Digest compatto di 32 caratteri",
+            "deterministic": "<strong>Design S-box:</strong> Quattro grandi box di sostituzione",
+            "support": "<strong>Condivisione file:</strong> Usato nei protocolli ed2k e DC++"
+        },
+        "uses_title": "📊 Casi d'uso",
+        "uses": {
+            "verify": "<strong>Reti P2P:</strong> Identificazione file nei protocolli di condivisione",
+            "checksum": "<strong>Verifica integrità:</strong> Controllo rapido file su sistemi a 64 bit",
+            "cache": "<strong>Fingerprinting:</strong> Identificatori di archiviazione per contenuto",
+            "integrity": "<strong>Deduplicazione:</strong> Rilevamento efficiente di duplicati"
+        },
+        "warning_title": "⚠️ Nota sulla sicurezza",
+        "warning_desc": "<strong>Tiger-128 offre solo 64 bit di resistenza alle collisioni.</strong> Per la sicurezza crittografica, usa SHA-256.",
+        "compare_title": "🔄 Famiglia Tiger",
+        "compare": {
+            "md5": {
+                "title": "Tiger-128",
+                "desc1": "128 bit, veloce in 64 bit",
+                "desc2": "64 bit resistenza collisioni"
+            },
+            "sha1": {
+                "title": "Tiger-160",
+                "desc1": "160 bit",
+                "desc2": "80 bit resistenza collisioni"
+            },
+            "sha256": {
+                "title": "Tiger-192",
+                "desc1": "192 bit (completo)",
+                "desc2": "96 bit resistenza collisioni"
+            }
+        },
+        "faq_title": "❓ Domande frequenti",
+        "faq": {
+            "q1": "Perché Tiger è stato progettato per 64 bit?",
+            "a1": "Nel 1995, i processori a 64 bit emergevano e le funzioni hash esistenti erano ottimizzate per 32 bit.",
+            "q2": "Tiger-128 vs MD5 — quale è più veloce?",
+            "a2": "Su sistemi a 64 bit, Tiger-128 è significativamente più veloce di MD5.",
+            "q3": "Tiger-128 è ancora rilevante?",
+            "a3": "Usato nella condivisione file P2P. Per nuovi progetti, considera BLAKE3 o xxHash."
+        }
+    },
+    "js": {
+        "error_empty": "Inserisci del testo",
+        "btn_copied": "Copiato!",
+        "btn_generating": "Generazione...",
+        "error_failed": "Generazione hash fallita. Riprova."
+    }
+}

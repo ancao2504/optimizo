@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Generatore di Hash Adler-32 - Strumento Online Gratuito",
+        "description": "Genera hash Adler-32 da qualsiasi testo. Funzione checksum veloce usata nella compressione zlib. Gratuito e istantaneo.",
+        "h1": "Generatore di Hash Adler-32",
+        "subtitle": "Genera checksum Adler-32 — veloci e leggeri"
+    },
+    "editor": {
+        "label_input": "Inserisci testo",
+        "ph_input": "Inserisci il testo per generare l'hash Adler-32...",
+        "btn_generate": "Genera Hash Adler-32",
+        "label_result": "Hash Adler-32",
+        "btn_copy": "Copia"
+    },
+    "content": {
+        "hero_title": "Generatore di Hash Adler-32",
+        "hero_subtitle": "Funzione checksum ultra-veloce per il rilevamento errori",
+        "p1": "Adler-32 è una funzione checksum progettata da Mark Adler nel 1995. Produce un hash di 32 bit (8 caratteri esadecimali). Ampiamente usata nella libreria di compressione zlib e nel protocollo rsync, è stata progettata per essere significativamente più veloce di CRC-32.",
+        "what_title": "Cos'è Adler-32?",
+        "what_desc": "Adler-32 usa due checksum: A (somma di tutti i byte più uno) e B (somma cumulativa di tutti i valori A). Entrambi calcolati modulo il primo 65521. L'hash finale è B × 65536 + A.",
+        "features_title": "✅ Vantaggi di Adler-32",
+        "features": {
+            "fast": "<strong>Estremamente veloce:</strong> Significativamente più veloce di CRC-32 nel software",
+            "fixed": "<strong>Basso consumo:</strong> Uso minimo di CPU e memoria ridotta",
+            "deterministic": "<strong>Implementazione semplice:</strong> Solo poche righe di codice necessarie",
+            "support": "<strong>Collaudata in produzione:</strong> Miliardi di stream elaborati in zlib"
+        },
+        "uses_title": "📊 Casi d'uso comuni",
+        "uses": {
+            "verify": "<strong>Compressione zlib:</strong> Verifica di integrità degli stream",
+            "checksum": "<strong>Protocollo rsync:</strong> Rilevamento rapido delle modifiche ai file",
+            "cache": "<strong>Verifiche di rete:</strong> Verifica leggera dei pacchetti",
+            "integrity": "<strong>Trasferimento dati:</strong> Rilevamento errori negli stream"
+        },
+        "warning_title": "⚠️ Nota sulla sicurezza",
+        "warning_desc": "<strong>Adler-32 non è una funzione hash crittografica.</strong> È un checksum per il rilevamento errori, non per la sicurezza. Usa SHA-256 per esigenze crittografiche.",
+        "compare_title": "🔄 Confronto Adler-32",
+        "compare": {
+            "md5": {
+                "title": "Adler-32",
+                "desc1": "32 bit, non crittografico",
+                "desc2": "Il più veloce, rilevamento minimo"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "32 bit, polinomiale",
+                "desc2": "Più lento, migliore rilevamento"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128 bit, crittografico",
+                "desc2": "Sicurezza molto superiore"
+            }
+        },
+        "faq_title": "❓ Domande frequenti",
+        "faq": {
+            "q1": "Qual è la differenza tra Adler-32 e CRC-32?",
+            "a1": "Adler-32 è più veloce nel calcolo ma rileva meno tipi di errore rispetto a CRC-32. CRC-32 usa la divisione polinomiale che cattura più sequenze di errori.",
+            "q2": "Posso usare Adler-32 per la sicurezza?",
+            "a2": "No. Adler-32 è un checksum, non una funzione hash crittografica. Le collisioni sono facili da creare.",
+            "q3": "Perché zlib usa Adler-32 anziché CRC-32?",
+            "a3": "zlib privilegia la velocità. I dati compressi tipicamente hanno verifiche di livello superiore."
+        }
+    },
+    "js": {
+        "error_empty": "Inserisci del testo",
+        "btn_copied": "Copiato!",
+        "btn_generating": "Generazione...",
+        "error_failed": "Generazione hash fallita. Riprova."
+    }
+}

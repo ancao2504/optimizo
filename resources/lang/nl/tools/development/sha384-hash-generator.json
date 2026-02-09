@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-384 Hash Generator - Gratis Online Tool",
+        "description": "Genereer SHA-384 hashes van elke tekst. Afgekapte variant van SHA-512 met 192-bit weerstand. Gratis.",
+        "h1": "SHA-384 Hash Generator",
+        "subtitle": "Genereer SHA-384 hashes — voor hoge beveiligingstoepassingen"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een SHA-384 hash te genereren...",
+        "btn_generate": "Genereer SHA-384 Hash",
+        "label_result": "SHA-384 Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "SHA-384 Hash Generator",
+        "hero_subtitle": "384-bit hoge beveiligings cryptografische hash",
+        "p1": "SHA-384 is een lid van de SHA-2 familie en produceert een 384-bit hash (96 hex tekens). Het is een afgekapte versie van SHA-512 met andere beginwaarden.",
+        "what_title": "Wat is SHA-384?",
+        "what_desc": "SHA-384 gebruikt intern hetzelfde algoritme als SHA-512 — verwerking in 1024-bit blokken door 80 rondes met 64-bit bewerkingen.",
+        "features_title": "✅ Voordelen",
+        "features": {
+            "fast": "<strong>192-bit beveiliging:</strong> Hogere botsingsweerstand dan SHA-256",
+            "fixed": "<strong>384 bit uitvoer:</strong> 96 tekens digest",
+            "deterministic": "<strong>64-bit geoptimaliseerd:</strong> Gebruikt 64-bit bewerkingen",
+            "support": "<strong>Overheidscertificering:</strong> Aanbevolen door NIST"
+        },
+        "uses_title": "📊 Toepassingen",
+        "uses": {
+            "verify": "<strong>TLS-suites:</strong> ECDHE-RSA-AES256-SHA384",
+            "checksum": "<strong>Digitale handtekeningen:</strong> Hoge beveiligingsondertekening",
+            "cache": "<strong>Overheidssystemen:</strong> FIPS 180-4 toepassingen",
+            "integrity": "<strong>Financiële protocollen:</strong> Banktransacties"
+        },
+        "warning_title": "💡 Wanneer gebruiken",
+        "warning_desc": "<strong>SHA-384 zit tussen SHA-256 en SHA-512.</strong> Kies SHA-384 wanneer vereisten de 128 bit van SHA-256 overschrijden.",
+        "compare_title": "🔄 SHA-2 familie",
+        "compare": {
+            "md5": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "128 bit weerstand"
+            },
+            "sha1": {
+                "title": "SHA-384",
+                "desc1": "384 bit",
+                "desc2": "192 bit weerstand"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512 bit",
+                "desc2": "256 bit weerstand"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Waarom SHA-384 in plaats van SHA-256?",
+            "a1": "SHA-384 biedt 192 bit weerstand versus 128 bij SHA-256 en is sneller op 64-bit processoren.",
+            "q2": "Is SHA-384 gewoon afgekapte SHA-512?",
+            "a2": "Ja, maar met andere beginwaarden.",
+            "q3": "Waar is SHA-384 vereist?",
+            "a3": "Overheidssystemen, financiën en TLS-configuraties met hoge beveiliging."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

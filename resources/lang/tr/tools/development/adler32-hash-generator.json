@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Adler-32 Hash Oluşturucu - Ücretsiz Çevrimiçi Araç",
+        "description": "Herhangi bir metinden Adler-32 hash'leri oluşturun. zlib sıkıştırma kütüphanesinde kullanılan hızlı sağlama fonksiyonu. Ücretsiz.",
+        "h1": "Adler-32 Hash Oluşturucu",
+        "subtitle": "Adler-32 sağlama toplamları oluşturun — hızlı ve hafif"
+    },
+    "editor": {
+        "label_input": "Metin girin",
+        "ph_input": "Adler-32 hash oluşturmak için metin girin...",
+        "btn_generate": "Adler-32 Hash Oluştur",
+        "label_result": "Adler-32 Hash",
+        "btn_copy": "Kopyala"
+    },
+    "content": {
+        "hero_title": "Adler-32 Hash Oluşturucu",
+        "hero_subtitle": "Hata tespiti için ultra hızlı sağlama fonksiyonu",
+        "p1": "Adler-32, Mark Adler tarafından 1995 yılında tasarlanan bir sağlama fonksiyonudur. 32 bitlik bir hash (8 onaltılık karakter) üretir. zlib sıkıştırma kütüphanesi ve rsync protokolünde yaygın olarak kullanılır, CRC-32'den önemli ölçüde daha hızlı olacak şekilde tasarlanmıştır.",
+        "what_title": "Adler-32 nedir?",
+        "what_desc": "Adler-32 iki sağlama toplamı kullanır: A (tüm baytların toplamı artı bir) ve B (tüm A değerlerinin kümülatif toplamı). Her ikisi de 65521 asal sayısıyla modüler hesaplanır. Son hash: B × 65536 + A.",
+        "features_title": "✅ Adler-32 Avantajları",
+        "features": {
+            "fast": "<strong>Aşırı hızlı:</strong> Yazılımda CRC-32'den önemli ölçüde hızlı",
+            "fixed": "<strong>Düşük tüketim:</strong> Minimum CPU ve bellek kullanımı",
+            "deterministic": "<strong>Basit uygulama:</strong> Yalnızca birkaç satır kod gerekir",
+            "support": "<strong>Üretimde kanıtlanmış:</strong> zlib'de milyarlarca akış işlenmiş"
+        },
+        "uses_title": "📊 Yaygın kullanım alanları",
+        "uses": {
+            "verify": "<strong>zlib sıkıştırma:</strong> Akış bütünlüğü doğrulama",
+            "checksum": "<strong>rsync protokolü:</strong> Hızlı dosya değişiklik tespiti",
+            "cache": "<strong>Ağ kontrolleri:</strong> Hafif paket doğrulama",
+            "integrity": "<strong>Veri aktarımı:</strong> Akış hata tespiti"
+        },
+        "warning_title": "⚠️ Güvenlik notu",
+        "warning_desc": "<strong>Adler-32 kriptografik bir hash fonksiyonu değildir.</strong> Hata tespiti için bir sağlama toplamıdır, güvenlik için değil. Kriptografik ihtiyaçlar için SHA-256 kullanın.",
+        "compare_title": "🔄 Adler-32 karşılaştırması",
+        "compare": {
+            "md5": {
+                "title": "Adler-32",
+                "desc1": "32 bit, kriptografik değil",
+                "desc2": "En hızlı, minimum tespit"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "32 bit, polinom",
+                "desc2": "Daha yavaş, daha iyi tespit"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128 bit, kriptografik",
+                "desc2": "Çok daha yüksek güvenlik"
+            }
+        },
+        "faq_title": "❓ Sıkça sorulan sorular",
+        "faq": {
+            "q1": "Adler-32 ile CRC-32 arasındaki fark nedir?",
+            "a1": "Adler-32 hesaplamada daha hızlıdır ancak CRC-32'den daha az hata türü tespit eder. CRC-32, daha fazla hata dizisi yakalayan polinom bölme kullanır.",
+            "q2": "Adler-32'yi güvenlik için kullanabilir miyim?",
+            "a2": "Hayır. Adler-32 bir sağlama toplamıdır, kriptografik hash fonksiyonu değil. Çarpışmalar kolayca oluşturulabilir.",
+            "q3": "zlib neden CRC-32 yerine Adler-32 kullanır?",
+            "a3": "zlib hıza öncelik verir. Sıkıştırılmış verilerde genellikle üst düzey kontroller bulunur."
+        }
+    },
+    "js": {
+        "error_empty": "Lütfen metin girin",
+        "btn_copied": "Kopyalandı!",
+        "btn_generating": "Oluşturuluyor...",
+        "error_failed": "Hash oluşturulamadı. Tekrar deneyin."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-512 Hash Generator - Gratis Online Tool",
+        "description": "Genereer SHA-512 hashes van elke tekst. 512-bit cryptografische hash met maximale beveiliging. Gratis.",
+        "h1": "SHA-512 Hash Generator",
+        "subtitle": "Genereer SHA-512 hashes — maximale cryptografische beveiliging"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een SHA-512 hash te genereren...",
+        "btn_generate": "Genereer SHA-512 Hash",
+        "label_result": "SHA-512 Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "SHA-512 Hash Generator",
+        "hero_subtitle": "512-bit cryptografische hash met maximale beveiliging",
+        "p1": "SHA-512 is het krachtigste lid van de SHA-2 familie en produceert een 512-bit hash (128 hex tekens). Sneller dan SHA-256 op moderne 64-bit processoren.",
+        "what_title": "Wat is SHA-512?",
+        "what_desc": "SHA-512 verwerkt data in 1024-bit blokken door 80 rondes met acht 64-bit werkende variabelen.",
+        "features_title": "✅ Voordelen",
+        "features": {
+            "fast": "<strong>Sneller op 64-bit:</strong> Native 64-bit bewerkingen overtreffen SHA-256",
+            "fixed": "<strong>512 bit uitvoer:</strong> 128 tekens, 256 bit weerstand",
+            "deterministic": "<strong>Maximale beveiliging:</strong> Hoogste beveiligingsmarge in SHA-2",
+            "support": "<strong>Kwantumbestendig:</strong> 256 bit tegen Grovers algoritme"
+        },
+        "uses_title": "📊 Toepassingen",
+        "uses": {
+            "verify": "<strong>SSH:</strong> Sleutelvingerafdrukken en hostverificatie",
+            "checksum": "<strong>IPsec:</strong> VPN-tunnelintegriteit",
+            "cache": "<strong>DNSSEC:</strong> DNS-recordondertekening",
+            "integrity": "<strong>Linux-authenticatie:</strong> Wachtwoordhashing in /etc/shadow"
+        },
+        "warning_title": "💡 Opmerking",
+        "warning_desc": "<strong>SHA-512 is sneller dan SHA-256 op 64-bit systemen.</strong> Gebruik voor wachtwoorden bcrypt of Argon2.",
+        "compare_title": "🔄 Vergelijking",
+        "compare": {
+            "md5": {
+                "title": "SHA-256",
+                "desc1": "256 bit",
+                "desc2": "Sneller op 32-bit"
+            },
+            "sha1": {
+                "title": "SHA-512",
+                "desc1": "512 bit",
+                "desc2": "Sneller op 64-bit, veiliger"
+            },
+            "sha256": {
+                "title": "SHA-3",
+                "desc1": "Variabel",
+                "desc2": "Ander ontwerp"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Is SHA-512 overdreven?",
+            "a1": "SHA-256 is voor decennia voldoende. Maar SHA-512 is vaak sneller op 64-bit systemen.",
+            "q2": "SHA-512 vs SHA-3?",
+            "a2": "Beide zijn veilig. SHA-512 is sneller in software.",
+            "q3": "Hoe lang duurt het om SHA-512 te kraken?",
+            "a3": "Met 256 bit weerstand, langer dan de leeftijd van het universum."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

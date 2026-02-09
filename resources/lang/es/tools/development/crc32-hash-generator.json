@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Generador de Hash CRC-32 - Herramienta Online Gratuita",
+        "description": "Genera hashes CRC-32 desde cualquier texto. Verificación de redundancia cíclica estándar para detección de errores. Gratis e instantáneo.",
+        "h1": "Generador de Hash CRC-32",
+        "subtitle": "Genera sumas de verificación CRC-32 — estándar industrial para detección de errores"
+    },
+    "editor": {
+        "label_input": "Introducir texto",
+        "ph_input": "Introduce texto para generar hash CRC-32...",
+        "btn_generate": "Generar Hash CRC-32",
+        "label_result": "Hash CRC-32",
+        "btn_copy": "Copiar"
+    },
+    "content": {
+        "hero_title": "Generador de Hash CRC-32",
+        "hero_subtitle": "Verificación de redundancia cíclica estándar para integridad de datos",
+        "p1": "CRC-32 (Verificación de Redundancia Cíclica de 32 bits) es la función de suma de verificación no criptográfica más utilizada en el mundo. Produce un hash de 32 bits (8 caracteres hex) mediante división polinomial. CRC-32 está en todas partes: formatos ZIP y PNG, redes Ethernet, protocolos USB y sistemas de archivos.",
+        "what_title": "¿Qué es CRC-32?",
+        "what_desc": "CRC-32 trata los datos de entrada como un polinomio enorme y calcula el resto al dividir por un polinomio generador fijo. Esto es eficiente mediante tablas de búsqueda y optimizaciones de hardware.",
+        "features_title": "✅ Ventajas de CRC-32",
+        "features": {
+            "fast": "<strong>Aceleración por hardware:</strong> Instrucciones Intel CRC32 calculan a velocidad de memoria",
+            "fixed": "<strong>Detección robusta:</strong> Detecta todos los errores de 1, 2 bits e impares",
+            "deterministic": "<strong>Estándar universal:</strong> Ethernet, USB, ZIP, PNG, MPEG-2",
+            "support": "<strong>Simple y rápido:</strong> Tablas de búsqueda para cálculo veloz"
+        },
+        "uses_title": "📊 Casos de uso comunes",
+        "uses": {
+            "verify": "<strong>Archivado:</strong> Verificación de integridad ZIP y gzip",
+            "checksum": "<strong>Redes:</strong> Verificación de tramas Ethernet",
+            "cache": "<strong>Almacenamiento:</strong> Verificación de integridad del sistema de archivos",
+            "integrity": "<strong>Formatos multimedia:</strong> Integridad de archivos PNG y MPEG"
+        },
+        "warning_title": "⚠️ Nota de seguridad",
+        "warning_desc": "<strong>CRC-32 no es una función hash criptográfica.</strong> Fue diseñada para detectar errores aleatorios, no para proteger contra manipulación intencional.",
+        "compare_title": "🔄 Comparación de CRC-32",
+        "compare": {
+            "md5": {
+                "title": "CRC-32",
+                "desc1": "32 bits, polinomial",
+                "desc2": "Detección de errores, no criptográfico"
+            },
+            "sha1": {
+                "title": "Adler-32",
+                "desc1": "32 bits, aritmético",
+                "desc2": "Más rápido, detección más débil"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128 bits, criptográfico",
+                "desc2": "Mucho más lento, pero seguro"
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Cuál es la diferencia entre CRC-32 y CRC-32B?",
+            "a1": "Usan diferentes polinomios generadores. CRC-32 usa el polinomio Ethernet, mientras CRC-32B es la variante que PHP calcula por defecto.",
+            "q2": "¿Por qué CRC-32 no se usa para seguridad?",
+            "a2": "CRC-32 es lineal y reversible. Un atacante puede crear colisiones intencionales fácilmente.",
+            "q3": "¿Puede CRC-32 detectar todos los errores?",
+            "a3": "No. CRC-32 detecta el 100% de errores de 1 y 2 bits y todos los errores impares, pero puede pasar por alto ciertos patrones de error."
+        }
+    },
+    "js": {
+        "error_empty": "Por favor introduce texto",
+        "btn_copied": "¡Copiado!",
+        "btn_generating": "Generando...",
+        "error_failed": "Error al generar el hash. Inténtalo de nuevo."
+    }
+}

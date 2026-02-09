@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "CRC-32B Hash Generator - Gratis Online Tool",
+        "description": "Genereer CRC-32B hashes van elke tekst. De standaard CRC-32 variant in PHP en Python. Gratis.",
+        "h1": "CRC-32B Hash Generator",
+        "subtitle": "Genereer CRC-32B hashes — standaardvariant in PHP"
+    },
+    "editor": {
+        "label_input": "Voer tekst in",
+        "ph_input": "Voer tekst in om een CRC-32B hash te genereren...",
+        "btn_generate": "Genereer CRC-32B Hash",
+        "label_result": "CRC-32B Hash",
+        "btn_copy": "Kopiëren"
+    },
+    "content": {
+        "hero_title": "CRC-32B Hash Generator",
+        "hero_subtitle": "Standaard CRC-32B polynoom voor gegevensintegriteit",
+        "p1": "CRC-32B is de meest voorkomende variant van de CRC-32 familie en gebruikt het gereflecteerde polynoom 0xEDB88320. Het is de standaard CRC-32 implementatie in PHP, Python, Java en de meeste programmeertalen.",
+        "what_title": "Wat is CRC-32B?",
+        "what_desc": "CRC-32B gebruikt het polynoom 0x04C11DB7 in zijn gereflecteerde vorm 0xEDB88320. Het 'B' achtervoegsel onderscheidt het van andere CRC-32 varianten.",
+        "features_title": "✅ Voordelen",
+        "features": {
+            "fast": "<strong>Taalstandaard:</strong> Standaardimplementatie in PHP, Python, Java",
+            "fixed": "<strong>Sterke detectie:</strong> Detecteert alle 1- en 2-bitfouten",
+            "deterministic": "<strong>Interoperabiliteit:</strong> Consistente resultaten tussen platforms",
+            "support": "<strong>Hardwareversnelling:</strong> Native CPU-ondersteuning"
+        },
+        "uses_title": "📊 Toepassingen",
+        "uses": {
+            "verify": "<strong>Bestandsverificatie:</strong> Downloadintegriteitscontrole",
+            "checksum": "<strong>Databases:</strong> Datacorruptiedetectie",
+            "cache": "<strong>API's:</strong> Payloadintegriteitsverificatie",
+            "integrity": "<strong>Versiebeheer:</strong> Bestandswijzigingsdetectie"
+        },
+        "warning_title": "⚠️ Opmerking",
+        "warning_desc": "<strong>CRC-32B is functioneel identiek aan CRC-32 in de meeste programmeertalen.</strong>",
+        "compare_title": "🔄 CRC-32 varianten",
+        "compare": {
+            "md5": {
+                "title": "CRC-32B",
+                "desc1": "Polynoom 0xEDB88320",
+                "desc2": "Meest voorkomende standaard"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "Alternatieve varianten",
+                "desc2": "Verschillende polynomen"
+            },
+            "sha256": {
+                "title": "CRC-32C",
+                "desc1": "Castagnoli polynoom",
+                "desc2": "Geoptimaliseerd voor iSCSI"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Verschil CRC-32 en CRC-32B?",
+            "a1": "Verschillende generatorpolynomen. CRC-32B gebruikt de meest voorkomende gereflecteerde vorm.",
+            "q2": "Is CRC-32B cryptografisch veilig?",
+            "a2": "Nee. Zoals alle CRC-varianten is het een checksum voor foutdetectie.",
+            "q3": "Welke talen gebruiken CRC-32B?",
+            "a3": "PHP (crc32()), Python (binascii.crc32()), Java (java.util.zip.CRC32) en .NET."
+        }
+    },
+    "js": {
+        "error_empty": "Voer tekst in",
+        "btn_copied": "Gekopieerd!",
+        "btn_generating": "Genereren...",
+        "error_failed": "Hash genereren mislukt. Probeer opnieuw."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-384 Hash Generator - Kostenloses Online-Tool",
+        "description": "Generieren Sie SHA-384-Hashes aus jedem Text. Abgeschnittene SHA-512-Variante mit 192-Bit-Kollisionsresistenz. Kostenlos.",
+        "h1": "SHA-384 Hash Generator",
+        "subtitle": "SHA-384-Hashes generieren — für hochsichere Anwendungen"
+    },
+    "editor": {
+        "label_input": "Text eingeben",
+        "ph_input": "Text eingeben, um SHA-384-Hash zu generieren...",
+        "btn_generate": "SHA-384 Hash generieren",
+        "label_result": "SHA-384 Hash",
+        "btn_copy": "Kopieren"
+    },
+    "content": {
+        "hero_title": "SHA-384 Hash Generator",
+        "hero_subtitle": "Hochsicherer 384-Bit kryptographischer Hash",
+        "p1": "SHA-384 ist ein Mitglied der SHA-2-Familie und erzeugt einen 384-Bit-Hash (96 Hex-Zeichen). Es ist eine abgeschnittene Version von SHA-512 mit anderen Initialwerten. SHA-384 wird in Regierungs- und Finanzsystemen verwendet.",
+        "what_title": "Was ist SHA-384?",
+        "what_desc": "SHA-384 verwendet intern denselben Algorithmus wie SHA-512 — Verarbeitung in 1024-Bit-Blöcken über 80 Runden mit 64-Bit-Operationen. Der Unterschied liegt in anderen Initialwerten und der Kürzung auf 384 Bit.",
+        "features_title": "✅ Vorteile von SHA-384",
+        "features": {
+            "fast": "<strong>192-Bit-Sicherheit:</strong> Höhere Kollisionsresistenz als SHA-256",
+            "fixed": "<strong>384-Bit-Ausgabe:</strong> 96-stelliger Hex-Digest",
+            "deterministic": "<strong>64-Bit optimiert:</strong> Verwendet 64-Bit-Operationen",
+            "support": "<strong>Regierungszertifiziert:</strong> NIST-empfohlen"
+        },
+        "uses_title": "📊 Häufige Anwendungsfälle",
+        "uses": {
+            "verify": "<strong>TLS-Cipher-Suites:</strong> ECDHE-RSA-AES256-SHA384",
+            "checksum": "<strong>Digitale Signaturen:</strong> Hochsichere Dokumentensignierung",
+            "cache": "<strong>Regierungssysteme:</strong> FIPS 180-4 konforme Anwendungen",
+            "integrity": "<strong>Finanzprotokolle:</strong> Banking-Transaktionssicherheit"
+        },
+        "warning_title": "💡 Wann SHA-384 verwenden",
+        "warning_desc": "<strong>SHA-384 liegt zwischen SHA-256 und SHA-512 im Sicherheitsniveau.</strong> Wählen Sie SHA-384, wenn die Sicherheitsanforderungen die 128-Bit-Kollisionsresistenz von SHA-256 übersteigen.",
+        "compare_title": "🔄 SHA-2-Familienvergleich",
+        "compare": {
+            "md5": {
+                "title": "SHA-256",
+                "desc1": "256 Bit, 32-Bit-Ops",
+                "desc2": "128-Bit-Kollisionsresistenz"
+            },
+            "sha1": {
+                "title": "SHA-384",
+                "desc1": "384 Bit, 64-Bit-Ops",
+                "desc2": "192-Bit-Kollisionsresistenz"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512 Bit, 64-Bit-Ops",
+                "desc2": "256-Bit-Kollisionsresistenz"
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Warum SHA-384 statt SHA-256?",
+            "a1": "SHA-384 bietet 192 Bit Kollisionsresistenz vs. 128 Bit bei SHA-256. Zudem ist es auf 64-Bit-Prozessoren schneller.",
+            "q2": "Ist SHA-384 nur abgeschnittenes SHA-512?",
+            "a2": "Ja, aber mit anderen Initialwerten. Man kann keinen SHA-384-Hash aus einem SHA-512-Hash derselben Daten ableiten.",
+            "q3": "Wo wird SHA-384 benötigt?",
+            "a3": "SHA-384 wird oft in Regierungs- und Finanzsystemen und TLS-Konfigurationen mit erhöhten Sicherheitsanforderungen verlangt."
+        }
+    },
+    "js": {
+        "error_empty": "Bitte Text eingeben",
+        "btn_copied": "Kopiert!",
+        "btn_generating": "Wird generiert...",
+        "error_failed": "Hash-Generierung fehlgeschlagen. Bitte erneut versuchen."
+    }
+}

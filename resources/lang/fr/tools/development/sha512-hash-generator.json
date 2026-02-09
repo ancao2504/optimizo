@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Générateur de Hash SHA-512 - Outil en Ligne Gratuit",
+        "description": "Générez des hash SHA-512 à partir de n'importe quel texte. Hash cryptographique 512 bits avec sécurité maximale. Gratuit.",
+        "h1": "Générateur de Hash SHA-512",
+        "subtitle": "Générez des hash SHA-512 — sécurité cryptographique maximale"
+    },
+    "editor": {
+        "label_input": "Saisir le texte",
+        "ph_input": "Saisissez le texte pour générer un hash SHA-512...",
+        "btn_generate": "Générer Hash SHA-512",
+        "label_result": "Hash SHA-512",
+        "btn_copy": "Copier"
+    },
+    "content": {
+        "hero_title": "Générateur de Hash SHA-512",
+        "hero_subtitle": "Hash cryptographique 512 bits avec sécurité maximale",
+        "p1": "SHA-512 est le membre le plus robuste de la famille SHA-2, produisant un hash de 512 bits (128 caractères hex). Plus rapide que SHA-256 sur les processeurs modernes 64 bits. Utilisé pour les empreintes SSH, IPsec et DNSSEC.",
+        "what_title": "Qu'est-ce que SHA-512 ?",
+        "what_desc": "SHA-512 traite les données en blocs de 1024 bits à travers 80 rondes avec huit variables de travail de 64 bits.",
+        "features_title": "✅ Avantages de SHA-512",
+        "features": {
+            "fast": "<strong>Plus rapide en 64 bits :</strong> Les opérations 64 bits natives surpassent SHA-256",
+            "fixed": "<strong>Sortie 512 bits :</strong> 128 caractères, 256 bits de résistance aux collisions",
+            "deterministic": "<strong>Sécurité maximale :</strong> La plus grande marge de sécurité en SHA-2",
+            "support": "<strong>Résistante au quantique :</strong> 256 bits de sécurité même contre Grover"
+        },
+        "uses_title": "📊 Cas d'utilisation",
+        "uses": {
+            "verify": "<strong>SSH :</strong> Empreintes de clé et vérification d'hôte",
+            "checksum": "<strong>IPsec :</strong> Intégrité des tunnels VPN",
+            "cache": "<strong>DNSSEC :</strong> Signature de registres DNS",
+            "integrity": "<strong>Auth Linux :</strong> Hachage de mots de passe dans /etc/shadow"
+        },
+        "warning_title": "💡 Note de performance",
+        "warning_desc": "<strong>SHA-512 est plus rapide que SHA-256 sur les systèmes 64 bits.</strong> Pour le hachage de mots de passe, utilisez bcrypt ou Argon2.",
+        "compare_title": "🔄 Comparaison SHA-512",
+        "compare": {
+            "md5": {
+                "title": "SHA-256",
+                "desc1": "256 bits, ops 32 bits",
+                "desc2": "Plus rapide en 32 bits"
+            },
+            "sha1": {
+                "title": "SHA-512",
+                "desc1": "512 bits, ops 64 bits",
+                "desc2": "Plus rapide en 64 bits, plus sûre"
+            },
+            "sha256": {
+                "title": "SHA-3",
+                "desc1": "Sortie variable",
+                "desc2": "Design différent, sécurité similaire"
+            }
+        },
+        "faq_title": "❓ Questions fréquentes",
+        "faq": {
+            "q1": "SHA-512 est-elle excessive ?",
+            "a1": "En sécurité, SHA-256 suffit pour des décennies. Mais SHA-512 est souvent plus rapide sur les systèmes 64 bits.",
+            "q2": "SHA-512 vs SHA-3 ?",
+            "a2": "Les deux sont sûres. SHA-512 est plus rapide en logiciel, SHA-3 a un design radicalement différent.",
+            "q3": "Combien de temps pour casser SHA-512 ?",
+            "a3": "Avec 256 bits de résistance aux collisions, cela prendrait plus que l'âge de l'univers."
+        }
+    },
+    "js": {
+        "error_empty": "Veuillez saisir du texte",
+        "btn_copied": "Copié !",
+        "btn_generating": "Génération...",
+        "error_failed": "Échec de la génération du hash. Réessayez."
+    }
+}
