@@ -1,57 +1,70 @@
 {
     "meta": {
-        "title": "Avkoda Base64 till bild - Gratis onlineavkodare",
-        "description": "Konvertera Base64-kodade strängar tillbaka till bilder (PNG, JPG, GIF). Gratis online avkodare och visualiserare.",
-        "h1": "Avkoda Base64 till bild",
-        "subtitle": "Konvertera Base64-kodade strängar tillbaka till bilder (PNG, JPG, GIF) omedelbart"
+        "title": "Avkoda Base64 till Bild - Gratis Online-verktyg",
+        "description": "Konvertera Base64-kodade strängar tillbaka till bilder (PNG, JPG, GIF). Gratis online-avkodare.",
+        "h1": "Avkoda Base64 till Bild",
+        "subtitle": "Konvertera Base64-kodade strängar tillbaka till bilder (PNG, JPG, GIF) direkt"
     },
     "input": {
         "title": "Klistra in Base64-sträng",
-        "desc": "Klistra in din kod nedan för att visualisera bilden",
-        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
-        "btn_decode": "Avkoda bild"
+        "desc": "Klistra in din kod nedan för att visa bilden",
+        "placeholder": "data:image/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Avkoda Bild"
     },
     "result": {
-        "image_alt": "Avkodad bild",
-        "success": "Bild avkodad framgångsrikt",
-        "btn_download": "Ladda ner bild",
-        "btn_clear": "Rensa mönster"
+        "image_alt": "Avkodad Bild",
+        "success": "Bilden Avkodades Framgångsrikt",
+        "btn_download": "Ladda Ner Bild",
+        "btn_clear": "Rensa"
     },
     "content": {
-        "title": "Avkoda Base64 till bild",
-        "p1": "Hittat en lång sträng av slumpmässiga tecken som börjar med <code>data:image\/...<\/code> och vet inte vad det är? Det är troligen en Base64-kodad bild.",
-        "p2": "Vår <strong>Base64 till bild-avkodare<\/strong> konverterar den textsträngen tillbaka till en synlig bildfil (PNG, JPG, GIF, etc.) som du kan visa och ladda ner till din dator.",
+        "title": "Avkoda Base64 till Bild",
+        "p1": "Hittade en lång sträng av slumpmässiga tecken som börjar med <code>data:image/...</code>? Det är troligen en Base64-kodad bild.",
+        "p2": "Vår <strong>Base64 till Bild-avkodare</strong> konverterar den textsträngen tillbaka till en synlig bildfil.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Instant Preview",
-            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
-            "f2_title": "Auto-Detection",
-            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
-            "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "title": "Huvudfunktioner",
+            "f1_title": "Direkt Förhandsvisning",
+            "f1_desc": "Se bilden omedelbart.",
+            "f2_title": "Automatisk Detektering",
+            "f2_desc": "Vi identifierar automatiskt filformatet från Base64-strängens header.",
+            "f3_title": "Ladda Ner Fil",
+            "f3_desc": "Spara det avkodade resultatet som en riktig bildfil med ett klick."
         },
         "how_to": {
-            "title": "Hur avkodar man?",
-            "step1_title": "Step 1",
-            "step1_desc": "Paste your Base64 string into the textarea.",
-            "step2_title": "Step 2",
-            "step2_desc": "We instantly attempt to read the string.",
-            "step3_title": "Step 3",
-            "step3_desc": "If valid, the image appears on the left.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "title": "Hur Avkodar Man?",
+            "step1_title": "Steg 1",
+            "step1_desc": "Klistra in din Base64-sträng i textfältet.",
+            "step2_title": "Steg 2",
+            "step2_desc": "Verktyget läser strängen direkt.",
+            "step3_title": "Steg 3",
+            "step3_desc": "Om giltig visas bilden.",
+            "step4_title": "Steg 4",
+            "step4_desc": "Klicka på \"Ladda Ner Bild\" för att spara."
+        },
+        "faq": {
+            "title": "Vanliga Frågor",
+            "q1": "Hur fungerar Base64 till Bild-konverteraren?",
+            "a1": "Verktyget tar en Base64-kodad sträng och avkodar den tillbaka till originalformatet.",
+            "q2": "Vilka bildformat kan jag avkoda?",
+            "a2": "Verktyget stöder PNG, JPG, GIF, WEBP, BMP och SVG.",
+            "q3": "Är det gratis?",
+            "a3": "Ja, helt gratis utan begränsningar.",
+            "q4": "Är det säkert?",
+            "a4": "Ja. Avkodningen sker i din webbläsare. Vi lagrar inte dina bilder.",
+            "q5": "Vad händer om min Base64-sträng är ogiltig?",
+            "a5": "Verktyget visar ett felmeddelande."
         },
         "use_cases": {
-            "title": "Vanliga användningsområden",
+            "title": "Vanliga Användningsområden",
             "list": [
-                "Felsökning: Kontrollera vilken bilddata som skickas i API-svar eller lagras i databaser.",
-                "Återställning: Extrahera bilder inbäddade i CSS-filer eller HTML-mallar.",
-                "Verifiering: Säkerställ att en Base64-sträng inte är skadad."
+                "Felsökning: Kontrollera bilddata i API-svar.",
+                "Återställning: Extrahera bilder från CSS-filer eller HTML-mallar.",
+                "Verifiering: Säkerställa att en Base64-sträng inte är korrupt."
             ]
         }
     },
     "js": {
-        "input_required": "Vänligen klistra in en Base64-sträng först.",
+        "input_required": "Klistra in en Base64-sträng först.",
         "invalid_error": "Ogiltig Base64-sträng eller bildformat som inte stöds."
     }
 }

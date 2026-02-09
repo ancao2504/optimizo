@@ -1,97 +1,37 @@
 {
     "meta": {
-        "title": "Image Sharpener - Unblur Photos Online",
-        "h1": "Image Sharpener",
-        "subtitle": "Enhance details and restore clarity to blurry photos instantly.",
-        "desc": "Sharpen blurry images online. Enhance details and clarity in your photos instantly with our free image sharpening tool."
+        "title": "Wyostrzanie Obrazów - Darmowe Narzędzie Online",
+        "h1": "Wyostrzanie Obrazów",
+        "subtitle": "Wyostrz swoje obrazy dla klarowniejszego rezultatu.",
+        "desc": "Wyostrz obrazy online. Bezpłatnie i bezpiecznie."
     },
     "input": {
-        "title": "Sharpen Your Image",
-        "desc": "Upload a blurry photo and enhance its details instantly.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Wyostrz Obraz",
+        "desc": "Prześlij obraz do wyostrzenia.",
+        "drop_title": "Przeciągnij i upuść obraz tutaj",
+        "drop_desc": "lub kliknij, aby przeglądać"
     },
-    "settings": {
-        "title": "Adjust Sharpness"
-    },
-    "result": {
-        "applied": "Clarity Enhancement Applied",
-        "btn_download": "Download Sharpened Image"
+    "editor": {
+        "image_alt": "Podgląd",
+        "strength": "Siła",
+        "btn_apply": "Zastosuj Wyostrzanie",
+        "btn_download": "Pobierz Obraz"
     },
     "content": {
-        "intro": {
-            "title": "Precision Clarity: The Science and Art of Image Sharpening",
-            "subtitle": "Transform soft, out-of-focus captures into crisp, professional-grade visuals.",
-            "p1": "We've all experienced the frustration of a 'missed' shot—the moment was perfect, the composition was spot on, but the resulting image is just a little bit soft. Maybe the autofocus struggled, or there was a slight camera shake. Our Image Sharpener is designed to be the antidote to blur. It uses advanced mathematical edge-enhancement algorithms to identify the 'borders' within your image and increase their local contrast, making textures pop and bringing a new level of definition to your photography.",
-            "p2": "Sharpening is a fundamental step in the digital darkroom. Almost every raw image captured by a modern sensor benefits from a touch of sharpening to counteract the natural blurring effects of the camera's optical path and its 'low-pass' filter. Our tool provides a professional-grade solution that works directly in your browser, allowing you to unblur photos and enhance fine details like hair, fabric textures, and architectural lines with a simple, high-precision slider.",
-            "p3": "Whether you're a professional photographer perfecting a portrait, an archivist restoring a soft scan of an old document, or a social media creator wanting to make your thumbnails 'pop,' our online sharpener offers a fast, free, and secure workflow. We prioritize the balance between clarity and naturalism, ensuring that your images look 'crisp' rather than 'processed,' giving you the power to rescue your best moments from the blur."
-        },
-        "story": {
-            "title": "The Edge of Definition: How Digital Sharpening Actually Works",
-            "p1": "To understand image sharpening, you must first understand the concept of 'Local Contrast.' A blurry edge is simply an area where the transition from one color to another is spread across too many pixels. Our sharpener works by finding these transitions and making the 'light' side slightly lighter and the 'dark' side slightly darker. This creates the optical illusion of a sharper edge. Our tool implements a version of the 'Unsharp Mask' (USM) algorithm—a classic technique used in darkrooms since the film era, now optimized for the modern web.",
-            "p2": "Texture Enhancement is the most immediate benefit of this process. In a portrait, sharpening can bring out the individual strands of eyelashes or the fine texture of a sweater. In a landscape, it can make distant leaves and rocks feel more tactile and 'present.' Our tool is tuned to recognize these high-frequency details, allowing you to boost the 'definition' of your photo without destroying the overall lighting or color balance.",
-            "p3": "One of the most common uses for our sharpener is 'Rescue Photography.' If you have a group photo where the faces are slightly fuzzy, our tool can often bring back just enough detail to make the photo printable and shareable. While no algorithm can create data that isn't there, our sharpening engine is exceptionally good at maximizing the data that is present, turning 'soft focus' into 'serviceable clarity.'",
-            "p4": "Web and UI Assets also benefit significantly from sharpening. When you rescale a logo or an icon for a high-DPI display, it can sometimes lose its 'bite.' A quick pass through our sharpener can restore that 'pixel-perfect' feel, ensuring that your brand's visual elements look sharp and professional on every device. It's an essential utility for designers who need to polish assets for a high-quality production environment.",
-            "p5": "Document Clarity is a vital, often overlooked application. Scanned PDF pages or photos of classroom whiteboard notes can be notoriously difficult to read. By increasing the edge contrast of the text against the background, our sharpener makes characters appear more distinct and improves the results of OCR (Optical Character Recognition) software. It's a productivity booster for students and office professionals alike.",
-            "p6": "Why use our tool instead of the 'Sharpen' button in a basic app? Many simple apps use 'Global Sharpening,' which applies the effect even to 'flat' areas like clear skies, which creates unwanted noise. Our tool uses 'Adaptive Edge Discovery.' We prioritize the areas where edges actually exist, leaving the smooth gradients of your sky or skin tones untouched. This results in a cleaner, more professional final image.",
-            "p7": "Security is a core component of our development. Your family photos and professional drafts are private. Because our Image Sharpener processes your files locally using your browser's internal engine, your data never travels to a remote server. This 'Zero-Knowledge' architecture ensures that your images stay on your machine, protecting your privacy and your intellectual property from third-party storage or analysis.",
-            "p8": "In conclusion, sharpening is the final 'polish' on any great digital asset. It's the difference between an amateur snapshot and a purposeful piece of media. Use our Image Sharpener to take control of your photo's clarity, and ensure that every detail of your vision is seen with the sharpness it deserves."
-        },
+        "title": "Profesjonalne Wyostrzanie Obrazów",
+        "p1": "Nasze <strong>Narzędzie do Wyostrzania</strong> poprawia ostrość i klarowność obrazów.",
+        "p2": "Całe przetwarzanie odbywa się <strong>lokalnie w Twojej przeglądarce</strong>.",
         "features": {
-            "title": "High-Definition Utilities for Clarity and Focus",
-            "f1_title": "Adaptive Edge Reconstruction",
-            "f1_desc": "Intelligent algorithm that identifies significant 'edges' in your image and enhances them while ignoring 'flat' areas to minimize unwanted digital noise.",
-            "f2_title": "High-Bitrate Sharpness Slider",
-            "f2_desc": "Finely tuned control that lets you move from a subtle 'clearing' of the image to an aggressive 'pop' for high-contrast graphic art.",
-            "f3_title": "Anti-Noise Optimization",
-            "f3_desc": "Built-in protection that prevents the sharpening process from exaggerating existing ISO noise or JPEG artifacts in your original photo.",
-            "f4_title": "High-Res Processing Support",
-            "f4_desc": "Handles professional-grade images from high-megapixel cameras, ensuring your large-format files remain sharp across every single pixel.",
-            "f5_title": "Total Sandbox Privacy Mode",
-            "f5_desc": "All sharpening math is performed right in your browser. No photos are uploaded to any server, ensuring your private assets stay private.",
-            "f6_title": "Universal Image Handling",
-            "f6_desc": "Works flawlessly with JPG, PNG, and WebP formats. Whether you're sharpening a portrait or a technical diagram, we've got you covered."
-        },
-        "how_to": {
-            "title": "Master the Focus: How to Use the Image Sharpener",
-            "step1_title": "Select Your Soft Image",
-            "step1_desc": "Upload the photo that needs more definition. High-resolution source files always respond better to sharpening than small, low-res ones.",
-            "step2_title": "Analyze the Blur Type",
-            "step2_desc": "Look the preview. Is the whole image soft? Or just a specific subject? This will help you decide how much 'Strength' you'll need.",
-            "step3_title": "Adjust the Strength Slider",
-            "step3_desc": "Gradually increase the sharpness. Watch the hair, eyes, or text in the image. You want to see detail reappear without seeing 'halos' or white edges.",
-            "step4_title": "Review the Real-Time Preview",
-            "step4_desc": "Our tool updates instantly as you move the slider. Experiment with high and low settings to find the 'sweet spot' for your specific image.",
-            "step5_title": "Final Quality Check",
-            "step5_desc": "Zoom out and look at the whole image. Ensure the sharpening feels natural and doesn't make the photo look 'grainy' or 'digital.'",
-            "step6_title": "Download Your Sharp Result",
-            "step6_desc": "Click the 'Download Sharpened Image' button. Your crisp, clear visual is now ready for your website, print, or social media project."
-        },
-        "faq": {
-            "title": "Clarity Knowledge Hub: Clarity Enhancement FAQ",
-            "q1": "Can this tool fix a photo that is completely out of focus?",
-            "a1": "No tool can perfectly recover a fully defocused image. However, we can significantly improve 'soft focus' and 'motion blur' by enhancing existing edges.",
-            "q2": "Will sharpening make my photo file size larger?",
-            "a2": "Sometimes. Sharpness creates more 'detail' for the JPG encoder to work on, which can slightly increase the final file size.",
-            "q3": "What is 'Over-Sharpening'?",
-            "a3": "This is when the edges get so bright that they have white halos around them. Use our slider to find a natural balance and avoid this effect.",
-            "q4": "Does this work on smartphones?",
-            "a4": "Yes! Our tool is fully responsive and uses your mobile device's power to sharpen photos directly from your camera roll.",
-            "q5": "Why do photographers always sharpen their photos?",
-            "a5": "Digital sensors naturally introduce a slight amount of blur. Sharpening in post-production 'brings back' the true reality of what the lens saw.",
-            "q6": "Is this tool free for professional agencies?",
-            "a6": "Yes. Our online sharpener is completely free for both personal and commercial use with no registration required.",
-            "q7": "Can I sharpen transparent PNG logos?",
-            "a7": "Yes. The sharpening will only apply to the opaque pixels of your logo, maintaining the transparent background perfectly.",
-            "q8": "How do I know my photos stay private?",
-            "a8": "We use client-side JavaScript for all processing. Your photo never leaves your browser, ensuring 100% privacy and security.",
-            "q9": "Selecting the optimal sharpened output.",
-            "a9": "We normally default to the format you uploaded. JPG is best for photos, while PNG is best for graphics and text.",
-            "q10": "Can I sharpen thousands of photos at once?",
-            "a10": "Currently, we focus on high-quality single-image processing to ensure each file gets the maximum possible detail enhancement."
+            "title": "Funkcje",
+            "f1_title": "Regulowana Siła",
+            "f1_desc": "Wybierz pożądany poziom wyostrzania.",
+            "f2_title": "Podgląd w Czasie Rzeczywistym",
+            "f2_desc": "Zobacz rezultat przed pobraniem.",
+            "f3_title": "Lokalne Przetwarzanie",
+            "f3_desc": "Obrazy nigdy nie opuszczają Twojego urządzenia."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Błąd przetwarzania: "
     }
 }

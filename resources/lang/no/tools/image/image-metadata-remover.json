@@ -1,96 +1,38 @@
 {
     "meta": {
-        "title": "Image Metadata Remover - Strip EXIF Data Online",
-        "h1": "Image Metadata Remover",
-        "subtitle": "Strip hidden metadata and EXIF data from your photos to protect your privacy.",
-        "desc": "Remove EXIF metadata, GPS location, and camera details from your photos online. Protect your privacy with our free EXIF remover tool."
+        "title": "Metadata Fjerner for Bilder - Gratis Online Verktøy",
+        "h1": "Metadata Fjerner",
+        "subtitle": "Fjern EXIF-data og annen metadata fra bildene dine.",
+        "desc": "Fjern metadata og EXIF-data fra bilder online. Beskytt personvernet ditt gratis."
     },
     "input": {
-        "title": "Remove Image Metadata",
-        "desc": "Upload an image to strip all hidden EXIF data and protect your privacy.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Fjern Metadata",
+        "desc": "Last opp et bilde for å fjerne metadata.",
+        "drop_title": "Dra og slipp bildet ditt her",
+        "drop_desc": "eller klikk for å bla"
     },
-    "result": {
-        "title": "Privacy Scrub Complete",
-        "status_success": "All metadata has been stripped.",
-        "btn_download": "Download Clean Image"
+    "editor": {
+        "image_alt": "Forhåndsvisning",
+        "btn_remove": "Fjern Metadata",
+        "btn_download": "Last ned Rent Bilde",
+        "metadata_found": "Metadata Funnet",
+        "no_metadata": "Ingen metadata funnet"
     },
     "content": {
-        "intro": {
-            "title": "Digital Privacy Armor: The Definitive Guide to Image Metadata Removal",
-            "subtitle": "Scrub the hidden history from your photos and protect your anonymous digital footprint.",
-            "p1": "In an era of instant sharing and global connectivity, your photos are talking about you in ways you might not realize. Every image captured on a modern device contains a digital footprint known as metadata—hidden headers that store your precise GPS coordinates, the exact time and date of the photo, and the specific serial numbers of your hardware. While this data is useful for organizing a personal library, it is a significant security risk when shared with the public. Our Image Metadata Remover is your first line of defense, providing a professional-grade 'scrubbing' service that permanently deletes these hidden identifiers.",
-            "p2": "The most common form of digital trail is EXIF (Exchangeable Image File Format) data. This is what social media sites and stalkers can use to find the location of your home, your child's school, or your workplace. Our tool doesn't just 'hide' this information; it fundamentally rewrites the file header to remove every trace of personal data. We provide a clean, anonymous version of your image that retains 100% of its visual quality while losing 100% of its privacy-compromising metadata.",
-            "p3": "Whether you're a journalist protecting a source, a parent sharing a photo of their kids on a public forum, or a professional designer wanting to clean up assets for a client, our online EXIF remover offers a fast, free, and completely secure solution. We believe that digital privacy is a right, and our tool is designed to make protecting that right as easy as a single drag-and-drop."
-        },
-        "story": {
-            "title": "The Silent Witness: Why Scrubbing Metadata is Essential for Security",
-            "p1": "To understand the importance of a metadata remover, you have to realize that a digital photo is two things: a visible image and a hidden database. The EXIF header is a collection of hundreds of 'tags.' Some are harmless, like the shutter speed or white balance. Others are highly intrusive, such as the GPS latitude, longitude, and even the direction the camera was facing. Our tool scans the entire binary structure of the file, identifying every non-visual data tag and excising it like a digital surgeon.",
-            "p2": "Privacy vs. Convenience is the central debate of the smartphone era. Most users don't realize that 'Location Services' for their camera is actually writing their physical address into the header of every selfie. If you upload that selfie to a forum or a marketplace like Craigslist, anyone who downloads the file can find your house. Our tool breaks this link between your physical location and your digital identity, ensuring your home remains a private sanctuary.",
-            "p3": "Professional and Competitive Intelligence is another critical reason to scrub files. If you're a freelancer sending a draft to a client, you might not want them to see how long you spent on the file, what software you used, or the names of the internal folders on your computer—all of which can be hidden in XMP (Extensible Metadata Platform) data. Scrubbing ensure your 'working process' stays your own, and you only present the final, polished result.",
-            "p4": "Social Media and Data Mining corporations thrive on descriptive metadata. They use your photo data to build profiles of where you go, what you buy, and who you are with. By pre-scrubbing your images with our tool, you are effectively opting out of this microscopic surveillance. You're giving the platforms the visual content they need, but denying them the 'metadata fuel' they use for invasive targeted advertising.",
-            "p5": "Image Integrity is maintained throughout the process. A common fear is that 'cleaning' a file will make it look worse. This is a myth. Metadata removal is like removing the dust jacket from a book; the story inside doesn't change. We don't re-compress the pixels of your image; we only modify the text-based headers at the start of the file. Your JPGs and PNGs remain as sharp and vibrant as the moment they were captured.",
-            "p6": "Why use our online tool instead of a desktop app? Many professional apps are expensive and complex. Our tool is optimized for one purpose: speed and privacy. We don't ask you to 'configure settings' or 'choose tags.' We follow the most aggressive privacy standard by default—removing everything that isn't required to view the image. It's the most secure 'Fire and Forget' solution on the web.",
-            "p7": "Security Architecture is at the heart of our site. Scrubbing metadata for privacy only works if the scrubber itself is private. Because our tool executes locally in your browser using JavaScript, your original, 'unscrubbed' photo never touches our servers. We never see your location data, and we never keep a log of your files. Your privacy is protected not just after the conversion, but during it as well.",
-            "p8": "In conclusion, the Image Metadata Remover is about taking back control. It's about being the gatekeeper of your own information. Use our tool to make sure that the only thing people see when you share a photo is the image itself, and not the hidden details of your life. It's free, it's fast, and it's your essential partner in digital safety."
-        },
+        "title": "Profesjonell Metadata Fjerner",
+        "p1": "Vår <strong>Metadata Fjerner</strong> fjerner alle EXIF-data, GPS-plassering og annen skjult informasjon fra bildene dine.",
+        "p2": "All behandling skjer <strong>lokalt i nettleseren din</strong>.",
         "features": {
-            "title": "Comprehensive Privacy Utilities for Secure Sharing",
-            "f1_title": "Total EXIF\/GPS Extraction",
-            "f1_desc": "Permanently deletes all standard EXIF tags, including physical location coordinates, time taken, and specific device serial numbers.",
-            "f2_title": "IPTC & XMP Header Purge",
-            "f2_desc": "Scours the file for professional metadata, removing editing history, software names, and author information that could identify your workflow.",
-            "f3_title": "Embedded Thumbnail Removal",
-            "f3_desc": "Cleans out hidden small-scale previews that some cameras store inside the main file, which can sometimes reveal a different version of the photo.",
-            "f4_title": "Zero-Impact Visual Quality",
-            "f4_desc": "Our scrubber only modifies the header data. The actual image pixels are untouched, ensuring 100% fidelity with the original file.",
-            "f5_title": "Client-Side Processing",
-            "f5_desc": "Your photos never leave your device. The metadata removal happens in your browser's local memory, providing ultimate privacy and security.",
-            "f6_title": "Multi-Format Scrubber",
-            "f6_desc": "Compatible with all target formats including JPG, PNG, and TIFF. If it stores hidden information, our tool can find and remove it."
-        },
-        "how_to": {
-            "title": "A Guide to Digital Safety: How to Scrub Your Photos",
-            "step1_title": "Upload Your Private Photo",
-            "step1_desc": "Drag the file into the tool. It's best to use the original file directly from your camera or phone to ensure all hidden data is captured.",
-            "step2_title": "Automatic Header Analysis",
-            "step2_desc": "Our tool instantly scans the binary structure of the image, identifying all non-visual metadata blocks stored in the header.",
-            "step3_title": "The Metadata Purge",
-            "step3_desc": "The script executes an aggressive cleaning algorithm, stripping out EXIF, GPS, IPTC, and proprietary vendor data blocks.",
-            "step4_title": "Structure Re-Validation",
-            "step4_desc": "We rebuild the image container to ensure it's still 100% valid and readable by every browser and device after the scrub.",
-            "step5_title": "Confirm Privacy Status",
-            "step5_desc": "The tool provides a success confirmation once the scrubbing is complete. You can now rest assured that your digital trail is gone.",
-            "step6_title": "Retrieve Your Clean File",
-            "step6_desc": "Download the new, anonymous version of your image. You can now share it on any social platform or marketplace with total confidence."
-        },
-        "how_to_title": "A Guide to Digital Anonymity",
-        "faq": {
-            "title": "Privacy Knowledge Base: Metadata Remover FAQ",
-            "q1": "Why should I remove metadata before sharing photos?",
-            "a1": "Common photos contain your GPS location, the time you were there, and your device info. Removing this prevents stalking and identity tracking.",
-            "q2": "What is the difference between EXIF and GPS data?",
-            "a2": "EXIF is a broad category of data (like camera settings). GPS is a specific set of tags within EXIF that stores location coordinates.",
-            "q3": "Does removing metadata reduce the file size?",
-            "a3": "Yes, slightly. Metadata and thumbnails can take up several hundred kilobytes. Removing them makes the file leaner and faster to load.",
-            "q4": "Will my photo look different after I use this tool?",
-            "a4": "No. The visual pixels are completely untouched. The removal only affects the hidden text headers that you can't see with your eyes.",
-            "q5": "Does this tool work on iPhone photos?",
-            "a5": "Yes, it is especially useful for iPhone and Android photos, as these devices almost always embed location data by default.",
-            "q6": "Can I get my metadata back after it's been removed?",
-            "a6": "No. Once it's stripped and you've downloaded the file, the data is gone forever. Always keep a copy of the original if you need that info!",
-            "q7": "Is commercial data cleaning supported for free?",
-            "a7": "Yes, our metadata scrubber is 100% free and unlimited for individuals and businesses alike.",
-            "q8": "How do I know the data is actually gone?",
-            "a8": "You can upload your 'cleaned' photo to our [Image Metadata Viewer](http:\/\/localhost:8000\/tools\/image-metadata-viewer) to verify that no tags remain.",
-            "q9": "Which output preserves the most privacy?",
-            "a9": "We normally keep the same format as the original. If you uploaded a JPG, you'll receive a cleaned JPG.",
-            "q10": "Is my privacy guaranteed on this site?",
-            "a10": "Yes. We use client-side processing, meaning your unscrubbed photo data never touches our servers. Your security is our top priority."
+            "title": "Funksjoner",
+            "f1_title": "Personvernbeskyttelse",
+            "f1_desc": "Fjern GPS-plassering, kamerainformasjon og mer.",
+            "f2_title": "Kvalitetsbevaring",
+            "f2_desc": "Fjerner kun metadata uten å påvirke bildekvaliteten.",
+            "f3_title": "Lokal Behandling",
+            "f3_desc": "Bildene dine forlater aldri enheten din."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Behandlingsfeil: "
     }
 }

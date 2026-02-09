@@ -1,54 +1,67 @@
 {
     "meta": {
-        "title": "Image to Base64 Converter - Instrumentul de șiruri online gratuit",
-        "description": "Convertește imaginile în șiruri Base64 pentru încorporare în HTML sau CSS. Instrument online gratuit pentru PNG, JPG, GIF.",
-        "h1": "Convertiți imaginea în șir Base64",
-        "subtitle": "Transformă imaginile în cod text pentru a le folosi direct în codul tău"
+        "title": "Convertor Imagine în Base64 - Instrument Online Gratuit",
+        "description": "Convertiți imagini în string-uri Base64 pentru HTML sau CSS. Gratuit, suportă PNG, JPG, GIF.",
+        "h1": "Convertor Imagine în Base64",
+        "subtitle": "Convertiți imagini în string-uri codificate Base64 pentru HTML sau CSS"
     },
     "input": {
-        "title": "Încarcă Imaginea",
-        "desc": "Trage și plasează fișierul de imagine aici",
-        "drop_title": "Plasează imaginea aici",
-        "drop_desc": "Suportă toate formatele de imagine"
+        "title": "Încărcați Imaginea",
+        "desc": "Trageți și plasați fișierul de imagine aici",
+        "drop_title": "Plasați fișierul de imagine aici",
+        "drop_desc": "Suportă Toate Formatele de Imagine"
     },
     "editor": {
-        "image_alt": "Preview",
-        "label_string": "Șir Base64",
+        "image_alt": "Previzualizare",
+        "label_string": "String Base64",
         "btn_copy": "Copiază în Clipboard",
-        "char_count": "Număr Caractere",
+        "char_count": "Număr de Caractere",
         "mime_type": "Tip MIME"
     },
     "content": {
-        "title": "Convertește Imaginea în Șir Base64",
-        "p1": "Dezvoltatorii și designerii web au adesea nevoie să includă imagini direct în fișierele HTML sau CSS pentru a reduce cererile HTTP.",
-        "p2": "<strong>Convertorul nostru Imagine în Base64<\/strong> codifică fișierul tău într-un șir lung de caractere care reprezintă datele binare. Poți lipi acest text direct în codul tău.",
+        "title": "Convertor Imagine în Base64",
+        "p1": "Dezvoltatorii web au adesea nevoie să încorporeze imagini direct în fișiere HTML sau CSS.",
+        "p2": "<strong>Convertorul nostru Imagine în Base64</strong> codifică fișierul de imagine într-un string lung de caractere pe care îl puteți lipi direct în cod.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Clipboard Ready",
-            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
-            "f2_title": "Reduce Requests",
-            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
-            "f3_title": "Any Format",
-            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
+            "title": "Caracteristici Principale",
+            "f1_title": "Gata de Copiat",
+            "f1_desc": "Copiere cu un click. Formatăm ieșirea pentru HTML sau CSS.",
+            "f2_title": "Reducere Cereri",
+            "f2_desc": "Încorporarea pictogramelor ca Base64 elimină suprasarcina de rețea.",
+            "f3_title": "Orice Format",
+            "f3_desc": "Funcționează cu PNG, JPG, GIF, WEBP, SVG și ICO."
         },
         "how_to": {
-            "title": "Cum se folosește?",
-            "step1_title": "Step 1",
-            "step1_desc": "Select your image file.",
-            "step2_title": "Step 2",
-            "step2_desc": "The tool immediately converts the file to a Data URI.",
-            "step3_title": "Step 3",
-            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
-            "step4_title": "Step 4",
-            "step4_desc": "Insert it into your `src` attribute or CSS file."
+            "title": "Cum se Utilizează?",
+            "step1_title": "Pasul 1",
+            "step1_desc": "Selectați fișierul de imagine.",
+            "step2_title": "Pasul 2",
+            "step2_desc": "Instrumentul convertește imediat în Data URI.",
+            "step3_title": "Pasul 3",
+            "step3_desc": "Click \"Copiază în Clipboard\".",
+            "step4_title": "Pasul 4",
+            "step4_desc": "Inserați în atributul `src` sau CSS."
         },
         "use_cases": {
-            "title": "Când să folosești Base64?",
+            "title": "Când se Folosește Base64?",
             "list": [
-                "Imagini Mici: Recomandat pentru iconițe și logo-uri sub 10KB.",
-                "Aplicații Single-File: Când trebuie să incluzi totul într-un singur fișier (ex. mail-uri).",
-                "Acces Offline: Asigură încărcarea imaginilor chiar și fără conexiune la rețea."
+                "Imagini Mici: Ideal pentru pictograme și logo-uri (sub 10KB).",
+                "Aplicații cu Un Fișier: Când totul trebuie într-un fișier HTML.",
+                "Acces Offline: Imaginile se încarcă fără conexiune la rețea."
             ]
+        },
+        "faq": {
+            "title": "Întrebări Frecvente",
+            "q1": "Ce este codificarea Base64?",
+            "a1": "Base64 este o modalitate de a reprezenta date binare folosind caractere text.",
+            "q2": "Va crește dimensiunea fișierului?",
+            "a2": "Da, codificarea Base64 crește dimensiunea cu ~33%. Recomandat doar pentru imagini mici.",
+            "q3": "Care browsere suportă Data URI?",
+            "a3": "Toate browserele moderne (Chrome, Firefox, Safari, Edge) și IE8+.",
+            "q4": "Este sigur?",
+            "a4": "Da, conversia se face în browserul dvs. Imaginile nu sunt trimise pe serverele noastre.",
+            "q5": "Pot converti imagini mari?",
+            "a5": "Tehnic da, dar nu este recomandat. String-urile Base64 mari pot încetini pagina."
         }
     },
     "js": {

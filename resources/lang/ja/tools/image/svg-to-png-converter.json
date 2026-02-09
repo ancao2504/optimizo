@@ -1,68 +1,101 @@
 {
     "meta": {
-        "title": "SVG PNG 変換 - 無料オンライン画像コンバーター",
-        "description": "ブラウザでSVG画像をPNG形式に即座に変換します。高速、無料、そして安全な変換ツールです。",
-        "h1": "SVG PNG 変換",
-        "subtitle": "SVG画像を汎用性の高いPNGに変換します。"
+        "title": "SVG→PNGコンバーター - 無料オンラインベクター変換",
+        "h1": "SVG→PNGコンバーター",
+        "subtitle": "SVGベクター画像を透明度対応のPNGに変換します。",
+        "desc": "SVGをPNGに変換。透明度を保持したままベクターをラスターに高品質変換。無料・安全。"
     },
     "input": {
         "title": "SVGをPNGに変換",
-        "desc": "SVG画像をアップロードして、標準的なPNGファイルに即座に変換します。",
-        "drop_title": "ここにSVGファイルをドロップ",
-        "drop_desc": "またはクリックして写真を選択"
+        "desc": "SVGファイルをアップロードしてPNG画像に変換します。",
+        "drop_title": "SVGファイルをここにドラッグ＆ドロップ",
+        "drop_desc": "またはクリックしてファイルを選択"
     },
-    "editor": {
-        "image_alt": "Preview",
-        "checkerboard": "Checkerboard background indicates transparency",
-        "output_format": "Output Format:",
-        "scale_label": "解像度倍率 (スケール)",
-        "scale_1": "1x (元のサイズ)",
-        "scale_2": "2x (高解像度)",
-        "scale_4": "4x (超高解像度)",
-        "btn_convert": "PNGに変換"
+    "settings": {
+        "title": "変換設定",
+        "width": "幅 (px)",
+        "height": "高さ (px)",
+        "transparent": "透明背景を維持"
+    },
+    "result": {
+        "converted_to": "変換先",
+        "image_alt": "SVG画像プレビュー",
+        "btn_download": "PNGをダウンロード"
     },
     "content": {
-        "title": "SVGを高品質PNGにラスタライズ",
-        "p1": "SVG（ベクター画像）はWebには最適ですが、SNSへの投稿やWord文書、メールの添付ファイルとしては使えないことがあります。",
-        "p2": "当ツールの<strong>SVG-PNG変換ツール<\/strong>を使えば、ベクターのロゴやアイコンを、高品質で背景透過なPNG画像に変えることができます。独自の<strong>スケーリング機能<\/strong>により、全くぼやけることなく超高解像度の画像を生成可能です。",
+        "intro": {
+            "title": "透明度を保持：SVG→PNG変換ガイド",
+            "subtitle": "SVGの透明背景を維持して、高品質なPNGラスター画像に変換。",
+            "p1": "SVGの透明背景をそのままPNGに変換したい場合、当ツールが最適です。PNGはアルファチャンネルを完全にサポートするラスターフォーマットで、透明度を保持します。",
+            "p2": "任意の解像度で出力可能。アイコン用の小さなサイズからポスター用の大きなサイズまで対応します。",
+            "p3": "すべてブラウザ内で処理。デザインファイルの安全性は保証されます。"
+        },
+        "story": {
+            "title": "SVG→PNG：デザイナーの必須変換ワークフロー",
+            "p1": "デザイナーはSVGでアイコンやロゴを制作しますが、最終的にWebやアプリに使用する際にはPNGが必要になることが多いです。",
+            "p2": "PNGのロスレス圧縮はSVGのシャープなエッジとソリッドカラーを完璧に保持します。写真ではJPGが優れますが、グラフィックではPNGが最適です。",
+            "p3": "異なる解像度のPNGを生成して、通常ディスプレイとRetina用の両方に対応できます。",
+            "p4": "App StoreやGoogle Playのアイコンセットでは、複数サイズのPNGが必要です。",
+            "p5": "ソーシャルメディアのプロフィール画像やカバー画像にも、適切なサイズのPNGが求められます。",
+            "p6": "当ツールは高精度なSVGレンダリングエンジンを使用しています。",
+            "p7": "画像はブラウザ内でのみ処理されます。",
+            "p8": "まとめ：SVG→PNGは、ベクターデザインをあらゆるプラットフォームで使用可能にする鍵です。"
+        },
         "features": {
-            "title": "Key Features",
-            "f1_title": "Transparency Preserved",
-            "f1_desc": "Unlike JPG, PNG keeps the background transparent. Perfect for logos and overlays.",
-            "f2_title": "Up to 4x Scaling",
-            "f2_desc": "Export at 4x the original size. Get crisp edges even for large print formats.",
-            "f3_title": "Browser-Based",
-            "f3_desc": "Fast and secure. No files are uploaded to any server."
+            "title": "SVG→PNG変換の特徴",
+            "f1_title": "透明度保持",
+            "f1_desc": "SVGの透明背景をPNGのアルファチャンネルとしてそのまま保持。",
+            "f2_title": "カスタム解像度",
+            "f2_desc": "出力サイズをピクセル単位で指定。",
+            "f3_title": "ロスレス品質",
+            "f3_desc": "PNGのロスレス圧縮でピクセルパーフェクトな出力。",
+            "f4_title": "高精度レンダリング",
+            "f4_desc": "パス、テキスト、グラデーションを忠実に変換。",
+            "f5_title": "即座の変換",
+            "f5_desc": "アップロード後すぐにPNGが生成されます。",
+            "f6_title": "ローカル処理",
+            "f6_desc": "サーバーアップロードなし。プライバシー完全保護。"
         },
         "how_to": {
-            "title": "SVGからPNGへの変換方法は？",
-            "step1_title": "Step 1",
-            "step1_desc": "Drop your `.svg` file into the upload area.",
-            "step2_title": "Step 2",
-            "step2_desc": "Select `1x`, `2x`, or `4x` from the dropdown. Higher is better for quality.",
-            "step3_title": "Step 3",
-            "step3_desc": "Check the preview image on the left. The checkerboard indicates transparency.",
-            "step4_title": "Step 4",
-            "step4_desc": "Hit the button to generate and download your PNG."
-        },
-        "why": {
-            "title": "なぜベクターを変換するのか？",
-            "p1": "ベクターは数学的な数式ですが、PNGはピクセルのグリッドです。以下のような場合にはピクセルデータが必要です:",
-            "list": [
-                "プロフィール写真（TwitterやLinkedInはよくSVGを拒否します）。",
-                "メールへの埋め込み（SVGのサポートは不十分です）。",
-                "動画編集ソフトやシンプルなグラフィックツール（Canva, ペイントなど）での使用。"
-            ]
+            "title": "SVGをPNGに変換する方法",
+            "step1_title": "SVGファイルを選択",
+            "step1_desc": "SVGファイルをアップロードエリアにドラッグ＆ドロップします。",
+            "step2_title": "サイズを設定",
+            "step2_desc": "出力の幅と高さをピクセルで指定します。",
+            "step3_title": "透明度を選択",
+            "step3_desc": "透明背景を維持するかどうかを選択します。",
+            "step4_title": "プレビュー確認",
+            "step4_desc": "変換結果をプレビューで確認します。",
+            "step5_title": "ダウンロード",
+            "step5_desc": "PNGファイルをダウンロードします。",
+            "step6_title": "プロジェクト使用",
+            "step6_desc": "Web、アプリ、印刷プロジェクトでPNGを使用します。"
         },
         "faq": {
-            "title": "よくある質問",
-            "q1": "SVG を PNG に変換する理由",
-            "a1": "PNG 形式はすべてのブラウザーとアプリケーションで広くサポートされていますが、SVG には互換性の問題がある可能性があります。 PNG への変換は、電子メールの署名、ソーシャル メディア、ベクター グラフィックスをサポートしていないアプリケーションに便利です。",
-            "q2": "PNG は SVG のような透明度をサポートしていますか?",
-            "a2": "はい！ PNG は透明度をサポートしているため、背景が透明なロゴやグラフィックに最適です。私たちのコンバーターは、SVG から PNG に変換するときに透明度を維持します。"
+            "title": "SVG→PNG変換に関するよくある質問",
+            "q1": "透明度は保持されますか？",
+            "a1": "はい！PNGはアルファチャンネルを完全にサポートし、透明背景を忠実に保持します。",
+            "q2": "ファイルサイズはどうなりますか？",
+            "a2": "PNGはロスレスのため、特に大きな画像では比較的大きなファイルになります。WebP変換もご検討ください。",
+            "q3": "Retinaディスプレイ用に使えますか？",
+            "a3": "はい。2倍・3倍サイズで出力してRetinaに対応できます。",
+            "q4": "無料ですか？",
+            "a4": "はい、完全に無料です。",
+            "q5": "安全ですか？",
+            "a5": "はい。ローカル処理で安全です。",
+            "q6": "アニメーションSVGは？",
+            "a6": "静止画として最初のフレームがPNGに変換されます。",
+            "q7": "フォントは正しくレンダリングされますか？",
+            "a7": "SVGに埋め込まれたフォントまたはパス変換済みのテキストは正しくレンダリングされます。",
+            "q8": "バッチ変換可能ですか？",
+            "a8": "現在は1回1ファイルです。",
+            "q9": "スマートフォンで使えますか？",
+            "a9": "はい！すべてのデバイスで動作します。",
+            "q10": "JPGに変換したい場合は？",
+            "a10": "SVG→JPGコンバーターもご用意しています。"
         }
     },
     "js": {
-        "invalid_image": "有効なSVG画像をアップロードしてください"
+        "error_conversion": "SVGの変換エラー: "
     }
 }

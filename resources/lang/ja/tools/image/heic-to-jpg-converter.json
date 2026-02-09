@@ -1,63 +1,98 @@
 {
     "meta": {
-        "title": "HEIC to JPG Converter - Free Online Image Converter",
-        "description": "Convert HEIC images to JPG format instantly in your browser. Fast, free, and secure conversion.",
-        "h1": "HEIC to JPG Converter",
-        "subtitle": "Transform HEIC images into universally compatible JPGs."
+        "title": "HEIC→JPGコンバーター - 無料オンライン画像変換",
+        "h1": "HEIC→JPGコンバーター",
+        "subtitle": "iPhone HEIC写真を汎用的なJPG形式に変換します。",
+        "desc": "HEIC画像をブラウザで即座にJPG形式に変換。iPhone写真の共有に最適。無料・安全。"
     },
     "input": {
-        "title": "Convert HEIC to JPG",
-        "desc": "Upload your HEIC images and convert them to standard JPG files instantly.",
-        "drop_title": "Drag & Drop HEIC file here",
-        "drop_desc": "or click to browse photos"
+        "title": "HEICをJPGに変換",
+        "desc": "HEICファイルをアップロードして、標準的なJPGに変換します。",
+        "drop_title": "HEICファイルをここにドラッグ＆ドロップ",
+        "drop_desc": "またはクリックしてファイルを選択"
     },
     "loading": {
-        "title": "Processing HEIC file...",
-        "desc": "Larger files may take a few seconds."
+        "title": "変換中..."
     },
     "result": {
-        "image_alt": "HEIC Image Preview",
-        "converted_to": "Converted to",
-        "btn_download": "Download JPG"
+        "converted_to": "変換先",
+        "image_alt": "HEIC画像プレビュー",
+        "btn_download": "JPGをダウンロード"
     },
     "content": {
-        "title": "HEICを即座にJPGに変換",
-        "p1": "AppleのHEIC形式はiPhoneの容量節約に役立ちますが、WindowsやAndroid、古いソフトウェアでは開けないことがよくあります。当ツールの<strong>HEIC-JPG変換<\/strong>はこの問題を即座に解決します。",
-        "p2": "高度なブラウザ処理技術を使用しているため、写真はクラウドにアップロードされることなく手元のデバイスで変換されます。個人の写真を扱う上で<strong>最も安全な方法<\/strong>です。",
+        "intro": {
+            "title": "iPhone写真を世界標準へ：HEIC→JPG変換ガイド",
+            "subtitle": "AppleのHEICフォーマットから万能なJPGへ簡単に変換。",
+            "p1": "iOS 11以降、iPhoneはデフォルトでHEIC形式で写真を保存します。HEICはJPGと同等の品質で約50%小さいファイルを生成しますが、WindowsやAndroid、多くのWebサービスとの互換性に問題があります。",
+            "p2": "HEICファイルをメール添付、SNS投稿、ドキュメント挿入する際にエラーが出たことはありませんか？当ツールで即座にJPGに変換し、あらゆるプラットフォームで使用できるようにしましょう。",
+            "p3": "変換はすべてブラウザ内で完結し、あなたの写真がサーバーにアップロードされることはありません。"
+        },
+        "story": {
+            "title": "HEICフォーマットの理解：なぜ変換が必要なのか",
+            "p1": "HEIC（High Efficiency Image Container）はHEVC/H.265コーデックを使用する画像フォーマットです。Apple独自の採用により、iPhone世界をほぼ制覇しましたが、それ以外の世界との互換性は限定的です。",
+            "p2": "WindowsはHEIF拡張機能をインストールすれば対応可能ですが、多くのユーザーはこの手順を知りません。結果として「ファイルを開けません」というエラーが頻発します。",
+            "p3": "JPGは1992年に標準化されて以来、写真フォーマットの絶対的王者です。あらゆるデバイス、ソフトウェア、プラットフォームで100%のサポートを享受しています。",
+            "p4": "HEICからJPGへの変換では、10ビットから8ビットへの色深度変換が行われます。当ツールは高品質なディザリングで滑らかなグラデーションを維持します。",
+            "p5": "写真のメタデータ（EXIF、GPS情報など）は可能な限りJPGファイルに移行されます。",
+            "p6": "当ツールは最新のJavaScriptライブラリを使用してHEVCデコードを実行します。",
+            "p7": "プライバシーファースト：お客様の写真はローカルで処理され、サーバーに送信されることはありません。",
+            "p8": "まとめ：HEIC→JPG変換は、Apple世界とそれ以外の世界をつなぐ必須ツールです。"
+        },
         "features": {
-            "title": "Key Features",
-            "f1_title": "100% Private",
-            "f1_desc": "Your personal photos stay on your device. We use client-side logic for zero-risk conversion.",
-            "f2_title": "Broad Compatibility",
-            "f2_desc": "Convert HEIC and HEIF files from any iOS version (iPhone\/iPad) to universally accepted JPGs.",
-            "f3_title": "Fast & Free",
-            "f3_desc": "No software installation needed. Just drag, drop, and convert in seconds."
+            "title": "プロフェッショナルなHEIC変換機能",
+            "f1_title": "高品質JPG出力",
+            "f1_desc": "高品質エンコーダーでHEICの視覚品質を最大限に維持したJPGを生成。",
+            "f2_title": "メタデータ保持",
+            "f2_desc": "EXIF、GPS、日付などのメタデータを変換後のJPGに移行します。",
+            "f3_title": "色深度変換",
+            "f3_desc": "HEICの10ビットカラーをJPGの8ビットに高品質で変換します。",
+            "f4_title": "即座の変換",
+            "f4_desc": "ドラッグ＆ドロップで即座に変換が完了します。",
+            "f5_title": "iPhone完全対応",
+            "f5_desc": "iPhone/iPadで撮影されたすべてのHEICファイルに対応。",
+            "f6_title": "ローカル処理",
+            "f6_desc": "写真はブラウザ内で処理。サーバーへのアップロードなし。"
         },
         "how_to": {
-            "title": "変換方法は？",
-            "step1_title": "Step 1",
-            "step1_desc": "Drag your .heic or .heif file into the upload zone.",
-            "step2_title": "Step 2",
-            "step2_desc": "The tool will automatically read and convert the file using advanced browser libraries.",
-            "step3_title": "Step 3",
-            "step3_desc": "See a preview of your converted JPG image immediately.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click the \"Download JPG Image\" button to save it to your computer."
-        },
-        "details": {
-            "title": "技術的な詳細",
-            "p1": "HEIC（High Efficiency Image Container）は最新の圧縮方式でファイルサイズを小さく抑えますが、WindowsやAndroidでの閲覧が困難な場合があります。",
-            "p2": "当ツールはHEICデータをデコードし、90%の品質を維持しながら標準的なJPEG画像として再エンコードするため、どこでも見られる美しい写真を維持できます。"
+            "title": "HEICをJPGに変換する方法",
+            "step1_title": "HEICファイルを選択",
+            "step1_desc": "iPhoneの写真やHEICファイルをアップロードエリアにドラッグします。",
+            "step2_title": "自動デコード",
+            "step2_desc": "HEVCコーデックを使ってHEICファイルをデコードします。",
+            "step3_title": "JPGエンコード",
+            "step3_desc": "デコードされた画像データが高品質JPGにエンコードされます。",
+            "step4_title": "メタデータ移行",
+            "step4_desc": "写真情報（撮影日、場所など）がJPGに移行されます。",
+            "step5_title": "プレビュー確認",
+            "step5_desc": "変換結果をプレビューで確認します。",
+            "step6_title": "ダウンロード",
+            "step6_desc": "JPGファイルをダウンロードして使用します。"
         },
         "faq": {
-            "title": "よくある質問",
-            "q1": "iPhoneのLive Photosも変換できますか？",
-            "a1": ".HEICファイルとしてPCに取り出せば、Live Photosの静止画部分を変換することが可能です。",
-            "q2": "画質は低下しますか？",
-            "a2": "視覚的な違いを最小限に抑えるため、高品質設定（0.9）を使用しています。JPGは非可逆圧縮ですが、肉眼ではほとんど判別できないレベルです。"
+            "title": "HEIC→JPG変換に関するよくある質問",
+            "q1": "HEICとは何ですか？",
+            "a1": "HEICはAppleがiOS 11以降でデフォルト採用した高効率画像フォーマットです。HEVC/H.265コーデックを使用します。",
+            "q2": "なぜiPhoneの写真はHEIC形式なのですか？",
+            "a2": "HEICはJPGより約50%小さいファイルを生成するため、iPhone のストレージを節約できます。",
+            "q3": "WindowsでHEICを開けますか？",
+            "a3": "Windows 10/11ではMicrosoft Storeから無料のHEIF拡張機能をインストールすれば開けます。",
+            "q4": "品質は劣化しますか？",
+            "a4": "わずかに劣化しますが、当ツールの高品質設定ではほとんど気になりません。",
+            "q5": "無料ですか？",
+            "a5": "はい、完全に無料です。",
+            "q6": "写真は安全ですか？",
+            "a6": "はい。ローカル処理でプライバシーを保護します。",
+            "q7": "Live PhotosのHEICも変換できますか？",
+            "a7": "静止画部分のみJPGに変換されます。動画部分は含まれません。",
+            "q8": "バッチ変換可能ですか？",
+            "a8": "現在は1回1ファイルです。",
+            "q9": "スマートフォンで使えますか？",
+            "a9": "はい！あらゆるデバイスで動作します。",
+            "q10": "JPGからHEICに戻せますか？",
+            "a10": "はい、JPG→HEICコンバーターもご用意しています。"
         }
     },
     "js": {
-        "error": "HEIC変換エラー: "
+        "error_conversion": "画像の変換エラー: "
     }
 }

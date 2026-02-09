@@ -1,68 +1,39 @@
 {
     "meta": {
-        "title": "SVG'den PNG'e Dönüştürücü - Ücretsiz Online Resim Dönüştürücü",
-        "description": "SVG resimlerini tarayıcınızda anında PNG formatına dönüştürün. Hızlı, ücretsiz ve güvenli dönüşüm.",
-        "h1": "SVG'den PNG'e Dönüştürücü",
-        "subtitle": "SVG resimlerini evrensel uyumlu PNG dosyalarına dönüştürün."
+        "title": "SVG'den PNG'ye Çevirici - Ücretsiz Online",
+        "description": "SVG vektörlerini şeffaflık destekli PNG formatına dönüştürün. Hızlı, ücretsiz ve güvenli.",
+        "h1": "SVG'den PNG'ye Çevirici",
+        "subtitle": "SVG vektörlerini şeffaflık destekli PNG formatına dönüştürün."
     },
     "input": {
-        "title": "SVG'yi PNG'e Dönüştür",
-        "desc": "SVG resimlerinizi yükleyin ve anında standart PNG dosyalarına dönüştürün.",
+        "title": "SVG'yi PNG'ye Dönüştür",
+        "desc": "SVG dosyalarınızı yükleyin.",
         "drop_title": "SVG dosyasını buraya sürükleyip bırakın",
-        "drop_desc": "veya fotoğraflara göz atmak için tıklayın"
+        "drop_desc": "veya göz atmak için tıklayın"
     },
     "editor": {
-        "image_alt": "Preview",
-        "checkerboard": "Checkerboard background indicates transparency",
-        "output_format": "Çıktı Formatı:",
-        "scale_label": "Ölçek (Scale)",
-        "scale_1": "1x (Orijinal Boyut)",
-        "scale_2": "2x (Yüksek Çözünürlük)",
-        "scale_4": "4x (Ultra HD)",
-        "btn_convert": "PNG'e Dönüştür"
+        "original": "Orijinal",
+        "image_alt": "Önizleme",
+        "width": "Genişlik",
+        "height": "Yükseklik",
+        "btn_download": "PNG İndir"
     },
     "content": {
-        "title": "SVG'yi Yüksek Çözünürlüklü PNG'ye Rasterleştirin",
-        "p1": "Ölçeklenebilir Vektör Grafikleri (SVG) web için mükemmeldir, ancak sosyal medyada, Word belgelerinde veya e-posta eklerinde kullanılması imkansızdır.",
-        "p2": "<strong>SVG'den PNG'e Dönüştürücümüz<\/strong>, vektör logomuzu veya simgenizi yüksek kaliteli, şeffaf bir PNG resmine dönüştürmenizi sağlar. Benzersiz <strong>ölçekleme özelliğimiz<\/strong> ile herhangi bir pikselleşme olmadan ultra yüksek çözünürlüklü görüntüler oluşturabilirsiniz.",
+        "title": "Ücretsiz SVG'den PNG'ye Çevirici",
+        "p1": "SVG vektörlerini şeffaflık destekli PNG'ye dönüştürün.",
+        "p2": "Tüm işlemler <strong>tarayıcınızda yerel olarak</strong> gerçekleşir.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Transparency Preserved",
-            "f1_desc": "Unlike JPG, PNG keeps the background transparent. Perfect for logos and overlays.",
-            "f2_title": "Up to 4x Scaling",
-            "f2_desc": "Export at 4x the original size. Get crisp edges even for large print formats.",
-            "f3_title": "Browser-Based",
-            "f3_desc": "Fast and secure. No files are uploaded to any server."
-        },
-        "how_to": {
-            "title": "SVG'yi PNG'ye Nasıl Dönüştürürsünüz?",
-            "step1_title": "Step 1",
-            "step1_desc": "Drop your `.svg` file into the upload area.",
-            "step2_title": "Step 2",
-            "step2_desc": "Select `1x`, `2x`, or `4x` from the dropdown. Higher is better for quality.",
-            "step3_title": "Step 3",
-            "step3_desc": "Check the preview image on the left. The checkerboard indicates transparency.",
-            "step4_title": "Step 4",
-            "step4_desc": "Hit the button to generate and download your PNG."
-        },
-        "why": {
-            "title": "Neden Vektörleri Dönüştürmelisiniz?",
-            "p1": "Vektörler matematiksel formüllerdir, PNG'ler ise piksel ızgaralarıdır. Şunlar için piksellere ihtiyacınız vardır:",
-            "list": [
-                "Profil resimleri (Twitter\/LinkedIn genellikle SVG'yi reddeder).",
-                "E-postalara gömme (SVG desteği zayıftır).",
-                "Video düzenleyicilerde veya basit grafik araçlarında (Canva, Paint) kullanım."
-            ]
-        },
-        "faq": {
-            "title": "Sıkça Sorulan Sorular",
-            "q1": "Neden SVG'yi PNG'ye dönüştürmeliyim?",
-            "a1": "PNG formatı tüm tarayıcılarda ve uygulamalarda evrensel olarak desteklenirken, SVG uyumluluk sorunları yaşayabilir. PNG'ye dönüştürme, e-posta imzaları, sosyal medya ve vektör grafikleri desteklemeyen uygulamalar için yararlıdır.",
-            "q2": "PNG, SVG gibi şeffaflığı destekliyor mu?",
-            "a2": "Evet! PNG şeffaflığı destekler, bu da onu şeffaf arka plana sahip logolar ve grafikler için mükemmel kılar. Dönüştürücümüz, SVG'den PNG'ye dönüştürürken şeffaflığı korur."
+            "title": "Temel Özellikler",
+            "f1_title": "Şeffaflık Desteği",
+            "f1_desc": "SVG şeffaflığını PNG dosyasında korur.",
+            "f2_title": "Yapılandırılabilir Boyutlar",
+            "f2_desc": "İstenen genişlik ve yüksekliği ayarlayın.",
+            "f3_title": "Yerel İşleme",
+            "f3_desc": "Dosyalarınız cihazınızdan çıkmaz."
         }
     },
     "js": {
-        "invalid_image": "Lütfen geçerli bir SVG resmi yükleyin"
+        "error_conversion": "Dönüştürme hatası: ",
+        "success_conversion": "Dönüştürme tamamlandı!"
     }
 }

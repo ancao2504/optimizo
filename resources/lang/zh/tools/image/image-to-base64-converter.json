@@ -1,57 +1,70 @@
 {
     "meta": {
-        "title": "图像到 Base64 转换器 - 免费在线字符串工具",
-        "description": "将图片转换为用于嵌入 HTML 或 CSS 的 Base64 编码字符串。支持 PNG, JPG, GIF 的免费在线工具。",
-        "h1": "将图像转换为 Base64 字符串",
-        "subtitle": "快速生成图片对应的 Base64 编码字符串，用于网页开发"
+        "title": "图片转Base64转换器 - 免费在线工具",
+        "description": "将图片转换为Base64编码字符串以嵌入HTML或CSS。免费，支持PNG、JPG、GIF。",
+        "h1": "图片转Base64",
+        "subtitle": "将图片转换为Base64编码字符串用于HTML或CSS"
     },
     "input": {
         "title": "上传图片",
-        "desc": "拖放您的图片文件到此处",
-        "drop_title": "拖放图片文件到此处",
-        "drop_desc": "支持所有主流图片格式"
+        "desc": "将图片文件拖放到此处",
+        "drop_title": "将图片文件拖放到此处",
+        "drop_desc": "支持所有图片格式"
     },
     "editor": {
-        "image_alt": "Preview",
-        "label_string": "Base64 字符串",
+        "image_alt": "预览",
+        "label_string": "Base64字符串",
         "btn_copy": "复制到剪贴板",
-        "char_count": "字符总数",
-        "mime_type": "MIME 类型"
+        "char_count": "字符数",
+        "mime_type": "MIME类型"
     },
     "content": {
-        "title": "图片转 Base64 编码指南",
-        "p1": "开发者和网页设计师经常需要将小型图片直接嵌入到 HTML 或 CSS 文件中，以减少额外的 HTTP 请求并提升页面加载速度。",
-        "p2": "我们的 <strong>图片转 Base64 转换器<\/strong> 会将您的图片文件编码为一段代表二进制数据的长文本字符串。您可以直接将此字符串粘贴到代码中引用图片。",
+        "title": "图片转Base64转换器",
+        "p1": "开发者经常需要将图片直接嵌入HTML或CSS文件中以减少HTTP请求。",
+        "p2": "我们的<strong>图片转Base64转换器</strong>将图片文件编码为可直接粘贴到代码中的长字符串。",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Clipboard Ready",
-            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
-            "f2_title": "Reduce Requests",
-            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
-            "f3_title": "Any Format",
-            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
+            "title": "主要功能",
+            "f1_title": "即时复制",
+            "f1_desc": "一键复制。输出已格式化为HTML或CSS。",
+            "f2_title": "减少请求",
+            "f2_desc": "将小图标嵌入为Base64消除网络开销。",
+            "f3_title": "所有格式",
+            "f3_desc": "支持PNG、JPG、GIF、WEBP、SVG和ICO。"
         },
         "how_to": {
             "title": "如何使用？",
-            "step1_title": "Step 1",
-            "step1_desc": "Select your image file.",
-            "step2_title": "Step 2",
-            "step2_desc": "The tool immediately converts the file to a Data URI.",
-            "step3_title": "Step 3",
-            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
-            "step4_title": "Step 4",
-            "step4_desc": "Insert it into your `src` attribute or CSS file."
+            "step1_title": "步骤 1",
+            "step1_desc": "选择图片文件。",
+            "step2_title": "步骤 2",
+            "step2_desc": "工具立即转换为Data URI。",
+            "step3_title": "步骤 3",
+            "step3_desc": "点击\"复制到剪贴板\"。",
+            "step4_title": "步骤 4",
+            "step4_desc": "粘贴到`src`属性或CSS文件中。"
         },
         "use_cases": {
-            "title": "什么时候该使用 Base64？",
+            "title": "何时使用Base64？",
             "list": [
-                "小型图片：最适合 10KB 以下的图标、加载动画和小型装饰图。",
-                "单文件应用：当您需要将整个网页所需资源打包成一个纯 HTML 文件时（如邮件模板）。",
-                "离线访问：如果网页保存在本地，嵌入的图片依然可以显示，无需联网。"
+                "小图片：最适合图标和logo（10KB以下）。",
+                "单文件应用：当需要将所有内容放在一个HTML文件中。",
+                "离线访问：确保图片在无网络连接时也能加载。"
             ]
+        },
+        "faq": {
+            "title": "常见问题",
+            "q1": "什么是Base64编码？",
+            "a1": "Base64使用可打印文本字符表示二进制数据，使其可以嵌入代码文件。",
+            "q2": "会增加文件大小吗？",
+            "a2": "是的，增加约33%。仅建议用于小图片。",
+            "q3": "哪些浏览器支持Data URI？",
+            "a3": "所有现代浏览器和IE8+。",
+            "q4": "安全吗？",
+            "a4": "是的，转换完全在浏览器中进行。",
+            "q5": "可以转换大图片吗？",
+            "a5": "技术上可以，但不建议。"
         }
     },
     "js": {
-        "copied": "已复制到剪贴板！"
+        "copied": "已复制！"
     }
 }

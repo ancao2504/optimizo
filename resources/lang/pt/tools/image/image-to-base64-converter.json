@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Conversor de Imagem para Base64 - Ferramenta de String Online Gratuita",
-        "description": "Converta imagens em strings codificadas em Base64 para incorporação em HTML ou CSS. Ferramenta online gratuita suportando PNG, JPG, GIF.",
-        "h1": "Converter Imagem em String Base64",
-        "subtitle": "Converta imagens em strings codificadas em Base64 para incorporação em HTML ou CSS"
+        "title": "Conversor de Imagem para Base64 - Ferramenta Online Gratuita",
+        "description": "Converta imagens em strings codificadas em Base64 para incorporar em HTML ou CSS. Ferramenta online gratuita com suporte a PNG, JPG, GIF.",
+        "h1": "Converter Imagem para String Base64",
+        "subtitle": "Converta imagens em strings codificadas Base64 para incorporar em HTML ou CSS"
     },
     "input": {
         "title": "Carregar Imagem",
@@ -12,43 +12,56 @@
         "drop_desc": "Suporta Todos os Formatos de Imagem"
     },
     "editor": {
-        "image_alt": "Preview",
+        "image_alt": "Pré-visualização",
         "label_string": "String Base64",
         "btn_copy": "Copiar para Área de Transferência",
         "char_count": "Contagem de Caracteres",
         "mime_type": "Tipo MIME"
     },
     "content": {
-        "title": "Converter Imagem em String Base64",
-        "p1": "Desenvolvedores e web designers muitas vezes precisam incorporar imagens diretamente em arquivos HTML ou CSS para reduzir as solicitações HTTP.",
-        "p2": "Nosso <strong>Conversor de Imagem para Base64<\/strong> codifica seu arquivo de imagem em uma longa sequência de caracteres que representa os dados binários. Você pode colar essa string diretamente no seu código.",
+        "title": "Converter Imagem para String Base64",
+        "p1": "Desenvolvedores e web designers frequentemente precisam incorporar imagens diretamente em arquivos HTML ou CSS para reduzir requisições HTTP.",
+        "p2": "Nosso <strong>Conversor de Imagem para Base64</strong> codifica seu arquivo de imagem em uma longa string de caracteres que representa os dados binários. Você pode colar essa string diretamente no seu código.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Clipboard Ready",
-            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
-            "f2_title": "Reduce Requests",
-            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
-            "f3_title": "Any Format",
-            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
+            "title": "Recursos Principais",
+            "f1_title": "Pronto para Copiar",
+            "f1_desc": "Copie com um clique. Formatamos a saída para HTML (`<img src=\"...\">`) ou CSS (`background: url(...)`).",
+            "f2_title": "Reduza Requisições",
+            "f2_desc": "Incorporar pequenos ícones e logos como Base64 elimina a sobrecarga de rede de buscar arquivos de imagem externos.",
+            "f3_title": "Qualquer Formato",
+            "f3_desc": "Funciona com PNG, JPG, GIF, WEBP, SVG e até arquivos ICO."
         },
         "how_to": {
             "title": "Como usar?",
-            "step1_title": "Step 1",
-            "step1_desc": "Select your image file.",
-            "step2_title": "Step 2",
-            "step2_desc": "The tool immediately converts the file to a Data URI.",
-            "step3_title": "Step 3",
-            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
-            "step4_title": "Step 4",
-            "step4_desc": "Insert it into your `src` attribute or CSS file."
+            "step1_title": "Passo 1",
+            "step1_desc": "Selecione seu arquivo de imagem.",
+            "step2_title": "Passo 2",
+            "step2_desc": "A ferramenta converte o arquivo imediatamente em um Data URI.",
+            "step3_title": "Passo 3",
+            "step3_desc": "Clique em \"Copiar para Área de Transferência\" para obter o código.",
+            "step4_title": "Passo 4",
+            "step4_desc": "Insira no seu atributo `src` ou arquivo CSS."
         },
         "use_cases": {
             "title": "Quando usar Base64?",
             "list": [
-                "Imagens Pequenas: Melhor para ícones, spinners e logotipos pequenos (abaixo de 10KB).",
-                "Apps de Arquivo Único: Quando você precisa agrupar tudo em um arquivo HTML (ex: templates de e-mail).",
-                "Acesso Offline: Garante que as imagens carreguem mesmo sem uma conexão de rede se o HTML for salvo localmente."
+                "Imagens Pequenas: Melhor para ícones, spinners e logos pequenos (menos de 10KB).",
+                "Apps de Arquivo Único: Quando você precisa empacotar tudo em um arquivo HTML (ex: templates de email).",
+                "Acesso Offline: Garante que as imagens carreguem mesmo sem conexão de rede."
             ]
+        },
+        "faq": {
+            "title": "Perguntas Frequentes",
+            "q1": "O que é codificação Base64?",
+            "a1": "Base64 é uma forma de representar dados binários (como imagens) usando apenas caracteres de texto imprimíveis. Isso permite incorporar imagens diretamente em arquivos de código.",
+            "q2": "Isso aumentará o tamanho do arquivo?",
+            "a2": "Sim, a codificação Base64 geralmente aumenta o tamanho do arquivo em cerca de 33%. É recomendado apenas para imagens pequenas.",
+            "q3": "Quais navegadores suportam Data URIs?",
+            "a3": "Data URIs são suportados por todos os navegadores modernos (Chrome, Firefox, Safari, Edge) e IE8+.",
+            "q4": "É seguro?",
+            "a4": "Sim, a conversão acontece inteiramente no seu navegador. Suas imagens nunca são enviadas para nossos servidores.",
+            "q5": "Posso converter imagens grandes?",
+            "a5": "Tecnicamente sim, mas não é recomendado. Strings Base64 grandes podem sobrecarregar seu HTML/CSS."
         }
     },
     "js": {

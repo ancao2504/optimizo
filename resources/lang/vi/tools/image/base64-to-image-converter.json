@@ -1,57 +1,70 @@
 {
     "meta": {
-        "title": "Giải mã Base64 thành hình ảnh - Bộ giải mã trực tuyến miễn phí",
-        "description": "Chuyển đổi chuỗi mã hó Bse64 trở lại thành hình ảnh (PNG, JPG, GIF). Bộ giải mã và trình trực qun hó trực tuyến miễn phí.",
-        "h1": "Giải mã Base64 thành hình ảnh",
-        "subtitle": "Chuyển đổi chuỗi mã hó Bse64 trở lại thành hình ảnh (PNG, JPG, GIF) ngy lập tức"
+        "title": "Giải mã Base64 thành Hình ảnh - Công cụ Trực tuyến Miễn phí",
+        "description": "Chuyển đổi chuỗi Base64 thành hình ảnh (PNG, JPG, GIF). Bộ giải mã trực tuyến miễn phí.",
+        "h1": "Giải mã Base64 thành Hình ảnh",
+        "subtitle": "Chuyển đổi chuỗi Base64 thành hình ảnh (PNG, JPG, GIF) ngay lập tức"
     },
     "input": {
-        "title": "Dán Chuỗi Bse64",
-        "desc": "Dán mã củ bạn bên dưới để trực qun hó hình ảnh",
-        "placeholder": "dữ liệu:hình ảnh\/png;bse64,iVBORw0KGgo..",
-        "btn_decode": "Giải Mã Hình Ảnh"
+        "title": "Dán Chuỗi Base64",
+        "desc": "Dán mã của bạn bên dưới để xem hình ảnh",
+        "placeholder": "data:image/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Giải mã Hình ảnh"
     },
     "result": {
-        "image_alt": "Hình Ảnh Đã Giải Mã",
-        "success": "Giải Mã Hình Ảnh Thành Công",
-        "btn_download": "Tải Hình Ảnh",
-        "btn_clear": "Xó Mẫu"
+        "image_alt": "Hình ảnh Đã giải mã",
+        "success": "Giải mã Hình ảnh Thành công",
+        "btn_download": "Tải Hình ảnh",
+        "btn_clear": "Xóa"
     },
     "content": {
-        "title": "Giải Mã Bse64 Sng Hình Ảnh",
-        "p1": "Bạn tìm thấy một chuỗi dài các ký tự ngẫu nhiên bắt đầu bằng <code>dữ liệu:hình ảnh\/..<\/code> và không biết nó là gì? Khả năng co đó là một hình ảnh được mã hó Bse64.",
-        "p2": "<strong>Bộ Giải Mã Bse64 Sng Hình Ảnh<\/strong> củ chúng tôi chuyển đổi chuỗi văn bản đó trở lại thành một tệp hình ảnh có thể xem được (PNG, JPG, GIF, v.v.) mà bạn có thể xem và tải xuống máy tính củ bạn.",
+        "title": "Giải mã Base64 thành Hình ảnh",
+        "p1": "Bạn tìm thấy một chuỗi ký tự dài bắt đầu bằng <code>data:image/...</code>? Đó có thể là một hình ảnh được mã hóa Base64.",
+        "p2": "<strong>Bộ giải mã Base64 thành Hình ảnh</strong> chuyển đổi chuỗi văn bản đó thành tệp hình ảnh có thể xem được.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Instant Preview",
-            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
-            "f2_title": "Auto-Detection",
-            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
-            "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "title": "Tính năng Chính",
+            "f1_title": "Xem trước Tức thì",
+            "f1_desc": "Xem hình ảnh ngay lập tức.",
+            "f2_title": "Tự động Nhận diện",
+            "f2_desc": "Tự động nhận dạng định dạng tệp từ chuỗi Base64.",
+            "f3_title": "Tải Tệp",
+            "f3_desc": "Lưu kết quả giải mã thành tệp hình ảnh với một cú nhấp."
         },
         "how_to": {
-            "title": "Cách Giải Mã?",
-            "step1_title": "Step 1",
-            "step1_desc": "Paste your Base64 string into the textarea.",
-            "step2_title": "Step 2",
-            "step2_desc": "We instantly attempt to read the string.",
-            "step3_title": "Step 3",
-            "step3_desc": "If valid, the image appears on the left.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "title": "Cách Giải mã?",
+            "step1_title": "Bước 1",
+            "step1_desc": "Dán chuỗi Base64 vào ô văn bản.",
+            "step2_title": "Bước 2",
+            "step2_desc": "Công cụ đọc chuỗi ngay lập tức.",
+            "step3_title": "Bước 3",
+            "step3_desc": "Nếu hợp lệ, hình ảnh sẽ hiển thị.",
+            "step4_title": "Bước 4",
+            "step4_desc": "Nhấp \"Tải Hình ảnh\" để lưu."
+        },
+        "faq": {
+            "title": "Câu hỏi Thường gặp",
+            "q1": "Bộ chuyển đổi Base64 thành Hình ảnh hoạt động như thế nào?",
+            "a1": "Công cụ nhận chuỗi Base64 và giải mã thành định dạng hình ảnh gốc.",
+            "q2": "Tôi có thể giải mã những định dạng nào?",
+            "a2": "Hỗ trợ PNG, JPG, GIF, WEBP, BMP và SVG.",
+            "q3": "Có miễn phí không?",
+            "a3": "Có, hoàn toàn miễn phí và không giới hạn.",
+            "q4": "Có an toàn không?",
+            "a4": "Có. Quá trình giải mã diễn ra trong trình duyệt. Chúng tôi không lưu hình ảnh.",
+            "q5": "Nếu chuỗi Base64 không hợp lệ thì sao?",
+            "a5": "Công cụ sẽ hiển thị thông báo lỗi."
         },
         "use_cases": {
-            "title": "Các Trường Hợp Sử Dụng Phổ Biến",
+            "title": "Trường hợp Sử dụng",
             "list": [
-                "Khắc phục lỗi: Kiểm tr dữ liệu hình ảnh nào đng được gửi trong phản hồi PI hoặc được lưu trữ trong cơ sở dữ liệu.",
-                "Khôi phục: Trích xuất các hình ảnh được nhúng trong các tệp CSS hoặc mẫu HTML.",
-                "Xác minh: Đảm bảo chuỗi Bse64 không bị hỏng."
+                "Gỡ lỗi: Kiểm tra dữ liệu hình ảnh trong phản hồi API.",
+                "Khôi phục: Trích xuất hình ảnh từ tệp CSS hoặc mẫu HTML.",
+                "Xác minh: Đảm bảo chuỗi Base64 không bị hỏng."
             ]
         }
     },
     "js": {
-        "input_required": "Vui lòng dán một chuỗi Bse64 trước.",
-        "invalid_error": "Chuỗi Bse64 không hợp lệ hoặc định dạng hình ảnh không được hỗ trợ."
+        "input_required": "Vui lòng dán chuỗi Base64 trước.",
+        "invalid_error": "Chuỗi Base64 không hợp lệ hoặc định dạng không được hỗ trợ."
     }
 }

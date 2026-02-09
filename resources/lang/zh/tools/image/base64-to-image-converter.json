@@ -1,57 +1,70 @@
 {
     "meta": {
-        "title": "将 Base64 解码为图像 - 免费在线解码器",
-        "description": "将 Base64 编码的字符串转换回图片（PNG, JPG, GIF）。免费在线解码和预览工具。",
-        "h1": "将 Base64 解码为图像",
-        "subtitle": "即时将 Base64 编码的字符串转换回图片（PNG, JPG, GIF）"
+        "title": "Base64转图片 - 免费在线工具",
+        "description": "将Base64编码字符串转换回图片（PNG、JPG、GIF）。免费在线解码器。",
+        "h1": "Base64转图片",
+        "subtitle": "将Base64编码字符串即时转换为图片（PNG、JPG、GIF）"
     },
     "input": {
-        "title": "粘贴 Base64 字符串",
-        "desc": "在下方粘贴您的代码以预览图片",
-        "placeholder": "数据：图像\/png；base64，iVBORw0KGgo...",
+        "title": "粘贴Base64字符串",
+        "desc": "在下方粘贴您的代码以查看图片",
+        "placeholder": "data:image/png;base64,iVBORw0KGgo...",
         "btn_decode": "解码图片"
     },
     "result": {
-        "image_alt": "解码后的图片",
+        "image_alt": "已解码的图片",
         "success": "图片解码成功",
         "btn_download": "下载图片",
-        "btn_clear": "清除内容"
+        "btn_clear": "清除"
     },
     "content": {
-        "title": "将 Base64 解码为图片",
-        "p1": "发现一长串以 <code>data:image\/...<\/code> 开头的随机字符却不知道它是什么？这极有可能是一段 Base64 编码的图片。",
-        "p2": "我们的 <strong>Base64 转图片解码器<\/strong> 可以将这段文本字符串转换回可见的图片文件（PNG, JPG, GIF 等），方便您直接在电脑上查看和下载。",
+        "title": "Base64转图片解码器",
+        "p1": "发现了一长串以 <code>data:image/...</code> 开头的随机字符？这很可能是一个Base64编码的图片。",
+        "p2": "我们的<strong>Base64转图片解码器</strong>将该文本字符串转换回可查看的图片文件。",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Instant Preview",
-            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
-            "f2_title": "Auto-Detection",
-            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
-            "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "title": "主要功能",
+            "f1_title": "即时预览",
+            "f1_desc": "立即查看图片。",
+            "f2_title": "自动检测",
+            "f2_desc": "自动从Base64字符串头部识别文件格式。",
+            "f3_title": "文件下载",
+            "f3_desc": "一键将解码结果保存为真实图片文件。"
         },
         "how_to": {
             "title": "如何解码？",
-            "step1_title": "Step 1",
-            "step1_desc": "Paste your Base64 string into the textarea.",
-            "step2_title": "Step 2",
-            "step2_desc": "We instantly attempt to read the string.",
-            "step3_title": "Step 3",
-            "step3_desc": "If valid, the image appears on the left.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "step1_title": "步骤 1",
+            "step1_desc": "将Base64字符串粘贴到文本框中。",
+            "step2_title": "步骤 2",
+            "step2_desc": "工具即时读取字符串。",
+            "step3_title": "步骤 3",
+            "step3_desc": "如果有效，图片将立即显示。",
+            "step4_title": "步骤 4",
+            "step4_desc": "点击\"下载图片\"保存。"
+        },
+        "faq": {
+            "title": "常见问题",
+            "q1": "Base64转图片转换器如何工作？",
+            "a1": "该工具接收Base64编码字符串并将其解码回原始图片格式。",
+            "q2": "可以解码哪些图片格式？",
+            "a2": "支持PNG、JPG、GIF、WEBP、BMP和SVG。",
+            "q3": "免费吗？",
+            "a3": "是的，完全免费且无限制。",
+            "q4": "安全吗？",
+            "a4": "是的。解码过程在浏览器中进行，我们不存储您的图片。",
+            "q5": "如果Base64字符串无效怎么办？",
+            "a5": "工具将显示错误消息。"
         },
         "use_cases": {
-            "title": "常见使用场景",
+            "title": "使用场景",
             "list": [
-                "调试：检查 API 响应或数据库中存储的图片数据内容。",
-                "恢复：提取嵌入在 CSS 文件或 HTML 模板中的图片。",
-                "验证：确保 Base64 字符串没有损坏且可解析。"
+                "调试：检查API响应中的图片数据。",
+                "恢复：从CSS文件或HTML模板中提取嵌入的图片。",
+                "验证：确保Base64字符串未损坏。"
             ]
         }
     },
     "js": {
-        "input_required": "请先粘贴一个 Base64 字符串。",
-        "invalid_error": "无效的 Base64 字符串或不支持的图片格式。"
+        "input_required": "请先粘贴Base64字符串。",
+        "invalid_error": "无效的Base64字符串或不支持的图片格式。"
     }
 }

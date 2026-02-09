@@ -1,61 +1,102 @@
 {
     "meta": {
-        "title": "SVG JPG 変換 - 無料オンライン画像コンバーター",
-        "description": "ブラウザでSVG画像をJPG形式に即座に変換します。高速、無料、そして安全な変換ツールです。",
-        "h1": "SVG JPG 変換",
-        "subtitle": "SVG画像を汎用性の高いJPGに変換します。"
+        "title": "SVG→JPGコンバーター - 無料オンラインベクター変換",
+        "h1": "SVG→JPGコンバーター",
+        "subtitle": "SVGベクター画像をJPGラスター画像に変換します。",
+        "desc": "SVGをJPGに変換。ベクター画像をラスター画像に高品質で変換。印刷やWeb使用に。無料・安全。"
     },
     "input": {
         "title": "SVGをJPGに変換",
-        "desc": "SVG画像をアップロードして、標準的なJPGファイルに即座に変換します。",
-        "drop_title": "ここにSVGファイルをドロップ",
-        "drop_desc": "またはクリックして写真を選択"
+        "desc": "SVGファイルをアップロードしてJPGラスター画像に変換します。",
+        "drop_title": "SVGファイルをここにドラッグ＆ドロップ",
+        "drop_desc": "またはクリックしてファイルを選択"
     },
-    "editor": {
-        "image_alt": "Preview",
-        "note": "注:",
-        "note_text": "透明な背景は白で塗りつぶされます。",
-        "output_format": "出力形式:",
-        "scale_label": "解像度倍率 (スケール)",
-        "scale_1": "1x (元のサイズ)",
-        "scale_2": "2x (高解像度)",
-        "scale_4": "4x (超高解像度)",
-        "btn_convert": "JPGに変換"
+    "settings": {
+        "title": "変換設定",
+        "width": "幅 (px)",
+        "height": "高さ (px)",
+        "quality": "JPG品質",
+        "background": "背景色"
+    },
+    "result": {
+        "converted_to": "変換先",
+        "image_alt": "SVG画像プレビュー",
+        "btn_download": "JPGをダウンロード"
     },
     "content": {
-        "title": "SVGをJPG形式に変換",
-        "p1": "ベクターファイルを受け付けないドキュメントやウェブサイトでロゴを使いたいですか？当ツールの<strong>SVG-JPG変換ツール<\/strong>がその答えです。",
-        "p2": "ベクターソースから、互換性の高い静止画像ファイルを作成します。透明な部分は自動的に清潔感のある白背景に処理されるため、あらゆる媒体でプロフェッショナルな見た目を維持できます。",
+        "intro": {
+            "title": "ベクターからラスターへ：SVG→JPG変換ガイド",
+            "subtitle": "SVGの柔軟性を、汎用的なJPGフォーマットに変換。",
+            "p1": "SVG（Scalable Vector Graphics）は解像度に依存しないベクター形式ですが、多くのプラットフォームやソフトウェアはJPGのみをサポートしています。当ツールでSVGを任意の解像度でJPGに変換できます。",
+            "p2": "出力サイズ（幅・高さ）とJPG品質をカスタマイズ可能。印刷用の高解像度からWeb用の最適化まで対応します。",
+            "p3": "すべてブラウザ内で処理され、デザインアセットのプライバシーは保護されます。"
+        },
+        "story": {
+            "title": "SVGとJPG：適材適所のフォーマット選択",
+            "p1": "SVGはXMLベースのベクターフォーマットで、どのサイズに拡大しても劣化しません。ロゴ、アイコン、イラストに最適です。",
+            "p2": "一方、JPGは写真やWeb画像の標準です。メール送信、ドキュメント挿入、SNS投稿にはJPGが必要な場面が多いです。",
+            "p3": "SVGからJPGへの変換では「ラスタライゼーション」が行われます。ベクターの数学的な描画をピクセルの格子に変換します。",
+            "p4": "解像度の選択は重要です。印刷には300dpi以上、Web表示には72-150dpiが適切です。当ツールではピクセル単位で正確に指定できます。",
+            "p5": "SVGの透明な背景はJPGでは白に置き換えられます。当ツールでは背景色をカスタマイズ可能です。",
+            "p6": "テキストを含むSVGも正確にレンダリングされます。",
+            "p7": "プライバシー保護：デザインファイルはブラウザ内でのみ処理されます。",
+            "p8": "まとめ：SVG→JPG変換はベクターデザインを汎用フォーマットにする最も簡単な方法です。"
+        },
         "features": {
-            "title": "Key Features",
-            "f1_title": "Maximum Compatibility",
-            "f1_desc": "JPG is opened by literally every digital device and software created in the last 30 years.",
-            "f2_title": "4x High Resolution",
-            "f2_desc": "Scale up your SVG before saving to ensure your JPG is sharp, not blurry.",
-            "f3_title": "Secure Client-Side",
-            "f3_desc": "Processing happens in your browser. We never see your files."
+            "title": "SVG→JPG変換の特徴",
+            "f1_title": "カスタム解像度",
+            "f1_desc": "幅と高さをピクセル単位で指定。印刷からWeb用まで対応。",
+            "f2_title": "品質コントロール",
+            "f2_desc": "JPG品質スライダーでファイルサイズと品質のバランスを調整。",
+            "f3_title": "背景色設定",
+            "f3_desc": "SVGの透明背景を任意の色に設定。デフォルトは白。",
+            "f4_title": "高精度レンダリング",
+            "f4_desc": "SVGのパス、テキスト、グラデーションを忠実にラスタライズ。",
+            "f5_title": "プレビュー機能",
+            "f5_desc": "変換結果をダウンロード前にプレビューで確認。",
+            "f6_title": "ローカル処理",
+            "f6_desc": "デザインファイルはブラウザ内で処理。サーバーアップロードなし。"
         },
         "how_to": {
-            "title": "簡単な手順",
-            "step1_title": "Step 1",
-            "step1_desc": "Click \"Upload\" or drag your file to the center box.",
-            "step2_title": "Step 2",
-            "step2_desc": "Choose a scaling factor (e.g., 2x or 4x) for higher quality results.",
-            "step3_title": "Step 3",
-            "step3_desc": "Observe the image. Note that transparent backgrounds are now white.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Convert to JPG & Download\"."
+            "title": "SVGをJPGに変換する方法",
+            "step1_title": "SVGファイルを選択",
+            "step1_desc": "SVGファイルをアップロードエリアにドラッグ＆ドロップします。",
+            "step2_title": "サイズを設定",
+            "step2_desc": "出力の幅と高さをピクセルで設定します。",
+            "step3_title": "品質を選択",
+            "step3_desc": "JPG品質スライダーで希望の品質を設定します。",
+            "step4_title": "背景色を選択",
+            "step4_desc": "必要に応じて背景色をカスタマイズします。",
+            "step5_title": "プレビュー確認",
+            "step5_desc": "変換結果をプレビューで確認します。",
+            "step6_title": "ダウンロード",
+            "step6_desc": "JPGファイルをダウンロードします。"
         },
-        "why": {
-            "title": "ベクターにはなぜPNGではなくJPGを選ぶのか？",
-            "p1": "PNGは透過に対応していますが、JPGは複雑で色彩豊かな画像においてファイルサイズをより小さく抑えることができます。",
-            "list": [
-                "より小さなファイル: メール送信や添付ファイルに適しています。",
-                "透過による問題の回避: 一部のビューアでは透過部分が黒く表示されることがあります。JPGなら強制的に白背景になるため、ロゴの可読性が保たれます。"
-            ]
+        "faq": {
+            "title": "SVG→JPG変換に関するよくある質問",
+            "q1": "SVGの透明部分はどうなりますか？",
+            "a1": "JPGは透明度をサポートしないため、透明部分は指定した背景色（デフォルトは白）に置き換えられます。",
+            "q2": "テキストは正しく表示されますか？",
+            "a2": "はい。SVGに埋め込まれたテキストは忠実にラスタライズされます。",
+            "q3": "最大解像度は？",
+            "a3": "ブラウザのメモリに依存しますが、4000×4000ピクセル以上も可能です。",
+            "q4": "無料ですか？",
+            "a4": "はい、完全に無料です。",
+            "q5": "画像は安全ですか？",
+            "a5": "はい。ローカル処理で安全です。",
+            "q6": "アニメーションSVGはどうなりますか？",
+            "a6": "静止画として最初のフレームがJPGに変換されます。",
+            "q7": "グラデーションは保持されますか？",
+            "a7": "はい。SVGのグラデーションはJPGに忠実に変換されます。",
+            "q8": "バッチ変換できますか？",
+            "a8": "現在は1回1ファイルです。",
+            "q9": "スマートフォンで使えますか？",
+            "a9": "はい！すべてのデバイスで動作します。",
+            "q10": "PNGに変換したい場合は？",
+            "a10": "SVG→PNGコンバーターもご用意しています。透明度を保持する場合に最適です。"
         }
     },
     "js": {
-        "invalid_image": "有効なSVG画像をアップロードしてください"
+        "error_conversion": "SVGの変換エラー: "
     }
 }

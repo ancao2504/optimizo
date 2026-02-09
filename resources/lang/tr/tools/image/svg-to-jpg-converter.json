@@ -1,61 +1,40 @@
 {
     "meta": {
-        "title": "SVG'den JPG'e Dönüştürücü - Ücretsiz Online Resim Dönüştürücü",
-        "description": "SVG resimlerini tarayıcınızda anında JPG formatına dönüştürün. Hızlı, ücretsiz ve güvenli dönüşüm.",
-        "h1": "SVG'den JPG'e Dönüştürücü",
-        "subtitle": "SVG resimlerini evrensel uyumlu JPG dosyalarına dönüştürün."
+        "title": "SVG'den JPG'ye Çevirici - Ücretsiz Online",
+        "description": "SVG vektörlerini JPG formatına dönüştürün. Hızlı, ücretsiz ve güvenli.",
+        "h1": "SVG'den JPG'ye Çevirici",
+        "subtitle": "SVG vektörlerini evrensel JPG formatına dönüştürün."
     },
     "input": {
-        "title": "SVG'yi JPG'e Dönüştür",
-        "desc": "SVG resimlerinizi yükleyin ve anında standart JPG dosyalarına dönüştürün.",
+        "title": "SVG'yi JPG'ye Dönüştür",
+        "desc": "SVG dosyalarınızı yükleyin.",
         "drop_title": "SVG dosyasını buraya sürükleyip bırakın",
-        "drop_desc": "veya fotoğraflara göz atmak için tıklayın"
+        "drop_desc": "veya göz atmak için tıklayın"
     },
     "editor": {
-        "image_alt": "Preview",
-        "note": "Not:",
-        "note_text": "Şeffaf arka plan beyaz ile doldurulacaktır.",
-        "output_format": "Çıktı Formatı:",
-        "scale_label": "Ölçek (Scale)",
-        "scale_1": "1x (Orijinal Boyut)",
-        "scale_2": "2x (Yüksek Çözünürlük)",
-        "scale_4": "4x (Ultra HD)",
-        "btn_convert": "JPG'e Dönüştür"
+        "original": "Orijinal",
+        "image_alt": "Önizleme",
+        "quality": "Kalite",
+        "width": "Genişlik",
+        "height": "Yükseklik",
+        "btn_download": "JPG İndir"
     },
     "content": {
-        "title": "SVG Formatını JPG'ye Dönüştürün",
-        "p1": "Vektör dosyalarını kabul etmeyen bir belgede veya web sitesinde bir logo kullanmanız mı gerekiyor? <strong>SVG'den JPG'e Dönüştürücümüz<\/strong> cevaptır.",
-        "p2": "Vektör kaynağınızdan yüksek uyumluluğa sahip sağlam bir görüntü dosyası oluşturur. Temiz beyaz bir arka plan ekleyerek şeffaflığı otomatik olarak yönetiyoruz, böylece grafikleriniz her ortamda profesyonel görünür.",
+        "title": "Ücretsiz SVG'den JPG'ye Çevirici",
+        "p1": "SVG vektörlerini JPG'ye dönüştürün. Vektör grafiklerini raster görüntü olarak paylaşmak için ideal.",
+        "p2": "Tüm işlemler <strong>tarayıcınızda yerel olarak</strong> gerçekleşir.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Maximum Compatibility",
-            "f1_desc": "JPG is opened by literally every digital device and software created in the last 30 years.",
-            "f2_title": "4x High Resolution",
-            "f2_desc": "Scale up your SVG before saving to ensure your JPG is sharp, not blurry.",
-            "f3_title": "Secure Client-Side",
-            "f3_desc": "Processing happens in your browser. We never see your files."
-        },
-        "how_to": {
-            "title": "Basit Talimatlar",
-            "step1_title": "Step 1",
-            "step1_desc": "Click \"Upload\" or drag your file to the center box.",
-            "step2_title": "Step 2",
-            "step2_desc": "Choose a scaling factor (e.g., 2x or 4x) for higher quality results.",
-            "step3_title": "Step 3",
-            "step3_desc": "Observe the image. Note that transparent backgrounds are now white.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Convert to JPG & Download\"."
-        },
-        "why": {
-            "title": "Vektörler için Neden PNG Yerine JPG Seçmelisiniz?",
-            "p1": "PNG şeffaflığı desteklese de, JPG karmaşık, renkli görüntüler için daha küçük dosya boyutları oluşturur.",
-            "list": [
-                "Daha Küçük Dosyalar: E-postalar ve ekler için daha iyidir.",
-                "Şeffaflık Sorunu Yok: Bazı görüntüleyiciler şeffaflığı siyah olarak gösterir. JPG, logonun okunabilirliğini sağlayarak beyaz bir arka plan zorlar."
-            ]
+            "title": "Temel Özellikler",
+            "f1_title": "Yüksek Kaliteli İşleme",
+            "f1_desc": "SVG yüksek kalitede işlenir.",
+            "f2_title": "Yapılandırılabilir Boyutlar",
+            "f2_desc": "İstenen genişlik ve yüksekliği ayarlayın.",
+            "f3_title": "Yerel İşleme",
+            "f3_desc": "Dosyalarınız cihazınızdan çıkmaz."
         }
     },
     "js": {
-        "invalid_image": "Lütfen geçerli bir SVG resmi yükleyin"
+        "error_conversion": "Dönüştürme hatası: ",
+        "success_conversion": "Dönüştürme tamamlandı!"
     }
 }

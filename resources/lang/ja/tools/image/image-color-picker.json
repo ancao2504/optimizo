@@ -1,96 +1,97 @@
 {
     "meta": {
-        "title": "Image Color Picker - Extract Colors from Images Online",
-        "h1": "Image Color Picker",
-        "subtitle": "Identify and extract any color from your photos with pixel-perfection.",
-        "desc": "Pick colors from any image online. Get precise HEX, RGB, and HSL codes directly from your photos with our free color picker tool."
+        "title": "画像カラーピッカー - 無料オンラインスポイトツール",
+        "h1": "画像カラーピッカー",
+        "subtitle": "画像から正確なHEX、RGB、HSLカラーコードを抽出します。",
+        "desc": "画像から正確なカラーコードを抽出。HEX、RGB、HSLを即座に取得。無料のオンラインスポイトツール。"
     },
     "input": {
-        "title": "Pick Color from Image",
-        "desc": "Upload an image and click anywhere to get the color code.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "画像から色を選択",
+        "desc": "画像をアップロードして任意のポイントをクリックし、正確な色を抽出します。",
+        "drop_title": "画像をここにドラッグ＆ドロップ",
+        "drop_desc": "またはクリックしてアップロード"
+    },
+    "settings": {
+        "title": "カラーピック設定"
     },
     "result": {
-        "color_swatch": "Selected Color",
-        "hex": "HEX Code",
-        "rgb": "RGB Values",
-        "hsl": "HSL Values"
+        "applied": "色が抽出されました",
+        "btn_download": "カラー値をコピー"
     },
     "content": {
         "intro": {
-            "title": "Mastering Your Palette: The Definitive Guide to Online Image Color Extraction",
-            "subtitle": "Bridge the gap between inspiration and implementation with our pixel-perfect color picker.",
-            "p1": "Every great design starts with a spark of inspiration, and often, that inspiration comes from the colors we see in the world around us—a sunset, a vintage poster, or a stunning piece of modern digital art. However, identifying the exact digital signature of those colors has historically required expensive design software or clunky browser extensions. Our Image Color Picker is designed to simplify this process, giving you a professional-grade eyedropper tool that works directly in your web browser, allowing you to extract HEX, RGB, and HSL codes with surgical precision.",
-            "p2": "In the world of web development and UI\/UX design, consistency is everything. A single shade of blue that is slightly 'off' can break a brand's visual identity. Our tool empowers you to upload any image—whether it's a high-resolution photograph, a logo file, or a screenshot of a competitor's website—and find the exact color values used. We've built in a high-magnification zoom feature that lets you navigate individual pixels, ensuring that you don't just get 'a' color, but 'the' color you were looking for.",
-            "p3": "Beyond simple extraction, our tool is built for a fast-paced creative workflow. We provide color values in multiple formats (HEX, RGB, and HSL) so you can copy and paste them directly into your CSS files, design mockups, or brand guidelines. It's a frictionless way to build a professional color palette from any source, completely free and without the need for an account."
+            "title": "色の精度を極める：画像カラーピッカーマスターガイド",
+            "subtitle": "ブランドの一貫性とデザインの調和のために、画像から正確な色を抽出。",
+            "p1": "クライアントが「この写真と同じ青を使って」と言ったとき、推測ではなく正確な数値が必要です。当ツールなら画像の任意のピクセルから正確なカラーコードを抽出できます。",
+            "p2": "Webデザイナーがインスピレーションフォトからカラーパレットを構築する場面、インテリアデザイナーがテキスタイルに合わせたペイントを選ぶ場面——当ツールがHEX、RGB、HSLで正確な値を提供します。",
+            "p3": "高価なソフトウェアは不要。ブラウザに画像をアップロードして、プロフェッショナルな精度で色を選びましょう。"
         },
         "story": {
-            "title": "The Science of Color Picking: From Pixels to Design Systems",
-            "p1": "To appreciate the power of an image color picker, it's helpful to understand how computers represent color. Most digital images use the RGB (Red, Green, Blue) model, where each pixel is assigned a value for each color channel. When you use our 'eyedropper' tool, you are essentially querying the underlying data array of the image to find the exact numerical values for a specific coordinate. This raw data is then converted into different human-readable formats like HEX or HSL.",
-            "p2": "HEX (Hexadecimal) is the language of the web. It's a six-character code like #3498db that browsers use to render colors. While developers love HEX for its brevity, designers often prefer HSL (Hue, Saturation, Lightness) because it's more 'intuitive.' If you want to make a color slightly lighter or less vibrant, adjusting the HSL values is much easier than doing the math for a HEX string. Our tool provides both, ensuring that every member of a creative team has the data they need.",
-            "p3": "One of the biggest challenges in color extraction is sub-pixel anti-aliasing. In many images, the edges of objects are 'blurred' by the computer to make them look smooth. This means that if you click on the very edge of a logo, you might get a mixture of the logo color and the background color. Our built-in magnifier tool is essential here, allowing you to see exactly which pixel your cursor is over, avoiding the 'muddy' colors that often result from imprecise selection.",
-            "p4": "Branding and Identity are perhaps the most common use cases for our tool. Professional brand kits often lose their original documentation over time. If you're a new designer tasked with creating a flyer for a company, you can simply upload their existing logo to our tool and instantly recover their exact 'Brand Blue' or 'Logo Red.' It's an essential utility for maintaining visual continuity across different platforms and media types.",
-            "p5": "Web Accessibility is another critical area where our color picker shines. To meet WCAG standards, text must have a certain contrast ratio against its background. Designers use our tool to pick the background color from a hero image and then use those HEX codes in a contrast checker to ensure their typography remains legible for users with vision impairments. It's about being both creative and responsible.",
-            "p6": "Consider the inspiration phase of a project. Many designers keep 'mood boards' or 'swipe files.' By using our color picker on your inspiration gallery, you can build a cohesive color scheme for a new website in minutes. You can extract the dominant tones and the subtle accent colors, creating a palette that is grounded in real-world aesthetics rather than just random color spectrum selections.",
-            "p7": "Security is a high priority for our users. Design drafts and internal assets are often sensitive. Because our Image Color Picker processes your images locally in your browser using the HTML5 Canvas API, your images are never actually sent to our servers. This ensures 100% privacy—your designs never leave your machine, and your creative secrets stay your own.",
-            "p8": "In conclusion, a color picker is more than just a tool; it's the glue that binds inspiration to implementation. Whether you're a seasoned developer or a first-time designer, use our Image Color Picker to take the guesswork out of your color workflow. It's precise, it's fast, and it's designed to make your creative life easier."
+            "title": "デジタルカラーの科学：なぜ精度が重要なのか",
+            "p1": "デジタル世界では色は数値で表現されます。1ピクセルは赤・緑・青の3チャンネルで構成され、各0-255の値を持ちます。当ツールは画像のピクセルデータから直接これらの値を読み取ります。",
+            "p2": "HEX形式（#FF5733）はWeb標準。RGB（255, 87, 51）はCSSやデジタルデザインで使用。HSL（14°, 100%, 60%）は明度や彩度の調整に直感的です。",
+            "p3": "ブランドの一貫性は正確な色に依存します。モニターでは些細に見える差異も、印刷では大きく見えることがあります。",
+            "p4": "写真や自然からのカラーインスピレーションには、概算ではなく正確な色を抽出できるツールが必要です。",
+            "p5": "Webアクセシビリティでも色の精度は重要です。テキストと背景のコントラスト比を確保する必要があります。",
+            "p6": "当ツールはキャンバスAPIを使用してピクセルデータを直接読み取り、サブピクセルレベルの精度を提供します。",
+            "p7": "プライバシーは保証されます。画像はブラウザ内でローカル処理されます。",
+            "p8": "まとめ：カラーピッカーはビジュアルインスピレーションと精密な技術実装をつなぐ架け橋です。"
         },
         "features": {
-            "title": "Professional Features for Designers and Developers",
-            "f1_title": "High-Precision Magnifier",
-            "f1_desc": "Built-in zoom lens that follows your cursor, allowing you to select individual pixels with extreme accuracy even in busy or complex images.",
-            "f2_title": "Multi-Format Output",
-            "f2_desc": "Instantly provides HEX, RGB, and HSL values for every selection, catering to both web development and creative design needs.",
-            "f3_title": "100% Privacy via Browser Processing",
-            "f3_desc": "Utilizes your device's local power to process images. Your files are never uploaded, stored, or viewed by our servers.",
-            "f4_title": "History & Swatch Palettes",
-            "f4_desc": "Keep track of your recently picked colors in a visual history list, making it easy to build a complete project palette in one session.",
-            "f5_title": "Instant Copy to Clipboard",
-            "f5_desc": "Single-click copying for all color codes. Speed up your CSS and design workflow by moving data directly from your image to your code.",
-            "f6_title": "Mobile-Friendly Interactivity",
-            "f6_desc": "Touch-optimized interface that allows you to tap and pick colors from your smartphone or tablet's photo gallery on the fly."
+            "title": "精密なカラー抽出のためのプロフェッショナルツール",
+            "f1_title": "ピクセル精度の読み取り",
+            "f1_desc": "任意のピクセルをクリックして正確なカラー値を取得——概算や平均ではありません。",
+            "f2_title": "マルチフォーマット出力",
+            "f2_desc": "HEX、RGB、HSLのカラーコードを同時に取得。最大の互換性を確保。",
+            "f3_title": "スポイト拡大機能",
+            "f3_desc": "ピクセルレベルの拡大機能で、単一ピクセルを正確にターゲット。",
+            "f4_title": "カラーパレット履歴",
+            "f4_desc": "選択した色は自動的にパレットに追加され、比較・選択が可能。",
+            "f5_title": "ワンクリックコピー",
+            "f5_desc": "任意のフォーマットのカラーコードをワンクリックでクリップボードにコピー。",
+            "f6_title": "ローカル処理",
+            "f6_desc": "画像はブラウザ内でローカル処理。サーバーアップロードなし。"
         },
         "how_to": {
-            "title": "A Guide to Pixel-Perfect Color Selection",
-            "step1_title": "Select Source for Color Sampling",
-            "step1_desc": "Drop your image into the tool or browse your device. We support all common formats like JPG, PNG, and WebP.",
-            "step2_title": "Position the Magnifier",
-            "step2_desc": "Move your cursor over the area you want to inspect. The magnifier tool will show you a zoomed-in view of the pixel grid.",
-            "step3_title": "Lock Your Pixel",
-            "step3_desc": "Click on the exact pixel you want. The tool will freeze the values in the result panel, so you don't lose the selection.",
-            "step4_title": "Choose Your Format",
-            "step4_desc": "Look at the result panel to see the HEX code, RGB triplet, and HSL values for your chosen color.",
-            "step5_title": "Copy and Implement",
-            "step5_desc": "Click the copy icon next to your preferred format. Paste it directly into your CSS, Photoshop, or Canva project.",
-            "step6_title": "Build Your Palette",
-            "step6_desc": "Continue picking colors to build a full scheme. Use the history list to review and compare your selections."
+            "title": "カラーピッカーの使い方",
+            "step1_title": "ソース画像をアップロード",
+            "step1_desc": "写真、スクリーンショット、デザイン画像をアップロードエリアにドラッグ＆ドロップします。",
+            "step2_title": "カーソルを移動",
+            "step2_desc": "画像上でカーソルを動かすと、拡大鏡が正確なピクセルを表示します。",
+            "step3_title": "クリックで選択",
+            "step3_desc": "任意のポイントをクリックして色を抽出。HEX、RGB、HSL値が即座に表示されます。",
+            "step4_title": "パレットを確認",
+            "step4_desc": "選択した色がパレットに集められ、簡単に比較できます。",
+            "step5_title": "カラーコードをコピー",
+            "step5_desc": "必要なフォーマット（HEX、RGB、HSL）をクリックしてコピーします。",
+            "step6_title": "プロジェクトで使用",
+            "step6_desc": "カラーコードをCSS、デザインツール、ペイントセレクターに直接貼り付けます。"
         },
         "faq": {
-            "title": "Image Color Picker: Color Identification FAQ",
-            "q1": "Is the color picker's accuracy affected by image quality?",
-            "a1": "Yes. If an image is heavily compressed (blurry), the pixel colors may shift slightly. For best results, use high-resolution, uncompressed images.",
-            "q2": "What is the difference between HEX and RGB?",
-            "a2": "HEX is a base-16 code used primarily in web development. RGB is a triplet of numbers (0-255) used by computers and monitors to define color mixes.",
-            "q3": "Can I pick a color from a website directly?",
-            "a3": "You can take a screenshot of any website and upload it to our tool to find its colors. Many browsers also have built-in dev tools for this.",
-            "q4": "Does the tool work with transparent PNGs?",
-            "a4": "Yes. If you click on a transparent area, the tool will typically return the color of the underlying canvas (usually white or checkered).",
-            "q5": "Is there a limit on the number of colors I can pick?",
-            "a5": "No, you can pick as many colors as you need. There are no limits or restrictions on our free online tool.",
-            "q6": "Why would I use HSL instead of HEX?",
-            "a6": "HSL is more intuitive for adjusting colors (e.g., making a color 10% darker), while HEX is just a computer code that is hard to read for humans.",
-            "q7": "Is this tool safe for company logos?",
-            "a7": "Absolutely. Because your image stays in your browser and is never uploaded to our servers, your sensitive company assets remain private.",
-            "q8": "Does the tool work on iPhones and iPads?",
-            "a8": "Yes, our tool is fully responsive and uses touch events to allow color picking on mobile devices.",
-            "q9": "Can I save my color palette for later?",
-            "a9": "The history list is available during your current session. We recommend copying the HEX codes into a document for long-term storage.",
-            "q10": "What does a 'pixel' actually represent in color terms?",
-            "a10": "A pixel is the smallest unit of a digital image. In a standard image, it's a single color value composed of Red, Green, and Blue light data."
+            "title": "カラーピッカーに関するよくある質問",
+            "q1": "カラー値の正確さは？",
+            "a1": "100%正確です。ブラウザのCanvas APIからピクセルデータを直接読み取ります。",
+            "q2": "スクリーンショットから色を選べますか？",
+            "a2": "はい！スクリーンショット、写真、デザイン画像など、あらゆる画像が使えます。",
+            "q3": "HEX、RGB、HSLの違いは？",
+            "a3": "HEXはWeb標準（#RRGGBB）。RGBは赤・緑・青の強度。HSLは色相・彩度・明度で、調整には最も直感的です。",
+            "q4": "スマートフォンで使えますか？",
+            "a4": "はい！画像をタップして色を選べます。",
+            "q5": "一度に複数の色を抽出できますか？",
+            "a5": "はい。クリックするたびに新しい色がパレット履歴に追加されます。",
+            "q6": "画像は安全ですか？",
+            "a6": "はい。すべてブラウザ内でローカル処理されます。",
+            "q7": "対応画像フォーマットは？",
+            "a7": "JPG、PNG、WebP、BMP、GIFに対応。",
+            "q8": "ペイントのカラーマッチに使えますか？",
+            "a8": "はい！写真から色を抽出し、そのコードでペイントショップでマッチングできます。",
+            "q9": "無料ですか？",
+            "a9": "はい、完全に無料で制限なし。",
+            "q10": "APIはありますか？",
+            "a10": "現在はWebツールを提供しています。API統合はリクエストに応じて利用可能です。"
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "画像の処理エラー: "
     }
 }

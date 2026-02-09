@@ -1,57 +1,70 @@
 {
     "meta": {
-        "title": "Decode Base64 to Image - Decodor online gratuit",
-        "description": "Convertește șirurile de caractere codificate Base64 înapoi în imagini (PNG, JPG, GIF). Decodificator și vizualizator online gratuit.",
-        "h1": "Decodați Base64 în imagine",
-        "subtitle": "Transformă șirurile Base64 înapoi în fișiere imagine (PNG, JPG, GIF) instantaneu"
+        "title": "Decodor Base64 în Imagine - Instrument Online Gratuit",
+        "description": "Convertiți string-uri codificate Base64 înapoi în imagini (PNG, JPG, GIF). Decodor și vizualizator online gratuit.",
+        "h1": "Decodor Base64 în Imagine",
+        "subtitle": "Convertiți string-uri codificate Base64 înapoi în imagini (PNG, JPG, GIF) instantaneu"
     },
     "input": {
-        "title": "Lipește Șirul Base64",
-        "desc": "Lipește codul mai jos pentru a vizualiza imaginea",
-        "placeholder": "date:image\/png;base64,iVBORw0KGgo...",
-        "btn_decode": "Decodifică Imaginea"
+        "title": "Lipiți String-ul Base64",
+        "desc": "Lipiți codul mai jos pentru a vizualiza imaginea",
+        "placeholder": "data:image/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Decodează Imaginea"
     },
     "result": {
-        "image_alt": "Imagine Decodificată",
-        "success": "Imagine Decodificată cu Succes",
-        "btn_download": "Descarcă Imaginea",
-        "btn_clear": "Șterge Tot"
+        "image_alt": "Imagine Decodată",
+        "success": "Imagine Decodată cu Succes",
+        "btn_download": "Descărcați Imaginea",
+        "btn_clear": "Șterge"
     },
     "content": {
-        "title": "Decodifică Base64 în Imagine",
-        "p1": "Ai găsit un șir lung de caractere aleatorii care începe cu <code>data:image\/...<\/code> și nu știi ce este? Cel mai probabil este o imagine codificată în Base64.",
-        "p2": "<strong>Decodificatorul nostru Base64 în Imagine<\/strong> transformă acel text înapoi într-un fișier imagine vizibil (PNG, JPG, GIF etc.) pe care îl poți vedea și descărca pe computerul tău.",
+        "title": "Decodor Base64 în Imagine",
+        "p1": "Ați găsit un șir lung de caractere aleatorii care începe cu <code>data:image/...</code>? Probabil este o imagine codificată Base64.",
+        "p2": "Instrumentul nostru <strong>Decodor Base64 în Imagine</strong> convertește acel text înapoi într-un fișier de imagine vizibil.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Instant Preview",
-            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
-            "f2_title": "Auto-Detection",
-            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
-            "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "title": "Caracteristici Principale",
+            "f1_title": "Previzualizare Instantanee",
+            "f1_desc": "Vedeți imaginea imediat. Analizăm datele binare și le afișăm pe ecran.",
+            "f2_title": "Detectare Automată",
+            "f2_desc": "Detectăm automat formatul fișierului din antetul string-ului Base64.",
+            "f3_title": "Descărcare Fișier",
+            "f3_desc": "Salvați rezultatul decodat ca fișier de imagine cu un singur click."
         },
         "how_to": {
-            "title": "Cum se decodifică?",
-            "step1_title": "Step 1",
-            "step1_desc": "Paste your Base64 string into the textarea.",
-            "step2_title": "Step 2",
-            "step2_desc": "We instantly attempt to read the string.",
-            "step3_title": "Step 3",
-            "step3_desc": "If valid, the image appears on the left.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "title": "Cum se Decodează?",
+            "step1_title": "Pasul 1",
+            "step1_desc": "Lipiți string-ul Base64 în zona de text.",
+            "step2_title": "Pasul 2",
+            "step2_desc": "Instrumentul citește instantaneu string-ul.",
+            "step3_title": "Pasul 3",
+            "step3_desc": "Dacă este valid, imaginea apare.",
+            "step4_title": "Pasul 4",
+            "step4_desc": "Click pe \"Descărcați Imaginea\" pentru a o salva."
+        },
+        "faq": {
+            "title": "Întrebări Frecvente",
+            "q1": "Cum funcționează convertorul Base64 în Imagine?",
+            "a1": "Acest instrument primește un string codificat Base64 și îl decodează înapoi în formatul de imagine original.",
+            "q2": "Ce formate de imagine pot decoda?",
+            "a2": "Instrumentul suportă PNG, JPG, GIF, WEBP, BMP și SVG.",
+            "q3": "Este gratuit?",
+            "a3": "Da, decodorul nostru Base64 în Imagine este 100% gratuit.",
+            "q4": "Este sigur?",
+            "a4": "Da. Procesul de decodare rulează în browserul dvs. Nu stocăm imaginile.",
+            "q5": "Ce se întâmplă dacă string-ul Base64 este invalid?",
+            "a5": "Instrumentul va afișa un mesaj de eroare."
         },
         "use_cases": {
-            "title": "Cazuri de utilizare comune",
+            "title": "Cazuri de Utilizare",
             "list": [
-                "Debugging: Verificarea datelor de imagine trimise în răspunsurile API sau stocate în baze de date.",
-                "Recuperare: Extragerea imaginilor încorporate în fișiere CSS sau șabloane HTML.",
-                "Verificare: Asigurarea că un șir Base64 nu este corupt."
+                "Depanare: Verificarea datelor de imagine din răspunsurile API.",
+                "Recuperare: Extragerea imaginilor din fișiere CSS sau template-uri HTML.",
+                "Verificare: Asigurarea că un string Base64 nu este corupt."
             ]
         }
     },
     "js": {
-        "input_required": "Vă rugăm să lipiți mai întâi un șir Base64.",
-        "invalid_error": "Șir Base64 invalid sau format de imagine nesuportat."
+        "input_required": "Vă rugăm să lipiți mai întâi un string Base64.",
+        "invalid_error": "String Base64 invalid sau format de imagine neacceptat."
     }
 }

@@ -1,68 +1,39 @@
 {
     "meta": {
-        "title": "SVG till PNG-konverterare - Gratis bildkonverterare online",
-        "description": "Konvertera SVG-bilder till PNG-format direkt i din webbläsare. Snabb, gratis och säker konvertering.",
+        "title": "SVG till PNG Konverterare - Gratis Online",
+        "description": "Konvertera SVG-vektorer till PNG med transparens. Snabbt, gratis och säkert.",
         "h1": "SVG till PNG Konverterare",
-        "subtitle": "Omvandla SVG-bilder till universellt kompatibla PNG-filer."
+        "subtitle": "Konvertera SVG-vektorer till PNG med transparensstöd."
     },
     "input": {
         "title": "Konvertera SVG till PNG",
-        "desc": "Ladda upp dina SVG-bilder och konvertera dem till vanliga PNG-filer direkt.",
+        "desc": "Ladda upp dina SVG-filer.",
         "drop_title": "Dra och släpp SVG-fil här",
-        "drop_desc": "eller klicka för att bläddra bilder"
+        "drop_desc": "eller klicka för att bläddra"
     },
     "editor": {
-        "image_alt": "Preview",
-        "checkerboard": "Checkerboard background indicates transparency",
-        "output_format": "Utdataformat:",
-        "scale_label": "Skala (Scale)",
-        "scale_1": "1x (Originalstorlek)",
-        "scale_2": "2x (Hög upplösning)",
-        "scale_4": "4x (Ultra HD)",
-        "btn_convert": "Konvertera till PNG"
+        "original": "Original",
+        "image_alt": "Förhandsvisning",
+        "width": "Bredd",
+        "height": "Höjd",
+        "btn_download": "Ladda Ner PNG"
     },
     "content": {
-        "title": "Rasterisera SVG till PNG i hög upplösning",
-        "p1": "Scalable Vector Graphics (SVG) är perfekta för webben, men omöjliga att använda på sociala medier, i Word-dokument eller som e-postbilagor.",
-        "p2": "Vår <strong>SVG till PNG-konverterare<\/strong> låter dig förvandla din vektorlogotyp eller ikon till en högkvalitativ, genomskinlig PNG-bild. Med vår unika <strong>skalningsfunktion<\/strong> kan du generera bilder med ultrahög upplösning utan pixellering.",
+        "title": "Gratis SVG till PNG Konverterare",
+        "p1": "Konvertera SVG-vektorer till PNG med transparensstöd.",
+        "p2": "All bearbetning sker <strong>lokalt i din webbläsare</strong>.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Transparency Preserved",
-            "f1_desc": "Unlike JPG, PNG keeps the background transparent. Perfect for logos and overlays.",
-            "f2_title": "Up to 4x Scaling",
-            "f2_desc": "Export at 4x the original size. Get crisp edges even for large print formats.",
-            "f3_title": "Browser-Based",
-            "f3_desc": "Fast and secure. No files are uploaded to any server."
-        },
-        "how_to": {
-            "title": "Hur konverterar man SVG till PNG?",
-            "step1_title": "Step 1",
-            "step1_desc": "Drop your `.svg` file into the upload area.",
-            "step2_title": "Step 2",
-            "step2_desc": "Select `1x`, `2x`, or `4x` from the dropdown. Higher is better for quality.",
-            "step3_title": "Step 3",
-            "step3_desc": "Check the preview image on the left. The checkerboard indicates transparency.",
-            "step4_title": "Step 4",
-            "step4_desc": "Hit the button to generate and download your PNG."
-        },
-        "why": {
-            "title": "Varför konvertera vektorer?",
-            "p1": "Vektorer är matematiska formler, medan PNG är raster av pixlar. Du behöver pixlar för:",
-            "list": [
-                "Profilbilder (Twitter\/LinkedIn avvisar ofta SVG).",
-                "Inbäddning i e-post (SVG-stödet är dåligt).",
-                "Användning i videoredigerare eller enkla grafikverktyg (Canva, Paint)."
-            ]
-        },
-        "faq": {
-            "title": "Vanliga frågor",
-            "q1": "Varför konvertera SVG till PNG?",
-            "a1": "PNG-formatet stöds universellt i alla webbläsare och applikationer, medan SVG kan ha kompatibilitetsproblem. Konvertering till PNG är användbart för e-postsignaturer, sociala medier och applikationer som inte stöder vektorgrafik.",
-            "q2": "Stöder PNG genomskinlighet precis som SVG?",
-            "a2": "Ja! PNG stöder transparens, vilket gör det perfekt för logotyper och grafik med genomskinlig bakgrund. Vår konverterare bevarar transparensen vid konvertering från SVG till PNG."
+            "title": "Huvudfunktioner",
+            "f1_title": "Transparensstöd",
+            "f1_desc": "Bevarar SVG-transparens i PNG-filen.",
+            "f2_title": "Konfigurerbara Dimensioner",
+            "f2_desc": "Ställ in önskad bredd och höjd.",
+            "f3_title": "Lokal Bearbetning",
+            "f3_desc": "Filerna lämnar aldrig din enhet."
         }
     },
     "js": {
-        "invalid_image": "Ladda upp en giltig SVG-bild"
+        "error_conversion": "Konverteringsfel: ",
+        "success_conversion": "Konvertering klar!"
     }
 }

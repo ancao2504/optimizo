@@ -1,57 +1,59 @@
 {
     "meta": {
-        "title": "画像から Base64 コンバーター - 無料のオンライン文字列ツール",
-        "description": "画像をHTMLやCSSに埋め込むためのBase64エンコード文字列に変換。PNG, JPG, GIFに対応した無料オンラインツール。",
-        "h1": "画像をBase64文字列に変換",
-        "subtitle": "HTMLやCSSへの埋め込み用に画像をBase64文字列に変換"
+        "title": "画像→Base64コンバーター - 無料オンラインエンコーダー",
+        "description": "画像をBase64文字列に変換。CSS、HTML、APIで直接使用できるエンコード済みデータを生成。",
+        "h1": "画像→Base64コンバーター",
+        "subtitle": "画像ファイルをBase64エンコード文字列に変換します"
     },
     "input": {
-        "title": "画像をアップロード",
-        "desc": "ここに画像ファイルをドラッグ＆ドロップ",
-        "drop_title": "ここに画像をドロップ",
-        "drop_desc": "すべての画像形式に対応"
+        "title": "画像をBase64に変換",
+        "desc": "画像をアップロードしてBase64エンコード文字列を生成します。",
+        "drop_title": "画像をここにドラッグ＆ドロップ",
+        "drop_desc": "またはクリックしてアップロード"
     },
     "editor": {
-        "image_alt": "Preview",
-        "label_string": "Base64文字列",
+        "output_title": "Base64出力",
         "btn_copy": "クリップボードにコピー",
-        "char_count": "文字数",
-        "mime_type": "MIMEタイプ"
+        "btn_download": "テキストとしてダウンロード",
+        "label_include_prefix": "Data URIプレフィックスを含める",
+        "preview_title": "画像プレビュー"
     },
     "content": {
-        "title": "画像をBase64文字列に変換",
-        "p1": "開発者やウェブデザイナーは、HTTPリクエストを減らすために画像をHTMLやCSSファイルに直接埋め込むことがよくあります。",
-        "p2": "当ツールの<strong>画像-Base64変換ツール<\/strong>は、画像ファイルをバイナリデータを表す長い文字列にエンコードします。この文字列をコードに直接貼り付けることができます。",
+        "title": "画像をBase64テキストにエンコード",
+        "p1": "画像をHTMLやCSSに直接埋め込む必要がありますか？<strong>画像→Base64コンバーター</strong>は画像ファイルをテキスト文字列に変換し、外部ファイル参照なしでコードに直接含められます。",
+        "p2": "<strong>Base64エンコーディング</strong>はバイナリデータ（画像）をASCIIテキストに変換します。これにより、HTMLの<code>&lt;img&gt;</code>タグのsrcやCSSのbackground-imageに直接使用できます。メール、API、シングルファイルHTMLに最適です。",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Clipboard Ready",
-            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
-            "f2_title": "Reduce Requests",
-            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
-            "f3_title": "Any Format",
-            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
+            "title": "主な機能",
+            "f1_title": "即座にエンコード",
+            "f1_desc": "画像をアップロードするだけでBase64文字列が即座に生成されます。",
+            "f2_title": "Data URIプレフィックス",
+            "f2_desc": "data:image/...プレフィックスをオプションで含めて、すぐに使用可能に。",
+            "f3_title": "完全ローカル処理",
+            "f3_desc": "データはブラウザ内でのみ処理されます。サーバーへの送信はありません。"
         },
         "how_to": {
-            "title": "使い方は？",
-            "step1_title": "Step 1",
-            "step1_desc": "Select your image file.",
-            "step2_title": "Step 2",
-            "step2_desc": "The tool immediately converts the file to a Data URI.",
-            "step3_title": "Step 3",
-            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
-            "step4_title": "Step 4",
-            "step4_desc": "Insert it into your `src` attribute or CSS file."
+            "title": "使い方",
+            "step1_title": "ステップ1",
+            "step1_desc": "画像をアップロードエリアにドラッグ＆ドロップします。",
+            "step2_title": "ステップ2",
+            "step2_desc": "ツールが自動的に画像をBase64にエンコードします。",
+            "step3_title": "ステップ3",
+            "step3_desc": "Data URIプレフィックスの有無を選択します。",
+            "step4_title": "ステップ4",
+            "step4_desc": "「クリップボードにコピー」をクリックしてコードに貼り付けます。"
         },
         "use_cases": {
-            "title": "Base64を使うべき時は？",
+            "title": "一般的な使用例",
             "list": [
-                "小さな画像: アイコン、スピナー、小さなロゴ（10KB以下）に最適です。",
-                "単一ファイル構成のアプリ: メールテンプレートなど、すべてを1つのHTMLファイルにまとめたい場合。",
-                "オフラインアクセス: HTMLをローカル保存した場合でも、ネット接続なしで画像が表示されます。"
+                "HTMLメール：外部画像参照なしでアイコンやロゴを直接埋め込み。",
+                "シングルファイルHTML：すべてのアセットを1つのHTMLファイルに含める。",
+                "CSS背景画像：小さなアイコンやパターンをCSSに直接埋め込み。"
             ]
         }
     },
     "js": {
-        "copied": "コピーしました！"
+        "no_input": "画像をアップロードしてください。",
+        "encode_success": "Base64エンコードに成功しました！",
+        "copied": "クリップボードにコピーされました！"
     }
 }

@@ -1,57 +1,58 @@
 {
     "meta": {
-        "title": "Base64 を画像にデコード - 無料のオンライン デコーダ",
-        "description": "Base64エンコードされた文字列を画像（PNG, JPG, GIF）に戻す無料のオンラインデコーダー。即座にビジュアル化し保存できます。",
-        "h1": "Base64を画像にデコードする",
-        "subtitle": "Base64文字列を画像（PNG, JPG, GIF）に瞬時に変換"
+        "title": "Base64→画像コンバーター - 無料オンラインデコーダー",
+        "description": "Base64文字列を画像ファイルに変換します。ブラウザ内で安全にデコード。",
+        "h1": "Base64→画像コンバーター",
+        "subtitle": "Base64エンコード文字列を画像ファイルにデコードします"
     },
     "input": {
-        "title": "Base64文字列を貼り付け",
-        "desc": "画像を表示するためにコードを以下に貼り付けてください",
-        "placeholder": "データ:image\/png;base64,iVBORw0KGgo...",
-        "btn_decode": "画像をデコード"
+        "title": "Base64を画像に変換",
+        "desc": "Base64文字列を貼り付けて画像ファイルに変換します。",
+        "drop_title": "Base64文字列を入力",
+        "drop_desc": "またはBase64データを貼り付け"
     },
-    "result": {
-        "image_alt": "デコードされた画像",
-        "success": "画像のデコードに成功しました",
-        "btn_download": "画像をダウンロード",
-        "btn_clear": "入力をクリア"
+    "editor": {
+        "output_title": "デコードされた画像",
+        "base64_placeholder": "Base64文字列をここに貼り付けてください...",
+        "btn_decode": "デコードしてダウンロード",
+        "error_invalid": "無効なBase64文字列です"
     },
     "content": {
         "title": "Base64を画像にデコード",
-        "p1": "<code>data:image\/...<\/code> で始まる不規則な文字列を受け取ってお困りですか？それはおそらくBase64エンコードされた画像データです。",
-        "p2": "当ツールの<strong>Base64画像デコーダー<\/strong>は、その文字列をPCで閲覧・ダウンロード可能な画像ファイル（PNG, JPG, GIFなど）に変換します。",
+        "p1": "開発やデバッグの際、CSS、HTML、APIレスポンスに埋め込まれた<strong>Base64エンコード画像</strong>に遭遇することがあります。当ツールはその長い文字列を貼り付けるだけで、<strong>実際の画像ファイルに戻す</strong>ことができます。",
+        "p2": "<strong>Base64→画像コンバーター</strong>はBase64入力を読み取り、自動的に画像フォーマットを検出し、ダウンロード可能なファイルとしてレンダリングします。すべてブラウザ内で動作し、データはサーバーに送信されません。",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Instant Preview",
-            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
-            "f2_title": "Auto-Detection",
-            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
-            "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "title": "主な機能",
+            "f1_title": "自動フォーマット検出",
+            "f1_desc": "Base64ヘッダーからPNG、JPG、GIF、WebPを自動判別します。",
+            "f2_title": "即座にプレビュー",
+            "f2_desc": "貼り付けた瞬間にデコードされた画像をプレビューできます。",
+            "f3_title": "完全ローカル処理",
+            "f3_desc": "データはブラウザ内でのみ処理されます。サーバーへの送信はありません。"
         },
         "how_to": {
-            "title": "使い方は？",
-            "step1_title": "Step 1",
-            "step1_desc": "Paste your Base64 string into the textarea.",
-            "step2_title": "Step 2",
-            "step2_desc": "We instantly attempt to read the string.",
-            "step3_title": "Step 3",
-            "step3_desc": "If valid, the image appears on the left.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "title": "使い方",
+            "step1_title": "ステップ1",
+            "step1_desc": "Base64文字列を入力エリアに貼り付けます。",
+            "step2_title": "ステップ2",
+            "step2_desc": "ツールが自動的にフォーマットを検出しデコードします。",
+            "step3_title": "ステップ3",
+            "step3_desc": "デコードされた画像をプレビューで確認します。",
+            "step4_title": "ステップ4",
+            "step4_desc": "「デコードしてダウンロード」をクリックして画像ファイルを保存します。"
         },
         "use_cases": {
-            "title": "主な活用シーン",
+            "title": "一般的な使用例",
             "list": [
-                "デバッグ: APIレスポンスやデータベースに保存されている画像データの確認。",
-                "データ抽出: CSSファイルやHTMLテンプレートに埋め込まれた画像の取り出し。",
-                "検証: Base64文字列が壊れていないかの確認。"
+                "デバッグ：APIレスポンスやCSSスタイルシートのBase64画像データを実際の画像として確認。",
+                "データ復元：エンコードされた画像データから元の画像ファイルを復元。",
+                "開発テスト：Base64画像出力の品質とフォーマットを検証。"
             ]
         }
     },
     "js": {
-        "input_required": "まずBase64文字列を貼り付けてください。",
-        "invalid_error": "無効なBase64文字列か、サポートされていない画像形式です。"
+        "no_input": "Base64文字列を入力してください。",
+        "decode_success": "画像のデコードに成功しました！",
+        "decode_fail": "デコードに失敗しました。"
     }
 }

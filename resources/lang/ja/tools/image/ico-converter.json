@@ -1,54 +1,97 @@
 {
     "meta": {
-        "title": "ICO to ICO Converter - Free Online Image Converter",
-        "description": "Convert ICO images to ICO format instantly in your browser. Fast, free, and secure conversion.",
-        "h1": "ICO to ICO Converter",
-        "subtitle": "Transform ICO images into universally compatible ICOs."
+        "title": "ICOコンバーター・ファビコン生成 - 無料オンラインツール",
+        "h1": "ICOコンバーター",
+        "subtitle": "画像からICOファビコンファイルを生成します。",
+        "desc": "画像をICOファビコンに変換。複数サイズ対応の.icoファイルを生成。ブラウザタブやブックマーク用。無料・安全。"
     },
     "input": {
-        "title": "Convert ICO to ICO",
-        "desc": "Upload your ICO images and convert them to standard ICO files instantly.",
-        "drop_title": "Drag & Drop ICO file here",
-        "drop_desc": "or click to browse photos"
+        "title": "ICOファビコンを作成",
+        "desc": "画像をアップロードしてICOファビコンに変換します。",
+        "drop_title": "画像をここにドラッグ＆ドロップ",
+        "drop_desc": "またはクリックしてアップロード"
     },
-    "editor": {
-        "original": "Original",
-        "image_alt": "Preview",
-        "favicon": "Favicon",
-        "size_label": "Icon Size",
-        "output_format": "Output Format:",
-        "btn_download": "Download Favicon (.ico)"
+    "settings": {
+        "title": "ICO設定"
+    },
+    "result": {
+        "applied": "ICOが生成されました",
+        "btn_download": "ICOをダウンロード"
     },
     "content": {
-        "title": "無料ICO変換ツール＆ファビコンジェネレーター",
-        "p1": "ウェブサイトを制作中ですか？ブラウザのタブに表示される小さなアイコン「ファビコン」が必要です。",
-        "p2": "当ツールの<strong>ICO変換ツール<\/strong>は、あらゆるPNGまたはJPG画像を標準的なMicrosoft `.ico` ファイルに変換します。あらゆるデバイスでブランドが鮮明に表示されるよう、主要なファビコンサイズをすべてサポートしています。",
+        "intro": {
+            "title": "完璧なファビコン：ICO生成マスターガイド",
+            "subtitle": "ブラウザタブ、ブックマーク、デスクトップショートカット用の完璧なICOファイルを作成。",
+            "p1": "ファビコン（favorites icon）は、ブラウザタブやブックマークに表示される小さなアイコンです。ICO形式はこの用途のために設計された唯一のフォーマットで、1つのファイルに複数のサイズのアイコンを格納できます。",
+            "p2": "当ツールでは、ロゴやアイコン画像から16×16、32×32、48×48ピクセルのマルチサイズICOファイルを自動生成します。",
+            "p3": "すべてブラウザ内で処理されるため、デザインアセットのプライバシーは完全に保護されます。"
+        },
+        "story": {
+            "title": "ファビコンの進化：なぜICOが今も重要なのか",
+            "p1": "ICO形式は1985年にMicrosoftがWindowsアイコン用に開発しました。40年近く経った今でも、Webファビコンの標準フォーマットとして使われています。",
+            "p2": "現代のブラウザはPNGファビコンもサポートしていますが、ICOは複数解像度を1ファイルに格納できる唯一のフォーマットです。16px（タブ）、32px（ブックマーク）、48px（デスクトップ）を同時に対応できます。",
+            "p3": "SEOの観点からも、ファビコンは重要です。Google検索結果にファビコンが表示されるようになり、ブランド認知に直接影響します。",
+            "p4": "デザインのベストプラクティスとして、ファビコンは極小サイズでも認識できるシンプルさが求められます。テキストは避け、ブランドカラーとシンプルなシンボルを使用しましょう。",
+            "p5": "当ツールは高品質なリサイズアルゴリズムを使用し、小さなサイズでも鮮明なアイコンを生成します。",
+            "p6": "透明度もサポートされます。PNG形式の入力画像ではアルファチャンネルが維持されます。",
+            "p7": "ローカル処理でブランドアセットの安全性を確保します。",
+            "p8": "まとめ：優れたファビコンは小さくても強力なブランディングツールです。"
+        },
         "features": {
-            "title": "Key Features",
-            "f1_title": "Standard Sizes",
-            "f1_desc": "Choose from 16x16, 32x32, 48x48, 64x64, or 128x128 pixels. Or select all!",
-            "f2_title": "Auto-Resizing",
-            "f2_desc": "Upload a large logo, and we'll automatically downscale it smoothly to fit the tiny icon format.",
-            "f3_title": "Multi-Icon Support",
-            "f3_desc": "Modern .ico files can contain multiple sizes in one file. We handle that for you."
+            "title": "プロフェッショナルなICO生成機能",
+            "f1_title": "マルチサイズ生成",
+            "f1_desc": "16×16、32×32、48×48ピクセルのアイコンを1つのICOファイルに格納。",
+            "f2_title": "高品質リサイズ",
+            "f2_desc": "高度な補間アルゴリズムで小さなサイズでも鮮明なアイコンを生成。",
+            "f3_title": "透明度サポート",
+            "f3_desc": "PNG入力のアルファチャンネルを維持してICOに変換。",
+            "f4_title": "プレビュー機能",
+            "f4_desc": "各サイズのアイコンをプレビューで確認できます。",
+            "f5_title": "即座に生成",
+            "f5_desc": "アップロード後、即座にICOファイルが生成されます。",
+            "f6_title": "ローカル処理",
+            "f6_desc": "画像はブラウザ内で処理。サーバーアップロードなし。"
         },
         "how_to": {
-            "title": "ファビコン作成の手順",
-            "step1_title": "Step 1",
-            "step1_desc": "Use a square image (PNG\/JPG) for best results.",
-            "step2_title": "Step 2",
-            "step2_desc": "16x16 (Browser tabs), 32x32 (Taskbar), 48x48 (Desktop).",
-            "step3_title": "Step 3",
-            "step3_desc": "See how it looks instantly.",
-            "step4_title": "Step 4",
-            "step4_desc": "Get your `favicon.ico` file."
+            "title": "ICOファビコンの作成方法",
+            "step1_title": "ソース画像を選択",
+            "step1_desc": "ロゴやアイコン画像（できるだけ正方形）をアップロードします。",
+            "step2_title": "自動リサイズ",
+            "step2_desc": "ツールが画像を必要なサイズに自動リサイズします。",
+            "step3_title": "サイズを確認",
+            "step3_desc": "各サイズ（16px、32px、48px）のプレビューを確認します。",
+            "step4_title": "ICO生成",
+            "step4_desc": "すべてのサイズが1つのICOファイルにパッケージされます。",
+            "step5_title": "ダウンロード",
+            "step5_desc": "生成されたfavicon.icoをダウンロードします。",
+            "step6_title": "サイトに設置",
+            "step6_desc": "ICOファイルをWebサイトのルートディレクトリに配置します。"
         },
-        "why": {
-            "title": "なぜ .ICO 形式なのか？",
-            "p1": "最新のブラウザはPNG形式のファビコンにも対応していますが、古いブラウザやあらゆるOSでの互換性を最大限に保つためには、依然として `.ico` 形式が標準です。"
+        "faq": {
+            "title": "ICO・ファビコンに関するよくある質問",
+            "q1": "ファビコンの推奨サイズは？",
+            "a1": "16×16（タブ）、32×32（ブックマーク）、48×48（デスクトップ）が標準です。当ツールはすべて自動生成します。",
+            "q2": "PNGをファビコンに使えますか？",
+            "a2": "最新ブラウザはPNGファビコンをサポートしますが、ICOは最も互換性が高いフォーマットです。",
+            "q3": "入力画像は正方形でなければなりませんか？",
+            "a3": "正方形が推奨ですが、非正方形の画像は自動的にクロップされます。",
+            "q4": "透明な背景は維持されますか？",
+            "a4": "はい！PNG入力のアルファチャンネルはICOに正しく反映されます。",
+            "q5": "無料ですか？",
+            "a5": "はい、完全に無料です。",
+            "q6": "画像は安全ですか？",
+            "a6": "はい。ローカル処理で安全です。",
+            "q7": "ファビコンはSEOに影響しますか？",
+            "a7": "はい。Google検索結果にファビコンが表示され、クリック率に影響します。",
+            "q8": "どの画像フォーマットが入力できますか？",
+            "a8": "JPG、PNG、WebP、BMPに対応しています。",
+            "q9": "スマートフォンで使えますか？",
+            "a9": "はい！あらゆるデバイスで動作します。",
+            "q10": "SVGで入力できますか？",
+            "a10": "SVGは直接はサポートしていません。先にSVG→PNGコンバーターで変換してからご利用ください。"
         }
     },
     "js": {
-        "invalid_image": "有効な画像をアップロードしてください"
+        "error_conversion": "画像の処理エラー: "
     }
 }

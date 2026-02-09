@@ -1,52 +1,65 @@
 {
     "meta": {
-        "title": "Base64'ü Görüntüye Dönüştürme - Ücretsiz Çevrimiçi Kod Çözücü",
-        "description": "Base64 kodlu dizeleri tekrar görüntülere (PNG, JPG, GIF) dönüştürün. Ücretsiz çevrimiçi kod çözücü ve görselleştirici.",
-        "h1": "Base64'ün Görüntüye Kodunu Çözme",
-        "subtitle": "Base64 kodlu dizeleri anında tekrar görüntülere (PNG, JPG, GIF) dönüştürün"
+        "title": "Base64'ten Görüntüye Çevirici - Ücretsiz Online Araç",
+        "description": "Base64 kodlu dizeleri görüntülere (PNG, JPG, GIF) geri dönüştürün. Ücretsiz online kod çözücü.",
+        "h1": "Base64'ten Görüntüye Çevirici",
+        "subtitle": "Base64 kodlu dizeleri anında görüntülere (PNG, JPG, GIF) dönüştürün"
     },
     "input": {
         "title": "Base64 Dizesini Yapıştırın",
-        "desc": "Görüntüyü görselleştirmek için kodunuzu aşağıya yapıştırın",
-        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
+        "desc": "Görüntüyü görmek için kodunuzu aşağıya yapıştırın",
+        "placeholder": "data:image/png;base64,iVBORw0KGgo...",
         "btn_decode": "Görüntüyü Çöz"
     },
     "result": {
-        "image_alt": "Çözülen Görüntü",
+        "image_alt": "Çözülmüş Görüntü",
         "success": "Görüntü Başarıyla Çözüldü",
         "btn_download": "Görüntüyü İndir",
-        "btn_clear": "Deseni Temizle"
+        "btn_clear": "Temizle"
     },
     "content": {
-        "title": "Base64'ü Görüntüye Çöz",
-        "p1": "<code>data:image\/...<\/code> ile başlayan uzun bir rastgele karakter dizisi buldunuz ve ne olduğunu bilmiyor musunuz? Büyük olasılıkla Base64 kodlu bir görüntüdür.",
-        "p2": "<strong>Base64'den Görüntüye Kod Çözücümüz<\/strong>, bu metin dizisini bilgisayarınızda görüntüleyebileceğiniz ve indirebileceğiniz görünür bir görüntü dosyasına (PNG, JPG, GIF vb.) geri dönüştürür.",
+        "title": "Base64'ten Görüntüye Çevirici",
+        "p1": "<code>data:image/...</code> ile başlayan uzun bir karakter dizisi buldunuz mu? Muhtemelen Base64 kodlanmış bir görüntüdür.",
+        "p2": "<strong>Base64'ten Görüntüye Çözücümüz</strong> bu metin dizisini görüntülenebilir bir görüntü dosyasına geri dönüştürür.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Instant Preview",
-            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
-            "f2_title": "Auto-Detection",
-            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
-            "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "title": "Temel Özellikler",
+            "f1_title": "Anında Önizleme",
+            "f1_desc": "Görüntüyü hemen görün.",
+            "f2_title": "Otomatik Algılama",
+            "f2_desc": "Dosya formatını Base64 dizesinden otomatik algılarız.",
+            "f3_title": "Dosya İndirin",
+            "f3_desc": "Çözülmüş sonucu tek tıkla gerçek bir görüntü dosyası olarak kaydedin."
         },
         "how_to": {
             "title": "Nasıl Çözülür?",
-            "step1_title": "Step 1",
-            "step1_desc": "Paste your Base64 string into the textarea.",
-            "step2_title": "Step 2",
-            "step2_desc": "We instantly attempt to read the string.",
-            "step3_title": "Step 3",
-            "step3_desc": "If valid, the image appears on the left.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "step1_title": "Adım 1",
+            "step1_desc": "Base64 dizesini metin alanına yapıştırın.",
+            "step2_title": "Adım 2",
+            "step2_desc": "Araç dizeyi anında okur.",
+            "step3_title": "Adım 3",
+            "step3_desc": "Geçerliyse görüntü görünür.",
+            "step4_title": "Adım 4",
+            "step4_desc": "Kaydetmek için \"Görüntüyü İndir\"e tıklayın."
+        },
+        "faq": {
+            "title": "Sık Sorulan Sorular",
+            "q1": "Base64'ten Görüntüye çevirici nasıl çalışır?",
+            "a1": "Araç bir Base64 kodlu dize alır ve orijinal görüntü formatına geri çözer.",
+            "q2": "Hangi görüntü formatlarını çözebilirim?",
+            "a2": "PNG, JPG, GIF, WEBP, BMP ve SVG desteklenir.",
+            "q3": "Ücretsiz mi?",
+            "a3": "Evet, sınırsız ve %100 ücretsiz.",
+            "q4": "Güvenli mi?",
+            "a4": "Evet. Çözme işlemi tarayıcınızda gerçekleşir. Görüntülerinizi saklamayız.",
+            "q5": "Base64 dizem geçersizse?",
+            "a5": "Araç bir hata mesajı gösterir."
         },
         "use_cases": {
-            "title": "Yaygın Kullanım Durumları",
+            "title": "Kullanım Alanları",
             "list": [
-                "Hata Ayıklama: API yanıtlarında hangi görüntü verilerinin gönderildiğini veya veritabanlarında saklandığını kontrol etme.",
-                "Kurtarma: CSS dosyalarına veya HTML şablonlarına gömülü görüntüleri çıkarma.",
-                "Doğrulama: Bir Base64 dizesinin bozuk olmadığından emin olma."
+                "Hata Ayıklama: API yanıtlarındaki görüntü verilerini kontrol edin.",
+                "Kurtarma: CSS dosyalarından veya HTML şablonlarından gömülü görüntüleri çıkarın.",
+                "Doğrulama: Base64 dizesinin bozulmadığından emin olun."
             ]
         }
     },

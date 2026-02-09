@@ -1,52 +1,65 @@
 {
     "meta": {
-        "title": "Decodificar Base64 em Imagem - Decodificador Online Gratuito",
+        "title": "Decodificar Base64 para Imagem - Decodificador Online Gratuito",
         "description": "Converta strings codificadas em Base64 de volta para imagens (PNG, JPG, GIF). Decodificador e visualizador online gratuito.",
-        "h1": "Decodificar Base64 para imagem",
+        "h1": "Decodificar Base64 para Imagem",
         "subtitle": "Converta strings codificadas em Base64 de volta para imagens (PNG, JPG, GIF) instantaneamente"
     },
     "input": {
-        "title": "Cole a String Base64",
+        "title": "Colar String Base64",
         "desc": "Cole seu código abaixo para visualizar a imagem",
-        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
+        "placeholder": "data:image/png;base64,iVBORw0KGgo...",
         "btn_decode": "Decodificar Imagem"
     },
     "result": {
         "image_alt": "Imagem Decodificada",
         "success": "Imagem Decodificada com Sucesso",
         "btn_download": "Baixar Imagem",
-        "btn_clear": "Limpar Padrão"
+        "btn_clear": "Limpar"
     },
     "content": {
         "title": "Decodificar Base64 para Imagem",
-        "p1": "Encontrou uma longa string de caracteres aleatórios começando com <code>data:image\/...<\/code> e não sabe o que é? Provavelmente é uma imagem codificada em Base64.",
-        "p2": "Nosso <strong>Decodificador de Base64 para Imagem<\/strong> converte essa string de texto de volta em um arquivo de imagem visível (PNG, JPG, GIF, etc.) que você pode visualizar e baixar para o seu computador.",
+        "p1": "Encontrou uma longa string de caracteres aleatórios começando com <code>data:image/...</code> e não sabe o que é? Provavelmente é uma imagem codificada em Base64.",
+        "p2": "Nosso <strong>Decodificador Base64 para Imagem</strong> converte essa string de texto de volta em um arquivo de imagem visível (PNG, JPG, GIF, etc.) que você pode visualizar e baixar.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Instant Preview",
-            "f1_desc": "See the image immediately. We parse the binary data and render it on your screen.",
-            "f2_title": "Auto-Detection",
-            "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
-            "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "title": "Recursos Principais",
+            "f1_title": "Pré-visualização Instantânea",
+            "f1_desc": "Veja a imagem imediatamente. Analisamos os dados binários e renderizamos na sua tela.",
+            "f2_title": "Detecção Automática",
+            "f2_desc": "Detectamos automaticamente o formato do arquivo (PNG, JPEG, GIF) a partir do cabeçalho da string Base64.",
+            "f3_title": "Baixar Arquivo",
+            "f3_desc": "Salve o resultado decodificado como um arquivo de imagem real no seu computador com um clique."
         },
         "how_to": {
             "title": "Como Decodificar?",
-            "step1_title": "Step 1",
-            "step1_desc": "Paste your Base64 string into the textarea.",
-            "step2_title": "Step 2",
-            "step2_desc": "We instantly attempt to read the string.",
-            "step3_title": "Step 3",
-            "step3_desc": "If valid, the image appears on the left.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "step1_title": "Passo 1",
+            "step1_desc": "Cole sua string Base64 na área de texto.",
+            "step2_title": "Passo 2",
+            "step2_desc": "A ferramenta tenta ler a string instantaneamente.",
+            "step3_title": "Passo 3",
+            "step3_desc": "Se válida, a imagem aparece à esquerda.",
+            "step4_title": "Passo 4",
+            "step4_desc": "Clique em \"Baixar Imagem\" para salvá-la."
+        },
+        "faq": {
+            "title": "Perguntas Frequentes",
+            "q1": "Como funciona o conversor Base64 para Imagem?",
+            "a1": "Esta ferramenta recebe uma string codificada em Base64 como entrada e a decodifica de volta ao formato de imagem binária original.",
+            "q2": "Quais formatos de imagem posso decodificar?",
+            "a2": "A ferramenta suporta todos os formatos de imagem web comuns, incluindo PNG, JPG (JPEG), GIF, WEBP, BMP e SVG.",
+            "q3": "Esta ferramenta é gratuita?",
+            "a3": "Sim, nosso decodificador Base64 para Imagem é 100% gratuito, sem limites de conversões.",
+            "q4": "É seguro?",
+            "a4": "Sim. O processo de decodificação é executado no lado do cliente, no seu navegador. Não armazenamos suas imagens.",
+            "q5": "E se minha string Base64 for inválida?",
+            "a5": "Se a string estiver corrompida ou incompleta, a ferramenta exibirá uma mensagem de erro."
         },
         "use_cases": {
             "title": "Casos de Uso Comuns",
             "list": [
                 "Depuração: Verificar quais dados de imagem estão sendo enviados em respostas de API ou armazenados em bancos de dados.",
                 "Recuperação: Extrair imagens incorporadas em arquivos CSS ou templates HTML.",
-                "Verificação: Garantir que uma string Base64 não esteja corrompida."
+                "Verificação: Garantir que uma string Base64 não está corrompida."
             ]
         }
     },

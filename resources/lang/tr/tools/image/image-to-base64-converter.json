@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Image to Base64 Converter - Ücretsiz Çevrimiçi Dizi Aracı",
-        "description": "HTML veya CSS'ye gömmek için görüntüleri Base64 kodlu dizelere dönüştürün. PNG, JPG, GIF destekleyen ücretsiz çevrimiçi araç.",
-        "h1": "Görüntüyü Base64 String'e Dönüştür",
-        "subtitle": "HTML veya CSS'ye gömmek için görüntüleri Base64 kodlu dizelere dönüştürün"
+        "title": "Görüntüden Base64'e Çevirici - Ücretsiz Online Araç",
+        "description": "Görüntüleri HTML veya CSS'ye gömmek için Base64 dizelerine dönüştürün. Ücretsiz, PNG, JPG, GIF destekler.",
+        "h1": "Görüntüyü Base64'e Dönüştür",
+        "subtitle": "Görüntüleri HTML veya CSS için Base64 kodlu dizelere dönüştürün"
     },
     "input": {
         "title": "Görüntü Yükle",
@@ -12,43 +12,56 @@
         "drop_desc": "Tüm Görüntü Formatlarını Destekler"
     },
     "editor": {
-        "image_alt": "Preview",
+        "image_alt": "Önizleme",
         "label_string": "Base64 Dizesi",
         "btn_copy": "Panoya Kopyala",
         "char_count": "Karakter Sayısı",
         "mime_type": "MIME Türü"
     },
     "content": {
-        "title": "Görüntüyü Base64 Dizesine Dönüştür",
-        "p1": "Geliştiriciler ve web tasarımcıları, HTTP isteklerini azaltmak için genellikle görüntüleri doğrudan HTML veya CSS dosyalarına gömmeye ihtiyaç duyarlar.",
-        "p2": "<strong>Görüntüden Base64'e Dönüştürücümüz<\/strong>, görüntü dosyanızı ikili verileri temsil eden uzun bir karakter dizisine kodlar. Bu dizeyi doğrudan kodunuza yapıştırabilirsiniz.",
+        "title": "Görüntüyü Base64'e Dönüştür",
+        "p1": "Geliştiriciler HTTP isteklerini azaltmak için görüntüleri doğrudan HTML veya CSS dosyalarına gömmek ister.",
+        "p2": "<strong>Görüntüden Base64'e Çeviricimiz</strong> görüntü dosyanızı doğrudan kodunuza yapıştırabileceğiniz uzun bir karakter dizesine kodlar.",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Clipboard Ready",
-            "f1_desc": "One-click copy. We format the output for HTML (`&lt;img src=\"...\"&gt;`) or CSS (`background: url(...)`).",
-            "f2_title": "Reduce Requests",
-            "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
-            "f3_title": "Any Format",
-            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
+            "title": "Temel Özellikler",
+            "f1_title": "Kopyalamaya Hazır",
+            "f1_desc": "Tek tıkla kopyalayın. HTML veya CSS için formatlanmış çıktı.",
+            "f2_title": "İstekleri Azaltın",
+            "f2_desc": "Küçük simgeleri Base64 olarak gömmek ağ yükünü ortadan kaldırır.",
+            "f3_title": "Her Format",
+            "f3_desc": "PNG, JPG, GIF, WEBP, SVG ve ICO ile çalışır."
         },
         "how_to": {
             "title": "Nasıl Kullanılır?",
-            "step1_title": "Step 1",
-            "step1_desc": "Select your image file.",
-            "step2_title": "Step 2",
-            "step2_desc": "The tool immediately converts the file to a Data URI.",
-            "step3_title": "Step 3",
-            "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
-            "step4_title": "Step 4",
-            "step4_desc": "Insert it into your `src` attribute or CSS file."
+            "step1_title": "Adım 1",
+            "step1_desc": "Görüntü dosyanızı seçin.",
+            "step2_title": "Adım 2",
+            "step2_desc": "Araç hemen Data URI'ye dönüştürür.",
+            "step3_title": "Adım 3",
+            "step3_desc": "\"Panoya Kopyala\"ya tıklayın.",
+            "step4_title": "Adım 4",
+            "step4_desc": "`src` özelliğine veya CSS dosyasına yapıştırın."
         },
         "use_cases": {
-            "title": "Ne Zaman Base64 Kullanılmalı?",
+            "title": "Base64 Ne Zaman Kullanılır?",
             "list": [
-                "Küçük Görüntüler: Simgeler, yükleme animasyonları ve küçük logolar (10KB altı) için en iyisidir.",
-                "Tek Dosyalı Uygulamalar: Her şeyi tek bir HTML dosyasında toplamanız gerektiğinde (örn. e-posta şablonları).",
-                "Çevrimdışı Erişim: HTML yerel olarak kaydedilirse, bir ağ bağlantısı olmasa bile görüntülerin yüklenmesini sağlar."
+                "Küçük Görüntüler: Simgeler ve logolar için en iyi (10KB altı).",
+                "Tek Dosya Uygulamalar: Her şey bir HTML dosyasında olmalıyken.",
+                "Çevrimdışı Erişim: Ağ bağlantısı olmadan görüntülerin yüklenmesini sağlar."
             ]
+        },
+        "faq": {
+            "title": "Sık Sorulan Sorular",
+            "q1": "Base64 kodlama nedir?",
+            "a1": "Base64, ikili verileri yazdırılabilir metin karakterleriyle temsil etmenin bir yoludur.",
+            "q2": "Dosya boyutunu artırır mı?",
+            "a2": "Evet, ~%33 artırır. Sadece küçük görüntüler için önerilir.",
+            "q3": "Hangi tarayıcılar Data URI destekler?",
+            "a3": "Tüm modern tarayıcılar ve IE8+.",
+            "q4": "Güvenli mi?",
+            "a4": "Evet, dönüştürme tarayıcınızda gerçekleşir.",
+            "q5": "Büyük görüntüleri dönüştürebilir miyim?",
+            "a5": "Teknik olarak evet, ama önerilmez."
         }
     },
     "js": {

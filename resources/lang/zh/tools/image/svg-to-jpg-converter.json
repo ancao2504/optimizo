@@ -1,61 +1,40 @@
 {
     "meta": {
-        "title": "SVG to JPG Converter - Free Online Image Converter",
-        "description": "Convert SVG images to JPG format instantly in your browser. Fast, free, and secure conversion.",
-        "h1": "SVG to JPG Converter",
-        "subtitle": "Transform SVG images into universally compatible JPGs."
+        "title": "SVG转JPG转换器 - 免费在线工具",
+        "description": "将SVG矢量图转换为JPG格式。快速、免费且安全。",
+        "h1": "SVG转JPG转换器",
+        "subtitle": "将SVG矢量图转换为通用的JPG格式。"
     },
     "input": {
-        "title": "Convert SVG to JPG",
-        "desc": "Upload your SVG images and convert them to standard JPG files instantly.",
-        "drop_title": "Drag & Drop SVG file here",
-        "drop_desc": "or click to browse photos"
+        "title": "转换SVG为JPG",
+        "desc": "上传SVG文件。",
+        "drop_title": "将SVG文件拖放到此处",
+        "drop_desc": "或点击浏览"
     },
     "editor": {
-        "image_alt": "Preview",
-        "note": "Note:",
-        "note_text": "Transparent backgrounds will be filled with white color.",
-        "output_format": "Output Format:",
-        "scale_label": "Resolution Multiplier (Scale)",
-        "scale_1": "1x (Original Size)",
-        "scale_2": "2x (High Res)",
-        "scale_4": "4x (Ultra Res)",
-        "btn_convert": "Convert to JPG & Download"
+        "original": "原图",
+        "image_alt": "预览",
+        "quality": "质量",
+        "width": "宽度",
+        "height": "高度",
+        "btn_download": "下载JPG"
     },
     "content": {
-        "title": "将 SVG 转换为 JPG 格式",
-        "p1": "需要在不支持矢量文件的文档或网站中使用 Logo？我们的 <strong>SVG 转 JPG 转换器<\/strong> 能够解决您的燃眉之急。",
-        "p2": "它能基于矢量源文件生成一个高兼容性的位图文件。我们会自动添加整洁的白色背景来处理透明度，确保您的图形在任何介质上都显得专业且易于阅读。",
+        "title": "免费SVG转JPG转换器",
+        "p1": "将SVG矢量图转换为JPG。非常适合将矢量图形分享为光栅图。",
+        "p2": "所有处理均在<strong>浏览器本地</strong>完成。",
         "features": {
-            "title": "Key Features",
-            "f1_title": "Maximum Compatibility",
-            "f1_desc": "JPG is opened by literally every digital device and software created in the last 30 years.",
-            "f2_title": "4x High Resolution",
-            "f2_desc": "Scale up your SVG before saving to ensure your JPG is sharp, not blurry.",
-            "f3_title": "Secure Client-Side",
-            "f3_desc": "Processing happens in your browser. We never see your files."
-        },
-        "how_to": {
-            "title": "操作指南",
-            "step1_title": "Step 1",
-            "step1_desc": "Click \"Upload\" or drag your file to the center box.",
-            "step2_title": "Step 2",
-            "step2_desc": "Choose a scaling factor (e.g., 2x or 4x) for higher quality results.",
-            "step3_title": "Step 3",
-            "step3_desc": "Observe the image. Note that transparent backgrounds are now white.",
-            "step4_title": "Step 4",
-            "step4_desc": "Click \"Convert to JPG & Download\"."
-        },
-        "why": {
-            "title": "处理矢量图时，为什么 JPG 有时优于 PNG？",
-            "p1": "虽然 PNG 支持透明度，但 JPG 在处理颜色复杂的精美图像时，文件体积更小。",
-            "list": [
-                "文件更小：更适合作为电子邮件附件发送。",
-                "规避透明度兼容问题：某些第三方查看器会将透明区域显示为黑色。JPG 强制填充白色背景，确保 Logo 永远清晰可见。"
-            ]
+            "title": "主要功能",
+            "f1_title": "高质量渲染",
+            "f1_desc": "SVG以高质量渲染。",
+            "f2_title": "可配置尺寸",
+            "f2_desc": "设置所需的宽度和高度。",
+            "f3_title": "本地处理",
+            "f3_desc": "文件不会离开您的设备。"
         }
     },
     "js": {
-        "invalid_image": "请上传有效的 SVG 图片"
+        "error_conversion": "转换错误：",
+        "success_conversion": "转换完成！"
     }
 }
