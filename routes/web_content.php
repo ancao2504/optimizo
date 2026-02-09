@@ -56,6 +56,7 @@ use App\Http\Controllers\Tools\Development\JwtDecoderController;
 use App\Http\Controllers\Tools\Development\MarkdownToHtmlConverterController;
 use App\Http\Controllers\Tools\Development\Md5GeneratorController;
 use App\Http\Controllers\Tools\Development\HashGeneratorController;
+use App\Http\Controllers\Tools\Development\HtpasswdGeneratorController;
 use App\Http\Controllers\Tools\Development\SqlToJsonConverterController;
 use App\Http\Controllers\Tools\Development\UnicodeEncoderDecoderController;
 use App\Http\Controllers\Tools\Development\UrlEncoderDecoderController;
@@ -526,6 +527,10 @@ Route::prefix('tools')->group(function () use ($n) {
         Route::get($ht, [HashGeneratorController::class, 'index'])->defaults('slug', $ht)->name($n('development.' . $ht));
         Route::post($ht, [HashGeneratorController::class, 'process'])->defaults('slug', $ht)->name($n('development.' . $ht . '.generate'));
     }
+
+    // htpasswd Generator
+    Route::get('htpasswd-generator', [HtpasswdGeneratorController::class, 'index'])->name($n('development.htpasswd-generator'));
+    Route::post('htpasswd-generator', [HtpasswdGeneratorController::class, 'process'])->name($n('development.htpasswd-generator.generate'));
 });
 
 // Converters Tools

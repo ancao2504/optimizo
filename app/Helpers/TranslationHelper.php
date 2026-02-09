@@ -94,6 +94,7 @@ if (!function_exists('__tool')) {
             'snefru-hash-generator' => 'development',
             'haval128-hash-generator' => 'development',
             'gost-hash-generator' => 'development',
+            'htpasswd-generator' => 'development',
             'meta-tag-analyzer' => 'seo',
             'molar-mass-converter' => 'converters',
             'morse-to-text-converter' => 'text',
