@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "CRC-32B Hash Generator - मुफ्त ऑनलाइन टूल",
+        "description": "किसी भी टेक्स्ट से CRC-32B (IEEE 802.3) checksums जनरेट करें। Ethernet, ZIP, और PNG में उपयोग होने वाला स्टैंडर्ड CRC। मुफ्त, तुरंत, और प्राइवेट।",
+        "h1": "CRC-32B हैश जेनरेटर",
+        "subtitle": "IEEE 802.3 स्टैंडर्ड polynomial उपयोग करके CRC-32B checksums जनरेट करें"
+    },
+    "editor": {
+        "label_input": "टेक्स्ट दर्ज करें",
+        "ph_input": "CRC-32B hash जनरेट करने के लिए टेक्स्ट दर्ज करें...",
+        "btn_generate": "CRC-32B Hash जनरेट करें",
+        "label_result": "CRC-32B हैश",
+        "btn_copy": "कॉपी करें"
+    },
+    "content": {
+        "hero_title": "CRC-32B हैश जेनरेटर",
+        "hero_subtitle": "ज़िप، PNG और ईथरनेट फ्रेम में उपयोग",
+        "p1": "CRC-32B, CRC-32 फैमिली का सबसे व्यापक रूप से उपयोग होने वाला variant है, जो IEEE 802.3 polynomial (0x04C11DB7) उपयोग करता है। यह Ethernet networking, ZIP archives, PNG images, और अनगिनत अन्य protocols में स्टैंडर्ड checksum है। जब लोग प्रैक्टिस में 'CRC-32' कहते हैं, तो वे लगभग हमेशा CRC-32B मतलब करते हैं। यह टूल बिल्कुल वही checksums जनरेट करता है जो WinZip, 7-Zip, और दुनिया भर के network hardware द्वारा उपयोग होते हैं।",
+        "what_title": "CRC-32B क्या है?",
+        "what_desc": "CRC-32B generator polynomial 0x04C11DB7 उपयोग करता है, जो IEEE 802.3 द्वारा Ethernet के लिए standardize किया गया। 'B' suffix इसे अलग polynomials उपयोग करने वाले अन्य CRC-32 variants से अलग करता है। यह CRC-32 के समान mathematical गारंटी प्रदान करता है लेकिन आधुनिक ऐप्लिकेशन के लिए de facto स्टैंडर्ड है, जो इसे सबसे compatible विकल्प बनाता है।",
+        "features_title": "✅ CRC-32B के फायदे",
+        "features": {
+            "fast": "<strong>Industry Standard:</strong> ZIP, PNG, Ethernet द्वारा उपयोग होने वाला CRC-32 variant",
+            "fixed": "<strong>अधिकतम Compatibility:</strong> स्टैंडर्ड tools और libraries के आउटपुट से मेल",
+            "deterministic": "<strong>सिद्ध विश्वसनीयता:</strong> production systems में दशकों की deployment",
+            "support": "<strong>Hardware Accelerated:</strong> SSE 4.2 CRC32 instruction सपोर्ट"
+        },
+        "uses_title": "📊 सामान्य उपयोग के मामले",
+        "uses": {
+            "verify": "<strong>ZIP Archives:</strong> ZIP फॉर्मेट में स्टैंडर्ड फ़ाइल integrity जांच",
+            "checksum": "<strong>Ethernet:</strong> IEEE 802.3 में Frame Check Sequence",
+            "cache": "<strong>PNG Images:</strong> Chunk integrity वेरिफिकेशन",
+            "integrity": "<strong>MPEG-2:</strong> Transport stream त्रुटि पहचान"
+        },
+        "warning_title": "⚠️ महत्वपूर्ण नोट",
+        "warning_desc": "<strong>CRC-32B एक checksum है, cryptographic hash नहीं।</strong> आकस्मिक corruption का पता लगाने में उत्कृष्ट होने के बावजूद, यह जानबूझकर डेटा manipulation के खिलाफ कोई सुरक्षा प्रदान नहीं करता। Cryptographic सुरक्षा के लिए SHA-256 या SHA-512 उपयोग करें।",
+        "compare_title": "🔄 CRC-32B बनाम अन्य Variants",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "128-बिट, Merkle-Damgård",
+                "desc2": "सबसे व्यापक उपयोग होने वाला स्टैंडर्ड"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "32-bit, अलग poly",
+                "desc2": "पुराना variant, कम आम"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256-बिट, NIST मानक",
+                "desc2": "iSCSI में उपयोग, बेहतर detection"
+            }
+        },
+        "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "मुझे CRC-32 या CRC-32B उपयोग करना चाहिए?",
+            "a1": "CRC-32B उपयोग करें। यह IEEE 802.3 स्टैंडर्ड है और अधिकांश सॉफ्टवेयर और hardware implementations इसी को उपयोग करते हैं। जब documentation बिना qualification के 'CRC-32' कहती है, तो वे आमतौर पर CRC-32B मतलब करते हैं।",
+            "q2": "क्या मेरा CRC-32B WinZip/7-Zip से मेल खाएगा?",
+            "a2": "हां। CRC-32B ZIP, gzip, PNG, और वस्तुतः सभी स्टैंडर्ड tools के समान IEEE 802.3 polynomial उपयोग करता है।",
+            "q3": "क्या CRC-32B Adler-32 से बेहतर है?",
+            "a3": "CRC-32B में मजबूत error detection है, विशेष रूप से छोटे डेटा ब्लॉक के लिए। Adler-32 सॉफ्टवेयर में तेज़ है लेकिन 1000 bytes से कम डेटा के लिए कम विश्वसनीय।"
+        }
+    },
+    "js": {
+        "error_empty": "कृपया कुछ टेक्स्ट दर्ज करें",
+        "btn_copied": "कॉपी हो गया!",
+        "btn_generating": "जनरेट हो रहा है...",
+        "error_failed": "Hash generation विफल। कृपया पुनः प्रयास करें।"
+    }
+}

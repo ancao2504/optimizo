@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "JSON to SQL Converter - मुफ्त ऑनलाइन Migration टूल",
+        "description": "तुरंत JSON डेटा को SQL INSERT statements में transform करें। Database seeding और data migration के लिए परफेक्ट।",
+        "h1": "JSON से SQL कनवर्टर",
+        "subtitle": "JSON arrays और objects को valid SQL scripts में कनवर्ट करें"
+    },
+    "editor": {
+        "label_tablename": "टेबल का नाम",
+        "ph_tablename": "Table name दर्ज करें (जैसे users)",
+        "btn_convert": "SQL जनरेट करें",
+        "btn_clear": "साफ करें",
+        "btn_copy": "SQL कॉपी करें",
+        "btn_example": "उदाहरण लोड करें",
+        "label_input": "JSON इनपुट",
+        "ph_input": "अपना JSON array यहां पेस्ट करें...",
+        "label_output": "SQL आउटपुट",
+        "ph_output": "जनरेट SQL INSERT statements यहां दिखेंगे..."
+    },
+    "content": {
+        "hero_title": "आसान JSON to SQL Conversion",
+        "hero_subtitle": "Database seeding scripts जनरेट करने का सबसे तेज़ तरीका",
+        "p1": "JSON डेटा को SQL INSERT statements में कनवर्ट करना manual task नहीं होना चाहिए। हमारा JSON to SQL converter ऑटोमैटिकली आपकी JSON keys को database columns में map करके और safe insertion के लिए values escape करके भारी काम handle करता है। Data migrations, testing, या database initialization पर काम करने वाले developers के लिए एक आवश्यक टूल।",
+        "what_title": "यह टूल कब उपयोग करें?",
+        "what_desc": "अगर आपके पास JSON format में डेटा collection है—जैसे NoSQL database से export या API response—और आपको इसे MySQL, PostgreSQL, या SQL Server जैसे relational database में insert करना है, तो यह टूल आपके लिए है। यह प्रत्येक object को clean SQL statement में format करता है।",
+        "features_title": "प्रमुख विशेषताएं",
+        "features": {
+            "fast": {
+                "title": "तुरंत Generation",
+                "desc": "पल भर में सैकड़ों SQL lines जनरेट करें।"
+            },
+            "private": {
+                "title": "प्राइवेसी गारंटी",
+                "desc": "सारी प्रोसेसिंग local है। आपका संवेदनशील डेटा आपके ब्राउज़र में रहता है।"
+            },
+            "copy": {
+                "title": "एक-क्लिक Export",
+                "desc": "पूरी script कॉपी करें या अपनी migrations के लिए डाउनलोड करें।"
+            },
+            "smart": {
+                "title": "स्मार्ट डिटेक्शन",
+                "desc": "Strings में quotes और special characters ऑटोमैटिकली handle करता है।"
+            },
+            "free": {
+                "title": "100% मुफ्त",
+                "desc": "कोई सीमा नहीं, registration नहीं, कोई परेशानी नहीं।"
+            },
+            "db": {
+                "title": "डेटाबेस सपोर्ट",
+                "desc": "अधिकांश database systems के साथ compatible स्टैंडर्ड SQL जनरेट करता है।"
+            }
+        },
+        "uses_title": "प्रोफेशनल उपयोग के मामले",
+        "uses": {
+            "migration": {
+                "title": "डेटा माइग्रेशन",
+                "desc": "JSON-based systems से SQL databases में आसानी से डेटा move करें।"
+            },
+            "import": {
+                "title": "डेटा इंपोर्ट",
+                "desc": "बड़ी मात्रा में test या production डेटा तेज़ी से लोड करें।"
+            },
+            "api": {
+                "title": "API डेटा",
+                "desc": "Third-party API results सीधे SQL inserts में कनवर्ट करें।"
+            },
+            "test": {
+                "title": "टेस्ट डेटा",
+                "desc": "Development environments populate करने के लिए SQL scripts बनाएं।"
+            },
+            "backup": {
+                "title": "डेटा बैकअप",
+                "desc": "JSON backups को functional SQL scripts में बदलें।"
+            },
+            "dev": {
+                "title": "डेवलपमेंट",
+                "desc": "Development के दौरान नई database tables तेज़ी से populate करें।"
+            }
+        },
+        "how_title": "कैसे उपयोग करें",
+        "how_steps": [
+            "Target database <strong>Table Name</strong> दर्ज करें",
+            "अपना <strong>JSON</strong> पेस्ट करें (array या object होना चाहिए)",
+            "Script बनाने के लिए <strong>SQL जनरेट करें</strong> क्लिक करें",
+            "SQL आउटपुट अपने clipboard पर <strong>कॉपी</strong> करें"
+        ],
+        "faq_title": "अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "कौन सा JSON format आवश्यक है?",
+            "a1": "टूल objects के array के साथ सबसे अच्छा काम करता है, जहां प्रत्येक object एक database row represent करता है।",
+            "q2": "क्या nested objects handle करता है?",
+            "a2": "यह वर्तमान में top-level keys map करता है। Nested objects आमतौर पर आपकी DB ज़रूरतों पर निर्भर stringify या skip किए जाते हैं।",
+            "q3": "Rows पर कोई सीमा है?",
+            "a3": "कोई hard limit नहीं है, हालांकि हज़ारों rows के साथ आपके ब्राउज़र की परफॉर्मेंस vary कर सकती है।"
+        },
+        "tips_title": "Pro Tips",
+        "tips_list": [
+            "सुनिश्चित करें कि आपकी JSON keys आपके SQL column names से exactly match करें।",
+            "Production database पर चलाने से पहले हमेशा जनरेट SQL verify करें।",
+            "Expected JSON structure देखने के लिए \"उदाहरण\" बटन उपयोग करें।"
+        ]
+    },
+    "js": {
+        "error_empty": "कृपया JSON डेटा और table name दर्ज करें",
+        "success_convert": "✓ SQL सफलतापूर्वक जनरेट हो गया!",
+        "error_convert": "SQL जनरेट करने में एरर: ",
+        "error_no_copy": "कॉपी करने के लिए कोई SQL नहीं। कृपया पहले JSON कनवर्ट करें।",
+        "success_copy": "✓ SQL clipboard पर कॉपी हो गया!"
+    }
+}

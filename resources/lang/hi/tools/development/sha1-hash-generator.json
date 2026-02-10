@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-1 Hash Generator - मुफ्त ऑनलाइन टूल",
+        "description": "किसी भी टेक्स्ट से तुरंत SHA-1 hashes जनरेट करें। Git, TLS, और digital certificates में उपयोग होने वाला 160-bit cryptographic hash। मुफ्त ऑनलाइन SHA-1 generator।",
+        "h1": "SHA-1 हैश जेनरेटर",
+        "subtitle": "किसी भी टेक्स्ट से 160-bit SHA-1 cryptographic hashes जनरेट करें"
+    },
+    "editor": {
+        "label_input": "टेक्स्ट दर्ज करें",
+        "ph_input": "SHA-1 hash जनरेट करने के लिए टेक्स्ट दर्ज करें...",
+        "btn_generate": "SHA-1 Hash जनरेट करें",
+        "label_result": "SHA-1 हैश",
+        "btn_copy": "कॉपी"
+    },
+    "content": {
+        "hero_title": "SHA-1 हैश जेनरेटर",
+        "hero_subtitle": "तुरंत 160-bit SHA-1 message digests compute करें",
+        "p1": "SHA-1 (Secure Hash Algorithm 1) NSA द्वारा डिज़ाइन किया गया और 1995 में NIST द्वारा प्रकाशित किया गया। यह 160-bit (40-character hex) hash value प्रोड्यूस करता है। SHA-1 लगभग दो दशकों तक सबसे widely used hash function रहा, SSL/TLS connections, digital certificates, और version control systems secure करता रहा। 2017 से security के लिए deprecated होने के बावजूद, SHA-1 Git जैसे systems में deeply embedded बना हुआ है जहां यह content identifier के रूप में कार्य करता है।",
+        "what_title": "SHA-1 क्या है?",
+        "what_desc": "SHA-1 512-bit blocks में डेटा को 80 rounds of operations से प्रोसेस करता है, 160-bit message digest प्रोड्यूस करता है। इसे computationally infeasible होने के लिए डिज़ाइन किया गया था कि समान hash वाले दो अलग messages मिलें (collision resistance) या hash से original message reconstruct करें (preimage resistance)। Google ने 2017 में पहला practical collision attack (SHAttered) demonstrate किया।",
+        "features_title": "✅ SHA-1 विशेषताएं",
+        "features": {
+            "fast": "<strong>तेज़ प्रोसेसिंग:</strong> Modern hardware पर efficient",
+            "fixed": "<strong>160-bit आउटपुट:</strong> हमेशा 40-character hexadecimal hash प्रोड्यूस करता है",
+            "deterministic": "<strong>Widely Deployed:</strong> Git, older TLS, और legacy systems में उपयोग",
+            "support": "<strong>Well Analyzed:</strong> दशकों की cryptanalysis research"
+        },
+        "uses_title": "📊 SHA-1 कहां उपयोग होता है",
+        "uses": {
+            "verify": "<strong>Git:</strong> Content-addressable storage और commit identification",
+            "checksum": "<strong>Legacy TLS:</strong> पुराने SSL/TLS certificate signatures",
+            "cache": "<strong>HMAC-SHA1:</strong> HMAC constructions के लिए अभी भी safe माना जाता है",
+            "integrity": "<strong>File Verification:</strong> Software downloads के लिए checksums"
+        },
+        "warning_title": "⚠️ Security चेतावनी",
+        "warning_desc": "<strong>SHA-1 cryptographic security के लिए deprecated है।</strong> Google के SHAttered attack ने 2017 में practical collisions prove किए। सभी major browsers और CA/Browser Forum ने SHA-1 certificates accept करना बंद कर दिया है। नई ऐप्लिकेशन के लिए SHA-256 या SHA-512 उपयोग करें। नोट: HMAC-SHA1 HMAC construction के कारण secure बना हुआ है।",
+        "compare_title": "🔄 अन्य हैश से तुलना",
+        "compare": {
+            "md5": {
+                "title": "SHA-1",
+                "desc1": "160-bit आउटपुट",
+                "desc2": "Deprecated, collisions मिले"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256-bit आउटपुट",
+                "desc2": "अधिक सुरक्षित, NIST अनुशंसित"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512-bit आउटपुट",
+                "desc2": "Highest security, 64-bit पर faster"
+            }
+        },
+        "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "क्या SHA-1 अभी भी safe है?",
+            "a1": "Security purposes के लिए नहीं। SHA-1 collisions demonstrate हो चुके हैं। हालांकि, Git commits या non-cryptographic checksums जैसे non-security uses के लिए अभी भी ठीक है।",
+            "q2": "Git अभी भी SHA-1 क्यों उपयोग करता है?",
+            "a2": "Git SHA-1 content identifier के रूप में उपयोग करता है, security के लिए नहीं। Git SHA-256 में transition कर रहा है, लेकिन backward compatibility के लिए SHA-1 default बना हुआ है।",
+            "q3": "SHA-1 की जगह क्या उपयोग करना चाहिए?",
+            "a3": "General purposes के लिए SHA-256 या maximum security के लिए SHA-512 उपयोग करें। Password hashing के लिए, किसी भी SHA variant की जगह bcrypt या Argon2 उपयोग करें।"
+        }
+    },
+    "js": {
+        "error_empty": "कृपया कुछ टेक्स्ट दर्ज करें",
+        "btn_copied": "कॉपी हो गया!",
+        "btn_generating": "जनरेट हो रहा है...",
+        "error_failed": "Hash generation विफल। कृपया पुनः प्रयास करें।"
+    }
+}

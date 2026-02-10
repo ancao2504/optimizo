@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Adler-32 Checksum Generator - मुफ्त ऑनलाइन टूल",
+        "description": "किसी भी टेक्स्ट से तुरंत Adler-32 checksums जनरेट करें। डेटा integrity वेरिफिकेशन के लिए परफेक्ट तेज़, लाइटवेट checksum एल्गोरिदम। मुफ्त और प्राइवेट।",
+        "h1": "Adler-32 चेकसम जेनरेटर",
+        "subtitle": "तेज़ डेटा integrity जांच के लिए किसी भी टेक्स्ट से Adler-32 checksums जनरेट करें"
+    },
+    "editor": {
+        "label_input": "टेक्स्ट दर्ज करें",
+        "ph_input": "Adler-32 checksum जनरेट करने के लिए टेक्स्ट दर्ज करें...",
+        "btn_generate": "Adler-32 Checksum जनरेट करें",
+        "label_result": "Adler-32 चेकसम",
+        "btn_copy": "कॉपी करें"
+    },
+    "content": {
+        "hero_title": "Adler-32 चेकसम जेनरेटर",
+        "hero_subtitle": "डेटा integrity वेरिफिकेशन के लिए अत्यंत तेज़ Adler-32 checksums जनरेट करें",
+        "p1": "Adler-32 checksum उपलब्ध सबसे तेज़ checksum एल्गोरिदम में से एक है, जिसे Mark Adler ने 1995 में डिज़ाइन किया था। यह 32-bit checksum वैल्यू प्रोड्यूस करता है और zlib compression लाइब्रेरी में व्यापक रूप से उपयोग होता है, जो gzip, PNG इमेज, और अनगिनत डेटा ट्रांसफर प्रोटोकॉल को पावर करती है। cryptographic न होते हुए भी, Adler-32 ट्रांसमिशन या स्टोरेज के दौरान आकस्मिक डेटा corruption का तेज़ी से पता लगाने में उत्कृष्ट है।",
+        "what_title": "Adler-32 क्या है?",
+        "what_desc": "Adler-32 एक checksum एल्गोरिदम है जो इनपुट डेटा पर दो 16-bit sums (A और B) कंप्यूट करता है। Sum A सभी bytes का running total प्लस 1 है, और Sum B सभी Sum A वैल्यूज़ का running total है। फाइनल checksum B × 65536 + A होता है। यह dual-sum अप्रोच इसे CRC-32 से तेज़ बनाता है जबकि अधिकांश ऐप्लिकेशन के लिए विश्वसनीय error detection प्रदान करता है।",
+        "features_title": "✅ Adler-32 के फायदे",
+        "features": {
+            "fast": "<strong>अत्यंत तेज़:</strong> सॉफ्टवेयर implementations के लिए CRC-32 से काफी तेज़",
+            "fixed": "<strong>32-bit आउटपुट:</strong> हमेशा 8-character hexadecimal checksum प्रोड्यूस करता है",
+            "deterministic": "<strong>Deterministic:</strong> समान इनपुट हमेशा समान checksum प्रोड्यूस करता है",
+            "support": "<strong>zlib स्टैंडर्ड:</strong> zlib, gzip, और PNG फ़ाइल फॉर्मेट में उपयोग"
+        },
+        "uses_title": "📊 सामान्य उपयोग के मामले",
+        "uses": {
+            "verify": "<strong>Compression:</strong> zlib/gzip डेटा streams में एकीकृत",
+            "checksum": "<strong>Network Protocols:</strong> डेटा ट्रांसफर में त्वरित integrity जांच",
+            "cache": "<strong>फ़ाइल Validation:</strong> आकस्मिक डेटा corruption का पता लगाएं",
+            "integrity": "<strong>Streaming डेटा:</strong> रियल-टाइम integrity मॉनिटरिंग"
+        },
+        "warning_title": "⚠️ महत्वपूर्ण नोट",
+        "warning_desc": "<strong>Adler-32 एक cryptographic hash नहीं है।</strong> यह स्पीड और error detection के लिए डिज़ाइन है, सुरक्षा के लिए नहीं। छोटे messages (100 bytes से कम) के साथ इसकी ज्ञात कमजोरियां हैं जहां इसकी error detection CRC-32 से कमज़ोर है। सुरक्षा उद्देश्यों के लिए SHA-256 या SHA-512 उपयोग करें।",
+        "compare_title": "🔄 Adler-32 बनाम अन्य Checksums",
+        "compare": {
+            "md5": {
+                "title": "Adler-32",
+                "desc1": "32-bit आउटपुट",
+                "desc2": "सबसे तेज़ सॉफ्टवेयर checksum"
+            },
+            "sha1": {
+                "title": "CRC-32",
+                "desc1": "32-bit आउटपुट",
+                "desc2": "बेहतर error detection, धीमा"
+            },
+            "sha256": {
+                "title": "MD5",
+                "desc1": "128-bit आउटपुट",
+                "desc2": "NIST मानक, सर्वाधिक उपयोग"
+            }
+        },
+        "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "क्या Adler-32 सुरक्षित है?",
+            "a1": "नहीं। Adler-32 एक checksum है, cryptographic hash नहीं। यह आकस्मिक errors का पता लगाने के लिए डिज़ाइन है, जानबूझकर छेड़छाड़ के लिए नहीं। सुरक्षा के लिए SHA-256 उपयोग करें।",
+            "q2": "CRC-32 की बजाय Adler-32 क्यों उपयोग करें?",
+            "a2": "Adler-32 सॉफ्टवेयर में कंप्यूट करना तेज़ है। जब स्पीड महत्वपूर्ण हो और डेटा ब्लॉक पर्याप्त बड़े (100 bytes से अधिक) हों तो विश्वसनीय detection के लिए यह आदर्श है।",
+            "q3": "Adler-32 कहां उपयोग होता है?",
+            "a3": "Adler-32 zlib compression लाइब्रेरी (gzip, PNG फॉर्मेट), rsync, और कई network protocols में त्वरित डेटा integrity वेरिफिकेशन के लिए उपयोग होता है।"
+        }
+    },
+    "js": {
+        "error_empty": "कृपया कुछ टेक्स्ट दर्ज करें",
+        "btn_copied": "कॉपी हो गया!",
+        "btn_generating": "जनरेट हो रहा है...",
+        "error_failed": "Hash generation विफल। कृपया पुनः प्रयास करें।"
+    }
+}

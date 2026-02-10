@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "HTML Encoder & Decoder - मुफ्त ऑनलाइन Entity टूल",
+        "description": "XSS attacks रोकने के लिए हमारे मुफ्त ऑनलाइन टूल से HTML entities encode और decode करें",
+        "h1": "HTML एनकोडर और डिकोडर",
+        "subtitle": "XSS attacks रोकने के लिए HTML entities encode और decode करें"
+    },
+    "editor": {
+        "mode_encode": "HTML Encode करें",
+        "mode_decode": "HTML Decode करें",
+        "label_input_encode": "Encode करने के लिए HTML दर्ज करें",
+        "ph_input_encode": "एनकोड करने के लिए HTML दर्ज करें...",
+        "btn_encode": "HTML Encode करें",
+        "btn_clear": "साफ करें",
+        "btn_copy": "कॉपी करें",
+        "label_output_encode": "एनकोडेड आउटपुट",
+        "ph_output": "प्रोसेस किया गया HTML यहां दिखेगा...",
+        "label_input_decode": "Decode करने के लिए HTML दर्ज करें",
+        "label_output_decode": "डिकोडेड आउटपुट",
+        "btn_decode": "HTML Decode करें"
+    },
+    "content": {
+        "hero_title": "मुफ्त HTML Encoder & Decoder",
+        "hero_subtitle": "XSS attacks रोकने के लिए HTML entities encode और decode करें",
+        "p1": "हमारा मुफ्त HTML Encoder & Decoder टूल web pages पर सुरक्षित display के लिए HTML में special characters encode करने, या encoded HTML को उसके ओरिजिनल format में वापस decode करने में मदद करता है। Developers, security प्रोफेशनल्स, और raw HTML के साथ काम करने वाले किसी भी व्यक्ति के लिए परफेक्ट।",
+        "what_title": "🔗 HTML Encoding क्या है?",
+        "what_desc": "HTML encoding उन characters को कनवर्ट करती है जिनका HTML में विशेष अर्थ है (जैसे <, >, &, \") उनकी corresponding HTML entities में (जैसे &lt;, &gt;, &amp;, &quot;)। यह ब्राउज़र को उन्हें HTML tags के रूप में interpret करने से रोकता है, जो Cross-Site Scripting (XSS) attacks रोकने के लिए महत्वपूर्ण है।",
+        "features_title": "✨ विशेषताएं",
+        "features": {
+            "fast": {
+                "title": "तुरंत कनवर्शन",
+                "desc": "मिलीसेकंड में HTML encode या decode करें"
+            },
+            "bidirectional": {
+                "title": "द्विदिशात्मक",
+                "desc": "Special characters encode करें या entities को वापस टेक्स्ट में decode करें"
+            },
+            "privacy": {
+                "title": "प्राइवेसी फर्स्ट",
+                "desc": "सारी प्रोसेसिंग आपके ब्राउज़र में होती है"
+            },
+            "copy": {
+                "title": "एक-क्लिक कॉपी",
+                "desc": "प्रोसेस किया गया HTML तुरंत clipboard पर कॉपी करें"
+            },
+            "free": {
+                "title": "100% मुफ्त",
+                "desc": "कोई सीमा नहीं, registration की ज़रूरत नहीं"
+            },
+            "safe": {
+                "title": "सुरक्षा फोकस्ड",
+                "desc": "XSS vulnerabilities रोकने में मदद करता है"
+            }
+        },
+        "uses_title": "🎯 सामान्य उपयोग के मामले",
+        "uses": {
+            "security": {
+                "title": "🔒 सुरक्षा",
+                "desc": "Special characters encode करके XSS attacks रोकने के लिए user इनपुट sanitize करें।"
+            },
+            "display": {
+                "title": "कोड प्रदर्शन",
+                "desc": "ब्राउज़र द्वारा render किए बिना webpage पर raw HTML code display करें।"
+            },
+            "data": {
+                "title": "डेटा स्टोरेज",
+                "desc": "HTML parsing issues की चिंता के बिना databases में content सुरक्षित स्टोर करें।"
+            },
+            "email": {
+                "title": "ईमेल टेम्पलेट",
+                "desc": "HTML emails में special characters सही ढंग से render हों सुनिश्चित करें।"
+            }
+        },
+        "how_title": "📚 कैसे उपयोग करें",
+        "how_steps": {
+            "1": "इनपुट field में अपना HTML या टेक्स्ट पेस्ट करें",
+            "2": "कनवर्ट करने के लिए process बटन क्लिक करें",
+            "3": "परिणाम clipboard पर कॉपी करें",
+            "4": "Encoded/decoded परिणाम कॉपी करें और अपने HTML, XML, या web ऐप्लिकेशन में उपयोग करें।"
+        },
+        "examples_title": "💡 HTML Encoding उदाहरण",
+        "examples": {
+            "1": {
+                "title": "Quotes:",
+                "code": "\"Hello\" → &quot;Hello&quot;"
+            },
+            "2": {
+                "title": "विशेष वर्ण",
+                "code": "Tom & Jerry → Tom &amp; Jerry"
+            },
+            "3": {
+                "title": "जावास्क्रिप्ट कोड",
+                "code": "&lt;script&gt;alert(\"XSS\")&lt;/script&gt; → &amp;lt;script&amp;gt;alert(&amp;quot;XSS&amp;quot;)&amp;lt;/script&amp;gt;"
+            }
+        },
+        "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "मुझे HTML encode क्यों करना चाहिए?",
+            "a1": "Encoding ब्राउज़र को malicious scripts execute करने (XSS) से रोकने और code snippets सही ढंग से display करने के लिए सुरक्षा हेतु आवश्यक है।",
+            "q2": "कौन से characters encode होते हैं?",
+            "a2": "आवश्यक characters जैसे <, >, &, \", और ' हमेशा encode होते हैं। Extended ASCII characters भी encode हो सकते हैं।",
+            "q3": "क्या यह reversible है?",
+            "a3": "हां, decoding प्रक्रिया को बिल्कुल reverse करती है, ओरिजिनल टेक्स्ट restore करती है।"
+        }
+    },
+    "js": {
+        "error_empty": "कृपया प्रोसेस करने के लिए HTML दर्ज करें",
+        "success_encode": "✓ HTML सफलतापूर्वक encode हो गया",
+        "success_decode": "✓ HTML सफलतापूर्वक decode हो गया",
+        "error_process": "✗ HTML प्रोसेसिंग में एरर: ",
+        "error_no_copy": "कॉपी करने के लिए कोई आउटपुट नहीं",
+        "success_copy": "✓ Clipboard पर कॉपी हो गया"
+    }
+}

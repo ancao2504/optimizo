@@ -1,0 +1,57 @@
+{
+    "meta": {
+        "title": "मुफ्त CURL Command Builder - ऑनलाइन API Request टूल",
+        "description": "हमारे visual builder से आसानी से CURL commands बनाएं - syntax याद किए बिना HTTP requests बनाएं",
+        "h1": "cURL कमांड बिल्डर",
+        "subtitle": "हमारे visual builder से आसानी से CURL commands बनाएं"
+    },
+    "editor": {
+        "method_label": "Method",
+        "url_label": "URL",
+        "headers_tab": "Headers",
+        "body_tab": "बॉडी",
+        "key_ph": "Key (जैसे Authorization)",
+        "value_ph": "Value (जैसे Bearer token)",
+        "add_header": "+ Header जोड़ें",
+        "raw_data_label": "रॉ डेटा",
+        "generated_label": "जनरेट Command",
+        "btn_copy": "Command कॉपी करें"
+    },
+    "content": {
+        "main_title": "हमारे ऑनलाइन cURL Command Builder से API Requests में महारत",
+        "main_subtitle": "जटिल cURL commands visually बनाएं। अब syntax errors या flags याद करने की ज़रूरत नहीं। APIs test करें, endpoints debug करें, और तुरंत code snippets जनरेट करें।",
+        "intro": "cURL (Client URL) URLs के साथ डेटा ट्रांसफर करने के लिए developer tools का Swiss Army knife है। शक्तिशाली होते हुए भी, इसकी command-line syntax सैकड़ों flags और options के साथ भयावह हो सकती है। हमारा **ऑनलाइन cURL Command Builder** एक user-friendly visual इंटरफेस प्रदान करके इस प्रक्रिया को सरल बनाता है। चाहे आपको REST API test करना हो, webhook debug करना हो, या अपने documentation के लिए request जनरेट करना हो, यह टूल सेकंडों में valid, secure, और उपयोग के लिए तैयार cURL commands बनाने में मदद करता है। GET, POST, PUT, DELETE, और PATCH methods सपोर्ट, custom headers और JSON bodies के साथ, इसे frontend और backend developers दोनों के लिए एक आवश्यक utility बनाता है।",
+        "features_title": "हमारा cURL Builder क्यों उपयोग करें?",
+        "feature1_title": "विज़ुअल बिल्डर",
+        "feature1_desc": "Missing quotes या misplaced flags की चिंता छोड़ें। एक सरल form भरें, और हम syntax generation आपके लिए handle करते हैं।",
+        "feature2_title": "सभी Methods सपोर्ट",
+        "feature2_desc": "किसी भी RESTful API के साथ compatibility सुनिश्चित करने के लिए स्टैंडर्ड HTTP methods (GET, POST, PUT, DELETE, PATCH) का पूर्ण सपोर्ट।",
+        "feature3_title": "तुरंत कॉपी और चलाएं",
+        "feature3_desc": "Clean, bash-ready commands जनरेट करें जो आप सीधे terminal या script files में पेस्ट कर सकते हैं।",
+        "how_title": "cURL Command कैसे बनाएं",
+        "step1_title": "HTTP Method सेलेक्ट करें",
+        "step1_desc": "अपनी request के लिए उपयुक्त action चुनें (जैसे डेटा retrieve करने के लिए GET, डेटा भेजने के लिए POST)।",
+        "step2_title": "Request URL दर्ज करें",
+        "step2_desc": "पूरा API endpoint URL पेस्ट करें, https:// protocol और किसी भी query parameters सहित।",
+        "step3_title": "Headers और Body जोड़ें",
+        "step3_desc": "'Authorization' या 'Content-Type' जैसे आवश्यक headers शामिल करें, और POST/PUT requests के लिए JSON डेटा जोड़ें।",
+        "step4_title": "जनरेट Command कॉपी करें",
+        "step4_desc": "आपका command टाइप करते समय ऑटोमैटिकली बनता है। कॉपी बटन क्लिक करें और अपने terminal में चलाएं।",
+        "faq_title": "अक्सर पूछे जाने वाले प्रश्न",
+        "faq1_q": "cURL किसके लिए उपयोग होता है?",
+        "faq1_a": "cURL एक command-line टूल है जो server से या server को डेटा ट्रांसफर करने के लिए उपयोग होता है। Developers इसे APIs test करने, फाइलें डाउनलोड करने, और डेटा ट्रांसफर tasks automate करने के लिए उपयोग करते हैं।",
+        "faq2_q": "क्या इसे उपयोग करने के लिए cURL install करना होगा?",
+        "faq2_a": "नहीं, यह एक web-based builder है जो command *लिखने* में मदद करता है। command *चलाने* के लिए, आपके कंप्यूटर पर cURL install होना चाहिए (macOS, Linux, और Windows 10/11 पर पहले से install आता है)।",
+        "faq3_q": "JSON डेटा कैसे भेजें?",
+        "faq3_a": "Method के रूप में POST या PUT सेलेक्ट करें, फिर 'Request Body' tab में अपना JSON दर्ज करें। हमारा टूल ऑटोमैटिकली इसे -d flag के लिए format करता है।",
+        "faq4_q": "क्या authentication headers जोड़ सकता हूं?",
+        "faq4_a": "हां! 'Headers' tab पर जाएं और 'Authorization' key अपनी value के साथ जोड़ें (जैसे 'Bearer YOUR_TOKEN')।",
+        "faq5_q": "क्या मेरा डेटा सुरक्षित है?",
+        "faq5_a": "बिल्कुल। सारी command generation आपके ब्राउज़र में होती है। हम आपकी API keys या request डेटा स्टोर या ट्रांसमिट नहीं करते।",
+        "faq6_q": "कौन सी shell syntax उपयोग होती है?",
+        "faq6_a": "जनरेट command स्टैंडर्ड Bash syntax उपयोग करता है, Linux, macOS, और Windows पर Git Bash के साथ compatible।"
+    },
+    "js": {
+        "success_copy": "Command कॉपी हो गया!"
+    }
+}

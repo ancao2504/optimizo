@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "SHA-384 Hash Generator - मुफ्त ऑनलाइन टूल",
+        "description": "किसी भी टेक्स्ट से SHA-384 hashes जनरेट करें। 192 bits collision resistance प्रदान करने वाला truncated SHA-512 variant। मुफ्त, तुरंत, और सुरक्षित।",
+        "h1": "SHA-384 हैश जेनरेटर",
+        "subtitle": "High-security ऐप्लिकेशन के लिए 384-bit SHA-384 cryptographic hashes जनरेट करें"
+    },
+    "editor": {
+        "label_input": "टेक्स्ट दर्ज करें",
+        "ph_input": "SHA-384 hash जनरेट करने के लिए टेक्स्ट दर्ज करें...",
+        "btn_generate": "SHA-384 Hash जनरेट करें",
+        "label_result": "SHA-384 हैश",
+        "btn_copy": "कॉपी"
+    },
+    "content": {
+        "hero_title": "SHA-384 हैश जेनरेटर",
+        "hero_subtitle": "उच्च-सुरक्षा 384-bit cryptographic hashing",
+        "p1": "SHA-384 SHA-2 family का सदस्य है जो 384-bit (96-character hex) hash value प्रोड्यूस करता है। यह वास्तव में SHA-512 का truncated version है, अलग initial hash values उपयोग करता है और 512 computed bits में से केवल 384 आउटपुट करता है। SHA-384 government और financial systems में उपयोग होता है जिन्हें SHA-256 से higher security चाहिए लेकिन SHA-512 का full 512-bit आउटपुट excessive है। यह TLS cipher suites और digital signature standards में specified है।",
+        "what_title": "SHA-384 क्या है?",
+        "what_desc": "SHA-384 internally SHA-512 जैसा exact same algorithm उपयोग करता है — 1024-bit blocks में डेटा को 64-bit words पर 80 rounds of operations से प्रोसेस करता है। अंतर initialization vectors (अलग starting values) और final आउटपुट 384 bits तक truncated होने में है। इससे SHA-512 results का उपयोग SHA-384 results derive करने के लिए या इसके विपरीत impossible हो जाता है।",
+        "features_title": "✅ SHA-384 के फायदे",
+        "features": {
+            "fast": "<strong>192-bit Security:</strong> SHA-256 से higher collision resistance",
+            "fixed": "<strong>384-bit आउटपुट:</strong> 96-character hexadecimal digest",
+            "deterministic": "<strong>64-bit Optimized:</strong> 64-bit operations उपयोग, modern CPUs पर fast",
+            "support": "<strong>Government Approved:</strong> Sensitive ऐप्लिकेशन के लिए NIST recommended"
+        },
+        "uses_title": "📊 सामान्य उपयोग के मामले",
+        "uses": {
+            "verify": "<strong>TLS Cipher Suites:</strong> ECDHE-RSA-AES256-SHA384 में उपयोग",
+            "checksum": "<strong>Digital Signatures:</strong> उच्च-सुरक्षा दस्तावेज़ हस्ताक्षर",
+            "cache": "<strong>Government Systems:</strong> FIPS 180-4 compliant ऐप्लिकेशन",
+            "integrity": "<strong>Financial Protocols:</strong> Banking और payment security"
+        },
+        "warning_title": "💡 SHA-384 कब उपयोग करें",
+        "warning_desc": "<strong>SHA-384 security level में SHA-256 और SHA-512 के बीच है।</strong> SHA-384 चुनें जब आपकी security requirements SHA-256 की 128-bit collision resistance से अधिक हों, या जब आपको SHA-512 की 64-bit performance चाहिए लेकिन shorter आउटपुट चाहिए। अधिकांश ऐप्लिकेशन के लिए, SHA-256 पर्याप्त है।",
+        "compare_title": "🔄 अन्य हैश से तुलना",
+        "compare": {
+            "md5": {
+                "title": "SHA-256",
+                "desc1": "128-बिट, Merkle-Damgård",
+                "desc2": "तेज़ लेकिन असुरक्षित"
+            },
+            "sha1": {
+                "title": "SHA-384",
+                "desc1": "160-बिट, deprecated",
+                "desc2": "कोलिशन अटैक सिद्ध"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "256-बिट, NIST मानक",
+                "desc2": "NIST मानक, सर्वाधिक उपयोग"
+            }
+        },
+        "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "SHA-256 की जगह SHA-384 क्यों उपयोग करें?",
+            "a1": "SHA-384 SHA-256 की 128 bits के मुकाबले 192 bits collision resistance प्रदान करता है। यह internally SHA-512 भी चलाता है, जो 64-bit processors पर faster है, इसे अधिक secure और potentially faster दोनों बनाता है।",
+            "q2": "क्या SHA-384 बस truncated SHA-512 है?",
+            "a2": "हां, लेकिन अलग initial values के साथ। इसका मतलब है कि समान डेटा के SHA-512 hash से SHA-384 hash derive नहीं कर सकते। वे same core algorithm share करने के बावजूद independent हैं।",
+            "q3": "SHA-384 कहां required है?",
+            "a3": "SHA-384 अक्सर government (Suite B cryptography), financial systems, और TLS configurations में required होता है जहां 256-bit से higher security mandated है।"
+        }
+    },
+    "js": {
+        "error_empty": "कृपया कुछ टेक्स्ट दर्ज करें",
+        "btn_copied": "कॉपी हो गया!",
+        "btn_generating": "जनरेट हो रहा है...",
+        "error_failed": "Hash generation विफल। कृपया पुनः प्रयास करें।"
+    }
+}

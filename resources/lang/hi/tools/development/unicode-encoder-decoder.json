@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "title": "Unicode Encoder & Decoder - मुफ्त ऑनलाइन Text टूल",
+        "description": "हमारे मुफ्त टूल से JavaScript और JSON के लिए Unicode escape sequences encode और decode करें।",
+        "h1": "Unicode एनकोडर और डिकोडर",
+        "subtitle": "JavaScript और JSON के लिए Unicode escape sequences encode और decode करें"
+    },
+    "editor": {
+        "btn_encode": "एनकोड करें",
+        "btn_decode": "डिकोड करें",
+        "label_input_encode": "Encode करने के लिए टेक्स्ट दर्ज करें",
+        "ph_input": "Hello 世界",
+        "btn_process_encode": "एनकोड करें",
+        "btn_clear": "साफ करें",
+        "btn_copy": "कॉपी",
+        "label_output_encoded": "एनकोडेड आउटपुट",
+        "ph_output": "Processed Unicode यहां दिखेगा...",
+        "label_input_decode": "Decode करने के लिए Unicode दर्ज करें",
+        "label_output_decoded": "डिकोडेड टेक्स्ट",
+        "btn_process_decode": "डिकोड करें"
+    },
+    "content": {
+        "p1": "हमारा मुफ्त Unicode Encoder & Decoder टूल JavaScript, JSON, और अन्य programming contexts में safe उपयोग के लिए टेक्स्ट को Unicode escape sequences (e.g., \\u0041) में encode करने, या उन्हें वापस readable text में decode करने में मदद करता है। Developers, data analysts, और international character sets के साथ काम करने वाले सभी के लिए परफेक्ट। 100% मुफ्त, client-side processing आपके डेटा को private रखती है।",
+        "what_title": "Unicode Encoding क्या है?",
+        "what_desc": "Unicode encoding characters को उनके corresponding Unicode code points में convert करती है, अक्सर \\uXXXX जैसे escape sequences के रूप में represented। यह सुनिश्चित करता है कि special characters, emojis, या non-Latin scripts वाला text ऐसे environments में safely represent हो सके जो typically केवल ASCII support करते हैं, जैसे source code files या JSON data।",
+        "features_title": "विशेषताएं",
+        "features": {
+            "instant": {
+                "title": "तुरंत Conversion",
+                "desc": "मिलीसेकंड में Unicode encode या decode करें"
+            },
+            "bidirectional": {
+                "title": "द्विदिशात्मक",
+                "desc": "Unicode format में encode या वापस original में decode करें"
+            },
+            "privacy": {
+                "title": "प्राइवेसी फर्स्ट",
+                "desc": "सारी processing आपके ब्राउज़र में होती है"
+            },
+            "copy": {
+                "title": "एक-क्लिक कॉपी",
+                "desc": "Encoded/decoded text तुरंत कॉपी करें"
+            },
+            "free": {
+                "title": "100% मुफ्त",
+                "desc": "कोई सीमा नहीं, registration required नहीं"
+            },
+            "universal": {
+                "title": "यूनिवर्सल सपोर्ट",
+                "desc": "सभी Unicode characters और scripts के साथ काम करता है"
+            }
+        },
+        "uses_title": "सामान्य उपयोग के मामले",
+        "uses": {
+            "programming": {
+                "title": "प्रोग्रामिंग",
+                "desc": "JavaScript या Java source code में special characters safely embed करें"
+            },
+            "data": {
+                "title": "डेटा स्टोरेज",
+                "desc": "JSON में non-ASCII characters की safe transmission सुनिश्चित करें"
+            },
+            "international": {
+                "title": "अंतर्राष्ट्रीयकरण",
+                "desc": "विभिन्न languages और scripts में text debug और display करें"
+            },
+            "security": {
+                "title": "Security",
+                "desc": "Unicode escapes वाले obfuscated code या data analyze करें"
+            }
+        },
+        "how_to_title": "कैसे उपयोग करें",
+        "how_to": {
+            "step1": {
+                "title": "Mode चुनें",
+                "desc": "अपनी ज़रूरत के अनुसार \"Encode Unicode\" या \"Decode Unicode\" चुनें"
+            },
+            "step2": {
+                "title": "टेक्स्ट दर्ज करें",
+                "desc": "इनपुट field में अपना text या Unicode escapes पेस्ट करें"
+            },
+            "step3": {
+                "title": "प्रोसेस करें",
+                "desc": "Encode या decode बटन क्लिक करें"
+            },
+            "step4": {
+                "title": "Result कॉपी करें",
+                "desc": "Processed text clipboard पर कॉपी करने के लिए \"Copy\" क्लिक करें"
+            },
+            "step5": {
+                "title": "कहीं भी उपयोग करें",
+                "desc": "Result अपने code या application में पेस्ट करें"
+            }
+        },
+        "examples_title": "Unicode उदाहरण",
+        "examples": {
+            "simple": {
+                "title": "साधारण टेक्स्ट",
+                "desc": "बेसिक यूनिकोड कन्वर्शन"
+            },
+            "special": {
+                "title": "विशेष वर्ण",
+                "desc": "गणित और प्रतीक"
+            },
+            "emoji": {
+                "title": "इमोजी",
+                "desc": "Original: \"🌟\" → Encoded: \"\\uD83C\\uDF1F\" (surrogate pairs) या \"\\u2B50\" representation के आधार पर"
+            }
+        },
+        "faq_title": "अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "Unicode escape sequences क्यों उपयोग करें?",
+            "a1": "ये आपको केवल ASCII characters उपयोग करके कोई भी character represent करने देती हैं, जो विभिन्न systems, encodings, और file transfers में compatibility सुनिश्चित करता है जो raw Unicode correctly handle नहीं कर सकते।",
+            "q2": "कौन सा format उपयोग होता है?",
+            "a2": "यह टूल typically Basic Multilingual Plane characters के लिए JavaScript/JSON style \\uXXXX format उपयोग करता है।",
+            "q3": "क्या यह URL encoding से अलग है?",
+            "a3": "हां। URL encoding मुख्य रूप से URLs के लिए %XX hex values उपयोग करती है। Unicode escaping \\uXXXX उपयोग करती है और JavaScript, Java, और Python जैसी programming languages में strings में उपयोग होती है।",
+            "q4": "क्या मेरा डेटा सुरक्षित है?",
+            "a4": "हां! सारी encoding और decoding JavaScript उपयोग करके पूरी तरह आपके ब्राउज़र में होती है। आपका text कभी आपके डिवाइस से बाहर नहीं जाता।"
+        }
+    },
+    "js": {
+        "error_empty": "कृपया प्रोसेस करने के लिए टेक्स्ट दर्ज करें",
+        "success_encode": "✓ Unicode सफलतापूर्वक encode हो गया",
+        "success_decode": "✓ Unicode सफलतापूर्वक decode हो गया",
+        "error_process": "✗ Unicode processing में एरर: ",
+        "error_no_copy": "कॉपी करने के लिए कोई आउटपुट नहीं",
+        "success_copy": "✓ Clipboard पर कॉपी हो गया"
+    }
+}

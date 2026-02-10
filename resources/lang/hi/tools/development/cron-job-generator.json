@@ -1,0 +1,73 @@
+{
+    "meta": {
+        "title": "Cron Job Generator - मुफ्त ऑनलाइन Crontab टूल",
+        "description": "हमारे visual generator से आसानी से cron schedules बनाएं - cron syntax याद करने की ज़रूरत नहीं",
+        "h1": "क्रॉन जॉब जेनरेटर",
+        "subtitle": "हमारे visual generator से आसानी से cron schedules बनाएं"
+    },
+    "editor": {
+        "common_settings": "सामान्य सेटिंग्स",
+        "choose": "-- चुनें --",
+        "options": {
+            "every_minute": "हर Minute (* * * * *)",
+            "every_5_minutes": "हर 5 Minutes (*/5 * * * *)",
+            "every_15_minutes": "हर 15 Minutes (*/15 * * * *)",
+            "every_30_minutes": "हर 30 Minutes (*/30 * * * *)",
+            "every_hour": "हर Hour (0 * * * *)",
+            "every_day_midnight": "रोज़ Midnight पर (0 0 * * *)",
+            "every_week": "हर Week (0 0 * * 0)",
+            "every_month": "हर Month (0 0 1 * *)"
+        },
+        "minute": "Minute",
+        "every_minute": "हर Minute (*)",
+        "hour": "Hour",
+        "every_hour": "हर Hour (*)",
+        "day": "Day",
+        "every_day": "हर Day (*)",
+        "month": "Month",
+        "every_month": "हर Month (*)",
+        "weekday": "Weekday",
+        "every_weekday": "हर Weekday (*)",
+        "command": "चलाने के लिए Command",
+        "ph_command": "/usr/bin/php /path/to/script.php",
+        "generated_cron": "जनरेट Cron Expression",
+        "btn_copy": "Cron कॉपी करें",
+        "btn_clear": "रीसेट करें"
+    },
+    "content": {
+        "hero_title": "क्रॉन जॉब जेनरेटर",
+        "p1": "Cron jobs सेटअप करना cryptic asterisks और numbers के साथ भ्रामक हो सकता है। हमारा मुफ्त ऑनलाइन Cron Job Generator आपको visually परफेक्ट cron schedules बनाने देता है। चाहे आपको हर 5 minutes में script चलाना हो, midnight पर, या month के विशिष्ट दिनों पर, हमारा टूल तुरंत आपके लिए सही syntax जनरेट करता है।",
+        "features": {
+            "visual": {
+                "title": "विज़ुअल बिल्डर",
+                "desc": "सरल इंटरफेस उपयोग करके minutes, hours, days, और months सेलेक्ट करें"
+            },
+            "readable": {
+                "title": "मानव पठनीय",
+                "desc": "Cron expressions को सरल भाषा के विवरण में कनवर्ट करता है"
+            }
+        },
+        "syntax_title": "📚 Cron Syntax समझना",
+        "syntax_intro": "एक cron expression 5 fields से बना होता है जो spaces से अलग होते हैं:",
+        "syntax_fields": {
+            "min": "मिनट",
+            "hour": "Hour (0-23)",
+            "day": "दिन",
+            "month": "Month (1-12)",
+            "week": "सप्ताह का दिन"
+        },
+        "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "Cron job क्या है?",
+            "a1": "Cron job Unix-like कंप्यूटर operating systems में एक time-based job scheduler है। Users jobs (commands या scripts) को निश्चित समय, तारीख, या intervals पर periodically चलने के लिए schedule कर सकते हैं।",
+            "q2": "Cron job कैसे install करें?",
+            "a2": "आमतौर पर अपने terminal में `crontab -e` command उपयोग करके अपनी cron फ़ाइल edit करें। फिर जनरेट की गई line फ़ाइल के अंत में पेस्ट करें।",
+            "q4": "Asterisk (*) का क्या मतलब है?",
+            "a4": "Asterisk का मतलब \"हर\" है। उदाहरण के लिए, minute field में asterisk का मतलब \"हर minute\" है।"
+        }
+    },
+    "js": {
+        "success_copy": "✓ Cron expression clipboard पर कॉपी हो गया!",
+        "no_copy": "कॉपी करने के लिए कोई cron expression नहीं"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "GOST Hash Generator - मुफ्त ऑनलाइन टूल",
+        "description": "किसी भी टेक्स्ट से GOST R 34.11-94 hashes जनरेट करें। Russian federal standard 256-bit cryptographic hash function। मुफ्त, तुरंत, और प्राइवेट।",
+        "h1": "GOST हैश जेनरेटर",
+        "subtitle": "GOST R 34.11-94 hashes जनरेट करें — Russian federal cryptographic स्टैंडर्ड"
+    },
+    "editor": {
+        "label_input": "टेक्स्ट दर्ज करें",
+        "ph_input": "GOST hash जनरेट करने के लिए टेक्स्ट दर्ज करें...",
+        "btn_generate": "GOST Hash जनरेट करें",
+        "label_result": "GOST Hash",
+        "btn_copy": "कॉपी करें"
+    },
+    "content": {
+        "hero_title": "GOST R 34.11-94 Hash Generator — रूसी मानक Hash",
+        "hero_subtitle": "रूसी संघीय मानक 256-bit cryptographic hashing",
+        "p1": "GOST R 34.11-94 cryptographic hash functions के लिए Russian federal standard है (GOST = 'Gosudarstvennyy Standart', अर्थात 'State Standard')। यह 256-bit (64-character hex) hash value प्रोड्यूस करता है। Soviet युग में विकसित और 1994 में standardize, GOST hash Russian government, banking, और PKI systems में व्यापक रूप से उपयोग होता है। Russian Federation के भीतर digital signatures, document authentication, और secure communications के लिए अनिवार्य है।",
+        "what_title": "GOST Hash क्या है?",
+        "what_desc": "GOST R 34.11-94 GOST 28147-89 block cipher (DES/AES का Russian समतुल्य) पर आधारित है। यह 256-bit blocks में डेटा प्रोसेस करता है cipher-based compression steps की श्रृंखला से। एल्गोरिदम 256-bit hash state, 256-bit checksum, और 256-bit block count maintain करता है। Merkle-Damgård designs के विपरीत, GOST में अतिरिक्त सुरक्षा के लिए checksum और block count दोनों शामिल करने वाला finalization step है।",
+        "features_title": "✅ GOST Hash विशेषताएं",
+        "features": {
+            "fast": "<strong>256-bit आउटपुट:</strong> 64-character hexadecimal digest",
+            "fixed": "<strong>Russian Standard:</strong> Russian government ऐप्लिकेशन के लिए अनिवार्य",
+            "deterministic": "<strong>Cipher-Based:</strong> GOST 28147-89 block cipher पर आधारित",
+            "support": "<strong>अनूठा Design:</strong> Finalization में checksum और counter शामिल"
+        },
+        "uses_title": "📊 सामान्य उपयोग के मामले",
+        "uses": {
+            "verify": "<strong>Russian Government:</strong> आधिकारिक document authentication",
+            "checksum": "<strong>Digital Signatures:</strong> GOST R 34.10 हस्ताक्षर योजना",
+            "cache": "<strong>Banking:</strong> Russian वित्तीय transaction वेरिफिकेशन",
+            "integrity": "<strong>PKI:</strong> रूसी public key infrastructure प्रमाणपत्र"
+        },
+        "warning_title": "💡 पृष्ठभूमि",
+        "warning_desc": "<strong>GOST R 34.11-94 को नए Russian ऐप्लिकेशन के लिए GOST R 34.11-2012 (Streebog) ने supersede किया है।</strong> हालांकि, 1994 version legacy compatibility के लिए व्यापक उपयोग में बना हुआ है। S-box choices में पाई गई theoretical कमजोरियों के बावजूद एल्गोरिदम practical attacks के खिलाफ सुरक्षित माना जाता है।",
+        "compare_title": "🔄 GOST बनाम International Standards",
+        "compare": {
+            "md5": {
+                "title": "GOST R 34.11-94",
+                "desc1": "128-बिट, Merkle-Damgård",
+                "desc2": "तेज़ लेकिन असुरक्षित"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "160-बिट, deprecated",
+                "desc2": "कोलिशन अटैक सिद्ध"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256/512-bit",
+                "desc2": "NIST मानक, सर्वाधिक उपयोग"
+            }
+        },
+        "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "क्या GOST hash SHA-256 के समान है?",
+            "a1": "नहीं। दोनों 256-bit hashes प्रोड्यूस करते हैं, लेकिन वे पूरी तरह अलग internal designs उपयोग करते हैं। GOST cipher-based है (GOST 28147-89 उपयोग करता है), जबकि SHA-256 Merkle-Damgård construction उपयोग करता है। ये interchangeable नहीं हैं।",
+            "q2": "GOST hash कब उपयोग करना चाहिए?",
+            "a2": "Russian government systems, banking infrastructure, या जब GOST compliance आवश्यक हो तब GOST hash उपयोग करें। अन्य सभी उद्देश्यों के लिए SHA-256 international standard है।",
+            "q3": "GOST R 34.11-94 की जगह क्या आया?",
+            "a3": "GOST R 34.11-2012, जिसे Streebog के नाम से जाना जाता है, ने 1994 standard को replace किया। यह original की ज्ञात कमजोरियों को address करने वाले modern design के साथ 256-bit और 512-bit दोनों variants प्रदान करता है।"
+        }
+    },
+    "js": {
+        "error_empty": "कृपया कुछ टेक्स्ट दर्ज करें",
+        "btn_copied": "कॉपी हो गया!",
+        "btn_generating": "जनरेट हो रहा है...",
+        "error_failed": "Hash generation विफल। कृपया पुनः प्रयास करें।"
+    }
+}

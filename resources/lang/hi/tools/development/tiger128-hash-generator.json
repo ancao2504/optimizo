@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Tiger-128 Hash Generator - मुफ्त ऑनलाइन टूल",
+        "description": "किसी भी टेक्स्ट से Tiger-128 hashes जनरेट करें। 64-bit platforms के लिए optimized fast 128-bit hash। मुफ्त, तुरंत, और प्राइवेट।",
+        "h1": "Tiger-128 हैश जेनरेटर",
+        "subtitle": "Tiger-128 hashes जनरेट करें — 64-bit performance के लिए optimized"
+    },
+    "editor": {
+        "label_input": "टेक्स्ट दर्ज करें",
+        "ph_input": "Tiger-128 hash जनरेट करने के लिए टेक्स्ट दर्ज करें...",
+        "btn_generate": "Tiger-128 Hash जनरेट करें",
+        "label_result": "Tiger-128 हैश",
+        "btn_copy": "कॉपी"
+    },
+    "content": {
+        "hero_title": "Tiger-128 हैश जेनरेटर",
+        "hero_subtitle": "64-bit processors के लिए high-speed 128-bit hashing",
+        "p1": "Tiger-128 Tiger hash function का truncated version है, 1995 में Ross Anderson और Eli Biham द्वारा डिज़ाइन किया गया। यह full Tiger-192 आउटपुट के पहले 128 bits लेकर 128-bit (32-character hex) hash value प्रोड्यूस करता है। Tiger विशेष रूप से 64-bit platforms के लिए डिज़ाइन किया गया था, जहां यह 64-bit multiplications और S-box lookups उपयोग करके excellent performance achieve करता है। Tiger-128 file-sharing protocols और integrity verification में उपयोग होता है।",
+        "what_title": "Tiger-128 क्या है?",
+        "what_desc": "Tiger 512-bit blocks में डेटा को तीन passes में organized 24 rounds से प्रोसेस करता है। प्रत्येक pass 64 bits की 256 entries वाले चार S-boxes उपयोग करता है। Tiger-128 full 192-bit Tiger आउटपुट को 128 bits तक truncate करता है, MD5-length checksums चाहने वाली ऐप्लिकेशन के लिए shorter digest के साथ same speed प्रदान करता है।",
+        "features_title": "✅ Tiger-128 विशेषताएं",
+        "features": {
+            "fast": "<strong>64-bit Optimized:</strong> Modern 64-bit CPUs पर exceptionally fast",
+            "fixed": "<strong>128-bit आउटपुट:</strong> Compact 32-character hex digest",
+            "deterministic": "<strong>S-box Design:</strong> Strong diffusion के लिए चार large S-boxes",
+            "support": "<strong>File Sharing:</strong> ed2k और DC++ (Direct Connect) protocols में उपयोग"
+        },
+        "uses_title": "📊 सामान्य उपयोग के मामले",
+        "uses": {
+            "verify": "<strong>P2P Networks:</strong> Sharing protocols में file identification",
+            "checksum": "<strong>Integrity Checks:</strong> 64-bit systems पर fast file verification",
+            "cache": "<strong>Fingerprinting:</strong> Content-addressable storage पहचानकर्ता",
+            "integrity": "<strong>Deduplication:</strong> Duplicate files efficiently detect करना"
+        },
+        "warning_title": "⚠️ Security नोट",
+        "warning_desc": "<strong>Tiger-128 का 128-bit आउटपुट केवल 64-bit collision resistance प्रदान करता है।</strong> Collision strength में MD5 के समान। Cryptographic security के लिए, Tiger-192 या SHA-256 उपयोग करें। Tiger-128 checksums और non-security fingerprinting के लिए सबसे उपयुक्त है।",
+        "compare_title": "🔄 अन्य हैश से तुलना",
+        "compare": {
+            "md5": {
+                "title": "Tiger-128",
+                "desc1": "128-bit, 64-bit पर fast",
+                "desc2": "तेज़ लेकिन असुरक्षित"
+            },
+            "sha1": {
+                "title": "Tiger-160",
+                "desc1": "160-bit आउटपुट",
+                "desc2": "कोलिशन अटैक सिद्ध"
+            },
+            "sha256": {
+                "title": "Tiger-192",
+                "desc1": "256-बिट, NIST मानक",
+                "desc2": "NIST मानक, सर्वाधिक उपयोग"
+            }
+        },
+        "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "Tiger 64-bit के लिए क्यों डिज़ाइन किया गया?",
+            "a1": "1995 में, 64-bit processors आ रहे थे और existing hash functions (MD5, SHA-1) 32-bit के लिए optimized थीं। Tiger ने superior performance के लिए native 64-bit operations से यह gap fill किया।",
+            "q2": "Tiger-128 vs MD5 — कौन faster है?",
+            "a2": "64-bit systems पर, Tiger-128 MD5 से significantly faster है। 32-bit systems पर, MD5 अपने 32-bit-optimized design के कारण faster हो सकता है।",
+            "q3": "क्या Tiger-128 अभी भी relevant है?",
+            "a3": "यह P2P file sharing और fast checksum के रूप में उपयोग होता है। Speed चाहने वाली नई projects के लिए, BLAKE3 या xxHash विचार करें। Security के लिए, SHA-256 उपयोग करें।"
+        }
+    },
+    "js": {
+        "error_empty": "कृपया कुछ टेक्स्ट दर्ज करें",
+        "btn_copied": "कॉपी हो गया!",
+        "btn_generating": "जनरेट हो रहा है...",
+        "error_failed": "Hash generation विफल। कृपया पुनः प्रयास करें।"
+    }
+}

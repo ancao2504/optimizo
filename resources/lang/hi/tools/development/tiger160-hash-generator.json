@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Tiger-160 Hash Generator - मुफ्त ऑनलाइन टूल",
+        "description": "किसी भी टेक्स्ट से Tiger-160 hashes जनरेट करें। 64-bit systems के लिए optimized Tiger hash function का 160-bit variant। मुफ्त और तुरंत।",
+        "h1": "Tiger-160 हैश जेनरेटर",
+        "subtitle": "160-bit Tiger-160 hashes जनरेट करें — balanced speed और security"
+    },
+    "editor": {
+        "label_input": "टेक्स्ट दर्ज करें",
+        "ph_input": "Tiger-160 hash जनरेट करने के लिए टेक्स्ट दर्ज करें...",
+        "btn_generate": "Tiger-160 Hash जनरेट करें",
+        "label_result": "Tiger-160 हैश",
+        "btn_copy": "कॉपी"
+    },
+    "content": {
+        "hero_title": "Tiger-160 हैश जेनरेटर",
+        "hero_subtitle": "Balanced performance और security के लिए 160-bit Tiger hash",
+        "p1": "Tiger-160 Tiger hash family का middle variant है, जो 160-bit (40-character hex) hash value प्रोड्यूस करता है। SHA-1 की तरह, यह 160 bits आउटपुट करता है, लेकिन Tiger-160 अपने native 64-bit operations के कारण 64-bit processors पर significantly faster है। यह full Tiger-192 computation के पहले 160 bits लेता है, hash length और collision resistance के बीच अच्छा balance प्रदान करता है।",
+        "what_title": "Tiger-160 क्या है?",
+        "what_desc": "Tiger-160 Tiger-192 जैसा same algorithm उपयोग करता है लेकिन आउटपुट को 160 bits तक truncate करता है। Full Tiger algorithm 512-bit blocks को चार S-boxes उपयोग करके 24 rounds से प्रोसेस करता है। Tiger-160 80-bit collision resistance प्रदान करता है, SHA-1 के theoretical security level से match करता है लेकिन 64-bit architectures पर better performance के साथ।",
+        "features_title": "✅ Tiger-160 विशेषताएं",
+        "features": {
+            "fast": "<strong>SHA-1 Alternative:</strong> समान आउटपुट length, 64-bit पर faster",
+            "fixed": "<strong>160-bit आउटपुट:</strong> 40-character hexadecimal digest",
+            "deterministic": "<strong>80-bit Security:</strong> SHA-1 collision resistance से match",
+            "support": "<strong>64-bit Speed:</strong> Modern processors पर SHA-1 से outperform"
+        },
+        "uses_title": "📊 सामान्य उपयोग के मामले",
+        "uses": {
+            "verify": "<strong>File Verification:</strong> 64-bit systems पर fast integrity checks",
+            "checksum": "<strong>SHA-1 Replacement:</strong> 160-bit hash needs के लिए drop-in",
+            "cache": "<strong>Content Hashing:</strong> Cached content के लिए unique identifiers",
+            "integrity": "<strong>Database Indexing:</strong> कुशल hash-based खोज"
+        },
+        "warning_title": "⚠️ Security नोट",
+        "warning_desc": "<strong>Tiger-160 80-bit collision resistance प्रदान करता है</strong>, SHA-1 के समान। यह level modern recommendations (128-bit minimum) से नीचे माना जाता है। Security-critical ऐप्लिकेशन के लिए, Tiger-192 या SHA-256 उपयोग करें।",
+        "compare_title": "🔄 अन्य हैश से तुलना",
+        "compare": {
+            "md5": {
+                "title": "Tiger-160",
+                "desc1": "128-बिट, Merkle-Damgård",
+                "desc2": "64-bit CPUs पर faster"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160-बिट, deprecated",
+                "desc2": "अधिक widely supported"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "256-bit आउटपुट",
+                "desc2": "NIST मानक, सर्वाधिक उपयोग"
+            }
+        },
+        "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
+        "faq": {
+            "q1": "Tiger-160 vs SHA-1 — कौन चुनना चाहिए?",
+            "a1": "अगर 64-bit systems पर speed critical है, Tiger-160 जीतता है। Maximum compatibility के लिए, SHA-1 अधिक widely supported है। Security के लिए, दोनों नहीं — SHA-256 उपयोग करें।",
+            "q2": "क्या Tiger-160 SHA-1 से अधिक secure है?",
+            "a2": "दोनों की theoretical collision resistance समान (80 bits) है। SHA-1 के known practical collisions हैं; Tiger के अभी तक नहीं। हालांकि, Tiger को कम cryptanalysis attention मिली है।",
+            "q3": "Tiger-192 को 160 bits तक क्यों truncate करें?",
+            "a3": "कुछ protocols और systems को exactly 160-bit hashes (SHA-1 आउटपुट size से match) चाहिए। Tiger-160 Tiger की speed advantage maintain करते हुए यह compatibility प्रदान करता है।"
+        }
+    },
+    "js": {
+        "error_empty": "कृपया कुछ टेक्स्ट दर्ज करें",
+        "btn_copied": "कॉपी हो गया!",
+        "btn_generating": "जनरेट हो रहा है...",
+        "error_failed": "Hash generation विफल। कृपया पुनः प्रयास करें।"
+    }
+}
