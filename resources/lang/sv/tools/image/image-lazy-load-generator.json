@@ -1,100 +1,100 @@
 {
     "meta": {
-        "title": "Image Lazy-Load Generator - Create LQIP Placeholders",
-        "h1": "Image Lazy-Load Generator",
-        "subtitle": "Generate lightweight image placeholders and lazy-loading implementation code.",
-        "desc": "Generate low-quality image placeholders (LQIP) and lazy-loading code for your website images. Improve page speed and SEO."
+        "title": "Bild Lazy-Load Generator - Skapa LQIP platshållare",
+        "h1": "Bild Lazy-Load Generator",
+        "subtitle": "Generera lätta bildplatshållare och lazy-loading implementeringskod.",
+        "desc": "Generera bildplatshållare av låg kvalitet (LQIP) och lazy-loading-kod för dina webbplatsbilder. Förbättra sidhastighet och SEO."
     },
     "input": {
-        "title": "Generate Lazy Load Code",
-        "desc": "Upload an image to generate a lightweight placeholder and implementation code.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Generera Lazy Load-kod",
+        "desc": "Ladda upp en bild för att generera en lätt platshållare och implementeringskod.",
+        "drop_title": "Dra och släpp bild här",
+        "drop_desc": "eller klicka för att ladda upp"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "Generatorinställningar"
     },
     "result": {
-        "title": "Implementation Code",
-        "html_title": "HTML Snippet",
-        "css_title": "CSS Styles",
-        "js_title": "JavaScript Logic",
-        "btn_download": "Copy All Code"
+        "title": "Implementeringskod",
+        "html_title": "HTML-snippet",
+        "css_title": "CSS-stilar",
+        "js_title": "JavaScript-logik",
+        "btn_download": "Kopiera all kod"
     },
     "content": {
         "intro": {
-            "title": "Speed Without Compromise: Mastering the Image Lazy-Load Generator",
-            "subtitle": "Optimize your Core Web Vitals and delight your users with modern lazy-loading techniques.",
-            "p1": "In the race for a perfect Google PageSpeed score, images are often your greatest hurdle. A modern, high-definition website can easily require several megabytes of data just to display the hero section and gallery. If a browser tries to load all these images at once, it creates a massive traffic jam that delays the rendering of your text and interactive elements. Our Image Lazy-Load Generator is the professional solution to this bottleneck, allowing you to implement 'Smart Loading' that only fetches images as the user scrolls them into view.",
-            "p2": "The secret to a great lazy-loading experience isn't just 'delaying' the load; it's providing a high-quality 'Placeholder.' Instead of showing a jarring empty white box, our tool generates a Low-Quality Image Placeholder (LQIP). This is an ultra-small, blurred version of your original photo encoded in base64. Because the placeholder is tiny (often less than 1KB), it loads instantly, giving your users a beautiful, 'pulsing' preview while the high-resolution original downloads silently in the background.",
-            "p3": "Whether you are a web developer trying to hit 100 on Lighthouse, a WordPress user wanting to custom-optimize a landing page, or a shop owner with an image-heavy catalog, our online generator offers an automated, code-ready workflow. We handle the image processing and the complex JavaScript implementation, leaving you with a simple copy-paste snippet that will transform your site's performance and SEO ranking."
+            "title": "Hastighet utan kompromisser: Bemästra bild lazy-load generatorn",
+            "subtitle": "Optimera dina Core Web Vitals och gläd dina användare med moderna lazy-loading-tekniker.",
+            "p1": "I jakten på en perfekt Google PageSpeed-poäng är bilder ofta ditt största hinder. En modern, högupplöst webbplats kan enkelt kräva flera megabyte data bara för att visa hjältesektionen och galleriet. Om en webbläsare försöker ladda alla dessa bilder samtidigt skapar det en massiv trafikstockning som försenar renderingen av din text och interaktiva element. Vår bild lazy-load generator är den professionella lösningen på denna flaskhals, vilket gör att du kan implementera 'Smart Loading' som bara hämtar bilder när användaren rullar dem till synlighet.",
+            "p2": "Hemligheten till en fantastisk lazy-loading-upplevelse är inte bara att 'fördröja' laddningen; det är att tillhandahålla en högkvalitativ 'Platshållare'. Istället för att visa en skärrande tom vit låda, genererar vårt verktyg en bildplatshållare av låg kvalitet (LQIP). Detta är en extremt liten, suddig version av ditt originalfoto kodat i base64. Eftersom platshållaren är liten (ofta mindre än 1KB), laddas den omedelbart, vilket ger dina användare en vacker, 'pulserande' förhandsgranskning medan det högupplösta originalet laddas ner tyst i bakgrunden.",
+            "p3": "Oavsett om du är en webbutvecklare som försöker nå 100 på Lighthouse, en WordPress-användare som vill anpassa en landningssida, eller en butiksägare med en bildtung katalog, erbjuder vår onlinegenerator ett automatiserat, kodklart arbetsflöde. Vi hanterar bildbehandlingen och den komplexa JavaScript-implementeringen, och lämnar dig med en enkel kopiera-klistra-snippet som kommer att förvandla din webbplats prestanda och SEO-rankning."
         },
         "story": {
-            "title": "Perceived Performance: Why Lazy Loading is Essential for Modern SEO",
-            "p1": "To understand the impact of lazy loading, we must look at 'Core Web Vitals,' specifically 'Largest Contentful Paint' (LCP). Google measures how fast the largest visual element on your screen appears. If you have many images loading simultaneously, they compete for bandwidth, slowing down the LCP. By using our lazy-load generator, you prioritize the viewport. The browser ignores below-the-fold images and focuses all its power on what the user is actually looking at, resulting in a significantly faster LCP score.",
-            "p2": "The LQIP Technique (Low Quality Image Placeholder) is where our tool shines. Traditional lazy loading often causes a 'jumpy' layout when images finally pop in. Our tool solves this by creating a placeholder that has the exact same aspect ratio as the original. This 'Aspect Ratio Box' reserves the space on the page, preventing layout shifts (CLS) and providing a smooth, high-end feel that mimics the loading style of major platforms like Medium, Pinterest, and Instagram.",
-            "p3": "Base64 Encoding is the mechanism we use for speed. Instead of the browser having to make a new network request for the placeholder, we embed the placeholder data directly into the HTML code. This 'Inline' data is parsed instantly by the browser. It's the ultimate 'zero-latency' solution for image previews. Our generator creates these base64 strings automatically from your high-res uploads, ensuring they are optimized for the smallest possible byte count.",
-            "p4": "Intersection Observer API is the modern JavaScript engine behind our code snippets. In the old days, lazy loading required heavy libraries or clunky 'scroll' events that slowed down the browser. Our generated code uses the native Intersection Observer, which is a high-performance browser feature designed specifically to detect when an element enters a user's screen. It's lightweight, standardized, and works perfectly across all modern mobile and desktop browsers.",
-            "p5": "Progressive Enhancement is a key part of our philosophy. We don't just give you a script; we give you a robust implementation pattern. Our code includes a 'noscript' fallback, ensuring that users with JavaScript disabled still see your images. It also includes CSS transitions to smoothly fade the high-res image over the placeholder once it arrives, creating a polished, professional 'zoom' or 'fade' effect that enhances your site's user experience.",
-            "p6": "The Technological Edge of Our Generator Writing custom lazy-loading logic for every image on a page is incredibly time-consuming and prone to errors. You have to create the small thumbnails, encode them, build the HTML structure, and maintain the JS. Our tool handles all three dimensions of the problem in one pass. You upload the file, choose your blur level, and get a production-ready block of code that 'just works.'",
-            "p7": "Security and Performance go hand-in-hand. Your site assets and UI designs stay within your browser's local sandbox. Because the generation of the LQIP and the code construction happen via local JavaScript on our page, your images aren't uploaded to a remote server for permanent storage. You get the speed of an professional CDN tool with the privacy of a local script.",
-            "p8": "In conclusion, the Image Lazy-Load Generator is about respect for the user's data and time. It's about building a better web that is fast for everyone, regardless of their connection speed. Use our tool to optimize your visuals, boost your SEO, and create a sophisticated loading experience that makes your website stand out as a high-performance platform."
+            "title": "Upplevd prestanda: Varför Lazy Loading är avgörande för modern SEO",
+            "p1": "För att förstå effekten av lazy loading måste vi titta på 'Core Web Vitals', specifikt 'Largest Contentful Paint' (LCP). Google mäter hur snabbt det största visuella elementet på din skärm visas. Om du har många bilder som laddas samtidigt tävlar de om bandbredd, vilket saktar ner LCP. Genom att använda vår lazy-load generator prioriterar du visningsporten. Webbläsaren ignorerar bilder under vikningen och fokuserar all sin kraft på vad användaren faktiskt tittar på, vilket resulterar i en betydligt snabbare LCP-poäng.",
+            "p2": "LQIP-tekniken (Low Quality Image Placeholder) är där vårt verktyg lyser. Traditionell lazy loading orsakar ofta en 'hoppig' layout när bilder äntligen dyker upp. Vårt verktyg löser detta genom att skapa en platshållare som har exakt samma bildförhållande som originalet. Denna 'Bildförhållandelåda' reserverar utrymmet på sidan, förhindrar layoutförskjutningar (CLS) och ger en mjuk, avancerad känsla som efterliknar laddningsstilen hos stora plattformar som Medium, Pinterest och Instagram.",
+            "p3": "Base64-kodning är mekanismen vi använder för hastighet. Istället för att webbläsaren måste göra en ny nätverksbegäran för platshållaren, bäddar vi in platshållardata direkt i HTML-koden. Denna 'Inline'-data analyseras omedelbart av webbläsaren. Det är den ultimata 'noll-latens'-lösningen för bildförhandsgranskningar. Vår generator skapar dessa base64-strängar automatiskt från dina högupplösta uppladdningar, vilket säkerställer att de är optimerade för minsta möjliga byteantal.",
+            "p4": "Intersection Observer API är den moderna JavaScript-motorn bakom våra kodsnuttar. Förr krävde lazy loading tunga bibliotek eller klumpiga 'scroll'-händelser som saktade ner webbläsaren. Vår genererade kod använder den inbyggda Intersection Observer, som är en högpresterande webbläsarfunktion utformad specifikt för att upptäcka när ett element kommer in på en användares skärm. Den är lätt, standardiserad och fungerar perfekt över alla moderna mobila och stationära webbläsare.",
+            "p5": "Progressiv förbättring är en viktig del av vår filosofi. Vi ger dig inte bara ett skript; vi ger dig ett robust implementeringsmönster. Vår kod inkluderar en 'noscript'-fallback, vilket säkerställer att användare med JavaScript inaktiverat fortfarande ser dina bilder. Den innehåller också CSS-övergångar för att smidigt tona in den högupplösta bilden över platshållaren när den anländer, vilket skapar en polerad, professionell 'zoom'- eller 'fade'-effekt som förbättrar din webbplats användarupplevelse.",
+            "p6": "Den tekniska fördelen med vår generator: Att skriva anpassad lazy-loading-logik för varje bild på en sida är otroligt tidskrävande och felbenäget. Du måste skapa de små miniatyrerna, koda dem, bygga HTML-strukturen och underhålla JS. Vårt verktyg hanterar alla tre dimensionerna av problemet i ett pass. Du laddar upp filen, väljer din suddighetsnivå och får ett produktionsklart block av kod som 'bara fungerar'.",
+            "p7": "Säkerhet och prestanda går hand i hand. Dina webbplatstillgångar och UI-designer stannar inom din webbläsares lokala sandlåda. Eftersom genereringen av LQIP och kodkonstruktionen sker via lokal JavaScript på vår sida, laddas dina bilder inte upp till en fjärrserver för permanent lagring. Du får hastigheten hos ett professionellt CDN-verktyg med integriteten hos ett lokalt skript.",
+            "p8": "Sammanfattningsvis handlar bild lazy-load generatorn om respekt för användarens data och tid. Det handlar om att bygga en bättre webb som är snabb för alla, oavsett deras anslutningshastighet. Använd vårt verktyg för att optimera dina visuella bilder, öka din SEO och skapa en sofistikerad laddningsupplevelse som får din webbplats att sticka ut som en högpresterande plattform."
         },
         "features": {
-            "title": "Expert Utilities for Full-Stack Performance Optimization",
-            "f1_title": "Automated LQIP Generator",
-            "f1_desc": "Instantly creates ultra-low resolution, base64-encoded versions of your images to serve as instant, zero-latency placeholders.",
-            "f2_title": "Intersection Observer Logic",
-            "f2_desc": "Generates lean, modern vanilla JavaScript that uses the browser's native API to trigger image loading only when needed, minimizing CPU usage.",
-            "f3_title": "Aspect Ratio Preservation",
-            "f3_desc": "Calculates and includes intrinsic aspect ratio box code to prevent 'Cumulative Layout Shift' (CLS) and ensure a stable, professional page load.",
-            "f4_title": "Custom Blur Intensity",
-            "f4_desc": "Control the aesthetic of your placeholders. Choose from a subtle blur to a heavy, artistic wash to match your site's design language.",
-            "f5_title": "Modern & Legacy Fallbacks",
-            "f5_desc": "Includes standardized 'loading=lazy' attributes along with custom JS-driven observers and 'noscript' tags for maximum cross-browser compatibility.",
-            "f6_title": "Zero-Upload Local Logic",
-            "f6_desc": "All image processing and string encoding happens right in your browser. No data is stored or logged on our servers, ensuring total asset privacy."
+            "title": "Expertverktyg för fullstack-prestandaoptimering",
+            "f1_title": "Automatiserad LQIP-generator",
+            "f1_desc": "Skapar omedelbart ultralågupplösta, base64-kodade versioner av dina bilder för att fungera som omedelbara platshållare med noll latens.",
+            "f2_title": "Intersection Observer-logik",
+            "f2_desc": "Genererar mager, modern vanilla JavaScript som använder webbläsarens inbyggda API för att utlösa bildladdning endast när det behövs, vilket minimerar CPU-användning.",
+            "f3_title": "Bevarande av bildförhållande",
+            "f3_desc": "Beräknar och inkluderar inbyggd bildförhållande-boxkod för att förhindra 'Cumulative Layout Shift' (CLS) och säkerställa en stabil, professionell sidladdning.",
+            "f4_title": "Anpassad suddighetsintensitet",
+            "f4_desc": "Kontrollera estetiken för dina platshållare. Välj från en subtil suddighet till en tung, konstnärlig tvätt för att matcha din webbplats designspråk.",
+            "f5_title": "Moderna & äldre fallbacks",
+            "f5_desc": "Inkluderar standardiserade 'loading=lazy'-attribut tillsammans med anpassade JS-drivna observatörer och 'noscript'-taggar för maximal kompatibilitet över webbläsare.",
+            "f6_title": "Noll-uppladdning lokal logik",
+            "f6_desc": "All bildbehandling och strängkodning sker direkt i din webbläsare. Ingen data lagras eller loggas på våra servrar, vilket säkerställer total integritet för tillgångar."
         },
         "how_to": {
-            "title": "Master the Load: How to Implement Lazy Loading",
-            "step1_title": "Upload the High-Res Asset",
-            "step2_desc": "Drop the original image you want to optimize into the tool. It should be the final, web-ready version of the file.",
-            "step2_title": "Configure Placeholder Style",
-            "step3_desc": "Choose your preferred 'Blur' level. A higher blur creates a softer, more abstract placeholder that works well for large hero images.",
-            "step3_title": "Generate the Code Block",
-            "step4_desc": "The tool will instantly generate three sections: HTML for the image tag, CSS for the fade effect, and JS for the scroll detection.",
-            "step4_title": "Integrate into Your Page",
-            "step5_desc": "Replace your standard `<img>` tags with our generated HTML. Add the provided CSS to your stylesheet and the JS to your footer.",
-            "step5_title": "Verify Data-Src Paths",
-            "step6_desc": "Ensure the `data-src` attribute in our code points to the real location of your image file on your server or CDN.",
-            "step6_title": "Confirm and Test",
-            "step1_desc": "Refresh your site. You should see the blurred placeholder appear instantly and then smoothly fade into the full image as you scroll."
+            "title": "Bemästra laddningen: Hur man implementerar Lazy Loading",
+            "step1_title": "Ladda upp högupplöst tillgång",
+            "step1_desc": "Släpp originalbilden du vill optimera i verktyget. Det bör vara den slutliga, webbklara versionen av filen.",
+            "step2_title": "Konfigurera platshållarstil",
+            "step2_desc": "Välj din föredragna 'Suddighets'-nivå. En högre suddighet skapar en mjukare, mer abstrakt platshållare som fungerar bra för stora hjältebilder.",
+            "step3_title": "Generera kodblocket",
+            "step3_desc": "Verktyget genererar omedelbart tre sektioner: HTML för bildtaggen, CSS för toningseffekten och JS för rullningsdetekteringen.",
+            "step4_title": "Integrera på din sida",
+            "step4_desc": "Ersätt dina vanliga `<img>`-taggar med vår genererade HTML. Lägg till den medföljande CSS:en i din stilmall och JS i din sidfot.",
+            "step5_title": "Verifiera Data-Src-sökvägar",
+            "step5_desc": "Se till att `data-src`-attributet i vår kod pekar på den verkliga platsen för din bildfil på din server eller CDN.",
+            "step6_title": "Bekräfta och testa",
+            "step6_desc": "Uppdatera din webbplats. Du bör se den suddiga platshållaren visas omedelbart och sedan smidigt tona in i hela bilden när du rullar."
         },
         "faq": {
-            "title": "Lazy Loading Knowledge Base: Lazy-Loading Optimization FAQ",
-            "q1": "What is the benefit of using Base64 for placeholders?",
-            "a1": "Base64 allows the tiny placeholder to be loaded inside the HTML itself, meaning zero extra network requests and an 'instant' appear time.",
-            "q2": "Will lazy loading hurt my SEO?",
-            "a2": "No. In fact, it helps! Google's crawler is now very good at reading lazy-loaded images, and the performance boost will improve your Rank.",
-            "q3": "Does this tool work with WordPress?",
-            "a3": "Yes. You can use our code in 'Custom HTML' blocks or code-snippet plugins to manually optimize high-traffic landing pages.",
-            "q4": "What is the difference between this and 'loading=lazy'?",
-            "a4": "Native 'loading=lazy' is simple but provides no placeholder. Our tool adds the LQIP and fade-in effect for a much more professional feel.",
-            "q5": "Does the code require any libraries like jQuery?",
-            "a5": "No. Our generated code is 100% vanilla JavaScript, making it lightweight and future-proof with zero external dependencies.",
-            "q6": "Is this tool free for developers?",
-            "a6": "Yes! Our generator is 100% free for both personal and commercial projects, from small blogs to enterprise apps.",
-            "q7": "How do I know the placeholder is small enough?",
-            "a7": "We target a maximum size of 1KB per placeholder. Most are actually around 500 bytes, which is less than a few sentences of text.",
-            "q8": "Is responsive code generation mobile-ready?",
-            "a8": "Yes. Intersection Observer is supported by Safari, Chrome, and Firefox on all modern mobile devices (iOS and Android).",
-            "q9": "Is this generator suitable for CSS background-image properties?",
-            "a9": "This version is specifically for `<img>` tags. For background images, the principles are similar but the implementation code is different.",
-            "q10": "How do I keep my source images private?",
-            "a10": "Since our tool processes everything locally in your browser via JS, your full-resolution source data never leaves your computer."
+            "title": "Lazy Loading Kunskapsbas: Vanliga frågor om lazy-loading-optimering",
+            "q1": "Vad är fördelen med att använda Base64 för platshållare?",
+            "a1": "Base64 gör att den lilla platshållaren kan laddas inuti HTML:en själv, vilket innebär noll extra nätverksförfrågningar och en 'omedelbar' visningstid.",
+            "q2": "Kommer lazy loading att skada min SEO?",
+            "a2": "Nej. Faktum är att det hjälper! Googles sökrobot är nu mycket bra på att läsa lazy-loaded bilder, och prestandaökningen kommer att förbättra din ranking.",
+            "q3": "Fungerar detta verktyg med WordPress?",
+            "a3": "Ja. Du kan använda vår kod i 'Anpassad HTML'-block eller kodsnutt-plugins för att manuellt optimera högtrafikerade målsidor.",
+            "q4": "Vad är skillnaden mellan detta och 'loading=lazy'?",
+            "a4": "Native 'loading=lazy' är enkelt men ger ingen platshållare. Vårt verktyg lägger till LQIP och in-toningseffekt för en mycket mer professionell känsla.",
+            "q5": "Kräver koden några bibliotek som jQuery?",
+            "a5": "Nej. Vår genererade kod är 100% vanilla JavaScript, vilket gör den lätt och framtidssäker utan externa beroenden.",
+            "q6": "Är detta verktyg gratis för utvecklare?",
+            "a6": "Ja! Vår generator är 100% gratis för både personliga och kommersiella projekt, från små bloggar till företagsappar.",
+            "q7": "Hur vet jag att platshållaren är tillräckligt liten?",
+            "a7": "Vi siktar på en maximal storlek på 1KB per platshållare. De flesta är faktiskt runt 500 byte, vilket är mindre än några meningar text.",
+            "q8": "Är responsiv kodgenerering mobilklar?",
+            "a8": "Ja. Intersection Observer stöds av Safari, Chrome och Firefox på alla moderna mobila enheter (iOS och Android).",
+            "q9": "Är denna generator lämplig för CSS background-image egenskaper?",
+            "a9": "Denna version är specifikt för `<img>`-taggar. För bakgrundsbilder är principerna liknande men implementeringskoden är annorlunda.",
+            "q10": "Hur håller jag mina källbilder privata?",
+            "a10": "Eftersom vårt verktyg bearbetar allt lokalt i din webbläsare via JS, lämnar dina fullupplösta källuppgifter aldrig din dator."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Fel vid konvertering av bild: "
     }
 }

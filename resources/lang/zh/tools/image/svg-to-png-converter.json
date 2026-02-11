@@ -1,39 +1,68 @@
 {
     "meta": {
-        "title": "SVG转PNG转换器 - 免费在线工具",
-        "description": "将SVG矢量图转换为支持透明度的PNG格式。快速、免费且安全。",
-        "h1": "SVG转PNG转换器",
-        "subtitle": "将SVG矢量图转换为支持透明度的PNG格式。"
+        "title": "SVG 转 PNG 转换器 - 免费在线光栅工具",
+        "description": "立即将可缩放矢量图形 (SVG) 转换为 PNG 图片。非常适合确保与不支持矢量文件的应用程序兼容。",
+        "h1": "SVG 转 PNG 转换器",
+        "subtitle": "立即将可缩放矢量图形 (SVG) 转换为 PNG 图片"
     },
     "input": {
-        "title": "转换SVG为PNG",
-        "desc": "上传SVG文件。",
-        "drop_title": "将SVG文件拖放到此处",
-        "drop_desc": "或点击浏览"
+        "title": "上传 SVG 文件",
+        "desc": "将您的 SVG 文件拖放到此处",
+        "drop_title": "将 SVG 文件拖放到此处",
+        "drop_desc": "支持 SVG, SVGZ (最大 10MB)"
     },
     "editor": {
-        "original": "原图",
         "image_alt": "预览",
-        "width": "宽度",
-        "height": "高度",
-        "btn_download": "下载PNG"
+        "checkerboard": "棋盘背景表示透明度",
+        "output_format": "输出格式：",
+        "scale_label": "分辨率倍增器 (缩放)",
+        "scale_1": "1x (原始尺寸)",
+        "scale_2": "2x (高分辨率)",
+        "scale_4": "4x (超高分辨率)",
+        "btn_convert": "转换为 PNG 并下载"
     },
     "content": {
-        "title": "免费SVG转PNG转换器",
-        "p1": "将SVG矢量图转换为PNG，保留透明度支持。",
-        "p2": "所有处理均在<strong>浏览器本地</strong>完成。",
+        "title": "将 SVG 光栅化为 PNG 高分辨率",
+        "p1": "可缩放矢量图形 (SVG) 非常适合网络，但无法在社交媒体、Word 文档或作为电子邮件附件中使用。",
+        "p2": "我们的 <strong>SVG 转 PNG 转换器</strong> 允许您将矢量徽标或图标转换为高质量、透明的 PNG 图片。凭借我们独特的<strong>缩放功能</strong>，您可以生成超高分辨率的图片，而不会出现任何像素化。",
         "features": {
             "title": "主要功能",
-            "f1_title": "支持透明度",
-            "f1_desc": "在PNG文件中保留SVG的透明度。",
-            "f2_title": "可配置尺寸",
-            "f2_desc": "设置所需的宽度和高度。",
-            "f3_title": "本地处理",
-            "f3_desc": "文件不会离开您的设备。"
+            "f1_title": "保留透明度",
+            "f1_desc": "与 JPG 不同，PNG 保持背景透明。非常适合徽标和覆盖层。",
+            "f2_title": "高达 4 倍缩放",
+            "f2_desc": "以原始尺寸的 4 倍导出。即使对于大型打印格式也能获得清晰的边缘。",
+            "f3_title": "基于浏览器",
+            "f3_desc": "快速且安全。没有文件上传到任何服务器。"
+        },
+        "how_to": {
+            "title": "如何将 SVG 转换为 PNG？",
+            "step1_title": "步骤 1",
+            "step1_desc": "将您的 `.svg` 文件拖入上传区域。",
+            "step2_title": "步骤 2",
+            "step2_desc": "从下拉菜单中选择 `1x`, `2x` 或 `4x`。越高越好。",
+            "step3_title": "步骤 3",
+            "step3_desc": "检查左侧的预览图片。棋盘格表示透明度。",
+            "step4_title": "步骤 4",
+            "step4_desc": "点击按钮生成并下载您的 PNG。"
+        },
+        "why": {
+            "title": "为什么要转换矢量图？",
+            "p1": "矢量是数学公式，而 PNG 是像素网格。您需要像素用于：",
+            "list": [
+                "个人资料图片（Twitter/LinkedIn 经常拒绝 SVG）。",
+                "嵌入电子邮件（SVG 支持很差）。",
+                "用于视频编辑器或简单的图形工具（Canva, Paint）。"
+            ]
+        },
+        "faq": {
+            "title": "矢量转光栅见解",
+            "q1": "为什么要将 SVG 转换为 PNG？",
+            "a1": "PNG 格式在所有浏览器和应用程序中都受到普遍支持，而 SVG 可能会出现兼容性问题。转换为 PNG 对于不支持矢量图形的电子邮件签名、社交媒体和应用程序很有用。",
+            "q2": "PNG 是否像 SVG 一样支持透明度？",
+            "a2": "是的！PNG 支持透明度，使其非常适合具有透明背景的徽标和图形。从 SVG 转换为 PNG 时，我们的转换器会保留透明度。"
         }
     },
     "js": {
-        "error_conversion": "转换错误：",
-        "success_conversion": "转换完成！"
+        "invalid_image": "请上传有效的 SVG 图片"
     }
 }

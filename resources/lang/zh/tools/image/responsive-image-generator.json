@@ -3,7 +3,7 @@
         "title": "响应式图片生成器 - 在线创建 Srcset",
         "h1": "响应式图片生成器",
         "subtitle": "为所有设备生成完美尺寸的图片和 HTML srcset 代码。",
-        "desc": "Generate responsive images and HTML srcset attributes online. Create perfectly sized images for mobile, tablet, and desktop automatically."
+        "desc": "在线生成响应式图片和 HTML srcset 属性。自动为移动设备、平板电脑和台式机创建完美尺寸的图片。"
     },
     "input": {
         "title": "生成响应式图片",
@@ -15,85 +15,85 @@
         "title": "断点设置"
     },
     "result": {
-        "title": "生成的资源",
-        "assets_desc": "您调整大小的图片和集成代码已准备就绪。",
-        "btn_download_all": "全部下载 (ZIP)",
+        "title": "生成的资产",
+        "assets_desc": "您调整大小后的图片和集成代码已准备就绪。",
+        "btn_download_all": "下载全部 (ZIP)",
         "code_snippet": "复制 HTML 代码"
     },
     "content": {
         "intro": {
-            "title": "一张图片，适配所有屏幕：响应式图像专业指南",
-            "subtitle": "使用我们的自动 srcset 生成器，弥合高清质量和蜂窝网络速度之间的差距。",
-            "p1": "在现代网络环境中，您的用户使用各种硬件访问您的网站。一位访客可能使用的是带有千兆连接的 4K 桌面显示器，而另一位访客可能在地下室使用信号不稳定的 3G 网络和四年前的智能手机。如果您向两者提供相同的 4400 像素宽的英雄图片，您就在用巨大的加载时间和数据成本惩罚您的移动用户。我们的响应式图片生成器专为解决这种“一刀切”的困境而设计，允许您生成一套完美尺寸的图片和交付它们所需的智能 HTML 代码。",
-            "p2": "现代响应式设计的魔力在于 `srcset` 属性。与强迫每个管道使用单个文件的旧 `src` 属性不同，`srcset` 为浏览器提供了一个选项菜单。您提供图片，浏览器——利用其对用户屏幕宽度和分辨率的了解——挑选最有效的文件来完成工作。我们的工具自动化了调整大小、重命名和编码这些替代方案的繁琐手动工作，在几秒钟内将高分辨率主文件转换为生产就绪的响应式资源包。",
-            "p3": "Whether you're a frontend developer striving for a perfect Lighthouse score, a designer ensuring your UI is crisp on Retina displays, or a blogger wanting to make your site accessible to users around the world, our online generator offers a frictionless, professional-grade workflow. We prioritize speed, accuracy, and performance, giving you the power to build a truly 'mobile-first' experience without the manual labor of traditional asset management."
+            "title": "一张图片，每个屏幕：响应式图像的专业指南",
+            "subtitle": "使用我们的自动化 srcset 生成器弥合高清质量与蜂窝速度之间的差距。",
+            "p1": "在现代网络环境中，您的用户在各种各样的硬件上访问您。一位访客可能正在使用具有千兆连接的 4K 桌面显示器，而另一位则在地下室使用信号不佳的 3G 网络和四年前的智能手机。如果您为两者提供相同的 4400 像素宽的首屏图片，您将用巨大的加载时间和数据成本惩罚您的移动用户。我们的响应式图片生成器旨在解决这一“一刀切”的困境，允许您生成一套完美尺寸的图片以及交付它们所需的智能 HTML 代码。",
+            "p2": "现代响应式设计的魔力在于 `srcset` 属性。与旧的 `src` 属性强制通过每个管道传输单个文件不同，`srcset` 为浏览器提供了一个选项菜单。您提供图片，而浏览器——利用其对用户屏幕宽度和分辨率的了解——挑选最适合这项工作的文件。我们的工具自动化了调整大小、重命名和编码这些替代方案的繁琐手动工作，在几秒钟内将高分辨率主文件转换为生产就绪的响应式资产包。",
+            "p3": "无论您是争取完美 Lighthouse 分数的前端开发人员、确保您的 UI 在 Retina 显示器上清晰呈现的设计师，还是希望使您的网站对世界各地的用户无障碍的博主，我们的在线生成器都提供了一个顺畅的、专业级的工作流程。我们优先考虑速度、准确性和性能，让您有能力构建真正的“移动优先”体验，而无需传统资产管理的体力劳动。"
         },
         "story": {
-            "title": "无限视口：为什么响应式图片是现代 UX 的基础",
-            "p1": "要做了解我们工具的效用，您必须了解“数据浪费”。如果您在手机上以 300 像素宽显示图片，但您发送的文件是 2000 像素宽，那么您发送的数据大约是必要的 40 倍。这种“过度服务”是移动设备上高跳出率的主要原因。我们的生成器创建“断点”——即图片改变大小的特定宽度——确保每个用户获得“足够”的像素以看起来完美，而不会多出一个字节。",
-            "p2": "“密度”因素是另一个关键层。现代手机拥有“Retina”或“高 DPI”屏幕，需要比标准显示器多两倍的细节。如果您只为移动设备提供“小”版本，您的网站在高端手机上看起来会很模糊。我们的工具可以根据需要帮助您生成 @2x 和 @3x 版本，创建一个全面的资产列表，确保您的品牌无论是在预算平板电脑还是旗舰智能手机上看起来都是“像素完美”的。",
-            "p3": "‘srcset’和‘sizes’属性是响应式图片的“逻辑”。手动编写这些内容非常困难且容易出错。您必须以 'w' 单位指定每张图片的宽度，然后使用媒体查询告诉浏览器图片将占据视口的多少。我们的工具会自动为您生成这个复杂的 HTML 字符串。您只需复制并粘贴代码，您的图片就会立即变得“具有浏览器意识”，动态响应用户环境，而无需额外的一行 JavaScript。",
-            "p4": "Performance SEO is the final hidden benefit. Google's 'mobile-first' indexing weights page speed heavily. By using responsive images to reduce your mobile payload by 70-90%, you are signaling to search engines that your site is technically superior and optimized for all users. It's one of the most effective technical SEO 'quick wins' available, and our tool makes it as easy as a single upload.",
-            "p5": "Workflow Integration is where we help professional teams. If your designers are handing off massive 10MB Photoshop exports, your developers shouldn't have to manually save ten different versions. They can simply run the master file through our generator. It's a standardized, repeatable process that ensures every image on your site follows the same high-performance rules, regardless of who created it or when it was uploaded.",
-            "p6": "Why use our online tool instead of a build-step plugin? Many build-step tools like Webpack or Gulp are 'black boxes' that are hard to configure. Our tool gives you a visual preview. You can see the file sizes of each breakpoint before you download them. You have the control to add or remove specific widths based on your project's unique layout. It's a 'Precision Tool' for developers who want to understand and control their asset pipeline.",
-            "p7": "Trust-based responsive asset architecture. Serving the right image shouldn't mean uploading your proprietary assets to a data-scraping server. Because our Responsive Image Generator uses the local power of your browser's rendering engine (Canvas and local blobs), your files aren't stored on our machines. The resizing and the code generation happen on your device, ensuring that your high-value photography and UI assets remain your private property from start to finish.",
-            "p8": "In conclusion, the Responsive Image Generator is about inclusivity. It's about ensuring your message reaches every user, regardless of their technology or their location. Use our tool to build a faster, sharper, and more professional web, and treat every one of your visitors to a perfectly optimized visual experience. It's the final piece of the modern performance puzzle."
+            "title": "无限视口：为什么响应式图片是现代用户体验的基础",
+            "p1": "要了解我们工具的效用，您必须了解“数据浪费”。如果您在手机上以 300 像素宽显示图片，但您发送的文件是 2000 像素宽，那么您发送的数据大约是必要的 40 倍。这种“过度服务”是移动设备上高跳出率的主要原因。我们的生成器创建“断点”——图片改变大小的具体宽度——确保每个用户获得“刚刚好”的像素以看起来完美，而不会多出一个字节。",
+            "p2": "“密度”因素是另一个关键层。现代手机拥有“Retina”或“高 DPI”屏幕，需要比标准显示器多两倍的细节。如果您只为移动设备提供“小”版本，您的网站在高端手机上看起来会很模糊。我们的工具帮助您在需要时生成 @2x 和 @3x 版本，创建一个全面的资产列表，确保您的品牌无论是在预算平板电脑还是旗舰智能手机上看起来都“像素完美”。",
+            "p3": "`srcset` 和 `sizes` 属性是响应式图片的“逻辑”。手动编写这些内容非常困难且容易出错。您必须以 'w' 单位指定每张图片的宽度，然后使用媒体查询告诉浏览器图片将占据视口的多少。我们的工具会自动为您生成这个复杂的 HTML 字符串。您只需复制并粘贴代码，您的图片就会立即变为“浏览器感知”，动态响应用户的环境，而无需额外的一行 JavaScript。",
+            "p4": "性能 SEO 是最后的隐藏好处。Google 的“移动优先”索引非常重视页面速度。通过使用响应式图片将您的移动有效负载减少 70-90%，您向搜索引擎发出信号，表明您的网站在技术上通过优越并针对所有用户进行了优化。这是最有效的技术 SEO “速赢”之一，我们的工具使其像单次上传一样容易。",
+            "p5": "工作流集成是我们帮助专业团队的地方。如果您的设计师正在移交巨大的 10MB Photoshop 导出文件，您的开发人员不应该手动保存十个不同的版本。他们只需通过我们的生成器运行主文件即可。这是一个标准化的、可重复的过程，确保您网站上的每张图片都遵循相同的高性能规则，无论谁创建了它或何时上传了它。",
+            "p6": "为什么要使用我们的在线工具而不是构建步骤插件？许多构建步骤工具（如 Webpack 或 Gulp）是难以配置的“黑匣子”。我们的工具为您提供视觉预览。在下载之前，您可以看到每个断点的文件大小。您可以根据项目的独特布局添加或删除特定宽度。对于想要了解并控制其资产管道的开发人员来说，这是一个“精密工具”。",
+            "p7": "基于信任的响应式资产架构。提供正确的图片不应意味着将您的专有资产上传到数据抓取服务器。因为我们的响应式图片生成器使用您浏览器渲染引擎（Canvas 和本地 blob）的本地能力，所以您的文件不会存储在我们的机器上。调整大小和代码生成发生在您的设备上，确保您的高价值摄影和 UI 资产自始至终保持为您的私有财产。",
+            "p8": "总之，响应式图片生成器是关于包容性。它是关于确保您的信息触达每个用户，无论他们的技术或位置如何。使用我们的工具构建更快、更清晰、更专业的网络，并为您所有的访问者提供完美优化的视觉体验。这是现代性能难题的最后一块拼图。"
         },
         "features": {
-            "title": "多设备图片管理的专业实用程序",
+            "title": "用于多设备图片管理的专业实用程序",
             "f1_title": "自动多断点调整大小",
-            "f1_desc": "一次生成多达五个不同版本的图片，以医疗级的精度针对标准移动、平板电脑和桌面宽度。",
+            "f1_desc": "一次性生成多达五个不同版本的图片，以医疗级精度针对标准移动、平板电脑和桌面宽度。",
             "f2_title": "智能 HTML Srcset 生成器",
-            "f2_desc": "获取包含 `srcset` 和 `sizes` 属性的可复制粘贴 HTML，正确映射到您生成的文件名以进行即时实现。",
+            "f2_desc": "获取可复制粘贴的 HTML，其中包含正确的 `srcset` 和 `sizes` 属性，映射到您生成的文件名以立即实施。",
             "f3_title": "高质量重采样逻辑",
-            "f3_desc": "使用先进的插值算法确保您调整大小的图片保持清晰，避免低质量浏览器重新缩放的“模糊”。",
-            "f4_title": "资源包创建器",
-            "f4_desc": "在一个有组织的文件夹中下载所有调整大小的版本。我们会自动处理命名约定（例如，image-mobile.jpg，image-desktop.jpg）。",
+            "f3_desc": "使用先进的插值算法，确保您调整大小后的图片保持清晰明了，避免低质量浏览器缩放的“模糊”。",
+            "f4_title": "资产包创建器",
+            "f4_desc": "在一个有组织的文件夹中下载所有调整大小后的版本。我们会自动处理命名约定（例如，image-mobile.jpg, image-desktop.jpg）。",
             "f5_title": "视口感知代码逻辑",
-            "f5_desc": "生成的代码包含响应式提示，帮助浏览器在主 CSS 加载完成之前决定下载哪张图片。",
-            "f6_title": "安全的设备上资产生成",
-            "f6_desc": "调整大小和代码生成完全在您的本地浏览器沙盒中进行。您的高分辨率源文件永远不会上传或存储在我们的服务器上。"
+            "f5_desc": "生成的代码包含响应式提示，帮助浏览器在主 CSS 甚至尚未加载完成之前决定下载哪张图片。",
+            "f6_title": "安全设备上资产生成",
+            "f6_desc": "调整大小和代码生成完全在您的本地浏览器沙箱中进行。您的高分辨率源文件永远不会上传或存储在我们的服务器上。"
         },
         "how_to": {
-            "title": "掌握规模：如何创建响应式图片",
+            "title": "掌握比例：如何创建响应式图片",
             "step1_title": "上传全局主文件",
-            "step1_desc": "选择照片的最高分辨率版本（例如，4000px 宽）。这为创建较小的断点提供了最佳数据。",
+            "step1_desc": "选择您照片的最高分辨率版本（例如，4000px 宽）。这为创建较小的断点提供了最佳数据。",
             "step2_title": "定义您的目标宽度",
-            "step2_desc": "选择与您的 CSS 匹配的断点。如 480px, 768px, 1200px 和 1920px 这样的标准值涵盖了绝大多数设备。",
+            "step2_desc": "选择与您的 CSS 匹配的断点。像 480px, 768px, 1200px 和 1920px 这样的标准值涵盖了绝大多数设备。",
             "step3_title": "批量处理资产",
-            "step3_desc": "点击生成按钮。我们的引擎将为每个宽度创建单独的文件，同时构建 HTML 代码块。",
-            "step4_title": "下载 Zip 归档",
-            "step4_desc": "获取所有新的、优化的图片文件。将它们上传到服务器上原始图片所在的同一文件夹中。",
+            "step3_desc": "点击生成按钮。我们的引擎将为每种宽度创建单独的文件，同时构建 HTML 代码块。",
+            "step4_title": "下载 Zip 存档",
+            "step4_desc": "检索所有新的、优化后的图片文件。将它们上传到服务器上原始图片所在的同一文件夹中。",
             "step5_title": "集成 Srcset 代码",
             "step5_desc": "复制生成的代码片段。将其粘贴到您的 HTML 或 CMS 中，替换您旧的、静态的 `<img>` 或 `<picture>` 标签。",
             "step6_title": "在不同设备上测试",
-            "step6_desc": "在手机和台式机上打开您的网站。使用浏览器检查器验证浏览器是否确实为较小的屏幕选择了较小的文件。"
+            "step6_desc": "在手机和台式机上打开您的网站。使用浏览器检查器验证浏览器确实为较小的屏幕选择了较小的文件。"
         },
         "faq": {
-            "title": "响应式精通：自适应图片策略常见问题解答",
-            "q1": "为什么不直接在 CSS 中使用 'width: 100%'？",
-            "a1": "'Width: 100%' 使图片在视觉上适应屏幕，但它仍然强迫手机下载与桌面相同的“巨大”文件大小。",
+            "title": "响应式精通：自适应图片策略常见问题",
+            "q1": "为什么不直接在 CSS 中通过 'width: 100%'？",
+            "a1": "'Width: 100%' 使图片在视觉上适合屏幕，但它仍然迫使手机下载与台式机相同的“巨大”文件大小。",
             "q2": "srcset 中的 'w' 单位是什么？",
-            "a2": "'w' 单位告诉浏览器图片的物理宽度（以像素为单位）。它帮助浏览器计算要下载哪个文件。",
-            "q3": "我需要 <picture> 标签还是只需带有 srcset 的 <img>？",
+            "a2": "'w' 单位告诉浏览器图片的物理宽度（以像素为单位）。它帮助浏览器计算下载哪个文件。",
+            "q3": "我需要 <picture> 标签还是只用带有 srcset 的 <img>？",
             "a3": "对于大多数响应式图片（调整宽度），带有 `srcset` 的 `<img>` 是最好的。如果您需要“艺术指导”（不同屏幕的不同裁剪），请使用 `<picture>`。",
             "q4": "如果我使用 srcset，我的图片会加载两次吗？",
-            "a4": "不会。浏览器非常聪明——它会在开始任何下载*之前*分析 `srcset` 和屏幕宽度，只选择一个最合适的文件。",
+            "a4": "不会。浏览器非常聪明——它会先分析 `srcset` 和屏幕宽度，*然后*再开始任何下载，只挑选最合适的单个文件。",
             "q5": "文件分辨率有限制吗？",
-            "a5": "我们可以处理高达 20-25MB 的主文件，使其适合专业 DSLR 导出和 4K 摄影。",
+            "a5": "我们可以处理高达 20-25MB 的主文件，使其适用于专业 DSLR 导出和 4K 摄影。",
             "q6": "此工具适用于 WebP 吗？",
-            "a6": "是的！我们建议为您的响应式资产使用 WebP，以便为您的移动访客获得最大的速度优势。",
+            "a6": "是的！我们建议为您的响应式资产使用 WebP，以便为您的移动访问者获得最大的速度优势。",
             "q7": "我应该使用多少个断点？",
-            "a7": "三到四个通常就足够了（移动、平板电脑、桌面、宽屏）。添加更多会产生递减的回报和更多的资产管理。",
-            "q8": "我可以将其用于背景图片吗？",
+            "a7": "三到四个通常就足够了（移动、平板、桌面、宽屏）。添加更多会产生收益递减，并增加更多需要管理的资产。",
+            "q8": "我可以将此用于背景图片吗？",
             "a8": "响应式背景图片使用 CSS 媒体查询。我们的工具针对标准且更高效的 HTML `<img>` 标记进行了优化。",
             "q9": "生成器对代理机构免费吗？",
-            "a9": "是的！我们的响应式图片工具对所有人免费，不限制您每天优化的图片数量。",
+            "a9": "是的！我们的响应式图片工具对每个人都是免费的，没有关于您每天可以优化多少张图片的限制。",
             "q10": "我的图片能免于被存储吗？",
-            "a10": "当然。调整大小发生在您浏览器的内存中。您的资产永远不会到达我们的服务器，确保 100% 的知识产权安全。"
+            "a10": "绝对可以。调整大小发生在您浏览器的内存中。您的资产永远不会到达我们的服务器，确保 100% 的知识产权安全。"
         }
     },
     "js": {
-        "error_conversion": "转换图像时出错："
+        "error_conversion": "转换图片时出错："
     }
 }

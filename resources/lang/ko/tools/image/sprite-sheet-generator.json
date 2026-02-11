@@ -1,98 +1,98 @@
 {
     "meta": {
-        "title": "Sprite Sheet Generator - Create CSS Sprites Online",
-        "h1": "Sprite Sheet Generator",
-        "subtitle": "Combine multiple images into a single sprite sheet and generate CSS code.",
-        "desc": "Combine multiple images into a single sprite sheet and generate CSS code automatically. Reduce HTTP requests and optimize website performance."
+        "title": "스프라이트 시트 생성기 - CSS 스프라이트 온라인 생성",
+        "h1": "스프라이트 시트 생성기",
+        "subtitle": "여러 이미지를 하나의 스프라이트 시트로 합치고 CSS 코드를 생성하세요.",
+        "desc": "여러 이미지를 하나의 스프라이트 시트로 합치고 CSS 코드를 자동 생성하세요. HTTP 요청을 줄이고 웹사이트 성능을 최적화합니다."
     },
     "input": {
-        "title": "Generate CSS Sprite Sheet",
-        "desc": "Upload multiple icons or images to pack them into a single file.",
-        "drop_title": "Drag & Drop Images here",
-        "drop_desc": "or click to upload multiple files"
+        "title": "CSS 스프라이트 시트 생성",
+        "desc": "여러 아이콘이나 이미지를 업로드하여 하나의 파일로 패킹하세요.",
+        "drop_title": "이미지를 여기에 드래그 앤 드롭",
+        "drop_desc": "또는 클릭하여 여러 파일 업로드"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "생성기 설정"
     },
     "result": {
-        "title": "Generated Sprite Sheet",
-        "css_title": "Copy CSS Code",
-        "btn_download": "Download Sprite Sheet"
+        "title": "생성된 스프라이트 시트",
+        "css_title": "CSS 코드 복사",
+        "btn_download": "스프라이트 시트 다운로드"
     },
     "content": {
         "intro": {
-            "title": "The Art of Efficiency: Mastering the CSS Sprite Sheet Generator",
-            "subtitle": "Boost your website's performance by consolidating dozens of images into a single, high-speed asset.",
-            "p1": "In the world of high-performance web development, every millisecond counts. One of the most common bottlenecks for page load speed isn't just the 'size' of your images, but the 'number' of requests the browser has to make to fetch them. If your site has twenty icons, that's twenty individual HTTP requests, twenty handshakes with the server, and twenty potential delays. Our Sprite Sheet Generator is designed to solve this problem by packing all your small assets into a single image file—a technique known as CSS Spriting.",
-            "p2": "A 'Sprite Sheet' is essentially a grid of multiple images combined into one large 'atlas.' To display a specific icon, you use CSS to define the sprite sheet as the background and then use 'offset' coordinates to show only the portion of the sheet you need. This reduces your server overhead from twenty requests to just one. Our tool automates the tedious math involved in this process, generating both the optimized sprite image and the precise CSS code you need to implement it in seconds.",
-            "p3": "Whether you're building a massive enterprise application with hundreds of UI icons, a mobile game with character animations, or a personal blog with custom social media buttons, our online generator offers a professional-grade solution. We prioritize packing efficiency and ease of implementation, helping you create cleaner code and faster websites, completely for free and without any complex CLI tools."
+            "title": "효율의 예술: CSS 스프라이트 시트 생성기 마스터하기",
+            "subtitle": "수십 개의 이미지를 하나의 고속 자산으로 통합하여 웹사이트 성능을 향상시키세요.",
+            "p1": "고성능 웹 개발의 세계에서 밀리초 단위가 중요합니다. 페이지 로드 속도의 가장 흔한 병목 중 하나는 이미지의 '크기'가 아니라 브라우저가 가져오기 위해 수행해야 하는 '요청 수'입니다. 사이트에 아이콘이 20개 있으면 20개의 개별 HTTP 요청, 20번의 서버 핸드셰이크, 20개의 잠재적 지연이 발생합니다. 스프라이트 시트 생성기는 모든 작은 자산을 하나의 이미지 파일로 패킹하여 이 문제를 해결하도록 설계되었습니다 — CSS 스프라이팅이라고 알려진 기법입니다.",
+            "p2": "'스프라이트 시트'는 본질적으로 여러 이미지를 하나의 큰 '아틀라스'로 결합한 그리드입니다. 특정 아이콘을 표시하려면 CSS를 사용하여 스프라이트 시트를 배경으로 정의한 다음 '오프셋' 좌표를 사용하여 필요한 시트 부분만 표시합니다. 이렇게 하면 서버 오버헤드가 20개 요청에서 단 1개로 줄어듭니다. 도구는 이 과정에 필요한 지루한 계산을 자동화하여 최적화된 스프라이트 이미지와 구현에 필요한 정확한 CSS 코드를 몇 초 만에 생성합니다.",
+            "p3": "수백 개의 UI 아이콘을 가진 대규모 엔터프라이즈 애플리케이션을 구축하든, 캐릭터 애니메이션이 있는 모바일 게임을 만들든, 맞춤 소셜 미디어 버튼이 있는 개인 블로그를 운영하든, 온라인 생성기는 전문 수준의 솔루션을 제공합니다. 패킹 효율성과 구현 용이성을 우선시하여 복잡한 CLI 도구 없이 완전 무료로 더 깨끗한 코드와 더 빠른 웹사이트를 만들 수 있습니다."
         },
         "story": {
-            "title": "Smoothing the Page Load: Why Sprite Sheets are a Developer's Best Friend",
-            "p1": "To understand why sprite sheets work, you have to look at the 'Perceived Performance' of a website. When a browser loads a page, it requests images in parallel. However, most browsers have a limit on how many simultaneous connections they can open to a single domain (usually six). If you have sixty small icons, the browser has to queue them in batches, leading to the 'pop-in' effect where icons appear one by one. By using a single sprite sheet, you bypass this queue entirely. The sheet loads once, and every icon is ready instantly.",
-            "p2": "The 'Packing Problem' is the mathematical core of our tool. If you just place images randomly, you end up with a lot of 'dead space' (empty transparent pixels), which makes the file larger than it needs to be. Our generator uses a smart packing algorithm that analyzes the dimensions of every uploaded image and arranges them into a tight grid with minimal padding. This ensures that your single request is as small and efficient as possible, maximizing the performance gain of the technique.",
-            "p3": "CSS Background Position is the magic wand that makes it all work. For every icon in your sheet, our tool calculates the exact X and Y coordinates (in pixels) of its top-left corner. We then generate a CSS class that sets the background-position to those values. Instead of writing 'background-image: icon1.png', you just apply a class like `.icon-home`. Our tool generates all these classes for you, so you can copy and paste them directly into your stylesheet.",
-            "p4": "Animation and Game Development are other huge use cases for sprite sheets. If you're creating a character that walks or jumps, you need to swap out 'frames' of animation very quickly. loading separate files for every frame would cause flickering as the browser tries to catch up. A sprite sheet puts every frame of the animation into a single strip, allowing for smooth, zero-latency frame swapping. It's the standard for 2D game engines and web-based animations.",
-            "p5": "Retina and High-DPI support is also easier with sprites. Instead of maintaining two versions of every icon (standard and @2x), you only have to maintain two versions of the sprite sheet. This simplifies your asset management and ensures that your UI looks crisp and professional on every screen, from budget laptops to the latest high-end smartphones.",
-            "p6": "Why Professional Devs Choose Our Generator Manual spriting in Photoshop or Figma is incredibly tedious. You have to create a grid, align pixels perfectly, and then manually record the coordinates for every single item. If you add one new icon, you often have to redo the whole thing. Our generator makes this a 'one-click' update process. Upload your new batch, and get a fresh sheet and fresh CSS in an instant.",
-            "p7": "Security and Workflow are key. We understand that your icons and UI assets are the 'secret sauce' of your design. Because our Sprite Sheet Generator operates locally in your browser, your assets aren't stored on our servers. The 'packing' math happens on your device, and you download the result directly. It's a secure, private, and instantaneous part of your professional development pipeline.",
-            "p8": "In conclusion, the Sprite Sheet Generator is about more than just images; it's about site architecture. It's about being a smarter developer who understands how the web actually works. Use our tool to consolidate your assets, reduce your server load, and provide your users with the fastest, smoothest experience possible. It's the technical secret to a professional-grade frontend."
+            "title": "페이지 로드 매끄럽게: 스프라이트 시트가 개발자의 최고의 친구인 이유",
+            "p1": "스프라이트 시트가 왜 효과적인지 이해하려면 웹사이트의 '체감 성능'을 봐야 합니다. 브라우저가 페이지를 로드할 때 이미지를 병렬로 요청합니다. 그러나 대부분의 브라우저는 단일 도메인에 열 수 있는 동시 연결 수에 제한이 있습니다(보통 6개). 작은 아이콘이 60개 있으면 브라우저는 이를 배치로 큐에 넣어야 하고, 아이콘이 하나씩 나타나는 '팝인' 효과가 발생합니다. 단일 스프라이트 시트를 사용하면 이 큐를 완전히 우회합니다. 시트가 한 번 로드되면 모든 아이콘이 즉시 준비됩니다.",
+            "p2": "'패킹 문제'는 도구의 수학적 핵심입니다. 이미지를 무작위로 배치하면 많은 '빈 공간'(빈 투명 픽셀)이 생겨 파일이 필요 이상으로 커집니다. 생성기는 모든 업로드된 이미지의 크기를 분석하고 최소한의 패딩으로 촘촘한 그리드로 배열하는 스마트 패킹 알고리즘을 사용합니다. 이렇게 하면 단일 요청이 가능한 한 작고 효율적이 되어 기법의 성능 향상을 극대화합니다.",
+            "p3": "CSS Background Position은 모든 것을 작동하게 하는 마법의 지팡이입니다. 시트의 모든 아이콘에 대해 도구는 왼쪽 상단 모서리의 정확한 X 및 Y 좌표(픽셀 단위)를 계산합니다. 그런 다음 해당 값으로 background-position을 설정하는 CSS 클래스를 생성합니다. 'background-image: icon1.png' 대신 `.icon-home`과 같은 클래스를 적용하면 됩니다. 도구가 이 모든 클래스를 생성하므로 스타일시트에 직접 복사하여 붙여넣을 수 있습니다.",
+            "p4": "애니메이션과 게임 개발은 스프라이트 시트의 또 다른 거대한 활용 사례입니다. 걷거나 점프하는 캐릭터를 만들고 있다면 애니매이션의 '프레임'을 매우 빠르게 교체해야 합니다. 모든 프레임에 대해 별도의 파일을 로드하면 브라우저가 따라잡으려 할 때 깜빡임이 발생합니다. 스프라이트 시트는 애니메이션의 모든 프레임을 단일 스트립에 넣어 매끄러운 제로 레이턴시 프레임 교체를 가능하게 합니다. 2D 게임 엔진과 웹 기반 애니메이션의 표준입니다.",
+            "p5": "Retina 및 High-DPI 지원도 스프라이트로 더 쉽습니다. 모든 아이콘의 두 가지 버전(표준 및 @2x)을 유지하는 대신 스프라이트 시트의 두 가지 버전만 유지하면 됩니다. 이것은 자산 관리를 단순화하고 UI가 저가 노트북에서 최신 고급 스마트폰까지 모든 화면에서 선명하고 전문적으로 보이도록 합니다.",
+            "p6": "전문 개발자가 우리 생성기를 선택하는 이유 — Photoshop이나 Figma에서의 수동 스프라이팅은 엄청나게 지루합니다. 그리드를 만들고, 픽셀을 완벽하게 정렬하고, 모든 단일 항목의 좌표를 수동으로 기록해야 합니다. 새 아이콘을 하나 추가하면 종종 전체를 다시 해야 합니다. 생성기는 이것을 '원클릭' 업데이트 프로세스로 만듭니다. 새 배치를 업로드하면 즉시 새 시트와 새 CSS를 받습니다.",
+            "p7": "보안과 워크플로우가 핵심입니다. 아이콘과 UI 자산이 디자인의 '비밀 소스'라는 것을 이해합니다. 스프라이트 시트 생성기가 브라우저에서 로컬로 작동하므로 자산은 서버에 저장되지 않습니다. '패킹' 계산은 기기에서 이루어지고 결과를 직접 다운로드합니다. 전문 개발 파이프라인의 안전하고 사적이며 즉각적인 부분입니다.",
+            "p8": "결론적으로, 스프라이트 시트 생성기는 단순히 이미지에 관한 것이 아닙니다; 사이트 아키텍처에 관한 것입니다. 웹이 실제로 어떻게 작동하는지 이해하는 더 스마트한 개발자가 되는 것입니다. 도구를 사용하여 자산을 통합하고, 서버 부하를 줄이고, 사용자에게 가능한 가장 빠르고 매끄러운 경험을 제공하세요. 전문 수준 프론트엔드의 기술적 비밀입니다."
         },
         "features": {
-            "title": "High-Efficiency Utilities for Frontend Optimization",
-            "f1_title": "Automatic Coordinate Generation",
-            "f1_desc": "We do the math so you don't have to. Instantly get precise X and Y coordinates for every individual image in your consolidated sprite sheet.",
-            "f2_title": "Smart-Grid Packing Algorithm",
-            "f2_desc": "Our engine intelligently arranges images of varying sizes into the most efficient grid possible, minimizing empty space and reducing final file size.",
-            "f3_title": "Ready-to-Use CSS Classes",
-            "f3_desc": "Generates a clean, copy-pasteable CSS block with individual classes for every asset, including background-position and dimension properties.",
-            "f4_title": "Customizable Layout Modes",
-            "f4_desc": "Choose between Vertical strips, Horizontal strips, or the most efficient 'Grid' mode based on the needs of your specific project architecture.",
-            "f5_title": "Padding and Spacing Control",
-            "f5_desc": "Add custom spacing between sprites to prevent 'pixel bleeding'—where parts of the adjacent icon accidentally show through in your UI.",
-            "f6_title": "Local Memory Processing Protection",
-            "f6_desc": "Your UI assets are your property. All packing and code generation happens right in your browser, ensuring no data ever leaves your device."
+            "title": "프론트엔드 최적화를 위한 고효율 유틸리티",
+            "f1_title": "자동 좌표 생성",
+            "f1_desc": "계산을 대신합니다. 통합된 스프라이트 시트의 모든 개별 이미지에 대한 정확한 X 및 Y 좌표를 즉시 얻으세요.",
+            "f2_title": "스마트 그리드 패킹 알고리즘",
+            "f2_desc": "엔진이 다양한 크기의 이미지를 가능한 가장 효율적인 그리드로 지능적으로 배열하여 빈 공간을 최소화하고 최종 파일 크기를 줄입니다.",
+            "f3_title": "바로 사용 가능한 CSS 클래스",
+            "f3_desc": "background-position 및 dimension 속성을 포함하여 모든 에셋에 대한 개별 클래스가 있는 깨끗한 복사-붙여넣기 가능한 CSS 블록을 생성합니다.",
+            "f4_title": "맞춤 레이아웃 모드",
+            "f4_desc": "특정 프로젝트 아키텍처의 필요에 따라 수직 스트립, 수평 스트립 또는 가장 효율적인 '그리드' 모드를 선택하세요.",
+            "f5_title": "패딩 및 간격 제어",
+            "f5_desc": "'픽셀 블리딩' — 인접 아이콘의 일부가 UI에서 실수로 보이는 현상 — 을 방지하기 위해 스프라이트 사이에 맞춤 간격을 추가하세요.",
+            "f6_title": "로컬 메모리 처리 보호",
+            "f6_desc": "UI 자산은 여러분의 재산입니다. 모든 패킹과 코드 생성이 브라우저에서 바로 이루어져 데이터가 기기를 떠나지 않습니다."
         },
         "how_to": {
-            "title": "A Guide to High-Speed Assets: How to Use the Generator",
-            "step1_title": "Collect Your Small Assets",
-            "step1_desc": "Gather all the small icons, buttons, or frames of an animation that you want to combine. Ensure they are in a high-quality format like PNG.",
-            "step2_title": "Batch Upload to the Tool",
-            "step2_desc": "Select all files at once and upload them. The tool will immediately create a visual preview of how they can be packed together.",
-            "step3_title": "Configure the Optimization",
-            "step3_desc": "Adjust the 'Padding' if you're worried about edges appearing on retina screens, or choose a 'Vertical' layout if you're building a side-menu or filmstrip.",
-            "step4_title": "Review the Sprite Preview",
-            "step4_desc": "Check the generated sheet. Ensure every item is visible and that the grid is tight and efficient with no wasted space.",
-            "step5_title": "Download the Atlas Image",
-            "step5_desc": "Click the 'Download Sprite Sheet' button to save the consolidated image file to your project's assets folder.",
-            "step6_title": "Implement the CSS Code",
-            "step6_desc": "Copy the generated CSS block and paste it into your styles. Use the individual class names on your HTML elements to display the icons."
+            "title": "고속 에셋 가이드: 생성기 사용 방법",
+            "step1_title": "작은 에셋 수집",
+            "step1_desc": "결합하려는 모든 작은 아이콘, 버튼 또는 애니메이션 프레임을 모으세요. PNG와 같은 고품질 포맷인지 확인하세요.",
+            "step2_title": "도구에 일괄 업로드",
+            "step2_desc": "모든 파일을 한 번에 선택하고 업로드하세요. 도구가 즉시 함께 패킹할 수 있는 방법의 시각적 미리보기를 생성합니다.",
+            "step3_title": "최적화 설정",
+            "step3_desc": "Retina 화면에서 가장자리가 보이는 것이 걱정되면 '패딩'을 조정하거나, 사이드 메뉴나 필름스트립을 만들고 있다면 '수직' 레이아웃을 선택하세요.",
+            "step4_title": "스프라이트 미리보기 확인",
+            "step4_desc": "생성된 시트를 확인하세요. 모든 항목이 보이고 그리드가 촘촘하고 효율적이며 낭비되는 공간이 없는지 확인하세요.",
+            "step5_title": "아틀라스 이미지 다운로드",
+            "step5_desc": "'스프라이트 시트 다운로드' 버튼을 클릭하여 통합된 이미지 파일을 프로젝트의 에셋 폴더에 저장하세요.",
+            "step6_title": "CSS 코드 구현",
+            "step6_desc": "생성된 CSS 블록을 복사하여 스타일에 붙여넣으세요. HTML 요소에 개별 클래스 이름을 사용하여 아이콘을 표시하세요."
         },
         "faq": {
-            "title": "Sprite Sheet Mastery: Game Asset Creation Secrets",
-            "q1": "Are sprite sheets still relevant with HTTP\/2?",
-            "a1": "Yes! While HTTP\/2 handles multiple requests better, sprite sheets are still faster because they reduce the total amount of metadata and compression overhead.",
-            "q2": "What happens if I have images of different sizes?",
-            "a2": "Our smart-grid algorithm is designed for this! It will arrange your images of all shapes and sizes into the most compact rectangle possible.",
-            "q3": "Should I use JPG or PNG for my sprite sheet?",
-            "a3": "We strongly recommend PNG. It handles the 'sharp edges' of icons better and supports transparency, which is essential for most web UI work.",
-            "q4": "Is there a limit on how many images I can include?",
-            "a4": "Technically, no. However, we recommend sticking to around 50-100 images per sheet to keep the file dimensions from becoming overwhelmingly large.",
-            "q5": "What is 'Pixel Bleeding'?",
-            "a5": "This occurs when sub-pixel rendering shows a sliver of the next image in the sheet. Add 1-2 pixels of 'Padding' in our tool to prevent this.",
-            "q6": "Does this tool support SVG?",
-            "a6": "This tool is for raster sprites (PNG\/JPG). For SVGs, you should use an 'SVG Sprite' approach which is handled differently in modern browsers.",
-            "q7": "How do I update a sprite sheet later?",
-            "a7": "Just re-upload the original icons plus the new one. Our tool will give you a new sheet and new CSS in seconds.",
-            "q8": "Is this tool free for game developers?",
-            "a8": "Yes! Whether you're making a web site or a mobile game, our generator is 100% free with no commercial restrictions.",
-            "q9": "Can browsers cache sprite sheets?",
-            "a9": "Yes! This is one of the biggest benefits. The browser only has to cache one file to have every icon ready for all pages of your site.",
-            "q10": "Is my proprietary icon data safe?",
-            "a10": "Absolutely. Because your files are processed locally in your browser, your designs are never uploaded, stored, or viewed by our system."
+            "title": "스프라이트 시트 마스터리: 게임 에셋 생성의 비밀",
+            "q1": "HTTP/2에서도 스프라이트 시트가 여전히 유효한가요?",
+            "a1": "네! HTTP/2가 여러 요청을 더 잘 처리하지만, 스프라이트 시트는 총 메타데이터와 압축 오버헤드를 줄이기 때문에 여전히 더 빠릅니다.",
+            "q2": "크기가 다른 이미지가 있으면 어떻게 되나요?",
+            "a2": "스마트 그리드 알고리즘이 이를 위해 설계되었습니다! 모든 모양과 크기의 이미지를 가능한 가장 컴팩트한 직사각형으로 배열합니다.",
+            "q3": "스프라이트 시트에 JPG와 PNG 중 무엇을 사용해야 하나요?",
+            "a3": "PNG를 강력히 권장합니다. 아이콘의 '선명한 가장자리'를 더 잘 처리하고 대부분의 웹 UI 작업에 필수적인 투명도를 지원합니다.",
+            "q4": "포함할 수 있는 이미지 수에 제한이 있나요?",
+            "a4": "기술적으로는 없습니다. 그러나 파일 크기가 너무 커지지 않도록 시트당 약 50-100개의 이미지를 권장합니다.",
+            "q5": "'픽셀 블리딩'이란 무엇인가요?",
+            "a5": "서브 픽셀 렌더링이 시트에서 다음 이미지의 일부를 보여줄 때 발생합니다. 도구에서 1-2픽셀의 '패딩'을 추가하면 방지할 수 있습니다.",
+            "q6": "이 도구가 SVG를 지원하나요?",
+            "a6": "이 도구는 래스터 스프라이트(PNG/JPG) 전용입니다. SVG의 경우 최신 브라우저에서 다르게 처리되는 'SVG Sprite' 방식을 사용해야 합니다.",
+            "q7": "나중에 스프라이트 시트를 어떻게 업데이트하나요?",
+            "a7": "원래 아이콘과 새 아이콘을 다시 업로드하면 됩니다. 도구가 몇 초 만에 새 시트와 새 CSS를 제공합니다.",
+            "q8": "이 도구가 게임 개발자에게 무료인가요?",
+            "a8": "네! 웹사이트든 모바일 게임이든, 생성기는 상업적 제한 없이 100% 무료입니다.",
+            "q9": "브라우저가 스프라이트 시트를 캐시할 수 있나요?",
+            "a9": "네! 이것이 가장 큰 장점 중 하나입니다. 브라우저는 하나의 파일만 캐시하면 사이트의 모든 페이지에서 모든 아이콘이 준비됩니다.",
+            "q10": "독점 아이콘 데이터가 안전한가요?",
+            "a10": "물론입니다. 파일이 브라우저에서 로컬로 처리되므로 디자인은 시스템에 의해 업로드, 저장 또는 열람되지 않습니다."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "이미지 변환 오류: "
     }
 }

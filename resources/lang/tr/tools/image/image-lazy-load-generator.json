@@ -1,100 +1,100 @@
 {
     "meta": {
-        "title": "Image Lazy-Load Generator - Create LQIP Placeholders",
-        "h1": "Image Lazy-Load Generator",
-        "subtitle": "Generate lightweight image placeholders and lazy-loading implementation code.",
-        "desc": "Generate low-quality image placeholders (LQIP) and lazy-loading code for your website images. Improve page speed and SEO."
+        "title": "Resim Geç Yükleme Oluşturucu - LQIP Yer Tutucuları Oluştur",
+        "h1": "Resim Geç Yükleme Oluşturucu",
+        "subtitle": "Hafif görüntü yer tutucuları ve geç yükleme (lazy-loading) uygulama kodu oluşturun.",
+        "desc": "Web sitenizdeki resimler için düşük kaliteli görüntü yer tutucuları (LQIP) ve geç yükleme kodu oluşturun. Sayfa hızını ve SEO'yu iyileştirin."
     },
     "input": {
-        "title": "Generate Lazy Load Code",
-        "desc": "Upload an image to generate a lightweight placeholder and implementation code.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Geç Yükleme Kodu Oluştur",
+        "desc": "Hafif bir yer tutucu ve uygulama kodu oluşturmak için bir resim yükleyin.",
+        "drop_title": "Resmi Buraya Sürükleyin",
+        "drop_desc": "veya yüklemek için tıklayın"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "Oluşturucu Ayarları"
     },
     "result": {
-        "title": "Implementation Code",
-        "html_title": "HTML Snippet",
-        "css_title": "CSS Styles",
-        "js_title": "JavaScript Logic",
-        "btn_download": "Copy All Code"
+        "title": "Uygulama Kodu",
+        "html_title": "HTML Parçacığı",
+        "css_title": "CSS Stilleri",
+        "js_title": "JavaScript Mantığı",
+        "btn_download": "Tüm Kodu Kopyala"
     },
     "content": {
         "intro": {
-            "title": "Speed Without Compromise: Mastering the Image Lazy-Load Generator",
-            "subtitle": "Optimize your Core Web Vitals and delight your users with modern lazy-loading techniques.",
-            "p1": "In the race for a perfect Google PageSpeed score, images are often your greatest hurdle. A modern, high-definition website can easily require several megabytes of data just to display the hero section and gallery. If a browser tries to load all these images at once, it creates a massive traffic jam that delays the rendering of your text and interactive elements. Our Image Lazy-Load Generator is the professional solution to this bottleneck, allowing you to implement 'Smart Loading' that only fetches images as the user scrolls them into view.",
-            "p2": "The secret to a great lazy-loading experience isn't just 'delaying' the load; it's providing a high-quality 'Placeholder.' Instead of showing a jarring empty white box, our tool generates a Low-Quality Image Placeholder (LQIP). This is an ultra-small, blurred version of your original photo encoded in base64. Because the placeholder is tiny (often less than 1KB), it loads instantly, giving your users a beautiful, 'pulsing' preview while the high-resolution original downloads silently in the background.",
-            "p3": "Whether you are a web developer trying to hit 100 on Lighthouse, a WordPress user wanting to custom-optimize a landing page, or a shop owner with an image-heavy catalog, our online generator offers an automated, code-ready workflow. We handle the image processing and the complex JavaScript implementation, leaving you with a simple copy-paste snippet that will transform your site's performance and SEO ranking."
+            "title": "Ödün Vermeden Hız: Resim Geç Yükleme Oluşturucuda Ustalaşmak",
+            "subtitle": "Modern geç yükleme teknikleriyle Core Web Vitals değerlerinizi optimize edin ve kullanıcılarınızı memnun edin.",
+            "p1": "Mükemmel bir Google PageSpeed skoru yarışında, resimler genellikle en büyük engelinizdir. Modern, yüksek çözünürlüklü bir web sitesi, yalnızca kahraman bölümünü ve galeriyi görüntülemek için kolayca birkaç megabayt veriye ihtiyaç duyabilir. Bir tarayıcı tüm bu resimleri aynı anda yüklemeye çalışırsa, metninizin ve etkileşimli öğelerinizin oluşturulmasını geciktiren büyük bir trafik sıkışıklığı yaratır. Resim Geç Yükleme Oluşturucumuz, yalnızca kullanıcı onları görüntülemek için kaydırdığında resimleri getiren 'Akıllı Yükleme'yi uygulamanıza olanak tanıyan bu darboğaza profesyonel çözümdür.",
+            "p2": "Harika bir geç yükleme deneyiminin sırrı sadece yüklemeyi 'geciktirmek' değildir; yüksek kaliteli bir 'Yer Tutucu' sağlamaktır. Rahatsız edici boş bir beyaz kutu göstermek yerine, aracımız Düşük Kaliteli Görüntü Yer Tutucusu (LQIP) oluşturur. Bu, orijinal fotoğrafınızın base64 formatında kodlanmış ultra küçük, bulanık bir sürümüdür. Yer tutucu çok küçük olduğu için (genellikle 1KB'den az), anında yüklenir ve yüksek çözünürlüklü orijinal arka planda sessizce indirilirken kullanıcılarınıza güzel, 'nabız gibi atan' bir önizleme sunar.",
+            "p3": "İster Lighthouse'da 100'e ulaşmaya çalışan bir web geliştiricisi, ister bir açılış sayfasını özel olarak optimize etmek isteyen bir WordPress kullanıcısı veya resim ağırlıklı bir kataloğa sahip bir mağaza sahibi olun, çevrimiçi oluşturucumuz otomatik, kodlamaya hazır bir iş akışı sunar. Görüntü işlemeyi ve karmaşık JavaScript uygulamasını biz hallediyoruz, size sitenizin performansını ve SEO sıralamasını dönüştürecek basit bir kopyala-yapıştır parçacığı bırakıyoruz."
         },
         "story": {
-            "title": "Perceived Performance: Why Lazy Loading is Essential for Modern SEO",
-            "p1": "To understand the impact of lazy loading, we must look at 'Core Web Vitals,' specifically 'Largest Contentful Paint' (LCP). Google measures how fast the largest visual element on your screen appears. If you have many images loading simultaneously, they compete for bandwidth, slowing down the LCP. By using our lazy-load generator, you prioritize the viewport. The browser ignores below-the-fold images and focuses all its power on what the user is actually looking at, resulting in a significantly faster LCP score.",
-            "p2": "The LQIP Technique (Low Quality Image Placeholder) is where our tool shines. Traditional lazy loading often causes a 'jumpy' layout when images finally pop in. Our tool solves this by creating a placeholder that has the exact same aspect ratio as the original. This 'Aspect Ratio Box' reserves the space on the page, preventing layout shifts (CLS) and providing a smooth, high-end feel that mimics the loading style of major platforms like Medium, Pinterest, and Instagram.",
-            "p3": "Base64 Encoding is the mechanism we use for speed. Instead of the browser having to make a new network request for the placeholder, we embed the placeholder data directly into the HTML code. This 'Inline' data is parsed instantly by the browser. It's the ultimate 'zero-latency' solution for image previews. Our generator creates these base64 strings automatically from your high-res uploads, ensuring they are optimized for the smallest possible byte count.",
-            "p4": "Intersection Observer API is the modern JavaScript engine behind our code snippets. In the old days, lazy loading required heavy libraries or clunky 'scroll' events that slowed down the browser. Our generated code uses the native Intersection Observer, which is a high-performance browser feature designed specifically to detect when an element enters a user's screen. It's lightweight, standardized, and works perfectly across all modern mobile and desktop browsers.",
-            "p5": "Progressive Enhancement is a key part of our philosophy. We don't just give you a script; we give you a robust implementation pattern. Our code includes a 'noscript' fallback, ensuring that users with JavaScript disabled still see your images. It also includes CSS transitions to smoothly fade the high-res image over the placeholder once it arrives, creating a polished, professional 'zoom' or 'fade' effect that enhances your site's user experience.",
-            "p6": "The Technological Edge of Our Generator Writing custom lazy-loading logic for every image on a page is incredibly time-consuming and prone to errors. You have to create the small thumbnails, encode them, build the HTML structure, and maintain the JS. Our tool handles all three dimensions of the problem in one pass. You upload the file, choose your blur level, and get a production-ready block of code that 'just works.'",
-            "p7": "Security and Performance go hand-in-hand. Your site assets and UI designs stay within your browser's local sandbox. Because the generation of the LQIP and the code construction happen via local JavaScript on our page, your images aren't uploaded to a remote server for permanent storage. You get the speed of an professional CDN tool with the privacy of a local script.",
-            "p8": "In conclusion, the Image Lazy-Load Generator is about respect for the user's data and time. It's about building a better web that is fast for everyone, regardless of their connection speed. Use our tool to optimize your visuals, boost your SEO, and create a sophisticated loading experience that makes your website stand out as a high-performance platform."
+            "title": "Algılanan Performans: Modern SEO İçin Geç Yükleme Neden Esastır",
+            "p1": "Geç yüklemenin etkisini anlamak için 'Core Web Vitals'a, özellikle 'En Büyük İçerikli Boyama'ya (LCP) bakmalıyız. Google, ekranınızdaki en büyük görsel öğenin ne kadar hızlı göründüğünü ölçer. Aynı anda yüklenen birçok resminiz varsa, bunlar bant genişliği için rekabet eder ve LCP'yi yavaşlatır. Geç yükleme oluşturucumuzu kullanarak viewport'a öncelik verirsiniz. Tarayıcı ekranın altındaki resimleri yok sayar ve tüm gücünü kullanıcının o anda baktığı şeye odaklar, bu da önemli ölçüde daha hızlı bir LCP skoru ile sonuçlanır.",
+            "p2": "LQIP Tekniği (Düşük Kaliteli Görüntü Yer Tutucusu), aracımızın parladığı yerdir. Geleneksel geç yükleme, resimler nihayet belirdiğinde genellikle 'zıplayan' bir düzene neden olur. Aracımız, orijinalle tamamen aynı en boy oranına sahip bir yer tutucu oluşturarak bunu çözer. Bu 'En Boy Oranı Kutusu' sayfadaki alanı rezerve eder, düzen kaymalarını (CLS) önler ve Medium, Pinterest ve Instagram gibi büyük platformların yükleme tarzını taklit eden pürüzsüz, üst düzey bir his sağlar.",
+            "p3": "Base64 Kodlama, hız için kullandığımız mekanizmadır. Tarayıcının yer tutucu için yeni bir ağ isteği yapması yerine, yer tutucu verilerini doğrudan HTML koduna gömüyoruz. Bu 'Satır İçi' veri tarayıcı tarafından anında ayrıştırılır. Görüntü önizlemeleri için nihai 'sıfır gecikme' çözümüdür. Oluşturucumuz bu base64 dizelerini yüksek çözünürlüklü yüklemelerinizden otomatik olarak oluşturur ve mümkün olan en küçük bayt sayısı için optimize edilmelerini sağlar.",
+            "p4": "Intersection Observer API, kod parçacıklarımızın arkasındaki modern JavaScript motorudur. Eskiden geç yükleme, tarayıcıyı yavaşlatan ağır kütüphaneler veya hantal 'kaydırma' olayları gerektiriyordu. Oluşturulan kodumuz, bir öğenin kullanıcının ekranına ne zaman girdiğini algılamak için özel olarak tasarlanmış yüksek performanslı bir tarayıcı özelliği olan yerel Intersection Observer'ı kullanır. Hafiftir, standartlaştırılmıştır ve tüm modern mobil ve masaüstü tarayıcılarda mükemmel çalışır.",
+            "p5": "Aşamalı Geliştirme, felsefemizin önemli bir parçasıdır. Size sadece bir senaryo vermiyoruz; size sağlam bir uygulama modeli veriyoruz. Kodumuz, JavaScript devre dışı bırakılmış kullanıcıların resimlerinizi hala görmesini sağlayan bir 'noscript' yedeği içerir. Ayrıca, yüksek çözünürlüklü resim geldiğinde yer tutucunun üzerine sorunsuz bir şekilde solması için CSS geçişleri içerir, bu da sitenizin kullanıcı deneyimini geliştiren cilalı, profesyonel bir 'yakınlaştırma' veya 'solma' efekti yaratır.",
+            "p6": "Oluşturucumuzun Teknolojik Avantajı: Sayfadaki her resim için özel geç yükleme mantığı yazmak inanılmaz derecede zaman alıcıdır ve hatalara açıktır. Küçük küçük resimleri oluşturmalı, bunları kodlamalı, HTML yapısını oluşturmalı ve JS'yi korumalısınız. Aracımız problemin her üç boyutunu da tek seferde halleder. Dosyayı yüklersiniz, bulanıklık seviyenizi seçersiniz ve 'sadece çalışan' üretime hazır bir kod bloğu alırsınız.",
+            "p7": "Güvenlik ve Performans el ele gider. Site varlıklarınız ve UI tasarımlarınız tarayıcınızın yerel korumalı alanı içinde kalır. LQIP'nin oluşturulması ve kod yapısı sayfamızdaki yerel JavaScript aracılığıyla gerçekleştiğinden, resimleriniz kalıcı depolama için uzak bir sunucuya yüklenmez. Yerel bir betiğin gizliliği ile profesyonel bir CDN aracının hızını elde edersiniz.",
+            "p8": "Sonuç olarak, Resim Geç Yükleme Oluşturucu, kullanıcının verilerine ve zamanına saygı duymakla ilgilidir. Bağlantı hızları ne olursa olsun herkes için hızlı olan daha iyi bir web oluşturmakla ilgilidir. Görsellerinizi optimize etmek, SEO'nuzu artırmak ve web sitenizi yüksek performanslı bir platform olarak öne çıkaran sofistike bir yükleme deneyimi oluşturmak için aracımızı kullanın."
         },
         "features": {
-            "title": "Expert Utilities for Full-Stack Performance Optimization",
-            "f1_title": "Automated LQIP Generator",
-            "f1_desc": "Instantly creates ultra-low resolution, base64-encoded versions of your images to serve as instant, zero-latency placeholders.",
-            "f2_title": "Intersection Observer Logic",
-            "f2_desc": "Generates lean, modern vanilla JavaScript that uses the browser's native API to trigger image loading only when needed, minimizing CPU usage.",
-            "f3_title": "Aspect Ratio Preservation",
-            "f3_desc": "Calculates and includes intrinsic aspect ratio box code to prevent 'Cumulative Layout Shift' (CLS) and ensure a stable, professional page load.",
-            "f4_title": "Custom Blur Intensity",
-            "f4_desc": "Control the aesthetic of your placeholders. Choose from a subtle blur to a heavy, artistic wash to match your site's design language.",
-            "f5_title": "Modern & Legacy Fallbacks",
-            "f5_desc": "Includes standardized 'loading=lazy' attributes along with custom JS-driven observers and 'noscript' tags for maximum cross-browser compatibility.",
-            "f6_title": "Zero-Upload Local Logic",
-            "f6_desc": "All image processing and string encoding happens right in your browser. No data is stored or logged on our servers, ensuring total asset privacy."
+            "title": "Full-Stack Performans Optimizasyonu İçin Uzman Araçlar",
+            "f1_title": "Otomatik LQIP Oluşturucu",
+            "f1_desc": "Resimlerinizin anında, sıfır gecikmeli yer tutucular olarak hizmet etmesi için ultra düşük çözünürlüklü, base64 kodlu sürümlerini anında oluşturur.",
+            "f2_title": "Intersection Observer Mantığı",
+            "f2_desc": "Görüntü yüklemeyi yalnızca gerektiğinde tetiklemek için tarayıcının yerel API'sini kullanan ve CPU kullanımını en aza indiren yalın, modern vanilla JavaScript oluşturur.",
+            "f3_title": "En Boy Oranı Koruma",
+            "f3_desc": "'Kümülatif Düzen Kayması'nı (CLS) önlemek ve kararlı, profesyonel bir sayfa yüklemesi sağlamak için doğal en boy oranı kutusu kodunu hesaplar ve içerir.",
+            "f4_title": "Özel Bulanıklık Yoğunluğu",
+            "f4_desc": "Yer tutucularınızın estetiğini kontrol edin. Sitenizin tasarım diliyle eşleşmesi için ince bir bulanıklıktan ağır, sanatsal bir yıkamaya kadar seçim yapın.",
+            "f5_title": "Modern ve Eski Yedekler",
+            "f5_desc": "Maksimum tarayıcılar arası uyumluluk için özel JS tabanlı gözlemciler ve 'noscript' etiketleriyle birlikte standartlaştırılmış 'loading=lazy' özniteliklerini içerir.",
+            "f6_title": "Sıfır Yükleme Yerel Mantık",
+            "f6_desc": "Tüm görüntü işleme ve dize kodlama işlemleri doğrudan tarayıcınızda gerçekleşir. Sunucularımızda hiçbir veri saklanmaz veya günlüğe kaydedilmez, bu da toplam varlık gizliliği sağlar."
         },
         "how_to": {
-            "title": "Master the Load: How to Implement Lazy Loading",
-            "step1_title": "Upload the High-Res Asset",
-            "step2_desc": "Drop the original image you want to optimize into the tool. It should be the final, web-ready version of the file.",
-            "step2_title": "Configure Placeholder Style",
-            "step3_desc": "Choose your preferred 'Blur' level. A higher blur creates a softer, more abstract placeholder that works well for large hero images.",
-            "step3_title": "Generate the Code Block",
-            "step4_desc": "The tool will instantly generate three sections: HTML for the image tag, CSS for the fade effect, and JS for the scroll detection.",
-            "step4_title": "Integrate into Your Page",
-            "step5_desc": "Replace your standard `<img>` tags with our generated HTML. Add the provided CSS to your stylesheet and the JS to your footer.",
-            "step5_title": "Verify Data-Src Paths",
-            "step6_desc": "Ensure the `data-src` attribute in our code points to the real location of your image file on your server or CDN.",
-            "step6_title": "Confirm and Test",
-            "step1_desc": "Refresh your site. You should see the blurred placeholder appear instantly and then smoothly fade into the full image as you scroll."
+            "title": "Yüklemede Ustalaşın: Geç Yükleme Nasıl Uygulanır",
+            "step1_title": "Yüksek Çözünürlüklü Varlığı Yükleyin",
+            "step1_desc": "Saha sonra yerleştirdiğimiz 6. adım içeriği buraya değil, doğru içeriği buraya koyuyoruz. Optimize etmek istediğiniz orijinal görüntüyü araca bırakın. Dosyanın nihai, web'e hazır sürümü olmalıdır.",
+            "step2_title": "Yer Tutucu Stilini Yapılandırın",
+            "step2_desc": "Tercih ettiğiniz 'Bulanıklık' seviyesini seçin. Daha yüksek bir bulanıklık, büyük kahraman görüntüleri için iyi çalışan daha yumuşak, daha soyut bir yer tutucu oluşturur.",
+            "step3_title": "Kod Bloğunu Oluşturun",
+            "step3_desc": "Araç anında üç bölüm oluşturacaktır: Görüntü etiketi için HTML, solma efekti için CSS ve kaydırma algılama için JS.",
+            "step4_title": "Sayfanıza Entegre Edin",
+            "step4_desc": "Standart `<img>` etiketlerinizi oluşturulan HTML'mizle değiştirin. Sağlanan CSS'yi stil sayfanıza ve JS'yi alt bilginize ekleyin.",
+            "step5_title": "Data-Src Yollarını Doğrulayın",
+            "step5_desc": "Kodumuzdaki `data-src` özniteliğinin, sunucunuzdaki veya CDN'inizdeki görüntü dosyasının gerçek konumunu işaret ettiğinden emin olun.",
+            "step6_title": "Onaylayın ve Test Edin",
+            "step6_desc": "Sitenizi yenileyin. Bulanık yer tutucunun anında göründüğünü ve ardından siz kaydırdıkça sorunsuz bir şekilde tam görüntüye dönüştüğünü görmelisiniz."
         },
         "faq": {
-            "title": "Lazy Loading Knowledge Base: Lazy-Loading Optimization FAQ",
-            "q1": "What is the benefit of using Base64 for placeholders?",
-            "a1": "Base64 allows the tiny placeholder to be loaded inside the HTML itself, meaning zero extra network requests and an 'instant' appear time.",
-            "q2": "Will lazy loading hurt my SEO?",
-            "a2": "No. In fact, it helps! Google's crawler is now very good at reading lazy-loaded images, and the performance boost will improve your Rank.",
-            "q3": "Does this tool work with WordPress?",
-            "a3": "Yes. You can use our code in 'Custom HTML' blocks or code-snippet plugins to manually optimize high-traffic landing pages.",
-            "q4": "What is the difference between this and 'loading=lazy'?",
-            "a4": "Native 'loading=lazy' is simple but provides no placeholder. Our tool adds the LQIP and fade-in effect for a much more professional feel.",
-            "q5": "Does the code require any libraries like jQuery?",
-            "a5": "No. Our generated code is 100% vanilla JavaScript, making it lightweight and future-proof with zero external dependencies.",
-            "q6": "Is this tool free for developers?",
-            "a6": "Yes! Our generator is 100% free for both personal and commercial projects, from small blogs to enterprise apps.",
-            "q7": "How do I know the placeholder is small enough?",
-            "a7": "We target a maximum size of 1KB per placeholder. Most are actually around 500 bytes, which is less than a few sentences of text.",
-            "q8": "Is responsive code generation mobile-ready?",
-            "a8": "Yes. Intersection Observer is supported by Safari, Chrome, and Firefox on all modern mobile devices (iOS and Android).",
-            "q9": "Is this generator suitable for CSS background-image properties?",
-            "a9": "This version is specifically for `<img>` tags. For background images, the principles are similar but the implementation code is different.",
-            "q10": "How do I keep my source images private?",
-            "a10": "Since our tool processes everything locally in your browser via JS, your full-resolution source data never leaves your computer."
+            "title": "Geç Yükleme Bilgi Bankası: Geç Yükleme Optimizasyonu SSS",
+            "q1": "Yer tutucular için Base64 kullanmanın yararı nedir?",
+            "a1": "Base64, küçük yer tutucunun HTML'nin kendisine yüklenmesine izin verir, bu da sıfır ekstra ağ isteği ve 'anında' görünme süresi anlamına gelir.",
+            "q2": "Geç yükleme SEO'ma zarar verir mi?",
+            "a2": "Hayır. Aslında yardımcı olur! Google'ın tarayıcısı artık geç yüklenen resimleri okumada çok iyidir ve performans artışı Sıralamanızı iyileştirecektir.",
+            "q3": "Bu araç WordPress ile çalışır mı?",
+            "a3": "Evet. Yüksek trafikli açılış sayfalarını manuel olarak optimize etmek için kodumuzu 'Özel HTML' bloklarında veya kod parçacığı eklentilerinde kullanabilirsiniz.",
+            "q4": "Bununla 'loading=lazy' arasındaki fark nedir?",
+            "a4": "Yerel 'loading=lazy' basittir ancak yer tutucu sağlamaz. Aracımız, çok daha profesyonel bir his için LQIP ve fade-in efekti ekler.",
+            "q5": "Kod jQuery gibi herhangi bir kütüphane gerektiriyor mu?",
+            "a5": "Hayır. Oluşturulan kodumuz %100 vanilla JavaScript'tir, bu da onu hafif ve sıfır harici bağımlılıkla geleceğe hazır hale getirir.",
+            "q6": "Bu araç geliştiriciler için ücretsiz mi?",
+            "a6": "Evet! Oluşturucumuz, küçük bloglardan kurumsal uygulamalara kadar hem kişisel hem de ticari projeler için %100 ücretsizdir.",
+            "q7": "Yer tutucunun yeterince küçük olduğunu nasıl bilebilirim?",
+            "a7": "Yer tutucu başına maksimum 1KB hedefliyoruz. Çoğu aslında yaklaşık 500 bayttır, bu da birkaç cümlelik metinden daha azdır.",
+            "q8": "Duyarlı kod oluşturma mobil uyumlu mu?",
+            "a8": "Evet. Intersection Observer, tüm modern mobil cihazlarda (iOS ve Android) Safari, Chrome ve Firefox tarafından desteklenmektedir.",
+            "q9": "Bu oluşturucu CSS background-image özellikleri için uygun mu?",
+            "a9": "Bu sürüm özellikle `<img>` etiketleri içindir. Arka plan resimleri için ilkeler benzerdir ancak uygulama kodu farklıdır.",
+            "q10": "Kaynak resimlerimi nasıl gizli tutarım?",
+            "a10": "Aracımız her şeyi JS aracılığıyla yerel olarak tarayıcınızda işlediğinden, tam çözünürlüklü kaynak verileriniz bilgisayarınızdan asla çıkmaz."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Görüntü dönüştürme hatası: "
     }
 }

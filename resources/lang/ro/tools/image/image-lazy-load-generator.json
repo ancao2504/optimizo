@@ -1,100 +1,100 @@
 {
     "meta": {
-        "title": "Image Lazy-Load Generator - Create LQIP Placeholders",
-        "h1": "Image Lazy-Load Generator",
-        "subtitle": "Generate lightweight image placeholders and lazy-loading implementation code.",
-        "desc": "Generate low-quality image placeholders (LQIP) and lazy-loading code for your website images. Improve page speed and SEO."
+        "title": "Generator imagine Lazy-Load - Creează substituenți LQIP",
+        "h1": "Generator imagine Lazy-Load",
+        "subtitle": "Generează substituenți de imagine ușori și cod de implementare lazy-loading.",
+        "desc": "Generează substituenți de imagine de calitate redusă (LQIP) și cod lazy-loading pentru imaginile site-ului. Îmbunătățește viteza paginii și SEO."
     },
     "input": {
-        "title": "Generate Lazy Load Code",
-        "desc": "Upload an image to generate a lightweight placeholder and implementation code.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "Generează cod Lazy Load",
+        "desc": "Încarcă o imagine pentru a genera un substituent ușor și cod de implementare.",
+        "drop_title": "Trage & Plasează imaginea aici",
+        "drop_desc": "sau click pentru a încărca"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "Setări generator"
     },
     "result": {
-        "title": "Implementation Code",
-        "html_title": "HTML Snippet",
-        "css_title": "CSS Styles",
-        "js_title": "JavaScript Logic",
-        "btn_download": "Copy All Code"
+        "title": "Cod de implementare",
+        "html_title": "Fragment HTML",
+        "css_title": "Stiluri CSS",
+        "js_title": "Logică JavaScript",
+        "btn_download": "Copiază tot codul"
     },
     "content": {
         "intro": {
-            "title": "Speed Without Compromise: Mastering the Image Lazy-Load Generator",
-            "subtitle": "Optimize your Core Web Vitals and delight your users with modern lazy-loading techniques.",
-            "p1": "In the race for a perfect Google PageSpeed score, images are often your greatest hurdle. A modern, high-definition website can easily require several megabytes of data just to display the hero section and gallery. If a browser tries to load all these images at once, it creates a massive traffic jam that delays the rendering of your text and interactive elements. Our Image Lazy-Load Generator is the professional solution to this bottleneck, allowing you to implement 'Smart Loading' that only fetches images as the user scrolls them into view.",
-            "p2": "The secret to a great lazy-loading experience isn't just 'delaying' the load; it's providing a high-quality 'Placeholder.' Instead of showing a jarring empty white box, our tool generates a Low-Quality Image Placeholder (LQIP). This is an ultra-small, blurred version of your original photo encoded in base64. Because the placeholder is tiny (often less than 1KB), it loads instantly, giving your users a beautiful, 'pulsing' preview while the high-resolution original downloads silently in the background.",
-            "p3": "Whether you are a web developer trying to hit 100 on Lighthouse, a WordPress user wanting to custom-optimize a landing page, or a shop owner with an image-heavy catalog, our online generator offers an automated, code-ready workflow. We handle the image processing and the complex JavaScript implementation, leaving you with a simple copy-paste snippet that will transform your site's performance and SEO ranking."
+            "title": "Viteză fără compromis: Stăpânirea generatorului de Lazy-Load pentru imagini",
+            "subtitle": "Optimizează Core Web Vitals și încântă utilizatorii cu tehnici moderne de lazy-loading.",
+            "p1": "În cursa pentru un scor Google PageSpeed perfect, imaginile sunt adesea cel mai mare obstacol. Un site web modern poate necesita ușor mai mulți megabytes doar pentru a afișa secțiunea eroului. Generatorul nostru este soluția profesională, implementând 'Încărcare inteligentă' care aduce imaginile doar când utilizatorul derulează spre ele.",
+            "p2": "Secretul unei experiențe bune de lazy-loading nu este doar 'întârzierea' încărcării; ci furnizarea unui 'Substituent' de calitate. Instrumentul nostru generează un LQIP (Low-Quality Image Placeholder) — o versiune ultra-mică, estompată, codată în base64. Substituientul este minuscul (sub 1KB) și se încarcă instant.",
+            "p3": "Fie că ești web developer, utilizator WordPress sau proprietar de magazin cu catalog bogat în imagini, generatorul nostru oferă un flux de lucru automat, gata de producție."
         },
         "story": {
-            "title": "Perceived Performance: Why Lazy Loading is Essential for Modern SEO",
-            "p1": "To understand the impact of lazy loading, we must look at 'Core Web Vitals,' specifically 'Largest Contentful Paint' (LCP). Google measures how fast the largest visual element on your screen appears. If you have many images loading simultaneously, they compete for bandwidth, slowing down the LCP. By using our lazy-load generator, you prioritize the viewport. The browser ignores below-the-fold images and focuses all its power on what the user is actually looking at, resulting in a significantly faster LCP score.",
-            "p2": "The LQIP Technique (Low Quality Image Placeholder) is where our tool shines. Traditional lazy loading often causes a 'jumpy' layout when images finally pop in. Our tool solves this by creating a placeholder that has the exact same aspect ratio as the original. This 'Aspect Ratio Box' reserves the space on the page, preventing layout shifts (CLS) and providing a smooth, high-end feel that mimics the loading style of major platforms like Medium, Pinterest, and Instagram.",
-            "p3": "Base64 Encoding is the mechanism we use for speed. Instead of the browser having to make a new network request for the placeholder, we embed the placeholder data directly into the HTML code. This 'Inline' data is parsed instantly by the browser. It's the ultimate 'zero-latency' solution for image previews. Our generator creates these base64 strings automatically from your high-res uploads, ensuring they are optimized for the smallest possible byte count.",
-            "p4": "Intersection Observer API is the modern JavaScript engine behind our code snippets. In the old days, lazy loading required heavy libraries or clunky 'scroll' events that slowed down the browser. Our generated code uses the native Intersection Observer, which is a high-performance browser feature designed specifically to detect when an element enters a user's screen. It's lightweight, standardized, and works perfectly across all modern mobile and desktop browsers.",
-            "p5": "Progressive Enhancement is a key part of our philosophy. We don't just give you a script; we give you a robust implementation pattern. Our code includes a 'noscript' fallback, ensuring that users with JavaScript disabled still see your images. It also includes CSS transitions to smoothly fade the high-res image over the placeholder once it arrives, creating a polished, professional 'zoom' or 'fade' effect that enhances your site's user experience.",
-            "p6": "The Technological Edge of Our Generator Writing custom lazy-loading logic for every image on a page is incredibly time-consuming and prone to errors. You have to create the small thumbnails, encode them, build the HTML structure, and maintain the JS. Our tool handles all three dimensions of the problem in one pass. You upload the file, choose your blur level, and get a production-ready block of code that 'just works.'",
-            "p7": "Security and Performance go hand-in-hand. Your site assets and UI designs stay within your browser's local sandbox. Because the generation of the LQIP and the code construction happen via local JavaScript on our page, your images aren't uploaded to a remote server for permanent storage. You get the speed of an professional CDN tool with the privacy of a local script.",
-            "p8": "In conclusion, the Image Lazy-Load Generator is about respect for the user's data and time. It's about building a better web that is fast for everyone, regardless of their connection speed. Use our tool to optimize your visuals, boost your SEO, and create a sophisticated loading experience that makes your website stand out as a high-performance platform."
+            "title": "Performanță percepută: De ce Lazy Loading este esențial pentru SEO modern",
+            "p1": "Trebuie să ne uităm la 'Core Web Vitals', în special 'Largest Contentful Paint' (LCP). Prin lazy loading, prioritizezi viewport-ul. Browserul ignoră imaginile sub fold și concentrează toată puterea pe ceea ce vede utilizatorul.",
+            "p2": "Tehnica LQIP: lazy loading-ul tradițional cauzează adesea un layout 'săltăreț'. Instrumentul nostru creează un substituent cu exact aceeași proporție ca originalul, prevenind deplasările de layout (CLS).",
+            "p3": "Codificarea Base64 este mecanismul nostru de viteză. În loc ca browserul să facă o cerere de rețea nouă, încorporăm datele substituent direct în codul HTML. Este soluția supremă 'zero-latență.'",
+            "p4": "API-ul Intersection Observer este motorul JavaScript modern din spatele fragmentelor de cod. Codul generat folosește Observer-ul nativ, ușor și standardizat, funcționând perfect pe toate browserele.",
+            "p5": "Îmbunătățirea progresivă: codul include un fallback 'noscript', asigurând vizibilitatea imaginilor pentru utilizatori cu JavaScript dezactivat, plus tranziții CSS pentru un efect de 'fade' rafinat.",
+            "p6": "Generatorul gestionează toate cele trei dimensiuni: thumbnailuri mici, codificare și construcție HTML/CSS/JS într-o singură trecere.",
+            "p7": "Securitatea și performanța merg mână în mână. Generarea LQIP și construcția codului se fac local prin JavaScript, imaginile nu sunt stocate pe server.",
+            "p8": "Generatorul este despre respectul pentru datele și timpul utilizatorului. Optimizează vizualurile, crește SEO-ul și creează o experiență de încărcare sofisticată."
         },
         "features": {
-            "title": "Expert Utilities for Full-Stack Performance Optimization",
-            "f1_title": "Automated LQIP Generator",
-            "f1_desc": "Instantly creates ultra-low resolution, base64-encoded versions of your images to serve as instant, zero-latency placeholders.",
-            "f2_title": "Intersection Observer Logic",
-            "f2_desc": "Generates lean, modern vanilla JavaScript that uses the browser's native API to trigger image loading only when needed, minimizing CPU usage.",
-            "f3_title": "Aspect Ratio Preservation",
-            "f3_desc": "Calculates and includes intrinsic aspect ratio box code to prevent 'Cumulative Layout Shift' (CLS) and ensure a stable, professional page load.",
-            "f4_title": "Custom Blur Intensity",
-            "f4_desc": "Control the aesthetic of your placeholders. Choose from a subtle blur to a heavy, artistic wash to match your site's design language.",
-            "f5_title": "Modern & Legacy Fallbacks",
-            "f5_desc": "Includes standardized 'loading=lazy' attributes along with custom JS-driven observers and 'noscript' tags for maximum cross-browser compatibility.",
-            "f6_title": "Zero-Upload Local Logic",
-            "f6_desc": "All image processing and string encoding happens right in your browser. No data is stored or logged on our servers, ensuring total asset privacy."
+            "title": "Utilități expert pentru optimizarea performanței full-stack",
+            "f1_title": "Generator LQIP automat",
+            "f1_desc": "Creează instant versiuni ultra-mici, codate base64, ale imaginilor pentru a servi ca substituenți instantanei, fără latență.",
+            "f2_title": "Logică Intersection Observer",
+            "f2_desc": "Generează JavaScript vanilla modern care folosește API-ul nativ al browserului pentru a declanșa încărcarea doar când este nevoie.",
+            "f3_title": "Păstrarea proporțiilor",
+            "f3_desc": "Calculează și include cod intrinsec de proporții pentru a preveni 'Deplasarea cumulativă a layout-ului' (CLS).",
+            "f4_title": "Intensitate blur personalizată",
+            "f4_desc": "Controlează estetica substituenților. De la o estompare subtilă la un efect artistic intens.",
+            "f5_title": "Fallback-uri moderne & moștenite",
+            "f5_desc": "Include atribute standardizate 'loading=lazy' împreună cu observere JS și tag-uri 'noscript' pentru compatibilitate maximă.",
+            "f6_title": "Logică locală fără upload",
+            "f6_desc": "Toată procesarea și codificarea se fac în browser. Nicio dată nu este stocată pe serverele noastre."
         },
         "how_to": {
-            "title": "Master the Load: How to Implement Lazy Loading",
-            "step1_title": "Upload the High-Res Asset",
-            "step2_desc": "Drop the original image you want to optimize into the tool. It should be the final, web-ready version of the file.",
-            "step2_title": "Configure Placeholder Style",
-            "step3_desc": "Choose your preferred 'Blur' level. A higher blur creates a softer, more abstract placeholder that works well for large hero images.",
-            "step3_title": "Generate the Code Block",
-            "step4_desc": "The tool will instantly generate three sections: HTML for the image tag, CSS for the fade effect, and JS for the scroll detection.",
-            "step4_title": "Integrate into Your Page",
-            "step5_desc": "Replace your standard `<img>` tags with our generated HTML. Add the provided CSS to your stylesheet and the JS to your footer.",
-            "step5_title": "Verify Data-Src Paths",
-            "step6_desc": "Ensure the `data-src` attribute in our code points to the real location of your image file on your server or CDN.",
-            "step6_title": "Confirm and Test",
-            "step1_desc": "Refresh your site. You should see the blurred placeholder appear instantly and then smoothly fade into the full image as you scroll."
+            "title": "Stăpânește încărcarea: Cum să implementezi Lazy Loading",
+            "step1_title": "Încarcă asset-ul de înaltă rezoluție",
+            "step2_desc": "Plasează imaginea originală pe care vrei să o optimizezi. Ar trebui să fie versiunea finală, gata de web.",
+            "step2_title": "Configurează stilul substituent",
+            "step3_desc": "Alege nivelul preferat de 'Blur'. Un blur mai mare creează un substituent mai abstract, ideal pentru imagini hero mari.",
+            "step3_title": "Generează blocul de cod",
+            "step4_desc": "Instrumentul generează instant trei secțiuni: HTML pentru tag-ul imaginii, CSS pentru efectul fade și JS pentru detectarea derulării.",
+            "step4_title": "Integrează în pagina ta",
+            "step5_desc": "Înlocuiește tag-urile `<img>` standard cu HTML-ul generat. Adaugă CSS-ul în stylesheet și JS-ul în footer.",
+            "step5_title": "Verifică căile Data-Src",
+            "step6_desc": "Asigură-te că atributul `data-src` din cod indică locația reală a fișierului imagine pe server sau CDN.",
+            "step6_title": "Confirmă și testează",
+            "step1_desc": "Reîncarcă site-ul. Ar trebui să vezi substituientul estompat apărând instant, apoi devenind imagina completă pe scroll."
         },
         "faq": {
-            "title": "Lazy Loading Knowledge Base: Lazy-Loading Optimization FAQ",
-            "q1": "What is the benefit of using Base64 for placeholders?",
-            "a1": "Base64 allows the tiny placeholder to be loaded inside the HTML itself, meaning zero extra network requests and an 'instant' appear time.",
-            "q2": "Will lazy loading hurt my SEO?",
-            "a2": "No. In fact, it helps! Google's crawler is now very good at reading lazy-loaded images, and the performance boost will improve your Rank.",
-            "q3": "Does this tool work with WordPress?",
-            "a3": "Yes. You can use our code in 'Custom HTML' blocks or code-snippet plugins to manually optimize high-traffic landing pages.",
-            "q4": "What is the difference between this and 'loading=lazy'?",
-            "a4": "Native 'loading=lazy' is simple but provides no placeholder. Our tool adds the LQIP and fade-in effect for a much more professional feel.",
-            "q5": "Does the code require any libraries like jQuery?",
-            "a5": "No. Our generated code is 100% vanilla JavaScript, making it lightweight and future-proof with zero external dependencies.",
-            "q6": "Is this tool free for developers?",
-            "a6": "Yes! Our generator is 100% free for both personal and commercial projects, from small blogs to enterprise apps.",
-            "q7": "How do I know the placeholder is small enough?",
-            "a7": "We target a maximum size of 1KB per placeholder. Most are actually around 500 bytes, which is less than a few sentences of text.",
-            "q8": "Is responsive code generation mobile-ready?",
-            "a8": "Yes. Intersection Observer is supported by Safari, Chrome, and Firefox on all modern mobile devices (iOS and Android).",
-            "q9": "Is this generator suitable for CSS background-image properties?",
-            "a9": "This version is specifically for `<img>` tags. For background images, the principles are similar but the implementation code is different.",
-            "q10": "How do I keep my source images private?",
-            "a10": "Since our tool processes everything locally in your browser via JS, your full-resolution source data never leaves your computer."
+            "title": "Baza de cunoștințe Lazy Loading: FAQ optimizare",
+            "q1": "Care este beneficiul folosirii Base64 pentru substituenți?",
+            "a1": "Base64 permite încărcarea substituientului în HTML-ul însuși, însemnând zero cereri de rețea suplimentare și apariție 'instantanee'.",
+            "q2": "Lazy loading-ul va afecta SEO-ul meu?",
+            "a2": "Nu. De fapt, ajută! Crawler-ul Google citește bine imaginile lazy-loaded, iar îmbunătățirea performanței va crește rangul.",
+            "q3": "Funcționează cu WordPress?",
+            "a3": "Da. Poți folosi codul în blocuri 'Custom HTML' sau plugin-uri de snippet-uri de cod pentru a optimiza manual paginile de landing.",
+            "q4": "Care este diferența față de 'loading=lazy'?",
+            "a4": "Nativul 'loading=lazy' este simplu dar nu oferă substituent. Instrumentul nostru adaugă LQIP și efectul fade-in pentru un aspect mult mai profesional.",
+            "q5": "Codul necesită biblioteci precum jQuery?",
+            "a5": "Nu. Codul generat este 100% JavaScript vanilla, făcându-l ușor și rezistent în timp, fără dependențe externe.",
+            "q6": "Instrumentul este gratuit pentru developeri?",
+            "a6": "Da! Generatorul nostru este 100% gratuit atât pentru proiecte personale cât și comerciale.",
+            "q7": "Cum știu că substituientul este suficient de mic?",
+            "a7": "Țintim maxim 1KB per substituent. Majoritatea sunt de fapt în jur de 500 bytes.",
+            "q8": "Codul generat este pregătit pentru mobil?",
+            "a8": "Da. Intersection Observer este suportat de Safari, Chrome și Firefox pe toate dispozitivele mobile moderne.",
+            "q9": "Este potrivit pentru proprietăți CSS background-image?",
+            "a9": "Această versiune este specifică pentru tag-uri `<img>`. Pentru imagini de fundal, principiile sunt similare dar implementarea diferă.",
+            "q10": "Cum îmi păstrez imaginile sursă private?",
+            "a10": "Deoarece instrumentul procesează totul local în browser prin JS, datele sursei la rezoluție completă nu părăsesc computerul."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Eroare la conversia imaginii: "
     }
 }

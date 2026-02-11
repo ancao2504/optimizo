@@ -1,98 +1,98 @@
 {
     "meta": {
-        "title": "Sprite Sheet Generator - Create CSS Sprites Online",
-        "h1": "Sprite Sheet Generator",
-        "subtitle": "Combine multiple images into a single sprite sheet and generate CSS code.",
-        "desc": "Combine multiple images into a single sprite sheet and generate CSS code automatically. Reduce HTTP requests and optimize website performance."
+        "title": "Sprite Sheet Oluşturucu - Çevrimiçi CSS Sprite'leri Oluşturun",
+        "h1": "Sprite Sheet Oluşturucu",
+        "subtitle": "Birden fazla görseli tek bir sprite sayfasında birleştirin ve CSS kodu oluşturun.",
+        "desc": "Birden fazla görseli tek bir sprite sayfasında birleştirin ve CSS kodunu otomatik olarak oluşturun. HTTP isteklerini azaltın ve web sitesi performansını optimize edin."
     },
     "input": {
-        "title": "Generate CSS Sprite Sheet",
-        "desc": "Upload multiple icons or images to pack them into a single file.",
-        "drop_title": "Drag & Drop Images here",
-        "drop_desc": "or click to upload multiple files"
+        "title": "CSS Sprite Sheet Oluştur",
+        "desc": "Onları tek bir dosyada paketlemek için birden fazla simge veya görsel yükleyin.",
+        "drop_title": "Görselleri Buraya Sürükleyin",
+        "drop_desc": "veya birden fazla dosya yüklemek için tıklayın"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "Oluşturucu Ayarları"
     },
     "result": {
-        "title": "Generated Sprite Sheet",
-        "css_title": "Copy CSS Code",
-        "btn_download": "Download Sprite Sheet"
+        "title": "Oluşturulan Sprite Sheet",
+        "css_title": "CSS Kodunu Kopyala",
+        "btn_download": "Sprite Sheet İndir"
     },
     "content": {
         "intro": {
-            "title": "The Art of Efficiency: Mastering the CSS Sprite Sheet Generator",
-            "subtitle": "Boost your website's performance by consolidating dozens of images into a single, high-speed asset.",
-            "p1": "In the world of high-performance web development, every millisecond counts. One of the most common bottlenecks for page load speed isn't just the 'size' of your images, but the 'number' of requests the browser has to make to fetch them. If your site has twenty icons, that's twenty individual HTTP requests, twenty handshakes with the server, and twenty potential delays. Our Sprite Sheet Generator is designed to solve this problem by packing all your small assets into a single image file—a technique known as CSS Spriting.",
-            "p2": "A 'Sprite Sheet' is essentially a grid of multiple images combined into one large 'atlas.' To display a specific icon, you use CSS to define the sprite sheet as the background and then use 'offset' coordinates to show only the portion of the sheet you need. This reduces your server overhead from twenty requests to just one. Our tool automates the tedious math involved in this process, generating both the optimized sprite image and the precise CSS code you need to implement it in seconds.",
-            "p3": "Whether you're building a massive enterprise application with hundreds of UI icons, a mobile game with character animations, or a personal blog with custom social media buttons, our online generator offers a professional-grade solution. We prioritize packing efficiency and ease of implementation, helping you create cleaner code and faster websites, completely for free and without any complex CLI tools."
+            "title": "Verimlilik Sanatı: CSS Sprite Sheet Oluşturucuda Ustalaşmak",
+            "subtitle": "Düzinelerce görseli tek, yüksek hızlı bir kaynakta birleştirerek web sitenizin performansını artırın.",
+            "p1": "Yüksek performanslı web geliştirme dünyasında her milisaniye önemlidir. Sayfa yükleme hızı için en yaygın darboğazlardan biri yalnızca görsellerinizin 'boyutu' değil, tarayıcının onları getirmek için yapmak zorunda olduğu isteklerin 'sayısı'dır. Sitenizde yirmi simge varsa, bu yirmi ayrı HTTP isteği, sunucuyla yirmi el sıkışma ve yirmi potansiyel gecikme anlamına gelir. Sprite Sheet Oluşturucumuz, CSS Spriting olarak bilinen bir teknikle tüm küçük kaynaklarınızı tek bir görüntü dosyasında paketleyerek bu sorunu çözmek için tasarlanmıştır.",
+            "p2": "Bir 'Sprite Sheet', aslında tek bir büyük 'atlas' içinde birleştirilmiş birden fazla görüntü ızgarasıdır. Belirli bir simgeyi görüntülemek için, CSS kullanarak sprite sayfasını arka plan olarak tanımlarsınız ve ardından sayfanın yalnızca ihtiyacınız olan bölümünü göstermek için 'offset' koordinatlarını kullanırsınız. Bu, sunucu yükünüzü yirmi istekten sadece bire düşürür. Aracımız, bu işlemde yer alan sıkıcı matematiği otomatikleştirerek hem optimize edilmiş sprite görüntüsünü hem de onu uygulamak için ihtiyacınız olan kesin CSS kodunu saniyeler içinde oluşturur.",
+            "p3": "Yüzlerce UI simgesine sahip devasa bir kurumsal uygulama, karakter animasyonları içeren bir mobil oyun veya özel sosyal medya düğmelerine sahip kişisel bir blog oluşturuyor olun, çevrimiçi oluşturucumuz profesyonel düzeyde bir çözüm sunar. Paketleme verimliliğine ve uygulama kolaylığına öncelik vererek, tamamen ücretsiz ve karmaşık CLI araçları olmadan daha temiz kod ve daha hızlı web siteleri oluşturmanıza yardımcı oluyoruz."
         },
         "story": {
-            "title": "Smoothing the Page Load: Why Sprite Sheets are a Developer's Best Friend",
-            "p1": "To understand why sprite sheets work, you have to look at the 'Perceived Performance' of a website. When a browser loads a page, it requests images in parallel. However, most browsers have a limit on how many simultaneous connections they can open to a single domain (usually six). If you have sixty small icons, the browser has to queue them in batches, leading to the 'pop-in' effect where icons appear one by one. By using a single sprite sheet, you bypass this queue entirely. The sheet loads once, and every icon is ready instantly.",
-            "p2": "The 'Packing Problem' is the mathematical core of our tool. If you just place images randomly, you end up with a lot of 'dead space' (empty transparent pixels), which makes the file larger than it needs to be. Our generator uses a smart packing algorithm that analyzes the dimensions of every uploaded image and arranges them into a tight grid with minimal padding. This ensures that your single request is as small and efficient as possible, maximizing the performance gain of the technique.",
-            "p3": "CSS Background Position is the magic wand that makes it all work. For every icon in your sheet, our tool calculates the exact X and Y coordinates (in pixels) of its top-left corner. We then generate a CSS class that sets the background-position to those values. Instead of writing 'background-image: icon1.png', you just apply a class like `.icon-home`. Our tool generates all these classes for you, so you can copy and paste them directly into your stylesheet.",
-            "p4": "Animation and Game Development are other huge use cases for sprite sheets. If you're creating a character that walks or jumps, you need to swap out 'frames' of animation very quickly. loading separate files for every frame would cause flickering as the browser tries to catch up. A sprite sheet puts every frame of the animation into a single strip, allowing for smooth, zero-latency frame swapping. It's the standard for 2D game engines and web-based animations.",
-            "p5": "Retina and High-DPI support is also easier with sprites. Instead of maintaining two versions of every icon (standard and @2x), you only have to maintain two versions of the sprite sheet. This simplifies your asset management and ensures that your UI looks crisp and professional on every screen, from budget laptops to the latest high-end smartphones.",
-            "p6": "Why Professional Devs Choose Our Generator Manual spriting in Photoshop or Figma is incredibly tedious. You have to create a grid, align pixels perfectly, and then manually record the coordinates for every single item. If you add one new icon, you often have to redo the whole thing. Our generator makes this a 'one-click' update process. Upload your new batch, and get a fresh sheet and fresh CSS in an instant.",
-            "p7": "Security and Workflow are key. We understand that your icons and UI assets are the 'secret sauce' of your design. Because our Sprite Sheet Generator operates locally in your browser, your assets aren't stored on our servers. The 'packing' math happens on your device, and you download the result directly. It's a secure, private, and instantaneous part of your professional development pipeline.",
-            "p8": "In conclusion, the Sprite Sheet Generator is about more than just images; it's about site architecture. It's about being a smarter developer who understands how the web actually works. Use our tool to consolidate your assets, reduce your server load, and provide your users with the fastest, smoothest experience possible. It's the technical secret to a professional-grade frontend."
+            "title": "Sayfa Yüklemesini Yumuşatmak: Sprite Sheet'ler Neden Geliştiricinin En İyi Arkadaşıdır",
+            "p1": "Sprite sheet'lerin neden işe yaradığını anlamak için bir web sitesinin 'Algılanan Performansı'na bakmanız gerekir. Bir tarayıcı bir sayfayı yüklediğinde, görüntüleri paralel olarak ister. Ancak çoğu tarayıcının tek bir etki alanına açabileceği eşzamanlı bağlantı sayısı (genellikle altı) sınırlıdır. Altmış küçük simgeniz varsa, tarayıcı bunları partiler halinde sıraya koymak zorundadır, bu da simgelerin birer birer göründüğü 'pop-in' etkisine yol açar. Tek bir sprite sheet kullanarak bu kuyruğu tamamen atlarsınız. Sayfa bir kez yüklenir ve her simge anında hazır olur.",
+            "p2": "'Paketleme Sorunu' aracımızın matematiksel çekirdeğidir. Görüntüleri rastgele yerleştirirseniz, dosyayı olması gerekenden daha büyük yapan çok fazla 'ölü alan' (boş şeffaf pikseller) elde edersiniz. Oluşturucumuz, yüklenen her görüntünün boyutlarını analiz eden ve bunları minimum dolgu ile sıkı bir ızgaraya yerleştiren akıllı bir paketleme algoritması kullanır. Bu, tek isteğinizin mümkün olduğunca küçük ve verimli olmasını sağlayarak tekniğin performans kazancını maksimize eder.",
+            "p3": "CSS Arka Plan Konumu, her şeyin çalışmasını sağlayan sihirli değnektir. Sayfanızdaki her simge için aracımız, sol üst köşesinin tam X ve Y koordinatlarını (piksel cinsinden) hesaplar. Ardından background-position'ı bu değerlere ayarlayan bir CSS sınıfı oluştururuz. 'background-image: icon1.png' yazmak yerine, sadece `.icon-home` gibi bir sınıf uygularsınız. Aracımız tüm bu sınıfları sizin için oluşturur, böylece bunları doğrudan stil sayfanıza kopyalayıp yapıştırabilirsiniz.",
+            "p4": "Animasyon ve Oyun Geliştirme, sprite sheet'ler için diğer büyük kullanım durumlarıdır. Yürüyen veya zıplayan bir karakter yaratıyorsanız, animasyonun 'karelerini' çok hızlı bir şekilde değiştirmeniz gerekir. Her kare için ayrı dosyalar yüklemek, tarayıcı yetişmeye çalışırken titremeye neden olur. Bir sprite sheet, animasyonun her karesini tek bir şeride koyarak pürüzsüz, sıfır gecikmeli kare değişimine izin verir. 2D oyun motorları ve web tabanlı animasyonlar için standarttır.",
+            "p5": "Retina ve Yüksek DPI desteği de sprite'larla daha kolaydır. Her simgenin iki sürümünü (standart ve @2x) korumak yerine, sprite sayfasının yalnızca iki sürümünü korumanız gerekir. Bu, varlık yönetiminizi basitleştirir ve UI'nızın bütçe dizüstü bilgisayarlardan en son üst düzey akıllı telefonlara kadar her ekranda keskin ve profesyonel görünmesini sağlar.",
+            "p6": "Profesyonel Geliştiriciler Neden Oluşturucumuzu Seçiyor: Photoshop veya Figma'da manuel sprite oluşturma inanılmaz derecede sıkıcıdır. Bir ızgara oluşturmanız, pikselleri mükemmel bir şekilde hizalamanız ve ardından her bir öğe için koordinatları manuel olarak kaydetmeniz gerekir. Bir yeni simge eklerseniz, genellikle her şeyi yeniden yapmanız gerekir. Oluşturucumuz bunu 'tek tıklamalı' bir güncelleme işlemi haline getirir. Yeni partinizi yükleyin ve anında taze bir sayfa ve taze CSS alın.",
+            "p7": "Güvenlik ve İş Akışı anahtardır. Simgelerinizin ve UI varlıklarınızın tasarımınızın 'gizli sosu' olduğunu anlıyoruz. Sprite Sheet Oluşturucumuz yerel olarak tarayıcınızda çalıştığı için, varlıklarınız sunucularımızda saklanmaz. 'Paketleme' matematiği cihazınızda gerçekleşir ve sonucu doğrudan indirirsiniz. Profesyonel geliştirme hattınızın güvenli, özel ve anlık bir parçasıdır.",
+            "p8": "Sonuç olarak, Sprite Sheet Oluşturucu sadece görüntülerden daha fazlasıdır; site mimarisi ile ilgilidir. Web'in gerçekte nasıl çalıştığını anlayan daha akıllı bir geliştirici olmakla ilgilidir. Varlıklarınızı birleştirmek, sunucu yükünüzü azaltmak ve kullanıcılarınıza mümkün olan en hızlı, en sorunsuz deneyimi sunmak için aracımızı kullanın. Profesyonel düzeyde bir frontend'in teknik sırrıdır."
         },
         "features": {
-            "title": "High-Efficiency Utilities for Frontend Optimization",
-            "f1_title": "Automatic Coordinate Generation",
-            "f1_desc": "We do the math so you don't have to. Instantly get precise X and Y coordinates for every individual image in your consolidated sprite sheet.",
-            "f2_title": "Smart-Grid Packing Algorithm",
-            "f2_desc": "Our engine intelligently arranges images of varying sizes into the most efficient grid possible, minimizing empty space and reducing final file size.",
-            "f3_title": "Ready-to-Use CSS Classes",
-            "f3_desc": "Generates a clean, copy-pasteable CSS block with individual classes for every asset, including background-position and dimension properties.",
-            "f4_title": "Customizable Layout Modes",
-            "f4_desc": "Choose between Vertical strips, Horizontal strips, or the most efficient 'Grid' mode based on the needs of your specific project architecture.",
-            "f5_title": "Padding and Spacing Control",
-            "f5_desc": "Add custom spacing between sprites to prevent 'pixel bleeding'—where parts of the adjacent icon accidentally show through in your UI.",
-            "f6_title": "Local Memory Processing Protection",
-            "f6_desc": "Your UI assets are your property. All packing and code generation happens right in your browser, ensuring no data ever leaves your device."
+            "title": "Frontend Optimizasyonu İçin Yüksek Verimli Araçlar",
+            "f1_title": "Otomatik Koordinat Oluşturma",
+            "f1_desc": "Matematiği biz yapıyoruz, böylece sizin yapmanıza gerek kalmaz. Birleştirilmiş sprite sayfanızdaki her bir görüntü için anında kesin X ve Y koordinatlarını alın.",
+            "f2_title": "Akıllı Izgara Paketleme Algoritması",
+            "f2_desc": "Motorumuz, farklı boyutlardaki görüntüleri mümkün olan en verimli ızgaraya akıllıca yerleştirerek boş alanı en aza indirir ve nihai dosya boyutunu küçültür.",
+            "f3_title": "Kullanıma Hazır CSS Sınıfları",
+            "f3_desc": "Background-position ve boyut özellikleri dahil olmak üzere her varlık için ayrı sınıflara sahip temiz, kopyalanabilir bir CSS bloğu oluşturur.",
+            "f4_title": "Özelleştirilebilir Düzen Modları",
+            "f4_desc": "Özel proje mimarinizin ihtiyaçlarına göre Dikey şeritler, Yatay şeritler veya en verimli 'Izgara' modu arasında seçim yapın.",
+            "f5_title": "Dolgu ve Boşluk Kontrolü",
+            "f5_desc": "Bitişik simgenin parçalarının yanlışlıkla UI'nızda göründüğü 'piksel kanamasını' önlemek için sprite'lar arasına özel boşluk ekleyin.",
+            "f6_title": "Yerel Bellek İşleme Koruması",
+            "f6_desc": "UI varlıklarınız sizin mülkünüzdür. Tüm paketleme ve kod oluşturma işlemi doğrudan tarayıcınızda gerçekleşir, hiçbir verinin cihazınızdan çıkmamasını sağlar."
         },
         "how_to": {
-            "title": "A Guide to High-Speed Assets: How to Use the Generator",
-            "step1_title": "Collect Your Small Assets",
-            "step1_desc": "Gather all the small icons, buttons, or frames of an animation that you want to combine. Ensure they are in a high-quality format like PNG.",
-            "step2_title": "Batch Upload to the Tool",
-            "step2_desc": "Select all files at once and upload them. The tool will immediately create a visual preview of how they can be packed together.",
-            "step3_title": "Configure the Optimization",
-            "step3_desc": "Adjust the 'Padding' if you're worried about edges appearing on retina screens, or choose a 'Vertical' layout if you're building a side-menu or filmstrip.",
-            "step4_title": "Review the Sprite Preview",
-            "step4_desc": "Check the generated sheet. Ensure every item is visible and that the grid is tight and efficient with no wasted space.",
-            "step5_title": "Download the Atlas Image",
-            "step5_desc": "Click the 'Download Sprite Sheet' button to save the consolidated image file to your project's assets folder.",
-            "step6_title": "Implement the CSS Code",
-            "step6_desc": "Copy the generated CSS block and paste it into your styles. Use the individual class names on your HTML elements to display the icons."
+            "title": "Yüksek Hızlı Varlıklar Kılavuzu: Oluşturucu Nasıl Kullanılır",
+            "step1_title": "Küçük Varlıklarınızı Toplayın",
+            "step1_desc": "Birleştirmek istediğiniz tüm küçük simgeleri, düğmeleri veya bir animasyonun karelerini toplayın. Bunların PNG gibi yüksek kaliteli bir formatta olduğundan emin olun.",
+            "step2_title": "Araca Toplu Yükleme",
+            "step2_desc": "Tüm dosyaları aynı anda seçin ve yükleyin. Araç, bunların nasıl birlikte paketlenebileceğine dair anında görsel bir önizleme oluşturacaktır.",
+            "step3_title": "Optimizasyonu Yapılandırın",
+            "step3_desc": "Retina ekranlarda kenarların görünmesinden endişeleniyorsanız 'Dolgu'yu ayarlayın veya bir yan menü veya film şeridi oluşturuyorsanız 'Dikey' bir düzen seçin.",
+            "step4_title": "Sprite Önizlemesini İnceleyin",
+            "step4_desc": "Oluşturulan sayfayı kontrol edin. Her öğenin görünür olduğundan ve ızgaranın sıkı ve verimli olduğundan, boşa harcanan alan olmadığından emin olun.",
+            "step5_title": "Atlas Resmini İndirin",
+            "step5_desc": "Birleştirilmiş görüntü dosyasını projenizin varlıklar klasörüne kaydetmek için 'Sprite Sheet İndir' düğmesine tıklayın.",
+            "step6_title": "CSS Kodunu Uygulayın",
+            "step6_desc": "Oluşturulan CSS bloğunu kopyalayın ve stillerinize yapıştırın. Simgeleri görüntülemek için HTML öğelerinizde ayrı sınıf adlarını kullanın."
         },
         "faq": {
-            "title": "Sprite Sheet Mastery: Game Asset Creation Secrets",
-            "q1": "Are sprite sheets still relevant with HTTP\/2?",
-            "a1": "Yes! While HTTP\/2 handles multiple requests better, sprite sheets are still faster because they reduce the total amount of metadata and compression overhead.",
-            "q2": "What happens if I have images of different sizes?",
-            "a2": "Our smart-grid algorithm is designed for this! It will arrange your images of all shapes and sizes into the most compact rectangle possible.",
-            "q3": "Should I use JPG or PNG for my sprite sheet?",
-            "a3": "We strongly recommend PNG. It handles the 'sharp edges' of icons better and supports transparency, which is essential for most web UI work.",
-            "q4": "Is there a limit on how many images I can include?",
-            "a4": "Technically, no. However, we recommend sticking to around 50-100 images per sheet to keep the file dimensions from becoming overwhelmingly large.",
-            "q5": "What is 'Pixel Bleeding'?",
-            "a5": "This occurs when sub-pixel rendering shows a sliver of the next image in the sheet. Add 1-2 pixels of 'Padding' in our tool to prevent this.",
-            "q6": "Does this tool support SVG?",
-            "a6": "This tool is for raster sprites (PNG\/JPG). For SVGs, you should use an 'SVG Sprite' approach which is handled differently in modern browsers.",
-            "q7": "How do I update a sprite sheet later?",
-            "a7": "Just re-upload the original icons plus the new one. Our tool will give you a new sheet and new CSS in seconds.",
-            "q8": "Is this tool free for game developers?",
-            "a8": "Yes! Whether you're making a web site or a mobile game, our generator is 100% free with no commercial restrictions.",
-            "q9": "Can browsers cache sprite sheets?",
-            "a9": "Yes! This is one of the biggest benefits. The browser only has to cache one file to have every icon ready for all pages of your site.",
-            "q10": "Is my proprietary icon data safe?",
-            "a10": "Absolutely. Because your files are processed locally in your browser, your designs are never uploaded, stored, or viewed by our system."
+            "title": "Sprite Sheet Ustalığı: Oyun Varlığı Oluşturma Sırları",
+            "q1": "HTTP/2 ile sprite sheet'ler hala geçerli mi?",
+            "a1": "Evet! HTTP/2 birden fazla isteği daha iyi işlese de, toplam meta veri miktarını ve sıkıştırma yükünü azalttığı için sprite sheet'ler hala daha hızlıdır.",
+            "q2": "Farklı boyutlarda görüntülerim varsa ne olur?",
+            "a2": "Akıllı ızgara algoritmamız bunun için tasarlandı! Her şekil ve boyuttaki görüntülerinizi mümkün olan en kompakt dikdörtgende düzenleyecektir.",
+            "q3": "Sprite sayfam için JPG mi yoksa PNG mi kullanmalıyım?",
+            "a3": "Kesinlikle PNG'yi öneriyoruz. Simgelerin 'keskin kenarlarını' daha iyi işler ve çoğu web UI çalışması için gerekli olan şeffaflığı destekler.",
+            "q4": "Dahil edebileceğim görüntü sayısında bir sınır var mı?",
+            "a4": "Teknik olarak hayır. Ancak, dosya boyutlarının aşırı büyük olmasını önlemek için sayfa başına yaklaşık 50-100 görüntüye bağlı kalmanızı öneririz.",
+            "q5": "'Piksel Kanaması' nedir?",
+            "a5": "Bu, alt piksel işlemenin sayfadaki bir sonraki görüntünün bir şeridini gösterdiği durumdur. Bunu önlemek için aracımızda 1-2 piksellik 'Dolgu' ekleyin.",
+            "q6": "Bu araç SVG'yi destekliyor mu?",
+            "a6": "Bu araç raster sprite'lar (PNG/JPG) içindir. SVG'ler için, modern tarayıcılarda farklı şekilde işlenen bir 'SVG Sprite' yaklaşımı kullanmalısınız.",
+            "q7": "Bir sprite sayfasını daha sonra nasıl güncellerim?",
+            "a7": "Orijinal simgeleri ve yenisini tekrar yüklemeniz yeterlidir. Aracımız size saniyeler içinde yeni bir sayfa ve yeni CSS verecektir.",
+            "q8": "Bu araç oyun geliştiricileri için ücretsiz mi?",
+            "a8": "Evet! İster bir web sitesi ister bir mobil oyun yapıyor olun, oluşturucumuz %100 ücretsizdir ve ticari kısıtlaması yoktur.",
+            "q9": "Tarayıcılar sprite sayfalarını önbelleğe alabilir mi?",
+            "a9": "Evet! Bu en büyük avantajlardan biridir. Tarayıcının sitenizin tüm sayfaları için her simgeyi hazır hale getirmek için yalnızca bir dosyayı önbelleğe alması gerekir.",
+            "q10": "Tescilli simge verilerim güvende mi?",
+            "a10": "Kesinlikle. Dosyalarınız tarayıcınızda yerel olarak işlendiğinden, tasarımlarınız asla sistemimiz tarafından yüklenmez, saklanmaz veya görüntülenmez."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Görüntü dönüştürme hatası: "
     }
 }

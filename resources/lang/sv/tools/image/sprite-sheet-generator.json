@@ -1,98 +1,98 @@
 {
     "meta": {
-        "title": "Sprite Sheet Generator - Create CSS Sprites Online",
+        "title": "Sprite Sheet Generator - Skapa CSS Sprites Online",
         "h1": "Sprite Sheet Generator",
-        "subtitle": "Combine multiple images into a single sprite sheet and generate CSS code.",
-        "desc": "Combine multiple images into a single sprite sheet and generate CSS code automatically. Reduce HTTP requests and optimize website performance."
+        "subtitle": "Kombinera flera bilder till ett enda sprite-ark och generera CSS-kod.",
+        "desc": "Kombinera flera bilder till ett enda sprite-ark och generera CSS-kod automatiskt. Minska HTTP-förfrågningar och optimera webbplatsens prestanda."
     },
     "input": {
-        "title": "Generate CSS Sprite Sheet",
-        "desc": "Upload multiple icons or images to pack them into a single file.",
-        "drop_title": "Drag & Drop Images here",
-        "drop_desc": "or click to upload multiple files"
+        "title": "Generera CSS Sprite Sheet",
+        "desc": "Ladda upp flera ikoner eller bilder för att packa dem till en enda fil.",
+        "drop_title": "Dra och släpp bilder här",
+        "drop_desc": "eller klicka för att ladda upp flera filer"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "Generatorinställningar"
     },
     "result": {
-        "title": "Generated Sprite Sheet",
-        "css_title": "Copy CSS Code",
-        "btn_download": "Download Sprite Sheet"
+        "title": "Genererat Sprite Sheet",
+        "css_title": "Kopiera CSS-kod",
+        "btn_download": "Ladda ner Sprite Sheet"
     },
     "content": {
         "intro": {
-            "title": "The Art of Efficiency: Mastering the CSS Sprite Sheet Generator",
-            "subtitle": "Boost your website's performance by consolidating dozens of images into a single, high-speed asset.",
-            "p1": "In the world of high-performance web development, every millisecond counts. One of the most common bottlenecks for page load speed isn't just the 'size' of your images, but the 'number' of requests the browser has to make to fetch them. If your site has twenty icons, that's twenty individual HTTP requests, twenty handshakes with the server, and twenty potential delays. Our Sprite Sheet Generator is designed to solve this problem by packing all your small assets into a single image file—a technique known as CSS Spriting.",
-            "p2": "A 'Sprite Sheet' is essentially a grid of multiple images combined into one large 'atlas.' To display a specific icon, you use CSS to define the sprite sheet as the background and then use 'offset' coordinates to show only the portion of the sheet you need. This reduces your server overhead from twenty requests to just one. Our tool automates the tedious math involved in this process, generating both the optimized sprite image and the precise CSS code you need to implement it in seconds.",
-            "p3": "Whether you're building a massive enterprise application with hundreds of UI icons, a mobile game with character animations, or a personal blog with custom social media buttons, our online generator offers a professional-grade solution. We prioritize packing efficiency and ease of implementation, helping you create cleaner code and faster websites, completely for free and without any complex CLI tools."
+            "title": "Effektivitetens konst: Bemästra CSS Sprite Sheet Generator",
+            "subtitle": "Öka din webbplats prestanda genom att konsolidera dussintals bilder till en enda, snabb tillgång.",
+            "p1": "I världen av högpresterande webbutveckling räknas varje millisekund. En av de vanligaste flaskhalsarna för sidladdningshastighet är inte bara 'storleken' på dina bilder, utan 'antalet' förfrågningar webbläsaren måste göra för att hämta dem. Om din webbplats har tjugo ikoner är det tjugo individuella HTTP-förfrågningar, tjugo handskakningar med servern och tjugo potentiella förseningar. Vår Sprite Sheet Generator är utformad för att lösa detta problem genom att packa alla dina små tillgångar i en enda bildfil – en teknik som kallas CSS Spriting.",
+            "p2": "Ett 'Sprite Sheet' är i huvudsak ett rutnät av flera bilder kombinerade till en stor 'atlas'. För att visa en specifik ikon använder du CSS för att definiera sprite-arket som bakgrund och använder sedan 'offset'-koordinater för att visa endast den del av arket du behöver. Detta minskar din serveroverhead från tjugo förfrågningar till bara en. Vårt verktyg automatiserar den tråkiga matematiken som är involverad i denna process, och genererar både den optimerade sprite-bilden och den exakta CSS-koden du behöver för att implementera den på några sekunder.",
+            "p3": "Oavsett om du bygger en massiv företagsapplikation med hundratals UI-ikoner, ett mobilspel med karaktärsanimationer eller en personlig blogg med anpassade sociala medieknappar, erbjuder vår onlinegenerator en lösning av professionell kvalitet. Vi prioriterar packningseffektivitet och enkel implementering, vilket hjälper dig att skapa renare kod och snabbare webbplatser, helt gratis och utan några komplexa CLI-verktyg."
         },
         "story": {
-            "title": "Smoothing the Page Load: Why Sprite Sheets are a Developer's Best Friend",
-            "p1": "To understand why sprite sheets work, you have to look at the 'Perceived Performance' of a website. When a browser loads a page, it requests images in parallel. However, most browsers have a limit on how many simultaneous connections they can open to a single domain (usually six). If you have sixty small icons, the browser has to queue them in batches, leading to the 'pop-in' effect where icons appear one by one. By using a single sprite sheet, you bypass this queue entirely. The sheet loads once, and every icon is ready instantly.",
-            "p2": "The 'Packing Problem' is the mathematical core of our tool. If you just place images randomly, you end up with a lot of 'dead space' (empty transparent pixels), which makes the file larger than it needs to be. Our generator uses a smart packing algorithm that analyzes the dimensions of every uploaded image and arranges them into a tight grid with minimal padding. This ensures that your single request is as small and efficient as possible, maximizing the performance gain of the technique.",
-            "p3": "CSS Background Position is the magic wand that makes it all work. For every icon in your sheet, our tool calculates the exact X and Y coordinates (in pixels) of its top-left corner. We then generate a CSS class that sets the background-position to those values. Instead of writing 'background-image: icon1.png', you just apply a class like `.icon-home`. Our tool generates all these classes for you, so you can copy and paste them directly into your stylesheet.",
-            "p4": "Animation and Game Development are other huge use cases for sprite sheets. If you're creating a character that walks or jumps, you need to swap out 'frames' of animation very quickly. loading separate files for every frame would cause flickering as the browser tries to catch up. A sprite sheet puts every frame of the animation into a single strip, allowing for smooth, zero-latency frame swapping. It's the standard for 2D game engines and web-based animations.",
-            "p5": "Retina and High-DPI support is also easier with sprites. Instead of maintaining two versions of every icon (standard and @2x), you only have to maintain two versions of the sprite sheet. This simplifies your asset management and ensures that your UI looks crisp and professional on every screen, from budget laptops to the latest high-end smartphones.",
-            "p6": "Why Professional Devs Choose Our Generator Manual spriting in Photoshop or Figma is incredibly tedious. You have to create a grid, align pixels perfectly, and then manually record the coordinates for every single item. If you add one new icon, you often have to redo the whole thing. Our generator makes this a 'one-click' update process. Upload your new batch, and get a fresh sheet and fresh CSS in an instant.",
-            "p7": "Security and Workflow are key. We understand that your icons and UI assets are the 'secret sauce' of your design. Because our Sprite Sheet Generator operates locally in your browser, your assets aren't stored on our servers. The 'packing' math happens on your device, and you download the result directly. It's a secure, private, and instantaneous part of your professional development pipeline.",
-            "p8": "In conclusion, the Sprite Sheet Generator is about more than just images; it's about site architecture. It's about being a smarter developer who understands how the web actually works. Use our tool to consolidate your assets, reduce your server load, and provide your users with the fastest, smoothest experience possible. It's the technical secret to a professional-grade frontend."
+            "title": "Utjämning av sidladdningen: Varför Sprite Sheets är en utvecklares bästa vän",
+            "p1": "För att förstå varför sprite sheets fungerar måste du titta på en webbplats 'upplevda prestanda'. När en webbläsare laddar en sida begär den bilder parallellt. De flesta webbläsare har dock en gräns för hur många samtidiga anslutningar de kan öppna till en enda domän (vanligtvis sex). Om du har sextio små ikoner måste webbläsaren köa dem i omgångar, vilket leder till 'pop-in'-effekten där ikoner visas en efter en. Genom att använda ett enda sprite-ark kringgår du denna kö helt. Arket laddas en gång och varje ikon är redo omedelbart.",
+            "p2": "'Packningsproblemet' är den matematiska kärnan i vårt verktyg. Om du bara placerar bilder slumpmässigt får du mycket 'döyt utrymme' (tomma transparenta pixlar), vilket gör filen större än den behöver vara. Vår generator använder en smart packningsalgoritm som analyserar dimensionerna för varje uppladdad bild och ordnar dem i ett tätt rutnät med minimal stoppning. Detta säkerställer att din enda begäran är så liten och effektiv som möjligt, vilket maximerar prestandavinsten av tekniken.",
+            "p3": "CSS Background Position är trollstaven som får allt att fungera. För varje ikon i ditt ark beräknar vårt verktyg de exakta X- och Y-koordinaterna (i pixlar) för dess övre vänstra hörn. Vi genererar sedan en CSS-klass som ställer in background-position till dessa värden. Istället för att skriva 'background-image: icon1.png', använder du bara en klass som `.icon-home`. Vårt verktyg genererar alla dessa klasser åt dig, så att du kan kopiera och klistra in dem direkt i din stilmall.",
+            "p4": "Animation och spelutveckling är andra stora användningsområden för sprite sheets. Om du skapar en karaktär som går eller hoppar måste du byta ut 'ramar' av animation mycket snabbt. Att ladda separata filer för varje ram skulle orsaka flimmer när webbläsaren försöker hinna med. Ett sprite-ark sätter varje ram av animationen i en enda remsa, vilket möjliggör smidig bildväxling utan latens. Det är standarden för 2D-spelmotorer och webbaserade animationer.",
+            "p5": "Retina och High-DPI-stöd är också enklare med sprites. Istället för att underhålla två versioner av varje ikon (standard och @2x), behöver du bara underhålla två versioner av sprite-arket. Detta förenklar din tillgångshantering och säkerställer att ditt UI ser skarpt och professionellt ut på varje skärm, från budgetbärbara datorer till de senaste avancerade smartphones.",
+            "p6": "Varför professionella utvecklare väljer vår generator: Manuell spriting i Photoshop eller Figma är otroligt tråkigt. Du måste skapa ett rutnät, justera pixlar perfekt och sedan manuellt registrera koordinaterna för varje enskilt objekt. Om du lägger till en ny ikon måste du ofta göra om hela saken. Vår generator gör detta till en 'ett-klicks' uppdateringsprocess. Ladda upp din nya batch och få ett nytt ark och ny CSS på ett ögonblick.",
+            "p7": "Säkerhet och arbetsflöde är nyckeln. Vi förstår att dina ikoner och UI-tillgångar är 'den hemliga såsen' i din design. Eftersom vår Sprite Sheet Generator fungerar lokalt i din webbläsare lagras inte dina tillgångar på våra servrar. 'Packnings'-matematiken sker på din enhet och du laddar ner resultatet direkt. Det är en säker, privat och omedelbar del av din professionella utvecklingspipeline.",
+            "p8": "Sammanfattningsvis handlar Sprite Sheet Generator om mer än bara bilder; det handlar om webbplatsarkitektur. Det handlar om att vara en smartare utvecklare som förstår hur webben faktiskt fungerar. Använd vårt verktyg för att konsolidera dina tillgångar, minska din serverbelastning och ge dina användare den snabbaste, smidigaste upplevelsen som möjligt. Det är den tekniska hemligheten bakom en frontend av professionell kvalitet."
         },
         "features": {
-            "title": "High-Efficiency Utilities for Frontend Optimization",
-            "f1_title": "Automatic Coordinate Generation",
-            "f1_desc": "We do the math so you don't have to. Instantly get precise X and Y coordinates for every individual image in your consolidated sprite sheet.",
-            "f2_title": "Smart-Grid Packing Algorithm",
-            "f2_desc": "Our engine intelligently arranges images of varying sizes into the most efficient grid possible, minimizing empty space and reducing final file size.",
-            "f3_title": "Ready-to-Use CSS Classes",
-            "f3_desc": "Generates a clean, copy-pasteable CSS block with individual classes for every asset, including background-position and dimension properties.",
-            "f4_title": "Customizable Layout Modes",
-            "f4_desc": "Choose between Vertical strips, Horizontal strips, or the most efficient 'Grid' mode based on the needs of your specific project architecture.",
-            "f5_title": "Padding and Spacing Control",
-            "f5_desc": "Add custom spacing between sprites to prevent 'pixel bleeding'—where parts of the adjacent icon accidentally show through in your UI.",
-            "f6_title": "Local Memory Processing Protection",
-            "f6_desc": "Your UI assets are your property. All packing and code generation happens right in your browser, ensuring no data ever leaves your device."
+            "title": "Högeffektiva verktyg för frontend-optimering",
+            "f1_title": "Automatisk koordinatgenerering",
+            "f1_desc": "Vi gör matematiken så att du slipper. Få omedelbart exakta X- och Y-koordinater för varje enskild bild i ditt konsoliderade sprite-ark.",
+            "f2_title": "Smart-Grid Packningsalgoritm",
+            "f2_desc": "Vår motor ordnar intelligent bilder av olika storlekar i det mest effektiva rutnätet som möjligt, vilket minimerar tomt utrymme och minskar den slutliga filstorleken.",
+            "f3_title": "Klara-att-använda CSS-klasser",
+            "f3_desc": "Genererar ett rent, kopieringsbart CSS-block med individuella klasser för varje tillgång, inklusive egenskaper för background-position och dimensioner.",
+            "f4_title": "Anpassningsbara layoutlägen",
+            "f4_desc": "Välj mellan vertikala remsor, horisontella remsor eller det mest effektiva 'Rutnät'-läget baserat på behoven i din specifika projektarkitektur.",
+            "f5_title": "Stoppning och avståndskontroll",
+            "f5_desc": "Lägg till anpassat avstånd mellan sprites för att förhindra 'pixelblödning' – där delar av den intilliggande ikonen av misstag syns i ditt UI.",
+            "f6_title": "Lokal minnesbearbetningsskydd",
+            "f6_desc": "Dina UI-tillgångar är din egendom. All packning och kodgenerering sker direkt i din webbläsare, vilket säkerställer att ingen data någonsin lämnar din enhet."
         },
         "how_to": {
-            "title": "A Guide to High-Speed Assets: How to Use the Generator",
-            "step1_title": "Collect Your Small Assets",
-            "step1_desc": "Gather all the small icons, buttons, or frames of an animation that you want to combine. Ensure they are in a high-quality format like PNG.",
-            "step2_title": "Batch Upload to the Tool",
-            "step2_desc": "Select all files at once and upload them. The tool will immediately create a visual preview of how they can be packed together.",
-            "step3_title": "Configure the Optimization",
-            "step3_desc": "Adjust the 'Padding' if you're worried about edges appearing on retina screens, or choose a 'Vertical' layout if you're building a side-menu or filmstrip.",
-            "step4_title": "Review the Sprite Preview",
-            "step4_desc": "Check the generated sheet. Ensure every item is visible and that the grid is tight and efficient with no wasted space.",
-            "step5_title": "Download the Atlas Image",
-            "step5_desc": "Click the 'Download Sprite Sheet' button to save the consolidated image file to your project's assets folder.",
-            "step6_title": "Implement the CSS Code",
-            "step6_desc": "Copy the generated CSS block and paste it into your styles. Use the individual class names on your HTML elements to display the icons."
+            "title": "En guide till höghastighetstillgångar: Hur man använder generatorn",
+            "step1_title": "Samla dina små tillgångar",
+            "step1_desc": "Samla alla små ikoner, knappar eller ramar av en animation som du vill kombinera. Se till att de är i ett format av hög kvalitet som PNG.",
+            "step2_title": "Batchuppladdning till verktyget",
+            "step2_desc": "Välj alla filer samtidigt och ladda upp dem. Verktyget skapar omedelbart en visuell förhandsgranskning av hur de kan packas tillsammans.",
+            "step3_title": "Konfigurera optimeringen",
+            "step3_desc": "Justera 'Stoppning' om du är orolig för att kanter ska visas på retinaskärmar, eller välj en 'Vertikal' layout om du bygger en sidomeny eller filmremsa.",
+            "step4_title": "Granska Sprite-förhandsgranskningen",
+            "step4_desc": "Kontrollera det genererade arket. Se till att varje objekt är synligt och att rutnätet är tätt och effektivt utan slösat utrymme.",
+            "step5_title": "Ladda ner Atlas-bilden",
+            "step5_desc": "Klicka på knappen 'Ladda ner Sprite Sheet' för att spara den konsoliderade bildfilen i ditt projekts tillgångsmapp.",
+            "step6_title": "Implementera CSS-koden",
+            "step6_desc": "Kopiera det genererade CSS-blocket och klistra in det i dina stilar. Använd de individuella klassnamnen på dina HTML-element för att visa ikonerna."
         },
         "faq": {
-            "title": "Sprite Sheet Mastery: Game Asset Creation Secrets",
-            "q1": "Are sprite sheets still relevant with HTTP\/2?",
-            "a1": "Yes! While HTTP\/2 handles multiple requests better, sprite sheets are still faster because they reduce the total amount of metadata and compression overhead.",
-            "q2": "What happens if I have images of different sizes?",
-            "a2": "Our smart-grid algorithm is designed for this! It will arrange your images of all shapes and sizes into the most compact rectangle possible.",
-            "q3": "Should I use JPG or PNG for my sprite sheet?",
-            "a3": "We strongly recommend PNG. It handles the 'sharp edges' of icons better and supports transparency, which is essential for most web UI work.",
-            "q4": "Is there a limit on how many images I can include?",
-            "a4": "Technically, no. However, we recommend sticking to around 50-100 images per sheet to keep the file dimensions from becoming overwhelmingly large.",
-            "q5": "What is 'Pixel Bleeding'?",
-            "a5": "This occurs when sub-pixel rendering shows a sliver of the next image in the sheet. Add 1-2 pixels of 'Padding' in our tool to prevent this.",
-            "q6": "Does this tool support SVG?",
-            "a6": "This tool is for raster sprites (PNG\/JPG). For SVGs, you should use an 'SVG Sprite' approach which is handled differently in modern browsers.",
-            "q7": "How do I update a sprite sheet later?",
-            "a7": "Just re-upload the original icons plus the new one. Our tool will give you a new sheet and new CSS in seconds.",
-            "q8": "Is this tool free for game developers?",
-            "a8": "Yes! Whether you're making a web site or a mobile game, our generator is 100% free with no commercial restrictions.",
-            "q9": "Can browsers cache sprite sheets?",
-            "a9": "Yes! This is one of the biggest benefits. The browser only has to cache one file to have every icon ready for all pages of your site.",
-            "q10": "Is my proprietary icon data safe?",
-            "a10": "Absolutely. Because your files are processed locally in your browser, your designs are never uploaded, stored, or viewed by our system."
+            "title": "Sprite Sheet Mästerskap: Hemligheter för skapande av speltillgångar",
+            "q1": "Är sprite sheets fortfarande relevanta med HTTP\/2?",
+            "a1": "Ja! Även om HTTP\/2 hanterar flera förfrågningar bättre, är sprite sheets fortfarande snabbare eftersom de minskar den totala mängden metadata och komprimeringsoverhead.",
+            "q2": "Vad händer om jag har bilder av olika storlekar?",
+            "a2": "Vår smart-grid-algoritm är designad för detta! Den kommer att ordna dina bilder av alla former och storlekar i den mest kompakta rektangeln som möjligt.",
+            "q3": "Ska jag använda JPG eller PNG för mitt sprite-ark?",
+            "a3": "Vi rekommenderar starkt PNG. Det hanterar ikonernas 'skarpa kanter' bättre och stöder transparens, vilket är viktigt för de flesta webb-UI-arbeten.",
+            "q4": "Finns det en gräns för hur många bilder jag kan inkludera?",
+            "a4": "Tekniskt sett nej. Vi rekommenderar dock att hålla sig till cirka 50-100 bilder per ark för att förhindra att fildimensionerna blir överväldigande stora.",
+            "q5": "Vad är 'Pixelblödning'?",
+            "a5": "Detta inträffar när sub-pixelrendering visar en flisa av nästa bild i arket. Lägg till 1-2 pixlar 'Stoppning' i vårt verktyg för att förhindra detta.",
+            "q6": "Stöder detta verktyg SVG?",
+            "a6": "Detta verktyg är för rastersprites (PNG\/JPG). För SVG:er bör du använda en 'SVG Sprite'-metod som hanteras annorlunda i moderna webbläsare.",
+            "q7": "Hur uppdaterar jag ett sprite-ark senare?",
+            "a7": "Ladda bara upp originalikonerna plus den nya. Vårt verktyg ger dig ett nytt ark och ny CSS på några sekunder.",
+            "q8": "Är detta verktyg gratis för spelutvecklare?",
+            "a8": "Ja! Oavsett om du gör en webbplats eller ett mobilspel är vår generator 100% gratis utan kommersiella begränsningar.",
+            "q9": "Kan webbläsare cacha sprite-ark?",
+            "a9": "Ja! Detta är en av de största fördelarna. Webbläsaren behöver bara cacha en fil för att ha varje ikon redo för alla sidor på din webbplats.",
+            "q10": "Är mina proprietära ikondata säkra?",
+            "a10": "Absolut. Eftersom dina filer bearbetas lokalt i din webbläsare, laddas dina mönster aldrig upp, lagras eller visas av vårt system."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "Fel vid konvertering av bild: "
     }
 }

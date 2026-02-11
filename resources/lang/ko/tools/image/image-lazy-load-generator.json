@@ -1,100 +1,100 @@
 {
     "meta": {
-        "title": "Image Lazy-Load Generator - Create LQIP Placeholders",
-        "h1": "Image Lazy-Load Generator",
-        "subtitle": "Generate lightweight image placeholders and lazy-loading implementation code.",
-        "desc": "Generate low-quality image placeholders (LQIP) and lazy-loading code for your website images. Improve page speed and SEO."
+        "title": "이미지 레이지 로드 생성기 - LQIP 플레이스홀더 만들기",
+        "h1": "이미지 레이지 로드 생성기",
+        "subtitle": "경량 이미지 플레이스홀더와 레이지 로딩 구현 코드를 생성하세요.",
+        "desc": "웹사이트 이미지를 위한 저화질 이미지 플레이스홀더(LQIP)와 레이지 로딩 코드를 생성하세요. 페이지 속도와 SEO를 향상시킵니다."
     },
     "input": {
-        "title": "Generate Lazy Load Code",
-        "desc": "Upload an image to generate a lightweight placeholder and implementation code.",
-        "drop_title": "Drag & Drop Image here",
-        "drop_desc": "or click to upload"
+        "title": "레이지 로드 코드 생성",
+        "desc": "이미지를 업로드하여 경량 플레이스홀더와 구현 코드를 생성하세요.",
+        "drop_title": "이미지를 여기에 드래그 앤 드롭",
+        "drop_desc": "또는 클릭하여 업로드"
     },
     "settings": {
-        "title": "Generator Settings"
+        "title": "생성기 설정"
     },
     "result": {
-        "title": "Implementation Code",
-        "html_title": "HTML Snippet",
-        "css_title": "CSS Styles",
-        "js_title": "JavaScript Logic",
-        "btn_download": "Copy All Code"
+        "title": "구현 코드",
+        "html_title": "HTML 스니펫",
+        "css_title": "CSS 스타일",
+        "js_title": "JavaScript 로직",
+        "btn_download": "전체 코드 복사"
     },
     "content": {
         "intro": {
-            "title": "Speed Without Compromise: Mastering the Image Lazy-Load Generator",
-            "subtitle": "Optimize your Core Web Vitals and delight your users with modern lazy-loading techniques.",
-            "p1": "In the race for a perfect Google PageSpeed score, images are often your greatest hurdle. A modern, high-definition website can easily require several megabytes of data just to display the hero section and gallery. If a browser tries to load all these images at once, it creates a massive traffic jam that delays the rendering of your text and interactive elements. Our Image Lazy-Load Generator is the professional solution to this bottleneck, allowing you to implement 'Smart Loading' that only fetches images as the user scrolls them into view.",
-            "p2": "The secret to a great lazy-loading experience isn't just 'delaying' the load; it's providing a high-quality 'Placeholder.' Instead of showing a jarring empty white box, our tool generates a Low-Quality Image Placeholder (LQIP). This is an ultra-small, blurred version of your original photo encoded in base64. Because the placeholder is tiny (often less than 1KB), it loads instantly, giving your users a beautiful, 'pulsing' preview while the high-resolution original downloads silently in the background.",
-            "p3": "Whether you are a web developer trying to hit 100 on Lighthouse, a WordPress user wanting to custom-optimize a landing page, or a shop owner with an image-heavy catalog, our online generator offers an automated, code-ready workflow. We handle the image processing and the complex JavaScript implementation, leaving you with a simple copy-paste snippet that will transform your site's performance and SEO ranking."
+            "title": "타협 없는 속도: 이미지 레이지 로드 생성기 마스터하기",
+            "subtitle": "현대적인 레이지 로딩 기술로 Core Web Vitals를 최적화하고 사용자를 만족시키세요.",
+            "p1": "완벽한 Google PageSpeed 점수를 위한 경쟁에서 이미지는 종종 가장 큰 장애물입니다. 현대적인 고해상도 웹사이트는 히어로 섹션과 갤러리를 표시하는 것만으로도 쉽게 수 메가바이트의 데이터를 필요로 합니다. 브라우저가 이 모든 이미지를 한 번에 로드하려 하면 텍스트와 대화형 요소의 렌더링을 지연시키는 대규모 병목 현상이 발생합니다. 이미지 레이지 로드 생성기는 이 병목 현상에 대한 전문적인 솔루션으로, 사용자가 스크롤할 때만 이미지를 가져오는 '스마트 로딩'을 구현할 수 있습니다.",
+            "p2": "훌륭한 레이지 로딩 경험의 비결은 단순히 로딩을 '지연'하는 것이 아니라 고품질 '플레이스홀더'를 제공하는 것입니다. 불쾌한 빈 흰색 상자를 보여주는 대신, 우리 도구는 저화질 이미지 플레이스홀더(LQIP)를 생성합니다. 이것은 원본 사진의 초소형 블러 버전을 base64로 인코딩한 것입니다. 플레이스홀더가 매우 작기 때문에(보통 1KB 미만) 즉시 로드되어 고해상도 원본이 백그라운드에서 조용히 다운로드되는 동안 사용자에게 아름다운 미리보기를 제공합니다.",
+            "p3": "Lighthouse에서 100점을 목표로 하는 웹 개발자이든, 랜딩 페이지를 맞춤 최적화하려는 WordPress 사용자이든, 이미지가 많은 카탈로그를 가진 쇼핑몰 운영자이든, 온라인 생성기는 자동화된 코드 준비 워크플로우를 제공합니다. 이미지 처리와 복잡한 JavaScript 구현을 처리하여 사이트의 성능과 SEO 순위를 변환할 간단한 복사-붙여넣기 코드를 제공합니다."
         },
         "story": {
-            "title": "Perceived Performance: Why Lazy Loading is Essential for Modern SEO",
-            "p1": "To understand the impact of lazy loading, we must look at 'Core Web Vitals,' specifically 'Largest Contentful Paint' (LCP). Google measures how fast the largest visual element on your screen appears. If you have many images loading simultaneously, they compete for bandwidth, slowing down the LCP. By using our lazy-load generator, you prioritize the viewport. The browser ignores below-the-fold images and focuses all its power on what the user is actually looking at, resulting in a significantly faster LCP score.",
-            "p2": "The LQIP Technique (Low Quality Image Placeholder) is where our tool shines. Traditional lazy loading often causes a 'jumpy' layout when images finally pop in. Our tool solves this by creating a placeholder that has the exact same aspect ratio as the original. This 'Aspect Ratio Box' reserves the space on the page, preventing layout shifts (CLS) and providing a smooth, high-end feel that mimics the loading style of major platforms like Medium, Pinterest, and Instagram.",
-            "p3": "Base64 Encoding is the mechanism we use for speed. Instead of the browser having to make a new network request for the placeholder, we embed the placeholder data directly into the HTML code. This 'Inline' data is parsed instantly by the browser. It's the ultimate 'zero-latency' solution for image previews. Our generator creates these base64 strings automatically from your high-res uploads, ensuring they are optimized for the smallest possible byte count.",
-            "p4": "Intersection Observer API is the modern JavaScript engine behind our code snippets. In the old days, lazy loading required heavy libraries or clunky 'scroll' events that slowed down the browser. Our generated code uses the native Intersection Observer, which is a high-performance browser feature designed specifically to detect when an element enters a user's screen. It's lightweight, standardized, and works perfectly across all modern mobile and desktop browsers.",
-            "p5": "Progressive Enhancement is a key part of our philosophy. We don't just give you a script; we give you a robust implementation pattern. Our code includes a 'noscript' fallback, ensuring that users with JavaScript disabled still see your images. It also includes CSS transitions to smoothly fade the high-res image over the placeholder once it arrives, creating a polished, professional 'zoom' or 'fade' effect that enhances your site's user experience.",
-            "p6": "The Technological Edge of Our Generator Writing custom lazy-loading logic for every image on a page is incredibly time-consuming and prone to errors. You have to create the small thumbnails, encode them, build the HTML structure, and maintain the JS. Our tool handles all three dimensions of the problem in one pass. You upload the file, choose your blur level, and get a production-ready block of code that 'just works.'",
-            "p7": "Security and Performance go hand-in-hand. Your site assets and UI designs stay within your browser's local sandbox. Because the generation of the LQIP and the code construction happen via local JavaScript on our page, your images aren't uploaded to a remote server for permanent storage. You get the speed of an professional CDN tool with the privacy of a local script.",
-            "p8": "In conclusion, the Image Lazy-Load Generator is about respect for the user's data and time. It's about building a better web that is fast for everyone, regardless of their connection speed. Use our tool to optimize your visuals, boost your SEO, and create a sophisticated loading experience that makes your website stand out as a high-performance platform."
+            "title": "체감 성능: 레이지 로딩이 현대 SEO에 필수적인 이유",
+            "p1": "레이지 로딩의 영향을 이해하려면 'Core Web Vitals', 특히 'Largest Contentful Paint'(LCP)를 살펴봐야 합니다. Google은 화면에서 가장 큰 시각적 요소가 얼마나 빨리 나타나는지 측정합니다. 많은 이미지가 동시에 로드되면 대역폭을 놓고 경쟁하여 LCP를 느리게 합니다. 레이지 로드 생성기를 사용하면 뷰포트에 우선순위를 부여합니다. 브라우저는 화면 아래 이미지를 무시하고 사용자가 실제로 보고 있는 것에 모든 성능을 집중하여 LCP 점수를 크게 향상시킵니다.",
+            "p2": "LQIP 기법(저화질 이미지 플레이스홀더)은 우리 도구가 빛나는 부분입니다. 전통적인 레이지 로딩은 이미지가 최종적으로 나타날 때 '점프하는' 레이아웃을 자주 발생시킵니다. 우리 도구는 원본과 정확히 같은 종횡비를 가진 플레이스홀더를 만들어 이 문제를 해결합니다. 이 '종횡비 박스'는 페이지에 공간을 확보하여 레이아웃 변경(CLS)을 방지하고 Medium, Pinterest, Instagram과 같은 주요 플랫폼의 로딩 스타일을 모방하는 매끄럽고 고급스러운 느낌을 제공합니다.",
+            "p3": "Base64 인코딩은 속도를 위해 사용하는 메커니즘입니다. 브라우저가 플레이스홀더를 위해 새로운 네트워크 요청을 할 필요 없이, 플레이스홀더 데이터를 HTML 코드에 직접 임베드합니다. 이 '인라인' 데이터는 브라우저에 의해 즉시 파싱됩니다. 이미지 미리보기를 위한 궁극의 '제로 레이턴시' 솔루션입니다. 생성기는 고해상도 업로드에서 이러한 base64 문자열을 자동으로 생성하여 가능한 가장 작은 바이트 수로 최적화합니다.",
+            "p4": "Intersection Observer API는 코드 스니펫 뒤에 있는 현대적인 JavaScript 엔진입니다. 과거에는 레이지 로딩에 무거운 라이브러리나 브라우저를 느리게 하는 투박한 'scroll' 이벤트가 필요했습니다. 생성된 코드는 요소가 사용자 화면에 들어오는 것을 감지하도록 특별히 설계된 고성능 브라우저 기능인 네이티브 Intersection Observer를 사용합니다. 가볍고 표준화되어 있으며 모든 최신 모바일 및 데스크톱 브라우저에서 완벽하게 작동합니다.",
+            "p5": "점진적 향상은 우리 철학의 핵심입니다. 단순한 스크립트가 아니라 강력한 구현 패턴을 제공합니다. 코드에는 JavaScript가 비활성화된 사용자도 이미지를 볼 수 있도록 'noscript' 폴백이 포함되어 있습니다. 또한 고해상도 이미지가 도착하면 플레이스홀더 위에 부드럽게 페이드하는 CSS 트랜지션이 포함되어 사이트의 사용자 경험을 향상시키는 세련된 전문적인 효과를 만듭니다.",
+            "p6": "우리 생성기의 기술적 우위 — 페이지의 모든 이미지에 대해 맞춤 레이지 로딩 로직을 작성하는 것은 엄청나게 시간이 걸리고 오류가 발생하기 쉽습니다. 작은 썸네일을 만들고, 인코딩하고, HTML 구조를 구축하고, JS를 유지 관리해야 합니다. 우리 도구는 한 번에 문제의 세 가지 차원을 모두 처리합니다. 파일을 업로드하고 블러 수준을 선택하면 '바로 작동하는' 프로덕션 준비 코드 블록을 얻을 수 있습니다.",
+            "p7": "보안과 성능은 함께 합니다. 사이트 자산과 UI 디자인은 브라우저의 로컬 샌드박스 내에 유지됩니다. LQIP 생성과 코드 구성이 페이지의 로컬 JavaScript를 통해 이루어지기 때문에 이미지가 영구 저장을 위해 원격 서버에 업로드되지 않습니다. 전문 CDN 도구의 속도와 로컬 스크립트의 프라이버시를 모두 얻을 수 있습니다.",
+            "p8": "결론적으로, 이미지 레이지 로드 생성기는 사용자의 데이터와 시간에 대한 존중에 관한 것입니다. 연결 속도에 관계없이 모든 사람에게 빠른 더 나은 웹을 구축하는 것입니다. 도구를 사용하여 시각적 요소를 최적화하고 SEO를 향상시키며 웹사이트를 고성능 플랫폼으로 돋보이게 하는 정교한 로딩 경험을 만드세요."
         },
         "features": {
-            "title": "Expert Utilities for Full-Stack Performance Optimization",
-            "f1_title": "Automated LQIP Generator",
-            "f1_desc": "Instantly creates ultra-low resolution, base64-encoded versions of your images to serve as instant, zero-latency placeholders.",
-            "f2_title": "Intersection Observer Logic",
-            "f2_desc": "Generates lean, modern vanilla JavaScript that uses the browser's native API to trigger image loading only when needed, minimizing CPU usage.",
-            "f3_title": "Aspect Ratio Preservation",
-            "f3_desc": "Calculates and includes intrinsic aspect ratio box code to prevent 'Cumulative Layout Shift' (CLS) and ensure a stable, professional page load.",
-            "f4_title": "Custom Blur Intensity",
-            "f4_desc": "Control the aesthetic of your placeholders. Choose from a subtle blur to a heavy, artistic wash to match your site's design language.",
-            "f5_title": "Modern & Legacy Fallbacks",
-            "f5_desc": "Includes standardized 'loading=lazy' attributes along with custom JS-driven observers and 'noscript' tags for maximum cross-browser compatibility.",
-            "f6_title": "Zero-Upload Local Logic",
-            "f6_desc": "All image processing and string encoding happens right in your browser. No data is stored or logged on our servers, ensuring total asset privacy."
+            "title": "풀스택 성능 최적화를 위한 전문 유틸리티",
+            "f1_title": "자동 LQIP 생성기",
+            "f1_desc": "초저해상도의 base64 인코딩된 이미지 버전을 즉시 생성하여 제로 레이턴시 플레이스홀더로 사용합니다.",
+            "f2_title": "Intersection Observer 로직",
+            "f2_desc": "브라우저의 네이티브 API를 사용하여 필요할 때만 이미지 로딩을 트리거하는 가벼운 최신 바닐라 JavaScript를 생성하여 CPU 사용량을 최소화합니다.",
+            "f3_title": "종횡비 보존",
+            "f3_desc": "'누적 레이아웃 변경'(CLS)을 방지하고 안정적이고 전문적인 페이지 로드를 보장하기 위해 고유 종횡비 박스 코드를 계산하고 포함합니다.",
+            "f4_title": "맞춤 블러 강도",
+            "f4_desc": "플레이스홀더의 미학을 제어하세요. 사이트의 디자인 언어에 맞게 미묘한 블러부터 강한 예술적 워시까지 선택할 수 있습니다.",
+            "f5_title": "모던 & 레거시 폴백",
+            "f5_desc": "최대 크로스 브라우저 호환성을 위해 표준 'loading=lazy' 속성과 함께 커스텀 JS 기반 옵저버 및 'noscript' 태그를 포함합니다.",
+            "f6_title": "업로드 없는 로컬 처리",
+            "f6_desc": "모든 이미지 처리와 문자열 인코딩이 브라우저에서 바로 이루어집니다. 서버에 데이터가 저장되거나 기록되지 않아 완벽한 자산 프라이버시를 보장합니다."
         },
         "how_to": {
-            "title": "Master the Load: How to Implement Lazy Loading",
-            "step1_title": "Upload the High-Res Asset",
-            "step2_desc": "Drop the original image you want to optimize into the tool. It should be the final, web-ready version of the file.",
-            "step2_title": "Configure Placeholder Style",
-            "step3_desc": "Choose your preferred 'Blur' level. A higher blur creates a softer, more abstract placeholder that works well for large hero images.",
-            "step3_title": "Generate the Code Block",
-            "step4_desc": "The tool will instantly generate three sections: HTML for the image tag, CSS for the fade effect, and JS for the scroll detection.",
-            "step4_title": "Integrate into Your Page",
-            "step5_desc": "Replace your standard `<img>` tags with our generated HTML. Add the provided CSS to your stylesheet and the JS to your footer.",
-            "step5_title": "Verify Data-Src Paths",
-            "step6_desc": "Ensure the `data-src` attribute in our code points to the real location of your image file on your server or CDN.",
-            "step6_title": "Confirm and Test",
-            "step1_desc": "Refresh your site. You should see the blurred placeholder appear instantly and then smoothly fade into the full image as you scroll."
+            "title": "로딩 마스터하기: 레이지 로딩 구현 방법",
+            "step1_title": "고해상도 자산 업로드",
+            "step2_desc": "최적화하려는 원본 이미지를 도구에 드롭하세요. 파일의 최종 웹 준비 버전이어야 합니다.",
+            "step2_title": "플레이스홀더 스타일 설정",
+            "step3_desc": "선호하는 '블러' 수준을 선택하세요. 높은 블러는 대형 히어로 이미지에 잘 어울리는 부드럽고 추상적인 플레이스홀더를 만듭니다.",
+            "step3_title": "코드 블록 생성",
+            "step4_desc": "도구가 즉시 세 가지 섹션을 생성합니다: 이미지 태그용 HTML, 페이드 효과용 CSS, 스크롤 감지용 JS.",
+            "step4_title": "페이지에 통합",
+            "step5_desc": "표준 `<img>` 태그를 생성된 HTML로 교체하세요. 제공된 CSS를 스타일시트에, JS를 푸터에 추가하세요.",
+            "step5_title": "Data-Src 경로 확인",
+            "step6_desc": "코드의 `data-src` 속성이 서버 또는 CDN에 있는 이미지 파일의 실제 위치를 가리키는지 확인하세요.",
+            "step6_title": "확인 및 테스트",
+            "step1_desc": "사이트를 새로고침하세요. 블러된 플레이스홀더가 즉시 나타나고 스크롤할 때 전체 이미지로 부드럽게 전환되는 것을 볼 수 있습니다."
         },
         "faq": {
-            "title": "Lazy Loading Knowledge Base: Lazy-Loading Optimization FAQ",
-            "q1": "What is the benefit of using Base64 for placeholders?",
-            "a1": "Base64 allows the tiny placeholder to be loaded inside the HTML itself, meaning zero extra network requests and an 'instant' appear time.",
-            "q2": "Will lazy loading hurt my SEO?",
-            "a2": "No. In fact, it helps! Google's crawler is now very good at reading lazy-loaded images, and the performance boost will improve your Rank.",
-            "q3": "Does this tool work with WordPress?",
-            "a3": "Yes. You can use our code in 'Custom HTML' blocks or code-snippet plugins to manually optimize high-traffic landing pages.",
-            "q4": "What is the difference between this and 'loading=lazy'?",
-            "a4": "Native 'loading=lazy' is simple but provides no placeholder. Our tool adds the LQIP and fade-in effect for a much more professional feel.",
-            "q5": "Does the code require any libraries like jQuery?",
-            "a5": "No. Our generated code is 100% vanilla JavaScript, making it lightweight and future-proof with zero external dependencies.",
-            "q6": "Is this tool free for developers?",
-            "a6": "Yes! Our generator is 100% free for both personal and commercial projects, from small blogs to enterprise apps.",
-            "q7": "How do I know the placeholder is small enough?",
-            "a7": "We target a maximum size of 1KB per placeholder. Most are actually around 500 bytes, which is less than a few sentences of text.",
-            "q8": "Is responsive code generation mobile-ready?",
-            "a8": "Yes. Intersection Observer is supported by Safari, Chrome, and Firefox on all modern mobile devices (iOS and Android).",
-            "q9": "Is this generator suitable for CSS background-image properties?",
-            "a9": "This version is specifically for `<img>` tags. For background images, the principles are similar but the implementation code is different.",
-            "q10": "How do I keep my source images private?",
-            "a10": "Since our tool processes everything locally in your browser via JS, your full-resolution source data never leaves your computer."
+            "title": "레이지 로딩 지식 베이스: 레이지 로딩 최적화 FAQ",
+            "q1": "플레이스홀더에 Base64를 사용하면 어떤 이점이 있나요?",
+            "a1": "Base64를 사용하면 작은 플레이스홀더가 HTML 자체에 내장되어 추가 네트워크 요청이 필요 없고 '즉시' 표시됩니다.",
+            "q2": "레이지 로딩이 SEO에 악영향을 미치나요?",
+            "a2": "아니요. 오히려 도움이 됩니다! Google의 크롤러는 이제 레이지 로드된 이미지를 매우 잘 읽으며, 성능 향상은 순위를 개선합니다.",
+            "q3": "이 도구는 WordPress에서 작동하나요?",
+            "a3": "네. '맞춤 HTML' 블록이나 코드 스니펫 플러그인에서 코드를 사용하여 트래픽이 많은 랜딩 페이지를 수동으로 최적화할 수 있습니다.",
+            "q4": "이것과 'loading=lazy'의 차이점은 무엇인가요?",
+            "a4": "네이티브 'loading=lazy'는 간단하지만 플레이스홀더를 제공하지 않습니다. 우리 도구는 훨씬 더 전문적인 느낌을 위해 LQIP와 페이드인 효과를 추가합니다.",
+            "q5": "코드에 jQuery 같은 라이브러리가 필요한가요?",
+            "a5": "아니요. 생성된 코드는 100% 바닐라 JavaScript로, 가볍고 미래지향적이며 외부 의존성이 전혀 없습니다.",
+            "q6": "이 도구는 개발자에게 무료인가요?",
+            "a6": "네! 생성기는 소규모 블로그부터 엔터프라이즈 앱까지 개인 및 상업 프로젝트 모두에 100% 무료입니다.",
+            "q7": "플레이스홀더가 충분히 작은지 어떻게 알 수 있나요?",
+            "a7": "플레이스홀더당 최대 1KB를 목표로 합니다. 대부분은 실제로 약 500바이트로, 몇 문장의 텍스트보다 작습니다.",
+            "q8": "반응형 코드 생성이 모바일 준비가 되어 있나요?",
+            "a8": "네. Intersection Observer는 모든 최신 모바일 기기(iOS 및 Android)의 Safari, Chrome, Firefox에서 지원됩니다.",
+            "q9": "이 생성기가 CSS background-image에 적합한가요?",
+            "a9": "이 버전은 `<img>` 태그 전용입니다. 배경 이미지의 경우 원리는 비슷하지만 구현 코드가 다릅니다.",
+            "q10": "소스 이미지의 프라이버시를 어떻게 유지하나요?",
+            "a10": "도구가 JS를 통해 브라우저에서 모든 것을 로컬로 처리하므로 전체 해상도 소스 데이터가 컴퓨터를 떠나지 않습니다."
         }
     },
     "js": {
-        "error_conversion": "Error converting image: "
+        "error_conversion": "이미지 변환 오류: "
     }
 }
