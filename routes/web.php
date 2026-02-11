@@ -148,13 +148,7 @@ use App\Http\Controllers\Tools\Youtube\YoutubeVideoDataExtractorController;
 use App\Http\Controllers\Tools\Youtube\YoutubeVideoTagsExtractorController;
 
 
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\PageController;
-use App\Http\Controllers\LanguageController;
-use App\Http\Controllers\SitemapController;
-
-$locales = ['', 'ru', 'es', 'fr', 'de', 'it', 'pt', 'tr', 'ar', 'zh', 'ja', 'id', 'ko', 'fi', 'vi', 'nl', 'pl', 'no', 'cs', 'sv', 'ro', 'da'];
+$locales = ['', 'ru', 'es', 'fr', 'de', 'it', 'pt', 'tr', 'ar', 'zh', 'ja', 'id', 'ko', 'fi', 'vi', 'nl', 'pl', 'no', 'cs', 'sv', 'ro', 'da', 'hi'];
 
 foreach ($locales as $prefix) {
     Route::prefix($prefix)->group(function () use ($prefix) {

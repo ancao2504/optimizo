@@ -24,10 +24,10 @@ return [
     'spreadsheet_title' => 'स्प्रेडशीट टूल्स',
     'spreadsheet_subtitle' => 'प्रोफेशनल स्प्रेडशीट कन्वर्शन टूल्स - 100% मुफ्त, रजिस्ट्रेशन की जरूरत नहीं',
 
-    'video-downloader_title' => 'वीडियो डाउनलोडर टूल्स',
-    'video-downloader_subtitle' => 'प्रोफेशनल वीडियो डाउनलोडिंग टूल्स - 100% मुफ्त, रजिस्ट्रेशन की जरूरत नहीं',
+    'वीडियो-downloader_title' => 'वीडियो डाउनलोडर टूल्स',
+    'वीडियो-downloader_subtitle' => 'प्रोफेशनल वीडियो डाउनलोडिंग टूल्स - 100% मुफ्त, रजिस्ट्रेशन की जरूरत नहीं',
 
-    // Optimized Meta Data
+    // Optimized Meta डेटा
     'youtube_meta_title' => 'YouTube टूल्स - मुफ्त चैनल और वीडियो ऑप्टिमाइज़ेशन | Optimizo',
     'youtube_meta_description' => 'मुफ्त YouTube टूल्स से अपने चैनल को बूस्ट करें। थंबनेल डाउनलोड करें, चैनल ऑडिट करें, टैग एक्सट्रैक्ट करें, और वीडियो SEO का तुरंत विश्लेषण करें। रजिस्ट्रेशन की जरूरत नहीं।',
     'youtube_h1' => 'YouTube टूल्स',
@@ -72,9 +72,9 @@ return [
     'spreadsheet_meta_description' => 'स्प्रेडशीट डेटा को आसानी से ट्रांसफ़ॉर्म करें। CSV से Excel, Excel से JSON, और बहुत कुछ कन्वर्ट करें। डेटा फॉर्मेटिंग और माइग्रेशन के लिए मुफ्त ऑनलाइन टूल्स।',
     'spreadsheet_h1' => 'स्प्रेडशीट टूल्स',
 
-    'video-downloader_meta_title' => 'वीडियो डाउनलोडर टूल्स - मुफ्त ऑनलाइन वीडियो डाउनलोडर्स | Optimizo',
-    'video-downloader_meta_description' => 'विभिन्न प्लेटफ़ॉर्म से मुफ्त में वीडियो डाउनलोड करें। YouTube, Facebook, Instagram और अन्य के लिए हाई क्वालिटी वीडियो डाउनलोडर्स।',
-    'video-downloader_h1' => 'वीडियो डाउनलोडर टूल्स',
+    'वीडियो-downloader_meta_title' => 'वीडियो डाउनलोडर टूल्स - मुफ्त ऑनलाइन वीडियो डाउनलोडर्स | Optimizo',
+    'वीडियो-downloader_meta_description' => 'विभिन्न प्लेटफ़ॉर्म से मुफ्त में वीडियो डाउनलोड करें। YouTube, Facebook, Instagram और अन्य के लिए हाई क्वालिटी वीडियो डाउनलोडर्स।',
+    'वीडियो-downloader_h1' => 'वीडियो डाउनलोडर टूल्स',
     'free_tools' => 'मुफ्त टूल्स',
     'free_forever' => '100% हमेशा मुफ्त',
     'instant_access' => 'तुरंत एक्सेस',

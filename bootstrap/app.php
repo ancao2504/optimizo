@@ -22,14 +22,10 @@ return Application::configure(basePath: dirname(__DIR__))
             'permission' => \App\Http\Middleware\CheckPermission::class,
         ]);
 
-        // Add SetLocale to web middleware group
-        $middleware->web(append: [
-            \App\Http\Middleware\SetLocale::class,
-        ]);
-
-        // Register globally to handle redirects for 404s
+        // Global middleware
         $middleware->prepend([
             \App\Http\Middleware\RedirectMiddleware::class,
+            \App\Http\Middleware\SetLocale::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {

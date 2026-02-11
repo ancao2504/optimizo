@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "SHA-1 Hash Generator - मुफ्त ऑनलाइन टूल",
-        "description": "किसी भी टेक्स्ट से तुरंत SHA-1 hashes जनरेट करें। Git, TLS, और digital certificates में उपयोग होने वाला 160-bit cryptographic hash। मुफ्त ऑनलाइन SHA-1 generator।",
+        "शीर्षक": "SHA-1 हैश जेनरेटर - मुफ़्त ऑनलाइन सुरक्षा टूल",
+        "विवरण": "किसी भी टेक्स्ट से तुरंत SHA-1 हैश जनरेट करें। Git और डिजिटल सर्टिफिकेट में इस्तेमाल होने वाला 160-बिट हैश टूल।",
         "h1": "SHA-1 हैश जेनरेटर",
-        "subtitle": "किसी भी टेक्स्ट से 160-bit SHA-1 cryptographic hashes जनरेट करें"
+        "उपशीर्षक": "किसी भी टेक्स्ट से 160-बिट का SHA-1 हैश कोड जनरेट करें"
     },
     "editor": {
-        "label_input": "टेक्स्ट दर्ज करें",
-        "ph_input": "SHA-1 hash जनरेट करने के लिए टेक्स्ट दर्ज करें...",
-        "btn_generate": "SHA-1 Hash जनरेट करें",
-        "label_result": "SHA-1 हैश",
-        "btn_copy": "कॉपी"
+        "label_input": "टेक्स्ट यहाँ लिखें",
+        "ph_input": "SHA-1 हैश बनाने के लिए टेक्स्ट यहाँ डालें...",
+        "btn_generate": "SHA-1 हैश बनाएँ",
+        "label_result": "तैयार SHA-1 हैश",
+        "btn_copy": "कॉपी करें"
     },
-    "content": {
+    "सामग्री": {
         "hero_title": "SHA-1 हैश जेनरेटर",
-        "hero_subtitle": "तुरंत 160-bit SHA-1 message digests compute करें",
-        "p1": "SHA-1 (Secure Hash Algorithm 1) NSA द्वारा डिज़ाइन किया गया और 1995 में NIST द्वारा प्रकाशित किया गया। यह 160-bit (40-character hex) hash value प्रोड्यूस करता है। SHA-1 लगभग दो दशकों तक सबसे widely used hash function रहा, SSL/TLS connections, digital certificates, और version control systems secure करता रहा। 2017 से security के लिए deprecated होने के बावजूद, SHA-1 Git जैसे systems में deeply embedded बना हुआ है जहां यह content identifier के रूप में कार्य करता है।",
+        "hero_subtitle": "160-बिट मैसेज डाइजेस्ट (Message Digest) तैयार करें",
+        "p1": "SHA-1 (Secure Hash Algorithm 1) को सुरक्षा दुनिया में एक स्टैंडर्ड के रूप में इस्तेमाल किया जाता रहा है। यह किसी भी जानकारी को 40 अक्षरों के एक यूनिक कोड में बदल देता है। हालांकि अब सुरक्षा के लिए नए तरीके (जैसे SHA-256) आ गए हैं, लेकिन 'Git' जैसे बड़े सिस्टम आज भी फाइलों की पहचान के लिए इसका इस्तेमाल करते हैं। हमारा टूल तेज़ी से और पूरी प्राइवेसी के साथ आपको यह कोड बना कर देता है।",
         "what_title": "SHA-1 क्या है?",
-        "what_desc": "SHA-1 512-bit blocks में डेटा को 80 rounds of operations से प्रोसेस करता है, 160-bit message digest प्रोड्यूस करता है। इसे computationally infeasible होने के लिए डिज़ाइन किया गया था कि समान hash वाले दो अलग messages मिलें (collision resistance) या hash से original message reconstruct करें (preimage resistance)। Google ने 2017 में पहला practical collision attack (SHAttered) demonstrate किया।",
-        "features_title": "✅ SHA-1 विशेषताएं",
-        "features": {
-            "fast": "<strong>तेज़ प्रोसेसिंग:</strong> Modern hardware पर efficient",
-            "fixed": "<strong>160-bit आउटपुट:</strong> हमेशा 40-character hexadecimal hash प्रोड्यूस करता है",
-            "deterministic": "<strong>Widely Deployed:</strong> Git, older TLS, और legacy systems में उपयोग",
-            "support": "<strong>Well Analyzed:</strong> दशकों की cryptanalysis research"
+        "what_desc": "SHA-1 डेटा को सुरक्षित करने का एक गणितीय तरीका है। यह जानकारी को 80 बार प्रोसेस करके एक 'डिजिटल फिंगरप्रिंट' तैयार करता है। इसे इस तरह डिज़ाइन किया गया था कि दो अलग-अलग मैसेज का एक जैसा कोड न बने, हालांकि आधुनिक कंप्यूटरों के लिए अब इसे तोड़ना मुमकिन हो गया है।",
+        "features_title": "✅ SHA-1 की विशेषताएं",
+        "विशेषताएं": {
+            "तेज़": "<strong>तेज़ नतीजा:</strong> बड़े डेटा को भी तुरंत प्रोसेस करता है।",
+            "fixed": "<strong>40 अक्षरों का कोड:</strong> रिज़ल्ट हमेशा 160-बिट की निश्चित लम्बाई का होता है।",
+            "deterministic": "<strong>हर जगह मान्य:</strong> Git और पुराने TLS सिस्टम्स में इसका व्यापक उपयोग है।",
+            "समर्थन": "<strong>जाँचा-परखा:</strong> दशकों से सुरक्षा विशेषज्ञों द्वारा रिसर्च किया गया।"
         },
-        "uses_title": "📊 SHA-1 कहां उपयोग होता है",
-        "uses": {
-            "verify": "<strong>Git:</strong> Content-addressable storage और commit identification",
-            "checksum": "<strong>Legacy TLS:</strong> पुराने SSL/TLS certificate signatures",
-            "cache": "<strong>HMAC-SHA1:</strong> HMAC constructions के लिए अभी भी safe माना जाता है",
-            "integrity": "<strong>File Verification:</strong> Software downloads के लिए checksums"
+        "uses_title": "📊 कहाँ इस्तेमाल होता है?",
+        "उपयोग": {
+            "सत्यापित": "<strong>Git कोडिंग:</strong> कोड में बदलावों और फाइलों की पहचान के लिए।",
+            "चेकसम": "<strong>पुराने सिस्टम:</strong> पुराने SSL/TLS सर्टिफिकेट्स में पहचान के लिए।",
+            "cache": "<strong>डेटा वेरिफिकेशन:</strong> डेटा की शुद्धता जाँचने के लिए HMAC के साथ इस्तेमाल।",
+            "अखंडता": "<strong>सॉफ्टवेयर डाउनलोड:</strong> डाउनलोड की गई फाइलें सही हैं या नहीं, यह जाँचने के लिए।"
         },
-        "warning_title": "⚠️ Security चेतावनी",
-        "warning_desc": "<strong>SHA-1 cryptographic security के लिए deprecated है।</strong> Google के SHAttered attack ने 2017 में practical collisions prove किए। सभी major browsers और CA/Browser Forum ने SHA-1 certificates accept करना बंद कर दिया है। नई ऐप्लिकेशन के लिए SHA-256 या SHA-512 उपयोग करें। नोट: HMAC-SHA1 HMAC construction के कारण secure बना हुआ है।",
-        "compare_title": "🔄 अन्य हैश से तुलना",
+        "warning_title": "⚠️ सुरक्षा ज़रूरी सूचना",
+        "warning_desc": "<strong>SHA-1 अब आधुनिक सुरक्षा के लिए पर्याप्त नहीं है।</strong> शोधकर्ताओं ने इसे हैक करने के तरीके खोज लिए हैं। नई ऐप्स और वेबसाइट्स के लिए हमेशा SHA-256 या SHA-512 का ही उपयोग करें। Git जैसे प्रोजेक्ट्स में इसका इस्तेमाल केवल पहचान के लिए ठीक है, सुरक्षा के लिए नहीं।",
+        "compare_title": "🔄 अन्य हैश टूल से तुलना",
         "compare": {
             "md5": {
-                "title": "SHA-1",
-                "desc1": "160-bit आउटपुट",
-                "desc2": "Deprecated, collisions मिले"
+                "शीर्षक": "SHA-1",
+                "desc1": "160-बिट रिज़ल्ट",
+                "desc2": "Git के लिए बेस्ट, सुरक्षा के लिए कमज़ोर।"
             },
             "sha1": {
-                "title": "SHA-256",
-                "desc1": "256-bit आउटपुट",
-                "desc2": "अधिक सुरक्षित, NIST अनुशंसित"
+                "शीर्षक": "SHA-256",
+                "desc1": "256-बिट रिज़ल्ट",
+                "desc2": "ज़्यादा सुरक्षित और आज का स्टैंडर्ड।"
             },
             "sha256": {
-                "title": "SHA-512",
-                "desc1": "512-bit आउटपुट",
-                "desc2": "Highest security, 64-bit पर faster"
+                "शीर्षक": "SHA-512",
+                "desc1": "512-बिट रिज़ल्ट",
+                "desc2": "सबसे हाई सिक्योरिटी के लिए बेस्ट।"
             }
         },
         "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
         "faq": {
-            "q1": "क्या SHA-1 अभी भी safe है?",
-            "a1": "Security purposes के लिए नहीं। SHA-1 collisions demonstrate हो चुके हैं। हालांकि, Git commits या non-cryptographic checksums जैसे non-security uses के लिए अभी भी ठीक है।",
-            "q2": "Git अभी भी SHA-1 क्यों उपयोग करता है?",
-            "a2": "Git SHA-1 content identifier के रूप में उपयोग करता है, security के लिए नहीं। Git SHA-256 में transition कर रहा है, लेकिन backward compatibility के लिए SHA-1 default बना हुआ है।",
-            "q3": "SHA-1 की जगह क्या उपयोग करना चाहिए?",
-            "a3": "General purposes के लिए SHA-256 या maximum security के लिए SHA-512 उपयोग करें। Password hashing के लिए, किसी भी SHA variant की जगह bcrypt या Argon2 उपयोग करें।"
+            "q1": "क्या SHA-1 अभी भी सुरक्षित है?",
+            "a1": "हाई-सिक्योरिटी (जैसे ऑनलाइन बैंकिंग) के लिए नहीं। लेकिन Git जैसे कोडिंग टूल्स में जहाँ केवल फाइलों को पहचानना हो, वहाँ यह अभी भी उपयोगी है।",
+            "q2": "Git इसमें क्यों टिका हुआ है?",
+            "a2": "Git इसका उपयोग सुरक्षा के लिए नहीं, बल्कि फाइलों को एक यूनिक नाम (ID) देने के लिए करता है। हालांकि अब Git भी नए और बेहतर वर्शन की ओर बढ़ रहा है।",
+            "q3": "इसकी जगह क्या यूज़ करना चाहिए?",
+            "a3": "वेबसाइट की सुरक्षा और पासवर्ड के लिए हमेशा SHA-256 या SHA-512 का इस्तेमाल करें।"
         }
     },
     "js": {
-        "error_empty": "कृपया कुछ टेक्स्ट दर्ज करें",
+        "error_empty": "कृपया कुछ टेक्स्ट लिखें।",
         "btn_copied": "कॉपी हो गया!",
-        "btn_generating": "जनरेट हो रहा है...",
-        "error_failed": "Hash generation विफल। कृपया पुनः प्रयास करें।"
+        "btn_generating": "तैयार हो रहा है...",
+        "error_failed": "कोड जनरेट नहीं हो पाया। कृपया फिर कोशिश करें।"
     }
 }

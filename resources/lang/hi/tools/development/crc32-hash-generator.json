@@ -1,71 +1,71 @@
 {
     "meta": {
-        "title": "CRC-32 Hash Generator - मुफ्त ऑनलाइन टूल",
-        "description": "किसी भी टेक्स्ट से तुरंत CRC-32 checksums जनरेट करें। Ethernet, ZIP, और PNG में उपयोग होने वाला industry-standard error detection एल्गोरिदम। मुफ्त और प्राइवेट।",
+        "शीर्षक": "CRC-32 हैश जेनरेटर - मुफ़्त ऑनलाइन एरर डिटेक्शन टूल",
+        "विवरण": "किसी भी टेक्स्ट से तुरंत CRC-32 चेकसम (Checksum) जनरेट करें। Ethernet, ZIP और PNG में इस्तेमाल होने वाला ग्लोबल स्टैंडर्ड टूल।",
         "h1": "CRC-32 हैश जेनरेटर",
-        "subtitle": "विश्वसनीय error detection और डेटा integrity के लिए CRC-32 checksums जनरेट करें"
+        "उपशीर्षक": "डेटा की शुद्धता और गलतियों की पहचान के लिए CRC-32 बनाएँ"
     },
     "editor": {
-        "label_input": "टेक्स्ट दर्ज करें",
-        "ph_input": "CRC-32 hash जनरेट करने के लिए टेक्स्ट दर्ज करें...",
-        "btn_generate": "CRC-32 Hash जनरेट करें",
-        "label_result": "CRC-32 हैश",
+        "label_input": "टेक्स्ट यहाँ लिखें",
+        "ph_input": "CRC-32 हैश बनाने के लिए टेक्स्ट यहाँ डालें...",
+        "btn_generate": "CRC-32 हैश बनाएँ",
+        "label_result": "तैयार CRC-32 हैश",
         "btn_copy": "कॉपी करें"
     },
-    "content": {
+    "सामग्री": {
         "hero_title": "CRC-32 हैश जेनरेटर",
-        "hero_subtitle": "डेटा integrity वेरिफिकेशन के लिए CRC-32 checksums कंप्यूट करें",
-        "p1": "CRC-32 (Cyclic Redundancy Check 32-bit) एक error-detecting code है जो डिजिटल नेटवर्क और स्टोरेज डिवाइसेज़ में व्यापक रूप से उपयोग होता है। यह 32-bit checksum प्रोड्यूस करता है जो सामान्य प्रकार के डेटा corruption का पता लगा सकता है। CRC-32 Ethernet frame checking, ZIP फ़ाइल integrity, PNG इमेज validation, और दर्जनों अन्य standards की रीढ़ है जो विश्वसनीय error detection पर निर्भर हैं।",
+        "hero_subtitle": "डेटा में खराबी (Corruption) जाँचने का ग्लोबल स्टैंडर्ड",
+        "p1": "CRC-32 (Cyclic Redundancy Check) एक ऐसा स्मार्ट कोड है जो कंप्यूटर नेटवर्क और स्टोरेज में होने वाली मामूली गलतियों को तुरंत पकड़ लेता है। यह इंटरनेट (Ethernet), ज़िप फाइलों (ZIP) और फोटो (PNG) की सुरक्षा की रीढ़ है। जब भी आप कोई फाइल डाउनलोड करते हैं या इंटरनेट पर भेजते हैं, तो पीछे की तरफ CRC-32 ही यह सुनिश्चित करता है कि फाइल में कोई बिट गायब या खराब तो नहीं हुई है।",
         "what_title": "CRC-32 क्या है?",
-        "what_desc": "CRC-32 इनपुट डेटा को एक polynomial के रूप में treat करता है और इसे एक fixed generator polynomial (IEEE 802.3 के लिए 0xEDB88320) से divide करता है। इस division का remainder 32-bit checksum बनता है। यह mathematical approach CRC-32 को उत्कृष्ट error detection properties देता है, सभी single-bit errors, सभी double-bit errors, और 32 bits या उससे कम की किसी भी burst error को पकड़ता है।",
+        "what_desc": "CRC-32 डेटा को एक गणितीय समीकरण की तरह देखता है। यह इनपुट जानकारी को एक खास नंबर (Polynomial) से भाग देता है और जो शेष बचता है, उसे 8 अक्षरों के कोड में बदल देता है। यह तरीका इतना सटीक है कि डेटा में एक भी बिट का अंतर होने पर यह उसे तुरंत पकड़ सकता है।",
         "features_title": "✅ CRC-32 के फायदे",
-        "features": {
-            "fast": "<strong>Hardware Optimized:</strong> कई CPUs में अधिकतम स्पीड के लिए CRC-32 instructions शामिल",
-            "fixed": "<strong>32-bit आउटपुट:</strong> हमेशा 8-character hexadecimal checksum प्रोड्यूस करता है",
-            "deterministic": "<strong>उत्कृष्ट Detection:</strong> सभी सामान्य error patterns पकड़ता है",
-            "support": "<strong>यूनिवर्सल स्टैंडर्ड:</strong> Ethernet, ZIP, PNG, MPEG-2, और अधिक में उपयोग"
+        "विशेषताएं": {
+            "तेज़": "<strong>हार्डवेयर फ्रेंडली:</strong> आधुनिक कंप्यूटरों में इसके लिए खास सिस्टम होते हैं, जो इसे बहुत तेज़ बनाते हैं।",
+            "fixed": "<strong>छोटा और सटीक:</strong> हमेशा 32-बिट का एक छोटा कोड देता है जिसे संभालना आसान है।",
+            "deterministic": "<strong>बेहतरीन पहचान:</strong> यह डेटा के खराब होने के लगभग सभी सामान्य पैटर्न्स को पकड़ लेता है।",
+            "समर्थन": "<strong>हर जगह मान्य:</strong> ZIP, PNG, MPEG-2 जैसे बड़े प्लेटफॉर्म्स पर इसका ही इस्तेमाल होता है।"
         },
-        "uses_title": "📊 सामान्य उपयोग के मामले",
-        "uses": {
-            "verify": "<strong>Network Protocols:</strong> Ethernet और Wi-Fi frame checking",
-            "checksum": "<strong>फ़ाइल Archives:</strong> ZIP, RAR, और 7-Zip integrity वेरिफिकेशन",
-            "cache": "<strong>इमेज Formats:</strong> PNG chunk validation",
-            "integrity": "<strong>Storage:</strong> Disk sector integrity जांच"
+        "uses_title": "📊 मुख्य उपयोग के मामले",
+        "उपयोग": {
+            "सत्यापित": "<strong>नेटवर्क प्रोटोकॉल:</strong> Ethernet और Wi-Fi पर डेटा चेक करने के लिए।",
+            "चेकसम": "<strong>फाइल आर्काइव:</strong> ZIP और RAR फाइलों की शुद्धता जाँचने के लिए।",
+            "cache": "<strong>इमेज वैलिडेशन:</strong> PNG फोटो को सही ढंग से लोड करने के लिए।",
+            "अखंडता": "<strong>स्टोरेज:</strong> हार्ड डिस्क में डेटा सेव करते समय उसकी जाँच के लिए।"
         },
-        "warning_title": "⚠️ महत्वपूर्ण नोट",
-        "warning_desc": "<strong>CRC-32 एक cryptographic hash function नहीं है।</strong> यह आकस्मिक डेटा corruption का पता लगाने के लिए डिज़ाइन है, जानबूझकर छेड़छाड़ के लिए नहीं। एक attacker आसानी से समान CRC-32 वैल्यू वाले अलग-अलग inputs बना सकता है। सुरक्षा के लिए SHA-256 या SHA-512 उपयोग करें।",
-        "compare_title": "🔄 CRC-32 बनाम अन्य Algorithms",
+        "warning_title": "⚠️ ज़रूरी सूचना",
+        "warning_desc": "<strong>CRC-32 सुरक्षा (Security) टूल नहीं है।</strong> यह केवल तकनीकी खराबी को पकड़ने के लिए है। कोई भी हैकर जानबूझकर डेटा बदलकर समान CRC रिज़ल्ट ला सकता है। अगर आपको सुरक्षा और पासवर्ड के लिए हैश चाहिए, तो SHA-256 का उपयोग करें।",
+        "compare_title": "🔄 अन्य टूल्स से तुलना",
         "compare": {
             "md5": {
-                "title": "CRC-32",
-                "desc1": "32-bit आउटपुट",
-                "desc2": "Error detection के लिए सर्वश्रेष्ठ"
+                "शीर्षक": "CRC-32",
+                "desc1": "32-बिट रिज़ल्ट",
+                "desc2": "गलतियाँ पकड़ने का सबसे अच्छा तरीका।"
             },
             "sha1": {
-                "title": "Adler-32",
-                "desc1": "32-bit आउटपुट",
-                "desc2": "तेज़ लेकिन कमज़ोर detection"
+                "शीर्षक": "Adler-32",
+                "desc1": "32-बिट रिज़ल्ट",
+                "desc2": "तेज़ है, लेकिन गलतियाँ पकड़ने में थोड़ा कमज़ोर।"
             },
             "sha256": {
-                "title": "MD5",
-                "desc1": "128-bit आउटपुट",
-                "desc2": "NIST मानक, सर्वाधिक उपयोग"
+                "शीर्षक": "MD5",
+                "desc1": "128-बिट रिज़ल्ट",
+                "desc2": "सुरक्षा के लिए बेहतर और ज़्यादा लोकप्रिय।"
             }
         },
         "faq_title": "❓ अक्सर पूछे जाने वाले प्रश्न",
         "faq": {
             "q1": "CRC-32 और CRC-32B में क्या अंतर है?",
-            "a1": "CRC-32 स्टैंडर्ड ITU polynomial उपयोग करता है, जबकि CRC-32B IEEE 802.3 polynomial उपयोग करता है। CRC-32B आधुनिक ऐप्लिकेशन जैसे ZIP फाइलें और Ethernet में अधिक सामान्य रूप से उपयोग होने वाला variant है।",
-            "q2": "क्या CRC-32 सभी errors पकड़ सकता है?",
-            "a2": "CRC-32 सभी single-bit errors, सभी double-bit errors, और 32 bits तक की सभी burst errors पकड़ता है। लंबी burst errors का पता लगाने की 99.99999995% संभावना है।",
-            "q3": "क्या CRC-32 password hashing के लिए उपयुक्त है?",
-            "a3": "बिल्कुल नहीं। CRC-32 एक checksum है, cryptographic hash नहीं। Collisions ढूंढना बहुत आसान है। Passwords के लिए bcrypt या Argon2 उपयोग करें।"
+            "a1": "दोनों एक ही परिवार के हैं। CRC-32B (IEEE 802.3) आधुनिक इंटरनेट और ज़िप फाइलों में इस्तेमाल होने वाला सबसे सामान्य वर्शन है।",
+            "q2": "क्या यह सारी गलतियाँ पकड़ सकता है?",
+            "a2": "लगभग सभी! यह छोटी-मोटी और रैंडम खराबी को पकड़ने में 99.99% से ज़्यादा सटीक है।",
+            "q3": "क्या इसे पासवर्ड के लिए इस्तेमाल कर सकते हैं?",
+            "a3": "बिलकुल नहीं! यह पासवर्ड के लिए असुरक्षित है। इसके लिए हमेशा bcrypt या Argon2 का उपयोग करें।"
         }
     },
     "js": {
-        "error_empty": "कृपया कुछ टेक्स्ट दर्ज करें",
+        "error_empty": "कृपया कुछ टेक्स्ट लिखें।",
         "btn_copied": "कॉपी हो गया!",
-        "btn_generating": "जनरेट हो रहा है...",
-        "error_failed": "Hash generation विफल। कृपया पुनः प्रयास करें।"
+        "btn_generating": "तैयार हो रहा है...",
+        "error_failed": "जनरेट करने में विफल। फिर से कोशिश करें।"
     }
 }
