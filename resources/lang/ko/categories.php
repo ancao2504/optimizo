@@ -64,4 +64,9 @@ return [
     'general' => '일반',
     'meta_title' => ':category - 무료 온라인 도구 | Optimizo',
     'meta_description' => '변환기, 생성기 등을 포함한 무료 :category. 개발자와 크리에이터를 위한 전문 도구.',
+    'video-downloader_title' => '비디오 다운로더 도구',
+    'video-downloader_subtitle' => '전문 비디오 다운로드 도구 - 100% 무료, 가입 불필요',
+    'video-downloader_meta_title' => '비디오 다운로더 도구 - 무료 온라인 비디오 다운로더 | Optimizo',
+    'video-downloader_meta_description' => '다양한 플랫폼에서 무료로 비디오를 다운로드하세요. YouTube, Facebook, Instagram 등을 위한 고품질 비디오 다운로더.',
+    'video-downloader_h1' => '비디오 다운로더 도구',
 ];

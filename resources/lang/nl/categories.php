@@ -64,4 +64,9 @@ return [
     'general' => 'Algemeen',
     'meta_title' => ':category - Gratis Online Tools | Optimizo',
     'meta_description' => 'Gratis :category inclusief converters, generators en meer. Professionele tools voor iedereen.',
+    'video-downloader_title' => 'Video Downloader Tools',
+    'video-downloader_subtitle' => 'Professionele video-downloadtools - 100% gratis, geen registratie nodig',
+    'video-downloader_meta_title' => 'Video Downloader Tools - Gratis Online Video Downloaders | Optimizo',
+    'video-downloader_meta_description' => 'Download gratis video\'s van verschillende platforms. Hoogwaardige video-downloaders voor YouTube, Facebook, Instagram en meer.',
+    'video-downloader_h1' => 'Video Downloader Tools',
 ];

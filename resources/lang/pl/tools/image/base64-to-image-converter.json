@@ -8,19 +8,21 @@
     "input": {
         "title": "Wklej ciąg Base64",
         "desc": "Wklej swój kod poniżej, aby zwizualizować obraz",
-        "placeholder": "dane:image\/png;base64,iVBORw0KGgo...",
-        "btn_decode": "Dekoduj obraz"
+        "placeholder": "dane:image/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Dekoduj obraz",
+        "label": "Wklej tutaj swój ciąg Base64"
     },
     "result": {
         "image_alt": "Zdekodowany obraz",
         "success": "Obraz zdekodowany pomyślnie",
         "btn_download": "Pobierz obraz",
-        "btn_clear": "Wyczyść wzór"
+        "btn_clear": "Wyczyść wzór",
+        "ready_message": "Twój obraz jest gotowy do pobrania"
     },
     "content": {
         "title": "Dekoduj Base64 na obraz",
-        "p1": "Znalazłeś długi ciąg losowych znaków zaczynający się od <code>data:image\/...<\/code> i nie wiesz, co to jest? To prawdopodobnie obraz zakodowany w Base64.",
-        "p2": "Nasz <strong>dekoder Base64 na obraz<\/strong> konwertuje ten ciąg tekstowy z powrotem na widoczny plik obrazu (PNG, JPG, GIF itp.), który możesz wyświetlić i pobrać na swój komputer.",
+        "p1": "Znalazłeś długi ciąg losowych znaków zaczynający się od <code>data:image/...</code> i nie wiesz, co to jest? To prawdopodobnie obraz zakodowany w Base64.",
+        "p2": "Nasz <strong>dekoder Base64 na obraz</strong> konwertuje ten ciąg tekstowy z powrotem na widoczny plik obrazu (PNG, JPG, GIF itp.), który możesz wyświetlić i pobrać na swój komputer.",
         "features": {
             "title": "Key Features",
             "f1_title": "Instant Preview",
@@ -28,7 +30,9 @@
             "f2_title": "Auto-Detection",
             "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
             "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click.",
+            "badge": "Dlaczego warto używać tego narzędzia?",
+            "subtitle": "Essential for developers and designers."
         },
         "how_to": {
             "title": "Jak dekodować?",
@@ -39,7 +43,8 @@
             "step3_title": "Step 3",
             "step3_desc": "If valid, the image appears on the left.",
             "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "step4_desc": "Click \"Download Image\" to save it.",
+            "subtitle": "Simple steps to decode your images."
         },
         "use_cases": {
             "title": "Typowe zastosowania",
@@ -48,6 +53,19 @@
                 "Odzyskiwanie: Wyodrębnianie obrazów osadzonych w plikach CSS lub szablonach HTML.",
                 "Weryfikacja: Upewnienie się, że ciąg Base64 nie jest uszkodzony."
             ]
+        },
+        "faq": {
+            "title": "Często zadawane pytania",
+            "q1": "How does the Base64 to Image converter work?",
+            "a1": "This tool takes a Base64 encoded string as input and decodes it back into its original binary image format. It parses the data URI scheme (e.g., data:image/png;base64,...) to identify the image type and content.",
+            "q2": "What image formats can I decode?",
+            "a2": "The tool supports all common web image formats including PNG, JPG (JPEG), GIF, WEBP, BMP, and SVG, provided the Base64 string contains the correct MIME type header.",
+            "q3": "Is this tool free to use?",
+            "a3": "Yes, our Base64 to Image decoder is 100% free to use with no limits on the number of conversions.",
+            "q4": "Is it safe / secure?",
+            "a4": "Yes. The decoding process runs client-side in your browser for preview. We do not store or save your images on our servers.",
+            "q5": "What if my Base64 string is invalid?",
+            "a5": "If the string is corrupted or incomplete, the tool will display an error message. Ensure you have copied the entire string, including the identifying header part."
         }
     },
     "js": {

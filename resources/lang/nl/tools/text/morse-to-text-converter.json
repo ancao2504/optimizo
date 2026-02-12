@@ -99,16 +99,30 @@
         "faq_title": "❓ Veelgestelde Vragen",
         "faq": {
             "q1": "Hoe moet ik de morsecode invoeren?",
-            "a1": "Scheid elke letter met een spatie. Gebruik een schuine streep (\/) voor spaties tussen woorden. Voorbeeld: \"... --- ...\" voor SOS.",
+            "a1": "Scheid elke letter met een spatie. Gebruik een schuine streep (/) voor spaties tussen woorden. Voorbeeld: \"... --- ...\" voor SOS.",
             "q2": "Wat als ik een fout maak?",
             "a2": "Ongeldige morse-patronen worden overgeslagen. Zorg dat punten en streepjes goed gescheiden zijn door spaties.",
             "q3": "Kan ik ook cijfers decoderen?",
             "a3": "Ja! De tool decodeert de cijfers 0-9 vanuit hun morsecode-patronen.",
             "q4": "Hoe scheid ik woorden?",
-            "a4": "Gebruik een forward slash (\/) om woorden te scheiden in morsecode.",
+            "a4": "Gebruik een forward slash (/) om woorden te scheiden in morsecode.",
             "q5": "Is deze tool gratis?",
             "a5": "Ja! Volledig gratis en zonder limieten. Alle verwerking gebeurt privé in je browser."
-        }
+        },
+        "samples": [
+            {
+                "title": "SOS Signal",
+                "desc": "... --- ..."
+            },
+            {
+                "title": "Hello",
+                "desc": ".... . .-.. .-.. ---"
+            },
+            {
+                "title": "Optimizo",
+                "desc": "--- .--. - .. -- .. --.. ---"
+            }
+        ]
     },
     "js": {
         "error_empty": "Voer morsecode in om te decoderen",

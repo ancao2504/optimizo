@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Digital Signature - Free Online Document Signing Tool')
-@section('meta_description', 'Sign PDF documents online for free. Upload your PDF, draw or type your signature, and download the signed document securely.')
+@section('title', __tool('digital-signature', 'meta.title', 'Digital Signature - Free Online Document Signing Tool'))
+@section('meta_description', __tool('digital-signature', 'meta.description', 'Sign PDF documents online for free. Upload your PDF, draw or type your signature, and download the signed document securely.'))
 
 @section('content')
     <x-tool-hero :tool="$tool" />
@@ -24,8 +24,8 @@
                             </svg>
                         </div>
                         <div>
-                            <p class="text-xl font-bold text-gray-700">Drop your PDF here or click to upload</p>
-                            <p class="text-base text-gray-500 mt-2">Maximum file size: 10MB</p>
+                            <p class="text-xl font-bold text-gray-700">{{ __tool('digital-signature', 'editor.upload_text') ?: 'Drop your PDF here or click to upload' }}</p>
+                            <p class="text-base text-gray-500 mt-2">{{ __tool('digital-signature', 'editor.max_file_size') ?: 'Maximum file size: 10MB' }}</p>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                             </svg>
                         </button>
-                        <span class="text-sm font-medium text-gray-700">Page <span x-text="currentPage"></span> of <span
+                        <span class="text-sm font-medium text-gray-700">{{ __tool('digital-signature', 'editor.page_label') ?: 'Page' }} <span x-text="currentPage"></span> {{ __tool('digital-signature', 'editor.page_of') ?: 'of' }} <span
                                 x-text="totalPages"></span></span>
                         <button @click="nextPage" :disabled="currentPage >= totalPages"
                             class="p-2 rounded-lg hover:bg-white disabled:opacity-50 text-gray-600">
@@ -60,7 +60,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                             </svg>
-                            Add Signature
+                            {{ __tool('digital-signature', 'editor.btn_add_signature') ?: 'Add Signature' }}
                         </button>
                         <button @click="downloadPdf" :disabled="isProcessing"
                             class="px-4 py-2 bg-green-600 text-white rounded-xl hover:bg-green-700 font-medium shadow-sm transition-colors flex items-center disabled:opacity-50">
@@ -77,7 +77,7 @@
                                     d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
                                 </path>
                             </svg>
-                            Download PDF
+                            {{ __tool('digital-signature', 'editor.btn_download') ?: 'Download PDF' }}
                         </button>
                         <button @click="resetApp" class="p-2 text-red-500 hover:bg-red-50 rounded-lg">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -131,19 +131,19 @@
             <div
                 class="inline-block align-bottom bg-white rounded-2xl text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
                 <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-                    <h3 class="text-lg leading-6 font-medium text-gray-900 mb-4" id="modal-title">Create Signature</h3>
+                    <h3 class="text-lg leading-6 font-medium text-gray-900 mb-4" id="modal-title">{{ __tool('digital-signature', 'modal.title') ?: 'Create Signature' }}</h3>
 
                     <!-- Tabs -->
                     <div class="flex border-b border-gray-200 mb-4">
                         <button @click="activeTab = 'draw'"
                             :class="{'border-indigo-500 text-indigo-600': activeTab === 'draw', 'border-transparent text-gray-500 hover:text-gray-700': activeTab !== 'draw'}"
-                            class="flex-1 py-2 px-4 border-b-2 font-medium text-sm">Draw</button>
+                            class="flex-1 py-2 px-4 border-b-2 font-medium text-sm">{{ __tool('digital-signature', 'modal.tab_draw') ?: 'Draw' }}</button>
                         <button @click="activeTab = 'type'"
                             :class="{'border-indigo-500 text-indigo-600': activeTab === 'type', 'border-transparent text-gray-500 hover:text-gray-700': activeTab !== 'type'}"
-                            class="flex-1 py-2 px-4 border-b-2 font-medium text-sm">Type</button>
+                            class="flex-1 py-2 px-4 border-b-2 font-medium text-sm">{{ __tool('digital-signature', 'modal.tab_type') ?: 'Type' }}</button>
                         <button @click="activeTab = 'upload'"
                             :class="{'border-indigo-500 text-indigo-600': activeTab === 'upload', 'border-transparent text-gray-500 hover:text-gray-700': activeTab !== 'upload'}"
-                            class="flex-1 py-2 px-4 border-b-2 font-medium text-sm">Upload</button>
+                            class="flex-1 py-2 px-4 border-b-2 font-medium text-sm">{{ __tool('digital-signature', 'modal.tab_upload') ?: 'Upload' }}</button>
                     </div>
 
                     <!-- Draw Tab -->
@@ -152,13 +152,13 @@
                             <canvas id="signaturePad"
                                 class="absolute inset-0 w-full h-full rounded-lg cursor-crosshair"></canvas>
                             <button @click="clearSignaturePad"
-                                class="absolute top-2 right-2 text-xs bg-white border border-gray-200 px-2 py-1 rounded text-gray-500 hover:text-red-500">Clear</button>
+                                class="absolute top-2 right-2 text-xs bg-white border border-gray-200 px-2 py-1 rounded text-gray-500 hover:text-red-500">{{ __tool('digital-signature', 'modal.btn_clear') ?: 'Clear' }}</button>
                         </div>
                     </div>
 
                     <!-- Type Tab -->
                     <div x-show="activeTab === 'type'">
-                        <input type="text" x-model="typedSignature" placeholder="Type your name"
+                        <input type="text" x-model="typedSignature" placeholder="{{ __tool('digital-signature', 'modal.ph_name') ?: 'Type your name' }}"
                             class="w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500 p-3 text-2xl font-cursive text-center"
                             style="font-family: 'Dancing Script', cursive;">
                     </div>
@@ -172,11 +172,11 @@
                 <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
                     <button @click="addSignature" type="button"
                         class="w-full inline-flex justify-center rounded-xl border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:ml-3 sm:w-auto sm:text-sm">
-                        Create Signature
+                        {{ __tool('digital-signature', 'modal.btn_create') ?: 'Create Signature' }}
                     </button>
                     <button @click="showModal = false" type="button"
                         class="mt-3 w-full inline-flex justify-center rounded-xl border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
-                        Cancel
+                        {{ __tool('digital-signature', 'modal.btn_cancel') ?: 'Cancel' }}
                     </button>
                 </div>
             </div>

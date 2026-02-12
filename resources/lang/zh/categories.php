@@ -64,4 +64,9 @@ return [
     'general' => '常规',
     'meta_title' => ':category - 免费在线工具 | Optimizo',
     'meta_description' => '免费:category，包括转换器，生成器等。开发人员和创作者的专业工具。',
+    'video-downloader_title' => '视频下载工具',
+    'video-downloader_subtitle' => '专业视频下载工具 - 100% 免费，无需注册',
+    'video-downloader_meta_title' => '视频下载工具 - 免费在线视频下载器 | Optimizo',
+    'video-downloader_meta_description' => '免费从各种平台下载视频。适用于 YouTube、Facebook、Instagram 等的高品质视频下载器。',
+    'video-downloader_h1' => '视频下载工具',
 ];

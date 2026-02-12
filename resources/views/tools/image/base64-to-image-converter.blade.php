@@ -13,7 +13,7 @@
                 <!-- Input Area -->
                 <div>
                     <label for="base64Input" class="block text-sm font-bold text-gray-700 mb-2">
-                        Paste your Base64 string here
+                        {{ __tool('base64-to-image-converter', 'input.label') ?: 'Paste your Base64 string here' }}
                     </label>
                     <textarea id="base64Input"
                         placeholder="{!! __tool('base64-to-image-converter', 'input.placeholder') !!}"
@@ -56,7 +56,7 @@
                         </div>
                         <h3 class="text-xl font-bold text-gray-900 mb-1">
                             {!! __tool('base64-to-image-converter', 'result.success') !!}</h3>
-                        <p class="text-gray-500 text-sm">Your image is ready to download</p>
+                        <p class="text-gray-500 text-sm">{{ __tool('base64-to-image-converter', 'result.ready_message') ?: 'Your image is ready to download' }}</p>
                     </div>
 
                     <div class="flex flex-col gap-3">
@@ -83,9 +83,9 @@
             <!-- Features Grid -->
             <section class="relative">
                 <div class="text-center max-w-3xl mx-auto mb-20">
-                    <span class="text-indigo-600 font-bold tracking-widest uppercase text-sm mb-3 block">Why Use This Tool?</span>
+                    <span class="text-indigo-600 font-bold tracking-widest uppercase text-sm mb-3 block">{{ __tool('base64-to-image-converter', 'content.features.badge') ?: 'Why Use This Tool?' }}</span>
                     <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6">{{ __tool('base64-to-image-converter', 'content.features.title') ?: 'Key Features' }}</h2>
-                    <p class="text-xl text-gray-500 font-light">Essential for developers and designers.</p>
+                    <p class="text-xl text-gray-500 font-light">{{ __tool('base64-to-image-converter', 'content.features.subtitle') ?: 'Essential for developers and designers.' }}</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -110,7 +110,7 @@
 
                 <div class="relative z-10 text-center mb-16">
                      <h2 class="text-3xl md:text-5xl font-black mb-6 text-white">{{ __tool('base64-to-image-converter', 'content.how_to.title') ?: 'How it Works' }}</h2>
-                     <p class="text-gray-400 text-lg">Simple steps to decode your images.</p>
+                     <p class="text-gray-400 text-lg">{{ __tool('base64-to-image-converter', 'content.how_to.subtitle') ?: 'Simple steps to decode your images.' }}</p>
                 </div>
 
                 <div class="relative z-10 grid gap-8">

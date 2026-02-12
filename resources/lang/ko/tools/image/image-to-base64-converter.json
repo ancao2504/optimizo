@@ -3,7 +3,7 @@
         "title": "이미지를 Base64 변환기로 - 무료 온라인 문자열 도구",
         "description": "HTML이나 CSS에 포함할 이미지를 Base64 문자열로 인코딩하세요. PNG, JPG, GIF를 지원하는 무료 온라인 도구.",
         "h1": "이미지를 Base64 문자열로 변환",
-        "subtitle": "HTML\/CSS 임베딩을 위해 이미지 파일을 Base64 문자열로 변환하세요"
+        "subtitle": "HTML/CSS 임베딩을 위해 이미지 파일을 Base64 문자열로 변환하세요"
     },
     "input": {
         "title": "이미지 업로드",
@@ -16,7 +16,8 @@
         "label_string": "Base64 문자열",
         "btn_copy": "클립보드로 복사",
         "char_count": "문자 수",
-        "mime_type": "MIME 유형"
+        "mime_type": "MIME 유형",
+        "btn_upload_new": "새 이미지 업로드"
     },
     "content": {
         "title": "이미지 Base64 변환 가이드",
@@ -29,7 +30,9 @@
             "f2_title": "요청 수 감소",
             "f2_desc": "작은 아이콘과 로고를 Base64로 임베딩하면 외부 이미지 파일 가져오기의 네트워크 오버헤드를 제거합니다.",
             "f3_title": "모든 형식 지원",
-            "f3_desc": "PNG, JPG, GIF, WEBP, SVG, ICO 파일까지 지원합니다."
+            "f3_desc": "PNG, JPG, GIF, WEBP, SVG, ICO 파일까지 지원합니다.",
+            "badge": "이 도구를 사용하는 이유",
+            "subtitle": "Essential for developers and designers."
         },
         "how_to": {
             "title": "사용 방법",
@@ -40,7 +43,8 @@
             "step3_title": "3단계",
             "step3_desc": "\"클립보드로 복사\" 버튼을 클릭하여 코드를 가져오세요.",
             "step4_title": "4단계",
-            "step4_desc": "`src` 속성이나 CSS 파일에 삽입하세요."
+            "step4_desc": "`src` 속성이나 CSS 파일에 삽입하세요.",
+            "subtitle": "Simple steps to encode your images."
         },
         "use_cases": {
             "title": "언제 Base64를 사용하나요?",
@@ -49,6 +53,19 @@
                 "단일 파일 앱: 이메일 템플릿처럼 모든 요소를 하나의 HTML 파일로 묶어야 할 때 유용합니다.",
                 "오프라인 접근: HTML을 로컬에 저장했을 때 별도의 이미지 파일 없이도 화면이 깨지지 않습니다."
             ]
+        },
+        "faq": {
+            "title": "자주 묻는 질문",
+            "q1": "What is Base64 encoding?",
+            "a1": "Base64 is a way to represent binary data (like images) using only printable text characters. This allows you to embed images directly into code files.",
+            "q2": "Will this increase the file size?",
+            "a2": "Yes, Base64 encoding typically increases the file size by about 33%. It is recommended only for small images (icons, logos) to avoid performance issues.",
+            "q3": "Which browsers support Data URIs?",
+            "a3": "Data URIs are supported by all modern browsers (Chrome, Firefox, Safari, Edge) and IE8+.",
+            "q4": "Is it secure?",
+            "a4": "Yes, the conversion happens entirely in your browser. Your images are never uploaded to our servers.",
+            "q5": "Can I convert large images?",
+            "a5": "Technically yes, but it's not recommended. Large Base64 strings can bloat your HTML/CSS and slow down page rendering."
         }
     },
     "js": {

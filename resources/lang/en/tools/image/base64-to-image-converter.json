@@ -8,19 +8,21 @@
     "input": {
         "title": "Paste Base64 String",
         "desc": "Paste your code below to visualize the image",
-        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
-        "btn_decode": "Decode Image"
+        "placeholder": "data:image/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Decode Image",
+        "label": "Paste your Base64 string here"
     },
     "result": {
         "image_alt": "Decoded Image",
         "success": "Image Decoded Successfully",
         "btn_download": "Download Image",
-        "btn_clear": "Clear Pattern"
+        "btn_clear": "Clear Pattern",
+        "ready_message": "Your image is ready to download"
     },
     "content": {
         "title": "Decode Base64 to Image",
-        "p1": "Found a long string of random characters starting with <code>data:image\/...<\/code> and don't know what it is? It's likely a Base64-encoded image.",
-        "p2": "Our <strong>Base64 to Image Decoder<\/strong> converts that text string back into a visible image file (PNG, JPG, GIF, etc.) that you can view and download to your computer.",
+        "p1": "Found a long string of random characters starting with <code>data:image/...</code> and don't know what it is? It's likely a Base64-encoded image.",
+        "p2": "Our <strong>Base64 to Image Decoder</strong> converts that text string back into a visible image file (PNG, JPG, GIF, etc.) that you can view and download to your computer.",
         "features": {
             "title": "Key Features",
             "f1_title": "Instant Preview",
@@ -28,7 +30,9 @@
             "f2_title": "Auto-Detection",
             "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
             "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click.",
+            "badge": "Why Use This Tool?",
+            "subtitle": "Essential for developers and designers."
         },
         "how_to": {
             "title": "How to Decode?",
@@ -39,12 +43,13 @@
             "step3_title": "Step 3",
             "step3_desc": "If valid, the image appears on the left.",
             "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "step4_desc": "Click \"Download Image\" to save it.",
+            "subtitle": "Simple steps to decode your images."
         },
         "faq": {
             "title": "Frequently Asked Questions",
             "q1": "How does the Base64 to Image converter work?",
-            "a1": "This tool takes a Base64 encoded string as input and decodes it back into its original binary image format. It parses the data URI scheme (e.g., data:image\/png;base64,...) to identify the image type and content.",
+            "a1": "This tool takes a Base64 encoded string as input and decodes it back into its original binary image format. It parses the data URI scheme (e.g., data:image/png;base64,...) to identify the image type and content.",
             "q2": "What image formats can I decode?",
             "a2": "The tool supports all common web image formats including PNG, JPG (JPEG), GIF, WEBP, BMP, and SVG, provided the Base64 string contains the correct MIME type header.",
             "q3": "Is this tool free to use?",

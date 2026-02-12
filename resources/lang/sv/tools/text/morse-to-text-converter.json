@@ -99,16 +99,30 @@
         "faq_title": "❓ Vanliga frågor",
         "faq": {
             "q1": "Hur formaterar jag morsekodinmatning?",
-            "a1": "Separera varje bokstav med ett mellanslag. Använd \/ för ordmellanrum. Exempel: \"... --- ...\" för SOS.",
+            "a1": "Separera varje bokstav med ett mellanslag. Använd / för ordmellanrum. Exempel: \"... --- ...\" för SOS.",
             "q2": "Vad händer om jag gör ett misstag?",
             "a2": "Ogiltiga morsekodmönster hoppas över. Se till att prickar och streck är åtskilda av mellanslag.",
             "q3": "Kan jag avkoda siffror?",
             "a3": "Ja! Verktyget avkodar siffrorna 0-9 från deras morsekodmönster.",
             "q4": "Hur skiljer jag ord?",
-            "a4": "Använd ett snedstreck (\/) för att skilja ord i morsekod.",
+            "a4": "Använd ett snedstreck (/) för att skilja ord i morsekod.",
             "q5": "Är detta verktyg gratis?",
             "a5": "Ja! Helt gratis utan gränser. All bearbetning sker i din webbläsare för sekretess."
-        }
+        },
+        "samples": [
+            {
+                "title": "SOS Signal",
+                "desc": "... --- ..."
+            },
+            {
+                "title": "Hello",
+                "desc": ".... . .-.. .-.. ---"
+            },
+            {
+                "title": "Optimizo",
+                "desc": "--- .--. - .. -- .. --.. ---"
+            }
+        ]
     },
     "js": {
         "error_empty": "Vänligen skriv in morsekod för att avkoda",

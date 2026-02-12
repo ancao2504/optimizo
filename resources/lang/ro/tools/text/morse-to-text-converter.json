@@ -99,16 +99,30 @@
         "faq_title": "Întrebări Frecvente",
         "faq": {
             "q1": "Cum formatez intrarea codului Morse?",
-            "a1": "Separați fiecare literă cu un spațiu. Utilizați \/ pentru spații de cuvinte. Exemplu: „... --- ...” pentru SOS.",
+            "a1": "Separați fiecare literă cu un spațiu. Utilizați / pentru spații de cuvinte. Exemplu: „... --- ...” pentru SOS.",
             "q2": "Dacă fac o greșeală?",
             "a2": "Modelele de cod Morse nevalide vor fi omise. Asigurați-vă că punctele și liniuțele sunt separate prin spații.",
             "q3": "Pot decoda numerele?",
             "a3": "Da! Instrumentul decodifică numerele 0-9 din modelele lor de cod Morse.",
             "q4": "Cum separ cuvintele?",
-            "a4": "Utilizați o bară oblică (\/) pentru a separa cuvintele în codul Morse.",
+            "a4": "Utilizați o bară oblică (/) pentru a separa cuvintele în codul Morse.",
             "q5": "Acest instrument este gratuit?",
             "a5": "Da! Complet gratuit, fără limite. Toată prelucrarea are loc în browserul dvs. pentru confidențialitate."
-        }
+        },
+        "samples": [
+            {
+                "title": "SOS Signal",
+                "desc": "... --- ..."
+            },
+            {
+                "title": "Hello",
+                "desc": ".... . .-.. .-.. ---"
+            },
+            {
+                "title": "Optimizo",
+                "desc": "--- .--. - .. -- .. --.. ---"
+            }
+        ]
     },
     "js": {
         "error_empty": "Vă rugăm să introduceți codul Morse pentru decodificare",

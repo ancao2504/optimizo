@@ -28,10 +28,82 @@
             "f2_title": "Detaljbevaring",
             "f2_desc": "Reduserer støy mens viktige detaljer bevares.",
             "f3_title": "Lokal Behandling",
-            "f3_desc": "Bildene dine forlater aldri enheten din."
+            "f3_desc": "Bildene dine forlater aldri enheten din.",
+            "f4_title": "Shadow Area Optimization",
+            "f4_desc": "Specialized handling for dark areas of the image where digital noise is most visible and hardest to remove without losing data.",
+            "f5_title": "Local Browser Processing",
+            "f5_desc": "All mathematical heavy lifting is done using your device's local CPU. No waiting for uploads and complete privacy for your photos.",
+            "f6_title": "Texture-Aware Smoothing",
+            "f6_desc": "Designed to smooth out digital speckles while attempting to maintain the organic look of natural textures like skin, wood, and stone.",
+            "badge": "Hvorfor bruke dette verktøyet?",
+            "subtitle": "Clean up your low-light photos instantly."
+        },
+        "intro": {
+            "title": "Clean Visuals: The Science of Digital Noise Reduction",
+            "subtitle": "Rescue grainy, low-light, and high-ISO captures with our professional denoising engine.",
+            "p1": "In the digital age, 'noise' is the static of the visual world. It's those annoying colored speckles and grainy textures that appear in your photos when you shooting in low light or on an older camera. This 'digital grain' can ruin the professional look of a portrait, muddy the details of a landscape, or make text in a scan unreadable. Our Image Noise Reducer is built to target these artifacts specifically, using advanced filtering technology to smooth out the noise while fighting to preserve the sharp edges and critical details that matter most.",
+            "p2": "Noise reduction is a delicate balancing act. If you do too little, the grain remains distracting. If you do too much, the image looks 'plastic' or 'painterly,' losing the natural texture of skin or fabric. Our tool provides a sophisticated workspace where you can choose the intensity of the cleanup. We use a high-precision median filter that doesn't just 'blur' the image—it intelligently examines the neighbors of every pixel to identify and remove the outliers, giving you a cleaner, more professional final result.",
+            "p3": "Whether you are a nighttime photographer cleaning up a city skyline, a family archivist restoring old digital photos from the early 2000s, or a business professional needing to polish a grainy headshot for a website, our online tool is the solution. It's fast, free, and secure, processing your images right in your browser so you can reclaim the clarity of your photography without the need for expensive software subscriptions."
+        },
+        "story": {
+            "title": "Smoothing the Bits: How Denoising Restores Your Visual Data",
+            "p1": "To appreciate our noise reducer, we have to look at what 'noise' actually is. In a camera sensor, noise is caused by either heat (thermal noise) or the random nature of light particles (shot noise). In your image, this manifests as random variances in brightness or color that aren't actually part of the scene. Our 'Median Filter' algorithm is a non-linear digital filtering technique that is exceptionally good at removing 'salt-and-pepper' noise—those tiny white and black dots that plague low-light shots.",
+            "p2": "The difference between Denoising and Blurring is critical. A standard blur filter takes every pixel and averages it with its neighbors. This smooths out noise, but it also destroys edges, making the resulting image look out of focus. Our median filter, however, sorts the neighboring pixels by brightness and picks the middle value. This effectively deletes the 'outlier' noise pixels while leaving the sharp transition of an edge virtually untouched. It's a surgical approach to photo cleanup.",
+            "p3": "High-ISO grain is the most frequent target for our users. When you turn up the ISO on your camera to shoot indoors without a flash, you're amplifying the signal from the sensor, but you're also amplifying the noise. Our tool is designed to counteract this amplification. By applying a 'Low' or 'Medium' strength denoise, you can move your high-ISO photos back toward the smooth, clean look of a professional studio shot taken at a lower sensitivity.",
+            "p4": "Archival Scan Restoration is another powerful use case. Old photos scanned from paper often have physical grain or texture from the original print stock. This can interfere with the digital clarity of the scan. Our noise reducer can smooth out that physical paper grain, making the digital copy look more like the original moment and less like a scan of a piece of paper. It's an essential step in high-quality digital archiving.",
+            "p5": "E-commerce and Product Marketing benefit from clean textures. If you're selling a product with a smooth surface—like glass, metal, or sleek plastic—any digital noise will make the product look 'dirty' or 'cheap.' Our tool allows you to smooth out those surfaces, making your product shots look premium and polished. It's about ensuring nothing distracts the customer from the quality of the item you're selling.",
+            "p6": "The Precision Advantage of Our Denoising Engine Many automated 'Enhance' buttons on social media platforms apply heavy noise reduction that can erase people's facial features and make skin look like rubber. Our tool gives YOU the control. You can decide the strength of the filter, ensuring you keep just enough grain to maintain a 'natural' feel while removing the most distracting digital artifacts. It's professional control in an easy-to-use package.",
+            "p7": "Your data integrity is our highest priority. Your photos are your personal memories or professional assets. Because our Image Noise Reducer runs locally on your machine via JavaScript, your original image data never touches our servers. Your conversion is private, anonymous, and happens in a secure, isolated sandbox within your own browser. We provide the tools, but you keep the data.",
+            "p8": "In conclusion, denoising is the art of subtraction. It's about removing the digital interference so the beauty of your subject can shine through. Use our Image Noise Reducer to polish your photography, restore your archives, and ensure that every pixel in your image is there on purpose. It's the simplest way to turn a grainy snapshot into a professional visual."
+        },
+        "how_to": {
+            "title": "Restore the View: How to Use the Noise Reducer",
+            "step1_title": "Identify and Upload the Grainy Source",
+            "step1_desc": "Upload the photo that looks 'noisy' or 'speckled.' High-ISO shots taken in low light are usually the best candidates.",
+            "step2_title": "Compare the Raw Input",
+            "step2_desc": "Look closely at the dark areas of your photo in the preview window to see the exact pattern of the digital grain.",
+            "step3_title": "Select Your Denoise Strength",
+            "step3_desc": "Start with 'Low' to see how much grain is removed. Move to 'Medium' or 'High' only if the image is exceptionally noisy.",
+            "step4_title": "Analyze the Smoothing Effect",
+            "step4_desc": "Check the edges. Ensure your subject still looks sharp and that the noise reduction hasn't made the image look too soft or blurry.",
+            "step5_title": "Real-Time Adjustments",
+            "step5_desc": "Toggle between different levels. The preview updates instantly, allowing you to find the exact point where the noise disappears but the details remain.",
+            "step6_title": "Download the Polished Result",
+            "step6_desc": "Click the 'Download Cleaned Photo' button. Your photo is now ready for social media, professional printing, or archival storage.",
+            "subtitle": "Clear images in simple steps."
+        },
+        "faq": {
+            "title": "Denoising Knowledge Base: Denoising Technology Insights",
+            "q1": "Where does digital noise come from?",
+            "a1": "It's usually caused by heat in the camera's sensor or by shooting at high ISO settings in low light. It creates random color/brightness dots.",
+            "q2": "Will this make my photo blurry?",
+            "a2": "High strength settings can soften the image. We recommend using the minimum strength needed to remove the distracting grain.",
+            "q3": "Can I use this to fix old scanned photos?",
+            "a3": "Yes! It is excellent at removing the physical grain of paper or film textures from digital scans.",
+            "q4": "Is denoising the same as blurring?",
+            "a4": "No. Blurring averages all pixels. Denoising (Median filtering) specifically targets outlier pixels to preserve sharp edges.",
+            "q5": "Is mobile denoising supported natively?",
+            "a5": "Absolutely. It's fully responsive and uses your phone's browser local memory to process your photos.",
+            "q6": "Is there a limit on file size?",
+            "a6": "We can handle large images up to 15-20MB, making it suitable for high-res photography and professional scans.",
+            "q7": "Will it remove 'Color Noise' (chroma noise)?",
+            "a7": "Our current tool focuses on luminance (brightness) noise, which is the most common and distracting type of digital grain.",
+            "q8": "Is the service free for photographers?",
+            "a8": "Yes, our tool is 100% free with no registration or watermarks on your final images.",
+            "q9": "How do I keep my photos private?",
+            "a9": "By using our tool! Since it processes everything locally in your browser, your photo data is never uploaded to our servers.",
+            "q10": "Can I sharpen the image after reducing noise?",
+            "a10": "Yes. In fact, that's a common professional workflow. Reduce the noise first, then use our Image Sharpener to bring back the crispness."
         }
     },
     "js": {
         "error_conversion": "Behandlingsfeil: "
+    },
+    "settings": {
+        "title": "Denoise Settings"
+    },
+    "result": {
+        "applied": "Noise Reduction Applied",
+        "btn_download": "Download Cleaned Photo"
     }
 }

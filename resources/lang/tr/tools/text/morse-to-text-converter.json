@@ -99,16 +99,30 @@
         "faq_title": "❓ Sıkça Sorulan Sorular",
         "faq": {
             "q1": "Mors kodu girdisini nasıl formatlamalıyım?",
-            "a1": "Her harfi bir boşlukla ayırın. Kelime boşlukları için \/ kullanın. Örnek: SOS için \"... --- ...\".",
+            "a1": "Her harfi bir boşlukla ayırın. Kelime boşlukları için / kullanın. Örnek: SOS için \"... --- ...\".",
             "q2": "Hata yaparsam ne olur?",
             "a2": "Geçersiz Mors kodu modelleri atlanacaktır. Nokta ve çizgilerin boşluklarla ayrıldığından emin olun.",
             "q3": "Rakamları çözebilir miyim?",
             "a3": "Evet! Araç, Mors kodu modellerinden 0-9 arası rakamları çözer.",
             "q4": "Kelimeleri nasıl ayırırım?",
-            "a4": "Mors kodunda kelimeleri ayırmak için eğik çizgi (\/) kullanın.",
+            "a4": "Mors kodunda kelimeleri ayırmak için eğik çizgi (/) kullanın.",
             "q5": "Bu araç ücretsiz mi?",
             "a5": "Evet! Tamamen ücretsiz ve sınırsız. Gizlilik için tüm işlemler tarayıcınızda yapılır."
-        }
+        },
+        "samples": [
+            {
+                "title": "SOS Signal",
+                "desc": "... --- ..."
+            },
+            {
+                "title": "Hello",
+                "desc": ".... . .-.. .-.. ---"
+            },
+            {
+                "title": "Optimizo",
+                "desc": "--- .--. - .. -- .. --.. ---"
+            }
+        ]
     },
     "js": {
         "error_empty": "Lütfen çözmek için Mors kodunu girin",

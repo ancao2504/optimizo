@@ -83,8 +83,8 @@
                                 d="M13 10V3L4 14h7v7l9-11h-7z" />
                         </svg>
                     </div>
-                    <h3 class="text-lg font-bold text-gray-900 mb-2">Frequency Units</h3>
-                    <p class="text-gray-600">Convert between Hz, kHz, MHz, GHz, RPM, and more frequency units.</p>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">{{ __tool('frequency-converter', 'content.card1_title') ?: 'Frequency Units' }}</h3>
+                    <p class="text-gray-600">{{ __tool('frequency-converter', 'content.card1_desc') ?: 'Convert between Hz, kHz, MHz, GHz, RPM, and more frequency units.' }}</p>
                 </div>
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                     <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 mb-4">
@@ -93,8 +93,8 @@
                                 d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
                     </div>
-                    <h3 class="text-lg font-bold text-gray-900 mb-2">Electronics & Computing</h3>
-                    <p class="text-gray-600">Perfect for CPU speeds, radio frequencies, and wave calculations.</p>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">{{ __tool('frequency-converter', 'content.card2_title') ?: 'Electronics & Computing' }}</h3>
+                    <p class="text-gray-600">{{ __tool('frequency-converter', 'content.card2_desc') ?: 'Perfect for CPU speeds, radio frequencies, and wave calculations.' }}</p>
                 </div>
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                     <div class="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center text-teal-600 mb-4">
@@ -103,8 +103,8 @@
                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </div>
-                    <h3 class="text-lg font-bold text-gray-900 mb-2">Cycles Per Second</h3>
-                    <p class="text-gray-600">Accurate conversions for oscillations, rotations, and wave frequencies.</p>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">{{ __tool('frequency-converter', 'content.card3_title') ?: 'Cycles Per Second' }}</h3>
+                    <p class="text-gray-600">{{ __tool('frequency-converter', 'content.card3_desc') ?: 'Accurate conversions for oscillations, rotations, and wave frequencies.' }}</p>
                 </div>
             </div>
 

@@ -55,9 +55,7 @@
                 </button>
 
                 <button id="uploadNewBtn"
-                    class="text-gray-500 hover:text-indigo-600 font-medium transition-colors text-sm text-center">
-                    Upload New Image
-                </button>
+                    class="text-gray-500 hover:text-indigo-600 font-medium transition-colors text-sm text-center">{{ __tool('webp-to-jpg-converter', 'editor.btn_upload_new') ?: 'Upload New Image' }}</button>
             </div>
         </div>
     </div>
@@ -127,7 +125,7 @@
                     Tool?</span>
                 <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6">
                     {{ __tool('webp-to-jpg-converter', 'content.features.title') ?: 'Key Features' }}</h2>
-                <p class="text-xl text-gray-500 font-light">Optimized for performance and quality.</p>
+                <p class="text-xl text-gray-500 font-light">{{ __tool('webp-to-jpg-converter', 'content.features.subtitle') ?: 'Optimized for performance and quality.' }}</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -157,7 +155,7 @@
             <div class="relative z-10 text-center mb-16">
                 <h2 class="text-3xl md:text-5xl font-black mb-6 text-white">
                     {{ __tool('webp-to-jpg-converter', 'content.how_to.title') ?: 'How it Works' }}</h2>
-                <p class="text-gray-400 text-lg">Simple steps to high-efficiency images.</p>
+                <p class="text-gray-400 text-lg">{{ __tool('webp-to-jpg-converter', 'content.how_to.subtitle') ?: 'Simple steps to high-efficiency images.' }}</p>
             </div>
 
             <div class="relative z-10 grid gap-8">

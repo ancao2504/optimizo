@@ -17,7 +17,16 @@
         "quality": "Jakość",
         "width": "Szerokość",
         "height": "Wysokość",
-        "btn_download": "Pobierz JPG"
+        "btn_download": "Pobierz JPG",
+        "note": "Note:",
+        "note_text": "Transparent backgrounds will be filled with white color.",
+        "output_format": "Output Format:",
+        "scale_label": "Resolution Multiplier (Scale)",
+        "scale_1": "1x (Original Size)",
+        "scale_2": "2x (High Res)",
+        "scale_4": "4x (Ultra Res)",
+        "btn_convert": "Convert to JPG & Download",
+        "btn_upload_new": "Prześlij nowy obraz"
     },
     "content": {
         "title": "Darmowy Konwerter SVG na JPG",
@@ -30,11 +39,47 @@
             "f2_title": "Konfigurowalne Wymiary",
             "f2_desc": "Ustaw pożądaną szerokość i wysokość.",
             "f3_title": "Lokalne Przetwarzanie",
-            "f3_desc": "Pliki nigdy nie opuszczają Twojego urządzenia."
+            "f3_desc": "Pliki nigdy nie opuszczają Twojego urządzenia.",
+            "badge": "Dlaczego warto używać tego narzędzia?",
+            "subtitle": "Optimized for high-resolution output."
+        },
+        "how_to": {
+            "title": "Easy Instructions",
+            "step1_title": "Step 1",
+            "step1_desc": "Click \"Upload\" or drag your file to the center box.",
+            "step2_title": "Step 2",
+            "step2_desc": "Choose a scaling factor (e.g., 2x or 4x) for higher quality results.",
+            "step3_title": "Step 3",
+            "step3_desc": "Observe the image. Note that transparent backgrounds are now white.",
+            "step4_title": "Step 4",
+            "step4_desc": "Click \"Convert to JPG & Download\".",
+            "subtitle": "Simple steps to high-efficiency images."
+        },
+        "why": {
+            "title": "Why choose JPG over PNG for Vectors?",
+            "p1": "While PNG supports transparency, JPG generates smaller file sizes for complex, colorful images.",
+            "list": [
+                "Smaller Files: Better for emails and attachments.",
+                "No Transparency Issues: Some viewers render transparency as black. JPG forces a white background, ensuring your logo is legible."
+            ]
+        },
+        "faq": {
+            "title": "Często zadawane pytania",
+            "q1": "Can I convert SVG to JPG for free?",
+            "a1": "Yes, this tool is 100% free and requires no registration.",
+            "q2": "What happens to the transparent background?",
+            "a2": "SVG files often have transparent backgrounds. Since JPG doesn't support transparency, we automatically fill the background with white.",
+            "q3": "Why does my JPG look pixelated?",
+            "a3": "This happens if the output resolution is too low. Use the scaling option (2x or 4x) before converting to generate a high-resolution JPG.",
+            "q4": "Is it safe?",
+            "a4": "Yes, the conversion happens in your browser. Your SVG files are never uploaded to any server.",
+            "q5": "Can I convert back to SVG later?",
+            "a5": "Converting JPG back to SVG (raster to vector) is difficult and often results in quality loss. Only do this if necessary."
         }
     },
     "js": {
         "error_conversion": "Błąd konwersji: ",
-        "success_conversion": "Konwersja zakończona!"
+        "success_conversion": "Konwersja zakończona!",
+        "invalid_image": "Please upload a valid SVG image"
     }
 }

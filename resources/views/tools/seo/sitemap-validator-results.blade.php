@@ -8,8 +8,8 @@
                 <div class="flex items-center">
                     <i class="fas fa-check-circle text-green-600 text-4xl mr-4"></i>
                     <div>
-                        <h3 class="text-2xl font-bold text-green-800">Valid Sitemap!</h3>
-                        <p class="text-green-600">Your sitemap is properly formatted and ready to submit.</p>
+                        <h3 class="text-2xl font-bold text-green-800">{{ __tool('sitemap-validator', 'results.valid_title', 'Valid Sitemap!') }}</h3>
+                        <p class="text-green-600">{{ __tool('sitemap-validator', 'results.valid_desc', 'Your sitemap is properly formatted and ready to submit.') }}</p>
                     </div>
                 </div>
             </div>
@@ -18,8 +18,8 @@
                 <div class="flex items-center">
                     <i class="fas fa-times-circle text-red-600 text-4xl mr-4"></i>
                     <div>
-                        <h3 class="text-2xl font-bold text-red-800">Invalid Sitemap</h3>
-                        <p class="text-red-600">Please fix the errors below.</p>
+                        <h3 class="text-2xl font-bold text-red-800">{{ __tool('sitemap-validator', 'results.invalid_title', 'Invalid Sitemap') }}</h3>
+                        <p class="text-red-600">{{ __tool('sitemap-validator', 'results.invalid_desc', 'Please fix the errors below.') }}</p>
                     </div>
                 </div>
             </div>
@@ -31,36 +31,36 @@
         @if($result['isSitemapIndex'])
             <div class="bg-blue-50 p-4 rounded-lg">
                 <div class="text-2xl font-bold text-blue-600">{{ $result['stats']['totalSitemaps'] ?? 0 }}</div>
-                <div class="text-sm text-gray-600">Sitemaps</div>
+                <div class="text-sm text-gray-600">{{ __tool('sitemap-validator', 'results.label_sitemaps', 'Sitemaps') }}</div>
             </div>
             <div class="bg-purple-50 p-4 rounded-lg">
                 <div class="text-2xl font-bold text-purple-600">{{ $result['stats']['totalUrls'] ?? 0 }}</div>
-                <div class="text-sm text-gray-600">Total URLs</div>
+                <div class="text-sm text-gray-600">{{ __tool('sitemap-validator', 'results.label_total_urls', 'Total URLs') }}</div>
             </div>
         @else
             <div class="bg-blue-50 p-4 rounded-lg">
                 <div class="text-2xl font-bold text-blue-600">{{ $result['stats']['totalUrls'] ?? 0 }}</div>
-                <div class="text-sm text-gray-600">URLs</div>
+                <div class="text-sm text-gray-600">{{ __tool('sitemap-validator', 'results.label_urls', 'URLs') }}</div>
             </div>
             <div class="bg-purple-50 p-4 rounded-lg">
                 <div class="text-2xl font-bold text-purple-600">{{ $result['stats']['fileSizeMB'] ?? 0 }} MB</div>
-                <div class="text-sm text-gray-600">File Size</div>
+                <div class="text-sm text-gray-600">{{ __tool('sitemap-validator', 'results.label_file_size', 'File Size') }}</div>
             </div>
         @endif
         <div class="bg-red-50 p-4 rounded-lg">
             <div class="text-2xl font-bold text-red-600">{{ $result['stats']['errors'] ?? 0 }}</div>
-            <div class="text-sm text-gray-600">Errors</div>
+            <div class="text-sm text-gray-600">{{ __tool('sitemap-validator', 'results.label_errors', 'Errors') }}</div>
         </div>
         <div class="bg-yellow-50 p-4 rounded-lg">
             <div class="text-2xl font-bold text-yellow-600">{{ $result['stats']['warnings'] ?? 0 }}</div>
-            <div class="text-sm text-gray-600">Warnings</div>
+            <div class="text-sm text-gray-600">{{ __tool('sitemap-validator', 'results.label_warnings', 'Warnings') }}</div>
         </div>
     </div>
 
     <!-- Errors -->
     @if(!empty($result['errors']))
         <div class="mb-6">
-            <h4 class="text-lg font-bold text-red-600 mb-3">Errors</h4>
+            <h4 class="text-lg font-bold text-red-600 mb-3">{{ __tool('sitemap-validator', 'results.errors_heading', 'Errors') }}</h4>
             <div class="space-y-2">
                 @foreach($result['errors'] as $error)
                     <div class="bg-red-50 border-l-4 border-red-500 p-3 rounded">
@@ -75,7 +75,7 @@
     <!-- Warnings -->
     @if(!empty($result['warnings']))
         <div class="mb-6">
-            <h4 class="text-lg font-bold text-yellow-600 mb-3">Warnings</h4>
+            <h4 class="text-lg font-bold text-yellow-600 mb-3">{{ __tool('sitemap-validator', 'results.warnings_heading', 'Warnings') }}</h4>
             <div class="space-y-2">
                 @foreach($result['warnings'] as $warning)
                     <div class="bg-yellow-50 border-l-4 border-yellow-500 p-3 rounded">
@@ -96,9 +96,9 @@
                     <thead>
                         <tr class="bg-gray-100">
                             <th class="p-2 text-left">#</th>
-                            <th class="p-2 text-left">Sitemap URL</th>
+                            <th class="p-2 text-left">{{ __tool('sitemap-validator', 'results.th_sitemap_url', 'Sitemap URL') }}</th>
                             <th class="p-2 text-left">URLs</th>
-                            <th class="p-2 text-left">Status</th>
+                            <th class="p-2 text-left">{{ __tool('sitemap-validator', 'results.th_status', 'Status') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -127,10 +127,10 @@
                     <thead>
                         <tr class="bg-gray-100">
                             <th class="p-2">#</th>
-                            <th class="p-2 text-left">URL</th>
-                            <th class="p-2">Last Modified</th>
-                            <th class="p-2">Change Freq</th>
-                            <th class="p-2">Priority</th>
+                            <th class="p-2 text-left">{{ __tool('sitemap-validator', 'results.th_url', 'URL') }}</th>
+                            <th class="p-2">{{ __tool('sitemap-validator', 'results.th_last_modified', 'Last Modified') }}</th>
+                            <th class="p-2">{{ __tool('sitemap-validator', 'results.th_change_freq', 'Change Freq') }}</th>
+                            <th class="p-2">{{ __tool('sitemap-validator', 'results.th_priority', 'Priority') }}</th>
                         </tr>
                     </thead>
                     <tbody>

@@ -16,7 +16,15 @@
         "image_alt": "Önizleme",
         "width": "Genişlik",
         "height": "Yükseklik",
-        "btn_download": "PNG İndir"
+        "btn_download": "PNG İndir",
+        "checkerboard": "Checkerboard background indicates transparency",
+        "output_format": "Output Format:",
+        "scale_label": "Resolution Multiplier (Scale)",
+        "scale_1": "1x (Original Size)",
+        "scale_2": "2x (High Res)",
+        "scale_4": "4x (Ultra Res)",
+        "btn_convert": "Convert to PNG & Download",
+        "btn_upload_new": "Yeni Görsel Yükle"
     },
     "content": {
         "title": "Ücretsiz SVG'den PNG'ye Çevirici",
@@ -29,11 +37,42 @@
             "f2_title": "Yapılandırılabilir Boyutlar",
             "f2_desc": "İstenen genişlik ve yüksekliği ayarlayın.",
             "f3_title": "Yerel İşleme",
-            "f3_desc": "Dosyalarınız cihazınızdan çıkmaz."
+            "f3_desc": "Dosyalarınız cihazınızdan çıkmaz.",
+            "badge": "Bu Aracı Neden Kullanmalısınız?",
+            "subtitle": "Optimized for high-quality rasterization."
+        },
+        "how_to": {
+            "title": "How to Convert SVG to PNG?",
+            "step1_title": "Step 1",
+            "step1_desc": "Drop your `.svg` file into the upload area.",
+            "step2_title": "Step 2",
+            "step2_desc": "Select `1x`, `2x`, or `4x` from the dropdown. Higher is better for quality.",
+            "step3_title": "Step 3",
+            "step3_desc": "Check the preview image on the left. The checkerboard indicates transparency.",
+            "step4_title": "Step 4",
+            "step4_desc": "Hit the button to generate and download your PNG.",
+            "subtitle": "Simple steps to high-efficiency images."
+        },
+        "why": {
+            "title": "Why Convert Vectors?",
+            "p1": "Vectors are mathematical formulas, while PNGs are grids of pixels. You need pixels for:",
+            "list": [
+                "Profile pictures (Twitter/LinkedIn often reject SVG).",
+                "Embedding in emails (SVG support is poor).",
+                "Using in video editors or simple graphic tools (Canva, Paint)."
+            ]
+        },
+        "faq": {
+            "title": "Vector-to-Raster Insights",
+            "q1": "Why convert SVG to PNG?",
+            "a1": "PNG format is universally supported across all browsers and applications, while SVG may have compatibility issues. Converting to PNG is useful for email signatures, social media, and applications that don't support vector graphics.",
+            "q2": "Does PNG support transparency like SVG?",
+            "a2": "Yes! PNG supports transparency, making it perfect for logos and graphics with transparent backgrounds. Our converter preserves transparency when converting from SVG to PNG."
         }
     },
     "js": {
         "error_conversion": "Dönüştürme hatası: ",
-        "success_conversion": "Dönüştürme tamamlandı!"
+        "success_conversion": "Dönüştürme tamamlandı!",
+        "invalid_image": "Please upload a valid SVG image"
     }
 }

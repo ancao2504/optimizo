@@ -76,9 +76,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
                         </path>
-                    </svg>
-                    Compress Another Image
-                </button>
+                    </svg>{{ __tool('image-compressor', 'editor.btn_upload_new') ?: 'Compress Another Image' }}</button>
             </div>
 
 
@@ -88,9 +86,9 @@
             <!-- Features Grid -->
             <section class="relative">
                 <div class="text-center max-w-3xl mx-auto mb-20">
-                    <span class="text-indigo-600 font-bold tracking-widest uppercase text-sm mb-3 block">Why Use This Tool?</span>
+                    <span class="text-indigo-600 font-bold tracking-widest uppercase text-sm mb-3 block">{{ __tool('image-compressor', 'content.features.badge') ?: 'Why Use This Tool?' }}</span>
                     <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6">{{ __tool('image-compressor', 'content.features.title') ?: 'Key Features' }}</h2>
-                    <p class="text-xl text-gray-500 font-light">Efficient compression for faster websites.</p>
+                    <p class="text-xl text-gray-500 font-light">{{ __tool('image-compressor', 'content.features.subtitle') ?: 'Efficient compression for faster websites.' }}</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -115,7 +113,7 @@
 
                 <div class="relative z-10 text-center mb-16">
                      <h2 class="text-3xl md:text-5xl font-black mb-6 text-white">{{ __tool('image-compressor', 'content.how_to.title') ?: 'How it Works' }}</h2>
-                     <p class="text-gray-400 text-lg">Simple steps to smaller files.</p>
+                     <p class="text-gray-400 text-lg">{{ __tool('image-compressor', 'content.how_to.subtitle') ?: 'Simple steps to smaller files.' }}</p>
                 </div>
 
                 <div class="relative z-10 grid gap-8">

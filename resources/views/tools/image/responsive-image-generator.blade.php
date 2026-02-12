@@ -110,9 +110,9 @@
             <!-- Features Grid -->
             <section class="relative">
                 <div class="text-center max-w-3xl mx-auto mb-20">
-                    <span class="text-indigo-600 font-bold tracking-widest uppercase text-sm mb-3 block">Why Use This Tool?</span>
+                    <span class="text-indigo-600 font-bold tracking-widest uppercase text-sm mb-3 block">{{ __tool('responsive-image-generator', 'content.features.badge') ?: 'Why Use This Tool?' }}</span>
                     <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6">{{ __tool('responsive-image-generator', 'content.features.title') ?: 'Key Features' }}</h2>
-                    <p class="text-xl text-gray-500 font-light">Serve the perfect size for every device.</p>
+                    <p class="text-xl text-gray-500 font-light">{{ __tool('responsive-image-generator', 'content.features.subtitle') ?: 'Serve the perfect size for every device.' }}</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -137,7 +137,7 @@
 
                 <div class="relative z-10 text-center mb-16">
                      <h2 class="text-3xl md:text-5xl font-black mb-6 text-white">{{ __tool('responsive-image-generator', 'content.how_to.title') ?: 'How it Works' }}</h2>
-                     <p class="text-gray-400 text-lg">Create image sets in seconds.</p>
+                     <p class="text-gray-400 text-lg">{{ __tool('responsive-image-generator', 'content.how_to.subtitle') ?: 'Create image sets in seconds.' }}</p>
                 </div>
 
                 <div class="relative z-10 grid gap-8">

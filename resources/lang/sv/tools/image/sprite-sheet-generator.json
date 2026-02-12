@@ -51,7 +51,9 @@
             "f5_title": "Stoppning och avståndskontroll",
             "f5_desc": "Lägg till anpassat avstånd mellan sprites för att förhindra 'pixelblödning' – där delar av den intilliggande ikonen av misstag syns i ditt UI.",
             "f6_title": "Lokal minnesbearbetningsskydd",
-            "f6_desc": "Dina UI-tillgångar är din egendom. All packning och kodgenerering sker direkt i din webbläsare, vilket säkerställer att ingen data någonsin lämnar din enhet."
+            "f6_desc": "Dina UI-tillgångar är din egendom. All packning och kodgenerering sker direkt i din webbläsare, vilket säkerställer att ingen data någonsin lämnar din enhet.",
+            "badge": "Varför använda detta verktyg?",
+            "subtitle": "Reduce HTTP requests and speed up loading."
         },
         "how_to": {
             "title": "En guide till höghastighetstillgångar: Hur man använder generatorn",
@@ -66,12 +68,13 @@
             "step5_title": "Ladda ner Atlas-bilden",
             "step5_desc": "Klicka på knappen 'Ladda ner Sprite Sheet' för att spara den konsoliderade bildfilen i ditt projekts tillgångsmapp.",
             "step6_title": "Implementera CSS-koden",
-            "step6_desc": "Kopiera det genererade CSS-blocket och klistra in det i dina stilar. Använd de individuella klassnamnen på dina HTML-element för att visa ikonerna."
+            "step6_desc": "Kopiera det genererade CSS-blocket och klistra in det i dina stilar. Använd de individuella klassnamnen på dina HTML-element för att visa ikonerna.",
+            "subtitle": "Create sprites in minimal steps."
         },
         "faq": {
             "title": "Sprite Sheet Mästerskap: Hemligheter för skapande av speltillgångar",
-            "q1": "Är sprite sheets fortfarande relevanta med HTTP\/2?",
-            "a1": "Ja! Även om HTTP\/2 hanterar flera förfrågningar bättre, är sprite sheets fortfarande snabbare eftersom de minskar den totala mängden metadata och komprimeringsoverhead.",
+            "q1": "Är sprite sheets fortfarande relevanta med HTTP/2?",
+            "a1": "Ja! Även om HTTP/2 hanterar flera förfrågningar bättre, är sprite sheets fortfarande snabbare eftersom de minskar den totala mängden metadata och komprimeringsoverhead.",
             "q2": "Vad händer om jag har bilder av olika storlekar?",
             "a2": "Vår smart-grid-algoritm är designad för detta! Den kommer att ordna dina bilder av alla former och storlekar i den mest kompakta rektangeln som möjligt.",
             "q3": "Ska jag använda JPG eller PNG för mitt sprite-ark?",
@@ -81,7 +84,7 @@
             "q5": "Vad är 'Pixelblödning'?",
             "a5": "Detta inträffar när sub-pixelrendering visar en flisa av nästa bild i arket. Lägg till 1-2 pixlar 'Stoppning' i vårt verktyg för att förhindra detta.",
             "q6": "Stöder detta verktyg SVG?",
-            "a6": "Detta verktyg är för rastersprites (PNG\/JPG). För SVG:er bör du använda en 'SVG Sprite'-metod som hanteras annorlunda i moderna webbläsare.",
+            "a6": "Detta verktyg är för rastersprites (PNG/JPG). För SVG:er bör du använda en 'SVG Sprite'-metod som hanteras annorlunda i moderna webbläsare.",
             "q7": "Hur uppdaterar jag ett sprite-ark senare?",
             "a7": "Ladda bara upp originalikonerna plus den nya. Vårt verktyg ger dig ett nytt ark och ny CSS på några sekunder.",
             "q8": "Är detta verktyg gratis för spelutvecklare?",

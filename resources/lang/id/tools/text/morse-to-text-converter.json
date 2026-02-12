@@ -99,16 +99,30 @@
         "faq_title": "❓ Pertanyaan yang Sering Diajukan",
         "faq": {
             "q1": "Bagaimana cara memformat masukan kode Morse?",
-            "a1": "Pisahkan setiap huruf dengan spasi. Gunakan \/ untuk spasi kata. Contoh: \"... ---...\" untuk SOS.",
+            "a1": "Pisahkan setiap huruf dengan spasi. Gunakan / untuk spasi kata. Contoh: \"... ---...\" untuk SOS.",
             "q2": "Bagaimana jika saya melakukan kesalahan?",
             "a2": "Pola kode Morse yang tidak valid akan dilewati. Pastikan titik dan garis dipisahkan oleh spasi.",
             "q3": "Bisakah saya memecahkan kode angka?",
             "a3": "Ya! Alat ini menerjemahkan angka 0-9 dari pola kode Morse.",
             "q4": "Bagaimana cara memisahkan kata?",
-            "a4": "Gunakan garis miring (\/) untuk memisahkan kata-kata dalam kode Morse.",
+            "a4": "Gunakan garis miring (/) untuk memisahkan kata-kata dalam kode Morse.",
             "q5": "Apakah alat ini gratis?",
             "a5": "Ya! Sepenuhnya gratis tanpa batas. Semua pemrosesan terjadi di browser Anda untuk privasi."
-        }
+        },
+        "samples": [
+            {
+                "title": "SOS Signal",
+                "desc": "... --- ..."
+            },
+            {
+                "title": "Hello",
+                "desc": ".... . .-.. .-.. ---"
+            },
+            {
+                "title": "Optimizo",
+                "desc": "--- .--. - .. -- .. --.. ---"
+            }
+        ]
     },
     "js": {
         "error_empty": "Harap masukkan kode Morse untuk diterjemahkan",

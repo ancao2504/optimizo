@@ -16,7 +16,11 @@
         "output_title": "Output Base64 Anda",
         "output_placeholder": "String Base64 yang dikodekan akan muncul di sini...",
         "label_datauri": "Sertakan Data URI Prefix",
-        "btn_copy": "Salin Base64"
+        "btn_copy": "Salin Base64",
+        "label_string": "Base64 String",
+        "char_count": "Character Count",
+        "mime_type": "MIME Type",
+        "btn_upload_new": "Unggah Gambar Baru"
     },
     "content": {
         "title": "Kodekan Gambar ke Base64",
@@ -29,7 +33,9 @@
             "f2_title": "Data URI Toggle",
             "f2_desc": "Pilih apakah akan menyertakan prefix data:image/... untuk penyematan langsung dalam HTML atau CSS.",
             "f3_title": "Dukungan Multi-Format",
-            "f3_desc": "Kodekan file PNG, JPG, GIF, WebP, dan SVG menjadi Base64."
+            "f3_desc": "Kodekan file PNG, JPG, GIF, WebP, dan SVG menjadi Base64.",
+            "badge": "Mengapa Menggunakan Alat Ini?",
+            "subtitle": "Essential for developers and designers."
         },
         "how_to": {
             "title": "Cara Menggun Base64",
@@ -40,7 +46,8 @@
             "step3_title": "Langkah 3",
             "step3_desc": "String Base64 muncul secara otomatis di area output.",
             "step4_title": "Langkah 4",
-            "step4_desc": "Klik 'Salin Base64' untuk menyalinnya ke clipboard Anda."
+            "step4_desc": "Klik 'Salin Base64' untuk menyalinnya ke clipboard Anda.",
+            "subtitle": "Simple steps to encode your images."
         },
         "use_cases": {
             "title": "Kasus Penggunaan Umum",
@@ -49,11 +56,25 @@
                 "Email: Menyematkan gambar langsung dalam template email HTML agar terlihat di semua klien email.",
                 "Prototyping: Menyisipkan gambar cepat saat membuat prototipe halaman web tanpa server file."
             ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "q1": "What is Base64 encoding?",
+            "a1": "Base64 is a way to represent binary data (like images) using only printable text characters. This allows you to embed images directly into code files.",
+            "q2": "Will this increase the file size?",
+            "a2": "Yes, Base64 encoding typically increases the file size by about 33%. It is recommended only for small images (icons, logos) to avoid performance issues.",
+            "q3": "Which browsers support Data URIs?",
+            "a3": "Data URIs are supported by all modern browsers (Chrome, Firefox, Safari, Edge) and IE8+.",
+            "q4": "Is it secure?",
+            "a4": "Yes, the conversion happens entirely in your browser. Your images are never uploaded to our servers.",
+            "q5": "Can I convert large images?",
+            "a5": "Technically yes, but it's not recommended. Large Base64 strings can bloat your HTML/CSS and slow down page rendering."
         }
     },
     "js": {
         "no_file": "Silakan pilih file gambar terlebih dahulu.",
         "copy_success": "Berhasil disalin ke clipboard!",
-        "copy_fail": "Gagal menyalin."
+        "copy_fail": "Gagal menyalin.",
+        "copied": "Copied!"
     }
 }

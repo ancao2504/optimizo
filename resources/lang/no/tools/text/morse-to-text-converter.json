@@ -99,16 +99,30 @@
         "faq_title": "❓ Ofte stilte spørsmål",
         "faq": {
             "q1": "Hvordan formaterer jeg morsekodeinndata?",
-            "a1": "Skill hver bokstav med et mellomrom. Bruk \/ for ordmellomrom. Eksempel: \"... --- ...\" for SOS.",
+            "a1": "Skill hver bokstav med et mellomrom. Bruk / for ordmellomrom. Eksempel: \"... --- ...\" for SOS.",
             "q2": "Hva om jeg gjør en feil?",
             "a2": "Ugyldige morsekodemønstre vil bli hoppet over. Sørg for at prikker og streker er atskilt med mellomrom.",
             "q3": "Kan jeg dekode tall?",
             "a3": "Ja! Verktøyet dekoder tallene 0-9 fra deres morsekodemønstre.",
             "q4": "Hvordan skiller jeg ord?",
-            "a4": "Bruk en skråstrek (\/) for å skille ord i morsekode.",
+            "a4": "Bruk en skråstrek (/) for å skille ord i morsekode.",
             "q5": "Er dette verktøyet gratis?",
             "a5": "Ja! Helt gratis uten grenser. All behandling skjer i nettleseren din av hensyn til personvernet."
-        }
+        },
+        "samples": [
+            {
+                "title": "SOS Signal",
+                "desc": "... --- ..."
+            },
+            {
+                "title": "Hello",
+                "desc": ".... . .-.. .-.. ---"
+            },
+            {
+                "title": "Optimizo",
+                "desc": "--- .--. - .. -- .. --.. ---"
+            }
+        ]
     },
     "js": {
         "error_empty": "Vennligst skriv inn morse-kode som skal dekodes",

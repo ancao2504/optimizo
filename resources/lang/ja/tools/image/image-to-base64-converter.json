@@ -16,7 +16,12 @@
         "btn_copy": "クリップボードにコピー",
         "btn_download": "テキストとしてダウンロード",
         "label_include_prefix": "Data URIプレフィックスを含める",
-        "preview_title": "画像プレビュー"
+        "preview_title": "画像プレビュー",
+        "image_alt": "Preview",
+        "label_string": "Base64 String",
+        "char_count": "Character Count",
+        "mime_type": "MIME Type",
+        "btn_upload_new": "新しい画像をアップロード"
     },
     "content": {
         "title": "画像をBase64テキストにエンコード",
@@ -29,7 +34,9 @@
             "f2_title": "Data URIプレフィックス",
             "f2_desc": "data:image/...プレフィックスをオプションで含めて、すぐに使用可能に。",
             "f3_title": "完全ローカル処理",
-            "f3_desc": "データはブラウザ内でのみ処理されます。サーバーへの送信はありません。"
+            "f3_desc": "データはブラウザ内でのみ処理されます。サーバーへの送信はありません。",
+            "badge": "このツールを使う理由",
+            "subtitle": "Essential for developers and designers."
         },
         "how_to": {
             "title": "使い方",
@@ -40,7 +47,8 @@
             "step3_title": "ステップ3",
             "step3_desc": "Data URIプレフィックスの有無を選択します。",
             "step4_title": "ステップ4",
-            "step4_desc": "「クリップボードにコピー」をクリックしてコードに貼り付けます。"
+            "step4_desc": "「クリップボードにコピー」をクリックしてコードに貼り付けます。",
+            "subtitle": "Simple steps to encode your images."
         },
         "use_cases": {
             "title": "一般的な使用例",
@@ -49,6 +57,19 @@
                 "シングルファイルHTML：すべてのアセットを1つのHTMLファイルに含める。",
                 "CSS背景画像：小さなアイコンやパターンをCSSに直接埋め込み。"
             ]
+        },
+        "faq": {
+            "title": "よくある質問",
+            "q1": "What is Base64 encoding?",
+            "a1": "Base64 is a way to represent binary data (like images) using only printable text characters. This allows you to embed images directly into code files.",
+            "q2": "Will this increase the file size?",
+            "a2": "Yes, Base64 encoding typically increases the file size by about 33%. It is recommended only for small images (icons, logos) to avoid performance issues.",
+            "q3": "Which browsers support Data URIs?",
+            "a3": "Data URIs are supported by all modern browsers (Chrome, Firefox, Safari, Edge) and IE8+.",
+            "q4": "Is it secure?",
+            "a4": "Yes, the conversion happens entirely in your browser. Your images are never uploaded to our servers.",
+            "q5": "Can I convert large images?",
+            "a5": "Technically yes, but it's not recommended. Large Base64 strings can bloat your HTML/CSS and slow down page rendering."
         }
     },
     "js": {

@@ -9,7 +9,10 @@
         "title": "Base64を画像に変換",
         "desc": "Base64文字列を貼り付けて画像ファイルに変換します。",
         "drop_title": "Base64文字列を入力",
-        "drop_desc": "またはBase64データを貼り付け"
+        "drop_desc": "またはBase64データを貼り付け",
+        "placeholder": "data:image/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Decode Image",
+        "label": "Base64文字列をここに貼り付けてください"
     },
     "editor": {
         "output_title": "デコードされた画像",
@@ -28,7 +31,9 @@
             "f2_title": "即座にプレビュー",
             "f2_desc": "貼り付けた瞬間にデコードされた画像をプレビューできます。",
             "f3_title": "完全ローカル処理",
-            "f3_desc": "データはブラウザ内でのみ処理されます。サーバーへの送信はありません。"
+            "f3_desc": "データはブラウザ内でのみ処理されます。サーバーへの送信はありません。",
+            "badge": "このツールを使う理由",
+            "subtitle": "Essential for developers and designers."
         },
         "how_to": {
             "title": "使い方",
@@ -39,7 +44,8 @@
             "step3_title": "ステップ3",
             "step3_desc": "デコードされた画像をプレビューで確認します。",
             "step4_title": "ステップ4",
-            "step4_desc": "「デコードしてダウンロード」をクリックして画像ファイルを保存します。"
+            "step4_desc": "「デコードしてダウンロード」をクリックして画像ファイルを保存します。",
+            "subtitle": "Simple steps to decode your images."
         },
         "use_cases": {
             "title": "一般的な使用例",
@@ -48,11 +54,33 @@
                 "データ復元：エンコードされた画像データから元の画像ファイルを復元。",
                 "開発テスト：Base64画像出力の品質とフォーマットを検証。"
             ]
+        },
+        "faq": {
+            "title": "よくある質問",
+            "q1": "How does the Base64 to Image converter work?",
+            "a1": "This tool takes a Base64 encoded string as input and decodes it back into its original binary image format. It parses the data URI scheme (e.g., data:image/png;base64,...) to identify the image type and content.",
+            "q2": "What image formats can I decode?",
+            "a2": "The tool supports all common web image formats including PNG, JPG (JPEG), GIF, WEBP, BMP, and SVG, provided the Base64 string contains the correct MIME type header.",
+            "q3": "Is this tool free to use?",
+            "a3": "Yes, our Base64 to Image decoder is 100% free to use with no limits on the number of conversions.",
+            "q4": "Is it safe / secure?",
+            "a4": "Yes. The decoding process runs client-side in your browser for preview. We do not store or save your images on our servers.",
+            "q5": "What if my Base64 string is invalid?",
+            "a5": "If the string is corrupted or incomplete, the tool will display an error message. Ensure you have copied the entire string, including the identifying header part."
         }
     },
     "js": {
         "no_input": "Base64文字列を入力してください。",
         "decode_success": "画像のデコードに成功しました！",
-        "decode_fail": "デコードに失敗しました。"
+        "decode_fail": "デコードに失敗しました。",
+        "input_required": "Please paste a Base64 string first.",
+        "invalid_error": "Invalid Base64 string or unsupported image format."
+    },
+    "result": {
+        "image_alt": "Decoded Image",
+        "success": "Image Decoded Successfully",
+        "btn_download": "Download Image",
+        "btn_clear": "Clear Pattern",
+        "ready_message": "画像のダウンロード準備ができました"
     }
 }

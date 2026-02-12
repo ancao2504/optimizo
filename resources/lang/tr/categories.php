@@ -64,4 +64,9 @@ return [
     'general' => 'Genel',
     'meta_title' => ':category - Ücretsiz Online Araçlar | Optimizo',
     'meta_description' => 'Dönüştürücüler, üreteçler ve daha fazlasını içeren ücretsiz :category. Herkes için profesyonel araçlar.',
+    'video-downloader_title' => 'Video İndirme Araçları',
+    'video-downloader_subtitle' => 'Profesyonel video indirme araçları - %100 ücretsiz, kayıt gerektirmez',
+    'video-downloader_meta_title' => 'Video İndirme Araçları - Ücretsiz Çevrimiçi Video İndiriciler | Optimizo',
+    'video-downloader_meta_description' => 'Çeşitli platformlardan ücretsiz video indirin. YouTube, Facebook, Instagram ve daha fazlası için yüksek kaliteli video indiriciler.',
+    'video-downloader_h1' => 'Video İndirme Araçları',
 ];

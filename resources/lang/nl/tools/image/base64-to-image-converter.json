@@ -8,19 +8,21 @@
     "input": {
         "title": "Plak Base64 String",
         "desc": "Plak uw code hieronder om de afbeelding te visualiseren",
-        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
-        "btn_decode": "Decodeer Afbeelding"
+        "placeholder": "data:image/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Decodeer Afbeelding",
+        "label": "Plak hier uw Base64-tekenreeks"
     },
     "result": {
         "image_alt": "Gedecodeerde afbeelding",
         "success": "Afbeelding succesvol gedecodeerd",
         "btn_download": "Afbeelding downloaden",
-        "btn_clear": "Patroon wissen"
+        "btn_clear": "Patroon wissen",
+        "ready_message": "Uw afbeelding is klaar om te downloaden"
     },
     "content": {
         "title": "Base64 naar Afbeelding Decoderen",
-        "p1": "Heeft u een lange string van willekeurige tekens gevonden die begint met <code>data:image\/...<\/code> en weet u niet wat het is? Het is waarschijnlijk een Base64-gecodeerde afbeelding.",
-        "p2": "Onze <strong>Base64 naar Afbeelding Decoder<\/strong> zet die tekststring weer om in een zichtbaar afbeeldingsbestand (PNG, JPG, GIF, etc.) dat u kunt bekijken en downloaden naar uw computer.",
+        "p1": "Heeft u een lange string van willekeurige tekens gevonden die begint met <code>data:image/...</code> en weet u niet wat het is? Het is waarschijnlijk een Base64-gecodeerde afbeelding.",
+        "p2": "Onze <strong>Base64 naar Afbeelding Decoder</strong> zet die tekststring weer om in een zichtbaar afbeeldingsbestand (PNG, JPG, GIF, etc.) dat u kunt bekijken en downloaden naar uw computer.",
         "features": {
             "title": "Key Features",
             "f1_title": "Instant Preview",
@@ -28,7 +30,9 @@
             "f2_title": "Auto-Detection",
             "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
             "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click.",
+            "badge": "Waarom deze tool gebruiken?",
+            "subtitle": "Essential for developers and designers."
         },
         "how_to": {
             "title": "Hoe te decoderen?",
@@ -39,7 +43,8 @@
             "step3_title": "Step 3",
             "step3_desc": "If valid, the image appears on the left.",
             "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "step4_desc": "Click \"Download Image\" to save it.",
+            "subtitle": "Simple steps to decode your images."
         },
         "use_cases": {
             "title": "Veelvoorkomende toepassingen",
@@ -48,6 +53,19 @@
                 "Herstel: Afbeeldingen extraheren die zijn ingesloten in CSS-bestanden of HTML-sjablonen.",
                 "Verificatie: Controleren of een Base64-string niet beschadigd is."
             ]
+        },
+        "faq": {
+            "title": "Veelgestelde vragen",
+            "q1": "How does the Base64 to Image converter work?",
+            "a1": "This tool takes a Base64 encoded string as input and decodes it back into its original binary image format. It parses the data URI scheme (e.g., data:image/png;base64,...) to identify the image type and content.",
+            "q2": "What image formats can I decode?",
+            "a2": "The tool supports all common web image formats including PNG, JPG (JPEG), GIF, WEBP, BMP, and SVG, provided the Base64 string contains the correct MIME type header.",
+            "q3": "Is this tool free to use?",
+            "a3": "Yes, our Base64 to Image decoder is 100% free to use with no limits on the number of conversions.",
+            "q4": "Is it safe / secure?",
+            "a4": "Yes. The decoding process runs client-side in your browser for preview. We do not store or save your images on our servers.",
+            "q5": "What if my Base64 string is invalid?",
+            "a5": "If the string is corrupted or incomplete, the tool will display an error message. Ensure you have copied the entire string, including the identifying header part."
         }
     },
     "js": {

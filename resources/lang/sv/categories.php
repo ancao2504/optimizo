@@ -64,4 +64,9 @@ return [
     'general' => 'Allmänt',
     'meta_title' => ':category - Gratis Onlineverktyg | Optimizo',
     'meta_description' => 'Gratis :category inklusive konverterare, generatorer och mer. Professionella verktyg för alla.',
+    'video-downloader_title' => 'Videonedladdningsverktyg',
+    'video-downloader_subtitle' => 'Professionella videonedladdningsverktyg - 100% gratis, ingen registrering krävs',
+    'video-downloader_meta_title' => 'Videonedladdningsverktyg - Gratis nedladdning av videor online | Optimizo',
+    'video-downloader_meta_description' => 'Ladda ner videor från olika plattformar gratis. Högkvalitativa videonedladdare för YouTube, Facebook, Instagram och mer.',
+    'video-downloader_h1' => 'Videonedladdningsverktyg',
 ];

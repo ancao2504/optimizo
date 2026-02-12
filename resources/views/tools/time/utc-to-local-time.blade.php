@@ -110,10 +110,9 @@
 
             <div
                 class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 flex flex-col justify-center border-l-4 border-teal-500">
-                <h3 class="text-xl font-bold text-gray-900 mb-2">Local vs UTC</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">{{ __tool('utc-to-local-time', 'content.local_vs_utc_title') ?: 'Local vs UTC' }}</h3>
                 <p class="text-gray-600 leading-relaxed">
-                    Local time is the time in your specific time zone, which may include adjustments for daylight saving
-                    time. UTC is the worldwide baseline that stays constant regardless of location or season.
+                    {{ __tool('utc-to-local-time', 'content.local_vs_utc_desc') ?: 'Local time is the time in your specific time zone, which may include adjustments for daylight saving time. UTC is the worldwide baseline that stays constant regardless of location or season.' }}
                 </p>
             </div>
         </div>

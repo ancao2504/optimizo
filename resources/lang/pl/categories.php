@@ -64,4 +64,9 @@ return [
     'general' => 'Ogólne',
     'meta_title' => ':category - Darmowe Narzędzia Online | Optimizo',
     'meta_description' => 'Darmowe :category w tym konwertery, generatory i więcej. Profesjonalne narzędzia dla wszystkich.',
+    'video-downloader_title' => 'Narzędzia do pobierania wideo',
+    'video-downloader_subtitle' => 'Profesjonalne narzędzia do pobierania wideo - 100% darmowe, bez rejestracji',
+    'video-downloader_meta_title' => 'Narzędzia do pobierania wideo - Darmowe pobieranie filmów online | Optimizo',
+    'video-downloader_meta_description' => 'Pobieraj filmy z różnych platform za darmo. Wysokiej jakości narzędzia do pobierania filmów z YouTube, Facebook, Instagram i innych.',
+    'video-downloader_h1' => 'Narzędzia do pobierania wideo',
 ];

@@ -16,12 +16,13 @@
         "label_string": "Ciąg Base64",
         "btn_copy": "Kopiuj do schowka",
         "char_count": "Liczba znaków",
-        "mime_type": "Typ MIME"
+        "mime_type": "Typ MIME",
+        "btn_upload_new": "Prześlij nowy obraz"
     },
     "content": {
         "title": "Konwertuj obraz na ciąg Base64",
         "p1": "Programiści i projektanci stron internetowych często muszą osadzać obrazy bezpośrednio w plikach HTML lub CSS, aby zmniejszyć liczbę żądań HTTP.",
-        "p2": "Nasz <strong>konwerter obrazu na Base64<\/strong> koduje plik obrazu w długi ciąg znaków reprezentujący dane binarne. Możesz wkleić ten ciąg bezpośrednio do swojego kodu.",
+        "p2": "Nasz <strong>konwerter obrazu na Base64</strong> koduje plik obrazu w długi ciąg znaków reprezentujący dane binarne. Możesz wkleić ten ciąg bezpośrednio do swojego kodu.",
         "features": {
             "title": "Key Features",
             "f1_title": "Clipboard Ready",
@@ -29,7 +30,9 @@
             "f2_title": "Reduce Requests",
             "f2_desc": "Embedding small icons and logos as Base64 eliminates the network overhead of fetching external image files.",
             "f3_title": "Any Format",
-            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files."
+            "f3_desc": "Works with PNG, JPG, GIF, WEBP, SVG, and even ICO files.",
+            "badge": "Dlaczego warto używać tego narzędzia?",
+            "subtitle": "Essential for developers and designers."
         },
         "how_to": {
             "title": "Jak używać?",
@@ -40,7 +43,8 @@
             "step3_title": "Step 3",
             "step3_desc": "Click \"Copy to Clipboard\" to grab the code.",
             "step4_title": "Step 4",
-            "step4_desc": "Insert it into your `src` attribute or CSS file."
+            "step4_desc": "Insert it into your `src` attribute or CSS file.",
+            "subtitle": "Simple steps to encode your images."
         },
         "use_cases": {
             "title": "Kiedy używać Base64?",
@@ -49,6 +53,19 @@
                 "Aplikacje jednoplikowe: Gdy musisz spakować wszystko do jednego pliku HTML (np. szablony e-mail).",
                 "Dostęp offline: Zapewnia ładowanie obrazów nawet bez połączenia sieciowego, jeśli plik HTML zostanie zapisany lokalnie."
             ]
+        },
+        "faq": {
+            "title": "Często zadawane pytania",
+            "q1": "What is Base64 encoding?",
+            "a1": "Base64 is a way to represent binary data (like images) using only printable text characters. This allows you to embed images directly into code files.",
+            "q2": "Will this increase the file size?",
+            "a2": "Yes, Base64 encoding typically increases the file size by about 33%. It is recommended only for small images (icons, logos) to avoid performance issues.",
+            "q3": "Which browsers support Data URIs?",
+            "a3": "Data URIs are supported by all modern browsers (Chrome, Firefox, Safari, Edge) and IE8+.",
+            "q4": "Is it secure?",
+            "a4": "Yes, the conversion happens entirely in your browser. Your images are never uploaded to our servers.",
+            "q5": "Can I convert large images?",
+            "a5": "Technically yes, but it's not recommended. Large Base64 strings can bloat your HTML/CSS and slow down page rendering."
         }
     },
     "js": {

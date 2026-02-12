@@ -9,13 +9,15 @@
         "title": "Tempel String Base64",
         "desc": "Tempelkan kode Anda di bawah ini untuk memvisualisasikan gambar",
         "placeholder": "data:gambar/png;base64,iVBORw0KGgo...",
-        "btn_decode": "Dekode Gambar"
+        "btn_decode": "Dekode Gambar",
+        "label": "Tempelkan string Base64 Anda di sini"
     },
     "result": {
         "image_alt": "Gambar yang Didekodekan",
         "success": "Gambar Berhasil Didekodekan",
         "btn_download": "Unduh Gambar",
-        "btn_clear": "Hapus Pola"
+        "btn_clear": "Hapus Pola",
+        "ready_message": "Gambar Anda siap untuk diunduh"
     },
     "content": {
         "title": "Dekode Base64 ke Gambar",
@@ -28,7 +30,9 @@
             "f2_title": "Deteksi Otomatis",
             "f2_desc": "Kami secara otomatis mendeteksi format file (PNG, JPEG, GIF) dari header string Base64.",
             "f3_title": "Unduh File",
-            "f3_desc": "Simpan hasil decoding sebagai file gambar nyata ke hard drive Anda dengan satu klik."
+            "f3_desc": "Simpan hasil decoding sebagai file gambar nyata ke hard drive Anda dengan satu klik.",
+            "badge": "Mengapa Menggunakan Alat Ini?",
+            "subtitle": "Essential for developers and designers."
         },
         "how_to": {
             "title": "Bagaimana Cara Mendekode?",
@@ -39,7 +43,8 @@
             "step3_title": "Langkah 3",
             "step3_desc": "Jika valid, gambar akan muncul di sebelah kiri.",
             "step4_title": "Langkah 4",
-            "step4_desc": "Klik \"Unduh Gambar\" untuk menyimpannya."
+            "step4_desc": "Klik \"Unduh Gambar\" untuk menyimpannya.",
+            "subtitle": "Simple steps to decode your images."
         },
         "use_cases": {
             "title": "Kasus Penggunaan Umum",
@@ -48,6 +53,19 @@
                 "Pemulihan: Mengekstraksi gambar yang tertanam dalam file CSS atau template HTML.",
                 "Verifikasi: Memastikan string Base64 tidak rusak."
             ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "q1": "How does the Base64 to Image converter work?",
+            "a1": "This tool takes a Base64 encoded string as input and decodes it back into its original binary image format. It parses the data URI scheme (e.g., data:image/png;base64,...) to identify the image type and content.",
+            "q2": "What image formats can I decode?",
+            "a2": "The tool supports all common web image formats including PNG, JPG (JPEG), GIF, WEBP, BMP, and SVG, provided the Base64 string contains the correct MIME type header.",
+            "q3": "Is this tool free to use?",
+            "a3": "Yes, our Base64 to Image decoder is 100% free to use with no limits on the number of conversions.",
+            "q4": "Is it safe / secure?",
+            "a4": "Yes. The decoding process runs client-side in your browser for preview. We do not store or save your images on our servers.",
+            "q5": "What if my Base64 string is invalid?",
+            "a5": "If the string is corrupted or incomplete, the tool will display an error message. Ensure you have copied the entire string, including the identifying header part."
         }
     },
     "js": {

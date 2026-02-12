@@ -13,7 +13,8 @@
         "label_input": "YAML 입력",
         "ph_input": "여기에 YAML을 붙여넣으세요...",
         "label_output": "JSON 출력",
-        "ph_output": "JSON 결과가 여기에 표시됩니다..."
+        "ph_output": "JSON 결과가 여기에 표시됩니다...",
+        "btn_download": "Download"
     },
     "content": {
         "hero_title": "YAML에서 JSON으로 쉽게 변환",
@@ -38,6 +39,30 @@
             "complex": {
                 "title": "복잡한 구조 처리",
                 "desc": "중첩된 목록, 객체 및 다양한 데이터 유형을 정확하게 변환합니다."
+            },
+            "syntax": {
+                "title": "Syntax Validation",
+                "desc": "Detects YAML syntax errors"
+            },
+            "nested": {
+                "title": "Nested Structure",
+                "desc": "Preserves complex hierarchies"
+            },
+            "array": {
+                "title": "Array Support",
+                "desc": "Handles YAML lists and sequences"
+            },
+            "pretty": {
+                "title": "Pretty Formatting",
+                "desc": "Clean, readable JSON output"
+            },
+            "instant": {
+                "title": "Instant Conversion",
+                "desc": "Real-time transformation"
+            },
+            "privacy": {
+                "title": "Privacy First",
+                "desc": "All processing in browser"
             }
         },
         "uses_title": "사용 시기",
@@ -53,6 +78,22 @@
             "app": {
                 "title": "앱 구성",
                 "desc": "웹 앱에서 직접 사용하기 위해 YAML 구성 파일을 JSON으로 전환합니다."
+            },
+            "config": {
+                "title": "Config Files",
+                "desc": "Convert YAML configuration files to JSON for applications."
+            },
+            "pipeline": {
+                "title": "CI/CD Pipelines",
+                "desc": "Transform YAML pipeline configs to JSON format."
+            },
+            "k8s": {
+                "title": "Kubernetes",
+                "desc": "Convert Kubernetes YAML manifests to JSON."
+            },
+            "docker": {
+                "title": "Docker Compose",
+                "desc": "Transform Docker Compose YAML to JSON."
             }
         },
         "how_title": "작동 방식",
@@ -80,13 +121,31 @@
             "a3": "구문 오류를 파악하는 데 도움이 되도록 오류 메시지를 표시합니다.",
             "q4": "YAML 1.2를 지원하나요?",
             "a4": "네, 최신 YAML 표준 및 사양을 지원합니다."
-        }
+        },
+        "h2": "About YAML to JSON Converter",
+        "how_to_title": "How to Use YAML to JSON Converter",
+        "how_to_steps": [
+            {
+                "title": "Paste YAML",
+                "desc": "Copy and paste your YAML code into the input area."
+            },
+            {
+                "title": "Automatic Conversion",
+                "desc": "The tool converts YAML to JSON in real-time as you type."
+            },
+            {
+                "title": "Copy or Download",
+                "desc": "Copy the resulting JSON or download it as a .json file."
+            }
+        ]
     },
     "js": {
         "error_empty": "변환할 YAML 데이터를 입력하세요",
         "success_convert": "✓ YAML이 JSON으로 성공적으로 변환되었습니다!",
         "error_convert": "YAML 변환 오류: ",
         "error_no_copy": "복사할 내용이 없습니다.",
-        "success_copy": "✓ JSON이 복사되었습니다!"
+        "success_copy": "✓ JSON이 복사되었습니다!",
+        "error_process": "Error converting YAML: ",
+        "error_no_download": "No JSON to download. Please convert YAML first."
     }
 }

@@ -8,19 +8,21 @@
     "input": {
         "title": "Lim inn Base64-streng",
         "desc": "Lim inn koden under for å vise bildet",
-        "placeholder": "data:image\/png;base64,iVBORw0KGgo...",
-        "btn_decode": "Dekod bilde"
+        "placeholder": "data:image/png;base64,iVBORw0KGgo...",
+        "btn_decode": "Dekod bilde",
+        "label": "Lim inn Base64-strengen din her"
     },
     "result": {
         "image_alt": "Dekodet bilde",
         "success": "Bildet ble dekodet!",
         "btn_download": "Last ned bilde",
-        "btn_clear": "Tøm"
+        "btn_clear": "Tøm",
+        "ready_message": "Bildet ditt er klart for nedlasting"
     },
     "content": {
         "title": "Dekod Base64 til bilde",
-        "p1": "Fant du en lang streng med tilfeldige tegn som begynner med <code>data:bilde\/...<\/code> og vet ikke hva det er? Det er sannsynligvis et Base64-kodet bilde.",
-        "p2": "Vår <strong>Base64 til bildedekoder<\/strong> konverterer den tekststrengen tilbake til en synlig bildefil (PNG, JPG, GIF, etc.) som du kan se og laste ned til datamaskinen din.",
+        "p1": "Fant du en lang streng med tilfeldige tegn som begynner med <code>data:bilde/...</code> og vet ikke hva det er? Det er sannsynligvis et Base64-kodet bilde.",
+        "p2": "Vår <strong>Base64 til bildedekoder</strong> konverterer den tekststrengen tilbake til en synlig bildefil (PNG, JPG, GIF, etc.) som du kan se og laste ned til datamaskinen din.",
         "features": {
             "title": "Key Features",
             "f1_title": "Instant Preview",
@@ -28,7 +30,9 @@
             "f2_title": "Auto-Detection",
             "f2_desc": "We automatically detect the file format (PNG, JPEG, GIF) from the header of the Base64 string.",
             "f3_title": "Download File",
-            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click."
+            "f3_desc": "Save the decoded result as a real image file to your hard drive with one click.",
+            "badge": "Hvorfor bruke dette verktøyet?",
+            "subtitle": "Essential for developers and designers."
         },
         "how_to": {
             "title": "Hvordan dekode?",
@@ -39,7 +43,8 @@
             "step3_title": "Step 3",
             "step3_desc": "If valid, the image appears on the left.",
             "step4_title": "Step 4",
-            "step4_desc": "Click \"Download Image\" to save it."
+            "step4_desc": "Click \"Download Image\" to save it.",
+            "subtitle": "Simple steps to decode your images."
         },
         "use_cases": {
             "title": "Vanlige brukstilfeller",
@@ -48,6 +53,19 @@
                 "Gjenoppretting: Trekker ut bilder innebygd i CSS-filer eller HTML-maler.",
                 "Bekreftelse: Sikre at en Base64-streng ikke er ødelagt."
             ]
+        },
+        "faq": {
+            "title": "Vanlige spørsmål",
+            "q1": "How does the Base64 to Image converter work?",
+            "a1": "This tool takes a Base64 encoded string as input and decodes it back into its original binary image format. It parses the data URI scheme (e.g., data:image/png;base64,...) to identify the image type and content.",
+            "q2": "What image formats can I decode?",
+            "a2": "The tool supports all common web image formats including PNG, JPG (JPEG), GIF, WEBP, BMP, and SVG, provided the Base64 string contains the correct MIME type header.",
+            "q3": "Is this tool free to use?",
+            "a3": "Yes, our Base64 to Image decoder is 100% free to use with no limits on the number of conversions.",
+            "q4": "Is it safe / secure?",
+            "a4": "Yes. The decoding process runs client-side in your browser for preview. We do not store or save your images on our servers.",
+            "q5": "What if my Base64 string is invalid?",
+            "a5": "If the string is corrupted or incomplete, the tool will display an error message. Ensure you have copied the entire string, including the identifying header part."
         }
     },
     "js": {

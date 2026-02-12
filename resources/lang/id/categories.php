@@ -64,4 +64,9 @@ return [
     'general' => 'Umum',
     'meta_title' => ':category - Alat Online Gratis | Optimizo',
     'meta_description' => ':category gratis termasuk konverter, generator, dan banyak lagi. Alat profesional untuk semua orang.',
+    'video-downloader_title' => 'Alat Pengunduh Video',
+    'video-downloader_subtitle' => 'Alat pengunduh video profesional - 100% gratis, tanpa registrasi',
+    'video-downloader_meta_title' => 'Alat Pengunduh Video - Pengunduh Video Online Gratis | Optimizo',
+    'video-downloader_meta_description' => 'Unduh video dari berbagai platform secara gratis. Pengunduh video berkualitas tinggi untuk YouTube, Facebook, Instagram, dan lainnya.',
+    'video-downloader_h1' => 'Alat Pengunduh Video',
 ];
