@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Γεννήτρια SHA-384 Hash - Δωρεάν Online Εργαλείο",
+        "description": "Δημιουργήστε SHA-384 hashes. Truncated SHA-512 παραλλαγή με 192 bits ανθεκτικότητα σε collisions.",
+        "h1": "Γεννήτρια SHA-384 Hash",
+        "subtitle": "Δημιουργία 384-bit SHA-384 κρυπτογραφικών hashes για εφαρμογές υψηλής ασφάλειας"
+    },
+    "editor": {
+        "label_input": "Εισαγωγή Κειμένου",
+        "ph_input": "Εισάγετε κείμενο για SHA-384 hash...",
+        "btn_generate": "Δημιουργία SHA-384 Hash",
+        "label_result": "SHA-384 Hash",
+        "btn_copy": "Αντιγραφή"
+    },
+    "content": {
+        "hero_title": "Γεννήτρια SHA-384 Hash",
+        "hero_subtitle": "Κρυπτογραφικό hashing υψηλής ασφάλειας 384-bit",
+        "p1": "Το SHA-384 ανήκει στην οικογένεια SHA-2, παράγει τιμή hash 384-bit (96 hex χαρακτήρες). Είναι truncated έκδοση SHA-512 με διαφορετικές αρχικές τιμές. Χρησιμοποιείται σε κυβερνητικά και χρηματοοικονομικά συστήματα. Καθορίζεται σε TLS cipher suites.",
+        "what_title": "Τι είναι το SHA-384;",
+        "what_desc": "Χρησιμοποιεί τον ίδιο αλγόριθμο με SHA-512 — blocks 1024-bit, 80 γύροι, λέξεις 64-bit. Η διαφορά είναι στις αρχικές τιμές και η έξοδος κόβεται σε 384 bits.",
+        "features_title": "✅ Πλεονεκτήματα SHA-384",
+        "features": {
+            "fast": "<strong>Ασφάλεια 192-bit:<\/strong> Μεγαλύτερη ανθεκτικότητα σε collisions από SHA-256",
+            "fixed": "<strong>Έξοδος 384-bit:<\/strong> 96 δεκαεξαδικοί χαρακτήρες",
+            "deterministic": "<strong>Βελτιστοποιημένο 64-bit:<\/strong> Λειτουργίες 64-bit, γρήγορο σε σύγχρονες CPUs",
+            "support": "<strong>Κυβερνητικά Εγκεκριμένο:<\/strong> NIST συνιστώμενο για ευαίσθητες εφαρμογές"
+        },
+        "uses_title": "📊 Περιπτώσεις Χρήσης",
+        "uses": {
+            "verify": "<strong>TLS Cipher Suites:<\/strong> ECDHE-RSA-AES256-SHA384",
+            "checksum": "<strong>Ψηφιακές Υπογραφές:<\/strong> Υπογραφή εγγράφων υψηλής ασφάλειας",
+            "cache": "<strong>Κυβερνητικά Συστήματα:<\/strong> FIPS 180-4 εφαρμογές",
+            "integrity": "<strong>Χρηματοοικονομικά Πρωτόκολλα:<\/strong> Τραπεζική και payment ασφάλεια"
+        },
+        "warning_title": "💡 Πότε να Χρησιμοποιήσετε SHA-384",
+        "warning_desc": "<strong>Το SHA-384 βρίσκεται μεταξύ SHA-256 και SHA-512 σε επίπεδο ασφάλειας.<\/strong> Επιλέξτε το όταν χρειάζεστε περισσότερα από 128-bit collision resistance ή απόδοση 64-bit με μικρότερη έξοδο.",
+        "compare_title": "🔄 Σύγκριση Οικογένειας SHA-2",
+        "compare": {
+            "md5": {
+                "title": "SHA-256",
+                "desc1": "256-bit, λειτουργίες 32-bit",
+                "desc2": "128-bit ανθεκτικότητα σε collisions"
+            },
+            "sha1": {
+                "title": "SHA-384",
+                "desc1": "384-bit, λειτουργίες 64-bit",
+                "desc2": "192-bit ανθεκτικότητα σε collisions"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512-bit, λειτουργίες 64-bit",
+                "desc2": "256-bit ανθεκτικότητα σε collisions"
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Γιατί SHA-384 αντί SHA-256;",
+            "a1": "Παρέχει 192 bits ανθεκτικότητα σε collisions vs 128 bits. Επίσης τρέχει SHA-512 εσωτερικά, ταχύτερο σε 64-bit επεξεργαστές.",
+            "q2": "Είναι truncated SHA-512;",
+            "a2": "Ναι, αλλά με διαφορετικές αρχικές τιμές. Δεν μπορείτε να εξάγετε SHA-384 hash από SHA-512 hash.",
+            "q3": "Πού απαιτείται SHA-384;",
+            "a3": "Σε κυβερνητικά (Suite B), χρηματοοικονομικά συστήματα και TLS configurations."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε κείμενο",
+        "btn_copied": "Αντιγράφηκε!",
+        "btn_generating": "Δημιουργία...",
+        "error_failed": "Η δημιουργία hash απέτυχε. Δοκιμάστε ξανά."
+    }
+}

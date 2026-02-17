@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "JWT Decoder Online - Δωρεάν JSON Web Token Debugger",
+        "description": "Αποκωδικοποιήστε και εξετάστε JSON Web Tokens (JWT) - Δείτε header, payload και signature!",
+        "h1": "JWT Decoder",
+        "subtitle": "Αποκωδικοποιήστε και εξετάστε JSON Web Tokens (JWT) - Δείτε header, payload και signature!"
+    },
+    "editor": {
+        "label_input": "Εισαγωγή JWT Token",
+        "ph_input": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "btn_decode": "Αποκωδικοποίηση JWT",
+        "btn_clear": "Εκκαθάριση",
+        "btn_example": "Παράδειγμα",
+        "label_payload": "Payload (Claims)",
+        "label_signature": "Υπογραφή",
+        "note_signature": "⚠️ Σημείωση: Η επαλήθευση υπογραφής απαιτεί το μυστικό κλειδί"
+    },
+    "content": {
+        "hero_title": "Δωρεάν JWT Decoder Online",
+        "hero_subtitle": "Αποκωδικοποίηση και εξέταση JSON Web Tokens αμέσως",
+        "p1": "Το εργαλείο JWT Decoder αποκωδικοποιεί και εξετάζει JSON Web Tokens (JWT) δείχνοντας header, payload και signature. Ιδανικό για debugging authentication, κατανόηση δομής token και επαλήθευση claims.",
+        "what_title": "🔐 Τι είναι το JWT;",
+        "what_desc": "Το JSON Web Token (JWT) είναι ένας συμπαγής, URL-safe τρόπος αναπαράστασης claims μεταξύ δύο μερών. Αποτελείται από τρία μέρη: Header (αλγόριθμος και τύπος), Payload (claims/δεδομένα) και Signature (επαλήθευση), χωρισμένα με τελείες.",
+        "features_title": "✨ Χαρακτηριστικά",
+        "features": {
+            "instant": {
+                "title": "Άμεση Αποκωδικοποίηση",
+                "desc": "Αποκωδικοποίηση JWT σε χιλιοστά"
+            },
+            "structured": {
+                "title": "Δομημένη Προβολή",
+                "desc": "Header, payload και signature ξεχωριστά"
+            },
+            "privacy": {
+                "title": "Ιδιωτικότητα Πρώτα",
+                "desc": "Η αποκωδικοποίηση γίνεται στον browser"
+            }
+        },
+        "uses_title": "🎯 Συνήθεις Περιπτώσεις Χρήσης",
+        "uses": {
+            "debug": {
+                "title": "🐛 Debugging",
+                "desc": "Debug authentication εξετάζοντας τα περιεχόμενα JWT"
+            },
+            "validate": {
+                "title": "✅ Επαλήθευση",
+                "desc": "Επαλήθευση claims JWT και χρόνων λήξης"
+            },
+            "learn": {
+                "title": "📚 Εκμάθηση",
+                "desc": "Κατανόηση δομής και components JWT"
+            },
+            "dev": {
+                "title": "🔧 Development",
+                "desc": "Δοκιμή δημιουργίας και ανάλυσης JWT"
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Είναι ασφαλές να αποκωδικοποιώ JWT εδώ;",
+            "a1": "Ναι! Η αποκωδικοποίηση γίνεται στον browser. Το JWT δεν φεύγει από τη συσκευή σας. Μην μοιράζεστε JWT δημόσια.",
+            "q2": "Μπορεί να επαληθεύσει υπογραφές JWT;",
+            "a2": "Αποκωδικοποιεί και εμφανίζει τα components αλλά δεν επαληθεύει υπογραφές, καθώς αυτό απαιτεί μυστικό κλειδί.",
+            "q3": "Τι είναι τα JWT claims;",
+            "a3": "Τα claims είναι δηλώσεις για μια οντότητα (χρήστη) και επιπλέον δεδομένα. Κοινά claims: 'sub' (θέμα), 'exp' (λήξη), 'iat' (ημ. έκδοσης)."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε JWT token",
+        "error_invalid_format": "Μη έγκυρη μορφή JWT. Το JWT πρέπει να έχει 3 μέρη χωρισμένα με τελείες.",
+        "success_decode": "✓ Το JWT αποκωδικοποιήθηκε επιτυχώς",
+        "error_decode": "✗ Σφάλμα αποκωδικοποίησης JWT: "
+    }
+}

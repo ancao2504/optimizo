@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Γεννήτρια MD4 Hash - Δωρεάν Online Εργαλείο",
+        "description": "Δημιουργήστε MD4 hashes αμέσως. Πρόγονος του MD5, χρησιμοποιείται ακόμα σε NTLM authentication.",
+        "h1": "Γεννήτρια MD4 Hash",
+        "subtitle": "Δημιουργία MD4 message digest hashes από κείμενο"
+    },
+    "editor": {
+        "label_input": "Εισαγωγή Κειμένου",
+        "ph_input": "Εισάγετε κείμενο για MD4 hash...",
+        "btn_generate": "Δημιουργία MD4 Hash",
+        "label_result": "MD4 Hash",
+        "btn_copy": "Αντιγραφή"
+    },
+    "content": {
+        "hero_title": "Γεννήτρια MD4 Hash",
+        "hero_subtitle": "Δημιουργία 128-bit MD4 message digests αμέσως",
+        "p1": "Το MD4 σχεδιάστηκε από τον Ronald Rivest το 1990. Παράγει τιμή hash 128-bit (32 hex χαρακτήρες). Θεωρείται κρυπτογραφικά σπασμένο αλλά παραμένει ιστορικά σημαντικό ως πρόγονος MD5 και SHA. Χρησιμοποιείται ακόμα στο NTLM authentication.",
+        "what_title": "Τι είναι το MD4;",
+        "what_desc": "Το MD4 επεξεργάζεται είσοδο σε blocks 512-bit και παράγει hash 128-bit μέσω τριών γύρων. Κάθε γύρος χρησιμοποιεί διαφορετική μη γραμμική συνάρτηση. Βελτιστοποιημένο για ταχύτητα σε 32-bit επεξεργαστές. Το MD5 δημιουργήθηκε αργότερα ως πιο ασφαλής αντικατάσταση.",
+        "features_title": "✅ Χαρακτηριστικά MD4",
+        "features": {
+            "fast": "<strong>Πολύ Γρήγορο:<\/strong> Σχεδιασμένο για μέγιστη ταχύτητα σε 32-bit επεξεργαστές",
+            "fixed": "<strong>Έξοδος 128-bit:<\/strong> Παράγει hash 32 δεκαεξαδικών χαρακτήρων",
+            "deterministic": "<strong>Ιστορική Σημασία:<\/strong> Πρόγονος MD5 και SHA οικογενειών",
+            "support": "<strong>Χρήση NTLM:<\/strong> Ακόμα χρησιμοποιείται σε Windows NTLM authentication"
+        },
+        "uses_title": "📊 Πού Χρησιμοποιείται",
+        "uses": {
+            "verify": "<strong>NTLM Authentication:<\/strong> Windows domain authentication",
+            "checksum": "<strong>ED2K Links:<\/strong> eDonkey2000 file hashing",
+            "cache": "<strong>Legacy Συστήματα:<\/strong> Παλαιότερα συστήματα που απαιτούν MD4",
+            "integrity": "<strong>Έρευνα:<\/strong> Μελέτη εξέλιξης hash functions"
+        },
+        "warning_title": "⚠️ Προειδοποίηση Ασφαλείας",
+        "warning_desc": "<strong>Το MD4 είναι ΕΝΤΕΛΩΣ ΣΠΑΣΜΕΝΟ κρυπτογραφικά.<\/strong> Collisions βρίσκονται σε χιλιοστά. ΠΟΤΕ μην χρησιμοποιείτε MD4 για ασφάλεια. Χρησιμοποιήστε SHA-256 ή SHA-512.",
+        "compare_title": "🔄 MD4 vs Σχετικοί Αλγόριθμοι",
+        "compare": {
+            "md5": {
+                "title": "MD4",
+                "desc1": "128-bit, 3 γύροι",
+                "desc2": "Σπασμένο - collisions σε ms"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "128-bit, 4 γύροι",
+                "desc2": "Επίσης σπασμένο, πιο αργό στην επίθεση"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "Έξοδος 256-bit",
+                "desc2": "Ασφαλές, συνιστάται"
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Γιατί υπάρχει ακόμα το MD4;",
+            "a1": "Χρησιμοποιείται στο NTLM authentication της Microsoft και στο eDonkey. Η συμβατότητα με legacy συστήματα το κρατά ζωντανό.",
+            "q2": "Ποια η διαφορά MD4 και MD5;",
+            "a2": "Το MD5 πρόσθεσε τέταρτο γύρο και τροποποίησε τις συναρτήσεις. Και τα δύο παράγουν 128-bit hash αλλά το MD5 είναι πιο ανθεκτικό σε collisions.",
+            "q3": "Στέλνονται τα δεδομένα σε server;",
+            "a3": "Το hash υπολογίζεται στον server μέσω ασφαλούς AJAX αιτήματος, αλλά τα δεδομένα δεν αποθηκεύονται."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε κείμενο",
+        "btn_copied": "Αντιγράφηκε!",
+        "btn_generating": "Δημιουργία...",
+        "error_failed": "Η δημιουργία hash απέτυχε. Δοκιμάστε ξανά."
+    }
+}

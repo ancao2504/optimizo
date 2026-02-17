@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Γεννήτρια Tiger-160 Hash - Δωρεάν Online Εργαλείο",
+        "description": "Δημιουργήστε Tiger-160 hashes. 160-bit παραλλαγή Tiger βελτιστοποιημένη για 64-bit συστήματα.",
+        "h1": "Γεννήτρια Tiger-160 Hash",
+        "subtitle": "Δημιουργία 160-bit Tiger-160 hashes — ισορροπία ταχύτητας και ασφάλειας"
+    },
+    "editor": {
+        "label_input": "Εισαγωγή Κειμένου",
+        "ph_input": "Εισάγετε κείμενο για Tiger-160 hash...",
+        "btn_generate": "Δημιουργία Tiger-160 Hash",
+        "label_result": "Tiger-160 Hash",
+        "btn_copy": "Αντιγραφή"
+    },
+    "content": {
+        "hero_title": "Γεννήτρια Tiger-160 Hash",
+        "hero_subtitle": "160-bit Tiger hash για ισορροπημένη απόδοση και ασφάλεια",
+        "p1": "Το Tiger-160 είναι η μεσαία παραλλαγή της οικογένειας Tiger, παράγει hash 160-bit (40 hex χαρακτήρες). Ίδιο μέγεθος εξόδου με SHA-1 αλλά σημαντικά ταχύτερο σε 64-bit επεξεργαστές. Παίρνει τα πρώτα 160 bits του Tiger-192.",
+        "what_title": "Τι είναι το Tiger-160;",
+        "what_desc": "Χρησιμοποιεί τον ίδιο αλγόριθμο με Tiger-192 αλλά κόβει την έξοδο σε 160 bits. Blocks 512-bit, 24 γύροι, τέσσερα S-boxes. 80-bit ανθεκτικότητα σε collisions, αντίστοιχη SHA-1.",
+        "features_title": "✅ Χαρακτηριστικά Tiger-160",
+        "features": {
+            "fast": "<strong>Εναλλακτικό SHA-1:<\/strong> Ίδιο μήκος εξόδου, ταχύτερο σε 64-bit",
+            "fixed": "<strong>Έξοδος 160-bit:<\/strong> 40 δεκαεξαδικοί χαρακτήρες",
+            "deterministic": "<strong>Ασφάλεια 80-bit:<\/strong> Αντίστοιχη SHA-1 ανθεκτικότητα σε collisions",
+            "support": "<strong>Ταχύτητα 64-bit:<\/strong> Ξεπερνά SHA-1 σε σύγχρονους επεξεργαστές"
+        },
+        "uses_title": "📊 Περιπτώσεις Χρήσης",
+        "uses": {
+            "verify": "<strong>Επαλήθευση Αρχείων:<\/strong> Γρήγοροι έλεγχοι ακεραιότητας σε 64-bit",
+            "checksum": "<strong>Αντικατάσταση SHA-1:<\/strong> Drop-in για ανάγκες 160-bit hash",
+            "cache": "<strong>Content Hashing:<\/strong> Μοναδικά αναγνωριστικά για cached περιεχόμενο",
+            "integrity": "<strong>Database Indexing:<\/strong> Αποδοτικές hash-based αναζητήσεις"
+        },
+        "warning_title": "⚠️ Σημείωση Ασφαλείας",
+        "warning_desc": "<strong>Το Tiger-160 παρέχει 80-bit ανθεκτικότητα σε collisions<\/strong>, παρόμοια με SHA-1. Κάτω από σύγχρονες συστάσεις (128-bit ελάχιστο). Για κρίσιμη ασφάλεια χρησιμοποιήστε SHA-256.",
+        "compare_title": "🔄 Tiger-160 vs SHA-1",
+        "compare": {
+            "md5": {
+                "title": "Tiger-160",
+                "desc1": "160-bit, λειτουργίες 64-bit",
+                "desc2": "Ταχύτερο σε 64-bit CPUs"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160-bit, λειτουργίες 32-bit",
+                "desc2": "Πιο ευρέως υποστηριζόμενο"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "Έξοδος 256-bit",
+                "desc2": "Μεγαλύτερη ασφάλεια, συνιστάται"
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Tiger-160 vs SHA-1 — ποιο να επιλέξω;",
+            "a1": "Αν η ταχύτητα σε 64-bit είναι κρίσιμη, Tiger-160. Για συμβατότητα, SHA-1. Για ασφάλεια, κανένα — χρησιμοποιήστε SHA-256.",
+            "q2": "Είναι πιο ασφαλές από SHA-1;",
+            "a2": "Ίδια θεωρητική ανθεκτικότητα (80 bits). Το SHA-1 έχει γνωστά πρακτικά collisions, το Tiger όχι ακόμα. Αλλά λιγότερη κρυπτανάλυση.",
+            "q3": "Γιατί truncate Tiger-192 σε 160 bits;",
+            "a3": "Ορισμένα πρωτόκολλα απαιτούν ακριβώς 160-bit hashes (αντίστοιχο SHA-1). Το Tiger-160 παρέχει αυτή τη συμβατότητα."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε κείμενο",
+        "btn_copied": "Αντιγράφηκε!",
+        "btn_generating": "Δημιουργία...",
+        "error_failed": "Η δημιουργία hash απέτυχε. Δοκιμάστε ξανά."
+    }
+}

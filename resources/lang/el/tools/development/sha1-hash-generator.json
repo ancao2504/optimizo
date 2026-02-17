@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Γεννήτρια SHA-1 Hash - Δωρεάν Online Εργαλείο",
+        "description": "Δημιουργήστε SHA-1 hashes αμέσως. 160-bit κρυπτογραφικό hash που χρησιμοποιείται σε Git, TLS και ψηφιακά πιστοποιητικά.",
+        "h1": "Γεννήτρια SHA-1 Hash",
+        "subtitle": "Δημιουργία 160-bit SHA-1 κρυπτογραφικών hashes από κείμενο"
+    },
+    "editor": {
+        "label_input": "Εισαγωγή Κειμένου",
+        "ph_input": "Εισάγετε κείμενο για SHA-1 hash...",
+        "btn_generate": "Δημιουργία SHA-1 Hash",
+        "label_result": "SHA-1 Hash",
+        "btn_copy": "Αντιγραφή"
+    },
+    "content": {
+        "hero_title": "Γεννήτρια SHA-1 Hash",
+        "hero_subtitle": "Υπολογισμός 160-bit SHA-1 message digests αμέσως",
+        "p1": "Το SHA-1 σχεδιάστηκε από την NSA και δημοσιεύτηκε από το NIST το 1995. Παράγει τιμή hash 160-bit (40 hex χαρακτήρες). Ήταν η πιο διαδεδομένη συνάρτηση hash για δύο δεκαετίες. Ενώ deprecated για ασφάλεια, χρησιμοποιείται ακόμα σε Git ως content identifier.",
+        "what_title": "Τι είναι το SHA-1;",
+        "what_desc": "Το SHA-1 επεξεργάζεται δεδομένα σε blocks 512-bit μέσω 80 γύρων, παράγοντας 160-bit message digest. Η Google απέδειξε την πρώτη πρακτική collision attack (SHAttered) το 2017.",
+        "features_title": "✅ Χαρακτηριστικά SHA-1",
+        "features": {
+            "fast": "<strong>Γρήγορη Επεξεργασία:<\/strong> Αποδοτικό σε σύγχρονο hardware",
+            "fixed": "<strong>Έξοδος 160-bit:<\/strong> Πάντα παράγει 40 δεκαεξαδικούς χαρακτήρες",
+            "deterministic": "<strong>Ευρεία Ανάπτυξη:<\/strong> Χρήση σε Git, παλαιότερο TLS και legacy συστήματα",
+            "support": "<strong>Καλά Αναλυμένο:<\/strong> Δεκαετίες κρυπτοαναλυτικής έρευνας"
+        },
+        "uses_title": "📊 Πού Χρησιμοποιείται το SHA-1",
+        "uses": {
+            "verify": "<strong>Git:<\/strong> Content-addressable storage και αναγνώριση commits",
+            "checksum": "<strong>Legacy TLS:<\/strong> Παλαιότερες υπογραφές SSL\/TLS πιστοποιητικών",
+            "cache": "<strong>HMAC-SHA1:<\/strong> Ακόμα θεωρείται ασφαλές για HMAC",
+            "integrity": "<strong>Επαλήθευση Αρχείων:<\/strong> Checksums για λήψεις λογισμικού"
+        },
+        "warning_title": "⚠️ Προειδοποίηση Ασφαλείας",
+        "warning_desc": "<strong>Το SHA-1 είναι deprecated για κρυπτογραφική ασφάλεια.<\/strong> Η επίθεση SHAttered της Google απέδειξε πρακτικά collisions το 2017. Χρησιμοποιήστε SHA-256 ή SHA-512. Σημείωση: Το HMAC-SHA1 παραμένει ασφαλές.",
+        "compare_title": "🔄 SHA-1 vs SHA-2 Οικογένεια",
+        "compare": {
+            "md5": {
+                "title": "SHA-1",
+                "desc1": "Έξοδος 160-bit",
+                "desc2": "Deprecated, βρέθηκαν collisions"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "Έξοδος 256-bit",
+                "desc2": "Ασφαλές, συνιστώμενο πρότυπο"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "Έξοδος 512-bit",
+                "desc2": "Μέγιστη ασφάλεια, ταχύτερο σε 64-bit"
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Είναι ασφαλές ακόμα το SHA-1;",
+            "a1": "Όχι για ασφάλεια. Αλλά είναι εντάξει για μη-ασφαλής χρήσεις όπως Git commits ή μη-κρυπτογραφικά checksums.",
+            "q2": "Γιατί χρησιμοποιεί ακόμα SHA-1 το Git;",
+            "a2": "Το Git χρησιμοποιεί SHA-1 ως content identifier, όχι για ασφάλεια. Μεταβαίνει σε SHA-256.",
+            "q3": "Τι να χρησιμοποιήσω αντί SHA-1;",
+            "a3": "SHA-256 γενικά ή SHA-512 για μέγιστη ασφάλεια. Για κωδικούς bcrypt ή Argon2."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε κείμενο",
+        "btn_copied": "Αντιγράφηκε!",
+        "btn_generating": "Δημιουργία...",
+        "error_failed": "Η δημιουργία hash απέτυχε. Δοκιμάστε ξανά."
+    }
+}

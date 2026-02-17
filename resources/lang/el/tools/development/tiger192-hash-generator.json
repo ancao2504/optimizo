@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Γεννήτρια Tiger-192 Hash - Δωρεάν Online Εργαλείο",
+        "description": "Δημιουργήστε Tiger-192 hashes. Πλήρες 192-bit Tiger hash σχεδιασμένο για 64-bit επεξεργαστές.",
+        "h1": "Γεννήτρια Tiger-192 Hash",
+        "subtitle": "Δημιουργία πλήρων 192-bit Tiger hashes — μέγιστη Tiger ασφάλεια"
+    },
+    "editor": {
+        "label_input": "Εισαγωγή Κειμένου",
+        "ph_input": "Εισάγετε κείμενο για Tiger-192 hash...",
+        "btn_generate": "Δημιουργία Tiger-192 Hash",
+        "label_result": "Tiger-192 Hash",
+        "btn_copy": "Αντιγραφή"
+    },
+    "content": {
+        "hero_title": "Γεννήτρια Tiger-192 Hash",
+        "hero_subtitle": "Το πλήρες Tiger hash — 192 bits ασφάλειας",
+        "p1": "Το Tiger-192 είναι η πλήρης έκδοση Tiger από Anderson και Biham. Παράγει hash 192-bit (48 hex χαρακτήρες). Σχεδιάστηκε για 64-bit πλατφόρμες, παρέχει 96-bit ανθεκτικότητα σε collisions και εξαιρετική απόδοση. Ένα από τα λίγα hash functions με native 192-bit έξοδο.",
+        "what_title": "Τι είναι το Tiger-192;",
+        "what_desc": "Επεξεργάζεται blocks 512-bit μέσω τριών περασμάτων 8 γύρων (24 γύροι). Χρησιμοποιεί πίνακες αναζήτησης με 1024 εγγραφές. Τρεις μεταβλητές κατάστασης 64-bit (a, b, c) συνδυάζονται για την 192-bit έξοδο.",
+        "features_title": "✅ Χαρακτηριστικά Tiger-192",
+        "features": {
+            "fast": "<strong>Απόλυτη Ταχύτητα:<\/strong> Μία από τις ταχύτερες hash functions σε 64-bit CPUs",
+            "fixed": "<strong>Έξοδος 192-bit:<\/strong> 48 δεκαεξαδικοί χαρακτήρες",
+            "deterministic": "<strong>Ασφάλεια 96-bit:<\/strong> Ισχυρή ανθεκτικότητα σε collisions",
+            "support": "<strong>Μοναδικό Μήκος:<\/strong> Ένας από τους λίγους αλγορίθμους με 192-bit hashes"
+        },
+        "uses_title": "📊 Περιπτώσεις Χρήσης",
+        "uses": {
+            "verify": "<strong>High-Speed Hashing:<\/strong> Όταν το SHA-256 είναι πολύ αργό",
+            "checksum": "<strong>File Systems:<\/strong> Γρήγορα checksums για μεγάλες συλλογές αρχείων",
+            "cache": "<strong>P2P Πρωτόκολλα:<\/strong> TTH (Tiger Tree Hash) στο Direct Connect",
+            "integrity": "<strong>Data Deduplication:<\/strong> Γρήγορη αναγνώριση διπλών blocks"
+        },
+        "warning_title": "💡 Φιλοσοφία Σχεδιασμού",
+        "warning_desc": "<strong>Το Tiger σχεδιάστηκε για ταχύτητα χωρίς υπερβολική θυσία ασφάλειας.<\/strong> Για μέγιστη ασφάλεια, SHA-256 ή SHA-512. Για μέγιστη μη-κρυπτογραφική ταχύτητα, xxHash ή BLAKE3.",
+        "compare_title": "🔄 Tiger-192 vs Άλλοι Αλγόριθμοι",
+        "compare": {
+            "md5": {
+                "title": "Tiger-192",
+                "desc1": "192-bit, λειτουργίες 64-bit",
+                "desc2": "Ταχύτερο σε 64-bit, 96-bit ασφάλεια"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "256-bit, λειτουργίες 32-bit",
+                "desc2": "Μεγαλύτερη ασφάλεια, πιο τυπικό"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "512-bit, λειτουργίες 64-bit",
+                "desc2": "Μέγιστη ασφάλεια, επίσης γρήγορο σε 64-bit"
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Είναι αρκετά ασφαλές για σύγχρονη χρήση;",
+            "a1": "96-bit ανθεκτικότητα σε collisions, κάτω από σύγχρονη σύσταση (128-bit). Χωρίς πρακτικές επιθέσεις. Για ασφάλεια, προτιμήστε SHA-256.",
+            "q2": "Τι είναι το Tiger Tree Hash (TTH);",
+            "a2": "Εφαρμόζει Tiger-192 σε δομή Merkle tree, hashing τμημάτων αρχείου ανεξάρτητα. Χρήση στο DC++ P2P.",
+            "q3": "Tiger vs BLAKE3 για ταχύτητα;",
+            "a3": "Το BLAKE3 είναι ταχύτερο χάρη σε SIMD παραλληλισμό. Για νέα projects, BLAKE3 είναι η σύγχρονη επιλογή."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε κείμενο",
+        "btn_copied": "Αντιγράφηκε!",
+        "btn_generating": "Δημιουργία...",
+        "error_failed": "Η δημιουργία hash απέτυχε. Δοκιμάστε ξανά."
+    }
+}

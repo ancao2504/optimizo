@@ -1,0 +1,57 @@
+{
+    "meta": {
+        "title": "Δωρεάν CURL Command Builder - Online Εργαλείο API Αιτημάτων",
+        "description": "Δημιουργήστε εντολές CURL εύκολα με τον οπτικό builder - HTTP αιτήματα χωρίς απομνημόνευση σύνταξης",
+        "h1": "CURL Command Builder",
+        "subtitle": "Δημιουργήστε εντολές CURL εύκολα με τον οπτικό builder"
+    },
+    "editor": {
+        "method_label": "Μέθοδος",
+        "url_label": "URL",
+        "headers_tab": "Headers",
+        "body_tab": "Σώμα Αιτήματος",
+        "key_ph": "Κλειδί (π.χ. Authorization)",
+        "value_ph": "Τιμή (π.χ. Bearer token)",
+        "add_header": "+ Προσθήκη Header",
+        "raw_data_label": "Raw Data (JSON\/Text)",
+        "generated_label": "Δημιουργημένη Εντολή",
+        "btn_copy": "Αντιγραφή Εντολής"
+    },
+    "content": {
+        "main_title": "Δημιουργήστε API Αιτήματα με το Online cURL Command Builder",
+        "main_subtitle": "Κατασκευάστε σύνθετες εντολές cURL οπτικά. Χωρίς σφάλματα σύνταξης ή απομνημόνευση flags. Δοκιμάστε APIs και δημιουργήστε code snippets αμέσως.",
+        "intro": "Το cURL (Client URL) είναι το ελβετικό σουγιά του προγραμματιστή για μεταφορά δεδομένων μέσω URLs. Το **Online cURL Command Builder** μας απλοποιεί τη διαδικασία παρέχοντας φιλική οπτική διεπαφή. Είτε χρειάζεστε δοκιμή REST API, debugging webhook ή δημιουργία αιτημάτων, δημιουργείτε έγκυρες εντολές cURL σε δευτερόλεπτα. Υποστήριξη GET, POST, PUT, DELETE, PATCH, custom headers και JSON bodies.",
+        "features_title": "Γιατί να Χρησιμοποιήσετε τον cURL Builder;",
+        "feature1_title": "Οπτική Κατασκευή",
+        "feature1_desc": "Ξεχάστε τα ελλείποντα quotes ή λάθος flags. Συμπληρώστε μια απλή φόρμα και εμείς δημιουργούμε τη σύνταξη.",
+        "feature2_title": "Υποστήριξη Όλων των Μεθόδων",
+        "feature2_desc": "Πλήρης υποστήριξη HTTP μεθόδων (GET, POST, PUT, DELETE, PATCH) για κάθε RESTful API.",
+        "feature3_title": "Αντιγραφή & Εκτέλεση",
+        "feature3_desc": "Δημιουργία καθαρών, bash-ready εντολών για απευθείας επικόλληση στο τερματικό.",
+        "how_title": "Πώς να Δημιουργήσετε μια Εντολή cURL",
+        "step1_title": "Επιλέξτε HTTP Μέθοδο",
+        "step1_desc": "Επιλέξτε την κατάλληλη ενέργεια (π.χ., GET για ανάκτηση, POST για αποστολή δεδομένων).",
+        "step2_title": "Εισάγετε URL Αιτήματος",
+        "step2_desc": "Επικολλήστε το πλήρες API endpoint URL, συμπεριλαμβανομένου https:// και query parameters.",
+        "step3_title": "Προσθέστε Headers & Body",
+        "step3_desc": "Συμπεριλάβετε headers όπως 'Authorization' ή 'Content-Type', και JSON δεδομένα για POST\/PUT.",
+        "step4_title": "Αντιγράψτε τη Δημιουργημένη Εντολή",
+        "step4_desc": "Η εντολή δημιουργείται αυτόματα καθώς πληκτρολογείτε. Κάντε κλικ αντιγραφή και εκτελέστε στο τερματικό.",
+        "faq_title": "Συχνές Ερωτήσεις",
+        "faq1_q": "Σε τι χρησιμοποιείται το cURL;",
+        "faq1_a": "Το cURL είναι εργαλείο γραμμής εντολών για μεταφορά δεδομένων προς\/από server. Χρησιμοποιείται για δοκιμή APIs, λήψη αρχείων και αυτοματοποίηση.",
+        "faq2_q": "Χρειάζομαι εγκατεστημένο cURL;",
+        "faq2_a": "Όχι, αυτό είναι web-based builder. Για *εκτέλεση* της εντολής χρειάζεστε cURL (προεγκατεστημένο σε macOS, Linux, Windows 10\/11).",
+        "faq3_q": "Πώς στέλνω JSON δεδομένα;",
+        "faq3_a": "Επιλέξτε POST ή PUT, πληκτρολογήστε JSON στην καρτέλα 'Σώμα Αιτήματος'. Μορφοποιείται αυτόματα για -d flag.",
+        "faq4_q": "Μπορώ να προσθέσω authentication headers;",
+        "faq4_a": "Ναι! Πηγαίνετε στην καρτέλα 'Headers' και προσθέστε κλειδί 'Authorization' με τιμή (π.χ., 'Bearer YOUR_TOKEN').",
+        "faq5_q": "Είναι ασφαλή τα δεδομένα μου;",
+        "faq5_a": "Απολύτως. Η δημιουργία εντολών γίνεται στον browser. Δεν αποθηκεύουμε ούτε μεταδίδουμε API keys ή δεδομένα αιτημάτων.",
+        "faq6_q": "Ποια σύνταξη shell χρησιμοποιείται;",
+        "faq6_a": "Η δημιουργημένη εντολή χρησιμοποιεί τυπική σύνταξη Bash, συμβατή με Linux, macOS και Git Bash σε Windows."
+    },
+    "js": {
+        "success_copy": "Η εντολή αντιγράφηκε!"
+    }
+}

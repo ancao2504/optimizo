@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Γεννήτρια Tiger-128 Hash - Δωρεάν Online Εργαλείο",
+        "description": "Δημιουργήστε Tiger-128 hashes. Γρήγορο 128-bit hash βελτιστοποιημένο για 64-bit πλατφόρμες.",
+        "h1": "Γεννήτρια Tiger-128 Hash",
+        "subtitle": "Δημιουργία Tiger-128 hashes — βελτιστοποιημένο για απόδοση 64-bit"
+    },
+    "editor": {
+        "label_input": "Εισαγωγή Κειμένου",
+        "ph_input": "Εισάγετε κείμενο για Tiger-128 hash...",
+        "btn_generate": "Δημιουργία Tiger-128 Hash",
+        "label_result": "Tiger-128 Hash",
+        "btn_copy": "Αντιγραφή"
+    },
+    "content": {
+        "hero_title": "Γεννήτρια Tiger-128 Hash",
+        "hero_subtitle": "Υψηλής ταχύτητας 128-bit hashing για 64-bit επεξεργαστές",
+        "p1": "Το Tiger-128 είναι truncated έκδοση Tiger, σχεδιασμένο από Anderson και Biham το 1995. Παράγει hash 128-bit (32 hex χαρακτήρες) παίρνοντας τα πρώτα 128 bits του Tiger-192. Σχεδιάστηκε για 64-bit πλατφόρμες. Χρήση σε file-sharing πρωτόκολλα.",
+        "what_title": "Τι είναι το Tiger-128;",
+        "what_desc": "Επεξεργάζεται δεδομένα σε blocks 512-bit μέσω 24 γύρων σε τρία περάσματα. Κάθε πέρασμα χρησιμοποιεί τέσσερα S-boxes με 256 εγγραφές 64 bits.",
+        "features_title": "✅ Χαρακτηριστικά Tiger-128",
+        "features": {
+            "fast": "<strong>Βελτιστοποιημένο 64-bit:<\/strong> Εξαιρετικά γρήγορο σε σύγχρονες 64-bit CPUs",
+            "fixed": "<strong>Έξοδος 128-bit:<\/strong> Συμπαγές 32-χαρακτήρων hex digest",
+            "deterministic": "<strong>Σχεδιασμός S-box:<\/strong> Τέσσερα μεγάλα S-boxes για ισχυρή διάχυση",
+            "support": "<strong>File Sharing:<\/strong> Χρήση σε ed2k και DC++ πρωτόκολλα"
+        },
+        "uses_title": "📊 Περιπτώσεις Χρήσης",
+        "uses": {
+            "verify": "<strong>P2P Δίκτυα:<\/strong> Αναγνώριση αρχείων σε πρωτόκολλα κοινής χρήσης",
+            "checksum": "<strong>Έλεγχοι Ακεραιότητας:<\/strong> Γρήγορη επαλήθευση αρχείων σε 64-bit",
+            "cache": "<strong>Fingerprinting:<\/strong> Content-addressable αναγνωριστικά αποθήκευσης",
+            "integrity": "<strong>Deduplication:<\/strong> Αποτελεσματική ανίχνευση διπλών αρχείων"
+        },
+        "warning_title": "⚠️ Σημείωση Ασφαλείας",
+        "warning_desc": "<strong>Η 128-bit έξοδος Tiger-128 παρέχει μόνο 64-bit ανθεκτικότητα σε collisions.<\/strong> Παρόμοιο με MD5. Για ασφάλεια χρησιμοποιήστε Tiger-192 ή SHA-256.",
+        "compare_title": "🔄 Σύγκριση Οικογένειας Tiger",
+        "compare": {
+            "md5": {
+                "title": "Tiger-128",
+                "desc1": "128-bit, γρήγορο σε 64-bit",
+                "desc2": "64-bit ανθεκτικότητα σε collisions"
+            },
+            "sha1": {
+                "title": "Tiger-160",
+                "desc1": "Έξοδος 160-bit",
+                "desc2": "80-bit ανθεκτικότητα σε collisions"
+            },
+            "sha256": {
+                "title": "Tiger-192",
+                "desc1": "192-bit (πλήρες)",
+                "desc2": "96-bit ανθεκτικότητα σε collisions"
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Γιατί σχεδιάστηκε για 64-bit;",
+            "a1": "Το 1995 οι 64-bit επεξεργαστές εμφανίζονταν και τα υπάρχοντα hash functions ήταν βελτιστοποιημένα για 32-bit.",
+            "q2": "Tiger-128 vs MD5 — ποιο είναι ταχύτερο;",
+            "a2": "Σε 64-bit, το Tiger-128 είναι σημαντικά ταχύτερο. Σε 32-bit, το MD5 μπορεί να είναι ταχύτερο.",
+            "q3": "Είναι ακόμα σχετικό;",
+            "a3": "Χρησιμοποιείται σε P2P file sharing. Για νέα projects εξετάστε BLAKE3 ή SHA-256."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε κείμενο",
+        "btn_copied": "Αντιγράφηκε!",
+        "btn_generating": "Δημιουργία...",
+        "error_failed": "Η δημιουργία hash απέτυχε. Δοκιμάστε ξανά."
+    }
+}

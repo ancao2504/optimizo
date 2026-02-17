@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "title": "Μετατροπέας SQL σε JSON - Δωρεάν Online Εργαλείο Βάσης Δεδομένων",
+        "description": "Μετατρέψτε SQL INSERT εντολές σε JSON πίνακες αμέσως. Γρήγορο, ακριβές και ασφαλές.",
+        "h1": "Μετατροπέας SQL σε JSON",
+        "subtitle": "Εύκολη μετατροπή μεταξύ SQL δεδομένων και JSON αντικειμένων"
+    },
+    "editor": {
+        "btn_encode": "Λειτουργία JSON σε SQL",
+        "btn_decode": "Λειτουργία SQL σε JSON",
+        "label_table": "Όνομα Πίνακα",
+        "ph_table": "Εισάγετε όνομα πίνακα (π.χ., users)",
+        "label_input_json": "Είσοδος JSON",
+        "ph_input_json": "Επικολλήστε τον JSON πίνακα εδώ...",
+        "label_output_sql": "Έξοδος SQL",
+        "ph_output_sql": "Το δημιουργημένο SQL θα εμφανιστεί εδώ...",
+        "label_input_sql": "Είσοδος SQL",
+        "label_output_json": "Έξοδος JSON",
+        "btn_convert_sql": "Δημιουργία SQL",
+        "btn_convert_json": "Δημιουργία JSON",
+        "btn_clear": "Εκκαθάριση",
+        "btn_copy": "Αντιγραφή Εξόδου"
+    },
+    "content": {
+        "hero_title": "Μετατροπέας SQL σε JSON",
+        "hero_subtitle": "Αμφίδρομη μετατροπή για σύγχρονους προγραμματιστές",
+        "p1": "Ο αμφίδρομος μετατροπέας γεφυρώνει JSON και SQL. Μετατρέψτε database exports σε JSON για API, ή JSON δεδομένα σε SQL seeding scripts. Γρήγορη, ασφαλής, ακριβής λύση.",
+        "integration_title": "Ομαλή Ολοκλήρωση",
+        "integration_desc": "Μεταφέρετε δεδομένα εύκολα μεταξύ σχεσιακής βάσης και web εφαρμογής. Ο parser χειρίζεται τυπικές SQL INSERT εντολές διατηρώντας τύπους δεδομένων.",
+        "features_title": "Βασικά Χαρακτηριστικά",
+        "features": {
+            "instant": {
+                "title": "Άμεσα Αποτελέσματα",
+                "desc": "Μετατροπές σε πραγματικό χρόνο."
+            },
+            "bidirectional": {
+                "title": "Διπλή Λειτουργία",
+                "desc": "Εναλλαγή μεταξύ SQL-to-JSON και JSON-to-SQL."
+            },
+            "security": {
+                "title": "Ασφαλής Μετατροπή",
+                "desc": "100% client-side για μέγιστη ιδιωτικότητα."
+            },
+            "custom": {
+                "title": "Καθαρή Μορφοποίηση",
+                "desc": "Η έξοδος είναι επαγγελματικά μορφοποιημένη."
+            },
+            "types": {
+                "title": "Αναγνώριση Τύπων",
+                "desc": "Σωστός χειρισμός nulls, αριθμών και strings."
+            },
+            "free": {
+                "title": "Εντελώς Δωρεάν",
+                "desc": "Χωρίς συνδρομή ή όρια χρήσης."
+            }
+        },
+        "uses_title": "Περιπτώσεις Χρήσης",
+        "uses": {
+            "seeding": {
+                "title": "Database Seeding",
+                "desc": "Γρήγορη δημιουργία SQL scripts για dev environment."
+            },
+            "export": {
+                "title": "Εξαγωγή Δεδομένων",
+                "desc": "Μετατροπή SQL αποτελεσμάτων σε JSON για ανάλυση."
+            },
+            "migration": {
+                "title": "API Migration",
+                "desc": "Προετοιμασία legacy δεδομένων για σύγχρονα REST APIs."
+            },
+            "testing": {
+                "title": "Mock Data",
+                "desc": "Δημιουργία JSON mock data από υπάρχοντες SQL πίνακες."
+            },
+            "docs": {
+                "title": "Τεκμηρίωση",
+                "desc": "JSON παραδείγματα δομής βάσης δεδομένων."
+            },
+            "prototype": {
+                "title": "Γρήγορο Prototyping",
+                "desc": "Μετακίνηση δεδομένων γρήγορα κατά development."
+            }
+        },
+        "how_title": "Πώς να Χρησιμοποιήσετε",
+        "how_steps": {
+            "1": {
+                "title": "Επιλογή Λειτουργίας",
+                "desc": "Επιλέξτε JSON σε SQL ή SQL σε JSON."
+            },
+            "2": {
+                "title": "Εισαγωγή Δεδομένων",
+                "desc": "Επικολλήστε τον κώδικα στον αριστερό editor."
+            },
+            "3": {
+                "title": "Ορισμός Πίνακα",
+                "desc": "Αν μετατρέπετε σε SQL, καθορίστε τον πίνακα."
+            },
+            "4": {
+                "title": "Δημιουργία",
+                "desc": "Κάντε κλικ 'Δημιουργία' για μετατροπή."
+            },
+            "5": {
+                "title": "Αντιγραφή Αποτελέσματος",
+                "desc": "Χρησιμοποιήστε 'Αντιγραφή' για την έξοδο."
+            }
+        },
+        "samples_title": "Δείγματα Μετατροπής",
+        "samples": [
+            {
+                "title": "SQL Insert σε JSON",
+                "desc": "INSERT INTO users (name, age) VALUES ('Alice', 25); → [{\"name\": \"Alice\", \"age\": 25}]"
+            },
+            {
+                "title": "JSON σε SQL Insert",
+                "desc": "[{\"id\": 1}] → INSERT INTO table (id) VALUES (1);"
+            }
+        ],
+        "faq_title": "Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Ποιες SQL εντολές υποστηρίζονται;",
+            "a1": "Τυπικές INSERT INTO εντολές με ορισμένα ονόματα στηλών.",
+            "q2": "Είναι ασφαλή τα δεδομένα;",
+            "a2": "Ναι, δεν στέλνονται σε server. Η λογική τρέχει στον browser.",
+            "q3": "Μπορώ να μετατρέψω πολλαπλές γραμμές;",
+            "a3": "Ναι, χειρίζεται multi-line SQL ή μεγάλους JSON πίνακες.",
+            "q4": "Χειρίζεται ειδικούς χαρακτήρες;",
+            "a4": "Ναι, σωστό escaping μονών εισαγωγικών και ειδικών χαρακτήρων."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε δεδομένα",
+        "placeholder_table_name": "users",
+        "error_general": "Σφάλμα μετατροπής: ",
+        "error_invalid_array": "Σφάλμα: Η είσοδος πρέπει να είναι JSON πίνακας αντικειμένων.",
+        "error_empty_array": "Σφάλμα: Ο JSON πίνακας είναι κενός.",
+        "success_sql": "✓ Το SQL δημιουργήθηκε επιτυχώς!",
+        "error_no_statements": "Δεν βρέθηκαν έγκυρες SQL INSERT εντολές.",
+        "success_json": "✓ Το JSON δημιουργήθηκε επιτυχώς!",
+        "error_no_copy": "Δεν υπάρχει περιεχόμενο για αντιγραφή.",
+        "success_copy": "✓ Η έξοδος αντιγράφηκε στο πρόχειρο!"
+    }
+}

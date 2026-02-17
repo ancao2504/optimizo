@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Γεννήτρια SHA-256 Hash - Δωρεάν Online Εργαλείο",
+        "description": "Δημιουργήστε SHA-256 hashes. Το χρυσό πρότυπο κρυπτογραφικών hash functions σε Bitcoin, TLS 1.3 και ψηφιακές υπογραφές.",
+        "h1": "Γεννήτρια SHA-256 Hash",
+        "subtitle": "Δημιουργία 256-bit SHA-256 κρυπτογραφικών hashes — το βιομηχανικό πρότυπο"
+    },
+    "editor": {
+        "label_input": "Εισαγωγή Κειμένου",
+        "ph_input": "Εισάγετε κείμενο για SHA-256 hash...",
+        "btn_generate": "Δημιουργία SHA-256 Hash",
+        "label_result": "SHA-256 Hash",
+        "btn_copy": "Αντιγραφή"
+    },
+    "content": {
+        "hero_title": "Γεννήτρια SHA-256 Hash",
+        "hero_subtitle": "Το χρυσό πρότυπο κρυπτογραφικής hash function για ασφάλεια",
+        "p1": "Το SHA-256 είναι η πιο διαδεδομένη κρυπτογραφική hash function. Μέρος της οικογένειας SHA-2, παράγει hash 256-bit (64 hex χαρακτήρες). Ραχοκοκαλιά του Bitcoin mining, TLS 1.3, code signing και blockchain. Παραμένει αδιάσπαστο.",
+        "what_title": "Τι είναι το SHA-256;",
+        "what_desc": "Το SHA-256 επεξεργάζεται δεδομένα σε blocks 512-bit μέσω 64 γύρων συμπίεσης. Το αποτέλεσμα 256-bit εμφανίζει εξαιρετικές ιδιότητες avalanche — αλλαγή ενός bit αλλάζει ~50% της εξόδου.",
+        "features_title": "✅ Πλεονεκτήματα SHA-256",
+        "features": {
+            "fast": "<strong>Κρυπτογραφικά Ασφαλές:<\/strong> Χωρίς γνωστές πρακτικές επιθέσεις μετά 20+ χρόνια",
+            "fixed": "<strong>Έξοδος 256-bit:<\/strong> 64 hex χαρακτήρες με 2^128 ανθεκτικότητα σε collisions",
+            "deterministic": "<strong>Παγκόσμιο Πρότυπο:<\/strong> Συνιστάται από NIST, ISO και IETF",
+            "support": "<strong>Υποστήριξη Hardware:<\/strong> Intel SHA extensions, ARM Crypto extensions"
+        },
+        "uses_title": "📊 Περιπτώσεις Χρήσης",
+        "uses": {
+            "verify": "<strong>Blockchain:<\/strong> Bitcoin proof-of-work και Merkle trees",
+            "checksum": "<strong>TLS 1.3:<\/strong> Επαλήθευση πιστοποιητικών και handshake",
+            "cache": "<strong>Code Signing:<\/strong> Επαλήθευση ακεραιότητας λογισμικού",
+            "integrity": "<strong>Ψηφιακές Υπογραφές:<\/strong> Υπογραφή εγγράφων και συναλλαγών"
+        },
+        "warning_title": "💡 Βέλτιστη Πρακτική",
+        "warning_desc": "<strong>Το SHA-256 είναι ασφαλές για hashing αλλά ΟΧΙ για αποθήκευση κωδικών.<\/strong> Για κωδικούς χρησιμοποιήστε bcrypt, Argon2 ή PBKDF2. Το SHA-256 είναι πολύ γρήγορο για password hashing.",
+        "compare_title": "🔄 SHA-256 vs Άλλες Hash Functions",
+        "compare": {
+            "md5": {
+                "title": "MD5",
+                "desc1": "Έξοδος 128-bit",
+                "desc2": "Σπασμένο — μη χρήση για ασφάλεια"
+            },
+            "sha1": {
+                "title": "SHA-256",
+                "desc1": "Έξοδος 256-bit",
+                "desc2": "Ασφαλές πρότυπο, συνιστάται"
+            },
+            "sha256": {
+                "title": "SHA-512",
+                "desc1": "Έξοδος 512-bit",
+                "desc2": "Ταχύτερο σε 64-bit, μεγαλύτερο περιθώριο"
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Είναι ασφαλές το SHA-256 το 2025;",
+            "a1": "Ναι. Χωρίς γνωστές πρακτικές επιθέσεις. 128 bits ανθεκτικότητα σε collisions, πέρα από τρέχουσες υπολογιστικές δυνατότητες.",
+            "q2": "SHA-256 vs SHA-512 — ποιο να χρησιμοποιήσω;",
+            "a2": "Το SHA-256 αρκεί για τις περισσότερες εφαρμογές. Το SHA-512 είναι ταχύτερο σε 64-bit επεξεργαστές.",
+            "q3": "Μπορούν οι κβαντικοί υπολογιστές να σπάσουν SHA-256;",
+            "a3": "Ο αλγόριθμος Grover μειώνει την ανθεκτικότητα σε 128 bits, που θεωρείται ακόμα ασφαλές."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε κείμενο",
+        "btn_copied": "Αντιγράφηκε!",
+        "btn_generating": "Δημιουργία...",
+        "error_failed": "Η δημιουργία hash απέτυχε. Δοκιμάστε ξανά."
+    }
+}

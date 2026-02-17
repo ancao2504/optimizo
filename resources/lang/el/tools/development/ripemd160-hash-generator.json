@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Γεννήτρια RIPEMD-160 Hash - Δωρεάν Online Εργαλείο",
+        "description": "Δημιουργήστε RIPEMD-160 hashes. Χρησιμοποιείται σε Bitcoin διευθύνσεις και PGP fingerprints.",
+        "h1": "Γεννήτρια RIPEMD-160 Hash",
+        "subtitle": "Δημιουργία 160-bit RIPEMD-160 hashes — το hash πίσω από Bitcoin διευθύνσεις"
+    },
+    "editor": {
+        "label_input": "Εισαγωγή Κειμένου",
+        "ph_input": "Εισάγετε κείμενο για RIPEMD-160 hash...",
+        "btn_generate": "Δημιουργία RIPEMD-160 Hash",
+        "label_result": "RIPEMD-160 Hash",
+        "btn_copy": "Αντιγραφή"
+    },
+    "content": {
+        "hero_title": "Γεννήτρια RIPEMD-160 Hash",
+        "hero_subtitle": "Η ευρωπαϊκή συνάρτηση hash πίσω από Bitcoin διευθύνσεις",
+        "p1": "Το RIPEMD-160 είναι το πιο γνωστό μέλος της οικογένειας RIPEMD, παράγει τιμή hash 160-bit (40 hex χαρακτήρες). Αναπτύχθηκε στο Βέλγιο. Χρησιμοποιείται στο Bitcoin — κάθε διεύθυνση Bitcoin παράγεται εφαρμόζοντας SHA-256 και μετά RIPEMD-160 (HASH160). Επίσης σε PGP\/GPG fingerprints.",
+        "what_title": "Τι είναι το RIPEMD-160;",
+        "what_desc": "Το RIPEMD-160 επεκτείνει τον σχεδιασμό RIPEMD-128 προσθέτοντας πέμπτο γύρο σε κάθε παράλληλη αλυσίδα, σύνολο 160 λειτουργίες ανά block. Σχεδιάστηκε να αντιστέκεται σε differential cryptanalysis που έσπασε MD4 και αποδυνάμωσε MD5.",
+        "features_title": "✅ Πλεονεκτήματα RIPEMD-160",
+        "features": {
+            "fast": "<strong>Πρότυπο Bitcoin:<\/strong> Χρησιμοποιείται στο HASH160 για δημιουργία διευθύνσεων",
+            "fixed": "<strong>Έξοδος 160-bit:<\/strong> 40 hex χαρακτήρες, 80-bit ανθεκτικότητα σε collisions",
+            "deterministic": "<strong>Ανεξάρτητος Σχεδιασμός:<\/strong> Δεν σχεδιάστηκε από κυβερνητική υπηρεσία",
+            "support": "<strong>Αποδεδειγμένη Ασφάλεια:<\/strong> Χωρίς πρακτικές επιθέσεις από το 1996"
+        },
+        "uses_title": "📊 Πού Χρησιμοποιείται",
+        "uses": {
+            "verify": "<strong>Bitcoin:<\/strong> SHA-256 + RIPEMD-160 = HASH160 για διευθύνσεις",
+            "checksum": "<strong>PGP\/GPG:<\/strong> Υπολογισμός key fingerprints",
+            "cache": "<strong>Smart Cards:<\/strong> Ευρωπαϊκό EMV payment card authentication",
+            "integrity": "<strong>Κρυπτογραφική Ποικιλομορφία:<\/strong> Εναλλακτικό NSA-designed SHA"
+        },
+        "warning_title": "💡 Πλαίσιο Χρήσης",
+        "warning_desc": "<strong>Το RIPEMD-160 παρέχει 80-bit ανθεκτικότητα σε collisions<\/strong>, συγκρίσιμη με SHA-1. Χωρίς πρακτικά collisions (σε αντίθεση με SHA-1). Νέες εφαρμογές πρέπει να εξετάσουν SHA-256.",
+        "compare_title": "🔄 RIPEMD-160 vs Άλλα 160-bit Hashes",
+        "compare": {
+            "md5": {
+                "title": "RIPEMD-160",
+                "desc1": "160-bit, διπλή αλυσίδα",
+                "desc2": "Χωρίς γνωστά collisions"
+            },
+            "sha1": {
+                "title": "SHA-1",
+                "desc1": "160-bit, μονή αλυσίδα",
+                "desc2": "Collisions αποδείχθηκαν (2017)"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "Έξοδος 256-bit",
+                "desc2": "Μεγαλύτερη ασφάλεια, συνιστάται"
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Γιατί το Bitcoin χρησιμοποιεί RIPEMD-160;",
+            "a1": "Χρησιμοποιεί HASH160 (SHA-256 και μετά RIPEMD-160) για μικρότερες διευθύνσεις με ποικιλομορφία ασφάλειας. Ο επιτιθέμενος πρέπει να σπάσει και τα δύο.",
+            "q2": "Είναι πιο ασφαλές από SHA-1;",
+            "a2": "Πρακτικά ναι. Χωρίς γνωστά πρακτικά collisions, ενώ το SHA-1 σπάστηκε από τη Google το 2017.",
+            "q3": "Να χρησιμοποιήσω RIPEMD-160 σε νέα projects;",
+            "a3": "Για νέα projects συνιστάται SHA-256. Χρησιμοποιήστε RIPEMD-160 για συμβατότητα Bitcoin."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε κείμενο",
+        "btn_copied": "Αντιγράφηκε!",
+        "btn_generating": "Δημιουργία...",
+        "error_failed": "Η δημιουργία hash απέτυχε. Δοκιμάστε ξανά."
+    }
+}

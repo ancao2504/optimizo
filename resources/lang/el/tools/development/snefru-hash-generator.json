@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "title": "Γεννήτρια Snefru Hash - Δωρεάν Online Εργαλείο",
+        "description": "Δημιουργήστε Snefru hashes. Hash function σχεδιασμένη στο Xerox PARC, 128 ή 256-bit digests.",
+        "h1": "Γεννήτρια Snefru Hash",
+        "subtitle": "Δημιουργία Snefru hashes — η ιστορική hash function του Xerox PARC"
+    },
+    "editor": {
+        "label_input": "Εισαγωγή Κειμένου",
+        "ph_input": "Εισάγετε κείμενο για Snefru hash...",
+        "btn_generate": "Δημιουργία Snefru Hash",
+        "label_result": "Snefru Hash",
+        "btn_copy": "Αντιγραφή"
+    },
+    "content": {
+        "hero_title": "Γεννήτρια Snefru Hash",
+        "hero_subtitle": "Δημιουργία Snefru hashes — ένα πρώιμο ορόσημο κρυπτογραφικού σχεδιασμού",
+        "p1": "Το Snefru σχεδιάστηκε από τον Ralph Merkle στο Xerox PARC το 1990, πήρε το όνομα από τον Φαραώ Σνεφρού. Παράγει hash 128-bit ή 256-bit. Ιστορικά σημαντικό ως μία από τις πρώτες hash functions με κατασκευή Merkle-Damgård. Σπασμένο αλλά σημαντικό για κατανόηση εξέλιξης.",
+        "what_title": "Τι είναι το Snefru;",
+        "what_desc": "Επεξεργάζεται είσοδο σε blocks 512-bit (128-bit) ή 384-bit (256-bit) με γύρους βασισμένους σε S-boxes. Η 2-γύρων έκδοση σπάστηκε γρήγορα. Η 8-γύρων είναι πιο ανθεκτική αλλά μη ασφαλής.",
+        "features_title": "✅ Χαρακτηριστικά Snefru",
+        "features": {
+            "fast": "<strong>Ιστορικός Πρωτοπόρος:<\/strong> Μία από τις πρώτες Merkle-Damgård hash functions",
+            "fixed": "<strong>Έξοδος 256-bit:<\/strong> 64 δεκαεξαδικοί χαρακτήρες hash",
+            "deterministic": "<strong>Xerox PARC:<\/strong> Σχεδιασμένο από τον Ralph Merkle, εφευρέτη Merkle trees",
+            "support": "<strong>Εκπαιδευτική Αξία:<\/strong> Κλειδί για κατανόηση εξέλιξης hash functions"
+        },
+        "uses_title": "📊 Περιπτώσεις Χρήσης",
+        "uses": {
+            "verify": "<strong>Legacy Συστήματα:<\/strong> Συμβατότητα με παλαιότερα Xerox συστήματα",
+            "checksum": "<strong>Εκπαίδευση:<\/strong> Διδασκαλία σχεδιασμού hash functions",
+            "cache": "<strong>Έρευνα:<\/strong> Μελέτη ανθεκτικότητας σε differential cryptanalysis",
+            "integrity": "<strong>Ιστορική Ανάλυση:<\/strong> Κατανόηση εξέλιξης από Snefru σε SHA-2"
+        },
+        "warning_title": "⚠️ Προειδοποίηση Ασφαλείας",
+        "warning_desc": "<strong>Το Snefru είναι ΣΠΑΣΜΕΝΟ για κρυπτογραφικούς σκοπούς.<\/strong> Η differential cryptanalysis βρήκε collisions. ΜΗΝ το χρησιμοποιείτε για ασφάλεια. Χρησιμοποιήστε SHA-256 ή SHA-512.",
+        "compare_title": "🔄 Snefru vs Σύγχρονοι Αλγόριθμοι",
+        "compare": {
+            "md5": {
+                "title": "Snefru",
+                "desc1": "128\/256-bit, βασισμένο σε S-box",
+                "desc2": "Σπασμένο — μόνο ιστορικό ενδιαφέρον"
+            },
+            "sha1": {
+                "title": "MD5",
+                "desc1": "Έξοδος 128-bit",
+                "desc2": "Επίσης σπασμένο, πιο διαδεδομένο"
+            },
+            "sha256": {
+                "title": "SHA-256",
+                "desc1": "Έξοδος 256-bit",
+                "desc2": "Ασφαλές σύγχρονο πρότυπο"
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Γιατί ονομάστηκε από Φαραώ;",
+            "a1": "Ο Ralph Merkle ακολούθησε παράδοση ονοματοδοσίας κρυπτογραφικών αλγορίθμων από αιγυπτιακά στοιχεία (Khufu, Khafre).",
+            "q2": "Πώς σπάστηκε;",
+            "a2": "Οι Biham και Shamir εφάρμοσαν differential cryptanalysis στη 2-γύρων έκδοση. Η επίθεση επεκτάθηκε σε περισσότερους γύρους.",
+            "q3": "Ποια η κληρονομιά του;",
+            "a3": "Βοήθησε να καθιερωθεί η κατασκευή Merkle-Damgård. Οι αδυναμίες του ώθησαν έρευνα σε ανθεκτικότητα."
+        }
+    },
+    "js": {
+        "error_empty": "Παρακαλώ εισάγετε κείμενο",
+        "btn_copied": "Αντιγράφηκε!",
+        "btn_generating": "Δημιουργία...",
+        "error_failed": "Η δημιουργία hash απέτυχε. Δοκιμάστε ξανά."
+    }
+}
