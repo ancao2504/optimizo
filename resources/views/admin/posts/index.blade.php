@@ -13,14 +13,56 @@
             </div>
         </div>
 
+        <!-- WordPress-style Status Tabs -->
+        <div class="card-body py-2 border-bottom">
+            @php
+                $currentStatus = request('status', '');
+                $otherParams = request()->except(['status', 'page']);
+            @endphp
+            <ul class="subsubsub"
+                style="list-style:none; padding:0; margin:0; display:flex; gap:5px; flex-wrap:wrap; font-size:13px;">
+                <li>
+                    <a href="{{ route('admin.posts.index', $otherParams) }}"
+                        class="{{ $currentStatus == '' ? 'font-weight-bold text-dark' : 'text-muted' }}"
+                        style="text-decoration:none;">
+                        All <span class="text-muted">({{ $statusCounts['all'] }})</span>
+                    </a> |
+                </li>
+                <li>
+                    <a href="{{ route('admin.posts.index', array_merge($otherParams, ['status' => 'published'])) }}"
+                        class="{{ $currentStatus == 'published' ? 'font-weight-bold text-dark' : 'text-muted' }}"
+                        style="text-decoration:none;">
+                        Published <span class="text-muted">({{ $statusCounts['published'] }})</span>
+                    </a> |
+                </li>
+                <li>
+                    <a href="{{ route('admin.posts.index', array_merge($otherParams, ['status' => 'draft'])) }}"
+                        class="{{ $currentStatus == 'draft' ? 'font-weight-bold text-dark' : 'text-muted' }}"
+                        style="text-decoration:none;">
+                        Draft <span class="text-muted">({{ $statusCounts['draft'] }})</span>
+                    </a> |
+                </li>
+                <li>
+                    <a href="{{ route('admin.posts.index', array_merge($otherParams, ['status' => 'scheduled'])) }}"
+                        class="{{ $currentStatus == 'scheduled' ? 'font-weight-bold text-dark' : 'text-muted' }}"
+                        style="text-decoration:none;">
+                        Scheduled <span class="text-muted">({{ $statusCounts['scheduled'] }})</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
         <!-- Filter Bar -->
         <div class="card-body border-bottom">
             <form action="{{ route('admin.posts.index') }}" method="GET" class="row">
-                <div class="col-md-3">
+                @if(request('status'))
+                    <input type="hidden" name="status" value="{{ request('status') }}">
+                @endif
+                <div class="col-md-4">
                     <input type="text" name="search" class="form-control" placeholder="Search..."
                         value="{{ request('search') }}">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <select name="language" class="form-control">
                         <option value="">All Languages</option>
                         @foreach($languages as $lang)
@@ -38,14 +80,6 @@
                                 {{ $category->name }} ({{ $category->language_code }})
                             </option>
                         @endforeach
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <select name="status" class="form-control">
-                        <option value="">All Statuses</option>
-                        <option value="published" {{ request('status') == 'published' ? 'selected' : '' }}>Published</option>
-                        <option value="draft" {{ request('status') == 'draft' ? 'selected' : '' }}>Draft</option>
-                        <option value="scheduled" {{ request('status') == 'scheduled' ? 'selected' : '' }}>Scheduled</option>
                     </select>
                 </div>
                 <div class="col-md-2">

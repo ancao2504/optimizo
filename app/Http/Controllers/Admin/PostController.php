@@ -15,6 +15,14 @@ class PostController extends Controller
     {
         $query = Post::with(['author', 'categories'])->latest();
 
+        // Status counts for WordPress-style tabs
+        $statusCounts = [
+            'all' => Post::count(),
+            'published' => Post::where('status', 'published')->count(),
+            'draft' => Post::where('status', 'draft')->count(),
+            'scheduled' => Post::where('status', 'scheduled')->count(),
+        ];
+
         // Apply Search Filter
         if ($request->filled('search')) {
             $search = $request->search;
@@ -45,7 +53,7 @@ class PostController extends Controller
         $categories = BlogCategory::all();
         $languages = Language::active()->get();
 
-        return view('admin.posts.index', compact('posts', 'categories', 'languages'));
+        return view('admin.posts.index', compact('posts', 'categories', 'languages', 'statusCounts'));
     }
 
     public function create()
