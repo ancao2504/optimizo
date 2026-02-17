@@ -13,17 +13,52 @@
             </div>
         </div>
 
+        <!-- Filter Bar -->
+        <div class="card-body py-2 border-bottom">
+            <form action="{{ route('admin.posts.index') }}" method="GET" class="d-flex align-items-center"
+                style="gap:10px;">
+                @if(request('status'))
+                    <input type="hidden" name="status" value="{{ request('status') }}">
+                @endif
+                <input type="text" name="search" class="form-control form-control-sm" placeholder="Search..."
+                    value="{{ request('search') }}" style="flex:1; min-width:200px;">
+                <select name="language" class="form-control form-control-sm" style="max-width:150px;">
+                    <option value="">All Languages</option>
+                    @foreach($languages as $lang)
+                        <option value="{{ $lang->code }}" {{ request('language') == $lang->code ? 'selected' : '' }}>
+                            {{ $lang->name }}
+                        </option>
+                    @endforeach
+                </select>
+                <select name="category_id" class="form-control form-control-sm" style="max-width:180px;">
+                    <option value="">All Categories</option>
+                    @foreach($categories as $category)
+                        <option value="{{ $category->id }}" {{ request('category_id') == $category->id ? 'selected' : '' }}>
+                            {{ $category->name }} ({{ $category->language_code }})
+                        </option>
+                    @endforeach
+                </select>
+                <button type="submit" class="btn btn-default btn-sm">
+                    <i class="fas fa-filter"></i> Filter
+                </button>
+                @if(request()->anyFilled(['search', 'category_id', 'status', 'language']))
+                    <a href="{{ route('admin.posts.index') }}" class="btn btn-link btn-sm text-muted"
+                        style="white-space:nowrap;">Clear All</a>
+                @endif
+            </form>
+        </div>
+
         <!-- WordPress-style Status Tabs -->
         <div class="card-body py-2 border-bottom">
             @php
-                $currentStatus = request('status', '');
+                $currentStatus = request('status', 'published');
                 $otherParams = request()->except(['status', 'page']);
             @endphp
             <ul class="subsubsub"
                 style="list-style:none; padding:0; margin:0; display:flex; gap:5px; flex-wrap:wrap; font-size:13px;">
                 <li>
-                    <a href="{{ route('admin.posts.index', $otherParams) }}"
-                        class="{{ $currentStatus == '' ? 'font-weight-bold text-dark' : 'text-muted' }}"
+                    <a href="{{ route('admin.posts.index', array_merge($otherParams, ['status' => 'all'])) }}"
+                        class="{{ $currentStatus == 'all' ? 'font-weight-bold text-dark' : 'text-muted' }}"
                         style="text-decoration:none;">
                         All <span class="text-muted">({{ $statusCounts['all'] }})</span>
                     </a> |
@@ -50,48 +85,6 @@
                     </a>
                 </li>
             </ul>
-        </div>
-
-        <!-- Filter Bar -->
-        <div class="card-body border-bottom">
-            <form action="{{ route('admin.posts.index') }}" method="GET" class="row">
-                @if(request('status'))
-                    <input type="hidden" name="status" value="{{ request('status') }}">
-                @endif
-                <div class="col-md-4">
-                    <input type="text" name="search" class="form-control" placeholder="Search..."
-                        value="{{ request('search') }}">
-                </div>
-                <div class="col-md-3">
-                    <select name="language" class="form-control">
-                        <option value="">All Languages</option>
-                        @foreach($languages as $lang)
-                            <option value="{{ $lang->code }}" {{ request('language') == $lang->code ? 'selected' : '' }}>
-                                {{ $lang->name }}
-                            </option>
-                        @endforeach
-                    </select>
-                </div>
-                <div class="col-md-3">
-                    <select name="category_id" class="form-control">
-                        <option value="">All Categories</option>
-                        @foreach($categories as $category)
-                            <option value="{{ $category->id }}" {{ request('category_id') == $category->id ? 'selected' : '' }}>
-                                {{ $category->name }} ({{ $category->language_code }})
-                            </option>
-                        @endforeach
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <button type="submit" class="btn btn-default btn-block">
-                        <i class="fas fa-filter"></i> Filter
-                    </button>
-                    @if(request()->anyFilled(['search', 'category_id', 'status', 'language']))
-                        <a href="{{ route('admin.posts.index') }}" class="btn btn-link btn-sm btn-block text-muted">Clear
-                            All</a>
-                    @endif
-                </div>
-            </form>
         </div>
 
         <div class="card-body p-0">

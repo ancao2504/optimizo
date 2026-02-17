@@ -32,9 +32,10 @@ class PostController extends Controller
             });
         }
 
-        // Apply Status Filter
-        if ($request->filled('status')) {
-            $query->where('status', $request->status);
+        // Apply Status Filter (default to published)
+        $status = $request->input('status', 'published');
+        if ($status !== 'all') {
+            $query->where('status', $status);
         }
 
         // Apply Category Filter

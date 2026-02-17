@@ -194,19 +194,8 @@
                                 </select>
                             </div>
 
-                            <div class="form-group">
-                                <label for="subcategory_id">Subcategory (Optional)</label>
-                                <select name="subcategory_id" id="subcategory_id" class="form-control select2" style="width: 100%;">
-                                    <option value="">Select Subcategory...</option>
-                                    @foreach($subcategories as $sub)
-                                        <option value="{{ $sub->id }}" data-parent="{{ $sub->parent_id }}"
-                                                {{ old('subcategory_id', $tool->subcategory_id) == $sub->id ? 'selected' : '' }}>
-                                            {{ $sub->name }} (Parent: {{ $sub->parent->name ?? 'Unknown' }})
-                                        </option>
-                                    @endforeach
-                                </select>
-                                <small class="text-muted">Filtered by selected category via JS (optional enhancement)</small>
-                            </div>
+
+
 
                             <div class="form-group">
                                 <label for="priority">Priority (Sitemap)</label>
