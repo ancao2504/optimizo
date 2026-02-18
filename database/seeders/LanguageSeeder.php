@@ -299,6 +299,19 @@ class LanguageSeeder extends Seeder
                     'direction' => 'ltr'
                 ]
             );
+
+            // Greek
+            DB::table('languages')->updateOrInsert(
+                ['code' => 'el'],
+                [
+                    'name' => 'Greek',
+                    'native_name' => 'Ελληνικά',
+                    'flag_icon' => '🇬🇷',
+                    'is_default' => false,
+                    'is_active' => true,
+                    'direction' => 'ltr'
+                ]
+            );
         }
     }
 }

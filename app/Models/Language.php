@@ -12,6 +12,7 @@ class Language extends Model
         'name',
         'native_name',
         'flag_icon',
+        'flag_code',
         'is_active',
         'is_default',
         'direction',
