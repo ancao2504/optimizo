@@ -148,7 +148,14 @@ use App\Http\Controllers\Tools\Youtube\YoutubeVideoDataExtractorController;
 use App\Http\Controllers\Tools\Youtube\YoutubeVideoTagsExtractorController;
 
 
-$locales = ['', 'ru', 'es', 'fr', 'de', 'it', 'pt', 'tr', 'ar', 'zh', 'ja', 'id', 'ko', 'fi', 'vi', 'nl', 'pl', 'no', 'cs', 'sv', 'ro', 'da', 'hi'];
+// Dynamic: pull active locale codes from DB (cached), exclude 'en' since it uses empty prefix
+$locales = \Illuminate\Support\Facades\Cache::remember('route_locales', 3600, function () {
+    return \App\Models\Language::active()
+        ->where('code', '!=', 'en')
+        ->pluck('code')
+        ->toArray();
+});
+$locales = array_merge([''], $locales); // '' = English (no prefix)
 
 foreach ($locales as $prefix) {
     Route::prefix($prefix)->group(function () use ($prefix) {
