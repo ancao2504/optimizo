@@ -1,0 +1,134 @@
+{
+    "meta": {
+        "title": "Calculadora de GPA - Média de Notas Grátis | Optimizo",
+        "description": "Calcule seu GPA com precisão. Suporte para múltiplas disciplinas, créditos e valores de notas. Para estudantes e acadêmicos.",
+        "h1": "Calculadora de GPA",
+        "subtitle": "Calcule sua média de notas a partir de disciplinas e créditos"
+    },
+    "editor": {
+        "label_course": "Nome da disciplina",
+        "placeholder_course": "Ex. Matemática 101",
+        "label_grade": "Nota",
+        "label_credits": "Créditos",
+        "btn_add_course": "Adicionar disciplina",
+        "btn_calculate": "Calcular GPA",
+        "btn_reset": "Resetar",
+        "btn_remove": "Remover",
+        "label_result": "Seu GPA",
+        "label_total_credits": "Créditos totais",
+        "label_total_points": "Pontos totais"
+    },
+    "content": {
+        "what_title": "O que é GPA e por que é importante?",
+        "what_text": "GPA (Grade Point Average) é um método padronizado de medição de desempenho acadêmico. Calculado em escala de 0,0 a 4,0, onde 4,0 representa o desempenho máximo. O GPA é crucial para admissão universitária, bolsas de estudo e oportunidades de carreira.",
+        "scale_title": "Escala de notas GPA",
+        "scale": [
+            {
+                "grade": "A / A+",
+                "points": "4.0",
+                "percent": "90-100%"
+            },
+            {
+                "grade": "A-",
+                "points": "3.7",
+                "percent": "87-89%"
+            },
+            {
+                "grade": "B+",
+                "points": "3.3",
+                "percent": "83-86%"
+            },
+            {
+                "grade": "B",
+                "points": "3.0",
+                "percent": "80-82%"
+            },
+            {
+                "grade": "B-",
+                "points": "2.7",
+                "percent": "77-79%"
+            },
+            {
+                "grade": "C+",
+                "points": "2.3",
+                "percent": "73-76%"
+            },
+            {
+                "grade": "C",
+                "points": "2.0",
+                "percent": "70-72%"
+            },
+            {
+                "grade": "D",
+                "points": "1.0",
+                "percent": "60-69%"
+            },
+            {
+                "grade": "F",
+                "points": "0.0",
+                "percent": "0-59%"
+            }
+        ],
+        "section1_title": "Como calcular o GPA",
+        "section1_text": "GPA é uma média ponderada dos pontos de nota por crédito. Exemplo: Matemática (4 créditos, B=3,0) e Física (3 créditos, A=4,0), GPA = (12+12)/7 = 3,43.",
+        "section2_title": "Por que o GPA é importante",
+        "section2_items": [
+            {
+                "title": "Admissão universitária",
+                "text": "A maioria das universidades considera o GPA como fator-chave."
+            },
+            {
+                "title": "Bolsas de estudo",
+                "text": "Muitas bolsas exigem GPA mínimo. Bolsas por mérito: 3,0-3,5+."
+            },
+            {
+                "title": "Pós-graduação",
+                "text": "MBA, direito, medicina exigem GPA competitivo (geralmente 3,0+)."
+            },
+            {
+                "title": "Oportunidades de carreira",
+                "text": "Muitos empregadores usam GPA como critério de seleção."
+            },
+            {
+                "title": "Honras acadêmicas",
+                "text": "Cum laude (3,5+), magna cum laude e summa cum laude."
+            }
+        ],
+        "section3_title": "Dicas para melhorar o GPA",
+        "section3_items": [
+            "Defina metas realistas de GPA por semestre",
+            "Forme grupos de estudo para disciplinas difíceis",
+            "Aproveite o horário de atendimento dos professores",
+            "Melhore o gerenciamento de tempo com um planner",
+            "Utilize serviços de monitoria gratuitos",
+            "Cuide da saúde: sono, exercício e nutrição melhoram a concentração",
+            "Aproveite oportunidades de crédito extra",
+            "Comece cedo — esforço constante traz melhores resultados"
+        ],
+        "section4_title": "Sistema de avaliação brasileiro",
+        "section4_text": "O Brasil usa escala de 0-10, onde 7+ é aprovado na maioria das instituições. Conversão aproximada: 9-10 ≈ 4,0 GPA, 8 ≈ 3,5, 7 ≈ 3,0, 6 ≈ 2,0. Algumas universidades usam conceitos: A, B, C, D (reprovado).",
+        "faq_title": "Perguntas frequentes",
+        "faqs": [
+            {
+                "q": "GPA vs CR (Coeficiente de Rendimento)?",
+                "a": "Ambos medem desempenho acadêmico. CR é a versão brasileira do GPA."
+            },
+            {
+                "q": "Qual é um bom GPA?",
+                "a": "3,0 (B) é bom, 3,5 é excelente, 3,7+ é excepcional."
+            },
+            {
+                "q": "Posso refazer uma disciplina?",
+                "a": "A maioria das universidades permite. A melhor nota é considerada no cálculo."
+            },
+            {
+                "q": "Como os créditos afetam o GPA?",
+                "a": "É uma média ponderada, então disciplinas com mais créditos têm maior impacto."
+            }
+        ]
+    },
+    "js": {
+        "error_no_courses": "Adicione pelo menos uma disciplina",
+        "error_invalid_credits": "Insira créditos válidos"
+    }
+}

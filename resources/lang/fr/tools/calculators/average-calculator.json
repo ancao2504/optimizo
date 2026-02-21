@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Calculatrice de Moyenne - Moyenne, Médiane et Mode Gratuit | Optimizo",
+        "description": "Calculez la moyenne arithmétique, la médiane, le mode, l'étendue et la somme de toute série de nombres. Pour étudiants et chercheurs.",
+        "h1": "Calculatrice de Moyenne",
+        "subtitle": "Moyenne, médiane, mode, étendue et analyse statistique complète"
+    },
+    "editor": {
+        "label_numbers": "Saisissez vos nombres",
+        "placeholder_numbers": "Nombres séparés par des virgules, espaces ou nouvelles lignes",
+        "btn_calculate": "Calculer la moyenne",
+        "btn_clear": "Effacer",
+        "label_mean": "Moyenne arithmétique (Mean)",
+        "label_median": "Médiane (Median)",
+        "label_mode": "Mode (Mode)",
+        "label_range": "Étendue",
+        "label_count": "Nombre de valeurs",
+        "label_sum": "Somme",
+        "label_min": "Minimum",
+        "label_max": "Maximum",
+        "label_sorted": "Liste triée"
+    },
+    "content": {
+        "what_title": "Qu'est-ce que la moyenne et quels types existent ?",
+        "what_text": "La moyenne est une mesure de tendance centrale qui représente la valeur typique d'un ensemble de données. En statistiques, il existe trois mesures principales : la moyenne arithmétique, la médiane et le mode. Chacune a ses forces. Comprendre ces concepts est essentiel en éducation, recherche, affaires et prise de décisions quotidiennes.",
+        "types_title": "Types de moyennes",
+        "types": [
+            {
+                "name": "Moyenne arithmétique",
+                "desc": "Le type le plus courant. Somme des valeurs divisée par le nombre. Formule : (x₁+x₂+...+xₙ)/n. Sensible aux valeurs extrêmes."
+            },
+            {
+                "name": "Médiane",
+                "desc": "La valeur centrale des données ordonnées. Avec un nombre pair : moyenne des deux centrales. Résistante aux valeurs extrêmes."
+            },
+            {
+                "name": "Mode",
+                "desc": "La valeur la plus fréquente. Il peut y en avoir plusieurs ou aucun."
+            },
+            {
+                "name": "Moyenne pondérée",
+                "desc": "Quand les valeurs ont des poids différents. Formule : Σ(wᵢ×xᵢ)/Σwᵢ. Exemple classique : le GPA."
+            }
+        ],
+        "section1_title": "Les moyennes en pratique",
+        "section1_items": [
+            {
+                "title": "Éducation",
+                "text": "Les enseignants utilisent la moyenne et la médiane des notes pour évaluer la performance globale."
+            },
+            {
+                "title": "Affaires",
+                "text": "Les entreprises suivent les ventes moyennes, la valeur client et le revenu par utilisateur."
+            },
+            {
+                "title": "Science et recherche",
+                "text": "L'analyse de données expérimentales, l'écart-type et les tests d'hypothèses nécessitent des moyennes."
+            },
+            {
+                "title": "Santé",
+                "text": "Température moyenne, tension artérielle, fréquence cardiaque — les professionnels de santé s'appuient fortement sur les moyennes."
+            },
+            {
+                "title": "Sport",
+                "text": "Moyenne au bâton, vitesse, score — les statistiques sportives utilisent largement les moyennes."
+            },
+            {
+                "title": "Immobilier",
+                "text": "La médiane est meilleure pour les prix immobiliers car les propriétés chères faussent la moyenne."
+            }
+        ],
+        "section2_title": "Moyenne vs médiane — quand utiliser laquelle",
+        "section2_items": [
+            {
+                "title": "Utilisez la moyenne quand",
+                "text": "Les données sont normalement distribuées, sans valeurs extrêmes significatives."
+            },
+            {
+                "title": "Utilisez la médiane quand",
+                "text": "Il y a des valeurs extrêmes (comme les revenus), distribution asymétrique."
+            },
+            {
+                "title": "Utilisez le mode quand",
+                "text": "Vous voulez la valeur la plus fréquente. Idéal pour les données catégorielles."
+            }
+        ],
+        "section3_title": "Erreurs courantes à éviter",
+        "section3_items": [
+            "Ne vous fiez pas uniquement à la moyenne — les valeurs extrêmes peuvent la fausser",
+            "Ne négligez pas la taille de l'échantillon",
+            "Considérez toujours le contexte des données",
+            "Ne confondez pas moyenne pondérée et non pondérée",
+            "Ne moyennez pas des pourcentages avec des bases différentes",
+            "Visualisez toujours vos données avec des graphiques"
+        ],
+        "faq_title": "Questions fréquemment posées",
+        "faqs": [
+            {
+                "q": "Quelle est la différence entre moyenne et mean ?",
+                "a": "Dans le langage courant, ce sont des synonymes. Techniquement, 'moyenne' est un terme plus large incluant mean, médiane et mode."
+            },
+            {
+                "q": "Le mode peut-il ne pas exister ?",
+                "a": "Oui. Si toutes les valeurs sont uniques, il n'y a pas de mode."
+            },
+            {
+                "q": "Comment trouver la médiane ?",
+                "a": "Triez les valeurs. Nombre impair : valeur centrale. Nombre pair : moyenne des deux centrales."
+            },
+            {
+                "q": "Quand utiliser la moyenne pondérée ?",
+                "a": "Quand les données ont des importances différentes. Exemples : GPA, rendement de portefeuille, satisfaction client."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Saisissez des nombres valides",
+        "no_mode": "Pas de mode"
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "BMI计算器 - 免费体质指数 | Optimizo",
+        "description": "使用公制和英制系统即时计算BMI。了解您的体重分类和健康影响。",
+        "h1": "BMI计算器",
+        "subtitle": "计算体质指数并了解您的健康分类"
+    },
+    "editor": {
+        "label_height": "身高",
+        "label_weight": "体重",
+        "label_unit": "单位系统",
+        "unit_metric": "公制 (厘米 / 公斤)",
+        "unit_imperial": "英制 (英尺-英寸 / 磅)",
+        "label_height_cm": "身高 (厘米)",
+        "label_height_ft": "身高 (英尺)",
+        "label_height_in": "身高 (英寸)",
+        "label_weight_kg": "体重 (公斤)",
+        "label_weight_lbs": "体重 (磅)",
+        "btn_calculate": "计算BMI",
+        "label_result": "您的BMI",
+        "label_category": "分类"
+    },
+    "content": {
+        "what_title": "什么是BMI？",
+        "what_text": "体质指数(BMI)是一种广泛使用的筛查工具，根据身高和体重估算体脂。由比利时数学家阿道夫·凯特勒于19世纪开发。",
+        "categories_title": "BMI分类与健康影响",
+        "categories": [
+            {
+                "range": "低于18.5",
+                "label": "体重过轻",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18.5 – 24.9",
+                "label": "正常体重",
+                "color": "#10B981"
+            },
+            {
+                "range": "25.0 – 29.9",
+                "label": "超重",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30.0及以上",
+                "label": "肥胖",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "BMI公式",
+        "formula_metric": "公制：BMI = 体重(kg) ÷ 身高(m)²",
+        "formula_imperial": "英制：BMI = (体重(磅) × 703) ÷ 身高(英寸)²",
+        "section1_title": "BMI分类详解",
+        "section1_items": [
+            {
+                "title": "体重过轻 (BMI < 18.5)",
+                "text": "可能表明营养不良。风险：免疫力下降、骨质疏松和贫血。"
+            },
+            {
+                "title": "正常体重 (BMI 18.5 – 24.9)",
+                "text": "体重与身高成比例。健康风险最低。"
+            },
+            {
+                "title": "超重 (BMI 25.0 – 29.9)",
+                "text": "心脏病、2型糖尿病和高血压风险增加。"
+            },
+            {
+                "title": "肥胖 (BMI ≥ 30.0)",
+                "text": "心脏病、中风、糖尿病和某些癌症风险显著增加。"
+            }
+        ],
+        "section2_title": "BMI的局限性",
+        "section2_text": "BMI无法区分肌肉量、骨密度和脂肪组织。肌肉发达的运动员可能被归类为超重，尽管体脂率很低。",
+        "section3_title": "影响BMI的因素",
+        "section3_items": [
+            "年龄：儿童、青少年和老年人的解读不同",
+            "性别：女性天然体脂百分比更高",
+            "肌肉量：运动员因肌肉通常BMI更高",
+            "种族：不同BMI水平的健康风险可能不同",
+            "体型：体格较大的人BMI自然偏高",
+            "脂肪分布：脂肪堆积的位置与数量同样重要"
+        ],
+        "section4_title": "健康体重小贴士",
+        "section4_items": [
+            "每周至少进行150分钟中等强度有氧运动",
+            "均衡饮食：水果、蔬菜、全谷物和蛋白质",
+            "控制食物份量",
+            "全天保持充足水分摄入",
+            "保证7-9小时优质睡眠",
+            "通过冥想或放松技巧管理压力"
+        ],
+        "faq_title": "常见问题",
+        "faqs": [
+            {
+                "q": "BMI对运动员准确吗？",
+                "a": "BMI可能高估体脂。可考虑腰围测量或DEXA扫描。"
+            },
+            {
+                "q": "儿童的健康BMI是多少？",
+                "a": "按年龄和性别的百分位曲线解读。第5-85百分位被视为健康。"
+            },
+            {
+                "q": "多久检查一次BMI？",
+                "a": "几个月一次即可。重点关注可持续的健康习惯。"
+            },
+            {
+                "q": "BMI能预测心脏病吗？",
+                "a": "它只是众多风险因素之一。血压、胆固醇和家族史同样重要。"
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "请输入有效的身高和体重值",
+        "error_range": "数值超出实际范围",
+        "cat_underweight": "体重过轻",
+        "cat_normal": "正常体重",
+        "cat_overweight": "超重",
+        "cat_obese": "肥胖"
+    }
+}

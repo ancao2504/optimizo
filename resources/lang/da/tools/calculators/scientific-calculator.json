@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Videnskabelig lommeregner - Gratis online matematikværktøj | Optimizo",
+        "description": "Gratis online videnskabelig lommeregner med trigonometriske, logaritmiske og eksponentielle funktioner. Ideel for studerende og ingeniører.",
+        "h1": "Videnskabelig lommeregner",
+        "subtitle": "Avanceret lommeregner med trigonometriske, logaritmiske og eksponentielle funktioner"
+    },
+    "editor": {
+        "label_expression": "Matematisk udtryk",
+        "placeholder": "Indtast et matematisk udtryk (f.eks. sin(45), log(100), 2^8)",
+        "btn_calculate": "Beregn",
+        "label_result": "Resultat",
+        "btn_deg": "Grader",
+        "btn_rad": "Radianer",
+        "btn_clear": "Ryd",
+        "btn_backspace": "Slet",
+        "btn_history": "Historik"
+    },
+    "content": {
+        "what_title": "Hvad er en videnskabelig lommeregner?",
+        "what_text": "En videnskabelig lommeregner er et avanceret matematisk værktøj designet til komplekse beregninger ud over grundlæggende aritmetik. Den tilbyder trigonometriske funktioner (sin, cos, tan), logaritmiske funktioner (log, ln), eksponenter, kvadratrødder, matematiske konstanter som π og e, permutationer og kombinationer og mere.",
+        "features_title": "Nøglefunktioner",
+        "features": [
+            {
+                "name": "Trigonometriske funktioner",
+                "desc": "Beregn sin, cos, tan og inverse funktioner. Skift mellem grader og radianer."
+            },
+            {
+                "name": "Logaritmer og eksponenter",
+                "desc": "Ti-tals logaritme (log), naturlig logaritme (ln), eksponentiel (e^x) og brugertilpassede potenser."
+            },
+            {
+                "name": "Matematiske konstanter",
+                "desc": "Hurtig adgang til π (3,14159...) og e (Eulers tal = 2,71828...)."
+            },
+            {
+                "name": "Rødder og potenser",
+                "desc": "Kvadrat-, kubik- og n'te rødder plus potensoperationer."
+            },
+            {
+                "name": "Permutationer og kombinationer",
+                "desc": "Beregn permutationer (nPr) og kombinationer (nCr) for sandsynlighedsopgaver."
+            },
+            {
+                "name": "Fakultet",
+                "desc": "Fakultetsoperation (n!) for kombinatorik og sandsynlighedsfordelinger."
+            }
+        ],
+        "section1_title": "Hvornår har du brug for en videnskabelig lommeregner",
+        "section1_items": [
+            {
+                "title": "Fysik og ingeniørvidenskab",
+                "text": "Fra beregning af kraftkomponenter med trigonometri til analyse af elektriske kredsløb er en videnskabelig lommeregner uundværlig."
+            },
+            {
+                "title": "Finans og regnskab",
+                "text": "Renters rente, nutidsværdi, låneberegninger kræver eksponentialer og logaritmer."
+            },
+            {
+                "title": "Statistik og datavidenskab",
+                "text": "Beregning af sandsynligheder, kombinationer og statistiske fordelinger."
+            },
+            {
+                "title": "Kemi og naturvidenskab",
+                "text": "pH-beregninger med logaritmer, eksponentielt henfald og stokiometri."
+            },
+            {
+                "title": "Matematik og analyse",
+                "text": "Evaluering af grænser for trigonometriske funktioner og eksponentielle udtryk."
+            },
+            {
+                "title": "Programmering og datalogi",
+                "text": "Algoritmisk kompleksitet O(log n), talkonverteringer og flydendekommaoperationer."
+            }
+        ],
+        "tips_title": "Tips til effektiv brug",
+        "tips": [
+            "Tjek altid vinkeltilstand (grader eller radianer) før trigonometriske beregninger",
+            "Brug parenteser til at gruppere operationer og sikre korrekt rækkefølge",
+            "Husk: log = ti-tals logaritme, ln = naturlig logaritme (base e)",
+            "For meget store/små tal vises resultater i videnskabelig notation",
+            "Brug historikfunktionen til at gennemgå tidligere beregninger",
+            "Verificer nøjagtighed ved at løse problemet på forskellige måder"
+        ],
+        "faq_title": "Ofte stillede spørgsmål",
+        "faqs": [
+            {
+                "q": "Hvad er forskellen mellem grader og radianer?",
+                "a": "Grader og radianer er to måder at måle vinkler på. En fuld cirkel er 360° eller 2π radianer. Konvertering: grader = radianer × (180/π)."
+            },
+            {
+                "q": "Hvad er e (Eulers tal)?",
+                "a": "e (≈ 2,71828) er en fundamental matematisk konstant der optræder i naturlig vækst, eksponentielt henfald og renters rente."
+            },
+            {
+                "q": "Hvordan beregner jeg logaritme med brugerdefineret base?",
+                "a": "Brug formlen: log_b(x) = log(x) / log(b). For eksempel log_2(8) = log(8) / log(2) = 3."
+            },
+            {
+                "q": "Hvorfor kan jeg ikke beregne logaritmen af et negativt tal?",
+                "a": "I reelle tal er logaritmen kun defineret for positive tal. Logaritmen af et negativt tal giver et komplekst tal."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Ugyldigt matematisk udtryk",
+        "error_domain": "Domænefejl: værdien er uden for det tilladte område"
+    }
+}

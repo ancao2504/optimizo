@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "title": "Calculatrice de Remises - Outil Gratuit en Ligne | Optimizo",
+        "description": "Calculez les économies, le prix final et le coût total TVA comprise. Supporte les remises en pourcentage et le calcul de taxes.",
+        "h1": "Calculatrice de Remises",
+        "subtitle": "Calculez vos économies avec remise en pourcentage et TVA optionnelle"
+    },
+    "editor": {
+        "label_original": "Prix original ($)",
+        "label_discount": "Remise (%)",
+        "label_tax": "TVA (%)",
+        "btn_calculate": "Calculer les économies",
+        "label_savings": "Vos économies",
+        "label_final_price": "Prix après remise",
+        "label_tax_amount": "Montant TVA",
+        "label_total_with_tax": "Total TVA comprise"
+    },
+    "content": {
+        "what_title": "Comprendre le calcul des remises",
+        "what_text": "La calculatrice de remises montre instantanément combien vous économisez pendant les soldes. Que vous achetiez en ligne ou en magasin — comprendre les remises est la base des achats intelligents. Notre calculatrice inclut la TVA pour le coût réel total.",
+        "section1_title": "Types de remises",
+        "section1_items": [
+            {
+                "title": "Remise en pourcentage",
+                "text": "Le type le plus courant, ex. '25% de remise'. Prix original × pourcentage = économie."
+            },
+            {
+                "title": "Remise fixe",
+                "text": "Un montant spécifique, ex. '50€ de réduction'. Déduit directement du prix."
+            },
+            {
+                "title": "BOGO",
+                "text": "Achetez-en un, recevez-en un gratuit = essentiellement 50% de remise sur les deux."
+            },
+            {
+                "title": "Remise progressive",
+                "text": "La remise augmente avec le volume d'achat."
+            },
+            {
+                "title": "Remise fidélité",
+                "text": "Remises exclusives pour les clients réguliers et membres."
+            },
+            {
+                "title": "Soldes saisonnières",
+                "text": "Remises lors d'occasions spéciales — Black Friday, soldes avec jusqu'à 50-70%."
+            }
+        ],
+        "section2_title": "Conseils pour des achats intelligents",
+        "section2_items": [
+            "Calculez toujours le prix final avant d'acheter",
+            "Utilisez des sites de codes promo pour des économies supplémentaires",
+            "Combinez les applications de cashback avec les remises",
+            "Vérifiez l'historique des prix avant les achats importants",
+            "Vérifiez le prix original — certains vendeurs le gonflent artificiellement",
+            "Cherchez la livraison gratuite",
+            "Créez un calendrier des soldes saisonnières"
+        ],
+        "section3_title": "Remise et TVA",
+        "section3_text": "Dans la plupart des pays, la TVA est calculée sur le prix remisé. Exemple : article à 100€ avec 20% de remise = 80€. 20% TVA = 16€. Total = 96€.",
+        "examples_title": "Exemples pratiques",
+        "examples": [
+            {
+                "label": "30% sur les vêtements",
+                "result": "Robe à 200€ : remise = 60€. Vous payez 140€."
+            },
+            {
+                "label": "15% sur l'électronique",
+                "result": "Ordinateur à 1 000€ : remise = 150€. Vous payez 850€."
+            },
+            {
+                "label": "Remises combinées",
+                "result": "10% + 15% ≠ 25%. Réellement : 1 000 × 0,90 × 0,85 = 765. Économie 23,5%."
+            },
+            {
+                "label": "Cashback + remise",
+                "result": "500€ avec 20% remise = 400€. 5% cashback = 20€. Coût réel : 380€."
+            }
+        ],
+        "faq_title": "Questions fréquemment posées",
+        "faqs": [
+            {
+                "q": "Comment calculer le pourcentage de remise ?",
+                "a": "Formule : ((Prix original - Prix de vente) / Prix original) × 100."
+            },
+            {
+                "q": "Les remises combinées s'additionnent-elles ?",
+                "a": "Non ! 20% + 30% ≠ 50%. Réellement : (1-0,20)×(1-0,30) = 0,56, soit 44%."
+            },
+            {
+                "q": "La TVA est-elle calculée avant ou après la remise ?",
+                "a": "Dans la plupart des pays, la TVA s'applique sur le prix remisé."
+            },
+            {
+                "q": "Comment savoir si c'est une bonne affaire ?",
+                "a": "Utilisez des traqueurs de prix, comparez les vendeurs et tenez compte des frais de livraison et garantie."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Saisissez des nombres valides",
+        "error_range": "La remise doit être entre 0% et 100%"
+    }
+}

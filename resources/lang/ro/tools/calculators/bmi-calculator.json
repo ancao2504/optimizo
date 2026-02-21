@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "Calculator IMC - Indice de Masă Corporală Gratuit | Optimizo",
+        "description": "Calculați IMC-ul instant cu sistem metric și imperial. Aflați categoria dumneavoastră de greutate și implicațiile pentru sănătate.",
+        "h1": "Calculator IMC",
+        "subtitle": "Calculați indicele de masă corporală și aflați categoria de sănătate"
+    },
+    "editor": {
+        "label_height": "Înălțime",
+        "label_weight": "Greutate",
+        "label_unit": "Sistem de unități",
+        "unit_metric": "Metric (cm / kg)",
+        "unit_imperial": "Imperial (picioare-inci / livre)",
+        "label_height_cm": "Înălțime (cm)",
+        "label_height_ft": "Înălțime (picioare)",
+        "label_height_in": "Înălțime (inci)",
+        "label_weight_kg": "Greutate (kg)",
+        "label_weight_lbs": "Greutate (livre)",
+        "btn_calculate": "Calculează IMC",
+        "label_result": "IMC-ul dumneavoastră",
+        "label_category": "Categorie"
+    },
+    "content": {
+        "what_title": "Ce este IMC?",
+        "what_text": "Indicele de Masă Corporală (IMC) este un instrument de screening utilizat pe scară largă care estimează grăsimea corporală pe baza înălțimii și greutății. Dezvoltat de matematicianul belgian Adolphe Quetelet în secolul al XIX-lea.",
+        "categories_title": "Categorii IMC și implicații pentru sănătate",
+        "categories": [
+            {
+                "range": "Sub 18,5",
+                "label": "Subponderal",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Greutate normală",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Supraponderal",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 sau mai mult",
+                "label": "Obezitate",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "Formula IMC",
+        "formula_metric": "Metric: IMC = Greutate (kg) ÷ Înălțime (m)²",
+        "formula_imperial": "Imperial: IMC = (Greutate (lbs) × 703) ÷ Înălțime (inci)²",
+        "section1_title": "Categoriile IMC în detaliu",
+        "section1_items": [
+            {
+                "title": "Subponderal (IMC < 18,5)",
+                "text": "Poate indica malnutriție. Riscuri: imunitate slăbită, osteoporoză și anemie."
+            },
+            {
+                "title": "Greutate normală (IMC 18,5 – 24,9)",
+                "text": "Greutate proporțională cu înălțimea. Cel mai mic risc de probleme de sănătate."
+            },
+            {
+                "title": "Supraponderal (IMC 25,0 – 29,9)",
+                "text": "Risc crescut de boli cardiace, diabet tip 2, hipertensiune și apnee în somn."
+            },
+            {
+                "title": "Obezitate (IMC ≥ 30,0)",
+                "text": "Risc semnificativ crescut de boli cardiace, AVC, diabet și anumite tipuri de cancer."
+            }
+        ],
+        "section2_title": "Limitări ale IMC",
+        "section2_text": "IMC-ul nu distinge între masa musculară, densitatea osoasă și țesutul adipos. Sportivii musculoși pot fi clasificați ca supraponderali în ciuda unui procent scăzut de grăsime.",
+        "section3_title": "Factori care influențează IMC",
+        "section3_items": [
+            "Vârsta: interpretarea diferă pentru copii, adolescenți și vârstnici",
+            "Sexul: femeile au natural un procent mai mare de grăsime",
+            "Masa musculară: sportivii au adesea IMC mai ridicat datorită mușchilor",
+            "Etnia: riscurile de sănătate pot varia la diferite niveluri de IMC",
+            "Tipul corporal: persoanele cu constituție robustă pot avea IMC natural mai mare",
+            "Distribuția grăsimii: unde se acumulează grăsimea este la fel de important ca și cantitatea"
+        ],
+        "section4_title": "Sfaturi pentru o greutate sănătoasă",
+        "section4_items": [
+            "Vizați cel puțin 150 de minute de activitate aerobă moderată pe săptămână",
+            "Dietă echilibrată: fructe, legume, cereale integrale și proteine",
+            "Controlați dimensiunea porțiilor",
+            "Mențineți o hidratare bună pe tot parcursul zilei",
+            "Dormiți 7-9 ore de somn de calitate",
+            "Gestionați stresul prin meditație sau tehnici de relaxare"
+        ],
+        "faq_title": "Întrebări frecvente",
+        "faqs": [
+            {
+                "q": "Este IMC precis pentru sportivi?",
+                "a": "IMC poate supraestima grăsimea. Luați în considerare circumferința taliei sau scanarea DEXA."
+            },
+            {
+                "q": "Care este un IMC sănătos pentru copii?",
+                "a": "Se interpretează cu curbe de percentile pentru vârstă și sex. Percentila 5-85 este considerată sănătoasă."
+            },
+            {
+                "q": "Cât de des să verific IMC?",
+                "a": "La câteva luni este suficient. Concentrați-vă pe obiceiuri sănătoase sustenabile."
+            },
+            {
+                "q": "Poate IMC să prevadă bolile cardiace?",
+                "a": "Este unul dintre mulți factori de risc. Tensiunea, colesterolul și istoricul familial sunt la fel de importante."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Introduceți valori valide de înălțime și greutate",
+        "error_range": "Valorile sunt în afara intervalului realist",
+        "cat_underweight": "Subponderal",
+        "cat_normal": "Greutate normală",
+        "cat_overweight": "Supraponderal",
+        "cat_obese": "Obezitate"
+    }
+}

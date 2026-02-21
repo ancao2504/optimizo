@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": "GPA计算器 - 免费绩点计算 | Optimizo",
+        "description": "精确计算GPA。支持多门课程、学分和成绩值。适用于学生和教育工作者。",
+        "h1": "GPA计算器",
+        "subtitle": "根据课程和学分计算您的平均绩点"
+    },
+    "editor": {
+        "label_course": "课程名称",
+        "placeholder_course": "例如：数学101",
+        "label_grade": "成绩",
+        "label_credits": "学分",
+        "btn_add_course": "添加课程",
+        "btn_calculate": "计算GPA",
+        "btn_reset": "重置",
+        "btn_remove": "删除",
+        "label_result": "您的GPA",
+        "label_total_credits": "总学分",
+        "label_total_points": "总绩点"
+    },
+    "content": {
+        "what_title": "什么是GPA？为什么重要？",
+        "what_text": "GPA（Grade Point Average）是衡量学业成绩的标准化方法。按0.0到4.0的等级计算。GPA对大学录取、奖学金和职业机会至关重要。",
+        "scale_title": "GPA等级对照",
+        "scale": [
+            {
+                "grade": "A / A+",
+                "points": "4.0",
+                "percent": "90-100%"
+            },
+            {
+                "grade": "A-",
+                "points": "3.7",
+                "percent": "87-89%"
+            },
+            {
+                "grade": "B+",
+                "points": "3.3",
+                "percent": "83-86%"
+            },
+            {
+                "grade": "B",
+                "points": "3.0",
+                "percent": "80-82%"
+            },
+            {
+                "grade": "C+",
+                "points": "2.3",
+                "percent": "73-76%"
+            },
+            {
+                "grade": "C",
+                "points": "2.0",
+                "percent": "70-72%"
+            },
+            {
+                "grade": "D",
+                "points": "1.0",
+                "percent": "60-69%"
+            },
+            {
+                "grade": "F",
+                "points": "0.0",
+                "percent": "0-59%"
+            }
+        ],
+        "section1_title": "GPA如何计算",
+        "section1_text": "GPA是按学分加权的成绩绩点平均值。例如：数学(4学分，B=3.0)和物理(3学分，A=4.0)。GPA = (12+12)/7 = 3.43。",
+        "section2_title": "GPA为什么重要",
+        "section2_items": [
+            {
+                "title": "大学录取",
+                "text": "多数大学将GPA作为关键考量因素。"
+            },
+            {
+                "title": "奖学金",
+                "text": "许多奖学金要求最低GPA。优秀奖学金：3.0-3.5+。"
+            },
+            {
+                "title": "研究生申请",
+                "text": "硕士、博士项目需要有竞争力的GPA。"
+            },
+            {
+                "title": "职业机会",
+                "text": "许多雇主将GPA作为筛选标准。"
+            },
+            {
+                "title": "学术荣誉",
+                "text": "优等生(3.5+)、高等优等生和最高优等生荣誉。"
+            }
+        ],
+        "section3_title": "提高GPA的建议",
+        "section3_items": [
+            "为每学期设定切实可行的GPA目标",
+            "为难度较大的课程组建学习小组",
+            "利用教授的办公时间",
+            "用日程表改善时间管理",
+            "使用免费的辅导服务",
+            "注意身体健康：充足睡眠、锻炼和营养能提高专注力"
+        ],
+        "section4_title": "中国评分体系",
+        "section4_text": "中国高校通常使用百分制或五级制。大致换算：90-100分 ≈ 4.0 GPA（优秀），80-89分 ≈ 3.0-3.6（良好），70-79分 ≈ 2.0-2.9（中等），60-69分 ≈ 1.0-1.9（及格），60分以下不及格。",
+        "faq_title": "常见问题",
+        "faqs": [
+            {
+                "q": "GPA和绩点有什么区别？",
+                "a": "两者都衡量学业成绩。GPA使用4.0制，中国通常使用百分制或五级制。"
+            },
+            {
+                "q": "多少GPA算好？",
+                "a": "3.0(B)是良好，3.5是优秀，3.7+是杰出。"
+            },
+            {
+                "q": "可以重修吗？",
+                "a": "多数学校允许重修。通常取较好成绩计入GPA。"
+            },
+            {
+                "q": "学分如何影响GPA？",
+                "a": "GPA是加权平均，学分多的课程影响更大。"
+            }
+        ]
+    },
+    "js": {
+        "error_no_courses": "请添加至少一门课程",
+        "error_invalid_credits": "请输入有效学分"
+    }
+}

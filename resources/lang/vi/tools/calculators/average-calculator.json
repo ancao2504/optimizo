@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Máy Tính Trung Bình - Trung Bình, Trung Vị và Yếu Vị Miễn Phí | Optimizo",
+        "description": "Tính trung bình cộng, trung vị, yếu vị, khoảng biến thiên và tổng từ bất kỳ tập số nào. Cho sinh viên và nhà nghiên cứu.",
+        "h1": "Máy Tính Trung Bình",
+        "subtitle": "Trung bình, trung vị, yếu vị, khoảng biến thiên và phân tích thống kê đầy đủ"
+    },
+    "editor": {
+        "label_numbers": "Nhập các số",
+        "placeholder_numbers": "Các số phân cách bằng dấu phẩy, dấu cách hoặc dòng mới",
+        "btn_calculate": "Tính trung bình",
+        "btn_clear": "Xóa",
+        "label_mean": "Trung bình cộng (Mean)",
+        "label_median": "Trung vị (Median)",
+        "label_mode": "Yếu vị (Mode)",
+        "label_range": "Khoảng biến thiên",
+        "label_count": "Số lượng giá trị",
+        "label_sum": "Tổng",
+        "label_min": "Giá trị nhỏ nhất",
+        "label_max": "Giá trị lớn nhất",
+        "label_sorted": "Danh sách đã sắp xếp"
+    },
+    "content": {
+        "what_title": "Trung bình là gì và có mấy loại?",
+        "what_text": "Trung bình là thước đo xu hướng trung tâm đại diện cho giá trị điển hình của tập dữ liệu. Trong thống kê có ba thước đo chính: trung bình cộng, trung vị và yếu vị.",
+        "types_title": "Các loại trung bình",
+        "types": [
+            {
+                "name": "Trung bình cộng",
+                "desc": "Phổ biến nhất. Tổng giá trị chia cho số lượng. Nhạy cảm với giá trị ngoại lai."
+            },
+            {
+                "name": "Trung vị",
+                "desc": "Giá trị giữa của dữ liệu đã sắp xếp. Kháng giá trị ngoại lai."
+            },
+            {
+                "name": "Yếu vị",
+                "desc": "Giá trị xuất hiện nhiều nhất. Có thể nhiều hoặc không có."
+            },
+            {
+                "name": "Trung bình có trọng số",
+                "desc": "Khi giá trị có trọng số khác nhau. Công thức: Σ(wᵢ×xᵢ)/Σwᵢ."
+            }
+        ],
+        "section1_title": "Trung bình trong thực tế",
+        "section1_items": [
+            {
+                "title": "Giáo dục",
+                "text": "Giáo viên dùng trung bình và trung vị điểm để đánh giá năng lực."
+            },
+            {
+                "title": "Kinh doanh",
+                "text": "Doanh nghiệp theo dõi doanh thu trung bình, giá trị khách hàng và doanh thu/người dùng."
+            },
+            {
+                "title": "Khoa học",
+                "text": "Phân tích dữ liệu thí nghiệm cần trung bình."
+            },
+            {
+                "title": "Sức khỏe",
+                "text": "Nhiệt độ, huyết áp, mạch trung bình — chuyên gia y tế dựa vào trung bình."
+            },
+            {
+                "title": "Thể thao",
+                "text": "Trung bình bàn thắng, tốc độ, điểm — thống kê thể thao dùng trung bình rộng rãi."
+            },
+            {
+                "title": "Bất động sản",
+                "text": "Trung vị tốt hơn cho giá nhà vì bất động sản đắt làm lệch trung bình."
+            }
+        ],
+        "section2_title": "Trung bình vs trung vị — khi nào dùng cái nào",
+        "section2_items": [
+            {
+                "title": "Dùng trung bình khi",
+                "text": "Dữ liệu phân phối chuẩn, không có giá trị ngoại lai đáng kể."
+            },
+            {
+                "title": "Dùng trung vị khi",
+                "text": "Có giá trị ngoại lai (như dữ liệu thu nhập), phân phối lệch."
+            },
+            {
+                "title": "Dùng yếu vị khi",
+                "text": "Muốn giá trị phổ biến nhất. Lý tưởng cho dữ liệu phân loại."
+            }
+        ],
+        "section3_title": "Lỗi thường gặp cần tránh",
+        "section3_items": [
+            "Không chỉ dựa vào trung bình — giá trị ngoại lai có thể làm lệch đáng kể",
+            "Không bỏ qua kích thước mẫu",
+            "Luôn xem xét bối cảnh dữ liệu",
+            "Không nhầm trung bình có trọng số với không trọng số",
+            "Không tính trung bình trực tiếp các phần trăm với cơ sở khác nhau",
+            "Luôn trực quan hóa dữ liệu bằng biểu đồ"
+        ],
+        "faq_title": "Câu hỏi thường gặp",
+        "faqs": [
+            {
+                "q": "Trung bình và mean khác nhau thế nào?",
+                "a": "Trong đời thường chúng đồng nghĩa. Về kỹ thuật, 'trung bình' là khái niệm rộng hơn."
+            },
+            {
+                "q": "Yếu vị có thể không tồn tại?",
+                "a": "Có. Nếu tất cả giá trị đều khác nhau, không có yếu vị."
+            },
+            {
+                "q": "Tìm trung vị thế nào?",
+                "a": "Sắp xếp giá trị. Số lẻ: giá trị giữa. Số chẵn: trung bình hai giá trị giữa."
+            },
+            {
+                "q": "Khi nào dùng trung bình có trọng số?",
+                "a": "Khi dữ liệu có mức quan trọng khác nhau. Ví dụ: GPA, lợi nhuận danh mục đầu tư."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Vui lòng nhập số hợp lệ",
+        "no_mode": "Không có yếu vị"
+    }
+}

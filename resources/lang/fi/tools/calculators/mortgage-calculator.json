@@ -1,0 +1,97 @@
+{
+    "meta": {
+        "title": "Asuntolainanlaskuri - Ilmainen kuukausierälaskuri | Optimizo",
+        "description": "Laske asuntolainan kuukausierät, kokonaiskorot ja katso lyhennysaikataulu. Ilmainen työkalu asunnon ostajille.",
+        "h1": "Asuntolainanlaskuri",
+        "subtitle": "Laske kuukausierät, kokonaiskorot ja lyhennysaikataulu"
+    },
+    "editor": {
+        "label_principal": "Lainamäärä ($)",
+        "label_rate": "Vuosikorko (%)",
+        "label_term": "Laina-aika (vuotta)",
+        "label_down_payment": "Käsiraha ($)",
+        "btn_calculate": "Laske asuntolaina",
+        "label_monthly": "Kuukausierä",
+        "label_total_payment": "Maksut yhteensä",
+        "label_total_interest": "Korot yhteensä",
+        "label_schedule": "Lyhennysaikataulu",
+        "col_month": "Kuukausi",
+        "col_payment": "Erä",
+        "col_principal": "Lyhennys",
+        "col_interest": "Korko",
+        "col_balance": "Jäljellä oleva saldo"
+    },
+    "content": {
+        "what_title": "Asuntolainan maksujen ymmärtäminen",
+        "what_text": "Asuntolaina on kiinteistön ostoon suunniteltu laina, jossa kiinteistö toimii vakuutena. Se on tyypillisesti suurin taloudellinen sitoumus, joka kestää 15–30 vuotta. Asuntolainan maksujen ymmärtäminen on ratkaisevan tärkeää tietoisille asuntopäätöksille.",
+        "formula_title": "Kuukausierän kaava",
+        "formula_text": "M = P × [r(1+r)ⁿ] / [(1+r)ⁿ – 1], jossa M = kuukausierä, P = lainamäärä, r = kuukausikorko, n = erien kokonaismäärä",
+        "section1_title": "Miten kuukausierät toimivat",
+        "section1_text": "Jokainen maksu jakautuu lyhennyksen ja koron välille. Alkuvuosina suurin osa menee korkoon. Ajan myötä suhde kääntyy — enemmän lyhennykseen ja vähemmän korkoon. Tätä kutsutaan amortisaatioksi.",
+        "section2_title": "Asuntolainatyypit",
+        "section2_items": [
+            {
+                "title": "Kiinteäkorkoinen",
+                "text": "Korko pysyy samana koko laina-ajan. Ennakoitavat erät ja suoja koronnostoilta."
+            },
+            {
+                "title": "Vaihtuvakorkoinen",
+                "text": "Korko alkaa alhaisempana mutta voi muuttua markkinoiden mukaan."
+            },
+            {
+                "title": "ASP-laina",
+                "text": "Asuntosäästöpalkkiolaina tarjoaa korkotuen nuorille ensiasunnonostajille."
+            },
+            {
+                "title": "Valtiontakaama laina",
+                "text": "Valtion takaama laina mahdollistaa pienemmän käsirahan."
+            },
+            {
+                "title": "Bullet-laina",
+                "text": "Lainaa ei lyhennetä laina-aikana, vaan se maksetaan kerralla laina-ajan päättyessä."
+            }
+        ],
+        "section3_title": "Eriin vaikuttavat tekijät",
+        "section3_items": [
+            "Lainamäärä vaikuttaa suoraan kuukausierään",
+            "Pienikin korkoero voi maksaa tuhansia laina-ajan kuluessa",
+            "Lyhyempi laina-aika = korkeammat erät mutta huomattavasti vähemmän korkoja",
+            "Suurempi käsiraha pienentää lainaa ja erää",
+            "Kiinteistövero sisältyy usein kuukausierään",
+            "Kotivakuutus on yleensä osa kuukausimaksua",
+            "Lainaturva voidaan vaatia pienellä käsirahalla"
+        ],
+        "tips_title": "Vinkkejä viisaaseen asunnon ostoon",
+        "tips": [
+            "Hanki lainapäätös ennen asunnon etsintää",
+            "Maksa mahdollisimman suuri käsiraha",
+            "Vertaile tarjouksia 3–5+ lainanantajalta",
+            "Huomioi kokonaiskustannukset: verot, vakuutus, ylläpito",
+            "Maksa mahdollisuuksien mukaan ylimääräisiä lyhennyksiä",
+            "Varaudu muihin kuluihin (varainsiirtovero, välityspalkkio)"
+        ],
+        "faq_title": "Usein kysytyt kysymykset",
+        "faqs": [
+            {
+                "q": "Kuinka paljon voin ottaa lainaa?",
+                "a": "Nyrkkisääntö: asumiskulut eivät saisi ylittää 28% bruttotuloistasi kuukaudessa."
+            },
+            {
+                "q": "15 vai 30 vuotta?",
+                "a": "15 vuotta: korkeammat erät mutta valtava korkosäästö. 30 vuotta: pienemmät erät ja enemmän joustavuutta."
+            },
+            {
+                "q": "Mikä luottoluokitus tarvitaan?",
+                "a": "Hyvä maksuhistoria ja vakaat tulot ovat tärkeimpiä. Luottotietojen on oltava kunnossa."
+            },
+            {
+                "q": "Kannattaako ylimääräisiä lyhennyksiä tehdä?",
+                "a": "Ehdottomasti. Pienikin ylimääräinen lyhennys voi säästää tuhansia korkokuluissa."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Syötä kelvolliset luvut",
+        "error_range": "Arvojen on oltava suurempia kuin nolla"
+    }
+}

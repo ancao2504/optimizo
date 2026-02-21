@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Calculator de Medie - Medie, Mediană și Mod Gratuit | Optimizo",
+        "description": "Calculați media aritmetică, mediana, modul, intervalul și suma din orice set de numere. Pentru studenți și cercetători.",
+        "h1": "Calculator de Medie",
+        "subtitle": "Medie, mediană, mod, interval și analiză statistică completă"
+    },
+    "editor": {
+        "label_numbers": "Introduceți numerele",
+        "placeholder_numbers": "Numere separate prin virgule, spații sau linii noi",
+        "btn_calculate": "Calculează media",
+        "btn_clear": "Șterge",
+        "label_mean": "Media aritmetică (Mean)",
+        "label_median": "Mediana (Median)",
+        "label_mode": "Modul (Mode)",
+        "label_range": "Interval",
+        "label_count": "Număr de valori",
+        "label_sum": "Suma",
+        "label_min": "Minimum",
+        "label_max": "Maximum",
+        "label_sorted": "Lista sortată"
+    },
+    "content": {
+        "what_title": "Ce este media și ce tipuri există?",
+        "what_text": "Media este o măsură a tendinței centrale care reprezintă valoarea tipică a unui set de date. În statistică, există trei măsuri principale: media aritmetică, mediana și modul.",
+        "types_title": "Tipuri de medii",
+        "types": [
+            {
+                "name": "Media aritmetică",
+                "desc": "Cel mai comun tip. Suma valorilor împărțită la numărul lor. Sensibilă la valori extreme."
+            },
+            {
+                "name": "Mediana",
+                "desc": "Valoarea din mijloc a datelor ordonate. Rezistentă la valori extreme."
+            },
+            {
+                "name": "Modul",
+                "desc": "Valoarea cea mai frecventă. Pot fi mai multe sau niciunul."
+            },
+            {
+                "name": "Media ponderată",
+                "desc": "Când valorile au ponderi diferite. Formula: Σ(wᵢ×xᵢ)/Σwᵢ."
+            }
+        ],
+        "section1_title": "Medii în practică",
+        "section1_items": [
+            {
+                "title": "Educație",
+                "text": "Profesorii folosesc media și mediana notelor pentru evaluarea performanței."
+            },
+            {
+                "title": "Afaceri",
+                "text": "Companiile monitorizează vânzările medii, valoarea clientului și venitul per utilizator."
+            },
+            {
+                "title": "Știință",
+                "text": "Analiza datelor experimentale necesită medii."
+            },
+            {
+                "title": "Sănătate",
+                "text": "Temperatură medie, tensiune, puls — profesioniștii din sănătate se bazează pe medii."
+            },
+            {
+                "title": "Sport",
+                "text": "Medie de goluri, viteză, scor — statisticile sportive folosesc medii extensiv."
+            },
+            {
+                "title": "Imobiliare",
+                "text": "Mediana este mai bună pentru prețuri imobiliare deoarece proprietățile scumpe distorsionează media."
+            }
+        ],
+        "section2_title": "Medie vs mediană — când să folosiți care",
+        "section2_items": [
+            {
+                "title": "Folosiți media când",
+                "text": "Datele au distribuție normală, fără valori extreme semnificative."
+            },
+            {
+                "title": "Folosiți mediana când",
+                "text": "Există valori extreme, distribuție asimetrică."
+            },
+            {
+                "title": "Folosiți modul când",
+                "text": "Doriți cea mai frecventă valoare. Ideal pentru date categorice."
+            }
+        ],
+        "section3_title": "Greșeli comune de evitat",
+        "section3_items": [
+            "Nu vă bazați doar pe medie — valorile extreme o pot distorsiona semnificativ",
+            "Nu ignorați dimensiunea eșantionului",
+            "Luați întotdeauna în considerare contextul datelor",
+            "Nu confundați media ponderată cu cea neponderată",
+            "Nu faceți media directă a procentelor cu baze diferite",
+            "Vizualizați întotdeauna datele cu grafice"
+        ],
+        "faq_title": "Întrebări frecvente",
+        "faqs": [
+            {
+                "q": "Care este diferența dintre medie și mean?",
+                "a": "În limbajul cotidian sunt sinonime. Tehnic, 'medie' este un concept mai larg."
+            },
+            {
+                "q": "Poate lipsi modul?",
+                "a": "Da. Dacă toate valorile sunt unice, nu există mod."
+            },
+            {
+                "q": "Cum găsesc mediana?",
+                "a": "Sortați valorile. Număr impar: valoarea din mijloc. Par: media celor două din mijloc."
+            },
+            {
+                "q": "Când folosesc media ponderată?",
+                "a": "Când datele au importanțe diferite. Exemple: GPA, randamentul portofoliului."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Introduceți numere valide",
+        "no_mode": "Fără mod"
+    }
+}

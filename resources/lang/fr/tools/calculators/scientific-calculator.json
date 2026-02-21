@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Calculatrice Scientifique - Outil Mathématique Gratuit | Optimizo",
+        "description": "Calculatrice scientifique en ligne gratuite avec fonctions trigonométriques, logarithmiques et exponentielles. Idéale pour étudiants et ingénieurs.",
+        "h1": "Calculatrice Scientifique",
+        "subtitle": "Calculatrice avancée avec fonctions trigonométriques, logarithmiques et exponentielles"
+    },
+    "editor": {
+        "label_expression": "Expression mathématique",
+        "placeholder": "Saisissez une expression (ex. sin(45), log(100), 2^8)",
+        "btn_calculate": "Calculer",
+        "label_result": "Résultat",
+        "btn_deg": "Degrés",
+        "btn_rad": "Radians",
+        "btn_clear": "Effacer",
+        "btn_backspace": "Retour",
+        "btn_history": "Historique"
+    },
+    "content": {
+        "what_title": "Qu'est-ce qu'une calculatrice scientifique ?",
+        "what_text": "Une calculatrice scientifique est un outil mathématique avancé conçu pour des calculs complexes au-delà de l'arithmétique de base. Elle offre des fonctions trigonométriques (sin, cos, tan), logarithmiques (log, ln), des exposants, racines, constantes mathématiques comme π et e, permutations et combinaisons.",
+        "features_title": "Fonctionnalités principales",
+        "features": [
+            {
+                "name": "Fonctions trigonométriques",
+                "desc": "Calcul de sin, cos, tan et fonctions inverses. Basculez entre degrés et radians."
+            },
+            {
+                "name": "Logarithmes et exposants",
+                "desc": "Logarithme décimal (log), logarithme naturel (ln), exponentielle (e^x) et puissances."
+            },
+            {
+                "name": "Constantes mathématiques",
+                "desc": "Accès rapide à π (3,14159...) et e (nombre d'Euler = 2,71828...)."
+            },
+            {
+                "name": "Racines et puissances",
+                "desc": "Racines carrée, cubique et n-ième plus opérations de puissance."
+            },
+            {
+                "name": "Permutations et combinaisons",
+                "desc": "Calcul de permutations (nPr) et combinaisons (nCr) pour les probabilités."
+            },
+            {
+                "name": "Factorielle",
+                "desc": "Opération factorielle (n!) pour la combinatoire et distributions de probabilité."
+            }
+        ],
+        "section1_title": "Quand avez-vous besoin d'une calculatrice scientifique",
+        "section1_items": [
+            {
+                "title": "Physique et ingénierie",
+                "text": "Du calcul des composantes de force à l'analyse de circuits électriques — indispensable."
+            },
+            {
+                "title": "Finance et comptabilité",
+                "text": "Intérêts composés, valeur actuelle et calculs de prêts nécessitent exponentielles et logarithmes."
+            },
+            {
+                "title": "Statistiques",
+                "text": "Calcul de probabilités, combinaisons et distributions statistiques."
+            },
+            {
+                "title": "Chimie",
+                "text": "Calculs de pH avec logarithmes, décroissance exponentielle et stœchiométrie."
+            },
+            {
+                "title": "Mathématiques",
+                "text": "Évaluation de limites de fonctions trigonométriques et expressions exponentielles."
+            },
+            {
+                "title": "Programmation",
+                "text": "Complexité algorithmique O(log n), conversions numériques et opérations en virgule flottante."
+            }
+        ],
+        "tips_title": "Conseils d'utilisation efficace",
+        "tips": [
+            "Vérifiez toujours le mode angulaire (degrés ou radians) avant les calculs trigonométriques",
+            "Utilisez les parenthèses pour regrouper les opérations correctement",
+            "Rappel : log = logarithme décimal, ln = logarithme naturel (base e)",
+            "Les très grands/petits nombres s'affichent en notation scientifique",
+            "Utilisez l'historique pour revoir vos calculs précédents",
+            "Vérifiez en résolvant de plusieurs façons"
+        ],
+        "faq_title": "Questions fréquemment posées",
+        "faqs": [
+            {
+                "q": "Quelle différence entre degrés et radians ?",
+                "a": "Deux façons de mesurer les angles. Cercle complet = 360° ou 2π radians. Conversion : degrés = radians × (180/π)."
+            },
+            {
+                "q": "Qu'est-ce que e (nombre d'Euler) ?",
+                "a": "e (≈ 2,71828) est une constante fondamentale en croissance naturelle, décroissance exponentielle et intérêts composés."
+            },
+            {
+                "q": "Comment calculer un logarithme en base personnalisée ?",
+                "a": "Formule de changement de base : log_b(x) = log(x) / log(b). Exemple : log_2(8) = log(8) / log(2) = 3."
+            },
+            {
+                "q": "Pourquoi ne puis-je pas calculer le logarithme d'un nombre négatif ?",
+                "a": "Dans les nombres réels, le logarithme n'est défini que pour les nombres positifs."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Expression mathématique invalide",
+        "error_domain": "Erreur de domaine : la valeur est hors de la plage autorisée"
+    }
+}

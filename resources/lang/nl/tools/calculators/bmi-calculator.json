@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "BMI Calculator - Gratis Body Mass Index Tool | Optimizo",
+        "description": "Bereken uw BMI direct met metrisch en imperiaal systeem. Ontdek uw gewichtscategorie en gezondheidsimplicaties.",
+        "h1": "BMI Calculator",
+        "subtitle": "Bereken uw Body Mass Index en ontdek uw gezondheidscategorie"
+    },
+    "editor": {
+        "label_height": "Lengte",
+        "label_weight": "Gewicht",
+        "label_unit": "Eenhedensysteem",
+        "unit_metric": "Metrisch (cm / kg)",
+        "unit_imperial": "Imperiaal (voet-inch / pond)",
+        "label_height_cm": "Lengte (cm)",
+        "label_height_ft": "Lengte (voet)",
+        "label_height_in": "Lengte (inch)",
+        "label_weight_kg": "Gewicht (kg)",
+        "label_weight_lbs": "Gewicht (pond)",
+        "btn_calculate": "Bereken BMI",
+        "label_result": "Uw BMI",
+        "label_category": "Categorie"
+    },
+    "content": {
+        "what_title": "Wat is BMI?",
+        "what_text": "De Body Mass Index (BMI) is een veelgebruikt screeningsinstrument dat lichaamsvet schat op basis van lengte en gewicht. Ontwikkeld door de Belgische wiskundige Adolphe Quetelet in de 19e eeuw. Hoewel het lichaamsvet niet direct meet, biedt het een betrouwbare indicator van potentiële gezondheidsrisico's.",
+        "categories_title": "BMI-categorieën en gezondheidsimplicaties",
+        "categories": [
+            {
+                "range": "Onder 18,5",
+                "label": "Ondergewicht",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Normaal gewicht",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Overgewicht",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 en hoger",
+                "label": "Obesitas",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "BMI-formule",
+        "formula_metric": "Metrisch: BMI = Gewicht (kg) ÷ Lengte (m)²",
+        "formula_imperial": "Imperiaal: BMI = (Gewicht (lbs) × 703) ÷ Lengte (inch)²",
+        "section1_title": "BMI-categorieën in detail",
+        "section1_items": [
+            {
+                "title": "Ondergewicht (BMI < 18,5)",
+                "text": "Kan duiden op ondervoeding of gezondheidsproblemen. Risico's: verzwakt immuunsysteem, osteoporose en bloedarmoede."
+            },
+            {
+                "title": "Normaal gewicht (BMI 18,5 – 24,9)",
+                "text": "Proportioneel gewicht voor uw lengte. Laagste risico op gewichtsgerelateerde gezondheidsproblemen."
+            },
+            {
+                "title": "Overgewicht (BMI 25,0 – 29,9)",
+                "text": "Verhoogd risico op hartziekten, diabetes type 2, hoge bloeddruk en slaapapneu."
+            },
+            {
+                "title": "Obesitas (BMI ≥ 30,0)",
+                "text": "Aanzienlijk verhoogd risico op hartziekten, beroerte, diabetes en bepaalde vormen van kanker."
+            }
+        ],
+        "section2_title": "Beperkingen van BMI",
+        "section2_text": "BMI maakt geen onderscheid tussen spiermassa, botdichtheid en vetweefsel. Gespierde atleten kunnen als overgewicht worden geclassificeerd ondanks een laag vetpercentage.",
+        "section3_title": "Factoren die BMI beïnvloeden",
+        "section3_items": [
+            "Leeftijd: interpretatie verschilt voor kinderen, adolescenten en ouderen",
+            "Geslacht: vrouwen hebben van nature een hoger vetpercentage",
+            "Spiermassa: atleten hebben vaak een hogere BMI door spieren",
+            "Etniciteit: gezondheidsrisico's kunnen variëren bij verschillende BMI-niveaus",
+            "Lichaamstype: stevig gebouwde personen kunnen een natuurlijk hogere BMI hebben",
+            "Vetverdeling: waar vet zich bevindt is net zo belangrijk als de hoeveelheid"
+        ],
+        "section4_title": "Tips voor een gezond gewicht",
+        "section4_items": [
+            "Streef naar minimaal 150 minuten matige aerobe activiteit per week",
+            "Evenwichtig dieet: fruit, groenten, volkoren en eiwitten",
+            "Let op portiegroottes",
+            "Blijf de hele dag goed gehydrateerd",
+            "Slaap 7-9 uur kwalitatieve slaap",
+            "Beheers stress door meditatie of ontspanningstechnieken"
+        ],
+        "faq_title": "Veelgestelde vragen",
+        "faqs": [
+            {
+                "q": "Is BMI nauwkeurig voor atleten?",
+                "a": "BMI kan lichaamsvet overschatten. Overweeg tailleomtrek, vetpercentage of DEXA-scan."
+            },
+            {
+                "q": "Wat is een gezonde BMI voor kinderen?",
+                "a": "Wordt geïnterpreteerd met percentielcurves voor leeftijd en geslacht. 5e-85e percentiel wordt als gezond beschouwd."
+            },
+            {
+                "q": "Hoe vaak BMI controleren?",
+                "a": "Elke paar maanden is voldoende. Focus op duurzame gezonde gewoontes."
+            },
+            {
+                "q": "Kan BMI hartziekten voorspellen?",
+                "a": "Het is een van vele risicofactoren. Bloeddruk, cholesterol en familiegeschiedenis zijn even belangrijk."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Voer geldige lengte- en gewichtwaarden in",
+        "error_range": "Waarden liggen buiten een realistisch bereik",
+        "cat_underweight": "Ondergewicht",
+        "cat_normal": "Normaal gewicht",
+        "cat_overweight": "Overgewicht",
+        "cat_obese": "Obesitas"
+    }
+}

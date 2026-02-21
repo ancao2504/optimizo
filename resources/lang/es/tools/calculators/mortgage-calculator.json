@@ -1,0 +1,97 @@
+{
+    "meta": {
+        "title": "Calculadora de Hipotecas - Calculadora de Cuotas Gratuita | Optimizo",
+        "description": "Calcula cuotas mensuales de hipoteca, intereses totales y tabla de amortización. Herramienta gratuita para compradores de vivienda.",
+        "h1": "Calculadora de Hipotecas",
+        "subtitle": "Calcula cuotas mensuales, intereses totales y programa de amortización"
+    },
+    "editor": {
+        "label_principal": "Monto del préstamo ($)",
+        "label_rate": "Tasa de interés anual (%)",
+        "label_term": "Plazo del préstamo (años)",
+        "label_down_payment": "Pago inicial ($)",
+        "btn_calculate": "Calcular hipoteca",
+        "label_monthly": "Cuota mensual",
+        "label_total_payment": "Pagos totales",
+        "label_total_interest": "Intereses totales",
+        "label_schedule": "Tabla de amortización",
+        "col_month": "Mes",
+        "col_payment": "Cuota",
+        "col_principal": "Capital",
+        "col_interest": "Interés",
+        "col_balance": "Saldo restante"
+    },
+    "content": {
+        "what_title": "Comprensión de los pagos hipotecarios",
+        "what_text": "Una hipoteca es un préstamo específicamente diseñado para la compra de bienes inmuebles, donde la propiedad sirve como garantía. Es típicamente el compromiso financiero más grande, con plazos de 15 a 30 años. Comprender cómo funcionan las cuotas hipotecarias es crucial para tomar decisiones informadas.",
+        "formula_title": "Fórmula de la cuota mensual",
+        "formula_text": "M = P × [r(1+r)ⁿ] / [(1+r)ⁿ – 1], donde M = cuota mensual, P = monto del préstamo, r = tasa mensual, n = número de cuotas",
+        "section1_title": "Cómo funcionan las cuotas mensuales",
+        "section1_text": "Cada pago se divide entre capital e interés. En los primeros años, la mayor parte va a intereses. Con el tiempo, se invierte: más a capital y menos a intereses. Este proceso se llama amortización.",
+        "section2_title": "Tipos de hipotecas",
+        "section2_items": [
+            {
+                "title": "Tasa fija",
+                "text": "La tasa de interés permanece igual durante toda la vida del préstamo. Cuotas predecibles y protección contra alzas."
+            },
+            {
+                "title": "Tasa variable",
+                "text": "Empieza más baja pero puede cambiar según condiciones del mercado."
+            },
+            {
+                "title": "Préstamos FHA",
+                "text": "Asegurados por el gobierno, ofrecen pago inicial bajo (desde 3,5%)."
+            },
+            {
+                "title": "Préstamos VA",
+                "text": "Para veteranos militares — sin pago inicial y tasas competitivas."
+            },
+            {
+                "title": "Préstamos jumbo",
+                "text": "Para compras superiores a los límites conformes. Requieren mayor puntaje crediticio."
+            }
+        ],
+        "section3_title": "Factores que afectan tus cuotas",
+        "section3_items": [
+            "El monto del préstamo afecta directamente la cuota mensual",
+            "Una pequeña diferencia en la tasa puede costar miles a lo largo del préstamo",
+            "Plazo más corto = cuotas más altas pero significativamente menos intereses totales",
+            "Mayor pago inicial reduce el préstamo. 20%+ elimina PMI",
+            "El impuesto predial suele incluirse en la cuota mensual",
+            "El seguro de vivienda normalmente es parte del pago mensual",
+            "Se requiere PMI con pago inicial menor al 20%"
+        ],
+        "tips_title": "Consejos para una compra inteligente",
+        "tips": [
+            "Obtenga pre-aprobación antes de buscar vivienda",
+            "Pague 20% de enganche para evitar PMI",
+            "Compare ofertas de 3-5+ prestamistas",
+            "Considere los costos totales incluyendo impuestos, seguro y mantenimiento",
+            "Haga pagos adicionales al capital cuando sea posible",
+            "Presupueste costos de cierre (2-5% del préstamo)"
+        ],
+        "faq_title": "Preguntas frecuentes",
+        "faqs": [
+            {
+                "q": "¿Cuánto puedo pagar?",
+                "a": "Regla general: los gastos de vivienda no deben superar el 28% de su ingreso bruto mensual."
+            },
+            {
+                "q": "¿15 o 30 años?",
+                "a": "15 años: cuotas más altas pero enorme ahorro en intereses. 30 años: cuotas más bajas y más flexibilidad."
+            },
+            {
+                "q": "¿Qué puntaje crediticio necesito?",
+                "a": "La mayoría requiere mínimo 620. 740+ califica para las mejores tasas."
+            },
+            {
+                "q": "¿Vale la pena pagar puntos?",
+                "a": "1 punto = 1% del préstamo. Conviene si planea quedarse 5-7+ años."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Introduzca números válidos",
+        "error_range": "Los valores deben ser mayores que cero"
+    }
+}

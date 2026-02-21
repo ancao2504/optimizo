@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "BMI-Kalkulator - Gratis Kroppsmasseindeks | Optimizo",
+        "description": "Beregn BMI umiddelbart med metrisk og imperielt system. Finn din vektkategori og helseimplikasjoner.",
+        "h1": "BMI-Kalkulator",
+        "subtitle": "Beregn kroppsmasseindeksen din og finn din helsekategori"
+    },
+    "editor": {
+        "label_height": "Høyde",
+        "label_weight": "Vekt",
+        "label_unit": "Enhetssystem",
+        "unit_metric": "Metrisk (cm / kg)",
+        "unit_imperial": "Imperielt (fot-tommer / pund)",
+        "label_height_cm": "Høyde (cm)",
+        "label_height_ft": "Høyde (fot)",
+        "label_height_in": "Høyde (tommer)",
+        "label_weight_kg": "Vekt (kg)",
+        "label_weight_lbs": "Vekt (pund)",
+        "btn_calculate": "Beregn BMI",
+        "label_result": "Din BMI",
+        "label_category": "Kategori"
+    },
+    "content": {
+        "what_title": "Hva er BMI?",
+        "what_text": "Kroppsmasseindeks (BMI) er et mye brukt screeningsverktøy som estimerer kroppsfett basert på høyde og vekt. Utviklet av den belgiske matematikeren Adolphe Quetelet på 1800-tallet.",
+        "categories_title": "BMI-kategorier og helseimplikasjoner",
+        "categories": [
+            {
+                "range": "Under 18,5",
+                "label": "Undervekt",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Normalvekt",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Overvekt",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 og over",
+                "label": "Fedme",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "BMI-formel",
+        "formula_metric": "Metrisk: BMI = Vekt (kg) ÷ Høyde (m)²",
+        "formula_imperial": "Imperielt: BMI = (Vekt (lbs) × 703) ÷ Høyde (tommer)²",
+        "section1_title": "BMI-kategorier i detalj",
+        "section1_items": [
+            {
+                "title": "Undervekt (BMI < 18,5)",
+                "text": "Kan indikere underernæring eller helseproblemer. Risiko: svekket immunforsvar, osteoporose og anemi."
+            },
+            {
+                "title": "Normalvekt (BMI 18,5 – 24,9)",
+                "text": "Proporsjonal vekt for din høyde. Lavest risiko for vektrelaterte helseproblemer."
+            },
+            {
+                "title": "Overvekt (BMI 25,0 – 29,9)",
+                "text": "Økt risiko for hjertesykdom, type 2-diabetes, høyt blodtrykk og søvnapné."
+            },
+            {
+                "title": "Fedme (BMI ≥ 30,0)",
+                "text": "Betydelig økt risiko for hjertesykdom, hjerneslag, diabetes og visse kreftyper."
+            }
+        ],
+        "section2_title": "Begrensninger ved BMI",
+        "section2_text": "BMI skiller ikke mellom muskelmasse, beinmasse og fettvev. Muskuløse utøvere kan klassifiseres som overvektige til tross for lavt fettprosent.",
+        "section3_title": "Faktorer som påvirker BMI",
+        "section3_items": [
+            "Alder: tolkning varierer for barn, ungdom og eldre",
+            "Kjønn: kvinner har naturlig høyere fettprosent",
+            "Muskelmasse: utøvere har ofte høyere BMI på grunn av muskler",
+            "Etnisitet: helserisiko kan variere ved forskjellige BMI-nivåer",
+            "Kroppstype: robuste personer kan ha naturlig høyere BMI",
+            "Fettfordeling: hvor fettet sitter er like viktig som mengden"
+        ],
+        "section4_title": "Tips for sunn vekt",
+        "section4_items": [
+            "Sikt mot minst 150 minutter moderat aerob aktivitet per uke",
+            "Balansert kosthold: frukt, grønnsaker, fullkorn og proteiner",
+            "Vær oppmerksom på porsjonsstørrelser",
+            "Hold deg godt hydrert gjennom dagen",
+            "Sov 7-9 timer kvalitetssøvn",
+            "Håndter stress gjennom meditasjon eller avslapningsteknikker"
+        ],
+        "faq_title": "Ofte stilte spørsmål",
+        "faqs": [
+            {
+                "q": "Er BMI nøyaktig for utøvere?",
+                "a": "BMI kan overestimere kroppsfett. Vurder midjeomkrets, fettprosent eller DEXA-skanning."
+            },
+            {
+                "q": "Hva er sunn BMI for barn?",
+                "a": "Tolkes med persentilkurver for alder og kjønn. 5.-85. persentil anses som sunt."
+            },
+            {
+                "q": "Hvor ofte bør man sjekke BMI?",
+                "a": "Hvert par måneder er tilstrekkelig. Fokuser på bærekraftige sunne vaner."
+            },
+            {
+                "q": "Kan BMI forutsi hjertesykdom?",
+                "a": "Det er én av mange risikofaktorer. Blodtrykk, kolesterol og familiehistorie er like viktige."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Skriv inn gyldige høyde- og vektverdier",
+        "error_range": "Verdier er utenfor realistisk område",
+        "cat_underweight": "Undervekt",
+        "cat_normal": "Normalvekt",
+        "cat_overweight": "Overvekt",
+        "cat_obese": "Fedme"
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Gjennomsnittskalkulator - Gratis Gjennomsnitt, Median og Modus | Optimizo",
+        "description": "Beregn aritmetisk gjennomsnitt, median, modus, rekkevidde og sum fra enhver tallrekke. For studenter og forskere.",
+        "h1": "Gjennomsnittskalkulator",
+        "subtitle": "Gjennomsnitt, median, modus, rekkevidde og fullstendig statistisk analyse"
+    },
+    "editor": {
+        "label_numbers": "Skriv inn tallene dine",
+        "placeholder_numbers": "Tall atskilt med komma, mellomrom eller nye linjer",
+        "btn_calculate": "Beregn gjennomsnitt",
+        "btn_clear": "Slett",
+        "label_mean": "Aritmetisk gjennomsnitt (Mean)",
+        "label_median": "Median",
+        "label_mode": "Modus (Mode)",
+        "label_range": "Rekkevidde",
+        "label_count": "Antall verdier",
+        "label_sum": "Sum",
+        "label_min": "Minimum",
+        "label_max": "Maksimum",
+        "label_sorted": "Sortert liste"
+    },
+    "content": {
+        "what_title": "Hva er gjennomsnitt og hvilke typer finnes?",
+        "what_text": "Gjennomsnitt er et mål på sentral tendens som representerer den typiske verdien av et datasett. I statistikk er det tre hovedmål: aritmetisk gjennomsnitt, median og modus. Å forstå dem er essensielt i utdanning, forskning, næringsliv og daglige beslutninger.",
+        "types_title": "Typer gjennomsnitt",
+        "types": [
+            {
+                "name": "Aritmetisk gjennomsnitt",
+                "desc": "Den vanligste typen. Summen av verdier delt på antallet. Formel: (x₁+x₂+...+xₙ)/n. Sensitiv for uteliggere."
+            },
+            {
+                "name": "Median",
+                "desc": "Den midterste verdien av sorterte data. Partall: snitt av de to midterste. Motstandsdyktig mot uteliggere."
+            },
+            {
+                "name": "Modus",
+                "desc": "Den hyppigst forekommende verdien. Det kan være flere eller ingen."
+            },
+            {
+                "name": "Vektet gjennomsnitt",
+                "desc": "Når verdier har forskjellige vekter. Formel: Σ(wᵢ×xᵢ)/Σwᵢ. Klassisk eksempel: GPA."
+            }
+        ],
+        "section1_title": "Gjennomsnitt i praksis",
+        "section1_items": [
+            {
+                "title": "Utdanning",
+                "text": "Lærere bruker gjennomsnitt og median av karakterer for å evaluere prestasjoner."
+            },
+            {
+                "title": "Næringsliv",
+                "text": "Bedrifter overvåker gjennomsnittlig salg, kundeverdi og inntekt per bruker."
+            },
+            {
+                "title": "Vitenskap",
+                "text": "Analyse av eksperimentelle data, standardavvik og hypotesetesting krever gjennomsnitt."
+            },
+            {
+                "title": "Helse",
+                "text": "Gjennomsnittlig temperatur, blodtrykk, puls — helsepersonell er avhengige av gjennomsnitt."
+            },
+            {
+                "title": "Idrett",
+                "text": "Slagsnitt, hastighet, poengsum — idrettsstatistikk bruker gjennomsnitt utstrakt."
+            },
+            {
+                "title": "Eiendom",
+                "text": "Median er bedre for boligpriser fordi dyre eiendommer forvrenger gjennomsnittet."
+            }
+        ],
+        "section2_title": "Gjennomsnitt vs median — når bruke hvilken",
+        "section2_items": [
+            {
+                "title": "Bruk gjennomsnitt når",
+                "text": "Data er normalfordelt, uten signifikante uteliggere."
+            },
+            {
+                "title": "Bruk median når",
+                "text": "Det er uteliggere (som inntektsdata), skjev fordeling."
+            },
+            {
+                "title": "Bruk modus når",
+                "text": "Du vil ha den hyppigst forekommende verdien. Ideell for kategoridata."
+            }
+        ],
+        "section3_title": "Vanlige feil å unngå",
+        "section3_items": [
+            "Stol ikke bare på gjennomsnittet — uteliggere kan forvrenge det betydelig",
+            "Ignorer ikke utvalgsstørrelsen",
+            "Vurder alltid konteksten til dataene",
+            "Bland ikke vektet og uvektet gjennomsnitt",
+            "Gjennomsnitt prosenter med forskjellige baser direkte",
+            "Visualiser alltid data med grafer"
+        ],
+        "faq_title": "Ofte stilte spørsmål",
+        "faqs": [
+            {
+                "q": "Hva er forskjellen mellom gjennomsnitt og mean?",
+                "a": "I dagligtale er de synonymer. Teknisk er 'gjennomsnitt' et bredere begrep som inkluderer mean, median og modus."
+            },
+            {
+                "q": "Kan det være uten modus?",
+                "a": "Ja. Hvis alle verdier er unike, er det ingen modus."
+            },
+            {
+                "q": "Hvordan finner jeg medianen?",
+                "a": "Sorter verdiene. Oddetall: midterste verdi. Partall: snitt av de to midterste."
+            },
+            {
+                "q": "Når bruker jeg vektet gjennomsnitt?",
+                "a": "Når data har forskjellig betydning. Eksempler: GPA, porteføljeavkastning, kundetilfredshet."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Skriv inn gyldige tall",
+        "no_mode": "Ingen modus"
+    }
+}

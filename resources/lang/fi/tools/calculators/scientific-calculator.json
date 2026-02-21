@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Tieteellinen laskin - Ilmainen online-matemaattityökalu | Optimizo",
+        "description": "Ilmainen tieteellinen online-laskin trigonometrisine, logaritmisine ja eksponentiaalisine funktioineen. Ihanteellinen opiskelijoille ja insinööreille.",
+        "h1": "Tieteellinen laskin",
+        "subtitle": "Edistynyt laskin trigonometrisine, logaritmisine ja eksponentiaalisine funktioineen"
+    },
+    "editor": {
+        "label_expression": "Matemaattinen lauseke",
+        "placeholder": "Syötä matemaattinen lauseke (esim. sin(45), log(100), 2^8)",
+        "btn_calculate": "Laske",
+        "label_result": "Tulos",
+        "btn_deg": "Asteet",
+        "btn_rad": "Radiaanit",
+        "btn_clear": "Tyhjennä",
+        "btn_backspace": "Poista",
+        "btn_history": "Historia"
+    },
+    "content": {
+        "what_title": "Mikä on tieteellinen laskin?",
+        "what_text": "Tieteellinen laskin on edistynyt matemaattinen työkalu, joka on suunniteltu monimutkaisiin laskutoimituksiin perusaritmetiikan ulkopuolella. Se tarjoaa trigonometriset funktiot (sin, cos, tan), logaritmifunktiot (log, ln), eksponentit, juuret, matemaattiset vakiot kuten π ja e, permutaatiot ja kombinaatiot.",
+        "features_title": "Pääominaisuudet",
+        "features": [
+            {
+                "name": "Trigonometriset funktiot",
+                "desc": "Laske sin, cos, tan ja käänteiset funktiot. Vaihda asteiden ja radiaanien välillä."
+            },
+            {
+                "name": "Logaritmit ja eksponentit",
+                "desc": "Kymmenkantainen logaritmi (log), luonnollinen logaritmi (ln), eksponenttifunktio (e^x) ja mukautetut potenssit."
+            },
+            {
+                "name": "Matemaattiset vakiot",
+                "desc": "Nopea pääsy π:hin (3,14159...) ja e:hen (Eulerin luku = 2,71828...)."
+            },
+            {
+                "name": "Juuret ja potenssit",
+                "desc": "Neliö-, kuutio- ja n:nnet juuret plus potenssitoiminnot."
+            },
+            {
+                "name": "Permutaatiot ja kombinaatiot",
+                "desc": "Laske permutaatiot (nPr) ja kombinaatiot (nCr) todennäköisyystehtäviin."
+            },
+            {
+                "name": "Kertoma",
+                "desc": "Kertomatoimitus (n!) kombinatoriikkaan ja todennäköisyysjakaumiin."
+            }
+        ],
+        "section1_title": "Milloin tarvitset tieteellistä laskinta",
+        "section1_items": [
+            {
+                "title": "Fysiikka ja tekniikka",
+                "text": "Voimakomponenttien laskennasta sähköpiirien analyysiin — välttämätön."
+            },
+            {
+                "title": "Rahoitus ja kirjanpito",
+                "text": "Korkoa korolle, nykyarvo ja lainalaskelmat vaativat eksponentti- ja logaritmifunktioita."
+            },
+            {
+                "title": "Tilastotiede ja datatiede",
+                "text": "Todennäköisyyksien, kombinaatioiden ja tilastollisten jakaumien laskenta."
+            },
+            {
+                "title": "Kemia ja luonnontieteet",
+                "text": "pH-laskelmat logaritmein, eksponentiaalinen hajoaminen ja stoikiometria."
+            },
+            {
+                "title": "Matematiikka ja analyysi",
+                "text": "Trigonometristen funktioiden raja-arvojen ja eksponentiaalisten lausekkeiden evaluointi."
+            },
+            {
+                "title": "Ohjelmointi ja tietojenkäsittely",
+                "text": "Algoritminen kompleksisuus O(log n), lukujärjestelmämuunnokset ja liukulukuoperaatiot."
+            }
+        ],
+        "tips_title": "Vinkkejä tehokkaaseen käyttöön",
+        "tips": [
+            "Tarkista aina kulmatila (asteet tai radiaanit) ennen trigonometrisiä laskelmia",
+            "Käytä sulkuja ryhmitelläksesi operaatiot oikeaan järjestykseen",
+            "Muista: log = kymmenkantainen logaritmi, ln = luonnollinen logaritmi (kanta e)",
+            "Erittäin suuret/pienet luvut näytetään tieteellisessä merkintätavassa",
+            "Käytä historiatoimintoa aiempien laskelmien tarkasteluun",
+            "Vahvista tarkkuus ratkaisemalla eri tavoin"
+        ],
+        "faq_title": "Usein kysytyt kysymykset",
+        "faqs": [
+            {
+                "q": "Mikä ero asteilla ja radiaaneilla?",
+                "a": "Kaksi tapaa mitata kulmia. Täysi ympyrä = 360° tai 2π radiaania. Muunnos: asteet = radiaanit × (180/π)."
+            },
+            {
+                "q": "Mikä on e (Eulerin luku)?",
+                "a": "e (≈ 2,71828) on perustavanlaatuinen matemaattinen vakio luonnollisessa kasvussa, eksponentiaalisessa hajoamisessa ja koronkorolaskennassa."
+            },
+            {
+                "q": "Miten lasken logaritmin mukautetulla kannalla?",
+                "a": "Kannanvaihtokaava: log_b(x) = log(x) / log(b). Esimerkki: log_2(8) = log(8) / log(2) = 3."
+            },
+            {
+                "q": "Miksi en voi laskea negatiivisen luvun logaritmia?",
+                "a": "Reaalilukulaskennassa logaritmi on määritelty vain positiiville luvuille."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Virheellinen matemaattinen lauseke",
+        "error_domain": "Määrittelyjoukkovirhe: arvo on sallitun alueen ulkopuolella"
+    }
+}

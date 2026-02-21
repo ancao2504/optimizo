@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "title": "Alennuslaskuri - Ilmainen online-alennuslaskuri | Optimizo",
+        "description": "Laske säästöt, lopullinen hinta ja kokonaiskustannukset ALV mukaan lukien. Tukee prosenttialennuksia ja verolaskentaa.",
+        "h1": "Alennuslaskuri",
+        "subtitle": "Laske säästöt prosenttialennuksella ja valinnaisella ALV-laskennalla"
+    },
+    "editor": {
+        "label_original": "Alkuperäinen hinta ($)",
+        "label_discount": "Alennus (%)",
+        "label_tax": "ALV (%)",
+        "btn_calculate": "Laske säästö",
+        "label_savings": "Säästösi",
+        "label_final_price": "Hinta alennuksen jälkeen",
+        "label_tax_amount": "ALV-määrä",
+        "label_total_with_tax": "Yhteensä ALV mukaan lukien"
+    },
+    "content": {
+        "what_title": "Alennuslaskennan ymmärtäminen",
+        "what_text": "Alennuslaskuri näyttää välittömästi kuinka paljon säästät alennusmyynnissä. Teetpä ostoksia verkossa tai myymälässä — alennusten ymmärtäminen on älykkään ostamisen perusta. Laskuriimme sisältyy ALV todellisen kokonaiskustannuksen näyttämiseksi.",
+        "section1_title": "Alennustyypit",
+        "section1_items": [
+            {
+                "title": "Prosenttialennus",
+                "text": "Yleisin tyyppi, esim. '25% alennus'. Alkuperäinen hinta × prosentti = säästö."
+            },
+            {
+                "title": "Kiinteä euromääräinen alennus",
+                "text": "Tietty summa, esim. '50€ alennus'. Vähennetään suoraan hinnasta."
+            },
+            {
+                "title": "BOGO",
+                "text": "Osta yksi, saa toinen ilmaiseksi = käytännössä 50% alennus kahdesta."
+            },
+            {
+                "title": "Porrastettu alennus",
+                "text": "Alennus kasvaa ostosmäärän mukaan."
+            },
+            {
+                "title": "Kanta-asiakasalennus",
+                "text": "Yksinomaiset alennukset uskollisille asiakkaille ja jäsenille."
+            },
+            {
+                "title": "Kausialen",
+                "text": "Alennuksia erikoistilanteissa — Black Friday, loppuunmyynti 50-70%."
+            }
+        ],
+        "section2_title": "Vinkkejä älykkääseen ostamiseen",
+        "section2_items": [
+            "Laske aina lopullinen hinta ennen ostoa",
+            "Käytä kuponkisivustoja lisäsäästöihin",
+            "Yhdistä cashback-sovellukset alennuksiin",
+            "Tarkista hintahistoria ennen suuria ostoksia",
+            "Varmista alkuperäinen hinta — jotkut myyjät paisuttavat sitä keinotekoisesti",
+            "Etsi ilmaisia toimituksia",
+            "Tee kalenteri kausialennuksista"
+        ],
+        "section3_title": "Alennus ja ALV",
+        "section3_text": "Useimmissa maissa ALV lasketaan alennetusta hinnasta. Esimerkki: tuote 100€ 20% alennuksella = 80€. 24% ALV = 19,20€. Yhteensä = 99,20€.",
+        "examples_title": "Käytännön esimerkkejä",
+        "examples": [
+            {
+                "label": "30% vaatteista",
+                "result": "Mekko 200€: alennus = 60€. Maksat 140€."
+            },
+            {
+                "label": "15% elektroniikasta",
+                "result": "Kannettava 1 000€: alennus = 150€. Maksat 850€."
+            },
+            {
+                "label": "Yhdistetyt alennukset",
+                "result": "10% + 15% ≠ 25%. Todellisuudessa: 1 000 × 0,90 × 0,85 = 765. Säästö 23,5%."
+            },
+            {
+                "label": "Cashback + alennus",
+                "result": "500€ 20% alennuksella = 400€. 5% cashback = 20€ takaisin. Todellinen kustannus: 380€."
+            }
+        ],
+        "faq_title": "Usein kysytyt kysymykset",
+        "faqs": [
+            {
+                "q": "Miten lasken alennusprosentin?",
+                "a": "Kaava: ((Alkuperäinen - Myyntihinta) / Alkuperäinen) × 100."
+            },
+            {
+                "q": "Lasketaanko yhdistetyt alennukset yhteen?",
+                "a": "Ei! 20% + 30% ≠ 50%. Todellisuudessa: (1-0,20)×(1-0,30) = 0,56, eli 44%."
+            },
+            {
+                "q": "Lasketaanko ALV ennen vai jälkeen alennuksen?",
+                "a": "Useimmissa maissa ALV lasketaan alennetusta hinnasta."
+            },
+            {
+                "q": "Miten tiedän onko tarjous hyvä?",
+                "a": "Käytä hintaseurantapalveluita, vertaile kauppoja ja huomioi toimitus ja takuu."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Syötä kelvolliset luvut",
+        "error_range": "Alennuksen on oltava 0-100%"
+    }
+}

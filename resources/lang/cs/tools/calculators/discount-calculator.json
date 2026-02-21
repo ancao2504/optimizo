@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "title": "Kalkulačka slev - Bezplatný výpočet slev online | Optimizo",
+        "description": "Okamžitě vypočítejte úsporu, konečnou cenu a celkové náklady včetně DPH. Kalkulačka podporuje procentuální slevy a výpočet daní.",
+        "h1": "Kalkulačka slev",
+        "subtitle": "Vypočítejte úsporu s procentuální slevou a volitelným výpočtem daně"
+    },
+    "editor": {
+        "label_original": "Původní cena ($)",
+        "label_discount": "Sleva (%)",
+        "label_tax": "DPH (%)",
+        "btn_calculate": "Vypočítat úsporu",
+        "label_savings": "Vaše úspora",
+        "label_final_price": "Cena po slevě",
+        "label_tax_amount": "Částka DPH",
+        "label_total_with_tax": "Celkem s DPH"
+    },
+    "content": {
+        "what_title": "Pochopení výpočtu slev",
+        "what_text": "Kalkulačka slev je praktický nástroj, který okamžitě ukazuje, kolik ušetříte během jakéhokoli výprodeje nebo akce. Ať nakupujete online nebo v kamenném obchodě — pochopení slev je základem chytrého nakupování. Naše kalkulačka počítá nejen slevu, ale i DPH pro přesný obraz skutečných nákladů.",
+        "section1_title": "Typy slev",
+        "section1_items": [
+            {
+                "title": "Procentuální sleva",
+                "text": "Nejběžnější typ jako '25% sleva'. Vynásobte původní cenu procentem pro výpočet úspory."
+            },
+            {
+                "title": "Sleva o pevnou částku",
+                "text": "Konkrétní částka jako '500 Kč sleva'. Jednoduše odečtěte."
+            },
+            {
+                "title": "BOGO (Kup 1, dostaneš 1)",
+                "text": "Koupíte produkt a dostanete druhý zdarma nebo za polovinu. BOGO = 50% sleva za dva produkty."
+            },
+            {
+                "title": "Stupňovitá sleva",
+                "text": "Sleva roste s objemem nákupu."
+            },
+            {
+                "title": "Věrnostní sleva",
+                "text": "Exkluzivní slevy pro věrné zákazníky a členy."
+            },
+            {
+                "title": "Sezónní sleva",
+                "text": "Slevy během speciálních období — Černý pátek, sezónní výprodeje, až 50-70%."
+            }
+        ],
+        "section2_title": "Tipy pro chytré nakupování",
+        "section2_items": [
+            "Vždy vypočítejte konečnou cenu před nákupem",
+            "Používejte slevové kódy a kupóny",
+            "Kombinujte cashback aplikace se slevami",
+            "Před velkými nákupy ověřte cenovou historii",
+            "Ověřte si původní cenu — někteří prodejci uměle zvyšují ceny",
+            "Hledejte nabídky s bezplatným doručením",
+            "Vytvořte si kalendář sezónních výprodejů"
+        ],
+        "section3_title": "Výpočet slevy a DPH",
+        "section3_text": "Při aplikaci slevy a DPH záleží na pořadí. Ve většině zemí se DPH počítá z ceny po slevě. Příklad: produkt za 1 000 Kč se slevou 20% = 800 Kč. DPH 21% = 168 Kč. Celkem = 968 Kč.",
+        "examples_title": "Praktické příklady slev",
+        "examples": [
+            {
+                "label": "30% sleva na oblečení",
+                "result": "Šaty za 2 000 Kč: sleva = 600. Zaplatíte 1 400 Kč."
+            },
+            {
+                "label": "15% sleva na elektroniku",
+                "result": "Notebook za 25 000 Kč: sleva = 3 750. Zaplatíte 21 250 Kč."
+            },
+            {
+                "label": "Kombinované slevy",
+                "result": "10% + 15% ≠ 25%. Skutečně: 1 000 × 0,90 × 0,85 = 765. Úspora 23,5%."
+            },
+            {
+                "label": "Cashback + sleva",
+                "result": "5 000 s 20% slevou = 4 000. 5% cashback = 200. Skutečné náklady: 3 800."
+            }
+        ],
+        "faq_title": "Často kladené otázky",
+        "faqs": [
+            {
+                "q": "Jak vypočítám procento slevy?",
+                "a": "Vzorec: Sleva % = ((Původní cena - Výprodejní cena) / Původní cena) × 100."
+            },
+            {
+                "q": "Sčítají se kombinované slevy?",
+                "a": "Ne! 20% + 30% ≠ 50%. Skutečný výsledek: (1-0,20)×(1-0,30) = 0,56, tedy celková sleva 44%."
+            },
+            {
+                "q": "Počítá se DPH před nebo po slevě?",
+                "a": "Ve většině zemí se DPH počítá z ceny po slevě."
+            },
+            {
+                "q": "Jak ověřím, že je nabídka skutečně dobrá?",
+                "a": "Použijte cenové trackery, porovnejte u více prodejců a zvažte dodání a záruky."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Zadejte prosím platná čísla",
+        "error_range": "Sleva musí být mezi 0% a 100%"
+    }
+}

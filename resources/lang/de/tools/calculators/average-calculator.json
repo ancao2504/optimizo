@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Durchschnittsrechner - Kostenloser Mittelwert, Median & Modus | Optimizo",
+        "description": "Berechnen Sie sofort arithmetisches Mittel, Median, Modus, Spannweite und Summe jeder Zahlenreihe. Für Studenten und Forscher.",
+        "h1": "Durchschnittsrechner",
+        "subtitle": "Mittelwert, Median, Modus, Spannweite und vollständige statistische Analyse"
+    },
+    "editor": {
+        "label_numbers": "Geben Sie Ihre Zahlen ein",
+        "placeholder_numbers": "Geben Sie Zahlen getrennt durch Kommas, Leerzeichen oder neue Zeilen ein",
+        "btn_calculate": "Durchschnitt berechnen",
+        "btn_clear": "Löschen",
+        "label_mean": "Arithmetisches Mittel (Mean)",
+        "label_median": "Median",
+        "label_mode": "Modus (Mode)",
+        "label_range": "Spannweite",
+        "label_count": "Anzahl der Werte",
+        "label_sum": "Summe",
+        "label_min": "Minimum",
+        "label_max": "Maximum",
+        "label_sorted": "Sortierte Liste"
+    },
+    "content": {
+        "what_title": "Was ist der Durchschnitt und welche Arten gibt es?",
+        "what_text": "Der Durchschnitt ist ein Maß der zentralen Tendenz, das die Mitte oder den typischen Wert eines Datensatzes repräsentiert. In der Statistik gibt es drei Hauptmaße: arithmetisches Mittel (Mean), Median und Modus (Mode). Jedes hat seine Stärken in verschiedenen Situationen. Das Verständnis dieser Konzepte ist nicht nur in Bildung und Forschung wichtig, sondern im Alltag, Geschäft und bei Entscheidungsfindung.",
+        "types_title": "Arten des Durchschnitts",
+        "types": [
+            {
+                "name": "Arithmetisches Mittel",
+                "desc": "Häufigster Typ. Summe aller Werte geteilt durch deren Anzahl. Formel: (x₁+x₂+...+xₙ)/n. Wird durch Ausreißer beeinflusst."
+            },
+            {
+                "name": "Median",
+                "desc": "Mittlerer Wert in sortierten Daten. Bei gerader Anzahl der Durchschnitt der zwei mittleren Werte. Nicht von Ausreißern beeinflusst."
+            },
+            {
+                "name": "Modus",
+                "desc": "Der am häufigsten vorkommende Wert. Es können mehrere Modi oder keiner existieren."
+            },
+            {
+                "name": "Gewichteter Durchschnitt",
+                "desc": "Wenn Werte unterschiedliche Gewichtungen haben. Formel: Σ(wᵢ×xᵢ)/Σwᵢ. GPA-Berechnung ist ein klassisches Beispiel."
+            }
+        ],
+        "section1_title": "Durchschnitt in der Praxis",
+        "section1_items": [
+            {
+                "title": "Bildung",
+                "text": "Lehrer verwenden Notendurchschnitt und Median zur Bewertung der Gesamtleistung."
+            },
+            {
+                "title": "Wirtschaft und Finanzen",
+                "text": "Unternehmen verfolgen durchschnittliche Umsätze, Kundenwert und Erlös pro Nutzer."
+            },
+            {
+                "title": "Wissenschaft und Forschung",
+                "text": "Experimentelle Datenanalyse, Standardabweichung und Hypothesentests erfordern Durchschnitte."
+            },
+            {
+                "title": "Gesundheit",
+                "text": "Durchschnittstemperatur, Blutdruck, Herzfrequenz — Mediziner verlassen sich stark auf Durchschnitte."
+            },
+            {
+                "title": "Sport",
+                "text": "Batting-Durchschnitt, Geschwindigkeit, Punkte — Sportstatistiken nutzen Durchschnitte umfassend."
+            },
+            {
+                "title": "Immobilien",
+                "text": "Der Median ist besser für Hauspreise, da teure Immobilien den Durchschnitt nach oben verzerren."
+            }
+        ],
+        "section2_title": "Mittelwert vs. Median — wann welchen verwenden",
+        "section2_items": [
+            {
+                "title": "Verwenden Sie den Mittelwert, wenn",
+                "text": "Daten normalverteilt sind, keine großen Ausreißer existieren und alle Werte berücksichtigt werden sollen."
+            },
+            {
+                "title": "Verwenden Sie den Median, wenn",
+                "text": "Ausreißer vorhanden sind (Einkommensdaten), die Verteilung verzerrt ist oder Sie den wahren Mittelpunkt kennen wollen."
+            },
+            {
+                "title": "Verwenden Sie den Modus, wenn",
+                "text": "Sie den häufigsten Wert suchen. Ideal für kategorische Daten wie Farbe oder Größe."
+            }
+        ],
+        "section3_title": "Häufige Fehler vermeiden",
+        "section3_items": [
+            "Verlassen Sie sich nicht nur auf den Mittelwert — Ausreißer können ihn stark verzerren",
+            "Ignorieren Sie nicht die Stichprobengröße — kleine Stichproben können unzuverlässig sein",
+            "Berücksichtigen Sie den Kontext der Daten",
+            "Verwechseln Sie nicht gewichteten und ungewichteten Durchschnitt",
+            "Bilden Sie keinen Durchschnitt von Prozentsätzen mit verschiedenen Grundgesamtheiten",
+            "Visualisieren Sie Daten immer mit Diagrammen"
+        ],
+        "faq_title": "Häufig gestellte Fragen",
+        "faqs": [
+            {
+                "q": "Was ist der Unterschied zwischen Durchschnitt und Mittelwert?",
+                "a": "Im Alltag werden sie synonym verwendet. Technisch ist 'Durchschnitt' der breitere Begriff, der Mittelwert, Median und Modus umfasst."
+            },
+            {
+                "q": "Kann kein Modus existieren?",
+                "a": "Ja. Wenn alle Werte einzigartig sind, gibt es keinen Modus."
+            },
+            {
+                "q": "Wie finde ich den Median?",
+                "a": "Sortieren Sie die Werte. Ungerade Anzahl: mittlerer Wert. Gerade Anzahl: Durchschnitt der zwei mittleren Werte."
+            },
+            {
+                "q": "Wann verwende ich den gewichteten Durchschnitt?",
+                "a": "Wenn Daten unterschiedliche Wichtigkeit haben. Beispiele: GPA, Portfoliorendite, Kundenzufriedenheit."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Bitte geben Sie gültige Zahlen ein",
+        "no_mode": "Kein Modus"
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "Kalkulator BMI - Darmowy Wskaźnik Masy Ciała | Optimizo",
+        "description": "Oblicz BMI natychmiast w systemie metrycznym i imperialnym. Poznaj swoją kategorię wagi i implikacje zdrowotne.",
+        "h1": "Kalkulator BMI",
+        "subtitle": "Oblicz wskaźnik masy ciała i poznaj swoją kategorię zdrowotną"
+    },
+    "editor": {
+        "label_height": "Wzrost",
+        "label_weight": "Waga",
+        "label_unit": "System jednostek",
+        "unit_metric": "Metryczny (cm / kg)",
+        "unit_imperial": "Imperialny (stopy-cale / funty)",
+        "label_height_cm": "Wzrost (cm)",
+        "label_height_ft": "Wzrost (stopy)",
+        "label_height_in": "Wzrost (cale)",
+        "label_weight_kg": "Waga (kg)",
+        "label_weight_lbs": "Waga (funty)",
+        "btn_calculate": "Oblicz BMI",
+        "label_result": "Twoje BMI",
+        "label_category": "Kategoria"
+    },
+    "content": {
+        "what_title": "Czym jest BMI?",
+        "what_text": "Wskaźnik Masy Ciała (BMI) to powszechnie stosowane narzędzie przesiewowe szacujące tkankę tłuszczową na podstawie wzrostu i wagi. Opracowany przez belgijskiego matematyka Adolphe'a Queteleta w XIX wieku.",
+        "categories_title": "Kategorie BMI i implikacje zdrowotne",
+        "categories": [
+            {
+                "range": "Poniżej 18,5",
+                "label": "Niedowaga",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Waga prawidłowa",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Nadwaga",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 i więcej",
+                "label": "Otyłość",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "Wzór na BMI",
+        "formula_metric": "Metryczny: BMI = Waga (kg) ÷ Wzrost (m)²",
+        "formula_imperial": "Imperialny: BMI = (Waga (lbs) × 703) ÷ Wzrost (cale)²",
+        "section1_title": "Kategorie BMI szczegółowo",
+        "section1_items": [
+            {
+                "title": "Niedowaga (BMI < 18,5)",
+                "text": "Może wskazywać na niedożywienie. Ryzyko: osłabiona odporność, osteoporoza i anemia."
+            },
+            {
+                "title": "Waga prawidłowa (BMI 18,5 – 24,9)",
+                "text": "Proporcjonalna waga do wzrostu. Najniższe ryzyko problemów zdrowotnych."
+            },
+            {
+                "title": "Nadwaga (BMI 25,0 – 29,9)",
+                "text": "Zwiększone ryzyko chorób serca, cukrzycy typu 2, nadciśnienia i bezdechu sennego."
+            },
+            {
+                "title": "Otyłość (BMI ≥ 30,0)",
+                "text": "Znacznie podwyższone ryzyko chorób serca, udaru, cukrzycy i niektórych nowotworów."
+            }
+        ],
+        "section2_title": "Ograniczenia BMI",
+        "section2_text": "BMI nie rozróżnia masy mięśniowej, gęstości kości i tkanki tłuszczowej. Umięśnieni sportowcy mogą być klasyfikowani jako osoby z nadwagą mimo niskiego poziomu tkanki tłuszczowej.",
+        "section3_title": "Czynniki wpływające na BMI",
+        "section3_items": [
+            "Wiek: interpretacja różni się dla dzieci, nastolatków i osób starszych",
+            "Płeć: kobiety mają naturalnie wyższy procent tkanki tłuszczowej",
+            "Masa mięśniowa: sportowcy często mają wyższe BMI z powodu mięśni",
+            "Pochodzenie etniczne: ryzyko zdrowotne może się różnić przy różnych poziomach BMI",
+            "Budowa ciała: osoby o masywnej budowie mogą mieć naturalnie wyższe BMI",
+            "Rozkład tkanki tłuszczowej: gdzie gromadzi się tłuszcz jest równie ważne jak jego ilość"
+        ],
+        "section4_title": "Wskazówki dla zdrowej wagi",
+        "section4_items": [
+            "Celuj w co najmniej 150 minut umiarkowanej aktywności aerobowej tygodniowo",
+            "Zbilansowana dieta: owoce, warzywa, pełne ziarna i białko",
+            "Kontroluj wielkość porcji",
+            "Utrzymuj dobre nawodnienie przez cały dzień",
+            "Śpij 7-9 godzin jakościowego snu",
+            "Zarządzaj stresem przez medytację lub techniki relaksacyjne"
+        ],
+        "faq_title": "Często zadawane pytania",
+        "faqs": [
+            {
+                "q": "Czy BMI jest dokładne dla sportowców?",
+                "a": "BMI może przeszacować tłuszcz. Rozważ obwód talii, procent tkanki tłuszczowej lub skan DEXA."
+            },
+            {
+                "q": "Jakie jest zdrowe BMI dla dzieci?",
+                "a": "Interpretowane za pomocą krzywych percentylowych dla wieku i płci. 5-85 percentyl uważa się za zdrowe."
+            },
+            {
+                "q": "Jak często sprawdzać BMI?",
+                "a": "Co kilka miesięcy wystarcza. Skup się na zrównoważonych zdrowych nawykach."
+            },
+            {
+                "q": "Czy BMI może przewidzieć choroby serca?",
+                "a": "To jeden z wielu czynników ryzyka. Ciśnienie krwi, cholesterol i historia rodzinna są równie ważne."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Wprowadź prawidłowe wartości wzrostu i wagi",
+        "error_range": "Wartości są poza realistycznym zakresem",
+        "cat_underweight": "Niedowaga",
+        "cat_normal": "Waga prawidłowa",
+        "cat_overweight": "Nadwaga",
+        "cat_obese": "Otyłość"
+    }
+}

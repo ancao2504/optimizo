@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": "GPA-kalkylator - Gratis Betygssnitt | Optimizo",
+        "description": "Beräkna ditt GPA med precision. Stöd för flera kurser, poäng och betygsvärden. För studenter och akademiker.",
+        "h1": "GPA-kalkylator",
+        "subtitle": "Beräkna ditt betygssnitt baserat på kurser och poäng"
+    },
+    "editor": {
+        "label_course": "Kursnamn",
+        "placeholder_course": "T.ex. Matematik 101",
+        "label_grade": "Betyg",
+        "label_credits": "Högskolepoäng",
+        "btn_add_course": "Lägg till kurs",
+        "btn_calculate": "Beräkna GPA",
+        "btn_reset": "Återställ",
+        "btn_remove": "Ta bort",
+        "label_result": "Ditt GPA",
+        "label_total_credits": "Totala poäng",
+        "label_total_points": "Totala GPA-poäng"
+    },
+    "content": {
+        "what_title": "Vad är GPA och varför är det viktigt?",
+        "what_text": "GPA (Grade Point Average) är en standardiserad metod för att mäta akademisk prestation. Beräknas på en skala från 0,0 till 4,0. GPA är avgörande för universitetsantagning, stipendier och karriärmöjligheter.",
+        "scale_title": "GPA-skala",
+        "scale": [
+            {
+                "grade": "A / A+",
+                "points": "4.0",
+                "percent": "90-100%"
+            },
+            {
+                "grade": "A-",
+                "points": "3.7",
+                "percent": "87-89%"
+            },
+            {
+                "grade": "B+",
+                "points": "3.3",
+                "percent": "83-86%"
+            },
+            {
+                "grade": "B",
+                "points": "3.0",
+                "percent": "80-82%"
+            },
+            {
+                "grade": "C+",
+                "points": "2.3",
+                "percent": "73-76%"
+            },
+            {
+                "grade": "C",
+                "points": "2.0",
+                "percent": "70-72%"
+            },
+            {
+                "grade": "D",
+                "points": "1.0",
+                "percent": "60-69%"
+            },
+            {
+                "grade": "F",
+                "points": "0.0",
+                "percent": "0-59%"
+            }
+        ],
+        "section1_title": "Hur beräknas GPA",
+        "section1_text": "GPA är ett viktat medelvärde av betygspoäng per högskolepoäng. Exempel: Matematik (7,5 hp, B=3,0) och Fysik (7,5 hp, A=4,0), GPA = (22,5+30)/15 = 3,5.",
+        "section2_title": "Varför GPA är viktigt",
+        "section2_items": [
+            {
+                "title": "Universitetsantagning",
+                "text": "De flesta universitet ser GPA som en nyckelfaktor."
+            },
+            {
+                "title": "Stipendier",
+                "text": "Många stipendier kräver ett lägsta GPA. Meritstipendier: 3,0-3,5+."
+            },
+            {
+                "title": "Forskarstudier",
+                "text": "Master- och doktorandprogram kräver konkurrenskraftigt GPA."
+            },
+            {
+                "title": "Karriärmöjligheter",
+                "text": "Många arbetsgivare använder GPA som urvalskriterium."
+            },
+            {
+                "title": "Akademiska utmärkelser",
+                "text": "Cum laude (3,5+), magna cum laude och summa cum laude."
+            }
+        ],
+        "section3_title": "Tips för att förbättra GPA",
+        "section3_items": [
+            "Sätt realistiska GPA-mål för varje termin",
+            "Bilda studiegrupper för svåra ämnen",
+            "Utnyttja lärarnas mottagningstider",
+            "Förbättra tidshanteringen med en kalender",
+            "Använd gratis handledning",
+            "Ta hand om hälsan: sömn, motion och näring förbättrar koncentrationen"
+        ],
+        "section4_title": "Svenskt betygssystem",
+        "section4_text": "Sverige använder skalan A-F (eller VG/G) där A är högsta och F är icke godkänd. Ungefärlig konvertering: A ≈ 4,0 GPA, B ≈ 3,5, C ≈ 3,0, D ≈ 2,5, E ≈ 2,0. ECTS-systemet används för internationella jämförelser.",
+        "faq_title": "Vanliga frågor",
+        "faqs": [
+            {
+                "q": "GPA vs betygssnitt?",
+                "a": "Båda mäter akademisk prestation. GPA använder 4,0-skalan."
+            },
+            {
+                "q": "Vad är ett bra GPA?",
+                "a": "3,0 (B) är bra, 3,5 är utmärkt, 3,7+ är enastående."
+            },
+            {
+                "q": "Kan jag omtenta?",
+                "a": "De flesta universitet tillåter omtentamen. Bästa betyg räknas."
+            },
+            {
+                "q": "Hur påverkar poäng GPA?",
+                "a": "Det är ett viktat medelvärde, så kurser med fler poäng har större påverkan."
+            }
+        ]
+    },
+    "js": {
+        "error_no_courses": "Lägg till minst en kurs",
+        "error_invalid_credits": "Ange giltiga poäng"
+    }
+}

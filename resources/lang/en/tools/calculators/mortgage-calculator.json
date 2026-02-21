@@ -1,14 +1,14 @@
 {
     "meta": {
-        "title": "Mortgage Calculator - Free Monthly Payment Tool | Optimizo",
-        "description": "Calculate monthly mortgage payments, total interest, and view a full amortization schedule. Free online mortgage calculator for home buyers.",
+        "title": "Mortgage Calculator - Free Monthly Payment Calculator | Optimizo",
+        "description": "Calculate monthly mortgage payments, total interest, and view a full amortization schedule. Free online mortgage calculator for home buyers, refinancers, and real estate professionals.",
         "h1": "Mortgage Calculator",
-        "subtitle": "Calculate monthly payments and view amortization schedule"
+        "subtitle": "Calculate monthly payments, total interest, and view your full amortization schedule"
     },
     "editor": {
         "label_principal": "Loan Amount ($)",
         "label_rate": "Annual Interest Rate (%)",
-        "label_term": "Loan Term (years)",
+        "label_term": "Loan Term (Years)",
         "label_down_payment": "Down Payment ($)",
         "btn_calculate": "Calculate Mortgage",
         "label_monthly": "Monthly Payment",
@@ -22,16 +22,73 @@
         "col_balance": "Balance"
     },
     "content": {
-        "what_title": "What is a Mortgage?",
-        "what_text": "A mortgage is a loan used to purchase real estate, where the property itself serves as collateral. Mortgage payments typically consist of principal (the original loan amount) and interest (the cost of borrowing).",
-        "formula_title": "Mortgage Payment Formula",
-        "formula_text": "M = P × [r(1+r)ⁿ] / [(1+r)ⁿ – 1], where P = principal, r = monthly interest rate, n = total number of payments.",
-        "tips_title": "Tips for Homebuyers",
+        "what_title": "Understanding Mortgage Payments",
+        "what_text": "A mortgage is a loan specifically designed for purchasing real estate, where the property itself serves as collateral for the loan. It is one of the largest financial commitments most people will ever make, typically spanning 15 to 30 years. Understanding how mortgage payments work is essential for making informed decisions about home buying, refinancing, and long-term financial planning. Each monthly mortgage payment consists of two main components: principal (the amount that goes toward reducing your loan balance) and interest (the cost of borrowing money from the lender).",
+        "formula_title": "The Mortgage Payment Formula",
+        "formula_text": "M = P × [r(1+r)ⁿ] / [(1+r)ⁿ – 1], where M = monthly payment, P = principal loan amount, r = monthly interest rate (annual rate ÷ 12), n = total number of monthly payments (years × 12).",
+        "section1_title": "How Monthly Mortgage Payments Work",
+        "section1_text": "When you make a mortgage payment, the money is split between principal and interest. In the early years of your mortgage, a larger portion of each payment goes toward interest, while a smaller portion reduces the principal balance. As time passes and your balance decreases, this ratio flips — more of each payment goes toward principal, and less toward interest. This process is called amortization. For example, on a $300,000 mortgage at 6% interest over 30 years, your monthly payment would be approximately $1,799. In the first month, about $1,500 goes to interest and only $299 to principal. By year 15, the split is roughly equal, and by year 25, most of the payment reduces your balance.",
+        "section2_title": "Types of Mortgages Explained",
+        "section2_items": [
+            {
+                "title": "Fixed-Rate Mortgage",
+                "text": "The interest rate remains constant throughout the entire loan term. This provides predictable monthly payments and protection against rising interest rates. Fixed-rate mortgages are the most popular choice for homebuyers who plan to stay in their home long-term. Common terms are 15, 20, and 30 years."
+            },
+            {
+                "title": "Adjustable-Rate Mortgage (ARM)",
+                "text": "The interest rate starts lower than a fixed-rate mortgage but can change periodically based on market conditions. ARMs typically have an initial fixed-rate period (e.g., 5 years in a 5/1 ARM) before the rate starts adjusting annually. ARMs may be suitable for buyers who plan to sell or refinance before the adjustment period."
+            },
+            {
+                "title": "FHA Loans",
+                "text": "Insured by the Federal Housing Administration, FHA loans offer lower down payment requirements (as low as 3.5%) and more flexible qualification criteria. They are popular with first-time homebuyers and those with lower credit scores. However, FHA loans require mortgage insurance premiums (MIP)."
+            },
+            {
+                "title": "VA Loans",
+                "text": "Available to eligible military service members, veterans, and surviving spouses, VA loans offer significant benefits including no down payment, no private mortgage insurance, and competitive interest rates. These loans are guaranteed by the Department of Veterans Affairs."
+            },
+            {
+                "title": "Jumbo Loans",
+                "text": "For home purchases that exceed conforming loan limits set by Fannie Mae and Freddie Mac. Jumbo loans typically require higher credit scores, larger down payments, and may carry slightly higher interest rates due to the increased risk to lenders."
+            }
+        ],
+        "section3_title": "Factors That Affect Your Mortgage Payment",
+        "section3_items": [
+            "Loan Amount: The total amount you borrow directly impacts your monthly payment. A larger loan means higher payments.",
+            "Interest Rate: Even a small difference in interest rates can have a significant impact over the life of the loan. A 0.5% difference on a $300,000 loan can cost or save you over $30,000.",
+            "Loan Term: Shorter terms mean higher monthly payments but significantly less total interest paid. A 15-year mortgage saves hundreds of thousands in interest compared to a 30-year term.",
+            "Down Payment: A larger down payment reduces your loan amount and monthly payments. Putting down 20% or more also eliminates the need for private mortgage insurance (PMI).",
+            "Property Taxes: Annual property taxes are often included in your monthly payment and held in an escrow account by your lender.",
+            "Homeowners Insurance: Like property taxes, insurance premiums are frequently escrowed and included in your monthly mortgage payment.",
+            "Private Mortgage Insurance (PMI): Required when your down payment is less than 20%, PMI adds $50-$200+ per month depending on the loan amount."
+        ],
+        "tips_title": "Smart Home Buying Tips",
         "tips": [
-            "A 20% down payment helps avoid private mortgage insurance (PMI)",
-            "Compare rates from multiple lenders before choosing",
-            "Consider total cost of ownership including taxes and insurance",
-            "Shorter loan terms have higher payments but less total interest"
+            "Get pre-approved before house hunting to know your budget and strengthen your offer",
+            "A 20% down payment helps you avoid PMI and reduces your monthly payment significantly",
+            "Compare rates from at least 3-5 lenders — even small rate differences add up over 30 years",
+            "Consider the total cost of homeownership including taxes, insurance, maintenance, and HOA fees",
+            "A shorter loan term (15 years vs. 30 years) means higher payments but saves a fortune in interest",
+            "Make extra payments toward principal when possible to reduce total interest and pay off your mortgage faster",
+            "Factor in closing costs (typically 2-5% of loan amount) when budgeting for your home purchase"
+        ],
+        "faq_title": "Frequently Asked Questions",
+        "faqs": [
+            {
+                "q": "How much house can I afford?",
+                "a": "A common rule of thumb is that your monthly housing costs should not exceed 28% of your gross monthly income. With a $6,000 monthly income, you should aim for housing costs under $1,680, including principal, interest, taxes, and insurance."
+            },
+            {
+                "q": "Should I choose a 15-year or 30-year mortgage?",
+                "a": "A 15-year mortgage has higher monthly payments but saves significantly on total interest. A 30-year mortgage offers lower monthly payments and more financial flexibility. Choose based on your budget, financial goals, and risk tolerance."
+            },
+            {
+                "q": "What credit score do I need for a mortgage?",
+                "a": "Most conventional loans require a minimum 620 credit score, while FHA loans accept scores as low as 580. However, higher credit scores (740+) qualify you for the best interest rates, saving thousands over the life of the loan."
+            },
+            {
+                "q": "Is it worth paying points to lower my rate?",
+                "a": "Paying discount points (1 point = 1% of loan amount) can lower your interest rate. This makes sense if you plan to stay in the home long enough to recoup the upfront cost through lower monthly payments, typically 5-7 years."
+            }
         ]
     },
     "js": {

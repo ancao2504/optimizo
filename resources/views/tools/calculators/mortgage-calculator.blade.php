@@ -10,61 +10,59 @@
         <div class="bg-white rounded-2xl p-6 md:p-8 shadow-2xl border-2 border-purple-200 mb-8">
             <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
-                    <label for="principal"
+                    <label for="m-principal"
                         class="block text-sm font-semibold text-gray-700 mb-2">{{ __tool('mortgage-calculator', 'editor.label_principal') }}</label>
-                    <input type="number" id="principal" value="300000" min="0" step="1000"
+                    <input type="number" id="m-principal" value="300000" min="0" step="1000"
                         class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all">
                 </div>
                 <div>
-                    <label for="down-payment"
-                        class="block text-sm font-semibold text-gray-700 mb-2">{{ __tool('mortgage-calculator', 'editor.label_down_payment') }}</label>
-                    <input type="number" id="down-payment" value="60000" min="0" step="1000"
-                        class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all">
-                </div>
-                <div>
-                    <label for="rate"
+                    <label for="m-rate"
                         class="block text-sm font-semibold text-gray-700 mb-2">{{ __tool('mortgage-calculator', 'editor.label_rate') }}</label>
-                    <input type="number" id="rate" value="6.5" min="0" max="30" step="0.1"
+                    <input type="number" id="m-rate" value="6.5" min="0" max="30" step="0.1"
                         class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all">
                 </div>
                 <div>
-                    <label for="term"
+                    <label for="m-term"
                         class="block text-sm font-semibold text-gray-700 mb-2">{{ __tool('mortgage-calculator', 'editor.label_term') }}</label>
-                    <input type="number" id="term" value="30" min="1" max="50"
+                    <input type="number" id="m-term" value="30" min="1" max="50"
+                        class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all">
+                </div>
+                <div>
+                    <label for="m-down"
+                        class="block text-sm font-semibold text-gray-700 mb-2">{{ __tool('mortgage-calculator', 'editor.label_down_payment') }}</label>
+                    <input type="number" id="m-down" value="60000" min="0" step="1000"
                         class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all">
                 </div>
             </div>
 
-            <button onclick="calculateMortgage()"
+            <button onclick="calcMortgage()"
                 class="px-8 py-3 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition-all font-semibold shadow-lg hover:shadow-xl flex items-center gap-2 mb-6">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                 </svg>
                 {{ __tool('mortgage-calculator', 'editor.btn_calculate') }}
             </button>
 
-            <!-- Results -->
-            <div id="mortgage-result" class="hidden">
+            <div id="m-result" class="hidden">
                 <div class="grid md:grid-cols-3 gap-4 mb-6">
                     <div class="bg-purple-50 rounded-xl p-5 text-center border border-purple-200">
                         <div class="text-sm text-gray-500 mb-1">{{ __tool('mortgage-calculator', 'editor.label_monthly') }}
                         </div>
-                        <div class="text-3xl font-black text-purple-700" id="monthly-payment">$0</div>
+                        <div class="text-3xl font-black text-purple-700" id="m-monthly">$0</div>
                     </div>
                     <div class="bg-blue-50 rounded-xl p-5 text-center border border-blue-200">
                         <div class="text-sm text-gray-500 mb-1">
                             {{ __tool('mortgage-calculator', 'editor.label_total_payment') }}</div>
-                        <div class="text-3xl font-black text-blue-700" id="total-payment">$0</div>
+                        <div class="text-3xl font-black text-blue-700" id="m-total">$0</div>
                     </div>
-                    <div class="bg-pink-50 rounded-xl p-5 text-center border border-pink-200">
+                    <div class="bg-red-50 rounded-xl p-5 text-center border border-red-200">
                         <div class="text-sm text-gray-500 mb-1">
                             {{ __tool('mortgage-calculator', 'editor.label_total_interest') }}</div>
-                        <div class="text-3xl font-black text-pink-700" id="total-interest">$0</div>
+                        <div class="text-3xl font-black text-red-700" id="m-interest">$0</div>
                     </div>
                 </div>
 
-                <!-- Amortization Table -->
                 <h3 class="text-lg font-bold text-gray-800 mb-3">
                     {{ __tool('mortgage-calculator', 'editor.label_schedule') }}</h3>
                 <div class="overflow-x-auto max-h-96 overflow-y-auto rounded-xl border border-gray-200">
@@ -83,33 +81,121 @@
                                     {{ __tool('mortgage-calculator', 'editor.col_balance') }}</th>
                             </tr>
                         </thead>
-                        <tbody id="amort-table"></tbody>
+                        <tbody id="m-table"></tbody>
                     </table>
                 </div>
             </div>
         </div>
 
+        {{-- Long-Form SEO Content --}}
         @php $content = __tool('mortgage-calculator', 'content'); @endphp
         @if(is_array($content))
-            <div
-                class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 border-2 border-purple-100 shadow-2xl">
-                <h2 class="text-3xl font-black text-gray-900 mb-3 text-center">{{ $content['what_title'] ?? '' }}</h2>
-                <p class="text-gray-600 text-center mx-auto max-w-xl mb-8">{{ $content['what_text'] ?? '' }}</p>
+            <div class="space-y-8">
+                <div
+                    class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 border-2 border-purple-100 shadow-2xl">
+                    <h2 class="text-3xl font-black text-gray-900 mb-4 text-center">{{ $content['what_title'] ?? '' }}</h2>
+                    <p class="text-gray-600 text-lg leading-relaxed text-center mx-auto max-w-3xl">
+                        {{ $content['what_text'] ?? '' }}</p>
+                </div>
 
-                @if(!empty($content['tips']))
-                    <h3 class="text-xl font-bold text-gray-800 mb-4">{{ $content['tips_title'] ?? '' }}</h3>
-                    <ul class="space-y-3">
-                        @foreach($content['tips'] as $tip)
-                            <li class="flex items-start gap-2 text-gray-600">
-                                <svg class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                {{ $tip }}
-                            </li>
-                        @endforeach
-                    </ul>
+                @if(!empty($content['formula_title']))
+                    <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-4">{{ $content['formula_title'] }}</h2>
+                        <div class="bg-indigo-50 rounded-xl p-5 text-center border border-indigo-200">
+                            <div class="font-mono text-indigo-700 font-bold text-sm md:text-base">
+                                {{ $content['formula_text'] ?? '' }}</div>
+                        </div>
+                    </div>
+                @endif
+
+                @if(!empty($content['section1_title']))
+                    <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-4">{{ $content['section1_title'] }}</h2>
+                        <p class="text-gray-600 leading-relaxed">{{ $content['section1_text'] ?? '' }}</p>
+                    </div>
+                @endif
+
+                @if(!empty($content['section2_title']))
+                    <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $content['section2_title'] }}</h2>
+                        @if(!empty($content['section2_items']))
+                            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                @foreach($content['section2_items'] as $item)
+                                    <div
+                                        class="bg-gradient-to-br from-gray-50 to-purple-50 rounded-2xl p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                                        <h3 class="font-bold text-purple-700 text-lg mb-2">{{ $item['title'] }}</h3>
+                                        <p class="text-gray-600 text-sm leading-relaxed">{{ $item['text'] }}</p>
+                                    </div>
+                                @endforeach
+                            </div>
+                        @endif
+                    </div>
+                @endif
+
+                @if(!empty($content['section3_title']))
+                    <div
+                        class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-3xl p-8 md:p-12 shadow-xl border border-indigo-100">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $content['section3_title'] }}</h2>
+                        @if(!empty($content['section3_items']))
+                            <div class="space-y-3">
+                                @foreach($content['section3_items'] as $item)
+                                    <div class="flex items-start gap-3 bg-white rounded-xl p-4 shadow-sm">
+                                        <svg class="w-5 h-5 text-indigo-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd"
+                                                d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <span class="text-gray-700 text-sm">{{ $item }}</span>
+                                    </div>
+                                @endforeach
+                            </div>
+                        @endif
+                    </div>
+                @endif
+
+                @if(!empty($content['tips_title']))
+                    <div
+                        class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 md:p-12 shadow-xl border border-green-100">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $content['tips_title'] }}</h2>
+                        @if(!empty($content['tips']))
+                            <div class="space-y-3">
+                                @foreach($content['tips'] as $tip)
+                                    <div class="flex items-start gap-3 bg-white rounded-xl p-4 shadow-sm">
+                                        <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <span class="text-gray-700 text-sm">{{ $tip }}</span>
+                                    </div>
+                                @endforeach
+                            </div>
+                        @endif
+                    </div>
+                @endif
+
+                @if(!empty($content['faq_title']))
+                    <div
+                        class="bg-gradient-to-br from-gray-50 to-purple-50 rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">{{ $content['faq_title'] }}</h2>
+                        @if(!empty($content['faqs']))
+                            <div class="space-y-4 max-w-3xl mx-auto">
+                                @foreach($content['faqs'] as $faq)
+                                    <details class="bg-white rounded-xl shadow-sm border border-gray-200 group">
+                                        <summary
+                                            class="cursor-pointer px-6 py-4 font-semibold text-gray-800 flex justify-between items-center">
+                                            {{ $faq['q'] }}
+                                            <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0"
+                                                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                            </svg>
+                                        </summary>
+                                        <div class="px-6 pb-4 text-gray-600 text-sm leading-relaxed">{{ $faq['a'] }}</div>
+                                    </details>
+                                @endforeach
+                            </div>
+                        @endif
+                    </div>
                 @endif
             </div>
         @endif
@@ -119,48 +205,44 @@
         <script>
             function fmt(n) { return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
 
-            function calculateMortgage() {
-                const totalLoan = parseFloat(document.getElementById('principal').value) - parseFloat(document.getElementById('down-payment').value);
-                const annualRate = parseFloat(document.getElementById('rate').value) / 100;
-                const years = parseInt(document.getElementById('term').value);
-
-                if (totalLoan <= 0 || annualRate < 0 || years <= 0) return;
-
-                const monthlyRate = annualRate / 12;
+            function calcMortgage() {
+                const total = parseFloat(document.getElementById('m-principal').value);
+                const down = parseFloat(document.getElementById('m-down').value) || 0;
+                const P = total - down;
+                const r = parseFloat(document.getElementById('m-rate').value) / 100 / 12;
+                const years = parseInt(document.getElementById('m-term').value);
                 const n = years * 12;
-                const monthly = monthlyRate > 0
-                    ? totalLoan * (monthlyRate * Math.pow(1 + monthlyRate, n)) / (Math.pow(1 + monthlyRate, n) - 1)
-                    : totalLoan / n;
-                const totalPayment = monthly * n;
-                const totalInterest = totalPayment - totalLoan;
 
-                document.getElementById('monthly-payment').innerText = fmt(monthly);
-                document.getElementById('total-payment').innerText = fmt(totalPayment);
-                document.getElementById('total-interest').innerText = fmt(totalInterest);
+                if (P <= 0 || r <= 0 || n <= 0) return;
 
-                // Amortization (show yearly summary)
-                let balance = totalLoan;
-                let html = '';
-                for (let year = 1; year <= years; year++) {
+                const monthly = P * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+                const totalPaid = monthly * n;
+                const totalInterest = totalPaid - P;
+
+                document.getElementById('m-monthly').innerText = fmt(monthly);
+                document.getElementById('m-total').innerText = fmt(totalPaid);
+                document.getElementById('m-interest').innerText = fmt(totalInterest);
+
+                let balance = P, html = '';
+                for (let y = 1; y <= years; y++) {
                     let yearPrincipal = 0, yearInterest = 0;
                     for (let m = 0; m < 12; m++) {
-                        const intPmt = balance * monthlyRate;
-                        const prinPmt = monthly - intPmt;
-                        yearInterest += intPmt;
-                        yearPrincipal += prinPmt;
-                        balance -= prinPmt;
+                        const intPayment = balance * r;
+                        const princPayment = monthly - intPayment;
+                        yearPrincipal += princPayment;
+                        yearInterest += intPayment;
+                        balance -= princPayment;
                     }
-                    if (balance < 0) balance = 0;
                     html += `<tr class="border-t border-gray-100 hover:bg-gray-50">
-                            <td class="px-4 py-2 text-gray-700">Year ${year}</td>
+                            <td class="px-4 py-2 text-gray-700">Year ${y}</td>
                             <td class="px-4 py-2 text-right font-mono">${fmt(monthly * 12)}</td>
                             <td class="px-4 py-2 text-right font-mono text-green-600">${fmt(yearPrincipal)}</td>
-                            <td class="px-4 py-2 text-right font-mono text-red-500">${fmt(yearInterest)}</td>
-                            <td class="px-4 py-2 text-right font-mono">${fmt(balance)}</td>
+                            <td class="px-4 py-2 text-right font-mono text-red-600">${fmt(yearInterest)}</td>
+                            <td class="px-4 py-2 text-right font-mono font-bold">${fmt(Math.max(0, balance))}</td>
                         </tr>`;
                 }
-                document.getElementById('amort-table').innerHTML = html;
-                document.getElementById('mortgage-result').classList.remove('hidden');
+                document.getElementById('m-table').innerHTML = html;
+                document.getElementById('m-result').classList.remove('hidden');
             }
         </script>
     @endpush

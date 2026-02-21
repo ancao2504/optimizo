@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Kalkulačka průměru - Bezplatný výpočet průměru, mediánu a modu | Optimizo",
+        "description": "Okamžitě vypočítejte aritmetický průměr, medián, modus, rozpětí a součet jakékoli sady čísel. Pro studenty a výzkumníky.",
+        "h1": "Kalkulačka průměru",
+        "subtitle": "Získejte průměr, medián, modus, rozpětí a kompletní statistickou analýzu"
+    },
+    "editor": {
+        "label_numbers": "Zadejte svá čísla",
+        "placeholder_numbers": "Zadejte čísla oddělená čárkami, mezerami nebo novými řádky",
+        "btn_calculate": "Vypočítat průměr",
+        "btn_clear": "Vymazat",
+        "label_mean": "Průměr (Mean)",
+        "label_median": "Medián",
+        "label_mode": "Modus",
+        "label_range": "Rozpětí",
+        "label_count": "Počet hodnot",
+        "label_sum": "Součet",
+        "label_min": "Minimum",
+        "label_max": "Maximum",
+        "label_sorted": "Seřazený seznam"
+    },
+    "content": {
+        "what_title": "Co je průměr a jaké má typy",
+        "what_text": "Průměr je míra centrální tendence, která představuje střed nebo typickou hodnotu datového souboru. Ve statistice existují tři hlavní míry centrální tendence: aritmetický průměr (mean), medián a modus. Každý typ je užitečný v různých situacích a distribucích dat. Pochopení těchto konceptů je zásadní nejen ve vzdělávání, ale v každodenním životě, podnikání a rozhodování.",
+        "types_title": "Podrobně o typech průměru",
+        "types": [
+            {
+                "name": "Aritmetický průměr",
+                "desc": "Nejběžnější typ. Součet všech hodnot děleno jejich počtem. Vzorec: průměr = (x₁+x₂+...+xₙ)/n. Ovlivněn odlehlými hodnotami."
+            },
+            {
+                "name": "Medián",
+                "desc": "Střední hodnota v seřazeném datovém souboru. U sudého počtu je to průměr dvou středních hodnot. Není ovlivněn odlehlými hodnotami."
+            },
+            {
+                "name": "Modus",
+                "desc": "Nejčastěji se vyskytující hodnota. Může existovat více modů nebo žádný."
+            },
+            {
+                "name": "Vážený průměr",
+                "desc": "Když mají hodnoty různou váhu. Vzorec: Σ(wᵢ×xᵢ)/Σwᵢ. Klasický příklad: výpočet GPA."
+            }
+        ],
+        "section1_title": "Využití průměru v praxi",
+        "section1_items": [
+            {
+                "title": "Vzdělávání",
+                "text": "Učitelé používají průměr známek a medián pro hodnocení výkonu studentů."
+            },
+            {
+                "title": "Podnikání a finance",
+                "text": "Firmy sledují průměrné tržby, hodnotu zákazníka a průměrné příjmy na uživatele."
+            },
+            {
+                "title": "Věda a výzkum",
+                "text": "Analýza experimentálních dat, směrodatná odchylka a testování hypotéz vyžadují průměr a medián."
+            },
+            {
+                "title": "Zdravotnictví",
+                "text": "Průměrná teplota, krevní tlak, srdeční frekvence — lékaři se na průměry silně spoléhají."
+            },
+            {
+                "title": "Sport",
+                "text": "Průměr odpalů, rychlost, skóre — sportovní statistiky hojně využívají různé typy průměrů."
+            },
+            {
+                "title": "Nemovitosti",
+                "text": "Medián je lepší měřítko cen domů, protože luxusní nemovitosti zkreslují průměr nahoru."
+            }
+        ],
+        "section2_title": "Průměr vs. medián — kdy použít který",
+        "section2_items": [
+            {
+                "title": "Použijte průměr, když",
+                "text": "Data jsou normálně distribuována, nejsou výrazné odlehlé hodnoty a chcete zohlednit všechny hodnoty."
+            },
+            {
+                "title": "Použijte medián, když",
+                "text": "Existují odlehlé hodnoty (data o příjmech), distribuce je zkreslená nebo chcete znát skutečný střed."
+            },
+            {
+                "title": "Použijte modus, když",
+                "text": "Chcete znát nejběžnější hodnotu. Ideální pro kategorická data jako barva nebo velikost."
+            }
+        ],
+        "section3_title": "Běžné chyby, kterým se vyhnout",
+        "section3_items": [
+            "Nespoléhejte pouze na průměr — odlehlé hodnoty ho mohou výrazně zkreslit",
+            "Neignorujte velikost vzorku — průměr z malého vzorku může být nespolehlivý",
+            "Zvažte kontext dat",
+            "Nezaměňujte vážený a nevážený průměr",
+            "Nepočítejte průměr procent přímo, pokud mají základy různou velikost",
+            "Vizualizujte data grafy pro odhalení vzorců a odlehlých hodnot"
+        ],
+        "faq_title": "Často kladené otázky",
+        "faqs": [
+            {
+                "q": "Jaký je rozdíl mezi průměrem a mean?",
+                "a": "V běžné řeči se 'průměr' a 'mean' používají zaměnitelně. Technicky je 'průměr' širší pojem zahrnující mean, medián a modus."
+            },
+            {
+                "q": "Může neexistovat modus?",
+                "a": "Ano. Pokud jsou všechny hodnoty unikátní, modus neexistuje. Pokud mají dvě+ hodnoty stejnou nejvyšší frekvenci, je bimodální nebo multimodální."
+            },
+            {
+                "q": "Jak najdu medián?",
+                "a": "Seřaďte hodnoty. U lichého počtu je medián střední hodnota. U sudého je to průměr dvou středních."
+            },
+            {
+                "q": "Kdy použít vážený průměr?",
+                "a": "Když mají data různou důležitost. Příklady: GPA, výnosy portfolia, průzkumy spokojenosti."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Zadejte prosím platná čísla",
+        "no_mode": "Žádný modus"
+    }
+}

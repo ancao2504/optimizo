@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Calculadora de Juros Compostos - Ferramenta Grátis | Optimizo",
+        "description": "Calcule juros compostos, valor futuro e crescimento de investimentos. Suporta capitalização anual, semestral, trimestral, mensal e diária.",
+        "h1": "Calculadora de Juros Compostos",
+        "subtitle": "Calcule o crescimento do investimento com diferentes frequências de capitalização"
+    },
+    "editor": {
+        "label_principal": "Investimento inicial ($)",
+        "label_rate": "Taxa de juros anual (%)",
+        "label_time": "Período (anos)",
+        "label_frequency": "Frequência de capitalização",
+        "label_contribution": "Aporte mensal ($)",
+        "freq_annually": "Anual",
+        "freq_semiannually": "Semestral",
+        "freq_quarterly": "Trimestral",
+        "freq_monthly": "Mensal",
+        "freq_daily": "Diário",
+        "btn_calculate": "Calcular crescimento",
+        "label_future_value": "Valor futuro",
+        "label_total_interest": "Juros recebidos",
+        "label_total_deposits": "Total investido",
+        "label_breakdown": "Detalhamento anual",
+        "col_year": "Ano",
+        "col_deposits": "Aportes",
+        "col_interest": "Juros",
+        "col_balance": "Saldo"
+    },
+    "content": {
+        "what_title": "Juros compostos: o poder de construir patrimônio",
+        "what_text": "Albert Einstein descreveu os juros compostos como 'a oitava maravilha do mundo'. Diferente dos juros simples calculados apenas sobre o capital, os juros compostos incidem sobre o capital e os juros acumulados, criando o efeito bola de neve.",
+        "formula_title": "Fórmula dos juros compostos",
+        "formula_text": "A = P(1 + r/n)^(nt), A = valor futuro, P = capital, r = taxa anual, n = número de capitalizações por ano, t = tempo (anos)",
+        "section1_title": "Juros simples vs compostos",
+        "section1_text": "Simples: apenas sobre o capital. Compostos: sobre capital e juros acumulados. Exemplo: R$10.000 a 5% por 20 anos: simples = R$20.000, compostos (mensal) = R$27.126 — R$7.126 a mais!",
+        "section2_title": "Comparação de frequências de capitalização",
+        "section2_items": [
+            {
+                "title": "Anual",
+                "text": "Uma vez por ano. 10.000 a 5% = 16.289 em 10 anos."
+            },
+            {
+                "title": "Semestral",
+                "text": "Duas vezes por ano. 10.000 a 5% = 16.386 em 10 anos."
+            },
+            {
+                "title": "Trimestral",
+                "text": "Quatro vezes por ano. 10.000 a 5% = 16.436 em 10 anos."
+            },
+            {
+                "title": "Mensal",
+                "text": "Todo mês. 10.000 a 5% = 16.470 em 10 anos."
+            },
+            {
+                "title": "Diário",
+                "text": "Todo dia. 10.000 a 5% = 16.487 em 10 anos."
+            }
+        ],
+        "section3_title": "Regra dos 72",
+        "section3_text": "Estimativa do tempo de duplicação: Anos = 72 ÷ taxa. A 8% duplica em ~9 anos. A 6% em ~12 anos.",
+        "section4_title": "Aplicações práticas",
+        "section4_items": [
+            {
+                "title": "Aposentadoria",
+                "text": "R$500/mês a 7% por 30 anos = mais de R$500.000."
+            },
+            {
+                "title": "Fundo de educação",
+                "text": "R$200/mês desde o nascimento a 7% = mais de R$86.000 após 18 anos."
+            },
+            {
+                "title": "Reserva de emergência",
+                "text": "R$10.000 a 4% gera mais de R$2.200 de juros em 5 anos sem aportes!"
+            },
+            {
+                "title": "Consciência de dívida",
+                "text": "Juros compostos trabalham contra você em dívidas. Cartão a 20% — R$5.000 pode virar R$12.000+ em 5 anos."
+            }
+        ],
+        "tips_title": "Dicas para maximizar juros compostos",
+        "tips": [
+            "Comece a investir o mais cedo possível — tempo é seu melhor aliado",
+            "Configure aportes mensais automáticos",
+            "Procure investimentos com capitalização mais frequente",
+            "Reinvista dividendos e rendimentos sistematicamente",
+            "Pague dívidas com juros altos primeiro",
+            "Considere a inflação — rentabilidade real = nominal - inflação"
+        ],
+        "faq_title": "Perguntas frequentes",
+        "faqs": [
+            {
+                "q": "Qual a diferença entre juros simples e compostos?",
+                "a": "Simples: apenas sobre o capital. Compostos: sobre capital e juros acumulados."
+            },
+            {
+                "q": "O que é a regra dos 72?",
+                "a": "Fórmula rápida: 72 ÷ taxa = anos para duplicar. A 6% ~12 anos."
+            },
+            {
+                "q": "Capitalização mais frequente é melhor?",
+                "a": "Sim, mas o benefício extra diminui. A diferença mensal-diário é muito menor que anual-mensal."
+            },
+            {
+                "q": "Como maximizar juros compostos?",
+                "a": "Comece cedo, invista regularmente, reinvista e escolha produtos de baixo custo."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Insira números válidos",
+        "error_range": "Valores devem ser maiores que zero"
+    }
+}

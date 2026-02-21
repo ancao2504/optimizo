@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "BMI-beregner - Gratis online Body Mass Index | Optimizo",
+        "description": "Beregn dit BMI øjeblikkeligt med støtte til metriske og imperiale enheder. Find din vægtklasse og sundhedsmæssige implikationer.",
+        "h1": "BMI-beregner",
+        "subtitle": "Beregn dit Body Mass Index og find din sundhedskategori"
+    },
+    "editor": {
+        "label_height": "Højde",
+        "label_weight": "Vægt",
+        "label_unit": "Enhedssystem",
+        "unit_metric": "Metrisk (cm / kg)",
+        "unit_imperial": "Imperial (fod-tommer / pund)",
+        "label_height_cm": "Højde (cm)",
+        "label_height_ft": "Højde (fod)",
+        "label_height_in": "Højde (tommer)",
+        "label_weight_kg": "Vægt (kg)",
+        "label_weight_lbs": "Vægt (pund)",
+        "btn_calculate": "Beregn BMI",
+        "label_result": "Dit BMI",
+        "label_category": "Kategori"
+    },
+    "content": {
+        "what_title": "Hvad er BMI?",
+        "what_text": "Body Mass Index (BMI) er et bredt anvendt screeningsværktøj der estimerer kropsfedt baseret på højde og vægt. Udviklet af den belgiske matematiker Adolphe Quetelet i det 19. århundrede. Selvom BMI ikke direkte måler kropsfedt, giver det en pålidelig indikator for potentielle sundhedsrisici.",
+        "categories_title": "BMI-kategorier og sundhedsimplikationer",
+        "categories": [
+            {
+                "range": "Under 18,5",
+                "label": "Undervægt",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Normal vægt",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Overvægt",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 og over",
+                "label": "Fedme",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "BMI-formel",
+        "formula_metric": "Metrisk: BMI = Vægt (kg) ÷ Højde (m)²",
+        "formula_imperial": "Imperial: BMI = (Vægt (lbs) × 703) ÷ Højde (tommer)²",
+        "section1_title": "BMI-kategorier i detaljer",
+        "section1_items": [
+            {
+                "title": "Undervægt (BMI < 18,5)",
+                "text": "Kan indikere underernæring eller underliggende sundhedsproblemer. Risici inkluderer svækket immunforsvar, knogleskørhed og anæmi."
+            },
+            {
+                "title": "Normal vægt (BMI 18,5 – 24,9)",
+                "text": "BMI i normalområdet indikerer proportional vægt til højde. Forbundet med laveste risiko for vægtrelaterede sundhedsproblemer."
+            },
+            {
+                "title": "Overvægt (BMI 25,0 – 29,9)",
+                "text": "Forbundet med øget risiko for hjertesygdomme, type 2-diabetes, forhøjet blodtryk og søvnapnø."
+            },
+            {
+                "title": "Fedme (BMI ≥ 30,0)",
+                "text": "Forbundet med markant øget risiko for hjertesygdomme, slagtilfælde, type 2-diabetes og visse kræftformer. Opdeles i klasse I (30-34,9), II (35-39,9) og III (40+)."
+            }
+        ],
+        "section2_title": "Begrænsninger ved BMI",
+        "section2_text": "BMI skelner ikke mellem muskelmasse, knogletæthed og fedtvæv. Muskuløse atleter kan klassificeres som overvægtige trods lav fedtprocent. BMI tager heller ikke højde for fedtfordeling i kroppen.",
+        "section3_title": "Faktorer der påvirker BMI",
+        "section3_items": [
+            "Alder: BMI-fortolkning varierer for børn, teenagere og ældre",
+            "Køn: kvinder har naturligt højere fedtprocent end mænd ved samme BMI",
+            "Muskelmasse: atleter har ofte højere BMI på grund af muskler, ikke fedt",
+            "Etnicitet: sundhedsrisici ved forskellige BMI-niveauer kan variere",
+            "Knoglebygning: personer med større fysik kan naturligt have højere BMI",
+            "Fedtfordeling: hvor fedt ophobes er lige så vigtigt som mængden"
+        ],
+        "section4_title": "Tips til sund vægt",
+        "section4_items": [
+            "Sigt efter mindst 150 minutters moderat aerob aktivitet om ugen",
+            "Spis en afbalanceret kost rig på frugt, grøntsager, fuldkorn og protein",
+            "Hold øje med portionsstørrelser",
+            "Hold dig hydreret hele dagen",
+            "Få 7-9 timers kvalitetssøvn om natten",
+            "Håndter stress gennem meditation eller afslapningsteknikker"
+        ],
+        "faq_title": "Ofte stillede spørgsmål",
+        "faqs": [
+            {
+                "q": "Er BMI nøjagtigt for atleter?",
+                "a": "BMI kan overvurdere kropsfedt for atleter. Overvej taljemål, fedtprocent eller DEXA-scanning."
+            },
+            {
+                "q": "Hvad er et sundt BMI for børn?",
+                "a": "Børns BMI fortolkes med alders- og kønsspecifikke percentildiagrammer. BMI mellem 5. og 85. percentil anses for sundt."
+            },
+            {
+                "q": "Hvor ofte bør jeg tjekke BMI?",
+                "a": "Én gang hvert par måneder er tilstrækkeligt. Fokuser på bæredygtige sunde vaner."
+            },
+            {
+                "q": "Kan BMI forudsige hjertesygdomme?",
+                "a": "BMI er én af mange risikofaktorer. Blodtryk, kolesterol, rygning og familiehistorie er lige vigtige."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Indtast venligst gyldige højde- og vægtværdier",
+        "error_range": "Værdier er uden for realistisk område",
+        "cat_underweight": "Undervægt",
+        "cat_normal": "Normal vægt",
+        "cat_overweight": "Overvægt",
+        "cat_obese": "Fedme"
+    }
+}

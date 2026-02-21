@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Average Calculator - Free Mean, Median, Mode Tool | Optimizo",
-        "description": "Calculate the mean, median, mode, and range of a set of numbers. Free online statistics calculator with detailed results.",
+        "title": "Average Calculator - Free Mean, Median, Mode Calculator | Optimizo",
+        "description": "Calculate the mean, median, mode, and range of any number set. Free online statistics calculator with detailed results including count, sum, min, max, and sorted values.",
         "h1": "Average Calculator",
-        "subtitle": "Calculate mean, median, mode, and range of numbers"
+        "subtitle": "Calculate mean, median, mode, range, and more for any set of numbers"
     },
     "editor": {
         "label_numbers": "Enter Numbers",
@@ -21,25 +21,98 @@
         "label_sorted": "Sorted Values"
     },
     "content": {
-        "what_title": "Understanding Averages",
-        "what_text": "An average is a single value that represents the central tendency of a data set. There are three main types: Mean (arithmetic average), Median (middle value), and Mode (most frequent value).",
-        "types_title": "Types of Averages",
+        "what_title": "Understanding Averages — A Comprehensive Guide",
+        "what_text": "An average is a single value that represents the central tendency of a data set — essentially, it tells you what a 'typical' value looks like in your collection of numbers. While most people think of the arithmetic mean when they hear 'average', there are actually several different types of averages, each with its own strengths and best-use scenarios. Understanding which type of average to use and how to interpret it correctly is a fundamental skill in mathematics, statistics, science, business, and everyday decision-making. Our calculator computes all major types simultaneously, giving you a complete statistical picture of your data.",
+        "types_title": "Types of Averages Explained",
         "types": [
             {
-                "name": "Mean",
-                "desc": "Sum of all values divided by the count. Most commonly used average."
+                "name": "Arithmetic Mean",
+                "desc": "The most commonly used average. Calculated by adding all values and dividing by the count. The mean is sensitive to outliers — a single very large or small value can significantly shift the mean away from the typical value."
             },
             {
                 "name": "Median",
-                "desc": "Middle value when data is sorted. Better for skewed data."
+                "desc": "The middle value when all numbers are arranged in order. If there's an even count, the median is the average of the two middle values. The median is resistant to outliers, making it the preferred measure for skewed data like income distributions."
             },
             {
                 "name": "Mode",
-                "desc": "Most frequently occurring value. Useful for categorical data."
+                "desc": "The value that appears most frequently in the data set. A data set can have no mode (all values unique), one mode (unimodal), or multiple modes (bimodal or multimodal). The mode is the only average that works with categorical data."
             },
             {
                 "name": "Range",
-                "desc": "Difference between max and min values. Measures data spread."
+                "desc": "The difference between the maximum and minimum values. While not technically an average, the range provides essential context about how spread out your data is. A small range indicates tightly clustered data, while a large range suggests high variability."
+            }
+        ],
+        "section1_title": "When to Use Each Type of Average",
+        "section1_items": [
+            {
+                "title": "Use Mean When...",
+                "text": "Your data is symmetrically distributed without significant outliers. The mean works best for data like test scores in a class, daily temperatures, or manufacturing measurements where values cluster around a central point. For example, if test scores are 72, 78, 80, 82, and 88, the mean of 80 accurately represents the class performance."
+            },
+            {
+                "title": "Use Median When...",
+                "text": "Your data is skewed or contains outliers. The median is the preferred average for income statistics, home prices, and any data where extreme values can distort the mean. For example, if five people earn $30K, $35K, $40K, $45K, and $500K, the mean salary is $130K (misleadingly high), while the median of $40K better represents the typical earner."
+            },
+            {
+                "title": "Use Mode When...",
+                "text": "Working with categorical data or when you need to know the most common value. The mode is useful for finding the most popular shoe size, the most common complaint, or the most frequent response in a survey. It's the only measure of central tendency that applies to non-numerical data."
+            },
+            {
+                "title": "Use Range When...",
+                "text": "You need to understand the spread or variability of your data. The range is useful for quality control (acceptable product dimensions), weather analysis (temperature variation), and finance (stock price volatility). Complement it with other measures like standard deviation for a more complete picture."
+            }
+        ],
+        "section2_title": "Averages in Real Life — Practical Applications",
+        "section2_items": [
+            {
+                "title": "Education & Grades",
+                "text": "Teachers use mean scores to assess class performance, set grade curves, and compare results across sections. Students use averages to track their academic progress, determine final grades, and set improvement goals for future semesters."
+            },
+            {
+                "title": "Business & Finance",
+                "text": "Companies use averages extensively: average revenue per customer, average order value, average response time, and moving averages for stock market analysis. Understanding which average to use affects business decisions worth millions of dollars."
+            },
+            {
+                "title": "Sports & Athletics",
+                "text": "Batting averages, points per game, shooting percentages, and other athletic averages help evaluate player performance, make drafting decisions, and set contract values. Sports analytics increasingly uses median and advanced statistics alongside simple averages."
+            },
+            {
+                "title": "Science & Research",
+                "text": "Researchers use means and medians to summarize experimental data, compare treatment groups, and report results. The choice between mean and median significantly impacts the interpretation of skewed scientific data."
+            },
+            {
+                "title": "Healthcare & Public Health",
+                "text": "Average blood pressure readings, body temperature norms, and median recovery times are essential for establishing clinical benchmarks, diagnosing conditions, and evaluating treatment effectiveness across populations."
+            },
+            {
+                "title": "Economics & Public Policy",
+                "text": "Government agencies use median household income (not mean) for policy decisions because it better represents typical families. GDP growth rates, inflation averages, and unemployment rates all use different averaging methods depending on the analytical need."
+            }
+        ],
+        "section3_title": "Common Mistakes When Working with Averages",
+        "section3_items": [
+            "Using the mean for skewed data — when income, housing prices, or other naturally skewed data is averaged using the mean, the result is misleadingly high due to outliers pulling the average up",
+            "Ignoring sample size — an average from 5 data points is far less reliable than one from 5,000 data points; always consider the amount of data behind an average",
+            "Comparing averages from different populations — comparing the average test score of a gifted class with a regular class doesn't tell you about the quality of teaching",
+            "Assuming average means 'normal' — an average of 2.3 children per family doesn't mean any family actually has 2.3 children; averages can represent values that no individual data point actually has",
+            "Forgetting to check for outliers — a single data entry error can dramatically shift the mean; always examine your data for errors or extreme values before computing averages"
+        ],
+        "faq_title": "Frequently Asked Questions",
+        "faqs": [
+            {
+                "q": "What is the difference between mean and average?",
+                "a": "In common usage, 'average' and 'mean' are synonymous and refer to the arithmetic mean. However, technically, 'average' is a broader term that encompasses mean, median, and mode — all measures of central tendency."
+            },
+            {
+                "q": "Can a data set have no mode?",
+                "a": "Yes. If all values in a data set are unique (each value appears exactly once), there is no mode. Our calculator will display 'No mode' in this case."
+            },
+            {
+                "q": "What is a weighted average?",
+                "a": "A weighted average assigns different levels of importance (weights) to different values. GPA is a common example: a 4-credit A (4.0) counts more than a 1-credit B (3.0). Weighted average = Σ(value × weight) ÷ Σ(weights)."
+            },
+            {
+                "q": "Which average is best for salary data?",
+                "a": "The median is the preferred average for salary and income data because these distributions are typically right-skewed. High earners pull the mean upward, making it unrepresentative of typical salaries. Government agencies consistently report median household income for this reason."
             }
         ]
     },

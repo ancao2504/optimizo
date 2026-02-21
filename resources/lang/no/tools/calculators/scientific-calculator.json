@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Vitenskapelig Kalkulator - Gratis Matteverktøy | Optimizo",
+        "description": "Gratis online vitenskapelig kalkulator med trigonometriske, logaritmiske og eksponentielle funksjoner. Ideell for studenter og ingeniører.",
+        "h1": "Vitenskapelig Kalkulator",
+        "subtitle": "Avansert kalkulator med trigonometriske, logaritmiske og eksponentielle funksjoner"
+    },
+    "editor": {
+        "label_expression": "Matematisk uttrykk",
+        "placeholder": "Skriv inn et uttrykk (f.eks. sin(45), log(100), 2^8)",
+        "btn_calculate": "Beregn",
+        "label_result": "Resultat",
+        "btn_deg": "Grader",
+        "btn_rad": "Radianer",
+        "btn_clear": "Slett",
+        "btn_backspace": "Tilbake",
+        "btn_history": "Historikk"
+    },
+    "content": {
+        "what_title": "Hva er en vitenskapelig kalkulator?",
+        "what_text": "En vitenskapelig kalkulator er et avansert matematisk verktøy designet for komplekse beregninger utover grunnleggende aritmetikk. Den tilbyr trigonometriske funksjoner (sin, cos, tan), logaritmiske funksjoner (log, ln), eksponenter, røtter, matematiske konstanter som π og e, samt permutasjoner og kombinasjoner.",
+        "features_title": "Hovedfunksjoner",
+        "features": [
+            {
+                "name": "Trigonometriske funksjoner",
+                "desc": "Beregning av sin, cos, tan og inverse funksjoner. Veksle mellom grader og radianer."
+            },
+            {
+                "name": "Logaritmer og eksponenter",
+                "desc": "Vanlig logaritme (log), naturlig logaritme (ln), eksponentiell (e^x) og egendefinerte potenser."
+            },
+            {
+                "name": "Matematiske konstanter",
+                "desc": "Rask tilgang til π (3,14159...) og e (Eulers tall = 2,71828...)."
+            },
+            {
+                "name": "Røtter og potenser",
+                "desc": "Kvadratrot, kubikkrot, n-te rot og potensberegninger."
+            },
+            {
+                "name": "Permutasjoner og kombinasjoner",
+                "desc": "Beregn permutasjoner (nPr) og kombinasjoner (nCr) for sannsynlighetsproblemer."
+            },
+            {
+                "name": "Fakultet",
+                "desc": "Fakultetsoperasjon (n!) for kombinatorikk og sannsynlighetsfordelinger."
+            }
+        ],
+        "section1_title": "Når trenger du en vitenskapelig kalkulator",
+        "section1_items": [
+            {
+                "title": "Fysikk og ingeniørfag",
+                "text": "Fra kraftdekomponering til elektronisk kretsanalyse — uunnværlig."
+            },
+            {
+                "title": "Finans",
+                "text": "Renters rente, nåverdi og låneberegninger krever eksponenter og logaritmer."
+            },
+            {
+                "title": "Statistikk",
+                "text": "Sannsynlighetsberegning, kombinasjoner og statistiske fordelinger."
+            },
+            {
+                "title": "Kjemi",
+                "text": "pH-beregninger, eksponentielt forfall og støkiometri."
+            },
+            {
+                "title": "Matematikk",
+                "text": "Evaluering av grenser for trigonometriske funksjoner og eksponentielle uttrykk."
+            },
+            {
+                "title": "Programmering",
+                "text": "Algoritmekompleksitet O(log n), tallkonverteringer og flyttallsoperasjoner."
+            }
+        ],
+        "tips_title": "Tips for effektiv bruk",
+        "tips": [
+            "Sjekk alltid vinkelmodus (grader eller radianer) før trigonometriske beregninger",
+            "Bruk parenteser for å gruppere operasjoner korrekt",
+            "Husk: log = vanlig logaritme, ln = naturlig logaritme (base e)",
+            "Svært store/små tall vises i vitenskapelig notasjon",
+            "Bruk historikk for å gå gjennom tidligere beregninger",
+            "Verifiser nøyaktigheten ved å løse på flere måter"
+        ],
+        "faq_title": "Ofte stilte spørsmål",
+        "faqs": [
+            {
+                "q": "Hva er forskjellen mellom grader og radianer?",
+                "a": "To måter å måle vinkler. Full sirkel = 360° eller 2π radianer. Konvertering: grader = radianer × (180/π)."
+            },
+            {
+                "q": "Hva er e (Eulers tall)?",
+                "a": "e (≈ 2,71828) er en grunnleggende matematisk konstant i naturlig vekst, eksponentielt forfall og renters rente."
+            },
+            {
+                "q": "Hvordan beregner jeg en logaritme med egendefinert base?",
+                "a": "Byttformel: log_b(x) = log(x) / log(b). Eksempel: log_2(8) = log(8) / log(2) = 3."
+            },
+            {
+                "q": "Hvorfor kan jeg ikke beregne logaritmen av et negativt tall?",
+                "a": "I de reelle tallene er logaritmen bare definert for positive tall."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Ugyldig matematisk uttrykk",
+        "error_domain": "Domenefeil: verdien er utenfor tillatt område"
+    }
+}

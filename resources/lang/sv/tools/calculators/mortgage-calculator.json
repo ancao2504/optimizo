@@ -1,0 +1,97 @@
+{
+    "meta": {
+        "title": "Bolånekalkylator - Gratis Verktyg | Optimizo",
+        "description": "Beräkna månadskostnaden för ditt bolån, total ränta och se amorteringsplanen. Gratis verktyg för bostadsköpare.",
+        "h1": "Bolånekalkylator",
+        "subtitle": "Beräkna månadskostnad, total ränta och amorteringsplan"
+    },
+    "editor": {
+        "label_principal": "Lånebelopp ($)",
+        "label_rate": "Årsränta (%)",
+        "label_term": "Löptid (år)",
+        "label_down_payment": "Kontantinsats ($)",
+        "btn_calculate": "Beräkna lån",
+        "label_monthly": "Månadskostnad",
+        "label_total_payment": "Totala betalningar",
+        "label_total_interest": "Total ränta",
+        "label_schedule": "Amorteringsplan",
+        "col_month": "Månad",
+        "col_payment": "Betalning",
+        "col_principal": "Amortering",
+        "col_interest": "Ränta",
+        "col_balance": "Saldo"
+    },
+    "content": {
+        "what_title": "Förstå bolånebetalningar",
+        "what_text": "Ett bolån är ett lån avsett för fastighetsköp, där fastigheten fungerar som säkerhet. Det är vanligtvis det största ekonomiska åtagandet, med löptider på 15 till 30 år.",
+        "formula_title": "Formel för månadskostnad",
+        "formula_text": "M = P × [r(1+r)ⁿ] / [(1+r)ⁿ – 1], M = månadskostnad, P = lånebelopp, r = månadsränta, n = totalt antal betalningar",
+        "section1_title": "Hur månadskostnader fungerar",
+        "section1_text": "Varje betalning delas i amortering och ränta. I början går det mesta till ränta. Med tiden vänds proportionen. Denna process kallas amortering.",
+        "section2_title": "Typer av bolån",
+        "section2_items": [
+            {
+                "title": "Fast ränta",
+                "text": "Räntan förblir oförändrad under hela löptiden. Förutsägbara betalningar."
+            },
+            {
+                "title": "Rörlig ränta",
+                "text": "Kan ändras beroende på marknadsförhållanden. Ofta lägre initialt."
+            },
+            {
+                "title": "Annuitetslån",
+                "text": "Lika stora betalningar under hela lånetiden."
+            },
+            {
+                "title": "Rak amortering",
+                "text": "Lika stor amortering varje månad, sjunkande ränta. Lägre totalkostnad."
+            },
+            {
+                "title": "Topplån",
+                "text": "Kompletterande lån utöver det ordinarie bolånet."
+            }
+        ],
+        "section3_title": "Faktorer som påverkar betalningarna",
+        "section3_items": [
+            "Lånebeloppet påverkar direkt månadskostnaden",
+            "En liten skillnad i ränta kan kosta hundratusentals under löptiden",
+            "Kortare löptid = högre betalning men mycket mindre ränta",
+            "Större kontantinsats minskar lånet och betalningarna",
+            "Hemförsäkring är vanligtvis obligatorisk",
+            "Lagfart och pantbrev är engångskostnader",
+            "Fastighetsskatt är en årlig kostnad att beakta"
+        ],
+        "tips_title": "Tips för smart bostadsköp",
+        "tips": [
+            "Få lånelöfte före bostadsjakt",
+            "Lägg så stor kontantinsats som möjligt",
+            "Jämför erbjudanden från 3-5+ banker",
+            "Räkna med alla kostnader: skatt, försäkring, underhåll",
+            "Överväg extra amortering när möjligt",
+            "Inkludera tilläggskostnader: lagfart, pantbrev, besiktning"
+        ],
+        "faq_title": "Vanliga frågor",
+        "faqs": [
+            {
+                "q": "Hur mycket kan jag låna?",
+                "a": "Tumregel: betalningen bör inte överstiga 30-35% av nettoinkomsten per månad."
+            },
+            {
+                "q": "Fast eller rörlig ränta?",
+                "a": "Fast ger trygghet, rörlig kan vara lägre. Beror på din risktolerans."
+            },
+            {
+                "q": "Annuitet eller rak amortering?",
+                "a": "Annuitet: samma belopp varje månad. Rak: högre i början, lägre totalkostnad."
+            },
+            {
+                "q": "Lönar sig extra amortering?",
+                "a": "Ja, tidig extra amortering ger stora räntebesparingar."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Ange giltiga tal",
+        "error_range": "Värdena måste vara större än noll"
+    }
+}

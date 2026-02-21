@@ -1,0 +1,139 @@
+{
+    "meta": {
+        "title": "Kalkulator IPK - Indeks Prestasi Kumulatif Gratis | Optimizo",
+        "description": "Hitung IPK Anda dengan akurat. Mendukung banyak mata kuliah, SKS, dan nilai. Untuk mahasiswa dan akademisi.",
+        "h1": "Kalkulator IPK",
+        "subtitle": "Hitung Indeks Prestasi Kumulatif dari mata kuliah dan SKS"
+    },
+    "editor": {
+        "label_course": "Nama mata kuliah",
+        "placeholder_course": "Misal Matematika Dasar",
+        "label_grade": "Nilai",
+        "label_credits": "SKS",
+        "btn_add_course": "Tambah mata kuliah",
+        "btn_calculate": "Hitung IPK",
+        "btn_reset": "Reset",
+        "btn_remove": "Hapus",
+        "label_result": "IPK Anda",
+        "label_total_credits": "Total SKS",
+        "label_total_points": "Total poin"
+    },
+    "content": {
+        "what_title": "Apa itu IPK dan mengapa penting?",
+        "what_text": "Indeks Prestasi Kumulatif (IPK) / Grade Point Average (GPA) adalah metode standar untuk mengukur prestasi akademik. Dihitung pada skala 0,00 hingga 4,00. IPK sangat penting untuk: beasiswa, seleksi pascasarjana, pertukaran pelajar, lamaran kerja, dan kelulusan dengan predikat.",
+        "scale_title": "Skala nilai IPK",
+        "scale": [
+            {
+                "grade": "A / A+",
+                "points": "4.0",
+                "percent": "85-100%"
+            },
+            {
+                "grade": "A-",
+                "points": "3.7",
+                "percent": "80-84%"
+            },
+            {
+                "grade": "B+",
+                "points": "3.3",
+                "percent": "75-79%"
+            },
+            {
+                "grade": "B",
+                "points": "3.0",
+                "percent": "70-74%"
+            },
+            {
+                "grade": "B-",
+                "points": "2.7",
+                "percent": "65-69%"
+            },
+            {
+                "grade": "C+",
+                "points": "2.3",
+                "percent": "60-64%"
+            },
+            {
+                "grade": "C",
+                "points": "2.0",
+                "percent": "55-59%"
+            },
+            {
+                "grade": "C-",
+                "points": "1.7",
+                "percent": "50-54%"
+            },
+            {
+                "grade": "D",
+                "points": "1.0",
+                "percent": "40-49%"
+            },
+            {
+                "grade": "E",
+                "points": "0.0",
+                "percent": "0-39%"
+            }
+        ],
+        "section1_title": "Cara menghitung IPK",
+        "section1_text": "IPK adalah rata-rata berbobot dari poin nilai dan SKS. Prosedur: 1) Tentukan bobot setiap nilai. 2) Kalikan bobot dengan SKS. 3) Jumlahkan semua hasil kali. 4) Bagi dengan total SKS. Contoh: Matematika (3 SKS, B=3,0) dan Fisika (4 SKS, A=4,0), IPK = (9+16)/7 = 3,57.",
+        "section2_title": "Mengapa IPK penting",
+        "section2_items": [
+            {
+                "title": "Beasiswa",
+                "text": "Hampir semua beasiswa mensyaratkan IPK minimum. Beasiswa unggulan biasanya 3,0+ hingga 3,5+."
+            },
+            {
+                "title": "Pascasarjana",
+                "text": "Program S2 dan S3 mensyaratkan IPK kompetitif (umumnya 3,0+)."
+            },
+            {
+                "title": "Pertukaran pelajar",
+                "text": "Program pertukaran internasional mensyaratkan IPK minimum."
+            },
+            {
+                "title": "Karier",
+                "text": "Banyak perusahaan menggunakan IPK sebagai kriteria seleksi, terutama untuk fresh graduate."
+            },
+            {
+                "title": "Kelulusan dengan predikat",
+                "text": "Cum laude (3,51-3,75), magna cum laude (3,76-3,90), summa cum laude (3,91-4,00)."
+            }
+        ],
+        "section3_title": "Tips meningkatkan IPK",
+        "section3_items": [
+            "Tetapkan target IPK realistis setiap semester",
+            "Bentuk kelompok belajar untuk mata kuliah sulit",
+            "Manfaatkan jam konsultasi dosen",
+            "Tingkatkan manajemen waktu",
+            "Manfaatkan layanan bimbingan belajar gratis",
+            "Jaga kesehatan: tidur, olahraga, dan nutrisi meningkatkan konsentrasi",
+            "Ikuti tugas tambahan dan ekstra kredit",
+            "Jangan menunda — usaha konsisten memberikan hasil lebih baik"
+        ],
+        "section4_title": "Sistem penilaian di Indonesia",
+        "section4_text": "Indonesia menggunakan skala 0-4 dengan huruf A hingga E. Konversi umum: A=4,0, B=3,0, C=2,0, D=1,0, E=0. Beberapa kampus menggunakan A+, A, A- dll. Predikat kelulusan berdasarkan IPK kumulatif.",
+        "faq_title": "Pertanyaan yang sering diajukan",
+        "faqs": [
+            {
+                "q": "Apa perbedaan IPS dan IPK?",
+                "a": "IPS: Indeks Prestasi Semester (satu semester). IPK: Indeks Prestasi Kumulatif (akumulasi semua semester)."
+            },
+            {
+                "q": "Berapa IPK yang bagus?",
+                "a": "3,00 (B) bagus, 3,50 sangat bagus, dan 3,75+ luar biasa."
+            },
+            {
+                "q": "Bisakah mengulang mata kuliah untuk perbaikan nilai?",
+                "a": "Ya, kebanyakan perguruan tinggi memperbolehkan mengulang mata kuliah dengan nilai terbaik yang dihitung."
+            },
+            {
+                "q": "Bagaimana SKS mempengaruhi IPK?",
+                "a": "IPK adalah rata-rata berbobot, jadi mata kuliah dengan SKS lebih besar memiliki dampak lebih besar."
+            }
+        ]
+    },
+    "js": {
+        "error_no_courses": "Tambahkan setidaknya satu mata kuliah",
+        "error_invalid_credits": "Masukkan SKS yang valid"
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Calcolatrice Media - Media, Mediana e Moda Gratuita | Optimizo",
+        "description": "Calcola media aritmetica, mediana, moda, intervallo e somma di qualsiasi serie di numeri. Per studenti e ricercatori.",
+        "h1": "Calcolatrice Media",
+        "subtitle": "Ottieni media, mediana, moda, intervallo e analisi statistica completa"
+    },
+    "editor": {
+        "label_numbers": "Inserisci i tuoi numeri",
+        "placeholder_numbers": "Numeri separati da virgole, spazi o a capo",
+        "btn_calculate": "Calcola media",
+        "btn_clear": "Cancella",
+        "label_mean": "Media aritmetica (Mean)",
+        "label_median": "Mediana (Median)",
+        "label_mode": "Moda (Mode)",
+        "label_range": "Intervallo",
+        "label_count": "Numero di valori",
+        "label_sum": "Somma",
+        "label_min": "Minimo",
+        "label_max": "Massimo",
+        "label_sorted": "Lista ordinata"
+    },
+    "content": {
+        "what_title": "Cos'è la media e quali tipi esistono?",
+        "what_text": "La media è una misura di tendenza centrale che rappresenta il valore tipico di un insieme di dati. In statistica esistono tre misure principali: media aritmetica, mediana e moda. Ciascuna ha i suoi punti di forza. Capirle è essenziale in istruzione, ricerca, affari e decisioni quotidiane.",
+        "types_title": "Tipi di medie",
+        "types": [
+            {
+                "name": "Media aritmetica",
+                "desc": "Il tipo più comune. Somma dei valori divisa per il loro numero. Formula: (x₁+x₂+...+xₙ)/n. Sensibile ai valori estremi."
+            },
+            {
+                "name": "Mediana",
+                "desc": "Il valore centrale dei dati ordinati. Con numero pari: media dei due centrali. Resistente ai valori estremi."
+            },
+            {
+                "name": "Moda",
+                "desc": "Il valore più frequente. Possono essercene più d'una o nessuna."
+            },
+            {
+                "name": "Media ponderata",
+                "desc": "Quando i valori hanno pesi diversi. Formula: Σ(wᵢ×xᵢ)/Σwᵢ. Esempio classico: il GPA."
+            }
+        ],
+        "section1_title": "Le medie nella pratica",
+        "section1_items": [
+            {
+                "title": "Istruzione",
+                "text": "Gli insegnanti usano media e mediana dei voti per valutare il rendimento complessivo."
+            },
+            {
+                "title": "Business",
+                "text": "Le aziende monitorano vendite medie, valore cliente e ricavo per utente."
+            },
+            {
+                "title": "Scienza e ricerca",
+                "text": "Analisi dati sperimentali, deviazione standard e test d'ipotesi richiedono le medie."
+            },
+            {
+                "title": "Salute",
+                "text": "Temperatura media, pressione, frequenza cardiaca — i professionisti sanitari si affidano fortemente alle medie."
+            },
+            {
+                "title": "Sport",
+                "text": "Media battuta, velocità, punteggio — le statistiche sportive usano ampiamente le medie."
+            },
+            {
+                "title": "Immobiliare",
+                "text": "La mediana è migliore per i prezzi degli immobili perché le proprietà costose distorcono la media."
+            }
+        ],
+        "section2_title": "Media vs mediana — quando usare quale",
+        "section2_items": [
+            {
+                "title": "Usa la media quando",
+                "text": "I dati sono distribuiti normalmente, senza valori estremi significativi."
+            },
+            {
+                "title": "Usa la mediana quando",
+                "text": "Ci sono valori estremi (come i redditi), distribuzione asimmetrica."
+            },
+            {
+                "title": "Usa la moda quando",
+                "text": "Vuoi il valore più frequente. Ideale per dati categorici."
+            }
+        ],
+        "section3_title": "Errori comuni da evitare",
+        "section3_items": [
+            "Non affidarti solo alla media — i valori estremi possono distorcerla",
+            "Non trascurare la dimensione del campione",
+            "Considera sempre il contesto dei dati",
+            "Non confondere media ponderata e non ponderata",
+            "Non fare la media di percentuali con basi diverse",
+            "Visualizza sempre i dati con grafici"
+        ],
+        "faq_title": "Domande frequenti",
+        "faqs": [
+            {
+                "q": "Qual è la differenza tra media e mean?",
+                "a": "Nel linguaggio comune sono sinonimi. Tecnicamente, 'media' è un termine più ampio che include mean, mediana e moda."
+            },
+            {
+                "q": "La moda può non esistere?",
+                "a": "Sì. Se tutti i valori sono unici, non c'è moda."
+            },
+            {
+                "q": "Come trovo la mediana?",
+                "a": "Ordina i valori. Numero dispari: valore centrale. Pari: media dei due centrali."
+            },
+            {
+                "q": "Quando uso la media ponderata?",
+                "a": "Quando i dati hanno importanza diversa. Esempi: GPA, rendimento del portafoglio, soddisfazione clienti."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Inserisci numeri validi",
+        "no_mode": "Nessuna moda"
+    }
+}

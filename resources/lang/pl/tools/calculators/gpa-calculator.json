@@ -1,0 +1,134 @@
+{
+    "meta": {
+        "title": "Kalkulator GPA - Darmowa Średnia Ocen | Optimizo",
+        "description": "Oblicz GPA dokładnie. Obsługuje wiele przedmiotów, punkty kredytowe i wartości ocen. Dla studentów i akademików.",
+        "h1": "Kalkulator GPA",
+        "subtitle": "Oblicz średnią ocen na podstawie przedmiotów i punktów"
+    },
+    "editor": {
+        "label_course": "Nazwa przedmiotu",
+        "placeholder_course": "Np. Matematyka 101",
+        "label_grade": "Ocena",
+        "label_credits": "Punkty ECTS",
+        "btn_add_course": "Dodaj przedmiot",
+        "btn_calculate": "Oblicz GPA",
+        "btn_reset": "Resetuj",
+        "btn_remove": "Usuń",
+        "label_result": "Twoje GPA",
+        "label_total_credits": "Łączne punkty",
+        "label_total_points": "Łączne punkty GPA"
+    },
+    "content": {
+        "what_title": "Czym jest GPA i dlaczego jest ważne?",
+        "what_text": "GPA (Grade Point Average) to standardowa metoda pomiaru osiągnięć akademickich. Obliczana w skali od 0,0 do 4,0, gdzie 4,0 reprezentuje najwyższe wyniki. GPA jest kluczowe dla przyjęć na uczelnie, stypendiów i możliwości kariery.",
+        "scale_title": "Skala ocen GPA",
+        "scale": [
+            {
+                "grade": "A / A+",
+                "points": "4.0",
+                "percent": "90-100%"
+            },
+            {
+                "grade": "A-",
+                "points": "3.7",
+                "percent": "87-89%"
+            },
+            {
+                "grade": "B+",
+                "points": "3.3",
+                "percent": "83-86%"
+            },
+            {
+                "grade": "B",
+                "points": "3.0",
+                "percent": "80-82%"
+            },
+            {
+                "grade": "B-",
+                "points": "2.7",
+                "percent": "77-79%"
+            },
+            {
+                "grade": "C+",
+                "points": "2.3",
+                "percent": "73-76%"
+            },
+            {
+                "grade": "C",
+                "points": "2.0",
+                "percent": "70-72%"
+            },
+            {
+                "grade": "D",
+                "points": "1.0",
+                "percent": "60-69%"
+            },
+            {
+                "grade": "F",
+                "points": "0.0",
+                "percent": "0-59%"
+            }
+        ],
+        "section1_title": "Jak oblicza się GPA",
+        "section1_text": "GPA to średnia ważona punktów za oceny ważonych punktami ECTS. Przykład: Matematyka (6 ECTS, B=3,0) i Fizyka (4 ECTS, A=4,0), GPA = (18+16)/10 = 3,4.",
+        "section2_title": "Dlaczego GPA jest ważne",
+        "section2_items": [
+            {
+                "title": "Rekrutacja na studia",
+                "text": "Większość uczelni uwzględnia GPA jako kluczowy czynnik."
+            },
+            {
+                "title": "Stypendia",
+                "text": "Wiele stypendiów wymaga minimalnego GPA. Stypendia za wyniki: 3,0-3,5+."
+            },
+            {
+                "title": "Studia podyplomowe",
+                "text": "MBA, prawo, medycyna wymagają konkurencyjnego GPA."
+            },
+            {
+                "title": "Możliwości kariery",
+                "text": "Wielu pracodawców używa GPA jako kryterium selekcji."
+            },
+            {
+                "title": "Wyróżnienia akademickie",
+                "text": "Cum laude (3,5+), magna cum laude i summa cum laude."
+            }
+        ],
+        "section3_title": "Wskazówki poprawy GPA",
+        "section3_items": [
+            "Wyznacz realistyczne cele GPA na każdy semestr",
+            "Twórz grupy naukowe dla trudnych przedmiotów",
+            "Korzystaj z konsultacji wykładowców",
+            "Popraw zarządzanie czasem za pomocą planera",
+            "Korzystaj z darmowych korepetycji",
+            "Dbaj o zdrowie: sen, ćwiczenia i odżywianie poprawiają koncentrację",
+            "Wykorzystuj okazje do dodatkowych punktów",
+            "Zacznij wcześnie — systematyczna praca daje lepsze wyniki"
+        ],
+        "section4_title": "Polski system oceniania",
+        "section4_text": "Polska używa skali 2-5 (lub 2-6), gdzie 5 (lub 6) to najwyższa ocena, a 2 to niedostateczna. Przybliżona konwersja: 5 ≈ 4,0 GPA, 4,5 ≈ 3,5, 4 ≈ 3,0, 3,5 ≈ 2,5, 3 ≈ 2,0. System ECTS używany jest do porównań międzynarodowych.",
+        "faq_title": "Często zadawane pytania",
+        "faqs": [
+            {
+                "q": "GPA vs średnia ocen?",
+                "a": "Oba mierzą wyniki akademickie. GPA to skala 4,0, polski system to skala 2-5 (lub 2-6)."
+            },
+            {
+                "q": "Jakie GPA jest dobre?",
+                "a": "3,0 (B) jest dobre, 3,5 jest doskonałe, 3,7+ jest wybitne."
+            },
+            {
+                "q": "Czy mogę poprawić egzamin?",
+                "a": "Większość uczelni pozwala na egzamin poprawkowy. Lepsza ocena jest zaliczana."
+            },
+            {
+                "q": "Jak punkty ECTS wpływają na GPA?",
+                "a": "To średnia ważona, więc przedmioty z większą liczbą ECTS mają większy wpływ."
+            }
+        ]
+    },
+    "js": {
+        "error_no_courses": "Dodaj co najmniej jeden przedmiot",
+        "error_invalid_credits": "Wprowadź prawidłowe punkty"
+    }
+}

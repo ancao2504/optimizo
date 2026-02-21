@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "Kalkulator BMI - Indeks Massa Tubuh Gratis | Optimizo",
+        "description": "Hitung BMI Anda secara instan dengan dukungan metrik dan imperial. Temukan kategori berat badan dan dampak kesehatannya.",
+        "h1": "Kalkulator BMI",
+        "subtitle": "Hitung Indeks Massa Tubuh Anda dan temukan kategori kesehatan Anda"
+    },
+    "editor": {
+        "label_height": "Tinggi badan",
+        "label_weight": "Berat badan",
+        "label_unit": "Sistem satuan",
+        "unit_metric": "Metrik (cm / kg)",
+        "unit_imperial": "Imperial (kaki-inci / pon)",
+        "label_height_cm": "Tinggi (cm)",
+        "label_height_ft": "Tinggi (kaki)",
+        "label_height_in": "Tinggi (inci)",
+        "label_weight_kg": "Berat (kg)",
+        "label_weight_lbs": "Berat (pon)",
+        "btn_calculate": "Hitung BMI",
+        "label_result": "BMI Anda",
+        "label_category": "Kategori"
+    },
+    "content": {
+        "what_title": "Apa itu BMI?",
+        "what_text": "Indeks Massa Tubuh (BMI) adalah alat skrining yang banyak digunakan untuk memperkirakan lemak tubuh berdasarkan tinggi dan berat badan. Dikembangkan oleh matematikawan Belgia Adolphe Quetelet pada abad ke-19. Meskipun tidak mengukur langsung lemak tubuh, BMI memberikan indikator yang andal untuk potensi risiko kesehatan.",
+        "categories_title": "Kategori BMI dan dampak kesehatan",
+        "categories": [
+            {
+                "range": "Di bawah 18,5",
+                "label": "Berat badan kurang",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Berat badan normal",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Berat badan berlebih",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 ke atas",
+                "label": "Obesitas",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "Rumus BMI",
+        "formula_metric": "Metrik: BMI = Berat (kg) ÷ Tinggi (m)²",
+        "formula_imperial": "Imperial: BMI = (Berat (lbs) × 703) ÷ Tinggi (inci)²",
+        "section1_title": "Kategori BMI secara detail",
+        "section1_items": [
+            {
+                "title": "Berat badan kurang (BMI < 18,5)",
+                "text": "Dapat menunjukkan kekurangan gizi atau masalah kesehatan. Risiko: sistem imun lemah, osteoporosis, dan anemia."
+            },
+            {
+                "title": "Berat badan normal (BMI 18,5 – 24,9)",
+                "text": "Berat proporsional terhadap tinggi. Risiko terendah masalah kesehatan terkait berat."
+            },
+            {
+                "title": "Berat badan berlebih (BMI 25,0 – 29,9)",
+                "text": "Risiko meningkat untuk penyakit jantung, diabetes tipe 2, tekanan darah tinggi, dan sleep apnea."
+            },
+            {
+                "title": "Obesitas (BMI ≥ 30,0)",
+                "text": "Risiko sangat tinggi untuk penyakit jantung, stroke, diabetes, dan kanker tertentu. Kelas I (30-34,9), II (35-39,9), III (40+)."
+            }
+        ],
+        "section2_title": "Keterbatasan BMI",
+        "section2_text": "BMI tidak membedakan antara massa otot, kepadatan tulang, dan jaringan lemak. Atlet berotot mungkin dikategorikan berat berlebih meskipun persentase lemak rendah.",
+        "section3_title": "Faktor yang mempengaruhi BMI",
+        "section3_items": [
+            "Usia: interpretasi berbeda untuk anak-anak, remaja, dan lansia",
+            "Jenis kelamin: wanita secara alami memiliki persentase lemak lebih tinggi",
+            "Massa otot: atlet sering memiliki BMI lebih tinggi karena otot",
+            "Etnisitas: risiko kesehatan pada tingkat BMI berbeda dapat bervariasi",
+            "Rangka tubuh: orang berbadan besar mungkin memiliki BMI yang secara alami lebih tinggi",
+            "Distribusi lemak: di mana lemak disimpan sama pentingnya dengan jumlahnya"
+        ],
+        "section4_title": "Tips menjaga berat badan sehat",
+        "section4_items": [
+            "Targetkan minimal 150 menit aktivitas aerobik sedang per minggu",
+            "Diet seimbang: buah, sayur, biji-bijian utuh, dan protein",
+            "Perhatikan porsi makan",
+            "Minum cukup air sepanjang hari",
+            "Tidur 7-9 jam berkualitas setiap malam",
+            "Kelola stres melalui meditasi atau teknik relaksasi"
+        ],
+        "faq_title": "Pertanyaan yang sering diajukan",
+        "faqs": [
+            {
+                "q": "Apakah BMI akurat untuk atlet?",
+                "a": "BMI mungkin melebih-lebihkan lemak tubuh. Pertimbangkan lingkar pinggang, persentase lemak, atau pemindaian DEXA."
+            },
+            {
+                "q": "Berapa BMI sehat untuk anak-anak?",
+                "a": "Diinterpretasikan menggunakan kurva persentil berdasarkan usia dan jenis kelamin. Antara persentil 5 dan 85 dianggap sehat."
+            },
+            {
+                "q": "Seberapa sering memeriksa BMI?",
+                "a": "Beberapa bulan sekali sudah cukup. Fokus pada kebiasaan sehat yang berkelanjutan."
+            },
+            {
+                "q": "Bisakah BMI memprediksi penyakit jantung?",
+                "a": "BMI adalah salah satu dari banyak faktor risiko. Tekanan darah, kolesterol, dan riwayat keluarga sama pentingnya."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Masukkan nilai tinggi dan berat yang valid",
+        "error_range": "Nilai di luar rentang yang realistis",
+        "cat_underweight": "Berat badan kurang",
+        "cat_normal": "Berat badan normal",
+        "cat_overweight": "Berat badan berlebih",
+        "cat_obese": "Obesitas"
+    }
+}

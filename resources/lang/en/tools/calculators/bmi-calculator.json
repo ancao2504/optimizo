@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "BMI Calculator - Free Body Mass Index Tool | Optimizo",
-        "description": "Calculate your Body Mass Index (BMI) instantly. Enter your height and weight to find out your BMI category: underweight, normal, overweight, or obese.",
+        "title": "BMI Calculator - Free Body Mass Index Calculator Online | Optimizo",
+        "description": "Calculate your Body Mass Index (BMI) instantly with our free online BMI calculator. Supports metric and imperial units. Find your BMI category and understand what it means for your health.",
         "h1": "BMI Calculator",
-        "subtitle": "Calculate your Body Mass Index and health category"
+        "subtitle": "Calculate your Body Mass Index and health category with metric or imperial units"
     },
     "editor": {
         "label_height": "Height",
@@ -12,8 +12,8 @@
         "unit_metric": "Metric (cm / kg)",
         "unit_imperial": "Imperial (ft-in / lbs)",
         "label_height_cm": "Height (cm)",
-        "label_height_ft": "Height (ft)",
-        "label_height_in": "Height (in)",
+        "label_height_ft": "Height (feet)",
+        "label_height_in": "Height (inches)",
         "label_weight_kg": "Weight (kg)",
         "label_weight_lbs": "Weight (lbs)",
         "btn_calculate": "Calculate BMI",
@@ -21,9 +21,9 @@
         "label_category": "Category"
     },
     "content": {
-        "what_title": "What is BMI?",
-        "what_text": "Body Mass Index (BMI) is a measure of body fat based on height and weight. It is widely used as a screening tool to categorize individuals into weight categories: Underweight, Normal weight, Overweight, and Obese.",
-        "categories_title": "BMI Categories",
+        "what_title": "What is Body Mass Index (BMI)?",
+        "what_text": "Body Mass Index (BMI) is a widely used screening tool that estimates body fat based on your height and weight. Developed by Belgian mathematician Adolphe Quetelet in the early 19th century, BMI has become the most commonly used method by healthcare professionals worldwide to classify individuals into weight categories. While BMI is not a direct measurement of body fat percentage, it provides a reliable indicator of potential health risks associated with being underweight, overweight, or obese. The formula is simple: BMI equals your weight in kilograms divided by the square of your height in meters.",
+        "categories_title": "BMI Categories & Health Implications",
         "categories": [
             {
                 "range": "Below 18.5",
@@ -32,7 +32,7 @@
             },
             {
                 "range": "18.5 – 24.9",
-                "label": "Normal weight",
+                "label": "Normal Weight",
                 "color": "#10B981"
             },
             {
@@ -46,14 +46,73 @@
                 "color": "#EF4444"
             }
         ],
-        "formula_title": "BMI Formula",
-        "formula_text": "BMI = weight (kg) / height (m)²"
+        "formula_title": "BMI Formulas",
+        "formula_metric": "Metric: BMI = Weight (kg) ÷ Height (m)²",
+        "formula_imperial": "Imperial: BMI = (Weight (lbs) × 703) ÷ Height (inches)²",
+        "section1_title": "Understanding BMI Categories in Detail",
+        "section1_items": [
+            {
+                "title": "Underweight (BMI < 18.5)",
+                "text": "Being underweight can indicate nutritional deficiencies, eating disorders, or underlying health conditions. People in this category may face risks including weakened immune function, fragile bones (osteoporosis), fertility problems, and anemia. If your BMI falls in this range, consult a healthcare professional to rule out medical causes and develop a healthy nutrition plan."
+            },
+            {
+                "title": "Normal Weight (BMI 18.5 – 24.9)",
+                "text": "A BMI in the normal range suggests that your weight is proportional to your height, which is generally associated with the lowest risk of weight-related health problems. People in this category typically have better cardiovascular health, more stable blood sugar levels, and lower risk of joint problems. Maintaining a normal BMI through balanced nutrition and regular physical activity is one of the best things you can do for your long-term health."
+            },
+            {
+                "title": "Overweight (BMI 25.0 – 29.9)",
+                "text": "Being classified as overweight means carrying excess body weight for your height. This category is associated with increased risk of cardiovascular disease, type 2 diabetes, high blood pressure, sleep apnea, and certain types of cancer. However, BMI alone doesn't distinguish between excess fat and muscle mass. Athletes and physically active individuals may fall into this range due to higher muscle density."
+            },
+            {
+                "title": "Obese (BMI ≥ 30.0)",
+                "text": "Obesity is a complex medical condition associated with significantly elevated risks of heart disease, stroke, type 2 diabetes, certain cancers, and metabolic syndrome. The obese category is further divided into Class I (BMI 30-34.9), Class II (BMI 35-39.9), and Class III or severe obesity (BMI 40+). Treatment options include lifestyle modifications, medical interventions, and in severe cases, bariatric surgery."
+            }
+        ],
+        "section2_title": "Limitations of BMI — What You Should Know",
+        "section2_text": "While BMI is a useful screening tool, it has important limitations that you should be aware of. BMI does not directly measure body fat percentage, and it cannot distinguish between muscle mass, bone density, and fat tissue. This means that muscular athletes may be classified as overweight or obese despite having low body fat percentages. Similarly, elderly individuals who have lost muscle mass may have a normal BMI while carrying unhealthy levels of body fat. BMI also does not account for the distribution of fat in the body — visceral fat (around the organs) poses greater health risks than subcutaneous fat (under the skin), but BMI treats all body weight equally.",
+        "section3_title": "Factors That Influence Your BMI",
+        "section3_items": [
+            "Age: BMI interpretation may vary for children, teenagers, and elderly adults",
+            "Gender: Women naturally carry more body fat than men at the same BMI",
+            "Muscle Mass: Athletes and bodybuilders often have higher BMI due to muscle, not fat",
+            "Ethnicity: Health risks at various BMI levels can differ across ethnic groups",
+            "Bone Structure: People with larger frames may naturally have higher BMI values",
+            "Body Fat Distribution: Where you carry fat matters as much as how much you carry"
+        ],
+        "section4_title": "Tips for a Healthy Weight",
+        "section4_items": [
+            "Aim for at least 150 minutes of moderate aerobic activity per week, such as brisk walking, cycling, or swimming",
+            "Eat a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats",
+            "Monitor portion sizes — even healthy foods can contribute to weight gain if eaten in excess",
+            "Stay hydrated by drinking adequate water throughout the day",
+            "Get 7-9 hours of quality sleep each night, as poor sleep is linked to weight gain",
+            "Manage stress through mindfulness, meditation, or other relaxation techniques, as stress hormones promote fat storage"
+        ],
+        "faq_title": "Frequently Asked Questions",
+        "faqs": [
+            {
+                "q": "Is BMI accurate for athletes?",
+                "a": "BMI may overestimate body fat in athletes and people with high muscle mass. For a more accurate assessment, consider additional measurements like waist circumference, body fat percentage, or a DEXA scan."
+            },
+            {
+                "q": "What is a healthy BMI for children?",
+                "a": "BMI for children and teens is age- and gender-specific and is interpreted using percentile charts. A BMI between the 5th and 85th percentile is considered healthy weight for children."
+            },
+            {
+                "q": "How often should I check my BMI?",
+                "a": "Checking your BMI once every few months is sufficient for most people. Focus more on consistent healthy habits rather than frequent BMI monitoring."
+            },
+            {
+                "q": "Can BMI predict heart disease?",
+                "a": "BMI is one of several risk factors for heart disease. While a higher BMI is associated with increased cardiovascular risk, other factors like blood pressure, cholesterol levels, smoking, and family history are equally important."
+            }
+        ]
     },
     "js": {
-        "error_invalid": "Please enter valid height and weight",
-        "error_range": "Values are out of realistic range",
+        "error_invalid": "Please enter valid height and weight values",
+        "error_range": "Values are outside of realistic range",
         "cat_underweight": "Underweight",
-        "cat_normal": "Normal weight",
+        "cat_normal": "Normal Weight",
         "cat_overweight": "Overweight",
         "cat_obese": "Obese"
     }

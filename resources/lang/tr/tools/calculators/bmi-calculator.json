@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "VKİ Hesaplayıcı - Ücretsiz Vücut Kitle İndeksi | Optimizo",
+        "description": "Metrik ve İngiliz sistemleriyle VKİ'nizi anında hesaplayın. Ağırlık kategorinizi ve sağlık sonuçlarını öğrenin.",
+        "h1": "VKİ Hesaplayıcı",
+        "subtitle": "Vücut kitle indeksinizi hesaplayın ve sağlık kategorinizi öğrenin"
+    },
+    "editor": {
+        "label_height": "Boy",
+        "label_weight": "Kilo",
+        "label_unit": "Birim sistemi",
+        "unit_metric": "Metrik (cm / kg)",
+        "unit_imperial": "İngiliz (feet-inç / pound)",
+        "label_height_cm": "Boy (cm)",
+        "label_height_ft": "Boy (feet)",
+        "label_height_in": "Boy (inç)",
+        "label_weight_kg": "Kilo (kg)",
+        "label_weight_lbs": "Kilo (pound)",
+        "btn_calculate": "VKİ Hesapla",
+        "label_result": "VKİ'niz",
+        "label_category": "Kategori"
+    },
+    "content": {
+        "what_title": "VKİ nedir?",
+        "what_text": "Vücut Kitle İndeksi (VKİ), boy ve kiloya dayalı olarak vücut yağını tahmin eden yaygın kullanılan bir tarama aracıdır. 19. yüzyılda Belçikalı matematikçi Adolphe Quetelet tarafından geliştirilmiştir.",
+        "categories_title": "VKİ kategorileri ve sağlık sonuçları",
+        "categories": [
+            {
+                "range": "18,5'in altı",
+                "label": "Zayıf",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Normal kilolu",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Fazla kilolu",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 ve üzeri",
+                "label": "Obez",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "VKİ formülü",
+        "formula_metric": "Metrik: VKİ = Kilo (kg) ÷ Boy (m)²",
+        "formula_imperial": "İngiliz: VKİ = (Kilo (lbs) × 703) ÷ Boy (inç)²",
+        "section1_title": "VKİ kategorileri detaylı",
+        "section1_items": [
+            {
+                "title": "Zayıf (VKİ < 18,5)",
+                "text": "Yetersiz beslenmeyi gösterebilir. Riskler: zayıf bağışıklık, osteoporoz ve anemi."
+            },
+            {
+                "title": "Normal kilolu (VKİ 18,5 – 24,9)",
+                "text": "Boya orantılı kilo. En düşük sağlık riski."
+            },
+            {
+                "title": "Fazla kilolu (VKİ 25,0 – 29,9)",
+                "text": "Kalp hastalığı, tip 2 diyabet ve hipertansiyon riskininde artış."
+            },
+            {
+                "title": "Obez (VKİ ≥ 30,0)",
+                "text": "Kalp hastalığı, felç, diyabet ve bazı kanser türleri riskinde önemli artış."
+            }
+        ],
+        "section2_title": "VKİ'nin sınırlılıkları",
+        "section2_text": "VKİ kas kütlesi, kemik yoğunluğu ve yağ dokusu arasında ayrım yapmaz. Kaslı sporcular düşük yağ oranına rağmen fazla kilolu olarak sınıflandırılabilir.",
+        "section3_title": "VKİ'yi etkileyen faktörler",
+        "section3_items": [
+            "Yaş: yorum çocuklar, ergenler ve yaşlılar için farklıdır",
+            "Cinsiyet: kadınlar doğal olarak daha yüksek yağ oranına sahiptir",
+            "Kas kütlesi: sporcular kaslardan dolayı genellikle daha yüksek VKİ'ye sahiptir",
+            "Etnik köken: sağlık riskleri farklı VKİ seviyelerinde değişebilir",
+            "Vücut tipi: iri yapılı kişilerin doğal olarak yüksek VKİ'si olabilir",
+            "Yağ dağılımı: yağın nerede biriktiği miktarı kadar önemlidir"
+        ],
+        "section4_title": "Sağlıklı kilo için ipuçları",
+        "section4_items": [
+            "Haftada en az 150 dakika orta düzey aerobik aktivite hedefleyin",
+            "Dengeli beslenme: meyve, sebze, tam tahıl ve protein",
+            "Porsiyon boyutlarını kontrol edin",
+            "Gün boyunca iyi hidrasyon sağlayın",
+            "7-9 saat kaliteli uyku alın",
+            "Stresi meditasyon veya gevşeme teknikleriyle yönetin"
+        ],
+        "faq_title": "Sık sorulan sorular",
+        "faqs": [
+            {
+                "q": "VKİ sporcular için doğru mu?",
+                "a": "VKİ yağı abartabilir. Bel çevresi veya DEXA taramasını düşünün."
+            },
+            {
+                "q": "Çocuklar için sağlıklı VKİ nedir?",
+                "a": "Yaş ve cinsiyete göre yüzdelik eğrilerle yorumlanır. 5-85. yüzdelik sağlıklı kabul edilir."
+            },
+            {
+                "q": "VKİ'mi ne sıklıkla kontrol etmeliyim?",
+                "a": "Birkaç ayda bir yeterlidir. Sürdürülebilir sağlıklı alışkanlıklara odaklanın."
+            },
+            {
+                "q": "VKİ kalp hastalıklarını öngörebilir mi?",
+                "a": "Birçok risk faktöründen biridir. Tansiyon, kolesterol ve aile geçmişi de önemlidir."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Geçerli boy ve kilo değerleri girin",
+        "error_range": "Değerler gerçekçi aralığın dışında",
+        "cat_underweight": "Zayıf",
+        "cat_normal": "Normal kilolu",
+        "cat_overweight": "Fazla kilolu",
+        "cat_obese": "Obez"
+    }
+}

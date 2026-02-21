@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Gennemsnitsberegner - Gratis beregning af gennemsnit, median og typetal | Optimizo",
+        "description": "Beregn aritmetisk gennemsnit, median, typetal, spredning og sum fra en vilkårlig talrække øjeblikkeligt. For studerende og forskere.",
+        "h1": "Gennemsnitsberegner",
+        "subtitle": "Få gennemsnit, median, typetal, spredning og komplet statistisk analyse"
+    },
+    "editor": {
+        "label_numbers": "Indtast dine tal",
+        "placeholder_numbers": "Indtast tal adskilt af kommaer, mellemrum eller nye linjer",
+        "btn_calculate": "Beregn gennemsnit",
+        "btn_clear": "Ryd",
+        "label_mean": "Gennemsnit (Mean)",
+        "label_median": "Median",
+        "label_mode": "Typetal (Mode)",
+        "label_range": "Spredning",
+        "label_count": "Antal værdier",
+        "label_sum": "Sum",
+        "label_min": "Minimum",
+        "label_max": "Maksimum",
+        "label_sorted": "Sorteret liste"
+    },
+    "content": {
+        "what_title": "Hvad er gennemsnit og hvilke typer findes?",
+        "what_text": "Gennemsnit er et mål for central tendens der repræsenterer midten eller den typiske værdi i et datasæt. I statistik findes tre hovedmål for central tendens: aritmetisk gennemsnit (mean), median og typetal (mode). Hvert har sine styrker i forskellige situationer og datafordelinger. Forståelse af disse begreber er essentielt ikke kun i uddannelse og forskning, men i hverdagen, forretning og beslutningstagning.",
+        "types_title": "Typer af gennemsnit i detaljer",
+        "types": [
+            {
+                "name": "Aritmetisk gennemsnit",
+                "desc": "Den mest almindelige type. Summen af alle værdier divideret med antal. Formel: gennemsnit = (x₁+x₂+...+xₙ)/n. Påvirkes af ekstreme værdier."
+            },
+            {
+                "name": "Median",
+                "desc": "Den midterste værdi i sorteret data. Ved lige antal er det gennemsnittet af de to midterste. Påvirkes ikke af ekstreme værdier."
+            },
+            {
+                "name": "Typetal (Mode)",
+                "desc": "Den hyppigst forekommende værdi. Der kan være flere typetal eller ingen."
+            },
+            {
+                "name": "Vægtet gennemsnit",
+                "desc": "Bruges når værdier har forskellige vægte. Formel: Σ(wᵢ×xᵢ)/Σwᵢ. GPA-beregning er et klassisk eksempel."
+            }
+        ],
+        "section1_title": "Gennemsnit i praksis",
+        "section1_items": [
+            {
+                "title": "Uddannelse",
+                "text": "Lærere bruger gennemsnit og median af karakterer til at vurdere studenters samlede præstation."
+            },
+            {
+                "title": "Forretning og finans",
+                "text": "Virksomheder følger gennemsnitligt salg, kundeværdi og indtægt pr. bruger."
+            },
+            {
+                "title": "Videnskab og forskning",
+                "text": "Analyse af eksperimentelle data, standardafvigelse og hypotesetest kræver gennemsnit."
+            },
+            {
+                "title": "Sundhed",
+                "text": "Gennemsnitstemperatur, blodtryk, puls — sundhedspersonale er stærkt afhængige af gennemsnit."
+            },
+            {
+                "title": "Sport",
+                "text": "Batting-gennemsnit, hastighed, score — sportsstatistik bruger gennemsnit bredt."
+            },
+            {
+                "title": "Ejendomme",
+                "text": "Median er bedre til huspriser da dyre ejendomme trækker gennemsnittet op."
+            }
+        ],
+        "section2_title": "Gennemsnit vs. median — hvornår bruge hvilken",
+        "section2_items": [
+            {
+                "title": "Brug gennemsnit når",
+                "text": "Data er normalt fordelt, ingen store udsvinng, og du vil medregne alle værdier."
+            },
+            {
+                "title": "Brug median når",
+                "text": "Der er ekstreme værdier (som indkomstdata), skæv fordeling, eller du vil kende det sande centrum."
+            },
+            {
+                "title": "Brug typetal når",
+                "text": "Du vil kende den mest almindelige værdi. Ideel for kategorisk data som farve eller størrelse."
+            }
+        ],
+        "section3_title": "Almindelige fejl at undgå",
+        "section3_items": [
+            "Stol ikke kun på gennemsnit — ekstreme værdier kan forvrænge det markant",
+            "Ignorer ikke stikprøvestørrelse — gennemsnit fra små stikprøver kan være upålidelige",
+            "Overvej altid konteksten for data",
+            "Forvirr ikke vægtet og uvægtet gennemsnit",
+            "Tag ikke gennemsnit af procenter direkte hvis baser har forskellige størrelser",
+            "Visualiser altid data med grafer"
+        ],
+        "faq_title": "Ofte stillede spørgsmål",
+        "faqs": [
+            {
+                "q": "Hvad er forskellen mellem gennemsnit og mean?",
+                "a": "I daglig tale bruges de synonymt. Teknisk er 'gennemsnit' et bredere begreb der inkluderer mean, median og typetal."
+            },
+            {
+                "q": "Kan der ikke være noget typetal?",
+                "a": "Ja. Hvis alle værdier er unikke, er der intet typetal. Hvis to+ værdier har samme hyppighed, er det bimodalt."
+            },
+            {
+                "q": "Hvordan finder jeg median?",
+                "a": "Sorter værdierne. Ulige antal: midterste værdi. Lige antal: gennemsnittet af de to midterste."
+            },
+            {
+                "q": "Hvornår bruges vægtet gennemsnit?",
+                "a": "Når data har forskellig vigtighed. Eksempler: GPA, porteføljeafkast, kundetilfredshed."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Indtast venligst gyldige tal",
+        "no_mode": "Intet typetal"
+    }
+}

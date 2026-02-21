@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "BMI-kalkylator - Gratis Body Mass Index | Optimizo",
+        "description": "Beräkna ditt BMI direkt med metriska och imperiala system. Upptäck din viktkategori och hälsokonsekvenser.",
+        "h1": "BMI-kalkylator",
+        "subtitle": "Beräkna ditt Body Mass Index och upptäck din hälsokategori"
+    },
+    "editor": {
+        "label_height": "Längd",
+        "label_weight": "Vikt",
+        "label_unit": "Enhetssystem",
+        "unit_metric": "Metriskt (cm / kg)",
+        "unit_imperial": "Imperialt (fot-tum / pund)",
+        "label_height_cm": "Längd (cm)",
+        "label_height_ft": "Längd (fot)",
+        "label_height_in": "Längd (tum)",
+        "label_weight_kg": "Vikt (kg)",
+        "label_weight_lbs": "Vikt (pund)",
+        "btn_calculate": "Beräkna BMI",
+        "label_result": "Ditt BMI",
+        "label_category": "Kategori"
+    },
+    "content": {
+        "what_title": "Vad är BMI?",
+        "what_text": "Body Mass Index (BMI) är ett brett använt screeningverktyg som uppskattar kroppsfett baserat på längd och vikt. Utvecklat av den belgiske matematikern Adolphe Quetelet på 1800-talet.",
+        "categories_title": "BMI-kategorier och hälsokonsekvenser",
+        "categories": [
+            {
+                "range": "Under 18,5",
+                "label": "Undervikt",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Normalvikt",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Övervikt",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 eller mer",
+                "label": "Fetma",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "BMI-formeln",
+        "formula_metric": "Metrisk: BMI = Vikt (kg) ÷ Längd (m)²",
+        "formula_imperial": "Imperial: BMI = (Vikt (lbs) × 703) ÷ Längd (tum)²",
+        "section1_title": "BMI-kategorier i detalj",
+        "section1_items": [
+            {
+                "title": "Undervikt (BMI < 18,5)",
+                "text": "Kan indikera undernäring. Risker: försvagat immunförsvar, osteoporos och anemi."
+            },
+            {
+                "title": "Normalvikt (BMI 18,5 – 24,9)",
+                "text": "Proportionell vikt till längd. Lägsta risk för hälsoproblem."
+            },
+            {
+                "title": "Övervikt (BMI 25,0 – 29,9)",
+                "text": "Ökad risk för hjärtsjukdomar, typ 2-diabetes och högt blodtryck."
+            },
+            {
+                "title": "Fetma (BMI ≥ 30,0)",
+                "text": "Betydligt ökad risk för hjärtsjukdomar, stroke, diabetes och vissa cancerformer."
+            }
+        ],
+        "section2_title": "Begränsningar med BMI",
+        "section2_text": "BMI skiljer inte mellan muskelmassa, bentäthet och fettvävnad. Muskulösa atleter kan klassas som överviktiga trots låg fettprocent.",
+        "section3_title": "Faktorer som påverkar BMI",
+        "section3_items": [
+            "Ålder: tolkningen skiljer sig för barn, tonåringar och äldre",
+            "Kön: kvinnor har naturligt högre fettprocent",
+            "Muskelmassa: atleter har ofta högre BMI på grund av muskler",
+            "Etnicitet: hälsorisker kan variera vid olika BMI-nivåer",
+            "Kroppstyp: personer med stor kroppsbyggnad kan ha naturligt högre BMI",
+            "Fettfördelning: var fettet samlas är lika viktigt som mängden"
+        ],
+        "section4_title": "Tips för hälsosam vikt",
+        "section4_items": [
+            "Sikta på minst 150 minuter måttlig aerob aktivitet per vecka",
+            "Balanserad kost: frukt, grönsaker, fullkorn och protein",
+            "Kontrollera portionsstorlekar",
+            "Håll dig väl hydrerad under dagen",
+            "Sov 7-9 timmar kvalitetssömn",
+            "Hantera stress genom meditation eller avslappningstekniker"
+        ],
+        "faq_title": "Vanliga frågor",
+        "faqs": [
+            {
+                "q": "Är BMI korrekt för atleter?",
+                "a": "BMI kan överskatta fett. Överväg midjemått, fettprocent eller DEXA-skanning."
+            },
+            {
+                "q": "Vad är hälsosamt BMI för barn?",
+                "a": "Tolkas med percentilkurvor för ålder och kön. 5-85:e percentilen anses hälsosam."
+            },
+            {
+                "q": "Hur ofta ska jag kontrollera BMI?",
+                "a": "Var tredje månad räcker. Fokusera på hållbara hälsosamma vanor."
+            },
+            {
+                "q": "Kan BMI förutspå hjärtsjukdomar?",
+                "a": "Det är en av många riskfaktorer. Blodtryck, kolesterol och ärftlighet är lika viktiga."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Ange giltiga värden för längd och vikt",
+        "error_range": "Värdena är utanför realistiskt intervall",
+        "cat_underweight": "Undervikt",
+        "cat_normal": "Normalvikt",
+        "cat_overweight": "Övervikt",
+        "cat_obese": "Fetma"
+    }
+}

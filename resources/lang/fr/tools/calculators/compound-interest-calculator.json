@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Calculatrice d'Intérêts Composés - Outil Gratuit | Optimizo",
+        "description": "Calculez les intérêts composés, la valeur future et la croissance des investissements. Support annuel, semestriel, trimestriel, mensuel et quotidien.",
+        "h1": "Calculatrice d'Intérêts Composés",
+        "subtitle": "Calculez la croissance de vos investissements avec différentes fréquences de capitalisation"
+    },
+    "editor": {
+        "label_principal": "Investissement initial ($)",
+        "label_rate": "Taux d'intérêt annuel (%)",
+        "label_time": "Période (années)",
+        "label_frequency": "Fréquence de capitalisation",
+        "label_contribution": "Versement mensuel ($)",
+        "freq_annually": "Annuelle",
+        "freq_semiannually": "Semestrielle",
+        "freq_quarterly": "Trimestrielle",
+        "freq_monthly": "Mensuelle",
+        "freq_daily": "Quotidienne",
+        "btn_calculate": "Calculer la croissance",
+        "label_future_value": "Valeur future",
+        "label_total_interest": "Intérêts gagnés",
+        "label_total_deposits": "Dépôts totaux",
+        "label_breakdown": "Ventilation annuelle",
+        "col_year": "Année",
+        "col_deposits": "Dépôts",
+        "col_interest": "Intérêts",
+        "col_balance": "Solde"
+    },
+    "content": {
+        "what_title": "Intérêts composés : la force de création de richesse",
+        "what_text": "Albert Einstein a décrit les intérêts composés comme 'la huitième merveille du monde'. Contrairement aux intérêts simples calculés uniquement sur le capital, les intérêts composés sont calculés sur le capital et les intérêts accumulés, créant un effet boule de neige qui fait croître votre argent exponentiellement.",
+        "formula_title": "Formule des intérêts composés",
+        "formula_text": "A = P(1 + r/n)^(nt), où A = valeur future, P = capital, r = taux annuel, n = capitalisations par an, t = temps (années)",
+        "section1_title": "Intérêts simples vs composés",
+        "section1_text": "Les intérêts simples sont calculés uniquement sur le capital initial ; les composés sur le capital et les intérêts accumulés. Exemple : 10 000€ à 5% sur 20 ans : simple = 20 000€, composé (mensuel) = 27 126€ — 7 126€ de plus !",
+        "section2_title": "Fréquences de capitalisation",
+        "section2_items": [
+            {
+                "title": "Annuelle",
+                "text": "Intérêts capitalisés une fois par an. 10 000 à 5% devient 16 289 en 10 ans."
+            },
+            {
+                "title": "Semestrielle",
+                "text": "Intérêts capitalisés deux fois. 10 000 à 5% devient 16 386 en 10 ans."
+            },
+            {
+                "title": "Trimestrielle",
+                "text": "Capitalisés quatre fois. 10 000 à 5% devient 16 436 en 10 ans."
+            },
+            {
+                "title": "Mensuelle",
+                "text": "Capitalisés chaque mois. 10 000 à 5% devient 16 470 en 10 ans."
+            },
+            {
+                "title": "Quotidienne",
+                "text": "Capitalisés chaque jour. 10 000 à 5% devient 16 487 en 10 ans."
+            }
+        ],
+        "section3_title": "La règle de 72",
+        "section3_text": "Estimation du temps de doublement : Années = 72 ÷ taux. À 8%, doublement en ~9 ans. À 6% en ~12 ans.",
+        "section4_title": "Applications pratiques",
+        "section4_items": [
+            {
+                "title": "Épargne retraite",
+                "text": "500€/mois à 7% pendant 30 ans = plus de 500 000€, dont 180 000 de versements et 320 000+ d'intérêts composés."
+            },
+            {
+                "title": "Fonds éducation",
+                "text": "200€/mois depuis la naissance à 7% = plus de 86 000€ en 18 ans."
+            },
+            {
+                "title": "Fonds d'urgence",
+                "text": "10 000€ à 4% APY génère plus de 2 200€ d'intérêts en 5 ans sans dépôt additionnel !"
+            },
+            {
+                "title": "Conscience des dettes",
+                "text": "Les intérêts composés travaillent contre vous avec les dettes. Carte à 20% APR — 5 000€ peut devenir 12 000+ en 5 ans."
+            }
+        ],
+        "tips_title": "Conseils pour maximiser les intérêts composés",
+        "tips": [
+            "Commencez à investir le plus tôt possible — le temps est votre meilleur allié",
+            "Mettez en place des versements mensuels automatiques",
+            "Recherchez des comptes avec capitalisation plus fréquente",
+            "Réinvestissez systématiquement les dividendes et intérêts",
+            "Remboursez d'abord les dettes à taux élevé",
+            "Tenez compte de l'inflation — rendement réel = nominal - inflation"
+        ],
+        "faq_title": "Questions fréquemment posées",
+        "faqs": [
+            {
+                "q": "Comment les intérêts composés diffèrent-ils des simples ?",
+                "a": "Les simples uniquement sur le capital, les composés sur le capital et les intérêts accumulés."
+            },
+            {
+                "q": "Qu'est-ce que la règle de 72 ?",
+                "a": "Formule rapide : 72 ÷ taux = années pour doubler. À 6% ~12 ans."
+            },
+            {
+                "q": "La capitalisation plus fréquente est-elle meilleure ?",
+                "a": "Oui, mais le bénéfice supplémentaire diminue. L'écart mensuel-quotidien est bien moindre qu'annuel-mensuel."
+            },
+            {
+                "q": "Comment maximiser les intérêts composés ?",
+                "a": "Commencez tôt, versez régulièrement, réinvestissez et choisissez des placements à faible coût."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Saisissez des nombres valides",
+        "error_range": "Les valeurs doivent être supérieures à zéro"
+    }
+}

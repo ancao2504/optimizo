@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "title": "Kalkulator Rabatów - Darmowe Narzędzie Online | Optimizo",
+        "description": "Oblicz oszczędności, cenę końcową i łączny koszt z VAT. Obsługuje rabaty procentowe i obliczenia podatkowe.",
+        "h1": "Kalkulator Rabatów",
+        "subtitle": "Oblicz oszczędności z rabatu procentowego i opcjonalnego VAT"
+    },
+    "editor": {
+        "label_original": "Cena oryginalna ($)",
+        "label_discount": "Rabat (%)",
+        "label_tax": "VAT (%)",
+        "btn_calculate": "Oblicz oszczędności",
+        "label_savings": "Twoje oszczędności",
+        "label_final_price": "Cena po rabacie",
+        "label_tax_amount": "Kwota VAT",
+        "label_total_with_tax": "Razem z VAT"
+    },
+    "content": {
+        "what_title": "Zrozumienie obliczeń rabatowych",
+        "what_text": "Kalkulator rabatów pokazuje ile oszczędzasz podczas wyprzedaży. Online czy w sklepie — zrozumienie rabatów to podstawa mądrego zakupu.",
+        "section1_title": "Rodzaje rabatów",
+        "section1_items": [
+            {
+                "title": "Rabat procentowy",
+                "text": "Najczęstszy, np. '25% zniżki'. Cena × procent = oszczędność."
+            },
+            {
+                "title": "Rabat kwotowy",
+                "text": "Konkretna kwota, np. '50 zł zniżki'. Odejmowana bezpośrednio."
+            },
+            {
+                "title": "Kup 1 dostań 1 gratis",
+                "text": "Efektywnie 50% rabatu na dwie sztuki."
+            },
+            {
+                "title": "Rabat progowy",
+                "text": "Rabat rośnie z ilością zakupu."
+            },
+            {
+                "title": "Rabat członkowski",
+                "text": "Ekskluzywne zniżki dla stałych klientów."
+            },
+            {
+                "title": "Wyprzedaże sezonowe",
+                "text": "Black Friday, wyprzedaże świąteczne — rabaty do 50-70%."
+            }
+        ],
+        "section2_title": "Wskazówki mądrego zakupu",
+        "section2_items": [
+            "Zawsze oblicz cenę końcową przed zakupem",
+            "Użyj kodów rabatowych dla dodatkowych oszczędności",
+            "Łącz cashback z rabatami",
+            "Sprawdź historię cen przed dużymi zakupami",
+            "Zweryfikuj cenę oryginalną — niektórzy sprzedawcy ją zawyżają",
+            "Szukaj darmowej dostawy",
+            "Stwórz kalendarz wyprzedaży sezonowych"
+        ],
+        "section3_title": "Rabat i VAT",
+        "section3_text": "W Polsce VAT naliczany jest od ceny po rabacie. Przykład: produkt za 100 zł z 20% rabatem = 80 zł. 23% VAT = 18,40 zł. Razem = 98,40 zł.",
+        "examples_title": "Praktyczne przykłady",
+        "examples": [
+            {
+                "label": "30% odzież",
+                "result": "Kurtka za 200 zł: rabat = 60 zł. Płacisz 140 zł."
+            },
+            {
+                "label": "15% elektronika",
+                "result": "Laptop za 3.000 zł: rabat = 450 zł. Płacisz 2.550 zł."
+            },
+            {
+                "label": "Rabaty łączone",
+                "result": "10% + 15% ≠ 25%. Faktycznie: 1.000 × 0,90 × 0,85 = 765. Oszczędność 23,5%."
+            },
+            {
+                "label": "Cashback + rabat",
+                "result": "500 zł z 20% rabatem = 400 zł. 5% cashback = 20 zł. Rzeczywisty koszt: 380 zł."
+            }
+        ],
+        "faq_title": "Często zadawane pytania",
+        "faqs": [
+            {
+                "q": "Jak obliczyć procent rabatu?",
+                "a": "Wzór: ((Cena oryginalna - Cena promocyjna) / Cena oryginalna) × 100."
+            },
+            {
+                "q": "Czy łączone rabaty się sumują?",
+                "a": "Nie! 20% + 30% ≠ 50%. Faktycznie: (1-0,20)×(1-0,30) = 0,56, czyli 44%."
+            },
+            {
+                "q": "VAT naliczany przed czy po rabacie?",
+                "a": "W Polsce VAT naliczany jest od ceny po rabacie."
+            },
+            {
+                "q": "Jak poznać, że to dobra okazja?",
+                "a": "Użyj porównywarek cen, sprawdź kilka sklepów i uwzględnij dostawę i gwarancję."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Wprowadź prawidłowe liczby",
+        "error_range": "Rabat musi wynosić od 0% do 100%"
+    }
+}

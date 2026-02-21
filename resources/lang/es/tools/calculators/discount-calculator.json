@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "title": "Calculadora de Descuentos - Herramienta Gratuita Online | Optimizo",
+        "description": "Calcula ahorros, precio final y costo total con IVA al instante. Soporta descuentos porcentuales y cálculo de impuestos.",
+        "h1": "Calculadora de Descuentos",
+        "subtitle": "Calcula ahorros con descuento porcentual y cálculo opcional de IVA"
+    },
+    "editor": {
+        "label_original": "Precio original ($)",
+        "label_discount": "Descuento (%)",
+        "label_tax": "IVA (%)",
+        "btn_calculate": "Calcular ahorro",
+        "label_savings": "Tu ahorro",
+        "label_final_price": "Precio con descuento",
+        "label_tax_amount": "Monto de IVA",
+        "label_total_with_tax": "Total con IVA"
+    },
+    "content": {
+        "what_title": "Comprensión del cálculo de descuentos",
+        "what_text": "La calculadora de descuentos muestra al instante cuánto ahorras durante rebajas o promociones. Ya sea comprando en línea o en tienda — entender los descuentos es la base de las compras inteligentes. Nuestra calculadora incluye IVA para mostrar el costo real total.",
+        "section1_title": "Tipos de descuentos",
+        "section1_items": [
+            {
+                "title": "Descuento porcentual",
+                "text": "El más común, p.ej. '25% de descuento'. Precio original × porcentaje = ahorro."
+            },
+            {
+                "title": "Descuento de monto fijo",
+                "text": "Una cantidad específica, p.ej. '50€ de descuento'. Se resta del precio original."
+            },
+            {
+                "title": "BOGO",
+                "text": "Compra uno, lleva otro gratis = efectivamente 50% de descuento en dos artículos."
+            },
+            {
+                "title": "Descuento escalonado",
+                "text": "El descuento aumenta con el volumen de compra."
+            },
+            {
+                "title": "Descuento por lealtad",
+                "text": "Descuentos exclusivos para clientes frecuentes y miembros."
+            },
+            {
+                "title": "Rebajas de temporada",
+                "text": "Descuentos en ocasiones especiales — Black Friday, rebajas con hasta 50-70%."
+            }
+        ],
+        "section2_title": "Consejos para compras inteligentes",
+        "section2_items": [
+            "Calcule siempre el precio final antes de comprar",
+            "Use sitios de cupones para ahorros adicionales",
+            "Combine apps de cashback con descuentos",
+            "Verifique el historial de precios antes de compras grandes",
+            "Compruebe el precio original — algunos vendedores lo inflan artificialmente",
+            "Busque ofertas de envío gratis",
+            "Cree un calendario de rebajas de temporada"
+        ],
+        "section3_title": "Descuento e IVA",
+        "section3_text": "En la mayoría de países, el IVA se calcula sobre el precio descontado. Ejemplo: artículo de 100€ con 20% descuento = 80€. 21% IVA = 16,80€. Total = 96,80€.",
+        "examples_title": "Ejemplos prácticos",
+        "examples": [
+            {
+                "label": "30% en ropa",
+                "result": "Vestido de 200€: descuento = 60€. Pagas 140€."
+            },
+            {
+                "label": "15% en electrónicos",
+                "result": "Laptop de 1.000€: descuento = 150€. Pagas 850€."
+            },
+            {
+                "label": "Descuentos combinados",
+                "result": "10% + 15% ≠ 25%. Realmente: 1.000 × 0,90 × 0,85 = 765. Ahorro 23,5%."
+            },
+            {
+                "label": "Cashback + descuento",
+                "result": "500€ con 20% descuento = 400€. 5% cashback = 20€. Costo real: 380€."
+            }
+        ],
+        "faq_title": "Preguntas frecuentes",
+        "faqs": [
+            {
+                "q": "¿Cómo calculo el porcentaje de descuento?",
+                "a": "Fórmula: ((Precio original - Precio de venta) / Precio original) × 100."
+            },
+            {
+                "q": "¿Se suman los descuentos combinados?",
+                "a": "¡No! 20% + 30% ≠ 50%. Realmente: (1-0,20)×(1-0,30) = 0,56, o sea 44% total."
+            },
+            {
+                "q": "¿El IVA se calcula antes o después del descuento?",
+                "a": "En la mayoría de países, el IVA se aplica sobre el precio descontado."
+            },
+            {
+                "q": "¿Cómo sé si es buena oferta?",
+                "a": "Use rastreadores de precios, compare en varias tiendas y considere envío y garantía."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Introduzca números válidos",
+        "error_range": "El descuento debe estar entre 0% y 100%"
+    }
+}

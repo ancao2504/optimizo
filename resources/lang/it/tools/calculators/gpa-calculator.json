@@ -1,0 +1,144 @@
+{
+    "meta": {
+        "title": "Calcolatrice GPA - Media Voti Gratuita | Optimizo",
+        "description": "Calcola il tuo GPA con precisione. Supporta più corsi, crediti e valori dei voti. Per studenti e accademici.",
+        "h1": "Calcolatrice GPA",
+        "subtitle": "Calcola la tua media voti dai corsi e crediti"
+    },
+    "editor": {
+        "label_course": "Nome del corso",
+        "placeholder_course": "Es. Matematica 101",
+        "label_grade": "Voto",
+        "label_credits": "Crediti",
+        "btn_add_course": "Aggiungi corso",
+        "btn_calculate": "Calcola GPA",
+        "btn_reset": "Azzera",
+        "btn_remove": "Rimuovi",
+        "label_result": "Il tuo GPA",
+        "label_total_credits": "Crediti totali",
+        "label_total_points": "Punti totali"
+    },
+    "content": {
+        "what_title": "Cos'è il GPA e perché è importante?",
+        "what_text": "Il Grade Point Average (GPA) è un metodo standardizzato per misurare il rendimento accademico. Calcolato su una scala da 0,0 a 4,0, dove 4,0 rappresenta il massimo. Il GPA è cruciale per: ammissioni universitarie, borse di studio, programmi post-laurea, e decisioni di assunzione.",
+        "scale_title": "Scala dei voti GPA",
+        "scale": [
+            {
+                "grade": "A / A+",
+                "points": "4.0",
+                "percent": "90-100%"
+            },
+            {
+                "grade": "A-",
+                "points": "3.7",
+                "percent": "87-89%"
+            },
+            {
+                "grade": "B+",
+                "points": "3.3",
+                "percent": "83-86%"
+            },
+            {
+                "grade": "B",
+                "points": "3.0",
+                "percent": "80-82%"
+            },
+            {
+                "grade": "B-",
+                "points": "2.7",
+                "percent": "77-79%"
+            },
+            {
+                "grade": "C+",
+                "points": "2.3",
+                "percent": "73-76%"
+            },
+            {
+                "grade": "C",
+                "points": "2.0",
+                "percent": "70-72%"
+            },
+            {
+                "grade": "C-",
+                "points": "1.7",
+                "percent": "67-69%"
+            },
+            {
+                "grade": "D+",
+                "points": "1.3",
+                "percent": "63-66%"
+            },
+            {
+                "grade": "D",
+                "points": "1.0",
+                "percent": "60-62%"
+            },
+            {
+                "grade": "F",
+                "points": "0.0",
+                "percent": "0-59%"
+            }
+        ],
+        "section1_title": "Come si calcola il GPA",
+        "section1_text": "È una media ponderata dei punti voto per i crediti. Procedura: 1) Determina il valore in punti di ogni voto. 2) Moltiplica per i crediti. 3) Somma tutti i prodotti. 4) Dividi per il totale dei crediti. Esempio: Matematica (3 crediti, B=3,0) e Fisica (4 crediti, A=4,0), GPA = (9+16)/7 = 3,57.",
+        "section2_title": "Perché il GPA è importante",
+        "section2_items": [
+            {
+                "title": "Ammissioni universitarie",
+                "text": "La maggior parte delle università considera il GPA come fattore chiave. Le migliori richiedono 3,5+."
+            },
+            {
+                "title": "Borse di studio",
+                "text": "Molte borse richiedono un GPA minimo. Borse al merito: 3,0-3,5+."
+            },
+            {
+                "title": "Post-laurea",
+                "text": "Master, giurisprudenza, medicina richiedono un GPA competitivo (tipicamente 3,0+)."
+            },
+            {
+                "title": "Opportunità professionali",
+                "text": "Molti datori di lavoro usano il GPA come criterio di selezione."
+            },
+            {
+                "title": "Distinzioni accademiche",
+                "text": "Cum laude (3,5+), magna cum laude, summa cum laude e premi di laurea."
+            }
+        ],
+        "section3_title": "Consigli per migliorare il GPA",
+        "section3_items": [
+            "Stabilisci obiettivi GPA realistici per ogni semestre",
+            "Forma gruppi di studio per le materie difficili",
+            "Sfrutta gli orari di ricevimento dei professori",
+            "Migliora la gestione del tempo con un'agenda",
+            "Approfitta dei servizi di tutoraggio gratuiti",
+            "Prenditi cura della salute: sonno, esercizio e nutrizione migliorano la concentrazione",
+            "Cogli le opportunità di crediti extra",
+            "Non aspettare l'ultimo minuto — lo sforzo costante produce risultati migliori"
+        ],
+        "section4_title": "Sistema dei voti italiano",
+        "section4_text": "L'Italia usa una scala da 18 a 30 con lode per gli esami universitari. Conversione approssimativa: 30L ≈ 4,0 GPA, 27 ≈ 3,3, 24 ≈ 2,7, 21 ≈ 2,0, 18 ≈ 1,3. Per le superiori: scala 1-10.",
+        "faq_title": "Domande frequenti",
+        "faqs": [
+            {
+                "q": "Qual è la differenza tra GPA e CGPA?",
+                "a": "GPA: un solo semestre. CGPA: media cumulativa di tutti i semestri."
+            },
+            {
+                "q": "Qual è un buon GPA?",
+                "a": "3,0 (B) è buono, 3,5 ottimo e 3,7+ eccellente."
+            },
+            {
+                "q": "Posso ripetere un esame per migliorare il voto?",
+                "a": "Molte università permettono di sostenere nuovamente l'esame, con il voto migliore che sostituisce il precedente."
+            },
+            {
+                "q": "Come influiscono i crediti sul GPA?",
+                "a": "È una media ponderata, quindi i corsi con più crediti hanno un impatto maggiore."
+            }
+        ]
+    },
+    "js": {
+        "error_no_courses": "Aggiungi almeno un corso",
+        "error_invalid_credits": "Inserisci crediti validi"
+    }
+}

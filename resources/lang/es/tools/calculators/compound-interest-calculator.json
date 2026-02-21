@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Calculadora de Interés Compuesto - Herramienta Gratuita | Optimizo",
+        "description": "Calcula interés compuesto, valor futuro y crecimiento de inversiones. Soporta capitalización anual, semestral, trimestral, mensual y diaria.",
+        "h1": "Calculadora de Interés Compuesto",
+        "subtitle": "Calcula el crecimiento de inversiones con diferentes frecuencias de capitalización"
+    },
+    "editor": {
+        "label_principal": "Inversión inicial ($)",
+        "label_rate": "Tasa de interés anual (%)",
+        "label_time": "Período (años)",
+        "label_frequency": "Frecuencia de capitalización",
+        "label_contribution": "Aportación mensual ($)",
+        "freq_annually": "Anual",
+        "freq_semiannually": "Semestral",
+        "freq_quarterly": "Trimestral",
+        "freq_monthly": "Mensual",
+        "freq_daily": "Diaria",
+        "btn_calculate": "Calcular crecimiento",
+        "label_future_value": "Valor futuro",
+        "label_total_interest": "Intereses ganados",
+        "label_total_deposits": "Depósitos totales",
+        "label_breakdown": "Desglose anual",
+        "col_year": "Año",
+        "col_deposits": "Depósitos",
+        "col_interest": "Intereses",
+        "col_balance": "Saldo"
+    },
+    "content": {
+        "what_title": "Interés compuesto: La fuerza de la creación de riqueza",
+        "what_text": "Albert Einstein describió el interés compuesto como 'la octava maravilla del mundo'. A diferencia del interés simple que solo se calcula sobre el capital, el interés compuesto se calcula sobre el capital más los intereses acumulados, creando un efecto bola de nieve que hace crecer su dinero exponencialmente.",
+        "formula_title": "Fórmula del interés compuesto",
+        "formula_text": "A = P(1 + r/n)^(nt), donde A = valor futuro, P = capital, r = tasa anual, n = capitalizaciones por año, t = tiempo (años)",
+        "section1_title": "Interés simple vs. compuesto",
+        "section1_text": "El interés simple se calcula solo sobre el capital original; el compuesto sobre capital e intereses acumulados. Ejemplo: 10.000€ al 5% durante 20 años: simple = 20.000€, compuesto (mensual) = 27.126€ — ¡7.126€ más!",
+        "section2_title": "Frecuencias de capitalización",
+        "section2_items": [
+            {
+                "title": "Anual",
+                "text": "Intereses capitalizan una vez al año. 10.000 al 5% crece a 16.289 en 10 años."
+            },
+            {
+                "title": "Semestral",
+                "text": "Intereses capitalizan dos veces. 10.000 al 5% crece a 16.386 en 10 años."
+            },
+            {
+                "title": "Trimestral",
+                "text": "Capitalizan cuatro veces. 10.000 al 5% crece a 16.436 en 10 años."
+            },
+            {
+                "title": "Mensual",
+                "text": "Capitalizan cada mes. 10.000 al 5% crece a 16.470 en 10 años."
+            },
+            {
+                "title": "Diaria",
+                "text": "Capitalizan diariamente. 10.000 al 5% crece a 16.487 en 10 años."
+            }
+        ],
+        "section3_title": "La regla del 72",
+        "section3_text": "Estima cuántos años tarda en duplicarse su dinero: Años = 72 ÷ tasa. Al 8% se duplica en ~9 años. Al 6% en ~12 años.",
+        "section4_title": "Aplicaciones prácticas",
+        "section4_items": [
+            {
+                "title": "Ahorro para jubilación",
+                "text": "500€/mes al 7% durante 30 años = 500.000+€, de los cuales 180.000 son aportes y 320.000+ interés compuesto."
+            },
+            {
+                "title": "Fondo universitario",
+                "text": "200€/mes desde el nacimiento al 7% = 86.000+€ en 18 años."
+            },
+            {
+                "title": "Fondo de emergencia",
+                "text": "10.000€ al 4% APY genera 2.200+€ de intereses en 5 años sin depósitos adicionales."
+            },
+            {
+                "title": "Conciencia de deuda",
+                "text": "El interés compuesto trabaja en su contra con deudas. Tarjeta al 20% APR — saldo de 5.000€ puede ser 12.000+ en 5 años."
+            }
+        ],
+        "tips_title": "Consejos para maximizar el interés compuesto",
+        "tips": [
+            "Comience a invertir lo más temprano posible — el tiempo es su mayor aliado",
+            "Configure aportaciones mensuales automáticas",
+            "Busque cuentas con mayor frecuencia de capitalización",
+            "Reinvierta dividendos e intereses",
+            "Pague primero las deudas de alto interés",
+            "Considere la inflación — rendimiento real = nominal - inflación"
+        ],
+        "faq_title": "Preguntas frecuentes",
+        "faqs": [
+            {
+                "q": "¿Cómo difiere el interés compuesto del simple?",
+                "a": "El simple solo sobre capital, el compuesto sobre capital e intereses acumulados."
+            },
+            {
+                "q": "¿Qué es la regla del 72?",
+                "a": "Fórmula rápida: 72 ÷ tasa = años para duplicar. Al 6% ~12 años."
+            },
+            {
+                "q": "¿Es mejor una capitalización más frecuente?",
+                "a": "Sí, pero el beneficio adicional disminuye. La diferencia entre mensual y diaria es mucho menor."
+            },
+            {
+                "q": "¿Cómo maximizo el interés compuesto?",
+                "a": "Empiece temprano, contribuya regularmente, reinvierta rendimientos y elija inversiones de bajo costo."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Introduzca números válidos",
+        "error_range": "Los valores deben ser mayores que cero"
+    }
+}

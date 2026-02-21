@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "title": "GPA Hesaplayıcı - Ücretsiz Not Ortalaması | Optimizo",
+        "description": "GPA'nızı hassasiyetle hesaplayın. Birden fazla ders, kredi ve not desteği. Öğrenciler ve akademisyenler için.",
+        "h1": "GPA Hesaplayıcı",
+        "subtitle": "Dersleriniz ve kredilerinize göre not ortalamanızı hesaplayın"
+    },
+    "editor": {
+        "label_course": "Ders adı",
+        "placeholder_course": "Ör. Matematik 101",
+        "label_grade": "Not",
+        "label_credits": "Kredi",
+        "btn_add_course": "Ders ekle",
+        "btn_calculate": "GPA hesapla",
+        "btn_reset": "Sıfırla",
+        "btn_remove": "Kaldır",
+        "label_result": "GPA'nız",
+        "label_total_credits": "Toplam kredi",
+        "label_total_points": "Toplam puan"
+    },
+    "content": {
+        "what_title": "GPA nedir ve neden önemlidir?",
+        "what_text": "GPA (Grade Point Average), akademik başarıyı ölçmenin standart bir yöntemidir. 0,0 ila 4,0 arasında hesaplanır. GPA üniversite kabulleri, burslar ve kariyer fırsatları için kritiktir.",
+        "scale_title": "GPA not skalası",
+        "scale": [
+            {
+                "grade": "A / A+",
+                "points": "4.0",
+                "percent": "90-100%"
+            },
+            {
+                "grade": "A-",
+                "points": "3.7",
+                "percent": "87-89%"
+            },
+            {
+                "grade": "B+",
+                "points": "3.3",
+                "percent": "83-86%"
+            },
+            {
+                "grade": "B",
+                "points": "3.0",
+                "percent": "80-82%"
+            },
+            {
+                "grade": "C+",
+                "points": "2.3",
+                "percent": "73-76%"
+            },
+            {
+                "grade": "C",
+                "points": "2.0",
+                "percent": "70-72%"
+            },
+            {
+                "grade": "D",
+                "points": "1.0",
+                "percent": "60-69%"
+            },
+            {
+                "grade": "F",
+                "points": "0.0",
+                "percent": "0-59%"
+            }
+        ],
+        "section1_title": "GPA nasıl hesaplanır",
+        "section1_text": "GPA, not puanlarının kredi bazında ağırlıklı ortalamasıdır. Örnek: Matematik (4 kredi, B=3,0) ve Fizik (3 kredi, A=4,0). GPA = (12+12)/7 = 3,43.",
+        "section2_title": "GPA neden önemlidir",
+        "section2_items": [
+            {
+                "title": "Üniversite kabulleri",
+                "text": "Çoğu üniversite GPA'yı temel faktör olarak değerlendirir."
+            },
+            {
+                "title": "Burslar",
+                "text": "Birçok burs minimum GPA gerektirir. Başarı bursları: 3,0-3,5+."
+            },
+            {
+                "title": "Lisansüstü eğitim",
+                "text": "Yüksek lisans ve doktora programları rekabetçi GPA gerektirir."
+            },
+            {
+                "title": "Kariyer fırsatları",
+                "text": "Birçok işveren GPA'yı seçim kriteri olarak kullanır."
+            },
+            {
+                "title": "Akademik onurlar",
+                "text": "Onur, yüksek onur ve en yüksek onur dereceleri."
+            }
+        ],
+        "section3_title": "GPA'nızı iyileştirme ipuçları",
+        "section3_items": [
+            "Her dönem için gerçekçi GPA hedefleri belirleyin",
+            "Zor dersler için çalışma grupları oluşturun",
+            "Hocaların ofis saatlerinden faydalanın",
+            "Bir planlayıcıyla zaman yönetimini geliştirin",
+            "Ücretsiz özel ders hizmetlerini kullanın",
+            "Sağlığınıza dikkat edin: uyku, egzersiz ve beslenme konsantrasyonu artırır"
+        ],
+        "section4_title": "Türk not sistemi",
+        "section4_text": "Türkiye'de üniversiteler genellikle 4,0'lık GPA sistemini veya 100'lük sistemi kullanır. AA=4,0, BA=3,5, BB=3,0, CB=2,5, CC=2,0, DC=1,5, DD=1,0, FF=0,0.",
+        "faq_title": "Sık sorulan sorular",
+        "faqs": [
+            {
+                "q": "GPA ile not ortalaması arasındaki fark?",
+                "a": "Her ikisi de akademik başarıyı ölçer. GPA 4,0 skalasını kullanır."
+            },
+            {
+                "q": "İyi bir GPA nedir?",
+                "a": "3,0 (BB) iyi, 3,5 mükemmel, 3,7+ olağanüstüdür."
+            },
+            {
+                "q": "Sınavı tekrar edebilir miyim?",
+                "a": "Çoğu üniversite sınav tekrarına izin verir. En iyi not geçerlidir."
+            },
+            {
+                "q": "Krediler GPA'yı nasıl etkiler?",
+                "a": "Ağırlıklı ortalamadır, bu nedenle daha fazla kredili dersler daha büyük etkiye sahiptir."
+            }
+        ]
+    },
+    "js": {
+        "error_no_courses": "En az bir ders ekleyin",
+        "error_invalid_credits": "Geçerli kredi girin"
+    }
+}

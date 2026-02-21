@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Calculadora de Promedio - Media, Mediana y Moda Gratis | Optimizo",
+        "description": "Calcula media aritmética, mediana, moda, rango y suma de cualquier serie de números al instante. Para estudiantes e investigadores.",
+        "h1": "Calculadora de Promedio",
+        "subtitle": "Obtén media, mediana, moda, rango y análisis estadístico completo"
+    },
+    "editor": {
+        "label_numbers": "Introduce tus números",
+        "placeholder_numbers": "Números separados por comas, espacios o nuevas líneas",
+        "btn_calculate": "Calcular promedio",
+        "btn_clear": "Limpiar",
+        "label_mean": "Media aritmética (Mean)",
+        "label_median": "Mediana (Median)",
+        "label_mode": "Moda (Mode)",
+        "label_range": "Rango",
+        "label_count": "Cantidad de valores",
+        "label_sum": "Suma",
+        "label_min": "Mínimo",
+        "label_max": "Máximo",
+        "label_sorted": "Lista ordenada"
+    },
+    "content": {
+        "what_title": "¿Qué es el promedio y qué tipos existen?",
+        "what_text": "El promedio es una medida de tendencia central que representa el valor medio o típico de un conjunto de datos. En estadística hay tres medidas principales: media aritmética (mean), mediana (median) y moda (mode). Cada una tiene sus fortalezas en diferentes situaciones. Comprenderlas es esencial en educación, investigación, negocios y toma de decisiones diarias.",
+        "types_title": "Tipos de promedios",
+        "types": [
+            {
+                "name": "Media aritmética",
+                "desc": "El tipo más común. Suma de todos los valores dividida entre la cantidad. Fórmula: (x₁+x₂+...+xₙ)/n. Afectada por valores extremos."
+            },
+            {
+                "name": "Mediana",
+                "desc": "El valor central en datos ordenados. Con cantidad par, es el promedio de los dos centrales. No afectada por valores extremos."
+            },
+            {
+                "name": "Moda",
+                "desc": "El valor que aparece con mayor frecuencia. Puede haber varias modas o ninguna."
+            },
+            {
+                "name": "Promedio ponderado",
+                "desc": "Cuando los valores tienen diferentes pesos. Fórmula: Σ(wᵢ×xᵢ)/Σwᵢ. Ejemplo clásico: GPA."
+            }
+        ],
+        "section1_title": "Promedios en la práctica",
+        "section1_items": [
+            {
+                "title": "Educación",
+                "text": "Los profesores usan media y mediana de calificaciones para evaluar el rendimiento general."
+            },
+            {
+                "title": "Negocios y finanzas",
+                "text": "Las empresas monitorizan ventas promedio, valor del cliente e ingresos por usuario."
+            },
+            {
+                "title": "Ciencia e investigación",
+                "text": "Análisis de datos experimentales, desviación estándar y pruebas de hipótesis requieren promedios."
+            },
+            {
+                "title": "Salud",
+                "text": "Temperatura promedio, presión arterial, frecuencia cardíaca — los profesionales dependen fuertemente de promedios."
+            },
+            {
+                "title": "Deportes",
+                "text": "Promedio de bateo, velocidad, puntuación — las estadísticas deportivas usan promedios ampliamente."
+            },
+            {
+                "title": "Bienes raíces",
+                "text": "La mediana es mejor para precios de vivienda ya que las propiedades caras distorsionan la media."
+            }
+        ],
+        "section2_title": "Media vs. mediana — cuándo usar cuál",
+        "section2_items": [
+            {
+                "title": "Use la media cuando",
+                "text": "Los datos tienen distribución normal, sin valores extremos, y quiere incluir todos los valores."
+            },
+            {
+                "title": "Use la mediana cuando",
+                "text": "Hay valores extremos (como datos de ingresos), distribución sesgada, o quiere conocer el centro real."
+            },
+            {
+                "title": "Use la moda cuando",
+                "text": "Quiere el valor más común. Ideal para datos categóricos como color o talla."
+            }
+        ],
+        "section3_title": "Errores comunes a evitar",
+        "section3_items": [
+            "No se base solo en la media — los valores extremos pueden distorsionarla",
+            "No ignore el tamaño de la muestra — muestras pequeñas pueden ser poco fiables",
+            "Considere siempre el contexto de los datos",
+            "No confunda promedio ponderado y no ponderado",
+            "No promedie porcentajes con bases diferentes",
+            "Siempre visualice los datos con gráficos"
+        ],
+        "faq_title": "Preguntas frecuentes",
+        "faqs": [
+            {
+                "q": "¿Cuál es la diferencia entre promedio y media?",
+                "a": "En lenguaje cotidiano son sinónimos. Técnicamente, 'promedio' es un término más amplio que incluye media, mediana y moda."
+            },
+            {
+                "q": "¿Puede no existir moda?",
+                "a": "Sí. Si todos los valores son únicos, no hay moda. Si dos+ valores tienen la misma frecuencia, es bimodal."
+            },
+            {
+                "q": "¿Cómo encuentro la mediana?",
+                "a": "Ordene los valores. Número impar: valor central. Número par: promedio de los dos centrales."
+            },
+            {
+                "q": "¿Cuándo uso promedio ponderado?",
+                "a": "Cuando los datos tienen diferente importancia. Ejemplos: GPA, rendimiento de portafolio, satisfacción del cliente."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Introduzca números válidos",
+        "no_mode": "Sin moda"
+    }
+}

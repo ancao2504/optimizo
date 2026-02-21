@@ -1,0 +1,144 @@
+{
+    "meta": {
+        "title": "Calculadora de GPA - Promedio de Calificaciones Gratuito | Optimizo",
+        "description": "Calcula tu GPA con precisión. Soporta múltiples materias, créditos y valores de calificación. Para estudiantes y académicos.",
+        "h1": "Calculadora de GPA",
+        "subtitle": "Calcula tu promedio de calificaciones a partir de materias y créditos"
+    },
+    "editor": {
+        "label_course": "Nombre de la materia",
+        "placeholder_course": "Ej. Matemáticas 101",
+        "label_grade": "Calificación",
+        "label_credits": "Créditos",
+        "btn_add_course": "Agregar materia",
+        "btn_calculate": "Calcular GPA",
+        "btn_reset": "Reiniciar",
+        "btn_remove": "Eliminar",
+        "label_result": "Tu GPA",
+        "label_total_credits": "Créditos totales",
+        "label_total_points": "Puntos totales"
+    },
+    "content": {
+        "what_title": "¿Qué es el GPA y por qué es importante?",
+        "what_text": "El Grade Point Average (GPA) es un método estandarizado para medir el rendimiento académico. Se calcula en una escala de 0,0 a 4,0, donde 4,0 representa la mejor calificación posible. El GPA juega un papel crucial: admisión universitaria, elegibilidad para becas, programas de posgrado, lista del decano y muchas decisiones de contratación dependen de él.",
+        "scale_title": "Escala de calificaciones GPA",
+        "scale": [
+            {
+                "grade": "A / A+",
+                "points": "4.0",
+                "percent": "90-100%"
+            },
+            {
+                "grade": "A-",
+                "points": "3.7",
+                "percent": "87-89%"
+            },
+            {
+                "grade": "B+",
+                "points": "3.3",
+                "percent": "83-86%"
+            },
+            {
+                "grade": "B",
+                "points": "3.0",
+                "percent": "80-82%"
+            },
+            {
+                "grade": "B-",
+                "points": "2.7",
+                "percent": "77-79%"
+            },
+            {
+                "grade": "C+",
+                "points": "2.3",
+                "percent": "73-76%"
+            },
+            {
+                "grade": "C",
+                "points": "2.0",
+                "percent": "70-72%"
+            },
+            {
+                "grade": "C-",
+                "points": "1.7",
+                "percent": "67-69%"
+            },
+            {
+                "grade": "D+",
+                "points": "1.3",
+                "percent": "63-66%"
+            },
+            {
+                "grade": "D",
+                "points": "1.0",
+                "percent": "60-62%"
+            },
+            {
+                "grade": "F",
+                "points": "0.0",
+                "percent": "0-59%"
+            }
+        ],
+        "section1_title": "Cómo se calcula el GPA",
+        "section1_text": "Es un promedio ponderado de puntos y créditos. Procedimiento: 1) Determine el valor de cada calificación. 2) Multiplique por créditos. 3) Sume todos los productos. 4) Divida entre créditos totales. Ejemplo: Matemáticas (3 créditos, B=3,0) y Física (4 créditos, A=4,0), GPA = (9+16)/7 = 3,57.",
+        "section2_title": "Por qué importa el GPA",
+        "section2_items": [
+            {
+                "title": "Admisión universitaria",
+                "text": "La mayoría de universidades consideran el GPA como factor clave. Universidades top prefieren 3,5+."
+            },
+            {
+                "title": "Becas",
+                "text": "Muchas becas exigen GPA mínimo. Becas por mérito: 3,0 a 3,5+."
+            },
+            {
+                "title": "Programas de posgrado",
+                "text": "MBA, derecho, medicina requieren GPA competitivo (típicamente 3,0+)."
+            },
+            {
+                "title": "Oportunidades laborales",
+                "text": "Muchos empleadores usan el GPA como criterio de selección."
+            },
+            {
+                "title": "Honores académicos",
+                "text": "Lista del decano (típicamente 3,5+), sociedades de honor y premios de graduación."
+            }
+        ],
+        "section3_title": "Consejos para mejorar el GPA",
+        "section3_items": [
+            "Establezca metas GPA realistas por semestre",
+            "Forme grupos de estudio para materias difíciles",
+            "Aproveche las horas de oficina de los profesores",
+            "Mejore la gestión del tiempo con un planificador",
+            "Aproveche las tutorías gratuitas",
+            "Cuide su salud: sueño, ejercicio y alimentación mejoran la concentración",
+            "Aproveche oportunidades de crédito extra",
+            "No postergue — el esfuerzo constante da mejores resultados"
+        ],
+        "section4_title": "Sistemas de calificación internacionales",
+        "section4_text": "España usa 0-10 (5 aprobado). México: 0-10 o 0-100. Argentina: 0-10. Colombia: 0-5. EE.UU.: escala 4,0. Conversión: 10 ≈ 4,0 GPA, 8 ≈ 3,3, 7 ≈ 2,7, 5 ≈ 1,0.",
+        "faq_title": "Preguntas frecuentes",
+        "faqs": [
+            {
+                "q": "¿Cuál es la diferencia entre GPA y CGPA?",
+                "a": "GPA: un semestre. CGPA: promedio acumulado de todos los semestres."
+            },
+            {
+                "q": "¿Qué es un buen GPA?",
+                "a": "3,0 (B) es bueno, 3,5 muy bueno y 3,7+ excelente."
+            },
+            {
+                "q": "¿Puedo reemplazar una mala calificación?",
+                "a": "Muchas universidades permiten repetir materias, donde la mejor calificación reemplaza la original."
+            },
+            {
+                "q": "¿Cómo afectan los créditos al GPA?",
+                "a": "Es un promedio ponderado, las materias con más créditos tienen mayor impacto."
+            }
+        ]
+    },
+    "js": {
+        "error_no_courses": "Agregue al menos una materia",
+        "error_invalid_credits": "Introduzca créditos válidos"
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "Calcolatrice BMI - Indice di Massa Corporea Gratuito | Optimizo",
+        "description": "Calcola il tuo BMI istantaneamente con supporto metrico e imperiale. Scopri la tua categoria di peso e le implicazioni per la salute.",
+        "h1": "Calcolatrice BMI",
+        "subtitle": "Calcola l'Indice di Massa Corporea e scopri la tua categoria di salute"
+    },
+    "editor": {
+        "label_height": "Altezza",
+        "label_weight": "Peso",
+        "label_unit": "Sistema di unità",
+        "unit_metric": "Metrico (cm / kg)",
+        "unit_imperial": "Imperiale (piedi-pollici / libbre)",
+        "label_height_cm": "Altezza (cm)",
+        "label_height_ft": "Altezza (piedi)",
+        "label_height_in": "Altezza (pollici)",
+        "label_weight_kg": "Peso (kg)",
+        "label_weight_lbs": "Peso (libbre)",
+        "btn_calculate": "Calcola BMI",
+        "label_result": "Il tuo BMI",
+        "label_category": "Categoria"
+    },
+    "content": {
+        "what_title": "Cos'è il BMI?",
+        "what_text": "L'Indice di Massa Corporea (BMI) è uno strumento di screening ampiamente utilizzato che stima il grasso corporeo basandosi su altezza e peso. Sviluppato dal matematico belga Adolphe Quetelet nel XIX secolo. Anche se non misura direttamente il grasso, fornisce un indicatore affidabile dei potenziali rischi per la salute.",
+        "categories_title": "Categorie BMI e implicazioni per la salute",
+        "categories": [
+            {
+                "range": "Sotto 18,5",
+                "label": "Sottopeso",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Peso normale",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Sovrappeso",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 e oltre",
+                "label": "Obesità",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "Formula del BMI",
+        "formula_metric": "Metrico: BMI = Peso (kg) ÷ Altezza (m)²",
+        "formula_imperial": "Imperiale: BMI = (Peso (lbs) × 703) ÷ Altezza (pollici)²",
+        "section1_title": "Categorie BMI in dettaglio",
+        "section1_items": [
+            {
+                "title": "Sottopeso (BMI < 18,5)",
+                "text": "Può indicare malnutrizione o problemi di salute. Rischi: sistema immunitario indebolito, osteoporosi e anemia."
+            },
+            {
+                "title": "Peso normale (BMI 18,5 – 24,9)",
+                "text": "Peso proporzionato all'altezza. Rischio più basso di problemi di salute legati al peso."
+            },
+            {
+                "title": "Sovrappeso (BMI 25,0 – 29,9)",
+                "text": "Rischio aumentato di malattie cardiache, diabete tipo 2, ipertensione e apnea notturna."
+            },
+            {
+                "title": "Obesità (BMI ≥ 30,0)",
+                "text": "Rischio significativamente elevato di malattie cardiache, ictus, diabete e alcuni tumori. Classe I (30-34,9), II (35-39,9), III (40+)."
+            }
+        ],
+        "section2_title": "Limiti del BMI",
+        "section2_text": "Il BMI non distingue tra massa muscolare, densità ossea e tessuto adiposo. Atleti muscolosi possono essere classificati sovrappeso nonostante una bassa percentuale di grasso.",
+        "section3_title": "Fattori che influenzano il BMI",
+        "section3_items": [
+            "Età: l'interpretazione varia per bambini, adolescenti e anziani",
+            "Sesso: le donne hanno naturalmente una percentuale di grasso più alta",
+            "Massa muscolare: gli atleti hanno spesso un BMI più alto a causa dei muscoli",
+            "Etnia: i rischi per la salute possono variare a diversi livelli di BMI",
+            "Corporatura: persone di corporatura robusta possono avere un BMI naturalmente più alto",
+            "Distribuzione del grasso: dove si accumula è importante quanto la quantità"
+        ],
+        "section4_title": "Consigli per un peso sano",
+        "section4_items": [
+            "Punta ad almeno 150 minuti di attività aerobica moderata a settimana",
+            "Dieta equilibrata: frutta, verdura, cereali integrali e proteine",
+            "Controlla le porzioni",
+            "Mantieniti ben idratato durante la giornata",
+            "Dormi 7-9 ore di sonno di qualità",
+            "Gestisci lo stress attraverso meditazione o tecniche di rilassamento"
+        ],
+        "faq_title": "Domande frequenti",
+        "faqs": [
+            {
+                "q": "Il BMI è accurato per gli atleti?",
+                "a": "Il BMI può sovrastimare il grasso. Considera la circonferenza vita, la percentuale di grasso o la scansione DEXA."
+            },
+            {
+                "q": "Qual è un BMI sano per i bambini?",
+                "a": "Si interpreta con curve percentili per età e sesso. Tra il 5° e l'85° percentile è considerato sano."
+            },
+            {
+                "q": "Quanto spesso controllare il BMI?",
+                "a": "Ogni pochi mesi è sufficiente. Concentrati su abitudini sane sostenibili."
+            },
+            {
+                "q": "Il BMI può predire le malattie cardiache?",
+                "a": "È uno dei molti fattori di rischio. Pressione, colesterolo e storia familiare sono altrettanto importanti."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Inserisci valori validi di altezza e peso",
+        "error_range": "I valori sono fuori da un intervallo realistico",
+        "cat_underweight": "Sottopeso",
+        "cat_normal": "Peso normale",
+        "cat_overweight": "Sovrappeso",
+        "cat_obese": "Obesità"
+    }
+}

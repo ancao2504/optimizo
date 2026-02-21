@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Renters rente-beregner - Gratis online værktøj | Optimizo",
+        "description": "Beregn renters rente, fremtidig værdi og investeringsvækst. Understøtter årlig, halvårlig, kvartalsvis, månedlig og daglig rentetilskrivning.",
+        "h1": "Renters rente-beregner",
+        "subtitle": "Beregn investeringsvækst med forskellige rentetilskrivningsfrekvenser"
+    },
+    "editor": {
+        "label_principal": "Initial investering ($)",
+        "label_rate": "Årlig rente (%)",
+        "label_time": "Tidsperiode (år)",
+        "label_frequency": "Tilskrivningsfrekvens",
+        "label_contribution": "Månedligt bidrag ($)",
+        "freq_annually": "Årligt",
+        "freq_semiannually": "Halvårligt",
+        "freq_quarterly": "Kvartalsvis",
+        "freq_monthly": "Månedligt",
+        "freq_daily": "Dagligt",
+        "btn_calculate": "Beregn vækst",
+        "label_future_value": "Fremtidig værdi",
+        "label_total_interest": "Optjent rente",
+        "label_total_deposits": "Samlede indskud",
+        "label_breakdown": "Årlig oversigt",
+        "col_year": "År",
+        "col_deposits": "Samlede indskud",
+        "col_interest": "Optjent rente",
+        "col_balance": "Saldo"
+    },
+    "content": {
+        "what_title": "Renters rente: Kraften bag formueopbygning",
+        "what_text": "Albert Einstein beskrev renters rente som 'verdens ottende vidunder'. I modsætning til simpel rente, der kun beregnes af hovedstolen, beregnes renters rente af hovedstolen plus tidligere akkumulerede renter. Dette skaber en sneboldeffekt hvor dine penge vokser med en stadigt stigende hastighed.",
+        "formula_title": "Formel for renters rente",
+        "formula_text": "A = P(1 + r/n)^(nt), hvor A = fremtidig værdi, P = hovedstol, r = årlig rente, n = antal tilskrivninger pr. år, t = tid (år)",
+        "section1_title": "Simpel rente vs. renters rente",
+        "section1_text": "Simpel rente beregnes kun af den oprindelige hovedstol, renters rente beregnes af hovedstol og akkumulerede renter. Eksempel: 10.000 kr. ved 5% i 20 år: simpel = 20.000 kr., renters rente (månedlig) = 27.126 kr. — 7.126 kr. mere!",
+        "section2_title": "Tilskrivningsfrekvenser",
+        "section2_items": [
+            {
+                "title": "Årlig",
+                "text": "Rente tilskrives én gang årligt. 10.000 ved 5% vokser til 16.289 på 10 år."
+            },
+            {
+                "title": "Halvårlig",
+                "text": "Rente tilskrives to gange årligt. 10.000 ved 5% vokser til 16.386 på 10 år."
+            },
+            {
+                "title": "Kvartalsvis",
+                "text": "Rente tilskrives fire gange årligt. 10.000 ved 5% vokser til 16.436 på 10 år."
+            },
+            {
+                "title": "Månedlig",
+                "text": "Rente tilskrives hver måned. 10.000 ved 5% vokser til 16.470 på 10 år."
+            },
+            {
+                "title": "Daglig",
+                "text": "Rente tilskrives dagligt. 10.000 ved 5% vokser til 16.487 på 10 år."
+            }
+        ],
+        "section3_title": "Reglen om 72",
+        "section3_text": "Reglen om 72 estimerer hvor mange år det tager at fordoble dine penge: År = 72 ÷ rente. Ved 8% fordobles dine penge på ca. 9 år. Ved 6% på ca. 12 år.",
+        "section4_title": "Praktisk anvendelse",
+        "section4_items": [
+            {
+                "title": "Pensionsopsparing",
+                "text": "500 kr./måned ved 7% i 30 år = over 500.000 kr., heraf 180.000 bidrag og 320.000+ renters rente."
+            },
+            {
+                "title": "Uddannelsesfond",
+                "text": "200 kr./måned fra fødslen ved 7% = over 86.000 kr. på 18 år."
+            },
+            {
+                "title": "Nødfond",
+                "text": "10.000 kr. ved 4% APY genererer over 2.200 kr. i renter på 5 år uden yderligere indskud!"
+            },
+            {
+                "title": "Gældsbevidsthed",
+                "text": "Renters rente arbejder imod dig ved gæld. Kreditkort med 20% APR — saldo på 5.000 kan blive 12.000+ på 5 år."
+            }
+        ],
+        "tips_title": "Tips til at maksimere renters rente",
+        "tips": [
+            "Start med at investere så tidligt som muligt — tid er din største allierede",
+            "Opsæt regelmæssige månedlige bidrag",
+            "Find konti med højere tilskrivningsfrekvens",
+            "Geninvester udbytte og renter",
+            "Betal højrentelån af først",
+            "Husk inflation — reel afkast = nominelt afkast - inflation"
+        ],
+        "faq_title": "Ofte stillede spørgsmål",
+        "faqs": [
+            {
+                "q": "Hvordan adskiller renters rente sig fra simpel rente?",
+                "a": "Simpel rente beregnes kun af hovedstolen, renters rente af hovedstol og akkumulerede renter."
+            },
+            {
+                "q": "Hvad er reglen om 72?",
+                "a": "Hurtig formel: 72 divideret med renten = år til fordobling. Ved 6% fordobles på ~12 år."
+            },
+            {
+                "q": "Er hyppigere tilskrivning bedre?",
+                "a": "Ja, men den ekstra fordel aftager. Forskellen mellem månedlig og daglig er langt mindre end mellem årlig og månedlig."
+            },
+            {
+                "q": "Hvordan maksimerer jeg renters rente?",
+                "a": "Start tidligt, bidrag regelmæssigt, geninvester afkast og vælg lavomkostningsinvesteringer."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Indtast venligst gyldige tal",
+        "error_range": "Værdier skal være større end nul"
+    }
+}

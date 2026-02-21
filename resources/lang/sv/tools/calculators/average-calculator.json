@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Medelvärdeskalkylator - Gratis Medelvärde, Median och Typvärde | Optimizo",
+        "description": "Beräkna aritmetiskt medelvärde, median, typvärde, variationsbredd och summa från valfri talserie. För studenter och forskare.",
+        "h1": "Medelvärdeskalkylator",
+        "subtitle": "Medelvärde, median, typvärde, variationsbredd och fullständig statistisk analys"
+    },
+    "editor": {
+        "label_numbers": "Ange dina tal",
+        "placeholder_numbers": "Tal separerade med komman, mellanslag eller nya rader",
+        "btn_calculate": "Beräkna medelvärde",
+        "btn_clear": "Rensa",
+        "label_mean": "Aritmetiskt medelvärde (Mean)",
+        "label_median": "Median",
+        "label_mode": "Typvärde (Mode)",
+        "label_range": "Variationsbredd",
+        "label_count": "Antal värden",
+        "label_sum": "Summa",
+        "label_min": "Minimum",
+        "label_max": "Maximum",
+        "label_sorted": "Sorterad lista"
+    },
+    "content": {
+        "what_title": "Vad är medelvärde och vilka typer finns?",
+        "what_text": "Medelvärde är ett mått på central tendens som representerar det typiska värdet i en datamängd. Inom statistik finns tre huvudmått: aritmetiskt medelvärde, median och typvärde.",
+        "types_title": "Typer av medelvärden",
+        "types": [
+            {
+                "name": "Aritmetiskt medelvärde",
+                "desc": "Vanligaste typen. Summan av värden delat med antalet. Känsligt för extremvärden."
+            },
+            {
+                "name": "Median",
+                "desc": "Mittvärdet i sorterade data. Jämnt antal: medel av de två mittersta. Motståndskraftigt mot extremvärden."
+            },
+            {
+                "name": "Typvärde",
+                "desc": "Det vanligaste värdet. Det kan finnas flera eller inget."
+            },
+            {
+                "name": "Viktat medelvärde",
+                "desc": "När värden har olika vikter. Formel: Σ(wᵢ×xᵢ)/Σwᵢ."
+            }
+        ],
+        "section1_title": "Medelvärden i praktiken",
+        "section1_items": [
+            {
+                "title": "Utbildning",
+                "text": "Lärare använder medelvärde och median av betyg för att utvärdera prestationer."
+            },
+            {
+                "title": "Företag",
+                "text": "Företag övervakar genomsnittlig försäljning, kundvärde och intäkt per användare."
+            },
+            {
+                "title": "Vetenskap",
+                "text": "Analys av experimentdata kräver medelvärden."
+            },
+            {
+                "title": "Hälsa",
+                "text": "Genomsnittlig temperatur, blodtryck, puls — vårdpersonal förlitar sig på medelvärden."
+            },
+            {
+                "title": "Sport",
+                "text": "Genomsnittliga mål, hastighet, poäng — sportstatistik använder medelvärden."
+            },
+            {
+                "title": "Fastigheter",
+                "text": "Median är bättre för bostadspriser eftersom dyra fastigheter snedvrider medelvärdet."
+            }
+        ],
+        "section2_title": "Medelvärde vs median — när använda vilken",
+        "section2_items": [
+            {
+                "title": "Använd medelvärde när",
+                "text": "Data är normalfördelade, utan signifikanta extremvärden."
+            },
+            {
+                "title": "Använd median när",
+                "text": "Det finns extremvärden (som inkomstdata), skev fördelning."
+            },
+            {
+                "title": "Använd typvärde när",
+                "text": "Du vill ha det vanligaste värdet. Idealiskt för kategoridata."
+            }
+        ],
+        "section3_title": "Vanliga misstag att undvika",
+        "section3_items": [
+            "Lita inte bara på medelvärdet — extremvärden kan snedvrida det avsevärt",
+            "Ignorera inte urvalsstorleken",
+            "Beakta alltid datasammanhanget",
+            "Blanda inte viktat och oviktat medelvärde",
+            "Genomsnittsberäkna inte procent med olika baser direkt",
+            "Visualisera alltid data med grafer"
+        ],
+        "faq_title": "Vanliga frågor",
+        "faqs": [
+            {
+                "q": "Vad är skillnaden mellan medelvärde och mean?",
+                "a": "I vardagsspråk är de synonymer. Tekniskt är 'medelvärde' ett bredare begrepp."
+            },
+            {
+                "q": "Kan typvärdet saknas?",
+                "a": "Ja. Om alla värden är unika finns inget typvärde."
+            },
+            {
+                "q": "Hur hittar jag medianen?",
+                "a": "Sortera värdena. Udda antal: mittvärdet. Jämnt: medel av de två mittersta."
+            },
+            {
+                "q": "När använder jag viktat medelvärde?",
+                "a": "När data har olika betydelse. Exempel: betygssnitt, portföljavkastning."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Ange giltiga tal",
+        "no_mode": "Inget typvärde"
+    }
+}

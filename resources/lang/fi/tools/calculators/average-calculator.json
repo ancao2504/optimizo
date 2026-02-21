@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Keskiarvolaskuri - Ilmainen keskiarvo, mediaani ja moodi | Optimizo",
+        "description": "Laske aritmeettinen keskiarvo, mediaani, moodi, vaihteluväli ja summa mistä tahansa lukujoukosta. Opiskelijoille ja tutkijoille.",
+        "h1": "Keskiarvolaskuri",
+        "subtitle": "Saa keskiarvo, mediaani, moodi, vaihteluväli ja täydellinen tilastollinen analyysi"
+    },
+    "editor": {
+        "label_numbers": "Syötä lukusi",
+        "placeholder_numbers": "Luvut erotettuna pilkuilla, välilyönneillä tai uusilla riveillä",
+        "btn_calculate": "Laske keskiarvo",
+        "btn_clear": "Tyhjennä",
+        "label_mean": "Aritmeettinen keskiarvo (Mean)",
+        "label_median": "Mediaani (Median)",
+        "label_mode": "Moodi (Mode)",
+        "label_range": "Vaihteluväli",
+        "label_count": "Arvojen lukumäärä",
+        "label_sum": "Summa",
+        "label_min": "Minimi",
+        "label_max": "Maksimi",
+        "label_sorted": "Järjestetty lista"
+    },
+    "content": {
+        "what_title": "Mikä on keskiarvo ja mitä tyyppejä on?",
+        "what_text": "Keskiarvo on keskiluvun mitta, joka edustaa datajoukon keskimmäistä tai tyypillistä arvoa. Tilastotieteessä on kolme pääkeskilukua: aritmeettinen keskiarvo, mediaani ja moodi. Jokaisella on vahvuutensa eri tilanteissa. Näiden ymmärtäminen on olennaista koulutuksessa, tutkimuksessa, liiketoiminnassa ja päätöksenteossa.",
+        "types_title": "Keskiarvojen tyypit",
+        "types": [
+            {
+                "name": "Aritmeettinen keskiarvo",
+                "desc": "Yleisin tyyppi. Arvojen summa jaettuna lukumäärällä. Kaava: (x₁+x₂+...+xₙ)/n. Ääriarvoille herkkä."
+            },
+            {
+                "name": "Mediaani",
+                "desc": "Keskimmäinen arvo järjestetyssä datassa. Parillisella lukumäärällä kahden keskimmäisen keskiarvo. Ei herkkä ääriarvoille."
+            },
+            {
+                "name": "Moodi",
+                "desc": "Useimmin esiintyvä arvo. Voi olla useita tai ei yhtään."
+            },
+            {
+                "name": "Painotettu keskiarvo",
+                "desc": "Kun arvoilla on eri painot. Kaava: Σ(wᵢ×xᵢ)/Σwᵢ. Klassinen esimerkki: GPA."
+            }
+        ],
+        "section1_title": "Keskiarvot käytännössä",
+        "section1_items": [
+            {
+                "title": "Koulutus",
+                "text": "Opettajat käyttävät arvosanojen keskiarvoa ja mediaania kokonaissuorituksen arviointiin."
+            },
+            {
+                "title": "Liiketoiminta",
+                "text": "Yritykset seuraavat keskimääräistä myyntiä, asiakasarvoa ja tuloa käyttäjää kohden."
+            },
+            {
+                "title": "Tiede ja tutkimus",
+                "text": "Kokeellisen datan analyysi, keskihajonta ja hypoteesitestit vaativat keskiarvoja."
+            },
+            {
+                "title": "Terveys",
+                "text": "Keskilämpötila, verenpaine, syke — terveydenhuoltoammattilaiset tukeutuvat vahvasti keskiarvoihin."
+            },
+            {
+                "title": "Urheilu",
+                "text": "Lyöntikeskiarvo, nopeus, pisteet — urheilutilastot käyttävät laajasti keskiarvoja."
+            },
+            {
+                "title": "Kiinteistöt",
+                "text": "Mediaani on parempi asuntohinnoille, sillä kalliit kohteet vääristävät keskiarvoa."
+            }
+        ],
+        "section2_title": "Keskiarvo vs. mediaani — milloin käyttää mitäkin",
+        "section2_items": [
+            {
+                "title": "Käytä keskiarvoa kun",
+                "text": "Data on normaalisti jakautunut, ei merkittäviä poikkeamia, ja haluat sisällyttää kaikki arvot."
+            },
+            {
+                "title": "Käytä mediaania kun",
+                "text": "On ääriarvoja (kuten tulotiedot), vinoutunut jakauma, tai haluat tietää todellisen keskipisteen."
+            },
+            {
+                "title": "Käytä moodia kun",
+                "text": "Haluat yleisimmän arvon. Ihanteellinen kategoriselle datalle kuten väri tai koko."
+            }
+        ],
+        "section3_title": "Yleisiä virheitä vältettäväksi",
+        "section3_items": [
+            "Älä luota vain keskiarvoon — ääriarvot voivat vääristää sitä merkittävästi",
+            "Älä ohita otoskokoa — pienet otokset voivat olla epäluotettavia",
+            "Huomioi aina datan konteksti",
+            "Älä sekoita painotettua ja painottamatonta keskiarvoa",
+            "Älä keskiarvota prosentteja suoraan eri kannoilla",
+            "Visualisoi data aina kaavioilla"
+        ],
+        "faq_title": "Usein kysytyt kysymykset",
+        "faqs": [
+            {
+                "q": "Mikä ero keskiarvolla ja meanilla?",
+                "a": "Arkikielessä synonyymejä. Teknisesti 'keskiarvo' on laajempi termi sisältäen meanin, mediaanin ja moodin."
+            },
+            {
+                "q": "Voiko moodia olla olematta?",
+                "a": "Kyllä. Jos kaikki arvot ovat ainutlaatuisia, moodia ei ole."
+            },
+            {
+                "q": "Miten löydän mediaanin?",
+                "a": "Järjestä arvot. Pariton lukumäärä: keskimmäinen. Parillinen: kahden keskimmäisen keskiarvo."
+            },
+            {
+                "q": "Milloin käytän painotettua keskiarvoa?",
+                "a": "Kun datalla on eri painoarvot. Esimerkkejä: GPA, sijoitusportfolion tuotto, asiakastyytyväisyys."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Syötä kelvolliset luvut",
+        "no_mode": "Ei moodia"
+    }
+}

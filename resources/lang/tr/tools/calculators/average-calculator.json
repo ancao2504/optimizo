@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Ortalama Hesaplayıcı - Ücretsiz Ortalama, Medyan ve Mod | Optimizo",
+        "description": "Herhangi bir sayı setinden aritmetik ortalama, medyan, mod, aralık ve toplamı hesaplayın. Öğrenciler ve araştırmacılar için.",
+        "h1": "Ortalama Hesaplayıcı",
+        "subtitle": "Ortalama, medyan, mod, aralık ve tam istatistiksel analiz"
+    },
+    "editor": {
+        "label_numbers": "Sayılarınızı girin",
+        "placeholder_numbers": "Virgüller, boşluklar veya yeni satırlarla ayrılmış sayılar",
+        "btn_calculate": "Ortalamayı hesapla",
+        "btn_clear": "Temizle",
+        "label_mean": "Aritmetik ortalama (Mean)",
+        "label_median": "Medyan (Median)",
+        "label_mode": "Mod (Mode)",
+        "label_range": "Aralık",
+        "label_count": "Değer sayısı",
+        "label_sum": "Toplam",
+        "label_min": "Minimum",
+        "label_max": "Maksimum",
+        "label_sorted": "Sıralanmış liste"
+    },
+    "content": {
+        "what_title": "Ortalama nedir ve kaç türü var?",
+        "what_text": "Ortalama, bir veri setindeki tipik değeri temsil eden merkezi eğilim ölçüsüdür. İstatistikte üç temel ölçü vardır: aritmetik ortalama, medyan ve mod.",
+        "types_title": "Ortalama türleri",
+        "types": [
+            {
+                "name": "Aritmetik ortalama",
+                "desc": "En yaygın tür. Değerlerin toplamı sayılarına bölünür. Aykırı değerlere duyarlıdır."
+            },
+            {
+                "name": "Medyan",
+                "desc": "Sıralı verilerin ortasındaki değer. Aykırı değerlere dayanıklıdır."
+            },
+            {
+                "name": "Mod",
+                "desc": "En sık tekrarlanan değer. Birden fazla olabilir veya hiç olmayabilir."
+            },
+            {
+                "name": "Ağırlıklı ortalama",
+                "desc": "Değerlerin farklı ağırlıkları olduğunda. Formül: Σ(wᵢ×xᵢ)/Σwᵢ."
+            }
+        ],
+        "section1_title": "Pratikte ortalamalar",
+        "section1_items": [
+            {
+                "title": "Eğitim",
+                "text": "Öğretmenler performans değerlendirmesi için not ortalaması ve medyanını kullanır."
+            },
+            {
+                "title": "İş dünyası",
+                "text": "Şirketler ortalama satış, müşteri değeri ve kullanıcı başına geliri izler."
+            },
+            {
+                "title": "Bilim",
+                "text": "Deney verilerinin analizi ortalamalar gerektirir."
+            },
+            {
+                "title": "Sağlık",
+                "text": "Ortalama sıcaklık, tansiyon, nabız — sağlık profesyonelleri ortalamalara güvenir."
+            },
+            {
+                "title": "Spor",
+                "text": "Ortalama gol, hız, skor — spor istatistikleri ortalamaları yaygın kullanır."
+            },
+            {
+                "title": "Emlak",
+                "text": "Medyan konut fiyatları için daha iyidir çünkü pahalı mülkler ortalamayı çarpıtır."
+            }
+        ],
+        "section2_title": "Ortalama vs medyan — hangisini ne zaman kullanmalı",
+        "section2_items": [
+            {
+                "title": "Ortalamayı kullanın",
+                "text": "Veriler normal dağılıma sahip, önemli aykırı değerler yok."
+            },
+            {
+                "title": "Medyanı kullanın",
+                "text": "Aykırı değerler var (gelir verileri gibi), çarpık dağılım."
+            },
+            {
+                "title": "Modu kullanın",
+                "text": "En sık değeri istiyorsunuz. Kategorik veriler için ideal."
+            }
+        ],
+        "section3_title": "Dikkat edilmesi gereken yaygın hatalar",
+        "section3_items": [
+            "Yalnızca ortalamaya güvenmeyin — aykırı değerler önemli ölçüde çarpıtabilir",
+            "Örneklem büyüklüğünü göz ardı etmeyin",
+            "Her zaman veri bağlamını göz önünde bulundurun",
+            "Ağırlıklı ve ağırlıksız ortalamayı karıştırmayın",
+            "Farklı tabanları olan yüzdeleri doğrudan ortalalamayın",
+            "Verileri her zaman grafiklerle görselleştirin"
+        ],
+        "faq_title": "Sık sorulan sorular",
+        "faqs": [
+            {
+                "q": "Ortalama ile mean arasındaki fark nedir?",
+                "a": "Günlük dilde eş anlamlıdır. Teknik olarak 'ortalama' daha geniş bir kavramdır."
+            },
+            {
+                "q": "Mod olmayabilir mi?",
+                "a": "Evet. Tüm değerler benzersizse mod yoktur."
+            },
+            {
+                "q": "Medyanı nasıl bulurum?",
+                "a": "Değerleri sıralayın. Tek sayı: ortadaki. Çift sayı: ortadaki ikisinin ortalaması."
+            },
+            {
+                "q": "Ağırlıklı ortalamayı ne zaman kullanırım?",
+                "a": "Veriler farklı önem derecelerine sahip olduğunda. Örnekler: GPA, portföy getirisi."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Geçerli sayılar girin",
+        "no_mode": "Mod yok"
+    }
+}

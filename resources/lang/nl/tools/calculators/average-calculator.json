@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Gemiddelde Calculator - Gratis Gemiddelde, Mediaan en Modus | Optimizo",
+        "description": "Bereken het rekenkundig gemiddelde, mediaan, modus, bereik en som van elke reeks getallen. Voor studenten en onderzoekers.",
+        "h1": "Gemiddelde Calculator",
+        "subtitle": "Gemiddelde, mediaan, modus, bereik en volledige statistische analyse"
+    },
+    "editor": {
+        "label_numbers": "Voer uw getallen in",
+        "placeholder_numbers": "Getallen gescheiden door komma's, spaties of nieuwe regels",
+        "btn_calculate": "Bereken gemiddelde",
+        "btn_clear": "Wissen",
+        "label_mean": "Rekenkundig gemiddelde (Mean)",
+        "label_median": "Mediaan (Median)",
+        "label_mode": "Modus (Mode)",
+        "label_range": "Bereik",
+        "label_count": "Aantal waarden",
+        "label_sum": "Som",
+        "label_min": "Minimum",
+        "label_max": "Maximum",
+        "label_sorted": "Gesorteerde lijst"
+    },
+    "content": {
+        "what_title": "Wat is een gemiddelde en welke soorten bestaan er?",
+        "what_text": "Een gemiddelde is een maat van centrale tendens die de typische waarde van een dataset vertegenwoordigt. In de statistiek zijn er drie hoofdmaten: rekenkundig gemiddelde, mediaan en modus. Elk heeft zijn sterke punten. Ze begrijpen is essentieel in onderwijs, onderzoek, bedrijfsleven en dagelijkse besluitvorming.",
+        "types_title": "Soorten gemiddelden",
+        "types": [
+            {
+                "name": "Rekenkundig gemiddelde",
+                "desc": "Het meest voorkomende type. Som van waarden gedeeld door het aantal. Formule: (x₁+x₂+...+xₙ)/n. Gevoelig voor uitschieters."
+            },
+            {
+                "name": "Mediaan",
+                "desc": "De middelste waarde van gesorteerde gegevens. Even aantal: gemiddelde van de twee middelste. Bestand tegen uitschieters."
+            },
+            {
+                "name": "Modus",
+                "desc": "De meest voorkomende waarde. Er kunnen meerdere zijn of geen."
+            },
+            {
+                "name": "Gewogen gemiddelde",
+                "desc": "Wanneer waarden verschillende gewichten hebben. Formule: Σ(wᵢ×xᵢ)/Σwᵢ. Klassiek voorbeeld: GPA."
+            }
+        ],
+        "section1_title": "Gemiddelden in de praktijk",
+        "section1_items": [
+            {
+                "title": "Onderwijs",
+                "text": "Docenten gebruiken gemiddelde en mediaan van cijfers om algehele prestaties te evalueren."
+            },
+            {
+                "title": "Bedrijfsleven",
+                "text": "Bedrijven monitoren gemiddelde verkoop, klantwaarde en omzet per gebruiker."
+            },
+            {
+                "title": "Wetenschap",
+                "text": "Analyse van experimentele data, standaardafwijking en hypothesetoetsing vereisen gemiddelden."
+            },
+            {
+                "title": "Gezondheidszorg",
+                "text": "Gemiddelde temperatuur, bloeddruk, hartslag — zorgprofessionals vertrouwen sterk op gemiddelden."
+            },
+            {
+                "title": "Sport",
+                "text": "Slaggemiddelde, snelheid, score — sportstatistieken gebruiken gemiddelden uitgebreid."
+            },
+            {
+                "title": "Vastgoed",
+                "text": "Mediaan is beter voor huizenprijzen omdat dure woningen het gemiddelde vertekenen."
+            }
+        ],
+        "section2_title": "Gemiddelde vs mediaan — wanneer welke gebruiken",
+        "section2_items": [
+            {
+                "title": "Gebruik gemiddelde wanneer",
+                "text": "Data normaal verdeeld zijn, zonder significante uitschieters."
+            },
+            {
+                "title": "Gebruik mediaan wanneer",
+                "text": "Er uitschieters zijn (zoals inkomensgegevens), scheve verdeling."
+            },
+            {
+                "title": "Gebruik modus wanneer",
+                "text": "U de meest voorkomende waarde wilt. Ideaal voor categorische data."
+            }
+        ],
+        "section3_title": "Veelgemaakte fouten om te vermijden",
+        "section3_items": [
+            "Vertrouw niet alleen op het gemiddelde — uitschieters kunnen het sterk vertekenen",
+            "Negeer de steekproefgrootte niet",
+            "Houd altijd rekening met de context van de data",
+            "Verwar gewogen en ongewogen gemiddelden niet",
+            "Middel percentages met verschillende bases niet direct",
+            "Visualiseer data altijd met grafieken"
+        ],
+        "faq_title": "Veelgestelde vragen",
+        "faqs": [
+            {
+                "q": "Wat is het verschil tussen gemiddelde en mean?",
+                "a": "In het dagelijks taalgebruik zijn ze synoniemen. Technisch gezien is 'gemiddelde' een breder begrip."
+            },
+            {
+                "q": "Kan er geen modus zijn?",
+                "a": "Ja. Als alle waarden uniek zijn, is er geen modus."
+            },
+            {
+                "q": "Hoe vind ik de mediaan?",
+                "a": "Sorteer de waarden. Oneven aantal: middelste waarde. Even: gemiddelde van de twee middelste."
+            },
+            {
+                "q": "Wanneer gebruik ik een gewogen gemiddelde?",
+                "a": "Wanneer data een verschillend belang hebben. Voorbeelden: GPA, portfolio-rendement, klanttevredenheid."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Voer geldige getallen in",
+        "no_mode": "Geen modus"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "title": "İndirim Hesaplayıcı - Ücretsiz Çevrimiçi Araç | Optimizo",
+        "description": "Tasarrufunuzu, indirimli fiyatı ve KDV dahil toplam maliyeti hesaplayın. Yüzde indirimleri ve vergi hesabını destekler.",
+        "h1": "İndirim Hesaplayıcı",
+        "subtitle": "Yüzde indirimi ve isteğe bağlı KDV ile tasarrufunuzu hesaplayın"
+    },
+    "editor": {
+        "label_original": "Orijinal fiyat ($)",
+        "label_discount": "İndirim (%)",
+        "label_tax": "KDV (%)",
+        "btn_calculate": "Tasarrufu hesapla",
+        "label_savings": "Tasarrufunuz",
+        "label_final_price": "İndirimli fiyat",
+        "label_tax_amount": "KDV tutarı",
+        "label_total_with_tax": "KDV dahil toplam"
+    },
+    "content": {
+        "what_title": "İndirim hesaplamalarını anlama",
+        "what_text": "İndirim hesaplayıcı bir kampanyada ne kadar tasarruf ettiğinizi anında gösterir. Online veya mağazada — indirimleri anlamak akıllı alışverişin temelidir.",
+        "section1_title": "İndirim türleri",
+        "section1_items": [
+            {
+                "title": "Yüzde indirimi",
+                "text": "En yaygın olanı: '%25 indirim'. Fiyat × yüzde = tasarruf."
+            },
+            {
+                "title": "Sabit tutar indirimi",
+                "text": "Belirli bir miktar: '50₺ indirim'. Doğrudan düşülür."
+            },
+            {
+                "title": "1 alana 1 bedava",
+                "text": "İki ürün için fiilen %50 indirim."
+            },
+            {
+                "title": "Kademeli indirim",
+                "text": "İndirim alış hacmiyle artar."
+            },
+            {
+                "title": "Üye indirimi",
+                "text": "Sadık müşteriler için özel indirimler."
+            },
+            {
+                "title": "Sezon indirimleri",
+                "text": "Black Friday, yılbaşı indirimleri — %50-70 indirimler."
+            }
+        ],
+        "section2_title": "Akıllı alışveriş ipuçları",
+        "section2_items": [
+            "Satın almadan önce her zaman son fiyatı hesaplayın",
+            "Ek tasarruf için indirim kodlarını kullanın",
+            "Cashback'i indirimlerle birleştirin",
+            "Büyük alışverişlerden önce fiyat geçmişini kontrol edin",
+            "Orijinal fiyatı doğrulayın — bazı satıcılar yapay olarak şişirir",
+            "Ücretsiz kargo arayın",
+            "Sezon indirimlerinin takvimini oluşturun"
+        ],
+        "section3_title": "İndirim ve KDV",
+        "section3_text": "Türkiye'de KDV indirimli fiyat üzerinden hesaplanır. Örnek: 1.000₺'lik ürün %20 indirimle = 800₺. %20 KDV = 160₺. Toplam = 960₺.",
+        "examples_title": "Pratik örnekler",
+        "examples": [
+            {
+                "label": "%30 giyim",
+                "result": "2.000₺'lik ceket: indirim = 600₺. 1.400₺ ödersiniz."
+            },
+            {
+                "label": "%15 elektronik",
+                "result": "10.000₺'lik laptop: indirim = 1.500₺. 8.500₺ ödersiniz."
+            },
+            {
+                "label": "Birleşik indirimler",
+                "result": "%10 + %15 ≠ %25. Gerçek: 1.000 × 0,90 × 0,85 = 765. Tasarruf %23,5."
+            },
+            {
+                "label": "Cashback + indirim",
+                "result": "5.000₺'de %20 indirim = 4.000₺. %5 cashback = 200₺. Gerçek maliyet: 3.800₺."
+            }
+        ],
+        "faq_title": "Sık sorulan sorular",
+        "faqs": [
+            {
+                "q": "İndirim yüzdesini nasıl hesaplarım?",
+                "a": "Formül: ((Orijinal fiyat - İndirimli fiyat) / Orijinal fiyat) × 100."
+            },
+            {
+                "q": "Birleşik indirimler toplanır mı?",
+                "a": "Hayır! %20 + %30 ≠ %50. Gerçek: (1-0,20)×(1-0,30) = 0,56, yani %44."
+            },
+            {
+                "q": "KDV indirimden önce mi sonra mı hesaplanır?",
+                "a": "Türkiye'de KDV indirimli fiyat üzerinden hesaplanır."
+            },
+            {
+                "q": "İyi bir teklif olduğunu nasıl anlarım?",
+                "a": "Fiyat karşılaştırma sitelerini kullanın, birden fazla mağazayı kontrol edin."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Geçerli sayılar girin",
+        "error_range": "İndirim %0 ile %100 arasında olmalıdır"
+    }
+}

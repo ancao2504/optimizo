@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Wissenschaftlicher Taschenrechner - Kostenloses Online-Tool | Optimizo",
+        "description": "Kostenloser wissenschaftlicher Online-Taschenrechner mit trigonometrischen, logarithmischen und exponentiellen Funktionen. Ideal für Studenten und Ingenieure.",
+        "h1": "Wissenschaftlicher Taschenrechner",
+        "subtitle": "Fortgeschrittener Rechner mit trigonometrischen, logarithmischen und exponentiellen Funktionen"
+    },
+    "editor": {
+        "label_expression": "Mathematischer Ausdruck",
+        "placeholder": "Geben Sie einen mathematischen Ausdruck ein (z.B. sin(45), log(100), 2^8)",
+        "btn_calculate": "Berechnen",
+        "label_result": "Ergebnis",
+        "btn_deg": "Grad",
+        "btn_rad": "Bogenmaß",
+        "btn_clear": "Löschen",
+        "btn_backspace": "Zurück",
+        "btn_history": "Verlauf"
+    },
+    "content": {
+        "what_title": "Was ist ein wissenschaftlicher Taschenrechner?",
+        "what_text": "Ein wissenschaftlicher Taschenrechner ist ein fortgeschrittenes mathematisches Werkzeug für komplexe Berechnungen jenseits der Grundrechenarten. Er bietet trigonometrische Funktionen (sin, cos, tan), logarithmische Funktionen (log, ln), Potenzen, Wurzeln, mathematische Konstanten wie π und e, Permutationen, Kombinationen und mehr.",
+        "features_title": "Hauptfunktionen",
+        "features": [
+            {
+                "name": "Trigonometrische Funktionen",
+                "desc": "Berechnung von sin, cos, tan und inversen Funktionen. Umschalten zwischen Grad und Bogenmaß."
+            },
+            {
+                "name": "Logarithmen und Exponenten",
+                "desc": "Dekadischer Logarithmus (log), natürlicher Logarithmus (ln), Exponentialfunktion (e^x) und benutzerdefinierte Potenzen."
+            },
+            {
+                "name": "Mathematische Konstanten",
+                "desc": "Schneller Zugriff auf π (3,14159...) und e (Eulersche Zahl = 2,71828...)."
+            },
+            {
+                "name": "Wurzeln und Potenzen",
+                "desc": "Quadrat-, Kubik- und n-te Wurzeln plus Potenzoperationen."
+            },
+            {
+                "name": "Permutationen und Kombinationen",
+                "desc": "Berechnung von Permutationen (nPr) und Kombinationen (nCr) für Wahrscheinlichkeitsaufgaben."
+            },
+            {
+                "name": "Fakultät",
+                "desc": "Fakultätsoperation (n!) für Kombinatorik und Wahrscheinlichkeitsverteilungen."
+            }
+        ],
+        "section1_title": "Wann brauchen Sie einen wissenschaftlichen Taschenrechner",
+        "section1_items": [
+            {
+                "title": "Physik und Ingenieurwesen",
+                "text": "Von der Berechnung von Kraftkomponenten mit Trigonometrie bis zur Analyse elektrischer Schaltkreise — unverzichtbar."
+            },
+            {
+                "title": "Finanzen und Buchhaltung",
+                "text": "Zinseszins, Barwert, Kreditberechnungen erfordern Exponentialfunktionen und Logarithmen."
+            },
+            {
+                "title": "Statistik und Data Science",
+                "text": "Berechnung von Wahrscheinlichkeiten, Kombinationen und statistischen Verteilungen."
+            },
+            {
+                "title": "Chemie und Naturwissenschaften",
+                "text": "pH-Berechnungen mit Logarithmen, exponentieller Zerfall und Stöchiometrie."
+            },
+            {
+                "title": "Mathematik und Analysis",
+                "text": "Auswertung von Grenzwerten trigonometrischer Funktionen und exponentieller Ausdrücke."
+            },
+            {
+                "title": "Programmierung und Informatik",
+                "text": "Algorithmische Komplexität O(log n), Zahlensystemumrechnungen und Gleitkommaoperationen."
+            }
+        ],
+        "tips_title": "Tipps zur effektiven Nutzung",
+        "tips": [
+            "Überprüfen Sie stets den Winkelmodus (Grad oder Bogenmaß) vor trigonometrischen Berechnungen",
+            "Verwenden Sie Klammern zur Gruppierung von Operationen",
+            "Beachten Sie: log = dekadischer Logarithmus, ln = natürlicher Logarithmus (Basis e)",
+            "Sehr große/kleine Zahlen werden in wissenschaftlicher Notation angezeigt",
+            "Nutzen Sie die Verlaufsfunktion für vorherige Berechnungen",
+            "Verifizieren Sie die Genauigkeit durch Lösung auf verschiedenen Wegen"
+        ],
+        "faq_title": "Häufig gestellte Fragen",
+        "faqs": [
+            {
+                "q": "Was ist der Unterschied zwischen Grad und Bogenmaß?",
+                "a": "Grad und Bogenmaß sind zwei Arten der Winkelmessung. Ein Vollkreis = 360° oder 2π Bogenmaß. Umrechnung: Grad = Bogenmaß × (180/π)."
+            },
+            {
+                "q": "Was ist e (Eulersche Zahl)?",
+                "a": "e (≈ 2,71828) ist eine fundamentale mathematische Konstante in natürlichem Wachstum, exponentiellem Zerfall und Zinseszinsberechnung."
+            },
+            {
+                "q": "Wie berechne ich einen Logarithmus mit benutzerdefinierter Basis?",
+                "a": "Verwenden Sie die Basiswechselformel: log_b(x) = log(x) / log(b). Beispiel: log_2(8) = log(8) / log(2) = 3."
+            },
+            {
+                "q": "Warum kann ich keinen Logarithmus einer negativen Zahl berechnen?",
+                "a": "In reellen Zahlen ist der Logarithmus nur für positive Zahlen definiert."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Ungültiger mathematischer Ausdruck",
+        "error_domain": "Bereichsfehler: Wert außerhalb des erlaubten Bereichs"
+    }
+}

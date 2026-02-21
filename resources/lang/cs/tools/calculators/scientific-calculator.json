@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Vědecká kalkulačka - Bezplatný online matematický nástroj | Optimizo",
+        "description": "Bezplatná online vědecká kalkulačka s trigonometrickými, logaritmickými a exponenciálními funkcemi. Ideální pro studenty, inženýry a výzkumníky.",
+        "h1": "Vědecká kalkulačka",
+        "subtitle": "Pokročilý nástroj s trigonometrickými, logaritmickými a exponenciálními funkcemi"
+    },
+    "editor": {
+        "label_expression": "Matematický výraz",
+        "placeholder": "Zadejte matematický výraz (např. sin(45), log(100), 2^8)",
+        "btn_calculate": "Vypočítat",
+        "label_result": "Výsledek",
+        "btn_deg": "Stupně",
+        "btn_rad": "Radiány",
+        "btn_clear": "Vymazat",
+        "btn_backspace": "Zpět",
+        "btn_history": "Historie"
+    },
+    "content": {
+        "what_title": "Co je vědecká kalkulačka?",
+        "what_text": "Vědecká kalkulačka je pokročilý matematický nástroj určený pro složité výpočty, které přesahují základní aritmetiku. Na rozdíl od běžných kalkulaček nabízí trigonometrické funkce (sin, cos, tan), logaritmické funkce (log, ln), mocniny, odmocniny, matematické konstanty jako π a e, permutace a kombinace a mnoho dalšího.",
+        "features_title": "Klíčové funkce",
+        "features": [
+            {
+                "name": "Trigonometrické funkce",
+                "desc": "Výpočet sin, cos, tan a inverzních funkcí. Přepínání mezi stupni a radiány."
+            },
+            {
+                "name": "Logaritmy a exponenty",
+                "desc": "Desítkový logaritmus (log), přirozený logaritmus (ln), exponenciála (e^x) a vlastní mocniny."
+            },
+            {
+                "name": "Matematické konstanty",
+                "desc": "Rychlý přístup k π (3,14159...) a e (Eulerovo číslo = 2,71828...)."
+            },
+            {
+                "name": "Odmocniny a mocniny",
+                "desc": "Druhá, třetí a n-tá odmocnina plus mocninové operace."
+            },
+            {
+                "name": "Permutace a kombinace",
+                "desc": "Výpočet permutací (nPr) a kombinací (nCr) pro úlohy z pravděpodobnosti."
+            },
+            {
+                "name": "Faktoriál",
+                "desc": "Operace faktoriálu (n!) pro kombinatoriku a pravděpodobnostní rozdělení."
+            }
+        ],
+        "section1_title": "Kdy potřebujete vědeckou kalkulačku",
+        "section1_items": [
+            {
+                "title": "Fyzika a inženýrství",
+                "text": "Od výpočtu složek sil pomocí trigonometrie po analýzu elektrických obvodů — vědecká kalkulačka je v inženýrství nezbytná."
+            },
+            {
+                "title": "Finance a účetnictví",
+                "text": "Složené úročení, současná hodnota, výpočty úvěrů — vyžadují exponenciály a logaritmy."
+            },
+            {
+                "title": "Statistika a datová věda",
+                "text": "Výpočet pravděpodobností, kombinací, permutací a statistických rozdělení."
+            },
+            {
+                "title": "Chemie a věda",
+                "text": "Výpočty pH pomocí logaritmů, exponenciální rozklad, stechiometrie a převody jednotek."
+            },
+            {
+                "title": "Matematika a kalkulus",
+                "text": "Vyhodnocování limit trigonometrických funkcí, logaritmický růst a exponenciální výrazy."
+            },
+            {
+                "title": "Programování a informatika",
+                "text": "Složitost algoritmů O(log n), převody číselných soustav a operace s plovoucí řádovou čárkou."
+            }
+        ],
+        "tips_title": "Tipy pro efektivní použití",
+        "tips": [
+            "Vždy zkontrolujte režim úhlů (stupně nebo radiány) před trigonometrickými výpočty",
+            "Používejte závorky pro seskupení operací a správné pořadí výpočtu",
+            "Pamatujte: log = desítkový logaritmus, ln = přirozený logaritmus (základ e)",
+            "Pro velmi velká/malá čísla kalkulačka zobrazí výsledky ve vědecké notaci",
+            "Používejte historii pro přehled předchozích výpočtů",
+            "Pro ověření přesnosti řešte úlohu více způsoby a porovnejte výsledky"
+        ],
+        "faq_title": "Často kladené otázky",
+        "faqs": [
+            {
+                "q": "Jaký je rozdíl mezi stupni a radiány?",
+                "a": "Stupně a radiány jsou dva způsoby měření úhlů. Celý kruh je 360° nebo 2π radiánů. Převod: stupně = radiány × (180/π)."
+            },
+            {
+                "q": "Co je e (Eulerovo číslo)?",
+                "a": "e (≈ 2,71828) je základní matematická konstanta vyskytující se v přirozeném růstu, exponenciálním rozpadu a složeném úročení."
+            },
+            {
+                "q": "Jak vypočítám logaritmus s vlastním základem?",
+                "a": "Použijte vzorec změny základu: log_b(x) = log(x) / log(b). Například log_2(8) = log(8) / log(2) = 3."
+            },
+            {
+                "q": "Proč nemohu vypočítat logaritmus záporného čísla?",
+                "a": "V reálných číslech je logaritmus definován pouze pro kladná čísla. Logaritmus záporného čísla vytváří komplexní číslo."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Neplatný matematický výraz",
+        "error_domain": "Chyba domény: hodnota mimo povolený rozsah"
+    }
+}

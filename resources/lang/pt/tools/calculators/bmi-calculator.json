@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "Calculadora de IMC - Índice de Massa Corporal Grátis | Optimizo",
+        "description": "Calcule seu IMC instantaneamente com sistemas métrico e imperial. Descubra sua categoria de peso e implicações de saúde.",
+        "h1": "Calculadora de IMC",
+        "subtitle": "Calcule seu Índice de Massa Corporal e descubra sua categoria de saúde"
+    },
+    "editor": {
+        "label_height": "Altura",
+        "label_weight": "Peso",
+        "label_unit": "Sistema de unidades",
+        "unit_metric": "Métrico (cm / kg)",
+        "unit_imperial": "Imperial (pés-polegadas / libras)",
+        "label_height_cm": "Altura (cm)",
+        "label_height_ft": "Altura (pés)",
+        "label_height_in": "Altura (polegadas)",
+        "label_weight_kg": "Peso (kg)",
+        "label_weight_lbs": "Peso (libras)",
+        "btn_calculate": "Calcular IMC",
+        "label_result": "Seu IMC",
+        "label_category": "Categoria"
+    },
+    "content": {
+        "what_title": "O que é IMC?",
+        "what_text": "O Índice de Massa Corporal (IMC) é uma ferramenta de triagem amplamente utilizada que estima a gordura corporal com base na altura e peso. Desenvolvido pelo matemático belga Adolphe Quetelet no século XIX.",
+        "categories_title": "Categorias do IMC e implicações de saúde",
+        "categories": [
+            {
+                "range": "Abaixo de 18,5",
+                "label": "Abaixo do peso",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Peso normal",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Sobrepeso",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 ou mais",
+                "label": "Obesidade",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "Fórmula do IMC",
+        "formula_metric": "Métrico: IMC = Peso (kg) ÷ Altura (m)²",
+        "formula_imperial": "Imperial: IMC = (Peso (lbs) × 703) ÷ Altura (polegadas)²",
+        "section1_title": "Categorias do IMC em detalhe",
+        "section1_items": [
+            {
+                "title": "Abaixo do peso (IMC < 18,5)",
+                "text": "Pode indicar desnutrição. Riscos: imunidade comprometida, osteoporose e anemia."
+            },
+            {
+                "title": "Peso normal (IMC 18,5 – 24,9)",
+                "text": "Peso proporcional à altura. Menor risco de problemas de saúde relacionados ao peso."
+            },
+            {
+                "title": "Sobrepeso (IMC 25,0 – 29,9)",
+                "text": "Risco aumentado de doenças cardíacas, diabetes tipo 2, hipertensão e apneia do sono."
+            },
+            {
+                "title": "Obesidade (IMC ≥ 30,0)",
+                "text": "Risco significativamente elevado de doenças cardíacas, AVC, diabetes e certos tipos de câncer."
+            }
+        ],
+        "section2_title": "Limitações do IMC",
+        "section2_text": "O IMC não distingue entre massa muscular, densidade óssea e tecido adiposo. Atletas musculosos podem ser classificados como sobrepeso apesar de baixo percentual de gordura.",
+        "section3_title": "Fatores que influenciam o IMC",
+        "section3_items": [
+            "Idade: interpretação varia para crianças, adolescentes e idosos",
+            "Sexo: mulheres têm naturalmente maior percentual de gordura",
+            "Massa muscular: atletas frequentemente têm IMC mais alto por causa dos músculos",
+            "Etnia: riscos de saúde podem variar em diferentes níveis de IMC",
+            "Biotipo: pessoas de estrutura robusta podem ter IMC naturalmente mais alto",
+            "Distribuição de gordura: onde a gordura se acumula é tão importante quanto a quantidade"
+        ],
+        "section4_title": "Dicas para peso saudável",
+        "section4_items": [
+            "Almeje pelo menos 150 minutos de atividade aeróbica moderada por semana",
+            "Dieta equilibrada: frutas, vegetais, grãos integrais e proteínas",
+            "Controle o tamanho das porções",
+            "Mantenha-se bem hidratado durante o dia",
+            "Durma 7-9 horas de sono de qualidade",
+            "Gerencie o estresse com meditação ou técnicas de relaxamento"
+        ],
+        "faq_title": "Perguntas frequentes",
+        "faqs": [
+            {
+                "q": "O IMC é preciso para atletas?",
+                "a": "O IMC pode superestimar gordura. Considere circunferência da cintura, percentual de gordura ou exame DEXA."
+            },
+            {
+                "q": "Qual é o IMC saudável para crianças?",
+                "a": "Interpretado com curvas de percentil por idade e sexo. Percentil 5-85 é considerado saudável."
+            },
+            {
+                "q": "Com que frequência verificar o IMC?",
+                "a": "A cada poucos meses é suficiente. Foque em hábitos saudáveis sustentáveis."
+            },
+            {
+                "q": "O IMC pode prever doenças cardíacas?",
+                "a": "É um dos muitos fatores de risco. Pressão arterial, colesterol e histórico familiar são igualmente importantes."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Insira valores válidos de altura e peso",
+        "error_range": "Valores estão fora do intervalo realista",
+        "cat_underweight": "Abaixo do peso",
+        "cat_normal": "Peso normal",
+        "cat_overweight": "Sobrepeso",
+        "cat_obese": "Obesidade"
+    }
+}

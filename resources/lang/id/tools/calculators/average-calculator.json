@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Kalkulator Rata-rata - Mean, Median, dan Mode Gratis | Optimizo",
+        "description": "Hitung rata-rata aritmatika, median, modus, rentang, dan jumlah dari deretan angka apa pun. Untuk pelajar dan peneliti.",
+        "h1": "Kalkulator Rata-rata",
+        "subtitle": "Rata-rata, median, modus, rentang, dan analisis statistik lengkap"
+    },
+    "editor": {
+        "label_numbers": "Masukkan angka Anda",
+        "placeholder_numbers": "Angka dipisahkan koma, spasi, atau baris baru",
+        "btn_calculate": "Hitung rata-rata",
+        "btn_clear": "Hapus",
+        "label_mean": "Rata-rata aritmatika (Mean)",
+        "label_median": "Median",
+        "label_mode": "Modus (Mode)",
+        "label_range": "Rentang",
+        "label_count": "Jumlah nilai",
+        "label_sum": "Total",
+        "label_min": "Minimum",
+        "label_max": "Maksimum",
+        "label_sorted": "Daftar terurut"
+    },
+    "content": {
+        "what_title": "Apa itu rata-rata dan apa saja jenisnya?",
+        "what_text": "Rata-rata adalah ukuran tendensi sentral yang mewakili nilai tengah atau tipikal dari kumpulan data. Dalam statistik ada tiga ukuran utama: rata-rata aritmatika (mean), median, dan modus (mode). Memahami ketiganya penting dalam pendidikan, penelitian, bisnis, dan pengambilan keputusan sehari-hari.",
+        "types_title": "Jenis-jenis rata-rata",
+        "types": [
+            {
+                "name": "Rata-rata aritmatika",
+                "desc": "Jenis paling umum. Jumlah semua nilai dibagi banyaknya data. Rumus: (x₁+x₂+...+xₙ)/n. Sensitif terhadap pencilan."
+            },
+            {
+                "name": "Median",
+                "desc": "Nilai tengah dari data terurut. Jumlah genap: rata-rata dua nilai tengah. Tahan terhadap pencilan."
+            },
+            {
+                "name": "Modus",
+                "desc": "Nilai yang paling sering muncul. Bisa ada beberapa atau tidak ada."
+            },
+            {
+                "name": "Rata-rata berbobot",
+                "desc": "Saat nilai memiliki bobot berbeda. Rumus: Σ(wᵢ×xᵢ)/Σwᵢ. Contoh klasik: IPK."
+            }
+        ],
+        "section1_title": "Rata-rata dalam praktik",
+        "section1_items": [
+            {
+                "title": "Pendidikan",
+                "text": "Guru menggunakan mean dan median nilai untuk mengevaluasi kinerja keseluruhan siswa."
+            },
+            {
+                "title": "Bisnis",
+                "text": "Perusahaan memantau penjualan rata-rata, nilai pelanggan, dan pendapatan per pengguna."
+            },
+            {
+                "title": "Sains",
+                "text": "Analisis data eksperimen, deviasi standar, dan uji hipotesis memerlukan rata-rata."
+            },
+            {
+                "title": "Kesehatan",
+                "text": "Suhu rata-rata, tekanan darah, detak jantung — profesional kesehatan sangat bergantung pada rata-rata."
+            },
+            {
+                "title": "Olahraga",
+                "text": "Batting average, kecepatan, skor — statistik olahraga menggunakan rata-rata secara luas."
+            },
+            {
+                "title": "Properti",
+                "text": "Median lebih baik untuk harga rumah karena properti mahal mendistorsi mean."
+            }
+        ],
+        "section2_title": "Mean vs median — kapan menggunakan yang mana",
+        "section2_items": [
+            {
+                "title": "Gunakan mean ketika",
+                "text": "Data berdistribusi normal, tanpa pencilan signifikan."
+            },
+            {
+                "title": "Gunakan median ketika",
+                "text": "Ada pencilan (seperti data penghasilan), distribusi miring."
+            },
+            {
+                "title": "Gunakan modus ketika",
+                "text": "Ingin nilai paling sering muncul. Ideal untuk data kategorikal."
+            }
+        ],
+        "section3_title": "Kesalahan umum yang harus dihindari",
+        "section3_items": [
+            "Jangan hanya bergantung pada mean — pencilan bisa mendistorsinya",
+            "Jangan abaikan ukuran sampel",
+            "Selalu pertimbangkan konteks data",
+            "Jangan campur rata-rata berbobot dan tidak berbobot",
+            "Jangan merata-ratakan persentase dengan basis berbeda",
+            "Selalu visualisasikan data dengan grafik"
+        ],
+        "faq_title": "Pertanyaan yang sering diajukan",
+        "faqs": [
+            {
+                "q": "Apa perbedaan rata-rata dan mean?",
+                "a": "Dalam bahasa sehari-hari sinonim. Secara teknis, 'rata-rata' lebih luas mencakup mean, median, dan modus."
+            },
+            {
+                "q": "Bisakah tidak ada modus?",
+                "a": "Ya. Jika semua nilai unik, tidak ada modus."
+            },
+            {
+                "q": "Bagaimana menemukan median?",
+                "a": "Urutkan data. Jumlah ganjil: nilai tengah. Genap: rata-rata dua nilai tengah."
+            },
+            {
+                "q": "Kapan menggunakan rata-rata berbobot?",
+                "a": "Ketika data memiliki bobot berbeda. Contoh: IPK, return portofolio, kepuasan pelanggan."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Masukkan angka yang valid",
+        "no_mode": "Tidak ada modus"
+    }
+}

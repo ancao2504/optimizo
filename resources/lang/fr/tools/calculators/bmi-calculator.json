@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "title": "Calculatrice d'IMC - Indice de Masse Corporelle Gratuit | Optimizo",
+        "description": "Calculez votre IMC instantanément avec support métrique et impérial. Découvrez votre catégorie de poids et ses implications pour la santé.",
+        "h1": "Calculatrice d'IMC",
+        "subtitle": "Calculez votre Indice de Masse Corporelle et découvrez votre catégorie de santé"
+    },
+    "editor": {
+        "label_height": "Taille",
+        "label_weight": "Poids",
+        "label_unit": "Système d'unités",
+        "unit_metric": "Métrique (cm / kg)",
+        "unit_imperial": "Impérial (pieds-pouces / livres)",
+        "label_height_cm": "Taille (cm)",
+        "label_height_ft": "Taille (pieds)",
+        "label_height_in": "Taille (pouces)",
+        "label_weight_kg": "Poids (kg)",
+        "label_weight_lbs": "Poids (livres)",
+        "btn_calculate": "Calculer l'IMC",
+        "label_result": "Votre IMC",
+        "label_category": "Catégorie"
+    },
+    "content": {
+        "what_title": "Qu'est-ce que l'IMC ?",
+        "what_text": "L'Indice de Masse Corporelle (IMC) est un outil de dépistage largement utilisé qui estime la graisse corporelle sur la base de la taille et du poids. Développé par le mathématicien belge Adolphe Quetelet au XIXe siècle. Bien qu'il ne mesure pas directement la graisse corporelle, il fournit un indicateur fiable des risques potentiels pour la santé.",
+        "categories_title": "Catégories d'IMC et implications pour la santé",
+        "categories": [
+            {
+                "range": "Moins de 18,5",
+                "label": "Insuffisance pondérale",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18,5 – 24,9",
+                "label": "Poids normal",
+                "color": "#10B981"
+            },
+            {
+                "range": "25,0 – 29,9",
+                "label": "Surpoids",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30,0 et plus",
+                "label": "Obésité",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "Formule de l'IMC",
+        "formula_metric": "Métrique : IMC = Poids (kg) ÷ Taille (m)²",
+        "formula_imperial": "Impérial : IMC = (Poids (lbs) × 703) ÷ Taille (pouces)²",
+        "section1_title": "Catégories d'IMC en détail",
+        "section1_items": [
+            {
+                "title": "Insuffisance pondérale (IMC < 18,5)",
+                "text": "Peut indiquer malnutrition ou problèmes de santé. Risques : système immunitaire affaibli, ostéoporose et anémie."
+            },
+            {
+                "title": "Poids normal (IMC 18,5 – 24,9)",
+                "text": "Poids proportionnel à la taille. Risque le plus faible de problèmes de santé liés au poids."
+            },
+            {
+                "title": "Surpoids (IMC 25,0 – 29,9)",
+                "text": "Risque accru de maladies cardiaques, diabète de type 2, hypertension et apnée du sommeil."
+            },
+            {
+                "title": "Obésité (IMC ≥ 30,0)",
+                "text": "Risque significativement élevé de maladies cardiaques, AVC, diabète et certains cancers. Classe I (30-34,9), II (35-39,9), III (40+)."
+            }
+        ],
+        "section2_title": "Limites de l'IMC",
+        "section2_text": "L'IMC ne distingue pas entre masse musculaire, densité osseuse et tissu adipeux. Les athlètes musclés peuvent être classés en surpoids malgré un faible pourcentage de graisse.",
+        "section3_title": "Facteurs affectant l'IMC",
+        "section3_items": [
+            "Âge : l'interprétation varie pour enfants, adolescents et personnes âgées",
+            "Sexe : les femmes ont naturellement un pourcentage de graisse plus élevé",
+            "Masse musculaire : les athlètes ont souvent un IMC plus élevé en raison des muscles",
+            "Ethnicité : les risques de santé à différents niveaux d'IMC peuvent varier",
+            "Corpulence : les personnes à forte corpulence peuvent avoir un IMC naturellement plus élevé",
+            "Distribution de la graisse : l'emplacement est aussi important que la quantité"
+        ],
+        "section4_title": "Conseils pour un poids sain",
+        "section4_items": [
+            "Visez au moins 150 minutes d'activité aérobie modérée par semaine",
+            "Alimentation équilibrée : fruits, légumes, céréales complètes et protéines",
+            "Contrôlez les portions",
+            "Restez bien hydraté tout au long de la journée",
+            "Dormez 7 à 9 heures de sommeil de qualité",
+            "Gérez le stress par la méditation ou des techniques de relaxation"
+        ],
+        "faq_title": "Questions fréquemment posées",
+        "faqs": [
+            {
+                "q": "L'IMC est-il précis pour les athlètes ?",
+                "a": "L'IMC peut surestimer la graisse. Envisagez le tour de taille, le pourcentage de graisse ou le scan DEXA."
+            },
+            {
+                "q": "Quel est un IMC sain pour les enfants ?",
+                "a": "Il s'interprète avec des courbes de percentiles par âge et sexe. Entre le 5e et le 85e percentile est considéré sain."
+            },
+            {
+                "q": "À quelle fréquence vérifier son IMC ?",
+                "a": "Tous les quelques mois suffit. Concentrez-vous sur des habitudes saines durables."
+            },
+            {
+                "q": "L'IMC peut-il prédire les maladies cardiaques ?",
+                "a": "C'est l'un des nombreux facteurs de risque. La tension, le cholestérol et les antécédents familiaux sont tout aussi importants."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Saisissez des valeurs valides de taille et de poids",
+        "error_range": "Les valeurs sont hors d'une plage réaliste",
+        "cat_underweight": "Insuffisance pondérale",
+        "cat_normal": "Poids normal",
+        "cat_overweight": "Surpoids",
+        "cat_obese": "Obésité"
+    }
+}

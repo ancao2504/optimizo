@@ -1,0 +1,97 @@
+{
+    "meta": {
+        "title": "Hypoteční kalkulačka - Bezplatný výpočet splátek | Optimizo",
+        "description": "Vypočítejte měsíční splátky hypotéky, celkové úroky a zobrazte amortizační plán. Bezplatně pro kupující nemovitostí.",
+        "h1": "Hypoteční kalkulačka",
+        "subtitle": "Vypočítejte měsíční splátky, celkové úroky a amortizační plán"
+    },
+    "editor": {
+        "label_principal": "Výše úvěru ($)",
+        "label_rate": "Roční úroková sazba (%)",
+        "label_term": "Doba splácení (roky)",
+        "label_down_payment": "Záloha ($)",
+        "btn_calculate": "Vypočítat hypotéku",
+        "label_monthly": "Měsíční splátka",
+        "label_total_payment": "Celkové platby",
+        "label_total_interest": "Celkové úroky",
+        "label_schedule": "Amortizační plán",
+        "col_month": "Měsíc",
+        "col_payment": "Splátka",
+        "col_principal": "Jistina",
+        "col_interest": "Úrok",
+        "col_balance": "Zůstatek"
+    },
+    "content": {
+        "what_title": "Pochopení hypoték",
+        "what_text": "Hypotéka je úvěr speciálně určený na nákup nemovitosti, kde nemovitost sama slouží jako zajištění úvěru. Je to jeden z největších finančních závazků, obvykle trvající 15 až 30 let. Pochopení fungování hypoték je klíčové pro informované rozhodování o koupi nemovitosti a dlouhodobém finančním plánování.",
+        "formula_title": "Vzorec pro výpočet měsíční splátky",
+        "formula_text": "M = P × [r(1+r)ⁿ] / [(1+r)ⁿ – 1], kde M = měsíční splátka, P = výše úvěru, r = měsíční úroková sazba, n = celkový počet splátek",
+        "section1_title": "Jak fungují měsíční splátky hypotéky",
+        "section1_text": "Při splácení hypotéky se platba dělí mezi jistinu a úrok. V prvních letech většina jde na úroky. Postupem času se poměr obrací — více jde na jistinu a méně na úroky. Tento proces se nazývá amortizace.",
+        "section2_title": "Typy hypoték",
+        "section2_items": [
+            {
+                "title": "Hypotéka s pevnou sazbou",
+                "text": "Úroková sazba zůstává stejná po celou dobu úvěru. Poskytuje předvídatelné měsíční splátky a ochranu před růstem sazeb."
+            },
+            {
+                "title": "Hypotéka s variabilní sazbou",
+                "text": "Sazba začíná níže než pevná, ale mění se na základě tržních podmínek."
+            },
+            {
+                "title": "FHA úvěry",
+                "text": "Pojištěné federální správou bydlení, nabízejí nízkou zálohu (až 3,5 %) a flexibilnější podmínky."
+            },
+            {
+                "title": "VA úvěry",
+                "text": "Pro kvalifikované vojenské veterány — žádná záloha a konkurenční sazby."
+            },
+            {
+                "title": "Jumbo úvěry",
+                "text": "Pro nákupy překračující konformní limity úvěrů. Vyžadují vyšší kreditní skóre."
+            }
+        ],
+        "section3_title": "Faktory ovlivňující splátky hypotéky",
+        "section3_items": [
+            "Výše úvěru přímo ovlivňuje měsíční splátku",
+            "Malý rozdíl v úrokové sazbě může stát tisíce během doby úvěru",
+            "Kratší doba = vyšší splátky, ale výrazně nižší celkové úroky",
+            "Větší záloha snižuje úvěr a měsíční splátku. 20%+ eliminuje PMI",
+            "Daň z nemovitosti je často zahrnuta v měsíční splátce",
+            "Pojištění nemovitosti je obvykle součástí měsíční platby",
+            "PMI je vyžadováno při záloze pod 20%"
+        ],
+        "tips_title": "Tipy pro chytré kupování nemovitostí",
+        "tips": [
+            "Získejte předschválení před hledáním nemovitosti",
+            "Dejte 20% zálohu pro eliminaci PMI",
+            "Porovnejte nabídky od 3-5+ věřitelů",
+            "Zvažte celkové náklady včetně daní, pojištění a údržby",
+            "Splácejte navíc na jistinu, když je to možné",
+            "Počítejte s náklady na uzavření (2-5 % výše úvěru)"
+        ],
+        "faq_title": "Často kladené otázky",
+        "faqs": [
+            {
+                "q": "Kolik si mohu dovolit?",
+                "a": "Pravidlo: měsíční náklady na bydlení by neměly překročit 28 % vašeho hrubého měsíčního příjmu."
+            },
+            {
+                "q": "15 nebo 30 let?",
+                "a": "15 let: vyšší splátky, ale obrovská úspora na úrocích. 30 let: nižší splátky, více finanční flexibility."
+            },
+            {
+                "q": "Jaké kreditní skóre potřebuji?",
+                "a": "Většina konvenčních úvěrů vyžaduje minimum 620. Skóre 740+ kvalifikuje pro nejlepší sazby."
+            },
+            {
+                "q": "Vyplatí se platit body za nižší sazbu?",
+                "a": "1 bod = 1 % výše úvěru. Vyplatí se, pokud plánujete zůstat 5-7+ let."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Zadejte prosím platná čísla",
+        "error_range": "Hodnoty musí být větší než nula"
+    }
+}

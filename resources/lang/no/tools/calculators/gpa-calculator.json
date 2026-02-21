@@ -1,0 +1,134 @@
+{
+    "meta": {
+        "title": "GPA-Kalkulator - Gratis Karaktersnitt | Optimizo",
+        "description": "Beregn GPA nøyaktig. Støtter flere fag, studiepoeng og karakterverdier. For studenter og akademikere.",
+        "h1": "GPA-Kalkulator",
+        "subtitle": "Beregn karaktersnittet ditt fra fag og studiepoeng"
+    },
+    "editor": {
+        "label_course": "Fagnavn",
+        "placeholder_course": "F.eks. Matematikk 101",
+        "label_grade": "Karakter",
+        "label_credits": "Studiepoeng",
+        "btn_add_course": "Legg til fag",
+        "btn_calculate": "Beregn GPA",
+        "btn_reset": "Nullstill",
+        "btn_remove": "Fjern",
+        "label_result": "Din GPA",
+        "label_total_credits": "Totale studiepoeng",
+        "label_total_points": "Totale poeng"
+    },
+    "content": {
+        "what_title": "Hva er GPA og hvorfor er det viktig?",
+        "what_text": "GPA (Grade Point Average) er en standardisert metode for å måle akademiske prestasjoner. Beregnet på en skala fra 0,0 til 4,0, der 4,0 representerer høyeste prestasjon. GPA er avgjørende for universitetstilgang, stipend og karrieremuligheter.",
+        "scale_title": "GPA-karakterskala",
+        "scale": [
+            {
+                "grade": "A / A+",
+                "points": "4.0",
+                "percent": "90-100%"
+            },
+            {
+                "grade": "A-",
+                "points": "3.7",
+                "percent": "87-89%"
+            },
+            {
+                "grade": "B+",
+                "points": "3.3",
+                "percent": "83-86%"
+            },
+            {
+                "grade": "B",
+                "points": "3.0",
+                "percent": "80-82%"
+            },
+            {
+                "grade": "B-",
+                "points": "2.7",
+                "percent": "77-79%"
+            },
+            {
+                "grade": "C+",
+                "points": "2.3",
+                "percent": "73-76%"
+            },
+            {
+                "grade": "C",
+                "points": "2.0",
+                "percent": "70-72%"
+            },
+            {
+                "grade": "D",
+                "points": "1.0",
+                "percent": "60-69%"
+            },
+            {
+                "grade": "F",
+                "points": "0.0",
+                "percent": "0-59%"
+            }
+        ],
+        "section1_title": "Slik beregnes GPA",
+        "section1_text": "GPA er et vektet gjennomsnitt av karakterpoeng per studiepoeng. Eksempel: Matte (10 sp, B=3,0) og Fysikk (5 sp, A=4,0), GPA = (30+20)/15 = 3,33.",
+        "section2_title": "Hvorfor GPA er viktig",
+        "section2_items": [
+            {
+                "title": "Universitetstilgang",
+                "text": "De fleste universiteter vurderer GPA som nøkkelfaktor."
+            },
+            {
+                "title": "Stipend",
+                "text": "Mange stipend krever minimum GPA. Meritstipend: 3,0-3,5+."
+            },
+            {
+                "title": "Mastergrad",
+                "text": "MBA, jus, medisin krever konkurransedyktig GPA."
+            },
+            {
+                "title": "Karrieremuligheter",
+                "text": "Mange arbeidsgivere bruker GPA som utvelgelseskriterium."
+            },
+            {
+                "title": "Akademiske utmerkelser",
+                "text": "Cum laude (3,5+), magna cum laude og summa cum laude."
+            }
+        ],
+        "section3_title": "Tips for å forbedre GPA",
+        "section3_items": [
+            "Sett realistiske GPA-mål for hvert semester",
+            "Lag studiegrupper for vanskelige fag",
+            "Bruk lærernes kontortid",
+            "Forbedre tidsstyring med en planlegger",
+            "Dra nytte av gratis tutortjenester",
+            "Ta vare på helsen: søvn, trening og ernæring forbedrer konsentrasjonen",
+            "Grip muligheter for ekstra studiepoeng",
+            "Start tidlig — jevn innsats gir bedre resultater"
+        ],
+        "section4_title": "Norsk karaktersystem",
+        "section4_text": "Norge bruker skalaen A-F der A er best og E er laveste bestått. Konvertering: A ≈ 4,0 GPA, B ≈ 3,0, C ≈ 2,0, D ≈ 1,0, E ≈ tilstrekkelig, F = stryk. ECTS-systemet brukes for internasjonal sammenligning.",
+        "faq_title": "Ofte stilte spørsmål",
+        "faqs": [
+            {
+                "q": "Hva er forskjellen mellom GPA og karaktersnitt?",
+                "a": "Begge måler akademisk prestasjon. GPA bruker 4,0-skalaen, norsk system bruker A-F."
+            },
+            {
+                "q": "Hva er en god GPA?",
+                "a": "3,0 (B) er bra, 3,5 er utmerket, 3,7+ er fremragende."
+            },
+            {
+                "q": "Kan jeg ta opp en eksamen?",
+                "a": "De fleste universiteter tillater gjentak. Den beste karakteren teller."
+            },
+            {
+                "q": "Hvordan påvirker studiepoeng GPA?",
+                "a": "Det er et vektet gjennomsnitt, så fag med flere studiepoeng har større innvirkning."
+            }
+        ]
+    },
+    "js": {
+        "error_no_courses": "Legg til minst ett fag",
+        "error_invalid_credits": "Skriv inn gyldige studiepoeng"
+    }
+}

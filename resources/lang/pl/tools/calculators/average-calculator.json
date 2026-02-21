@@ -1,0 +1,120 @@
+{
+    "meta": {
+        "title": "Kalkulator Średniej - Darmowa Średnia, Mediana i Moda | Optimizo",
+        "description": "Oblicz średnią arytmetyczną, medianę, modę, rozstęp i sumę z dowolnego zbioru liczb. Dla studentów i badaczy.",
+        "h1": "Kalkulator Średniej",
+        "subtitle": "Średnia, mediana, moda, rozstęp i pełna analiza statystyczna"
+    },
+    "editor": {
+        "label_numbers": "Wprowadź liczby",
+        "placeholder_numbers": "Liczby rozdzielone przecinkami, spacjami lub nowymi liniami",
+        "btn_calculate": "Oblicz średnią",
+        "btn_clear": "Wyczyść",
+        "label_mean": "Średnia arytmetyczna (Mean)",
+        "label_median": "Mediana (Median)",
+        "label_mode": "Moda (Mode)",
+        "label_range": "Rozstęp",
+        "label_count": "Liczba wartości",
+        "label_sum": "Suma",
+        "label_min": "Minimum",
+        "label_max": "Maksimum",
+        "label_sorted": "Lista posortowana"
+    },
+    "content": {
+        "what_title": "Czym jest średnia i jakie są jej rodzaje?",
+        "what_text": "Średnia to miara tendencji centralnej reprezentująca typową wartość zbioru danych. W statystyce istnieją trzy główne miary: średnia arytmetyczna, mediana i moda. Zrozumienie ich jest niezbędne w edukacji, badaniach, biznesie i codziennych decyzjach.",
+        "types_title": "Rodzaje średnich",
+        "types": [
+            {
+                "name": "Średnia arytmetyczna",
+                "desc": "Najczęstszy typ. Suma wartości podzielona przez ich liczbę. Wzór: (x₁+x₂+...+xₙ)/n. Wrażliwa na wartości odstające."
+            },
+            {
+                "name": "Mediana",
+                "desc": "Środkowa wartość posortowanych danych. Parzysta liczba: średnia dwóch środkowych. Odporna na wartości odstające."
+            },
+            {
+                "name": "Moda",
+                "desc": "Najczęściej występująca wartość. Może być kilka lub żadna."
+            },
+            {
+                "name": "Średnia ważona",
+                "desc": "Gdy wartości mają różne wagi. Wzór: Σ(wᵢ×xᵢ)/Σwᵢ. Klasyczny przykład: GPA."
+            }
+        ],
+        "section1_title": "Średnie w praktyce",
+        "section1_items": [
+            {
+                "title": "Edukacja",
+                "text": "Nauczyciele wykorzystują średnią i medianę ocen do oceny wyników."
+            },
+            {
+                "title": "Biznes",
+                "text": "Firmy monitorują średnią sprzedaż, wartość klienta i przychód na użytkownika."
+            },
+            {
+                "title": "Nauka",
+                "text": "Analiza danych eksperymentalnych, odchylenie standardowe i testowanie hipotez wymagają średnich."
+            },
+            {
+                "title": "Zdrowie",
+                "text": "Średnia temperatura, ciśnienie, tętno — specjaliści zdrowia polegają na średnich."
+            },
+            {
+                "title": "Sport",
+                "text": "Średnia punktów, szybkość, wynik — statystyki sportowe szeroko wykorzystują średnie."
+            },
+            {
+                "title": "Nieruchomości",
+                "text": "Mediana jest lepsza dla cen mieszkań, bo drogie nieruchomości zawyżają średnią."
+            }
+        ],
+        "section2_title": "Średnia vs mediana — kiedy która",
+        "section2_items": [
+            {
+                "title": "Użyj średniej gdy",
+                "text": "Dane mają rozkład normalny, bez znaczących wartości odstających."
+            },
+            {
+                "title": "Użyj mediany gdy",
+                "text": "Są wartości odstające (np. dane o dochodach), rozkład asymetryczny."
+            },
+            {
+                "title": "Użyj mody gdy",
+                "text": "Chcesz znaleźć najczęstszą wartość. Idealna dla danych kategorycznych."
+            }
+        ],
+        "section3_title": "Częste błędy do uniknięcia",
+        "section3_items": [
+            "Nie polegaj wyłącznie na średniej — wartości odstające mogą ją znacząco zawyżyć",
+            "Nie ignoruj wielkości próby",
+            "Zawsze uwzględniaj kontekst danych",
+            "Nie myl średniej ważonej z nieważoną",
+            "Nie uśredniaj bezpośrednio procentów z różnymi bazami",
+            "Zawsze wizualizuj dane za pomocą wykresów"
+        ],
+        "faq_title": "Często zadawane pytania",
+        "faqs": [
+            {
+                "q": "Czym różni się średnia od mean?",
+                "a": "W języku potocznym to synonimy. Technicznie 'średnia' to szersze pojęcie obejmujące mean, medianę i modę."
+            },
+            {
+                "q": "Czy moda może nie istnieć?",
+                "a": "Tak. Jeśli wszystkie wartości są unikalne, moda nie istnieje."
+            },
+            {
+                "q": "Jak znaleźć medianę?",
+                "a": "Posortuj wartości. Nieparzysta liczba: środkowa wartość. Parzysta: średnia dwóch środkowych."
+            },
+            {
+                "q": "Kiedy stosować średnią ważoną?",
+                "a": "Gdy dane mają różne znaczenie. Przykłady: GPA, zwrot z portfela, satysfakcja klienta."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Wprowadź prawidłowe liczby",
+        "no_mode": "Brak mody"
+    }
+}

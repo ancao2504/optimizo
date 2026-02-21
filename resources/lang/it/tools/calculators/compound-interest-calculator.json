@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Calcolatrice Interesse Composto - Strumento Gratuito | Optimizo",
+        "description": "Calcola l'interesse composto, il valore futuro e la crescita degli investimenti. Supporta capitalizzazione annuale, semestrale, trimestrale, mensile e giornaliera.",
+        "h1": "Calcolatrice Interesse Composto",
+        "subtitle": "Calcola la crescita dei tuoi investimenti con diverse frequenze di capitalizzazione"
+    },
+    "editor": {
+        "label_principal": "Investimento iniziale ($)",
+        "label_rate": "Tasso di interesse annuo (%)",
+        "label_time": "Periodo (anni)",
+        "label_frequency": "Frequenza di capitalizzazione",
+        "label_contribution": "Versamento mensile ($)",
+        "freq_annually": "Annuale",
+        "freq_semiannually": "Semestrale",
+        "freq_quarterly": "Trimestrale",
+        "freq_monthly": "Mensile",
+        "freq_daily": "Giornaliera",
+        "btn_calculate": "Calcola crescita",
+        "label_future_value": "Valore futuro",
+        "label_total_interest": "Interessi maturati",
+        "label_total_deposits": "Depositi totali",
+        "label_breakdown": "Riepilogo annuale",
+        "col_year": "Anno",
+        "col_deposits": "Depositi",
+        "col_interest": "Interessi",
+        "col_balance": "Saldo"
+    },
+    "content": {
+        "what_title": "Interesse composto: la forza della creazione di ricchezza",
+        "what_text": "Albert Einstein descrisse l'interesse composto come 'l'ottava meraviglia del mondo'. A differenza dell'interesse semplice calcolato solo sul capitale, l'interesse composto viene calcolato sul capitale e sugli interessi accumulati, creando un effetto valanga che fa crescere il tuo denaro esponenzialmente.",
+        "formula_title": "Formula dell'interesse composto",
+        "formula_text": "A = P(1 + r/n)^(nt), dove A = valore futuro, P = capitale, r = tasso annuo, n = capitalizzazioni per anno, t = tempo (anni)",
+        "section1_title": "Interesse semplice vs composto",
+        "section1_text": "L'interesse semplice si calcola solo sul capitale iniziale; il composto su capitale e interessi accumulati. Esempio: 10.000€ al 5% per 20 anni: semplice = 20.000€, composto (mensile) = 27.126€ — 7.126€ in più!",
+        "section2_title": "Frequenze di capitalizzazione",
+        "section2_items": [
+            {
+                "title": "Annuale",
+                "text": "Interessi capitalizzati una volta l'anno. 10.000 al 5% diventa 16.289 in 10 anni."
+            },
+            {
+                "title": "Semestrale",
+                "text": "Capitalizzati due volte. 10.000 al 5% diventa 16.386 in 10 anni."
+            },
+            {
+                "title": "Trimestrale",
+                "text": "Capitalizzati quattro volte. 10.000 al 5% diventa 16.436 in 10 anni."
+            },
+            {
+                "title": "Mensile",
+                "text": "Capitalizzati ogni mese. 10.000 al 5% diventa 16.470 in 10 anni."
+            },
+            {
+                "title": "Giornaliera",
+                "text": "Capitalizzati ogni giorno. 10.000 al 5% diventa 16.487 in 10 anni."
+            }
+        ],
+        "section3_title": "La regola del 72",
+        "section3_text": "Stima del tempo di raddoppio: Anni = 72 ÷ tasso. All'8% raddoppia in ~9 anni. Al 6% in ~12 anni.",
+        "section4_title": "Applicazioni pratiche",
+        "section4_items": [
+            {
+                "title": "Risparmio pensionistico",
+                "text": "500€/mese al 7% per 30 anni = oltre 500.000€, di cui 180.000 depositi e 320.000+ interessi composti."
+            },
+            {
+                "title": "Fondo istruzione",
+                "text": "200€/mese dalla nascita al 7% = oltre 86.000€ in 18 anni."
+            },
+            {
+                "title": "Fondo emergenza",
+                "text": "10.000€ al 4% APY genera oltre 2.200€ di interessi in 5 anni senza depositi aggiuntivi!"
+            },
+            {
+                "title": "Consapevolezza dei debiti",
+                "text": "L'interesse composto lavora contro di te con i debiti. Carta al 20% APR — 5.000€ può diventare 12.000+ in 5 anni."
+            }
+        ],
+        "tips_title": "Consigli per massimizzare l'interesse composto",
+        "tips": [
+            "Inizia a investire il prima possibile — il tempo è il tuo migliore alleato",
+            "Imposta versamenti mensili automatici",
+            "Cerca conti con capitalizzazione più frequente",
+            "Reinvesti sistematicamente dividendi e interessi",
+            "Paga prima i debiti ad alto tasso",
+            "Considera l'inflazione — rendimento reale = nominale - inflazione"
+        ],
+        "faq_title": "Domande frequenti",
+        "faqs": [
+            {
+                "q": "Come differisce l'interesse composto dal semplice?",
+                "a": "Il semplice solo sul capitale, il composto su capitale e interessi accumulati."
+            },
+            {
+                "q": "Cos'è la regola del 72?",
+                "a": "Formula rapida: 72 ÷ tasso = anni per raddoppiare. Al 6% ~12 anni."
+            },
+            {
+                "q": "La capitalizzazione più frequente è migliore?",
+                "a": "Sì, ma il beneficio aggiuntivo diminuisce. La differenza mensile-giornaliera è molto minore di annuale-mensile."
+            },
+            {
+                "q": "Come massimizzare l'interesse composto?",
+                "a": "Inizia presto, versa regolarmente, reinvesti e scegli investimenti a basso costo."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Inserisci numeri validi",
+        "error_range": "I valori devono essere maggiori di zero"
+    }
+}

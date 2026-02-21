@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "title": "Calculadora de Desconto - Ferramenta Online Grátis | Optimizo",
+        "description": "Calcule economia, preço final e custo total com impostos. Suporta descontos percentuais e cálculo de impostos.",
+        "h1": "Calculadora de Desconto",
+        "subtitle": "Calcule sua economia com desconto percentual e imposto opcional"
+    },
+    "editor": {
+        "label_original": "Preço original ($)",
+        "label_discount": "Desconto (%)",
+        "label_tax": "Imposto (%)",
+        "btn_calculate": "Calcular economia",
+        "label_savings": "Sua economia",
+        "label_final_price": "Preço com desconto",
+        "label_tax_amount": "Valor do imposto",
+        "label_total_with_tax": "Total com imposto"
+    },
+    "content": {
+        "what_title": "Entendendo cálculos de desconto",
+        "what_text": "A calculadora de desconto mostra instantaneamente quanto você economiza em uma promoção. Online ou na loja — entender descontos é a base da compra inteligente.",
+        "section1_title": "Tipos de descontos",
+        "section1_items": [
+            {
+                "title": "Desconto percentual",
+                "text": "Mais comum, ex. '25% de desconto'. Preço × percentual = economia."
+            },
+            {
+                "title": "Desconto fixo",
+                "text": "Valor específico, ex. 'R$50 de desconto'. Subtraído diretamente do preço."
+            },
+            {
+                "title": "Compre 1 leve 2",
+                "text": "Efetivamente 50% de desconto em dois itens."
+            },
+            {
+                "title": "Desconto progressivo",
+                "text": "Desconto aumenta com volume de compra."
+            },
+            {
+                "title": "Desconto para membros",
+                "text": "Descontos exclusivos para clientes frequentes e membros."
+            },
+            {
+                "title": "Promoções sazonais",
+                "text": "Black Friday, Natal — descontos de 50-70%."
+            }
+        ],
+        "section2_title": "Dicas de compra inteligente",
+        "section2_items": [
+            "Sempre calcule o preço final antes de comprar",
+            "Use cupons de desconto para economia extra",
+            "Combine cashback com descontos",
+            "Verifique histórico de preços antes de compras grandes",
+            "Confirme o preço original — alguns vendedores inflam artificialmente",
+            "Procure frete grátis",
+            "Crie um calendário de promoções sazonais"
+        ],
+        "section3_title": "Desconto e impostos",
+        "section3_text": "No Brasil, impostos são calculados sobre o preço com desconto. Exemplo: produto de R$100 com 20% de desconto = R$80. ICMS de 18% = R$14,40. Total = R$94,40.",
+        "examples_title": "Exemplos práticos",
+        "examples": [
+            {
+                "label": "30% roupas",
+                "result": "Jaqueta de R$200: desconto = R$60. Você paga R$140."
+            },
+            {
+                "label": "15% eletrônicos",
+                "result": "Notebook de R$3.000: desconto = R$450. Você paga R$2.550."
+            },
+            {
+                "label": "Descontos empilhados",
+                "result": "10% + 15% ≠ 25%. Real: 1.000 × 0,90 × 0,85 = 765. Economia 23,5%."
+            },
+            {
+                "label": "Cashback + desconto",
+                "result": "R$500 com 20% desconto = R$400. 5% cashback = R$20. Custo real: R$380."
+            }
+        ],
+        "faq_title": "Perguntas frequentes",
+        "faqs": [
+            {
+                "q": "Como calculo o percentual de desconto?",
+                "a": "Fórmula: ((Preço original - Preço promocional) / Preço original) × 100."
+            },
+            {
+                "q": "Descontos empilhados se somam?",
+                "a": "Não! 20% + 30% ≠ 50%. Real: (1-0,20)×(1-0,30) = 0,56, ou seja 44%."
+            },
+            {
+                "q": "Imposto antes ou depois do desconto?",
+                "a": "No Brasil, impostos incidem sobre o preço com desconto."
+            },
+            {
+                "q": "Como saber se é um bom negócio?",
+                "a": "Use comparadores de preço, pesquise várias lojas e considere frete e garantia."
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Insira números válidos",
+        "error_range": "Desconto deve estar entre 0% e 100%"
+    }
+}

@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Discount Calculator - Free Sale Price Tool | Optimizo",
-        "description": "Calculate sale prices, savings, and discounts instantly. Enter the original price and discount percentage to find out how much you save.",
+        "title": "Discount Calculator - Free Sale Price Calculator Online | Optimizo",
+        "description": "Calculate sale prices, savings, and discounts instantly. Enter the original price and discount percentage to see how much you save. Supports optional tax calculation.",
         "h1": "Discount Calculator",
-        "subtitle": "Calculate sale prices and savings instantly"
+        "subtitle": "Calculate sale prices, savings, and final costs with optional tax instantly"
     },
     "editor": {
         "label_original": "Original Price ($)",
@@ -14,26 +14,90 @@
         "label_final_price": "Final Price",
         "label_price_after_discount": "Price After Discount",
         "label_tax_amount": "Tax Amount",
-        "label_total_with_tax": "Total with Tax"
+        "label_total_with_tax": "Total With Tax"
     },
     "content": {
-        "what_title": "How Discounts Work",
-        "what_text": "A discount is a reduction in the original price of a product or service. Discounts are typically expressed as a percentage off the original price. This calculator helps you quickly determine the final price after applying a discount and optional sales tax.",
-        "formula_title": "Discount Formula",
-        "formula_text": "Savings = Original Price × (Discount % ÷ 100). Final Price = Original Price − Savings.",
-        "examples_title": "Common Discount Examples",
+        "what_title": "How Discounts Work — A Complete Guide",
+        "what_text": "A discount is a reduction in the original price of a product or service, typically expressed as a percentage off the original price. Discounts are one of the most common pricing strategies used by retailers, e-commerce platforms, and service providers to attract customers, clear inventory, and boost sales volume. Understanding how to calculate discounts quickly and accurately can help you make smarter purchasing decisions, compare deals effectively, and determine the true value of a promotion. Our free discount calculator makes this process effortless by computing the exact savings, final price, and even including optional sales tax.",
+        "section1_title": "Types of Discounts You'll Encounter",
+        "section1_items": [
+            {
+                "title": "Percentage Discounts",
+                "text": "The most common type of discount, expressed as a percentage off the original price. Examples include '25% off', 'Save 40%', or 'Half-Price Sale'. The calculation is straightforward: Savings = Original Price × (Discount Percentage ÷ 100). A $120 jacket at 30% off means $36 savings and a final price of $84."
+            },
+            {
+                "title": "Fixed Amount Discounts",
+                "text": "A specific dollar amount is subtracted from the original price, regardless of the item's cost. Examples include '$20 off your purchase' or 'Save $50'. These are simpler to calculate but their relative value varies based on the original price — $20 off a $50 item is 40% savings, but $20 off a $200 item is only 10%."
+            },
+            {
+                "title": "Buy One Get One (BOGO)",
+                "text": "A popular retail promotion where purchasing one item at full price entitles you to a second item for free or at a reduced price. BOGO Free is effectively a 50% discount when buying two items. BOGO 50% Off is a 25% overall discount on two items."
+            },
+            {
+                "title": "Tiered Discounts",
+                "text": "The discount percentage increases based on the quantity or total purchase amount. For example: 10% off orders over $50, 15% off orders over $100, 20% off orders over $200. These incentivize larger purchases and reward high-volume buyers."
+            },
+            {
+                "title": "Seasonal & Clearance Sales",
+                "text": "Time-limited discounts tied to seasons, holidays, or inventory clearance. Black Friday, End-of-Season, and Back-to-School sales often offer the deepest discounts of the year, sometimes reaching 50-70% off original prices."
+            },
+            {
+                "title": "Coupon & Promo Code Discounts",
+                "text": "Available through promotional codes, loyalty programs, email newsletters, or coupon websites. These often provide exclusive discounts to specific customer segments and can sometimes be stacked with other promotions for additional savings."
+            }
+        ],
+        "section2_title": "Smart Shopping Strategies for Maximum Savings",
+        "section2_items": [
+            "Always compare the per-unit price — a larger package with a smaller discount may still be cheaper per unit than a smaller package with a bigger discount",
+            "Stack discounts when possible — combine store sales with coupons, cashback apps, and credit card rewards for triple savings",
+            "Be wary of inflated original prices — some retailers increase the 'original' price before a sale to make the discount appear larger than it really is",
+            "Set price alerts on items you want and wait for sales — patience can save you 20-50% on major purchases",
+            "Consider the total cost including shipping and tax — free shipping thresholds sometimes make buying a slightly more expensive version worthwhile",
+            "Black Friday, Cyber Monday, and end-of-season clearance events typically offer the deepest genuine discounts of the year",
+            "Use browser extensions like Honey or Rakuten to automatically find and apply coupon codes at checkout"
+        ],
+        "section3_title": "Understanding Sales Tax with Discounts",
+        "section3_text": "When a discount is applied, sales tax is typically calculated on the discounted price, not the original price. This means you benefit from both the lower price and the reduced tax amount. For example, if a $100 item is discounted by 25% and your local sales tax is 8.5%, the calculation is: Discounted price = $75.00, Tax = $75 × 0.085 = $6.38, Total = $81.38. Without the discount, you would have paid $108.50. Your total savings amount to $27.12 (the $25 discount plus $2.12 in avoided tax). This is why our calculator includes an optional tax field — to give you the complete picture of your savings.",
+        "examples_title": "Real-World Discount Calculations",
         "examples": [
             {
-                "label": "10% off $50",
-                "result": "Save $5.00 → Pay $45.00"
+                "label": "10% off a $50 item",
+                "result": "$5.00 savings → You pay $45.00"
             },
             {
-                "label": "25% off $120",
-                "result": "Save $30.00 → Pay $90.00"
+                "label": "25% off a $120 item",
+                "result": "$30.00 savings → You pay $90.00"
             },
             {
-                "label": "50% off $80",
-                "result": "Save $40.00 → Pay $40.00"
+                "label": "30% off a $89.99 item",
+                "result": "$27.00 savings → You pay $63.00"
+            },
+            {
+                "label": "50% off a $200 item",
+                "result": "$100.00 savings → You pay $100.00"
+            },
+            {
+                "label": "75% off a $160 item",
+                "result": "$120.00 savings → You pay $40.00"
+            }
+        ],
+        "faq_title": "Frequently Asked Questions",
+        "faqs": [
+            {
+                "q": "How do I calculate the original price from a sale price?",
+                "a": "Use the formula: Original Price = Sale Price ÷ (1 - Discount Percentage ÷ 100). For example, if an item costs $60 after a 25% discount: $60 ÷ (1 - 0.25) = $60 ÷ 0.75 = $80 original price."
+            },
+            {
+                "q": "How do successive discounts work?",
+                "a": "Successive discounts (e.g., 20% off then an additional 10% off) are NOT the same as a single 30% discount. The 10% is applied to the already-discounted price. Result: $100 → $80 (after 20%) → $72 (after additional 10%), which equals 28% total — not 30%."
+            },
+            {
+                "q": "Is a bigger percentage always a better deal?",
+                "a": "Not necessarily. A 50% discount on an inflated price may be worse than a 20% discount on a fair price. Research the typical price of an item across multiple retailers before assuming a large discount percentage means a great deal."
+            },
+            {
+                "q": "Does sales tax apply before or after the discount?",
+                "a": "In most jurisdictions, sales tax is calculated on the discounted (sale) price, not the original price. This means discounts save you money on both the item price and the tax, maximizing your total savings."
             }
         ]
     },
