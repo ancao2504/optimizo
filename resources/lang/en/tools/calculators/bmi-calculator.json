@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "title": "BMI Calculator - Free Body Mass Index Tool | Optimizo",
+        "description": "Calculate your Body Mass Index (BMI) instantly. Enter your height and weight to find out your BMI category: underweight, normal, overweight, or obese.",
+        "h1": "BMI Calculator",
+        "subtitle": "Calculate your Body Mass Index and health category"
+    },
+    "editor": {
+        "label_height": "Height",
+        "label_weight": "Weight",
+        "label_unit": "Unit System",
+        "unit_metric": "Metric (cm / kg)",
+        "unit_imperial": "Imperial (ft-in / lbs)",
+        "label_height_cm": "Height (cm)",
+        "label_height_ft": "Height (ft)",
+        "label_height_in": "Height (in)",
+        "label_weight_kg": "Weight (kg)",
+        "label_weight_lbs": "Weight (lbs)",
+        "btn_calculate": "Calculate BMI",
+        "label_result": "Your BMI",
+        "label_category": "Category"
+    },
+    "content": {
+        "what_title": "What is BMI?",
+        "what_text": "Body Mass Index (BMI) is a measure of body fat based on height and weight. It is widely used as a screening tool to categorize individuals into weight categories: Underweight, Normal weight, Overweight, and Obese.",
+        "categories_title": "BMI Categories",
+        "categories": [
+            {
+                "range": "Below 18.5",
+                "label": "Underweight",
+                "color": "#3B82F6"
+            },
+            {
+                "range": "18.5 – 24.9",
+                "label": "Normal weight",
+                "color": "#10B981"
+            },
+            {
+                "range": "25.0 – 29.9",
+                "label": "Overweight",
+                "color": "#F59E0B"
+            },
+            {
+                "range": "30.0 and above",
+                "label": "Obese",
+                "color": "#EF4444"
+            }
+        ],
+        "formula_title": "BMI Formula",
+        "formula_text": "BMI = weight (kg) / height (m)²"
+    },
+    "js": {
+        "error_invalid": "Please enter valid height and weight",
+        "error_range": "Values are out of realistic range",
+        "cat_underweight": "Underweight",
+        "cat_normal": "Normal weight",
+        "cat_overweight": "Overweight",
+        "cat_obese": "Obese"
+    }
+}

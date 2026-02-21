@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "title": "Discount Calculator - Free Sale Price Tool | Optimizo",
+        "description": "Calculate sale prices, savings, and discounts instantly. Enter the original price and discount percentage to find out how much you save.",
+        "h1": "Discount Calculator",
+        "subtitle": "Calculate sale prices and savings instantly"
+    },
+    "editor": {
+        "label_original": "Original Price ($)",
+        "label_discount": "Discount (%)",
+        "label_tax": "Tax Rate (%) - Optional",
+        "btn_calculate": "Calculate Discount",
+        "label_savings": "You Save",
+        "label_final_price": "Final Price",
+        "label_price_after_discount": "Price After Discount",
+        "label_tax_amount": "Tax Amount",
+        "label_total_with_tax": "Total with Tax"
+    },
+    "content": {
+        "what_title": "How Discounts Work",
+        "what_text": "A discount is a reduction in the original price of a product or service. Discounts are typically expressed as a percentage off the original price. This calculator helps you quickly determine the final price after applying a discount and optional sales tax.",
+        "formula_title": "Discount Formula",
+        "formula_text": "Savings = Original Price × (Discount % ÷ 100). Final Price = Original Price − Savings.",
+        "examples_title": "Common Discount Examples",
+        "examples": [
+            {
+                "label": "10% off $50",
+                "result": "Save $5.00 → Pay $45.00"
+            },
+            {
+                "label": "25% off $120",
+                "result": "Save $30.00 → Pay $90.00"
+            },
+            {
+                "label": "50% off $80",
+                "result": "Save $40.00 → Pay $40.00"
+            }
+        ]
+    },
+    "js": {
+        "error_invalid": "Please enter valid numbers",
+        "error_range": "Price and discount must be positive values",
+        "error_discount_max": "Discount cannot exceed 100%"
+    }
+}

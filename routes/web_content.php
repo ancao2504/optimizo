@@ -631,7 +631,19 @@ Route::prefix('tools')->group(function () use ($n) {
     // Route::post('internet-speed-test', [InternetSpeedTestController::class, 'process'])->name($n('network.internet-speed-test.check'));
 });
 
+// Calculator Tools
+Route::get('calculator-tools', [App\Http\Controllers\CategoryController::class, 'calculators'])->name($n('category.calculators'));
 
+Route::prefix('tools')->group(function () use ($n) {
+    Route::get('percentage-calculator', [\App\Http\Controllers\Tools\Calculators\PercentageCalculatorController::class, 'index'])->name($n('calculators.percentage-calculator'));
+    Route::get('scientific-calculator', [\App\Http\Controllers\Tools\Calculators\ScientificCalculatorController::class, 'index'])->name($n('calculators.scientific-calculator'));
+    Route::get('bmi-calculator', [\App\Http\Controllers\Tools\Calculators\BmiCalculatorController::class, 'index'])->name($n('calculators.bmi-calculator'));
+    Route::get('mortgage-calculator', [\App\Http\Controllers\Tools\Calculators\MortgageCalculatorController::class, 'index'])->name($n('calculators.mortgage-calculator'));
+    Route::get('compound-interest-calculator', [\App\Http\Controllers\Tools\Calculators\CompoundInterestCalculatorController::class, 'index'])->name($n('calculators.compound-interest-calculator'));
+    Route::get('gpa-calculator', [\App\Http\Controllers\Tools\Calculators\GpaCalculatorController::class, 'index'])->name($n('calculators.gpa-calculator'));
+    Route::get('discount-calculator', [\App\Http\Controllers\Tools\Calculators\DiscountCalculatorController::class, 'index'])->name($n('calculators.discount-calculator'));
+    Route::get('average-calculator', [\App\Http\Controllers\Tools\Calculators\AverageCalculatorController::class, 'index'])->name($n('calculators.average-calculator'));
+});
 
 
 

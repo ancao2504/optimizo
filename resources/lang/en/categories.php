@@ -84,4 +84,10 @@ return [
     'general' => 'General',
     'meta_title' => ':category - Free Online Tools | Optimizo',
     'meta_description' => 'Free :category including converters, generators, and more. Professional tools for developers and creators.',
+
+    'calculators_title' => 'Calculator Tools',
+    'calculators_subtitle' => 'Professional math and financial calculators - 100% free, no registration required',
+    'calculators_meta_title' => 'Calculator Tools - Free Math & Financial Calculators | Optimizo',
+    'calculators_meta_description' => 'Free online calculators for math, finance, health, and academics. Percentage, BMI, mortgage, compound interest, GPA, and more. Instant, accurate results.',
+    'calculators_h1' => 'Calculator Tools',
 ];

@@ -71,6 +71,11 @@ class CategoryController extends Controller
         return $this->showCategory('downloader');
     }
 
+    public function calculators()
+    {
+        return $this->showCategory('calculators');
+    }
+
     private function showCategory($slug)
     {
         $category = \App\Models\Category::where('slug', $slug)->firstOrFail();
