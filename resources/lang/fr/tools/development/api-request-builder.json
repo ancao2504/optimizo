@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Constructeur de requêtes API en ligne - Client HTTP gratuit | Optimizo",
+        "description": "Construisez et envoyez des requêtes HTTP API en ligne gratuitement. Supporte GET, POST, PUT, PATCH, DELETE avec en-têtes personnalisés, corps de requête et paramètres de requête.",
+        "h1": "Constructeur de requêtes API",
+        "subtitle": "Construisez, envoyez et inspectez des requêtes HTTP API — un client HTTP léger dans votre navigateur"
+    },
+    "editor": {
+        "title": "Constructeur de requêtes API",
+        "btn_send": "Envoyer la requête",
+        "tab_headers": "En-têtes",
+        "tab_body": "Corps",
+        "tab_params": "Paramètres",
+        "btn_add_header": "Ajouter un en-tête",
+        "btn_add_param": "Ajouter un paramètre",
+        "label_response": "Réponse",
+        "btn_copy_response": "Copier la réponse"
+    },
+    "content": {
+        "why_title": "Pourquoi utiliser un constructeur de requêtes API ?",
+        "why_desc": "Tester les API REST nécessite habituellement d'installer Postman, Insomnia ou d'écrire des commandes curl. Notre client HTTP basé sur le navigateur ne nécessite aucune installation — il suffit de l'ouvrir et de commencer à envoyer des requêtes. Il supporte toutes les méthodes HTTP, les en-têtes personnalisés, les corps JSON et les paramètres de requête, ce qui en fait un outil parfait pour le test rapide d'API, l'exploration d'API publiques et le débogage d'intégrations.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Toutes les méthodes HTTP",
+                "desc": "Supporte GET, POST, PUT, PATCH, DELETE avec en-têtes personnalisés et corps JSON/formulaire"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Réponse formatée",
+                "desc": "Le corps de la réponse est automatiquement affiché avec indentation, avec le code de statut et le temps de réponse"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Prêt à l'emploi",
+                "desc": "Aucune installation requise — fonctionne entièrement dans votre navigateur sans compte ni plugin"
+            }
+        },
+        "how_title": "Comment envoyer une requête API",
+        "how_steps": {
+            "1": {
+                "title": "Entrez l'URL et la méthode",
+                "desc": "Tapez l'URL de l'endpoint API et sélectionnez la méthode HTTP (GET, POST, etc.)"
+            },
+            "2": {
+                "title": "Ajoutez les en-têtes et le corps",
+                "desc": "Passez à l'onglet En-têtes pour ajouter Authorization, Content-Type et d'autres en-têtes. Utilisez Corps pour les données POST/PUT."
+            },
+            "3": {
+                "title": "Envoyez et inspectez",
+                "desc": "Cliquez sur Envoyer pour effectuer la requête. Le corps de la réponse, le code de statut et le timing apparaissent ci-dessous."
+            }
+        },
+        "uses_title": "Cas d'utilisation du constructeur de requêtes API",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "Débogage d'API",
+                "desc": "Testez des endpoints API individuels avec des en-têtes et corps personnalisés pour déboguer les problèmes d'authentification et de données"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Test des tokens d'authentification",
+                "desc": "Testez les schémas d'authentification Bearer, Basic Auth et clé API sans écrire de code"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "Exploration d'API",
+                "desc": "Explorez les API publiques (GitHub, OpenWeather, JSONPlaceholder) et comprenez leurs réponses"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Reproduction de bugs",
+                "desc": "Reproduisez et documentez les bugs API avec les détails exacts requête/réponse pour les rapports de bugs"
+            }
+        },
+        "tips_title": "Bonnes pratiques de test d'API",
+        "tips": {
+            "headers": {
+                "title": "✓ Définissez toujours Content-Type",
+                "desc": "Lors de l'envoi d'un corps JSON, incluez toujours Content-Type: application/json. Sans cela, de nombreuses API rejetteront ou mal interpréteront votre requête."
+            },
+            "cors": {
+                "title": "✓ Comprendre les limitations CORS",
+                "desc": "Les navigateurs bloquent les requêtes cross-origin sans les en-têtes CORS appropriés. Si une requête échoue dans le navigateur, utilisez curl ou un proxy côté serveur."
+            },
+            "auth": {
+                "title": "✓ Ne codez jamais vos clés API en dur",
+                "desc": "Utilisez des variables d'environnement dans le code de production. Le constructeur de requêtes est uniquement pour les tests — ne partagez pas de captures d'écran contenant des clés API réelles."
+            },
+            "status": {
+                "title": "✓ Vérifiez les codes de statut HTTP",
+                "desc": "200=OK, 201=Créé, 400=Mauvaise requête, 401=Non autorisé, 403=Interdit, 404=Non trouvé, 500=Erreur serveur."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Pourquoi ma requête cross-origin échoue-t-elle ?",
+            "a1": "Les navigateurs appliquent des restrictions CORS (Cross-Origin Resource Sharing). Si l'API cible n'inclut pas les en-têtes Access-Control-Allow-Origin, le navigateur bloque la requête. Ce n'est pas un bug — utilisez curl ou un proxy backend pour les API sans support CORS.",
+            "q2": "Puis-je envoyer des requêtes multipart/form-data ?",
+            "a2": "Le constructeur actuel supporte les corps JSON et texte brut. Pour les données de formulaire multipart (chargements de fichiers), utilisez la soumission de formulaire native du navigateur ou un outil dédié comme Postman.",
+            "q3": "Est-ce un remplacement de Postman ?",
+            "a3": "Pour les tests rapides et l'exploration — oui. Pour la collaboration en équipe, les collections sauvegardées, les environnements et les tests automatisés, Postman ou Bruno offrent plus de fonctionnalités. Cet outil excelle dans les tests API instantanés sans configuration.",
+            "q4": "Quelle est la différence entre PUT et PATCH ?",
+            "a4": "PUT remplace la ressource entière avec le corps de la requête. PATCH applique une mise à jour partielle — seuls les champs inclus dans le corps sont modifiés. La plupart des API REST utilisent PATCH pour les mises à jour afin d'éviter d'écraser les champs non modifiés."
+        }
+    }
+}

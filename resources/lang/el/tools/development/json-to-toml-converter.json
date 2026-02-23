@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Online Μετατροπέας (Converter) JSON σε TOML - Γεννήτρια Δωρεάν | Optimizo",
+        "description": "Μετατρέψτε αρχεία / κώδικα JSON σε καθαρή, ανθρώπινη μορφή TOML (online/δωρεάν). Αυτόματη παραγωγή/δόμηση ενοτήτων-sections (Tables), ομαλής φωλιάς αντικειμένων, και κατανοητού config-code (Pyproject/Cargo logic..).",
+        "h1": "Μετατροπέας JSON ΣΕ TOML",
+        "subtitle": "Μετασχηματίστε (Μηχανικά) Δεδομένα/JSON σε Ολοκάθαρο —Κατανοητό από Τον Άνθρωπο— TOML Configuration Protocol (Με Auto-generation ενοτήτων)!"
+    },
+    "editor": {
+        "title": "Σύστημα JSON -> TOML",
+        "label_json": "Είσοδος Δεδομένων (JSON Format / Payload)",
+        "ph_json": "{\n  \"title\": \"My App\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "Έξοδος Αποτελέσματος (Μορφή TOML)",
+        "btn_copy": "Αντιγραφή Δομής TOML (Copy)"
+    },
+    "content": {
+        "why_title": "Ο Σκοπός της μετατροπής (Εξαγωγής/Migrate) Από JSON.. σε TOML Format;",
+        "why_desc": "Όπως λένε οι Developers... 'Το Json EINAI KOΛΑΣΗ για να γράψεις Configuration/Ρυθμίσεις!'.. Και έχουν Δίκιο! Το Json δεν επιτρέπει Σχόλια (Comments), Θέλει Εκατοντάδες Εισαγωγικά (`\"\"`), και τα (Nested Data / Υπο-κουτιά) τραβάνε το κείμενο τέρμα Δεξιά... Κάνοντας Το TOML Τεράστια Όαση/Ανακούφιση! Mε Τα Δευτερεύοντα [Επικεφαλίδες / Tables / Ενότητες - Sections] του.. Και τα (= , Ισα)... Τα δεδομένα 500 γραμμών JSON, γίνονται Ξαφνικά ένα Υπέροχο (200 Γραμμών) Περιοδικό / Ανάγνωσμα προς (Modifying/Config Setup)!",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Τεχνητή Νοημοσύνη (Πινάκων/Ενοτήτων / Tables Generator)",
+                "desc": "Οι.. Άπειρες Φωλιές (Nested Objects JSON ` { { {} } } `)..  Mεταμορφώνονται Μαγικά σε όμορφα (TOML-Paths/Ενότητες) :  P.x => `[section.subsection.inner]` !! "
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Προστασία - (Αυτονομία) Types Values ",
+                "desc": "Ο Μετατροπέας αναγνωρίζει τις Int / Bool / String Πηγές απο To Json ... Σεβόμενος την Αξία τους (Και το Format Quotes ! )"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Απόλυτη Καθαρότητα & (Μινιμαλισμός KBs) ",
+                "desc": "Τα Ίδια Δεδομένα του JSON, Οταν Μετατραπούν (Ορθολογικά) Σε Toml... Καταλαμβάνουν 20-30% λιγότερο όγκο Χαρακτήρων (Λιγοτερα Brackets , Quotes, Commas)."
+            }
+        },
+        "how_title": "Φυγαδεύστε τα Configuration σας ΣΕ TOML... (3 Βηματα)!..",
+        "how_steps": {
+            "1": {
+                "title": "Επικολλήστε ΑΥΣΤΗΡΟ κώδικα (JSON)",
+                "desc": "Ανοίξτε το config.json σας.. (Όπως του VS Code Settings κλπ) .. Αντιγράψτε ΑΥΣΤΗΡΑ/Εγκυρα JSON δεδομένα Στο πρώτο παράθυρο."
+            },
+            "2": {
+                "title": "On-The-Fly / Άμεση ΤΟΜL Ανάλυση",
+                "desc": "Ο TOML Generator / Lexer , Δημιουργεί την (Root-Scope) Βασική βαθμίδα.. Και μετά 'Σπάει / Κατεβαίνει Δέντρα.. ' Γράφοντας τις κατηγορίες [ΟΝΟΜΑ_ΚΑΤΗΓΟΡΙΑΣ]. "
+            },
+            "3": {
+                "title": "Εμπλουτισμός -> (Setup the Toml File)",
+                "desc": "Κανένα Mηχάνημα δεν ξέρει ΤΙ χρειάζεστε... Tο Toml (Μετά το Copy) - Επιβάλλεται να 'Ανοιχτεί' απο εσάς - Και να Προσθέσετε #ΣΧΟΛΙΑ-Notes , ώστε να το θυμάστε/Ξέρετε τι κάνει η Κάθε παράμετρος! Αυτή ειναι η αξία του!!"
+            }
+        },
+        "uses_title": "Κλασσικές Μεταναστεύσεις (Migrations / Setups)",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Νοικοκύρεμα στο (Cargo.toml/Rust/Cargo Core)",
+                "desc": " Μεταφέρατε δεδομένα απο το 'package.json (Node/JS)'.. Στήνοντας/Βοηθώντας το νέο σας Μεγάλο Αδερφάκι (Rust / Cargo Ecosystem ) να βρει Τα Dependencies.. (Package/Author/Versions) !"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Eκσυχρονισμός της Python ( Migrate To pyproject.toml ) ",
+                "desc": "Η (PEP 518) έφερε το ΤOML Στην Επιφάνεια.. Πετάξτε τα απαρχαιωμένα setup.cfg ... Και μεταφέρετε τα Properties (json-dicts) του setup, Στο σύγχρονο μοντέλο!"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Γενικό Application Settings Config (Η Δύναμη/Settings File)",
+                "desc": "Μετατρέψτε το βαρύ/άκομψο (JSON APP-Settings) Σας ... Σε File (Config.toml).. Ωστε Οι 'Τελικοί-Ανθρωποι-Χρήστες-Admins' να μπορούν εύκολα να το διαβάζουν , Και να Πειράζουν (Tweaks) τον Server / App σας!!"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Ταυτόχρονη... Αρμονία Διαμερισμού Δεδομένων (Data Translation/Sharing)",
+                "desc": "Λειτουργεί ως 'Γέφυρα/Αντάπτορας', Αν το C.I/C.D Σύστημα Σας Εξάγει/Φτύνει JSON ... Αλλά Ο Go/Rust Server σας.. Εχει Φτιαχτεί/Διαβάζει - ΜΟΝΟ .TOML αρχεία!."
+            }
+        },
+        "tips_title": "Προσοχή.. (The Gothchas / Toml Translator Traps) !!",
+        "tips": {
+            "arrays": {
+                "title": "✓ Το (ΜΕΓΙΣΤΟΠΟΙΗΜΕΝΟ) πρόβλημα των Arrays-Of-Objects ( JSON [ {a}, {b} ] ) ",
+                "desc": "O Αλγόριθμος του Τοml: ΟΤΑΝ Βρει [ Λιστα Αντικειμένων Στο Json..] .. ΔΗΜΙΟΥΡΓΕΙ ΤΙΣ ΕΤΙΚΕΤΕΣ ME ΔΙΠΛΑ-BRACKETS =>   `[[ name ]] `  ! ΔΕΝ ΕΙΝΑΙ ΣΦΑΛΜΑ! ΕΙΝΑΙ Ο ΣΩΣΤΟΣ-ΤΡΟΠΟΣ ΤOML. (Δηλώνει: Το 'name' είναι Η ΛΙΣΤΑ, Και βάζω απο κατω τα values) ! "
+            },
+            "null": {
+                "title": "✓ Συναγερμός / (ΤO TOML... ΜΙΣΕΙ .. ΣΙΧΑΙΝΕΤΑΙ ΤΟ JSON-NULL !!)",
+                "desc": "Το 100% Core/Σύνταξης του Toml... ΔΕΝ ΥΠΟΣΤΗΡΙΖΕΙ !! ΔΕΝ ΕΧΕΙ (NULL VALUES/ KENH-MHDENIKH ΑΞΙΑ) ! Αν το Json σας έχει Null `{\"a\" : null } `... O Parser Είτε θα ΤΟ ΑΓΝΟΗΣΕΙ ΤΕΛΕΙΩΣ (Ignored Key) , Είτε θα πεταχθεί (TypeError ! Exception). Το Toml, θεωρεί οτι 'Το να ΜΗΝ Γραψεις το Key... ειναι σαν να ηταν NULL.. ΑΡΑ ΓΙΑΤΙ ΝΑ ΤΟ ΓΡΑΨΕΙΣ ?' "
+            },
+            "keys": {
+                "title": "✓ Τα 'Περίεργα/Ξένα' Ονόματα Key/Ιδιοτήτων... Παίρνουν \"Εισαγωγικά\"",
+                "desc": "Στο TOML.. Τα Κλειδιά ΕΙΝΑΙ ΓΥΜΝΑ ( Πχ `Title = 'Hello' `). Εάν το 'Key' Σας ΟΜΩΣ.. Eχει Κενά-Spaces Η (Παύλες / Hyphens - ) ΟΠΩΣ:  {' content-type ' : 'json' } ... TOTE Το ΤΟΜL αναγκάζεται ΝΑ ΤΟ ΝΤΥΣΕΙ ΜΕ `\" \"` Εισαγωγικά !! "
+            },
+            "test": {
+                "title": "✓ Μη το Χρησιμοποιείτε ΧΩΡΙΣ (TESTING PARSER Library) !",
+                "desc": "Καθε Γλώσσα.. (Τοml-Rs / Python Tomllib / Node-Iarna.. ) - Ενδεχεται ΝΑ διαβαζει τα (Deeper Nested / Extreme Case Tomls) Με Τον δικο της Διαφορετικό τρόπο! Μετά την μετατροπή - Πάντα ΝΑ ΤΡΕΧΕΤΕ ΕΝΑ BUILD-LOAD/Test Script!."
+            }
+        },
+        "faq_title": "❓  Απορίες... Converter / Standards FAQ",
+        "faq": {
+            "q1": "Όλοι οι Τύποι του Json... μεταφέρονται - '1' Πρός '1' ... (1-1) Σε TOML;",
+            "a1": "Σχεδόν. (Το String->Γίνεται String Τοml.. / Οι Αριθμοί-> Αριθμοί / Arrays->Arrays / Boolean->Bool). ΩΣΤΟΣΟ το Τεράστιο/Σκοτεινό προβλημα.... Ειναι οπως προ-είπαμε (Το NULL). Το ΤοML Δεν το καταλαβαίνει. Οπότε Ή Διαγράφεται - Ή Προκαλεί Bug. Η λύση? Φιλτράρετε το json Σας... να διώξετε τα (Null.. - βάζοντας empty-strings \"\").",
+            "q2": "Είναι Εφικτό ΝΑ ΙΣΟΠΕΔΩΣΩ το JSON (Αντικαθιστώντας Το Μία και Καλή Με Toml) σε Configuration;",
+            "a2": "Αν μιλάτε για (Static - Στατικά/Αρχεία-Settings App) ... ΒΕΒΑΙΩΣ!! Tο WebPack / Babel / Cargo / Go Servers... Όλοι εχουν Μεταβεί (Shift-Paredighm) προς TOML. Απλά Το (App-Script Σας) Πρέπει να σταματήσει Να Διαβάζει το αρχείο μέσω C++ (JSON.parse), αλλά μέσω κάποιας μικρής -ελαφριας- (Toml-Parse) library.",
+            "q3": "Yπάρχει συγκεκριμένη - ΛΟΓΙΚΗ .. Επέκταση αρχείου ; (Extensions - Format Types);",
+            "a3": "Ναί. Χαράσσετε -και τελειώνει.. σε ( .toml / Dot-Toml). Π.χ 'production.toml' . Τα Μεγάλα οικοσυστήματα εχουν βέβαια 'Προ-υπάρχοντα Καρφωτά/Διασημα' Ονόματα: Όπως το (Cargo.toml Για Rust / Python.toml  / .cargo/config.toml) Κ.Ο.Κ.",
+            "q4": "Καλύψαμε Πολλά.. Ποιο το Συμπέρασμα για τον 'Developer/Μηχανικό' (JSON .. YAML.. H TOML) ??;",
+            "a4": "Ξεκαθάρισμα ρόλων: [1] Το JSON: 'Ιδιοκτησία / Και Όχημα της Απίστευτα Αποδοτικής.. - Μηχανικής Ανταλλαγής Δεδομένων ΜΗΧΑΝΩΝ/APIS (ΟΧΙ ΑΝΘΡΩΠΩΝ)' !!  ...  [2] To YAML: 'Mονο -και αποκλειστικά- Ενδείκνυται Σε Χωραφια Kubernetes / Devops Ci/CD (Επειδή απαιτούνται ΤΕΡΑΣΤΙΑ / ΜΑΖΙΚΑ Arrays/Nodes Σε Δέντρα Αποφάσεων). !! ... [3] Το TOML : 'Το Διαμάντι.. Το ΜΙΝΙΜΑΛ.. Το ΠΙΟ ΠΕΝΤΑΚΑΘΑΡΟ Και ΕΥΑΝΑΓΝΩΣΤΟ απο όλα: (ΣΧΕΔΙΑΣΜΕΝΟ ΓΙΑ - ΤΑ APPLICATION CONFIG/SETTINGS - ΓΙΑ ΤΟΝ ΑΝΘΡΩΠΑΚΟ/ΧΡΗΣΤΗ/ADMIN) !' "
+        }
+    }
+}

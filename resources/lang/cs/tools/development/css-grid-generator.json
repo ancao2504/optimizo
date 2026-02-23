@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Generátor CSS Grid Online - Vizuální Tvůrce Mřížkových Rozložení | Optimizo",
+        "description": "Vytvářejte CSS Grid rozložení vizuálně online zdarma. Nastavujte sloupce, řádky, mezery a zarovnání s živým náhledem a okamžitým exportem CSS.",
+        "h1": "Generátor CSS Grid",
+        "subtitle": "Vizuálně vytvářejte CSS Grid rozložení — nastavujte sloupce, řádky, mezery a zarovnání s živým náhledem"
+    },
+    "editor": {
+        "title": "Generátor CSS Grid",
+        "label_cols": "Počet sloupců",
+        "label_rows": "Počet řádků",
+        "label_col_template": "Šablona sloupců",
+        "label_gap": "Mezera (gap)",
+        "label_align": "align-items",
+        "label_preview": "Živý náhled",
+        "btn_copy": "Kopírovat CSS"
+    },
+    "content": {
+        "why_title": "Proč používat vizuální generátor CSS Grid?",
+        "why_desc": "CSS Grid je nejsilnější layout systém v CSS, ale syntaxe má strmou křivku učení. S naším vizuálním generátorem můžete nastavovat mřížku pomocí posuvníků a rozbalovacích nabídek a okamžitě vidět efekt každé vlastnosti.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Živý náhled mřížky",
+                "desc": "Mřížka se aktualizuje v reálném čase při nastavování sloupců, řádků, mezer a zarovnání"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Podpora fr jednotky",
+                "desc": "Šablony používají fr (zlomkovou) jednotku pro flexibilní mřížky přizpůsobující se velikosti kontejneru"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "CSS připravené k použití",
+                "desc": "Exportujte čistý blok .container CSS s grid-template-columns, rows, gap a align-items"
+            }
+        },
+        "how_title": "Vytvoření CSS Grid rozložení",
+        "how_steps": {
+            "1": {
+                "title": "Nakonfigurujte sloupce a řádky",
+                "desc": "Nastavte počet sloupců a řádků mřížky pomocí posuvníků"
+            },
+            "2": {
+                "title": "Vyberte šablonu a mezery",
+                "desc": "Vyberte šablonu sloupců (stejná, pevná+flexibilní nebo responsivní minmax) a nastavte mezery"
+            },
+            "3": {
+                "title": "Zkopírujte CSS",
+                "desc": "Klikněte 'Kopírovat CSS' pro získání kompletního CSS bloku připraveného k vložení do stylopisu"
+            }
+        },
+        "uses_title": "Případy použití CSS Grid",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Rozložení stránky",
+                "desc": "Vytvořte strukturu záhlaví/postranní panel/hlavní obsah/zápatí s pojmenovanými oblastmi mřížky"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboard",
+                "desc": "Vytvářejte komplexní rozložení dashboardu s kartami různých velikostí pomocí grid-column a grid-row span"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galerie",
+                "desc": "Vytvářejte dlaždicové nebo pravidelné galerie přizpůsobující se pomocí auto-fill a minmax"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Magazínové rozložení",
+                "desc": "Vytvářejte redakční rozložení s nerovnoměrnými sloupci a obsah trvajícím více buněk"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Preferujte fr jednotku před procenty",
+                "desc": "fr (zlomková) jednotka rozděluje dostupný prostor po pevných sloupcích bez ruční kalkulace."
+            },
+            "minmax": {
+                "title": "✓ Používejte minmax() pro responsivní mřížky",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) vytvoří responsivní mřížku automaticky přizpůsobující počet sloupců."
+            },
+            "named": {
+                "title": "✓ Používejte pojmenované oblasti mřížky",
+                "desc": "grid-template-areas s pojmenovanými buňkami dělá rozložení stránek čitelnými a snadno upravitelnými."
+            },
+            "auto": {
+                "title": "✓ Pochopte auto-fill vs. auto-fit",
+                "desc": "auto-fill vytvoří maximální počet stop (i prázdných). auto-fit sbalí prázdné stopy a rozšíří existující — obvykle optimální pro mřížky karet."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Co je fr jednotka v CSS Grid?",
+            "a1": "fr znamená 'zlomková jednotka'. 1fr představuje díl dostupného volného prostoru v kontejneru mřížky. repeat(3, 1fr) vytvoří 3 sloupce rovnoměrně sdílející dostupný prostor.",
+            "q2": "Jaký je rozdíl mezi CSS Grid a Flexbox?",
+            "a2": "Flexbox je jednorozměrný — umísťuje prvky podél jedné osy (řádek nebo sloupec). CSS Grid je dvourozměrný — může řídit řádky a sloupce současně, mnohem výkonnější pro layout stránek.",
+            "q3": "Co dělá minmax()?",
+            "a3": "minmax(min, max) specifikuje rozsah velikostí pro stopu mřížky. minmax(200px, 1fr) znamená, že sloupec je nejméně 200px široký, ale může růst pro vyplnění dostupného prostoru.",
+            "q4": "Kdy použít CSS Grid místo Flexbox?",
+            "a4": "Použijte Grid pro dvourozměrná rozložení kde řídíte řádky a sloupce současně. Použijte Flexbox pro jednorozměrná rozložení komponent jako navigační panely."
+        }
+    }
+}

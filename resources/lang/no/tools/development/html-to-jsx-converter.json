@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "HTML til JSX-konverter Nettbasert - Gratis React-verktøy | Optimizo",
+        "description": "Konverter HTML til React JSX nettbasert og gratis. Konverterer automatisk class til className, for til htmlFor, inline-stiler til JS-objekter og lukker tomme tagger.",
+        "h1": "HTML til JSX-konverter",
+        "subtitle": "Konverter HTML til React JSX øyeblikkelig — className, htmlFor, inline-stiler og self-closing-tagger"
+    },
+    "editor": {
+        "title": "HTML til JSX-konverter",
+        "label_html": "HTML-inndata",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">E-post</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "JSX-utdata",
+        "btn_copy": "Kopier JSX"
+    },
+    "content": {
+        "why_title": "Hvorfor konvertere HTML til JSX?",
+        "why_desc": "Når du migrerer eksisterende HTML-maler til React, må du manuelt konvertere class til className, for til htmlFor og inline-stiler fra strenger til JavaScript-objekter. Verktøyet automatiserer disse konverteringene øyeblikkelig og lar deg fokusere på komponentlogikk.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Attributtkonvertering",
+                "desc": "class→className, for→htmlFor, tabindex→tabIndex, maxlength→maxLength og mer"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Inline-stil-objekt",
+                "desc": "Konverterer style=\"color:red;\" til style={{color:'red'}} — Reacts JS-objektnotasjon"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Self-closing-tagger",
+                "desc": "Legger til avsluttende skråstrek til tomme elementer: <br> → <br />, <input> → <input />"
+            }
+        },
+        "how_title": "Konverter HTML til JSX i 3 trinn",
+        "how_steps": {
+            "1": {
+                "title": "Lim inn HTML",
+                "desc": "Lim inn HTML-mal, Figma-eksport eller HTML-kodesnipp i venstre panel"
+            },
+            "2": {
+                "title": "Automatisk konvertering",
+                "desc": "Konvertereren transformerer alle attributter, stiler og tomme elementer til JSX-syntaks øyeblikkelig"
+            },
+            "3": {
+                "title": "Kopier JSX",
+                "desc": "Kopier den konverterte JSX-en og lim den inn i React-komponentens render/return-blokk"
+            }
+        },
+        "uses_title": "Brukstilfeller for HTML til JSX-konverteren",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "Migrering til React",
+                "desc": "Migrer eksisterende HTML-sider eller -maler til React-komponenter uten manuell attributtkonvertering"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Bootstrap i React",
+                "desc": "Konverter Bootstrap HTML-komponenter til JSX for bruk med react-bootstrap"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "E-postmaler",
+                "desc": "Konverter HTML-e-postmaler til JSX for rendering med React Email"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "Fra CMS til React",
+                "desc": "Konverter WordPress eller tradisjonelle CMS HTML-maler til React-komponentstruktur"
+            }
+        },
+        "tips_title": "Tips for HTML til JSX-konvertering",
+        "tips": {
+            "class": {
+                "title": "✓ class → className er viktig",
+                "desc": "class er et reservert JavaScript-nøkkelord. I React må className brukes for CSS-klasser."
+            },
+            "for": {
+                "title": "✓ label for → htmlFor",
+                "desc": "Attributten for på <label> blir htmlFor i JSX. Å glemme dette bryter tilgjengelighet."
+            },
+            "events": {
+                "title": "✓ Oppdater hendelsesbehandlere etter konvertering",
+                "desc": "HTML-attributten onclick='...' konverteres ikke automatisk i JSX. Erstatt inline-hendelsesbehandlere manuelt med Reacts onClick={handler}-mønster."
+            },
+            "comments": {
+                "title": "✓ HTML-kommentarer blir JSX-kommentarer",
+                "desc": "<!-- kommentar --> konverteres til {/* kommentar */} i JSX."
+            }
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Hvorfor bruker React className i stedet for class?",
+            "a1": "class er et reservert JavaScript-nøkkelord (brukes til ES6-klasser). Siden JSX er JavaScript, skaper class en syntakskonflikt. React valgte className for å unngå tvetydighet.",
+            "q2": "Håndterer dette verktøyet React-hendelsesbehandlere?",
+            "a2": "Nei — HTML-hendelsesbehandlere onclick, onsubmit osv. konverteres ikke automatisk til Reacts onClick, onSubmit. Manuell oppdatering er nødvendig.",
+            "q3": "Hva er forskjellen mellom HTML og JSX?",
+            "a3": "JSX er en JavaScript-syntaksutvidelse som ligner HTML og kompileres til React.createElement()-kall. Viktige forskjeller: alle attributter i camelCase, class→className, for→htmlFor, tomme elementer krever self-closing, uttrykk bruker {} i stedet for strenger.",
+            "q4": "Hvorfor krever tomme elementer self-closing i JSX?",
+            "a4": "JSX parses av Babel som XML-lignende syntaks og krever korrekt lukking av alle elementer. Tomme elementer som <br>, <img>, <input> har ingen barn og krever /> self-closing."
+        }
+    }
+}

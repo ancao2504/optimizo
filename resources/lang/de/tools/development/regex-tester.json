@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Regex-Tester Online - Reguläre Ausdrücke testen | Optimizo",
+        "description": "Kostenloser Online-Regex-Tester. Testen Sie reguläre JavaScript-Ausdrücke mit Live-Übereinstimmungsmarkierung, Flag-Unterstützung und Details zu Erfassungsgruppen.",
+        "h1": "Regex-Tester",
+        "subtitle": "Testen Sie reguläre Ausdrücke live mit Übereinstimmungsmarkierung, Flags und Erfassungsgruppen-Details"
+    },
+    "editor": {
+        "title": "Regex-Tester",
+        "label_pattern": "Muster - Regulärer Ausdruck",
+        "ph_pattern": "z.B. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Flags",
+        "label_test": "Test-Zeichenkette",
+        "ph_test": "Fügen Sie den Text ein, den Sie mit Ihrem regulären Ausdruck testen möchten...",
+        "btn_test": "Testen",
+        "btn_clear": "Löschen"
+    },
+    "content": {
+        "why_title": "Warum unseren Regex-Tester verwenden?",
+        "why_desc": "Reguläre Ausdrücke (Regex) sind leistungsstarke Musterabgleich-Werkzeuge, die in fast allen Programmiersprachen eingesetzt werden. Das Debuggen von Regex kann komplex sein — ein einzelnes falsches Zeichen verändert das Suchverhalten vollständig. Unser Echtzeit-Tester hebt Übereinstimmungen bei der Eingabe hervor, zeigt Details zu Erfassungsgruppen an und unterstützt alle JavaScript-Flags, was ihn zur schnellsten Lösung zum Erstellen und Validieren Ihrer regulären Ausdrücke macht.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Echtzeit-Hervorhebung",
+                "desc": "Übereinstimmungen werden bei jedem Tastendruck sofort hervorgehoben — kein Button-Klick erforderlich"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Erfassungsgruppen-Details",
+                "desc": "Zeigen Sie alle Erfassungsgruppen, ihre Indizes und übereinstimmende Werte für jedes Ergebnis an"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Vollständige Flag-Unterstützung",
+                "desc": "Aktivieren Sie g, i, m, s, u, y Flags unabhängig und beobachten Sie deren Auswirkung"
+            }
+        },
+        "how_title": "Regex in 3 Schritten testen",
+        "how_steps": {
+            "1": {
+                "title": "Muster eingeben",
+                "desc": "Geben Sie Ihren regulären Ausdruck in das Musterfeld ein (ohne Schrägstriche)"
+            },
+            "2": {
+                "title": "Flags auswählen",
+                "desc": "Aktivieren Sie g (global), i (Groß-/Kleinschreibung ignorieren), m (mehrzeilig) und weitere Flags bei Bedarf"
+            },
+            "3": {
+                "title": "Testtext einfügen",
+                "desc": "Geben Sie den zu testenden Text ein — Übereinstimmungen werden automatisch hervorgehoben"
+            }
+        },
+        "uses_title": "Häufige Regex-Anwendungsfälle",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Formulareingabe-Validierung",
+                "desc": "Validieren Sie E-Mail-Adressen, Telefonnummern, URLs, Postleitzahlen und benutzerdefinierte Formate"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Suchen und Ersetzen",
+                "desc": "Finden und ersetzen Sie Muster in Code-Editoren, Log-Dateien und Textverarbeitungs-Pipelines"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Log-Datei-Analyse",
+                "desc": "Extrahieren Sie strukturierte Daten (IPs, Zeitstempel, Fehlercodes) aus unstrukturierten Logs"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Eingabe-Bereinigung",
+                "desc": "Entfernen oder ersetzen Sie gefährliche Zeichen in Benutzerdaten vor der Speicherung oder Anzeige"
+            }
+        },
+        "tips_title": "Regex-Best-Practices",
+        "tips": {
+            "anchor": {
+                "title": "✓ Anker für exakte Übereinstimmungen verwenden",
+                "desc": "Verwenden Sie ^ und $, um Muster am Anfang und Ende einer Zeichenkette zu verankern und unerwünschte Teilübereinstimmungen zu vermeiden"
+            },
+            "groups": {
+                "title": "✓ Nicht-erfassende Gruppen bevorzugen",
+                "desc": "Verwenden Sie (?:...) statt (...), wenn Sie die Gruppe nicht erfassen müssen — das verbessert die Leistung"
+            },
+            "escape": {
+                "title": "✓ Sonderzeichen escapen",
+                "desc": "Die Zeichen . * + ? ( ) [ ] { } | ^ $ \\ haben besondere Bedeutung — escapen Sie sie mit \\ für wörtliche Übereinstimmungen"
+            },
+            "test": {
+                "title": "✓ Grenzfälle testen",
+                "desc": "Testen Sie immer mit leeren Zeichenketten, Unicode-Zeichen, sehr langen Eingaben und Randbedingungen"
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Welchen Regex-Dialekt verwendet dieser Tester?",
+            "a1": "Dieser Tester verwendet die in JavaScript integrierte RegExp-Engine, die dem ECMAScript-Standard folgt. Er unterstützt alle JS-Funktionen: Lookaheads, Lookbehinds (ES2018+), benannte Erfassungsgruppen und Unicode-Eigenschafts-Escape-Sequenzen.",
+            "q2": "Was ist der Unterschied zwischen den Flags g und m?",
+            "a2": "Das Flag g (global) findet alle Übereinstimmungen in der Zeichenkette statt nur der ersten. Das Flag m (mehrzeilig) lässt ^ und $ dem Anfang/Ende jeder Zeile statt der gesamten Zeichenkette entsprechen. Sie dienen unterschiedlichen Zwecken und können kombiniert werden.",
+            "q3": "Wie gleiche ich einen wörtlichen Punkt oder Stern ab?",
+            "a3": "Escapen Sie sie mit einem Backslash: \\. entspricht einem wörtlichen Punkt, \\* einem wörtlichen Stern. In einer Zeichenklasse [ ] verlieren die meisten Sonderzeichen ihre Bedeutung, außer ] \\ ^ -.",
+            "q4": "Warum gleicht mein Regex zu viel Text ab?",
+            "a4": "Sie verwenden wahrscheinlich gierige Quantoren. Die Quantoren * und + sind standardmäßig gierig und gleichen so viel Text wie möglich ab. Fügen Sie ? hinzu, um sie faul zu machen: *? oder +? gleichen so wenig wie möglich ab."
+        }
+    }
+}

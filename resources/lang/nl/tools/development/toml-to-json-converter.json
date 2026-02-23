@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "TOML naar JSON Converter Online - Gratis tool | Optimizo",
+        "description": "Converteer TOML-configuratiebestanden naar JSON online gratis. Volledige ondersteuning voor TOML-tabellen, arrays, inline tabellen en alle gegevenstypen.",
+        "h1": "TOML naar JSON Converter",
+        "subtitle": "Converteer TOML-configuratiebestanden naar JSON — ondersteunt tabellen, array van tabellen en alle TOML-gegevenstypen"
+    },
+    "editor": {
+        "title": "TOML naar JSON Converter",
+        "label_toml": "TOML-invoer",
+        "ph_toml": "# TOML-voorbeeld\ntitel = \"Mijn App\"\n\n[database]\nserver = \"192.168.1.1\"\npoort = 5432",
+        "label_json": "JSON-uitvoer",
+        "btn_copy": "JSON kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom converteren tussen TOML en JSON?",
+        "why_desc": "TOML is ontworpen voor door mensen leesbare configuratiebestanden (Rust's Cargo.toml, Python's pyproject.toml, Hugo's config.toml), terwijl JSON de standaard is voor web-API's en JavaScript-tools. Wanneer je TOML-configuratie naar een JSON-API moet verzenden, JavaScript-tools moet integreren of gegevens tussen verschillende ecosystemen moet delen, overbrugt dit hulpmiddel de kloof direct.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Volledige typeconversie",
+                "desc": "TOML-strings, integers, floats, booleans en datetimes worden allemaal correct geconverteerd naar hun JSON-equivalenten"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Tabellen en array van tabellen",
+                "desc": "Verwerkt correct [tabel]-, [[array van tabellen]]- en inline-tabelsyntaxis {sleutel = val}"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Geformatteerde JSON-uitvoer",
+                "desc": "De uitvoer wordt weergegeven met inspringing voor leesbaarheid — geen samengeperste JSON op één regel"
+            }
+        },
+        "how_title": "TOML naar JSON converteren",
+        "how_steps": {
+            "1": {
+                "title": "Plak de TOML-configuratie",
+                "desc": "Plak de inhoud van je Cargo.toml, pyproject.toml of een ander TOML-configuratiebestand"
+            },
+            "2": {
+                "title": "Automatische conversie",
+                "desc": "Het hulpmiddel parseert en converteert de TOML-structuur naar gelijkwaardige JSON direct"
+            },
+            "3": {
+                "title": "JSON kopiëren",
+                "desc": "Kopieer de gegenereerde JSON voor gebruik in API-aanroepen of andere tools die JSON accepteren"
+            }
+        },
+        "uses_title": "Gebruiksscenario's voor TOML naar JSON",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.toml analyseren",
+                "desc": "Converteer Cargo.toml naar JSON voor CI-scripts die afhankelijkheden analyseren of versieinformatie extraheren"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Hugo-configuratie",
+                "desc": "Converteer Hugo's config.toml naar JSON voor integratie met andere tools of gegevensbronnen"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Gegevens naar API's sturen",
+                "desc": "Converteer TOML-geselecteerde parameters naar JSON om ze naar REST API- of GraphQL-endpoints te verzenden"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Formaatleren",
+                "desc": "Begrijp de TOML→JSON-structuurovereenkomst om te leren hoe de twee formaten zich verhouden"
+            }
+        },
+        "tips_title": "TOML best practices",
+        "tips": {
+            "tables": {
+                "title": "✓ Gebruik puntnotatie voor geneste tabellen",
+                "desc": "TOML ondersteunt [server.database] als snelkoppeling voor geneste tabellen, waardoor configuraties leesbaarder zijn dan JSON-geneste sleutels."
+            },
+            "strings": {
+                "title": "✓ Gebruik letterlijke strings voor paden",
+                "desc": "Letterlijke strings met enkele aanhalingstekens zoals 'C:\\Gebruikers\\pad' verwerken geen escape-reeksen — ideaal voor Windows-paden en regex-patronen."
+            },
+            "comments": {
+                "title": "✓ Gebruik opmerkingen royaal",
+                "desc": "Het grootste voordeel van TOML ten opzichte van JSON is ondersteuning voor opmerkingen. Documenteer elke configuratieoptie met # opmerkingen voor onderhoudbaarheid."
+            },
+            "datetime": {
+                "title": "✓ Wees bewust van DateTime-typeconversie",
+                "desc": "TOML's native RFC 3339 datetimes (2024-01-15T10:30:00Z) worden strings in JSON. Code die de JSON gebruikt, moet ze opnieuw als datumobjecten parsen."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Welke voordelen heeft TOML ten opzichte van YAML en JSON?",
+            "a1": "TOML is eenvoudiger dan YAML (geen op inspringing gebaseerde structuur), leesbaarder dan JSON (ondersteunt opmerkingen) en heeft expliciete typen (integers, floats, datetimes zijn afzonderlijk). Het is de beste keuze voor applicatieconfiguraties waarbij menselijke leesbaarheid belangrijk is.",
+            "q2": "Wat is [[array van tabellen]] in TOML?",
+            "a2": "[[servers]] definieert een array van objecten met de naam 'servers'. Elk voorkomen van [[servers]] maakt een nieuw object in de array. Sleutels daarna behoren tot dat object. Equivalent aan JSON {\"servers\": [{...}, {...}]}.",
+            "q3": "Welke belangrijke tools gebruiken TOML?",
+            "a3": "Rust (Cargo.toml), modern Python-packaging (pyproject.toml met pip/poetry), Hugo static site generator, Gitea, Lighthouse CI en veel Go-tools gebruiken TOML. De adoptie groeit in het DevOps-ecosysteem.",
+            "q4": "Worden TOML-opmerkingen bewaard in de JSON-uitvoer?",
+            "a4": "Nee. JSON heeft geen opmerkingssyntaxis, dus TOML's # opmerkingen kunnen niet worden weergegeven in de JSON-uitvoer. Als opmerkingen belangrijke beslissingen documenteren, bewaar ze dan in een aparte README of gebruik _comment-sleutels in JSON."
+        }
+    }
+}

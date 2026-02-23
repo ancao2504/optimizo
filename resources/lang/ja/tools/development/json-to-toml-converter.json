@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSONからTOMLへの変換 オンライン - 無料ツール | Optimizo",
+        "description": "JSONをTOML形式にオンラインで無料変換。テーブルセクションを自動生成し、ネストされたオブジェクトを処理し、クリーンで読みやすいTOMLを生成。",
+        "h1": "JSONからTOMLへのコンバーター",
+        "subtitle": "JSON設定データをより読みやすいTOML形式に変換 — テーブルとセクションの自動生成"
+    },
+    "editor": {
+        "title": "JSONからTOMLへのコンバーター",
+        "label_json": "JSON入力",
+        "ph_json": "{\n  \"title\": \"マイアプリ\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "TOML出力",
+        "btn_copy": "TOMLをコピー"
+    },
+    "content": {
+        "why_title": "なぜJSON設定ファイルをTOMLに変換するのか？",
+        "why_desc": "JSONは設定ファイル用に設計されていません — コメントがなく、ネストされたデータに冗長な構文があり、追加のエスケープが必要です。TOMLは[セクション]ヘッダー、#コメント、よりクリーンなキー-値構文で同じデータをより読みやすくします。config.jsonをconfig.tomlに変換することでプロジェクト設定の保守性と自己文書化が改善されます。",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "セクションの自動生成",
+                "desc": "ネストされたJSONオブジェクトがTOMLテーブルパス[section.subsection]に自動変換"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "型の保存",
+                "desc": "JSONの数値、ブール値、文字列がデータロスなしに正しくTOMLの同等物にマップされる"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "クリーンな設定",
+                "desc": "TOML形式の同じデータは通常20〜40%短くなりJSONよりはるかに読みやすい"
+            }
+        },
+        "how_title": "3ステップでJSONをTOMLに変換する方法",
+        "how_steps": {
+            "1": {
+                "title": "JSON設定を貼り付け",
+                "desc": "既存のJSON設定ファイルをコピーして左パネルに貼り付け"
+            },
+            "2": {
+                "title": "TOML出力を確認",
+                "desc": "右パネルに同等のTOMLが表示 — 構造が期待通りか確認"
+            },
+            "3": {
+                "title": "コメントを追加して保存",
+                "desc": "TOMLをコピーして各セクションを文書化する#コメントを追加し、新しい設定ファイルとして保存"
+            }
+        },
+        "uses_title": "JSONからTOMLへの変換のユースケース",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.tomlの作成",
+                "desc": "Rustプロジェクトの設定を高速化するためにpackage.jsonからCargo.toml形式に情報を変換"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "pyproject.tomlへの移行",
+                "desc": "setup.cfgやsetup.pyをモダンなPythonパッケージング標準pyproject.tomlに変換"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "設定ファイルの更新",
+                "desc": "config.jsonをconfig.tomlに移行して各オプションを#コメントで文書化"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "ツール間での設定共有",
+                "desc": "必要に応じてJSONとTOMLエコシステム間で同じ設定データを変換して共有"
+            }
+        },
+        "tips_title": "JSONからTOMLへの変換のヒント",
+        "tips": {
+            "arrays": {
+                "title": "✓ オブジェクト配列を注意深くチェック",
+                "desc": "JSONオブジェクトの配列([{name:\"a\"},{name:\"b\"}])はTOMLの[[テーブル配列]]構文を使用します。出力で正しく変換されているか確認してください。"
+            },
+            "null": {
+                "title": "✓ TOMLにはnullがない",
+                "desc": "JSONのnullはTOMLに直接同等物がありません。ヌル値は変換時に通常省略されるか空文字列に置き換えられます。これらのケースを手動で処理してください。"
+            },
+            "keys": {
+                "title": "✓ 特殊文字を含むキーを引用符で囲む",
+                "desc": "ハイフンやスペースを含むTOMLキーは引用符が必要です：\"content-type\" = \"json\"。この問題を避けるためにJSONキーにはアンダースコアを使用してください。"
+            },
+            "test": {
+                "title": "✓ アプリのTOMLパーサーでテスト",
+                "desc": "異なるTOMLパーサー（toml-rs、tomllib、@iarna/toml）はエッジケースを異なる方法で処理する場合があります。変換されたTOMLを常に実際のランタイム環境でテストしてください。"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "すべてのJSONデータ型をTOMLに変換できますか？",
+            "a1": "ほとんどの型はクリーンに変換されます：文字列、数値、ブール値、配列、オブジェクトにはTOMLの直接同等物があります。JSONのnullはTOMLに同等物がなく通常省略されます。深くネストされたオブジェクト配列は手動調整が必要な場合があります。",
+            "q2": "TOMLは設定ファイルでJSONを完全に置き換えられますか？",
+            "a2": "静的な設定ファイルについてはできます。設定を読むコードはJSON.parse()からTOMLパーサー（Rustではtoml crate、PythonではtomllibなどCargo）に変更する必要があります。TOMLはAPIやデータ交換のJSONを置き換えることはできません。",
+            "q3": "TOMLはどのファイル拡張子を使用しますか？",
+            "a3": "TOMLファイルは.toml拡張子を使用します。一般的な例：Cargo.toml(Rust)、pyproject.toml(Python)、config.toml(Hugo)、.cargo/config.toml(Cargoの設定)。",
+            "q4": "JSON、YAML、TOMLの設定での使い分けは？",
+            "a4": "JSONはAPIのデータ交換（ユニバーサルサポート、コメント不要）に使用。YAMLはDevOps設定（Kubernetes、CI/CDなど）に使用。TOMLはアプリケーション設定（シンプルな構文、明示的な型、手動編集に最適）に使用してください。"
+        }
+    }
+}

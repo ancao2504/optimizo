@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "API Request Builder - Free Online HTTP Client | Optimizo",
+        "description": "Build and send HTTP API requests online for free. Supports GET, POST, PUT, PATCH, DELETE with custom headers, request body, and query parameters.",
+        "h1": "API Request Builder",
+        "subtitle": "Build, send, and inspect HTTP API requests — a lightweight browser-based HTTP client"
+    },
+    "editor": {
+        "title": "API Request Builder",
+        "btn_send": "Send Request",
+        "tab_headers": "Headers",
+        "tab_body": "Body",
+        "tab_params": "Params",
+        "btn_add_header": "Add Header",
+        "btn_add_param": "Add Param",
+        "label_response": "Response",
+        "btn_copy_response": "Copy Response"
+    },
+    "content": {
+        "why_title": "Why Use an API Request Builder?",
+        "why_desc": "Testing REST APIs typically requires installing Postman, Insomnia, or writing curl commands. Our browser-based API Request Builder requires zero installation — just open it and start sending requests. It supports all HTTP methods, custom headers, JSON bodies, and query parameters, making it perfect for quick API testing, exploring public APIs, and debugging integrations.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "All HTTP Methods",
+                "desc": "Supports GET, POST, PUT, PATCH, DELETE with custom headers and JSON/form body"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Formatted Response",
+                "desc": "Response body is automatically pretty-printed, with status code, HTTP status text, and response time"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Zero Setup",
+                "desc": "No installation required — works entirely in your browser with no accounts or plugins needed"
+            }
+        },
+        "how_title": "How to Send an API Request",
+        "how_steps": {
+            "1": {
+                "title": "Enter URL & Method",
+                "desc": "Type the API endpoint URL and select the HTTP method (GET, POST, etc.)"
+            },
+            "2": {
+                "title": "Add Headers & Body",
+                "desc": "Switch to the Headers tab to add Authorization, Content-Type, and other headers. Use Body for POST/PUT data."
+            },
+            "3": {
+                "title": "Send & Inspect",
+                "desc": "Click Send to make the request. The response body, status code, and timing appear below."
+            }
+        },
+        "uses_title": "API Request Builder Use Cases",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "API Debugging",
+                "desc": "Test individual API endpoints with custom headers and body to debug authentication and data issues"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Auth Token Testing",
+                "desc": "Test Bearer token, Basic Auth, and API key authentication schemes without writing code"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "API Exploration",
+                "desc": "Explore public APIs (GitHub, OpenWeather, JSONPlaceholder) and understand their responses"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Bug Reproduction",
+                "desc": "Reproduce and document API bugs with exact request/response details for filing bug reports"
+            }
+        },
+        "tips_title": "API Testing Best Practices",
+        "tips": {
+            "headers": {
+                "title": "✓ Always Set Content-Type",
+                "desc": "When sending a JSON body, always include Content-Type: application/json. Without it, many APIs will reject or misinterpret your request."
+            },
+            "cors": {
+                "title": "✓ Understand CORS Limitations",
+                "desc": "Browsers block cross-origin requests without proper CORS headers. If a request fails in the browser, try curl or a server-side proxy instead."
+            },
+            "auth": {
+                "title": "✓ Never Hardcode API Keys",
+                "desc": "Use environment variables in production code. The request builder is for testing only — don't share screenshots containing live API keys."
+            },
+            "status": {
+                "title": "✓ Check HTTP Status Codes",
+                "desc": "200=OK, 201=Created, 400=Bad Request, 401=Unauthorized, 403=Forbidden, 404=Not Found, 500=Server Error. Always check the status code first."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Why does my cross-origin request fail?",
+            "a1": "Browsers enforce CORS (Cross-Origin Resource Sharing) restrictions. If the target API doesn't include Access-Control-Allow-Origin headers, the browser blocks the request. This is not a bug — use curl or a backend proxy for APIs without CORS support.",
+            "q2": "Can I send multipart/form-data requests?",
+            "a2": "The current builder supports JSON and plain text bodies. For multipart form data (file uploads), use the browser's native form submission or a dedicated tool like Postman.",
+            "q3": "Is this a replacement for Postman?",
+            "a3": "For quick tests and exploration — yes. For team collaboration, saved collections, environments, and automated testing, Postman or Bruno offer more features. This tool excels at instant zero-setup API testing.",
+            "q4": "What is the difference between PUT and PATCH?",
+            "a4": "PUT replaces the entire resource with the request body. PATCH applies a partial update — only the fields included in the body are changed. Most REST APIs use PATCH for updates to avoid overwriting unchanged fields."
+        }
+    }
+}

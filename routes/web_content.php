@@ -65,6 +65,23 @@ use App\Http\Controllers\Tools\Development\XmlFormatterController;
 use App\Http\Controllers\Tools\Development\XmlToCsvController;
 use App\Http\Controllers\Tools\Development\XmlToJsonController;
 use App\Http\Controllers\Tools\Development\YamlToJsonController;
+use App\Http\Controllers\Tools\Development\RegexTesterController;
+use App\Http\Controllers\Tools\Development\JsonValidatorController;
+use App\Http\Controllers\Tools\Development\CssGradientGeneratorController;
+use App\Http\Controllers\Tools\Development\SqlFormatterController;
+use App\Http\Controllers\Tools\Development\YamlFormatterController;
+use App\Http\Controllers\Tools\Development\HtmlToJsxConverterController;
+use App\Http\Controllers\Tools\Development\CsvToYamlConverterController;
+use App\Http\Controllers\Tools\Development\TomlToJsonConverterController;
+use App\Http\Controllers\Tools\Development\JsonToTomlConverterController;
+use App\Http\Controllers\Tools\Development\DiffViewerController;
+use App\Http\Controllers\Tools\Development\ChmodCalculatorController;
+use App\Http\Controllers\Tools\Development\ApiRequestBuilderController;
+use App\Http\Controllers\Tools\Development\ColorPaletteGeneratorController;
+use App\Http\Controllers\Tools\Development\SvgOptimizerController;
+use App\Http\Controllers\Tools\Development\JavascriptObfuscatorController;
+use App\Http\Controllers\Tools\Development\CssFlexboxGeneratorController;
+use App\Http\Controllers\Tools\Development\CssGridGeneratorController;
 use App\Http\Controllers\Tools\Document\ExcelToPdfController;
 use App\Http\Controllers\Tools\Document\JpgToPdfController;
 use App\Http\Controllers\Tools\Document\PdfCompressorController;
@@ -531,6 +548,25 @@ Route::prefix('tools')->group(function () use ($n) {
     // htpasswd Generator
     Route::get('htpasswd-generator', [HtpasswdGeneratorController::class, 'index'])->name($n('development.htpasswd-generator'));
     Route::post('htpasswd-generator', [HtpasswdGeneratorController::class, 'process'])->name($n('development.htpasswd-generator.generate'));
+
+    // New Development Tools
+    Route::get('regex-tester', [RegexTesterController::class, 'index'])->name($n('development.regex-tester'));
+    Route::get('json-validator', [JsonValidatorController::class, 'index'])->name($n('development.json-validator'));
+    Route::get('css-gradient-generator', [CssGradientGeneratorController::class, 'index'])->name($n('development.css-gradient-generator'));
+    Route::get('sql-formatter', [SqlFormatterController::class, 'index'])->name($n('development.sql-formatter'));
+    Route::get('yaml-formatter', [YamlFormatterController::class, 'index'])->name($n('development.yaml-formatter'));
+    Route::get('html-to-jsx-converter', [HtmlToJsxConverterController::class, 'index'])->name($n('development.html-to-jsx-converter'));
+    Route::get('csv-to-yaml-converter', [CsvToYamlConverterController::class, 'index'])->name($n('development.csv-to-yaml-converter'));
+    Route::get('toml-to-json-converter', [TomlToJsonConverterController::class, 'index'])->name($n('development.toml-to-json-converter'));
+    Route::get('json-to-toml-converter', [JsonToTomlConverterController::class, 'index'])->name($n('development.json-to-toml-converter'));
+    Route::get('diff-viewer', [DiffViewerController::class, 'index'])->name($n('development.diff-viewer'));
+    Route::get('chmod-calculator', [ChmodCalculatorController::class, 'index'])->name($n('development.chmod-calculator'));
+    Route::get('api-request-builder', [ApiRequestBuilderController::class, 'index'])->name($n('development.api-request-builder'));
+    Route::get('color-palette-generator', [ColorPaletteGeneratorController::class, 'index'])->name($n('development.color-palette-generator'));
+    Route::get('svg-optimizer', [SvgOptimizerController::class, 'index'])->name($n('development.svg-optimizer'));
+    Route::get('javascript-obfuscator', [JavascriptObfuscatorController::class, 'index'])->name($n('development.javascript-obfuscator'));
+    Route::get('css-flexbox-generator', [CssFlexboxGeneratorController::class, 'index'])->name($n('development.css-flexbox-generator'));
+    Route::get('css-grid-generator', [CssGridGeneratorController::class, 'index'])->name($n('development.css-grid-generator'));
 });
 
 // Converters Tools

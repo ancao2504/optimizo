@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Obfuscateur JavaScript en ligne - Protecteur de code JS gratuit | Optimizo",
+        "description": "Obfusquez votre code JavaScript en ligne gratuitement. Renommez les variables, encodez les chaînes et minifiez le JS pour rendre votre code source plus difficile à lire.",
+        "h1": "Obfuscateur JavaScript",
+        "subtitle": "Protégez votre code JavaScript en renommant les variables, encodant les chaînes et minifiant — entièrement dans votre navigateur"
+    },
+    "editor": {
+        "title": "Obfuscateur JavaScript",
+        "label_input": "JavaScript en entrée",
+        "ph_input": "function saluer(nom) {\n  return 'Bonjour, ' + nom + ' !';\n}",
+        "opt_rename": "Renommer les variables",
+        "opt_strings": "Encoder les chaînes",
+        "opt_minify": "Minifier le code",
+        "disclaimer": "⚠️ L'obfuscation rend le code plus difficile à lire mais n'est pas du chiffrement. Des développeurs déterminés peuvent toujours rétro-ingénierer le code obfusqué. Ne vous fiez jamais uniquement à l'obfuscation pour sécuriser des données sensibles.",
+        "btn_obfuscate": "Obfusquer le JavaScript",
+        "label_output": "Résultat obfusqué",
+        "btn_copy": "Copier le JS"
+    },
+    "content": {
+        "why_title": "Pourquoi obfusquer le code JavaScript ?",
+        "why_desc": "JavaScript s'exécute dans le navigateur où le code source est toujours visible via les DevTools. L'obfuscation ne rend pas le code inviolable, mais elle élève suffisamment la barrière pour décourager les copies non autorisées, ralentir la rétro-ingénierie et protéger la logique métier propriétaire, les algorithmes de tarification et les mécanismes de licence. C'est une couche de protection courante pour les bibliothèques JS commerciales, les jeux et les applications SaaS.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Renommage des variables",
+                "desc": "Renomme toutes les variables, fonctions et paramètres en identifiants hexadécimaux illisibles comme _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Encodage des chaînes",
+                "desc": "Encode tous les littéraux de chaîne en séquences d'échappement hexadécimales fonctionnellement identiques mais illisibles"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minification du code",
+                "desc": "Supprime les commentaires et normalise les espaces blancs pour réduire la taille du fichier en plus de l'obfuscation"
+            }
+        },
+        "how_title": "Comment obfusquer du JavaScript en 3 étapes",
+        "how_steps": {
+            "1": {
+                "title": "Collez le JavaScript",
+                "desc": "Copiez votre code JavaScript et collez-le dans la zone de saisie"
+            },
+            "2": {
+                "title": "Sélectionnez les options",
+                "desc": "Choisissez les techniques d'obfuscation à appliquer — les trois ensemble offrent une protection maximale"
+            },
+            "3": {
+                "title": "Copiez et remplacez",
+                "desc": "Copiez le contenu obfusqué et remplacez votre fichier JS d'origine pour le déploiement"
+            }
+        },
+        "uses_title": "Cas d'utilisation de l'obfuscation JavaScript",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Bibliothèques commerciales",
+                "desc": "Protégez les algorithmes propriétaires dans des bibliothèques JavaScript payantes distribuées aux clients"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Jeux navigateur",
+                "desc": "Empêchez la triche en obfusquant la logique de jeu, la validation des scores et le code anti-triche"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "Widgets SaaS",
+                "desc": "Protégez les widgets JavaScript intégrés distribués aux sites web des clients"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Compétitions et hackathons",
+                "desc": "Protégez les algorithmes et approches uniques dans les soumissions aux compétitions"
+            }
+        },
+        "tips_title": "Bonnes pratiques d'obfuscation",
+        "tips": {
+            "testing": {
+                "title": "✓ Testez après obfuscation",
+                "desc": "Testez toujours le code obfusqué dans votre navigateur cible — certains patterns comme eval() peuvent se casser dans les environnements en mode strict."
+            },
+            "source": {
+                "title": "✓ Conservez le code source original",
+                "desc": "L'obfuscation est à sens unique. Conservez toujours le code source original et lisible dans un dépôt de contrôle de version sécurisé."
+            },
+            "server": {
+                "title": "✓ Déplacez la logique sensible côté serveur",
+                "desc": "L'obfuscation n'est pas une garantie de sécurité. Pour les opérations véritablement sensibles (paiements, authentification), implémentez la logique côté serveur — pas côté client."
+            },
+            "profiler": {
+                "title": "✓ Vérifiez l'impact sur les performances",
+                "desc": "L'encodage intensif des chaînes peut légèrement ralentir l'analyse JavaScript. Profilez le code obfusqué dans les DevTools Chrome avant de le mettre en production."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Le JavaScript obfusqué peut-il être entièrement désobfusqué ?",
+            "a1": "Oui, avec suffisamment d'efforts. Des outils comme de4js, webcrack et les DevTools du navigateur peuvent partiellement inverser l'obfuscation. L'objectif est de rendre l'effort suffisamment coûteux pour décourager les concurrents occasionnels — pas d'atteindre une protection inviolable.",
+            "q2": "L'obfuscation peut-elle casser mon JavaScript ?",
+            "a2": "Correctement appliquée, l'obfuscation doit produire un code fonctionnellement identique. Cependant, une minification qui supprime les commentaires peut casser certains patterns de méta-programmation, et un renommage agressif peut entrer en conflit avec des frameworks qui s'appuient sur les noms de fonctions. Testez toujours minutieusement.",
+            "q3": "Google pénalise-t-il le JavaScript obfusqué pour le référencement ?",
+            "a3": "Google peut indexer et exécuter le JavaScript des pages même obfusqué. Tant que le contenu HTML rendu est le même, il n'y a aucune pénalité SEO. Évitez d'obfusquer les données structurées (JSON-LD) car cela peut affecter les résultats enrichis.",
+            "q4": "Quelle est la différence entre minification et obfuscation ?",
+            "a4": "La minification supprime les espaces blancs, les commentaires et raccourcit les noms de variables pour réduire la taille du fichier — le code reste lisible une fois reformaté. L'obfuscation vise spécifiquement à rendre le code illisible en utilisant des noms de variables déroutants, l'encodage des chaînes et d'autres techniques."
+        }
+    }
+}

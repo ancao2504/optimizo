@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "CSS Farbverlauf Generator Online - Kostenloser Gradient Creator | Optimizo",
+        "description": "CSS-Farbverläufe online kostenlos erstellen. Lineare, radiale und konische Verläufe mit mehreren Farbstops, Winkelkontrolle und sofortigem CSS-Export.",
+        "h1": "CSS Farbverlauf Generator",
+        "subtitle": "Schöne lineare, radiale und konische Farbverläufe mit Live-Vorschau und CSS-Export erstellen"
+    },
+    "editor": {
+        "title": "CSS Farbverlauf Generator",
+        "label_type": "Verlaufstyp",
+        "label_angle": "Winkel",
+        "label_stops": "Farbstops",
+        "btn_add_stop": "Stop hinzufügen",
+        "btn_copy": "CSS kopieren"
+    },
+    "content": {
+        "why_title": "Warum einen visuellen Farbverlauf Generator verwenden?",
+        "why_desc": "CSS-Verläufe manuell zu schreiben ist mühsam — die Syntax von linear-gradient(), radial-gradient() und conic-gradient() mit mehreren Farbstops und Positionen zu merken ist fehleranfällig. Unser visueller Generator ermöglicht Farbstop-Verwaltung mit Farbwählern und Position-Schiebereglern, mit Live-Vorschau die sofort aktualisiert, was die Verlaufserstellung schnell und intuitiv macht.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 Verlaufstypen",
+                "desc": "Lineare, radiale und konische Verläufe alle mit typspezifischen Steuerelementen unterstützt"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Mehrfarbige Verläufe",
+                "desc": "Unbegrenzt viele Farbstops hinzufügen und ihre Positionen verschieben für komplexe mehrfarbige Verläufe"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Live-Vorschau",
+                "desc": "Verlauf wird in Echtzeit gerendert während Sie Farben, Positionen und Winkel anpassen"
+            }
+        },
+        "how_title": "CSS Farbverlauf erstellen",
+        "how_steps": {
+            "1": {
+                "title": "Verlaufstyp wählen",
+                "desc": "Linearen, radialen oder konischen Verlauf wählen und Winkel oder Richtung festlegen"
+            },
+            "2": {
+                "title": "Farbstops konfigurieren",
+                "desc": "Farbwähler für jeden Stop-Ton verwenden und Schieberegler zum Positionieren"
+            },
+            "3": {
+                "title": "CSS kopieren",
+                "desc": "'CSS kopieren' für die vollständige background-Eigenschaft für Ihr Stylesheet klicken"
+            }
+        },
+        "uses_title": "CSS Verlaufs-Anwendungsfälle",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Hero-Hintergründe",
+                "desc": "Atemberaubende ganzseitige Hintergründe mit diagonalen oder radialen Verläufen erstellen"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Verlaufs-Text",
+                "desc": "Verläufe auf Text mit background-clip: text für auffällige typografische Effekte anwenden"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Verlaufs-Rahmen",
+                "desc": "border-image mit Verläufen für farbige Rahmen auf Elementen verwenden"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Bild-Überlagerungen",
+                "desc": "Verläufe über Bilder legen für dunkle Überlagerungen die Textlesbarkeit ermöglichen"
+            }
+        },
+        "tips_title": "CSS Verlaufs-Best-Practices",
+        "tips": {
+            "angle": {
+                "title": "✓ 135deg für diagonale Verläufe verwenden",
+                "desc": "Ein Winkel von 135 Grad erzeugt eine klassische Diagonale von oben-links nach unten-rechts die natürlich und dynamisch wirkt — eine beliebte Wahl für Hero-Bereiche."
+            },
+            "subtle": {
+                "title": "✓ Verläufe subtil für UI halten",
+                "desc": "Für UI-Elemente (Buttons, Karten) sehr subtile Verläufe der gleichen Farbe mit 10-20% Helligkeitsunterschied verwenden für Tiefe ohne visuelles Rauschen."
+            },
+            "fallback": {
+                "title": "✓ Fallback-Farbe bereitstellen",
+                "desc": "Eine Volltonfarbe vor dem Verlauf als Fallback hinzufügen: background-color: #6366f1; background: linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Verlaufsposition animieren",
+                "desc": "CSS-Verläufe können nicht direkt animiert werden, aber background-position auf einem größeren Verlauf kann für einen fließenden Effekt animiert werden."
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Was ist der Unterschied zwischen linearen, radialen und konischen Verläufen?",
+            "a1": "Lineare Verläufe verlaufen entlang einer geraden Linie in einem Winkel. Radiale Verläufe strahlen von einem Mittelpunkt nach außen in Kreisen oder Ellipsen. Konische Verläufe rotieren um einen Mittelpunkt wie ein Tortendiagramm — ideal für Fortschrittsringe und Farbräder.",
+            "q2": "Wie erstellt man einen transparenten Verlauf?",
+            "a2": "transparent als Farbstop verwenden: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Damit entsteht ein Verlauf von halbtransparenter Farbe zu vollständig transparent — perfekt für Bild-Überlagerungen.",
+            "q3": "Warum hat mein Verlauf Banding oder Streifen?",
+            "a3": "Banding (sichtbare Streifen zwischen Farben) erscheint bei minderwertigen Displays oder Übergängen über ähnliche Farbtöne. Einen Zwischenfarbstop in einem komplementären Farbton hinzufügen um den Übergang zu glätten.",
+            "q4": "Kann man Verläufe als Rahmen verwenden?",
+            "a4": "Ja, border-image: linear-gradient(...) 1 verwenden. Das setzt den Verlauf als Rahmenbild. Alternativ ein ::before Pseudo-Element mit Verlaufs-Hintergrund und negativem z-index für simulierte Verlaufsrahmen verwenden."
+        }
+    }
+}

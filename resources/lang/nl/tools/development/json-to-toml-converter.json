@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON naar TOML Converter Online - Gratis tool | Optimizo",
+        "description": "Converteer JSON naar TOML-formaat online gratis. Genereert automatisch TOML-tabelsecties, verwerkt geneste objecten en produceert schone leesbare TOML.",
+        "h1": "JSON naar TOML Converter",
+        "subtitle": "Converteer JSON-configuratiegegevens naar het meer leesbare TOML-formaat — automatische tabel- en sectiegeneratie"
+    },
+    "editor": {
+        "title": "JSON naar TOML Converter",
+        "label_json": "JSON-invoer",
+        "ph_json": "{\n  \"titel\": \"Mijn App\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"poort\": 5432\n  }\n}",
+        "label_toml": "TOML-uitvoer",
+        "btn_copy": "TOML kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom JSON-configuratiebestanden naar TOML converteren?",
+        "why_desc": "JSON is niet ontworpen voor configuratiebestanden — het mist opmerkingen, heeft uitgebreide syntaxis voor geneste gegevens en vereist extra escaping. TOML maakt dezelfde gegevens leesbaarder met [sectie] kopteksten, # opmerkingen en schonere sleutel-waarde syntaxis. Je config.json naar config.toml converteren verbetert de onderhoudbaarheid, zelfdocumentatie en samenwerking voor elke projectconfiguratie.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Automatische sectiegeneratie",
+                "desc": "Geneste JSON-objecten worden automatisch geconverteerd naar TOML-tabelpaden [sectie.subsectie]"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Typebehoud",
+                "desc": "JSON-nummers, booleans en strings worden correct toegewezen aan hun TOML-equivalenten zonder gegevensverlies"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Schonere configuratie",
+                "desc": "Dezelfde gegevens uitgedrukt in TOML zijn doorgaans 20-40% korter en veel leesbaarder dan in JSON"
+            }
+        },
+        "how_title": "JSON naar TOML converteren",
+        "how_steps": {
+            "1": {
+                "title": "Plak de JSON-configuratie",
+                "desc": "Kopieer je bestaande JSON-configuratiebestand en plak het in het linker paneel"
+            },
+            "2": {
+                "title": "Bekijk de TOML-uitvoer",
+                "desc": "Het rechter paneel toont de equivalente TOML — controleer of de structuur overeenkomt met je verwachtingen"
+            },
+            "3": {
+                "title": "Voeg opmerkingen toe en sla op",
+                "desc": "Kopieer de TOML, voeg # opmerkingen toe om elke sectie te documenteren en sla het op als nieuw configuratiebestand"
+            }
+        },
+        "uses_title": "Gebruiksscenario's voor JSON naar TOML",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.toml maken",
+                "desc": "Converteer package.json-projectinformatie naar Cargo.toml-formaat om Rust-projectconfiguratie te versnellen"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Migreren naar pyproject.toml",
+                "desc": "Converteer setup.cfg of setup.py naar de moderne Python-packagingstandaard pyproject.toml"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Configuratiebestanden bijwerken",
+                "desc": "Migreer config.json naar config.toml en voeg # opmerkingen toe om elke optie te documenteren"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Configuratie delen tussen tools",
+                "desc": "Deel dezelfde configuratiegegevens tussen JSON- en TOML-ecosystemen door indien nodig te converteren"
+            }
+        },
+        "tips_title": "Tips voor JSON naar TOML conversie",
+        "tips": {
+            "arrays": {
+                "title": "✓ Controleer arrays van objecten zorgvuldig",
+                "desc": "JSON-arrays van objecten ([{naam:\"a\"},{naam:\"b\"}]) gebruiken de TOML [[array-van-tabellen]] syntaxis. Controleer of ze correct worden geconverteerd in de uitvoer."
+            },
+            "null": {
+                "title": "✓ TOML heeft geen null-waarde",
+                "desc": "JSON's null heeft geen directe equivalent in TOML. Nulls worden gewoonlijk weggelaten of vervangen door lege strings tijdens conversie. Behandel deze gevallen handmatig."
+            },
+            "keys": {
+                "title": "✓ Citeer sleutels met speciale tekens",
+                "desc": "TOML-sleutels met koppeltekens of spaties moeten worden aangehaald: \"content-type\" = \"json\". Gebruik underscores in JSON-sleutels om dit probleem te vermijden."
+            },
+            "test": {
+                "title": "✓ Test met de TOML-parser van je applicatie",
+                "desc": "Verschillende TOML-parsers (toml-rs, tomllib, @iarna/toml) kunnen randgevallen anders verwerken. Test de geconverteerde TOML altijd in je werkelijke runtime-omgeving."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Kunnen alle JSON-gegevenstypen naar TOML worden geconverteerd?",
+            "a1": "De meeste typen converteren schoon: strings, nummers, booleans, arrays en objecten hebben directe TOML-equivalenten. JSON's null heeft geen TOML-equivalent en wordt doorgaans weggelaten. Diep geneste arrays van objecten kunnen handmatige aanpassing vereisen.",
+            "q2": "Kan TOML volledig JSON vervangen voor configuratiebestanden?",
+            "a2": "Ja, voor statische configuratiebestanden. Code die de configuratie leest, moet veranderen van JSON.parse() naar een TOML-parser (toml crate in Rust, tomllib in Python, enz.). TOML kan JSON niet vervangen voor API's of gegevensuitwisseling.",
+            "q3": "Welke bestandsextensie gebruikt TOML?",
+            "a3": "TOML-bestanden gebruiken de .toml-extensie. Veelvoorkomende voorbeelden: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (Cargo-instellingen).",
+            "q4": "Hoe kiezen tussen JSON, YAML en TOML voor configuratie?",
+            "a4": "Gebruik JSON voor gegevensuitwisseling in API's (universele ondersteuning, geen opmerkingen nodig). Gebruik YAML voor DevOps-configuratie (Kubernetes, CI/CD — rijke functies, brede toolondersteuning). Gebruik TOML voor applicatieconfiguratie (eenvoudigere syntaxis, expliciete typen, beter voor menselijke bewerking)."
+        }
+    }
+}

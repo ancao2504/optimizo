@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Konverter JSON ke TOML Online - Gratis | Optimizo",
+        "description": "Konversi JSON ke format TOML secara online dan gratis. Secara otomatis menghasilkan bagian tabel, menangani objek bersarang, dan menghasilkan TOML yang bersih dan mudah dibaca.",
+        "h1": "Konverter JSON ke TOML",
+        "subtitle": "Konversi data konfigurasi JSON ke format TOML yang lebih mudah dibaca — pembuatan tabel dan bagian otomatis"
+    },
+    "editor": {
+        "title": "Konverter JSON ke TOML",
+        "label_json": "Input JSON",
+        "ph_json": "{\n  \"title\": \"Aplikasi Saya\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "Output TOML",
+        "btn_copy": "Salin TOML"
+    },
+    "content": {
+        "why_title": "Mengapa mengkonversi file konfigurasi JSON ke TOML?",
+        "why_desc": "JSON tidak dirancang untuk file konfigurasi — tidak ada komentar, sintaks bertele-tele untuk data bersarang dan perlu escape tambahan. TOML membuat data yang sama lebih mudah dibaca dengan header [bagian], komentar #, dan sintaks kunci-nilai yang lebih bersih. Mengkonversi config.json ke config.toml meningkatkan keterpeliharaan dan dokumentasi mandiri.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Pembuatan Bagian Otomatis",
+                "desc": "Objek JSON bersarang otomatis dikonversi ke path tabel TOML [section.subsection]"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Pelestarian Tipe",
+                "desc": "Angka, boolean, dan string JSON dipetakan dengan benar ke setara TOML tanpa kehilangan data"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Konfigurasi yang Lebih Bersih",
+                "desc": "Data yang sama dalam format TOML biasanya 20-40% lebih pendek dan jauh lebih mudah dibaca dari JSON"
+            }
+        },
+        "how_title": "Konversi JSON ke TOML dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Tempel konfigurasi JSON",
+                "desc": "Salin file konfigurasi JSON Anda yang ada dan tempel ke panel kiri"
+            },
+            "2": {
+                "title": "Tinjau output TOML",
+                "desc": "TOML yang setara muncul di panel kanan — periksa apakah struktur sesuai harapan"
+            },
+            "3": {
+                "title": "Tambahkan komentar dan simpan",
+                "desc": "Salin TOML, tambahkan komentar # yang mendokumentasikan setiap bagian, dan simpan sebagai file konfigurasi baru"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Konverter JSON ke TOML",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Buat Cargo.toml",
+                "desc": "Konversi informasi dari package.json ke format Cargo.toml untuk mempercepat pengaturan proyek Rust"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Migrasi ke pyproject.toml",
+                "desc": "Konversi setup.cfg atau setup.py ke standar packaging Python modern pyproject.toml"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Perbarui File Konfigurasi",
+                "desc": "Migrasi dari config.json ke config.toml dan dokumentasikan setiap opsi dengan komentar #"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Bagikan Konfigurasi Antar Alat",
+                "desc": "Konversi data konfigurasi yang sama antara ekosistem JSON dan TOML sesuai kebutuhan"
+            }
+        },
+        "tips_title": "Tips Konversi JSON ke TOML",
+        "tips": {
+            "arrays": {
+                "title": "✓ Periksa konversi array objek dengan seksama",
+                "desc": "Array objek JSON ([{name:\"a\"},{name:\"b\"}]) menggunakan sintaks [[array tabel]] TOML. Periksa konversinya sudah benar dalam output."
+            },
+            "null": {
+                "title": "✓ TOML tidak memiliki null",
+                "desc": "Null JSON tidak memiliki setara langsung dalam TOML. Nilai null biasanya dihilangkan atau digantikan dengan string kosong. Tangani kasus ini secara manual."
+            },
+            "keys": {
+                "title": "✓ Kutip kunci dengan karakter khusus",
+                "desc": "Kunci TOML dengan tanda hubung atau spasi memerlukan tanda kutip: \"content-type\" = \"json\". Gunakan underscore dalam kunci JSON untuk menghindari masalah ini."
+            },
+            "test": {
+                "title": "✓ Uji dengan parser TOML aplikasi",
+                "desc": "Parser TOML yang berbeda (toml-rs, tomllib, @iarna/toml) mungkin menangani kasus tepi secara berbeda. Selalu uji TOML yang dikonversi di lingkungan runtime yang sebenarnya."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Bisakah semua tipe data JSON dikonversi ke TOML?",
+            "a1": "Sebagian besar tipe dikonversi dengan bersih: string, angka, boolean, array, dan objek memiliki setara langsung TOML. Null JSON tidak memiliki setara TOML dan biasanya dihilangkan. Array objek yang sangat bersarang mungkin memerlukan penyesuaian manual.",
+            "q2": "Bisakah TOML sepenuhnya menggantikan JSON dalam file konfigurasi?",
+            "a2": "Untuk file konfigurasi statis ya. Kode yang membaca konfigurasi perlu diubah dari JSON.parse() ke parser TOML. TOML tidak dapat menggantikan JSON untuk API atau pertukaran data.",
+            "q3": "Ekstensi file apa yang digunakan TOML?",
+            "a3": ".toml. Contoh umum: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (konfigurasi Cargo).",
+            "q4": "Bagaimana cara memilih antara JSON, YAML, dan TOML untuk konfigurasi?",
+            "a4": "JSON: Pertukaran data API (dukungan universal, komentar tidak diperlukan). YAML: Konfigurasi DevOps (Kubernetes, CI/CD, dll.). TOML: Konfigurasi aplikasi (sintaks sederhana, tipe eksplisit, terbaik untuk pengeditan manual)."
+        }
+    }
+}

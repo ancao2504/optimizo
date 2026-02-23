@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Convertitore da CSV a YAML Online - Strumento gratuito | Optimizo",
+        "description": "Converti file CSV in formato YAML online gratis. Usa automaticamente le intestazioni CSV come chiavi YAML e genera output YAML correttamente indentato con inferenza dei tipi.",
+        "h1": "Convertitore da CSV a YAML",
+        "subtitle": "Converti dati CSV in formato YAML — mappatura automatica delle intestazioni con inferenza dei tipi"
+    },
+    "editor": {
+        "title": "Convertitore da CSV a YAML",
+        "label_csv": "CSV di input",
+        "ph_csv": "nome,eta,attivo\nAlice,30,true\nBob,25,false",
+        "label_yaml": "Uscita YAML",
+        "btn_copy": "Copia YAML"
+    },
+    "content": {
+        "why_title": "Perché convertire CSV in YAML?",
+        "why_desc": "Il CSV è ideale per memorizzare dati tabulari nei fogli di calcolo, ma YAML è lo standard per i file di configurazione, le fixture di test e gli strumenti DevOps. Quando hai bisogno di usare dati di fogli di calcolo come ConfigMap di Kubernetes, file di variabili di Ansible, file di dati di Hugo o fixture di test, la conversione CSV→YAML ti risparmia una riformattazione tediosa.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Conversione automatica",
+                "desc": "Converte CSV in YAML in tempo reale mentre scrivi — senza bisogno di fare clic su nessun pulsante"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Chiavi basate sulle intestazioni",
+                "desc": "Le intestazioni CSV vengono automaticamente convertite in chiavi YAML per ogni oggetto nell'elenco di output"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Inferenza dei tipi",
+                "desc": "Numeri e booleani (true/false) vengono automaticamente convertiti nei relativi tipi YAML appropriati"
+            }
+        },
+        "how_title": "Come convertire CSV in YAML",
+        "how_steps": {
+            "1": {
+                "title": "Incolla i dati CSV",
+                "desc": "Incolla il tuo CSV con una riga di intestazione — la prima riga definisce le chiavi YAML"
+            },
+            "2": {
+                "title": "Conversione istantanea",
+                "desc": "L'output YAML appare immediatamente con ogni riga CSV come elemento dell'elenco YAML"
+            },
+            "3": {
+                "title": "Copia lo YAML",
+                "desc": "Copia l'output YAML e incollalo nel tuo file di configurazione o fixture di test"
+            }
+        },
+        "uses_title": "Casi d'uso da CSV a YAML",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Fixture di test",
+                "desc": "Converti dati di test nei fogli di calcolo in fixture YAML per RSpec, PHPUnit o Pytest"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Dati di configurazione",
+                "desc": "Converti dati di team o ambiente in variabili di Ansible o ConfigMap di Kubernetes"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Dati seed",
+                "desc": "Converti tabelle di riferimento CSV in file seed YAML per Rails, Laravel o Django"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Dati mock API",
+                "desc": "Converti esempi di fogli di calcolo in YAML per strumenti mock API come WireMock o Mirage"
+            }
+        },
+        "tips_title": "Best practice da CSV a YAML",
+        "tips": {
+            "headers": {
+                "title": "✓ Usa nomi di intestazione puliti e coerenti",
+                "desc": "Le intestazioni CSV diventano chiavi YAML — usa snake_case o camelCase in modo coerente. Evita spazi e caratteri speciali nelle intestazioni."
+            },
+            "quotes": {
+                "title": "✓ Metti tra virgolette i valori con caratteri speciali",
+                "desc": "In CSV, racchiudi i valori che contengono virgole o virgolette tra virgolette doppie. Il convertitore gestisce correttamente i campi quotati RFC 4180."
+            },
+            "encoding": {
+                "title": "✓ Usa la codifica UTF-8",
+                "desc": "Assicurati che il tuo file CSV sia codificato in UTF-8 prima della conversione. I caratteri non UTF-8 possono causare problemi di parsing."
+            },
+            "validate": {
+                "title": "✓ Valida lo YAML dopo la conversione",
+                "desc": "Incolla sempre lo YAML convertito in un validatore per verificare la struttura corretta prima di usarlo nei file di configurazione."
+            }
+        },
+        "faq_title": "❓ Domande frequenti",
+        "faq": {
+            "q1": "Il convertitore gestisce i campi CSV tra virgolette?",
+            "a1": "Sì — il parser gestisce correttamente il formato CSV RFC 4180, inclusi i campi tra virgolette doppie e le virgolette di escape (\"\"). Le virgole all'interno dei campi tra virgolette non vengono trattate come delimitatori.",
+            "q2": "Come vengono gestiti numeri e booleani?",
+            "a2": "Il convertitore inferisce i tipi: i valori che sono numeri validi vengono convertiti in numeri YAML (non stringhe), e i valori true/false vengono convertiti in booleani YAML. Le stringhe rimangono stringhe.",
+            "q3": "Posso convertire dati TSV (separati da tabulazione)?",
+            "a3": "Questo strumento si aspetta CSV separato da virgole. Per i dati separati da tabulazione, prima sostituisci le tabulazioni con virgole (la maggior parte degli editor di testo ha la funzione trova e sostituisci con supporto regex).",
+            "q4": "Come convertire lo YAML di nuovo in CSV se necessario?",
+            "a4": "La direzione inversa (da YAML a CSV) richiede di conoscere la struttura in anticipo. Per un elenco piatto di oggetti con chiavi coerenti, puoi estrarre manualmente le chiavi come intestazioni CSV e mappare ogni elemento YAML su una riga."
+        }
+    }
+}

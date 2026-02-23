@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Regex Test Aracı Çevrimiçi - Ücretsiz Düzenli İfade | Optimizo",
+        "description": "Düzenli ifadeleri (Regex) çevrimiçi ücretsiz test edin. Gerçek zamanlı eşleşme vurgulama, bayrak desteği ve yakalama grubu ayrıntıları.",
+        "h1": "Regex Test Aracı",
+        "subtitle": "Regex'i gerçek zamanlı test edin — eşleşme vurgulama, bayraklar ve yakalama grubu ayrıntıları"
+    },
+    "editor": {
+        "title": "Regex Test Aracı",
+        "label_pattern": "Desen (Regex)",
+        "ph_pattern": "Örn: \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Bayraklar",
+        "label_test": "Test Metni",
+        "ph_test": "Test edilecek metni buraya yapıştırın...",
+        "btn_test": "Test Et",
+        "btn_clear": "Temizle"
+    },
+    "content": {
+        "why_title": "Regex Test Aracı Neden Kullanılır?",
+        "why_desc": "Düzenli ifadeler hemen hemen her programlama dilinde kullanılan güçlü desen eşleştirme araçlarıdır. Hata ayıklamaları karmaşık olabilir — tek bir karakter hatası davranışı tamamen değiştirebilir. Aracımız her tuş vuruşunda eşleşmeleri gerçek zamanlı olarak vurgular, yakalama grubu ayrıntılarını gösterir ve tüm JavaScript bayraklarını destekler.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Gerçek Zamanlı Vurgulama",
+                "desc": "Her tuş vuruşunda eşleşmeler anında vurgulanır — düğmeye basmaya gerek yok"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Yakalama Grubu Ayrıntıları",
+                "desc": "Her sonuç için tüm yakalama grublarını, indeksleri ve eşleşen değerleri gösterir"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Tam Bayrak Desteği",
+                "desc": "g, i, m, s, u, y bayraklarını ayrı ayrı etkinleştirerek etkilerini görün"
+            }
+        },
+        "how_title": "3 Adımda Regex Test Etme",
+        "how_steps": {
+            "1": {
+                "title": "Deseni Girin",
+                "desc": "Desen alanına düzenli ifadeyi yazın (eğik çizgi olmadan)"
+            },
+            "2": {
+                "title": "Bayrakları Seçin",
+                "desc": "Gerekirse g (global), i (büyük/küçük harf duyarsız), m (çok satırlı) gibi bayrakları etkinleştirin"
+            },
+            "3": {
+                "title": "Test Metnini Yapıştırın",
+                "desc": "Metin girerken eşleşmeler otomatik olarak vurgulanır"
+            }
+        },
+        "uses_title": "Regex'in Yaygın Kullanım Alanları",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Form Doğrulama",
+                "desc": "E-posta adresleri, telefon numaraları, URL'ler, posta kodları ve özel formatları doğrulayın"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Arama ve Değiştirme",
+                "desc": "Kod editörlerde, log dosyalarında ve metin işleme ardışık düzenlerinde desenleri arayın ve değiştirin"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Log Ayrıştırma",
+                "desc": "Yapılandırılmamış loglardan yapılandırılmış veri (IP, zaman damgası, hata kodu) çıkarın"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Girdi Temizleme",
+                "desc": "Kaydetmeden veya görüntülemeden önce kullanıcı verilerindeki tehlikeli karakterleri kaldırın veya değiştirin"
+            }
+        },
+        "tips_title": "Regex En İyi Uygulamaları",
+        "tips": {
+            "anchor": {
+                "title": "✓ Kesin Eşleştirme için Çıpa Kullanın",
+                "desc": "^ ve $ kullanarak deseni satır başına ve sonuna sabitleyin ve istenmeyen kısmi eşleşmeleri önleyin"
+            },
+            "groups": {
+                "title": "✓ Yakalamayan Grupları Tercih Edin",
+                "desc": "Grubu yakalamanız gerekmediğinde (...) yerine (?:...) kullanarak performansı artırın"
+            },
+            "escape": {
+                "title": "✓ Özel Karakterleri Kaçış Karakteriyle İşaretleyin",
+                "desc": ". * + ? ( ) [ ] { } | ^ $ \\ özel anlam taşır — gerçek karakter eşleştirmesi için \\ ile kaçış yapın"
+            },
+            "test": {
+                "title": "✓ Uç Durumları Test Edin",
+                "desc": "Boş dizeler, Unicode karakterler, çok uzun girdiler ve sınır koşullarıyla mutlaka test edin"
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "Bu test aracı hangi Regex lehçesini kullanıyor?",
+            "a1": "JavaScript'in yerleşik RegExp motorunu (ECMAScript standardı) kullanır. İleriye bakış, geriye bakış (ES2018+), adlandırılmış yakalama grupları ve Unicode karakter özelliklerini destekler.",
+            "q2": "g ve m bayrakları arasındaki fark nedir?",
+            "a2": "g (global) bayrağı yalnızca ilk eşleşmeyi değil dizedeki tüm eşleşmeleri bulur. m (çok satırlı) bayrağı ^ ve $'ın tüm dize yerine her satırın başına ve sonuna eşleşmesini sağlar.",
+            "q3": "Gerçek nokta veya yıldıza nasıl eşleşirim?",
+            "a3": "Ters eğik çizgi ile kaçış yapın: \\. gerçek noktaya, \\* gerçek yıldıza eşleşir. Karakter sınıfı [ ] içinde ], \\, ^ ve - dışındaki çoğu özel karakter anlamını yitirir.",
+            "q4": "Regex neden beklenenden fazla metinle eşleşiyor?",
+            "a4": "Açgözlü niceleyiciler kullanıyor olabilirsiniz. * ve + varsayılan olarak açgözlüdür — mümkün olduğunca çok metinle eşleşirler. ? ekleyerek tembel yapabilirsiniz: *? veya +? mümkün olduğunca az metinle eşleşir."
+        }
+    }
+}

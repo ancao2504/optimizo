@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "HTMLからJSXへの変換 オンライン - 無料Reactツール | Optimizo",
+        "description": "HTMLをReact JSXにオンラインで無料変換。classをclassNameに、forをhtmlForに、インラインスタイルをJSオブジェクトに自動変換し、空タグを閉じます。",
+        "h1": "HTMLからJSXへのコンバーター",
+        "subtitle": "HTMLをReact JSXに即座に変換 — className、htmlFor、インラインスタイル、自己閉じタグをサポート"
+    },
+    "editor": {
+        "title": "HTMLからJSXへのコンバーター",
+        "label_html": "HTML入力",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">メールアドレス</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "JSX出力",
+        "btn_copy": "JSXをコピー"
+    },
+    "content": {
+        "why_title": "なぜHTMLをJSXに変換するのか？",
+        "why_desc": "既存のHTMLテンプレートをReactに移行する際、classをclassNameに、forをhtmlForに、インラインスタイルを文字列からJavaScriptオブジェクトに手動変換する必要があります。当ツールはこれらの変換をすべて即座に自動化し、コンポーネントロジックに集中できるようにします。",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "属性変換",
+                "desc": "class→className、for→htmlFor、tabindex→tabIndex、maxlength→maxLengthなどを変換"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "インラインスタイルオブジェクト",
+                "desc": "style=\"color: red;\"をstyle={{color: 'red'}}に変換 — ReactのJSオブジェクト記法"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "自己閉じタグ",
+                "desc": "空要素に閉じスラッシュを追加：<br>が<br />に、<input>が<input />になる"
+            }
+        },
+        "how_title": "3ステップでHTMLをJSXに変換する方法",
+        "how_steps": {
+            "1": {
+                "title": "HTMLを貼り付け",
+                "desc": "HTMLテンプレート、Figmaのエクスポート、またはHTMLスニペットを左パネルに貼り付け"
+            },
+            "2": {
+                "title": "自動変換",
+                "desc": "コンバーターがすべての属性、スタイル、空要素をJSX構文に即座に変換"
+            },
+            "3": {
+                "title": "JSXをコピー",
+                "desc": "変換されたJSXをコピーしてReactコンポーネントのrender/returnブロックに貼り付け"
+            }
+        },
+        "uses_title": "HTMLからJSXへのコンバーターのユースケース",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "Reactへの移行",
+                "desc": "既存のHTMLページやテンプレートを属性の手動変換なしにReactコンポーネントに移行"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "ReactでのBootstrap",
+                "desc": "Bootstrap HTMLコンポーネントをJSXに変換してreact-bootstrapやスタイル付きコンポーネントと使用"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "メールテンプレート",
+                "desc": "HTMLメールテンプレートをReact EmailやLibrariesでレンダリングするためのJSXに変換"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "CMSからReactへ",
+                "desc": "WordPressや従来のCMSのHTMLテンプレートをReactコンポーネント構造に変換"
+            }
+        },
+        "tips_title": "HTMLからJSXへの変換のヒント",
+        "tips": {
+            "class": {
+                "title": "✓ class → classNameは重要",
+                "desc": "classはJavaScriptの予約キーワードです。ReactではclassNameをCSSクラスに使用する必要があります。忘れるとReactの警告と予期しない動作が発生します。"
+            },
+            "for": {
+                "title": "✓ labelのfor → htmlFor",
+                "desc": "<label>のfor属性はJSXではhtmlForになります。これを忘れるとアクセシビリティが壊れます — スクリーンリーダーはラベルとフィールドの関連付けに依存しています。"
+            },
+            "events": {
+                "title": "✓ 変換後にイベントハンドラーを更新",
+                "desc": "HTML属性onclick='...'はJSXに自動変換されません。変換後にインラインイベントハンドラーを手動でReactのonClick={handler}パターンに置き換えてください。"
+            },
+            "comments": {
+                "title": "✓ HTMLコメントはJSXコメントになる",
+                "desc": "<!-- コメント -->はJSXでは{/* コメント */}に変換されます。JSXはJSXタグ内でHTMLコメント構文をサポートしていません。"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "なぜReactはclassではなくclassNameを使うのですか？",
+            "a1": "classはJavaScriptの予約キーワード（ES6クラスに使用）です。JSXはJavaScriptなので、classを使うと構文の競合が生じます。JavaScriptのclass予約語との曖昧さを避けるためにReactはclassNameを選択しました。",
+            "q2": "このツールはReactイベントハンドラーを処理しますか？",
+            "a2": "いいえ — onclick、onsubmitなどのHTMLイベントハンドラーはReactのonClick、onSubmitに自動変換されません。それらの値（HTMLでのJavaScript文字列）はReactコンポーネントの関数/状態を参照する必要があります。手動で更新が必要です。",
+            "q3": "HTMLとJSXの違いは何ですか？",
+            "a3": "JSXはHTMLに似たJavaScriptの構文拡張でReact.createElement()呼び出しにコンパイルされます。主な違い：すべての属性がcamelCase、classはclassName、forはhtmlFor、空要素は自己閉じが必要、式は文字列ではなく{}を使用。",
+            "q4": "なぜJSXでは空要素は自己閉じが必要なのですか？",
+            "a4": "JSXはBabelによってXMLライクな構文として解析され、すべての要素の適切な閉じが必要です。<br>、<img>、<input>などの空要素には子がないため、閉じていないタグではなく/>の自己閉じが必要です。"
+        }
+    }
+}

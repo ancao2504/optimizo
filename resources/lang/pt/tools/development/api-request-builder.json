@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Construtor de requisições API Online - Cliente HTTP gratuito | Optimizo",
+        "description": "Construa e envie requisições HTTP API online grátis. Suporta GET, POST, PUT, PATCH, DELETE com cabeçalhos personalizados, corpo da requisição e parâmetros de query.",
+        "h1": "Construtor de requisições API",
+        "subtitle": "Construa, envie e inspecione requisições HTTP API — um cliente HTTP leve no seu navegador"
+    },
+    "editor": {
+        "title": "Construtor de requisições API",
+        "btn_send": "Enviar requisição",
+        "tab_headers": "Cabeçalhos",
+        "tab_body": "Corpo",
+        "tab_params": "Parâmetros",
+        "btn_add_header": "Adicionar cabeçalho",
+        "btn_add_param": "Adicionar parâmetro",
+        "label_response": "Resposta",
+        "btn_copy_response": "Copiar resposta"
+    },
+    "content": {
+        "why_title": "Por que usar um construtor de requisições API?",
+        "why_desc": "Testar APIs REST normalmente requer instalar Postman, Insomnia ou escrever comandos curl. Nosso cliente HTTP baseado em navegador não requer instalação — basta abrir e começar a enviar requisições. Suporta todos os métodos HTTP, cabeçalhos personalizados, corpos JSON e parâmetros de query, tornando-o perfeito para testes rápidos de API, exploração de APIs públicas e depuração de integrações.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Todos os métodos HTTP",
+                "desc": "Suporta GET, POST, PUT, PATCH, DELETE com cabeçalhos personalizados e corpo JSON/formulário"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Resposta formatada",
+                "desc": "O corpo da resposta é exibido automaticamente com recuo, com código de status e tempo de resposta"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Pronto para usar",
+                "desc": "Sem instalação requerida — funciona completamente no seu navegador sem conta ou plugin"
+            }
+        },
+        "how_title": "Como enviar uma requisição API",
+        "how_steps": {
+            "1": {
+                "title": "Insira a URL e o método",
+                "desc": "Digite a URL do endpoint API e selecione o método HTTP (GET, POST, etc.)"
+            },
+            "2": {
+                "title": "Adicione cabeçalhos e corpo",
+                "desc": "Mude para a aba Cabeçalhos para adicionar Authorization, Content-Type e outros. Use Corpo para dados POST/PUT."
+            },
+            "3": {
+                "title": "Envie e inspecione",
+                "desc": "Clique em Enviar para executar a requisição. O corpo da resposta, código de status e tempo aparecem abaixo."
+            }
+        },
+        "uses_title": "Casos de uso do construtor de requisições API",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "Depurar APIs",
+                "desc": "Teste endpoints individuais com cabeçalhos e corpos personalizados para depurar problemas de autenticação e dados"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Testar tokens de autenticação",
+                "desc": "Teste esquemas Bearer, Basic Auth e chave API sem escrever código"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "Explorar APIs",
+                "desc": "Explore APIs públicas (GitHub, OpenWeather, JSONPlaceholder) e entenda suas respostas"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Reproduzir bugs",
+                "desc": "Reproduza e documente bugs de API com os detalhes exatos de requisição/resposta para relatórios de erros"
+            }
+        },
+        "tips_title": "Boas práticas de teste de APIs",
+        "tips": {
+            "headers": {
+                "title": "✓ Defina sempre Content-Type",
+                "desc": "Ao enviar um corpo JSON, inclua sempre Content-Type: application/json. Sem isso, muitas APIs rejeitarão ou interpretarão mal sua requisição."
+            },
+            "cors": {
+                "title": "✓ Entenda as limitações de CORS",
+                "desc": "Navegadores bloqueiam requisições cross-origin sem os cabeçalhos CORS apropriados. Se uma requisição falhar no navegador, use curl ou um proxy do lado do servidor."
+            },
+            "auth": {
+                "title": "✓ Nunca hardcode chaves API",
+                "desc": "Use variáveis de ambiente no código de produção. O construtor de requisições é apenas para testes — não compartilhe capturas de tela com chaves API reais."
+            },
+            "status": {
+                "title": "✓ Verifique os códigos de status HTTP",
+                "desc": "200=OK, 201=Criado, 400=Requisição incorreta, 401=Não autorizado, 403=Proibido, 404=Não encontrado, 500=Erro do servidor."
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "Por que minha requisição cross-origin falha?",
+            "a1": "Navegadores aplicam restrições CORS (Cross-Origin Resource Sharing). Se a API de destino não inclui cabeçalhos Access-Control-Allow-Origin, o navegador bloqueia a requisição. Não é um bug — use curl ou um proxy backend para APIs sem suporte CORS.",
+            "q2": "Posso enviar requisições multipart/form-data?",
+            "a2": "O construtor atual suporta corpos JSON e texto simples. Para dados de formulário multipart (uploads de arquivos), use o envio de formulário nativo do navegador ou uma ferramenta dedicada como o Postman.",
+            "q3": "É um substituto para o Postman?",
+            "a3": "Para testes rápidos e exploração — sim. Para colaboração em equipe, coleções salvas, ambientes e testes automatizados, Postman ou Bruno oferecem mais recursos. Esta ferramenta se destaca em testes API instantâneos sem configuração.",
+            "q4": "Qual é a diferença entre PUT e PATCH?",
+            "a4": "PUT substitui todo o recurso pelo corpo da requisição. PATCH aplica uma atualização parcial — apenas os campos incluídos no corpo são modificados. A maioria das APIs REST usa PATCH para atualizações para não sobrescrever campos não modificados."
+        }
+    }
+}

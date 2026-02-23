@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON till TOML-konverterare Online - Gratis | Optimizo",
+        "description": "Konvertera JSON till TOML-format online gratis. Genererar automatiskt tabellsektioner, hanterar nästlade objekt och producerar ren, läsbar TOML.",
+        "h1": "JSON till TOML-konverterare",
+        "subtitle": "Konvertera JSON-konfigurationsdata till mer läsbart TOML-format — automatisk generering av tabeller och sektioner"
+    },
+    "editor": {
+        "title": "JSON till TOML-konverterare",
+        "label_json": "JSON-indata",
+        "ph_json": "{\n  \"title\": \"Min app\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "TOML-utdata",
+        "btn_copy": "Kopiera TOML"
+    },
+    "content": {
+        "why_title": "Varför konvertera JSON-konfigurationsfiler till TOML?",
+        "why_desc": "JSON är inte utformat för konfigurationsfiler — ingen kommentarer, utförlig syntax för nästlade data och kräver extra escape. TOML gör samma data mer läsbar med [sektions]-huvuden, # kommentarer och renare nyckel-värde-syntax. Att konvertera config.json till config.toml förbättrar underhåll och självdokumentation.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Automatisk sektionsgenerering",
+                "desc": "Nästlade JSON-objekt konverteras automatiskt till TOML-tabellsökvägar [section.subsection]"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Typbevarande",
+                "desc": "JSON-nummer, booleans och strängar mappas korrekt till TOML-ekvivalenter utan dataförlust"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Renare konfiguration",
+                "desc": "Samma data i TOML-format är vanligtvis 20-40 % kortare och mycket mer läsbar än JSON"
+            }
+        },
+        "how_title": "Konvertera JSON till TOML i 3 steg",
+        "how_steps": {
+            "1": {
+                "title": "Klistra in JSON-konfiguration",
+                "desc": "Kopiera din befintliga JSON-konfigurationsfil och klistra in den i den vänstra panelen"
+            },
+            "2": {
+                "title": "Granska TOML-utdata",
+                "desc": "Ekvivalent TOML visas i den högra panelen — kontrollera att strukturen stämmer"
+            },
+            "3": {
+                "title": "Lägg till kommentarer och spara",
+                "desc": "Kopiera TOML, lägg till # kommentarer som dokumenterar varje sektion och spara som ny konfigurationsfil"
+            }
+        },
+        "uses_title": "Användningsfall för JSON till TOML",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Skapa Cargo.toml",
+                "desc": "Konvertera information från package.json till Cargo.toml-format för att påskynda Rust-projektuppsättning"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Migration till pyproject.toml",
+                "desc": "Konvertera setup.cfg eller setup.py till den moderna Python-paketeringsstandarden pyproject.toml"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Uppdatera konfigurationsfiler",
+                "desc": "Migrera config.json till config.toml och dokumentera varje alternativ med # kommentarer"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Dela konfiguration mellan verktyg",
+                "desc": "Konvertera samma konfigurationsdata mellan JSON- och TOML-ekosystem vid behov"
+            }
+        },
+        "tips_title": "Tips för JSON till TOML-konvertering",
+        "tips": {
+            "arrays": {
+                "title": "✓ Kontrollera objektmatriser noggrant",
+                "desc": "JSON-objektmatriser ([{name:\"a\"},{name:\"b\"}]) använder TOML:s [[tabellmatris]]-syntax. Verifiera att de konverteras korrekt i utdata."
+            },
+            "null": {
+                "title": "✓ TOML saknar null",
+                "desc": "JSON:s null har ingen direkt ekvivalent i TOML. Null-värden utelämnas vanligtvis eller ersätts med tom sträng. Hantera dessa fall manuellt."
+            },
+            "keys": {
+                "title": "✓ Citera nycklar med specialtecken",
+                "desc": "TOML-nycklar med bindestreck eller blanksteg kräver citattecken: \"content-type\" = \"json\". Använd understreck i JSON-nycklar för att undvika problemet."
+            },
+            "test": {
+                "title": "✓ Testa med appens TOML-parser",
+                "desc": "Olika TOML-parsers (toml-rs, tomllib, @iarna/toml) kan hantera edge cases olika. Testa alltid konverterade TOML i den faktiska körningsmiljön."
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Kan alla JSON-datatyper konverteras till TOML?",
+            "a1": "De flesta typer konverteras rent: strängar, nummer, booleans, matriser och objekt har direkta TOML-ekvivalenter. JSON:s null saknar TOML-ekvivalent och utelämnas vanligtvis. Djupt nästlade objektmatriser kan kräva manuell justering.",
+            "q2": "Kan TOML helt ersätta JSON i konfigurationsfiler?",
+            "a2": "För statiska konfigurationsfiler ja. Koden som läser konfigurationen behöver ändras från JSON.parse() till en TOML-parser. TOML kan inte ersätta JSON för API:er eller datautbyte.",
+            "q3": "Vilken filändelse använder TOML?",
+            "a3": ".toml-ändelsen. Vanliga exempel: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (Cargo-konfiguration).",
+            "q4": "Hur väljer man mellan JSON, YAML och TOML för konfiguration?",
+            "a4": "JSON: API-datautbyte (universellt stöd, kommentarer ej nödvändiga). YAML: DevOps-konfiguration (Kubernetes, CI/CD etc.). TOML: Applikationskonfiguration (enkel syntax, explicita typer, bäst för manuell redigering)."
+        }
+    }
+}

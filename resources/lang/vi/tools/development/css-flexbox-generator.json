@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Tạo CSS Flexbox Online - Công Cụ Layout Trực Quan | Optimizo",
+        "description": "Tạo layout CSS Flexbox trực quan trực tuyến và miễn phí. Điều chỉnh hướng, justify-content, align-items và khoảng cách với xem trước thời gian thực và xuất CSS tức thì.",
+        "h1": "Tạo CSS Flexbox",
+        "subtitle": "Tạo layout CSS Flexbox trực quan — điều chỉnh tất cả thuộc tính với xem trước thời gian thực"
+    },
+    "editor": {
+        "title": "Tạo Flexbox",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Khoảng cách (gap)",
+        "label_items": "Số lượng phần tử",
+        "label_preview": "Xem trước thời gian thực",
+        "btn_copy": "Sao chép CSS"
+    },
+    "content": {
+        "why_title": "Tại sao dùng công cụ tạo Flexbox trực quan?",
+        "why_desc": "CSS Flexbox có nhiều thuộc tính tương tác với nhau và các kết hợp có thể phức tạp. Với công cụ trực quan của chúng tôi, bạn có thể điều chỉnh từng thuộc tính qua menu thả xuống và thấy layout cập nhật theo thời gian thực.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Xem trước thời gian thực",
+                "desc": "Thấy chính xác layout Flexbox làm gì ở mỗi thay đổi thuộc tính — không cần đoán"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Đầy đủ thuộc tính",
+                "desc": "flex-direction, justify-content, align-items, flex-wrap và gap trong một giao diện"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "CSS sẵn sàng sử dụng",
+                "desc": "Sao chép khối .container {} CSS gọn gàng trực tiếp vào stylesheet của bạn"
+            }
+        },
+        "how_title": "Tạo layout Flexbox",
+        "how_steps": {
+            "1": {
+                "title": "Đặt hướng và wrapping",
+                "desc": "Chọn flex-direction (hàng/cột) và flex-wrap để kiểm soát trục chính và tràn"
+            },
+            "2": {
+                "title": "Điều chỉnh căn chỉnh phần tử",
+                "desc": "Điều chỉnh justify-content và align-items để kiểm soát phân bố và căn chỉnh phần tử"
+            },
+            "3": {
+                "title": "Sao chép CSS",
+                "desc": "Nhấp 'Sao chép CSS' để lấy khối .container CSS đầy đủ sẵn sàng cho dự án của bạn"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng Flexbox",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Thanh điều hướng",
+                "desc": "Flexbox lý tưởng cho thanh nav ngang với justifyContent:space-between cho logo+links"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Lưới card",
+                "desc": "Tạo lưới card responsive với flex-wrap:wrap và flex-basis cố định"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Căn giữa hoàn hảo",
+                "desc": "justifyContent:center + alignItems:center — cách đơn giản nhất để căn giữa bất kỳ phần tử nào"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Layout biểu mẫu",
+                "desc": "Căn chỉnh nhãn và trường biểu mẫu theo chiều ngang hoặc dọc cho biểu mẫu gọn gàng với Flexbox"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho Flexbox",
+        "tips": {
+            "axis": {
+                "title": "✓ Hiểu trục chính và trục chéo",
+                "desc": "justify-content kiểm soát trục chính (hàng=ngang). align-items kiểm soát trục chéo. Thay đổi khi dùng flex-direction:column."
+            },
+            "grow": {
+                "title": "✓ Dùng flex:1 cho phần tử có thể mở rộng",
+                "desc": "Thêm flex:1 vào phần tử flex để mở rộng chiếm không gian có sẵn."
+            },
+            "gap": {
+                "title": "✓ Dùng gap thay vì margin",
+                "desc": "Thuộc tính gap tạo khoảng cách đều giữa các phần tử flex mà không thêm margin ở các cạnh ngoài."
+            },
+            "grid": {
+                "title": "✓ Dùng Grid cho layout 2D",
+                "desc": "Flexbox kiểm soát một trục mỗi lần. Dùng CSS Grid cho layout hai chiều."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Khi nào dùng Flexbox thay vì CSS Grid?",
+            "a1": "Flexbox lý tưởng cho layout một chiều (thanh nav, nhóm nút, hàng biểu mẫu). CSS Grid xuất sắc trong layout hai chiều khi bạn kiểm soát cả hàng và cột đồng thời.",
+            "q2": "flex-wrap:wrap là gì?",
+            "a2": "Mặc định, phần tử flex bị ép vào một hàng dù tràn. flex-wrap:wrap cho phép phần tử xuống hàng mới khi tràn — quan trọng cho layout responsive.",
+            "q3": "Sự khác biệt giữa align-items và align-content là gì?",
+            "a3": "align-items căn chỉnh phần tử flex trên một hàng duy nhất. align-content chỉ áp dụng khi có nhiều hàng (flex-wrap:wrap) và kiểm soát phân bố hàng trong container.",
+            "q4": "Làm thế nào để tạo cột có chiều rộng bằng nhau với Flexbox?",
+            "a4": "Áp dụng flex:1 cho mỗi phần tử. Mở rộng chúng chiếm không gian có sẵn đều nhau. Dùng flex:0 0 33,33% cho đúng 3 cột bằng nhau bất kể nội dung."
+        }
+    }
+}

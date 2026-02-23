@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "محول HTML إلى JSX أونلاين - أداة React مجانية | Optimizo",
+        "description": "حوّل HTML إلى React JSX أونلاين مجاناً. يُبدّل تلقائياً class بـclassName وfor بـhtmlFor والأنماط المضمّنة إلى كائنات JS ويُغلق الوسوم الفارغة.",
+        "h1": "محول HTML إلى JSX",
+        "subtitle": "حوّل HTML إلى React JSX فورياً — دعم className وhtmlFor والأنماط المضمّنة والوسوم الذاتية الإغلاق"
+    },
+    "editor": {
+        "title": "محول HTML إلى JSX",
+        "label_html": "HTML المدخل",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">البريد الإلكتروني</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "JSX الناتج",
+        "btn_copy": "نسخ JSX"
+    },
+    "content": {
+        "why_title": "لماذا تحويل HTML إلى JSX؟",
+        "why_desc": "عند ترحيل قوالب HTML الموجودة إلى React أو نسخ التخطيطات إلى مكونات، تحتاج إلى تحويل class يدوياً إلى className وfor إلى htmlFor والأنماط المضمّنة من خيوط إلى كائنات JavaScript. تُؤتمت أداتنا جميع هذه التحويلات فوراً، محوّلةً جميع تعيينات خصائص HTML→JSX، مما يتيح لك التركيز على منطق المكوّن لا تحويل الصياغة.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "تحويل الخصائص",
+                "desc": "يحوّل class→className وfor→htmlFor وtabindex→tabIndex وmaxlength→maxLength وغيرها"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "كائنات الأنماط المضمّنة",
+                "desc": "يُحوّل style=\"color: red;\" إلى style={{color: 'red'}} — ترميز كائن JS الصحيح لـReact"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "الوسوم الذاتية الإغلاق",
+                "desc": "يُضيف شرطة إغلاق للعناصر الفارغة: <br> تصبح <br /> و<input> تصبح <input />"
+            }
+        },
+        "how_title": "كيفية تحويل HTML إلى JSX",
+        "how_steps": {
+            "1": {
+                "title": "الصق HTML",
+                "desc": "الصق قالب HTML أو تصدير Figma أو أي مقتطف HTML في اللوحة اليسرى"
+            },
+            "2": {
+                "title": "تحويل تلقائي",
+                "desc": "يُحوّل المحوّل فوراً جميع الخصائص والأنماط والعناصر الفارغة إلى صياغة JSX"
+            },
+            "3": {
+                "title": "انسخ JSX",
+                "desc": "انسخ JSX المحوَّل والصقه في كتلة render/return الخاصة بمكوّن React"
+            }
+        },
+        "uses_title": "حالات استخدام محول HTML إلى JSX",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "الترحيل إلى React",
+                "desc": "رحّل صفحات أو قوالب HTML الموجودة إلى مكوّنات React بدون تحويل يدوي للخصائص"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Bootstrap في React",
+                "desc": "حوّل مكوّنات Bootstrap HTML إلى JSX للاستخدام مع react-bootstrap أو المكوّنات المنسّقة"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "قوالب البريد الإلكتروني",
+                "desc": "حوّل قوالب HTML للبريد الإلكتروني إلى JSX للعرض مع React Email أو مكتبات مماثلة"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "CMS إلى React",
+                "desc": "حوّل قوالب HTML من WordPress أو CMS التقليدية إلى هيكل مكوّنات React"
+            }
+        },
+        "tips_title": "نصائح HTML إلى JSX",
+        "tips": {
+            "class": {
+                "title": "✓ class → className أمر حرج",
+                "desc": "class كلمة مفتاحية محجوزة في JavaScript. يتطلب React استخدام className لفئات CSS. نسيان ذلك يتسبب في تحذيرات React وسلوك غير متوقع."
+            },
+            "for": {
+                "title": "✓ for → htmlFor في عناصر label",
+                "desc": "خاصية for في <label> تصبح htmlFor في JSX. نسيانها يكسر إمكانية الوصول — برامج قراءة الشاشة تعتمد على ارتباط التسمية-الحقل."
+            },
+            "events": {
+                "title": "✓ حدّث معالجات الأحداث بعد التحويل",
+                "desc": "خاصية HTML onclick='...' لا تُحوَّل تلقائياً في JSX. استبدل يدوياً معالجات الأحداث المضمّنة بنمط React onClick={handler} بعد التحويل."
+            },
+            "comments": {
+                "title": "✓ تعليقات HTML تصبح تعليقات JSX",
+                "desc": "<!-- تعليق --> تُحوَّل إلى {/* تعليق */} في JSX. لا يدعم JSX صياغة تعليقات HTML داخل وسوم JSX."
+            }
+        },
+        "faq_title": "❓ أسئلة مكررة",
+        "faq": {
+            "q1": "لماذا React تستخدم className بدلاً من class؟",
+            "a1": "class كلمة مفتاحية محجوزة في JavaScript (تُستخدم لفئات ES6). بما أن JSX هو JavaScript، استخدام class كان سيُنشئ تعارضاً في الصياغة. اختار React استخدام className لتجنب الغموض مع الكلمة المحجوزة class في JavaScript.",
+            "q2": "هل تتعامل هذه الأداة مع معالجات أحداث React؟",
+            "a2": "لا — معالجات أحداث HTML مثل onclick وonsubmit لا تُحوَّل تلقائياً إلى onClick وonSubmit في React، لأن قيمها (خيوط JavaScript في HTML) يجب أن تُشير إلى دوال/حالة مكوّنات React. يجب تحديثها يدوياً.",
+            "q3": "ما الفرق بين HTML وJSX؟",
+            "a3": "JSX هو امتداد صياغة JavaScript يشبه HTML لكنه يُجمَّع إلى استدعاءات React.createElement(). الاختلافات الرئيسية: جميع الخصائص بحالة camelCase وclass هي className وfor هي htmlFor، يجب أن تكون العناصر الفارغة ذاتية الإغلاق، والتعبيرات تستخدم {} بدلاً من الخيوط.",
+            "q4": "لماذا يجب أن تكون العناصر الفارغة ذاتية الإغلاق في JSX؟",
+            "a4": "JSX يُحلَّل من قِبَل Babel كصياغة تشبه XML وتتطلب إغلاقاً صحيحاً لجميع العناصر. العناصر الفارغة مثل <br> و<img> و<input> ليس لها أبناء، لذا يجب أن تكون ذاتية الإغلاق /> بدلاً من وسم غير مغلق."
+        }
+    }
+}

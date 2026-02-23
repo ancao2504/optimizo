@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "Formatador SQL Online - Embelezador SQL gratuito | Optimizo",
+        "description": "Formate e embeleze consultas SQL online grátis. Suporta SELECT, INSERT, UPDATE, DELETE, CREATE e JOINs complexos com resultado instantâneo.",
+        "h1": "Formatador SQL",
+        "subtitle": "Embeleze e formate consultas SQL instantaneamente — compatível com todos os principais dialetos SQL"
+    },
+    "editor": {
+        "title": "Formatador SQL",
+        "label_input": "Insira a consulta SQL",
+        "ph_input": "SELECT id, nome, email FROM usuarios WHERE ativo = 1 ORDER BY nome",
+        "btn_format": "Formatar SQL",
+        "btn_minify": "Minificar SQL",
+        "label_output": "SQL formatado",
+        "btn_copy": "Copiar SQL"
+    },
+    "content": {
+        "why_title": "Por que formatar consultas SQL?",
+        "why_desc": "O SQL sem formatação é quase ilegível, especialmente com JOINs complexos, subconsultas e CTEs. Nosso formatador adiciona recuo adequado, quebras de linha e escreve as palavras-chave em maiúsculas, tornando suas consultas mais fáceis de revisar, depurar e compartilhar com a equipe. O SQL bem formatado também é mais simples de otimizar e manter a longo prazo.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Palavras-chave em maiúsculas",
+                "desc": "Capitaliza automaticamente SELECT, FROM, WHERE, JOIN e todas as outras palavras-chave SQL"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Recuo inteligente",
+                "desc": "Aplica recuo correto a subconsultas, expressões CASE e cláusulas aninhadas"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minificação",
+                "desc": "Remove todos os espaços em branco para comprimir SQL em uma única linha — ideal para strings de consulta no código"
+            }
+        },
+        "how_title": "Como formatar SQL em 3 passos",
+        "how_steps": {
+            "1": {
+                "title": "Cole sua consulta SQL",
+                "desc": "Copie seu SQL de um editor de código, cliente de banco de dados ou log de consultas e cole-o"
+            },
+            "2": {
+                "title": "Clique em Formatar",
+                "desc": "Clique em \"Formatar SQL\" para obter recuo adequado e palavras-chave em maiúsculas"
+            },
+            "3": {
+                "title": "Copie e use",
+                "desc": "Copie o SQL formatado diretamente para seu cliente de banco de dados, ORM ou documentação"
+            }
+        },
+        "uses_title": "Casos de uso da formatação SQL",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Revisão de código",
+                "desc": "Formate o SQL antes de uma revisão para que colegas possam ver claramente a estrutura"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Depurar consultas",
+                "desc": "Desvende cláusulas WHERE complexas e cadeias de JOINs para encontrar erros de lógica rapidamente"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Documentação",
+                "desc": "Insira SQL bem formatado em documentação técnica, arquivos README e tutoriais"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Otimizar consultas",
+                "desc": "O SQL formatado facilita identificar índices faltantes e ordens de JOIN ineficientes"
+            }
+        },
+        "tips_title": "Boas práticas SQL",
+        "tips": {
+            "select": {
+                "title": "✓ Evite SELECT *",
+                "desc": "Especifique sempre os nomes das colunas em vez de SELECT *. Melhora o desempenho e evita problemas se o esquema da tabela mudar."
+            },
+            "alias": {
+                "title": "✓ Use aliases explícitos",
+                "desc": "Use aliases de tabela claros nos JOINs (ex. u para usuarios, p para pedidos) para tornar consultas complexas legíveis."
+            },
+            "explain": {
+                "title": "✓ Use EXPLAIN",
+                "desc": "Execute EXPLAIN ou EXPLAIN ANALYZE antes de implantar consultas lentas para entender como o banco de dados as executa."
+            },
+            "index": {
+                "title": "✓ Indexe suas colunas WHERE",
+                "desc": "Certifique-se de que colunas em WHERE, JOIN ON e ORDER BY estão indexadas para desempenho ideal."
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "Quais dialetos SQL são suportados?",
+            "a1": "O formatador funciona com SQL padrão e é compatível com MySQL, PostgreSQL, SQLite, SQL Server (T-SQL) e Oracle. As palavras-chave específicas de cada dialeto são mantidas como estão.",
+            "q2": "A formatação altera o comportamento da minha consulta?",
+            "a2": "Não. O formatador altera apenas espaços em branco e letras maiúsculas das palavras-chave. A lógica, os resultados e o plano de execução da consulta permanecem completamente inalterados.",
+            "q3": "Posso formatar SQL com stored procedures?",
+            "a3": "Sim. O formatador processa blocos CREATE PROCEDURE, BEGIN/END, instruções DECLARE e outras construções SQL procedurais.",
+            "q4": "Para que serve a minificação em aplicações?",
+            "a4": "O SQL minificado reduz o tamanho das strings de consulta incorporadas no código-fonte, mantém os logs mais compactos e pode melhorar marginalmente o desempenho do parsing."
+        }
+    }
+}

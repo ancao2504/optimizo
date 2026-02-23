@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "chmod-kalkulator Nettbasert - Linux-tillatelser Gratis | Optimizo",
+        "description": "Gratis nettbasert chmod-kalkulator. Konverter Linux-filtillatelser mellom symbolsk notasjon (rwxr-xr-x) og oktal notasjon (755) og generer chmod-kommandoer.",
+        "h1": "chmod-kalkulator",
+        "subtitle": "Beregn Linux-tillatelser — konverter symbolsk og oktal notasjon og generer chmod-kommandoer"
+    },
+    "editor": {
+        "title": "chmod Tillatelseskalkulator",
+        "label_octal": "Oktal verdi",
+        "col_type": "Type",
+        "col_read": "Lese (r)",
+        "col_write": "Skrive (w)",
+        "col_exec": "Kjøre (x)",
+        "col_octal": "Oktal",
+        "row_owner": "Eier",
+        "row_group": "Gruppe",
+        "row_others": "Andre (alle)",
+        "btn_copy": "Kopier kommando"
+    },
+    "content": {
+        "why_title": "Hvorfor bruke en chmod-kalkulator?",
+        "why_desc": "Linux-filtillatelser uttrykkes i symbolsk (rwxr-xr-x) og oktal (755) notasjon. Manuell beregning av riktig tillatelsesverdi er feilutsatt. Med vår kalkulator kan du visuelt velge tillatelsesavkryssingsbokser og generere den oktale verdien og en nyttig chmod-kommando direkte.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Visuell tillatelsesbygger",
+                "desc": "Klikk på lese/skrive/kjøre-avkrysningsbokser for eier/gruppe/andre; verdier oppdateres direkte"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Tosidig synkronisering",
+                "desc": "Skriv inn en oktal verdi (f.eks. 755) og avkrysningsboksene oppdateres automatisk, eller omvendt"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Klar til bruk-kommando",
+                "desc": "Genererer en komplett chmod-kommando som kan limes inn direkte i terminalen"
+            }
+        },
+        "how_title": "Slik beregner du tillatelser",
+        "how_steps": {
+            "1": {
+                "title": "Merk ønskede tillatelser",
+                "desc": "Klikk på lese/skrive/kjøre-avkrysningsbokser for eier, gruppe og andre"
+            },
+            "2": {
+                "title": "Sjekk oktal og symbolsk",
+                "desc": "Den oktale verdien (f.eks. 755) og symbolsk notasjon (rwxr-xr-x) oppdateres direkte"
+            },
+            "3": {
+                "title": "Kopier kommandoen",
+                "desc": "Kopier den genererte chmod-kommandoen og kjør den i terminalen"
+            }
+        },
+        "uses_title": "Typiske chmod-scenarier",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Web-serverfiler",
+                "desc": "Sett 644 for HTML/CSS/JS-filer på Apache eller Nginx (eier lese/skrive, gruppe/andre lese)"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Kjørbare skript",
+                "desc": "Sett 755 for shell-skript (eier full tilgang, gruppe/andre lese+kjøre)"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "SSH-nøkler",
+                "desc": "SSH krever 600 (kun ejer lese/skrive) for private nøkler"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Opplastingsmapper",
+                "desc": "Sett 775 for web-opplastingsmapper slik at serverprosessen kan skrive filer"
+            }
+        },
+        "tips_title": "Beste praksis for Linux-tillatelser",
+        "tips": {
+            "never777": {
+                "title": "✓ Bruk aldri 777 i produksjon",
+                "desc": "chmod 777 gir alle full lese/skrive/kjøre-tilgang — alvorlig sikkerhetsrisiko."
+            },
+            "least": {
+                "title": "✓ Prinsippet om minste privilegium",
+                "desc": "Gi alltid de minste nødvendige tillatelsene. Start restriktivt (600) og legg til etter behov."
+            },
+            "recursive": {
+                "title": "✓ Vær forsiktig med -R (rekursivt)",
+                "desc": "chmod -R bruker tillatelser rekursivt på alle filer og mapper."
+            },
+            "umask": {
+                "title": "✓ Forstå umask",
+                "desc": "umask-verdien trekker tillatelser fra standardverdien. umask 022 gir ny filer 644 og nye mapper 755."
+            }
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Hva betyr chmod 755?",
+            "a1": "755 betyr: eier(7)=lese+skrive+kjøre, gruppe(5)=lese+kjøre, andre(5)=lese+kjøre. Standardtillatelser for kjørbare filer og offentlige mapper.",
+            "q2": "Hva er forskjellen mellom 644 og 755?",
+            "a2": "644 (rw-r--r--): eier lese/skrive, andre kun lese — for vanlige filer. 755 (rwxr-xr-x): eier kan også kjøre — for skript og mapper.",
+            "q3": "Hvorfor krever SSH-nøkler tillatelse 600?",
+            "a3": "SSH nekter bruk av private nøkler som andre kan få tilgang til. 600 (rw-------) sørger for at bare eieren kan lese og skrive nøkkelen.",
+            "q4": "Hva betyr kjøre-biten på en mappe?",
+            "a4": "Kjøre-biten på en mappe betyr 'gjennomgang' — at brukeren kan gå inn i mappen og få tilgang til filer der. Uten kjøretillatelse kan ikke brukeren gå inn i mappen."
+        }
+    }
+}

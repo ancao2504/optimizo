@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Tối Ưu Hóa SVG Online - Nén SVG Miễn Phí | Optimizo",
+        "description": "Tối ưu hóa và nén tệp SVG trực tuyến và miễn phí. Xóa chú thích, metadata và thuộc tính không cần thiết để giảm kích thước tệp trong khi duy trì chất lượng hình ảnh.",
+        "h1": "Tối Ưu Hóa SVG",
+        "subtitle": "Nén tệp SVG trực tuyến — xóa metadata, chú thích và thuộc tính không cần thiết để giảm kích thước tệp"
+    },
+    "editor": {
+        "title": "Tối Ưu Hóa SVG",
+        "opt_remove_comments": "Xóa chú thích",
+        "opt_remove_metadata": "Xóa metadata",
+        "opt_remove_ids": "Xóa ID",
+        "opt_remove_dimensions": "Xóa width/height",
+        "opt_remove_doctype": "Xóa DOCTYPE",
+        "opt_round_numbers": "Làm tròn số",
+        "opt_collapse_groups": "Xóa nhóm trống",
+        "opt_remove_empty_containers": "Xóa container trống",
+        "label_input": "SVG đầu vào",
+        "ph_input": "Dán mã SVG vào đây...",
+        "btn_optimize": "Tối ưu SVG",
+        "label_output": "SVG đã tối ưu",
+        "btn_copy": "Sao chép SVG"
+    },
+    "content": {
+        "why_title": "Tại sao nên tối ưu hóa tệp SVG?",
+        "why_desc": "Tệp SVG xuất từ Illustrator, Figma và Inkscape chứa nhiều dữ liệu không cần thiết — chú thích, metadata của trình soạn thảo, thuộc tính dư thừa và container trống. Sau khi tối ưu hóa, kích thước tệp có thể giảm 30-70% và tải nhanh hơn.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 chiến lược tối ưu",
+                "desc": "Bật/tắt từng lượt tối ưu độc lập để kiểm soát chính xác"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Thống kê giảm kích thước",
+                "desc": "Xem kích thước gốc, kích thước đã tối ưu và phần trăm tiết kiệm sau mỗi lần tối ưu"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Tối ưu không mất dữ liệu",
+                "desc": "Tất cả tối ưu giữ nguyên giao diện SVG — chỉ xóa metadata vô hình"
+            }
+        },
+        "how_title": "Tối ưu SVG trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Dán mã SVG",
+                "desc": "Sao chép mã nguồn SVG từ công cụ thiết kế hoặc tệp và dán vào trường đầu vào"
+            },
+            "2": {
+                "title": "Chọn các tối ưu hóa",
+                "desc": "Đánh dấu các tùy chọn tối ưu mong muốn — cài đặt mặc định cho giảm tối đa"
+            },
+            "3": {
+                "title": "Sao chép và sử dụng",
+                "desc": "Sao chép SVG đã tối ưu và thay thế tệp gốc hoặc nhúng trực tiếp vào HTML"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng tối ưu SVG",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Thư viện icon",
+                "desc": "Tối ưu các bộ icon xuất từ Figma hoặc Illustrator trước khi thêm vào thư viện"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Logo",
+                "desc": "Làm sạch logo SVG cho header website, favicon và tài nguyên thương hiệu"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "SVG có animation",
+                "desc": "Giảm kích thước cơ sở của SVG có animation vốn đã lớn do dữ liệu animation"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA và mobile",
+                "desc": "SVG nhỏ hơn giảm tiêu thụ dữ liệu di động và cải thiện điểm Lighthouse"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho tối ưu SVG",
+        "tips": {
+            "ids": {
+                "title": "✓ Cẩn thận khi xóa ID với animation CSS",
+                "desc": "Nếu SVG dùng CSS hay JS animation nhắm vào phần tử theo ID, tắt 'Xóa ID' để animation không bị hỏng."
+            },
+            "viewbox": {
+                "title": "✓ Giữ viewBox, xóa width/height",
+                "desc": "Xóa thuộc tính width/height và chỉ giữ viewBox cho phép SVG scale responsive qua CSS."
+            },
+            "precision": {
+                "title": "✓ Làm tròn số đến 2 chữ số thập phân",
+                "desc": "Tọa độ đường dẫn với hơn 5 chữ số thập phân không thể phân biệt về mặt thị giác. Làm tròn về 2 giảm kích thước tệp."
+            },
+            "pipeline": {
+                "title": "✓ Tự động hóa SVGO trong CI/CD",
+                "desc": "Trong các dự án lớn, tích hợp SVGO vào quy trình build để tự động tối ưu tất cả SVG."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Tối ưu SVG có thể giảm bao nhiêu kích thước tệp?",
+            "a1": "Thường tiết kiệm 30-70% tùy thuộc vào nguồn. SVG Illustrator thể hiện khoản tiết kiệm lớn nhất; xuất Figma đã tương đối sạch.",
+            "q2": "Tối ưu hóa có thay đổi giao diện SVG không?",
+            "a2": "Không — tất cả tối ưu trong công cụ này chỉ xóa dữ liệu vô hình hoặc làm tròn số với độ chính xác không nhận thấy được. Kết quả hình ảnh giống hệt bản gốc.",
+            "q3": "Tại sao xóa thuộc tính width và height?",
+            "a3": "Giá trị width/height được mã hóa cứng ngăn SVG scale responsive qua CSS. Xóa chúng và chỉ giữ viewBox cho phép kiểm soát kích thước hoàn toàn qua thuộc tính CSS.",
+            "q4": "Sự khác biệt giữa công cụ này và SVGO là gì?",
+            "a4": "SVGO là công cụ dòng lệnh Node.js là tiêu chuẩn để tối ưu SVG. Công cụ này cung cấp giao diện trình duyệt thân thiện cho các tối ưu phổ biến nhất mà không cần cài đặt Node.js."
+        }
+    }
+}

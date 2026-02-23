@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Validator JSON Online - Validasi JSON Gratis | Optimizo",
+        "description": "Validator JSON online gratis. Validasi sintaks JSON secara instan, identifikasi kesalahan dengan nomor baris, dan lihat hasil yang diformat.",
+        "h1": "Validator JSON",
+        "subtitle": "Validasi sintaks JSON secara instan — deteksi kesalahan dan konfirmasi kevalidan struktur data"
+    },
+    "editor": {
+        "title": "Validator JSON",
+        "label_input": "JSON yang Akan Divalidasi",
+        "ph_input": "Tempel JSON Anda di sini...",
+        "btn_validate": "Validasi JSON",
+        "btn_copy": "Salin JSON"
+    },
+    "content": {
+        "why_title": "Mengapa validasi JSON sebelum digunakan?",
+        "why_desc": "JSON yang tidak valid dapat merusak API, parser konfigurasi, dan pipeline data secara diam-diam. Koma yang salah tempat, tanda kurung yang tidak ditutup, dan tanda kutip yang tidak di-escape dapat menyebabkan kesalahan runtime yang sulit dilacak. Alat kami mengidentifikasi masalah ini secara instan dengan nomor baris yang tepat dan pesan kesalahan yang jelas.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Validasi Instan",
+                "desc": "Memvalidasi JSON dalam milidetik dengan pesan kesalahan yang tepat dan nomor baris"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Ikhtisar Struktur",
+                "desc": "Lihat kedalaman JSON, jumlah kunci, dan distribusi tipe sekilas"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100% Privat",
+                "desc": "Semua validasi terjadi di browser — data Anda tidak pernah meninggalkan perangkat Anda"
+            }
+        },
+        "how_title": "Validasi JSON dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Tempel JSON",
+                "desc": "Salin dan tempel JSON dari respons API, file konfigurasi, atau sumber lain"
+            },
+            "2": {
+                "title": "Klik Validasi",
+                "desc": "Validator memeriksa sintaks secara instan dan menyorot kesalahan dengan nomor baris"
+            },
+            "3": {
+                "title": "Perbaiki dan Salin",
+                "desc": "Perbaiki kesalahan dan salin JSON yang telah divalidasi dan diformat"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Validasi JSON",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "Validasi Respons API",
+                "desc": "Pastikan respons REST API terstruktur dengan benar sebelum diproses"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Periksa File Konfigurasi",
+                "desc": "Validasi package.json, tsconfig.json, dan file konfigurasi lainnya sebelum deployment"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Validasi Impor Data",
+                "desc": "Periksa file JSON yang akan diimpor sudah benar sebelum dimuat ke database"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Debug Kesalahan JSON",
+                "desc": "Temukan kesalahan sintaks secara tepat dalam struktur JSON kompleks yang sangat bersarang"
+            }
+        },
+        "tips_title": "Praktik Terbaik JSON",
+        "tips": {
+            "quotes": {
+                "title": "✓ Selalu gunakan tanda kutip ganda",
+                "desc": "JSON memerlukan tanda kutip ganda untuk string dan kunci. Tanda kutip tunggal bukan JSON yang valid."
+            },
+            "trailing": {
+                "title": "✓ Tidak ada koma trailing",
+                "desc": "Berbeda dengan JavaScript, JSON tidak mengizinkan koma setelah elemen terakhir dalam array atau objek."
+            },
+            "null": {
+                "title": "✓ Gunakan null, bukan None atau nil",
+                "desc": "Kata kunci null dalam JSON harus huruf kecil. None dari Python atau nil dari Ruby bukan JSON yang valid."
+            },
+            "validate": {
+                "title": "✓ Validasi ulang setelah pengeditan manual",
+                "desc": "Selalu validasi ulang JSON setelah pengeditan manual. Typo kecil bisa membuat seluruh dokumen tidak valid."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Mengapa JSON saya tidak valid meskipun terlihat benar?",
+            "a1": "Masalah tersembunyi yang umum: koma trailing setelah elemen terakhir, tanda kutip tunggal bukan ganda, karakter khusus yang tidak di-escape dalam string, komentar JavaScript (JSON tidak mendukung komentar).",
+            "q2": "Bisakah saya memvalidasi file JSON yang sangat besar?",
+            "a2": "Ya — validasi terjadi sepenuhnya di browser melalui JSON.parse() bawaan. Ukuran file hanya dibatasi oleh memori browser.",
+            "q3": "Apa perbedaan antara JSON dan JSONP?",
+            "a3": "JSON adalah format data murni. JSONP membungkus JSON dalam panggilan fungsi untuk permintaan lintas domain. JSONP bukan JSON yang valid.",
+            "q4": "Apakah JSON mendukung komentar?",
+            "a4": "Tidak. JSON tidak mendukung komentar // atau /* */. Gunakan kunci _comment atau beralih ke YAML atau TOML yang mendukung komentar."
+        }
+    }
+}

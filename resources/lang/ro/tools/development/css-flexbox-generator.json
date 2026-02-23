@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Generator CSS Flexbox Online - Creator Vizual Layout | Optimizo",
+        "description": "Creați layout-uri CSS Flexbox vizual online și gratuit. Ajustați direcția, justify-content, align-items și spațierea cu previzualizare în timp real și export CSS instant.",
+        "h1": "Generator CSS Flexbox",
+        "subtitle": "Creați vizual layout-uri CSS Flexbox — ajustați toate proprietățile cu previzualizare în timp real"
+    },
+    "editor": {
+        "title": "Generator Flexbox",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Spațiere (gap)",
+        "label_items": "Număr de elemente",
+        "label_preview": "Previzualizare în timp real",
+        "btn_copy": "Copiați CSS"
+    },
+    "content": {
+        "why_title": "De ce să folosiți un generator vizual Flexbox?",
+        "why_desc": "CSS Flexbox are multe proprietăți care interacționează și combinațiile pot fi complexe. Cu generatorul nostru vizual puteți ajusta fiecare proprietate prin meniuri derulante și vedea layout-ul actualizat în timp real.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Previzualizare în timp real",
+                "desc": "Vedeți exact ce face layout-ul Flexbox la fiecare schimbare de proprietate — fără ghicit"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Toate proprietățile",
+                "desc": "flex-direction, justify-content, align-items, flex-wrap și gap într-o singură interfață"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "CSS gata de utilizare",
+                "desc": "Copiați un bloc .container {} CSS curat direct în foaia dvs. de stiluri"
+            }
+        },
+        "how_title": "Creați un layout Flexbox",
+        "how_steps": {
+            "1": {
+                "title": "Setați direcția și înfășurarea",
+                "desc": "Alegeți flex-direction (rând/coloană) și flex-wrap pentru a controla axa principală și depășirea"
+            },
+            "2": {
+                "title": "Ajustați alinierea elementelor",
+                "desc": "Ajustați justify-content și align-items pentru a controla distribuirea și alinierea elementelor"
+            },
+            "3": {
+                "title": "Copiați CSS-ul",
+                "desc": "Faceți clic pe 'Copiați CSS' pentru a obține un bloc .container CSS complet gata de utilizare în proiectul dvs."
+            }
+        },
+        "uses_title": "Cazuri de utilizare Flexbox",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Bară de navigare",
+                "desc": "Flexbox este ideal pentru barele de navigare orizontale cu justifyContent:space-between pentru logo+linkuri"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Grilă de carduri",
+                "desc": "Creați o grilă responsivă de carduri cu flex-wrap:wrap și un flex-basis fix"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Centrare perfectă",
+                "desc": "justifyContent:center + alignItems:center — cel mai simplu mod de a centra orice element"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Layout formular",
+                "desc": "Aliniați etichete și câmpuri de formular orizontal sau vertical pentru formulare curate cu Flexbox"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru Flexbox",
+        "tips": {
+            "axis": {
+                "title": "✓ Înțelegeți axa principală și cea transversală",
+                "desc": "justify-content controlează axa principală (rând=orizontal). align-items controlează axa transversală. Se schimbă când se folosește flex-direction:column."
+            },
+            "grow": {
+                "title": "✓ Folosiți flex:1 pentru elemente expandabile",
+                "desc": "Adăugați flex:1 unui element flex pentru a-l extinde să ocupe spațiul disponibil."
+            },
+            "gap": {
+                "title": "✓ Folosiți gap în loc de margini",
+                "desc": "Proprietatea gap creează spațiere uniformă între elementele flex fără a adăuga margini pe marginile exterioare."
+            },
+            "grid": {
+                "title": "✓ Folosiți Grid pentru layout-uri 2D",
+                "desc": "Flexbox controlează o axă odată. Folosiți CSS Grid pentru layout-uri bidimensionale."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Când să folosiți Flexbox în loc de CSS Grid?",
+            "a1": "Flexbox este ideal pentru layout-uri unidimensionale (bare de navigare, grupuri de butoane, rânduri de formulare). CSS Grid excelează în layout-uri bidimensionale unde controlați simultan rânduri și coloane.",
+            "q2": "Ce este flex-wrap:wrap?",
+            "a2": "Implicit, elementele flex sunt forțate pe un singur rând chiar dacă depășesc. flex-wrap:wrap permite elementelor să se mute pe rândul următor la depășire — important pentru layout-uri responsive.",
+            "q3": "Care este diferența dintre align-items și align-content?",
+            "a3": "align-items aliniază elementele flex pe un singur rând. align-content se aplică numai când există mai multe rânduri (flex-wrap:wrap) și controlează distribuirea rândurilor în container.",
+            "q4": "Cum se creează coloane de lățime egală cu Flexbox?",
+            "a4": "Aplicați flex:1 fiecărui element. Le extinde să ocupe spațiul disponibil uniform. Folosiți flex:0 0 33,33% pentru exact 3 coloane egale indiferent de conținut."
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Generator CSS Grid Online - Creator Vizual Layout Grilă | Optimizo",
+        "description": "Creați layout-uri CSS Grid vizual online și gratuit. Ajustați coloane, rânduri, spațiere și aliniere cu previzualizare în timp real și export CSS instant.",
+        "h1": "Generator CSS Grid",
+        "subtitle": "Creați vizual layout-uri CSS Grid — ajustați coloane, rânduri, spațiere și aliniere cu previzualizare în timp real"
+    },
+    "editor": {
+        "title": "Generator CSS Grid",
+        "label_cols": "Număr de coloane",
+        "label_rows": "Număr de rânduri",
+        "label_col_template": "Șablon coloane",
+        "label_gap": "Spațiere (gap)",
+        "label_align": "align-items",
+        "label_preview": "Previzualizare în timp real",
+        "btn_copy": "Copiați CSS"
+    },
+    "content": {
+        "why_title": "De ce să folosiți un generator vizual CSS Grid?",
+        "why_desc": "CSS Grid este cel mai puternic sistem de layout din CSS, dar sintaxa are o curbă de învățare abruptă. Cu generatorul nostru vizual puteți ajusta grila cu glisoare și meniuri derulante și vedea efectul fiecărei proprietăți imediat.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Previzualizare grilă în timp real",
+                "desc": "Grila se actualizează în timp real când ajustați coloane, rânduri, spațiere și aliniere"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Suport unitate fr",
+                "desc": "Șabloanele folosesc unitatea fr (fracțiune) pentru grile flexibile care se adaptează la dimensiunea containerului"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "CSS gata de utilizare",
+                "desc": "Exportați un bloc .container CSS curat cu grid-template-columns, rows, gap și align-items"
+            }
+        },
+        "how_title": "Creați un layout CSS Grid",
+        "how_steps": {
+            "1": {
+                "title": "Configurați coloane și rânduri",
+                "desc": "Setați numărul de coloane și rânduri ale grilei cu glisorele"
+            },
+            "2": {
+                "title": "Selectați șablonul și spațierea",
+                "desc": "Alegeți șablonul de coloane (egal, fix+flexibil sau minmax responsive) și ajustați spațierea"
+            },
+            "3": {
+                "title": "Copiați CSS-ul",
+                "desc": "Faceți clic pe 'Copiați CSS' pentru a obține un bloc CSS complet gata de lipit în foaia dvs. de stiluri"
+            }
+        },
+        "uses_title": "Cazuri de utilizare CSS Grid",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Layout pagină",
+                "desc": "Creați structura antet/panou lateral/conținut principal/subsol cu zone numite de grilă"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboard",
+                "desc": "Creați layout-uri complexe de dashboard cu carduri de dimensiuni variate folosind grid-column și grid-row span"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galerie",
+                "desc": "Creați galerii asemănătoare unei zidărie sau regulate care se adaptează cu auto-fill și minmax"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Layout revistă",
+                "desc": "Creați layout-uri editoriale cu coloane inegale și conținut care se întinde pe mai multe celule"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Preferați unitatea fr față de procente",
+                "desc": "Unitatea fr (fracțiune) distribuie spațiul disponibil după coloanele fixe fără calcul manual."
+            },
+            "minmax": {
+                "title": "✓ Folosiți minmax() pentru grile responsive",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) creează o grilă responsivă care ajustează automat numărul de coloane."
+            },
+            "named": {
+                "title": "✓ Folosiți zone de grilă numite",
+                "desc": "grid-template-areas cu celule numite face layout-urile de pagini lizibile și ușor de modificat."
+            },
+            "auto": {
+                "title": "✓ Înțelegeți auto-fill vs. auto-fit",
+                "desc": "auto-fill creează numărul maxim de piste (inclusiv goale). auto-fit colapsează pistele goale și le extinde pe cele existente — de obicei optim pentru grile de carduri."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Ce este unitatea fr în CSS Grid?",
+            "a1": "fr înseamnă 'unitate fracțiune'. 1fr reprezintă o porțiune din spațiul liber disponibil în containerul grilei. repeat(3, 1fr) creează 3 coloane care împart spațiul disponibil uniform.",
+            "q2": "Care este diferența dintre CSS Grid și Flexbox?",
+            "a2": "Flexbox este unidimensional — plasează elemente de-a lungul unei singure axe (rând sau coloană). CSS Grid este bidimensional — poate controla simultantana rânduri și coloane, mult mai puternic pentru layout-urile de pagini.",
+            "q3": "Ce face minmax()?",
+            "a3": "minmax(min, max) specifică un interval de dimensiuni pentru o pistă de grilă. minmax(200px, 1fr) înseamnă că coloana are cel puțin 200px lățime, dar poate crește pentru a umple spațiul disponibil.",
+            "q4": "Când să folosiți CSS Grid în loc de Flexbox?",
+            "a4": "Folosiți Grid pentru layout-uri bidimensionale unde controlați simultan rânduri și coloane. Folosiți Flexbox pentru layout-urile unidimensionale ale componentelor ca barele de navigare."
+        }
+    }
+}

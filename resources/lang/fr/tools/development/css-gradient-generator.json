@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Générateur de dégradé CSS en ligne - Créateur de gradient gratuit | Optimizo",
+        "description": "Générez des dégradés CSS en ligne gratuitement. Créez des gradients linéaires, radiaux et coniques avec plusieurs arrêts de couleur, contrôle de l'angle et export CSS instantané.",
+        "h1": "Générateur de dégradé CSS",
+        "subtitle": "Créez de beaux dégradés linéaires, radiaux et coniques avec aperçu en direct et export CSS"
+    },
+    "editor": {
+        "title": "Générateur de dégradé CSS",
+        "label_type": "Type de dégradé",
+        "label_angle": "Angle",
+        "label_stops": "Arrêts de couleur",
+        "btn_add_stop": "Ajouter un arrêt",
+        "btn_copy": "Copier le CSS"
+    },
+    "content": {
+        "why_title": "Pourquoi utiliser un générateur de dégradé visuel ?",
+        "why_desc": "Écrire des dégradés CSS à la main est fastidieux — mémoriser la syntaxe de linear-gradient(), radial-gradient() et conic-gradient() avec plusieurs arrêts de couleur et positions est source d'erreurs. Notre générateur visuel vous permet de gérer les arrêts de couleur avec des sélecteurs et des curseurs de position, avec un aperçu en direct qui se met à jour instantanément, rendant la création de dégradés rapide et intuitive.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 types de dégradés",
+                "desc": "Dégradés linéaires, radiaux et coniques tous supportés avec des contrôles spécifiques à chaque type"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Dégradés multi-arrêts",
+                "desc": "Ajoutez un nombre illimité d'arrêts de couleur et faites glisser leurs positions pour créer des dégradés multicolores complexes"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Aperçu en direct",
+                "desc": "Voyez votre dégradé rendu en temps réel à mesure que vous ajustez les couleurs, positions et l'angle"
+            }
+        },
+        "how_title": "Comment créer un dégradé CSS",
+        "how_steps": {
+            "1": {
+                "title": "Choisissez le type de dégradé",
+                "desc": "Sélectionnez un dégradé linéaire, radial ou conique et définissez l'angle ou la direction"
+            },
+            "2": {
+                "title": "Configurez les arrêts de couleur",
+                "desc": "Utilisez les sélecteurs pour définir la couleur de chaque arrêt, et faites glisser les curseurs pour les positionner"
+            },
+            "3": {
+                "title": "Copiez le CSS",
+                "desc": "Cliquez sur 'Copier le CSS' pour obtenir la propriété background complète prête pour votre feuille de style"
+            }
+        },
+        "uses_title": "Cas d'utilisation des dégradés CSS",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Arrière-plans héros",
+                "desc": "Créez de superbes arrière-plans de pages entières avec des dégradés diagonaux ou radiaux"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Texte dégradé",
+                "desc": "Appliquez des dégradés au texte avec background-clip: text pour des effets typographiques saisissants"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Bordures dégradées",
+                "desc": "Utilisez des dégradés avec border-image pour créer des bordures colorées sur les éléments"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Surimpressions d'images",
+                "desc": "Superposez des dégradés sur des images pour créer des surimpressions sombres permettant la lisibilité du texte"
+            }
+        },
+        "tips_title": "Bonnes pratiques pour les dégradés CSS",
+        "tips": {
+            "angle": {
+                "title": "✓ Utilisez 135deg pour les dégradés diagonaux",
+                "desc": "Un angle de 135 degrés crée une diagonale classique de haut-gauche à bas-droite qui semble naturelle et dynamique — un choix populaire pour les sections héros."
+            },
+            "subtle": {
+                "title": "✓ Gardez les dégradés subtils pour l'interface",
+                "desc": "Pour les éléments d'interface (boutons, cartes), utilisez des dégradés très subtils de la même teinte avec 10-20% de différence de luminosité pour ajouter de la profondeur sans bruit visuel."
+            },
+            "fallback": {
+                "title": "✓ Fournissez une couleur de secours",
+                "desc": "Ajoutez une background-color solide avant votre dégradé comme solution de secours : background-color: #6366f1; background: linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Animez la position du dégradé",
+                "desc": "Les dégradés CSS ne peuvent pas être animés directement, mais vous pouvez animer background-position sur un dégradé plus grand pour créer un effet fluide."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Quelle est la différence entre dégradés linéaires, radiaux et coniques ?",
+            "a1": "Les dégradés linéaires effectuent la transition le long d'une ligne droite à un angle. Les dégradés radiaux rayonnent vers l'extérieur depuis un point central en cercles ou ellipses. Les dégradés coniques tournent autour d'un point central comme un graphique circulaire — idéal pour les anneaux de progression et les roues chromatiques.",
+            "q2": "Comment créer un dégradé transparent ?",
+            "a2": "Utilisez transparent comme arrêt de couleur : linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Cela crée un dégradé d'une couleur semi-opaque vers entièrement transparent — parfait pour les surimpressions d'images.",
+            "q3": "Pourquoi mon dégradé présente-t-il des bandes ou des rayures ?",
+            "a3": "Les bandes (rayures visibles entre les couleurs) apparaissent sur les écrans de mauvaise qualité ou lors de transitions sur des teintes similaires. Ajoutez un arrêt de couleur intermédiaire à une teinte complémentaire pour lisser la transition.",
+            "q4": "Puis-je utiliser des dégradés comme bordures ?",
+            "a4": "Oui, utilisez border-image: linear-gradient(...) 1. Cela définit le dégradé comme image de bordure. Alternativement, utilisez un pseudo-élément ::before avec un arrière-plan dégradé et un z-index négatif pour simuler une bordure dégradée."
+        }
+    }
+}

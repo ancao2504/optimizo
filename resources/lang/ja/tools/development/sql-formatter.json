@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "SQLフォーマッター オンライン - SQLを無料で整形 | Optimizo",
+        "description": "SQLクエリをオンラインで無料にフォーマット・整形。SELECT, INSERT, UPDATE, DELETE, CREATEや複雑なJOINを即座に整形。",
+        "h1": "SQLフォーマッター",
+        "subtitle": "SQLクエリを即座に整形・フォーマット — すべての主要なSQLダイアレクトに対応"
+    },
+    "editor": {
+        "title": "SQLフォーマッター",
+        "label_input": "SQLクエリを入力",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "SQLをフォーマット",
+        "btn_minify": "SQLを圧縮",
+        "label_output": "フォーマット済みSQL",
+        "btn_copy": "SQLをコピー"
+    },
+    "content": {
+        "why_title": "なぜSQLクエリをフォーマットするのか？",
+        "why_desc": "フォーマットされていないSQLは、特に複雑なJOIN、サブクエリ、CTEの場合にほとんど読めません。当フォーマッターは適切なインデント、改行、キーワードの大文字化を追加し、クエリのレビュー、デバッグ、チームでの共有を容易にします。",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "キーワードを大文字に",
+                "desc": "SELECT、FROM、WHERE、JOINなどのすべてのSQLキーワードを自動的に大文字に変換"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "スマートインデント",
+                "desc": "サブクエリ、CASE式、ネストされた句に適切なインデントを適用"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "圧縮",
+                "desc": "すべての空白を削除してSQLを1行に圧縮 — コード内のクエリ文字列に最適"
+            }
+        },
+        "how_title": "3ステップでSQLをフォーマットする方法",
+        "how_steps": {
+            "1": {
+                "title": "SQLクエリを貼り付け",
+                "desc": "コードエディタ、DBクライアント、クエリログからSQLをコピーして貼り付け"
+            },
+            "2": {
+                "title": "フォーマットをクリック",
+                "desc": "「SQLをフォーマット」をクリックして適切なインデントとキーワードの大文字化を適用"
+            },
+            "3": {
+                "title": "コピーして使用",
+                "desc": "フォーマット済みSQLをDBクライアント、ORM、ドキュメントに直接コピー"
+            }
+        },
+        "uses_title": "SQLフォーマットのユースケース",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "コードレビュー",
+                "desc": "レビュー前にSQLをフォーマットして同僚が構造を明確に確認できるようにする"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "クエリのデバッグ",
+                "desc": "複雑なWHERE句やJOINチェーンを解読してロジックエラーを素早く発見"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "ドキュメント",
+                "desc": "技術ドキュメント、README、チュートリアルにフォーマット済みSQLを挿入"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "クエリ最適化",
+                "desc": "フォーマット済みSQLで欠落したインデックスや非効率なJOROポーダーを特定しやすくする"
+            }
+        },
+        "tips_title": "SQLのベストプラクティス",
+        "tips": {
+            "select": {
+                "title": "✓ SELECT * を避ける",
+                "desc": "SELECT * の代わりに常に列名を指定する。パフォーマンスが向上し、テーブルスキーマ変更時の問題を防ぐ。"
+            },
+            "alias": {
+                "title": "✓ 明示的なエイリアスを使用",
+                "desc": "JOINで分かりやすいテーブルエイリアス（ユーザーにはu、注文にはoなど）を使用して複雑なクエリを読みやすくする。"
+            },
+            "explain": {
+                "title": "✓ EXPLAINを使用",
+                "desc": "低速クエリをデプロイする前にEXPLAINまたはEXPLAIN ANALYZEを実行してDBがどのように実行するかを理解する。"
+            },
+            "index": {
+                "title": "✓ WHERE列にインデックスを作成",
+                "desc": "WHERE、JOIN ON、ORDER BYの列にインデックスがあることを確認して最適なパフォーマンスを実現する。"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "どのSQLダイアレクトに対応していますか？",
+            "a1": "標準SQLおよびMySQL、PostgreSQL、SQLite、SQL Server（T-SQL）、Oracleと互換性があります。ダイアレクト固有のキーワードはそのまま残されます。",
+            "q2": "フォーマットはクエリの動作を変えますか？",
+            "a2": "いいえ。フォーマッターは空白とキーワードの大文字化のみを変更します。クエリのロジック、結果、実行計画はまったく変わりません。",
+            "q3": "ストアドプロシージャのあるSQLをフォーマットできますか？",
+            "a3": "はい。CREATE PROCEDURE、BEGIN/END、DECLARE文などのプロシージャSQL構造を処理します。",
+            "q4": "アプリケーションでの圧縮の用途は？",
+            "a4": "圧縮SQLはソースコードに埋め込まれたクエリ文字列のサイズを縮小し、ログをよりコンパクトにし、解析パフォーマンスをわずかに向上させる場合があります。"
+        }
+    }
+}

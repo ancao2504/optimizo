@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Generator Gradien CSS Online - Gratis | Optimizo",
+        "description": "Buat gradien CSS secara online dan gratis. Buat gradien linier, radial, dan konik dengan beberapa color stop dan kontrol sudut dengan ekspor CSS instan.",
+        "h1": "Generator Gradien CSS",
+        "subtitle": "Buat gradien linier, radial, dan konik yang indah dengan pratinjau real-time dan ekspor CSS"
+    },
+    "editor": {
+        "title": "Generator Gradien CSS",
+        "label_type": "Jenis Gradien",
+        "label_angle": "Sudut",
+        "label_stops": "Color Stop",
+        "btn_add_stop": "Tambah Stop",
+        "btn_copy": "Salin CSS"
+    },
+    "content": {
+        "why_title": "Mengapa menggunakan generator gradien visual?",
+        "why_desc": "Menulis gradien CSS secara manual rumit. Generator visual kami memungkinkan kontrol color stop dengan color picker dan slider posisi dengan pembaruan real-time.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 Jenis Gradien",
+                "desc": "Gradien linier, radial, dan konik — dengan kontrol khusus untuk setiap jenis"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Gradien Multi-warna",
+                "desc": "Tambahkan color stop tak terbatas dan seret posisi untuk gradien yang kompleks"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Pratinjau Real-time",
+                "desc": "Lihat rendering gradien secara real-time saat Anda menyesuaikan warna, posisi, dan sudut"
+            }
+        },
+        "how_title": "Buat gradien CSS dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Pilih jenis gradien",
+                "desc": "Pilih gradien linier, radial, atau konik dan sesuaikan sudut atau arah"
+            },
+            "2": {
+                "title": "Sesuaikan color stop",
+                "desc": "Atur warna setiap stop dengan color picker dan posisi dengan slider"
+            },
+            "3": {
+                "title": "Salin CSS",
+                "desc": "Klik 'Salin CSS' untuk mendapatkan properti background lengkap untuk digunakan dalam stylesheet"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Gradien CSS",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Latar Belakang Hero",
+                "desc": "Buat latar belakang layar penuh yang memukau dengan gradien diagonal atau radial"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Teks Gradien",
+                "desc": "Terapkan gradien pada teks dengan background-clip:text untuk efek tipografi yang memukau"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Border Gradien",
+                "desc": "Gunakan gradien dengan border-image untuk membuat bingkai berwarna di sekitar elemen"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Overlay Gambar",
+                "desc": "Letakkan gradien di atas gambar untuk overlay gelap yang memastikan keterbacaan teks"
+            }
+        },
+        "tips_title": "Praktik Terbaik Gradien CSS",
+        "tips": {
+            "angle": {
+                "title": "✓ Gunakan 135deg untuk gradien diagonal",
+                "desc": "Sudut 135 derajat membuat diagonal klasik dari pojok kiri atas ke kanan bawah."
+            },
+            "subtle": {
+                "title": "✓ Jaga gradien tetap halus dalam UI",
+                "desc": "Dalam elemen UI seperti tombol dan kartu, gunakan gradien yang sangat halus dengan perbedaan kecerahan 10-20% untuk kedalaman."
+            },
+            "fallback": {
+                "title": "✓ Atur warna fallback",
+                "desc": "Tambahkan warna latar belakang solid sebagai fallback: background-color:#6366f1; background:linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Animasikan gradien dengan background-position",
+                "desc": "Gradien CSS tidak dapat dianimasikan secara langsung, namun Anda dapat menganimasikan background-position pada gradien yang lebih besar untuk efek gerakan yang halus."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Apa perbedaan antara gradien linier, radial, dan konik?",
+            "a1": "Gradien linier bertransisi di sepanjang garis lurus sesuai sudut. Radial memancar dari titik pusat dalam bentuk lingkaran atau elips. Konik berputar di sekitar titik pusat — ideal untuk progress indicator melingkar.",
+            "q2": "Bagaimana cara membuat gradien transparan?",
+            "a2": "Gunakan transparent sebagai color stop: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Membuat gradien dari warna semi-transparan ke sepenuhnya transparan — ideal untuk overlay gambar.",
+            "q3": "Mengapa saya melihat banding di gradien saya?",
+            "a3": "Banding (garis terlihat antara warna) muncul di layar berkualitas rendah atau saat bertransisi antara hue yang serupa. Tambahkan color stop di tengah untuk memperhalus transisi.",
+            "q4": "Bisakah gradien digunakan sebagai border?",
+            "a4": "Ya; gunakan border-image:linear-gradient(...) 1. Alternatifnya, pseudo-element ::before dengan latar belakang gradien dan z-index negatif dapat mensimulasikan gradient border."
+        }
+    }
+}

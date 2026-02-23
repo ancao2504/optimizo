@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Generator palet kolorów Online - Tworzenie schematów za darmo | Optimizo",
+        "description": "Generuj piękne palety kolorów online za darmo. Twórz komplementarne, triadyczne, analogiczne i monochromatyczne schematy kolorów z natychmiastowym eksportem CSS.",
+        "h1": "Generator palet kolorów",
+        "subtitle": "Generuj harmonijne palety na podstawie teorii kolorów — komplementarne, triadyczne, analogiczne i inne"
+    },
+    "editor": {
+        "title": "Generator palet kolorów",
+        "label_base": "Kolor podstawowy",
+        "label_harmony": "Harmonia kolorów",
+        "opt_complementary": "Komplementarny",
+        "opt_triadic": "Triadyczny",
+        "opt_analogous": "Analogiczny",
+        "opt_split": "Rozdzielony komplementarny",
+        "opt_tetradic": "Tetradyczny",
+        "opt_shades": "Monochromatyczne odcienie",
+        "btn_copy": "Kopiuj jako zmienne CSS"
+    },
+    "content": {
+        "why_title": "Dlaczego używać generatora palet kolorów?",
+        "why_desc": "Wybieranie kolorów, które dobrze ze sobą współgrają, wymaga znajomości teorii kolorów — relacji komplementarnych, analogicznych, triadycznych i rozdzielonych komplementarnych. Robienie tego ręcznie z kołem kolorów jest powolne. Nasz generator używa matematyki HSL do automatycznego obliczania harmonijnych palet z dowolnego koloru podstawowego, pozwalając projektantom i programistom tworzyć profesjonalne schematy w ciągu sekund.",
+        "features": {
+            "harmony": {
+                "icon": "🎨",
+                "title": "6 trybów harmonii",
+                "desc": "Komplementarny, triadyczny, analogiczny, rozdzielony komplementarny, tetradyczny i monochromatyczne odcienie"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Podgląd próbek kolorów na żywo",
+                "desc": "Kliknij dowolną próbkę, aby natychmiast skopiować jej kod szesnastkowy do schowka"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Eksport zmiennych CSS",
+                "desc": "Eksportuj całą paletę jako niestandardowe właściwości CSS gotowe do wklejenia w arkuszu stylów"
+            }
+        },
+        "how_title": "Jak wygenerować paletę w 3 krokach",
+        "how_steps": {
+            "1": {
+                "title": "Wybierz kolor podstawowy",
+                "desc": "Użyj selektora kolorów lub wpisz kod szesnastkowy, aby ustawić kolor wyjściowy/marki"
+            },
+            "2": {
+                "title": "Wybierz typ harmonii",
+                "desc": "Wybierz komplementarny, triadyczny, analogiczny lub inną harmonię odpowiednią do projektu"
+            },
+            "3": {
+                "title": "Skopiuj i użyj",
+                "desc": "Kliknij próbkę, aby skopiować jej kod hex, lub użyj 'Kopiuj jako zmienne CSS' do eksportu całej palety"
+            }
+        },
+        "uses_title": "Przypadki użycia palet kolorów",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Projektowanie stron WWW",
+                "desc": "Zbuduj kompletny system kolorów dla strony na podstawie podstawowego koloru marki"
+            },
+            "brand": {
+                "icon": "🏢",
+                "title": "Tożsamość marki",
+                "desc": "Opracuj profesjonalną paletę kolorów marki z kolorami podstawowym, dodatkowym i akcentem"
+            },
+            "app": {
+                "icon": "📱",
+                "title": "Projektowanie UI/UX",
+                "desc": "Twórz dostępne i wizualnie spójne kolory dla przycisków, tekstu i teł aplikacji"
+            },
+            "data": {
+                "icon": "📊",
+                "title": "Wizualizacja danych",
+                "desc": "Generuj odrębne kolory kategorii dla wykresów, tabel i pulpitów danych"
+            }
+        },
+        "tips_title": "Najlepsze praktyki projektowania kolorystycznego",
+        "tips": {
+            "contrast": {
+                "title": "✓ Sprawdź kontrast kolorów (WCAG)",
+                "desc": "Upewnij się, że pary tekst/tło spełniają współczynnik kontrastu WCAG AA (4,5:1 dla normalnego tekstu) dostępności."
+            },
+            "limit": {
+                "title": "✓ Ogranicz paletę",
+                "desc": "Trzymaj się 3-5 kolorów: 1 podstawowy, 1 dodatkowy, 1-2 akcenty i neutralne. Więcej kolorów tworzy wizualny bałagan."
+            },
+            "psychology": {
+                "title": "✓ Weź pod uwagę psychologię kolorów",
+                "desc": "Niebieski = zaufanie/profesjonalizm, Zielony = wzrost/sukces, Czerwony = pilność/energia, Żółty = optymizm. Dopasuj paletę do przekazu marki."
+            },
+            "dark": {
+                "title": "✓ Testuj w trybie ciemnym",
+                "desc": "Generuj wariant trybu ciemnego, dostosowując wartości jasności. Czysty czarny (#000) i czysty biały (#fff) rzadko są idealne — używaj prawie czarnego i prawie białego."
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Co to jest komplementarny schemat kolorów?",
+            "a1": "Kolory komplementarne leżą naprzeciw siebie na kole kolorów (np. niebieski i pomarańczowy, czerwony i zielony). Tworzą wysoki kontrast i wizualną energię — idealne dla przycisków CTA i wyróżnień.",
+            "q2": "Kiedy używać analogicznego schematu kolorów?",
+            "a2": "Analogiczne schematy używają 3 sąsiednich kolorów na kole kolorów. Tworzą harmonijne i spokojne projekty z małym kontrastem — idealne dla teł, gradientów i miękkiego interfejsu.",
+            "q3": "Co to jest HSL w porównaniu z RGB i Hex?",
+            "a3": "Wszystkie trzy reprezentują ten sam kolor w różnych formatach. Hex (#6366f1) jest używany w CSS. RGB (99, 102, 241) określa kanały czerwony/zielony/niebieski. HSL (237°, 84%, 67%) używa odcienia, nasycenia, jasności — znacznie bardziej intuicyjny do generowania harmonijnych palet.",
+            "q4": "Jak tworzyć paletę kolorów dla trybu ciemnego?",
+            "a4": "W przypadku trybu ciemnego znacznie zmniejsz jasność kolorów (np. J:60% → J:30%) i zamień role tekstu/tła. Zachowaj podobny odcień i nasycenie, ale dostosuj jasność tak, aby kolory pozostały czytelne na ciemnych tłach."
+        }
+    }
+}

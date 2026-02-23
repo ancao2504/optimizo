@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Kiểm Tra Regex Online - Kiểm Tra Biểu Thức Chính Quy Miễn Phí | Optimizo",
+        "description": "Kiểm tra biểu thức chính quy (Regex) trực tuyến và miễn phí. Tô sáng kết quả khớp theo thời gian thực, hỗ trợ cờ và chi tiết nhóm bắt giữ.",
+        "h1": "Kiểm Tra Regex",
+        "subtitle": "Kiểm tra Regex theo thời gian thực — tô sáng kết quả khớp, cờ regex và chi tiết nhóm bắt giữ"
+    },
+    "editor": {
+        "title": "Kiểm Tra Regex",
+        "label_pattern": "Mẫu (Regex)",
+        "ph_pattern": "VD: \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Cờ",
+        "label_test": "Văn bản kiểm tra",
+        "ph_test": "Dán văn bản cần kiểm tra...",
+        "btn_test": "Kiểm tra",
+        "btn_clear": "Xóa"
+    },
+    "content": {
+        "why_title": "Tại sao dùng công cụ kiểm tra Regex?",
+        "why_desc": "Biểu thức chính quy là công cụ khớp mẫu mạnh mẽ được dùng trong hầu hết các ngôn ngữ lập trình. Gỡ lỗi có thể phức tạp — một lỗi nhỏ có thể thay đổi hoàn toàn hành vi. Công cụ của chúng tôi tô sáng kết quả khớp theo thời gian thực ở mỗi lần gõ phím.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Tô sáng theo thời gian thực",
+                "desc": "Kết quả khớp được tô sáng ngay lập tức ở mỗi lần gõ phím — không cần nhấn nút"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Chi tiết nhóm bắt giữ",
+                "desc": "Hiển thị tất cả nhóm bắt giữ, chỉ số và giá trị khớp cho mỗi kết quả"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Hỗ trợ đầy đủ cờ",
+                "desc": "Bật riêng từng cờ g, i, m, s, u, y và quan sát tác động ngay lập tức"
+            }
+        },
+        "how_title": "Kiểm tra Regex trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Nhập Mẫu",
+                "desc": "Nhập biểu thức chính quy vào trường mẫu (không có dấu gạch chéo)"
+            },
+            "2": {
+                "title": "Chọn cờ",
+                "desc": "Bật các cờ như g (toàn cục), i (không phân biệt hoa thường), m (nhiều dòng) khi cần"
+            },
+            "3": {
+                "title": "Dán văn bản kiểm tra",
+                "desc": "Nhập văn bản và kết quả khớp sẽ được tô sáng tự động"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng Regex phổ biến",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Xác thực biểu mẫu",
+                "desc": "Xác thực địa chỉ email, số điện thoại, URL, mã bưu chính và định dạng tùy chỉnh"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Tìm kiếm và thay thế",
+                "desc": "Tìm kiếm và thay thế mẫu trong trình soạn thảo code, tệp log và quy trình xử lý văn bản"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Phân tích log",
+                "desc": "Trích xuất dữ liệu có cấu trúc (IP, dấu thời gian, mã lỗi) từ log không có cấu trúc"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Làm sạch đầu vào",
+                "desc": "Xóa hoặc thay thế các ký tự nguy hiểm trong dữ liệu người dùng trước khi lưu trữ"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Dùng neo để khớp chính xác",
+                "desc": "Dùng ^ và $ để neo mẫu vào đầu và cuối dòng"
+            },
+            "groups": {
+                "title": "✓ Ưu tiên nhóm không bắt giữ",
+                "desc": "Dùng (?:...) thay vì (...) khi không cần bắt giữ nhóm"
+            },
+            "escape": {
+                "title": "✓ Escape ký tự đặc biệt",
+                "desc": ". * + ? ( ) [ ] { } | ^ $ \\ có ý nghĩa đặc biệt — dùng \\ để khớp theo nghĩa đen"
+            },
+            "test": {
+                "title": "✓ Kiểm tra các trường hợp biên",
+                "desc": "Luôn kiểm tra với chuỗi rỗng, ký tự Unicode, đầu vào rất dài và giá trị biên"
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Công cụ kiểm tra dùng phương ngữ Regex nào?",
+            "a1": "Công cụ RegExp tích hợp của JavaScript (tiêu chuẩn ECMAScript). Hỗ trợ lookahead, lookbehind (ES2018+), nhóm bắt giữ có tên và thuộc tính Unicode.",
+            "q2": "Sự khác biệt giữa cờ g và m là gì?",
+            "a2": "Cờ g (toàn cục) tìm tất cả kết quả khớp trong chuỗi, không chỉ cái đầu tiên. Cờ m (nhiều dòng) làm cho ^ và $ khớp với đầu và cuối mỗi dòng.",
+            "q3": "Làm thế nào để khớp một dấu chấm hoặc dấu sao theo nghĩa đen?",
+            "a3": "Escape bằng dấu gạch chéo ngược: \\. khớp dấu chấm theo nghĩa đen, \\* khớp dấu sao theo nghĩa đen.",
+            "q4": "Tại sao Regex của tôi khớp nhiều văn bản hơn mong đợi?",
+            "a4": "Bạn có thể đang dùng lượng từ tham. * và + mặc định là tham — khớp nhiều văn bản nhất có thể. Thêm ? để hành vi lười: *? hoặc +? khớp ít nhất có thể."
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Online SVG Optimalizáló - SVG Tömörítés Ingyen | Optimizo",
+        "description": "SVG fájlok optimalizálása és tömörítése online, ingyen. Távolítsa el a megjegyzéseket, metaadatokat és felesleges attribútumokat a fájlméret csökkentéséhez a vizuális minőség megőrzésével.",
+        "h1": "SVG Optimalizáló",
+        "subtitle": "SVG fájlok online tömörítése — metaadatok, megjegyzések és felesleges attribútumok eltávolítása a fájlméret csökkentéséhez"
+    },
+    "editor": {
+        "title": "SVG Optimalizáló",
+        "opt_remove_comments": "Megjegyzések eltávolítása",
+        "opt_remove_metadata": "Metaadatok eltávolítása",
+        "opt_remove_ids": "ID-k eltávolítása",
+        "opt_remove_dimensions": "Szélesség/magasság eltávolítása",
+        "opt_remove_doctype": "DOCTYPE eltávolítása",
+        "opt_round_numbers": "Számok kerekítése",
+        "opt_collapse_groups": "Üres csoportok eltávolítása",
+        "opt_remove_empty_containers": "Üres konténerek eltávolítása",
+        "label_input": "SVG bemenet",
+        "ph_input": "Illessze be az SVG kódját ide...",
+        "btn_optimize": "SVG optimalizálása",
+        "label_output": "Optimalizált SVG",
+        "btn_copy": "SVG másolása"
+    },
+    "content": {
+        "why_title": "Miért optimalizálja az SVG fájlokat?",
+        "why_desc": "Az Illustratorból, Figmából és Inkscape-ből exportált SVG fájlok sok felesleges adatot tartalmaznak — megjegyzéseket, szerkesztői metaadatokat, redundáns attribútumokat és üres konténereket. Optimalizálás után a fájlméret 30-70%-kal csökkenthető és a betöltés gyorsabb lesz.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 optimalizálási stratégia",
+                "desc": "Minden optimalizálási menet egyenként aktiválható/deaktiválható a pontos vezérléshez"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Méretcsökkentési statisztikák",
+                "desc": "Látja az eredeti méretet, az optimalizált méretet és a megtakarítási százalékot minden optimalizálás után"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Veszteségmentes optimalizálás",
+                "desc": "Minden optimalizálás megőrzi az SVG vizuális megjelenését — csak a láthatatlan metaadatokat távolítja el"
+            }
+        },
+        "how_title": "SVG optimalizálás 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "SVG kód beillesztése",
+                "desc": "Másolja az SVG forráskódot egy tervező eszközből vagy fájlból és illessze be a bemeneti mezőbe"
+            },
+            "2": {
+                "title": "Optimalizálások kiválasztása",
+                "desc": "Jelölje be a kívánt optimalizálási beállításokat — az alapértelmezett beállítások maximális csökkentést biztosítanak"
+            },
+            "3": {
+                "title": "Másolás és felhasználás",
+                "desc": "Másolja az optimalizált SVG-t és cserélje ki az eredeti fájlt, vagy ágyazza be közvetlenül a HTML-be"
+            }
+        },
+        "uses_title": "SVG optimalizálás felhasználási esetek",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Ikon könyvtárak",
+                "desc": "Optimalizálja a Figmából vagy Illustratorból exportált ikon készleteket a könyvtárhoz adás előtt"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Logók",
+                "desc": "Tisztítsa meg az SVG logókat weboldal fejlécekhez, faviconokhoz és márka eszközökhöz"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "Animált SVG-k",
+                "desc": "Csökkentse az animált SVG-k alapméretét, amelyek már az animációs adatok miatt nagyok"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA és mobil",
+                "desc": "A kisebb SVG-k csökkentik a mobil adatfelhasználást és javítják a Lighthouse teljesítményt"
+            }
+        },
+        "tips_title": "SVG optimalizálás legjobb gyakorlatai",
+        "tips": {
+            "ids": {
+                "title": "✓ Legyen óvatos az ID-k eltávolításával CSS animációk esetén",
+                "desc": "Ha az SVG CSS- vagy JS-animációkat tartalmaz, amelyek ID elemeket céloznak, tiltsa le az 'ID-k eltávolítása' opciót, hogy az animációk ne törjenek meg."
+            },
+            "viewbox": {
+                "title": "✓ Tartsa meg a viewBox-ot, távolítsa el a szélességet/magasságot",
+                "desc": "A szélesség/magasság attribútumok eltávolítása és csak a viewBox megtartása lehetővé teszi az SVG reszponzív skálázását CSS-en keresztül."
+            },
+            "precision": {
+                "title": "✓ Kerekítse a számokat 2 tizedesjegyre",
+                "desc": "A több mint 5 tizedesjegyű útkoordináták vizuálisan megkülönböztethetetlenek. A 2-re kerekítés csökkenti a fájlméretet."
+            },
+            "pipeline": {
+                "title": "✓ Automatizálja az SVGO-t CI/CD-ben",
+                "desc": "Nagy projektekben integrálja az SVGO-t a build folyamatba az összes SVG automatikus optimalizálásához."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Mennyivel csökkentheti az SVG optimalizálás a fájlméretet?",
+            "a1": "Általában 30-70% megtakarítás a forrástól függően. Az Illustrator SVG-k mutatják a legnagyobb megtakarítást; a Figma exportok már viszonylag tiszták.",
+            "q2": "Az optimalizálás megváltoztatja az SVG megjelenését?",
+            "a2": "Nem — az eszközben lévő összes optimalizálás csak láthatatlan adatokat távolít el vagy számokat kerekít észrevehetetlen pontossággal. A vizuális eredmény megegyezik az eredetivel.",
+            "q3": "Miért távolítják el a szélesség és magasság attribútumokat?",
+            "a3": "A keményen kódolt szélesség/magasság értékek megakadályozzák az SVG reszponzív skálázását CSS-en keresztül. Eltávolításuk és csak a viewBox megtartása teljes méretvezérlést biztosít CSS tulajdonságokon keresztül.",
+            "q4": "Mi a különbség az eszköz és az SVGO között?",
+            "a4": "Az SVGO egy Node.js parancssori eszköz, amely az SVG optimalizálás szabványa. Ez az eszköz felhasználóbarát böngésző felületet kínál a leggyakoribb optimalizálásokhoz Node.js telepítése nélkül."
+        }
+    }
+}

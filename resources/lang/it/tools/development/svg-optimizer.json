@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Ottimizzatore SVG Online - Compressore SVG gratuito | Optimizo",
+        "description": "Ottimizza e comprimi file SVG online gratis. Rimuovi commenti, metadati e attributi non necessari per ridurre le dimensioni preservando l'aspetto visivo.",
+        "h1": "Ottimizzatore SVG",
+        "subtitle": "Comprimi i file SVG online — rimuovi metadati, commenti e attributi ridondanti per ridurre le dimensioni"
+    },
+    "editor": {
+        "title": "Ottimizzatore SVG",
+        "opt_remove_comments": "Rimuovi commenti",
+        "opt_remove_metadata": "Rimuovi metadati",
+        "opt_remove_ids": "Rimuovi ID",
+        "opt_remove_dimensions": "Rimuovi larghezza/altezza",
+        "opt_remove_doctype": "Rimuovi DOCTYPE",
+        "opt_round_numbers": "Arrotonda numeri",
+        "opt_collapse_groups": "Rimuovi gruppi vuoti",
+        "opt_remove_empty_containers": "Rimuovi contenitori vuoti",
+        "label_input": "SVG di input",
+        "ph_input": "Incolla qui il tuo codice SVG...",
+        "btn_optimize": "Ottimizza SVG",
+        "label_output": "SVG ottimizzato",
+        "btn_copy": "Copia SVG"
+    },
+    "content": {
+        "why_title": "Perché ottimizzare i file SVG?",
+        "why_desc": "I file SVG esportati da Illustrator, Figma o Inkscape contengono molti dati non necessari — commenti, metadati dell'editor, attributi ridondanti, numeri decimali troppo precisi e contenitori vuoti. Questi elementi gonfiano le dimensioni dei file del 30-70% senza alcun vantaggio visivo. Gli SVG ottimizzati si caricano più velocemente, consumano meno larghezza di banda e possono essere incorporati in modo più pulito nell'HTML.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 strategie di ottimizzazione",
+                "desc": "Attiva/disattiva individualmente ogni passata di ottimizzazione per un controllo preciso di ciò che viene rimosso"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Statistiche di riduzione dimensioni",
+                "desc": "Vedi la dimensione originale, la dimensione ottimizzata e la percentuale di risparmio dopo ogni ottimizzazione"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Ottimizzazione senza perdita visiva",
+                "desc": "Tutte le ottimizzazioni preservano l'aspetto visivo dell'SVG — vengono rimossi solo i metadati invisibili"
+            }
+        },
+        "how_title": "Come ottimizzare un SVG in 3 passi",
+        "how_steps": {
+            "1": {
+                "title": "Incolla il codice SVG",
+                "desc": "Copia il codice sorgente SVG dal tuo strumento di design o file e incollalo nel campo di input"
+            },
+            "2": {
+                "title": "Seleziona le ottimizzazioni",
+                "desc": "Spunta le opzioni di ottimizzazione da applicare — o usa i valori predefiniti per la riduzione massima"
+            },
+            "3": {
+                "title": "Copia e distribuisci",
+                "desc": "Copia l'SVG ottimizzato e sostituisci il tuo file originale, o incorporalo direttamente nell'HTML"
+            }
+        },
+        "uses_title": "Casi d'uso dell'ottimizzazione SVG",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Librerie di icone",
+                "desc": "Ottimizza i set di icone esportati da Figma o Illustrator prima di raggrupparli in una libreria"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Loghi",
+                "desc": "Pulisci i loghi SVG esportati per intestazioni di siti, favicon e risorse di brand"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "SVG animati",
+                "desc": "Riduci le dimensioni di base degli SVG animati che sono già più grandi a causa dei dati di animazione"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA e mobile",
+                "desc": "SVG più piccoli riducono il consumo di dati mobili e migliorano i punteggi di performance su Lighthouse"
+            }
+        },
+        "tips_title": "Best practice per l'ottimizzazione SVG",
+        "tips": {
+            "ids": {
+                "title": "✓ Attenzione alla rimozione degli ID nelle animazioni CSS",
+                "desc": "Se il tuo SVG usa animazioni CSS o JavaScript che puntano a ID di elementi, deseleziona 'Rimuovi ID' per non rompere le animazioni."
+            },
+            "viewbox": {
+                "title": "✓ Mantieni viewBox, rimuovi larghezza/altezza",
+                "desc": "Rimuovere gli attributi larghezza/altezza e mantenere viewBox rende gli SVG responsivi tramite CSS — l'approccio migliore per il design responsivo."
+            },
+            "precision": {
+                "title": "✓ Arrotonda i numeri a 2 decimali",
+                "desc": "Le coordinate del percorso con 5+ decimali sono impercettibili visivamente. Arrotondare a 2 decimali riduce le dimensioni del file senza alcuna differenza visiva."
+            },
+            "pipeline": {
+                "title": "✓ Automatizza con SVGO in CI/CD",
+                "desc": "Per i progetti grandi, integra SVGO nella tua pipeline di build per ottimizzare automaticamente tutti gli SVG. Usa questo strumento per verifiche manuali rapide."
+            }
+        },
+        "faq_title": "❓ Domande frequenti",
+        "faq": {
+            "q1": "Di quanto può ridurre le dimensioni l'ottimizzazione SVG?",
+            "a1": "Tipicamente una riduzione del 30-70% a seconda della fonte. Gli SVG de Illustrator offrono spesso i maggiori risparmi. Le esportazioni di Figma sono già relativamente pulite. I maggiori guadagni derivano dalla rimozione dei metadati dell'editor, dei commenti e dall'arrotondamento della precisione decimale.",
+            "q2": "L'ottimizzazione cambia l'aspetto del mio SVG?",
+            "a2": "No — tutte le ottimizzazioni di questo strumento rimuovono solo dati invisibili (commenti, metadati, attributi ridondanti) o arrotondano numeri a una precisione impercettibile. Il risultato visivo è identico all'originale.",
+            "q3": "Perché rimuovere gli attributi larghezza e altezza?",
+            "a3": "I valori larghezza/altezza codificati impediscono agli SVG di ridimensionarsi in modo responsivo tramite CSS. Rimuovendoli e mantenendo solo viewBox, puoi controllare completamente le dimensioni dell'SVG tramite le proprietà CSS.",
+            "q4": "Qual è la differenza tra questo strumento e SVGO?",
+            "a4": "SVGO è uno strumento a riga di comando Node.js e lo standard per l'ottimizzazione SVG. Questo strumento offre una comoda interfaccia nel browser per le ottimizzazioni più comuni senza richiedere l'installazione di Node.js."
+        }
+    }
+}

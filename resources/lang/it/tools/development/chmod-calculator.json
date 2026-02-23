@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Calcolatore chmod Online - Generatore di permessi Linux gratis | Optimizo",
+        "description": "Calcolatore chmod gratuito online. Converti i permessi dei file Linux tra notazione simbolica (rwxr-xr-x) e ottale (755) e genera comandi chmod.",
+        "h1": "Calcolatore chmod",
+        "subtitle": "Calcola i permessi Linux — converti tra notazione simbolica e ottale e genera comandi chmod"
+    },
+    "editor": {
+        "title": "Calcolatore di permessi chmod",
+        "label_octal": "Valore ottale",
+        "col_type": "Tipo",
+        "col_read": "Lettura (r)",
+        "col_write": "Scrittura (w)",
+        "col_exec": "Esecuzione (x)",
+        "col_octal": "Ottale",
+        "row_owner": "Proprietario",
+        "row_group": "Gruppo",
+        "row_others": "Altri (Mondo)",
+        "btn_copy": "Copia comando"
+    },
+    "content": {
+        "why_title": "Perché usare un calcolatore chmod?",
+        "why_desc": "I permessi dei file Linux sono espressi in due formati — simbolico (rwxr-xr-x) e ottale (755). Calcolare manualmente il valore di permesso corretto è soggetto a errori, specialmente per set di permessi meno comuni. Il nostro calcolatore ti permette di spuntare caselle visivamente per impostare i permessi e genera istantaneamente il valore ottale e il comando chmod pronto per l'uso.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Costruttore visivo di permessi",
+                "desc": "Spunta le caselle lettura/scrittura/esecuzione per proprietario/gruppo/altri — i valori si aggiornano istantaneamente"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Sincronizzazione bidirezionale",
+                "desc": "Inserisci un valore ottale (come 755) e le caselle si aggiornano automaticamente, o viceversa"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Comando pronto per l'uso",
+                "desc": "Genera il comando chmod completo da incollare direttamente nel tuo terminale"
+            }
+        },
+        "how_title": "Come calcolare i permessi",
+        "how_steps": {
+            "1": {
+                "title": "Spunta i permessi desiderati",
+                "desc": "Fai clic sulle caselle lettura/scrittura/esecuzione per Proprietario, Gruppo e Altri"
+            },
+            "2": {
+                "title": "Consulta l'ottale e il simbolico",
+                "desc": "Il valore ottale (es. 755) e la notazione simbolica (rwxr-xr-x) si aggiornano istantaneamente"
+            },
+            "3": {
+                "title": "Copia il comando",
+                "desc": "Copia il comando chmod generato ed eseguilo nel tuo terminale"
+            }
+        },
+        "uses_title": "Scenari chmod comuni",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "File del server web",
+                "desc": "Imposta 644 per i file HTML/CSS/JS (proprietario lettura/scrittura, gruppo/altri sola lettura) su Apache o Nginx"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Script eseguibili",
+                "desc": "Imposta 755 per gli script shell (proprietario completo, gruppo/altri lettura+esecuzione) per renderli eseguibili"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "Chiavi SSH",
+                "desc": "SSH richiede che le chiavi private abbiano il permesso 600 (solo proprietario lettura/scrittura) o SSH si rifiuterà di usarle"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Directory di upload",
+                "desc": "Imposta 775 per le directory di upload web affinché il processo del server web possa scrivere i file caricati"
+            }
+        },
+        "tips_title": "Best practice per i permessi Linux",
+        "tips": {
+            "never777": {
+                "title": "✓ Non usare mai 777 in produzione",
+                "desc": "chmod 777 dà a tutti accesso completo in lettura/scrittura/esecuzione — un grave rischio di sicurezza. Concedi sempre i permessi minimi necessari."
+            },
+            "least": {
+                "title": "✓ Principio del minimo privilegio",
+                "desc": "Concedi sempre i permessi minimi necessari. Inizia in modo restrittivo (600) e aggiungi permessi secondo le necessità invece di partire aperto."
+            },
+            "recursive": {
+                "title": "✓ Attenzione a -R ricorsivo",
+                "desc": "chmod -R applica i permessi ricorsivamente a tutti i file e directory. Impostare l'esecuzione sulle directory è generalmente corretto, ma non sempre per i file."
+            },
+            "umask": {
+                "title": "✓ Comprendi umask",
+                "desc": "Il valore umask sottrae permessi dal predefinito. Un umask di 022 significa che i nuovi file ottengono 644 e le nuove directory 755 per impostazione predefinita."
+            }
+        },
+        "faq_title": "❓ Domande frequenti",
+        "faq": {
+            "q1": "Cosa significa chmod 755?",
+            "a1": "755 significa: Proprietario (7) = lettura+scrittura+esecuzione, Gruppo (5) = lettura+esecuzione, Altri (5) = lettura+esecuzione. È il permesso standard per i file eseguibili e le directory pubbliche.",
+            "q2": "Qual è la differenza tra 644 e 755?",
+            "a2": "644 (rw-r--r--): Il proprietario può leggere/scrivere, gli altri possono solo leggere — per i file ordinari. 755 (rwxr-xr-x): Il proprietario può anche eseguire — per script e directory.",
+            "q3": "Perché la mia chiave SSH ha bisogno del permesso 600?",
+            "a3": "SSH si rifiuta di usare le chiavi private accessibili ad altri utenti. Il permesso 600 (rw-------) garantisce che solo il proprietario possa leggere/scrivere la chiave, impedendo l'accesso non autorizzato.",
+            "q4": "Cosa significa il bit di esecuzione su una directory?",
+            "a4": "Per le directory, il bit di esecuzione significa 'attraversare' — consente agli utenti di entrare nella directory e accedere ai file che contiene. Senza il permesso di esecuzione su una directory, gli utenti non possono entrarci anche se hanno il permesso di lettura."
+        }
+    }
+}

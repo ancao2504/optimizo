@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "CSS Flexbox Oluşturucu Çevrimiçi - Görsel Düzen | Optimizo",
+        "description": "CSS Flexbox düzenlerini çevrimiçi ücretsiz görsel olarak oluşturun. Gerçek zamanlı önizleme ve anında CSS dışa aktarmayla yön, justify-content, align-items ayarlayın.",
+        "h1": "CSS Flexbox Oluşturucu",
+        "subtitle": "CSS Flexbox düzenlerini görsel oluşturun — tüm özellikleri gerçek zamanlı önizlemeyle ayarlayın"
+    },
+    "editor": {
+        "title": "Flexbox Oluşturucu",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Boşluk (gap)",
+        "label_items": "Öğe Sayısı",
+        "label_preview": "Gerçek Zamanlı Önizleme",
+        "btn_copy": "CSS'yi Kopyala"
+    },
+    "content": {
+        "why_title": "Görsel Flexbox Oluşturucu Neden Kullanılır?",
+        "why_desc": "CSS Flexbox'ın etkileşen pek çok özelliği vardır ve kombinasyonları karmaşıklaşabilir. Görsel oluşturucumuzla açılır menülerle her özelliği ayarlayabilir ve düzeni gerçek zamanlı güncellendiğini görebilirsiniz.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Gerçek Zamanlı Önizleme",
+                "desc": "Özellik değişikliklerinde Flexbox düzeninin tam davranışını görün — tahmin gerekmez"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Tüm Özellikler",
+                "desc": "flex-direction, justify-content, align-items, flex-wrap ve gap tek arayüzde"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Hazır CSS",
+                "desc": "Stil sayfanıza yapıştırılabilecek temiz .container {} bloğunu kopyalayın"
+            }
+        },
+        "how_title": "Flexbox Düzeni Nasıl Oluşturulur",
+        "how_steps": {
+            "1": {
+                "title": "Yön ve Kaydırmayı Ayarlayın",
+                "desc": "Ana eksen ve taşmayı kontrol etmek için flex-direction (satır/sütun) ve flex-wrap'i seçin"
+            },
+            "2": {
+                "title": "Öğe Hizalamayı Ayarlayın",
+                "desc": "Öğe dağıtımını ve hizalamasını kontrol etmek için justify-content ve align-items'ı ayarlayın"
+            },
+            "3": {
+                "title": "CSS'yi Kopyalayın",
+                "desc": "'CSS'yi Kopyala'ya tıklayarak projenize hazır tam .container CSS bloğunu alın"
+            }
+        },
+        "uses_title": "Flexbox Kullanım Alanları",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Gezinti Çubuğu",
+                "desc": "Flexbox, logo+bağlantılar için justifyContent:space-between kullanan yatay gezinti çubuğu için idealdir"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Kart Izgarası",
+                "desc": "Sabit flex temelli flex-wrap:wrap ile mobil uyumlu kart ızgarası oluşturun"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Mükemmel Ortalama",
+                "desc": "justifyContent:center + alignItems:center — herhangi bir öğeyi ortalayan en basit yöntem"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Form Düzeni",
+                "desc": "Flexbox ile etiketleri ve form alanlarını yatay veya dikey hizalayarak temiz form oluşturun"
+            }
+        },
+        "tips_title": "Flexbox En İyi Uygulamaları",
+        "tips": {
+            "axis": {
+                "title": "✓ Ana ve Çapraz Ekseni Anlayın",
+                "desc": "justify-content ana ekseni kontrol eder (satır=yatay). align-items çapraz ekseni kontrol eder. flex-direction:column'e geçince rolleri değişir."
+            },
+            "grow": {
+                "title": "✓ Esnek Öğeler için flex:1 Kullanın",
+                "desc": "Flex öğesine flex:1 eklemek mevcut alanı dolduracak şekilde genişlemesini sağlar. Taşmayı önlemek için min-width:0 ile birleştirin."
+            },
+            "gap": {
+                "title": "✓ Kenar Boşluğu Yerine gap Kullanın",
+                "desc": "gap özelliği, dış kenarlara marj eklemeden flex öğeleri arasında eşit boşluk oluşturur."
+            },
+            "grid": {
+                "title": "✓ 2D Düzenler için Grid Kullanın",
+                "desc": "Flexbox tek seferde bir ekseni (satır veya sütun) kontrol eder. Hem satır hem sütun kontrolü için 2B ızgaralarda CSS Grid kullanın."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "CSS Grid yerine Flexbox ne zaman kullanılır?",
+            "a1": "Flexbox, tek boyutlu düzenler (gezinti çubuğu, düğme grubu, form satırı) için idealdir. CSS Grid, satır ve sütunları aynı anda kontrol etmek için iki boyutlu düzenlerde üstündür.",
+            "q2": "flex-wrap:wrap nedir?",
+            "a2": "Varsayılan olarak flex öğeleri taşma olsa bile tek satıra zorlanır. flex-wrap:wrap öğelerin taşma anında bir sonraki satıra geçmesini sağlar — duyarlı düzenler için zorunludur.",
+            "q3": "align-items ile align-content arasındaki fark nedir?",
+            "a3": "align-items tek satırdaki flex öğelerini hizalar. align-content yalnızca birden fazla satır varsa (flex-wrap:wrap) uygulanır; kapsayıcı içindeki satırların dağıtımını kontrol eder.",
+            "q4": "Flexbox ile eşit genişlikte sütunlar nasıl oluşturulur?",
+            "a4": "Her flex öğesine flex:1 uygulayın. Bu, mevcut alanı eşit dolduracak şekilde genişlemesini sağlar. İçerikten bağımsız tam olarak 3 eşit sütun için flex:0 0 33,33% kullanın."
+        }
+    }
+}

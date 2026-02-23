@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "YAML Biçimlendirici Çevrimiçi - YAML Dosyaları Ücretsiz | Optimizo",
+        "description": "YAML dosyalarını çevrimiçi ücretsiz biçimlendirin ve doğrulayın. Anında YAML düzenleme, doğru girintileme ve sözdizimi denetimi.",
+        "h1": "YAML Biçimlendirici",
+        "subtitle": "YAML dosyalarını anında biçimlendirin ve doğrulayın — karmaşık iç içe yapı, çıpalar ve takma adlar desteklenir"
+    },
+    "editor": {
+        "title": "YAML Biçimlendirici",
+        "label_input": "YAML Girişi",
+        "ph_input": "name: Uygulamam\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "YAML'ı Biçimlendir",
+        "label_output": "Biçimlendirilmiş YAML",
+        "btn_copy": "YAML'ı Kopyala"
+    },
+    "content": {
+        "why_title": "YAML Dosyaları Neden Biçimlendirilir?",
+        "why_desc": "YAML, girintileme sorunlarına son derece duyarlıdır — tek bir ekstra boşluk, ayrıştırma hatasına veya sessiz veri bozulmasına yol açabilir. Kubernetes, Docker Compose, GitHub Actions ve Ansible, YAML yapılandırma dosyalarını kullanır; biçimlendirme hatası tüm dağıtımı engelleyebilir.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Girintileme Normalleştirme",
+                "desc": "Karışık girintilemeyi tüm belgede tutarlı 2 boşluk biçimine normalleştirir"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Sözdizimi Doğrulama",
+                "desc": "Üretim hatalarından önce girintileme hatalarını, sekme/boşluk karışımını ve yapısal sorunları tespit eder"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Çıpalar ve Takma Adlar",
+                "desc": "Belge yeniden kullanımı için YAML çıpalarının (&) ve takma adlarının (*) tam desteği"
+            }
+        },
+        "how_title": "3 Adımda YAML Biçimlendirme",
+        "how_steps": {
+            "1": {
+                "title": "YAML'ı Yapıştırın",
+                "desc": "Kubernetes manifesti, GitHub Actions iş akışı veya bir YAML yapılandırma dosyasını yapıştırın"
+            },
+            "2": {
+                "title": "Biçimlendirin ve Doğrulayın",
+                "desc": "Araç sözdizimini doğrular ve tutarlı girintilemeyle otomatik yeniden biçimlendirir"
+            },
+            "3": {
+                "title": "Kopyalayın ve Dağıtın",
+                "desc": "Biçimlendirilmiş YAML'ı dosyalarınıza, CI ardışık düzenlerine veya dağıtım araçlarına kopyalayın"
+            }
+        },
+        "uses_title": "YAML Biçimlendirme Kullanım Alanları",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Kubernetes Manifestleri",
+                "desc": "Kümeye uygulamadan önce Deployment, Service, ConfigMap YAML dosyalarını biçimlendirin"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "CI/CD Ardışık Düzenleri",
+                "desc": "GitHub Actions, GitLab CI, CircleCI iş akışlarını doğrulayarak ardışık düzen hatalarını önleyin"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Ansible Playbook'ları",
+                "desc": "Temiz altyapı kodu için Ansible görevlerini, değişkenleri ve envanteri biçimlendirin"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "docker compose up'tan önce docker-compose.yml dosyasının doğru biçimlendirildiğini kontrol edin"
+            }
+        },
+        "tips_title": "YAML En İyi Uygulamaları",
+        "tips": {
+            "spaces": {
+                "title": "✓ Sekme Değil Boşluk Kullanın",
+                "desc": "YAML, girintileme için sekme karakterini açıkça yasaklar. Editörünüzü YAML dosyalarında Tab tuşuna basıldığında boşluk girecek şekilde ayarlayın."
+            },
+            "quotes": {
+                "title": "✓ Özel Karakterler için Tırnak Kullanın",
+                "desc": ": # [ ] { } içeren dizeler veya özel karakterle başlayan dizeler YAML'ın yanlış yorumlamaması için tırnak içine alınmalıdır."
+            },
+            "anchors": {
+                "title": "✓ Tekrarı Azaltmak için Çıpa Kullanın",
+                "desc": "YAML çıpaları (&ad) ve takma adları (*ad) ile belge içinde değerleri yeniden kullanabilirsiniz."
+            },
+            "lint": {
+                "title": "✓ İşlemeden Önce Lint Yapın",
+                "desc": "yamllint çalıştırın veya pre-commit kancasında bu biçimlendiriciyi kullanarak biçimlendirme sorunlarını erken yakalayın."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "YAML neden boşluk yerine sekme ile çalışmaz?",
+            "a1": "YAML belirtimi, farklı editörlerin sekmeleri farklı genişlikte gösterdiği için girintileme için sekme karakterini açıkça yasaklar. Boşluklar tüm YAML ayrıştırıcılarının aynı şekilde yorumladığı tutarlı girintileme sağlar.",
+            "q2": "YAML çıpaları (&) ve takma adları (*) ne yapar?",
+            "a2": "Çıpalar &çıpa-adıyla yeniden kullanılabilir bir blok tanımlar; takma adlar *çıpa-adıyla buna başvurur. Bu sayede değerleri bir kez tanımlayıp birden fazla yerde kullanabilirsiniz.",
+            "q3": "YAML ve JSON arasındaki fark nedir?",
+            "a3": "YAML, JSON'un bir üst kümesidir; geçerli JSON aynı zamanda geçerli YAML'dır. YAML, yorumlar, çıpalar, çok satırlı dizeler ve daha okunabilir sözdizimi desteği ekler.",
+            "q4": "Yapılandırma için TOML yerine YAML'ı ne zaman seçmeliyim?",
+            "a4": "YAML, daha geniş araç desteğine sahiptir (Kubernetes, Ansible, çoğu CI sistemi) ve karmaşık iç içe yapıları kısa biçimde ifade edebilir. DevOps yapılandırmasında YAML standarttır."
+        }
+    }
+}

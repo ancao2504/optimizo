@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Tạo CSS Grid Online - Công Cụ Layout Lưới Trực Quan | Optimizo",
+        "description": "Tạo layout CSS Grid trực quan trực tuyến và miễn phí. Điều chỉnh cột, hàng, khoảng cách và căn chỉnh với xem trước thời gian thực và xuất CSS tức thì.",
+        "h1": "Tạo CSS Grid",
+        "subtitle": "Tạo layout CSS Grid trực quan — điều chỉnh cột, hàng, khoảng cách và căn chỉnh với xem trước thời gian thực"
+    },
+    "editor": {
+        "title": "Tạo CSS Grid",
+        "label_cols": "Số cột",
+        "label_rows": "Số hàng",
+        "label_col_template": "Mẫu cột",
+        "label_gap": "Khoảng cách (gap)",
+        "label_align": "align-items",
+        "label_preview": "Xem trước thời gian thực",
+        "btn_copy": "Sao chép CSS"
+    },
+    "content": {
+        "why_title": "Tại sao dùng công cụ tạo CSS Grid trực quan?",
+        "why_desc": "CSS Grid là hệ thống layout mạnh nhất trong CSS nhưng cú pháp có đường cong học tập dốc. Với công cụ trực quan của chúng tôi, bạn có thể điều chỉnh lưới bằng thanh trượt và menu thả xuống và thấy ngay tác động của từng thuộc tính.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Xem trước lưới thời gian thực",
+                "desc": "Lưới cập nhật thời gian thực khi điều chỉnh cột, hàng, khoảng cách và căn chỉnh"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Hỗ trợ đơn vị fr",
+                "desc": "Mẫu dùng đơn vị fr (phân số) cho lưới linh hoạt thích nghi với kích thước container"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "CSS sẵn sàng sử dụng",
+                "desc": "Xuất khối .container CSS gọn gàng với grid-template-columns, rows, gap và align-items"
+            }
+        },
+        "how_title": "Tạo layout CSS Grid",
+        "how_steps": {
+            "1": {
+                "title": "Cấu hình cột và hàng",
+                "desc": "Đặt số cột và hàng của lưới bằng thanh trượt"
+            },
+            "2": {
+                "title": "Chọn mẫu và khoảng cách",
+                "desc": "Chọn mẫu cột (bằng nhau, cố định+linh hoạt hoặc minmax responsive) và điều chỉnh khoảng cách"
+            },
+            "3": {
+                "title": "Sao chép CSS",
+                "desc": "Nhấp 'Sao chép CSS' để lấy khối CSS đầy đủ sẵn sàng dán vào stylesheet"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng CSS Grid",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Layout trang",
+                "desc": "Tạo cấu trúc header/sidebar/nội dung chính/footer với named grid areas"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboard",
+                "desc": "Tạo layout dashboard phức tạp với các card kích thước khác nhau dùng grid-column và grid-row span"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Thư viện ảnh",
+                "desc": "Tạo thư viện kiểu masonry hoặc đều đặn thích nghi với auto-fill và minmax"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Layout tạp chí",
+                "desc": "Tạo layout biên tập với cột không đều và nội dung trải qua nhiều ô"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Ưu tiên đơn vị fr hơn phần trăm",
+                "desc": "Đơn vị fr (phân số) phân chia không gian có sẵn sau các cột cố định mà không cần tính toán thủ công."
+            },
+            "minmax": {
+                "title": "✓ Dùng minmax() cho lưới responsive",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) tạo lưới responsive tự động điều chỉnh số cột."
+            },
+            "named": {
+                "title": "✓ Dùng named grid areas",
+                "desc": "grid-template-areas với các ô đặt tên làm layout trang dễ đọc và dễ sửa đổi."
+            },
+            "auto": {
+                "title": "✓ Hiểu auto-fill vs. auto-fit",
+                "desc": "auto-fill tạo số track tối đa (kể cả trống). auto-fit thu gọn track trống và mở rộng track hiện có — thường tối ưu cho lưới card."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Đơn vị fr trong CSS Grid là gì?",
+            "a1": "fr là viết tắt của 'fractional unit' (đơn vị phân số). 1fr đại diện cho một phần không gian rảnh có sẵn trong container lưới. repeat(3, 1fr) tạo 3 cột chia đều không gian có sẵn.",
+            "q2": "Sự khác biệt giữa CSS Grid và Flexbox là gì?",
+            "a2": "Flexbox là một chiều — đặt phần tử dọc theo một trục duy nhất (hàng hoặc cột). CSS Grid là hai chiều — có thể kiểm soát cả hàng và cột đồng thời, mạnh hơn nhiều cho layout trang.",
+            "q3": "minmax() làm gì?",
+            "a3": "minmax(min, max) chỉ định phạm vi kích thước cho track lưới. minmax(200px, 1fr) nghĩa là cột tối thiểu 200px rộng nhưng có thể phát triển để điền không gian có sẵn.",
+            "q4": "Khi nào dùng CSS Grid thay vì Flexbox?",
+            "a4": "Dùng Grid cho layout hai chiều khi bạn kiểm soát cả hàng và cột đồng thời. Dùng Flexbox cho layout một chiều của component như thanh nav."
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Chuyển Đổi JSON Sang TOML Online - Miễn Phí | Optimizo",
+        "description": "Chuyển đổi JSON sang định dạng TOML trực tuyến và miễn phí. Tự động tạo phần bảng, xử lý đối tượng lồng và tạo ra TOML sạch, dễ đọc.",
+        "h1": "Chuyển Đổi JSON Sang TOML",
+        "subtitle": "Chuyển đổi dữ liệu cấu hình JSON sang định dạng TOML dễ đọc hơn — tạo bảng và phần tự động"
+    },
+    "editor": {
+        "title": "Chuyển Đổi JSON Sang TOML",
+        "label_json": "Đầu vào JSON",
+        "ph_json": "{\n  \"title\": \"Ứng dụng của tôi\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "Đầu ra TOML",
+        "btn_copy": "Sao chép TOML"
+    },
+    "content": {
+        "why_title": "Tại sao chuyển đổi tệp cấu hình JSON sang TOML?",
+        "why_desc": "JSON không được thiết kế cho tệp cấu hình — không có chú thích, cú pháp dài dòng cho dữ liệu lồng và cần escape thêm. TOML làm cho cùng một dữ liệu dễ đọc hơn với tiêu đề [phần], chú thích # và cú pháp khóa-giá trị gọn hơn. Chuyển đổi config.json sang config.toml cải thiện khả năng bảo trì và tự ghi chép.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Tạo phần tự động",
+                "desc": "Đối tượng JSON lồng tự động chuyển đổi thành đường dẫn bảng TOML [section.subsection]"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Bảo toàn kiểu",
+                "desc": "Số, boolean và chuỗi JSON được ánh xạ đúng sang tương đương TOML không mất dữ liệu"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Cấu hình gọn hơn",
+                "desc": "Cùng một dữ liệu ở định dạng TOML thường ngắn hơn 20-40% và dễ đọc hơn nhiều so với JSON"
+            }
+        },
+        "how_title": "Chuyển đổi JSON sang TOML trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Dán cấu hình JSON",
+                "desc": "Sao chép tệp cấu hình JSON hiện có và dán vào bảng trái"
+            },
+            "2": {
+                "title": "Xem lại đầu ra TOML",
+                "desc": "TOML tương đương xuất hiện trong bảng phải — kiểm tra cấu trúc có khớp mong đợi không"
+            },
+            "3": {
+                "title": "Thêm chú thích và lưu",
+                "desc": "Sao chép TOML, thêm chú thích # ghi lại từng phần và lưu làm tệp cấu hình mới"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng chuyển đổi JSON sang TOML",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Tạo Cargo.toml",
+                "desc": "Chuyển đổi thông tin từ package.json sang định dạng Cargo.toml để tăng tốc thiết lập dự án Rust"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Migrate sang pyproject.toml",
+                "desc": "Chuyển đổi setup.cfg hoặc setup.py sang tiêu chuẩn packaging Python hiện đại pyproject.toml"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Cập nhật tệp cấu hình",
+                "desc": "Migrate từ config.json sang config.toml và ghi lại từng tùy chọn bằng chú thích #"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Chia sẻ cấu hình giữa các công cụ",
+                "desc": "Chuyển đổi cùng dữ liệu cấu hình giữa hệ sinh thái JSON và TOML khi cần"
+            }
+        },
+        "tips_title": "Lời khuyên cho chuyển đổi JSON sang TOML",
+        "tips": {
+            "arrays": {
+                "title": "✓ Kiểm tra kỹ mảng đối tượng",
+                "desc": "Mảng đối tượng JSON ([{name:\"a\"},{name:\"b\"}]) dùng cú pháp [[mảng bảng]] của TOML. Kiểm tra chúng được chuyển đổi đúng trong đầu ra."
+            },
+            "null": {
+                "title": "✓ TOML không có null",
+                "desc": "Null của JSON không có tương đương trực tiếp trong TOML. Giá trị null thường được bỏ qua hoặc thay thế bằng chuỗi rỗng. Xử lý các trường hợp này thủ công."
+            },
+            "keys": {
+                "title": "✓ Đặt ngoặc kép cho khóa có ký tự đặc biệt",
+                "desc": "Khóa TOML có dấu gạch ngang hoặc khoảng trắng cần ngoặc kép: \"content-type\" = \"json\". Dùng gạch dưới trong khóa JSON để tránh vấn đề."
+            },
+            "test": {
+                "title": "✓ Kiểm tra với bộ phân tích TOML của ứng dụng",
+                "desc": "Các bộ phân tích TOML khác nhau (toml-rs, tomllib, @iarna/toml) có thể xử lý các trường hợp biên khác nhau. Luôn kiểm tra TOML đã chuyển đổi trong môi trường runtime thực tế."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Tất cả kiểu dữ liệu JSON có thể chuyển đổi sang TOML không?",
+            "a1": "Hầu hết kiểu đều chuyển đổi sạch: chuỗi, số, boolean, mảng và đối tượng có tương đương trực tiếp trong TOML. Null của JSON không có tương đương TOML và thường bị bỏ qua. Mảng đối tượng lồng sâu có thể cần chỉnh sửa thủ công.",
+            "q2": "TOML có thể hoàn toàn thay thế JSON trong tệp cấu hình không?",
+            "a2": "Đối với tệp cấu hình tĩnh có. Code đọc cấu hình cần thay đổi từ JSON.parse() sang bộ phân tích TOML. TOML không thể thay thế JSON cho API hoặc trao đổi dữ liệu.",
+            "q3": "TOML dùng phần mở rộng tệp nào?",
+            "a3": "Phần mở rộng .toml. Ví dụ phổ biến: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (cấu hình Cargo).",
+            "q4": "Làm thế nào để chọn giữa JSON, YAML và TOML cho cấu hình?",
+            "a4": "JSON: Trao đổi dữ liệu API (hỗ trợ phổ quát, không cần chú thích). YAML: Cấu hình DevOps (Kubernetes, CI/CD, v.v.). TOML: Cấu hình ứng dụng (cú pháp đơn giản, kiểu rõ ràng, tốt nhất cho chỉnh sửa thủ công)."
+        }
+    }
+}

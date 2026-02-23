@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Convertor HTML în JSX Online - Instrument React Gratuit | Optimizo",
+        "description": "Convertiti HTML în React JSX online și gratuit. Convertește automat class în className, for în htmlFor, stiluri inline în obiecte JS și închide tag-urile void.",
+        "h1": "Convertor HTML în JSX",
+        "subtitle": "Convertiți instant HTML în React JSX — className, htmlFor, stiluri inline și tag-uri self-closing"
+    },
+    "editor": {
+        "title": "Convertor HTML în JSX",
+        "label_html": "Intrare HTML",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">Email</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "Ieșire JSX",
+        "btn_copy": "Copiați JSX"
+    },
+    "content": {
+        "why_title": "De ce să convertiți HTML în JSX?",
+        "why_desc": "Când migrați șabloane HTML existente la React, trebuie să convertiți manual class în className, for în htmlFor și stilurile inline din șiruri la obiecte JavaScript. Instrumentul automatizează aceste conversii instant și vă permite să vă concentrați pe logica componentelor.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Conversia atributelor",
+                "desc": "class→className, for→htmlFor, tabindex→tabIndex, maxlength→maxLength și altele"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Obiect stil inline",
+                "desc": "Convertește style=\"color:red;\" în style={{color:'red'}} — notația obiect JS a React"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Tag-uri self-closing",
+                "desc": "Adaugă slash de închidere la elementele void: <br> → <br />, <input> → <input />"
+            }
+        },
+        "how_title": "Convertiți HTML în JSX în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Inserați HTML",
+                "desc": "Inserați șablonul HTML, exportul din Figma sau fragmentul de cod HTML în panoul stâng"
+            },
+            "2": {
+                "title": "Conversie automată",
+                "desc": "Convertorul transformă instantaneu toate atributele, stilurile și elementele void la sintaxa JSX"
+            },
+            "3": {
+                "title": "Copiați JSX",
+                "desc": "Copiați JSX-ul convertit și lipiți-l în blocul render/return al componentei React"
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru convertorul HTML în JSX",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "Migrare la React",
+                "desc": "Migrați paginile sau șabloanele HTML existente la componente React fără conversie manuală a atributelor"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Bootstrap în React",
+                "desc": "Convertiți componentele Bootstrap HTML la JSX pentru utilizare cu react-bootstrap"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "Șabloane email",
+                "desc": "Convertiți șabloanele email HTML la JSX pentru randare cu React Email"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "Din CMS la React",
+                "desc": "Convertiți șabloanele HTML WordPress sau CMS tradițional la structura componentelor React"
+            }
+        },
+        "tips_title": "Sfaturi pentru conversia HTML în JSX",
+        "tips": {
+            "class": {
+                "title": "✓ class → className este important",
+                "desc": "class este un cuvânt cheie JavaScript rezervat. În React, className trebuie folosit pentru clasele CSS."
+            },
+            "for": {
+                "title": "✓ for în label → htmlFor",
+                "desc": "Atributul for pe <label> devine htmlFor în JSX. Uitarea acestuia strică accesibilitatea."
+            },
+            "events": {
+                "title": "✓ Actualizați handler-ele de evenimente după conversie",
+                "desc": "Atributul HTML onclick='...' nu se convertește automat în JSX. Înlocuiți manual handler-ele inline cu modelul onClick={handler} al React."
+            },
+            "comments": {
+                "title": "✓ Comentariile HTML devin comentarii JSX",
+                "desc": "<!-- comentariu --> este convertit la {/* comentariu */} în JSX."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "De ce React folosește className în loc de class?",
+            "a1": "class este un cuvânt cheie JavaScript rezervat (folosit pentru clasele ES6). Deoarece JSX este JavaScript, class creează un conflict de sintaxă. React a ales className pentru a evita ambiguitatea.",
+            "q2": "Instrumentul gestionează handler-ele de evenimente React?",
+            "a2": "Nu — handler-ele HTML onclick, onsubmit etc. nu se convertesc automat la onClick, onSubmit al React. Este necesară actualizarea manuală.",
+            "q3": "Care este diferența dintre HTML și JSX?",
+            "a3": "JSX este o extensie de sintaxă JavaScript similară HTML compilată în apeluri React.createElement(). Diferențe cheie: toate atributele în camelCase, class→className, for→htmlFor, elementele void necesită self-closing, expresiile folosesc {} în loc de șiruri.",
+            "q4": "De ce elementele void necesită self-closing în JSX?",
+            "a4": "JSX este analizat de Babel ca sintaxă similară XML și necesită închiderea corectă a tuturor elementelor. Elementele void ca <br>, <img>, <input> nu au copii și necesită /> self-closing."
+        }
+    }
+}

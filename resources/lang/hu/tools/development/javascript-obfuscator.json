@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Online JavaScript Obfuszkátor - JS Kód Védelem Ingyen | Optimizo",
+        "description": "JavaScript kód obfuszkálása online, ingyen. Változó átnevezés, karakterlánc kódolás és JS minifikálás megnehezíti a forráskód olvasását.",
+        "h1": "JavaScript Obfuszkátor",
+        "subtitle": "JavaScript kód védelme változó átnevezéssel, karakterlánc kódolással és minifikálással — mindez a böngészőben"
+    },
+    "editor": {
+        "title": "JavaScript Obfuszkátor",
+        "label_input": "JavaScript bemenet",
+        "ph_input": "function greet(name) {\n  return 'Helló, ' + name + '!';\n}",
+        "opt_rename": "Változók átnevezése",
+        "opt_strings": "Karakterláncok kódolása",
+        "opt_minify": "Kód minifikálása",
+        "disclaimer": "⚠️ Az obfuszkálás megnehezíti a kód olvasását, de nem kriptográfia. Tapasztalt fejlesztők visszafejthetik az obfuszkált kódot. Ne hagyatkozzon kizárólag az obfuszkálásra érzékeny adatok védelmére.",
+        "btn_obfuscate": "JavaScript obfuszkálása",
+        "label_output": "Obfuszkált eredmény",
+        "btn_copy": "JS másolása"
+    },
+    "content": {
+        "why_title": "Miért obfuszkálja a JavaScript kódot?",
+        "why_desc": "A JavaScript a böngészőben fut és a forráskód mindig látható a DevTools-ban. Az obfuszkálás nem tudja teljesen megvédeni a kódot, de elriasztja a jogosulatlan másolástól, lassítja a visszafejtést és elegendő akadályt teremt a szellemi tulajdon védelmére.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Változó átnevezés",
+                "desc": "Az összes változót, függvényt és paramétert olvashatatlan hexadecimális azonosítókra nevezi át, mint _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Karakterlánc kódolás",
+                "desc": "Az összes karakterlánc literált hexadecimális escape szekvenciákra kódolja — funkcionálisan azonos, de olvashatatlan"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Kód minifikálás",
+                "desc": "Az obfuszkáláson túl eltávolítja a megjegyzéseket és normalizálja a szóközöket a fájlméret csökkentéséhez"
+            }
+        },
+        "how_title": "JavaScript obfuszkálás 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "JavaScript beillesztése",
+                "desc": "Másolja a JavaScript kódot és illessze be a bemeneti mezőbe"
+            },
+            "2": {
+                "title": "Beállítások kiválasztása",
+                "desc": "Válassza ki az alkalmazni kívánt obfuszkálási technikákat — mindhárom kijelölése maximális védelem"
+            },
+            "3": {
+                "title": "Másolás és csere",
+                "desc": "Másolja az obfuszkált tartalmat és cserélje ki az eredeti fájlt a terjesztéshez"
+            }
+        },
+        "uses_title": "JavaScript obfuszkálás felhasználási esetek",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Kereskedelmi könyvtárak",
+                "desc": "Védje meg a szellemi tulajdont képező algoritmusokat ügyfeleknek terjesztett fizetett JavaScript könyvtárakban"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Böngészős játékok",
+                "desc": "Obfuszkálja a játék logikáját, pontszám-ellenőrzést és csalkérdező-védelmi kódot"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "SaaS widget",
+                "desc": "Védje az ügyfelek weboldalaira terjesztett beágyazott JavaScript widgeteket"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Versenyek és hackathonok",
+                "desc": "Védje az eredeti algoritmusokat és megközelítéseket a versenybeadványokban"
+            }
+        },
+        "tips_title": "Obfuszkálás legjobb gyakorlatai",
+        "tips": {
+            "testing": {
+                "title": "✓ Tesztelje obfuszkálás után",
+                "desc": "Mindig tesztelje az obfuszkált kódot a célböngészőkben — az eval()-hez hasonló minták megrekedhetnek szigorú módban."
+            },
+            "source": {
+                "title": "✓ Tartsa meg az eredeti forráskódot",
+                "desc": "Az obfuszkálás visszafordíthatatlan átalakítás. Mindig őrizze meg az eredeti olvasható forráskódot egy biztonságos verziókezelő rendszerben."
+            },
+            "server": {
+                "title": "✓ Helyezze az érzékeny logikát a szerverre",
+                "desc": "Az obfuszkálás nem biztonsági garancia. Az igazán érzékeny műveletek logikáját szerver oldalon implementálja, ne kliens oldalon."
+            },
+            "profiler": {
+                "title": "✓ Ellenőrizze a teljesítményre gyakorolt hatást",
+                "desc": "Az intenzív karakterlánc kódolás enyhén lelassíthatja a JavaScript elemzést. Profilozza az obfuszkált kódot Chrome DevTools-szal a produkciós telepítés előtt."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Teljesen visszafordítható a JavaScript obfuszkálás?",
+            "a1": "Igen, elegendő erőfeszítéssel. Az olyan eszközök, mint a de4js, webcrack és a böngésző DevTools részben vissza tudják fejtem az obfuszkálást. A cél az, hogy azt kellőképpen drágává tegyük az alkalmi másolástól való elriasztáshoz.",
+            "q2": "Megronthatja az obfuszkálás a JavaScriptet?",
+            "a2": "Helyesen alkalmazva az obfuszkálásnak funkcionálisan azonos kódot kell eredményeznie. Az agresszív minifikálás azonban bizonyos metaprogramozási mintákat törhet. Mindig alaposan tesztelje.",
+            "q3": "Bünteti a Google az obfuszkált JavaScriptet a SEO-ban?",
+            "a3": "A Google indexelheti és futtathatja az oldal JavaScriptjét akkor is, ha obfuszkált. Ha a renderelt HTML tartalom ugyanaz, nincs SEO büntetés.",
+            "q4": "Mi a különbség a minifikálás és az obfuszkálás között?",
+            "a4": "A minifikálás eltávolítja a szóközöket és megjegyzéseket, és rövidíti a változóneveket a fájlméret csökkentéséhez — a kód újraformázás után még mindig olvasható. Az obfuszkálás a kódot olvashatatlanná kívánja tenni zavaros változónevekkel, karakterlánc kódolással és egyéb technikákkal."
+        }
+    }
+}

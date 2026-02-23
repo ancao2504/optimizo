@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Online chmod Kalkulačka - Linux Oprávnění Zdarma | Optimizo",
+        "description": "Bezplatná online chmod kalkulačka. Převáděj Linux oprávnění souborů mezi symbolickým zápisem (rwxr-xr-x) a oktálním zápisem (755) a generuj chmod příkazy.",
+        "h1": "chmod Kalkulačka",
+        "subtitle": "Vypočítejte Linux oprávnění — převod symbolického a oktálního zápisu a generování chmod příkazů"
+    },
+    "editor": {
+        "title": "chmod Kalkulačka Oprávnění",
+        "label_octal": "Oktální hodnota",
+        "col_type": "Typ",
+        "col_read": "Čtení (r)",
+        "col_write": "Zápis (w)",
+        "col_exec": "Spuštění (x)",
+        "col_octal": "Oktální",
+        "row_owner": "Vlastník",
+        "row_group": "Skupina",
+        "row_others": "Ostatní (všichni)",
+        "btn_copy": "Kopírovat příkaz"
+    },
+    "content": {
+        "why_title": "Proč používat chmod kalkulačku?",
+        "why_desc": "Linuxová oprávnění souborů jsou vyjádřena v symbolickém (rwxr-xr-x) a oktálním (755) zápisu. Ruční výpočet správné hodnoty oprávnění je náchylný na chyby. Naše kalkulačka umožňuje vizuálně vybírat zaškrtávací políčka oprávnění a okamžitě generovat oktální hodnotu a použitelný chmod příkaz.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Vizuální tvůrce oprávnění",
+                "desc": "Klikněte na zaškrtávací políčka čtení/zápisu/spuštění pro vlastníka/skupinu/ostatní; hodnoty se aktualizují okamžitě"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Obousměrná synchronizace",
+                "desc": "Zadejte oktální hodnotu (např. 755) a zaškrtávací políčka se automaticky aktualizují, nebo naopak"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Příkaz připravený k použití",
+                "desc": "Generuje kompletní chmod příkaz, který lze přímo vložit do terminálu"
+            }
+        },
+        "how_title": "Jak vypočítat oprávnění",
+        "how_steps": {
+            "1": {
+                "title": "Označte požadovaná oprávnění",
+                "desc": "Klikněte na zaškrtávací políčka čtení/zápisu/spuštění pro vlastníka, skupinu a ostatní"
+            },
+            "2": {
+                "title": "Zkontrolujte oktální a symbolické",
+                "desc": "Oktální hodnota (např. 755) a symbolický zápis (rwxr-xr-x) se aktualizují okamžitě"
+            },
+            "3": {
+                "title": "Zkopírujte příkaz",
+                "desc": "Zkopírujte vygenerovaný chmod příkaz a spusťte jej v terminálu"
+            }
+        },
+        "uses_title": "Typické chmod scénáře",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Soubory webového serveru",
+                "desc": "Nastavte 644 pro HTML/CSS/JS soubory na Apache nebo Nginx (vlastník čtení/zápis, skupina/ostatní čtení)"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Spustitelné skripty",
+                "desc": "Nastavte 755 pro shell skripty (vlastník plný přístup, skupina/ostatní čtení+spuštění)"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "SSH klíče",
+                "desc": "SSH vyžaduje 600 (pouze vlastník čtení/zápis) pro soukromé klíče"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Adresáře pro nahrávání",
+                "desc": "Nastavte 775 pro webové adresáře pro nahrávání, aby serverový proces mohl zapisovat soubory"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro Linux oprávnění",
+        "tips": {
+            "never777": {
+                "title": "✓ Nikdy nepoužívejte 777 v produkci",
+                "desc": "chmod 777 dává všem plný přístup čtení/zápis/spuštění — závažné bezpečnostní riziko."
+            },
+            "least": {
+                "title": "✓ Princip nejmenšího privilegia",
+                "desc": "Vždy udělujte nejmenší nezbytná oprávnění. Začněte restriktivně (600) a přidávejte dle potřeby."
+            },
+            "recursive": {
+                "title": "✓ Buďte opatrní s -R (rekurzivní)",
+                "desc": "chmod -R aplikuje oprávnění rekurzivně na všechny soubory a adresáře."
+            },
+            "umask": {
+                "title": "✓ Pochopte umask",
+                "desc": "Hodnota umask odečítá oprávnění od výchozí hodnoty. umask 022 dává novým souborům 644 a novým adresářům 755."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Co znamená chmod 755?",
+            "a1": "755 znamená: vlastník(7)=čtení+zápis+spuštění, skupina(5)=čtení+spuštění, ostatní(5)=čtení+spuštění. Výchozí oprávnění pro spustitelné soubory a veřejné adresáře.",
+            "q2": "Jaký je rozdíl mezi 644 a 755?",
+            "a2": "644 (rw-r--r--): vlastník čtení/zápis, ostatní jen čtení — pro normální soubory. 755 (rwxr-xr-x): vlastník může také spouštět — pro skripty a adresáře.",
+            "q3": "Proč SSH klíče vyžadují oprávnění 600?",
+            "a3": "SSH odmítá použití soukromých klíčů přístupných ostatním. 600 (rw-------) zajišťuje, že pouze vlastník může číst a zapisovat klíč.",
+            "q4": "Co znamená bit spuštění u adresáře?",
+            "a4": "Bit spuštění u adresáře znamená 'průchod' — uživatel může vstoupit do adresáře a přistupovat k souborům v něm. Bez oprávnění spuštění uživatel nemůže vstoupit do adresáře."
+        }
+    }
+}

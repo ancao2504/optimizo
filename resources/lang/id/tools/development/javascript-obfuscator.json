@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Obfuskator JavaScript Online - Proteksi Kode JS Gratis | Optimizo",
+        "description": "Obfuskasi kode JavaScript secara online dan gratis. Ganti nama variabel, enkode string, dan minify JS membuat kode sumber lebih sulit dibaca.",
+        "h1": "Obfuskator JavaScript",
+        "subtitle": "Proteksi kode JavaScript dengan penggantian nama variabel, enkoding string, dan minify — semuanya di browser"
+    },
+    "editor": {
+        "title": "Obfuskator JavaScript",
+        "label_input": "Input JavaScript",
+        "ph_input": "function greet(name) {\n  return 'Halo, ' + name + '!';\n}",
+        "opt_rename": "Ganti nama variabel",
+        "opt_strings": "Enkode string",
+        "opt_minify": "Minify kode",
+        "disclaimer": "⚠️ Obfuskasi membuat kode lebih sulit dibaca, namun bukan enkripsi. Pengembang berpengalaman dapat mendekompilasi kode yang diobfuskasi. Jangan hanya mengandalkan obfuskasi untuk melindungi data sensitif.",
+        "btn_obfuscate": "Obfuskasi JavaScript",
+        "label_output": "Hasil yang Diobfuskasi",
+        "btn_copy": "Salin JS"
+    },
+    "content": {
+        "why_title": "Mengapa mengobfuskasi kode JavaScript?",
+        "why_desc": "JavaScript berjalan di browser dan kode sumber selalu terlihat di DevTools. Obfuskasi tidak dapat sepenuhnya melindungi kode, namun mencegah penyalinan yang tidak sah, memperlambat dekompilasi, dan membuat hambatan yang cukup untuk melindungi logika bisnis yang dipatenkan.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Ganti Nama Variabel",
+                "desc": "Mengganti nama semua variabel, fungsi, dan parameter menjadi pengenal hex yang tidak dapat dibaca seperti _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Enkoding String",
+                "desc": "Mengenkode semua literal string menjadi urutan escape hex — fungsionalitas identik namun tidak dapat dibaca"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minify Kode",
+                "desc": "Di luar obfuskasi, menghapus komentar dan menormalkan spasi untuk mengurangi ukuran file"
+            }
+        },
+        "how_title": "Obfuskasi JavaScript dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Tempel JavaScript",
+                "desc": "Salin kode JavaScript dan tempel ke field input"
+            },
+            "2": {
+                "title": "Pilih pengaturan",
+                "desc": "Pilih teknik obfuskasi yang ingin diterapkan — pilih ketiganya untuk perlindungan maksimal"
+            },
+            "3": {
+                "title": "Salin dan ganti",
+                "desc": "Salin konten yang diobfuskasi dan ganti file asli untuk distribusi"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Obfuskasi JavaScript",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Perpustakaan Komersial",
+                "desc": "Lindungi algoritma yang dipatenkan dalam perpustakaan JavaScript berbayar yang didistribusikan ke klien"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Game Browser",
+                "desc": "Obfuskasi logika game, validasi skor, dan kode perlindungan anti-cheat"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "Widget SaaS",
+                "desc": "Lindungi widget JavaScript tertanam yang didistribusikan ke situs web klien"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Kompetisi dan Hackathon",
+                "desc": "Lindungi algoritma dan pendekatan orisinal dalam pengumpulan kompetisi"
+            }
+        },
+        "tips_title": "Praktik Terbaik Obfuskasi",
+        "tips": {
+            "testing": {
+                "title": "✓ Uji setelah obfuskasi",
+                "desc": "Selalu uji kode yang diobfuskasi di browser target — pola seperti eval() mungkin gagal dalam mode ketat."
+            },
+            "source": {
+                "title": "✓ Simpan kode sumber asli",
+                "desc": "Obfuskasi adalah transformasi yang tidak dapat dibatalkan. Selalu simpan kode sumber asli yang mudah dibaca dalam sistem kontrol versi yang aman."
+            },
+            "server": {
+                "title": "✓ Pindahkan logika sensitif ke server",
+                "desc": "Obfuskasi bukan jaminan keamanan. Implementasikan logika untuk operasi yang benar-benar sensitif di sisi server, bukan klien."
+            },
+            "profiler": {
+                "title": "✓ Periksa dampak pada performa",
+                "desc": "Enkoding string yang intensif dapat sedikit memperlambat parsing JavaScript. Profil kode yang diobfuskasi di Chrome DevTools sebelum deployment produksi."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Apakah obfuskasi JavaScript dapat sepenuhnya dibalik?",
+            "a1": "Ya, dengan usaha yang cukup. Alat seperti de4js, webcrack, dan DevTools browser dapat sebagian membalikkan obfuskasi. Tujuannya adalah membuatnya cukup mahal untuk mencegah penyalinan biasa.",
+            "q2": "Bisakah obfuskasi merusak JavaScript?",
+            "a2": "Jika diterapkan dengan benar, obfuskasi seharusnya menghasilkan kode yang fungsionalitasnya identik. Namun, minifikasi agresif dapat merusak pola metaprogramming tertentu. Selalu uji dengan seksama.",
+            "q3": "Apakah Google menghukum JavaScript yang diobfuskasi dalam SEO?",
+            "a3": "Google dapat mengindeks dan menjalankan JavaScript halaman meskipun diobfuskasi. Jika HTML yang dirender sama, tidak ada hukuman SEO.",
+            "q4": "Apa perbedaan antara minify dan obfuskasi?",
+            "a4": "Minify menghapus spasi dan komentar, mempersingkat nama variabel untuk mengurangi ukuran file — kode masih dapat dibaca setelah diformat ulang. Obfuskasi bertujuan membuat kode tidak dapat dibaca dengan nama variabel yang membingungkan, enkoding string, dan teknik lainnya."
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "TOMLからJSONへの変換 オンライン - 無料ツール | Optimizo",
+        "description": "TOML設定ファイルをJSONにオンラインで無料変換。TOMLテーブル、配列、インラインテーブル、すべてのデータ型を完全サポート。",
+        "h1": "TOMLからJSONへのコンバーター",
+        "subtitle": "TOML設定をJSONに変換 — テーブル、テーブル配列、すべてのTOMLデータ型をサポート"
+    },
+    "editor": {
+        "title": "TOMLからJSONへのコンバーター",
+        "label_toml": "TOML入力",
+        "ph_toml": "# TOMLの例\ntitle = \"マイアプリ\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "JSON出力",
+        "btn_copy": "JSONをコピー"
+    },
+    "content": {
+        "why_title": "なぜTOMLとJSONの間で変換するのか？",
+        "why_desc": "TOMLは人間が読みやすい設定ファイル（RustのCargo.toml、PythonのpyProject.toml、HugoのConfig.toml）用に設計されていますが、JSONはWeb APIとJavaScriptツールの標準です。TOML設定をJSON APIに送信したり、JavaScriptツールと統合したり、異なるエコシステム間でデータを共有したりする場合、このツールでギャップを即座に埋められます。",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "完全な型変換",
+                "desc": "TOMLの文字列、整数、浮動小数点数、ブール値、日付 — すべてJSONの同等物に正しく変換"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "テーブルとテーブル配列",
+                "desc": "[テーブル]、[[テーブル配列]]、インラインテーブル{key = value}構文を正しく処理"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "フォーマット済みJSON出力",
+                "desc": "出力は読みやすくインデントされて表示 — 1行の圧縮JSONではない"
+            }
+        },
+        "how_title": "3ステップでTOMLをJSONに変換する方法",
+        "how_steps": {
+            "1": {
+                "title": "TOML設定を貼り付け",
+                "desc": "Cargo.toml、pyproject.toml、またはその他のTOML設定ファイルの内容を貼り付け"
+            },
+            "2": {
+                "title": "自動変換",
+                "desc": "ツールがTOML構造を解析して同等のJSONに即座に変換"
+            },
+            "3": {
+                "title": "JSONをコピー",
+                "desc": "生成されたJSONをAPIコールやJSONを受け入れる他のツールで使用するためにコピー"
+            }
+        },
+        "uses_title": "TOMLからJSONへの変換のユースケース",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.tomlの解析",
+                "desc": "依存関係を解析したりバージョン情報を抽出するCIスクリプト用にCargo.tomlをJSONに変換"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Hugo設定",
+                "desc": "他のツールやデータソースとの統合のためにHugoのconfig.tomlをJSONに変換"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "APIへのデータ送信",
+                "desc": "TOML形式のパラメーターをREST APIやGraphQLエンドポイントに送信するためにJSONに変換"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "形式の学習",
+                "desc": "2つの形式の関係を理解するためにTOML→JSONの構造マッピングを把握"
+            }
+        },
+        "tips_title": "TOMLのベストプラクティス",
+        "tips": {
+            "tables": {
+                "title": "✓ ネストされたテーブルにはドット記法を使用",
+                "desc": "TOMLは[server.database]をネストされたテーブルの省略記法としてサポートし、ネストされたJSONキーよりも設定を読みやすくします。"
+            },
+            "strings": {
+                "title": "✓ パスにはリテラル文字列を使用",
+                "desc": "'C:\\Users\\path'のようなシングルクォートのリテラル文字列はエスケープシーケンスを処理しません — Windowsパスやregexパターンに最適です。"
+            },
+            "comments": {
+                "title": "✓ コメントを積極的に使用",
+                "desc": "JSONに対するTOMLの主なアドバンテージはコメントのサポートです。保守性のためにすべての設定パラメーターを#コメントで文書化してください。"
+            },
+            "datetime": {
+                "title": "✓ DateTime型変換に注意",
+                "desc": "TOMLのネイティブRFC 3339日付(2024-01-15T10:30:00Z)はJSONでは文字列になります。JSONを使用するコードはそれらを日付オブジェクトとして再解析する必要があります。"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "TOMLのYAMLとJSONに対するアドバンテージは何ですか？",
+            "a1": "TOMLはYAMLより単純（インデントベースの構造なし）、JSONより読みやすく（コメントをサポート）、明示的な型があります（整数、浮動小数点数、日付が別個）。アプリケーション設定ファイルで読みやすさが重要な場合に最適な選択です。",
+            "q2": "TOMLの[[テーブルの配列]]とは何ですか？",
+            "a2": "[[servers]]は'servers'という名前のオブジェクト配列を定義します。[[servers]]の各出現が配列に新しいオブジェクトを作成します。以下のキーはそのオブジェクトに属します。JSONの同等物：{\"servers\": [{...}, {...}]}。",
+            "q3": "どの主要なツールがTOMLを使用していますか？",
+            "a3": "Rust(Cargo.toml)、モダンなPythonパッケージング(pip/poetryのpyproject.toml)、Hugoスタティックサイトジェネレーター、Gitea、Lighthouse CI、多くのGoツールがTOMLを使用しています。",
+            "q4": "TOMLコメントはJSON出力に保存されますか？",
+            "a4": "いいえ。JSONにはコメント構文がないため、TOMLの#コメントをJSON出力で表現することはできません。コメントが重要な決定を文書化している場合は、別のREADMEに保存するかJSONでは_commentキーを使用してください。"
+        }
+    }
+}

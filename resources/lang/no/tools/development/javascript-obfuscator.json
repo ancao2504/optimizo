@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "JavaScript-obfuskerer Nettbasert - Beskytt JS-kode Gratis | Optimizo",
+        "description": "Obfusker JavaScript-kode nettbasert og gratis. Variabelnavn-omdøping, streng-koding og JS-minifisering gjør kildekoden vanskeligere å lese.",
+        "h1": "JavaScript-obfuskerer",
+        "subtitle": "Beskytt JavaScript-kode med variabelnavn-omdøping, streng-koding og minifisering — alt i nettleseren"
+    },
+    "editor": {
+        "title": "JavaScript-obfuskerer",
+        "label_input": "JavaScript-inndata",
+        "ph_input": "function greet(name) {\n  return 'Hei, ' + name + '!';\n}",
+        "opt_rename": "Gi variabler nytt navn",
+        "opt_strings": "Kode strenger",
+        "opt_minify": "Minifiser kode",
+        "disclaimer": "⚠️ Obfuskering gjør koden vanskeligere å lese, men er ikke kryptering. Erfarne utviklere kan reverse-engineere obfuskert kode. Stol ikke bare på obfuskering for å beskytte sensitive data.",
+        "btn_obfuscate": "Obfusker JavaScript",
+        "label_output": "Obfuskert resultat",
+        "btn_copy": "Kopier JS"
+    },
+    "content": {
+        "why_title": "Hvorfor obfuskere JavaScript-kode?",
+        "why_desc": "JavaScript kjører i nettleseren og kildekoden er alltid synlig i DevTools. Obfuskering kan ikke fullt ut beskytte koden, men avskrekker fra uautorisert kopiering, bremser reverse engineering og skaper tilstrekkelige hindringer for å beskytte proprietær forretningslogikk.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Variabelnavn-omdøping",
+                "desc": "Gir alle variabler, funksjoner og parametere nye navn med uleselige heksadesimale identifikatorer som _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Streng-koding",
+                "desc": "Koder alle streng-literals til heksadesimale escape-sekvenser — funksjonelt identisk, men uleselig"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Kodeminifisering",
+                "desc": "I tillegg til obfuskering fjernes kommentarer og mellomrom normaliseres for å redusere filstørrelsen"
+            }
+        },
+        "how_title": "Obfusker JavaScript i 3 trinn",
+        "how_steps": {
+            "1": {
+                "title": "Lim inn JavaScript",
+                "desc": "Kopier JavaScript-koden og lim den inn i inndatafeltet"
+            },
+            "2": {
+                "title": "Velg innstillinger",
+                "desc": "Velg obfuskeringsteknikker du vil bruke — velg alle tre for maksimal beskyttelse"
+            },
+            "3": {
+                "title": "Kopier og erstatt",
+                "desc": "Kopier det obfuskerte innholdet og erstatt originalfilen for distribusjon"
+            }
+        },
+        "uses_title": "Bruksområder for JavaScript-obfuskering",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Kommersielle biblioteker",
+                "desc": "Beskytt proprietære algoritmer i betalte JavaScript-biblioteker distribuert til kunder"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Nettleserspill",
+                "desc": "Obfusker spillogikk, poenvalidering og juksebeskyttelseskode"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "SaaS-widget",
+                "desc": "Beskytt innebygde JavaScript-widgets distribuert til kundenettstedene"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Konkurranser og hackathons",
+                "desc": "Beskytt originale algoritmer og tilnærminger i konkurransebidrag"
+            }
+        },
+        "tips_title": "Beste praksis for obfuskering",
+        "tips": {
+            "testing": {
+                "title": "✓ Test etter obfuskering",
+                "desc": "Test alltid den obfuskerte koden i målnettlesere — mønstre som eval() kan bryte i streng modus."
+            },
+            "source": {
+                "title": "✓ Bevar original kildekode",
+                "desc": "Obfuskering er en irreversibel transformasjon. Bevar alltid den originale lesbare kildekoden i et sikkert versjonskontrollsystem."
+            },
+            "server": {
+                "title": "✓ Flytt sensitiv logikk til serveren",
+                "desc": "Obfuskering er ikke en sikkerhetsgaranti. Implementer logikk for virkelig sensitive operasjoner på serversiden, ikke klientsiden."
+            },
+            "profiler": {
+                "title": "✓ Kontroller ytelsespåvirkning",
+                "desc": "Intensiv streng-koding kan litt bremse JavaScript-parsing. Profiler den obfuskerte koden i Chrome DevTools før produksjonsdistribusjon."
+            }
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Kan JavaScript-obfuskering reverseres fullstendig?",
+            "a1": "Ja, med tilstrekkelig innsats. Verktøy som de4js, webcrack og nettleserens DevTools kan delvis reversere obfuskeringen. Målet er å gjøre det tilstrekkelig kostbart til å avskrekke tilfeldig kopiering.",
+            "q2": "Kan obfuskering bryte JavaScript?",
+            "a2": "Korrekt brukt bør obfuskering produsere funksjonelt identisk kode. Imidlertid kan aggressiv minifisering bryte visse metaprogrammeringsmønstre. Test alltid grundig.",
+            "q3": "Straffer Google obfuskert JavaScript i SEO?",
+            "a3": "Google kan indeksere og kjøre sidens JavaScript selv om det er obfuskert. Hvis det gjengitte HTML-innholdet er det samme, er det ingen SEO-straff.",
+            "q4": "Hva er forskjellen mellom minifisering og obfuskering?",
+            "a4": "Minifisering fjerner mellomrom og kommentarer og forkorter variabelnavn for å redusere filstørrelsen — koden er fortsatt lesbar etter omformatering. Obfuskering sikter mot å gjøre koden uleselig med forvirrende variabelnavn, streng-koding og andre teknikker."
+        }
+    }
+}

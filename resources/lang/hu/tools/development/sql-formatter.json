@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "Online SQL Formázó - SQL Lekérdezések Formázása Ingyen | Optimizo",
+        "description": "SQL lekérdezések formázása és tisztítása online, ingyen. SELECT, INSERT, UPDATE, DELETE, CREATE és összetett JOIN lekérdezések azonnali formázása.",
+        "h1": "SQL Formázó",
+        "subtitle": "SQL lekérdezések azonnali és rendezett formázása — kompatibilis az összes főbb SQL dialektussal"
+    },
+    "editor": {
+        "title": "SQL Formázó",
+        "label_input": "SQL lekérdezés",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "SQL formázása",
+        "btn_minify": "SQL minifikálása",
+        "label_output": "Formázott SQL",
+        "btn_copy": "SQL másolása"
+    },
+    "content": {
+        "why_title": "Miért formázza az SQL lekérdezéseket?",
+        "why_desc": "A formálatlan SQL szinte olvashatatlan, különösen összetett JOIN-ok, alnézetek és CTE-k esetén. A formázó megfelelő behúzást, sortöréseket és nagybetűs kulcsszavakat ad, megkönnyítve a lekérdezések áttekintését, hibakeresését és megosztását a csapattal.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Nagybetűs kulcsszavak",
+                "desc": "Automatikusan nagybetűssé alakítja a SELECT, FROM, WHERE, JOIN és az összes SQL kulcsszót"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Intelligens behúzás",
+                "desc": "Megfelelő behúzást alkalmaz az alnézetekre, CASE kifejezésekre és beágyazott tagmondatokra"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minifikálás",
+                "desc": "Egy sorba tömöríti az SQL-t — ideális a kódba ágyazott lekérdezési karakterláncokhoz"
+            }
+        },
+        "how_title": "SQL formázás 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "SQL lekérdezés beillesztése",
+                "desc": "Másolja és illessze be az SQL-t kódszerkesztőből, DB kliensből vagy lekérdezési naplókból"
+            },
+            "2": {
+                "title": "Kattintson a Formázásra",
+                "desc": "Kattintson az 'SQL formázása' gombra a megfelelő behúzás és nagybetűs kulcsszavak alkalmazásához"
+            },
+            "3": {
+                "title": "Másolás és felhasználás",
+                "desc": "Másolja a formázott SQL-t közvetlenül a DB kliensbe, ORM-be vagy dokumentációba"
+            }
+        },
+        "uses_title": "SQL formázás felhasználási esetek",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Kódellenőrzés",
+                "desc": "Formázza az SQL-t ellenőrzés előtt, hogy a kollégák egyértelműen láthassák a struktúrát"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Lekérdezések hibakeresése",
+                "desc": "Fejtse meg az összetett WHERE tagmondatokat és JOIN-láncokat a logikai hibák gyors megtalálásához"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Dokumentáció",
+                "desc": "Jól formázott SQL-t adjon a technikai dokumentációhoz, README fájlokhoz és oktatóanyagokhoz"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Lekérdezés optimalizálás",
+                "desc": "Könnyebben azonosítsa a hiányzó indexeket és a nem hatékony JOIN sorrendet formázott SQL-lel"
+            }
+        },
+        "tips_title": "SQL legjobb gyakorlatok",
+        "tips": {
+            "select": {
+                "title": "✓ Kerülje a SELECT *-ot",
+                "desc": "Mindig adja meg az oszlopneveket. Javítja a teljesítményt és megelőzi a sémamódosítások okozta problémákat."
+            },
+            "alias": {
+                "title": "✓ Használjon explicit aliasokat",
+                "desc": "Használjon értelmes tábla aliasokat a JOIN-okban, hogy az összetett lekérdezések olvashatók legyenek."
+            },
+            "explain": {
+                "title": "✓ Használja az EXPLAIN-t",
+                "desc": "Futtasson EXPLAIN vagy EXPLAIN ANALYZE parancsot a lassú lekérdezések telepítése előtt."
+            },
+            "index": {
+                "title": "✓ Indexelje a WHERE oszlopokat",
+                "desc": "Győződjön meg arról, hogy a WHERE, JOIN ON és ORDER BY oszlopok indexelve vannak az optimális teljesítményhez."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Milyen SQL dialektusok támogatottak?",
+            "a1": "Standard SQL és kompatibilis a MySQL, PostgreSQL, SQLite, SQL Server (T-SQL) és Oracle alapú rendszerekkel.",
+            "q2": "A formázás módosítja a lekérdezés viselkedését?",
+            "a2": "Nem. A formázó csak a szóközöket és a kulcsszavak betűméretét változtatja. A lekérdezés logikája, eredményei és végrehajtási terve egyáltalán nem módosul.",
+            "q3": "Formázhatom az SQL-t tárolt eljárásokkal?",
+            "a3": "Igen. Kezeli a CREATE PROCEDURE, BEGIN/END, DECLARE utasításokat és egyéb eljárási SQL konstruktumokat.",
+            "q4": "Mire jó a minifikálás az alkalmazásokban?",
+            "a4": "A minifikált SQL csökkenti a forráskódba beágyazott lekérdezési karakterláncok méretét és kompaktabbá teszi a naplókat."
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Konverter HTML ke JSX Online - Alat React Gratis | Optimizo",
+        "description": "Konversi HTML ke React JSX secara online dan gratis. Otomatis mengubah class menjadi className, for menjadi htmlFor, style inline menjadi objek JS, dan menutup tag void.",
+        "h1": "Konverter HTML ke JSX",
+        "subtitle": "Konversi HTML ke React JSX secara instan — className, htmlFor, style inline, dan tag self-closing"
+    },
+    "editor": {
+        "title": "Konverter HTML ke JSX",
+        "label_html": "Input HTML",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">Email</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "Output JSX",
+        "btn_copy": "Salin JSX"
+    },
+    "content": {
+        "why_title": "Mengapa mengkonversi HTML ke JSX?",
+        "why_desc": "Saat melakukan migrasi template HTML yang ada ke React, Anda harus secara manual mengkonversi class menjadi className, for menjadi htmlFor, dan style inline dari string ke objek JavaScript. Alat ini mengotomatiskan konversi ini secara instan dan memungkinkan Anda fokus pada logika komponen.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Konversi Atribut",
+                "desc": "class→className, for→htmlFor, tabindex→tabIndex, maxlength→maxLength, dan banyak lagi"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Objek Style Inline",
+                "desc": "Mengkonversi style=\"color:red;\" menjadi style={{color:'red'}} — notasi objek JS React"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Tag Self-closing",
+                "desc": "Menambahkan garis miring penutup ke elemen void: <br> → <br />, <input> → <input />"
+            }
+        },
+        "how_title": "Konversi HTML ke JSX dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Tempel HTML",
+                "desc": "Tempel template HTML, ekspor Figma, atau cuplikan kode HTML ke panel kiri"
+            },
+            "2": {
+                "title": "Konversi Otomatis",
+                "desc": "Konverter secara instan mengubah semua atribut, style, dan elemen void ke sintaks JSX"
+            },
+            "3": {
+                "title": "Salin JSX",
+                "desc": "Salin JSX yang dikonversi dan tempel ke blok render/return komponen React"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Konverter HTML ke JSX",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "Migrasi ke React",
+                "desc": "Migrasikan halaman HTML atau template yang ada ke komponen React tanpa konversi atribut manual"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Bootstrap di React",
+                "desc": "Konversi komponen Bootstrap HTML ke JSX untuk digunakan dengan react-bootstrap"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "Template Email",
+                "desc": "Konversi template email HTML ke JSX untuk rendering dengan React Email"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "Dari CMS ke React",
+                "desc": "Konversi template HTML WordPress atau CMS tradisional ke struktur komponen React"
+            }
+        },
+        "tips_title": "Tips Konversi HTML ke JSX",
+        "tips": {
+            "class": {
+                "title": "✓ class → className itu penting",
+                "desc": "class adalah kata kunci JavaScript yang dicadangkan. Di React, className harus digunakan untuk kelas CSS."
+            },
+            "for": {
+                "title": "✓ for di label → htmlFor",
+                "desc": "Atribut for pada <label> menjadi htmlFor di JSX. Melupakannya akan merusak aksesibilitas."
+            },
+            "events": {
+                "title": "✓ Perbarui event handler setelah konversi",
+                "desc": "Atribut HTML onclick='...' tidak dikonversi secara otomatis di JSX. Ganti handler inline secara manual dengan pola onClick={handler} React."
+            },
+            "comments": {
+                "title": "✓ Komentar HTML menjadi komentar JSX",
+                "desc": "<!-- komentar --> dikonversi menjadi {/* komentar */} di JSX."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Mengapa React menggunakan className alih-alih class?",
+            "a1": "class adalah kata kunci JavaScript yang dicadangkan (digunakan untuk kelas ES6). Karena JSX adalah JavaScript, class menciptakan konflik sintaks. React memilih className untuk menghindari ambiguitas.",
+            "q2": "Apakah alat ini menangani event handler React?",
+            "a2": "Tidak — handler HTML onclick, onsubmit, dll. tidak dikonversi secara otomatis ke onClick, onSubmit React. Diperlukan pembaruan manual.",
+            "q3": "Apa perbedaan antara HTML dan JSX?",
+            "a3": "JSX adalah ekstensi sintaks JavaScript yang mirip HTML yang dikompilasi menjadi panggilan React.createElement(). Perbedaan utama: semua atribut dalam camelCase, class→className, for→htmlFor, elemen void memerlukan self-closing, ekspresi menggunakan {} bukan string.",
+            "q4": "Mengapa elemen void memerlukan self-closing di JSX?",
+            "a4": "JSX di-parsing oleh Babel sebagai sintaks mirip XML dan mengharuskan semua elemen ditutup dengan benar. Elemen void seperti <br>, <img>, <input> tidak memiliki anak dan memerlukan /> self-closing."
+        }
+    }
+}

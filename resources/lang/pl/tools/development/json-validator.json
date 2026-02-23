@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Walidator JSON Online - Sprawdzanie składni JSON gratis | Optimizo",
+        "description": "Bezpłatny walidator JSON online. Natychmiast sprawdź czy Twój JSON jest poprawny, wykryj błędy składni z numerem linii i zobacz sformatowany wynik.",
+        "h1": "Walidator JSON",
+        "subtitle": "Natychmiastowa walidacja składni JSON — wykrywaj błędy i upewniaj się, że dane są poprawnie skonstruowane"
+    },
+    "editor": {
+        "title": "Walidator JSON",
+        "label_input": "JSON do walidacji",
+        "ph_input": "Wklej tutaj JSON...",
+        "btn_validate": "Waliduj JSON",
+        "btn_copy": "Kopiuj JSON"
+    },
+    "content": {
+        "why_title": "Dlaczego walidować JSON przed użyciem?",
+        "why_desc": "Nieprawidłowy JSON po cichu psuje interfejsy API, parsery konfiguracji i potoki danych. Błędnie umieszczony przecinek, niezamknięty nawias lub niezamkniany cudzysłów mogą powodować błędy w czasie wykonywania, które są trudne do zlokalizowania. Nasz walidator wykrywa te problemy natychmiast z dokładnymi numerami linii i jasnymi komunikatami o błędach, dzięki czemu możesz naprawić problemy zanim trafią do produkcji.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Natychmiastowa walidacja",
+                "desc": "Waliduje JSON w milisekundach z dokładnymi komunikatami o błędach i odpowiadającymi numerami linii"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Widok struktury",
+                "desc": "Na pierwszy rzut oka zapoznaj się z głębokością, liczbą kluczy i rozkładem typów w Twoim JSON"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100% prywatności",
+                "desc": "Cała walidacja odbywa się w przeglądarce — dane nigdy nie opuszczają Twojego komputera"
+            }
+        },
+        "how_title": "Jak walidować JSON w 3 krokach",
+        "how_steps": {
+            "1": {
+                "title": "Wklej JSON",
+                "desc": "Skopiuj JSON z odpowiedzi API, pliku konfiguracyjnego lub innego źródła i wklej go"
+            },
+            "2": {
+                "title": "Kliknij Waliduj",
+                "desc": "Walidator natychmiast sprawdza składnię i podświetla błędy z numerami linii"
+            },
+            "3": {
+                "title": "Popraw i skopiuj",
+                "desc": "Popraw widoczne błędy, a następnie skopiuj zwalidowany i sformatowany JSON"
+            }
+        },
+        "uses_title": "Przypadki użycia walidacji JSON",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "Walidacja odpowiedzi API",
+                "desc": "Upewnij się, że odpowiedzi REST API są poprawnie skonstruowane przed ich przetworzeniem"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Sprawdzanie plików konfiguracyjnych",
+                "desc": "Waliduj package.json, tsconfig.json i inne pliki konfiguracyjne przed wdrożeniami"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Walidacja importów danych",
+                "desc": "Sprawdź dokładność importowanych plików JSON przed załadowaniem ich do bazy danych"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Debugowanie błędów JSON",
+                "desc": "Precyzyjnie zlokalizuj błędy składni w złożonych i zagnieżdżonych strukturach JSON"
+            }
+        },
+        "tips_title": "Najlepsze praktyki JSON",
+        "tips": {
+            "quotes": {
+                "title": "✓ Zawsze używaj podwójnych cudzysłowów",
+                "desc": "JSON wymaga podwójnych cudzysłowów dla ciągów i kluczy. Pojedyncze cudzysłowy nie są prawidłowym JSON."
+            },
+            "trailing": {
+                "title": "✓ Brak końcowego przecinka",
+                "desc": "W odróżnieniu od JavaScript, JSON nie pozwala na przecinek po ostatnim elemencie tablicy lub obiektu."
+            },
+            "null": {
+                "title": "✓ Używaj null, nie None ani nil",
+                "desc": "Słowo kluczowe null w JSON musi być pisane małymi literami. None Pythona i nil Ruby to nieprawidłowy JSON."
+            },
+            "validate": {
+                "title": "✓ Ponowna walidacja po ręcznej edycji",
+                "desc": "Zawsze waliduj JSON ponownie po ręcznej edycji. Mała literówka unieważnia cały dokument."
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Dlaczego mój JSON jest nieprawidłowy, choć wygląda poprawnie?",
+            "a1": "Typowe ukryte problemy: końcowe przecinki po ostatnim elemencie tablicy/obiektu, pojedyncze cudzysłowy zamiast podwójnych, znaki specjalne bez ucieczki w ciągach znaków lub komentarze w stylu JavaScript (JSON nie obsługuje komentarzy).",
+            "q2": "Czy mogę walidować bardzo duże pliki JSON?",
+            "a2": "Tak — walidacja odbywa się całkowicie w przeglądarce za pomocą natywnego JSON.parse(). Rozmiar pliku jest ograniczony tylko pamięcią przeglądarki. W przypadku plików powyżej 10 MB przetwarzanie może zająć kilka sekund.",
+            "q3": "Jaka jest różnica między JSON a JSONP?",
+            "a3": "JSON to czysty format danych. JSONP (JSON with Padding) opakowuje JSON w wywołanie funkcji dla żądań cross-origin. JSONP nie jest prawidłowym JSON — ten walidator odrzuci go jako nieprawidłowy.",
+            "q4": "Czy JSON obsługuje komentarze?",
+            "a4": "Nie. JSON nie obsługuje komentarzy (// lub /* */). Jeśli chcesz opatrzyć JSON adnotacją, użyj klucza _comment lub przejdź na YAML albo TOML, które oba obsługują komentarze."
+        }
+    }
+}

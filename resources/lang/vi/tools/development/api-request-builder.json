@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Công Cụ Tạo Yêu Cầu API Online - HTTP Client Miễn Phí | Optimizo",
+        "description": "Tạo và gửi yêu cầu HTTP API trực tuyến và miễn phí. Hỗ trợ GET, POST, PUT, PATCH, DELETE với header tùy chỉnh, body yêu cầu và tham số truy vấn.",
+        "h1": "Công Cụ Tạo Yêu Cầu API",
+        "subtitle": "Tạo, gửi và kiểm tra yêu cầu HTTP API — HTTP client nhẹ ngay trong trình duyệt"
+    },
+    "editor": {
+        "title": "Công Cụ Tạo Yêu Cầu API",
+        "btn_send": "Gửi yêu cầu",
+        "tab_headers": "Header",
+        "tab_body": "Body",
+        "tab_params": "Tham số",
+        "btn_add_header": "Thêm header",
+        "btn_add_param": "Thêm tham số",
+        "label_response": "Phản hồi",
+        "btn_copy_response": "Sao chép phản hồi"
+    },
+    "content": {
+        "why_title": "Tại sao dùng công cụ tạo yêu cầu API?",
+        "why_desc": "Kiểm tra REST API thường yêu cầu cài đặt Postman, Insomnia hoặc viết lệnh curl. HTTP client dựa trên trình duyệt của chúng tôi không cần cài đặt — mở ra và gửi yêu cầu trực tiếp.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Tất cả phương thức HTTP",
+                "desc": "Hỗ trợ GET, POST, PUT, PATCH, DELETE với header tùy chỉnh và body JSON/form"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Phản hồi được định dạng",
+                "desc": "Body phản hồi tự động được hiển thị có thụt lề; mã trạng thái và thời gian phản hồi hiển thị rõ"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Sẵn sàng sử dụng ngay",
+                "desc": "Không cần cài đặt gì — hoàn toàn trong trình duyệt, không cần tài khoản hay plugin"
+            }
+        },
+        "how_title": "Gửi yêu cầu API trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Nhập URL và phương thức",
+                "desc": "Nhập URL endpoint API và chọn phương thức HTTP (GET, POST, v.v.)"
+            },
+            "2": {
+                "title": "Thêm header và body",
+                "desc": "Thêm Authorization, Content-Type, v.v. trong tab 'Header'. Dùng 'Body' cho dữ liệu POST/PUT."
+            },
+            "3": {
+                "title": "Gửi và kiểm tra",
+                "desc": "Nhấp 'Gửi'. Body phản hồi, mã trạng thái và thời gian hiển thị bên dưới."
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng công cụ tạo yêu cầu API",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "Gỡ lỗi API",
+                "desc": "Kiểm tra từng endpoint với header và body tùy chỉnh để gỡ lỗi xác thực và vấn đề dữ liệu"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Kiểm tra token xác thực",
+                "desc": "Kiểm tra Bearer, Basic Auth và sơ đồ API key mà không cần viết code"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "Khám phá API",
+                "desc": "Khám phá API công cộng (GitHub, OpenWeather, JSONPlaceholder) và hiểu phản hồi"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Tái tạo lỗi",
+                "desc": "Tái tạo và ghi lại lỗi API với dữ liệu yêu cầu và phản hồi chính xác cho báo cáo lỗi"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho kiểm tra API",
+        "tips": {
+            "headers": {
+                "title": "✓ Luôn đặt Content-Type",
+                "desc": "Với body JSON, luôn bao gồm Content-Type: application/json. Nhiều API từ chối hoặc hiểu sai yêu cầu nếu thiếu."
+            },
+            "cors": {
+                "title": "✓ Hiểu hạn chế CORS",
+                "desc": "Trình duyệt chặn yêu cầu cross-origin không có header CORS phù hợp. Dùng curl hoặc proxy phía server nếu yêu cầu thất bại trong trình duyệt."
+            },
+            "auth": {
+                "title": "✓ Không hardcode API key",
+                "desc": "Dùng biến môi trường trong code sản xuất. Công cụ này để kiểm tra — không chia sẻ ảnh chụp màn hình có API key thật."
+            },
+            "status": {
+                "title": "✓ Kiểm tra mã trạng thái HTTP",
+                "desc": "200=OK, 201=Đã tạo, 400=Yêu cầu xấu, 401=Không được phép, 403=Bị cấm, 404=Không tìm thấy, 500=Lỗi máy chủ."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Tại sao yêu cầu cross-origin thất bại?",
+            "a1": "Trình duyệt thực thi hạn chế CORS. Nếu API mục tiêu không có header Access-Control-Allow-Origin, trình duyệt chặn yêu cầu. Không phải lỗi — dùng curl hoặc proxy backend cho API không có CORS.",
+            "q2": "Có thể gửi yêu cầu multipart/form-data không?",
+            "a2": "Công cụ hiện hỗ trợ body JSON và text. Để tải tệp và yêu cầu form đa phần tương tự, dùng công cụ chuyên dụng như Postman.",
+            "q3": "Đây có phải là thay thế cho Postman không?",
+            "a3": "Để kiểm tra nhanh và khám phá, có. Để cộng tác nhóm, bộ sưu tập đã lưu, môi trường và kiểm tra tự động, Postman hoặc Bruno cung cấp nhiều chức năng hơn.",
+            "q4": "Sự khác biệt giữa PUT và PATCH là gì?",
+            "a4": "PUT thay thế toàn bộ resource bằng body yêu cầu. PATCH áp dụng cập nhật một phần — chỉ các trường trong body thay đổi. Hầu hết REST API dùng PATCH để cập nhật để tránh ghi đè các trường không thay đổi."
+        }
+    }
+}

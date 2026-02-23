@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON Doğrulayıcı Çevrimiçi - Ücretsiz JSON Kontrolü | Optimizo",
+        "description": "Ücretsiz çevrimiçi JSON doğrulayıcı. JSON sözdizimini anında doğrulayın, satır numarasıyla sözdizimi hatalarını tespit edin ve biçimlendirilmiş sonuçları görün.",
+        "h1": "JSON Doğrulayıcı",
+        "subtitle": "JSON sözdizimini anında doğrulayın — hataları tespit edin ve veri yapısının doğruluğunu onaylayın"
+    },
+    "editor": {
+        "title": "JSON Doğrulayıcı",
+        "label_input": "Doğrulanacak JSON",
+        "ph_input": "JSON'nizi buraya yapıştırın...",
+        "btn_validate": "JSON'u Doğrula",
+        "btn_copy": "JSON'u Kopyala"
+    },
+    "content": {
+        "why_title": "Kullanmadan Önce Neden JSON Doğrulanır?",
+        "why_desc": "Geçersiz JSON, API'leri, yapılandırma ayrıştırıcılarını ve veri işlem hatlarını sessizce bozabilir. Yanlış yerleştirilmiş virgüller, kapanmamış parantezler ve kaçış yapılmamış tırnak işaretleri izlenmesi zor çalışma zamanı hatalarına yol açabilir. Aracımız bu sorunları kesin satır numaraları ve net hata mesajlarıyla anında tespit eder.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Anında Doğrulama",
+                "desc": "JSON'u kesin hata mesajları ve satır numarasıyla milisaniyeler içinde doğrulayın"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Yapı Özeti",
+                "desc": "JSON'un derinliğini, anahtar sayısını ve tür dağılımını bir bakışta görün"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "%100 Gizlilik",
+                "desc": "Tüm doğrulama tarayıcıda yapılır — verileriniz cihazınızı terk etmez"
+            }
+        },
+        "how_title": "3 Adımda JSON Doğrulama",
+        "how_steps": {
+            "1": {
+                "title": "JSON'u Yapıştırın",
+                "desc": "API yanıtı, yapılandırma dosyası veya başka bir kaynaktan JSON'u kopyalayıp yapıştırın"
+            },
+            "2": {
+                "title": "Doğrulamayı Tıklayın",
+                "desc": "Doğrulayıcı sözdizimini anında kontrol eder ve satır numarasıyla hataları vurgular"
+            },
+            "3": {
+                "title": "Düzeltin ve Kopyalayın",
+                "desc": "Gösterilen hataları düzeltin, ardından doğrulanmış ve biçimlendirilmiş JSON'u kopyalayın"
+            }
+        },
+        "uses_title": "JSON Doğrulama Kullanım Alanları",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "API Yanıtı Doğrulama",
+                "desc": "İşlemeden önce REST API yanıtlarının doğru yapılandırıldığını doğrulayın"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Yapılandırma Dosyası Kontrolü",
+                "desc": "Dağıtımdan önce package.json, tsconfig.json ve diğer yapılandırma dosyalarını doğrulayın"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Veri İçe Aktarma Doğrulama",
+                "desc": "Veritabanına yüklemeden önce içe aktarma JSON dosyalarının doğruluğunu kontrol edin"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "JSON Hatalarını Ayıklama",
+                "desc": "Karmaşık iç içe JSON yapılarındaki sözdizimi hatalarını kesin olarak bulun"
+            }
+        },
+        "tips_title": "JSON En İyi Uygulamaları",
+        "tips": {
+            "quotes": {
+                "title": "✓ Her Zaman Çift Tırnak Kullanın",
+                "desc": "JSON, dizeler ve anahtarlar için çift tırnak gerektirir. Tek tırnak geçerli JSON değildir."
+            },
+            "trailing": {
+                "title": "✓ Sondaki Virgül Yasak",
+                "desc": "JavaScript'in aksine JSON, dizilerdeki veya nesnelerdeki son öğeden sonra virgüle izin vermez."
+            },
+            "null": {
+                "title": "✓ None veya nil Değil null Kullanın",
+                "desc": "JSON'daki null anahtar sözcüğü küçük harf olmalıdır. Python'un None'u veya Ruby'nin nil'i geçerli JSON değildir."
+            },
+            "validate": {
+                "title": "✓ Manuel Düzenlemeden Sonra Yeniden Doğrulayın",
+                "desc": "Manuel düzenlemeden sonra JSON'u her zaman yeniden doğrulayın. Küçük bir yazım hatası tüm belgeyi geçersiz kılabilir."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "Doğru görünmesine rağmen JSON neden geçersiz?",
+            "a1": "Yaygın gizli sorunlar: dizi/nesne son öğesinden sonra sondaki virgül, çift tırnak yerine tek tırnak, dizelerdeki kaçış yapılmamış özel karakterler, JavaScript tarzı yorumlar (JSON yorumları desteklemez).",
+            "q2": "Çok büyük JSON dosyalarını doğrulayabilir miyim?",
+            "a2": "Evet — doğrulama, yerel JSON.parse() kullanılarak tamamen tarayıcıda gerçekleştirilir. Dosya boyutu yalnızca tarayıcı belleğiyle sınırlıdır.",
+            "q3": "JSON ve JSONP arasındaki fark nedir?",
+            "a3": "JSON saf bir veri formatıdır. JSONP, çapraz alan istekler için JSON'u bir işlev çağrısıyla sarar. JSONP geçerli JSON değildir.",
+            "q4": "JSON yorumları destekliyor mu?",
+            "a4": "Hayır. JSON, // veya /* */ yorumlarını desteklemez. JSON'a yorum eklemek istiyorsanız _comment anahtarı kullanın veya yorumları destekleyen YAML veya TOML'a geçin."
+        }
+    }
+}

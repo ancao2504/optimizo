@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "HTML'den JSX'e Dönüştürücü Çevrimiçi - Ücretsiz | Optimizo",
+        "description": "HTML'yi React JSX'e çevrimiçi ücretsiz dönüştürün. class'ı className'e, for'u htmlFor'a, satır içi stilleri JS nesnelerine otomatik dönüştürün ve boş etiketleri kapatın.",
+        "h1": "HTML'den JSX'e Dönüştürücü",
+        "subtitle": "HTML'yi anında React JSX'e dönüştürün — className, htmlFor, satır içi stiller ve self-closing etiketler desteklenir"
+    },
+    "editor": {
+        "title": "HTML'den JSX'e Dönüştürücü",
+        "label_html": "HTML Girişi",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">E-posta</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "JSX Çıkışı",
+        "btn_copy": "JSX'i Kopyala"
+    },
+    "content": {
+        "why_title": "HTML Neden JSX'e Dönüştürülür?",
+        "why_desc": "Mevcut HTML şablonlarını React'a taşırken class'ı className'e, for'u htmlFor'a ve satır içi stilleri dizelerden JavaScript nesnelerine elle dönüştürmek gerekir. Aracımız bu dönüşümleri anında otomatikleştirerek bileşen mantığına odaklanmanızı sağlar.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Özellik Dönüştürme",
+                "desc": "class→className, for→htmlFor, tabindex→tabIndex, maxlength→maxLength ve daha fazlası"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Satır İçi Stil Nesnesi",
+                "desc": "style=\"color:red;\"'i style={{color:'red'}}'a dönüştürür — React'ın JS nesnesi gösterimi"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Self-Closing Etiketler",
+                "desc": "Boş öğelere kapanış eğik çizgisi ekler: <br> → <br />, <input> → <input />"
+            }
+        },
+        "how_title": "3 Adımda HTML'yi JSX'e Dönüştürme",
+        "how_steps": {
+            "1": {
+                "title": "HTML'yi Yapıştırın",
+                "desc": "HTML şablonunu, Figma dışa aktarımını veya HTML kod parçacığını sol panele yapıştırın"
+            },
+            "2": {
+                "title": "Otomatik Dönüştürme",
+                "desc": "Dönüştürücü tüm özellikler, stiller ve boş öğeleri anında JSX sözdizimine dönüştürür"
+            },
+            "3": {
+                "title": "JSX'i Kopyalayın",
+                "desc": "Dönüştürülmüş JSX'i kopyalayıp React bileşeninizin render/return bloğuna yapıştırın"
+            }
+        },
+        "uses_title": "HTML'den JSX'e Dönüştürücü Kullanım Alanları",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "React'a Geçiş",
+                "desc": "Özellik manuel dönüşümü olmadan mevcut HTML sayfalarını veya şablonları React bileşenlerine taşıyın"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "React'ta Bootstrap",
+                "desc": "Bootstrap HTML bileşenlerini JSX'e dönüştürerek react-bootstrap veya styled-components ile kullanın"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "E-posta Şablonları",
+                "desc": "React Email gibi kütüphanelerle işlemek üzere HTML e-posta şablonlarını JSX'e dönüştürün"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "CMS'den React'a",
+                "desc": "WordPress veya geleneksel CMS HTML şablonlarını React bileşen yapısına dönüştürün"
+            }
+        },
+        "tips_title": "HTML'den JSX'e Dönüşüm İpuçları",
+        "tips": {
+            "class": {
+                "title": "✓ class → className Önemli",
+                "desc": "class, JavaScript'in ayrılmış anahtar sözcüğüdür. React'ta CSS sınıfları için className kullanılmalıdır. Unutursanız React uyarıları ve beklenmedik davranış oluşur."
+            },
+            "for": {
+                "title": "✓ label'ın for'u → htmlFor",
+                "desc": "<label>'ın for özelliği JSX'te htmlFor olur. Unutulursa erişilebilirlik bozulur — ekran okuyucular etiket-alan ilişkilendirmesine dayanır."
+            },
+            "events": {
+                "title": "✓ Dönüşüm Sonrası Olay İşleyicilerini Güncelleyin",
+                "desc": "HTML özellik onclick='...' JSX'te otomatik dönüştürülmez. Dönüşüm sonras satır içi olay işleyicilerini React'ın onClick={handler} kalıbıyla elle değiştirin."
+            },
+            "comments": {
+                "title": "✓ HTML Yorumları JSX Yorumuna Dönüşür",
+                "desc": "<!-- yorum --> JSX'te {/* yorum */}'a dönüştürülür. JSX, JSX etiketleri içinde HTML yorum sözdizimini desteklemez."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "React neden class yerine className kullanıyor?",
+            "a1": "class, bir JavaScript ayrılmış anahtar sözcüğüdür (ES6 sınıflarında kullanılır). JSX, JavaScript olduğundan class kullanmak sözdizimi çakışmasına yol açar. React, JavaScript'in class ayrılmış sözcüğüyle belirsizliği önlemek için className'i seçti.",
+            "q2": "Bu araç React olay işleyicilerini işliyor mu?",
+            "a2": "Hayır — onclick, onsubmit gibi HTML olay işleyicileri React'ın onClick, onSubmit'ine otomatik dönüştürülmez. Bu değerlerin (HTML'deki JavaScript dizeleri) React bileşeninin işlev/durumuna başvurması gerekir. Manuel güncelleme gerekir.",
+            "q3": "HTML ve JSX arasındaki fark nedir?",
+            "a3": "JSX, React.createElement() çağrılarına derlenen HTML'ye benzer bir JavaScript sözdizimi uzantısıdır. Temel farklar: tüm özellikler camelCase, class yerine className, for yerine htmlFor, boş öğeler self-closing gerektirir, ifadeler dize değil {} kullanır.",
+            "q4": "JSX'te boş öğeler neden self-closing gerektiriyor?",
+            "a4": "JSX, Babel tarafından XML benzeri sözdizimi olarak ayrıştırılır ve tüm öğelerin düzgün kapatılmasını gerektirir. <br>, <img>, <input> gibi boş öğelerin çocukları yoktur; bu nedenle kapatılmamış etiket yerine /> self-closing gerekir."
+        }
+    }
+}

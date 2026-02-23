@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Generátor CSS Gradientu Online - Vytvořte Zdarma | Optimizo",
+        "description": "Vytvářejte CSS gradienty online zdarma. Generujte lineární, radiální a kuželové gradienty s více barevnými zastávkami a ovládáním úhlu s okamžitým exportem CSS.",
+        "h1": "Generátor CSS Gradientu",
+        "subtitle": "Vytvářejte krásné lineární, radiální a kuželové gradienty s živým náhledem a exportem CSS"
+    },
+    "editor": {
+        "title": "Generátor CSS Gradientu",
+        "label_type": "Typ gradientu",
+        "label_angle": "Úhel",
+        "label_stops": "Barevné zastávky",
+        "btn_add_stop": "Přidat zastávku",
+        "btn_copy": "Kopírovat CSS"
+    },
+    "content": {
+        "why_title": "Proč používat vizuální generátor gradientu?",
+        "why_desc": "Ruční psaní CSS gradientů je zdlouhavé. Náš vizuální generátor umožňuje ovládat barevné zastávky pomocí výběru barvy a posuvníku polohy s okamžitou aktualizací.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 typy gradientu",
+                "desc": "Lineární, radiální a kuželový gradient — s specializovanými ovládacími prvky pro každý typ"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Vícebarevné gradienty",
+                "desc": "Přidejte neomezený počet barevných zastávek a přetahujte polohy pro složité gradienty"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Živý náhled",
+                "desc": "Vidíte renderování gradientu v reálném čase při nastavování barev, poloh a úhlu"
+            }
+        },
+        "how_title": "Vytvoření CSS gradientu ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vyberte typ gradientu",
+                "desc": "Vyberte lineární, radiální nebo kuželový gradient a nastavte úhel nebo směr"
+            },
+            "2": {
+                "title": "Nastavte barevné zastávky",
+                "desc": "Nastavte barvu každé zastávky pomocí výběru barvy a polohu posuvníky"
+            },
+            "3": {
+                "title": "Zkopírujte CSS",
+                "desc": "Klikněte 'Kopírovat CSS' pro získání kompletní vlastnosti background k použití ve stylopisu"
+            }
+        },
+        "uses_title": "Případy použití CSS gradientů",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Pozadí hero sekce",
+                "desc": "Vytvářejte impresivní celostranné pozadí s diagonálními nebo radiálními gradienty"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Gradientní text",
+                "desc": "Použijte gradient na text pomocí background-clip:text pro úžasné typografické efekty"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Gradientní okraje",
+                "desc": "Použijte gradient s border-image pro vytvoření barevných rámů kolem prvků"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Překrytí obrázku",
+                "desc": "Přidejte gradient přes obrázky pro tmavé překrytí zajišťující čitelnost textu"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro CSS gradienty",
+        "tips": {
+            "angle": {
+                "title": "✓ Pro diagonální gradienty používejte 135deg",
+                "desc": "Úhel 135 stupňů vytváří klasickou diagonálu z levého horního rohu do pravého dolního."
+            },
+            "subtle": {
+                "title": "✓ Udržujte gradienty v UI subtilní",
+                "desc": "V UI prvcích jako tlačítka a karty používejte velmi subtilní gradienty s 10-20% rozdílem jasu pro hloubku."
+            },
+            "fallback": {
+                "title": "✓ Nastavte záložní barvu",
+                "desc": "Přidejte plynnou barvu pozadí jako zálohu: background-color:#6366f1; background:linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Animujte polohu gradientu",
+                "desc": "CSS gradienty nelze přímo animovat, ale můžete animovat background-position na větším gradientu pro hladký pohybový efekt."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Jaký je rozdíl mezi lineárním, radiálním a kuželovým gradientem?",
+            "a1": "Lineární gradient přechází podél přímé čáry v úhlu. Radiální vyzařuje ze středu kruhově nebo elipticky. Kuželový rotuje kolem středu — ideální pro kruhové ukazatele průběhu.",
+            "q2": "Jak vytvořit průhledný gradient?",
+            "a2": "Použijte transparent jako barevnou zastávku: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Vytvoří gradient od poloprůhledné barvy do plně průhledné — ideální pro překrytí obrázku.",
+            "q3": "Proč vidím pruhy v gradientu?",
+            "a3": "Pruhování (viditelné čáry mezi barvami) nastává na displejích nízké kvality nebo při přechodech mezi podobnými odstíny. Přidejte mezilehlou barevnou zastávku pro zmírnění přechodu.",
+            "q4": "Lze gradient použít jako okraj?",
+            "a4": "Ano; použijte border-image:linear-gradient(...) 1. Alternativně může ::before pseudo-prvek s gradientním pozadím a záporným z-index simulovat gradientní okraj."
+        }
+    }
+}

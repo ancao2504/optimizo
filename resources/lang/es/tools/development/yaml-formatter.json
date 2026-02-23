@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Formateador YAML Online - Embellecedor YAML gratuito | Optimizo",
+        "description": "Formatea y valida archivos YAML en línea gratis. Embellece YAML al instante con indentación correcta y verificación de sintaxis.",
+        "h1": "Formateador YAML",
+        "subtitle": "Formatea y valida archivos YAML al instante — soporta anidamiento complejo, anclas y alias"
+    },
+    "editor": {
+        "title": "Formateador YAML",
+        "label_input": "Entrada YAML",
+        "ph_input": "nombre: Mi Aplicación\nbase_datos:\n  host: localhost\n  puerto: 5432",
+        "btn_format": "Formatear YAML",
+        "label_output": "YAML formateado",
+        "btn_copy": "Copiar YAML"
+    },
+    "content": {
+        "why_title": "¿Por qué formatear archivos YAML?",
+        "why_desc": "YAML es extremadamente sensible a la indentación — un único espacio extra puede provocar errores de análisis o corrupción silenciosa de datos. Herramientas como Kubernetes, Docker Compose, GitHub Actions y Ansible usan archivos de configuración YAML donde los errores de formateo pueden paralizar despliegues enteros. Nuestro formateador valida la sintaxis, normaliza la indentación y garantiza que tu YAML siempre sea correcto.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Normalización de indentación",
+                "desc": "Normaliza las indentaciones mixtas a un formato consistente de 2 espacios en todo el documento"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Validación de sintaxis",
+                "desc": "Detecta errores de indentación, mezclas de tabulaciones/espacios y problemas estructurales antes de fallos en producción"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Anclas y alias",
+                "desc": "Soporte completo para anclas YAML (&) y alias (*) para reutilización de documentos y configuraciones DRY"
+            }
+        },
+        "how_title": "Formatear YAML en 3 pasos",
+        "how_steps": {
+            "1": {
+                "title": "Pega tu YAML",
+                "desc": "Pega tu manifiesto de Kubernetes, workflow de GitHub Actions o cualquier archivo de configuración YAML"
+            },
+            "2": {
+                "title": "Formatear y validar",
+                "desc": "La herramienta valida la sintaxis y reformatea automáticamente con indentación consistente"
+            },
+            "3": {
+                "title": "Copiar y desplegar",
+                "desc": "Copia el YAML formateado en tu archivo, pipeline CI o herramienta de despliegue"
+            }
+        },
+        "uses_title": "Casos de uso del formateo YAML",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Manifiestos de Kubernetes",
+                "desc": "Formatea archivos YAML de Deployment, Service y ConfigMap antes de aplicarlos a un clúster"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "Pipelines CI/CD",
+                "desc": "Valida workflows de GitHub Actions, GitLab CI y CircleCI para evitar fallos en el pipeline"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Playbooks de Ansible",
+                "desc": "Formatea y valida tareas, variables e inventarios de Ansible para código de infraestructura limpio"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Asegúrate de que los archivos docker-compose.yml están correctamente formateados antes de ejecutar docker compose up"
+            }
+        },
+        "tips_title": "Buenas prácticas YAML",
+        "tips": {
+            "spaces": {
+                "title": "✓ Usa espacios, nunca tabulaciones",
+                "desc": "YAML prohíbe estrictamente las tabulaciones para la indentación. Configura siempre tu editor para insertar espacios al pulsar Tab en archivos YAML."
+            },
+            "quotes": {
+                "title": "✓ Pon entre comillas los caracteres especiales",
+                "desc": "Las cadenas con : # [ ] { } o que comienzan con caracteres especiales deben ir entre comillas para evitar que YAML las malinterprete."
+            },
+            "anchors": {
+                "title": "✓ Usa anclas para reducir duplicaciones",
+                "desc": "Las anclas YAML (&nombre) y los alias (*nombre) permiten reutilizar valores en un documento, reduciendo la repetición en configuraciones complejas."
+            },
+            "lint": {
+                "title": "✓ Lint antes de hacer commit",
+                "desc": "Ejecuta yamllint o usa este formateador en tu hook pre-commit para detectar problemas de formateo antes de que lleguen al repositorio."
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Por qué YAML falla con tabulaciones en lugar de espacios?",
+            "a1": "La especificación YAML prohíbe explícitamente los caracteres de tabulación para la indentación, ya que distintos editores muestran las tabulaciones con anchuras diferentes. Los espacios proveen una indentación consistente e inequívoca que todos los parsers YAML pueden interpretar de manera idéntica.",
+            "q2": "¿Qué hacen las anclas (&) y los alias (*) en YAML?",
+            "a2": "Las anclas definen un bloque reutilizable con &nombre-ancla: y los alias lo referencian con *nombre-ancla. Esto te permite definir valores una vez y reutilizarlos varias veces, manteniendo las configuraciones DRY.",
+            "q3": "¿Cuál es la diferencia entre YAML y JSON?",
+            "a3": "YAML es un superconjunto de JSON — todo JSON válido es YAML válido. YAML añade soporte para comentarios, anclas, cadenas multilínea y sintaxis más legible. JSON es mejor para el intercambio de datos entre máquinas; YAML es más adecuado para configuración editada por humanos.",
+            "q4": "¿Por qué elegir YAML en lugar de TOML para la configuración?",
+            "a4": "YAML tiene soporte de herramientas más amplio (Kubernetes, Ansible, la mayoría de sistemas CI) y puede representar estructuras anidadas complejas de forma concisa. TOML es más simple y menos propenso a errores para configuraciones básicas. Para la configuración DevOps, YAML es el estándar."
+        }
+    }
+}

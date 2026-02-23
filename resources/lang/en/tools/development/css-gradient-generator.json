@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "CSS Gradient Generator - Free Online Gradient Builder | Optimizo",
+        "description": "Generate CSS gradients online for free. Create linear, radial, and conic gradients with multiple color stops, angle control, and instant CSS code output.",
+        "h1": "CSS Gradient Generator",
+        "subtitle": "Create beautiful linear, radial, and conic gradients with live preview and CSS export"
+    },
+    "editor": {
+        "title": "CSS Gradient Generator",
+        "label_type": "Gradient Type",
+        "label_angle": "Angle",
+        "label_stops": "Color Stops",
+        "btn_add_stop": "Add Color Stop",
+        "btn_copy": "Copy CSS"
+    },
+    "content": {
+        "why_title": "Why Use a Visual Gradient Generator?",
+        "why_desc": "Writing CSS gradients by hand is tedious — remembering syntax for linear-gradient(), radial-gradient(), and conic-gradient() with multiple color stops and positions is error-prone. Our visual generator lets you manage color stops with pickers and position sliders, with a live preview that updates instantly, making gradient creation fast and intuitive.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 Gradient Types",
+                "desc": "Linear, radial, and conic gradients all supported with full type-specific controls"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Multi-Stop Gradients",
+                "desc": "Add unlimited color stops and drag their positions to create complex multi-color gradients"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Live Preview",
+                "desc": "See your gradient rendered in real-time as you adjust colors, positions, and the angle"
+            }
+        },
+        "how_title": "How to Create a CSS Gradient",
+        "how_steps": {
+            "1": {
+                "title": "Choose Gradient Type",
+                "desc": "Select linear, radial, or conic gradient and set the angle or direction"
+            },
+            "2": {
+                "title": "Configure Color Stops",
+                "desc": "Use the color pickers to set each stop's color, and drag the sliders to position them"
+            },
+            "3": {
+                "title": "Copy CSS",
+                "desc": "Click 'Copy CSS' to get the complete background property ready for your stylesheet"
+            }
+        },
+        "uses_title": "CSS Gradient Use Cases",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Hero Backgrounds",
+                "desc": "Create stunning full-page hero backgrounds with diagonal or radial gradients"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Gradient Text",
+                "desc": "Apply gradients to text with background-clip: text for striking typographic effects"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Gradient Borders",
+                "desc": "Use gradients with border-image to create colorful gradient borders on elements"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Image Overlays",
+                "desc": "Layer gradients over images to create dark overlays for readable text on image backgrounds"
+            }
+        },
+        "tips_title": "CSS Gradient Best Practices",
+        "tips": {
+            "angle": {
+                "title": "✓ Use 135deg for Diagonal Gradients",
+                "desc": "A 135-degree angle creates a classic top-left to bottom-right diagonal that feels natural and dynamic — a popular choice for hero sections."
+            },
+            "subtle": {
+                "title": "✓ Keep Gradients Subtle for UI",
+                "desc": "For UI elements (buttons, cards), use very subtle gradients of the same hue with 10–20% lightness difference for depth without visual noise."
+            },
+            "fallback": {
+                "title": "✓ Provide a Solid Color Fallback",
+                "desc": "Add a solid background-color before your gradient as a fallback for very old browsers: background-color: #6366f1; background: linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Animate Gradient Position",
+                "desc": "CSS gradients cannot be animated directly, but you can animate background-position on a larger gradient to create a flowing effect."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "What is the difference between linear, radial, and conic gradients?",
+            "a1": "Linear gradients transition along a straight line at an angle. Radial gradients radiate outward from a center point in circles or ellipses. Conic gradients rotate around a center point like a pie chart — great for progress rings and color wheels.",
+            "q2": "How do I create a transparent gradient?",
+            "a2": "Use transparent as a color stop: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). This creates a gradient from a semi-opaque color to fully transparent — perfect for image overlays.",
+            "q3": "Why does my gradient look banded or striped?",
+            "a3": "Banding (visible stripes between colors) occurs on low-quality displays or when transitions span similar hues. Add a middle color stop at a complementary hue to smooth the transition.",
+            "q4": "Can I use gradients as borders?",
+            "a4": "Yes, use border-image: linear-gradient(...) 1. This sets the gradient as the border image. Alternatively, use a ::before pseudo-element with a gradient background and negative z-index to simulate a gradient border."
+        }
+    }
+}

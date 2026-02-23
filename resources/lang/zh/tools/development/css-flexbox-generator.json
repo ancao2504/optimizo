@@ -1,0 +1,101 @@
+{
+    "meta": {
+        "title": "在线 CSS Flexbox 弹性盒子生成器 - 网页布局排版工具 | Optimizo",
+        "description": "免费的在线 CSS Flexbox 可视化生成器。通过所见即所得的交互界面，学习、构建并导出完美的 CSS 弹性盒子响应式布局代码，支持所有 justify-content 和 align-items 属性。",
+        "h1": "CSS Flexbox 弹性盒子生成器",
+        "subtitle": "再也不用死记枯燥属性名了！点击界面开关，瞬间生成完美的弹性排版 CSS 代码"
+    },
+    "editor": {
+        "title": "Flex 布局操控台",
+        "container_settings": "容器主控层 (Flex Container)",
+        "item_settings": "子元素操控层 (Flex Items)",
+        "prop_direction": "排列方向 (flex-direction)",
+        "prop_wrap": "换行规则 (flex-wrap)",
+        "prop_justify": "主轴对齐 (justify-content)",
+        "prop_align_items": "交叉轴对齐 (align-items)",
+        "prop_align_content": "多行对齐 (align-content)",
+        "prop_gap": "元素间距 (gap)",
+        "add_item": "添加子元素 (+ Item)",
+        "remove_item": "移除子元素 (- Remove)",
+        "code_output": "生成的 CSS 代码",
+        "btn_copy": "复制代码"
+    },
+    "content": {
+        "why_title": "为何需用可视化生成器来攻克 Flexbox 难题？",
+        "why_desc": "CSS Flexbox 是现代网页布局的绝对核心基础。无论是导航栏、卡片列表还是表单控件的水平居中，都仰赖于它的弹性控制能力。然而 `justify-content` 和 `align-items` 的区别，加上 `flex-start`、`space-between`、`stretch` 等十余个属性值，常常把初学者彻底绕晕。这款可视化生成器将所有属性变成可实时点击的开关和下拉菜单。当您调整任一属性，右侧预览区域会立刻呈现实际排布效果，让您在零代码的前提下完成排版，最终产出可直接复制粘贴的干净 CSS。",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "实时所见即所得预览",
+                "desc": "不再需要脑中凭空想象布局效果。当您切换任一 Flex 属性时，预览区域立刻反映真实效果，直觉极为直观。"
+            },
+            "code": {
+                "icon": "💻",
+                "title": "生成干净带注释的样式代码",
+                "desc": "代码输出区会实时同步生成包含容器和子元素的完整 CSS 规则集，格式规范且带有属性注释，方便直接使用。"
+            },
+            "gap": {
+                "icon": "📏",
+                "title": "现代 Gap 间距属性支持",
+                "desc": "采用现代标准的 `gap` 属性控制元素间距，而不是使用容易出现边界问题的传统 `margin` 方案。"
+            }
+        },
+        "how_title": "三步轻松构建专业的 Flexbox 布局",
+        "how_steps": {
+            "1": {
+                "title": "设定容器的排列方向",
+                "desc": "首先选择元素是水平排列（Row 行）还是垂直排列（Column 列），然后决定是否允许在容器空间不足时换行。"
+            },
+            "2": {
+                "title": "调整对齐方式和间距",
+                "desc": "在 `justify-content`（主轴）和 `align-items`（交叉轴）之间拨动选择。若想把子元素均匀分散到两端，请选 `space-between`。"
+            },
+            "3": {
+                "title": "复制生成的代码",
+                "desc": "调整满意后，点击下方代码框旁的"复制"按钮，即拿即用！"
+            }
+        },
+        "uses_title": "Flexbox 最适合解决什么布局问题？",
+        "uses": {
+            "navbar": {
+                "icon": "🧭",
+                "title": "响应式导航栏",
+                "desc": "利用 `space-between` 轻松让左侧品牌 Logo 和右侧导航菜单按钮各自靠边，轻松实现专业导航栏布局。"
+            },
+            "cards": {
+                "icon": "🔖",
+                "title": "卡片列表与产品展示网格",
+                "desc": "配合 `flex-wrap: wrap` 使卡片在屏幕变小时自动换行折叠，实现天然的响应式卡片网格布局。"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "纵横完美居中",
+                "desc": "这是困扰前端开发者多年的难题。只需使用 `justify-content: center` 加上 `align-items: center`，即可实现元素同时水平且垂直居中。"
+            },
+            "forms": {
+                "icon": "📝",
+                "title": "表单控件排列",
+                "desc": "利用 Flexbox 能轻松处理各种宽度不规则的输入框标签组合，让表单在各种屏幕上都能对齐整洁。"
+            }
+        },
+        "tips_title": "从 Flexbox 新手进阶为熟练开发者的关键心得",
+        "tips": {
+            "wrap": {
+                "title": "✓ 别忘了 flex-wrap: wrap 配合响应式断点",
+                "desc": "默认情况下 Flex 不会换行，所有子元素会被压缩在同一行。添加 `flex-wrap: wrap` 后，在小屏幕下子元素才会自然折叠到下一行，这是响应式设计的关键！"
+            },
+            "vw": {
+                "title": "✓ 善用 flex-grow 让元素弹性填满剩余空间",
+                "desc": "给子元素设置 `flex-grow: 1` 可以让它自动伸展填满容器中其他元素占用之后剩余的所有空间，非常适合让内容区域自动撑满屏幕宽度。"
+            },
+            "basis": {
+                "title": "✓ 用 flex-basis 设定子元素的初始理想宽度",
+                "desc": "`flex-basis` 决定的是某个子元素在被拉伸或压缩之前"理想应该有多宽"。和 `width` 在弹性容器中的作用类似，但语义更准确。"
+            },
+            "align": {
+                "title": "✓ 不要混淆主轴和交叉轴的方向",
+                "desc": "当 `flex-direction` 为 `row`（横排）时，`justify-content` 控制水平方向，`align-items` 控制垂直方向。一旦切换为 `column`（竖排），这两者的轴线方向会互换！这是最常见的困惑来源。"
+            }
+        }
+    }
+}

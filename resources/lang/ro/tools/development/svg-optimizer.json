@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Optimizator SVG Online - Comprimați SVG Gratuit | Optimizo",
+        "description": "Optimizați și comprimați fișiere SVG online și gratuit. Eliminați comentariile, metadatele și atributele inutile pentru a reduce dimensiunea fișierului menținând calitatea vizuală.",
+        "h1": "Optimizator SVG",
+        "subtitle": "Comprimați fișiere SVG online — eliminați metadate, comentarii și atribute inutile pentru a reduce dimensiunea fișierului"
+    },
+    "editor": {
+        "title": "Optimizator SVG",
+        "opt_remove_comments": "Eliminați comentariile",
+        "opt_remove_metadata": "Eliminați metadatele",
+        "opt_remove_ids": "Eliminați ID-urile",
+        "opt_remove_dimensions": "Eliminați lățimea/înălțimea",
+        "opt_remove_doctype": "Eliminați DOCTYPE",
+        "opt_round_numbers": "Rotunjiți numerele",
+        "opt_collapse_groups": "Eliminați grupurile goale",
+        "opt_remove_empty_containers": "Eliminați containerele goale",
+        "label_input": "Intrare SVG",
+        "ph_input": "Inserați codul SVG aici...",
+        "btn_optimize": "Optimizați SVG",
+        "label_output": "SVG optimizat",
+        "btn_copy": "Copiați SVG"
+    },
+    "content": {
+        "why_title": "De ce să optimizați fișierele SVG?",
+        "why_desc": "Fișierele SVG exportate din Illustrator, Figma și Inkscape conțin multe date inutile — comentarii, metadate editoare, atribute redundante și containere goale. După optimizare, dimensiunea fișierului poate fi redusă cu 30-70% iar încărcarea este mai rapidă.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 strategii de optimizare",
+                "desc": "Activați/dezactivați fiecare trecere de optimizare independent pentru control precis"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Statistici reducere dimensiune",
+                "desc": "Vedeți dimensiunea originală, dimensiunea optimizată și procentul de economisire după fiecare optimizare"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Optimizare fără pierderi",
+                "desc": "Toate optimizările păstrează aspectul vizual al SVG — elimină doar metadate invizibile"
+            }
+        },
+        "how_title": "Optimizați SVG în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Inserați codul SVG",
+                "desc": "Copiați codul sursă SVG din instrumentul de design sau fișier și inserați-l în câmpul de intrare"
+            },
+            "2": {
+                "title": "Selectați optimizările",
+                "desc": "Bifați setările de optimizare dorite — setările implicite oferă reducere maximă"
+            },
+            "3": {
+                "title": "Copiați și folosiți",
+                "desc": "Copiați SVG-ul optimizat și înlocuiți fișierul original sau încastrați-l direct în HTML"
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru optimizarea SVG",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Biblioteci de icoane",
+                "desc": "Optimizați seturile de icoane exportate din Figma sau Illustrator înainte de adăugarea în bibliotecă"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Logo-uri",
+                "desc": "Curățați logo-urile SVG pentru antetele site-ului, favicon-uri și resurse de brand"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "SVG-uri animate",
+                "desc": "Reduceți dimensiunea de bază a SVG-urilor animate care sunt deja mari datorită datelor de animație"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA și mobil",
+                "desc": "SVG-urile mai mici reduc consumul de date mobile și îmbunătățesc performanța Lighthouse"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru optimizarea SVG",
+        "tips": {
+            "ids": {
+                "title": "✓ Fiți atenți la eliminarea ID-urilor cu animații CSS",
+                "desc": "Dacă SVG-ul folosește animații CSS sau JS care vizează elementele ID, dezactivați 'Eliminați ID-urile' pentru ca animațiile să nu se rupă."
+            },
+            "viewbox": {
+                "title": "✓ Păstrați viewBox, eliminați lățimea/înălțimea",
+                "desc": "Eliminarea atributelor lățime/înălțime și păstrarea doar a viewBox permite SVG-ului să se scaleze responsiv prin CSS."
+            },
+            "precision": {
+                "title": "✓ Rotunjiți numerele la 2 zecimale",
+                "desc": "Coordonatele căilor cu mai mult de 5 zecimale sunt vizual indistinguibile. Rotunjirea la 2 reduce fișierul."
+            },
+            "pipeline": {
+                "title": "✓ Automatizați SVGO în CI/CD",
+                "desc": "În proiectele mari integrați SVGO în pipeline-ul de build pentru optimizarea automată a tuturor SVG-urilor."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Cu cât poate optimizarea SVG să reducă dimensiunea fișierului?",
+            "a1": "De obicei 30-70% economisire în funcție de sursă. SVG-urile Illustrator arată cele mai mari economisiri; exporturile Figma sunt deja relativ curate.",
+            "q2": "Schimbă optimizarea aspectul SVG?",
+            "a2": "Nu — toate optimizările din acest instrument elimină doar date invizibile sau rotunjesc numere cu precizie imperceptibilă. Rezultatul vizual este identic cu originalul.",
+            "q3": "De ce se elimină atributele lățime și înălțime?",
+            "a3": "Valorile lățime/înălțime codificate rigid împiedică SVG-ul să se scaleze responsiv prin CSS. Eliminarea lor și păstrarea doar a viewBox oferă control complet al dimensiunii prin proprietăți CSS.",
+            "q4": "Care este diferența dintre acest instrument și SVGO?",
+            "a4": "SVGO este un instrument de linie de comandă Node.js care este standardul pentru optimizarea SVG. Acest instrument oferă o interfață browser ușor de utilizat pentru cele mai comune optimizări fără a instala Node.js."
+        }
+    }
+}

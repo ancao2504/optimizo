@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON-validaattori Verkossa - Validoi JSON Ilmaiseksi | Optimizo",
+        "description": "Ilmainen verkko-JSON-validaattori. Validoi JSON-syntaksi välittömästi, tunnista syntaksivirheet rivinumerolla ja näe muotoiltu tulos.",
+        "h1": "JSON-validaattori",
+        "subtitle": "Validoi JSON-syntaksi välittömästi — tunnista virheet ja vahvista tietorakenteen oikeellisuus"
+    },
+    "editor": {
+        "title": "JSON-validaattori",
+        "label_input": "Validoitava JSON",
+        "ph_input": "Liitä JSON tähän...",
+        "btn_validate": "Validoi JSON",
+        "btn_copy": "Kopioi JSON"
+    },
+    "content": {
+        "why_title": "Miksi validoida JSON ennen käyttöä?",
+        "why_desc": "Virheellinen JSON voi hiljaisesti rikkoa API:t, konfiguraatioparserit ja datapipelines. Väärin sijoitetut pilkut, sulkemattomat sulkeet ja escapoimattomat lainausmerkit voivat aiheuttaa vaikeasti jäljitettäviä ajonaikaisia virheitä. Työkalu tunnistaa nämä ongelmat välittömästi tarkkojen rivinumeroiden ja selkeiden virheilmoitusten avulla.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Välitön validointi",
+                "desc": "Validoi JSON millisekunteissa tarkkojen virheilmoitusten ja rivinumeroiden kanssa"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Rakenteen yhteenveto",
+                "desc": "Näe JSON:n syvyys, avainten määrä ja tyyppijakauma yhdellä silmäyksellä"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100% yksityinen",
+                "desc": "Kaikki validointi tapahtuu selaimessa — datasi ei koskaan poistu laitteeltasi"
+            }
+        },
+        "how_title": "Validoi JSON 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Liitä JSON",
+                "desc": "Kopioi ja liitä JSON API-vastauksesta, konfiguraatiotiedostosta tai muusta lähteestä"
+            },
+            "2": {
+                "title": "Napsauta Validoi",
+                "desc": "Validaattori tarkistaa syntaksin välittömästi ja korostaa virheet rivinumeroiden kanssa"
+            },
+            "3": {
+                "title": "Korjaa ja kopioi",
+                "desc": "Korjaa virheet ja kopioi validoitu, muotoiltu JSON"
+            }
+        },
+        "uses_title": "JSON-validoinnin käyttötapaukset",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "API-vastauksen validointi",
+                "desc": "Varmista, että REST API -vastaukset on rakennettu oikein ennen käsittelyä"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Konfiguraatiotiedoston tarkistus",
+                "desc": "Validoi package.json, tsconfig.json ja muut konfiguraatiotiedostot ennen käyttöönottoa"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Tuontidatan validointi",
+                "desc": "Tarkista tuotavien JSON-tiedostojen oikeellisuus ennen tietokantaan lataamista"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "JSON-virheiden debuggaus",
+                "desc": "Löydä syntaksivirheet tarkasti monimutkaisista, syvälle sisäkkäisistä JSON-rakenteista"
+            }
+        },
+        "tips_title": "JSON:n parhaat käytännöt",
+        "tips": {
+            "quotes": {
+                "title": "✓ Käytä aina kaksoislainausmerkkejä",
+                "desc": "JSON vaatii kaksoislainausmerkit merkkijonoille ja avaimille. Yksittäislainausmerkit eivät ole kelvollista JSON:ia."
+            },
+            "trailing": {
+                "title": "✓ Ei pilkkuja perässä",
+                "desc": "Toisin kuin JavaScript, JSON ei salli pilkkua taulukoiden tai objektien viimeisen elementin jälkeen."
+            },
+            "null": {
+                "title": "✓ Käytä null, ei None tai nil",
+                "desc": "JSON:n avainsana null on kirjoitettava pienellä alkukirjaimella. Pythonin None tai Rubyn nil eivät ole kelvollista JSON:ia."
+            },
+            "validate": {
+                "title": "✓ Validoi uudelleen manuaalisen muokkauksen jälkeen",
+                "desc": "Validoi JSON aina uudelleen manuaalisen muokkauksen jälkeen. Pieni kirjoitusvirhe voi mitätöidä koko dokumentin."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Miksi JSON:ni on virheellinen, vaikka se näyttää oikealta?",
+            "a1": "Yleisiä piilotettuja ongelmia: loppupilkku viimeisen elementin jälkeen, yksittäislainausmerkit kaksoislainausmerkkien sijaan, escapoimattomat erikoismerkit merkkijonoissa, JavaScript-kommentit (JSON ei tue kommentteja).",
+            "q2": "Voinko validoida hyvin suuria JSON-tiedostoja?",
+            "a2": "Kyllä — validointi tapahtuu kokonaan selaimessa natiivin JSON.parse():n avulla. Tiedoston koko on rajoitettu vain selaimen muistilla.",
+            "q3": "Mikä on ero JSON:n ja JSONP:n välillä?",
+            "a3": "JSON on puhdas dataformaatti. JSONP käärii JSON:n funktiokutsuksi cross-domain-pyyntöjä varten. JSONP ei ole kelvollista JSON:ia.",
+            "q4": "Tukeeko JSON kommentteja?",
+            "a4": "Ei. JSON ei tue // tai /* */ kommentteja. Jos haluat lisätä kommentteja JSON:iin, käytä _comment-avainta tai vaihda YAML:iin tai TOML:iin, jotka tukevat kommentteja."
+        }
+    }
+}

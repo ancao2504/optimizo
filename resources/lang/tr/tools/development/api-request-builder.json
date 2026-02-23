@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "API İstek Oluşturucu Çevrimiçi - Ücretsiz HTTP İstemcisi | Optimizo",
+        "description": "HTTP API isteklerini çevrimiçi ücretsiz oluşturun ve gönderin. Özel başlıklar, istek gövdesi, sorgu parametreleriyle GET, POST, PUT, PATCH, DELETE destekler.",
+        "h1": "API İstek Oluşturucu",
+        "subtitle": "HTTP API istekleri oluşturun, gönderin ve inceleyin — tarayıcı tabanlı hafif HTTP istemcisi"
+    },
+    "editor": {
+        "title": "API İstek Oluşturucu",
+        "btn_send": "İsteği Gönder",
+        "tab_headers": "Başlıklar",
+        "tab_body": "Gövde",
+        "tab_params": "Parametreler",
+        "btn_add_header": "Başlık Ekle",
+        "btn_add_param": "Parametre Ekle",
+        "label_response": "Yanıt",
+        "btn_copy_response": "Yanıtı Kopyala"
+    },
+    "content": {
+        "why_title": "API İstek Oluşturucu Neden Kullanılır?",
+        "why_desc": "REST API testi genellikle Postman veya Insomnia kurulumu ya da curl komutları yazmayı gerektirir. Tarayıcı tabanlı HTTP istemcimiz kurulum gerektirmez — açın ve hemen istek gönderin.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Tüm HTTP Yöntemleri",
+                "desc": "Özel başlıklar ve JSON/form gövdesiyle GET, POST, PUT, PATCH, DELETE destekler"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Biçimlendirilmiş Yanıt",
+                "desc": "Yanıt gövdesi girintili gösterilir; durum kodu ve yanıt süresi görüntülenir"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Hemen Kullanıma Hazır",
+                "desc": "Kurulum gerekmez — hesap veya eklenti olmadan tarayıcıda tam çalışır"
+            }
+        },
+        "how_title": "API İsteği Göndermek İçin 3 Adım",
+        "how_steps": {
+            "1": {
+                "title": "URL ve Yöntemi Girin",
+                "desc": "API uç noktası URL'sini girin ve HTTP yöntemini seçin (GET, POST vb.)"
+            },
+            "2": {
+                "title": "Başlık ve Gövde Ekleyin",
+                "desc": "'Başlıklar' sekmesinde Authorization, Content-Type vb. ekleyin. POST/PUT verileri için 'Gövde' kullanın."
+            },
+            "3": {
+                "title": "Gönderin ve İnceleyin",
+                "desc": "'Gönder'e tıklayın. Yanıt gövdesi, durum kodu ve süre aşağıda görünür."
+            }
+        },
+        "uses_title": "API İstek Oluşturucu Kullanım Alanları",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "API Hata Ayıklama",
+                "desc": "Özel başlıklar ve gövdeyle tek tek uç noktaları test ederek kimlik doğrulama/veri sorunlarını ayıklayın"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Kimlik Doğrulama Belirteci Testi",
+                "desc": "Bearer, Basic Auth ve API anahtarı şemalarını kod yazmadan test edin"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "API'yi Keşfedin",
+                "desc": "Genel API'leri (GitHub, OpenWeather, JSONPlaceholder) keşfedin ve yanıtları anlayın"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Hata Yeniden Oluşturma",
+                "desc": "Hata raporları için kesin istek/yanıt verileriyle API hatalarını yeniden oluşturun ve belgeleyin"
+            }
+        },
+        "tips_title": "API Testi En İyi Uygulamaları",
+        "tips": {
+            "headers": {
+                "title": "✓ Her Zaman Content-Type Ayarlayın",
+                "desc": "JSON gövdesi gönderirken Content-Type: application/json'u mutlaka ekleyin. Olmadan birçok API isteği reddeder."
+            },
+            "cors": {
+                "title": "✓ CORS Kısıtlamalarını Anlayın",
+                "desc": "Tarayıcı, uygun CORS başlıkları olmayan çapraz kaynak isteklerini engeller. Tarayıcıda istek başarısız olursa curl veya sunucu tarafı proxy kullanın."
+            },
+            "auth": {
+                "title": "✓ API Anahtarlarını Sabit Kodlamayın",
+                "desc": "Üretim kodunda ortam değişkenleri kullanın. İstek oluşturucu yalnızca test içindir — gerçek API anahtarlı ekran görüntüsü paylaşmayın."
+            },
+            "status": {
+                "title": "✓ HTTP Durum Kodlarını Kontrol Edin",
+                "desc": "200=Tamam, 201=Oluşturuldu, 400=Hatalı İstek, 401=Yetkisiz, 403=Yasak, 404=Bulunamadı, 500=Sunucu Hatası."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "Çapraz kaynaklı istekler neden başarısız olur?",
+            "a1": "Tarayıcı CORS kısıtlamalarını uygular. Hedef API'de Access-Control-Allow-Origin başlığı yoksa tarayıcı isteği engeller. Bu bir hata değil — CORS desteği olmayan API'ler için curl veya arka uç proxy kullanın.",
+            "q2": "multipart/form-data isteği gönderebilir miyim?",
+            "a2": "Şu anda oluşturucu JSON ve düz metin gövdelerini destekler. Dosya yükleme gibi çok parçalı form verileri için Postman gibi özel araçlar kullanın.",
+            "q3": "Bu Postman'a alternatif mi?",
+            "a3": "Hızlı test ve keşif için alternatif olarak kullanılabilir. Ekip iş birliği, kayıtlı koleksiyonlar, ortamlar ve otomatik testler için Postman veya Bruno daha fazla özellik sunar.",
+            "q4": "PUT ve PATCH arasındaki fark nedir?",
+            "a4": "PUT, kaynağın tamamını istek gövdesiyle değiştirir. PATCH kısmi güncelleme uygular — yalnızca gövdedeki alanlar değişir. Çoğu REST API, değiştirilmemiş alanların üzerine yazmamak için güncellemede PATCH kullanır."
+        }
+    }
+}

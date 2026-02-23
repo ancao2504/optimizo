@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "JavaScript-Obfuskierer Online - Kostenloser JS-Code-Schutz | Optimizo",
+        "description": "Obfuskieren Sie JavaScript-Code online kostenlos. Benennen Sie Variablen um, kodieren Sie Zeichenketten und minifizieren Sie JS um Ihren Quellcode schwerer lesbar zu machen.",
+        "h1": "JavaScript-Obfuskierer",
+        "subtitle": "JavaScript-Code schützen durch Umbenennen von Variablen, Kodieren von Strings und Minifizieren — vollständig im Browser"
+    },
+    "editor": {
+        "title": "JavaScript-Obfuskierer",
+        "label_input": "JavaScript-Eingabe",
+        "ph_input": "function grüßen(name) {\n  return 'Hallo, ' + name + '!';\n}",
+        "opt_rename": "Variablen umbenennen",
+        "opt_strings": "Zeichenketten kodieren",
+        "opt_minify": "Code minifizieren",
+        "disclaimer": "⚠️ Obfuskierung macht Code schwerer lesbar, ist aber keine Verschlüsselung. Entschlossene Entwickler können obfuszierten Code dennoch rückentwickeln. Verlassen Sie sich niemals ausschließlich auf Obfuskierung um sensible Daten zu schützen.",
+        "btn_obfuscate": "JavaScript obfuskieren",
+        "label_output": "Obfuskiertes Ergebnis",
+        "btn_copy": "JS kopieren"
+    },
+    "content": {
+        "why_title": "Warum JavaScript-Code obfuskieren?",
+        "why_desc": "JavaScript läuft im Browser, wo der Quellcode über DevTools immer sichtbar ist. Obfuskierung macht Code nicht unknackbar, erhöht aber die Hürde genug, um unbefugte Kopien abzuschrecken, Reverse Engineering zu verlangsamen und proprietäre Geschäftslogik, Preisalgorithmen und Lizenzmechanismen zu schützen. Das ist eine gängige Schutzschicht für kommerzielle JS-Bibliotheken, Spiele und SaaS-Anwendungen.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Variablen-Umbenennung",
+                "desc": "Benennt alle Variablen, Funktionen und Parameter in unleserliche Hex-Bezeichner wie _0x1a2b um"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "String-Kodierung",
+                "desc": "Kodiert alle String-Literale in hexadezimale Escape-Sequenzen, die funktional identisch, aber unleserlich sind"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Code-Minifizierung",
+                "desc": "Entfernt Kommentare und normalisiert Whitespace, um zusätzlich zur Obfuskierung die Dateigröße zu reduzieren"
+            }
+        },
+        "how_title": "JavaScript in 3 Schritten obfuskieren",
+        "how_steps": {
+            "1": {
+                "title": "JavaScript einfügen",
+                "desc": "Kopieren Sie Ihren JavaScript-Code und fügen Sie ihn in das Eingabefeld ein"
+            },
+            "2": {
+                "title": "Optionen wählen",
+                "desc": "Wählen Sie Obfuskierungstechniken — alle drei zusammen bieten maximalen Schutz"
+            },
+            "3": {
+                "title": "Kopieren und ersetzen",
+                "desc": "Kopieren Sie den obfuszierten Inhalt und ersetzen Sie Ihre ursprüngliche JS-Datei für das Deployment"
+            }
+        },
+        "uses_title": "JavaScript-Obfuskierungs-Anwendungsfälle",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Kommerzielle Bibliotheken",
+                "desc": "Schützen Sie proprietäre Algorithmen in kostenpflichtigen JavaScript-Bibliotheken, die an Kunden verteilt werden"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Browser-Spiele",
+                "desc": "Verhindern Sie Betrügen durch Obfuskierung von Spiellogik, Punktevalidierung und Anti-Cheat-Code"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "SaaS-Widgets",
+                "desc": "Schützen Sie eingebettete JavaScript-Widgets, die an Kunden-Websites verteilt werden"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Wettbewerbe und Hackathons",
+                "desc": "Schützen Sie einzigartige Algorithmen und Ansätze in Wettbewerbsbeiträgen"
+            }
+        },
+        "tips_title": "Obfuskierungs-Best-Practices",
+        "tips": {
+            "testing": {
+                "title": "✓ Nach Obfuskierung testen",
+                "desc": "Testen Sie obfuszierten Code immer in Ihrem Zielbrowser — bestimmte Muster wie eval() können in strikten Umgebungen kaputt gehen."
+            },
+            "source": {
+                "title": "✓ Originalquellcode aufbewahren",
+                "desc": "Obfuskierung ist einwegig. Bewahren Sie immer den ursprünglichen, lesbaren Quellcode in einem sicheren Versionskontroll-Repository auf."
+            },
+            "server": {
+                "title": "✓ Sensible Logik serverseitig auslagern",
+                "desc": "Obfuskierung ist keine Sicherheitsgarantie. Implementieren Sie für wirklich sensible Operationen (Zahlungen, Authentifizierung) die Logik serverseitig."
+            },
+            "profiler": {
+                "title": "✓ Leistungsimpact prüfen",
+                "desc": "Intensives String-Encoding kann JavaScript-Parsing leicht verlangsamen. Profilieren Sie obfuszierten Code in Chrome DevTools vor dem Produktions-Deployment."
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Kann obfusquiertes JavaScript vollständig rückentwickelt werden?",
+            "a1": "Ja, mit genügend Aufwand. Tools wie de4js, webcrack und Browser-DevTools können Obfuskierung teilweise umkehren. Das Ziel ist, den Aufwand hoch genug zu machen, um gelegenheitsmäßige Konkurrenten abzuschrecken — keine unknackbare Sicherheit.",
+            "q2": "Kann Obfuskierung mein JavaScript zerstören?",
+            "a2": "Korrekt angewendet sollte Obfuskierung funktional identischen Code produzieren. Allerdings kann aggressive Minifizierung bestimmte Meta-Programmier-Muster brechen, und aggressives Umbenennen kann mit Frameworks in Konflikt geraten, die sich auf Funktionsnamen verlassen. Testen Sie immer gründlich.",
+            "q3": "Bestraft Google obfuskiertes JavaScript beim SEO?",
+            "a3": "Google kann JavaScript-Seiten auch obfuskiert indexieren und ausführen. Solange der gerenderte HTML-Inhalt gleich ist, gibt es keine SEO-Strafe. Vermeiden Sie das Obfuskieren strukturierter Daten (JSON-LD), da dies Rich Results beeinflussen kann.",
+            "q4": "Was ist der Unterschied zwischen Minifizierung und Obfuskierung?",
+            "a4": "Minifizierung entfernt Whitespace, Kommentare und kürzt Variablennamen für kleinere Dateigröße — Code ist noch lesbar wenn reformatiert. Obfuskierung zielt speziell darauf ab, Code unleserlich zu machen mit verwirrenden Variablennamen, String-Encoding und anderen Techniken."
+        }
+    }
+}

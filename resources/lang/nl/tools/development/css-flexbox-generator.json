@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "CSS Flexbox Generator Online - Visuele layoutbouwer gratis | Optimizo",
+        "description": "Genereer CSS Flexbox-layouts visueel online gratis. Stel richting, justify-content, align-items en gap in met live preview en directe CSS-export.",
+        "h1": "CSS Flexbox Generator",
+        "subtitle": "Bouw CSS Flexbox-layouts visueel — configureer alle eigenschappen met live preview"
+    },
+    "editor": {
+        "title": "Flexbox Generator",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Ruimte (gap)",
+        "label_items": "Aantal items",
+        "label_preview": "Live preview",
+        "btn_copy": "CSS kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom een visuele Flexbox generator gebruiken?",
+        "why_desc": "CSS Flexbox heeft veel eigenschappen die met elkaar wisselwerken — flex-direction, justify-content, align-items, align-content, flex-wrap — en hun interacties kunnen verwarrend zijn. Onze visuele generator laat je elke eigenschap aanpassen via een dropdown en de lay-out in realtime zien bijwerken, waardoor het de snelste manier is om Flexbox te leren en lay-outs te bouwen zonder herhaald proberen.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Live preview",
+                "desc": "Zie precies hoe je Flexbox-lay-out gedraagt bij elke eigenschapswijziging — geen giswerk"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Alle eigenschappen gedekt",
+                "desc": "Omvat flex-direction, justify-content, align-items, flex-wrap en gap in één interface"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Gebruiksklare CSS-output",
+                "desc": "Kopieert een schoon .container {} blok klaar om in je stijlblad te plakken"
+            }
+        },
+        "how_title": "Een Flexbox-lay-out maken",
+        "how_steps": {
+            "1": {
+                "title": "Stel richting en wrap in",
+                "desc": "Kies flex-direction (rij/kolom) en flex-wrap om de hoofdas en overloop te controleren"
+            },
+            "2": {
+                "title": "Lijn items uit",
+                "desc": "Stel justify-content en align-items in om de distributie en uitlijning van items te controleren"
+            },
+            "3": {
+                "title": "CSS kopiëren",
+                "desc": "Klik op 'CSS kopiëren' voor het volledige .container CSS-blok klaar voor je project"
+            }
+        },
+        "uses_title": "Flexbox-gebruiksscenario's",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Navigatiebalken",
+                "desc": "Flexbox is ideaal voor horizontale navigatiebalken — gebruik justify-content: space-between voor logo + links"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Kaartenrasters",
+                "desc": "Gebruik flex-wrap: wrap met vaste flex-basis voor responsieve kaartenrasters die zich aanpassen op mobiel"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Perfect centreren",
+                "desc": "justify-content: center + align-items: center is de eenvoudigste manier om elk element te centreren"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Formulier-lay-outs",
+                "desc": "Lijn formulierlabels en -velden horizontaal of verticaal uit met Flexbox voor schone formulieren"
+            }
+        },
+        "tips_title": "Flexbox best practices",
+        "tips": {
+            "axis": {
+                "title": "✓ Begrijp de hoofdas vs de kruisas",
+                "desc": "justify-content bestuurt de hoofdas (rij = horizontaal). align-items bestuurt de kruisas. Deze rollen worden omgekeerd met flex-direction: column."
+            },
+            "grow": {
+                "title": "✓ Gebruik flex: 1 voor flexibele items",
+                "desc": "Het toevoegen van flex: 1 aan een flex-kind laat het groeien om de beschikbare ruimte te vullen. Combineer met min-width: 0 om overloop te voorkomen."
+            },
+            "gap": {
+                "title": "✓ Gebruik gap in plaats van marges",
+                "desc": "De gap-eigenschap creëert consistente ruimte tussen flex-items zonder marges aan de buitenranden toe te voegen — veel schoner."
+            },
+            "grid": {
+                "title": "✓ Gebruik Grid voor 2D-lay-outs",
+                "desc": "Flexbox bestuurt één as tegelijk (rij OF kolom). Voor 2D-rasters waar je gelijktijdig rijen en kolommen moet beheren, gebruik CSS Grid."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Wanneer Flexbox gebruiken in plaats van CSS Grid?",
+            "a1": "Flexbox is ideaal voor 1D-lay-outs — items langs een enkele rij of kolom distribueren (navigatiebalken, knoepgroepen, formulierrijen). CSS Grid blinkt uit in 2D-lay-outs waarbij je gelijktijdig rijen en kolommen bestuurt.",
+            "q2": "Wat doet flex-wrap: wrap?",
+            "a2": "Standaard worden flex-items gedwongen in één rij, zelfs als ze overlopen. flex-wrap: wrap laat items naar de volgende rij gaan wanneer ze overlopen — essentieel voor responsieve lay-outs.",
+            "q3": "Wat is het verschil tussen align-items en align-content?",
+            "a3": "align-items lijnt flex-items uit op één regel (kruisas). align-content is alleen van toepassing wanneer er meerdere regels zijn (flex-wrap: wrap) en bestuurt de distributie van die regels in de container.",
+            "q4": "Hoe kolommen van gelijke breedte maken met Flexbox?",
+            "a4": "Pas flex: 1 toe op elk flex-kind. Dit laat ze gelijkmatig groeien om de beschikbare ruimte te vullen. Gebruik flex: 0 0 33.33% voor precies 3 gelijke kolommen ongeacht de inhoud."
+        }
+    }
+}

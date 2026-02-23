@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "TOML에서 JSON으로 변환 온라인 - 무료 도구 | Optimizo",
+        "description": "TOML 구성 파일을 JSON으로 온라인에서 무료 변환하세요. TOML 테이블, 배열, 인라인 테이블, 모든 데이터 유형의 완전한 지원.",
+        "h1": "TOML에서 JSON으로 변환기",
+        "subtitle": "TOML 구성을 JSON으로 변환 — 테이블, 테이블 배열, 모든 TOML 데이터 유형 지원"
+    },
+    "editor": {
+        "title": "TOML에서 JSON으로 변환기",
+        "label_toml": "TOML 입력",
+        "ph_toml": "# TOML 예시\ntitle = \"내 앱\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "JSON 출력",
+        "btn_copy": "JSON 복사"
+    },
+    "content": {
+        "why_title": "왜 TOML과 JSON 사이에서 변환해야 하나요?",
+        "why_desc": "TOML은 사람이 읽기 쉬운 구성 파일(Rust의 Cargo.toml, Python의 pyproject.toml, Hugo의 config.toml)을 위해 설계되었지만 JSON은 웹 API와 JavaScript 도구의 표준입니다. TOML 구성을 JSON API로 보내거나 JavaScript 도구와 통합하거나 다른 생태계 간에 데이터를 공유할 때 이 도구가 즉시 격차를 해소합니다.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "완전한 유형 변환",
+                "desc": "TOML 문자열, 정수, 부동소수점, 불리언, 날짜 — 모두 JSON의 동등물로 올바르게 변환"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "테이블 및 테이블 배열",
+                "desc": "[테이블], [[테이블 배열]], 인라인 테이블 {key = value} 구문을 올바르게 처리"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "형식화된 JSON 출력",
+                "desc": "출력은 가독성을 위해 들여쓰기와 함께 표시 — 단일 행 압축 JSON이 아님"
+            }
+        },
+        "how_title": "3단계로 TOML을 JSON으로 변환하는 방법",
+        "how_steps": {
+            "1": {
+                "title": "TOML 구성 붙여넣기",
+                "desc": "Cargo.toml, pyproject.toml, 또는 다른 TOML 구성 파일의 내용 붙여넣기"
+            },
+            "2": {
+                "title": "자동 변환",
+                "desc": "도구가 TOML 구조를 파싱하여 동등한 JSON으로 즉시 변환"
+            },
+            "3": {
+                "title": "JSON 복사",
+                "desc": "생성된 JSON을 API 호출이나 JSON을 받는 도구에 사용하기 위해 복사"
+            }
+        },
+        "uses_title": "TOML에서 JSON으로 변환 사용 사례",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.toml 파싱",
+                "desc": "의존성을 파싱하거나 버전 정보를 추출하는 CI 스크립트를 위해 Cargo.toml을 JSON으로 변환"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Hugo 구성",
+                "desc": "다른 도구나 데이터 소스와 통합을 위해 Hugo의 config.toml을 JSON으로 변환"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "API로 데이터 전송",
+                "desc": "TOML 형식의 매개변수를 REST API나 GraphQL 엔드포인트로 전송하기 위해 JSON으로 변환"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "형식 학습",
+                "desc": "두 형식의 관계를 이해하기 위해 TOML→JSON 구조 매핑 파악"
+            }
+        },
+        "tips_title": "TOML 모범 사례",
+        "tips": {
+            "tables": {
+                "title": "✓ 중첩된 테이블에 점 표기법 사용",
+                "desc": "TOML은 중첩된 테이블의 약어로 [server.database]를 지원하여 중첩된 JSON 키보다 구성을 더 읽기 쉽게 만듭니다."
+            },
+            "strings": {
+                "title": "✓ 경로에 리터럴 문자열 사용",
+                "desc": "'C:\\Users\\path'와 같은 작은따옴표의 리터럴 문자열은 이스케이프 시퀀스를 처리하지 않습니다 — Windows 경로와 regex 패턴에 이상적입니다."
+            },
+            "comments": {
+                "title": "✓ 주석을 적극적으로 사용",
+                "desc": "JSON에 대한 TOML의 주요 장점은 주석 지원입니다. 유지보수성을 위해 모든 구성 매개변수를 # 주석으로 문서화하세요."
+            },
+            "datetime": {
+                "title": "✓ DateTime 유형 변환에 주의",
+                "desc": "TOML의 네이티브 RFC 3339 날짜(2024-01-15T10:30:00Z)는 JSON에서 문자열이 됩니다. JSON을 사용하는 코드는 이것들을 날짜 유형으로 다시 파싱해야 합니다."
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "TOML의 YAML 및 JSON에 대한 장점은 무엇인가요?",
+            "a1": "TOML은 YAML보다 단순하고(들여쓰기 기반 구조 없음), JSON보다 읽기 쉬우며(주석 지원), 명시적인 유형이 있습니다(정수, 부동소수점, 날짜가 별개). 애플리케이션 구성 파일에서 가독성이 중요한 경우 가장 좋은 선택입니다.",
+            "q2": "TOML의 [[테이블 배열]]이란 무엇인가요?",
+            "a2": "[[servers]]는 'servers'라는 이름의 개체 배열을 정의합니다. [[servers]]의 각 발생이 배열에 새 개체를 생성합니다. 다음 키들은 해당 개체에 속합니다. JSON의 동등물: {\"servers\": [{...}, {...}]}.",
+            "q3": "어떤 주요 도구가 TOML을 사용하나요?",
+            "a3": "Rust(Cargo.toml), 현대 Python 패키징(pip/poetry의 pyproject.toml), Hugo 정적 사이트 생성기, Gitea, Lighthouse CI, 많은 Go 도구들이 TOML을 사용합니다.",
+            "q4": "TOML 주석이 JSON 출력에 보존되나요?",
+            "a4": "아니요. JSON에는 주석 구문이 없으므로 TOML의 # 주석을 JSON 출력에 표현할 수 없습니다. 주석이 중요한 결정을 문서화한 경우 별도의 README에 보존하거나 JSON에서는 _comment 키를 사용하세요."
+        }
+    }
+}

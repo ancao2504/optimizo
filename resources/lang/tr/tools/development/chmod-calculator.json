@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "chmod Hesaplayıcı Çevrimiçi - Linux İzinleri Ücretsiz | Optimizo",
+        "description": "Ücretsiz çevrimiçi chmod hesaplayıcı. Linux dosya izinlerini sembolik gösterim (rwxr-xr-x) ile sekizli gösterim (755) arasında dönüştürün ve chmod komutları oluşturun.",
+        "h1": "chmod Hesaplayıcı",
+        "subtitle": "Linux izinlerini hesaplayın — sembolik ve sekizli gösterim dönüşümü ve chmod komutu oluşturma"
+    },
+    "editor": {
+        "title": "chmod İzin Hesaplayıcı",
+        "label_octal": "Sekizli Değer",
+        "col_type": "Tür",
+        "col_read": "Okuma (r)",
+        "col_write": "Yazma (w)",
+        "col_exec": "Yürütme (x)",
+        "col_octal": "Sekizli",
+        "row_owner": "Sahip",
+        "row_group": "Grup",
+        "row_others": "Diğerleri (Herkes)",
+        "btn_copy": "Komutu Kopyala"
+    },
+    "content": {
+        "why_title": "chmod Hesaplayıcı Neden Kullanılır?",
+        "why_desc": "Linux dosya izinleri sembolik (rwxr-xr-x) ve sekizli (755) iki biçimde ifade edilir. Doğru izin değerini manuel olarak hesaplamak hataya açıktır. Hesaplayıcımızla izin onay kutularını görsel olarak seçebilir ve sekizli değer ile kullanılabilir chmod komutunu anında oluşturabilirsiniz.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Görsel İzin Oluşturucu",
+                "desc": "Sahip/grup/diğerleri için okuma/yazma/yürütme onay kutularına tıklayın; değerler anında güncellenir"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Çift Yönlü Senkronizasyon",
+                "desc": "Sekizli değer (ör. 755) girin ve onay kutuları otomatik güncellenir veya tam tersi"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Hazır Komut",
+                "desc": "Terminale doğrudan yapıştırılabilecek tam chmod komutu oluşturur"
+            }
+        },
+        "how_title": "İzinleri Nasıl Hesaplarsınız",
+        "how_steps": {
+            "1": {
+                "title": "İzinleri İşaretleyin",
+                "desc": "Sahip, grup ve diğerleri için okuma/yazma/yürütme onay kutularına tıklayın"
+            },
+            "2": {
+                "title": "Sekizli ve Semboliği Kontrol Edin",
+                "desc": "Sekizli değer (ör. 755) ve sembolik gösterim (rwxr-xr-x) anında güncellenir"
+            },
+            "3": {
+                "title": "Komutu Kopyalayın",
+                "desc": "Oluşturulan chmod komutunu kopyalayın ve terminalde çalıştırın"
+            }
+        },
+        "uses_title": "Tipik chmod Senaryoları",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Web Sunucusu Dosyaları",
+                "desc": "Apache veya Nginx için HTML/CSS/JS dosyalarına 644 (sahip okuma/yazma, grup/diğerleri okuma) ayarlayın"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Yürütülebilir Betikler",
+                "desc": "Kabuk betiklerine 755 (sahip tam erişim, grup/diğerleri okuma+yürütme) ayarlayın"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "SSH Anahtarları",
+                "desc": "SSH, özel anahtar için 600 (yalnızca sahip okuma/yazma) gerektirir"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Yükleme Dizinleri",
+                "desc": "Web yükleme dizinlerine sunucu işleminin yazabilmesi için 775 ayarlayın"
+            }
+        },
+        "tips_title": "Linux İzinleri En İyi Uygulamaları",
+        "tips": {
+            "never777": {
+                "title": "✓ Üretimde Asla 777 Kullanmayın",
+                "desc": "chmod 777 herkese tam erişim verir — ciddi güvenlik riski. Yalnızca gerekli minimum izinleri verin."
+            },
+            "least": {
+                "title": "✓ En Az Ayrıcalık İlkesi",
+                "desc": "Her zaman minimum gerekli izinleri verin. Kısıtlayıcı (600) başlayın ve gerektiğinde ekleyin."
+            },
+            "recursive": {
+                "title": "✓ -R (Özyinelemeli) ile Dikkatli Olun",
+                "desc": "chmod -R tüm dosya ve dizinlere özyinelemeli uygular. Dizinlere yürütme biti ayarlamak genellikle doğru; dosyalarda her zaman değil."
+            },
+            "umask": {
+                "title": "✓ umask'ı Anlayın",
+                "desc": "umask değeri varsayılan değerden izinleri çıkarır. umask 022: yeni dosyalar 644, yeni dizinler 755 olur."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "chmod 755 ne anlama gelir?",
+            "a1": "755: sahip(7)=okuma+yazma+yürütme, grup(5)=okuma+yürütme, diğerleri(5)=okuma+yürütme. Yürütülebilir dosyalar ve genel dizinler için standart izindir.",
+            "q2": "644 ile 755 arasındaki fark nedir?",
+            "a2": "644 (rw-r--r--): sahip okuma/yazma, diğerleri yalnızca okuma — normal dosyalar için. 755 (rwxr-xr-x): sahip yürütme de yapabilir — betikler ve dizinler için.",
+            "q3": "SSH anahtarları neden 600 izni gerektirir?",
+            "a3": "SSH, başkalarının erişebildiği özel anahtar kullanımını reddeder. 600 (rw-------) yalnızca sahibin anahtarı okuyup yazabilmesini güvence altına alır.",
+            "q4": "Dizin için yürütme biti ne anlama gelir?",
+            "a4": "Dizindeki yürütme biti 'geçiş' anlamına gelir — kullanıcının dizine girip içindeki dosyalara erişebilmesi. Yürütme izni yoksa okuma izni olsa bile dizine girilemez."
+        }
+    }
+}

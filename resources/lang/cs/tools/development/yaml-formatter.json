@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Online Formátovač YAML - Formátujte YAML Soubory Zdarma | Optimizo",
+        "description": "Formátujte a validujte YAML soubory online zdarma. Okamžité čištění YAML, správné odsazení a kontrola syntaxe.",
+        "h1": "Formátovač YAML",
+        "subtitle": "Okamžitě formátujte a validujte YAML soubory — komplexní vnořené struktury, kotvy a aliasy podporovány"
+    },
+    "editor": {
+        "title": "Formátovač YAML",
+        "label_input": "YAML vstup",
+        "ph_input": "name: Moje aplikace\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "Formátovat YAML",
+        "label_output": "Formátované YAML",
+        "btn_copy": "Kopírovat YAML"
+    },
+    "content": {
+        "why_title": "Proč formátovat YAML soubory?",
+        "why_desc": "YAML je extrémně citlivý na problémy s odsazením — jedno extra mezera může způsobit chybu parsování nebo tichá poškození dat. Kubernetes, Docker Compose, GitHub Actions a Ansible používají konfigurační soubory YAML a chyba formátování může zablokovat celé nasazení.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Normalizace odsazení",
+                "desc": "Normalizuje smíšené odsazení na konzistentní formát 2 mezer v celém dokumentu"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Validace syntaxe",
+                "desc": "Identifikuje chyby odsazení, smíchání tabulátorů/mezer a strukturální problémy"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Kotvy a aliasy",
+                "desc": "Plná podpora pro kotvy YAML (&) a aliasy (*) pro opakované použití dokumentu"
+            }
+        },
+        "how_title": "Formátování YAML ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vložte YAML",
+                "desc": "Vložte manifest Kubernetes, workflow GitHub Actions nebo konfigurační soubor YAML"
+            },
+            "2": {
+                "title": "Formátujte a validujte",
+                "desc": "Nástroj validuje syntaxi a automaticky přeformátuje s konzistentním odsazením"
+            },
+            "3": {
+                "title": "Zkopírujte a nasaďte",
+                "desc": "Zkopírujte formátované YAML do svých souborů, CI pipeline nebo nástrojů nasazení"
+            }
+        },
+        "uses_title": "Případy použití formátování YAML",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Manifesty Kubernetes",
+                "desc": "Formátujte YAML soubory Deployment, Service a ConfigMap před aplikací na cluster"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "CI/CD pipeline",
+                "desc": "Validujte workflows GitHub Actions, GitLab CI a CircleCI pro předcházení selhání pipeline"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Ansible Playbooks",
+                "desc": "Formátujte a validujte Ansible úkoly, proměnné a inventáře"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Zkontrolujte, že docker-compose.yml je správně formátován před docker compose up"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro YAML",
+        "tips": {
+            "spaces": {
+                "title": "✓ Používejte mezery, ne tabulátory",
+                "desc": "Specifikace YAML výslovně zakazuje tabulátor pro odsazení. Nakonfigurujte editor tak, aby při Tab vkládal mezery v YAML souborech."
+            },
+            "quotes": {
+                "title": "✓ Používejte uvozovky pro speciální znaky",
+                "desc": "Řetězce obsahující : # [ ] { } nebo začínající speciálními znaky musí být v uvozovkách, aby YAML správně interpretoval."
+            },
+            "anchors": {
+                "title": "✓ Používejte kotvy pro snížení opakování",
+                "desc": "Kotvy YAML (&název) a aliasy (*název) umožňují opakované použití hodnot v dokumentu."
+            },
+            "lint": {
+                "title": "✓ Spuštění lint před commitem",
+                "desc": "Spusťte yamllint nebo použijte tento formátovač v pre-commit hooku pro zachycení problémů s formátováním včas."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Proč YAML nefunguje s tabulátory místo mezer?",
+            "a1": "Specifikace YAML výslovně zakazuje tabulátor pro odsazení, protože různé editory zobrazují tabulátory s různou šířkou. Mezery poskytují konzistentní odsazení, které všechny parsery YAML interpretují stejně.",
+            "q2": "Co dělají kotvy YAML (&) a aliasy (*)?",
+            "a2": "Kotvy definují opakovaně použitelný blok pomocí &näzevkotvy; aliasy na něj odkazují pomocí *näzevkotvy. Takto lze definovat hodnotu jednou a použít ji na mnoha místech.",
+            "q3": "Jaký je rozdíl mezi YAML a JSON?",
+            "a3": "YAML je nadmnožina JSON — platné JSON je také platné YAML. YAML přidává podporu pro komentáře, kotvy, víceřádkové řetězce a čitelnější syntaxi.",
+            "q4": "Kdy zvolit YAML místo TOML pro konfiguraci?",
+            "a4": "YAML má širší podporu nástrojů (Kubernetes, Ansible, většina systémů CI) a dokáže vyjádřit složité vnořené struktury stručně. V konfiguraci DevOps je YAML standardem."
+        }
+    }
+}

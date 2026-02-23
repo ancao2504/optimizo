@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Online JSON TOML-lá Konvertáló - Ingyen | Optimizo",
+        "description": "JSON TOML formátumra konvertálása online, ingyen. Automatikusan generál tábla szakaszokat, kezeli a beágyazott objektumokat és tiszta, olvasható TOML-t állít elő.",
+        "h1": "JSON TOML-lá Konvertáló",
+        "subtitle": "JSON konfigurációs adatok olvashatóbb TOML formátumra konvertálása — automatikus tábla és szakasz generálás"
+    },
+    "editor": {
+        "title": "JSON TOML-lá Konvertáló",
+        "label_json": "JSON bemenet",
+        "ph_json": "{\n  \"title\": \"Saját alkalmazás\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "TOML kimenet",
+        "btn_copy": "TOML másolása"
+    },
+    "content": {
+        "why_title": "Miért konvertálja a JSON konfigurációs fájlokat TOML-lá?",
+        "why_desc": "A JSON nem konfigurációs fájlokhoz lett tervezve — háromszoros oldaljelölők, kötelező vesszők, nem alkalmas megjegyzésekre és extra escape igény. A TOML ugyanazt az adatot olvashatóbbá teszi [szakasz] fejlécekkel, # megjegyzésekkel és tisztább kulcs-érték szintaxissal.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Automatikus szakasz generálás",
+                "desc": "A beágyazott JSON objektumok automatikusan TOML tábla útvonalakra konvertálódnak [section.subsection]"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Típusmegőrzés",
+                "desc": "A JSON számok, logikai értékek és karakterláncok helyesen vannak leképezve TOML megfelelőkre adatvesztés nélkül"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Tisztább konfiguráció",
+                "desc": "Ugyanazok az adatok TOML formátumban általában 20-40%-kal rövidebbek és sokkal olvashatóbbak, mint JSON-ban"
+            }
+        },
+        "how_title": "JSON TOML-lá konvertálás 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "JSON konfiguráció beillesztése",
+                "desc": "Másolja a meglévő JSON konfigurációs fájlt és illessze be a bal panelbe"
+            },
+            "2": {
+                "title": "TOML kimenet áttekintése",
+                "desc": "A megfelelő TOML megjelenik a jobb panelen — ellenőrizze, hogy a struktúra megfelel-e az elvárásoknak"
+            },
+            "3": {
+                "title": "Megjegyzések hozzáadása és mentés",
+                "desc": "Másolja a TOML-t, adja hozzá az egyes szakaszokat dokumentáló # megjegyzéseket és mentse el új konfigurációs fájlként"
+            }
+        },
+        "uses_title": "JSON-ból TOML-ba konvertáló felhasználási esetek",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.toml létrehozása",
+                "desc": "Konvertálja a package.json információit Cargo.toml formátumba a Rust projektek beállításának felgyorsításához"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Migráció pyproject.toml-ra",
+                "desc": "Konvertálja a setup.cfg-t vagy setup.py-t a modern Python csomagolási szabványra, a pyproject.toml-ra"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Konfigurációs fájlok frissítése",
+                "desc": "Migráljon config.json-ból config.toml-ba és dokumentáljon minden opciót # megjegyzésekkel"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Konfiguráció megosztása eszközök között",
+                "desc": "Szükség szerint konvertálja ugyanazt a konfigurációs adatot a JSON és TOML ökoszisztémák között"
+            }
+        },
+        "tips_title": "Tippek JSON-ról TOML-ra konvertáláshoz",
+        "tips": {
+            "arrays": {
+                "title": "✓ Gondosan ellenőrizze az objektumtömbök konvertálását",
+                "desc": "A JSON objektumtömbök ([{name:\"a\"},{name:\"b\"}]) a TOML [[táblatömbök]] szintaxisát használják. Ellenőrizze, hogy helyesen konvertálódnak a kimenetben."
+            },
+            "null": {
+                "title": "✓ A TOML-nak nincs null értéke",
+                "desc": "A JSON null-nak nincs közvetlen TOML megfelelője. A null értékeket általában kihagyják vagy üres karakterlánccal helyettesítik. Kezelje ezeket az eseteket manuálisan."
+            },
+            "keys": {
+                "title": "✓ A speciális karaktert tartalmazó kulcsokat idézőjelbe tegye",
+                "desc": "A kötőjeleket vagy szóközöket tartalmazó TOML kulcsok idézőjeleket igényelnek: \"content-type\" = \"json\". A probléma elkerüléséhez használjon aláhúzást a JSON kulcsokban."
+            },
+            "test": {
+                "title": "✓ Az alkalmazás TOML elemzőjével tesztelje",
+                "desc": "A különböző TOML elemzők (toml-rs, tomllib, @iarna/toml) eltérően kezelhetik a szélső eseteket. Mindig tesztelje a konvertált TOML-t a tényleges futtatási környezetben."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Minden JSON adattípus konvertálható TOML-lá?",
+            "a1": "A legtöbb típus tisztán konvertálódik: karakterláncok, számok, logikai értékek, tömbök és objektumok közvetlen TOML megfelelőkkel rendelkeznek. A JSON null-nak nincs TOML megfelelője és általában kihagyják. A mélyen beágyazott objektumtömbök kézi módosítást igényelhetnek.",
+            "q2": "Teljesen helyettesítheti-e a TOML a JSON-t a konfigurációs fájlokban?",
+            "a2": "Statikus konfigurációs fájloknál igen. A konfigurációt olvasó kódot JSON.parse()-ról TOML elemzőre kell módosítani. A TOML nem helyettesítheti a JSON-t API-khoz vagy adatcseréhez.",
+            "q3": "Milyen fájlkiterjesztést használ a TOML?",
+            "a3": "A .toml kiterjesztést. Közönséges példák: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (Cargo konfiguráció).",
+            "q4": "Hogyan válasszon a JSON, YAML és TOML között konfigurációhoz?",
+            "a4": "JSON: API adatcsere (univerzális támogatás, nincs szükség megjegyzésekre). YAML: DevOps konfiguráció (Kubernetes, CI/CD stb.). TOML: Alkalmazáskonfiguráció (egyszerű szintaxis, explicit típusok, legjobb kézi szerkesztéshez)."
+        }
+    }
+}

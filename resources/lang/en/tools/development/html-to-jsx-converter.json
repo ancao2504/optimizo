@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "HTML to JSX Converter - Free Online React Converter | Optimizo",
+        "description": "Convert HTML to JSX online for free. Automatically transform class to className, for to htmlFor, inline styles to JS objects, and self-close void elements.",
+        "h1": "HTML to JSX Converter",
+        "subtitle": "Convert HTML to React JSX instantly — handles className, htmlFor, inline styles, and self-closing tags"
+    },
+    "editor": {
+        "title": "HTML to JSX Converter",
+        "label_html": "HTML Input",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">Email</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "JSX Output",
+        "btn_copy": "Copy JSX"
+    },
+    "content": {
+        "why_title": "Why Convert HTML to JSX?",
+        "why_desc": "When migrating existing HTML templates to React, or copying design mockups into components, you have to manually convert class attributes to className, for to htmlFor, and inline styles from strings to JavaScript objects. Our converter automates all of these transformations instantly, handling the entire HTML→JSX attribute mapping so you can focus on component logic instead of syntax conversion.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Attribute Conversion",
+                "desc": "Converts class→className, for→htmlFor, tabindex→tabIndex, maxlength→maxLength, and more"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Inline Style Objects",
+                "desc": "Transforms style=\"color: red;\" into style={{color: 'red'}} — valid JS object notation for React"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Self-Closing Tags",
+                "desc": "Adds closing slash to void elements: <br> becomes <br />, <input> becomes <input />"
+            }
+        },
+        "how_title": "How to Convert HTML to JSX",
+        "how_steps": {
+            "1": {
+                "title": "Paste HTML",
+                "desc": "Paste your HTML template, Figma export, or any HTML snippet into the left panel"
+            },
+            "2": {
+                "title": "Automatic Conversion",
+                "desc": "The converter instantly transforms all attributes, styles, and void elements to JSX syntax"
+            },
+            "3": {
+                "title": "Copy JSX",
+                "desc": "Copy the converted JSX and paste it into your React component's render/return block"
+            }
+        },
+        "uses_title": "HTML to JSX Use Cases",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "React Migration",
+                "desc": "Migrate existing HTML pages or templates to React components without manual attribute conversion"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Bootstrap to React",
+                "desc": "Convert Bootstrap HTML components to JSX for use with react-bootstrap or styled components"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "Email Templates",
+                "desc": "Convert HTML email templates to JSX for rendering with React Email or similar libraries"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "CMS to React",
+                "desc": "Convert WordPress or traditional CMS template HTML into React component structure"
+            }
+        },
+        "tips_title": "HTML to JSX Tips",
+        "tips": {
+            "class": {
+                "title": "✓ class → className is Critical",
+                "desc": "class is a reserved JavaScript keyword. React requires className for CSS classes. Forgetting this causes a React warning and may cause unexpected behavior."
+            },
+            "for": {
+                "title": "✓ for → htmlFor on Labels",
+                "desc": "The for attribute on <label> becomes htmlFor in JSX. Missing this breaks accessibility — screen readers depend on the label-input association."
+            },
+            "events": {
+                "title": "✓ Update Event Handlers After Conversion",
+                "desc": "HTML onclick='...' is not directly converted to JSX. Manually replace inline event handlers with React's onClick={handler} pattern after conversion."
+            },
+            "comments": {
+                "title": "✓ HTML Comments Become JSX Comments",
+                "desc": "<!-- comment --> is converted to {/* comment */} in JSX. JSX does not allow HTML comment syntax inside JSX markup."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Why does React use className instead of class?",
+            "a1": "class is a reserved keyword in JavaScript (used for ES6 classes). Since JSX is JavaScript, using class would create a syntax conflict. React chose className to avoid ambiguity with the JavaScript class keyword.",
+            "q2": "Does this converter handle React event handlers?",
+            "a2": "No — HTML event handlers like onclick and onsubmit are not automatically converted to React's onClick and onSubmit because their values (JavaScript strings in HTML) need to reference React component functions/state. These should be updated manually.",
+            "q3": "What is the difference between HTML and JSX?",
+            "a3": "JSX is a JavaScript syntax extension that looks like HTML but compiles to React.createElement() calls. Key differences: all attributes use camelCase, class is className, for is htmlFor, void elements must self-close, and expressions use {} instead of strings.",
+            "q4": "Why must void elements self-close in JSX?",
+            "a4": "JSX is parsed by Babel as XML-like syntax, which requires all elements to be properly closed. Void elements like <br>, <img>, <input> don't have children, so they must self-close with /> instead of leaving an unclosed tag."
+        }
+    }
+}

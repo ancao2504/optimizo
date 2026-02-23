@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Regex Tester Online - Test reguliere expressies gratis | Optimizo",
+        "description": "Gratis online regex tester. Test JavaScript reguliere expressies met live markering van overeenkomsten, ondersteuning voor vlaggen en details van vastleggroepen.",
+        "h1": "Regex Tester",
+        "subtitle": "Test reguliere expressies live met markering van overeenkomsten, vlaggen en details van vastleggroepen"
+    },
+    "editor": {
+        "title": "Regex Tester",
+        "label_pattern": "Patroon - Reguliere Expressie",
+        "ph_pattern": "bijv. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Vlaggen",
+        "label_test": "Testtekenreeks",
+        "ph_test": "Plak de tekst die je wilt testen met je reguliere expressie...",
+        "btn_test": "Testen",
+        "btn_clear": "Wissen"
+    },
+    "content": {
+        "why_title": "Waarom onze Regex Tester gebruiken?",
+        "why_desc": "Reguliere expressies (regex) zijn krachtige patroonherkenningstools die in bijna elke programmeertaal worden gebruikt. Debuggen van regex kan complex zijn — één verkeerd teken verandert het zoekgedrag volledig. Onze real-time tester markeert overeenkomsten terwijl je typt, toont details van vastleggroepen en ondersteunt alle JavaScript-vlaggen, waardoor het de snelste manier is om je reguliere expressies te bouwen en te valideren.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Real-time markering",
+                "desc": "Overeenkomsten worden direct gemarkeerd bij elke toetsaanslag — geen klikken nodig"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Details vastleggroepen",
+                "desc": "Bekijk alle vastleggroepen, hun indices en overeenkomende waarden voor elk resultaat"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Volledige vlaggenondersteuning",
+                "desc": "Activeer de vlaggen g, i, m, s, u, y afzonderlijk en observeer hun effect"
+            }
+        },
+        "how_title": "Hoe een Regex testen in 3 stappen",
+        "how_steps": {
+            "1": {
+                "title": "Schrijf je patroon",
+                "desc": "Voer je reguliere expressie in het patroenveld in (zonder schuine strepen eromheen)"
+            },
+            "2": {
+                "title": "Kies de vlaggen",
+                "desc": "Activeer g (globaal), i (hoofdletterongevoelig), m (meerdere regels) en andere vlaggen naar behoefte"
+            },
+            "3": {
+                "title": "Plak je testtekst",
+                "desc": "Voer de te testen tekst in — overeenkomsten worden automatisch gemarkeerd"
+            }
+        },
+        "uses_title": "Veelvoorkomende regex-gebruiksscenario's",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Formuliervalidatie",
+                "desc": "Valideer e-mails, telefoonnummers, URL's, postcodes en aangepaste formaten"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Zoeken en vervangen",
+                "desc": "Zoek en vervang patronen in code-editors, logbestanden en tekstverwerkingspijplijnen"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Logbestandsanalyse",
+                "desc": "Extraheer gestructureerde gegevens (IP's, tijdstempels, foutcodes) uit ongestructureerde logboeken"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Invoersanering",
+                "desc": "Verwijder of vervang gevaarlijke tekens in gebruikersgegevens voordat je ze opslaat of weergeeft"
+            }
+        },
+        "tips_title": "Regex best practices",
+        "tips": {
+            "anchor": {
+                "title": "✓ Gebruik ankers voor exacte overeenkomsten",
+                "desc": "Gebruik ^ en $ om patronen te verankeren aan het begin en einde van een tekenreeks, waardoor ongewenste gedeeltelijke overeenkomsten worden vermeden"
+            },
+            "groups": {
+                "title": "✓ Geef de voorkeur aan niet-vastleggroepen",
+                "desc": "Gebruik (?:...) in plaats van (...) wanneer je de groep niet hoeft vast te leggen — verbetert de prestaties"
+            },
+            "escape": {
+                "title": "✓ Escape speciale tekens",
+                "desc": "De tekens . * + ? ( ) [ ] { } | ^ $ \\ hebben een speciale betekenis — escape ze met \\ voor letterlijke overeenkomsten"
+            },
+            "test": {
+                "title": "✓ Test randgevallen",
+                "desc": "Test altijd met lege tekenreeksen, Unicode-tekens, zeer lange invoer en randcondities"
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Welk regex-dialect gebruikt deze tester?",
+            "a1": "Deze tester gebruikt de ingebouwde RegExp-engine van JavaScript, die de ECMAScript-standaard volgt. Het ondersteunt alle JS-functies: lookaheads, lookbehinds (ES2018+), benoemde vastleggroepen en Unicode-eigenschapstekens.",
+            "q2": "Wat is het verschil tussen de vlaggen g en m?",
+            "a2": "De vlag g (globaal) vindt alle overeenkomsten in de tekenreeks in plaats van alleen de eerste. De vlag m (meerdere regels) zorgt ervoor dat ^ en $ overeenkomen met het begin/einde van elke regel in plaats van de gehele tekenreeks. Ze dienen verschillende doelen en kunnen worden gecombineerd.",
+            "q3": "Hoe match ik een letterlijke punt of asterisk?",
+            "a3": "Escape ze met een schuine streep: \\. komt overeen met een letterlijke punt, \\* met een letterlijke asterisk. Binnen een tekenklasse [ ] verliest de meeste speciale tekens hun betekenis, behalve ] \\ ^ -.",
+            "q4": "Waarom komt mijn regex overeen met te veel tekst?",
+            "a4": "Je gebruikt waarschijnlijk greedy kwantificatoren. De kwantificatoren * en + zijn standaard greedy en komen overeen met zoveel mogelijk tekst. Voeg ? toe om ze lazy te maken: *? of +? komen overeen met zo weinig mogelijk."
+        }
+    }
+}

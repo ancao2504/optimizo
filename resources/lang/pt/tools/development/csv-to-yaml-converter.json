@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Conversor CSV para YAML Online - Ferramenta gratuita | Optimizo",
+        "description": "Converta arquivos CSV para formato YAML online grátis. Usa automaticamente cabeçalhos CSV como chaves YAML e gera saída YAML corretamente indentada com inferência de tipos.",
+        "h1": "Conversor CSV para YAML",
+        "subtitle": "Converta dados CSV para formato YAML — mapeamento automático de cabeçalhos com inferência de tipos"
+    },
+    "editor": {
+        "title": "Conversor CSV para YAML",
+        "label_csv": "CSV de entrada",
+        "ph_csv": "nome,idade,ativo\nAlice,30,true\nBob,25,false",
+        "label_yaml": "Saída YAML",
+        "btn_copy": "Copiar YAML"
+    },
+    "content": {
+        "why_title": "Por que converter CSV para YAML?",
+        "why_desc": "CSV é ideal para armazenar dados tabulares em planilhas, mas YAML é o padrão para arquivos de configuração, fixtures de teste e ferramentas DevOps. Quando você precisa usar dados de planilhas como ConfigMaps do Kubernetes, arquivos de variáveis do Ansible, arquivos de dados do Hugo ou fixtures de teste, a conversão CSV→YAML poupa reformatação tediosa.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Conversão automática",
+                "desc": "Converte CSV para YAML em tempo real enquanto você digita — sem necessidade de clicar em nenhum botão"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Chaves baseadas em cabeçalhos",
+                "desc": "Os cabeçalhos CSV são automaticamente convertidos em chaves YAML para cada objeto da lista de saída"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Inferência de tipos",
+                "desc": "Números e booleanos (true/false) são automaticamente convertidos para seus tipos YAML apropriados"
+            }
+        },
+        "how_title": "Como converter CSV para YAML",
+        "how_steps": {
+            "1": {
+                "title": "Cole os dados CSV",
+                "desc": "Cole seu CSV com uma linha de cabeçalho — a primeira linha define as chaves YAML"
+            },
+            "2": {
+                "title": "Conversão instantânea",
+                "desc": "A saída YAML aparece imediatamente com cada linha CSV como elemento de lista YAML"
+            },
+            "3": {
+                "title": "Copie o YAML",
+                "desc": "Copie o YAML convertido e cole em seu arquivo de configuração ou fixture de teste"
+            }
+        },
+        "uses_title": "Casos de uso CSV para YAML",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Fixtures de teste",
+                "desc": "Converta dados de teste em planilhas para fixtures YAML para RSpec, PHPUnit ou Pytest"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Dados de configuração",
+                "desc": "Converta dados de equipe ou ambiente para variáveis do Ansible ou ConfigMaps do Kubernetes"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Dados de seed",
+                "desc": "Converta tabelas de referência CSV para arquivos de seed YAML para Rails, Laravel ou Django"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Dados de mock de API",
+                "desc": "Converta exemplos de planilhas para YAML para ferramentas de mock de API como WireMock ou Mirage"
+            }
+        },
+        "tips_title": "Boas práticas CSV para YAML",
+        "tips": {
+            "headers": {
+                "title": "✓ Use nomes de cabeçalho limpos e consistentes",
+                "desc": "Os cabeçalhos CSV se tornam chaves YAML — use snake_case ou camelCase consistentemente. Evite espaços e caracteres especiais nos cabeçalhos."
+            },
+            "quotes": {
+                "title": "✓ Coloque entre aspas valores com caracteres especiais",
+                "desc": "Em CSV, envolva valores que contêm vírgulas ou aspas em aspas duplas. O conversor processa corretamente campos entrecomillhados RFC 4180."
+            },
+            "encoding": {
+                "title": "✓ Use codificação UTF-8",
+                "desc": "Certifique-se de que seu arquivo CSV esteja codificado em UTF-8 antes da conversão. Caracteres não UTF-8 podem causar problemas de parsing."
+            },
+            "validate": {
+                "title": "✓ Valide o YAML após a conversão",
+                "desc": "Sempre cole o YAML convertido em um validador para verificar estrutura correta antes de usá-lo em arquivos de configuração."
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "O conversor processa campos CSV entrecomillhados?",
+            "a1": "Sim — o parser processa corretamente o formato CSV RFC 4180, incluindo campos entre aspas duplas e aspas escapadas (\"\"). Vírgulas dentro de campos entrecomillhados não são tratadas como delimitadores.",
+            "q2": "Como números e booleanos são processados?",
+            "a2": "O conversor infere tipos: valores que são números válidos são convertidos para números YAML (não strings), e valores true/false são convertidos para booleanos YAML. Strings permanecem como strings.",
+            "q3": "Posso converter dados TSV (separados por tab)?",
+            "a3": "Esta ferramenta espera CSV separado por vírgulas. Para dados separados por tab, primeiro substitua os tabs por vírgulas (a maioria dos editores de texto tem buscar e substituir com suporte a regex).",
+            "q4": "Como converter YAML de volta para CSV se necessário?",
+            "a4": "A direção inversa (YAML para CSV) requer conhecer a estrutura antecipadamente. Para uma lista plana de objetos com chaves consistentes, você pode extrair as chaves manualmente como cabeçalhos CSV e mapear cada elemento YAML para uma linha."
+        }
+    }
+}

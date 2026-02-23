@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON에서 TOML로 변환 온라인 - 무료 도구 | Optimizo",
+        "description": "JSON을 TOML 형식으로 온라인에서 무료 변환하세요. 테이블 섹션을 자동으로 생성하고 중첩된 개체를 처리하여 깔끔하고 읽기 쉬운 TOML을 생성합니다.",
+        "h1": "JSON에서 TOML로 변환기",
+        "subtitle": "JSON 구성 데이터를 더 읽기 쉬운 TOML 형식으로 변환 — 테이블 및 섹션의 자동 생성"
+    },
+    "editor": {
+        "title": "JSON에서 TOML로 변환기",
+        "label_json": "JSON 입력",
+        "ph_json": "{\n  \"title\": \"내 앱\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "TOML 출력",
+        "btn_copy": "TOML 복사"
+    },
+    "content": {
+        "why_title": "왜 JSON 구성 파일을 TOML로 변환해야 하나요?",
+        "why_desc": "JSON은 구성 파일을 위해 설계되지 않았습니다 — 주석이 없고, 중첩된 데이터에 장황한 구문이 있으며, 추가 이스케이핑이 필요합니다. TOML은 [섹션] 헤더, # 주석, 더 깔끔한 키-값 구문으로 동일한 데이터를 더 읽기 쉽게 만듭니다. config.json을 config.toml로 변환하면 프로젝트 구성의 유지보수성과 자기 문서화가 향상됩니다.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "자동 섹션 생성",
+                "desc": "중첩된 JSON 개체가 TOML 테이블 경로 [section.subsection]으로 자동 변환"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "유형 보존",
+                "desc": "JSON 숫자, 불리언, 문자열이 데이터 손실 없이 올바르게 TOML의 동등물로 매핑"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "더 깔끔한 구성",
+                "desc": "TOML 형식의 동일한 데이터는 일반적으로 20~40% 더 짧고 JSON보다 훨씬 읽기 쉬움"
+            }
+        },
+        "how_title": "3단계로 JSON을 TOML로 변환하는 방법",
+        "how_steps": {
+            "1": {
+                "title": "JSON 구성 붙여넣기",
+                "desc": "기존 JSON 구성 파일을 복사하여 왼쪽 패널에 붙여넣기"
+            },
+            "2": {
+                "title": "TOML 출력 검토",
+                "desc": "오른쪽 패널에 동등한 TOML이 표시 — 구조가 예상과 일치하는지 확인"
+            },
+            "3": {
+                "title": "주석 추가 및 저장",
+                "desc": "TOML을 복사하고 각 섹션을 문서화하는 # 주석을 추가한 후 새 구성 파일로 저장"
+            }
+        },
+        "uses_title": "JSON에서 TOML로 변환 사용 사례",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.toml 생성",
+                "desc": "Rust 프로젝트 설정을 빠르게 하기 위해 package.json에서 Cargo.toml 형식으로 정보 변환"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "pyproject.toml로 마이그레이션",
+                "desc": "setup.cfg나 setup.py를 현대적인 Python 패키징 표준 pyproject.toml로 변환"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "구성 파일 업데이트",
+                "desc": "config.json을 config.toml로 마이그레이션하고 각 옵션을 # 주석으로 문서화"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "도구 간 구성 공유",
+                "desc": "필요에 따라 JSON과 TOML 생태계 간에 동일한 구성 데이터를 변환하여 공유"
+            }
+        },
+        "tips_title": "JSON에서 TOML로 변환 팁",
+        "tips": {
+            "arrays": {
+                "title": "✓ 개체 배열을 신중하게 확인",
+                "desc": "JSON 개체 배열([{name:\"a\"},{name:\"b\"}])은 TOML의 [[테이블 배열]] 구문을 사용합니다. 출력에서 올바르게 변환되었는지 확인하세요."
+            },
+            "null": {
+                "title": "✓ TOML에는 null이 없음",
+                "desc": "JSON의 null은 TOML에 직접적인 동등물이 없습니다. 널 값은 변환 시 일반적으로 생략되거나 빈 문자열로 교체됩니다. 이런 경우를 수동으로 처리하세요."
+            },
+            "keys": {
+                "title": "✓ 특수 문자가 있는 키를 따옴표로 묶기",
+                "desc": "하이픈이나 공백이 있는 TOML 키는 따옴표가 필요합니다: \"content-type\" = \"json\". 이 문제를 피하기 위해 JSON 키에 언더스코어를 사용하세요."
+            },
+            "test": {
+                "title": "✓ 앱의 TOML 파서로 테스트",
+                "desc": "다른 TOML 파서(toml-rs, tomllib, @iarna/toml)는 엣지 케이스를 다르게 처리할 수 있습니다. 변환된 TOML을 항상 실제 런타임 환경에서 테스트하세요."
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "모든 JSON 데이터 유형을 TOML로 변환할 수 있나요?",
+            "a1": "대부분의 유형은 깔끔하게 변환됩니다: 문자열, 숫자, 불리언, 배열, 개체는 TOML에 직접적인 동등물이 있습니다. JSON의 null은 TOML에 동등물이 없어 일반적으로 생략됩니다. 깊이 중첩된 개체 배열은 수동 조정이 필요할 수 있습니다.",
+            "q2": "TOML이 구성 파일에서 JSON을 완전히 대체할 수 있나요?",
+            "a2": "정적 구성 파일에는 가능합니다. 구성을 읽는 코드는 JSON.parse()에서 TOML 파서(Rust의 toml crate, Python의 tomllib 등)로 변경해야 합니다. TOML은 API나 데이터 교환의 JSON을 대체할 수 없습니다.",
+            "q3": "TOML은 어떤 파일 확장자를 사용하나요?",
+            "a3": "TOML 파일은 .toml 확장자를 사용합니다. 일반적인 예: Cargo.toml(Rust), pyproject.toml(Python), config.toml(Hugo), .cargo/config.toml(Cargo 설정).",
+            "q4": "JSON, YAML, TOML 중 구성에서 어떻게 선택하나요?",
+            "a4": "JSON은 API 데이터 교환(보편적 지원, 주석 불필요)에 사용하세요. YAML은 DevOps 구성(Kubernetes, CI/CD 등)에 사용하세요. TOML은 애플리케이션 구성(단순한 구문, 명시적 유형, 수동 편집에 가장 좋음)에 사용하세요."
+        }
+    }
+}

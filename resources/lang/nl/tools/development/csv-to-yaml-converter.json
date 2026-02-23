@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "CSV naar YAML Converter Online - Gratis tool | Optimizo",
+        "description": "Converteer CSV-bestanden naar YAML-formaat online gratis. Gebruikt automatisch CSV-headers als YAML-sleutels en genereert correct ingesprongen YAML-uitvoer met type-inferentie.",
+        "h1": "CSV naar YAML Converter",
+        "subtitle": "Converteer CSV-gegevens naar YAML-formaat — automatische headermapping met type-inferentie"
+    },
+    "editor": {
+        "title": "CSV naar YAML Converter",
+        "label_csv": "CSV-invoer",
+        "ph_csv": "naam,leeftijd,actief\nAlice,30,true\nBob,25,false",
+        "label_yaml": "YAML-uitvoer",
+        "btn_copy": "YAML kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom CSV naar YAML converteren?",
+        "why_desc": "CSV is ideaal voor het opslaan van tabelgegevens in spreadsheets, maar YAML is de standaard voor configuratiebestanden, testfixtures en DevOps-tools. Wanneer je spreadsheetgegevens nodig hebt als Kubernetes ConfigMaps, Ansible-variabelebestanden, Hugo-gegevensbestanden of testfixtures, bespaart CSV→YAML-conversie je vervelend opnieuw formatteren.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Automatische conversie",
+                "desc": "Converteert CSV naar YAML in realtime terwijl je typt — geen knoppen klikken nodig"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Op headers gebaseerde sleutels",
+                "desc": "CSV-headers worden automatisch geconverteerd naar YAML-sleutels voor elk object in de uitvoerlijst"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Type-inferentie",
+                "desc": "Nummers en booleans (true/false) worden automatisch geconverteerd naar hun juiste YAML-typen"
+            }
+        },
+        "how_title": "CSV naar YAML converteren",
+        "how_steps": {
+            "1": {
+                "title": "Plak de CSV-gegevens",
+                "desc": "Plak je CSV met een headerrij — de eerste rij definieert de YAML-sleutels"
+            },
+            "2": {
+                "title": "Directe conversie",
+                "desc": "De YAML-uitvoer verschijnt direct met elke CSV-rij als YAML-lijstelement"
+            },
+            "3": {
+                "title": "YAML kopiëren",
+                "desc": "Kopieer de geconverteerde YAML en plak het in je configuratiebestand of testfixture"
+            }
+        },
+        "uses_title": "Gebruiksscenario's voor CSV naar YAML",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Testfixtures",
+                "desc": "Converteer testgegevens in spreadsheets naar YAML-fixtures voor RSpec, PHPUnit of Pytest"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Configuratiegegevens",
+                "desc": "Converteer team- of omgevingsgegevens naar Ansible-variabelen of Kubernetes ConfigMaps"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Seedgegevens",
+                "desc": "Converteer referentietabel CSV naar YAML-seedbestanden voor Rails, Laravel of Django"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "API-mockgegevens",
+                "desc": "Converteer spreadsheetvoorbeelden naar YAML voor API-mocktools zoals WireMock of Mirage"
+            }
+        },
+        "tips_title": "Best practices voor CSV naar YAML",
+        "tips": {
+            "headers": {
+                "title": "✓ Gebruik schone, consistente headernamen",
+                "desc": "CSV-headers worden YAML-sleutels — gebruik consistent snake_case of camelCase. Vermijd spaties en speciale tekens in headers."
+            },
+            "quotes": {
+                "title": "✓ Citeer waarden met speciale tekens",
+                "desc": "Sluit in CSV waarden die komma's of aanhalingstekens bevatten in dubbele aanhalingstekens. De converter verwerkt correct RFC 4180-aangehaalde velden."
+            },
+            "encoding": {
+                "title": "✓ Gebruik UTF-8-codering",
+                "desc": "Zorg ervoor dat je CSV-bestand UTF-8-gecodeerd is vóór conversie. Niet-UTF-8-tekens kunnen parseerproblemen veroorzaken."
+            },
+            "validate": {
+                "title": "✓ Valideer YAML na conversie",
+                "desc": "Plak de geconverteerde YAML altijd in een validator om de juiste structuur te controleren voordat je het in configuratiebestanden gebruikt."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Verwerkt de converter aangehaalde CSV-velden?",
+            "a1": "Ja — de parser verwerkt het RFC 4180 CSV-formaat correct, inclusief dubbel aangehaalde velden en ge-escape aanhalingstekens (\"\"). Komma's in aangehaalde velden worden niet als scheidingstekens behandeld.",
+            "q2": "Hoe worden nummers en booleans verwerkt?",
+            "a2": "De converter leidt typen af: waarden die geldige nummers zijn, worden geconverteerd naar YAML-nummers (geen strings), en true/false-waarden worden geconverteerd naar YAML-booleans. Strings blijven strings.",
+            "q3": "Kan ik TSV-gegevens (tab-gescheiden) converteren?",
+            "a3": "Dit hulpmiddel verwacht komma-gescheiden CSV. Voor tab-gescheiden gegevens, vervang eerst tabs door komma's (de meeste teksteditors hebben zoeken en vervangen met regex-ondersteuning).",
+            "q4": "Hoe YAML terug naar CSV te converteren indien nodig?",
+            "a4": "De omgekeerde richting (YAML naar CSV) vereist dat de structuur van tevoren bekend is. Voor een platte lijst van objecten met consistente sleutels, kun je de sleutels handmatig als CSV-headers extraheren en elk YAML-element naar een rij mappen."
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "CSS Grid -generaattori Verkossa - Visuaalinen Ruudukkoasettelu | Optimizo",
+        "description": "Luo CSS Grid -asetteluja visuaalisesti verkossa ilmaiseksi. Säädä sarakkeita, rivejä, väliä ja tasausta reaaliaikaisella esikatselulla ja välittömällä CSS-viennillä.",
+        "h1": "CSS Grid -generaattori",
+        "subtitle": "Luo CSS Grid -asetteluja visuaalisesti — säädä sarakkeita, rivejä, väliä ja tasausta reaaliaikaisella esikatselulla"
+    },
+    "editor": {
+        "title": "CSS Grid -generaattori",
+        "label_cols": "Sarakkeiden määrä",
+        "label_rows": "Rivien määrä",
+        "label_col_template": "Sarakemalli",
+        "label_gap": "Väli (gap)",
+        "label_align": "align-items",
+        "label_preview": "Reaaliaikainen esikatselu",
+        "btn_copy": "Kopioi CSS"
+    },
+    "content": {
+        "why_title": "Miksi käyttää visuaalista CSS Grid -generaattoria?",
+        "why_desc": "CSS Grid on CSS:n tehokkain asettelujärjestelmä, mutta sen syntaksilla on jyrkkä oppimiskäyrä. Visuaalisella generaattorilla voit säätää ruudukkoa liukusäätimillä ja pudotusvalirkoilla ja nähdä kunkin ominaisuuden vaikutuksen reaaliajassa.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Reaaliaikainen ruudukkoesikatselu",
+                "desc": "Ruudukko päivittyy reaaliajassa kun säädät sarakkeita, rivejä, väliä ja tasausta"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "fr-yksiköiden tuki",
+                "desc": "Mallit käyttävät fr (murtoluku) -yksikköä joustaville ruudukoille, jotka mukautuvat säiliön kokoon"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Käyttövalmis CSS",
+                "desc": "Vie siisti .container CSS-lohko, jossa on grid-template-columns, rows, gap ja align-items"
+            }
+        },
+        "how_title": "CSS Grid -asettelun luominen",
+        "how_steps": {
+            "1": {
+                "title": "Konfiguroi sarakkeet ja rivit",
+                "desc": "Aseta ruudukon sarakkeiden ja rivien määrä liukusäätimillä"
+            },
+            "2": {
+                "title": "Valitse malli ja väli",
+                "desc": "Valitse sarakemalli (tasainen, kiinteä+joustava tai responsiivinen minmax) ja säädä väliä"
+            },
+            "3": {
+                "title": "Kopioi CSS",
+                "desc": "Napsauta 'Kopioi CSS' saadaksesi täydellinen CSS-lohko suoraan tyylitiedostoosi liitettäväksi"
+            }
+        },
+        "uses_title": "CSS Gridin käyttötapaukset",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Sivun asettelu",
+                "desc": "Luo ylätunniste/sivupalkki/pääsisältö/alapalkki-rakenne nimetyillä ruudukkoalueilla"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Koontinäyttö",
+                "desc": "Luo monimutkaisia koontinäyttöasetteluja erikokoisilla korteilla grid-column ja grid-row span -arvoja käyttäen"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galleria",
+                "desc": "Luo muurimais- tai säännöllisiä gallerioita, jotka mukautuvat auto-fill ja minmax -arvoilla"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Lehtiasettelu",
+                "desc": "Luo toimituksellisia asetteluja epätasaisilla sarakkeilla ja useiden solujen yli ulottuvalla sisällöllä"
+            }
+        },
+        "tips_title": "CSS Gridin parhaat käytännöt",
+        "tips": {
+            "fr": {
+                "title": "✓ Suosi fr-yksikköä prosenttilukujen sijaan",
+                "desc": "fr (murtoluku) -yksikkö jakaa saatavilla olevan tilan kiinteiden sarakkeiden jälkeen ilman manuaalista laskentaa."
+            },
+            "minmax": {
+                "title": "✓ Käytä minmax() responsiivisiin ruudukoihin",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) luo responsiivisen ruudukon, joka säätää sarakkeiden määrää automaattisesti."
+            },
+            "named": {
+                "title": "✓ Käytä nimettyjä ruudukkoalueita",
+                "desc": "grid-template-areas nimetyillä soluilla tekee sivun asetteluista luettavia ja helposti muokattavia."
+            },
+            "auto": {
+                "title": "✓ Ymmärrä auto-fill vs. auto-fit",
+                "desc": "auto-fill luo maksimimäärän raitoja (myös tyhjät). auto-fit tiivistää tyhjät raidat ja laajentaa olemassa olevia — yleensä optimaalinen korttiruudukoille."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mikä fr-yksikkö on CSS Gridissä?",
+            "a1": "fr tarkoittaa 'murtolukuyksikköä'. 1fr edustaa osaa ruudukko säiliön saatavilla olevasta vapaasta tilasta. repeat(3, 1fr) luo 3 saraketta, jotka jakavat saatavilla olevan tilan tasaisesti.",
+            "q2": "Mikä on ero CSS Gridin ja Flexboxin välillä?",
+            "a2": "Flexbox on yksiulotteinen — sijoittaa elementit yhden akselin (rivi tai sarake) suuntaan. CSS Grid on kaksiulotteinen — voi hallita rivejä ja sarakkeita samanaikaisesti, paljon tehokkaampi sivun asetteluihin.",
+            "q3": "Mitä minmax() tekee?",
+            "a3": "minmax(min, max) määrittää kokoalueen ruudukkoraidalle. minmax(200px, 1fr) tarkoittaa, että sarake on vähintään 200px leveä, mutta voi kasvaa täyttämään saatavilla olevan tilan.",
+            "q4": "Milloin käyttää CSS Gridiä Flexboxin sijaan?",
+            "a4": "Käytä Gridiä kaksiulotteisiin asetteluihin, joissa hallitset rivejä ja sarakkeita samanaikaisesti. Käytä Flexboxia komponenttien yksiulotteisiin asetteluihin kuten navigointipalkkeihin."
+        }
+    }
+}

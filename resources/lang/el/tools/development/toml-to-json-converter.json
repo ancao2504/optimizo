@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Online Μετατροπέας (Converter) TOML σε JSON - Δωρεάν Εργαλείο | Optimizo",
+        "description": "Μετατρέψτε ρυθμίσεις/αρχεία TOML σε JSON online & δωρεάν. Πλήρης υποστήριξη για TOML-Tables, Πίνακες (Arrays), Inline Tables και αυστηρούς τύπους δεδομένων.",
+        "h1": "Μετατροπέας TOML ΣΕ JSON",
+        "subtitle": "Μετασχηματίστε Άμεσα Configuration TOML (Cargo, Toml) σε καθαρά JSON Objects — Αυτοματοποιημένη ανάλυση Τύπων Δεδομένων"
+    },
+    "editor": {
+        "title": "Σύστημα Ανάλυσης TOML -> JSON",
+        "label_toml": "Είσοδος Δεδομένων (TOML Format)",
+        "ph_toml": "# Δοκιμαστικό TOML\ntitle = \"My App\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "Έξοδος Αποτελέσματος (Γλώσσα JSON)",
+        "btn_copy": "Αντιγραφή Δομής JSON (Copy)"
+    },
+    "content": {
+        "why_title": "Γιατί να γίνει (Μετατροπή / Parse) ενός TOML... σε JSON format;",
+        "why_desc": "Tο (TOML - Tom's Obvious, Minimal Language), Σχεδιάστηκε Κυρίως για να ειναι ΑΠΙΣΤΕΥΤΑ 'Φιλικό/Κατανοητό' για του Ανθρώπους.. Γράφοντας (Config/Settings files - π.χ Cargo.toml σε Rust, Ή pyproject.toml / Python). Το JSON όμως; ΕΙΝΑΙ Η ΜΗΤΡΙΚΗ και Απόλυτη Γλώσσα των Web-APIs και του JavaScript-Ecosystem. Αν ποτέ χρειαστείτε (Να αποστείλετε config data στο BackEnd) - Η να τα διαχειριστεί FrontEnd App Σας.. Ο μετατροπέας Γεφυρώνει Τις γλώσσες.. με 1 클릭!",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Τέλεια Διατήρηση και σεβασμός: (Τύπων Δεδομένων) Cast/Convert",
+                "desc": "Τα Strings, Integers(Ακέραιοι), Tα Floats(Δεσμευμένοι) 0.5, Booleans.. αλλά και Tα Datetimes(Ημερομηνίες) μεταφέρονται ασύметриκα στο JSON Schema."
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Τεμαχισμός...[ Πινάκων ] & [Array/Ενοτήτων] .. (Tables Maping) ",
+                "desc": "Το Τοml φτιάχνει 'Ομάδες/Χώρους' βάζοντας Header `[database]`.  Το εργαλείο.. φτιάχνει (Φωλιασμένο/Nested) `{ database: { } } ` Object .. Διατηρώντας ολο το Hierarchy."
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Μορφοποιημένο(Pretty) Output Json - Για τον Άνθρωπο",
+                "desc": "Το τελικό αποτέλεσμα (JSON)  δεν ειναι μια 'μουτζούρα μίας γραμμής' (Stringified-oneLine).. Εχει ιδανικές εσοχές (2 spaces tabs)."
+            }
+        },
+        "how_title": "Αναγκάστε ένα Toml..  Να Μιλήσει JSON. (3 Βηματα)!..",
+        "how_steps": {
+            "1": {
+                "title": "Επικολλήστε τον Κώδικα (TOML)",
+                "desc": "Πιάστε το Cargo.toml (Rust) , η το pyproject.toml.. Αντιγράψτε ένα τμήμα τους... Η (Ολόκληρο)... Και τοποθετήστε το."
+            },
+            "2": {
+                "title": "On-The-Fly / Άμεση Ανάλυση (Parse-time)",
+                "desc": "Το σύστημα αποκωδικοποιεί τον.. 'εξωτικό' TOML κώδικα... Παράγοντας ακαριαία την Αντικατάσταση-Αναπαράσταση του με τον Αντικειμενοστραφή κόσμο του JSON. "
+            },
+            "3": {
+                "title": "Προώθηση / API Usage",
+                "desc": "Πατήστε Κόπυ (Copy Result). Το νέο σας JSON Payload / JSON Document ... ΕΙΝΑΙ ΕΤΟΙΜΟ να το πετάξετε σε Node.js... ή Στο REST API σας!"
+            }
+        },
+        "uses_title": "Οικοσυστήματα (Eco-Systems) και.. Δημοφιλείς Χρήσεις",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Η Αυτοκρατορία της RUST (Cargo/Dependencies)",
+                "desc": "Επιτρέπει την ανάγνωση / σάρωση των Metadata (Deps / Version Build Cargo) μέσα από C.I. εργαλεία, GithubActions η Bash Automation ! (Που τρώνε μόνο JSON)."
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Static Sites Γεννήτριες (Hugo SSG Settings/Config)",
+                "desc": "Ανοίξτε το config.toml Του Blog σας.. και μετατρέψτε το.. ώστε να το διαχειριστεί ένα (Headless CMS ἠ Dashboard Interface Panel Που παίζει με JSON-REST)."
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Η Γλώσσα του Διαδικτύου (CURL / Axios Deploy)",
+                "desc": "Μετατροπή Των Payload σας Από TOML (Εάν τα κρατάτε Locally).. Σε Φορμάτ Κατάλληλο (JSON) - Για να κάνετε Push / Post / Put προς Μοντέρνους (GraphQL / Rest Servers)."
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Σπουδάστε/Διδαχθείτε .. Data Hierarchy (Δομές)",
+                "desc": "Αν είστε νέος/Junior στην Ανάπτυξη! Παραθέτοντάς τα Δίπλα/Δίπλα... Θα αντιληφθείτε με το μάτι, Το ΠΩΣ.. Ένα Δέντρο (Tree structure) Αναπτύσσετε ... με 2 διαφορετικές Mεθοδολογίες/Γραφές."
+            }
+        },
+        "tips_title": "O Μύθος του 'TOML'.. Pro Development Tips!",
+        "tips": {
+            "tables": {
+                "title": "✓ Τοml Tables... Το Μαγικό 'Δέντρο με Κουκίδες ' ..` [A.B.C] `",
+                "desc": "Πολλές Φορές το ΤOML - Για να γλιτώσει χώρο... Γράφει `[server.database.mysql]`. *Το Εργαλείο μας θα το καταλάβει ΑΨΟΓΑ*... Φτιάχνοντας 3  Βάθη(Objects μέσα σε object) - Φωλιασμένα στο JSON!!"
+            },
+            "strings": {
+                "title": "✓ Τα Μονά Εισαγωγικά.. Εκπέμπουν τον Ήχο.. Της Σιωπής! (Raw Literals)",
+                "desc": "To TOML εχει ΚΑΤΙ.. ΜΑΓΙΚΟ. Αν βάλετε Single Quote (Μονό Εισαγωγικό): `'C:\\Users\\Bob'` , Το Toml καταλαβαίνει οτι είναι RAW TEXT.. και *ΣΤΟ ΛΕΕΙ ΣΤΑ iΣΑ* Δεν βάζει διπλές '\\\\' Ουτε χαλάει Windows/Regex paths (οπως ΚΑΝΕΙ ΤΟ JSON Που θέλει Escape τα PANTΑ)!!"
+            },
+            "comments": {
+                "title": "✓ Τα Σχόλια (Hash / #).. 'Πεθαίνουν.. Στον βωμό του JSON'!!",
+                "desc": "Επειδή το JSON... 100% (Από σχεδίαση) [ΑΠΑΓΟΡΕΥΕΙ],  Τα Σχόλια ! Ο Μετατροπέας αναγκαστικά (Δευεργεί/Σβήνει/Διαγράφει) ολα τα '#' (Comments + Notes) απο το Toml, κατά την Mετάφραση !... Γι αυτό Το Json ειναι για Μηχανές..."
+            },
+            "datetime": {
+                "title": "✓ Το Αγκάθι των Ημερομηνιών.. (RFC 3339 DateTime)",
+                "desc": "Το ΤοML... ΕΧΕΙ.. ΕΓΓΕΝΩΣ(Native)  τύπο δεδομένων (Ώρα - Ημερομηνία)! Το JSON (ΟΧΙ). Επομένως : Η Μηχανή ... Αναγκάζεται-Υποχρεωτικά Να κάνει το 2029-01-30 .... Ένα απλο - Ξεβαμμένο-> String (Stringified Text Date), ΜΕΣΑ ΣΤΟ Json Result."
+            }
+        },
+        "faq_title": "❓ Συνήθεις Απορίες Περί.. TOML VS JSON",
+        "faq": {
+            "q1": "Tελικά.. Ποιο είναι ΚΑΛΥΤΕΡΟ ; TO (JSON / YAML / H TOML);",
+            "a1": "ΔΕΝ Υπάρχει (Καλύτερο). Υπάρχει 'Σκοπός' : TOML -> (Για Settings-Configs σε ΑΠΛΑ-FLAT-Apps / Υπερ-Ορατά στον Ανθρωπο / Ελαχιστα Bugs - Rust/Python). YAML -> (Για DevOps. Kubernetes, Ansible, Terribly Nested Trees)..  KAI ΤΟ JSON ? -> ΕΙΝΑΙ (ΜΟΝΟ ΓΙΑ ΝΑ 'ΜΙΛΑΝΕ' ΟΙ ΥΠΟΛΟΓΙΣΤΕΣ/BROWSER/SERVERS ΜΕΤΑΞΥ ΤΟΥΣ (APIs) !!! Η Διαχείριση-Συγγραφή JSON από(Άνθρωπο) ... ειναι τιμωρία!",
+            "q2": "Στο TOML βλέπω.. 2 Τεράστιες Αγκύλες `[[ Array ]] ` . Τί ειναι Τούτο το Πράγμα;",
+            "a2": "Είναι ο ΜΟΝΑΔΙΚΟΣ ΤΡΌΠΟΣ, του Τoml .. Για να φτιάξει 'List of Objects' (Arrays/Λίστες Πινάκων). Αν Γράψεις 2 φορές `[[servers]]` Tότε θα δημιουργήσει  Στο JSON ->  (ΕΝΑ Array Ονόματι 'Servers': Που θα Εχει 2 Items Μέσα) !! [ { }, { } ]. ",
+            "q3": "Ο Πυρήνας Μετάφρασης... Περιέχει bugs? - Χάνω δεδομένα ;",
+            "a3": "Όχι. Ο Μεταφραστής ειναι 100% Συμβατός με το 'TOML Specification/Core'. Δεν χάνεται/αλλοιώνεται Κανένα απολύτως Δεδομένο (Ονόματα/Valuas) .. Το μόνο που (Ιστορικά Διαγράφεται-Χάνεται) ειναι τα Comments/Σημειώσεις(#) , Διότι το JSON Δεν μπορέι να τα δεχτεί/παραλάβει.",
+            "q4": "Γιατί βλέπω... Στον κόσμο των (Python) Προγραμματιστών.. Τέλεια Μετάβαση / 'Υποκλιση' προς το Toml (pyproject.toml);",
+            "a4": "Διότι Ο κόσμος βαρέθηκε το ακατάστατο setup.py Και το (INI configs - conf / cfg). Ο Σχεδιασμός του ΤOML Είναι Στιβαρός(Types Values), Απόλυτα προβλέψιμος (Δεν αλλοίωnει Τιμές οπως κάνει το Yaml-Πολλες Φορές στα Strings) -- Και δεν έχει τις.. Ατελείωτες/Κουραστικές Εσοχές(Indents) του Yaml."
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "meta": {
+        "title": "在线 CSV 转 YAML 转换器 - 表格数据序列化工具 | Optimizo",
+        "description": "免费的在线 CSV 转 YAML 格式转换器。将电子表格导出的逗号分隔文件 (.csv) 瞬间转换为结构清晰、可读性极强的 YAML 配置格式，适合 DevOps 和 CI/CD 管道使用。",
+        "h1": "CSV 转 YAML 格式转换器",
+        "subtitle": "在毫秒之内将表格式的 CSV 数据转换成整洁分层的 YAML 序列结构"
+    },
+    "editor": {
+        "title": "CSV 到 YAML 转换台",
+        "label_input": "粘贴 CSV 数据（首行为字段名）",
+        "ph_input": "name,age,city,role\nAlice,30,New York,Admin\nBob,24,London,User\nCarol,28,Tokyo,Developer",
+        "btn_convert": "转换为 YAML",
+        "label_output": "生成的 YAML 输出",
+        "btn_copy": "复制 YAML 代码"
+    },
+    "content": {
+        "why_title": "为什么开发者需要将 CSV 数据转换成 YAML 格式？",
+        "why_desc": "CSV（逗号分隔值）是电子表格和数据库导出的通用格式，而 YAML 是现代 DevOps 工具、配置文件和 API 数据结构中广泛使用的人类可读序列化语言。当您需要将批量的用户数据、产品列表或配置参数从 Excel 或数据库迁移至 Kubernetes 配置、Ansible 剧本（Playbook）或 CI/CD 流水线时，手动转换既耗时又容易出错。这款转换器能精确识别 CSV 首行作为字段标识符，并将每行数据映射为独立的 YAML 对象，一次性批量完成转换。",
+        "features": {
+            "headers": {
+                "icon": "📋",
+                "title": "自动识别表头字段名",
+                "desc": "默认将第一行作为键名（Key），整洁地将每一条数据行映射为一个独立 YAML 对象，无需额外配置。"
+            },
+            "nested": {
+                "icon": "🏗️",
+                "title": "嵌套数组结构输出",
+                "desc": "默认将所有记录包裹在顶层 `items:` 数组序列下，保持 YAML 的逻辑层次清晰，方便下游应用直接解析消费。"
+            },
+            "types": {
+                "icon": "🔢",
+                "title": "自动判断数据类型",
+                "desc": "自动检测纯数字和布尔型值（true/false），在 YAML 中以原生类型输出，而不是将所有内容都变成字符串。"
+            }
+        },
+        "how_title": "如何在三步内完成 CSV 到 YAML 的快速转换？",
+        "how_steps": {
+            "1": {
+                "title": "准备你的 CSV 数据",
+                "desc": "从 Excel、Google Sheets 或数据库工具（如 phpMyAdmin）导出 CSV 文件，并确保第一行是字段名称的标题行。"
+            },
+            "2": {
+                "title": "粘贴至转换台",
+                "desc": "将 CSV 原始内容完整复制后粘贴到左侧编辑框中，然后单击"转换为 YAML"按钮。"
+            },
+            "3": {
+                "title": "复制结果直接使用",
+                "desc": "右侧面板即刻呈现格式完整的 YAML 输出，可直接复制并粘贴进您的配置文件或数据处理流水线中使用。"
+            }
+        },
+        "uses_title": "CSV 转 YAML 的最佳应用场景",
+        "uses": {
+            "devops": {
+                "icon": "⚙️",
+                "title": "DevOps 配置批量填充",
+                "desc": "将来自电子表格的服务端列表或环境变量配置，一键转存为可直接配置 Ansible Inventory 或 Docker Secrets 的标准 YAML 格式。"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "数据库与应用初始化种子数据",
+                "desc": "若您的 Rails、Laravel 或 Django 项目依靠 YAML 文件作为数据库测试或演示的种子数据，从 CSV 快速生成将极大节省时间。"
+            },
+            "api": {
+                "icon": "🌐",
+                "title": "OpenAPI / Swagger 样例数据构建",
+                "desc": "将测试数据集从 CSV 快速转换成 YAML 格式嵌入 API 文档示例中，以便 API 消费者了解响应结构。"
+            },
+            "migration": {
+                "icon": "🔄",
+                "title": "数据格式跨系统迁移",
+                "desc": "当您需要将数据从以 CSV 格式为主的旧有系统迁移至 YAML-first 的现代配置驱动架构时，此工具是完美的桥梁。"
+            }
+        },
+        "tips_title": "获得完美 YAML 输出的实用建议",
+        "tips": {
+            "encoding": {
+                "title": "✓ 确保 CSV 文件使用 UTF-8 编码",
+                "desc": "在 Excel 中导出时，请选择"CSV UTF-8（逗号分隔）"格式，而非标准 CSV，以防止中文或其他非 ASCII 字符在转换后出现乱码。"
+            },
+            "quotes": {
+                "title": "✓ 含有逗号的字段请用双引号包围",
+                "desc": "如某个字段的值中本身包含逗号（如地址 `Shanghai, China`），请确保该值在 CSV 中用双引号包裹（`\"Shanghai, China\"`），以免转换器错误地将其分割为两列。"
+            },
+            "boolean": {
+                "title": "✓ 注意 YAML 中的布尔保留字",
+                "desc": "若您的 CSV 中存在 `yes`、`no`、`true`、`false` 等词作为普通文字值，请在 CSV 中将其用引号标注，否则 YAML 解析器会将这些词解释为布尔值 `true` 或 `false`。"
+            },
+            "blank": {
+                "title": "✓ 处理空字段",
+                "desc": "如果 CSV 中某行某列为空，转换器将输出 `null` 值，这在 YAML 中是合法的空表示。若您的应用不接受 `null`，请在导入前手动替换。"
+            }
+        }
+    }
+}

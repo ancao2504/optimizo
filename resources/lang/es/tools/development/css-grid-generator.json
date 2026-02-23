@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Generador CSS Grid Online - Constructor visual de rejilla | Optimizo",
+        "description": "Genera diseños CSS Grid en línea gratis. Configura columnas, filas, espaciado y alineación con previsualización en vivo y exportación CSS instantánea.",
+        "h1": "Generador CSS Grid",
+        "subtitle": "Construye diseños CSS Grid visualmente — configura columnas, filas, espaciado y alineación con previsualización en vivo"
+    },
+    "editor": {
+        "title": "Generador CSS Grid",
+        "label_cols": "Columnas",
+        "label_rows": "Filas",
+        "label_col_template": "Plantilla de columnas",
+        "label_gap": "Espacio (gap)",
+        "label_align": "align-items",
+        "label_preview": "Previsualización en vivo",
+        "btn_copy": "Copiar CSS"
+    },
+    "content": {
+        "why_title": "¿Por qué usar un generador visual de CSS Grid?",
+        "why_desc": "CSS Grid es el sistema de diseño más potente en CSS, pero su sintaxis — grid-template-columns, grid-template-rows, unidades fr, minmax(), repeat() — tiene una curva de aprendizaje pronunciada. Nuestro generador visual te permite configurar tu rejilla mediante deslizadores y menús desplegables y ver el diseño actualizarse al instante, para que comprendas el efecto de cada propiedad sin tener que bucear en la documentación de MDN.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Previsualización de rejilla en vivo",
+                "desc": "Ve tu rejilla actualizarse en tiempo real mientras ajustas columnas, filas, espaciado y alineación"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Soporte de unidades fr",
+                "desc": "Las plantillas usan unidades fraccionarias (fr) para rejillas flexibles y responsivas que se adaptan al tamaño del contenedor"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Salida CSS lista para usar",
+                "desc": "Exporta un bloque CSS .container limpio con grid-template-columns, rows, gap y align-items"
+            }
+        },
+        "how_title": "Cómo crear un diseño CSS Grid",
+        "how_steps": {
+            "1": {
+                "title": "Establece columnas y filas",
+                "desc": "Usa los deslizadores para definir el número de columnas y filas de tu rejilla"
+            },
+            "2": {
+                "title": "Elige plantilla y espaciado",
+                "desc": "Selecciona una plantilla de columnas (igual, fija+flex, minmax responsive) y ajusta el espaciado entre celdas"
+            },
+            "3": {
+                "title": "Copia el CSS",
+                "desc": "Haz clic en 'Copiar CSS' para el bloque CSS completo listo para pegar en tu hoja de estilos"
+            }
+        },
+        "uses_title": "Casos de uso de CSS Grid",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Diseños de página",
+                "desc": "Construye estructuras cabecera/barra lateral/contenido principal/pie de página limpiamente con áreas de rejilla con nombre"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Paneles de control",
+                "desc": "Crea diseños de panel complejos con tarjetas de distintos tamaños mediante grid-column y grid-row spans"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galerías de imágenes",
+                "desc": "Construye galerías de imágenes tipo mampostería o uniformes con auto-fill y minmax para la responsividad"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Diseños de revista",
+                "desc": "Crea diseños editoriales con columnas asimétricas y elementos destacados que abarcan varias celdas"
+            }
+        },
+        "tips_title": "Buenas prácticas de CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Prefiere las unidades fr a los porcentajes",
+                "desc": "La unidad fr (fracción) distribuye el espacio disponible después de las columnas de tamaño fijo, evitando calcular manualmente los porcentajes para columnas flexibles."
+            },
+            "minmax": {
+                "title": "✓ Usa minmax() para rejillas responsivas",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) crea una rejilla responsiva que ajusta automáticamente el número de columnas — sin media queries."
+            },
+            "named": {
+                "title": "✓ Usa áreas de rejilla con nombre",
+                "desc": "grid-template-areas con celdas con nombre (header, sidebar, main, footer) hace que los diseños de página sean legibles y fáciles de modificar."
+            },
+            "auto": {
+                "title": "✓ Entiende auto-fill vs auto-fit",
+                "desc": "auto-fill crea tantas pistas como sea posible (dejando pistas vacías). auto-fit colapsa las pistas vacías y expande los elementos existentes — generalmente mejor para rejillas de tarjetas."
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Qué es una unidad fr en CSS Grid?",
+            "a1": "fr significa 'unidad fraccionaria'. 1fr representa una fracción del espacio libre disponible en el contenedor de rejilla. repeat(3, 1fr) crea 3 columnas iguales que comparten igualmente todo el espacio disponible.",
+            "q2": "¿En qué se diferencia CSS Grid de Flexbox?",
+            "a2": "Flexbox es unidimensional — dispone los elementos a lo largo de un solo eje (fila o columna). CSS Grid es bidimensional — controla filas y columnas simultáneamente, lo que lo hace mucho más poderoso para diseños de página.",
+            "q3": "¿Qué hace minmax()?",
+            "a3": "minmax(min, max) define un rango de tamaño para una pista de rejilla. minmax(200px, 1fr) significa que una columna tiene al menos 200px de ancho pero puede crecer para ocupar el espacio disponible — ideal para rejillas responsivas.",
+            "q4": "¿Cuándo usar CSS Grid en lugar de Flexbox?",
+            "a4": "Usa Grid para diseños 2D donde necesitas control simultáneo de filas y columnas. Usa Flexbox para diseños de componentes 1D como barras de navegación y filas de formulario. La mayoría de los diseños modernos usan ambos."
+        }
+    }
+}

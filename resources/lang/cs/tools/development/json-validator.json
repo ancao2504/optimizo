@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Online JSON Validátor - Validujte JSON Zdarma | Optimizo",
+        "description": "Bezplatný online JSON validátor. Okamžitě ověřte syntaxi JSON, identifikujte chyby s číslem řádku a zobrazte formátovaný výsledek.",
+        "h1": "JSON Validátor",
+        "subtitle": "Okamžitě ověřte syntaxi JSON — odhalte chyby a potvrďte správnost datové struktury"
+    },
+    "editor": {
+        "title": "JSON Validátor",
+        "label_input": "JSON k validaci",
+        "ph_input": "Vložte svůj JSON zde...",
+        "btn_validate": "Validovat JSON",
+        "btn_copy": "Kopírovat JSON"
+    },
+    "content": {
+        "why_title": "Proč validovat JSON před použitím?",
+        "why_desc": "Neplatný JSON může tiše rozbít API, parsery konfigurace a datové pipeline. Chybně umístěné čárky, nezavřené závorky a neescapované uvozovky mohou způsobit těžko sledovatelné běhové chyby. Náš nástroj tyto problémy okamžitě identifikuje pomocí přesných čísel řádků a jasných chybových zpráv.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Okamžitá validace",
+                "desc": "Validuje JSON v milisekundách s přesnými chybovými zprávami a čísly řádků"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Přehled struktury",
+                "desc": "Zobrazí hloubku JSON, počet klíčů a rozložení typů na první pohled"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100% soukromé",
+                "desc": "Veškerá validace probíhá v prohlížeči — vaše data nikdy neopustí vaše zařízení"
+            }
+        },
+        "how_title": "Validace JSON ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vložte JSON",
+                "desc": "Zkopírujte a vložte JSON z odpovědi API, konfiguračního souboru nebo jiného zdroje"
+            },
+            "2": {
+                "title": "Klikněte Validovat",
+                "desc": "Validátor okamžitě zkontroluje syntaxi a zvýrazní chyby s čísly řádků"
+            },
+            "3": {
+                "title": "Opravte a zkopírujte",
+                "desc": "Opravte chyby a zkopírujte validovaný, formátovaný JSON"
+            }
+        },
+        "uses_title": "Případy použití JSON validace",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "Validace odpovědí API",
+                "desc": "Ověřte, že odpovědi REST API jsou správně strukturovány před zpracováním"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Kontrola konfiguračních souborů",
+                "desc": "Validujte package.json, tsconfig.json a další konfigurační soubory před nasazením"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Validace při importu dat",
+                "desc": "Zkontrolujte správnost JSON souborů před načtením do databáze"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Ladění JSON chyb",
+                "desc": "Přesně najděte syntaktické chyby v komplexních, hluboce vnořených JSON strukturách"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro JSON",
+        "tips": {
+            "quotes": {
+                "title": "✓ Vždy používejte dvojité uvozovky",
+                "desc": "JSON vyžaduje dvojité uvozovky pro řetězce a klíče. Jednoduché uvozovky nejsou platný JSON."
+            },
+            "trailing": {
+                "title": "✓ Žádné koncové čárky",
+                "desc": "Na rozdíl od JavaScriptu JSON nepovoluje čárku za posledním prvkem v polích nebo objektech."
+            },
+            "null": {
+                "title": "✓ Používejte null, ne None nebo nil",
+                "desc": "Klíčové slovo null v JSON musí být malými písmeny. Pythonův None nebo Rubyin nil nejsou platný JSON."
+            },
+            "validate": {
+                "title": "✓ Znovu validujte po ruční úpravě",
+                "desc": "Vždy znovu validujte JSON po ruční úpravě. Malá překlep může zneplatnit celý dokument."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Proč je můj JSON neplatný, i když vypadá správně?",
+            "a1": "Běžné skryté problémy: koncová čárka za posledním prvkem, jednoduché místo dvojitých uvozovek, neescapované speciální znaky v řetězcích, JavaScript komentáře (JSON nepodporuje komentáře).",
+            "q2": "Mohu validovat velmi velké JSON soubory?",
+            "a2": "Ano — validace probíhá zcela v prohlížeči pomocí nativního JSON.parse(). Velikost souboru je omezena pouze pamětí prohlížeče.",
+            "q3": "Jaký je rozdíl mezi JSON a JSONP?",
+            "a3": "JSON je čistý datový formát. JSONP zabaluje JSON do volání funkce pro požadavky cross-domain. JSONP není platný JSON.",
+            "q4": "Podporuje JSON komentáře?",
+            "a4": "Ne. JSON nepodporuje // nebo /* */ komentáře. Použijte klíč _comment nebo přejděte na YAML nebo TOML, které komentáře podporují."
+        }
+    }
+}

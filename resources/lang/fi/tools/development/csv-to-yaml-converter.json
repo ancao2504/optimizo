@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "CSV:stä YAML:iin Muunnin Verkossa - Ilmainen | Optimizo",
+        "description": "Muunna CSV-tiedostoja YAML-muotoon verkossa ilmaiseksi. Käytä automaattisesti CSV-otsikkoja YAML-avaimina ja luo oikein sisennettyä YAML:ia tyypinhavaitsemisella.",
+        "h1": "CSV:stä YAML:iin -muunnin",
+        "subtitle": "Muunna CSV-data YAML-muotoon — automaattinen otsikkokuvaajan määritys ja tyypinhavaitseminen"
+    },
+    "editor": {
+        "title": "CSV:stä YAML:iin -muunnin",
+        "label_csv": "CSV-syöte",
+        "ph_csv": "nimi,ikä,aktiivinen\nAlice,30,true\nBob,25,false",
+        "label_yaml": "YAML-tuloste",
+        "btn_copy": "Kopioi YAML"
+    },
+    "content": {
+        "why_title": "Miksi muuntaa CSV YAML:ksi?",
+        "why_desc": "CSV sopii erinomaisesti taulukkomuotoisen datan tallentamiseen laskentataulukoissa, mutta YAML on standardi konfiguraatiotiedostoille, testitieto-objekteille ja DevOps-työkaluille. Laskentataulukodatan muuntaminen Kubernetes ConfigMapseiksi, Ansible-muuttujatiedostoiksi tai Hugo-datatiedostoiksi eliminoi tuskallisen uudelleenmuotoilun.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Automaattinen muunto",
+                "desc": "Muuntaa CSV:n YAML:ksi reaaliajassa kirjoittaessasi — ei painiketta painettavaksi"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Otsikkopohjaset avaimet",
+                "desc": "CSV-otsikot muuntuvat automaattisesti YAML-avaimiksi jokaiselle kohteelle tulosluettelossa"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Tyypinhavaitseminen",
+                "desc": "Numerot ja totuusarvot (true/false) muuntuvat automaattisesti oikeaksi YAML-tyypiksi"
+            }
+        },
+        "how_title": "CSV:n muuntaminen YAML:ksi 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Liitä CSV-data",
+                "desc": "Liitä CSV otsikkoriveineen — ensimmäinen rivi määrittää YAML-avaimet"
+            },
+            "2": {
+                "title": "Välitön muunto",
+                "desc": "YAML-tuloste ilmestyy välittömästi jokaisen CSV-rivin ollessa elementti YAML-luettelossa"
+            },
+            "3": {
+                "title": "Kopioi YAML",
+                "desc": "Kopioi muunnettu YAML ja liitä se konfiguraatiotiedostoihin tai testitieto-objekteihin"
+            }
+        },
+        "uses_title": "CSV:stä YAML:iin -muuntimen käyttötapaukset",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Testitieto-objektit",
+                "desc": "Muunna testidataa laskentataulukoista YAML-testitieto-objekteiksi RSpec:lle, PHPUnit:lle, PyTest:lle"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Konfigurointitiedot",
+                "desc": "Muunna tiimi- tai ympäristötiedot Ansible-muuttujiksi tai Kubernetes ConfigMapeiksi"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Kylvödata",
+                "desc": "Muunna CSV, jossa on hakutaulukot YAML-kylvötiedostoiksi Rails:lle, Laravel:lle, Django:lle"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "API-testidata",
+                "desc": "Muunna laskentataulukkoesimerkkejä YAML:ksi API-testivälineille kuten WireMock tai Mirage"
+            }
+        },
+        "tips_title": "Parhaat käytännöt CSV:stä YAML:iin",
+        "tips": {
+            "headers": {
+                "title": "✓ Käytä johdonmukaisia puhtaita otsikkonimiä",
+                "desc": "CSV-otsikot muuttuvat YAML-avaimiksi — käytä snake_case tai camelCase johdonmukaisesti ja vältä välilyöntejä."
+            },
+            "quotes": {
+                "title": "✓ Lainausmerkkitä erikoismerkit sisältävät arvot",
+                "desc": "Pilkkuja tai lainausmerkkejä sisältävät arvot tulee ympäröidä kaksoislainausmerkeillä CSV:ssä."
+            },
+            "encoding": {
+                "title": "✓ Käytä UTF-8-koodausta",
+                "desc": "Varmista, että CSV-tiedosto on koodattu UTF-8-muodossa ennen muuntamista."
+            },
+            "validate": {
+                "title": "✓ Vahvista YAML muunnoksen jälkeen",
+                "desc": "Liitä aina muunnettu YAML vahvistajalle oikean rakenteen tarkistamiseksi ennen käyttöä konfiguraatiotiedostoissa."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Käsitteleekö muunnin lainausmerkeissä olevia CSV-kenttiä?",
+            "a1": "Kyllä — jäsennin käsittelee RFC 4180 CSV-muodon oikein (mukaan lukien kaksoislainausmerkeillä ympäröidyt kentät). Lainausmerkeissä olevat pilkut eivät toimi erottimina.",
+            "q2": "Miten lukuja ja totuusarvoja käsitellään?",
+            "a2": "Muunnin havaitsee tyypit: Kelvolliset luvut muunnetaan YAML-numeroiksi; true/false-arvot muunnetaan YAML-totuusarvoiksi. Merkkijonot pysyvät merkkijonoina.",
+            "q3": "Voinko muuntaa TSV (tabulaattorieroteltua) dataa?",
+            "a3": "Tämä työkalu odottaa pilkulla eroteltua CSV:tä. Tabulaattorierotetulle datalle, korvaa tabulaattorit pilkuilla (useimmissa tekstieditorissa on hae/korvaa regextuella).",
+            "q4": "Miten muunnan YAML:n takaisin CSV:ksi tarvittaessa?",
+            "a4": "Käänteissuunta (YAML CSV:ksi) vaatii etukäteistietoa rakenteesta. Tasaisille kohdelistoille, joissa on yhdenmukaisia avaimia, voit manuaalisesti poimia avaimet CSV-otsikoiksi ja kartoittaa jokaisen YAML-kohteen rivinä."
+        }
+    }
+}

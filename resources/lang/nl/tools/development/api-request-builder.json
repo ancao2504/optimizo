@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "API Request Builder Online - Gratis HTTP-client | Optimizo",
+        "description": "Bouw en verstuur HTTP API-verzoeken online gratis. Ondersteunt GET, POST, PUT, PATCH, DELETE met aangepaste headers, verzoektekst en queryparameters.",
+        "h1": "API Request Builder",
+        "subtitle": "Bouw, verstuur en inspecteer HTTP API-verzoeken — een lichtgewicht HTTP-client in je browser"
+    },
+    "editor": {
+        "title": "API Request Builder",
+        "btn_send": "Verzoek versturen",
+        "tab_headers": "Headers",
+        "tab_body": "Tekst",
+        "tab_params": "Parameters",
+        "btn_add_header": "Header toevoegen",
+        "btn_add_param": "Parameter toevoegen",
+        "label_response": "Respons",
+        "btn_copy_response": "Respons kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom een API Request Builder gebruiken?",
+        "why_desc": "REST API's testen vereist normaal gesproken het installeren van Postman, Insomnia of het schrijven van curl-opdrachten. Onze browsergebaseerde HTTP-client vereist geen installatie — open gewoon en begin verzoeken te versturen. Het ondersteunt alle HTTP-methoden, aangepaste headers, JSON-tekst en queryparameters, waardoor het perfect is voor snelle API-tests, het verkennen van openbare API's en het debuggen van integraties.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Alle HTTP-methoden",
+                "desc": "Ondersteunt GET, POST, PUT, PATCH, DELETE met aangepaste headers en JSON/formulier-tekst"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Geformatteerde respons",
+                "desc": "De responstekst wordt automatisch weergegeven met inspringing, met statuscode en reactietijd"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Klaar voor gebruik",
+                "desc": "Geen installatie vereist — werkt volledig in je browser zonder account of plugin"
+            }
+        },
+        "how_title": "Een API-verzoek versturen",
+        "how_steps": {
+            "1": {
+                "title": "Voer URL en methode in",
+                "desc": "Typ de API-endpoint URL en selecteer de HTTP-methode (GET, POST, enz.)"
+            },
+            "2": {
+                "title": "Voeg headers en tekst toe",
+                "desc": "Schakel naar het tabblad Headers om Authorization, Content-Type en andere toe te voegen. Gebruik Tekst voor POST/PUT-gegevens."
+            },
+            "3": {
+                "title": "Verstuur en inspecteer",
+                "desc": "Klik op Versturen om het verzoek uit te voeren. De responstekst, statuscode en tijd verschijnen eronder."
+            }
+        },
+        "uses_title": "Gebruiksscenario's voor API Request Builder",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "API's debuggen",
+                "desc": "Test individuele endpoints met aangepaste headers en teksten om authenticatie- en gegevensproblemen op te sporen"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Authenticatietokens testen",
+                "desc": "Test Bearer-, Basic Auth- en API-sleutelschema's zonder code te schrijven"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "API's verkennen",
+                "desc": "Verken openbare API's (GitHub, OpenWeather, JSONPlaceholder) en begrijp hun responsen"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Bugs reproduceren",
+                "desc": "Reproduceer en documenteer API-bugs met de exacte verzoek-/responsgegevens voor bugrapporten"
+            }
+        },
+        "tips_title": "Best practices voor API-testen",
+        "tips": {
+            "headers": {
+                "title": "✓ Stel altijd Content-Type in",
+                "desc": "Wanneer je een JSON-tekst verzendt, voeg altijd Content-Type: application/json toe. Zonder dit zullen veel API's je verzoek afwijzen of verkeerd interpreteren."
+            },
+            "cors": {
+                "title": "✓ Begrijp CORS-beperkingen",
+                "desc": "Browsers blokkeren cross-origin verzoeken zonder de juiste CORS-headers. Als een verzoek in de browser mislukt, gebruik dan curl of een server-side proxy."
+            },
+            "auth": {
+                "title": "✓ Hardcode nooit API-sleutels",
+                "desc": "Gebruik omgevingsvariabelen in productiecode. De request builder is alleen voor testen — deel geen schermafbeeldingen met echte API-sleutels."
+            },
+            "status": {
+                "title": "✓ Controleer HTTP-statuscodes",
+                "desc": "200=OK, 201=Aangemaakt, 400=Onjuist verzoek, 401=Niet geautoriseerd, 403=Verboden, 404=Niet gevonden, 500=Serverfout."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Waarom mislukt mijn cross-origin verzoek?",
+            "a1": "Browsers handhaven CORS-beperkingen (Cross-Origin Resource Sharing). Als de doel-API geen Access-Control-Allow-Origin-headers bevat, blokkeert de browser het verzoek. Het is geen bug — gebruik curl of een backend-proxy voor API's zonder CORS-ondersteuning.",
+            "q2": "Kan ik multipart/form-data verzoeken versturen?",
+            "a2": "De huidige builder ondersteunt JSON- en platte-tekst-teksten. Voor multipart formuliergegevens (bestandsuploads), gebruik de native formulierverzending van de browser of een speciale tool zoals Postman.",
+            "q3": "Is het een vervanger voor Postman?",
+            "a3": "Voor snelle tests en verkenning — ja. Voor teamsamenwerking, opgeslagen collecties, omgevingen en geautomatiseerde tests bieden Postman of Bruno meer functies. Deze tool blinkt uit in directe API-tests zonder configuratie.",
+            "q4": "Wat is het verschil tussen PUT en PATCH?",
+            "a4": "PUT vervangt de volledige resource door de verzoektekst. PATCH past een gedeeltelijke update toe — alleen de velden in de tekst worden gewijzigd. De meeste REST API's gebruiken PATCH voor updates om niet-gewijzigde velden niet te overschrijven."
+        }
+    }
+}

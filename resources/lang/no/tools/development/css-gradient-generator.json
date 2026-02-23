@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "CSS Gradientgenerator Nettbasert - Lag Gratis | Optimizo",
+        "description": "Lag CSS-gradienter nettbasert og gratis. Generer lineære, radiale og koniske gradienter med flere fargestopp og vinkelkontroller med øyeblikkelig CSS-eksport.",
+        "h1": "CSS Gradientgenerator",
+        "subtitle": "Lag vakre lineære, radiale og koniske gradienter med sanntidsforhåndsvisning og CSS-eksport"
+    },
+    "editor": {
+        "title": "CSS Gradientgenerator",
+        "label_type": "Gradienttype",
+        "label_angle": "Vinkel",
+        "label_stops": "Fargestopp",
+        "btn_add_stop": "Legg til stopp",
+        "btn_copy": "Kopier CSS"
+    },
+    "content": {
+        "why_title": "Hvorfor bruke en visuell gradientgenerator?",
+        "why_desc": "Å skrive CSS-gradienter manuelt er tungvint. Vår visuelle generator lar deg styre fargestopp med en fargevelger og posisjonsglider, med sanntidsoppdatering direkte.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 gradienttyper",
+                "desc": "Lineær, radial og konisk gradient — med dedikerte kontroller for hver type"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Flerfarge-gradient",
+                "desc": "Legg til ubegrenset antall fargestopp og dra posisjoner for komplekse gradienter"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Sanntidsforhåndsvisning",
+                "desc": "Se gradientrendering i sanntid når du justerer farger, posisjoner og vinkel"
+            }
+        },
+        "how_title": "Lag en CSS-gradient i 3 trinn",
+        "how_steps": {
+            "1": {
+                "title": "Velg gradienttype",
+                "desc": "Velg lineær, radial eller konisk gradient og juster vinkel eller retning"
+            },
+            "2": {
+                "title": "Juster fargestopp",
+                "desc": "Angi hvert stopps farge med fargevelgeren og posisjoner med glider"
+            },
+            "3": {
+                "title": "Kopier CSS",
+                "desc": "Klikk 'Kopier CSS' for å få komplett background-egenskap til bruk i stilarket ditt"
+            }
+        },
+        "uses_title": "Bruksområder for CSS-gradienter",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Hero-seksjonsba­kgrunner",
+                "desc": "Lag imponerende fullskjermsbakgrunner med diagonale eller radiale gradienter"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Gradienttekst",
+                "desc": "Bruk gradient på tekst med background-clip:text for fantastiske typografieffekter"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Gradientkanter",
+                "desc": "Bruk gradient med border-image til å skape fargerike rammer om elementer"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Bildeover­legg",
+                "desc": "Legg gradient oppå bilder for mørkt overlegg som sikrer tekstlesbarhet"
+            }
+        },
+        "tips_title": "Beste praksis for CSS-gradienter",
+        "tips": {
+            "angle": {
+                "title": "✓ Bruk 135deg for diagonale gradienter",
+                "desc": "135 graders vinkel lager en klassisk diagonal fra øvre venstre til nedre høyre."
+            },
+            "subtle": {
+                "title": "✓ Hold gradienter subtile i UI",
+                "desc": "I UI-elementer som knapper og kort, bruk svært subtile gradienter med 10-20% lysforskjell for dybde."
+            },
+            "fallback": {
+                "title": "✓ Angi en reservefarge",
+                "desc": "Legg til en ensfarget bakgrunnsfarge som reserve: background-color:#6366f1; background:linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Animer gradientposisjon",
+                "desc": "Du kan ikke animere CSS-gradienter direkte, men du kan animere background-position på en større gradient for en glidende bevegelseseffekt."
+            }
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Hva er forskjellen mellom lineær, radial og konisk gradient?",
+            "a1": "Lineær gradient overføres langs en rett linje med en vinkel. Radial stråler ut fra et midtpunkt sirkulært eller ellipseformet. Konisk roterer rundt et midtpunkt — ideelt for sirkulære statusindikatorer.",
+            "q2": "Hvordan lager man en gjennomsiktig gradient?",
+            "a2": "Bruk transparent som et fargestopp: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Det lager en gradient fra halvgjennomsiktig farge til fullt gjennomsiktig — ideelt for bildeover­legg.",
+            "q3": "Hvorfor ser jeg båndning i gradienten min?",
+            "a3": "Båndning (synlige linjer mellom farger) oppstår på lavkvalitetsskjermer eller ved overganger mellom lignende nyanser. Legg til et mellomliggende fargestopp for å myke opp overgangen.",
+            "q4": "Kan en gradient brukes som kant?",
+            "a4": "Ja; bruk border-image:linear-gradient(...) 1. Alternativt kan du bruke ::before pseudo-element med gradientbakgrunn og negativt z-index for å simulere en gradientkant."
+        }
+    }
+}

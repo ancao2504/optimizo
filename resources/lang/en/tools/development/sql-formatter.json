@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "SQL Formatter Online - Free SQL Beautifier Tool",
+        "description": "Format and beautify SQL queries online for free. Supports SELECT, INSERT, UPDATE, DELETE, CREATE and complex joins with instant formatting.",
+        "h1": "SQL Formatter",
+        "subtitle": "Beautify and format SQL queries instantly — supports all major SQL dialects"
+    },
+    "editor": {
+        "title": "SQL Formatter",
+        "label_input": "Enter SQL Query",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "Format SQL",
+        "btn_minify": "Minify SQL",
+        "label_output": "Formatted SQL",
+        "btn_copy": "Copy SQL"
+    },
+    "content": {
+        "why_title": "Why Format Your SQL Queries?",
+        "why_desc": "Unformatted SQL is nearly impossible to read, especially with complex joins, subqueries, and CTEs. Our SQL formatter adds proper indentation, line breaks, and keyword capitalization, making your queries easier to review, debug, and share with teammates. Well-formatted SQL is also easier to optimize and maintain long-term.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Keyword Capitalization",
+                "desc": "Automatically capitalizes SELECT, FROM, WHERE, JOIN and all other SQL keywords consistently"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Smart Indentation",
+                "desc": "Adds proper indentation to subqueries, CASE expressions, and nested clauses"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minification Support",
+                "desc": "Strip all whitespace to compact SQL into a single line — perfect for query strings in code"
+            }
+        },
+        "how_title": "Format SQL in 3 Steps",
+        "how_steps": {
+            "1": {
+                "title": "Paste SQL Query",
+                "desc": "Copy your SQL from a code editor, database client, or query log and paste it"
+            },
+            "2": {
+                "title": "Click Format",
+                "desc": "Click 'Format SQL' to beautify with proper indentation and keyword casing"
+            },
+            "3": {
+                "title": "Copy & Use",
+                "desc": "Copy the formatted SQL directly into your database client, ORM, or documentation"
+            }
+        },
+        "uses_title": "SQL Formatting Use Cases",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Code Reviews",
+                "desc": "Format SQL before code review so teammates can see the structure clearly"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Query Debugging",
+                "desc": "Unravel complex WHERE clauses and JOIN chains to spot logic errors quickly"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Documentation",
+                "desc": "Include beautifully formatted SQL in technical docs, README files, and tutorials"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Query Optimization",
+                "desc": "Formatted SQL makes it easier to identify missing indexes and inefficient JOIN orders"
+            }
+        },
+        "tips_title": "SQL Best Practices",
+        "tips": {
+            "select": {
+                "title": "✓ Avoid SELECT *",
+                "desc": "Always specify column names instead of SELECT *. It improves performance and prevents issues if the table schema changes."
+            },
+            "alias": {
+                "title": "✓ Use Meaningful Aliases",
+                "desc": "Use clear table aliases in JOINs (e.g., u for users, o for orders) to make complex queries readable."
+            },
+            "explain": {
+                "title": "✓ Use EXPLAIN",
+                "desc": "Run EXPLAIN or EXPLAIN ANALYZE before deploying slow queries to understand how the database executes them."
+            },
+            "index": {
+                "title": "✓ Index Your WHERE Columns",
+                "desc": "Ensure columns in WHERE, JOIN ON, and ORDER BY clauses are indexed for optimal query performance."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Which SQL dialects are supported?",
+            "a1": "The formatter works with standard SQL and is compatible with MySQL, PostgreSQL, SQLite, SQL Server (T-SQL), and Oracle. Dialect-specific keywords are preserved as-is.",
+            "q2": "Will formatting change my query's behavior?",
+            "a2": "No. The formatter only changes whitespace and keyword casing. The query's logic, results, and execution plan are completely unchanged.",
+            "q3": "Can I format SQL with stored procedures?",
+            "a3": "Yes. The formatter handles CREATE PROCEDURE, BEGIN/END blocks, DECLARE statements, and other procedural SQL constructs.",
+            "q4": "How does minification help in applications?",
+            "a4": "Minified SQL reduces the size of query strings embedded in source code, makes logging more compact, and can marginally improve parsing performance."
+        }
+    }
+}

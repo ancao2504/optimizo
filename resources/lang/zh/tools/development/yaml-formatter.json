@@ -1,0 +1,95 @@
+{
+    "meta": {
+        "title": "在线 YAML 验证与格式化工具 - YML 解析与纠错 | Optimizo",
+        "description": "免费的在线 YAML 校验器。通过即时验证错误、缩进排版 (Format)，查找您的 YAML 或 YML 配置文件 (.yml) 中的问题。",
+        "h1": "YAML 验证器与格式化工具",
+        "subtitle": "通过严格的语法检查，瞬间理顺各种依赖于空格缩进的配置文件，消除语法错误"
+    },
+    "editor": {
+        "title": "YAML 解析修真炉",
+        "label_yaml": "粘贴您的 YAML 源码",
+        "ph_yaml": "server:\n  port: 8080\n  host: localhost\n# Missing indent below\ndatabase:\nuser: root",
+        "btn_validate": "验证 YAML 语法",
+        "label_result": "最终解析与重构化输出",
+        "btn_format": "排版美化 (Beautify)",
+        "btn_minify": "内容压缩 (Minify)"
+    },
+    "content": {
+        "why_title": "为什么需要严格的 YAML 验证器？",
+        "why_desc": "YAML 是一种以极其依赖不可见的“空格缩进（Space Indentation）”来表达嵌套层级关系的可读化数据序列语言。这就意味着，哪怕只是一行多敲了一个空格或者用成了 Tab 键制表符，都能够瞬间让整个诸如 Docker Compose 环境、Kubernetes 集群或是 Ansible 自动化剧本（Playbook）发生灾难级崩溃配置。正因为人眼完全无法精确丈量每一行的隐藏空格，因此依靠这款智能校验平台能帮助您的 DevOps 在配置发布前，快速寻获那个导致解析炸雷的“罪魁祸首空格点”。",
+        "features": {
+            "indent": {
+                "icon": "📏",
+                "title": "严格缩进侦测与修正",
+                "desc": "深度解析隐形控制符，若察觉任何掺杂着 Tabs (制表符) 代替正常双空格 (Spaces) 操作的不合法举动，立马报错锁定出问题行数。"
+            },
+            "json": {
+                "icon": "🔄",
+                "title": "一键转换为 JSON",
+                "desc": "对于极难直接阅读的大型深层 YAML 文档，可以通过压缩或切换工具，先解构成更容易由机器查验与判断层结的紧凑字典形态。"
+            },
+            "security": {
+                "icon": "🛡️",
+                "title": "严格模式保护",
+                "desc": "严格禁止同名变量 (Duplicate keys) 以及空引用等危险动作，防止解析引擎默默将其覆盖进而产生意料外的程序漏洞逻辑。"
+            }
+        },
+        "how_title": "如何分步快速验证与清洗 YAML 代码？",
+        "how_steps": {
+            "1": {
+                "title": "放置 YAML 内容",
+                "desc": "把您在云服务器撰写或者从 GitLab / 容器等配置文件（通常以后缀 .yaml 或者 .yml 结尾）中拷贝来的整段内容全部粘贴至左方操作面板。"
+            },
+            "2": {
+                "title": "立即点击查核",
+                "desc": "轻点蓝色的验证指令按键。倘若格式合乎标准，下方将会给出验证绿牌。"
+            },
+            "3": {
+                "title": "清理美化与输出",
+                "desc": "如若发生提示包含诸如 'Mapping values are not allowed' 之类报错，跟随行号前往修缮或者点选“美化（Beautify）”让平台重新统管您的间隔距间。"
+            }
+        },
+        "uses_title": "绝佳适用该工具的现代开发部署情境",
+        "uses": {
+            "docker": {
+                "icon": "🐳",
+                "title": "云原生容器化部署 (Docker/K8s)",
+                "desc": "这是云服务端最常用的文件——`docker-compose.yml` 或是建立 Pod 资源部署调度集群时极为关键的设定信息基石。"
+            },
+            "ci_cd": {
+                "icon": "🚀",
+                "title": "自动化持续集成构建流水线 (CI/CD)",
+                "desc": "包含 GitHub Actions 工作流、Gitlab CI 配置文档，它们全都依仗极其严格规范且毫无差池的 YAML 作为命令序列。"
+            },
+            "ansible": {
+                "icon": "⚙️",
+                "title": "运维自动化脚本配置 (Ansible/Chef)",
+                "desc": "处理成百上千台集群批量环境任务的主干 playbook，如果中间某变量行稍微缩进偏差，会导致全部关联机器全军覆没的灾祸。"
+            },
+            "openapi": {
+                "icon": "📜",
+                "title": "OpenAPI / Swagger 文档编写",
+                "desc": "现代化的大型 API 接口描绘说明书籍撰写都是使用极其长篇幅的层级化 YAML 进行编撰以求获取更好的人眼通读直觉效果。"
+            }
+        },
+        "tips_title": "避免犯错的 YAML 制表缩进必备核心法则",
+        "tips": {
+            "tabs": {
+                "title": "✓ 发誓绝不用 Tab 键（制表符）进行缩进",
+                "desc": "YAML 规格文案中最声名狼藉的大忌——严格且绝对禁止混用 Tab 键去缩进分层！务必永远保持仅利用纯粹空白格 (通常是两个纯空格) 进行向内推进处理逻辑嵌套！"
+            },
+            "arrays": {
+                "title": "✓ 正确理解带有破折号 (-) 的序列清单",
+                "desc": "在某一字典键 (Key) 项下面紧跟带有 `-` 的行代表着数组 (Array) 清单中的单项属性。破折号要对齐在其上级长辈的同列之下，且其符号后必定得保留至少一个空白距离。"
+            },
+            "strings": {
+                "title": "✓ 应对多行文本的管道符 (|) 秘诀",
+                "desc": "如果您想要引入包含大段带折行回车长文描述或是一大整串带格式代码（比如插入到设定档内的一段 bash 脚本），请于该属性后加注使用 `|` 符号，此操作即能保留原样断行输出。"
+            },
+            "quotes": {
+                "title": "✓ 当心某些特殊数字型及布尔类型保留字混淆",
+                "desc": "类似 `yes`, `no`, `on`, `off` 等单词会在没有外敷双引号 (`\" \"`) 时，被引擎智能硬性转换为 Boolean 的 `true` 或 `false` 值。如确实需要此字符串本意，务必记得外置加设引号避免。"
+            }
+        }
+    }
+}

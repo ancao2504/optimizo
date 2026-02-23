@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Formateur YAML en ligne - Embellisseur YAML gratuit | Optimizo",
+        "description": "Formatez et validez vos fichiers YAML en ligne gratuitement. Embellissez instantanément le YAML avec une indentation correcte et une vérification de la syntaxe.",
+        "h1": "Formateur YAML",
+        "subtitle": "Formatez et validez vos fichiers YAML instantanément — supporte l'imbrication complexe, les ancres et les alias"
+    },
+    "editor": {
+        "title": "Formateur YAML",
+        "label_input": "Entrée YAML",
+        "ph_input": "nom: Mon Application\nbase_donnees:\n  hote: localhost\n  port: 5432",
+        "btn_format": "Formater le YAML",
+        "label_output": "YAML formaté",
+        "btn_copy": "Copier le YAML"
+    },
+    "content": {
+        "why_title": "Pourquoi formater les fichiers YAML ?",
+        "why_desc": "Le YAML est extrêmement sensible à l'indentation — un seul espace en trop peut provoquer des erreurs d'analyse ou une corruption silencieuse des données. Des outils comme Kubernetes, Docker Compose, GitHub Actions et Ansible utilisent tous des fichiers de configuration YAML, où des erreurs de formatage peuvent paralyser des déploiements entiers. Notre formateur YAML valide la syntaxe, normalise l'indentation et s'assure que votre YAML est toujours correct.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Normalisation de l'indentation",
+                "desc": "Normalise les indentations mixtes vers un format cohérent de 2 espaces dans tout le document"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Validation de la syntaxe",
+                "desc": "Détecte les erreurs d'indentation, les mélanges tabulations/espaces et les problèmes structurels avant les pannes en production"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Ancres et alias",
+                "desc": "Prend entièrement en charge les ancres YAML (&) et les alias (*) pour la réutilisation de documents et les configurations DRY"
+            }
+        },
+        "how_title": "Formater du YAML en 3 étapes",
+        "how_steps": {
+            "1": {
+                "title": "Collez votre YAML",
+                "desc": "Collez votre manifeste Kubernetes, votre workflow GitHub Actions ou tout fichier de configuration YAML"
+            },
+            "2": {
+                "title": "Formater et valider",
+                "desc": "L'outil valide la syntaxe et reformate automatiquement avec une indentation cohérente"
+            },
+            "3": {
+                "title": "Copiez et déployez",
+                "desc": "Copiez le YAML formaté dans votre fichier, pipeline CI ou outil de déploiement"
+            }
+        },
+        "uses_title": "Cas d'utilisation du formatage YAML",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Manifestes Kubernetes",
+                "desc": "Formatez les fichiers YAML Deployment, Service et ConfigMap avant de les appliquer à un cluster"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "Pipelines CI/CD",
+                "desc": "Validez les workflows GitHub Actions, GitLab CI et CircleCI pour éviter les échecs de pipeline"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Playbooks Ansible",
+                "desc": "Formatez et validez les tâches, variables et fichiers d'inventaire Ansible pour un code d'infrastructure propre"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Assurez-vous que les fichiers docker-compose.yml sont correctement formatés avant d'exécuter docker compose up"
+            }
+        },
+        "tips_title": "Bonnes pratiques YAML",
+        "tips": {
+            "spaces": {
+                "title": "✓ Utilisez des espaces, jamais des tabulations",
+                "desc": "YAML interdit strictement les tabulations pour l'indentation. Configurez toujours votre éditeur pour insérer des espaces lors de l'appui sur Tab dans les fichiers YAML."
+            },
+            "quotes": {
+                "title": "✓ Mettez entre guillemets les caractères spéciaux",
+                "desc": "Les chaînes contenant : # [ ] { } ou commençant par des caractères spéciaux doivent être entre guillemets pour éviter une mauvaise interprétation par YAML."
+            },
+            "anchors": {
+                "title": "✓ Utilisez les ancres pour réduire la duplication",
+                "desc": "Les ancres YAML (&nom) et les alias (*nom) permettent de réutiliser des valeurs dans un document, réduisant la répétition dans les configurations complexes."
+            },
+            "lint": {
+                "title": "✓ Lintez avant de commiter",
+                "desc": "Exécutez yamllint ou utilisez ce formateur dans votre hook pre-commit pour détecter les problèmes de formatage avant qu'ils n'atteignent le dépôt."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Pourquoi le YAML échoue-t-il avec les tabulations au lieu des espaces ?",
+            "a1": "La spécification YAML interdit explicitement les caractères de tabulation pour l'indentation, car différents éditeurs affichent les tabulations avec des largeurs différentes. Les espaces offrent une indentation cohérente et non ambiguë que tous les parseurs YAML peuvent interpréter de manière identique.",
+            "q2": "Que font les ancres (&) et les alias (*) en YAML ?",
+            "a2": "Les ancres définissent un bloc réutilisable avec &nom-ancre: et les alias le référencent avec *nom-ancre. Cela vous permet de définir des valeurs une seule fois et de les réutiliser plusieurs fois, gardant les configurations DRY.",
+            "q3": "Quelle est la différence entre YAML et JSON ?",
+            "a3": "YAML est un surensemble de JSON — tout JSON valide est du YAML valide. YAML ajoute la prise en charge des commentaires, des ancres, des chaînes multi-lignes et une syntaxe plus lisible. JSON est préférable pour l'échange de données machine à machine ; YAML est plus adapté à la configuration éditée par des humains.",
+            "q4": "Pourquoi choisir YAML plutôt que TOML pour la configuration ?",
+            "a4": "YAML bénéficie d'un support d'outils plus large (Kubernetes, Ansible, la plupart des systèmes CI) et peut représenter des structures imbriquées complexes de manière concise. TOML est plus simple et moins sujet aux erreurs pour les configurations de base. Pour la configuration DevOps, YAML est le standard."
+        }
+    }
+}

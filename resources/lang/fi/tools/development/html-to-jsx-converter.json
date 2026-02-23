@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "HTML:stä JSX:ään Muunnin Verkossa - Ilmainen React-työkalu | Optimizo",
+        "description": "Muunna HTML React JSX:ksi verkossa ilmaiseksi. Muuntaa automaattisesti class className:ksi, for htmlFor:ksi, tyylimäärittelyt JS-objekteiksi ja sulkee tyhjät tagit.",
+        "h1": "HTML:stä JSX:ään -muunnin",
+        "subtitle": "Muunna HTML React JSX:ksi välittömästi — className, htmlFor, inline-tyylit ja self-closing-tagit"
+    },
+    "editor": {
+        "title": "HTML:stä JSX:ään -muunnin",
+        "label_html": "HTML-syöte",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">Sähköposti</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "JSX-tuloste",
+        "btn_copy": "Kopioi JSX"
+    },
+    "content": {
+        "why_title": "Miksi muuntaa HTML JSX:ksi?",
+        "why_desc": "Kun siirtät olemassa olevia HTML-malleja Reactiin, sinun on manuaalisesti muunnettava class className:ksi, for htmlFor:ksi ja inline-tyylit merkkijonoista JavaScript-objekteiksi. Työkalu automatisoi nämä muunnokset välittömästi ja antaa sinun keskittyä komponenttien logiikkaan.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Attribuuttien muunto",
+                "desc": "class→className, for→htmlFor, tabindex→tabIndex, maxlength→maxLength ja muut"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Inline-tyyliobjekti",
+                "desc": "Muuntaa style=\"color:red;\" style={{color:'red'}}-muotoon — React:n JS-objektimerkintä"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Self-closing-tagit",
+                "desc": "Lisää sulkevan vinoviivan tyhjiin elementteihin: <br> → <br />, <input> → <input />"
+            }
+        },
+        "how_title": "HTML:n muuntaminen JSX:ksi 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Liitä HTML",
+                "desc": "Liitä HTML-malli, Figma-vienti tai HTML-koodinpätkä vasempaan paneeliin"
+            },
+            "2": {
+                "title": "Automaattinen muunto",
+                "desc": "Muunnin muuntaa kaikki attribuutit, tyylit ja tyhjät elementit JSX-syntaksiksi välittömästi"
+            },
+            "3": {
+                "title": "Kopioi JSX",
+                "desc": "Kopioi muunnettu JSX ja liitä se React-komponenttisi render/return-lohkoon"
+            }
+        },
+        "uses_title": "HTML:stä JSX:ään -muuntimen käyttötapaukset",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "Siirtyminen Reactiin",
+                "desc": "Siirrä olemassa olevia HTML-sivuja tai -malleja React-komponenteiksi ilman manuaalista attribuuttien muuntamista"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Bootstrap Reactissa",
+                "desc": "Muunna Bootstrap HTML -komponentit JSX:ksi käytettäväksi react-bootstrap-kirjaston kanssa"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "Sähköpostipohjat",
+                "desc": "Muunna HTML-sähköpostipohjat JSX:ksi renderöintiä varten React Emaililla"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "CMS:stä Reactiin",
+                "desc": "Muunna WordPress:n tai perinteisten CMS:ien HTML-pohjat React-komponenttirakenteiksi"
+            }
+        },
+        "tips_title": "Vinkkejä HTML:stä JSX:ään -muuntamiseen",
+        "tips": {
+            "class": {
+                "title": "✓ class → className on tärkeä",
+                "desc": "class on JavaScriptin varattu avainsana. Reactissa className on käytettävä CSS-luokkien kanssa."
+            },
+            "for": {
+                "title": "✓ label:n for → htmlFor",
+                "desc": "Attribuutti for <label>-elementissä muuttuu htmlFor:ksi JSX:ssä. Sen unohtaminen rikkoo saavutettavuuden."
+            },
+            "events": {
+                "title": "✓ Päivitä tapahtumankäsittelijät muunnoksen jälkeen",
+                "desc": "HTML-attribuutti onclick='...' ei muunnu automaattisesti JSX:ssä. Korvaa inline-tapahtumankäsittelijät manuaalisesti React:n onClick={handler}-mallilla."
+            },
+            "comments": {
+                "title": "✓ HTML-kommentit muuttuvat JSX-kommenteiksi",
+                "desc": "<!-- kommentti --> muuntuu {/* kommentti */}-muotoon JSX:ssä."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Miksi React käyttää className:iä class:n sijaan?",
+            "a1": "class on JavaScriptin varattu avainsana (käytetään ES6-luokkiin). Koska JSX on JavaScriptiä, class aiheuttaa syntaksikonfliktin. React valitsi className:in välttääkseen epäselvyydet.",
+            "q2": "Käsitteleekö työkalu React-tapahtumankäsittelijöitä?",
+            "a2": "Ei — HTML-tapahtumankäsittelijöitä onclick, onsubmit jne. ei muunneta automaattisesti React:n onClick, onSubmit-muotoon. Manuaalinen päivitys on tarpeen.",
+            "q3": "Mikä on ero HTML:n ja JSX:n välillä?",
+            "a3": "JSX on JavaScriptin syntaktinen laajennus, joka muistuttaa HTML:ää ja käännetään React.createElement()-kutsuiksi. Tärkeimmät erot: kaikki attribuutit camelCase-muodossa, class→className, for→htmlFor, tyhjät elementit vaativat self-closing, lausekkeet käyttävät {} merkintöjä.",
+            "q4": "Miksi tyhjät elementit vaativat self-closingin JSX:ssä?",
+            "a4": "JSX jäsennetään Babelilla XML:n kaltaisena syntaksina ja vaatii kaikkien elementtien asianmukaista sulkemista. Tyhjillä elementeillä kuten <br>, <img>, <input> ei ole lapsia ja ne vaativat /> self-closingin."
+        }
+    }
+}

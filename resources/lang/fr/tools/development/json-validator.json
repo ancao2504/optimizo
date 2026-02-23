@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Validateur JSON en ligne - Vérificateur de syntaxe JSON gratuit | Optimizo",
+        "description": "Validateur JSON gratuit en ligne. Vérifiez instantanément si votre JSON est valide, détectez les erreurs de syntaxe avec numéro de ligne et affichez le résultat formaté.",
+        "h1": "Validateur JSON",
+        "subtitle": "Validez la syntaxe JSON instantanément — détectez les erreurs et assurez-vous que vos données sont correctement structurées"
+    },
+    "editor": {
+        "title": "Validateur JSON",
+        "label_input": "JSON à valider",
+        "ph_input": "Collez votre JSON ici...",
+        "btn_validate": "Valider le JSON",
+        "btn_copy": "Copier le JSON"
+    },
+    "content": {
+        "why_title": "Pourquoi valider le JSON avant de l'utiliser ?",
+        "why_desc": "Un JSON invalide casse silencieusement les API, les parseurs de configuration et les pipelines de données. Une virgule mal placée, un crochet non fermé ou un guillemet non échappé peut provoquer des erreurs d'exécution difficiles à tracer. Notre validateur JSON détecte ces problèmes instantanément, en indiquant les numéros de ligne exacts et des messages d'erreur clairs, afin que vous puissiez corriger les problèmes avant qu'ils n'atteignent la production.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Validation instantanée",
+                "desc": "Valide le JSON en quelques millisecondes avec des messages d'erreur précis et les numéros de ligne correspondants"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Aperçu de la structure",
+                "desc": "Consultez d'un coup d'œil la profondeur, le nombre de clés et la répartition des types de votre JSON"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100 % privé",
+                "desc": "Toute la validation s'effectue dans votre navigateur — vos données ne quittent jamais votre ordinateur"
+            }
+        },
+        "how_title": "Comment valider du JSON en 3 étapes",
+        "how_steps": {
+            "1": {
+                "title": "Collez votre JSON",
+                "desc": "Copiez votre JSON depuis une réponse d'API, un fichier de configuration ou toute autre source et collez-le"
+            },
+            "2": {
+                "title": "Cliquez sur Valider",
+                "desc": "Le validateur vérifie instantanément la syntaxe et met en évidence les erreurs avec les numéros de ligne"
+            },
+            "3": {
+                "title": "Corrigez et copiez",
+                "desc": "Corrigez les erreurs affichées, puis copiez le JSON validé et formaté"
+            }
+        },
+        "uses_title": "Cas d'utilisation de la validation JSON",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "Validation des réponses d'API",
+                "desc": "Assurez-vous que les réponses des API REST sont correctement structurées avant de les traiter dans votre application"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Vérification des fichiers de config",
+                "desc": "Validez package.json, tsconfig.json et autres fichiers de configuration avant le déploiement"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Validation des imports de données",
+                "desc": "Vérifiez l'exactitude des fichiers JSON importés avant de les charger dans une base de données"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Débogage des erreurs JSON",
+                "desc": "Localisez précisément les erreurs de syntaxe dans des structures JSON complexes et imbriquées"
+            }
+        },
+        "tips_title": "Bonnes pratiques JSON",
+        "tips": {
+            "quotes": {
+                "title": "✓ Utilisez toujours des guillemets doubles",
+                "desc": "Le JSON impose strictement les guillemets doubles pour les chaînes et les clés. Les guillemets simples ne sont pas du JSON valide."
+            },
+            "trailing": {
+                "title": "✓ Pas de virgule finale",
+                "desc": "Contrairement à JavaScript, le JSON n'autorise pas les virgules après le dernier élément d'un tableau ou d'un objet."
+            },
+            "null": {
+                "title": "✓ Utilisez null, pas None ou nil",
+                "desc": "Le mot-clé null en JSON doit être en minuscules. None de Python et nil de Ruby ne sont pas du JSON valide."
+            },
+            "validate": {
+                "title": "✓ Revalidez après édition manuelle",
+                "desc": "Revalidez toujours le JSON après l'avoir modifié manuellement. Une faute de frappe mineure invalide la totalité du document."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Pourquoi mon JSON est-il invalide alors qu'il semble correct ?",
+            "a1": "Les problèmes cachés courants incluent : des virgules finales après le dernier élément d'un tableau/objet, des guillemets simples à la place des guillemets doubles, des caractères spéciaux non échappés dans les chaînes, ou des commentaires de style JavaScript (JSON ne prend pas en charge les commentaires).",
+            "q2": "Puis-je valider de très grands fichiers JSON ?",
+            "a2": "Oui — la validation s'effectue entièrement dans votre navigateur grâce à JSON.parse() natif. La taille du fichier est uniquement limitée par la mémoire de votre navigateur. Pour les fichiers de plus de 10 Mo, le traitement peut prendre quelques secondes.",
+            "q3": "Quelle est la différence entre JSON et JSONP ?",
+            "a3": "JSON est un format de données pur. JSONP (JSON with Padding) enveloppe le JSON dans un appel de fonction pour les requêtes cross-origin. JSONP n'est pas du JSON valide — ce validateur le rejettera comme invalide.",
+            "q4": "Le JSON supporte-t-il les commentaires ?",
+            "a4": "Non. JSON ne supporte pas les commentaires (// ou /* */). Si vous avez besoin d'annoter du JSON, utilisez une clé _comment, ou optez pour YAML ou TOML qui prennent tous deux en charge les commentaires."
+        }
+    }
+}

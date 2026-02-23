@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "Formator SQL Online - Formatați SQL Gratuit | Optimizo",
+        "description": "Formatați și curățați interogări SQL online și gratuit. Formatați SELECT, INSERT, UPDATE, DELETE, CREATE și interogări JOIN complexe instantaneu.",
+        "h1": "Formator SQL",
+        "subtitle": "Formatați interogări SQL instant și ordonat — compatibil cu toate dialectele SQL majore"
+    },
+    "editor": {
+        "title": "Formator SQL",
+        "label_input": "Interogare SQL",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "Formatați SQL",
+        "btn_minify": "Minificați SQL",
+        "label_output": "SQL formatat",
+        "btn_copy": "Copiați SQL"
+    },
+    "content": {
+        "why_title": "De ce să formatați interogările SQL?",
+        "why_desc": "SQL-ul neformatat este aproape ilizibil, mai ales cu JOIN-uri complexe, subcherizări și CTE-uri. Formatorul adaugă indentare corectă, întreruperi de linie și majuscule pentru cuvintele cheie, făcând mai ușoară revizuirea, depanarea și partajarea interogărilor cu echipa.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Cuvinte cheie cu majuscule",
+                "desc": "Convertește automat SELECT, FROM, WHERE, JOIN și toate cuvintele cheie SQL la majuscule"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Indentare inteligentă",
+                "desc": "Aplică indentare corectă subcherizărilor, expresiilor CASE și clauzelor imbricate"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minificare",
+                "desc": "Comprimă SQL pe o singură linie — ideal pentru șiruri de interogări în cod"
+            }
+        },
+        "how_title": "Formatați SQL în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Inserați interogarea SQL",
+                "desc": "Copiați și inserați SQL din editorul de cod, clientul DB sau jurnalele de interogări"
+            },
+            "2": {
+                "title": "Faceți clic pe Formatați",
+                "desc": "Faceți clic pe 'Formatați SQL' pentru a aplica indentarea corectă și majusculele cuvintelor cheie"
+            },
+            "3": {
+                "title": "Copiați și utilizați",
+                "desc": "Copiați SQL-ul formatat direct în clientul DB, ORM sau documentație"
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru formatarea SQL",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Revizuire cod",
+                "desc": "Formatați SQL înainte de revizuire astfel încât colegii să vadă clar structura"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Depanarea interogărilor",
+                "desc": "Decodificați clauzele WHERE complexe și lanțurile JOIN pentru a găsi rapid erorile logice"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Documentație",
+                "desc": "Adăugați SQL bine formatat în documentația tehnică, README-uri și tutoriale"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Optimizarea interogărilor",
+                "desc": "Identificați mai ușor indecșii lipsă și ordinea JOIN ineficientă cu SQL formatat"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru SQL",
+        "tips": {
+            "select": {
+                "title": "✓ Evitați SELECT *",
+                "desc": "Specificați întotdeauna numele coloanelor. Îmbunătățește performanța și previne probleme la schimbările de schemă."
+            },
+            "alias": {
+                "title": "✓ Folosiți aliasuri explicite",
+                "desc": "Folosiți aliasuri semnificative pentru tabele în JOIN-uri pentru a face interogările complexe lizibile."
+            },
+            "explain": {
+                "title": "✓ Folosiți EXPLAIN",
+                "desc": "Rulați EXPLAIN sau EXPLAIN ANALYZE înainte de implementarea interogărilor lente."
+            },
+            "index": {
+                "title": "✓ Indexați coloanele WHERE",
+                "desc": "Asigurați-vă că coloanele din WHERE, JOIN ON și ORDER BY sunt indexate pentru performanță optimă."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Ce dialecte SQL sunt suportate?",
+            "a1": "SQL standard și compatibil cu MySQL, PostgreSQL, SQLite, SQL Server (T-SQL) și Oracle.",
+            "q2": "Formatarea schimbă comportamentul interogării?",
+            "a2": "Nu. Formatorul schimbă doar spațiile albe și dimensiunea literelor cuvintelor cheie. Logica interogării, rezultatele și planul de execuție nu se schimbă deloc.",
+            "q3": "Pot formata SQL cu proceduri stocate?",
+            "a3": "Da. Gestionează CREATE PROCEDURE, BEGIN/END, instrucțiuni DECLARE și alte constructe SQL procedurale.",
+            "q4": "La ce servește minificarea în aplicații?",
+            "a4": "SQL minificat reduce dimensiunea șirurilor de interogări înglobate în codul sursă și face jurnalele mai compacte."
+        }
+    }
+}

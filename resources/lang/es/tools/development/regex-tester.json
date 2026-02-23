@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Probador de Regex Online - Test de expresiones regulares gratis | Optimizo",
+        "description": "Probador de regex gratuito en línea. Prueba expresiones regulares de JavaScript con resaltado de coincidencias en tiempo real, soporte de flags y detalles de grupos de captura.",
+        "h1": "Probador de Regex",
+        "subtitle": "Prueba expresiones regulares en vivo con resaltado de coincidencias, flags y detalles de grupos de captura"
+    },
+    "editor": {
+        "title": "Probador de Regex",
+        "label_pattern": "Patrón - Expresión Regular",
+        "ph_pattern": "ej. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Flags",
+        "label_test": "Cadena de prueba",
+        "ph_test": "Pega el texto que quieres probar con tu expresión regular...",
+        "btn_test": "Probar",
+        "btn_clear": "Limpiar"
+    },
+    "content": {
+        "why_title": "¿Por qué usar nuestro probador de Regex?",
+        "why_desc": "Las expresiones regulares (regex) son herramientas de coincidencia de patrones potentes utilizadas en casi todos los lenguajes de programación. Depurar regex puede ser complejo — un solo carácter incorrecto cambia completamente el comportamiento de la búsqueda. Nuestro tester en tiempo real resalta coincidencias mientras escribes, muestra detalles de grupos de captura y soporta todos los flags de JavaScript, siendo la forma más rápida de construir y validar tus expresiones regulares.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Resaltado en tiempo real",
+                "desc": "Las coincidencias se resaltan instantáneamente en cada pulsación de tecla — sin necesidad de hacer clic"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Detalles de grupos de captura",
+                "desc": "Muestra todos los grupos de captura, sus índices y valores coincidentes para cada resultado"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Soporte completo de flags",
+                "desc": "Activa g, i, m, s, u, y flags de forma independiente y observa su efecto"
+            }
+        },
+        "how_title": "Cómo probar un Regex en 3 pasos",
+        "how_steps": {
+            "1": {
+                "title": "Escribe tu patrón",
+                "desc": "Escribe tu expresión regular en el campo de patrón (sin barras oblicuas alrededor)"
+            },
+            "2": {
+                "title": "Elige los flags",
+                "desc": "Activa g (global), i (insensible a mayúsculas), m (multilínea) y otros flags según sea necesario"
+            },
+            "3": {
+                "title": "Pega tu texto de prueba",
+                "desc": "Introduce el texto a probar — las coincidencias se resaltan automáticamente"
+            }
+        },
+        "uses_title": "Casos de uso comunes de Regex",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Validación de formularios",
+                "desc": "Valida correos electrónicos, teléfonos, URLs, códigos postales y formatos personalizados"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Buscar y reemplazar",
+                "desc": "Encuentra y reemplaza patrones en editores de código, archivos de log y pipelines de procesamiento de texto"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Análisis de archivos de log",
+                "desc": "Extrae datos estructurados (IPs, marcas de tiempo, códigos de error) de logs no estructurados"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Saneamiento de entradas",
+                "desc": "Elimina o reemplaza caracteres peligrosos en datos de usuario antes de almacenarlos o mostrarlos"
+            }
+        },
+        "tips_title": "Buenas prácticas de Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Usa anclas para coincidencias exactas",
+                "desc": "Usa ^ y $ para anclar patrones al inicio y fin de una cadena, evitando coincidencias parciales no deseadas"
+            },
+            "groups": {
+                "title": "✓ Prefiere grupos no capturantes",
+                "desc": "Usa (?:...) en lugar de (...) cuando no necesitas capturar el grupo — mejora el rendimiento"
+            },
+            "escape": {
+                "title": "✓ Escapa los caracteres especiales",
+                "desc": "Los caracteres . * + ? ( ) [ ] { } | ^ $ \\ tienen significado especial — escápalos con \\ para coincidencias literales"
+            },
+            "test": {
+                "title": "✓ Prueba casos límite",
+                "desc": "Siempre prueba con cadenas vacías, caracteres Unicode, entradas muy largas y condiciones límite"
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Qué dialecto de regex usa este tester?",
+            "a1": "Este tester usa el motor RegExp integrado de JavaScript, que sigue el estándar ECMAScript. Soporta todas las características de JS: lookaheads, lookbehinds (ES2018+), grupos de captura nombrados y secuencias de escape de propiedades Unicode.",
+            "q2": "¿Cuál es la diferencia entre los flags g y m?",
+            "a2": "El flag g (global) encuentra todas las coincidencias en la cadena en lugar de solo la primera. El flag m (multilínea) hace que ^ y $ coincidan con el inicio/fin de cada línea en lugar de toda la cadena. Sirven propósitos distintos y se pueden combinar.",
+            "q3": "¿Cómo hago coincidir un punto literal o un asterisco?",
+            "a3": "Escápalos con una barra invertida: \\. coincide con un punto literal, \\* con un asterisco literal. En una clase de caracteres [ ], la mayoría de los caracteres especiales pierden su significado, excepto ] \\ ^ -.",
+            "q4": "¿Por qué mi regex coincide con demasiado texto?",
+            "a4": "Probablemente estás usando cuantificadores codiciosos. Los cuantificadores * y + son codiciosos por defecto y coinciden con tanto texto como sea posible. Agrega ? para hacerlos perezosos: *? o +? coincidirán con lo mínimo posible."
+        }
+    }
+}

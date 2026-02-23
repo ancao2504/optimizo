@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "CSS Grid 생성기 온라인 - 시각적 그리드 빌더 | Optimizo",
+        "description": "CSS Grid 레이아웃을 온라인에서 무료로 시각적으로 생성하세요. 실시간 미리보기와 즉각적인 CSS 내보내기로 열, 행, 간격, 정렬 조정.",
+        "h1": "CSS Grid 생성기",
+        "subtitle": "CSS Grid 레이아웃 시각적 생성 — 열, 행, 간격, 정렬을 실시간 미리보기로 조정"
+    },
+    "editor": {
+        "title": "CSS Grid 생성기",
+        "label_cols": "열 수",
+        "label_rows": "행 수",
+        "label_col_template": "열 템플릿",
+        "label_gap": "간격 (gap)",
+        "label_align": "align-items",
+        "label_preview": "실시간 미리보기",
+        "btn_copy": "CSS 복사"
+    },
+    "content": {
+        "why_title": "왜 시각적 CSS Grid 생성기를 사용해야 하나요?",
+        "why_desc": "CSS Grid는 CSS에서 가장 강력한 레이아웃 시스템이지만 그 구문은 가파른 학습 곡선이 있습니다. 저희 시각적 생성기에서는 슬라이더와 드롭다운으로 그리드를 조정하고 각 속성의 효과를 실시간으로 볼 수 있습니다.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "실시간 그리드 미리보기",
+                "desc": "열, 행, 간격, 정렬 조정마다 그리드가 실시간으로 업데이트"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "fr 단위 지원",
+                "desc": "템플릿은 컨테이너 크기에 적응하는 유연한 그리드의 fr(분수) 단위 사용"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "바로 사용 가능한 CSS",
+                "desc": "grid-template-columns, rows, gap, align-items포함 깔끔한 .container CSS 블록 내보내기"
+            }
+        },
+        "how_title": "CSS Grid 레이아웃 생성 방법",
+        "how_steps": {
+            "1": {
+                "title": "열과 행 설정",
+                "desc": "슬라이더로 그리드의 열 수와 행 수 지정"
+            },
+            "2": {
+                "title": "템플릿과 간격 선택",
+                "desc": "열 템플릿(균등, 고정+유연, 또는 반응형 minmax)을 선택하고 셀 간 간격 조정"
+            },
+            "3": {
+                "title": "CSS 복사",
+                "desc": "'CSS 복사'를 클릭하여 스타일시트에 붙여넣을 수 있는 완전한 CSS 블록 얻기"
+            }
+        },
+        "uses_title": "CSS Grid 사용 사례",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "페이지 레이아웃",
+                "desc": "명명된 그리드 영역으로 헤더/사이드바/메인 콘텐츠/푸터 구조 생성"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "대시보드",
+                "desc": "grid-column과 grid-row span으로 다양한 크기의 카드가 있는 복잡한 대시보드 레이아웃 생성"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "갤러리",
+                "desc": "auto-fill과 minmax로 반응형으로 적응하는 벽돌 쌓기 스타일 또는 규칙적인 갤러리 생성"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "매거진 레이아웃",
+                "desc": "불균등한 열과 여러 셀에 걸치는 주요 콘텐츠로 편집 레이아웃 생성"
+            }
+        },
+        "tips_title": "CSS Grid 모범 사례",
+        "tips": {
+            "fr": {
+                "title": "✓ 퍼센트보다 fr 단위 선호",
+                "desc": "fr(분수) 단위는 고정 크기 열 후에 가용 공간을 배분하여 유연한 열의 수동 계산을 회피합니다."
+            },
+            "minmax": {
+                "title": "✓ 반응형 그리드에 minmax() 사용",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr))은 열 수를 자동으로 조정하는 반응형 그리드를 생성 — 미디어 쿼리 불필요."
+            },
+            "named": {
+                "title": "✓ 명명된 그리드 영역 사용",
+                "desc": "명명된 셀(header, sidebar, main, footer)의 grid-template-areas로 페이지 레이아웃을 읽기 쉽고 변경하기 쉽게 만드세요."
+            },
+            "auto": {
+                "title": "✓ auto-fill과 auto-fit 이해",
+                "desc": "auto-fill은 최대 수의 트랙을 생성(빈 상태로 남김). auto-fit은 빈 트랙을 접고 기존 항목을 넓힙니다 — 카드 그리드에는 보통 이것이 최적."
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "CSS Grid의 fr 단위란 무엇인가요?",
+            "a1": "fr은 '분수(fractional) 단위'를 의미합니다. 1fr은 그리드 컨테이너의 가용 여유 공간의 한 분수를 나타냅니다. repeat(3, 1fr)은 전체 가용 공간을 균등하게 나누는 3개의 열을 생성합니다.",
+            "q2": "CSS Grid와 Flexbox의 차이는 무엇인가요?",
+            "a2": "Flexbox는 1차원 — 항목을 하나의 축(행 또는 열)에 배치합니다. CSS Grid는 2차원 — 행과 열을 동시에 제어할 수 있어 페이지 레이아웃에 훨씬 강력합니다.",
+            "q3": "minmax()는 무엇을 하나요?",
+            "a3": "minmax(최소, 최대)는 그리드 트랙의 크기 범위를 설정합니다. minmax(200px, 1fr)은 열이 최소 200px 너비이지만 가용 공간을 채우도록 늘어날 수 있음을 의미합니다 — 반응형 그리드에 이상적.",
+            "q4": "Flexbox 대신 CSS Grid를 사용하는 것은 언제인가요?",
+            "a4": "행과 열을 동시에 제어하는 2차원 레이아웃에는 Grid를 사용하세요. 내비게이션 바, 폼 행 등의 컴포넌트 1차원 레이아웃에는 Flexbox를 사용하세요. 현대 레이아웃의 대부분은 둘 다 사용합니다."
+        }
+    }
+}

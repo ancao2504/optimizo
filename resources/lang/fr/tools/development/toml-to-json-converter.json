@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Convertisseur TOML vers JSON en ligne - Outil gratuit | Optimizo",
+        "description": "Convertissez des fichiers de configuration TOML en JSON en ligne gratuitement. Support complet des tables TOML, tableaux, tables inline et tous les types de données.",
+        "h1": "Convertisseur TOML vers JSON",
+        "subtitle": "Convertissez des fichiers de configuration TOML en JSON — supporte les tables, tableaux de tables et tous les types de données TOML"
+    },
+    "editor": {
+        "title": "Convertisseur TOML vers JSON",
+        "label_toml": "TOML en entrée",
+        "ph_toml": "# Exemple TOML\ntitle = \"Mon Application\"\n\n[base_donnees]\nserveur = \"192.168.1.1\"\nport = 5432",
+        "label_json": "Sortie JSON",
+        "btn_copy": "Copier le JSON"
+    },
+    "content": {
+        "why_title": "Pourquoi convertir entre TOML et JSON ?",
+        "why_desc": "Le TOML est conçu pour des fichiers de configuration lisibles par l'humain (Cargo.toml de Rust, pyproject.toml de Python, config.toml de Hugo) tandis que JSON est le standard pour les API web et les outils JavaScript. Lorsque vous devez transmettre une configuration TOML à une API JSON, intégrer des outils JavaScript ou partager des données entre différents écosystèmes, cet outil fait le lien instantanément.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Conversion complète des types",
+                "desc": "Les chaînes, entiers, flottants, booléens et datetime TOML sont tous convertis correctement vers leurs équivalents JSON"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Tables et tableaux de tables",
+                "desc": "Gère correctement la syntaxe [table], [[tableaux de tables]] et les tables inline {clé = val}"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Sortie JSON formatée",
+                "desc": "La sortie est affichée avec indentation pour la lisibilité — pas de JSON compressé sur une seule ligne"
+            }
+        },
+        "how_title": "Comment convertir TOML en JSON",
+        "how_steps": {
+            "1": {
+                "title": "Collez la configuration TOML",
+                "desc": "Collez le contenu de votre Cargo.toml, pyproject.toml ou tout autre fichier de configuration TOML"
+            },
+            "2": {
+                "title": "Conversion automatique",
+                "desc": "L'outil analyse et convertit instantanément la structure TOML en JSON équivalent"
+            },
+            "3": {
+                "title": "Copiez le JSON",
+                "desc": "Copiez le JSON généré pour l'utiliser dans des appels d'API ou d'autres outils acceptant JSON"
+            }
+        },
+        "uses_title": "Cas d'utilisation TOML vers JSON",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Analyse du Cargo.toml",
+                "desc": "Convertissez Cargo.toml en JSON pour les scripts CI qui analysent les dépendances ou extraient les informations de version"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Configuration Hugo",
+                "desc": "Convertissez config.toml de Hugo en JSON pour l'intégration avec d'autres outils ou sources de données"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Transmission de données API",
+                "desc": "Convertissez les paramètres au format TOML en JSON pour les transmettre aux API REST ou endpoints GraphQL"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Apprentissage des formats",
+                "desc": "Comprenez la correspondance de structure TOML→JSON pour apprendre comment les deux formats se rapportent"
+            }
+        },
+        "tips_title": "Bonnes pratiques TOML",
+        "tips": {
+            "tables": {
+                "title": "✓ Utilisez la notation pointée pour les tables imbriquées",
+                "desc": "TOML supporte [serveur.base_donnees] comme raccourci pour les tables imbriquées, rendant les configs plus lisibles que les accolades imbriquées de JSON."
+            },
+            "strings": {
+                "title": "✓ Utilisez des chaînes littérales pour les chemins",
+                "desc": "Les chaînes littérales entre guillemets simples comme 'C:\\Utilisateurs\\chemin' ne traitent pas les séquences d'échappement — idéal pour les chemins Windows et les patterns regex."
+            },
+            "comments": {
+                "title": "✓ Utilisez les commentaires généreusement",
+                "desc": "Le plus grand avantage de TOML sur JSON est la prise en charge des commentaires. Documentez chaque option de configuration avec des commentaires # pour la maintenabilité."
+            },
+            "datetime": {
+                "title": "✓ Soyez conscient de la conversion des types DateTime",
+                "desc": "Les datetime RFC 3339 natifs de TOML (2024-01-15T10:30:00Z) deviennent des chaînes en JSON. Le code consommant le JSON devra les analyser à nouveau en objets date."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Quels avantages TOML a-t-il sur YAML et JSON ?",
+            "a1": "TOML est plus simple que YAML (pas de structure basée sur l'indentation), plus lisible que JSON (supporte les commentaires) et dispose de types explicites (entiers, flottants, datetimes sont distincts). C'est le meilleur choix pour les fichiers de configuration d'applications où la lisibilité humaine est importante.",
+            "q2": "Qu'est-ce que [[tableau de tables]] en TOML ?",
+            "a2": "[[serveurs]] définit un tableau d'objets nommé 'serveurs'. Chaque fois que [[serveurs]] apparaît, il crée un nouvel objet dans le tableau. Les clés en dessous appartiennent à cet objet. Équivalent au JSON {\"serveurs\": [{...}, {...}]}.",
+            "q3": "Quels outils majeurs utilisent TOML ?",
+            "a3": "Rust (Cargo.toml), le packaging Python moderne (pyproject.toml avec pip/poetry), le générateur de site statique Hugo, Gitea, Lighthouse CI et de nombreux outils Go utilisent TOML. Son adoption croît dans l'écosystème DevOps.",
+            "q4": "Les commentaires TOML sont-ils préservés dans la sortie JSON ?",
+            "a4": "Non. JSON n'a pas de syntaxe de commentaire, donc les commentaires TOML # ne peuvent pas être représentés dans la sortie JSON. Si les commentaires documentent des décisions importantes, conservez-les dans un README séparé ou utilisez des clés _comment en JSON."
+        }
+    }
+}

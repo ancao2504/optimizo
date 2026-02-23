@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON'dan TOML'a Dönüştürücü Çevrimiçi - Ücretsiz | Optimizo",
+        "description": "JSON'ı çevrimiçi ücretsiz TOML biçimine dönüştürün. Tablo bölümleri otomatik oluşturun, iç içe nesneleri işleyin ve temiz okunabilir TOML üretin.",
+        "h1": "JSON'dan TOML'a Dönüştürücü",
+        "subtitle": "JSON yapılandırma verilerini daha okunabilir TOML biçimine dönüştürün — tablo ve bölümlerin otomatik oluşturulması"
+    },
+    "editor": {
+        "title": "JSON'dan TOML'a Dönüştürücü",
+        "label_json": "JSON Girişi",
+        "ph_json": "{\n  \"title\": \"Uygulamam\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "TOML Çıkışı",
+        "btn_copy": "TOML'ı Kopyala"
+    },
+    "content": {
+        "why_title": "JSON Yapılandırma Dosyaları Neden TOML'a Dönüştürülür?",
+        "why_desc": "JSON, yapılandırma dosyaları için tasarlanmamıştır — yorum yok, iç içe veriler için ayrıntılı sözdizimi ve ek kaçış gerektirir. TOML, [bölüm] başlıkları, # yorumlar ve daha temiz anahtar-değer sözdizimiyle aynı veriyi daha okunaklı sunar. config.json'ı config.toml'a dönüştürmek proje yapılandırmasının bakımını ve öz-belgelemesini iyileştirir.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Otomatik Bölüm Oluşturma",
+                "desc": "İç içe JSON nesneleri otomatik olarak TOML tablo yollarına [section.subsection] dönüştürülür"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Tür Koruması",
+                "desc": "JSON sayıları, boolean'ları ve dizeleri veri kaybı olmadan doğru TOML karşılaştığına eşlenir"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Daha Temiz Yapılandırma",
+                "desc": "Aynı verinin TOML biçimi genellikle %20-40 daha kısa ve JSON'dan çok daha okunabilir"
+            }
+        },
+        "how_title": "3 Adımda JSON'u TOML'a Dönüştürme",
+        "how_steps": {
+            "1": {
+                "title": "JSON Yapılandırmasını Yapıştırın",
+                "desc": "Mevcut JSON yapılandırma dosyasını kopyalayıp sol panele yapıştırın"
+            },
+            "2": {
+                "title": "TOML Çıkışını İnceleyin",
+                "desc": "Sağ panelde eşdeğer TOML görünür — yapının beklentilerle örtüştüğünü kontrol edin"
+            },
+            "3": {
+                "title": "Yorumlar Ekleyin ve Kaydedin",
+                "desc": "TOML'ı kopyalayın, her bölümü belgeleyen # yorumlar ekleyin ve yeni yapılandırma dosyası olarak kaydedin"
+            }
+        },
+        "uses_title": "JSON'dan TOML'a Dönüştürme Kullanım Alanları",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.toml Oluşturma",
+                "desc": "Rust proje kurulumunu hızlandırmak için package.json'dan Cargo.toml biçimine bilgi dönüştürün"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "pyproject.toml'a Geçiş",
+                "desc": "setup.cfg veya setup.py'yi modern Python paketleme standardı pyproject.toml'a dönüştürün"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Yapılandırma Dosyası Güncelleme",
+                "desc": "config.json'ı config.toml'a geçirin ve her seçeneği # yorumlarıyla belgeleyin"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Araçlar Arası Yapılandırma Paylaşma",
+                "desc": "Gerektiğinde JSON ve TOML ekosistemleri arasında aynı yapılandırma verilerini dönüştürüp paylaşın"
+            }
+        },
+        "tips_title": "JSON'dan TOML'a Dönüşüm İpuçları",
+        "tips": {
+            "arrays": {
+                "title": "✓ Nesne Dizilerini Dikkatli Kontrol Edin",
+                "desc": "JSON nesne dizileri ([{name:\"a\"},{name:\"b\"}]) TOML'ın [[tablo dizisi]] sözdizimini kullanır. Çıkışta doğru dönüştürüldüğünü doğrulayın."
+            },
+            "null": {
+                "title": "✓ TOML'un null'u Yok",
+                "desc": "JSON'un null'unun TOML'da doğrudan karşılaştığı yok. Null değerler dönüşümde genellikle atlanır veya boş dizeyle değiştirilir. Bu durumları manuel işleyin."
+            },
+            "keys": {
+                "title": "✓ Özel Karakterli Anahtarları Tırnak İçine Alın",
+                "desc": "Tire veya boşluk içeren TOML anahtarları tırnak gerektirir: \"content-type\" = \"json\". Bu sorunu önlemek için JSON'da alt çizgi kullanın."
+            },
+            "test": {
+                "title": "✓ Uygulamanızın TOML Ayrıştırıcısıyla Test Edin",
+                "desc": "Farklı TOML ayrıştırıcıları (toml-rs, tomllib, @iarna/toml) uç durumları farklı işleyebilir. Dönüştürülen TOML'ı her zaman gerçek çalışma zamanı ortamında test edin."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "Tüm JSON veri türleri TOML'a dönüştürülebilir mi?",
+            "a1": "Çoğu tür düzgün dönüşür: dizeler, sayılar, boolean'lar, diziler ve nesnelerin TOML'da doğrudan karşılaştığı vardır. JSON'un null'unun karşılaştığı yok; genellikle atlanır. Derinlemesine iç içe geçmiş nesne dizileri manuel düzeltme gerektirebilir.",
+            "q2": "TOML, yapılandırma dosyalarında JSON'u tamamen değiştirebilir mi?",
+            "a2": "Statik yapılandırma dosyaları için evet. Yapılandırmayı okuyan kod JSON.parse()'dan TOML ayrıştırıcısına (Rust'ta toml crate, Python'da tomllib gibi) geçmeli. TOML, API veya veri alışverişinde JSON'un yerini alamaz.",
+            "q3": "TOML hangi dosya uzantısını kullanıyor?",
+            "a3": ".toml uzantısını kullanır. Yaygın örnekler: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (Cargo yapılandırması).",
+            "q4": "Yapılandırma için JSON, YAML ve TOML arasında nasıl seçim yapılır?",
+            "a4": "JSON: API veri alışverişi (evrensel destek, yorum gerekmez). YAML: DevOps yapılandırması (Kubernetes, CI/CD vb.). TOML: Uygulama yapılandırması (basit sözdizimi, açık türler, manuel düzenleme için en iyi)."
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "CSS Grid-generator Online - Visuel Gitterlayoutbygger | Optimizo",
+        "description": "Skab CSS Grid-layouts visuelt online gratis. Justér kolonner, rækker, mellemrum og justering med realtidsforhåndsvisning og øjeblikkelig CSS-eksport.",
+        "h1": "CSS Grid-generator",
+        "subtitle": "Skab CSS Grid-layouts visuelt — justér kolonner, rækker, mellemrum og justering med realtidsforhåndsvisning"
+    },
+    "editor": {
+        "title": "CSS Grid-generator",
+        "label_cols": "Antal kolonner",
+        "label_rows": "Antal rækker",
+        "label_col_template": "Kolonneskabelon",
+        "label_gap": "Mellemrum (gap)",
+        "label_align": "align-items",
+        "label_preview": "Realtidsforhåndsvisning",
+        "btn_copy": "Kopiér CSS"
+    },
+    "content": {
+        "why_title": "Hvorfor bruge en visuel CSS Grid-generator?",
+        "why_desc": "CSS Grid er CSS's mest kraftfulde layoutsystem, men syntaksen har en stejl indlæringskurve. Med vores visuelle generator kan du justere gitteret med skydere og rullemenuer og se effekten af hver egenskab i realtid.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Realtids-gitterforhåndsvisning",
+                "desc": "Gitteret opdateres i realtid når du justerer kolonner, rækker, mellemrum og justering"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Understøttelse af fr-enheden",
+                "desc": "Skabeloner bruger fr (brøk)-enheden til fleksible gitre der tilpasser sig beholderens størrelse"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Klar til brug CSS",
+                "desc": "Eksportér et rent .container CSS-blok med grid-template-columns, rows, gap og align-items"
+            }
+        },
+        "how_title": "Skab et CSS Grid-layout",
+        "how_steps": {
+            "1": {
+                "title": "Konfigurér kolonner og rækker",
+                "desc": "Angiv antallet af kolonner og rækker i gitteret med skydere"
+            },
+            "2": {
+                "title": "Vælg skabelon og mellemrum",
+                "desc": "Vælg kolonneskabelon (jævnt, fast+fleksibelt eller responsiv minmax) og justér mellemrummet"
+            },
+            "3": {
+                "title": "Kopiér CSS",
+                "desc": "Klik 'Kopiér CSS' for at få et komplet CSS-blok der kan indsættes direkte i dit stylesheet"
+            }
+        },
+        "uses_title": "CSS Grid-anvendelsesområder",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Sidelayout",
+                "desc": "Skab header/sidebjælke/hovedindhold/sidefod-struktur med navngivne gitterområder"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboard",
+                "desc": "Skab komplekse dashboard-layouts med kort af varierende størrelse med grid-column og grid-row span"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galleri",
+                "desc": "Skab mursten- eller regulære gallerier der adaptivt tilpasser sig med auto-fill og minmax"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Magasinlayout",
+                "desc": "Skab redaktionelle layouts med ujævne kolonner og fremhævet indhold der strækker sig over flere celler"
+            }
+        },
+        "tips_title": "Bedste praksis for CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Foretruk fr-enheden frem for procent",
+                "desc": "fr (brøk)-enheden fordeler tilgængeligt plads efter faste kolonner og undgår manuel beregning."
+            },
+            "minmax": {
+                "title": "✓ Brug minmax() til responsive gitre",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) skaber et responsivt gitter der automatisk justerer antallet af kolonner."
+            },
+            "named": {
+                "title": "✓ Brug navngivne gitterområder",
+                "desc": "grid-template-areas med navngivne celler gør sidelayouts læsbare og lette at ændre."
+            },
+            "auto": {
+                "title": "✓ Forstå auto-fill vs. auto-fit",
+                "desc": "auto-fill skaber maksimalt antal spor (tomme inkluderet). auto-fit kollapser tomme spor og udvider eksisterende — normalt optimalt til kortgitre."
+            }
+        },
+        "faq_title": "❓ Ofte stillede spørgsmål",
+        "faq": {
+            "q1": "Hvad er fr-enheden i CSS Grid?",
+            "a1": "fr står for 'brøkenhed'. 1fr repræsenterer en andel af det tilgængelige ledige plads i gitterbeholderen. repeat(3, 1fr) skaber 3 kolonner der deler jævnt på tilgængeligt plads.",
+            "q2": "Hvad er forskellen mellem CSS Grid og Flexbox?",
+            "a2": "Flexbox er endimensionalt — placerer elementer langs én akse (række eller kolonne). CSS Grid er todimensionalt — kan styre rækker og kolonner simultaneously, meget kraftfuldere til sidelayouts.",
+            "q3": "Hvad gør minmax()?",
+            "a3": "minmax(min, max) angiver et størrelsesinterval for et gitterspor. minmax(200px, 1fr) betyder at kolonnen er mindst 200px bred men kan vokse til at udfylde tilgængeligt plads.",
+            "q4": "Hvornår skal jeg bruge CSS Grid i stedet for Flexbox?",
+            "a4": "Brug Grid til todimensionelle layouts hvor du styrer rækker og kolonner simultaneously. Brug Flexbox til komponenters endimensionelle layouts som navigationslinjer."
+        }
+    }
+}

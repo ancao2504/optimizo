@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON-validator Nettbasert - Valider JSON Gratis | Optimizo",
+        "description": "Gratis nettbasert JSON-validator. Valider JSON-syntaks øyeblikkelig, identifiser syntaksfeil med linjenummer og se formatert resultat.",
+        "h1": "JSON-validator",
+        "subtitle": "Valider JSON-syntaks direkte — oppdag feil og bekreft at datastrukturen er korrekt"
+    },
+    "editor": {
+        "title": "JSON-validator",
+        "label_input": "JSON som skal valideres",
+        "ph_input": "Lim inn din JSON her...",
+        "btn_validate": "Valider JSON",
+        "btn_copy": "Kopier JSON"
+    },
+    "content": {
+        "why_title": "Hvorfor validere JSON før bruk?",
+        "why_desc": "Ugyldig JSON kan stille ødelegge API-er, konfigurasjonsparsere og datapipelines. Feilplasserte kommaer, ulukkede parenteser og ikke-escapete anførselstegn kan forårsake vanskelig sporbare kjøretidsfeil. Verktøyet identifiserer disse problemene direkte med presise linjenumre og klare feilmeldinger.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Øyeblikkelig validering",
+                "desc": "Validerer JSON på millisekunder med presise feilmeldinger og linjenumre"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Strukturoversikt",
+                "desc": "Se JSON-ens dybde, antall nøkler og typefordeling med ett blikk"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100% privat",
+                "desc": "All validering skjer i nettleseren — dataene dine forlater aldri enheten"
+            }
+        },
+        "how_title": "Valider JSON i 3 trinn",
+        "how_steps": {
+            "1": {
+                "title": "Lim inn JSON",
+                "desc": "Kopier og lim inn JSON fra et API-svar, konfigurasjonsfil eller annen kilde"
+            },
+            "2": {
+                "title": "Klikk Valider",
+                "desc": "Validatoren sjekker syntaksen direkte og fremhever feil med linjenumre"
+            },
+            "3": {
+                "title": "Korriger og kopier",
+                "desc": "Rett feilene og kopier den validerte, formaterte JSON-en"
+            }
+        },
+        "uses_title": "Bruksområder for JSON-validering",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "API-svarsvalidering",
+                "desc": "Bekreft at REST API-svar er korrekt strukturert før behandling"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Konfigurasjonsfiljekk",
+                "desc": "Valider package.json, tsconfig.json og andre konfigurasjonsfiler før distribusjon"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Validering ved dataimport",
+                "desc": "Sjekk at JSON-importfiler er korrekte før innlasning i databasen"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Feilsøk JSON-feil",
+                "desc": "Finn syntaksfeil presist i komplekse, dypt nestede JSON-strukturer"
+            }
+        },
+        "tips_title": "Beste praksis for JSON",
+        "tips": {
+            "quotes": {
+                "title": "✓ Bruk alltid doble anførselstegn",
+                "desc": "JSON krever doble anførselstegn for strenger og nøkler. Enkle anførselstegn er ikke gyldig JSON."
+            },
+            "trailing": {
+                "title": "✓ Ingen avsluttende kommaer",
+                "desc": "I motsetning til JavaScript tillater ikke JSON komma etter det siste elementet i arrays eller objekter."
+            },
+            "null": {
+                "title": "✓ Bruk null, ikke None eller nil",
+                "desc": "Nøkkelordet null i JSON skal skrives med små bokstaver. Pythons None eller Rubys nil er ikke gyldig JSON."
+            },
+            "validate": {
+                "title": "✓ Valider igjen etter manuell redigering",
+                "desc": "Valider alltid JSON igjen etter manuell redigering. En liten skrivefeil kan ugyldiggjøre hele dokumentet."
+            }
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Hvorfor er JSON-en min ugyldig selv om den ser korrekt ut?",
+            "a1": "Vanlige skjulte problemer: avsluttende komma etter siste element, enkle i stedet for doble anførselstegn, ikke-escapete spesialtegn i strenger, JavaScript-kommentarer (JSON støtter ikke kommentarer).",
+            "q2": "Kan jeg validere svært store JSON-filer?",
+            "a2": "Ja — validering skjer helt i nettleseren med native JSON.parse(). Filstørrelsen er kun begrenset av nettleserens minne.",
+            "q3": "Hva er forskjellen mellom JSON og JSONP?",
+            "a3": "JSON er et rent dataformat. JSONP pakker JSON inn i et funksjonskall for cross-domain-forespørsler. JSONP er ikke gyldig JSON.",
+            "q4": "Støtter JSON kommentarer?",
+            "a4": "Nei. JSON støtter ikke // eller /* */ kommentarer. Bruk en _comment-nøkkel eller bytt til YAML eller TOML som støtter kommentarer."
+        }
+    }
+}

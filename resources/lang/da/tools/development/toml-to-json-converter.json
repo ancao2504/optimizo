@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "TOML til JSON-konverter Online - Gratis | Optimizo",
+        "description": "Konvertér TOML-konfigurationsfiler til JSON online gratis. Fuld understøttelse af TOML-tabeller, arrays, inline-tabeller og alle datatyper.",
+        "h1": "TOML til JSON-konverter",
+        "subtitle": "Konvertér TOML-konfiguration til JSON — tabeller, tabelarrays og alle TOML-datatyper understøttes"
+    },
+    "editor": {
+        "title": "TOML til JSON-konverter",
+        "label_toml": "TOML-input",
+        "ph_toml": "# TOML-eksempel\ntitle = \"Min app\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "JSON-output",
+        "btn_copy": "Kopiér JSON"
+    },
+    "content": {
+        "why_title": "Hvorfor konvertere TOML til JSON?",
+        "why_desc": "TOML er designet til menneskelig-læsbare konfigurationsfiler (Rusts Cargo.toml, Pythons pyproject.toml, Hugos config.toml), men JSON er standard for web-API'er og JavaScript-værktøjer. Når du skal sende TOML-konfiguration til et JSON-API, integrere med JavaScript-værktøjer eller dele data mellem økosystemer, lukker dette værktøj øjeblikkeligt kløften.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Fuld typekonvertering",
+                "desc": "TOML-strenge, heltal, decimaltal, booleans, datoer — alle korrekt konverteret til JSON-ækvivalenter"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Tabeller og tabelarrays",
+                "desc": "Håndterer [tabel], [[tabelarray]], inline-tabel {key = value}-syntaks korrekt"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Formateret JSON-output",
+                "desc": "Output vises med indrykning for læsbarhed — ikke komprimeret JSON på én linje"
+            }
+        },
+        "how_title": "Konvertér TOML til JSON i 3 trin",
+        "how_steps": {
+            "1": {
+                "title": "Indsæt TOML-konfiguration",
+                "desc": "Indsæt indholdet fra Cargo.toml, pyproject.toml eller en anden TOML-konfigurationsfil"
+            },
+            "2": {
+                "title": "Automatisk konvertering",
+                "desc": "Værktøjet parser TOML-strukturen og konverterer til tilsvarende JSON øjeblikkeligt"
+            },
+            "3": {
+                "title": "Kopiér JSON",
+                "desc": "Kopiér den genererede JSON til brug i API-kald eller andre værktøjer der accepterer JSON"
+            }
+        },
+        "uses_title": "Anvendelsestilfælde for TOML til JSON",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Parsing af Cargo.toml",
+                "desc": "Konvertér Cargo.toml til JSON til CI-scripts der analyserer afhængigheder"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Hugo-konfiguration",
+                "desc": "Konvertér Hugos config.toml til JSON til integration med andre værktøjer"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Send data til API",
+                "desc": "Konvertér TOML-parametere til JSON for at sende til REST API'er eller GraphQL-endpoints"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Lær formaterne",
+                "desc": "Forstå TOML→JSON-strukturmappingen for at lære hvordan de to formater relaterer sig til hinanden"
+            }
+        },
+        "tips_title": "Bedste praksis for TOML",
+        "tips": {
+            "tables": {
+                "title": "✓ Brug punktnotation til indlejrede tabeller",
+                "desc": "TOML understøtter [server.database] som stenografi til indlejrede tabeller, hvilket gør konfigurationen mere læsbar."
+            },
+            "strings": {
+                "title": "✓ Brug literalstrenge til stier",
+                "desc": "Enkeltciterede literalstrenge som 'C:\\Users\\path' behandler ikke escape-sekvenser — ideelt til Windows-stier."
+            },
+            "comments": {
+                "title": "✓ Brug kommentarer aktivt",
+                "desc": "TOMLs vigtigste fordel over JSON er kommentarunderstøttelse. Dokumentér alle konfigurationsparametre med # kommentarer."
+            },
+            "datetime": {
+                "title": "✓ Vær opmærksom på DateTime-typekonvertering",
+                "desc": "TOMLs native RFC 3339-datoer (2024-01-15T10:30:00Z) bliver strenge i JSON. Kode der forbruger JSON skal gen-parse dem som datotyper."
+            }
+        },
+        "faq_title": "❓ Ofte stillede spørgsmål",
+        "faq": {
+            "q1": "Hvad er TOMLs fordele i forhold til YAML og JSON?",
+            "a1": "TOML er enklere end YAML (ingen indrykning-baseret struktur), mere læsbart end JSON (understøtter kommentarer) og har eksplicitte typer (heltal, decimaltal, datoer er separate). Bedste valg til applikationskonfigurationsfiler hvor læsbarhed er vigtig.",
+            "q2": "Hvad er [[tabelarrays]] i TOML?",
+            "a2": "[[servers]] definerer et array af objekter med navnet 'servers'. Hvert forekomst af [[servers]] opretter et nyt objekt i arrayet. JSON-ækvivalent: {\"servers\": [{...}, {...}]}.",
+            "q3": "Hvilke vigtige værktøjer bruger TOML?",
+            "a3": "Rust (Cargo.toml), moderne Python-pakning (pip/poetrys pyproject.toml), Hugo statisk webstedsgenerator, Gitea, Lighthouse CI og mange Go-værktøjer bruger TOML.",
+            "q4": "Bevares TOML-kommentarer i JSON-output?",
+            "a4": "Nej. Da JSON mangler kommentarsyntaks, kan TOMLs # kommentarer ikke udtrykkes i JSON-output."
+        }
+    }
+}

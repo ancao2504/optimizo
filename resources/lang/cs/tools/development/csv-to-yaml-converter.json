@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Převodník CSV na YAML Online - Zdarma | Optimizo",
+        "description": "Převádějte CSV soubory do formátu YAML online a zdarma. Automaticky použijte CSV záhlaví jako klíče YAML a generujte správně odsazený YAML s detekcí typů.",
+        "h1": "Převodník CSV na YAML",
+        "subtitle": "Převádějte CSV data do formátu YAML — automatické mapování záhlaví a detekce typů"
+    },
+    "editor": {
+        "title": "Převodník CSV na YAML",
+        "label_csv": "CSV vstup",
+        "ph_csv": "jméno,věk,aktivní\nAlice,30,true\nBob,25,false",
+        "label_yaml": "YAML výstup",
+        "btn_copy": "Kopírovat YAML"
+    },
+    "content": {
+        "why_title": "Proč převádět CSV na YAML?",
+        "why_desc": "CSV je ideální pro uchovávání tabulkových dat v tabulkových procesorech, ale YAML je standardem pro konfigurační soubory, testovací přípravky a DevOps nástroje. Převod dat tabulkového procesoru do Kubernetes ConfigMaps, souborů proměnných Ansible nebo datových souborů Hugo eliminuje bolestné přeformátování.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Automatický převod",
+                "desc": "Převádí CSV na YAML v reálném čase při psaní — bez nutnosti klikat na tlačítko"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Klíče na základě záhlaví",
+                "desc": "CSV záhlaví se automaticky převedou na klíče YAML pro každý objekt ve výstupním seznamu"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Detekce typů",
+                "desc": "Čísla a logické hodnoty (true/false) se automaticky převedou na správný typ YAML"
+            }
+        },
+        "how_title": "Převod CSV na YAML ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vložte CSV data",
+                "desc": "Vložte CSV se záhlavím — první řádek definuje klíče YAML"
+            },
+            "2": {
+                "title": "Okamžitý převod",
+                "desc": "YAML výstup se okamžitě zobrazí s každým řádkem CSV jako prvkem v seznamu YAML"
+            },
+            "3": {
+                "title": "Zkopírujte YAML",
+                "desc": "Zkopírujte převedené YAML a vložte je do konfiguračních souborů nebo testovacích přípravků"
+            }
+        },
+        "uses_title": "Případy použití převodníku CSV na YAML",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Testovací přípravky",
+                "desc": "Převádějte testovací data z tabulkových procesorů na YAML přípravky pro RSpec, PHPUnit, PyTest"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Konfigurační data",
+                "desc": "Převádějte týmová nebo environmentální data na proměnné Ansible nebo Kubernetes ConfigMaps"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Seed data",
+                "desc": "Převádějte CSV s vyhledávacími tabulkami na YAML seed soubory pro Rails, Laravel, Django"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "API testovací data",
+                "desc": "Převádějte příklady z tabulkových procesorů na YAML pro API mock nástroje jako WireMock nebo Mirage"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro CSV na YAML",
+        "tips": {
+            "headers": {
+                "title": "✓ Používejte konzistentní, čisté názvy záhlaví",
+                "desc": "CSV záhlaví se stanou klíči YAML — používejte snake_case nebo camelCase konzistentně a vyhněte se mezerám."
+            },
+            "quotes": {
+                "title": "✓ Uzavírejte hodnoty se speciálními znaky do uvozovek",
+                "desc": "Hodnoty obsahující čárky nebo uvozovky musí být uzavřeny v dvojitých uvozovkách v CSV."
+            },
+            "encoding": {
+                "title": "✓ Používejte kódování UTF-8",
+                "desc": "Ujistěte se, že CSV soubor je před konverzí zakódován v UTF-8."
+            },
+            "validate": {
+                "title": "✓ Validujte YAML po konverzi",
+                "desc": "Vždy vložte převedené YAML do validátoru pro ověření správné struktury před použitím v konfiguračních souborech."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Zpracovává převodník pole CSV v uvozovkách?",
+            "a1": "Ano — parser zpracovává formát CSV RFC 4180 správně (včetně polí uzavřených v dvojitých uvozovkách). Čárky v polích v uvozovkách nejsou považovány za oddělovače.",
+            "q2": "Jak jsou zpracovávána čísla a logické hodnoty?",
+            "a2": "Převodník detekuje typy: Platná čísla se převedou na čísla YAML; hodnoty true/false se převedou na logické hodnoty YAML. Řetězce zůstávají řetězci.",
+            "q3": "Mohu převádět TSV (tabulátorem oddělená) data?",
+            "a3": "Tento nástroj očekává CSV oddělené čárkami. Pro data oddělená tabulátory nahraďte tabulátory čárkami.",
+            "q4": "Jak v případě potřeby převedu YAML zpět na CSV?",
+            "a4": "Zpětný směr (YAML na CSV) vyžaduje předchozí znalost struktury. Pro ploché seznamy objektů s konzistentními klíči můžete ručně extrahovat klíče jako záhlaví CSV a mapovat každý objekt YAML jako řádek."
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "YAML-formatter Online - Formatér YAML-filer Gratis | Optimizo",
+        "description": "Formatér og valider YAML-filer online gratis. Øjeblikkelig YAML-rensning, korrekt indrykning og syntakskontrol.",
+        "h1": "YAML-formatter",
+        "subtitle": "Formatér og valider YAML-filer direkte — komplekse indlejringer, ankre og aliasser understøttes"
+    },
+    "editor": {
+        "title": "YAML-formatter",
+        "label_input": "YAML-input",
+        "ph_input": "name: Min app\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "Formatér YAML",
+        "label_output": "Formateret YAML",
+        "btn_copy": "Kopiér YAML"
+    },
+    "content": {
+        "why_title": "Hvorfor formatere YAML-filer?",
+        "why_desc": "YAML er yderst følsom over for indrykningsproblemer — et enkelt ekstra mellemrum kan forårsage parsningsfejl eller stille datakorruption. Kubernetes, Docker Compose, GitHub Actions og Ansible bruger YAML-konfigurationsfiler, og formateringsfejl kan blokere hele deployments.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Normalisering af indrykning",
+                "desc": "Normaliserer blandet indrykning til konsekvent 2-mellemrumsformat i hele dokumentet"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Syntaksvalidering",
+                "desc": "Identificerer indrykningsfejl, blanding af tab/mellemrum og strukturelle problemer"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Ankre og aliasser",
+                "desc": "Fuld understøttelse af YAML-ankre (&) og aliasser (*) til dokumentgenbrug"
+            }
+        },
+        "how_title": "Formatér YAML i 3 trin",
+        "how_steps": {
+            "1": {
+                "title": "Indsæt YAML",
+                "desc": "Indsæt et Kubernetes-manifest, GitHub Actions-workflow eller YAML-konfigurationsfil"
+            },
+            "2": {
+                "title": "Formatér og valider",
+                "desc": "Værktøjet validerer syntaksen og omformaterer automatisk med konsekvent indrykning"
+            },
+            "3": {
+                "title": "Kopiér og deploy",
+                "desc": "Kopiér den formaterede YAML til dine filer, CI-pipelines eller deploymentværktøjer"
+            }
+        },
+        "uses_title": "Anvendelsesområder for YAML-formatering",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Kubernetes-manifester",
+                "desc": "Formatér Deployment-, Service- og ConfigMap-YAML-filer inden de anvendes på clusteret"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "CI/CD-pipelines",
+                "desc": "Valider GitHub Actions-, GitLab CI- og CircleCI-workflows for at forhindre pipelinefejl"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Ansible Playbooks",
+                "desc": "Formatér og valider Ansible-opgaver, variabler og inventar"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Tjek at docker-compose.yml er korrekt formateret inden docker compose up"
+            }
+        },
+        "tips_title": "Bedste praksis for YAML",
+        "tips": {
+            "spaces": {
+                "title": "✓ Brug mellemrum, ikke tabulatorer",
+                "desc": "YAML-specifikationen forbyder udtrykkeligt tabulatortegnet til indrykning. Konfigurer din redigerer til at indsætte mellemrum ved Tab i YAML-filer."
+            },
+            "quotes": {
+                "title": "✓ Brug anførselstegn til specialtegn",
+                "desc": "Strenge der indeholder : # [ ] { } eller begynder med specialtegn skal i anførselstegn for at YAML ikke fejltolker dem."
+            },
+            "anchors": {
+                "title": "✓ Brug ankre for at reducere gentagelse",
+                "desc": "YAML-ankre (&navn) og aliasser (*navn) lader dig genbruge værdier i dokumentet."
+            },
+            "lint": {
+                "title": "✓ Lint-tjek inden commit",
+                "desc": "Kør yamllint eller brug denne formatter i en pre-commit-hook for at fange formateringsproblemer tidligt."
+            }
+        },
+        "faq_title": "❓ Ofte stillede spørgsmål",
+        "faq": {
+            "q1": "Hvorfor virker YAML ikke med tabulatorer i stedet for mellemrum?",
+            "a1": "YAML-specifikationen forbyder udtrykkeligt tabulatortegnet til indrykning fordi forskellige redigerere viser tabulatorer med forskellig bredde. Mellemrum giver konsekvent indrykning som alle YAML-parsere tolker ens.",
+            "q2": "Hvad gør YAML-ankre (&) og aliasser (*)?",
+            "a2": "Ankre definerer en genanvendelig blok med &ankernavn; aliasser refererer til den med *ankernavn. Dermed kan du definere en værdi én gang og bruge den mange steder.",
+            "q3": "Hvad er forskellen mellem YAML og JSON?",
+            "a3": "YAML er et supersæt af JSON — gyldig JSON er også gyldig YAML. YAML tilføjer understøttelse af kommentarer, ankre, flerlinjestrenge og mere læsbar syntaks.",
+            "q4": "Hvornår skal jeg vælge YAML frem for TOML til konfiguration?",
+            "a4": "YAML har bredere værktøjsunderstøttelse (Kubernetes, Ansible, de fleste CI-systemer) og kan udtrykke komplekse indlejrede strukturer kortfattet. I DevOps-konfiguration er YAML standarden."
+        }
+    }
+}

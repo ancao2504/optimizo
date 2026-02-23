@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "JavaScript Gizleyici Çevrimiçi - JS Kodunu Ücretsiz Koru | Optimizo",
+        "description": "JavaScript kodunu çevrimiçi ücretsiz gizleyin. Değişken yeniden adlandırma, dize kodlama ve JS sıkıştırma ile kaynak kodu daha az okunabilir hale getirin.",
+        "h1": "JavaScript Gizleyici",
+        "subtitle": "Değişken yeniden adlandırma, dize kodlama ve sıkıştırmayla JavaScript kodunu koruyun — tümü tarayıcıda"
+    },
+    "editor": {
+        "title": "JavaScript Gizleyici",
+        "label_input": "JavaScript Girişi",
+        "ph_input": "function greet(name) {\n  return 'Merhaba, ' + name + '!';\n}",
+        "opt_rename": "Değişkenleri Yeniden Adlandır",
+        "opt_strings": "Dizeleri Kodla",
+        "opt_minify": "Kodu Sıkıştır",
+        "disclaimer": "⚠️ Gizleme kodu daha az okunabilir yapar ancak şifreleme değildir. Deneyimli geliştiriciler gizlenmiş kodu tersine mühendislikle çözebilir. Hassas verilerin korunmasını yalnızca gizlemeye dayandırmayın.",
+        "btn_obfuscate": "JavaScript'i Gizle",
+        "label_output": "Gizleme Sonucu",
+        "btn_copy": "JS'yi Kopyala"
+    },
+    "content": {
+        "why_title": "JavaScript Kodu Neden Gizlenir?",
+        "why_desc": "JavaScript tarayıcıda çalışır ve kaynak kodu her zaman DevTools'ta görülebilir. Gizleme kodu tam olarak koruyamaz ancak yetkisiz kopyalamayı caydırır, tersine mühendisliği yavaşlatır ve özel iş mantığını korumak için yeterli bir engel oluşturur.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Değişken Yeniden Adlandırma",
+                "desc": "Tüm değişkenleri, işlevleri ve parametreleri _0x1a2b gibi okunamaz onaltılı tanımlayıcılara yeniden adlandırır"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Dize Kodlama",
+                "desc": "Tüm dize değişmezlerini onaltılı kaçış dizilerine kodlar; işlevsel olarak aynı, okunaksız"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Kod Sıkıştırma",
+                "desc": "Gizlemeye ek olarak yorumları kaldırır ve boşlukları normalize ederek dosya boyutunu küçültür"
+            }
+        },
+        "how_title": "3 Adımda JavaScript Gizleme",
+        "how_steps": {
+            "1": {
+                "title": "JavaScript'i Yapıştırın",
+                "desc": "JavaScript kodunuzu kopyalayıp giriş alanına yapıştırın"
+            },
+            "2": {
+                "title": "Seçenekleri Seçin",
+                "desc": "Uygulanacak gizleme tekniklerini seçin — maksimum koruma için üçünü de seçin"
+            },
+            "3": {
+                "title": "Kopyalayın ve Değiştirin",
+                "desc": "Gizlenmiş içeriği kopyalayın ve dağıtım için özgün JS dosyasıyla değiştirin"
+            }
+        },
+        "uses_title": "JavaScript Gizleme Kullanım Alanları",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Ticari Kütüphane",
+                "desc": "İstemcilere dağıtılan ücretli JavaScript kütüphanelerindeki özel algoritmaları koruyun"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Tarayıcı Oyunu",
+                "desc": "Oyun mantığını, puan doğrulamayı ve hile önleme kodunu gizleyerek hile yapmayı zorlaştırın"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "SaaS Widget",
+                "desc": "İstemci sitelerine dağıtılan gömülü JavaScript widget'larını koruyun"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Yarışma ve Hackathon",
+                "desc": "Yarışma gönderimlerindeki özgün algoritmaları ve yaklaşımları koruyun"
+            }
+        },
+        "tips_title": "Gizleme En İyi Uygulamaları",
+        "tips": {
+            "testing": {
+                "title": "✓ Gizlemeden Sonra Test Edin",
+                "desc": "Gizlenmiş kodu her zaman hedef tarayıcılarda test edin — eval() gibi kalıplar katı modda bozulabilir."
+            },
+            "source": {
+                "title": "✓ Özgün Kaynak Kodunu Saklayın",
+                "desc": "Gizleme geri alınamaz bir dönüşümdür. Özgün okunabilir kaynak kodu her zaman güvenli bir sürüm kontrolü deposunda saklayın."
+            },
+            "server": {
+                "title": "✓ Hassas Mantığı Sunucuya Taşıyın",
+                "desc": "Gizleme güvenlik güvencesi değildir. Gerçekten hassas işlemler için (ödeme, kimlik doğrulama) mantığı istemci yerine sunucu tarafında uygulayın."
+            },
+            "profiler": {
+                "title": "✓ Performans Etkisini Kontrol Edin",
+                "desc": "Yoğun dize kodlaması JavaScript ayrıştırmayı hafifçe yavaşlatabilir. Üretime dağıtmadan önce Chrome DevTools'ta gizlenmiş kodu profil çıkarın."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "JavaScript'in gizlemesini tamamen çözebilir miyim?",
+            "a1": "Evet, yeterli çabayla. de4js, webcrack ve tarayıcı DevTools gibi araçlar gizlemeyi kısmen çözebilir. Amaç, tesadüfi kopyalamayı caydıracak kadar maliyeti artırmaktır; kırılmaz bir koruma sağlamak değil.",
+            "q2": "Gizleme JavaScript'i bozabilir mi?",
+            "a2": "Doğru uygulandığında gizleme, işlevsel olarak aynı kod üretmeli. Ancak agresif sıkıştırma belirli meta programlama kalıplarını bozabilir ve agresif yeniden adlandırma işlev adlarını kullanan çerçevelerle çakışabilir. Her zaman kapsamlı test yapın.",
+            "q3": "Google gizlenmiş JavaScript'i SEO'da cezalandırır mı?",
+            "a3": "Google, gizlenmiş olsa bile sayfanın JavaScript'ini indeksleyip çalıştırabilir. İşlenmiş HTML içeriği aynı ise SEO cezası yoktur. Yapılandırılmış verilerin (JSON-LD) gizlenmesi zengin sonuçları etkileyebileceğinden kaçının.",
+            "q4": "Sıkıştırma ile gizleme arasındaki fark nedir?",
+            "a4": "Sıkıştırma boşlukları ve yorumları kaldırır, dosya boyutunu küçültmek için değişken adlarını kısaltır — yeniden biçimlendirme sonrası kod okunabilir kalır. Gizleme, kodu okunamaz hale getirmeyi amaçlar: kasıtlı olarak kafa karıştırıcı değişken adları, dize kodlama ve diğer teknikler."
+        }
+    }
+}

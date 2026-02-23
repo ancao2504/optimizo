@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Online YAML Formázó - YAML Fájlok Formázása Ingyen | Optimizo",
+        "description": "YAML fájlok formázása és érvényesítése online, ingyen. Azonnali YAML tisztítás, megfelelő behúzás és szintaxisellenőrzés.",
+        "h1": "YAML Formázó",
+        "subtitle": "YAML fájlok azonnali formázása és érvényesítése — összetett beágyazott struktúrák, horgonyok és aliasok támogatottak"
+    },
+    "editor": {
+        "title": "YAML Formázó",
+        "label_input": "YAML bemenet",
+        "ph_input": "name: Saját alkalmazás\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "YAML formázása",
+        "label_output": "Formázott YAML",
+        "btn_copy": "YAML másolása"
+    },
+    "content": {
+        "why_title": "Miért formázza a YAML fájlokat?",
+        "why_desc": "A YAML rendkívül érzékeny a behúzási problémákra — egyetlen extra szóköz elemzési hibát vagy csendes adatsérülést okozhat. A Kubernetes, Docker Compose, GitHub Actions és Ansible YAML konfigurációs fájlokat használ, és egy formázási hiba az egész deploymentet blokkolhatja.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Behúzás normalizálása",
+                "desc": "A vegyes behúzást egységes 2-szóközös formátumra normalizálja az egész dokumentumban"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Szintaxisellenőrzés",
+                "desc": "Azonosítja a behúzási hibákat, a tabulátor/szóköz keveredést és a struktúrális problémákat"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Horgonyok és aliasok",
+                "desc": "Teljes körű támogatás a YAML horgonyokhoz (&) és aliasokhoz (*) a dokumentum újrafelhasználásához"
+            }
+        },
+        "how_title": "YAML formázás 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "YAML beillesztése",
+                "desc": "Illessze be a Kubernetes manifestet, GitHub Actions munkafolyamatot vagy YAML konfigurációs fájlt"
+            },
+            "2": {
+                "title": "Formázás és érvényesítés",
+                "desc": "Az eszköz érvényesíti a szintaxist és automatikusan újraformáz egységes behúzással"
+            },
+            "3": {
+                "title": "Másolás és deployment",
+                "desc": "Másolja a formázott YAML-t a fájlokba, CI folyamatokba vagy deployment eszközökbe"
+            }
+        },
+        "uses_title": "YAML formázás felhasználási esetek",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Kubernetes manifestek",
+                "desc": "Formázza a Deployment, Service és ConfigMap YAML fájlokat a klaszterre való alkalmazás előtt"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "CI/CD folyamatok",
+                "desc": "Érvényesítse a GitHub Actions, GitLab CI és CircleCI munkafolyamatokat a folyamathiba megelőzéséhez"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Ansible Playbookok",
+                "desc": "Ansible feladatok, változók és leltárak formázása és érvényesítése"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Ellenőrizze, hogy a docker-compose.yml megfelelően van-e formázva a docker compose up előtt"
+            }
+        },
+        "tips_title": "YAML legjobb gyakorlatok",
+        "tips": {
+            "spaces": {
+                "title": "✓ Szóközöket használjon, ne tabulátorokat",
+                "desc": "A YAML specifikáció kifejezetten tiltja a tabulátort a behúzáshoz. Konfigurálja a szerkesztőt arra, hogy YAML fájlokban szóközöket szúrjon be a Tab lenyomásakor."
+            },
+            "quotes": {
+                "title": "✓ Idézőjeleket használjon speciális karakterekhez",
+                "desc": "A : # [ ] { } karaktereket tartalmazó vagy speciális karakterrel kezdődő karakterláncokat idézőjelbe kell tenni."
+            },
+            "anchors": {
+                "title": "✓ Horgonyokat használva csökkentse az ismétlést",
+                "desc": "A YAML horgonyok (&név) és aliasok (*név) lehetővé teszik az értékek újrafelhasználását a dokumentumban."
+            },
+            "lint": {
+                "title": "✓ Linettelje commit előtt",
+                "desc": "Futtasson yamllint-et vagy használja ezt a formázót pre-commit hookban a formázási problémák korai felderítéséhez."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Miért nem működik a YAML tabulátorokkal szóközök helyett?",
+            "a1": "A YAML specifikáció kifejezetten tiltja a tabulátor karaktert behúzáshoz, mert különböző szerkesztők különböző szélességgel jelenítik meg a tabulátorokat. A szóközök egységes behúzást biztosítanak, amelyet minden YAML elemző azonosan értelmez.",
+            "q2": "Mit csinálnak a YAML horgonyok (&) és aliasok (*)?",
+            "a2": "A horgonyok újrafelhasználható blokkot definiálnak a &horgonynévvel; az aliasok erre hivatkoznak a *horgonynévvel. Így egyszer definiálhat egy értéket és sok helyen felhasználhatja.",
+            "q3": "Mi a különbség a YAML és JSON között?",
+            "a3": "A YAML a JSON felső halmaza — az érvényes JSON egyben érvényes YAML is. A YAML megjegyzések, horgonyok, többsoros karakterláncok és olvashatóbb szintaxis támogatást ad.",
+            "q4": "Mikor válasszon YAML-t a TOML helyett a konfigurációhoz?",
+            "a4": "A YAML szélesebb eszköztámogatással rendelkezik (Kubernetes, Ansible, a legtöbb CI rendszer) és összetett beágyazott struktúrákat tömören tud kifejezni. A DevOps konfigurációban a YAML a szabvány."
+        }
+    }
+}

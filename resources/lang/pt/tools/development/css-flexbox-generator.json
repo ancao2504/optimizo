@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Gerador CSS Flexbox Online - Construtor visual de layout | Optimizo",
+        "description": "Gere layouts CSS Flexbox visualmente online grátis. Defina direção, justify-content, align-items e gap com pré-visualização ao vivo e exportação CSS instantânea.",
+        "h1": "Gerador CSS Flexbox",
+        "subtitle": "Construa layouts CSS Flexbox visualmente — configure todas as propriedades com pré-visualização ao vivo"
+    },
+    "editor": {
+        "title": "Gerador Flexbox",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Espaço (gap)",
+        "label_items": "Número de itens",
+        "label_preview": "Pré-visualização ao vivo",
+        "btn_copy": "Copiar CSS"
+    },
+    "content": {
+        "why_title": "Por que usar um gerador visual de Flexbox?",
+        "why_desc": "CSS Flexbox tem muitas propriedades que interagem entre si — flex-direction, justify-content, align-items, align-content, flex-wrap — e suas interações podem ser confusas. Nosso gerador visual permite ajustar cada propriedade via dropdown e ver o layout atualizar em tempo real, sendo a forma mais rápida de aprender Flexbox e construir layouts sem tentativa e erro repetidos.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Pré-visualização ao vivo",
+                "desc": "Veja exatamente como seu layout Flexbox se comporta em cada mudança de propriedade — sem suposições"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Todas as propriedades cobertas",
+                "desc": "Cobre flex-direction, justify-content, align-items, flex-wrap e gap em uma única interface"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Saída CSS pronta para uso",
+                "desc": "Copia um bloco .container {} limpo pronto para colar em sua folha de estilos"
+            }
+        },
+        "how_title": "Como criar um layout Flexbox",
+        "how_steps": {
+            "1": {
+                "title": "Defina direção e quebra",
+                "desc": "Escolha flex-direction (linha/coluna) e flex-wrap para controlar o eixo principal e o overflow"
+            },
+            "2": {
+                "title": "Alinhe os itens",
+                "desc": "Defina justify-content e align-items para controlar distribuição e alinhamento dos itens"
+            },
+            "3": {
+                "title": "Copie o CSS",
+                "desc": "Clique em 'Copiar CSS' para o bloco CSS .container completo pronto para seu projeto"
+            }
+        },
+        "uses_title": "Casos de uso do Flexbox",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Barras de navegação",
+                "desc": "Flexbox é ideal para barras de navegação horizontais — use justify-content: space-between para logo + links"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Grades de cartões",
+                "desc": "Use flex-wrap: wrap com flex-basis fixo para grades de cartões responsivas que se adaptam no mobile"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Centralização perfeita",
+                "desc": "justify-content: center + align-items: center é a forma mais simples de centralizar qualquer elemento"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Layouts de formulários",
+                "desc": "Alinhe rótulos e campos de formulário horizontal ou verticalmente com Flexbox para formulários limpos"
+            }
+        },
+        "tips_title": "Boas práticas do Flexbox",
+        "tips": {
+            "axis": {
+                "title": "✓ Entenda o eixo principal vs o eixo transversal",
+                "desc": "justify-content controla o eixo principal (linha = horizontal). align-items controla o eixo transversal. Esses papéis se invertem com flex-direction: column."
+            },
+            "grow": {
+                "title": "✓ Use flex: 1 para itens flexíveis",
+                "desc": "Adicionar flex: 1 a um filho flex permite que ele cresça para preencher o espaço disponível. Combine com min-width: 0 para evitar overflow."
+            },
+            "gap": {
+                "title": "✓ Use gap em vez de margens",
+                "desc": "A propriedade gap cria espaçamento consistente entre itens flex sem adicionar margens nas bordas externas — muito mais limpo."
+            },
+            "grid": {
+                "title": "✓ Use Grid para layouts 2D",
+                "desc": "Flexbox controla um eixo por vez (linha OU coluna). Para grades 2D onde você precisa de controle simultâneo de linhas e colunas, use CSS Grid."
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "Quando usar Flexbox em vez de CSS Grid?",
+            "a1": "Flexbox é ideal para layouts 1D — distribuir itens ao longo de uma única linha ou coluna (barras de navegação, grupos de botões, linhas de formulário). CSS Grid se destaca em layouts 2D onde você controla linhas e colunas simultaneamente.",
+            "q2": "O que faz flex-wrap: wrap?",
+            "a2": "Por padrão, itens flex são forçados em uma única linha mesmo que estourem. flex-wrap: wrap permite que os itens vão para a próxima linha quando estouram — essencial para layouts responsivos.",
+            "q3": "Qual é a diferença entre align-items e align-content?",
+            "a3": "align-items alinha itens flex em uma única linha (eixo transversal). align-content só se aplica quando há múltiplas linhas (flex-wrap: wrap) e controla a distribuição dessas linhas no contêiner.",
+            "q4": "Como criar colunas de igual largura com Flexbox?",
+            "a4": "Aplique flex: 1 a cada filho flex. Isso permite que eles cresçam igualmente para preencher o espaço disponível. Use flex: 0 0 33.33% para exatamente 3 colunas iguais independente do conteúdo."
+        }
+    }
+}

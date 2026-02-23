@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "CSS Flexbox-generator Online - Visuell Layoutbyggare | Optimizo",
+        "description": "Skapa CSS Flexbox-layouter visuellt online gratis. Justera riktning, justify-content, align-items och gap med realtidsförhandsvisning och omedelbar CSS-export.",
+        "h1": "CSS Flexbox-generator",
+        "subtitle": "Skapa CSS Flexbox-layouter visuellt — justera alla egenskaper med realtidsförhandsvisning"
+    },
+    "editor": {
+        "title": "Flexbox-generator",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Avstånd (gap)",
+        "label_items": "Antal objekt",
+        "label_preview": "Realtidsförhandsvisning",
+        "btn_copy": "Kopiera CSS"
+    },
+    "content": {
+        "why_title": "Varför använda en visuell Flexbox-generator?",
+        "why_desc": "CSS Flexbox har många interagerande egenskaper och kombinationerna kan vara komplexa. Med vår visuella generator kan du justera varje egenskap via rullgardinsmenyer och se layouten uppdateras i realtid.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Realtidsförhandsvisning",
+                "desc": "Se exakt hur Flexbox-layouten beter sig vid varje egendomsändring — ingen gissning"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Alla egenskaper",
+                "desc": "flex-direction, justify-content, align-items, flex-wrap och gap i ett gränssnitt"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Redo att använda CSS",
+                "desc": "Kopiera ett rent .container {} CSS-block som du kan klistra in i din stilmall"
+            }
+        },
+        "how_title": "Skapa en Flexbox-layout",
+        "how_steps": {
+            "1": {
+                "title": "Ange riktning och radbrytning",
+                "desc": "Välj flex-direction (rad/kolumn) och flex-wrap för att styra huvudaxel och spill"
+            },
+            "2": {
+                "title": "Justera objektjustering",
+                "desc": "Justera justify-content och align-items för att styra objektdistribution och -justering"
+            },
+            "3": {
+                "title": "Kopiera CSS",
+                "desc": "Klicka på 'Kopiera CSS' för att få ett komplett .container CSS-block klart att använda i ditt projekt"
+            }
+        },
+        "uses_title": "Flexbox-användningsområden",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Navigeringsfält",
+                "desc": "Flexbox är idealiskt för horisontella navigeringsfält med justifyContent:space-between för logotyp+länkar"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Kortgrid",
+                "desc": "Skapa responsivt kortgrid med flex-wrap:wrap och fast flex-bas"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Perfekt centrering",
+                "desc": "justifyContent:center + alignItems:center — enklaste sättet att centrera vilket element som helst"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Formulärlayout",
+                "desc": "Justera etiketter och formulärfält horisontellt eller vertikalt för rena formulär med Flexbox"
+            }
+        },
+        "tips_title": "Bästa praxis för Flexbox",
+        "tips": {
+            "axis": {
+                "title": "✓ Förstå huvud- och tväraxeln",
+                "desc": "justify-content styr huvudaxeln (rad=horisontell). align-items styr tväraxeln. Byts när flex-direction:column används."
+            },
+            "grow": {
+                "title": "✓ Använd flex:1 för expanderande objekt",
+                "desc": "Lägg till flex:1 på ett flex-objekt för att expandera och fylla tillgängligt utrymme. Kombinera med min-width:0 för att förhindra spill."
+            },
+            "gap": {
+                "title": "✓ Använd gap istället för marginaler",
+                "desc": "Egenskapen gap skapar jämnt avstånd mellan flex-objekt utan att lägga till marginaler på ytterkanterna."
+            },
+            "grid": {
+                "title": "✓ Använd Grid för 2D-layouter",
+                "desc": "Flexbox styr en axel i taget (rad eller kolumn). Använd CSS Grid för tvådimensionella layouts där du behöver styra båda axlarna."
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "När ska jag använda Flexbox istället för CSS Grid?",
+            "a1": "Flexbox är idealiskt för endimensionella layouts (navigeringsfält, knappgrupper, formulärrader). CSS Grid utmärker sig i tvådimensionella layouts där du styrar rader och kolumner samtidigt.",
+            "q2": "Vad är flex-wrap:wrap?",
+            "a2": "Som standard tvingas flex-objekt till en enda rad även om de svämmar över. flex-wrap:wrap tillåter objekt att brytas till nästa rad vid spill — viktigt för responsiva layouts.",
+            "q3": "Vad är skillnaden mellan align-items och align-content?",
+            "a3": "align-items justerar flex-objekt på en enda rad. align-content gäller bara när det finns flera rader (flex-wrap:wrap) och styr fördelningen av rader i behållaren.",
+            "q4": "Hur skapar man lika breda kolumner med Flexbox?",
+            "a4": "Tillämpa flex:1 på varje kolumn. Det expanderar dem för att fylla tillgängligt utrymme jämnt. Använd flex:0 0 33,33% för exakt 3 lika kolumner oavsett innehåll."
+        }
+    }
+}

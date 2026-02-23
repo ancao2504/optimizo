@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Obfuskator JavaScript Online - Ochrona kodu JS za darmo | Optimizo",
+        "description": "Obfuskuj kod JavaScript online za darmo. Zmieniaj nazwy zmiennych, koduj ciągi i minifikuj JS, aby kod źródłowy był trudniejszy do odczytania.",
+        "h1": "Obfuskator JavaScript",
+        "subtitle": "Chroń kod JavaScript przez zmianę nazw zmiennych, kodowanie ciągów i minifikację — w całości w przeglądarce"
+    },
+    "editor": {
+        "title": "Obfuskator JavaScript",
+        "label_input": "JavaScript wejściowy",
+        "ph_input": "function powitaj(nazwa) {\n  return 'Cześć, ' + nazwa + '!';\n}",
+        "opt_rename": "Zmień nazwy zmiennych",
+        "opt_strings": "Koduj ciągi",
+        "opt_minify": "Minifikuj kod",
+        "disclaimer": "⚠️ Obfuskacja sprawia, że kod jest trudniejszy do odczytania, ale nie jest szyfrowania. Zdeterminowani programiści wciąż mogą dokonać inżynierii wstecznej obfuskowanego kodu. Nigdy nie polegaj wyłącznie na obfuskacji w celu ochrony wrażliwych danych.",
+        "btn_obfuscate": "Obfuskuj JavaScript",
+        "label_output": "Obfuskowany wynik",
+        "btn_copy": "Kopiuj JS"
+    },
+    "content": {
+        "why_title": "Dlaczego obfuskować kod JavaScript?",
+        "why_desc": "JavaScript jest wykonywany w przeglądarce, gdzie kod źródłowy jest zawsze widoczny przez DevTools. Obfuskacja nie czyni kodu niezniszczalnym, ale podnosi barierę wystarczająco, aby zniechęcić do nieautoryzowanego kopiowania, spowolnić inżynierię wsteczną i chronić zastrzeżoną logikę biznesową, algorytmy wycen i mechanizmy licencjonowania. Jest to powszechna warstwa ochrony dla komercyjnych bibliotek JS, gier i aplikacji SaaS.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Zmiana nazw zmiennych",
+                "desc": "Zmienia nazwy wszystkich zmiennych, funkcji i parametrów na nieczytelne identyfikatory szesnastkowe jak _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Kodowanie ciągów",
+                "desc": "Koduje wszystkie literały ciągów do szesnastkowych sekwencji ucieczki — funkcjonalnie identycznych, ale nieczytelnych"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minifikacja kodu",
+                "desc": "Usuwa komentarze i normalizuje białe znaki, aby zmniejszyć rozmiar pliku oprócz obfuskacji"
+            }
+        },
+        "how_title": "Jak obfuskować JavaScript w 3 krokach",
+        "how_steps": {
+            "1": {
+                "title": "Wklej JavaScript",
+                "desc": "Skopiuj kod JavaScript i wklej go w polu wejściowym"
+            },
+            "2": {
+                "title": "Wybierz opcje",
+                "desc": "Wybierz techniki obfuskacji do zastosowania — wszystkie trzy razem oferują maksymalną ochronę"
+            },
+            "3": {
+                "title": "Skopiuj i zastąp",
+                "desc": "Skopiuj obfuskowaną zawartość i zastąp oryginalny plik JS do wdrożenia"
+            }
+        },
+        "uses_title": "Przypadki użycia obfuskacji JavaScript",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Biblioteki komercyjne",
+                "desc": "Chroń zastrzeżone algorytmy w płatnych bibliotekach JavaScript dystrybuowanych klientom"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Gry przeglądarkowe",
+                "desc": "Zapobiegaj oszustwom, obfuskując logikę gry, walidację wyników i kod anti-cheat"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "Widżety SaaS",
+                "desc": "Chroń osadzone widżety JavaScript dystrybuowane na stronach klientów"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Konkursy i hackathony",
+                "desc": "Chroń unikalne algorytmy i podejścia w zgłoszeniach konkursowych"
+            }
+        },
+        "tips_title": "Najlepsze praktyki obfuskacji",
+        "tips": {
+            "testing": {
+                "title": "✓ Testuj po obfuskacji",
+                "desc": "Zawsze testuj obfuskowany kod w docelowej przeglądarce — pewne wzorce jak eval() mogą się psuć w środowiskach strict mode."
+            },
+            "source": {
+                "title": "✓ Zachowaj oryginalny kod źródłowy",
+                "desc": "Obfuskacja jest jednostronna. Zawsze przechowuj oryginalny czytelny kod źródłowy w bezpiecznym repozytorium kontroli wersji."
+            },
+            "server": {
+                "title": "✓ Przenieś wrażliwą logikę na serwer",
+                "desc": "Obfuskacja nie jest gwarancją bezpieczeństwa. W przypadku naprawdę wrażliwych operacji (płatności, uwierzytelnianie) wdrażaj logikę po stronie serwera — nie klienta."
+            },
+            "profiler": {
+                "title": "✓ Weryfikuj wpływ na wydajność",
+                "desc": "Intensywne kodowanie ciągów może nieznacznie spowolnić parsowanie JavaScript. Profiluj obfuskowany kod w Chrome DevTools przed wdrożeniem na produkcję."
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Czy obfuskowany JavaScript może być całkowicie de-obfuskowany?",
+            "a1": "Tak, przy wystarczającym wysiłku. Narzędzia takie jak de4js, webcrack i DevTools przeglądarki mogą częściowo cofnąć obfuskację. Celem jest uczynienie wysiłku wystarczająco kosztownym, aby zniechęcić przypadkowych plagiatuerzorów — nie osiągnięcie niezniszczalnej ochrony.",
+            "q2": "Czy obfuskacja może zepsuć JavaScript?",
+            "a2": "Zastosowana prawidłowo, obfuskacja powinna produkować funkcjonalnie identyczny kod. Jednak agresywna minifikacja może zepsuć pewne wzorce metaprogramowania, a agresywna zmiana nazw może wchodzić w konflikt z frameworkami zależnymi od nazw funkcji. Zawsze gruntownie testuj.",
+            "q3": "Czy Google penalizuje obfuskowany JavaScript w SEO?",
+            "a3": "Google może indeksować i uruchamiać JavaScript stron nawet jeśli jest obfuskowany. Dopóki renderowana treść HTML jest taka sama, nie ma kary SEO. Unikaj obfuskowania danych strukturalnych (JSON-LD), gdyż może to wpłynąć na rich results.",
+            "q4": "Jaka jest różnica między minifikacją a obfuskacją?",
+            "a4": "Minifikacja usuwa białe znaki, komentarze i skraca nazwy zmiennych, aby zmniejszyć rozmiar pliku — kod jest nadal czytelny po ponownym sformatowaniu. Obfuskacja ma konkretnie na celu uczynienie kodu nieczytelnym za pomocą mylących nazw zmiennych, kodowania ciągów i innych technik."
+        }
+    }
+}

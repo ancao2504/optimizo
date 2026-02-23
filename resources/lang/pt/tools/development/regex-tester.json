@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Testador de Regex Online - Teste expressões regulares grátis | Optimizo",
+        "description": "Testador de regex gratuito online. Teste expressões regulares JavaScript com destaque de correspondências em tempo real, suporte a flags e detalhes de grupos de captura.",
+        "h1": "Testador de Regex",
+        "subtitle": "Teste expressões regulares ao vivo com destaque de correspondências, flags e detalhes de grupos de captura"
+    },
+    "editor": {
+        "title": "Testador de Regex",
+        "label_pattern": "Padrão - Expressão Regular",
+        "ph_pattern": "ex. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Flags",
+        "label_test": "String de teste",
+        "ph_test": "Cole o texto que deseja testar com a sua expressão regular...",
+        "btn_test": "Testar",
+        "btn_clear": "Limpar"
+    },
+    "content": {
+        "why_title": "Por que usar nosso testador de Regex?",
+        "why_desc": "Expressões regulares (regex) são ferramentas poderosas de correspondência de padrões usadas em quase todas as linguagens de programação. Depurar regex pode ser complexo — um único caractere incorreto muda completamente o comportamento da busca. Nosso testador em tempo real destaca correspondências enquanto você digita, exibe detalhes dos grupos de captura e suporta todos os flags do JavaScript, sendo a forma mais rápida de construir e validar suas expressões regulares.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Destaque em tempo real",
+                "desc": "As correspondências são destacadas instantaneamente a cada tecla pressionada — sem necessidade de clicar"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Detalhes dos grupos de captura",
+                "desc": "Visualize todos os grupos de captura, seus índices e valores correspondentes para cada resultado"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Suporte completo a flags",
+                "desc": "Ative os flags g, i, m, s, u, y de forma independente e observe seu efeito"
+            }
+        },
+        "how_title": "Como testar um Regex em 3 passos",
+        "how_steps": {
+            "1": {
+                "title": "Digite seu padrão",
+                "desc": "Escreva sua expressão regular no campo de padrão (sem barras ao redor)"
+            },
+            "2": {
+                "title": "Escolha os flags",
+                "desc": "Ative g (global), i (case-insensitive), m (multiline) e outros flags conforme necessário"
+            },
+            "3": {
+                "title": "Cole seu texto de teste",
+                "desc": "Insira o texto a testar — as correspondências são destacadas automaticamente"
+            }
+        },
+        "uses_title": "Casos de uso comuns de Regex",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Validação de formulários",
+                "desc": "Valide e-mails, telefones, URLs, CEPs e formatos personalizados"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Buscar e substituir",
+                "desc": "Encontre e substitua padrões em editores de código, arquivos de log e pipelines de processamento de texto"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Análise de arquivos de log",
+                "desc": "Extraia dados estruturados (IPs, timestamps, códigos de erro) de logs não estruturados"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Sanitização de entradas",
+                "desc": "Remova ou substitua caracteres perigosos em dados do usuário antes de armazená-los ou exibi-los"
+            }
+        },
+        "tips_title": "Boas práticas de Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Use âncoras para correspondências exatas",
+                "desc": "Use ^ e $ para ancorar padrões ao início e fim de uma string, evitando correspondências parciais indesejadas"
+            },
+            "groups": {
+                "title": "✓ Prefira grupos não capturantes",
+                "desc": "Use (?:...) em vez de (...) quando não precisar capturar o grupo — melhora o desempenho"
+            },
+            "escape": {
+                "title": "✓ Escape os caracteres especiais",
+                "desc": "Os caracteres . * + ? ( ) [ ] { } | ^ $ \\ têm significado especial — escape-os com \\ para correspondências literais"
+            },
+            "test": {
+                "title": "✓ Teste casos extremos",
+                "desc": "Sempre teste com strings vazias, caracteres Unicode, entradas muito longas e condições de borda"
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "Qual dialeto de regex este testador usa?",
+            "a1": "Este testador usa o motor RegExp integrado do JavaScript, que segue o padrão ECMAScript. Suporta todos os recursos do JS: lookaheads, lookbehinds (ES2018+), grupos de captura nomeados e sequências de escape de propriedades Unicode.",
+            "q2": "Qual é a diferença entre os flags g e m?",
+            "a2": "O flag g (global) encontra todas as correspondências na string em vez de apenas a primeira. O flag m (multiline) faz com que ^ e $ correspondam ao início/fim de cada linha em vez de toda a string. Servem propósitos distintos e podem ser combinados.",
+            "q3": "Como fazer correspondência de um ponto literal ou asterisco?",
+            "a3": "Escape-os com uma barra invertida: \\. corresponde a um ponto literal, \\* a um asterisco literal. Dentro de uma classe de caracteres [ ], a maioria dos caracteres especiais perde seu significado, exceto ] \\ ^ -.",
+            "q4": "Por que meu regex corresponde a muito texto?",
+            "a4": "Provavelmente você está usando quantificadores gananciosos. Os quantificadores * e + são gananciosos por padrão e correspondem ao máximo de texto possível. Adicione ? para torná-los preguiçosos: *? ou +? corresponderão ao mínimo possível."
+        }
+    }
+}

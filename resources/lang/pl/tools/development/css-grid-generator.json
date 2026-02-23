@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Generator CSS Grid Online - Wizualny kreator siatki | Optimizo",
+        "description": "Generuj układy CSS Grid online za darmo. Konfiguruj kolumny, wiersze, odstępy i wyrównanie z podglądem na żywo i natychmiastowym eksportem CSS.",
+        "h1": "Generator CSS Grid",
+        "subtitle": "Buduj układy CSS Grid wizualnie — konfiguruj kolumny, wiersze, odstępy i wyrównanie z podglądem na żywo"
+    },
+    "editor": {
+        "title": "Generator CSS Grid",
+        "label_cols": "Kolumny",
+        "label_rows": "Wiersze",
+        "label_col_template": "Szablon kolumn",
+        "label_gap": "Odstęp (gap)",
+        "label_align": "align-items",
+        "label_preview": "Podgląd na żywo",
+        "btn_copy": "Kopiuj CSS"
+    },
+    "content": {
+        "why_title": "Dlaczego używać wizualnego generatora CSS Grid?",
+        "why_desc": "CSS Grid jest najpotężniejszym systemem układów w CSS, ale jego składnia — grid-template-columns, grid-template-rows, jednostki fr, minmax(), repeat() — ma stromą krzywą uczenia. Nasz wizualny generator pozwala konfigurować siatkę za pomocą suwaków i list rozwijanych i widzieć układ aktualizujący się natychmiast, aby zrozumieć efekt każdej właściwości bez zagłębiania się w dokumentację MDN.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Podgląd siatki na żywo",
+                "desc": "Widzisz siatkę aktualizującą się w czasie rzeczywistym podczas regulacji kolumn, wierszy, odstępów i wyrównania"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Obsługa jednostek fr",
+                "desc": "Szablony używają jednostek ułamkowych (fr) dla elastycznych responsywnych siatek dostosowujących się do rozmiaru kontenera"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Gotowy CSS do użycia",
+                "desc": "Eksportuje czysty blok CSS .container z grid-template-columns, rows, gap i align-items"
+            }
+        },
+        "how_title": "Jak tworzyć układy CSS Grid",
+        "how_steps": {
+            "1": {
+                "title": "Ustaw kolumny i wiersze",
+                "desc": "Użyj suwaków, aby zdefiniować liczbę kolumn i wierszy siatki"
+            },
+            "2": {
+                "title": "Wybierz szablon i odstęp",
+                "desc": "Wybierz szablon kolumn (równy, stały+elastyczny, responsywny minmax) i dostosuj odstępy między komórkami"
+            },
+            "3": {
+                "title": "Skopiuj CSS",
+                "desc": "Kliknij 'Kopiuj CSS' dla pełnego bloku CSS gotowego do wklejenia w arkuszu stylów"
+            }
+        },
+        "uses_title": "Przypadki użycia CSS Grid",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Układy stron",
+                "desc": "Buduj struktury nagłówek/pasek boczny/treść główna/stopka ze nazwanymi obszarami siatki"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Pulpity nawigacyjne",
+                "desc": "Twórz złożone układy pulpitów z kartami różnych rozmiarów przez grid-column i grid-row span"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galerie zdjęć",
+                "desc": "Buduj galerie zdjęć w stylu murowanym lub jednolite z auto-fill i minmax dla responsywności"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Układy magazynowe",
+                "desc": "Twórz redakcyjne układy z asymetrycznymi kolumnami i wyróżnionymi elementami obejmującymi wiele komórek"
+            }
+        },
+        "tips_title": "Najlepsze praktyki CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Preferuj jednostki fr ponad procenty",
+                "desc": "Jednostka fr (ułamkowa) dystrybuuje dostępną przestrzeń po kolumnach stałego rozmiaru, unikając ręcznego obliczania procentów dla elastycznych kolumn."
+            },
+            "minmax": {
+                "title": "✓ Używaj minmax() dla responsywnych siatek",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) tworzy responsywną siatkę, która automatycznie dostosowuje liczbę kolumn — bez zapytań mediów."
+            },
+            "named": {
+                "title": "✓ Używaj nazwanych obszarów siatki",
+                "desc": "grid-template-areas z nazwanymi komórkami (header, sidebar, main, footer) sprawia, że układy stron są czytelne i łatwe do modyfikacji."
+            },
+            "auto": {
+                "title": "✓ Zrozum auto-fill vs auto-fit",
+                "desc": "auto-fill tworzy jak najwięcej ścieżek (pozostawiając puste ścieżki). auto-fit zwija puste ścieżki i rozszerza istniejące elementy — zazwyczaj lepsze dla siatek kart."
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Co to jest jednostka fr w CSS Grid?",
+            "a1": "fr oznacza 'unit ułamkowy'. 1fr reprezentuje ułamek dostępnej wolnej przestrzeni w kontenerze siatki. repeat(3, 1fr) tworzy 3 równe kolumny dzielące równo całą dostępną przestrzeń.",
+            "q2": "Czym CSS Grid różni się od Flexbox?",
+            "a2": "Flexbox jest jednowymiarowy — układa elementy wzdłuż jednej osi (wiersz lub kolumna). CSS Grid jest dwuwymiarowy — steruje wierszami i kolumnami jednocześnie, co czyni go o wiele potężniejszym dla układów stron.",
+            "q3": "Co robi minmax()?",
+            "a3": "minmax(min, max) definiuje zakres rozmiarów dla ścieżki siatki. minmax(200px, 1fr) oznacza, że kolumna ma co najmniej 200px szerokości, ale może rosnąć, aby wypełnić dostępną przestrzeń — idealne dla responsywnych siatek.",
+            "q4": "Kiedy używać CSS Grid zamiast Flexbox?",
+            "a4": "Używaj Grid dla układów 2D, gdzie potrzebujesz jednoczesnej kontroli wierszy i kolumn. Używaj Flexbox dla jednowymiarowych układów komponentów, jak paski nawigacyjne i wiersze formularzy. Większość nowoczesnych układów używa obu."
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Online API Request Builder - Δωρεάν HTTP Client | Optimizo",
+        "description": "Δημιουργήστε και στείλτε αιτήματα HTTP API online & δωρεάν. Υποστηρίζει μεθόδους GET, POST, PUT, PATCH, DELETE με προσαρμοσμένα headers (κεφαλίδες), body (σώμα), και παραμέτρους.",
+        "h1": "API Request Builder",
+        "subtitle": "Δημιουργήστε, στείλτε, και αναλύστε αιτήματα HTTP API (API Requests) — Ελαφρύς HTTP Client, απευθείας στον browser σας!"
+    },
+    "editor": {
+        "title": "API Request Builder - Παραγωγός Αιτημάτων",
+        "btn_send": "Αποστολή Αιτήματος (Send)",
+        "tab_headers": "Headers (Κεφαλίδες)",
+        "tab_body": "Body (Σώμα)",
+        "tab_params": "Παράμετροι (Parameters)",
+        "btn_add_header": "Προσθήκη Header",
+        "btn_add_param": "Προσθήκη Παραμέτρου",
+        "label_response": "Απόκριση (Response)",
+        "btn_copy_response": "Αντιγραφή Απόκρισης"
+    },
+    "content": {
+        "why_title": "Γιατί να χρησιμοποιήσετε έναν API Request Builder (Παραγωγό Αιτημάτων);",
+        "why_desc": "Ο έλεγχος των REST APIs συνήθως απαιτεί το άνοιγμα 'βαρέων' μεταγλωττισμένων προγραμμάτων (όπως Postman/Insomnia) ή την κοπιαστική συγγραφή εντολών/scripts cURL. Ο HTTP Client (Πελάτης ΗΤΤΡ) του Optimizo βασίζεται αποκλειστικά στον web-browser και δεν απαιτεί καμία απολύτως λήψη ή εγκατάσταση. Απλώς ανοίξτε, πληκτρολογήστε το endpoint, δημιουργήστε το load σας και κάντε ping!",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Όλες οι μέθοδοι HTTP",
+                "desc": "Πλήρης υποστήριξη για GET, POST, PUT, PATCH, DELETE κλήσεις, συμπεριλαμβανομένων Custom HTTP Headers, JSON Body και Form UrlEncoded φορτίων (payloads)."
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Αυτόματη Μορφοποίηση Απόκρισης",
+                "desc": "Το Payload/Body της επιστροφής εμφανίζεται καλοτυπωμένο, με συντακτική εσοχή. Ο Κωδικός Κατάστασης (Status HTTP Code) καθώς και ο Χρόνος Απόκρισης (Response Time ms) καταγράφονται εμφανώς."
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Έτοιμο/Άμεσο προς Χρήση",
+                "desc": "Δεν απαιτούνται εγκαταστάσεις, λογισμικά, plugins ή λογαριασμοί — τρέχει αποκλειστικά στον περιηγητή (browser) σας με μηδενικό setup χρόνο."
+            }
+        },
+        "how_title": "Στείλτε ένα API Request μέσα σε 3 ταχύτατα βήματα",
+        "how_steps": {
+            "1": {
+                "title": "Επιλέξτε Μέθοδο και Εισάγετε URL",
+                "desc": "Επιλέξτε τη μέθοδο (Method: GET/POST/etc.) και πληκτρολογήστε ή επικολλήστε το Endpoint URL."
+            },
+            "2": {
+                "title": "Headers & Body Payloads",
+                "desc": "Επιβεβαιώστε τα Headers σας (όπως 'Authorization', 'Content-Type'), ή χρησιμοποιήστε το 'Body' tab εάν στέλνετε δεδομένα (π.χ. POST/PUT)."
+            },
+            "3": {
+                "title": "Αποστολή και Ανάλυση (Send & Inspect)",
+                "desc": "Πατήστε 'Send API Request'. Δείτε τη δομή της απάντησης (Response body), τον κωδικό κατάστασης και την ταχύτητα του αιτήματος από κάτω."
+            }
+        },
+        "uses_title": "Κλασικές Περιπτώσεις Χρήσης",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "Εντοπισμός/Διόρθωση APIs (API Debugging)",
+                "desc": "Eλέγξτε μεμονωμένα τα endpoints, μεταβάλλοντας headers, payloads ή authentication tokens ώστε να βρείτε λάθη χωρίς να πειράξετε τον κώδικα σας."
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Έλεγχος των Authentication Τokens",
+                "desc": "Προσθέστε 'Bearer', 'Basic Auth', και JWT header tokens και επαληθεύστε την εγκυρότητά τους, χωρίς να ανοίγετε terminal."
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "Εξερεύνηση - Εκμάθηση (Explore)",
+                "desc": "Αν βρήκατε κάποιο δημόσιο/ανοικτό API (OpenWeatherMap, JSONPlaceholder, Pokemon, κλπ) χρησιμοποιήστε το εργαλείο για να καταλάβετε αστραπιαία τι μορφής δομή και απάντηση επιστρέφει."
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Επιλογή και Αναπαραγωγή Αναφοράς Σφαλμάτων",
+                "desc": "Αναπαράγετε σφάλματα API (Bugs) προσδιορίζοντας ένα ακριβές σύνολο από Request payload και Response response (body/payload), κατάλληλο για την αναφορά βλαβών στους προγραμματιστές."
+            }
+        },
+        "tips_title": "Συμβουλές/Βέλτιστες Πρακτικές για το API Testing",
+        "tips": {
+            "headers": {
+                "title": "✓ Να ορίζετε πάντα σωστά το 'Content-Type'",
+                "desc": "Αν στέλνετε JSON payload, πρέπει να το δηλώνετε ξεκάθαρα. Συμπεριλάβετε πάντα στο header: `Content-Type: application/json`. Πάρα πολλά backend frameworks απορρίπτουν αμέσως (και σιωπηλά) δεδομένα εάν το Header λείπει."
+            },
+            "cors": {
+                "title": "✓ Θυμηθείτε τους περιορισμούς του CORS",
+                "desc": "Εάν το API σας επιβάλλει Cross-Origin Resource Sharing (CORS) πολιτικές εναντίον 'ξένων' origins, ο Browser ενδέχεται να μπλοκάρει το API. Σε αυτές τις περιπτώσεις στείλτε το call μέσω server-side script (ή Curl)!"
+            },
+            "auth": {
+                "title": "✓ Ποτέ μην ενσωματώνετε -και μην προδίδετε- τα API Tokens σας",
+                "desc": "Το εργαλείο λειτουργεί στον φυλλομετρητή (browser) σας. Ωστόσο είναι για ελέγχους/δοκιμές. Εντός κεντρικού/παραγωγικού κώδικα (production env), τα API keys και μυστικά (secrets) πρέπει να ζουν ΑΠΟΚΛΕΙΣΤΙΚΑ σε μεταβλητές περιβάλλοντος! (+ ποτέ μη τα βάζετε σε screenshot issues)."
+            },
+            "status": {
+                "title": "✓ Κατανοήστε τους Κωδικούς HTTP",
+                "desc": "200=OK, 201=Created/Δημιουργήθηκε, 400=Λανθασμένο Request (Bad Req), 401=Μη Εξουσιοδοτημένο/Unauthorized, 403=Aπαγόρευση/Forbidden, 404=Ανύπαρκτο/Not Found, 500=Πρόβλημα Με Τον Server (Server Error)."
+            }
+        },
+        "faq_title": "❓ Συχνές Ερωτήσεις",
+        "faq": {
+            "q1": "Γιατί βλέπω σφάλματα 'CORS policy' στα Cross-Origin Requests του Browser μου;",
+            "a1": "Δεν φταίμε εμείς, είναι ενσωματωμένος μηχανισμός ασφαλείας του περιηγητή! Αν ο API Server (στο 'origin' του/backend) δεν απαντήσει πως μας υποστηρίζει, με το επιβεβαιωτικό Header 'Access-Control-Allow-Origin', επεμβαίνει ο ίδιος ο Browser και τερματίζει βίαια την απόκριση για λόγους ασφαλείας.",
+            "q2": "Είναι ικανό αυτό το εργαλείο για αποστολές είδους multipart/form-data (όπως ανέβασμα αρχείων / file upload);",
+            "a2": "Προς το παρόν, όχι. Ο API Request Client μας στοχεύει (προς ώρας) στα καθημερινά απλά RESTful endpoints, υποστηρίζοντας ατόφιο κείμενο ή φορτία JSON. Αιτήματα τύπου 'multipart' για αποθήκευση/στέλσιμο βίντεο & εικόνων μπορούν να ελεγχθούν πιο αποδοτικά με εξειδικευμένα SDKs.",
+            "q3": "Μπορεί το Postman ή το Insomnia να θεωρηθούν 'αντικαταστάτες' γι' αυτό;",
+            "a3": "Φυσικά και ναι — τα Postman, Insomnia, & Bruno απευθύνονται σε Ομάδες / Εταιρείες/ Developers (Team collaborations) με συλλογές (collections), environments (dev, dev, root κ.λπ.), και automated workflows. Αυτό το μικρό Browser-based Tool έχει σκοπό να είναι απλά ΣΟΥΠΕΡ-ΓΡΗΓΟΡΟ, για ένα εύκολο ping χωρίς εγκαταστάσεις.",
+            "q4": "Δεν καταλαβαίνω την διαφορά μεταξύ PATCH και PUT, ποια η σημασία;",
+            "a4": "Oταν θέλετε να ενσωματώσετε ΟΛΟ τον πόρο _αναμορφώνοντας_ και _αντικαθιστώντας_ εξ' ολοκλήρου την εγγραφή ενός αντικειμένου, δηλώστε το με το PUT. Όταν όμως θέλετε να επικαιροποιήσετε/ενημερώσετε 'μερικά' πεδία / Μερική ενημέρωση (partial-update), (όπως μία περιγραφή μόνο, χωρίς τον κωδικό του εγγράφου), δηλώστε το επιλεκτικά και τμηματικά με τη μέθοδο PATCH."
+        }
+    }
+}

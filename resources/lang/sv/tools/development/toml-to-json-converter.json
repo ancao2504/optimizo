@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "TOML till JSON-konverterare Online - Gratis | Optimizo",
+        "description": "Konvertera TOML-konfigurationsfiler till JSON online gratis. Fullt stöd för TOML-tabeller, arrayer, inline-tabeller och alla datatyper.",
+        "h1": "TOML till JSON-konverterare",
+        "subtitle": "Konvertera TOML-konfiguration till JSON — tabeller, tabellmatriser och alla TOML-datatyper stöds"
+    },
+    "editor": {
+        "title": "TOML till JSON-konverterare",
+        "label_toml": "TOML-indata",
+        "ph_toml": "# TOML-exempel\ntitle = \"Min app\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "JSON-utdata",
+        "btn_copy": "Kopiera JSON"
+    },
+    "content": {
+        "why_title": "Varför konvertera TOML till JSON?",
+        "why_desc": "TOML är utformat för mänskligt läsbara konfigurationsfiler (Rusts Cargo.toml, Pythons pyproject.toml, Hugos config.toml), men JSON är standard för webb-API:er och JavaScript-verktyg. När du behöver skicka TOML-konfiguration till ett JSON-API, integrera med JavaScript-verktyg eller dela data mellan ekosystem bryggar det här verktyget gapet direkt.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Fullständig typkonvertering",
+                "desc": "TOML-strängar, heltal, decimaltal, booleans, datum — alla korrekt konverterade till JSON-ekvivalenter"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Tabeller och tabellmatriser",
+                "desc": "Hanterar [tabell], [[tabellmatris]], inline-tabell {key = value}-syntax korrekt"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Formaterad JSON-utdata",
+                "desc": "Utdata visas med indragning för läsbarhet — inte komprimerad JSON på en rad"
+            }
+        },
+        "how_title": "Konvertera TOML till JSON i 3 steg",
+        "how_steps": {
+            "1": {
+                "title": "Klistra in TOML-konfiguration",
+                "desc": "Klistra in innehållet från Cargo.toml, pyproject.toml eller annan TOML-konfigurationsfil"
+            },
+            "2": {
+                "title": "Automatisk konvertering",
+                "desc": "Verktyget parsear TOML-strukturen och konverterar till motsvarande JSON omedelbart"
+            },
+            "3": {
+                "title": "Kopiera JSON",
+                "desc": "Kopiera den genererade JSON:en för användning i API-anrop eller andra verktyg som accepterar JSON"
+            }
+        },
+        "uses_title": "Användningsfall för TOML till JSON",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Parsning av Cargo.toml",
+                "desc": "Konvertera Cargo.toml till JSON för CI-skript som analyserar beroenden"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Hugo-konfiguration",
+                "desc": "Konvertera Hugos config.toml till JSON för integration med andra verktyg"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Skicka data till API",
+                "desc": "Konvertera TOML-parametrar till JSON för att skicka till REST API:er eller GraphQL-endpoints"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Lär dig formaten",
+                "desc": "Förstå TOML→JSON-strukturmappningen för att lära dig hur de två formaten relaterar till varandra"
+            }
+        },
+        "tips_title": "Bästa praxis för TOML",
+        "tips": {
+            "tables": {
+                "title": "✓ Använd punktnotation för nästlade tabeller",
+                "desc": "TOML stöder [server.database] som stenografi för nästlade tabeller, vilket gör konfigurationen mer läsbar."
+            },
+            "strings": {
+                "title": "✓ Använd literalsträngar för sökvägar",
+                "desc": "Enkelt citerade literalsträngar som 'C:\\Users\\path' bearbetar inte escape-sekvenser — idealiska för Windows-sökvägar."
+            },
+            "comments": {
+                "title": "✓ Använd kommentarer aktivt",
+                "desc": "TOML:s viktigaste fördel över JSON är kommentarstödet. Dokumentera alla konfigurationsparametrar med # kommentarer."
+            },
+            "datetime": {
+                "title": "✓ Var uppmärksam på DateTime-typkonvertering",
+                "desc": "TOML:s inbyggda RFC 3339-datum (2024-01-15T10:30:00Z) blir strängar i JSON. Kod som konsumerar JSON behöver omtolka dem som datumtyper."
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Vad är TOML:s fördelar jämfört med YAML och JSON?",
+            "a1": "TOML är enklare än YAML (ingen indragningsbaserad struktur), mer läsbart än JSON (stöder kommentarer) och har explicita typer (heltal, decimaltal, datum är separata). Bästa valet för applikationskonfigurationsfiler där läsbarhet är viktigt.",
+            "q2": "Vad är [[tabellmatriser]] i TOML?",
+            "a2": "[[servers]] definierar en matris av objekt med namnet 'servers'. Varje förekomst av [[servers]] skapar ett nytt objekt i matrisen. JSON-ekvivalent: {\"servers\": [{...}, {...}]}.",
+            "q3": "Vilka viktiga verktyg använder TOML?",
+            "a3": "Rust (Cargo.toml), modern Python-paketering (pip/poetrys pyproject.toml), Hugo statisk webbplatsgenerator, Gitea, Lighthouse CI och många Go-verktyg använder TOML.",
+            "q4": "Bevaras TOML-kommentarer i JSON-utdata?",
+            "a4": "Nej. Eftersom JSON saknar kommentarsyntax kan TOML:s # kommentarer inte uttryckas i JSON-utdata."
+        }
+    }
+}

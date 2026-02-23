@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "YAMLフォーマッター オンライン - YAMLファイルを無料で整形 | Optimizo",
+        "description": "YAMLファイルをオンラインで無料にフォーマット・検証。即座のYAML整形、適切なインデント、構文チェック。",
+        "h1": "YAMLフォーマッター",
+        "subtitle": "YAMLファイルを即座にフォーマット・検証 — 複雑なネスト、アンカー、エイリアスに対応"
+    },
+    "editor": {
+        "title": "YAMLフォーマッター",
+        "label_input": "YAML入力",
+        "ph_input": "name: マイアプリ\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "YAMLをフォーマット",
+        "label_output": "フォーマット済みYAML",
+        "btn_copy": "YAMLをコピー"
+    },
+    "content": {
+        "why_title": "なぜYAMLファイルをフォーマットするのか？",
+        "why_desc": "YAMLはインデントの問題に非常に敏感で、余分なスペース1つでパースエラーやサイレントなデータ破損が発生する可能性があります。Kubernetes、Docker Compose、GitHub Actions、AnsibleはYAML設定ファイルを使用しており、フォーマットエラーがデプロイ全体をブロックする可能性があります。",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "インデントの正規化",
+                "desc": "混合インデントをドキュメント全体で一貫した2スペース形式に正規化"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "構文検証",
+                "desc": "本番エラーの前にインデントエラー、タブ/スペースの混在、構造的問題を検出"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "アンカーとエイリアス",
+                "desc": "ドキュメントの再利用のためのYAMLアンカー(&)とエイリアス(*)を完全サポート"
+            }
+        },
+        "how_title": "3ステップでYAMLをフォーマットする方法",
+        "how_steps": {
+            "1": {
+                "title": "YAMLを貼り付け",
+                "desc": "Kubernetesマニフェスト、GitHub Actionsワークフロー、またはYAML設定ファイルを貼り付け"
+            },
+            "2": {
+                "title": "フォーマットと検証",
+                "desc": "ツールが構文を検証し、一貫したインデントで自動的に再フォーマット"
+            },
+            "3": {
+                "title": "コピーしてデプロイ",
+                "desc": "フォーマット済みYAMLをファイル、CIパイプライン、デプロイツールにコピー"
+            }
+        },
+        "uses_title": "YAMLフォーマットのユースケース",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Kubernetesマニフェスト",
+                "desc": "クラスターに適用する前にDeployment、Service、ConfigMapのYAMLファイルをフォーマット"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "CI/CDパイプライン",
+                "desc": "GitHub Actions、GitLab CI、CircleCIワークフローを検証してパイプラインエラーを防ぐ"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Ansible Playbooks",
+                "desc": "クリーンなインフラコードのためにAnsibleタスク、変数、インベントリをフォーマット・検証"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "docker compose up前にdocker-compose.ymlファイルが正しくフォーマットされているか確認"
+            }
+        },
+        "tips_title": "YAMLのベストプラクティス",
+        "tips": {
+            "spaces": {
+                "title": "✓ タブでなくスペースを使用",
+                "desc": "YAMLはインデントにタブ文字を明示的に禁止しています。YAMLファイルでTabキーを押したときにスペースが挿入されるようエディタを設定してください。"
+            },
+            "quotes": {
+                "title": "✓ 特殊文字には引用符を使用",
+                "desc": ": # [ ] { }を含む文字列や特殊文字で始まる文字列は、YAMLが誤って解釈しないように引用符で囲む必要があります。"
+            },
+            "anchors": {
+                "title": "✓ 重複を減らすためにアンカーを使用",
+                "desc": "YAMLアンカー(&name)とエイリアス(*name)でドキュメント内の値を再利用でき、複雑な設定の繰り返しを削減します。"
+            },
+            "lint": {
+                "title": "✓ コミット前にLint",
+                "desc": "yamllintを実行するかpre-commitフックでこのフォーマッターを使用して、リポジトリに入る前にフォーマット問題を検出してください。"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "なぜYAMLはスペースの代わりのタブで動作しないのですか？",
+            "a1": "YAML仕様はインデントにタブ文字を明示的に禁止しています。異なるエディタがタブを異なる幅で表示するためです。スペースはすべてのYAMLパーサーが同じように解釈できる一貫した明確なインデントを提供します。",
+            "q2": "YAMLのアンカー(&)とエイリアス(*)は何をしますか？",
+            "a2": "アンカーは&anchor-nameで再利用可能なブロックを定義し、エイリアスは*anchor-nameで参照します。これにより値を一度定義して何度も使用でき、DRYな設定を維持できます。",
+            "q3": "YAMLとJSONの違いは何ですか？",
+            "a3": "YAMLはJSONのスーパーセットで、有効なJSONは有効なYAMLでもあります。YAMLはコメント、アンカー、複数行文字列、より読みやすい構文のサポートを追加します。",
+            "q4": "設定にTOMLよりYAMLを選ぶべき理由は？",
+            "a4": "YAMLはより広いツールサポートを持ち（Kubernetes、Ansible、ほとんどのCIシステム）、複雑なネスト構造を簡潔に表現できます。DevOps設定ではYAMLが標準です。"
+        }
+    }
+}

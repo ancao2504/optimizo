@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "SVG Optimizer Online - Gratis SVG-compressor | Optimizo",
+        "description": "Optimaliseer en comprimeer SVG-bestanden online gratis. Verwijder opmerkingen, metadata en onnodige attributen om de grootte te verkleinen met behoud van visuele kwaliteit.",
+        "h1": "SVG Optimizer",
+        "subtitle": "Comprimeer SVG-bestanden online — verwijder metadata, opmerkingen en overbodige attributen"
+    },
+    "editor": {
+        "title": "SVG Optimizer",
+        "opt_remove_comments": "Opmerkingen verwijderen",
+        "opt_remove_metadata": "Metadata verwijderen",
+        "opt_remove_ids": "ID's verwijderen",
+        "opt_remove_dimensions": "Breedte/hoogte verwijderen",
+        "opt_remove_doctype": "DOCTYPE verwijderen",
+        "opt_round_numbers": "Getallen afronden",
+        "opt_collapse_groups": "Lege groepen verwijderen",
+        "opt_remove_empty_containers": "Lege containers verwijderen",
+        "label_input": "SVG-invoer",
+        "ph_input": "Plak hier je SVG-code...",
+        "btn_optimize": "SVG optimaliseren",
+        "label_output": "Geoptimaliseerde SVG",
+        "btn_copy": "SVG kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom SVG-bestanden optimaliseren?",
+        "why_desc": "SVG-bestanden geëxporteerd vanuit Illustrator, Figma of Inkscape bevatten veel onnodige gegevens — opmerkingen, editormetadata, overbodige attributen, te precieze decimale getallen en lege containers. Deze elementen blazen de bestandsgrootte met 30-70% op zonder visueel voordeel. Geoptimaliseerde SVG's laden sneller, verbruiken minder bandbreedte en kunnen schoner worden ingesloten in HTML.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 optimalisatiestrategieën",
+                "desc": "Activeer/deactiveer elke optimalisatiepass afzonderlijk voor nauwkeurige controle over wat wordt verwijderd"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Statistieken over grote reductie",
+                "desc": "Bekijk de originele grootte, geoptimaliseerde grootte en besparingspercentage na elke optimalisatie"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Optimalisatie zonder visueel verlies",
+                "desc": "Alle optimalisaties behouden het visuele uiterlijk van de SVG — alleen onzichtbare metadata wordt verwijderd"
+            }
+        },
+        "how_title": "Hoe een SVG optimaliseren in 3 stappen",
+        "how_steps": {
+            "1": {
+                "title": "Plak de SVG-code",
+                "desc": "Kopieer de SVG-broncode van je ontwerptool of bestand en plak het in het invoerveld"
+            },
+            "2": {
+                "title": "Selecteer optimalisaties",
+                "desc": "Vink de optimalisatieopties aan — of gebruik de standaardwaarden voor maximale reductie"
+            },
+            "3": {
+                "title": "Kopieer en implementeer",
+                "desc": "Kopieer de geoptimaliseerde SVG en vervang je originele bestand, of sluit het direct in HTML in"
+            }
+        },
+        "uses_title": "Gebruiksscenario's voor SVG-optimalisatie",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Pictogrambibliotheken",
+                "desc": "Optimaliseer pictogrammensets geëxporteerd vanuit Figma of Illustrator voordat je ze bundelt in een bibliotheek"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Logo's",
+                "desc": "Maak geëxporteerde SVG-logo's schoner voor siteheaders, favicons en merkactiva"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "Geanimeerde SVG's",
+                "desc": "Verklein de basisgrootte van geanimeerde SVG's die al groter zijn vanwege animatiegegevens"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA en mobiel",
+                "desc": "Kleinere SVG's verminderen mobiel dataverbruik en verbeteren Lighthouse-prestatiescores"
+            }
+        },
+        "tips_title": "Best practices voor SVG-optimalisatie",
+        "tips": {
+            "ids": {
+                "title": "✓ Pas op met het verwijderen van ID's bij CSS-animaties",
+                "desc": "Als je SVG CSS- of JavaScript-animaties gebruikt die elementID's targeten, vink dan 'ID's verwijderen' uit om animaties niet te breken."
+            },
+            "viewbox": {
+                "title": "✓ Behoud viewBox, verwijder breedte/hoogte",
+                "desc": "Breedte/hoogte-attributen verwijderen en viewBox behouden maakt SVG's responsief via CSS — de beste aanpak voor responsief ontwerp."
+            },
+            "precision": {
+                "title": "✓ Ronde getallen af op 2 decimalen",
+                "desc": "Padcoördinaten met 5+ decimalen zijn visueel niet waarneembaar. Afronden op 2 decimalen verkleint het bestand zonder enig visueel verschil."
+            },
+            "pipeline": {
+                "title": "✓ Automatiseer met SVGO in CI/CD",
+                "desc": "Voor grote projecten, integreer SVGO in je buildpipeline om automatisch alle SVG's te optimaliseren. Gebruik dit hulpmiddel voor snelle handmatige controles."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Hoeveel kan SVG-optimalisatie de grootte verkleinen?",
+            "a1": "Doorgaans een reductie van 30-70% afhankelijk van de bron. Illustrator SVG's bieden vaak de grootste besparingen. Figma-exports zijn al relatief schoon. De grootste winsten komen van het verwijderen van editormetadata, opmerkingen en het afronden van decimale precisie.",
+            "q2": "Verandert optimalisatie het uiterlijk van mijn SVG?",
+            "a2": "Nee — alle optimalisaties in dit hulpmiddel verwijderen alleen onzichtbare gegevens (opmerkingen, metadata, overbodige attributen) of ronden getallen af tot niet-waarneembare precisie. Het visuele resultaat is identiek aan het origineel.",
+            "q3": "Waarom breedte- en hoogte-attributen verwijderen?",
+            "a3": "Hardgecodeerde breedte-/hoogte-waarden voorkomen dat SVG's responsief schalen via CSS. Door ze te verwijderen en alleen viewBox te behouden, kun je de SVG-afmetingen volledig via CSS-eigenschappen beheren.",
+            "q4": "Wat is het verschil tussen dit hulpmiddel en SVGO?",
+            "a4": "SVGO is een Node.js opdrachtregeltool en de standaard voor SVG-optimalisatie. Dit hulpmiddel biedt een handige browserinterface voor de meest voorkomende optimalisaties zonder Node.js te moeten installeren."
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON:sta TOML:iin Muunnin Verkossa - Ilmainen | Optimizo",
+        "description": "Muunna JSON TOML-muotoon verkossa ilmaiseksi. Luo automaattisesti taulukkosektiot, käsittelee sisäkkäisiä objekteja ja tuottaa siistiä luettavaa TOML:ia.",
+        "h1": "JSON:sta TOML:iin -muunnin",
+        "subtitle": "Muunna JSON-konfigurointidata luettavampaan TOML-muotoon — automaattinen taulukoiden ja sektioiden luonti"
+    },
+    "editor": {
+        "title": "JSON:sta TOML:iin -muunnin",
+        "label_json": "JSON-syöte",
+        "ph_json": "{\n  \"title\": \"Sovellukseni\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "TOML-tuloste",
+        "btn_copy": "Kopioi TOML"
+    },
+    "content": {
+        "why_title": "Miksi muuntaa JSON-konfiguraatiotiedostoja TOML:ksi?",
+        "why_desc": "JSON ei ole suunniteltu konfiguraatiotiedostoille — ei kommentteja, monistava syntaksi sisäkkäiselle datalle ja vaatii ylimääräistä escape-merkkausta. TOML tekee samat tiedot luettavammiksi [sektio]-otsikoilla, # kommenteilla ja siistimmällä avain-arvo-syntaksilla. config.json:n muuntaminen config.toml:ksi parantaa ylläpidettävyyttä ja itsedokumentointia.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Automaattinen sektioiden luonti",
+                "desc": "Sisäkkäiset JSON-objektit muuntuvat automaattisesti TOML-taulukkopoluiksi [section.subsection]"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Tyyppisäilytys",
+                "desc": "JSON-numerot, totuusarvot ja merkkijonot kartoitetaan oikein TOML-vastaaviksi ilman tietohäviötä"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Siistimpi konfiguraatio",
+                "desc": "Samat tiedot TOML-muodossa ovat tyypillisesti 20-40 % lyhyempiä ja paljon luettavampia kuin JSON"
+            }
+        },
+        "how_title": "JSON:n muuntaminen TOML:ksi 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Liitä JSON-konfiguraatio",
+                "desc": "Kopioi olemassa oleva JSON-konfiguraatiotiedosto ja liitä se vasempaan paneeliin"
+            },
+            "2": {
+                "title": "Tarkista TOML-tuloste",
+                "desc": "Vastaava TOML ilmestyy oikeaan paneeliin — tarkista, että rakenne vastaa odotuksia"
+            },
+            "3": {
+                "title": "Lisää kommentit ja tallenna",
+                "desc": "Kopioi TOML, lisää # kommentit jokaisen sektiolle dokumentoinnin ja tallenna uutena konfiguraatiotiedostona"
+            }
+        },
+        "uses_title": "JSON:sta TOML:iin -muuntimen käyttötapaukset",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.toml:n luominen",
+                "desc": "Muunna tietoja package.json:sta Cargo.toml-muotoon Rust-projektin perustamisen nopeuttamiseksi"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Siirtyminen pyproject.toml:iin",
+                "desc": "Muunna setup.cfg tai setup.py moderniin Python-paketoinnin standardiin pyproject.toml"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Konfiguraatiotiedostojen päivittäminen",
+                "desc": "Siirrä config.json config.toml:ksi ja dokumentoi jokainen asetus # kommenteilla"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Konfiguraation jakaminen työkalujen välillä",
+                "desc": "Muunna sama konfiguraatiotieto JSON- ja TOML-ekosysteemien välillä tarpeen mukaan"
+            }
+        },
+        "tips_title": "Vinkkejä JSON:sta TOML:iin -muuntamiseen",
+        "tips": {
+            "arrays": {
+                "title": "✓ Tarkista objektitaulukot huolellisesti",
+                "desc": "JSON-objektitaulukot ([{name:\"a\"},{name:\"b\"}]) käyttävät TOML:n [[taulukkotaulukko]]-syntaksia. Varmista, että ne muunnetaan oikein tulosteessa."
+            },
+            "null": {
+                "title": "✓ TOML:lla ei ole null:ia",
+                "desc": "JSON:n null:lla ei ole suoraa vastinetta TOML:ssa. Null-arvot yleensä jätetään pois tai korvataan tyhjällä merkkijonolla. Käsittele nämä tapaukset manuaalisesti."
+            },
+            "keys": {
+                "title": "✓ Lainausmerkkitä erikoismerkit sisältävät avaimet",
+                "desc": "TOML-avaimet, joissa on yhdysviivoja tai välilyöntejä, vaativat lainausmerkit: \"content-type\" = \"json\". Käytä alaviivaa JSON-avaimissa ongelman välttämiseksi."
+            },
+            "test": {
+                "title": "✓ Testaa sovelluksen TOML-jäsentimellä",
+                "desc": "Eri TOML-jäsentimet (toml-rs, tomllib, @iarna/toml) voivat käsitellä reunatapauksia eri tavoin. Testaa aina muunnettu TOML todellisessa ajoympäristössä."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Voidaanko kaikki JSON-tietotyypit muuntaa TOML:ksi?",
+            "a1": "Useimmat tyypit muuntuvat siististi: merkkijonot, numerot, totuusarvot, taulukot ja objekteilla on suorat TOML-vastineet. JSON:n null:lla ei ole TOML-vastinetta ja se yleensä jätetään pois. Syvälle sisäkkäiset objektitaulukot saattavat vaatia manuaalista korjausta.",
+            "q2": "Voiko TOML täysin korvata JSON:n konfiguraatiotiedostoissa?",
+            "a2": "Staattisille konfiguraatiotiedostoille kyllä. Konfiguraatiota lukeva koodi on vaihdettava JSON.parse():sta TOML-jäsentimeen. TOML ei voi korvata JSON:ia API:ssa tai tiedonvaihdossa.",
+            "q3": "Mitä tiedostopäätettä TOML käyttää?",
+            "a3": ".toml-päätettä. Yleisiä esimerkkejä: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (Cargo-konfiguraatio).",
+            "q4": "Miten valitaan JSON:n, YAML:n ja TOML:n välillä konfiguraatiossa?",
+            "a4": "JSON: API-tiedonvaihto (yleinen tuki, kommentteja ei tarvita). YAML: DevOps-konfiguraatio (Kubernetes, CI/CD jne.). TOML: Sovelluskonfiguraatio (yksinkertainen syntaksi, eksplisiittiset tyypit, paras manuaaliseen muokkaukseen)."
+        }
+    }
+}

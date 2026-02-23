@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "JavaScript Obfuscator Online - Free JS Code Protector",
+        "description": "Obfuscate JavaScript code online for free. Rename variables, encode strings, and minify JS to make your source code harder to read and reverse-engineer.",
+        "h1": "JavaScript Obfuscator",
+        "subtitle": "Protect JavaScript code by renaming variables, encoding strings, and minifying — all in your browser"
+    },
+    "editor": {
+        "title": "JavaScript Obfuscator",
+        "label_input": "JavaScript Input",
+        "ph_input": "function greet(name) {\n  return 'Hello, ' + name + '!';\n}",
+        "opt_rename": "Rename Variables",
+        "opt_strings": "Encode Strings",
+        "opt_minify": "Minify Code",
+        "disclaimer": "⚠️ Obfuscation makes code harder to read but is not encryption. Determined developers can still reverse-engineer obfuscated code. Never rely on obfuscation as a security measure for sensitive data.",
+        "btn_obfuscate": "Obfuscate JavaScript",
+        "label_output": "Obfuscated Output",
+        "btn_copy": "Copy JS"
+    },
+    "content": {
+        "why_title": "Why Obfuscate JavaScript Code?",
+        "why_desc": "JavaScript runs in the browser where source code is always visible via DevTools. Obfuscation doesn't make code uncrackable, but it raises the barrier high enough to deter casual copying, slow down reverse engineering, and protect proprietary business logic, pricing algorithms, and licensing mechanisms. It's a common protection layer for commercial JS libraries, games, and SaaS applications.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Variable Renaming",
+                "desc": "Renames all variables, functions, and parameters to unreadable hex identifiers like _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "String Encoding",
+                "desc": "Encodes all string literals as hex escape sequences that are functionally identical but unreadable"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Code Minification",
+                "desc": "Strips comments and normalizes whitespace to reduce file size alongside obfuscation"
+            }
+        },
+        "how_title": "How to Obfuscate JavaScript in 3 Steps",
+        "how_steps": {
+            "1": {
+                "title": "Paste JavaScript",
+                "desc": "Copy your JavaScript code and paste it into the input area"
+            },
+            "2": {
+                "title": "Select Options",
+                "desc": "Choose which obfuscation techniques to apply — all three together give maximum protection"
+            },
+            "3": {
+                "title": "Copy & Replace",
+                "desc": "Copy the obfuscated output and replace your original JS file for deployment"
+            }
+        },
+        "uses_title": "JavaScript Obfuscation Use Cases",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Commercial Libraries",
+                "desc": "Protect proprietary algorithms in paid JavaScript libraries distributed to clients"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Browser Games",
+                "desc": "Prevent cheating by obfuscating game logic, score validation, and anti-cheat code"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "SaaS Widgets",
+                "desc": "Protect embedded JavaScript widgets distributed to customer websites"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Hackathon & Competition",
+                "desc": "Protect unique algorithms and approaches in competition submissions"
+            }
+        },
+        "tips_title": "Obfuscation Best Practices",
+        "tips": {
+            "testing": {
+                "title": "✓ Test After Obfuscation",
+                "desc": "Always test the obfuscated code in your target browser — some patterns like eval() can break in strict mode environments."
+            },
+            "source": {
+                "title": "✓ Keep Original Source Safe",
+                "desc": "Obfuscation is one-way. Always keep the original, readable source in a secure version control repository."
+            },
+            "server": {
+                "title": "✓ Move Sensitive Logic Server-Side",
+                "desc": "Obfuscation is not security. For truly sensitive operations (payments, auth), implement the logic on the server — not the client."
+            },
+            "profiler": {
+                "title": "✓ Check Performance Impact",
+                "desc": "Heavy string encoding can slow JavaScript parsing slightly. Profile obfuscated code in Chrome DevTools before shipping."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Can obfuscated JavaScript be fully deobfuscated?",
+            "a1": "Yes, given enough effort. Tools like de4js, webcrack, and browser DevTools can partially reverse obfuscation. The goal is to make the effort high enough to deter casual competitors — not to achieve unbreakable protection.",
+            "q2": "Will obfuscation break my JavaScript?",
+            "a2": "Properly applied, obfuscation should produce functionally identical code. However, minification that removes comments can break some meta-programming patterns, and aggressive renaming can conflict with frameworks that rely on function names. Always test thoroughly.",
+            "q3": "Does Google penalize obfuscated JavaScript for SEO?",
+            "a3": "Google can index and execute JavaScript in pages even if obfuscated. As long as the rendered HTML content is the same, there's no SEO penalty. Avoid obfuscating structured data (JSON-LD) as it may affect rich snippets.",
+            "q4": "What's the difference between minification and obfuscation?",
+            "a4": "Minification removes whitespace, comments, and shortens variable names for smaller file size — it's still readable after formatting. Obfuscation specifically aims to make code unreadable by using confusing variable names, string encoding, and other techniques."
+        }
+    }
+}

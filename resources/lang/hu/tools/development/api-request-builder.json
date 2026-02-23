@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Online API Kérés Készítő - Ingyenes HTTP Kliens | Optimizo",
+        "description": "API HTTP kérések létrehozása és küldése online, ingyen. Támogatja a GET, POST, PUT, PATCH, DELETE metódusokat egyéni fejlécekkel, kérés törzsével és lekérdezési paraméterekkel.",
+        "h1": "API Kérés Készítő",
+        "subtitle": "API HTTP kérések létrehozása, küldése és vizsgálata — könnyűsúlyú HTTP kliens a böngészőben"
+    },
+    "editor": {
+        "title": "API Kérés Készítő",
+        "btn_send": "Kérés küldése",
+        "tab_headers": "Fejlécek",
+        "tab_body": "Törzs",
+        "tab_params": "Paraméterek",
+        "btn_add_header": "Fejléc hozzáadása",
+        "btn_add_param": "Paraméter hozzáadása",
+        "label_response": "Válasz",
+        "btn_copy_response": "Válasz másolása"
+    },
+    "content": {
+        "why_title": "Miért használjon API kérés készítőt?",
+        "why_desc": "A REST API tesztelése általában a Postman vagy az Insomnia telepítését vagy curl parancsok írását igényli. A böngészőalapú HTTP kliensünk nem igényel telepítést — nyissa meg és küldjön kéréseket közvetlenül.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Összes HTTP metódus",
+                "desc": "Támogatja a GET, POST, PUT, PATCH, DELETE metódusokat egyéni fejlécekkel és JSON/form törzzsel"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Formázott válasz",
+                "desc": "A válasz törzse automatikusan behúzottan jelenik meg; az állapotkód és a válaszidő látható"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Azonnal használható",
+                "desc": "Semmi telepíteni való — teljesen a böngészőben működik, fiók vagy plugin nélkül"
+            }
+        },
+        "how_title": "API kérés küldése 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "URL és metódus megadása",
+                "desc": "Adja meg az API végpont URL-jét és válassza ki a HTTP metódust (GET, POST stb.)"
+            },
+            "2": {
+                "title": "Fejlécek és törzs hozzáadása",
+                "desc": "Adja hozzá az Authorization, Content-Type stb. fejléceket a 'Fejlécek' fülön. Használja a 'Törzs' fület POST/PUT adatokhoz."
+            },
+            "3": {
+                "title": "Küldés és vizsgálat",
+                "desc": "Kattintson a 'Küldés' gombra. A válasz törzse, állapotkódja és ideje alul jelenik meg."
+            }
+        },
+        "uses_title": "API kérés készítő felhasználási esetek",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "API hibakeresés",
+                "desc": "Tesztelje az egyes végpontokat egyéni fejlécekkel és törzzsel a hitelesítési és adatproblémák hibakereséséhez"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Hitelesítési tokenek tesztelése",
+                "desc": "Tesztelje a Bearer, Basic Auth és API kulcs sémákat kódírás nélkül"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "API feltárása",
+                "desc": "Fedezze fel a nyilvános API-kat (GitHub, OpenWeather, JSONPlaceholder) és értse meg a válaszokat"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Hibák reprodukálása",
+                "desc": "Reprodukáljon és dokumentáljon API hibákat pontos kérési és válaszadatokkal a hibajelentésekhez"
+            }
+        },
+        "tips_title": "API tesztelési legjobb gyakorlatok",
+        "tips": {
+            "headers": {
+                "title": "✓ Mindig állítsa be a Content-Type fejlécet",
+                "desc": "JSON törzzsel mindig adja hozzá a Content-Type: application/json fejlécet. Sok API nélküle elutasítja vagy helytelenül értelmezi a kérést."
+            },
+            "cors": {
+                "title": "✓ Értse meg a CORS korlátozásokat",
+                "desc": "A böngészők blokkolják a cross-origin kéréseket megfelelő CORS fejlécek nélkül. Használjon curl-t vagy szerver oldali proxyt, ha a böngészőben sikertelen a kérés."
+            },
+            "auth": {
+                "title": "✓ Ne kódolja be az API kulcsokat",
+                "desc": "Éles kódban használjon környezeti változókat. Az eszköz tesztelésre való — ne osszon meg képernyőképeket valódi API kulcsokkal."
+            },
+            "status": {
+                "title": "✓ Ellenőrizze a HTTP állapotkódokat",
+                "desc": "200=OK, 201=Létrehozva, 400=Hibás kérés, 401=Jogosulatlan, 403=Tiltott, 404=Nem található, 500=Szerverhiba."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Miért sikertelenek a cross-origin kérések?",
+            "a1": "A böngészők CORS korlátozásokat alkalmaznak. Ha a célAPI nem rendelkezik Access-Control-Allow-Origin fejléccel, a böngésző blokkolja a kérést. Ez nem hiba — CORS nélküli API-khoz használjon curl-t vagy backend proxyt.",
+            "q2": "Küldhetek multipart/form-data kéréseket?",
+            "a2": "A készítő jelenleg JSON és szöveges törzseket támogat. Fájlfeltöltésekhez és hasonló többrészes form kérésekhez használjon specializált eszközt, mint a Postman.",
+            "q3": "Ez alternatíva a Postmanhez?",
+            "a3": "Gyors teszteléshez és felfedezéshez igen. Csapatmunkához, mentett gyűjteményekhez, környezetekehez és automatizált tesztekhez a Postman vagy a Bruno több funkcionalitást kínál.",
+            "q4": "Mi a különbség a PUT és a PATCH között?",
+            "a4": "A PUT a teljes erőforrást felváltja a kérés törzsével. A PATCH részleges frissítéseket alkalmaz — csak a törzsben szereplő mezők módosulnak. A legtöbb REST API a PATCH-et használja frissítésekhez, hogy ne írja felül a változatlan mezőket."
+        }
+    }
+}

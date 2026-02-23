@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Calculator chmod Online - Permisiuni Linux Gratuit | Optimizo",
+        "description": "Calculator chmod online și gratuit. Convertiți permisiunile fișierelor Linux între notația simbolică (rwxr-xr-x) și octală (755) și generați comenzi chmod.",
+        "h1": "Calculator chmod",
+        "subtitle": "Calculați permisiunile Linux — convertiți notația simbolică și octală și generați comenzi chmod"
+    },
+    "editor": {
+        "title": "Calculator Permisiuni chmod",
+        "label_octal": "Valoare octală",
+        "col_type": "Tip",
+        "col_read": "Citire (r)",
+        "col_write": "Scriere (w)",
+        "col_exec": "Executare (x)",
+        "col_octal": "Octal",
+        "row_owner": "Proprietar",
+        "row_group": "Grup",
+        "row_others": "Alții (toți)",
+        "btn_copy": "Copiați comanda"
+    },
+    "content": {
+        "why_title": "De ce să folosiți un calculator chmod?",
+        "why_desc": "Permisiunile fișierelor Linux sunt exprimate în notație simbolică (rwxr-xr-x) și octală (755). Calculul manual al valorii corecte a permisiunilor este predispus la erori. Calculatorul nostru permite selectarea vizuală a permisiunilor și generarea instantanee a valorii octale și a unei comenzi chmod utile.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Constructor vizual de permisiuni",
+                "desc": "Faceți clic pe casetele de selectare citire/scriere/executare pentru proprietar/grup/alții; valorile se actualizează instantaneu"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Sincronizare bidirecțională",
+                "desc": "Introduceți o valoare octală (ex. 755) și casetele de selectare se actualizează automat, sau invers"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Comandă gata de utilizare",
+                "desc": "Generează o comandă chmod completă care poate fi lipită direct în terminal"
+            }
+        },
+        "how_title": "Cum se calculează permisiunile",
+        "how_steps": {
+            "1": {
+                "title": "Bifați permisiunile dorite",
+                "desc": "Faceți clic pe casetele de selectare citire/scriere/executare pentru proprietar, grup și alții"
+            },
+            "2": {
+                "title": "Verificați octal și simbolic",
+                "desc": "Valoarea octală (ex. 755) și notația simbolică (rwxr-xr-x) se actualizează instantaneu"
+            },
+            "3": {
+                "title": "Copiați comanda",
+                "desc": "Copiați comanda chmod generată și rulați-o în terminal"
+            }
+        },
+        "uses_title": "Scenarii tipice chmod",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Fișiere server web",
+                "desc": "Setați 644 pentru fișierele HTML/CSS/JS pe Apache sau Nginx (proprietar citire/scriere, grup/alții citire)"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Scripturi executabile",
+                "desc": "Setați 755 pentru scripturi shell (proprietar acces complet, grup/alții citire+executare)"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "Chei SSH",
+                "desc": "SSH necesită 600 (numai proprietar citire/scriere) pentru cheile private"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Directoare de încărcare",
+                "desc": "Setați 775 pentru directoarele de încărcare web astfel încât procesul serverului să poată scrie fișiere"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru permisiunile Linux",
+        "tips": {
+            "never777": {
+                "title": "✓ Nu folosiți niciodată 777 în producție",
+                "desc": "chmod 777 oferă tuturor acces complet citire/scriere/executare — risc grav de securitate."
+            },
+            "least": {
+                "title": "✓ Principiul privilegiului minim",
+                "desc": "Acordați întotdeauna cele mai mici permisiuni necesare. Începeți restrictiv (600) și adăugați după nevoie."
+            },
+            "recursive": {
+                "title": "✓ Fiți atenți cu -R (recursiv)",
+                "desc": "chmod -R aplică permisiunile recursiv tuturor fișierelor și directoarelor."
+            },
+            "umask": {
+                "title": "✓ Înțelegeți umask",
+                "desc": "Valoarea umask scade permisiunile din valoarea implicită. umask 022 dă fișierelor noi 644 și directoarelor noi 755."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Ce înseamnă chmod 755?",
+            "a1": "755 înseamnă: proprietar(7)=citire+scriere+executare, grup(5)=citire+executare, alții(5)=citire+executare. Permisiuni implicite pentru fișiere executabile și directoare publice.",
+            "q2": "Care este diferența dintre 644 și 755?",
+            "a2": "644 (rw-r--r--): proprietar citire/scriere, alții numai citire — pentru fișiere obișnuite. 755 (rwxr-xr-x): proprietarul poate și executa — pentru scripturi și directoare.",
+            "q3": "De ce cheile SSH necesită permisiunea 600?",
+            "a3": "SSH refuză utilizarea cheilor private accesibile altora. 600 (rw-------) asigură că numai proprietarul poate citi și scrie cheia.",
+            "q4": "Ce înseamnă bitul de executare pe un director?",
+            "a4": "Bitul de executare pe un director înseamnă privilegiu de 'trecere' — că utilizatorul poate intra în director și accesa fișierele din el. Fără permisiunea de executare, utilizatorul nu poate intra în director."
+        }
+    }
+}

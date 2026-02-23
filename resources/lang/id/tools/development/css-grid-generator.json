@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Generator CSS Grid Online - Pembuat Layout Grid Visual | Optimizo",
+        "description": "Buat layout CSS Grid secara visual secara online dan gratis. Sesuaikan kolom, baris, gap, dan penyelarasan dengan pratinjau real-time dan ekspor CSS instan.",
+        "h1": "Generator CSS Grid",
+        "subtitle": "Buat layout CSS Grid secara visual — sesuaikan kolom, baris, gap, dan penyelarasan dengan pratinjau real-time"
+    },
+    "editor": {
+        "title": "Generator CSS Grid",
+        "label_cols": "Jumlah Kolom",
+        "label_rows": "Jumlah Baris",
+        "label_col_template": "Template Kolom",
+        "label_gap": "Jarak (gap)",
+        "label_align": "align-items",
+        "label_preview": "Pratinjau Real-time",
+        "btn_copy": "Salin CSS"
+    },
+    "content": {
+        "why_title": "Mengapa menggunakan generator CSS Grid visual?",
+        "why_desc": "CSS Grid adalah sistem layout paling kuat dalam CSS namun sintaksnya memiliki kurva pembelajaran yang curam. Dengan generator visual kami, Anda dapat menyesuaikan grid menggunakan slider dan dropdown dan langsung melihat dampak setiap properti.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Pratinjau Grid Real-time",
+                "desc": "Grid diperbarui secara real-time saat Anda menyesuaikan kolom, baris, gap, dan penyelarasan"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Dukungan Unit fr",
+                "desc": "Template menggunakan unit fr (fraksi) untuk grid fleksibel yang beradaptasi dengan ukuran container"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "CSS Siap Pakai",
+                "desc": "Ekspor blok .container CSS yang bersih dengan grid-template-columns, rows, gap, dan align-items"
+            }
+        },
+        "how_title": "Buat layout CSS Grid",
+        "how_steps": {
+            "1": {
+                "title": "Konfigurasikan kolom dan baris",
+                "desc": "Atur jumlah kolom dan baris grid menggunakan slider"
+            },
+            "2": {
+                "title": "Pilih template dan gap",
+                "desc": "Pilih template kolom (sama rata, tetap+fleksibel, atau minmax responsif) dan atur gap"
+            },
+            "3": {
+                "title": "Salin CSS",
+                "desc": "Klik 'Salin CSS' untuk mendapatkan blok CSS lengkap yang siap ditempel ke stylesheet"
+            }
+        },
+        "uses_title": "Kasus Penggunaan CSS Grid",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Layout Halaman",
+                "desc": "Buat struktur header/sidebar/konten utama/footer dengan named grid areas"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboard",
+                "desc": "Buat layout dashboard kompleks dengan kartu berbeda ukuran menggunakan grid-column dan grid-row span"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galeri",
+                "desc": "Buat galeri bergaya masonry atau beraturan yang beradaptasi dengan auto-fill dan minmax"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Layout Majalah",
+                "desc": "Buat layout editorial dengan kolom tidak sama dan konten unggulan yang merentang beberapa sel"
+            }
+        },
+        "tips_title": "Praktik Terbaik CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Prioritaskan unit fr daripada persentase",
+                "desc": "Unit fr (fraksi) membagi ruang yang tersedia setelah kolom tetap tanpa perhitungan manual."
+            },
+            "minmax": {
+                "title": "✓ Gunakan minmax() untuk grid responsif",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) membuat grid responsif yang secara otomatis menyesuaikan jumlah kolom."
+            },
+            "named": {
+                "title": "✓ Gunakan named grid areas",
+                "desc": "grid-template-areas dengan sel bernama membuat layout halaman mudah dibaca dan dimodifikasi."
+            },
+            "auto": {
+                "title": "✓ Pahami auto-fill vs. auto-fit",
+                "desc": "auto-fill membuat jumlah track maksimum (termasuk yang kosong). auto-fit mengkompres track kosong dan memperluas yang ada — biasanya optimal untuk grid kartu."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Apa itu unit fr dalam CSS Grid?",
+            "a1": "fr adalah singkatan dari 'fractional unit'. 1fr mewakili sepotong ruang kosong yang tersedia dalam container grid. repeat(3, 1fr) membuat 3 kolom yang membagi ruang yang tersedia secara merata.",
+            "q2": "Apa perbedaan antara CSS Grid dan Flexbox?",
+            "a2": "Flexbox adalah satu dimensi — menempatkan item di sepanjang satu sumbu (baris atau kolom). CSS Grid adalah dua dimensi — dapat mengontrol baris dan kolom secara bersamaan, jauh lebih kuat untuk layout halaman.",
+            "q3": "Apa yang dilakukan minmax()?",
+            "a3": "minmax(min, max) menentukan rentang ukuran untuk track grid. minmax(200px, 1fr) berarti kolom minimal 200px lebar namun dapat tumbuh untuk mengisi ruang yang tersedia.",
+            "q4": "Kapan menggunakan CSS Grid daripada Flexbox?",
+            "a4": "Gunakan Grid untuk layout dua dimensi di mana Anda mengontrol baris dan kolom secara bersamaan. Gunakan Flexbox untuk layout satu dimensi komponen seperti navbar."
+        }
+    }
+}

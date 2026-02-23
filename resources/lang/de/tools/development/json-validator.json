@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON-Validator Online - Kostenloser JSON-Syntaxprüfer | Optimizo",
+        "description": "Kostenloser Online-JSON-Validator. Prüfen Sie JSON-Syntax sofort, erkennen Sie Fehler mit Zeilennummern und zeigen Sie das formatierte Ergebnis an.",
+        "h1": "JSON-Validator",
+        "subtitle": "Validieren Sie JSON-Syntax sofort — erkennen Sie Fehler und stellen Sie sicher, dass Ihre Daten korrekt strukturiert sind"
+    },
+    "editor": {
+        "title": "JSON-Validator",
+        "label_input": "Zu prüfendes JSON",
+        "ph_input": "JSON hier einfügen...",
+        "btn_validate": "JSON validieren",
+        "btn_copy": "JSON kopieren"
+    },
+    "content": {
+        "why_title": "Warum JSON vor der Verwendung validieren?",
+        "why_desc": "Ungültiges JSON bricht APIs, Konfigurations-Parser und Datenpipelines still und heimlich. Ein falsch gesetztes Komma, eine nicht geschlossene Klammer oder ein nicht-escaptes Anführungszeichen kann Laufzeitfehler verursachen, die schwer nachzuverfolgen sind. Unser JSON-Validator erkennt diese Probleme sofort mit genauen Zeilennummern und klaren Fehlermeldungen, damit Sie Probleme beheben können, bevor sie die Produktion erreichen.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Sofortige Validierung",
+                "desc": "Validiert JSON in Millisekunden mit präzisen Fehlermeldungen und den entsprechenden Zeilennummern"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Strukturübersicht",
+                "desc": "Sehen Sie auf einen Blick Tiefe, Anzahl der Schlüssel und Typverteilung Ihres JSON"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100 % privat",
+                "desc": "Die gesamte Validierung erfolgt in Ihrem Browser — Ihre Daten verlassen niemals Ihren Computer"
+            }
+        },
+        "how_title": "JSON in 3 Schritten validieren",
+        "how_steps": {
+            "1": {
+                "title": "JSON einfügen",
+                "desc": "Kopieren Sie Ihr JSON aus einer API-Antwort, einer Konfigurationsdatei oder einer anderen Quelle und fügen Sie es ein"
+            },
+            "2": {
+                "title": "Validieren klicken",
+                "desc": "Der Validator prüft die Syntax sofort und hebt Fehler mit Zeilennummern hervor"
+            },
+            "3": {
+                "title": "Korrigieren und kopieren",
+                "desc": "Beheben Sie die angezeigten Fehler und kopieren Sie dann das validierte, formatierte JSON"
+            }
+        },
+        "uses_title": "Anwendungsfälle der JSON-Validierung",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "API-Antworten prüfen",
+                "desc": "Stellen Sie sicher, dass REST-API-Antworten korrekt strukturiert sind, bevor sie in Ihrer Anwendung verarbeitet werden"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Konfigurationsdateien prüfen",
+                "desc": "Validieren Sie package.json, tsconfig.json und andere Konfigurationsdateien vor dem Deployment"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Datenimporte validieren",
+                "desc": "Prüfen Sie importierte JSON-Dateien auf Korrektheit, bevor sie in eine Datenbank geladen werden"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "JSON-Fehler debuggen",
+                "desc": "Lokalisieren Sie Syntaxfehler genau in komplexen, verschachtelten JSON-Strukturen"
+            }
+        },
+        "tips_title": "JSON-Best-Practices",
+        "tips": {
+            "quotes": {
+                "title": "✓ Immer doppelte Anführungszeichen verwenden",
+                "desc": "JSON verlangt doppelte Anführungszeichen für Zeichenketten und Schlüssel. Einfache Anführungszeichen sind kein gültiges JSON."
+            },
+            "trailing": {
+                "title": "✓ Kein abschließendes Komma",
+                "desc": "Im Gegensatz zu JavaScript erlaubt JSON kein Komma nach dem letzten Element eines Arrays oder Objekts."
+            },
+            "null": {
+                "title": "✓ null, nicht None oder nil verwenden",
+                "desc": "Das Schlüsselwort null in JSON muss kleingeschrieben sein. Pythons None und Rubys nil sind kein gültiges JSON."
+            },
+            "validate": {
+                "title": "✓ Nach manueller Bearbeitung erneut validieren",
+                "desc": "Validieren Sie JSON immer erneut, nachdem Sie es manuell bearbeitet haben. Ein kleiner Tippfehler macht das gesamte Dokument ungültig."
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Warum ist mein JSON ungültig, obwohl es korrekt aussieht?",
+            "a1": "Häufige versteckte Probleme: abschließende Kommas nach dem letzten Element in einem Array/Objekt, einfache statt doppelte Anführungszeichen, nicht-escapte Sonderzeichen in Zeichenketten oder JavaScript-Kommentare (JSON unterstützt keine Kommentare).",
+            "q2": "Kann ich sehr große JSON-Dateien validieren?",
+            "a2": "Ja — die Validierung erfolgt vollständig in Ihrem Browser über natives JSON.parse(). Die Dateigröße ist nur durch den Arbeitsspeicher Ihres Browsers begrenzt. Bei Dateien über 10 MB kann die Verarbeitung einige Sekunden dauern.",
+            "q3": "Was ist der Unterschied zwischen JSON und JSONP?",
+            "a3": "JSON ist ein reines Datenformat. JSONP (JSON with Padding) umschließt JSON in einem Funktionsaufruf für Cross-Origin-Anfragen. JSONP ist kein gültiges JSON — dieser Validator wird es als ungültig ablehnen.",
+            "q4": "Unterstützt JSON Kommentare?",
+            "a4": "Nein. JSON unterstützt keine Kommentare (// oder /* */). Wenn Sie JSON annotieren müssen, verwenden Sie einen _comment-Schlüssel oder wechseln Sie zu YAML oder TOML, die beide Kommentare unterstützen."
+        }
+    }
+}

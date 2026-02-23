@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Testeur de Regex en ligne - Testez vos expressions régulières | Optimizo",
+        "description": "Testeur de regex gratuit en ligne. Testez vos expressions régulières JavaScript avec mise en évidence des correspondances en temps réel, support des drapeaux et détails des groupes de capture.",
+        "h1": "Testeur de Regex",
+        "subtitle": "Testez vos expressions régulières en direct avec mise en évidence des correspondances, drapeaux et groupes de capture"
+    },
+    "editor": {
+        "title": "Testeur de Regex",
+        "label_pattern": "Motif - Expression Régulière",
+        "ph_pattern": "ex. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Drapeaux",
+        "label_test": "Chaîne de test",
+        "ph_test": "Collez le texte sur lequel vous souhaitez tester votre expression régulière...",
+        "btn_test": "Tester",
+        "btn_clear": "Effacer"
+    },
+    "content": {
+        "why_title": "Pourquoi utiliser notre testeur de Regex ?",
+        "why_desc": "Les expressions régulières (regex) sont des outils de correspondance de motifs puissants utilisés dans presque tous les langages de programmation. Le débogage d'un regex peut être complexe — un seul caractère erroné modifie entièrement le comportement de la recherche. Notre testeur en temps réel met en évidence les correspondances au fur et à mesure de la saisie, affiche les détails des groupes de capture et prend en charge tous les drapeaux JavaScript, ce qui en fait la solution la plus rapide pour construire et valider vos expressions régulières.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Mise en évidence en temps réel",
+                "desc": "Les correspondances sont surlignées instantanément à chaque frappe — aucun bouton à cliquer"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Détails des groupes de capture",
+                "desc": "Affichez tous les groupes de capture, leurs indices et les valeurs correspondantes pour chaque résultat"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Support complet des drapeaux",
+                "desc": "Activez ou désactivez les drapeaux g, i, m, s, u, y indépendamment et observez leur effet"
+            }
+        },
+        "how_title": "Comment tester un Regex en 3 étapes",
+        "how_steps": {
+            "1": {
+                "title": "Saisissez votre motif",
+                "desc": "Tapez votre expression régulière dans le champ de motif (sans barres obliques autour)"
+            },
+            "2": {
+                "title": "Choisissez les drapeaux",
+                "desc": "Activez g (global), i (insensible à la casse), m (multiligne) et d'autres drapeaux si nécessaire"
+            },
+            "3": {
+                "title": "Collez votre texte de test",
+                "desc": "Entrez le texte à tester — les correspondances sont surlignées automatiquement"
+            }
+        },
+        "uses_title": "Cas d'utilisation courants du Regex",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Validation de formulaires",
+                "desc": "Validez les adresses e-mail, numéros de téléphone, URL, codes postaux et formats personnalisés"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Recherche et remplacement",
+                "desc": "Trouvez et remplacez des motifs dans les éditeurs de code, fichiers de logs et pipelines de traitement de texte"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Analyse de fichiers de logs",
+                "desc": "Extrayez des données structurées (IP, horodatages, codes d'erreur) depuis des logs non structurés"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Assainissement des saisies",
+                "desc": "Supprimez ou remplacez les caractères dangereux dans les données utilisateur avant stockage ou affichage"
+            }
+        },
+        "tips_title": "Bonnes pratiques Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Utilisez des ancres pour des correspondances exactes",
+                "desc": "Utilisez ^ et $ pour ancrer les motifs au début et à la fin d'une chaîne, évitant ainsi les correspondances partielles indésirables"
+            },
+            "groups": {
+                "title": "✓ Préférez les groupes non-capturants",
+                "desc": "Utilisez (?:...) au lieu de (...) lorsque vous n'avez pas besoin de capturer le groupe, ce qui améliore les performances"
+            },
+            "escape": {
+                "title": "✓ Échappez les caractères spéciaux",
+                "desc": "Les caractères . * + ? ( ) [ ] { } | ^ $ \\ ont une signification spéciale — échappez-les avec \\ pour les correspondances littérales"
+            },
+            "test": {
+                "title": "✓ Testez les cas limites",
+                "desc": "Testez toujours avec des chaînes vides, des caractères Unicode, des entrées très longues et des conditions aux limites"
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Quel dialecte regex ce testeur utilise-t-il ?",
+            "a1": "Ce testeur utilise le moteur RegExp intégré à JavaScript, qui suit le standard ECMAScript. Il prend en charge toutes les fonctionnalités JS : préfixes anticipés, rétrospectifs (ES2018+), groupes de capture nommés et séquences d'échappement de propriétés Unicode.",
+            "q2": "Quelle est la différence entre les drapeaux g et m ?",
+            "a2": "Le drapeau g (global) trouve toutes les correspondances dans la chaîne au lieu de seulement la première. Le drapeau m (multiligne) fait correspondre ^ et $ au début/fin de chaque ligne plutôt qu'à l'ensemble de la chaîne. Ils servent des objectifs distincts et peuvent être combinés.",
+            "q3": "Comment faire correspondre un point ou un astérisque littéral ?",
+            "a3": "Échappez-les avec une barre oblique inversée : \\. correspond à un point littéral, \\* à un astérisque littéral. Dans une classe de caractères [ ], la plupart des caractères spéciaux perdent leur signification, à l'exception de ] \\ ^ -.",
+            "q4": "Pourquoi mon regex correspond-il à trop de texte ?",
+            "a4": "Vous utilisez probablement des quantificateurs gourmands. Les quantificateurs * et + sont gourmands par défaut et correspondent à autant de texte que possible. Ajoutez ? pour les rendre paresseux : *? ou +? correspondront à aussi peu que possible."
+        }
+    }
+}

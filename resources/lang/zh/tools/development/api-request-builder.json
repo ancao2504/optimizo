@@ -1,0 +1,100 @@
+{
+    "meta": {
+        "title": "在线 API 请求构建器 - Rest API 测试终端 | Optimizo",
+        "description": "免费的在线 API 开发请求 (HTTP Client) 构建工具。像 Postman 一样快速测试您的 RESTful API 接口，设置 Headers 并获取服务器的 JSON 响应输出。",
+        "h1": "API 请求构建器与测试器",
+        "subtitle": "直接在浏览器端，便捷地发送 HTTP 请求并测试您的后端接口与第三方 API"
+    },
+    "editor": {
+        "title": "HTTP 请求控制台",
+        "label_method": "请求方法 (Method)",
+        "label_url": "请求目标地址 (Endpoint URL)",
+        "ph_url": "https://api.example.com/v1/users",
+        "btn_send": "发送请求 (Send)",
+        "label_headers": "自定义请求头 (Headers)",
+        "btn_add_header": "添加请求头 (+ Header)",
+        "label_body": "请求载荷 (Request Body JSON)",
+        "ph_body": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"secure123\"\n}",
+        "label_response": "响应输出 (Response)",
+        "label_status": "状态码:",
+        "label_time": "耗时:"
+    },
+    "content": {
+        "why_title": "为什么您会需要这款轻量级在线 API 请求工具？",
+        "why_desc": "在前后端分离的开发架构下，API 是所有系统通信的核心桥梁。不论是接入 Google Maps 还是验证自家的登录接口，您都需要一个测试窗口。相较于下载沉重的桌面端模拟器客户端（如 Postman），这款轻量级工具让您无需登录，就能自定义 Headers、携带 JSON Payload，并瞬间从远端服务器获取完整的响应数据和状态码 (Status Code)，极大提升了前后端联调效率！",
+        "features": {
+            "methods": {
+                "icon": "⚡",
+                "title": "支持主流 HTTP 方法",
+                "desc": "全面支持 GET, POST, PUT, DELETE 等常用的 RESTful 操作指令。"
+            },
+            "headers": {
+                "icon": "🪪",
+                "title": "自定义认证请求头",
+                "desc": "轻松配置 Bearer Tokens, Authorization 秘钥，或是 Content-Type 等标识以通过接口的安全校验。"
+            },
+            "body": {
+                "icon": "📦",
+                "title": "内置 JSON 载荷编辑器",
+                "desc": "为 POST 和 PUT 请求提供了带有语法高亮支持的 JSON 文本编辑环境。"
+            }
+        },
+        "how_title": "三步轻松探测并验证您的 API 接口",
+        "how_steps": {
+            "1": {
+                "title": "选择请求方法并填入 URL",
+                "desc": "在顶部选择具体的动词（如读取用 GET，提交用 POST），并输入您目标服务器的完整 URL 链接。"
+            },
+            "2": {
+                "title": "设置权限与载荷数据",
+                "desc": "如果接口需要身份验证，请在 Headers 区补充对应秘钥。涉及到发送数据的请求，请在下方编辑器填入 JSON 数据。"
+            },
+            "3": {
+                "title": "发送并查看响应与状态码",
+                "desc": "点击绿色的发送 (Send) 按钮，您将立即获得包括状态码 (如 200 或 401)、请求耗时以及回传的完整 JSON 内容。"
+            }
+        },
+        "uses_title": "这个在线请求沙盒可以应用在哪些常见的开发场景？",
+        "uses": {
+            "thirdparty": {
+                "icon": "🌐",
+                "title": "调试第三方服务接口",
+                "desc": "在编写前端代码前，先在这里测试对接例如 GitHub, Twitter 等外部 API 的连通性与数据结构。"
+            },
+            "auth": {
+                "icon": "🔐",
+                "title": "核查登录状态与权限限制",
+                "desc": "携带 JWT Token 去验证后端的拦截器逻辑，检查系统能否正确返回认证拒签 (403 / 401) 的错误。"
+            },
+            "frontend": {
+                "icon": "🎨",
+                "title": "前端快速联调测试",
+                "desc": "前端界面开发者可以在独立环境中预先获取服务器真实数据，协助完成界面的渲染逻辑。"
+            },
+            "webhooks": {
+                "icon": "🎣",
+                "title": "打通服务端回调测试",
+                "desc": "发送测试的 POST 请求向您系统开放的回调接口（例如支付结果 Webhook 回调接收端）以验证通信状态。"
+            }
+        },
+        "tips_title": "排除 API 联调报错故障的经验心得",
+        "tips": {
+            "cors": {
+                "title": "✓ 注意同源策略导致跨域错误 (CORS)",
+                "desc": "由于此工具是在浏览器内发起的原生 AJAX 请求，如果您的目标 API 没有配置允许跨域请求的后端参数，您将会遇到 `CORS Error`。这不是工具的问题，而是服务器的安全机制限制。"
+            },
+            "content_type": {
+                "title": "✓ 务必声明您的 Content-Type",
+                "desc": "如果您向服务端发送的 Request Body 是 JSON，请确保在 Headers 面板中添加了 `Content-Type: application/json`，否则后端很有可能会将它视作普通文本拒收或者抛错。"
+            },
+            "query": {
+                "title": "✓ URL 中的查询字符串参数",
+                "desc": "若您打算在 GET 请求中附加参数（如 `?page=2&sort=desc`），请直接将它加在 URL 的最尾端，而不必写在 Request Body 当中。"
+            },
+            "status": {
+                "title": "✓ 了解状态码对应的含义",
+                "desc": "状态码非常关键。收到 200 代表请求完全无误且成功；收到 201 代表创建新数据成功；收到 400 意味着您的格式填错；401 即您所提交的口令或账号权限未能验证过关。"
+            }
+        }
+    }
+}

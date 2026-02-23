@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Générateur CSS Grid en ligne - Constructeur visuel de grille | Optimizo",
+        "description": "Générez des mises en page CSS Grid en ligne gratuitement. Configurez colonnes, lignes, espacement et alignement avec un aperçu en direct et export CSS instantané.",
+        "h1": "Générateur CSS Grid",
+        "subtitle": "Construisez des mises en page CSS Grid visuellement — configurez colonnes, lignes, espacement et alignement avec aperçu en direct"
+    },
+    "editor": {
+        "title": "Générateur CSS Grid",
+        "label_cols": "Colonnes",
+        "label_rows": "Lignes",
+        "label_col_template": "Modèle de colonnes",
+        "label_gap": "Espacement (gap)",
+        "label_align": "align-items",
+        "label_preview": "Aperçu en direct",
+        "btn_copy": "Copier le CSS"
+    },
+    "content": {
+        "why_title": "Pourquoi utiliser un générateur visuel CSS Grid ?",
+        "why_desc": "CSS Grid est le système de mise en page le plus puissant en CSS, mais sa syntaxe — grid-template-columns, grid-template-rows, unités fr, minmax(), repeat() — a une courbe d'apprentissage prononcée. Notre générateur visuel vous permet de configurer votre grille via des curseurs et listes déroulantes et de voir votre mise en page se mettre à jour instantanément, afin que vous compreniez l'effet de chaque propriété sans plonger dans la documentation MDN.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Aperçu de grille en direct",
+                "desc": "Voyez votre grille se mettre à jour en temps réel à mesure que vous ajustez colonnes, lignes, espacement et alignement"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Support des unités fr",
+                "desc": "Les modèles utilisent des unités fractionnaires (fr) pour des grilles flexibles et responsives qui s'adaptent à la taille du conteneur"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Sortie CSS prête à l'emploi",
+                "desc": "Exporte un bloc CSS .container propre avec grid-template-columns, rows, gap et align-items"
+            }
+        },
+        "how_title": "Comment créer une mise en page CSS Grid",
+        "how_steps": {
+            "1": {
+                "title": "Définissez les colonnes et les lignes",
+                "desc": "Utilisez les curseurs pour définir le nombre de colonnes et de lignes pour votre grille"
+            },
+            "2": {
+                "title": "Choisissez le modèle et l'espacement",
+                "desc": "Sélectionnez un modèle de colonnes (égal, fixe+flex, minmax responsive) et ajustez l'espacement entre les cellules"
+            },
+            "3": {
+                "title": "Copiez le CSS",
+                "desc": "Cliquez sur 'Copier le CSS' pour obtenir le bloc CSS complet prêt à coller dans votre feuille de style"
+            }
+        },
+        "uses_title": "Cas d'utilisation de CSS Grid",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Mises en page de pages",
+                "desc": "Construisez proprement les structures en-tête/colonnes latérales/contenu principal/pied de page avec des zones de grille nommées"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Tableaux de bord",
+                "desc": "Créez des mises en page de tableau de bord complexes avec des cartes de tailles variées via des extensions grid-column et grid-row"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galeries d'images",
+                "desc": "Construisez des galeries d'images de type maçonnerie ou uniformes avec auto-fill et minmax pour la responsivité"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Mises en page magazine",
+                "desc": "Créez des mises en page éditoriales avec des colonnes asymétriques et des éléments vedettes s'étendant sur plusieurs cellules"
+            }
+        },
+        "tips_title": "Bonnes pratiques CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Préférez les unités fr aux pourcentages",
+                "desc": "L'unité fr (fraction) distribue l'espace disponible après les colonnes de taille fixe, évitant de calculer manuellement les pourcentages pour les colonnes flexibles."
+            },
+            "minmax": {
+                "title": "✓ Utilisez minmax() pour les grilles responsives",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) crée une grille responsive qui ajuste automatiquement le nombre de colonnes — sans media queries."
+            },
+            "named": {
+                "title": "✓ Utilisez les zones de grille nommées",
+                "desc": "grid-template-areas avec des cellules nommées (header, sidebar, main, footer) rend les mises en page de pages lisibles et faciles à modifier."
+            },
+            "auto": {
+                "title": "✓ Comprendre auto-fill vs auto-fit",
+                "desc": "auto-fill crée autant de pistes que possible (en laissant des pistes vides). auto-fit réduit les pistes vides et étend les éléments existants — généralement préférable pour les grilles de cartes."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Qu'est-ce qu'une unité fr en CSS Grid ?",
+            "a1": "fr signifie 'unité fractionnaire'. 1fr représente une fraction de l'espace libre disponible dans le conteneur de grille. repeat(3, 1fr) crée 3 colonnes égales partageant également tout l'espace disponible.",
+            "q2": "En quoi CSS Grid diffère-t-il de Flexbox ?",
+            "a2": "Flexbox est unidimensionnel — il dispose des éléments le long d'un seul axe (ligne ou colonne). CSS Grid est bidimensionnel — il contrôle simultanément lignes et colonnes, ce qui le rend bien plus puissant pour les mises en page de pages.",
+            "q3": "Que fait minmax() ?",
+            "a3": "minmax(min, max) définit une plage de taille pour une piste de grille. minmax(200px, 1fr) signifie qu'une colonne a au moins 200px de large mais peut s'agrandir pour occuper l'espace disponible — idéal pour les grilles responsives.",
+            "q4": "Quand utiliser CSS Grid plutôt que Flexbox ?",
+            "a4": "Utilisez Grid pour les mises en page 2D où vous avez besoin de contrôle simultané des lignes et des colonnes. Utilisez Flexbox pour les mises en page de composants 1D comme les barres de navigation et les lignes de formulaire. La plupart des mises en page modernes utilisent les deux."
+        }
+    }
+}

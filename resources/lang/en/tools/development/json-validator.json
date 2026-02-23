@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON Validator Online - Free JSON Syntax Checker",
+        "description": "Free online JSON validator. Instantly check if your JSON is valid, detect syntax errors with line numbers, and view nicely formatted output.",
+        "h1": "JSON Validator",
+        "subtitle": "Validate JSON syntax instantly — detect errors and ensure your data is properly structured"
+    },
+    "editor": {
+        "title": "JSON Validator",
+        "label_input": "JSON to Validate",
+        "ph_input": "Paste your JSON here...",
+        "btn_validate": "Validate JSON",
+        "btn_copy": "Copy JSON"
+    },
+    "content": {
+        "why_title": "Why Validate JSON Before Using It?",
+        "why_desc": "Invalid JSON silently breaks APIs, configuration parsers, and data pipelines. A single misplaced comma, unclosed bracket, or unescaped quote can cause runtime errors that are frustrating to trace. Our JSON validator catches these issues instantly, showing exact line numbers and clear error messages so you can fix problems before they reach production.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Instant Validation",
+                "desc": "Validates JSON in milliseconds with precise error messages and line numbers"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Structure Overview",
+                "desc": "See the depth, key count, and type breakdown of your JSON at a glance"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100% Private",
+                "desc": "All validation happens in your browser — your data never leaves your computer"
+            }
+        },
+        "how_title": "How to Validate JSON in 3 Steps",
+        "how_steps": {
+            "1": {
+                "title": "Paste Your JSON",
+                "desc": "Copy your JSON from an API response, config file, or any source and paste it"
+            },
+            "2": {
+                "title": "Click Validate",
+                "desc": "The validator instantly checks syntax and highlights any errors with line numbers"
+            },
+            "3": {
+                "title": "Fix & Copy",
+                "desc": "Correct any errors shown, then copy the validated and formatted JSON"
+            }
+        },
+        "uses_title": "JSON Validation Use Cases",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "API Response Validation",
+                "desc": "Ensure REST API responses are properly structured before processing them in your app"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Config File Checking",
+                "desc": "Validate package.json, tsconfig.json, and other config files before deploying"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Data Import Validation",
+                "desc": "Check imported JSON data files for correctness before loading into a database"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Debugging JSON Errors",
+                "desc": "Quickly pinpoint the exact location of syntax errors in complex nested JSON"
+            }
+        },
+        "tips_title": "JSON Best Practices",
+        "tips": {
+            "quotes": {
+                "title": "✓ Always Use Double Quotes",
+                "desc": "JSON strictly requires double quotes for strings and keys. Single quotes are not valid JSON."
+            },
+            "trailing": {
+                "title": "✓ No Trailing Commas",
+                "desc": "Unlike JavaScript, JSON does not allow trailing commas after the last item in arrays or objects."
+            },
+            "null": {
+                "title": "✓ Use null, not None or nil",
+                "desc": "The null keyword in JSON must be lowercase. Python's None and Ruby's nil are not valid JSON."
+            },
+            "validate": {
+                "title": "✓ Validate After Manual Edits",
+                "desc": "Always re-validate JSON after editing it by hand. Small typos easily invalidate the entire document."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Why is my JSON invalid if it looks correct?",
+            "a1": "Common hidden issues include: trailing commas after the last array/object element, single quotes instead of double quotes, unescaped special characters in strings, or JavaScript-style comments (JSON doesn't support comments).",
+            "q2": "Can I validate very large JSON files?",
+            "a2": "Yes — validation runs entirely in your browser using JavaScript's built-in JSON.parse(). File size is only limited by your browser's memory. For files over 10MB, processing may take a few seconds.",
+            "q3": "What is the difference between JSON and JSONP?",
+            "a3": "JSON is a pure data format. JSONP (JSON with Padding) wraps JSON in a function call for cross-origin requests. JSONP is not valid JSON — this validator will reject it as invalid.",
+            "q4": "Does JSON support comments?",
+            "a4": "No. JSON does not support comments (// or /* */). If you need to annotate JSON, consider using a _comment key, or switch to YAML or TOML which both support comments."
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Online CSS Grid Generátor - Vizuális Rács Elrendezés Készítő | Optimizo",
+        "description": "CSS Grid elrendezések vizuális létrehozása online, ingyen. Állítsa be az oszlopokat, sorokat, köztes tereket és igazítást valós idejű előnézettel és azonnali CSS exporttal.",
+        "h1": "CSS Grid Generátor",
+        "subtitle": "CSS Grid elrendezések vizuális létrehozása — oszlopok, sorok, köztes terek és igazítás beállítása valós idejű előnézettel"
+    },
+    "editor": {
+        "title": "CSS Grid Generátor",
+        "label_cols": "Oszlopok száma",
+        "label_rows": "Sorok száma",
+        "label_col_template": "Oszlop sablon",
+        "label_gap": "Köztes tér (gap)",
+        "label_align": "align-items",
+        "label_preview": "Valós idejű előnézet",
+        "btn_copy": "CSS másolása"
+    },
+    "content": {
+        "why_title": "Miért használjon vizuális CSS Grid generátort?",
+        "why_desc": "A CSS Grid a CSS legerősebb elrendezési rendszere, de a szintaxisa meredek tanulási görbével rendelkezik. Vizuális generátorunkkal csúszkák és legördülő menük segítségével állíthatja be a rácsot, és azonnal láthatja az egyes tulajdonságok hatását.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Valós idejű rács előnézet",
+                "desc": "A rács valós időben frissül az oszlopok, sorok, köztes terek és igazítás beállításakor"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "fr egység támogatás",
+                "desc": "A sablonok fr (töredék) egységet használnak rugalmas rácsokhoz, amelyek a konténer méretéhez igazodnak"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Azonnal használható CSS",
+                "desc": "Tiszta .container CSS blokkot exportálhat grid-template-columns, rows, gap és align-items értékekkel"
+            }
+        },
+        "how_title": "CSS Grid elrendezés létrehozása",
+        "how_steps": {
+            "1": {
+                "title": "Oszlopok és sorok beállítása",
+                "desc": "Adja meg a rács oszlopainak és sorainak számát csúszkákkal"
+            },
+            "2": {
+                "title": "Sablon és köztes tér kiválasztása",
+                "desc": "Válassza ki az oszlopsablont (egyenlő, fix+rugalmas vagy reszponzív minmax) és állítsa be a köztes teret"
+            },
+            "3": {
+                "title": "CSS másolása",
+                "desc": "Kattintson a 'CSS másolása' gombra a teljes CSS blokk megszerzéséhez a stíluslapba illesztéshez"
+            }
+        },
+        "uses_title": "CSS Grid felhasználási esetek",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Oldal elrendezés",
+                "desc": "Hozzon létre fejléc/oldalsáv/fő tartalom/lábléc struktúrát elnevezett rács területekkel"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboard",
+                "desc": "Készítsen összetett dashboard elrendezéseket különböző méretű kártyákkal grid-column és grid-row span segítségével"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galéria",
+                "desc": "Készítsen kőfalhoz hasonló vagy szabályos galériákat, amelyek auto-fill és minmax segítségével igazodnak"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Magazin elrendezés",
+                "desc": "Szerkesztői elrendezéseket hozhat létre egyenlőtlen oszlopokkal és több cellán átívelő kiemelt tartalommal"
+            }
+        },
+        "tips_title": "CSS Grid legjobb gyakorlatai",
+        "tips": {
+            "fr": {
+                "title": "✓ Részesítse előnyben az fr egységet a százalékokkal szemben",
+                "desc": "Az fr (töredék) egység manuális számítás nélkül osztja el a rendelkezésre álló helyet a rögzített oszlopok után."
+            },
+            "minmax": {
+                "title": "✓ minmax() használata reszponzív rácsokhoz",
+                "desc": "A repeat(auto-fill, minmax(250px, 1fr)) reszponzív rácsot hoz létre, amely automatikusan állítja az oszlopok számát."
+            },
+            "named": {
+                "title": "✓ Elnevezett rács területek használata",
+                "desc": "A grid-template-areas elnevezett cellákkal olvashatóvá és könnyen módosíthatóvá teszi az oldal elrendezéseit."
+            },
+            "auto": {
+                "title": "✓ auto-fill vs auto-fit megértése",
+                "desc": "Az auto-fill maximális számú sávot hoz létre (üreseket is beleértve). Az auto-fit az üres sávokat összecsukja és a meglévőket bővíti — általában optimális kártya rácsokhoz."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Mi az fr egység a CSS Gridben?",
+            "a1": "Az fr a 'töredék egység' rövidítése. Az 1fr a rács konténerében rendelkezésre álló szabad terület egy részarányát jelenti. A repeat(3, 1fr) 3 oszlopot hoz létre, amelyek egyenlően osztják meg a rendelkezésre álló helyet.",
+            "q2": "Mi a különbség a CSS Grid és a Flexbox között?",
+            "a2": "A Flexbox egydimenziós — egy tengely mentén helyezi el az elemeket (sor vagy oszlop). A CSS Grid kétdimenziós — egyszerre vezérelheti a sorokat és oszlopokat, sokkal erősebb az oldal elrendezésihez.",
+            "q3": "Mit csinál a minmax()?",
+            "a3": "A minmax(min, max) egy rács sáv mérettartományát adja meg. A minmax(200px, 1fr) azt jelenti, hogy az oszlop legalább 200px széles, de nőhet a rendelkezésre álló tér kitöltéséhez.",
+            "q4": "Mikor használja a CSS Grid-et a Flexbox helyett?",
+            "a4": "Grid-et kétdimenziós elrendezésekhez használjon, ahol egyszerre vezérel sorokat és oszlopokat. Flexbox-ot komponensek egydimenziós elrendezéseihez, például navigációs sávokhoz."
+        }
+    }
+}

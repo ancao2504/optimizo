@@ -44,11 +44,14 @@
                         class="appearance-none w-full px-4 py-3 border-2 border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent text-sm bg-white pr-10 cursor-pointer hover:border-purple-300 transition-colors">
                         <option value="">{{ __tool('redirect-checker', 'form.user_agent_default') }}</option>
                         <option value="Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)">
-                            {{ __tool('redirect-checker', 'form.user_agent_googlebot') }}</option>
+                            {{ __tool('redirect-checker', 'form.user_agent_googlebot') }}
+                        </option>
                         <option value="Mozilla/5.0 (compatible; Bingbot/2.0; +http://www.bing.com/bingbot.htm)">
-                            {{ __tool('redirect-checker', 'form.user_agent_bingbot') }}</option>
+                            {{ __tool('redirect-checker', 'form.user_agent_bingbot') }}
+                        </option>
                         <option value="facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)">
-                            {{ __tool('redirect-checker', 'form.user_agent_facebook') }}</option>
+                            {{ __tool('redirect-checker', 'form.user_agent_facebook') }}
+                        </option>
                         <option value="Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)">
                             {{ __tool('redirect-checker', 'form.user_agent_iphone') }}
                         </option>
@@ -64,12 +67,13 @@
                 </div>
             </div>
 
-            <button onclick="checkURLs()" class="btn-primary w-full px-8 py-3 mb-8 flex items-center justify-center gap-2">
+            <button id="checkBtn" onclick="checkURLs()"
+                class="btn-primary w-full px-8 py-3 mb-8 flex items-center justify-center gap-2 disabled:opacity-60 disabled:cursor-not-allowed">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-                <span>{{ __tool('redirect-checker', 'form.button') }}</span>
+                <span id="checkBtnText">{{ __tool('redirect-checker', 'form.button') }}</span>
             </button>
 
             <!-- Loading State -->
@@ -146,7 +150,8 @@
             </div>
 
             <h3 class="text-2xl font-bold text-gray-900 mb-3">
-                {{ __tool('redirect-checker', 'content.what_are_redirects_title') }}</h3>
+                {{ __tool('redirect-checker', 'content.what_are_redirects_title') }}
+            </h3>
             <p class="text-gray-700 leading-relaxed mb-4">
                 {{ __tool('redirect-checker', 'content.what_are_redirects_desc') }}
             </p>
@@ -180,7 +185,8 @@
             <div class="grid md:grid-cols-2 gap-4 mb-6">
                 <div class="bg-white rounded-lg p-4 border-2 border-purple-200">
                     <h4 class="font-bold text-purple-900 mb-3">
-                        {{ __tool('redirect-checker', 'content.redirect_301_title') }}</h4>
+                        {{ __tool('redirect-checker', 'content.redirect_301_title') }}
+                    </h4>
                     <ul class="text-gray-700 text-sm space-y-2">
                         <li>{!! __tool('redirect-checker', 'content.redirect_301_when') !!}</li>
                         <li>{!! __tool('redirect-checker', 'content.redirect_301_seo') !!}</li>
@@ -211,7 +217,8 @@
             </ul>
 
             <h3 class="text-2xl font-bold text-gray-900 mb-3">
-                {{ __tool('redirect-checker', 'content.redirect_chains_title') }}</h3>
+                {{ __tool('redirect-checker', 'content.redirect_chains_title') }}
+            </h3>
             <p class="text-gray-700 leading-relaxed mb-4">
                 {{ __tool('redirect-checker', 'content.redirect_chains_desc') }}
             </p>
@@ -225,13 +232,15 @@
             </div>
 
             <h3 class="text-2xl font-bold text-gray-900 mb-3">
-                {{ __tool('redirect-checker', 'content.redirect_loops_title') }}</h3>
+                {{ __tool('redirect-checker', 'content.redirect_loops_title') }}
+            </h3>
             <p class="text-gray-700 leading-relaxed mb-6">
                 {{ __tool('redirect-checker', 'content.redirect_loops_desc') }}
             </p>
 
             <h3 class="text-2xl font-bold text-gray-900 mb-3">
-                {{ __tool('redirect-checker', 'content.common_issues_title') }}</h3>
+                {{ __tool('redirect-checker', 'content.common_issues_title') }}
+            </h3>
             <div class="space-y-3 mb-6">
                 <div class="bg-white rounded-lg p-4 border-2 border-gray-200">
                     <h4 class="font-bold text-gray-900 mb-2">{{ __tool('redirect-checker', 'content.issue1_title') }}</h4>
@@ -345,6 +354,18 @@
             return '';
         }
 
+        function setButtonLoading(loading) {
+            const btn = document.getElementById('checkBtn');
+            const btnText = document.getElementById('checkBtnText');
+            if (loading) {
+                btn.disabled = true;
+                btnText.textContent = 'Checking...';
+            } else {
+                btn.disabled = false;
+                btnText.textContent = '{{ __tool('redirect-checker', 'form.button') }}';
+            }
+        }
+
         async function checkURLs() {
             const input = document.getElementById('urlInput').value.trim();
             let urls = input.split('\n').filter(url => url.trim());
@@ -358,32 +379,40 @@
             // Limit to 10
             urls = urls.slice(0, 10);
 
-            // Show loading
-            document.getElementById('loading').classList.remove('hidden');
-            document.getElementById('resultsContainer').classList.add('hidden');
-            document.getElementById('resultsContainer').innerHTML = ''; // Clear previous
-            resultsStore = [];
+            // Disable button while processing
+            setButtonLoading(true);
 
-            // Determine check mode
-            if (canonicalCheck) {
-                // Canonical Check Mode - check all 4 versions for each URL
-                document.getElementById('bulkProgress').classList.remove('hidden');
-                let totalChecks = 0;
-                const totalUrls = urls.length;
+            try {
+                // Show loading
+                document.getElementById('loading').classList.remove('hidden');
+                document.getElementById('resultsContainer').classList.add('hidden');
+                document.getElementById('resultsContainer').innerHTML = ''; // Clear previous
+                resultsStore = [];
 
-                for (const url of urls) {
-                    await runCanonicalCheck(url);
-                    totalChecks++;
-                    const progress = (totalChecks / totalUrls) * 100;
-                    document.getElementById('progressBar').style.width = progress + '%';
-                    document.getElementById('progressText').textContent = `${totalChecks} / ${totalUrls} domains checked`;
+                // Determine check mode
+                if (canonicalCheck) {
+                    // Canonical Check Mode - check all 4 versions for each URL
+                    document.getElementById('bulkProgress').classList.remove('hidden');
+                    let totalChecks = 0;
+                    const totalUrls = urls.length;
+
+                    for (const url of urls) {
+                        await runCanonicalCheck(url);
+                        totalChecks++;
+                        const progress = (totalChecks / totalUrls) * 100;
+                        document.getElementById('progressBar').style.width = progress + '%';
+                        document.getElementById('progressText').textContent = `${totalChecks} / ${totalUrls} domains checked`;
+                    }
+
+                    document.getElementById('loading').classList.add('hidden');
+                    renderResults();
+                } else {
+                    // Normal Check Mode (Single or Bulk)
+                    await runBulkCheck(urls);
                 }
-
-                document.getElementById('loading').classList.add('hidden');
-                renderResults();
-            } else {
-                // Normal Check Mode (Single or Bulk)
-                await runBulkCheck(urls);
+            } finally {
+                // Always re-enable button after done (success or error)
+                setButtonLoading(false);
             }
         }
 
@@ -491,12 +520,12 @@
                     const headerEl = document.createElement('div');
                     headerEl.className = 'mt-6 mb-3 flex items-center gap-2 px-1';
                     headerEl.innerHTML = `
-                                        <div class="h-px bg-gray-200 flex-grow"></div>
-                                        <span class="text-sm font-bold text-gray-500 uppercase tracking-wider bg-gray-50 px-3 rounded-full border border-gray-200">
-                                            ${result.baseDomain}
-                                        </span>
-                                        <div class="h-px bg-gray-200 flex-grow"></div>
-                                    `;
+                                            <div class="h-px bg-gray-200 flex-grow"></div>
+                                            <span class="text-sm font-bold text-gray-500 uppercase tracking-wider bg-gray-50 px-3 rounded-full border border-gray-200">
+                                                ${result.baseDomain}
+                                            </span>
+                                            <div class="h-px bg-gray-200 flex-grow"></div>
+                                        `;
                     container.appendChild(headerEl);
                     lastBaseDomain = result.baseDomain;
                 }
@@ -524,20 +553,20 @@
                 const hasChain = chain.length > 1;
 
                 resultEl.innerHTML = `
-                                                        <div class="p-4 flex items-center justify-between cursor-pointer hover:bg-gray-50 transition-colors" onclick="toggleChain(${index})">
-                                                            <div class="flex items-center gap-3 overflow-hidden">
-                                                                <div class="text-gray-400">
-                                                                    ${hasChain ? '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>' : ''}
+                                                            <div class="p-4 flex items-center justify-between cursor-pointer hover:bg-gray-50 transition-colors" onclick="toggleChain(${index})">
+                                                                <div class="flex items-center gap-3 overflow-hidden">
+                                                                    <div class="text-gray-400">
+                                                                        ${hasChain ? '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>' : ''}
+                                                                    </div>
+                                                                    <div class="font-mono text-sm text-gray-700 truncate pr-4">${displayUrl}</div>
                                                                 </div>
-                                                                <div class="font-mono text-sm text-gray-700 truncate pr-4">${displayUrl}</div>
-                                                            </div>
-                                                            <div class="flex items-center gap-3 shrink-0">
-                                                                ${hasChain ? `<button class="text-gray-400 hover:text-purple-600 transition-transform duration-200" id="chevron-${index}">
-                                                                    <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                                                                </button>` : ''}
+                                                                <div class="flex items-center gap-3 shrink-0">
+                                                                    ${hasChain ? `<button class="text-gray-400 hover:text-purple-600 transition-transform duration-200" id="chevron-${index}">
+                                                                        <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                                                                    </button>` : ''}
 
-                                                                <div class="flex items-center gap-1.5 flex-wrap justify-end">
-                                                                    ${(() => {
+                                                                    <div class="flex items-center gap-1.5 flex-wrap justify-end">
+                                                                        ${(() => {
                         if (!chain || chain.length === 0) return `<span class="px-2.5 py-1 rounded text-xs font-bold ${finalStatusClass}">${finalStatus}</span>`;
 
                         // Get last 5 hops or all if less than 5
@@ -551,20 +580,20 @@
                             return `<svg class="w-3 h-3 text-gray-400 mx-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>${badge}`;
                         }).join('');
                     })()}
+                                                                    </div>
+
+                                                                    <button onclick="copyToClipboard('${displayUrl}', event)" class="text-gray-400 hover:text-gray-600" title="Copy URL">
+                                                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/></svg>
+                                                                    </button>
                                                                 </div>
-
-                                                                <button onclick="copyToClipboard('${displayUrl}', event)" class="text-gray-400 hover:text-gray-600" title="Copy URL">
-                                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/></svg>
-                                                                </button>
                                                             </div>
-                                                        </div>
 
-                                                        ${hasChain ? `
-                                                        <div id="chain-${index}" class="hidden bg-gray-50 border-t border-gray-100">
-                                                            ${renderChainSteps(chain)}
-                                                        </div>
-                                                        ` : ''}
-                                                    `;
+                                                            ${hasChain ? `
+                                                            <div id="chain-${index}" class="hidden bg-gray-50 border-t border-gray-100">
+                                                                ${renderChainSteps(chain)}
+                                                            </div>
+                                                            ` : ''}
+                                                        `;
 
                 container.appendChild(resultEl);
             });
@@ -572,16 +601,16 @@
 
         function renderChainSteps(chain) {
             return chain.map((hop, i) => `
-                                                    <div class="p-3 pl-8 border-b border-gray-100 last:border-0 flex items-center justify-between hover:bg-gray-100 transition-colors">
-                                                        <div class="flex items-center gap-3 overflow-hidden">
-                                                            <div class="${hop.isRedirect ? 'text-blue-500' : (hop.isSuccess ? 'text-green-500' : 'text-gray-400')}">
-                                                                 ${getStatusIconSVG(hop)}
+                                                        <div class="p-3 pl-8 border-b border-gray-100 last:border-0 flex items-center justify-between hover:bg-gray-100 transition-colors">
+                                                            <div class="flex items-center gap-3 overflow-hidden">
+                                                                <div class="${hop.isRedirect ? 'text-blue-500' : (hop.isSuccess ? 'text-green-500' : 'text-gray-400')}">
+                                                                     ${getStatusIconSVG(hop)}
+                                                                </div>
+                                                                <div class="font-mono text-xs text-gray-600 truncate">${hop.url}</div>
                                                             </div>
-                                                            <div class="font-mono text-xs text-gray-600 truncate">${hop.url}</div>
+                                                            ${hop.status !== '???' ? `<span class="px-2 py-0.5 rounded text-[10px] font-bold ${getStatusBadgeClass(hop)}">${hop.status}</span>` : ''}
                                                         </div>
-                                                        ${hop.status !== '???' ? `<span class="px-2 py-0.5 rounded text-[10px] font-bold ${getStatusBadgeClass(hop)}">${hop.status}</span>` : ''}
-                                                    </div>
-                                                `).join('');
+                                                    `).join('');
         }
 
         function toggleChain(index) {

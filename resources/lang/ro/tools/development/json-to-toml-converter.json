@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Convertor JSON în TOML Online - Gratuit | Optimizo",
+        "description": "Convertiți JSON în format TOML online și gratuit. Generează automat secțiuni de tabele, gestionează obiectele imbricate și produce TOML curat și lizibil.",
+        "h1": "Convertor JSON în TOML",
+        "subtitle": "Convertiți datele de configurare JSON în format TOML mai lizibil — generare automată de tabele și secțiuni"
+    },
+    "editor": {
+        "title": "Convertor JSON în TOML",
+        "label_json": "Intrare JSON",
+        "ph_json": "{\n  \"title\": \"Aplicația mea\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "Ieșire TOML",
+        "btn_copy": "Copiați TOML"
+    },
+    "content": {
+        "why_title": "De ce să convertiți fișierele de configurare JSON în TOML?",
+        "why_desc": "JSON nu este conceput pentru fișierele de configurare — fără comentarii, sintaxă detaliată pentru datele imbricate și necesită escape suplimentar. TOML face aceleași date mai lizibile cu anteturi [secțiune], comentarii # și sintaxă mai curată cheie-valoare. Conversia config.json în config.toml îmbunătățește mentenabilitatea și auto-documentarea.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Generare automată secțiuni",
+                "desc": "Obiectele JSON imbricate sunt convertite automat în căile de tabele TOML [section.subsection]"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Păstrarea tipurilor",
+                "desc": "Numerele, booleenele și șirurile JSON sunt mapate corect la echivalentele TOML fără pierdere de date"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Configurație mai curată",
+                "desc": "Aceleași date în format TOML sunt de obicei cu 20-40% mai scurte și mult mai lizibile decât JSON"
+            }
+        },
+        "how_title": "Convertiți JSON în TOML în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Inserați configurația JSON",
+                "desc": "Copiați fișierul dvs. de configurare JSON existent și lipiți-l în panoul stâng"
+            },
+            "2": {
+                "title": "Revizuiți ieșirea TOML",
+                "desc": "TOML echivalent apare în panoul drept — verificați că structura corespunde așteptărilor"
+            },
+            "3": {
+                "title": "Adăugați comentarii și salvați",
+                "desc": "Copiați TOML, adăugați comentarii # care documentează fiecare secțiune și salvați ca nou fișier de configurare"
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru convertorul JSON în TOML",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Creați Cargo.toml",
+                "desc": "Convertiți informațiile din package.json în format Cargo.toml pentru a accelera configurarea proiectelor Rust"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Migrare la pyproject.toml",
+                "desc": "Convertiți setup.cfg sau setup.py la standardul modern de ambalare Python pyproject.toml"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Actualizați fișierele de configurare",
+                "desc": "Migrați config.json la config.toml și documentați fiecare opțiune cu comentarii #"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Partajați configurația între instrumente",
+                "desc": "Convertiți aceleași date de configurare între ecosistemele JSON și TOML după nevoie"
+            }
+        },
+        "tips_title": "Sfaturi pentru conversia JSON în TOML",
+        "tips": {
+            "arrays": {
+                "title": "✓ Verificați atent tablourile de obiecte",
+                "desc": "Tablourile de obiecte JSON ([{name:\"a\"},{name:\"b\"}]) folosesc sintaxa [[tablou de tabele]] a TOML. Verificați că sunt corect convertite în ieșire."
+            },
+            "null": {
+                "title": "✓ TOML nu are null",
+                "desc": "Null din JSON nu are echivalent direct în TOML. Valorile null sunt de obicei omise sau înlocuite cu șir gol. Gestionați aceste cazuri manual."
+            },
+            "keys": {
+                "title": "✓ Puneți între ghilimele cheile cu caractere speciale",
+                "desc": "Cheile TOML cu cratime sau spații necesită ghilimele: \"content-type\" = \"json\". Folosiți underscore în cheile JSON pentru a evita problema."
+            },
+            "test": {
+                "title": "✓ Testați cu parserul TOML al aplicației",
+                "desc": "Diferiți parseri TOML (toml-rs, tomllib, @iarna/toml) pot gestiona cazurile limită diferit. Testați întotdeauna TOML convertit în mediul de runtime real."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Pot toate tipurile de date JSON să fie convertite la TOML?",
+            "a1": "Majoritatea tipurilor se convertesc curat: șiruri, numere, booleene, tablouri și obiecte au echivalente directe TOML. Null-ul JSON nu are echivalent TOML și este de obicei omis. Tablourile de obiecte adânc imbricate pot necesita ajustare manuală.",
+            "q2": "Poate TOML să înlocuiască complet JSON în fișierele de configurare?",
+            "a2": "Pentru fișierele de configurare statice da. Codul care citește configurația trebuie schimbat de la JSON.parse() la un parser TOML. TOML nu poate înlocui JSON pentru API-uri sau schimb de date.",
+            "q3": "Ce extensie de fișier folosește TOML?",
+            "a3": "Extensia .toml. Exemple comune: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (configurația Cargo).",
+            "q4": "Cum să alegeți între JSON, YAML și TOML pentru configurare?",
+            "a4": "JSON: Schimb de date API (suport universal, comentariile nu sunt necesare). YAML: Configurare DevOps (Kubernetes, CI/CD etc.). TOML: Configurare aplicație (sintaxă simplă, tipuri explicite, cel mai bun pentru editare manuală)."
+        }
+    }
+}

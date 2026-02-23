@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Konstruktor żądań API Online - Klient HTTP za darmo | Optimizo",
+        "description": "Buduj i wysyłaj żądania HTTP API online za darmo. Obsługuje GET, POST, PUT, PATCH, DELETE z niestandardowymi nagłówkami, treścią żądania i parametrami zapytania.",
+        "h1": "Konstruktor żądań API",
+        "subtitle": "Buduj, wysyłaj i sprawdzaj żądania HTTP API — lekki klient HTTP w przeglądarce"
+    },
+    "editor": {
+        "title": "Konstruktor żądań API",
+        "btn_send": "Wyślij żądanie",
+        "tab_headers": "Nagłówki",
+        "tab_body": "Treść",
+        "tab_params": "Parametry",
+        "btn_add_header": "Dodaj nagłówek",
+        "btn_add_param": "Dodaj parametr",
+        "label_response": "Odpowiedź",
+        "btn_copy_response": "Kopiuj odpowiedź"
+    },
+    "content": {
+        "why_title": "Dlaczego używać konstruktora żądań API?",
+        "why_desc": "Testowanie API REST zwykle wymaga zainstalowania Postmana, Insomni lub pisania poleceń curl. Nasz klient HTTP oparty na przeglądarce nie wymaga instalacji — wystarczy otworzyć i zacząć wysyłać żądania. Obsługuje wszystkie metody HTTP, niestandardowe nagłówki, treść JSON i parametry zapytania, co czyni go idealnym do szybkich testów API, eksploracji publicznych API i debugowania integracji.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Wszystkie metody HTTP",
+                "desc": "Obsługuje GET, POST, PUT, PATCH, DELETE z niestandardowymi nagłówkami i treścią JSON/formularza"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Sformatowana odpowiedź",
+                "desc": "Treść odpowiedzi jest automatycznie wyświetlana z wcięciami, kodem statusu i czasem odpowiedzi"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Gotowe do użycia",
+                "desc": "Nie wymaga instalacji — działa w pełni w przeglądarce bez konta ani wtyczki"
+            }
+        },
+        "how_title": "Jak wysłać żądanie API",
+        "how_steps": {
+            "1": {
+                "title": "Wpisz URL i metodę",
+                "desc": "Wpisz URL punktu końcowego API i wybierz metodę HTTP (GET, POST, itp.)"
+            },
+            "2": {
+                "title": "Dodaj nagłówki i treść",
+                "desc": "Przejdź do karty Nagłówki, aby dodać Authorization, Content-Type i inne. Użyj Treść dla danych POST/PUT."
+            },
+            "3": {
+                "title": "Wyślij i sprawdź",
+                "desc": "Kliknij Wyślij, aby wykonać żądanie. Treść odpowiedzi, kod statusu i czas pojawią się poniżej."
+            }
+        },
+        "uses_title": "Przypadki użycia konstruktora żądań API",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "Debugowanie API",
+                "desc": "Testuj poszczególne punkty końcowe z niestandardowymi nagłówkami i treściami do debugowania problemów uwierzytelniania i danych"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Testowanie tokenów uwierzytelniania",
+                "desc": "Testuj schematy Bearer, Basic Auth i klucza API bez pisania kodu"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "Eksploracja API",
+                "desc": "Eksploruj publiczne API (GitHub, OpenWeather, JSONPlaceholder) i rozumiej ich odpowiedzi"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Reprodukcja błędów",
+                "desc": "Reprodukuj i dokumentuj błędy API z dokładnymi szczegółami żądania/odpowiedzi dla raportów błędów"
+            }
+        },
+        "tips_title": "Najlepsze praktyki testowania API",
+        "tips": {
+            "headers": {
+                "title": "✓ Zawsze ustawiaj Content-Type",
+                "desc": "Wysyłając treść JSON, zawsze dołączaj Content-Type: application/json. Bez tego wiele API odrzuci lub błędnie zinterpretuje żądanie."
+            },
+            "cors": {
+                "title": "✓ Zrozum ograniczenia CORS",
+                "desc": "Przeglądarki blokują żądania cross-origin bez odpowiednich nagłówków CORS. Jeśli żądanie nie powiedzie się w przeglądarce, użyj curl lub proxy po stronie serwera."
+            },
+            "auth": {
+                "title": "✓ Nigdy nie koduj na stałe kluczy API",
+                "desc": "Używaj zmiennych środowiskowych w kodzie produkcyjnym. Konstruktor żądań jest tylko do testów — nie udostępniaj zrzutów ekranu z prawdziwymi kluczami API."
+            },
+            "status": {
+                "title": "✓ Sprawdzaj kody statusu HTTP",
+                "desc": "200=OK, 201=Utworzono, 400=Złe żądanie, 401=Nieautoryzowany, 403=Zabroniony, 404=Nie znaleziono, 500=Błąd serwera."
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Dlaczego moje żądanie cross-origin nie powiedzie się?",
+            "a1": "Przeglądarki wymuszają ograniczenia CORS (Cross-Origin Resource Sharing). Jeśli docelowe API nie zawiera nagłówków Access-Control-Allow-Origin, przeglądarka blokuje żądanie. To nie błąd — użyj curl lub proxy backendowego dla API bez obsługi CORS.",
+            "q2": "Czy mogę wysyłać żądania multipart/form-data?",
+            "a2": "Aktualny konstruktor obsługuje treści JSON i zwykły tekst. W przypadku wieloczęściowych danych formularza (przesyłanie plików) użyj natywnego przesyłania formularzy przeglądarki lub dedykowanego narzędzia, takiego jak Postman.",
+            "q3": "Czy to zamiennik Postmana?",
+            "a3": "Do szybkich testów i eksploracji — tak. W przypadku współpracy zespołowej, zapisanych kolekcji, środowisk i zautomatyzowanych testów Postman lub Bruno oferują więcej funkcji. To narzędzie wyróżnia się natychmiastowymi testami API bez konfiguracji.",
+            "q4": "Jaka jest różnica między PUT a PATCH?",
+            "a4": "PUT zastępuje cały zasób treścią żądania. PATCH stosuje częściową aktualizację — tylko pola zawarte w treści są zmieniane. Większość API REST używa PATCH do aktualizacji, aby nie nadpisywać niemodyfikowanych pól."
+        }
+    }
+}

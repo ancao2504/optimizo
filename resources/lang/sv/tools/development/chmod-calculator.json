@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "chmod-kalkylator Online - Linux-behörigheter Gratis | Optimizo",
+        "description": "Gratis online chmod-kalkylator. Konvertera Linux-filbehörigheter mellan symbolisk notation (rwxr-xr-x) och oktal notation (755) och generera chmod-kommandon.",
+        "h1": "chmod-kalkylator",
+        "subtitle": "Beräkna Linux-behörigheter — konvertera symbolisk och oktal notation och generera chmod-kommandon"
+    },
+    "editor": {
+        "title": "chmod Behörighetskalkylator",
+        "label_octal": "Oktalt värde",
+        "col_type": "Typ",
+        "col_read": "Läsa (r)",
+        "col_write": "Skriva (w)",
+        "col_exec": "Exekvera (x)",
+        "col_octal": "Oktalt",
+        "row_owner": "Ägare",
+        "row_group": "Grupp",
+        "row_others": "Övriga (alla)",
+        "btn_copy": "Kopiera kommando"
+    },
+    "content": {
+        "why_title": "Varför använda en chmod-kalkylator?",
+        "why_desc": "Linux-filbehörigheter uttrycks i symbolisk (rwxr-xr-x) och oktal (755) notation. Att manuellt beräkna rätt behörighetsvärde är felbenäget. Med vår kalkylator kan du visuellt välja behörighetskryssrutor och generera oktala värdet och ett användbart chmod-kommando direkt.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Visuell behörighetsbyggare",
+                "desc": "Klicka på läsa/skriva/exekvera-kryssrutor för ägare/grupp/övriga; värden uppdateras direkt"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Dubbelriktad synkronisering",
+                "desc": "Ange ett oktalt värde (t.ex. 755) och kryssrutorna uppdateras automatiskt, eller tvärtom"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Klart-att-använda kommando",
+                "desc": "Genererar ett komplett chmod-kommando som kan klistras in direkt i terminalen"
+            }
+        },
+        "how_title": "Hur beräknar du behörigheter",
+        "how_steps": {
+            "1": {
+                "title": "Markera önskade behörigheter",
+                "desc": "Klicka på läsa/skriva/exekvera-kryssrutor för ägare, grupp och övriga"
+            },
+            "2": {
+                "title": "Kontrollera oktalt och symboliskt",
+                "desc": "Det oktala värdet (t.ex. 755) och den symboliska notationen (rwxr-xr-x) uppdateras direkt"
+            },
+            "3": {
+                "title": "Kopiera kommandot",
+                "desc": "Kopiera det genererade chmod-kommandot och kör det i terminalen"
+            }
+        },
+        "uses_title": "Typiska chmod-scenarier",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Webbserverfiler",
+                "desc": "Sätt 644 för HTML/CSS/JS-filer på Apache eller Nginx (ägare läsa/skriva, grupp/övriga läsa)"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Körbara skript",
+                "desc": "Sätt 755 för skalskript (ägare full åtkomst, grupp/övriga läsa+exekvera)"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "SSH-nycklar",
+                "desc": "SSH kräver 600 (ägare läsa/skriva enbart) för privata nycklar"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Uppladdningskataloger",
+                "desc": "Sätt 775 för webbuppladdningskataloger så att serverprocessen kan skriva filer"
+            }
+        },
+        "tips_title": "Bästa praxis för Linux-behörigheter",
+        "tips": {
+            "never777": {
+                "title": "✓ Använd aldrig 777 i produktion",
+                "desc": "chmod 777 ger alla full läsa/skriva/exekvera-åtkomst — allvarlig säkerhetsrisk."
+            },
+            "least": {
+                "title": "✓ Principen om minsta privilegium",
+                "desc": "Ge alltid minsta nödvändiga behörigheter. Börja restriktivt (600) och lägg till vid behov."
+            },
+            "recursive": {
+                "title": "✓ Var försiktig med -R (rekursivt)",
+                "desc": "chmod -R tillämpar behörigheter rekursivt på alla filer och kataloger."
+            },
+            "umask": {
+                "title": "✓ Förstå umask",
+                "desc": "umask-värdet subtraherar behörigheter från standardvärdet. umask 022 innebär att nya filer får 644 och nya kataloger 755."
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Vad betyder chmod 755?",
+            "a1": "755 innebär: ägare(7)=läsa+skriva+exekvera, grupp(5)=läsa+exekvera, övriga(5)=läsa+exekvera. Standardbehörigheter för körbara filer och offentliga kataloger.",
+            "q2": "Vad är skillnaden mellan 644 och 755?",
+            "a2": "644 (rw-r--r--): ägare läsa/skriva, övriga enbart läsa — för vanliga filer. 755 (rwxr-xr-x): ägare kan också exekvera — för skript och kataloger.",
+            "q3": "Varför kräver SSH-nycklar behörighet 600?",
+            "a3": "SSH nekar användning av privata nycklar som andra kan komma åt. 600 (rw-------) säkerställer att bara ägaren kan läsa och skriva nyckeln.",
+            "q4": "Vad betyder exekvera-biten på en katalog?",
+            "a4": "Exekvera-biten på en katalog betyder 'genompassage' — att användaren kan gå in i katalogen och komma åt filer i den. Utan exekvera-behörighet kan användaren inte gå in i katalogen."
+        }
+    }
+}

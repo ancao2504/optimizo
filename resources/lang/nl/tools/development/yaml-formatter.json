@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "YAML Formatter Online - Gratis YAML-opmaaktool | Optimizo",
+        "description": "Formatteer en valideer YAML-bestanden online gratis. Verfraai YAML direct met correcte inspringing en syntaxiscontrole.",
+        "h1": "YAML Formatter",
+        "subtitle": "Formatteer en valideer YAML-bestanden direct — ondersteunt complexe nesting, ankers en aliassen"
+    },
+    "editor": {
+        "title": "YAML Formatter",
+        "label_input": "YAML-invoer",
+        "ph_input": "naam: Mijn App\ndatabase:\n  host: localhost\n  poort: 5432",
+        "btn_format": "YAML formatteren",
+        "label_output": "Geformatteerde YAML",
+        "btn_copy": "YAML kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom YAML-bestanden formatteren?",
+        "why_desc": "YAML is extreem gevoelig voor inspringing — één extra spatie kan parseerfouten of stille gegevenscorruptie veroorzaken. Tools zoals Kubernetes, Docker Compose, GitHub Actions en Ansible gebruiken YAML-configuratiebestanden waarbij opmaakfouten volledige deployments kunnen blokkeren. Onze formatter valideert de syntaxis, normaliseert de inspringing en zorgt dat je YAML altijd correct is.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Inspringing normaliseren",
+                "desc": "Normaliseert gemengde inspringing naar een consistent 2-spaties formaat door het hele document"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Syntaxisvalidatie",
+                "desc": "Detecteert inspringfouten, gemengde tabs/spaties en structurele problemen vóór productiefouten"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Ankers en aliassen",
+                "desc": "Volledige ondersteuning voor YAML-ankers (&) en aliassen (*) voor documenthergebruik en DRY-configuraties"
+            }
+        },
+        "how_title": "Hoe YAML formatteren in 3 stappen",
+        "how_steps": {
+            "1": {
+                "title": "Plak je YAML",
+                "desc": "Plak je Kubernetes-manifest, GitHub Actions-workflow of elk ander YAML-configuratiebestand"
+            },
+            "2": {
+                "title": "Formatteren en valideren",
+                "desc": "De tool valideert de syntaxis en formatteert automatisch opnieuw met consistente inspringing"
+            },
+            "3": {
+                "title": "Kopiëren en implementeren",
+                "desc": "Kopieer de geformatteerde YAML naar je bestand, CI-pipeline of implementatietool"
+            }
+        },
+        "uses_title": "Gebruiksscenario's voor YAML-opmaak",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Kubernetes-manifesten",
+                "desc": "Formatteer Deployment-, Service- en ConfigMap YAML-bestanden voordat je ze op een cluster toepast"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "CI/CD-pijplijnen",
+                "desc": "Valideer GitHub Actions-, GitLab CI- en CircleCI-workflows om pijplijnfouten te vermijden"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Ansible Playbooks",
+                "desc": "Formatteer en valideer Ansible-taken, variabelen en inventarissen voor schone infrastructuurcode"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Zorg dat docker-compose.yml-bestanden correct zijn geformatteerd voordat je docker compose up uitvoert"
+            }
+        },
+        "tips_title": "YAML best practices",
+        "tips": {
+            "spaces": {
+                "title": "✓ Gebruik spaties, nooit tabs",
+                "desc": "YAML verbiedt het tabblad-teken voor inspringing strikt. Stel je editor altijd in om spaties in te voegen bij Tab in YAML-bestanden."
+            },
+            "quotes": {
+                "title": "✓ Gebruik aanhalingstekens voor speciale tekens",
+                "desc": "Tekenreeksen met : # [ ] { } of die beginnen met speciale tekens moeten tussen aanhalingstekens staan om te voorkomen dat YAML ze verkeerd interpreteert."
+            },
+            "anchors": {
+                "title": "✓ Gebruik ankers om duplicaten te verminderen",
+                "desc": "YAML-ankers (&naam) en aliassen (*naam) laten je waarden hergebruiken in een document, waardoor herhaling in complexe configuraties wordt verminderd."
+            },
+            "lint": {
+                "title": "✓ Lint vóór het committen",
+                "desc": "Voer yamllint uit of gebruik deze formatter in je pre-commit hook om opmaakproblemen te detecteren voordat ze de repository bereiken."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Waarom mislukt YAML met tabs in plaats van spaties?",
+            "a1": "De YAML-specificatie verbiedt expliciet het tab-teken voor inspringing, omdat verschillende editors tabs met verschillende breedtes weergeven. Spaties bieden consistente, ondubbelzinnige inspringing die alle YAML-parsers identiek kunnen interpreteren.",
+            "q2": "Wat doen ankers (&) en aliassen (*) in YAML?",
+            "a2": "Ankers definiëren een herbruikbaar blok met &ankernaam: en aliassen verwijzen ernaar met *ankernaam. Hiermee kun je waarden één keer definiëren en meerdere keren hergebruiken, waardoor configuraties DRY worden.",
+            "q3": "Wat is het verschil tussen YAML en JSON?",
+            "a3": "YAML is een superset van JSON — elke geldige JSON is ook geldige YAML. YAML voegt ondersteuning toe voor commentaar, ankers, meerregelige tekenreeksen en een meer leesbare syntaxis. JSON is beter voor uitwisseling van gegevens tussen machines; YAML is beter geschikt voor door mensen bewerkte configuraties.",
+            "q4": "Waarom YAML kiezen boven TOML voor configuratie?",
+            "a4": "YAML heeft bredere ondersteuning voor tools (Kubernetes, Ansible, de meeste CI-systemen) en kan complexe geneste structuren beknopt weergeven. TOML is eenvoudiger en minder foutgevoelig voor basisconfiguraties. Voor DevOps-configuratie is YAML de standaard."
+        }
+    }
+}

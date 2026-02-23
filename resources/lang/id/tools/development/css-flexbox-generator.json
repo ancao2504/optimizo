@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Generator CSS Flexbox Online - Pembuat Layout Visual | Optimizo",
+        "description": "Buat layout CSS Flexbox secara visual secara online dan gratis. Sesuaikan arah, justify-content, align-items, dan gap dengan pratinjau real-time dan ekspor CSS instan.",
+        "h1": "Generator CSS Flexbox",
+        "subtitle": "Buat layout CSS Flexbox secara visual — sesuaikan semua properti dengan pratinjau real-time"
+    },
+    "editor": {
+        "title": "Generator Flexbox",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Jarak (gap)",
+        "label_items": "Jumlah Item",
+        "label_preview": "Pratinjau Real-time",
+        "btn_copy": "Salin CSS"
+    },
+    "content": {
+        "why_title": "Mengapa menggunakan generator Flexbox visual?",
+        "why_desc": "CSS Flexbox memiliki banyak properti yang saling berinteraksi dan kombinasinya bisa rumit. Dengan generator visual kami, Anda dapat menyesuaikan setiap properti melalui menu dropdown dan melihat layout diperbarui secara real-time.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Pratinjau Real-time",
+                "desc": "Lihat persis apa yang dilakukan layout Flexbox di setiap perubahan properti — tanpa tebak-tebakan"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Properti Lengkap",
+                "desc": "flex-direction, justify-content, align-items, flex-wrap, dan gap dalam satu antarmuka"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "CSS Siap Pakai",
+                "desc": "Salin blok .container {} CSS yang bersih langsung ke stylesheet Anda"
+            }
+        },
+        "how_title": "Buat layout Flexbox",
+        "how_steps": {
+            "1": {
+                "title": "Atur arah dan wrapping",
+                "desc": "Pilih flex-direction (baris/kolom) dan flex-wrap untuk mengontrol sumbu utama dan overflow"
+            },
+            "2": {
+                "title": "Sesuaikan penyelarasan item",
+                "desc": "Sesuaikan justify-content dan align-items untuk mengontrol distribusi dan penyelarasan item"
+            },
+            "3": {
+                "title": "Salin CSS",
+                "desc": "Klik 'Salin CSS' untuk mendapatkan blok .container CSS lengkap yang siap untuk proyek Anda"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Flexbox",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Navbar",
+                "desc": "Flexbox ideal untuk navbar horizontal dengan justifyContent:space-between untuk logo+link"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Grid Kartu",
+                "desc": "Buat grid kartu responsif dengan flex-wrap:wrap dan flex-basis tetap"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Pemusatan Sempurna",
+                "desc": "justifyContent:center + alignItems:center — cara termudah untuk memusatkan elemen apa pun"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Layout Form",
+                "desc": "Sejajarkan label dan field form secara horizontal atau vertikal untuk form yang rapi dengan Flexbox"
+            }
+        },
+        "tips_title": "Praktik Terbaik Flexbox",
+        "tips": {
+            "axis": {
+                "title": "✓ Pahami sumbu utama dan sumbu silang",
+                "desc": "justify-content mengontrol sumbu utama (baris=horizontal). align-items mengontrol sumbu silang. Berubah saat menggunakan flex-direction:column."
+            },
+            "grow": {
+                "title": "✓ Gunakan flex:1 untuk item yang dapat diperluas",
+                "desc": "Tambahkan flex:1 ke item flex untuk membuatnya mengisi ruang yang tersedia."
+            },
+            "gap": {
+                "title": "✓ Gunakan gap daripada margin",
+                "desc": "Properti gap menciptakan jarak yang merata antara item flex tanpa menambahkan margin di tepi luar."
+            },
+            "grid": {
+                "title": "✓ Gunakan Grid untuk layout 2D",
+                "desc": "Flexbox mengontrol satu sumbu pada satu waktu. Gunakan CSS Grid untuk layout dua dimensi."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Kapan menggunakan Flexbox daripada CSS Grid?",
+            "a1": "Flexbox ideal untuk layout satu dimensi (navbar, kelompok tombol, baris form). CSS Grid unggul dalam layout dua dimensi di mana Anda mengontrol baris dan kolom secara bersamaan.",
+            "q2": "Apa itu flex-wrap:wrap?",
+            "a2": "Secara default, item flex dipaksa ke dalam satu baris meskipun meluap. flex-wrap:wrap memungkinkan item untuk pindah ke baris berikutnya — penting untuk layout responsif.",
+            "q3": "Apa perbedaan antara align-items dan align-content?",
+            "a3": "align-items menyelaraskan item flex pada satu baris tunggal. align-content hanya berlaku saat ada beberapa baris (flex-wrap:wrap) dan mengontrol distribusi baris dalam container.",
+            "q4": "Bagaimana cara membuat kolom dengan lebar yang sama menggunakan Flexbox?",
+            "a4": "Terapkan flex:1 ke setiap item. Memperluas mereka untuk mengisi ruang yang tersedia secara merata. Gunakan flex:0 0 33,33% untuk tepat 3 kolom yang sama terlepas dari konten."
+        }
+    }
+}

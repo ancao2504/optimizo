@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Ofuscador JavaScript Online - Protetor de código JS gratuito | Optimizo",
+        "description": "Ofusque seu código JavaScript online grátis. Renomeie variáveis, codifique strings e minifique JS para tornar seu código-fonte mais difícil de ler.",
+        "h1": "Ofuscador JavaScript",
+        "subtitle": "Proteja seu código JavaScript renomeando variáveis, codificando strings e minificando — completamente no seu navegador"
+    },
+    "editor": {
+        "title": "Ofuscador JavaScript",
+        "label_input": "JavaScript de entrada",
+        "ph_input": "function saudar(nome) {\n  return 'Olá, ' + nome + '!';\n}",
+        "opt_rename": "Renomear variáveis",
+        "opt_strings": "Codificar strings",
+        "opt_minify": "Minificar código",
+        "disclaimer": "⚠️ A ofuscação torna o código mais difícil de ler, mas não é criptografia. Desenvolvedores determinados ainda podem fazer engenharia reversa do código ofuscado. Nunca confie apenas na ofuscação para proteger dados sensíveis.",
+        "btn_obfuscate": "Ofuscar JavaScript",
+        "label_output": "Resultado ofuscado",
+        "btn_copy": "Copiar JS"
+    },
+    "content": {
+        "why_title": "Por que ofuscar código JavaScript?",
+        "why_desc": "JavaScript executa no navegador onde o código-fonte sempre está visível via DevTools. A ofuscação não torna o código inviolável, mas eleva a barreira o suficiente para dissuadir cópias não autorizadas, desacelerar a engenharia reversa e proteger lógica de negócios proprietária, algoritmos de preços e mecanismos de licenciamento. É uma camada de proteção comum para bibliotecas JS comerciais, jogos e aplicações SaaS.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Renomeação de variáveis",
+                "desc": "Renomeia todas as variáveis, funções e parâmetros para identificadores hexadecimais ilegíveis como _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Codificação de strings",
+                "desc": "Codifica todos os literais de string em sequências de escape hexadecimais funcionalmente idênticas mas ilegíveis"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minificação do código",
+                "desc": "Remove comentários e normaliza espaços em branco para reduzir o tamanho do arquivo além da ofuscação"
+            }
+        },
+        "how_title": "Como ofuscar JavaScript em 3 passos",
+        "how_steps": {
+            "1": {
+                "title": "Cole o JavaScript",
+                "desc": "Copie seu código JavaScript e cole-o no campo de entrada"
+            },
+            "2": {
+                "title": "Selecione as opções",
+                "desc": "Escolha as técnicas de ofuscação a aplicar — as três juntas oferecem proteção máxima"
+            },
+            "3": {
+                "title": "Copie e substitua",
+                "desc": "Copie o conteúdo ofuscado e substitua seu arquivo JS original para o deploy"
+            }
+        },
+        "uses_title": "Casos de uso da ofuscação JavaScript",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Bibliotecas comerciais",
+                "desc": "Proteja algoritmos proprietários em bibliotecas JavaScript pagas distribuídas a clientes"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Jogos de navegador",
+                "desc": "Evite trapaças ofuscando lógica do jogo, validação de pontuações e código anti-trapaça"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "Widgets SaaS",
+                "desc": "Proteja widgets JavaScript incorporados distribuídos nos sites de clientes"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Concursos e hackathons",
+                "desc": "Proteja algoritmos e abordagens únicas em submissões de concursos"
+            }
+        },
+        "tips_title": "Boas práticas de ofuscação",
+        "tips": {
+            "testing": {
+                "title": "✓ Teste após ofuscar",
+                "desc": "Sempre teste o código ofuscado no seu navegador de destino — certos padrões como eval() podem quebrar em ambientes de modo estrito."
+            },
+            "source": {
+                "title": "✓ Guarde o código-fonte original",
+                "desc": "A ofuscação é unidirecional. Sempre guarde o código-fonte original e legível em um repositório de controle de versão seguro."
+            },
+            "server": {
+                "title": "✓ Mova lógica sensível para o servidor",
+                "desc": "A ofuscação não é uma garantia de segurança. Para operações verdadeiramente sensíveis (pagamentos, autenticação), implemente a lógica no servidor — não no cliente."
+            },
+            "profiler": {
+                "title": "✓ Verifique o impacto no desempenho",
+                "desc": "A codificação intensiva de strings pode desacelerar ligeiramente o parsing do JavaScript. Perfis o código ofuscado no Chrome DevTools antes de implantar em produção."
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "O JavaScript ofuscado pode ser completamente desofuscado?",
+            "a1": "Sim, com esforço suficiente. Ferramentas como de4js, webcrack e DevTools do navegador podem reverter parcialmente a ofuscação. O objetivo é tornar o esforço suficientemente custoso para dissuadir concorrentes ocasionais — não alcançar proteção inviolável.",
+            "q2": "A ofuscação pode quebrar meu JavaScript?",
+            "a2": "Aplicada corretamente, a ofuscação deve produzir código funcionalmente idêntico. No entanto, a minificação agressiva pode quebrar certos padrões de metaprogramação, e a renomeação agressiva pode entrar em conflito com frameworks que dependem dos nomes das funções. Teste sempre minuciosamente.",
+            "q3": "O Google penaliza JavaScript ofuscado no SEO?",
+            "a3": "O Google pode indexar e executar JavaScript de páginas mesmo ofuscado. Enquanto o conteúdo HTML renderizado for o mesmo, não há penalidade de SEO. Evite ofuscar dados estruturados (JSON-LD) pois isso pode afetar rich results.",
+            "q4": "Qual é a diferença entre minificação e ofuscação?",
+            "a4": "A minificação remove espaços em branco, comentários e encurta nomes de variáveis para tamanho de arquivo menor — o código ainda é legível quando reformatado. A ofuscação visa especificamente tornar o código ilegível usando nomes de variáveis confusos, codificação de strings e outras técnicas."
+        }
+    }
+}

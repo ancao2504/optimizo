@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Kalkulator chmod Online - Hitung Izin Linux Gratis | Optimizo",
+        "description": "Kalkulator chmod online gratis. Ubah izin file Linux antara notasi simbolik (rwxr-xr-x) dan oktal (755), dan buat perintah chmod.",
+        "h1": "Kalkulator chmod",
+        "subtitle": "Hitung izin Linux — konversi notasi simbolik dan oktal serta buat perintah chmod"
+    },
+    "editor": {
+        "title": "Kalkulator Izin chmod",
+        "label_octal": "Nilai Oktal",
+        "col_type": "Tipe",
+        "col_read": "Baca (r)",
+        "col_write": "Tulis (w)",
+        "col_exec": "Eksekusi (x)",
+        "col_octal": "Oktal",
+        "row_owner": "Pemilik",
+        "row_group": "Grup",
+        "row_others": "Lainnya (semua orang)",
+        "btn_copy": "Salin Perintah"
+    },
+    "content": {
+        "why_title": "Mengapa menggunakan kalkulator chmod?",
+        "why_desc": "Izin file Linux dinyatakan dalam notasi simbolik (rwxr-xr-x) dan oktal (755). Menghitung nilai izin yang tepat secara manual rentan terhadap kesalahan. Kalkulator kami memungkinkan pemilihan izin secara visual dengan kotak centang dan langsung menghasilkan nilai oktal serta perintah chmod yang siap digunakan.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Pembuat Izin Visual",
+                "desc": "Klik kotak centang baca/tulis/eksekusi untuk pemilik/grup/lainnya; nilai diperbarui secara instan"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Sinkronisasi Dua Arah",
+                "desc": "Masukkan nilai oktal (mis. 755) dan kotak centang diperbarui otomatis, atau sebaliknya"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Perintah Siap Pakai",
+                "desc": "Menghasilkan perintah chmod lengkap yang dapat langsung ditempel ke terminal"
+            }
+        },
+        "how_title": "Cara menghitung izin",
+        "how_steps": {
+            "1": {
+                "title": "Tandai izin yang diinginkan",
+                "desc": "Klik kotak centang baca/tulis/eksekusi untuk pemilik, grup, dan semua orang"
+            },
+            "2": {
+                "title": "Periksa nilai oktal dan simbolik",
+                "desc": "Nilai oktal (mis. 755) dan notasi simbolik (rwxr-xr-x) diperbarui secara instan"
+            },
+            "3": {
+                "title": "Salin perintah",
+                "desc": "Salin perintah chmod yang dihasilkan dan jalankan di terminal"
+            }
+        },
+        "uses_title": "Skenario chmod yang Umum",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "File Server Web",
+                "desc": "Atur 644 untuk file HTML/CSS/JS di Apache atau Nginx (pemilik baca/tulis, grup/lainnya baca)"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Script yang Dapat Dijalankan",
+                "desc": "Atur 755 untuk shell script (pemilik akses penuh, grup/lainnya baca+eksekusi)"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "Kunci SSH",
+                "desc": "SSH memerlukan 600 (hanya pemilik baca/tulis) untuk kunci privat"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Direktori Upload",
+                "desc": "Atur 775 untuk direktori upload web agar proses server dapat menulis file"
+            }
+        },
+        "tips_title": "Praktik Terbaik Izin Linux",
+        "tips": {
+            "never777": {
+                "title": "✓ Jangan pernah gunakan 777 di produksi",
+                "desc": "chmod 777 memberikan akses penuh baca/tulis/eksekusi kepada semua orang — risiko keamanan yang serius."
+            },
+            "least": {
+                "title": "✓ Prinsip hak istimewa paling rendah",
+                "desc": "Selalu berikan izin minimum yang diperlukan. Mulai dengan ketat (600) dan tambahkan sesuai kebutuhan."
+            },
+            "recursive": {
+                "title": "✓ Berhati-hati dengan -R (rekursif)",
+                "desc": "chmod -R menerapkan izin secara rekursif ke semua file dan direktori."
+            },
+            "umask": {
+                "title": "✓ Pahami umask",
+                "desc": "Nilai umask mengurangi izin dari default. umask 022 memberikan 644 untuk file baru dan 755 untuk direktori baru."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Apa arti chmod 755?",
+            "a1": "755 berarti: pemilik(7)=baca+tulis+eksekusi, grup(5)=baca+eksekusi, lainnya(5)=baca+eksekusi. Izin default untuk file yang dapat dieksekusi dan direktori publik.",
+            "q2": "Apa perbedaan antara 644 dan 755?",
+            "a2": "644 (rw-r--r--): pemilik baca/tulis, lainnya hanya baca — untuk file biasa. 755 (rwxr-xr-x): pemilik juga dapat mengeksekusi — untuk script dan direktori.",
+            "q3": "Mengapa kunci SSH memerlukan izin 600?",
+            "a3": "SSH menolak menggunakan kunci privat yang dapat diakses oleh orang lain. 600 (rw-------) memastikan hanya pemilik yang dapat membaca dan menulis kuncinya.",
+            "q4": "Apa arti bit eksekusi pada direktori?",
+            "a4": "Bit eksekusi pada direktori berarti izin 'melintas' — pengguna dapat masuk ke direktori dan mengakses file di dalamnya. Tanpa izin eksekusi, pengguna tidak dapat masuk ke direktori."
+        }
+    }
+}

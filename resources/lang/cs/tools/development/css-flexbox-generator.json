@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Generátor CSS Flexbox Online - Vizuální Tvůrce Rozložení | Optimizo",
+        "description": "Vytvářejte CSS Flexbox rozložení vizuálně online zdarma. Nastavujte směr, justify-content, align-items a mezery s živým náhledem a okamžitým exportem CSS.",
+        "h1": "Generátor CSS Flexbox",
+        "subtitle": "Vizuálně vytvářejte CSS Flexbox rozložení — nastavujte všechny vlastnosti s živým náhledem"
+    },
+    "editor": {
+        "title": "Generátor Flexbox",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Mezera (gap)",
+        "label_items": "Počet prvků",
+        "label_preview": "Živý náhled",
+        "btn_copy": "Kopírovat CSS"
+    },
+    "content": {
+        "why_title": "Proč používat vizuální generátor Flexbox?",
+        "why_desc": "CSS Flexbox má mnoho vzájemně interagujících vlastností a kombinace mohou být složité. S naším vizuálním generátorem můžete nastavovat každou vlastnost pomocí rozbalovacích nabídek a vidět rozložení aktualizované v reálném čase.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Živý náhled",
+                "desc": "Vidíte přesně, co Flexbox rozložení při každé změně vlastnosti dělá — bez hádat"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Všechny vlastnosti",
+                "desc": "flex-direction, justify-content, align-items, flex-wrap a gap v jednom rozhraní"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "CSS připravené k použití",
+                "desc": "Kopírujte čistý blok .container {} CSS přímo do stylopisu"
+            }
+        },
+        "how_title": "Vytvoření Flexbox rozložení",
+        "how_steps": {
+            "1": {
+                "title": "Nastavte směr a zalamování",
+                "desc": "Vyberte flex-direction (řádek/sloupec) a flex-wrap pro ovládání hlavní osy a přetékání"
+            },
+            "2": {
+                "title": "Nastavte zarovnání prvků",
+                "desc": "Nastavte justify-content a align-items pro ovládání distribuce a zarovnání prvků"
+            },
+            "3": {
+                "title": "Zkopírujte CSS",
+                "desc": "Klikněte 'Kopírovat CSS' pro získání kompletního bloku .container CSS připraveného k použití"
+            }
+        },
+        "uses_title": "Případy použití Flexbox",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Navigační panel",
+                "desc": "Flexbox je ideální pro horizontální navigační panely s justifyContent:space-between pro logo+odkazy"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Mřížka karet",
+                "desc": "Vytvořte responsivní mřížku karet s flex-wrap:wrap a pevným flex-basis"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Dokonalé centrování",
+                "desc": "justifyContent:center + alignItems:center — nejjednodušší způsob centrování prvku"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Rozložení formuláře",
+                "desc": "Zarovnejte popisky a pole formuláře horizontálně nebo vertikálně pro čisté formuláře s Flexbox"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro Flexbox",
+        "tips": {
+            "axis": {
+                "title": "✓ Pochopte hlavní a příčnou osu",
+                "desc": "justify-content ovládá hlavní osu (řádek=horizontální). align-items ovládá příčnou osu. Mění se při použití flex-direction:column."
+            },
+            "grow": {
+                "title": "✓ Používejte flex:1 pro expandující prvky",
+                "desc": "Přidejte flex:1 k flex prvku pro jeho rozšíření a vyplnění dostupného prostoru."
+            },
+            "gap": {
+                "title": "✓ Používejte gap místo okrajů",
+                "desc": "Vlastnost gap vytváří rovnoměrné mezery mezi flex prvky bez přidávání okrajů na vnější hrany."
+            },
+            "grid": {
+                "title": "✓ Pro 2D rozložení používejte Grid",
+                "desc": "Flexbox ovládá jednu osu najednou. Pro dvourozměrná rozložení používejte CSS Grid."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Kdy používat Flexbox místo CSS Grid?",
+            "a1": "Flexbox je ideální pro jednorozměrná rozložení (navigační panely, skupiny tlačítek, řádky formulářů). CSS Grid exceluje v dvourozměrných rozložení, kde řídíte řádky a sloupce současně.",
+            "q2": "Co je flex-wrap:wrap?",
+            "a2": "Flex prvky jsou ve výchozím stavu nuceny do jednoho řádku i při přetékání. flex-wrap:wrap umožňuje prvkům přejít na další řádek při přetékání — důležité pro responsivní rozložení.",
+            "q3": "Jaký je rozdíl mezi align-items a align-content?",
+            "a3": "align-items zarovnává flex prvky na jednom řádku. align-content platí pouze při více řádcích (flex-wrap:wrap) a řídí distribuci řádků v kontejneru.",
+            "q4": "Jak vytvořit stejně široké sloupce s Flexbox?",
+            "a4": "Aplikujte flex:1 na každý prvek. Rozšíří je tak, aby rovnoměrně vyplnily dostupný prostor. Použijte flex:0 0 33,33% pro přesně 3 stejné sloupce bez ohledu na obsah."
+        }
+    }
+}

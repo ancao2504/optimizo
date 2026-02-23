@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Převodník TOML na JSON Online - Zdarma | Optimizo",
+        "description": "Převádějte TOML konfigurační soubory na JSON online a zdarma. Plná podpora pro TOML tabulky, pole tabulek, inline tabulky a všechny datové typy.",
+        "h1": "Převodník TOML na JSON",
+        "subtitle": "Převod konfigurace TOML na JSON — tabulky, pole tabulek a všechny datové typy TOML jsou podporovány"
+    },
+    "editor": {
+        "title": "Převodník TOML na JSON",
+        "label_toml": "TOML vstup",
+        "ph_toml": "# Příklad TOML\ntitle = \"Moje aplikace\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "JSON výstup",
+        "btn_copy": "Kopírovat JSON"
+    },
+    "content": {
+        "why_title": "Proč převádět TOML na JSON?",
+        "why_desc": "TOML je navržen pro čitelné konfigurační soubory (Rustův Cargo.toml, Pythonův pyproject.toml, Hugo config.toml), ale JSON je standardem pro webová API a JavaScript nástroje. Když potřebujete odeslat konfiguraci TOML do JSON API, integrovat s JavaScript nástroji nebo sdílet data mezi ekosystémy, tento nástroj okamžitě překlenuje tuto mezeru.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Plná konverze typů",
+                "desc": "Řetězce, celá čísla, desetinná čísla, logické hodnoty, data TOML — vše správně převedeno na ekvivalenty JSON"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Tabulky a pole tabulek",
+                "desc": "Správně zpracovává syntaxi [tabulka], [[pole tabulek]], inline tabulka {key = value}"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Formátovaný výstup JSON",
+                "desc": "Výstup je zobrazován s odsazením pro čitelnost — ne komprimovaný JSON na jednom řádku"
+            }
+        },
+        "how_title": "Převod TOML na JSON ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vložte konfiguraci TOML",
+                "desc": "Vložte obsah ze souboru Cargo.toml, pyproject.toml nebo jiného konfiguračního souboru TOML"
+            },
+            "2": {
+                "title": "Automatický převod",
+                "desc": "Nástroj analyzuje strukturu TOML a okamžitě ji převede na odpovídající JSON"
+            },
+            "3": {
+                "title": "Zkopírujte JSON",
+                "desc": "Zkopírujte vygenerovaný JSON do API volání nebo dalších nástrojů, které přijímají JSON"
+            }
+        },
+        "uses_title": "Případy použití převodníku TOML na JSON",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Analýza Cargo.toml",
+                "desc": "Převeďte Cargo.toml na JSON pro CI skripty analyzující závislosti"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Konfigurace Hugo",
+                "desc": "Převeďte Hugo config.toml na JSON pro integraci s dalšími nástroji"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Odeslání dat do API",
+                "desc": "Převeďte parametry TOML na JSON pro odeslání do REST API nebo GraphQL endpointů"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Výuka formátů",
+                "desc": "Pochopte mapování struktury TOML→JSON pro pochopení vzájemného vztahu dvou formátů"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro TOML",
+        "tips": {
+            "tables": {
+                "title": "✓ Používejte tečkovou syntaxi pro vnořené tabulky",
+                "desc": "TOML podporuje [server.database] jako zkratku pro vnořené tabulky."
+            },
+            "strings": {
+                "title": "✓ Pro cesty používejte literální řetězce",
+                "desc": "Literální řetězce v jednoduchých uvozovkách jako 'C:\\Users\\path' nezpracovávají escape sekvence — ideální pro Windows cesty."
+            },
+            "comments": {
+                "title": "✓ Aktivně používejte komentáře",
+                "desc": "Nejdůležitější výhoda TOML oproti JSON je podpora komentářů. Dokumentujte všechny konfigurační parametry pomocí # komentářů."
+            },
+            "datetime": {
+                "title": "✓ Buďte si vědomi konverze DateTime typů",
+                "desc": "Nativní data TOML RFC 3339 (2024-01-15T10:30:00Z) se v JSON stávají řetězci. Kód konzumující JSON je musí znovu analyzovat jako datové typy."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Jaké jsou výhody TOML ve srovnání s YAML a JSON?",
+            "a1": "TOML je jednodušší než YAML (žádná struktura na základě odsazení), čitelnější než JSON (komentáře jsou podporovány) a má explicitní typy (celá čísla, desetinná čísla, data jsou oddělené). Nejlepší volba pro konfigurační soubory aplikací.",
+            "q2": "Co jsou [[pole tabulek]] v TOML?",
+            "a2": "[[servers]] definuje pole objektů s názvem 'servers'. Každý výskyt [[servers]] vytvoří nový objekt v poli. JSON ekvivalent: {\"servers\": [{...}, {...}]}.",
+            "q3": "Které důležité nástroje používají TOML?",
+            "a3": "Rust (Cargo.toml), moderní balíčkování Pythonu (pyproject.toml pip/poetry), Hugo, Gitea, Lighthouse CI a mnoho Go nástrojů používá TOML.",
+            "q4": "Jsou komentáře TOML zachovány ve výstupu JSON?",
+            "a4": "Ne. Protože JSON postrádá syntaxi komentářů, komentáře # TOML nelze vyjádřit ve výstupu JSON."
+        }
+    }
+}

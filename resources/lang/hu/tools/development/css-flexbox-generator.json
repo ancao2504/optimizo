@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Online CSS Flexbox Generátor - Vizuális Layout Készítő | Optimizo",
+        "description": "CSS Flexbox elrendezések vizuális létrehozása online, ingyen. Állítsa be az irányt, az igazítást és a köztes tereket valós idejű előnézettel és azonnali CSS exporttal.",
+        "h1": "CSS Flexbox Generátor",
+        "subtitle": "CSS Flexbox elrendezések vizuális létrehozása — minden tulajdonság beállítható valós idejű előnézettel"
+    },
+    "editor": {
+        "title": "Flexbox Generátor",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Köztes tér (gap)",
+        "label_items": "Elemek száma",
+        "label_preview": "Valós idejű előnézet",
+        "btn_copy": "CSS másolása"
+    },
+    "content": {
+        "why_title": "Miért használjon vizuális Flexbox generátort?",
+        "why_desc": "A CSS Flexboxnak sok egymásra ható tulajdonsága van, és a kombinációk összetettek lehetnek. Vizuális generátorunkkal minden tulajdonságot legördülő menükkel állíthat be, és valós időben láthatja a frissülő elrendezést.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Valós idejű előnézet",
+                "desc": "Pontosan látja, mit csinál a Flexbox elrendezés minden tulajdonságváltozásnál — nincs találgatás"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Összes tulajdonság",
+                "desc": "flex-direction, justify-content, align-items, flex-wrap és gap egyetlen felületen"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Azonnal használható CSS",
+                "desc": "Másol egy tiszta .container {} CSS blokkot, amely közvetlenül beilleszthető a stíluslapba"
+            }
+        },
+        "how_title": "Flexbox elrendezés létrehozása",
+        "how_steps": {
+            "1": {
+                "title": "Irány és törés beállítása",
+                "desc": "Válassza a flex-direction (sor/oszlop) és a flex-wrap értékeket a főtengely és a túlcsordulás ellenőrzéséhez"
+            },
+            "2": {
+                "title": "Elemek igazításának beállítása",
+                "desc": "Állítsa be a justify-content és align-items értékeket az elemek elosztásának és igazításának ellenőrzéséhez"
+            },
+            "3": {
+                "title": "CSS másolása",
+                "desc": "Kattintson a 'CSS másolása' gombra a teljes .container CSS blokk megszerzéséhez, amely készen áll a projektjéhez"
+            }
+        },
+        "uses_title": "Flexbox felhasználási esetek",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Navigációs sáv",
+                "desc": "A Flexbox ideális vízszintes navigációs sávokhoz justifyContent:space-between értékkel a logó+linkekhez"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Kártya rács",
+                "desc": "Reszponzív kártya rácsot hozhat létre flex-wrap:wrap és rögzített flex-basis értékkel"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Tökéletes középre igazítás",
+                "desc": "justifyContent:center + alignItems:center — a legegyszerűbb módja egy elem középre igazításának"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Űrlap elrendezés",
+                "desc": "Vízszintesen vagy függőlegesen igazítsa a címkéket és az űrlapmezőket a Flexboxszal tiszta layoutok érdekében"
+            }
+        },
+        "tips_title": "Flexbox legjobb gyakorlatai",
+        "tips": {
+            "axis": {
+                "title": "✓ Értse meg a fő- és kereszttengelyt",
+                "desc": "A justify-content a főtengelyt vezérli (sor=vízszintes). Az align-items a kereszttengelyt vezérli. Változik, ha flex-direction:column van beállítva."
+            },
+            "grow": {
+                "title": "✓ Flex:1 bővíthető elemekhez",
+                "desc": "Adjon flex:1-et egy flex-elemhez a rendelkezésre álló tér kitöltéséhez."
+            },
+            "gap": {
+                "title": "✓ Gap használata margó helyett",
+                "desc": "A gap tulajdonság egyenletes távolságot biztosít a flex-elemek között anélkül, hogy a külső szélekre margókat adna."
+            },
+            "grid": {
+                "title": "✓ 2D elrendezésekhez Grid alkalmazása",
+                "desc": "A Flexbox egyszerre egy tengelyt kezel. 2D elrendezésekhez CSS Grid-et alkalmazzon."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Mikor használjon Flexboxot CSS Grid helyett?",
+            "a1": "A Flexbox ideális egydimenziós elrendezésekhez (navigációs sávok, gombcsoportok, űrlapsorok). A CSS Grid kétdimenziós elrendezéseknél remeklik, ahol egyszerre kell sorokat és oszlopokat vezérelni.",
+            "q2": "Mi a flex-wrap:wrap?",
+            "a2": "Alapértelmezés szerint a flex-elemek egyetlen sorba kényszerülnek, még ha túlcsordulnak is. A flex-wrap:wrap lehetővé teszi az elemeknek, hogy a következő sorra törjenek – fontos a reszponzív elrendezéseknél.",
+            "q3": "Mi a különbség az align-items és az align-content között?",
+            "a3": "Az align-items a flex-elemeket igazítja egyetlen soron. Az align-content csak több sor esetén (flex-wrap:wrap) alkalmazható, és a sorok elosztását vezérli a konténerben.",
+            "q4": "Hogyan lehet egyenlő szélességű oszlopokat létrehozni Flexboxszal?",
+            "a4": "Alkalmazzon flex:1-et minden elemre. Bővíti őket a rendelkezésre álló tér egyenletes kitöltéséhez. A flex:0 0 33,33% értékkel pontosan 3 egyenlő oszlopot kaphat tartalomtól függetlenül."
+        }
+    }
+}

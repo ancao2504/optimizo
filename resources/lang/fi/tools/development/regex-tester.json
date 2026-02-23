@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Regex-testaus Verkossa - Testaa Säännöllisiä Lausekkeita | Optimizo",
+        "description": "Testaa säännöllisiä lausekkeita (Regex) verkossa ilmaiseksi. Reaaliaikainen osumien korostus, lippujen tuki ja kaappausryhmien tiedot.",
+        "h1": "Regex-tester",
+        "subtitle": "Testaa Regex reaaliajassa — osumien korostus, liput ja kaappausryhmien tiedot"
+    },
+    "editor": {
+        "title": "Regex-tester",
+        "label_pattern": "Kaava (Regex)",
+        "ph_pattern": "Esim. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Liput",
+        "label_test": "Testitesti",
+        "ph_test": "Liitä testattava teksti tähän...",
+        "btn_test": "Testaa",
+        "btn_clear": "Tyhjennä"
+    },
+    "content": {
+        "why_title": "Miksi käyttää Regex-testeriä?",
+        "why_desc": "Säännölliset lausekkeet ovat tehokkaita kaavantunnistustyökaluja, joita käytetään lähes kaikissa ohjelmointikielissä. Virheenetsintä voi olla monimutkaista — yksi merkkivirhe voi muuttaa toimintaa täysin. Työkalu korostaa osumat reaaliajassa jokaisella näppäinpainalluksella ja näyttää kaappausryhmien tiedot.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Reaaliaikainen korostus",
+                "desc": "Osumat korostetaan välittömästi jokaisella näppäinpainalluksella — ei painiketta painettavaksi"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Kaappausryhmien tiedot",
+                "desc": "Näyttää kaikki kaappausryhmät, indeksit ja täsmäävät arvot kullekin tulokselle"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Täysi lippujen tuki",
+                "desc": "Aktivoi liput g, i, m, s, u, y yksitellen ja näe niiden vaikutus"
+            }
+        },
+        "how_title": "Testaa Regex 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Syötä kaava",
+                "desc": "Kirjoita säännöllinen lauseke kaavaskenttään (ilman vinoviivoja)"
+            },
+            "2": {
+                "title": "Valitse liput",
+                "desc": "Aktivoi tarvittaessa liput kuten g (globaali), i (kirjainkoon herkkyys), m (monirivi)"
+            },
+            "3": {
+                "title": "Liitä testitekstiä",
+                "desc": "Syötä tekstiä ja osumat korostetaan automaattisesti"
+            }
+        },
+        "uses_title": "Regexin tyypilliset käyttötapaukset",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Lomakevalidointi",
+                "desc": "Validoi sähköpostiosoitteet, puhelinnumerot, URL-osoitteet, postinumerot ja mukautetut muodot"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Haku ja korvaus",
+                "desc": "Etsi ja korvaa kaavoja koodieditorissa, lokitiedostoissa ja tekstinkäsittelyputkistoissa"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Lokitiedoston jäsennys",
+                "desc": "Pura rakenteista dataa (IP, aikaleima, virhekoodi) jäsentämättömistä lokeista"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Syötteen puhdistus",
+                "desc": "Poista tai korvaa vaarallisia merkkejä käyttäjädatasta ennen tallennusta tai näyttämistä"
+            }
+        },
+        "tips_title": "Regexin parhaat käytännöt",
+        "tips": {
+            "anchor": {
+                "title": "✓ Käytä ankkureita tarkkaan täsmäykseen",
+                "desc": "Käytä ^ ja $ ankkuroimaan kaava rivin alkuun ja loppuun, jotta vältät ei-toivotut osamälumat"
+            },
+            "groups": {
+                "title": "✓ Suosi ei-kaappausryhmiä",
+                "desc": "Käytä (?:...) eikä (...) kun ryhmän kaappaus ei ole tarpeen — parantaa suorituskykyä"
+            },
+            "escape": {
+                "title": "✓ Escape erikoismerkit",
+                "desc": ". * + ? ( ) [ ] { } | ^ $ \\ ovat erikoismerkkejä — käytä \\ kirjaimelliseen täsmäykseen"
+            },
+            "test": {
+                "title": "✓ Testaa reunatapauksia",
+                "desc": "Testaa aina tyhjillä merkkijonoilla, Unicode-merkeillä, hyvin pitkillä syötteillä ja raja-arvoilla"
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mitä Regex-murretta testaussovelluksessa käytetään?",
+            "a1": "JavaScriptin sisäänrakennettua RegExp-moottoria (ECMAScript-standardi). Tukee lookaheadia, lookbehindia (ES2018+), nimettyjä kaappausryhmiä ja Unicode-ominaisuuksia.",
+            "q2": "Mikä on ero lippujen g ja m välillä?",
+            "a2": "Lippu g (globaali) löytää kaikki osumat merkkijonossa, ei vain ensimmäistä. Lippu m (monirivi) tekee ^ ja $ täsmäämään jokaisen rivin alun ja lopun koko merkkijonon sijaan.",
+            "q3": "Miten täsmään kirjaimelliseen pisteeseen tai tähtimerkintään?",
+            "a3": "Escape kenoviivalla: \\. täsmää kirjaimelliseen pisteeseen, \\* täsmää kirjaimelliseen tähtimerkintään.",
+            "q4": "Miksi Regex täsmää enemmän tekstiä kuin odotettiin?",
+            "a4": "Käytät todennäköisesti ahnaita kvantifioijia. * ja + ovat oletusarvoisesti ahnaita — ne täsmäävät niin paljon tekstiä kuin mahdollista. Lisää ? tehdäksesi niistä laiskoja: *? tai +? täsmää niin vähän kuin mahdollista."
+        }
+    }
+}

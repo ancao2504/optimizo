@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Convertisseur HTML vers JSX en ligne - Outil React gratuit | Optimizo",
+        "description": "Convertissez du HTML en JSX React en ligne gratuitement. Transformez automatiquement class en className, for en htmlFor, les styles inline en objets JS et auto-fermez les balises void.",
+        "h1": "Convertisseur HTML vers JSX",
+        "subtitle": "Convertissez du HTML en JSX React instantanément — gère className, htmlFor, les styles inline et les balises auto-fermantes"
+    },
+    "editor": {
+        "title": "Convertisseur HTML vers JSX",
+        "label_html": "HTML en entrée",
+        "ph_html": "<div class=\"carte\">\n  <label for=\"email\">E-mail</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "Sortie JSX",
+        "btn_copy": "Copier le JSX"
+    },
+    "content": {
+        "why_title": "Pourquoi convertir du HTML en JSX ?",
+        "why_desc": "Lors de la migration de templates HTML existants vers React, ou de la copie de maquettes dans des composants, vous devez manuellement convertir class en className, for en htmlFor, et les styles inline de chaînes en objets JavaScript. Notre convertisseur automatise l'intégralité de ces transformations instantanément, gérant la totalité du mapping d'attributs HTML→JSX afin que vous puissiez vous concentrer sur la logique du composant plutôt que sur la conversion de syntaxe.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Conversion d'attributs",
+                "desc": "Convertit class→className, for→htmlFor, tabindex→tabIndex, maxlength→maxLength et bien d'autres"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Objets de style inline",
+                "desc": "Transforme style=\"color: red;\" en style={{color: 'red'}} — notation d'objet JS valide pour React"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Balises auto-fermantes",
+                "desc": "Ajoute la barre de fermeture aux éléments void : <br> devient <br />, <input> devient <input />"
+            }
+        },
+        "how_title": "Comment convertir du HTML en JSX",
+        "how_steps": {
+            "1": {
+                "title": "Collez le HTML",
+                "desc": "Collez votre template HTML, votre export Figma ou tout extrait HTML dans le panneau gauche"
+            },
+            "2": {
+                "title": "Conversion automatique",
+                "desc": "Le convertisseur transforme instantanément tous les attributs, styles et éléments void en syntaxe JSX"
+            },
+            "3": {
+                "title": "Copiez le JSX",
+                "desc": "Copiez le JSX converti et collez-le dans le bloc render/return de votre composant React"
+            }
+        },
+        "uses_title": "Cas d'utilisation du convertisseur HTML vers JSX",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "Migration vers React",
+                "desc": "Migrez des pages ou templates HTML existants vers des composants React sans conversion manuelle d'attributs"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Bootstrap vers React",
+                "desc": "Convertissez les composants Bootstrap HTML en JSX pour une utilisation avec react-bootstrap ou des composants stylisés"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "Templates d'e-mail",
+                "desc": "Convertissez les templates HTML d'e-mail en JSX pour le rendu avec React Email ou bibliothèques similaires"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "CMS vers React",
+                "desc": "Convertissez les templates HTML de WordPress ou CMS traditionnels en structure de composant React"
+            }
+        },
+        "tips_title": "Conseils HTML vers JSX",
+        "tips": {
+            "class": {
+                "title": "✓ class → className est essentiel",
+                "desc": "class est un mot-clé JavaScript réservé. React requiert className pour les classes CSS. L'oublier provoque un avertissement React et peut entraîner un comportement inattendu."
+            },
+            "for": {
+                "title": "✓ for → htmlFor sur les étiquettes",
+                "desc": "L'attribut for sur <label> devient htmlFor en JSX. L'oublier brise l'accessibilité — les lecteurs d'écran dépendent de l'association étiquette-champ."
+            },
+            "events": {
+                "title": "✓ Mettez à jour les gestionnaires d'événements après conversion",
+                "desc": "HTML onclick='...' n'est pas directement converti en JSX. Remplacez manuellement les gestionnaires d'événements inline par le pattern React onClick={handler} après la conversion."
+            },
+            "comments": {
+                "title": "✓ Les commentaires HTML deviennent des commentaires JSX",
+                "desc": "<!-- commentaire --> est converti en {/* commentaire */} en JSX. JSX n'autorise pas la syntaxe de commentaire HTML à l'intérieur du balisage JSX."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Pourquoi React utilise-t-il className au lieu de class ?",
+            "a1": "class est un mot-clé réservé en JavaScript (utilisé pour les classes ES6). Étant donné que JSX est du JavaScript, utiliser class créerait un conflit de syntaxe. React a choisi className pour éviter toute ambiguïté avec le mot-clé JavaScript class.",
+            "q2": "Cet outil gère-t-il les gestionnaires d'événements React ?",
+            "a2": "Non — les gestionnaires d'événements HTML comme onclick et onsubmit ne sont pas automatiquement convertis en onClick et onSubmit de React car leurs valeurs (chaînes JavaScript en HTML) doivent référencer des fonctions/états de composants React. Ceux-ci doivent être mis à jour manuellement.",
+            "q3": "Quelle est la différence entre HTML et JSX ?",
+            "a3": "JSX est une extension de syntaxe JavaScript qui ressemble à du HTML mais se compile en appels React.createElement(). Différences clés : tous les attributs utilisent camelCase, class est className, for est htmlFor, les éléments void doivent s'auto-fermer, et les expressions utilisent {} au lieu de chaînes.",
+            "q4": "Pourquoi les éléments void doivent-ils s'auto-fermer en JSX ?",
+            "a4": "JSX est analysé par Babel comme une syntaxe de type XML, qui requiert que tous les éléments soient correctement fermés. Les éléments void comme <br>, <img>, <input> n'ont pas d'enfants, ils doivent donc s'auto-fermer avec /> au lieu de laisser une balise non fermée."
+        }
+    }
+}

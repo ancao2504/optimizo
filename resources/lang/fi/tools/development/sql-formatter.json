@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "SQL-muotoilija Verkossa - Muotoile SQL Ilmaiseksi | Optimizo",
+        "description": "Muotoile ja siisti SQL-kyselyjä verkossa ilmaiseksi. Muotoile SELECT, INSERT, UPDATE, DELETE, CREATE ja monimutkaiset JOIN-kyselyt välittömästi.",
+        "h1": "SQL-muotoilija",
+        "subtitle": "Muotoile SQL-kyselyjä välittömästi ja siististi — yhteensopiva kaikkien tärkeimpien SQL-murteiden kanssa"
+    },
+    "editor": {
+        "title": "SQL-muotoilija",
+        "label_input": "SQL-kysely",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "Muotoile SQL",
+        "btn_minify": "Tiivistä SQL",
+        "label_output": "Muotoiltu SQL",
+        "btn_copy": "Kopioi SQL"
+    },
+    "content": {
+        "why_title": "Miksi muotoilla SQL-kyselyjä?",
+        "why_desc": "Muotoilematon SQL on lähes lukukelvoton, erityisesti monimutkaisilla JOINeilla, alikyselyillä ja CTE:illä. Muotoilija lisää asianmukaisen sisennyksen, rivinvaihdot ja avainsanojen versaalit, mikä helpottaa kyselyjen tarkistamista, virheenetsintää ja tiimin kanssa jakamista.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Avainsanat versaaleilla",
+                "desc": "Muuntaa automaattisesti SELECT, FROM, WHERE, JOIN ja kaikki SQL-avainsanat versaaleiksi"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Älykäs sisennys",
+                "desc": "Soveltaa asianmukaista sisennystä alikyselyihin, CASE-lausekkeisiin ja sisäkkäisiin lausekkeisiin"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Tiivistäminen",
+                "desc": "Pakkaa SQL yhden rivin pituiseksi — ihanteellinen kyselymerkkijonoille koodissa"
+            }
+        },
+        "how_title": "Muotoile SQL 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Liitä SQL-kysely",
+                "desc": "Kopioi ja liitä SQL koodieditorista, tietokanta-asiakkaasta tai kyselylokeista"
+            },
+            "2": {
+                "title": "Napsauta Muotoile",
+                "desc": "Napsauta 'Muotoile SQL' soveltaaksesi asianmukainen sisennys ja versaalit avainsanoihin"
+            },
+            "3": {
+                "title": "Kopioi ja käytä",
+                "desc": "Kopioi muotoiltu SQL suoraan tietokanta-asiakkaaseen, ORM:iin tai dokumentaatioon"
+            }
+        },
+        "uses_title": "SQL-muotoilun käyttötapaukset",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Katselmointikäytäntö",
+                "desc": "Muotoile SQL ennen katselmointia, jotta kollegat näkevät rakenteen selkeästi"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Kyselyvirheenetsintä",
+                "desc": "Pura monimutkaiset WHERE-lausekkeet ja JOIN-ketjut löytääksesi logiikkavirheet nopeasti"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Dokumentaatio",
+                "desc": "Lisää hyvin muotoiltu SQL tekniseen dokumentaatioon, README:ihin ja opetusmateriaalehin"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Kyselyn optimointi",
+                "desc": "Tunnista puuttuvat indeksit ja tehottomat JOIN-järjestykset helpommin muotoillun SQL:n avulla"
+            }
+        },
+        "tips_title": "SQL:n parhaat käytännöt",
+        "tips": {
+            "select": {
+                "title": "✓ Vältä SELECT *",
+                "desc": "Määrittele aina sarakkeiden nimet. Se parantaa suorituskykyä ja estää ongelmat taulukon skeemamuutosten yhteydessä."
+            },
+            "alias": {
+                "title": "✓ Käytä eksplisiittisiä aliaksia",
+                "desc": "Käytä merkityksellisiä taulukon aliaksia JOINeissa — tekee monimutkaisista kyselyistä helppolukuisia."
+            },
+            "explain": {
+                "title": "✓ Käytä EXPLAIN:ia",
+                "desc": "Aja EXPLAIN tai EXPLAIN ANALYZE ennen hitaiden kyselyiden käyttöönottoa."
+            },
+            "index": {
+                "title": "✓ Indeksoi WHERE-sarakkeet",
+                "desc": "Varmista, että WHERE:ssä, JOIN ON:ssa ja ORDER BY:ssä olevat sarakkeet on indeksoitu."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mitä SQL-murteita tuetaan?",
+            "a1": "Standardi SQL ja yhteensopiva MySQL:n, PostgreSQL:n, SQLiten, SQL Serverin (T-SQL) ja Oraclen kanssa.",
+            "q2": "Muuttaako muotoilu kyselyn toimintaa?",
+            "a2": "Ei. Muotoilija muuttaa vain välilyöntejä ja avainsanojen kirjainkokoa. Kyselyn logiikka, tulokset ja suoritussuunnitelma eivät muutu lainkaan.",
+            "q3": "Voinko muotoilla SQL:ää tallennettujen proseduurien kanssa?",
+            "a3": "Kyllä. Käsittelee CREATE PROCEDURE:n, BEGIN/END:n, DECLARE-lausunnot ja muut proseduuri-SQL-rakenteet.",
+            "q4": "Mihin tiivistämistä käytetään sovelluksissa?",
+            "a4": "Tiivistetty SQL vähentää lähdekoodiin upotettujen kyselymerkkijonojen kokoa ja tekee lokeista tiiviimpiä."
+        }
+    }
+}

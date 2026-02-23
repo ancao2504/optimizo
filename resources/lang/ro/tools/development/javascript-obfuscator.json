@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Obfuscator JavaScript Online - Protejați Codul JS Gratuit | Optimizo",
+        "description": "Obfuscați codul JavaScript online și gratuit. Redenumirea variabilelor, codificarea șirurilor și minificarea JS fac codul sursă mai greu de citit.",
+        "h1": "Obfuscator JavaScript",
+        "subtitle": "Protejați codul JavaScript prin redenumirea variabilelor, codificarea șirurilor și minificare — totul în browser"
+    },
+    "editor": {
+        "title": "Obfuscator JavaScript",
+        "label_input": "Intrare JavaScript",
+        "ph_input": "function greet(name) {\n  return 'Salut, ' + name + '!';\n}",
+        "opt_rename": "Redenumiți variabilele",
+        "opt_strings": "Codificați șirurile",
+        "opt_minify": "Minificați codul",
+        "disclaimer": "⚠️ Obfuscarea face codul mai greu de citit, dar nu este criptare. Dezvoltatorii experimentați pot face inginerie inversă la codul obfuscat. Nu vă bazați exclusiv pe obfuscare pentru a proteja datele sensibile.",
+        "btn_obfuscate": "Obfuscați JavaScript",
+        "label_output": "Rezultat obfuscat",
+        "btn_copy": "Copiați JS"
+    },
+    "content": {
+        "why_title": "De ce să obfuscați codul JavaScript?",
+        "why_desc": "JavaScript rulează în browser și codul sursă este întotdeauna vizibil în DevTools. Obfuscarea nu poate proteja complet codul, dar descurajează copierea neautorizată, încetinește ingineria inversă și creează bariere suficiente pentru a proteja logica de business proprietară.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Redenumirea variabilelor",
+                "desc": "Redenuiește toate variabilele, funcțiile și parametrii la identificatori hexazecimali ilizibili ca _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Codificarea șirurilor",
+                "desc": "Codifică toate literalele de șiruri la secvențe de escape hexazecimale — funcțional identice, dar ilizibile"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minificarea codului",
+                "desc": "Pe lângă obfuscare, elimină comentariile și normalizează spațiile albe pentru a reduce dimensiunea fișierului"
+            }
+        },
+        "how_title": "Obfuscați JavaScript în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Inserați JavaScript",
+                "desc": "Copiați codul JavaScript și inserați-l în câmpul de intrare"
+            },
+            "2": {
+                "title": "Selectați setările",
+                "desc": "Alegeți tehnicile de obfuscare pe care doriți să le aplicați — selectați-le pe toate trei pentru protecție maximă"
+            },
+            "3": {
+                "title": "Copiați și înlocuiți",
+                "desc": "Copiați conținutul obfuscat și înlocuiți fișierul original pentru distribuire"
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru obfuscarea JavaScript",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Biblioteci comerciale",
+                "desc": "Protejați algoritmii proprietari în bibliotecile JavaScript plătite distribuite clienților"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Jocuri browser",
+                "desc": "Obfuscați logica jocului, validarea scorului și codul anti-trișat"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "Widget SaaS",
+                "desc": "Protejați widget-urile JavaScript încorporate distribuite site-urilor clienților"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Concursuri și hackathons",
+                "desc": "Protejați algoritmii și abordările originale în propunerile la concursuri"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru obfuscare",
+        "tips": {
+            "testing": {
+                "title": "✓ Testați după obfuscare",
+                "desc": "Testați întotdeauna codul obfuscat în browserele țintă — modelele ca eval() pot eșua în modul strict."
+            },
+            "source": {
+                "title": "✓ Păstrați codul sursă original",
+                "desc": "Obfuscarea este o transformare ireversibilă. Păstrați întotdeauna codul sursă lizibil original într-un sistem de control al versiunilor sigur."
+            },
+            "server": {
+                "title": "✓ Mutați logica sensibilă pe server",
+                "desc": "Obfuscarea nu este o garanție de securitate. Implementați logica pentru operațiunile cu adevărat sensibile pe partea de server, nu pe client."
+            },
+            "profiler": {
+                "title": "✓ Verificați impactul asupra performanței",
+                "desc": "Codificarea intensivă a șirurilor poate încetini ușor parsarea JavaScript. Profilați codul obfuscat în Chrome DevTools înainte de implementare în producție."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Poate obfuscarea JavaScript să fie complet inversată?",
+            "a1": "Da, cu suficient efort. Instrumente ca de4js, webcrack și DevTools-urile browserului pot inversa parțial obfuscarea. Scopul este să o facă suficient de costisitoare pentru a descuraja copierea uzuală.",
+            "q2": "Poate obfuscarea să rupă JavaScript?",
+            "a2": "Aplicată corect, obfuscarea ar trebui să producă cod funcțional identic. Totuși, minificarea agresivă poate rupe anumite modele de metaprogramare. Testați întotdeauna temeinic.",
+            "q3": "Google penalizează JavaScript-ul obfuscat în SEO?",
+            "a3": "Google poate indexa și rula JavaScript-ul paginii chiar dacă este obfuscat. Dacă conținutul HTML redat este același, nu există nicio penalizare SEO.",
+            "q4": "Care este diferența dintre minificare și obfuscare?",
+            "a4": "Minificarea elimină spațiile albe și comentariile și scurtează numele variabilelor pentru a reduce dimensiunea fișierului — codul este încă lizibil după reformatare. Obfuscarea urmărește să facă codul ilizibil cu nume de variabile confuze, codificarea șirurilor și alte tehnici."
+        }
+    }
+}

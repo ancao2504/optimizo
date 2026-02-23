@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "CSS Flexbox Generator - Visual Flexbox Builder | Optimizo",
+        "description": "Generate CSS Flexbox layouts visually online for free. Set direction, justify-content, align-items, and gap with a live preview and instant CSS code output.",
+        "h1": "CSS Flexbox Generator",
+        "subtitle": "Build CSS Flexbox layouts visually — configure all flexbox properties with a live preview"
+    },
+    "editor": {
+        "title": "Flexbox Generator",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Gap",
+        "label_items": "Item Count",
+        "label_preview": "Live Preview",
+        "btn_copy": "Copy CSS"
+    },
+    "content": {
+        "why_title": "Why Use a Visual Flexbox Generator?",
+        "why_desc": "CSS Flexbox has many interacting properties — flex-direction, justify-content, align-items, align-content, flex-wrap — and their interactions can be confusing. Our visual generator lets you adjust each property via a dropdown and see the layout update live in real-time, making it the fastest way to learn Flexbox and build layouts without the trial-and-error cycle.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Live Visual Preview",
+                "desc": "See exactly how your Flexbox layout behaves as you change each property — no guesswork"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "All Properties Covered",
+                "desc": "Covers flex-direction, justify-content, align-items, flex-wrap, and gap in one interface"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Ready CSS Output",
+                "desc": "Copies a clean .container {} block ready to paste into your stylesheet"
+            }
+        },
+        "how_title": "How to Build a Flexbox Layout",
+        "how_steps": {
+            "1": {
+                "title": "Set Direction & Wrap",
+                "desc": "Choose flex-direction (row/column) and flex-wrap to control the main axis and overflow"
+            },
+            "2": {
+                "title": "Align Items",
+                "desc": "Set justify-content and align-items to control how items are distributed and aligned"
+            },
+            "3": {
+                "title": "Copy CSS",
+                "desc": "Click 'Copy CSS' to get the complete .container CSS block ready for your project"
+            }
+        },
+        "uses_title": "Flexbox Use Cases",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Navigation Bars",
+                "desc": "Flexbox is ideal for horizontal navbars — use justify-content: space-between for logo + links"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Card Grids",
+                "desc": "Use flex-wrap: wrap with a fixed flex-basis for responsive card grids that wrap on mobile"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Perfect Centering",
+                "desc": "justify-content: center + align-items: center is the easiest way to center anything"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Form Layouts",
+                "desc": "Align form labels and inputs horizontally or vertically with Flexbox for clean, consistent forms"
+            }
+        },
+        "tips_title": "Flexbox Best Practices",
+        "tips": {
+            "axis": {
+                "title": "✓ Understand Main Axis vs Cross Axis",
+                "desc": "justify-content controls the main axis (row direction = horizontal). align-items controls the cross axis. These swap when you use flex-direction: column."
+            },
+            "grow": {
+                "title": "✓ Use flex: 1 for Flexible Items",
+                "desc": "Adding flex: 1 to a flex child makes it grow to fill available space. Combine with min-width: 0 to prevent overflow in flex children."
+            },
+            "gap": {
+                "title": "✓ Use gap Instead of Margins",
+                "desc": "The gap property creates consistent space between flex items without adding margins to the outer edges — much cleaner than margin-based spacing."
+            },
+            "grid": {
+                "title": "✓ Use Grid for 2D Layouts",
+                "desc": "Flexbox controls one axis at a time (row OR column). For true 2D grid layouts where you need control over both rows and columns, use CSS Grid instead."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "When should I use Flexbox vs CSS Grid?",
+            "a1": "Flexbox is best for 1D layouts — distributing items along a single row or column (navbars, button groups, form rows). CSS Grid excels at 2D layouts where you control both rows and columns simultaneously (page layouts, card grids).",
+            "q2": "What does flex-wrap: wrap do?",
+            "a2": "By default, flex items are forced onto one line even if they overflow. flex-wrap: wrap allows items to drop to a new line when they would overflow the container — essential for responsive layouts.",
+            "q3": "What is the difference between align-items and align-content?",
+            "a3": "align-items aligns flex items within a single row (cross axis alignment). align-content only applies when there are multiple rows (flex-wrap: wrap) and controls how those rows are distributed within the container.",
+            "q4": "How do I make equal-width columns with Flexbox?",
+            "a4": "Apply flex: 1 to each flex child. This makes all children grow equally to fill the available space. Use flex: 0 0 33.33% for exactly 3 equal columns regardless of content."
+        }
+    }
+}

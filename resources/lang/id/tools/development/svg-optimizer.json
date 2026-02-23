@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Pengoptimal SVG Online - Kompres SVG Gratis | Optimizo",
+        "description": "Optimalkan dan kompres file SVG secara online dan gratis. Hapus komentar, metadata, dan atribut yang tidak perlu untuk mengurangi ukuran file sambil mempertahankan kualitas visual.",
+        "h1": "Pengoptimal SVG",
+        "subtitle": "Kompres file SVG secara online — hapus metadata, komentar, dan atribut yang tidak perlu untuk mengurangi ukuran file"
+    },
+    "editor": {
+        "title": "Pengoptimal SVG",
+        "opt_remove_comments": "Hapus Komentar",
+        "opt_remove_metadata": "Hapus Metadata",
+        "opt_remove_ids": "Hapus ID",
+        "opt_remove_dimensions": "Hapus width/height",
+        "opt_remove_doctype": "Hapus DOCTYPE",
+        "opt_round_numbers": "Bulatkan Angka",
+        "opt_collapse_groups": "Hapus Grup Kosong",
+        "opt_remove_empty_containers": "Hapus Container Kosong",
+        "label_input": "Input SVG",
+        "ph_input": "Tempel kode SVG di sini...",
+        "btn_optimize": "Optimalkan SVG",
+        "label_output": "SVG yang Dioptimalkan",
+        "btn_copy": "Salin SVG"
+    },
+    "content": {
+        "why_title": "Mengapa mengoptimalkan file SVG?",
+        "why_desc": "File SVG yang diekspor dari Illustrator, Figma, dan Inkscape mengandung banyak data yang tidak perlu — komentar, metadata editor, atribut redundan, dan container kosong. Setelah dioptimalkan, ukuran file dapat dikurangi 30-70% dan loading menjadi lebih cepat.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 Strategi Optimasi",
+                "desc": "Setiap pass optimasi dapat diaktifkan/dinonaktifkan secara individual untuk kontrol yang tepat"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Statistik Pengurangan Ukuran",
+                "desc": "Lihat ukuran asli, ukuran yang dioptimalkan, dan persentase penghematan setelah setiap optimasi"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Optimasi Lossless",
+                "desc": "Semua optimasi mempertahankan tampilan visual SVG — hanya menghapus metadata yang tidak terlihat"
+            }
+        },
+        "how_title": "Optimasi SVG dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Tempel kode SVG",
+                "desc": "Salin kode sumber SVG dari alat desain atau file dan tempel ke field input"
+            },
+            "2": {
+                "title": "Pilih optimasi",
+                "desc": "Centang opsi optimasi yang diinginkan — pengaturan default memberikan pengurangan maksimal"
+            },
+            "3": {
+                "title": "Salin dan gunakan",
+                "desc": "Salin SVG yang dioptimalkan dan ganti file asli, atau sematkan langsung ke HTML"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Optimasi SVG",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Perpustakaan Ikon",
+                "desc": "Optimalkan set ikon yang diekspor dari Figma atau Illustrator sebelum ditambahkan ke perpustakaan"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Logo",
+                "desc": "Bersihkan logo SVG untuk header situs web, favicon, dan aset merek"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "SVG Animasi",
+                "desc": "Kurangi ukuran dasar SVG animasi yang sudah besar karena data animasi"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA dan Mobile",
+                "desc": "SVG yang lebih kecil mengurangi penggunaan data mobile dan meningkatkan skor Lighthouse"
+            }
+        },
+        "tips_title": "Praktik Terbaik Optimasi SVG",
+        "tips": {
+            "ids": {
+                "title": "✓ Hati-hati menghapus ID dengan animasi CSS",
+                "desc": "Jika SVG menggunakan animasi CSS atau JS yang menargetkan elemen berdasarkan ID, nonaktifkan 'Hapus ID' agar animasi tidak rusak."
+            },
+            "viewbox": {
+                "title": "✓ Pertahankan viewBox, hapus width/height",
+                "desc": "Menghapus atribut width/height dan hanya menyimpan viewBox memungkinkan SVG untuk diskalakan secara responsif melalui CSS."
+            },
+            "precision": {
+                "title": "✓ Bulatkan angka ke 2 desimal",
+                "desc": "Koordinat jalur dengan lebih dari 5 desimal tidak dapat dibedakan secara visual. Pembulatan ke 2 mengurangi ukuran file."
+            },
+            "pipeline": {
+                "title": "✓ Otomatiskan SVGO di CI/CD",
+                "desc": "Dalam proyek besar, integrasikan SVGO ke proses build untuk mengoptimalkan semua SVG secara otomatis."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Berapa banyak optimasi SVG dapat mengurangi ukuran file?",
+            "a1": "Biasanya menghemat 30-70% tergantung sumbernya. SVG Illustrator menunjukkan penghematan terbesar; ekspor Figma sudah relatif bersih.",
+            "q2": "Apakah optimasi mengubah tampilan SVG?",
+            "a2": "Tidak — semua optimasi dalam alat ini hanya menghapus data yang tidak terlihat atau membulatkan angka dengan presisi yang tidak terdeteksi. Hasil visual identik dengan aslinya.",
+            "q3": "Mengapa menghapus atribut width dan height?",
+            "a3": "Nilai width/height yang di-hardcode mencegah SVG untuk diskalakan secara responsif melalui CSS. Menghapusnya dan hanya menyimpan viewBox memungkinkan kontrol ukuran penuh melalui properti CSS.",
+            "q4": "Apa perbedaan antara alat ini dan SVGO?",
+            "a4": "SVGO adalah alat command-line Node.js yang merupakan standar untuk optimasi SVG. Alat ini menyediakan antarmuka browser yang ramah pengguna untuk optimasi yang paling umum tanpa menginstal Node.js."
+        }
+    }
+}

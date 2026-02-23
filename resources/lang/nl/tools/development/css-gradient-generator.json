@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "CSS Gradient Generator Online - Gratis kleurverloopmaker | Optimizo",
+        "description": "Genereer CSS-verlopen online gratis. Maak lineaire, radiale en conische verlopen met meerdere kleurstops, hoekregeling en directe CSS-export.",
+        "h1": "CSS Gradient Generator",
+        "subtitle": "Maak prachtige lineaire, radiale en conische verlopen met live preview en CSS-export"
+    },
+    "editor": {
+        "title": "CSS Gradient Generator",
+        "label_type": "Verlooptype",
+        "label_angle": "Hoek",
+        "label_stops": "Kleurstops",
+        "btn_add_stop": "Stop toevoegen",
+        "btn_copy": "CSS kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom een visuele gradient generator gebruiken?",
+        "why_desc": "CSS-verlopen handmatig schrijven is vervelend — de syntaxis van linear-gradient(), radial-gradient() en conic-gradient() met meerdere kleurstops en posities memoriseren is foutgevoelig. Onze visuele generator laat je kleurstops beheren met kleurkiezers en positieschuifregelaars, met een live preview die direct bijwerkt, waardoor het maken van verlopen snel en intuïtief is.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 verloopsoorten",
+                "desc": "Lineaire, radiale en conische verlopen, alle ondersteund met specifieke controls voor elk type"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Meerkleurige verlopen",
+                "desc": "Voeg onbeperkte kleurstops toe en sleep hun posities om complexe meerkleurige verlopen te maken"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Live preview",
+                "desc": "Zie je verloop in realtime renderen terwijl je kleuren, posities en hoek aanpast"
+            }
+        },
+        "how_title": "Een CSS-verloop maken",
+        "how_steps": {
+            "1": {
+                "title": "Kies het verlooptype",
+                "desc": "Selecteer een lineair, radiaal of conisch verloop en stel de hoek of richting in"
+            },
+            "2": {
+                "title": "Configureer de kleurstops",
+                "desc": "Gebruik de kleurkiezers om de kleur van elke stop in te stellen en de schuifregelaars om ze te positioneren"
+            },
+            "3": {
+                "title": "CSS kopiëren",
+                "desc": "Klik op 'CSS kopiëren' voor de volledige background-eigenschap klaar voor je stijlblad"
+            }
+        },
+        "uses_title": "Gebruiksscenario's voor CSS-verlopen",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Hero-achtergronden",
+                "desc": "Maak indrukwekkende volledige pagina-achtergronden met diagonale of radiale verlopen"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Tekst met verloop",
+                "desc": "Pas verlopen toe op tekst met background-clip: text voor opvallende typografische effecten"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Verloopranden",
+                "desc": "Gebruik verlopen met border-image om gekleurde randen op elementen te maken"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Afbeeldingsoverlays",
+                "desc": "Leg verlopen over afbeeldingen om donkere overlays te maken die tekstleesbaarheid mogelijk maken"
+            }
+        },
+        "tips_title": "Best practices voor CSS-verlopen",
+        "tips": {
+            "angle": {
+                "title": "✓ Gebruik 135deg voor diagonale verlopen",
+                "desc": "Een hoek van 135 graden creëert een klassieke diagonaal van linksboven naar rechtsonder die natuurlijk en dynamisch aanvoelt — een populaire keuze voor hero-secties."
+            },
+            "subtle": {
+                "title": "✓ Houd verlopen subtiel voor UI",
+                "desc": "Voor UI-elementen (knoppen, kaarten), gebruik zeer subtiele verlopen van dezelfde tint met 10-20% helderheidsverschil om diepte toe te voegen zonder visuele rommel."
+            },
+            "fallback": {
+                "title": "✓ Geef een terugvalkleur op",
+                "desc": "Voeg een effen background-color toe vóór je verloop als terugval: background-color: #6366f1; background: linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Animeer de verlooppositie",
+                "desc": "CSS-verlopen kunnen niet direct worden geanimeerd, maar je kunt background-position op een groter verloop animeren om een vloeiend effect te maken."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Wat is het verschil tussen lineaire, radiale en conische verlopen?",
+            "a1": "Lineaire verlopen gaan over in een rechte lijn op een hoek. Radiale verlopen stralen uit vanuit een middelpunt in cirkels of ellipsen. Conische verlopen draaien rond een middelpunt als een taartdiagram — ideaal voor voortgangsringen en kleurwielen.",
+            "q2": "Hoe maak je een transparant verloop?",
+            "a2": "Gebruik transparent als kleurstop: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Dit maakt een verloop van een semi-ondoorzichtige kleur tot volledig transparant — perfect voor afbeeldingsoverlays.",
+            "q3": "Waarom heeft mijn verloop strepen?",
+            "a3": "Banding (zichtbare strepen tussen kleuren) verschijnt op schermen van lage kwaliteit of bij overgangen tussen vergelijkbare tinten. Voeg een tussenliggende kleurstop toe in een complementaire tint om de overgang te verzachten.",
+            "q4": "Kan ik verlopen als randen gebruiken?",
+            "a4": "Ja, gebruik border-image: linear-gradient(...) 1. Dit stelt het verloop in als randafbeelding. Gebruik als alternatief een ::before pseudo-element met verlooachtergrond en negatieve z-index om verloopranden te simuleren."
+        }
+    }
+}

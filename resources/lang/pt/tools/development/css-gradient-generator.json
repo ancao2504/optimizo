@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Gerador de gradiente CSS Online - Criador de degradê gratuito | Optimizo",
+        "description": "Gere gradientes CSS online grátis. Crie degradês lineares, radiais e cônicos com múltiplas paradas de cor, controle de ângulo e exportação CSS instantânea.",
+        "h1": "Gerador de gradiente CSS",
+        "subtitle": "Crie belos degradês lineares, radiais e cônicos com pré-visualização ao vivo e exportação CSS"
+    },
+    "editor": {
+        "title": "Gerador de gradiente CSS",
+        "label_type": "Tipo de gradiente",
+        "label_angle": "Ângulo",
+        "label_stops": "Paradas de cor",
+        "btn_add_stop": "Adicionar parada",
+        "btn_copy": "Copiar CSS"
+    },
+    "content": {
+        "why_title": "Por que usar um gerador visual de gradientes?",
+        "why_desc": "Escrever gradientes CSS manualmente é tedioso — memorizar a sintaxe de linear-gradient(), radial-gradient() e conic-gradient() com múltiplas paradas de cor e posições é propenso a erros. Nosso gerador visual permite gerenciar paradas de cor com seletores e controles deslizantes de posição, com pré-visualização ao vivo que atualiza instantaneamente, tornando a criação de gradientes rápida e intuitiva.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 tipos de gradiente",
+                "desc": "Gradientes lineares, radiais e cônicos todos suportados com controles específicos para cada tipo"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Gradientes com múltiplas cores",
+                "desc": "Adicione paradas de cor ilimitadas e arraste suas posições para criar gradientes multicoloridos complexos"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Pré-visualização ao vivo",
+                "desc": "Veja seu gradiente renderizado em tempo real enquanto ajusta cores, posições e o ângulo"
+            }
+        },
+        "how_title": "Como criar um gradiente CSS",
+        "how_steps": {
+            "1": {
+                "title": "Escolha o tipo de gradiente",
+                "desc": "Selecione um gradiente linear, radial ou cônico e defina o ângulo ou direção"
+            },
+            "2": {
+                "title": "Configure as paradas de cor",
+                "desc": "Use os seletores para definir a cor de cada parada e os controles deslizantes para posicioná-las"
+            },
+            "3": {
+                "title": "Copie o CSS",
+                "desc": "Clique em 'Copiar CSS' para a propriedade background completa pronta para sua folha de estilos"
+            }
+        },
+        "uses_title": "Casos de uso dos gradientes CSS",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Fundos hero",
+                "desc": "Crie impressionantes fundos de página inteira com gradientes diagonais ou radiais"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Texto com gradiente",
+                "desc": "Aplique gradientes ao texto com background-clip: text para efeitos tipográficos marcantes"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Bordas com gradiente",
+                "desc": "Use gradientes com border-image para criar bordas coloridas nos elementos"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Sobreposições de imagem",
+                "desc": "Sobreponha gradientes sobre imagens para criar sobreposições escuras que permitam legibilidade do texto"
+            }
+        },
+        "tips_title": "Boas práticas para gradientes CSS",
+        "tips": {
+            "angle": {
+                "title": "✓ Use 135deg para gradientes diagonais",
+                "desc": "Um ângulo de 135 graus cria uma diagonal clássica de cima-esquerda para baixo-direita que parece natural e dinâmica — uma escolha popular para seções hero."
+            },
+            "subtle": {
+                "title": "✓ Mantenha gradientes sutis para UI",
+                "desc": "Para elementos de UI (botões, cartões), use gradientes muito sutis do mesmo tom com 10-20% de diferença de luminosidade para adicionar profundidade sem ruído visual."
+            },
+            "fallback": {
+                "title": "✓ Forneça uma cor de fallback",
+                "desc": "Adicione um background-color sólido antes do seu gradiente como fallback: background-color: #6366f1; background: linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Anime a posição do gradiente",
+                "desc": "Gradientes CSS não podem ser animados diretamente, mas você pode animar background-position em um gradiente maior para criar um efeito fluido."
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "Qual é a diferença entre gradientes lineares, radiais e cônicos?",
+            "a1": "Gradientes lineares fazem a transição ao longo de uma linha reta em um ângulo. Gradientes radiais irradiam de um ponto central em círculos ou elipses. Gradientes cônicos giram em torno de um ponto central como um gráfico de pizza — ideal para anéis de progresso e rodas de cores.",
+            "q2": "Como criar um gradiente transparente?",
+            "a2": "Use transparent como parada de cor: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Isso cria um gradiente de cor semiopaca para completamente transparente — perfeito para sobreposições de imagens.",
+            "q3": "Por que meu gradiente tem faixas ou listras?",
+            "a3": "O banding (faixas visíveis entre cores) aparece em telas de baixa qualidade ou em transições entre tons similares. Adicione uma parada de cor intermediária em um tom complementar para suavizar a transição.",
+            "q4": "Posso usar gradientes como bordas?",
+            "a4": "Sim, use border-image: linear-gradient(...) 1. Isso define o gradiente como imagem de borda. Alternativamente, use um pseudoelemento ::before com fundo de gradiente e z-index negativo para simular bordas com gradiente."
+        }
+    }
+}

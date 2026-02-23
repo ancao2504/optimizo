@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Generador CSS Flexbox Online - Constructor visual de diseño | Optimizo",
+        "description": "Genera diseños CSS Flexbox visualmente en línea gratis. Establece dirección, justify-content, align-items y gap con previsualización en vivo y exportación CSS instantánea.",
+        "h1": "Generador CSS Flexbox",
+        "subtitle": "Construye diseños CSS Flexbox visualmente — configura todas las propiedades con previsualización en vivo"
+    },
+    "editor": {
+        "title": "Generador Flexbox",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Espacio (gap)",
+        "label_items": "Número de elementos",
+        "label_preview": "Previsualización en vivo",
+        "btn_copy": "Copiar CSS"
+    },
+    "content": {
+        "why_title": "¿Por qué usar un generador visual de Flexbox?",
+        "why_desc": "CSS Flexbox tiene muchas propiedades que interactúan entre sí — flex-direction, justify-content, align-items, align-content, flex-wrap — y sus interacciones pueden ser confusas. Nuestro generador visual te permite ajustar cada propiedad mediante un menú desplegable y ver el diseño actualizarse en tiempo real, siendo la forma más rápida de aprender Flexbox y construir diseños sin repetidos ensayo y error.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Previsualización en vivo",
+                "desc": "Ve exactamente cómo se comporta tu diseño Flexbox en cada cambio de propiedad — sin suposiciones"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Todas las propiedades cubiertas",
+                "desc": "Cubre flex-direction, justify-content, align-items, flex-wrap y gap en una sola interfaz"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Salida CSS lista para usar",
+                "desc": "Copia un bloque .container {} limpio listo para pegar en tu hoja de estilos"
+            }
+        },
+        "how_title": "Cómo crear un diseño Flexbox",
+        "how_steps": {
+            "1": {
+                "title": "Establece la dirección y el ajuste",
+                "desc": "Elige flex-direction (fila/columna) y flex-wrap para controlar el eje principal y el desbordamiento"
+            },
+            "2": {
+                "title": "Alinea los elementos",
+                "desc": "Establece justify-content y align-items para controlar la distribución y alineación de los elementos"
+            },
+            "3": {
+                "title": "Copia el CSS",
+                "desc": "Haz clic en 'Copiar CSS' para el bloque CSS .container completo listo para tu proyecto"
+            }
+        },
+        "uses_title": "Casos de uso de Flexbox",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Barras de navegación",
+                "desc": "Flexbox es ideal para barras de navegación horizontales — usa justify-content: space-between para logo + enlaces"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Rejillas de tarjetas",
+                "desc": "Usa flex-wrap: wrap con un flex-basis fijo para rejillas de tarjetas responsivas que se adaptan en móvil"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Centrado perfecto",
+                "desc": "justify-content: center + align-items: center es la forma más simple de centrar cualquier elemento"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Diseños de formularios",
+                "desc": "Alinea etiquetas y campos de formulario horizontal o verticalmente con Flexbox para formularios limpios"
+            }
+        },
+        "tips_title": "Buenas prácticas de Flexbox",
+        "tips": {
+            "axis": {
+                "title": "✓ Entiende el eje principal vs el eje transversal",
+                "desc": "justify-content controla el eje principal (fila = horizontal). align-items controla el eje transversal. Estos roles se invierten con flex-direction: column."
+            },
+            "grow": {
+                "title": "✓ Usa flex: 1 para elementos flexibles",
+                "desc": "Añadir flex: 1 a un hijo flex le permite crecer para llenar el espacio disponible. Combina con min-width: 0 para evitar desbordamiento."
+            },
+            "gap": {
+                "title": "✓ Usa gap en lugar de márgenes",
+                "desc": "La propiedad gap crea espaciado coherente entre elementos flex sin añadir márgenes en los bordes exteriores — mucho más limpio."
+            },
+            "grid": {
+                "title": "✓ Usa Grid para diseños 2D",
+                "desc": "Flexbox controla un solo eje a la vez (fila O columna). Para diseños de rejilla 2D donde necesitas control simultáneo de filas y columnas, usa CSS Grid."
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Cuándo usar Flexbox en lugar de CSS Grid?",
+            "a1": "Flexbox es ideal para diseños 1D — distribuir elementos a lo largo de una sola fila o columna (barras de navegación, grupos de botones, filas de formulario). CSS Grid destaca en diseños 2D donde controlas simultáneamente filas y columnas.",
+            "q2": "¿Qué hace flex-wrap: wrap?",
+            "a2": "Por defecto, los elementos flex se fuerzan en una sola línea aunque desborden. flex-wrap: wrap permite que los elementos pasen a la siguiente línea cuando desbordan — esencial para diseños responsivos.",
+            "q3": "¿Cuál es la diferencia entre align-items y align-content?",
+            "a3": "align-items alinea los elementos flex en una sola línea (eje transversal). align-content solo aplica cuando hay múltiples líneas (flex-wrap: wrap) y controla la distribución de esas líneas en el contenedor.",
+            "q4": "¿Cómo crear columnas de igual ancho con Flexbox?",
+            "a4": "Aplica flex: 1 a cada hijo flex. Esto les permite crecer igualmente para llenar el espacio disponible. Usa flex: 0 0 33.33% para exactamente 3 columnas iguales independientemente del contenido."
+        }
+    }
+}

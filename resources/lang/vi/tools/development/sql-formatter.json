@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "Định Dạng SQL Online - Định Dạng Câu Lệnh SQL Miễn Phí | Optimizo",
+        "description": "Định dạng và làm gọn câu lệnh SQL trực tuyến và miễn phí. Định dạng tức thì SELECT, INSERT, UPDATE, DELETE, CREATE và các câu lệnh JOIN phức tạp.",
+        "h1": "Định Dạng SQL",
+        "subtitle": "Định dạng câu lệnh SQL tức thì và gọn gàng — tương thích với tất cả các phương ngữ SQL chính"
+    },
+    "editor": {
+        "title": "Định Dạng SQL",
+        "label_input": "Câu lệnh SQL",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "Định dạng SQL",
+        "btn_minify": "Thu gọn SQL",
+        "label_output": "SQL đã định dạng",
+        "btn_copy": "Sao chép SQL"
+    },
+    "content": {
+        "why_title": "Tại sao nên định dạng câu lệnh SQL?",
+        "why_desc": "SQL không được định dạng hầu như không thể đọc được, đặc biệt với các JOIN, truy vấn con và CTE phức tạp. Công cụ định dạng thêm thụt lề đúng, xuống dòng và viết hoa từ khóa, giúp dễ dàng xem xét, gỡ lỗi và chia sẻ câu lệnh với nhóm.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Từ khóa viết hoa",
+                "desc": "Tự động chuyển SELECT, FROM, WHERE, JOIN và tất cả từ khóa SQL sang chữ hoa"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Thụt lề thông minh",
+                "desc": "Áp dụng thụt lề đúng cho truy vấn con, biểu thức CASE và mệnh đề lồng nhau"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Thu gọn",
+                "desc": "Nén SQL về một dòng — lý tưởng cho chuỗi truy vấn nhúng trong code"
+            }
+        },
+        "how_title": "Định dạng SQL trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Dán câu lệnh SQL",
+                "desc": "Sao chép và dán SQL từ trình soạn thảo code, client DB hoặc log truy vấn"
+            },
+            "2": {
+                "title": "Nhấp Định dạng",
+                "desc": "Nhấp 'Định dạng SQL' để áp dụng thụt lề đúng và viết hoa từ khóa"
+            },
+            "3": {
+                "title": "Sao chép và sử dụng",
+                "desc": "Sao chép SQL đã định dạng trực tiếp vào client DB, ORM hoặc tài liệu"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng định dạng SQL",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Xem xét code",
+                "desc": "Định dạng SQL trước khi xem xét để đồng nghiệp có thể thấy rõ cấu trúc"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Gỡ lỗi truy vấn",
+                "desc": "Giải mã các mệnh đề WHERE và chuỗi JOIN phức tạp để tìm lỗi logic nhanh chóng"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Tài liệu",
+                "desc": "Thêm SQL được định dạng tốt vào tài liệu kỹ thuật, README và hướng dẫn"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Tối ưu hóa truy vấn",
+                "desc": "Dễ dàng xác định chỉ số còn thiếu và thứ tự JOIN không hiệu quả với SQL được định dạng"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho SQL",
+        "tips": {
+            "select": {
+                "title": "✓ Tránh SELECT *",
+                "desc": "Luôn xác định tên cột. Cải thiện hiệu suất và ngăn ngừa sự cố khi thay đổi lược đồ."
+            },
+            "alias": {
+                "title": "✓ Dùng bí danh rõ ràng",
+                "desc": "Dùng bí danh bảng có ý nghĩa trong JOIN để làm cho câu lệnh phức tạp dễ đọc."
+            },
+            "explain": {
+                "title": "✓ Dùng EXPLAIN",
+                "desc": "Chạy EXPLAIN hoặc EXPLAIN ANALYZE trước khi triển khai các câu lệnh chậm."
+            },
+            "index": {
+                "title": "✓ Đánh chỉ số cột WHERE",
+                "desc": "Đảm bảo các cột trong WHERE, JOIN ON và ORDER BY được đánh chỉ số để có hiệu suất tối ưu."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Hỗ trợ những phương ngữ SQL nào?",
+            "a1": "SQL chuẩn và tương thích với MySQL, PostgreSQL, SQLite, SQL Server (T-SQL) và Oracle.",
+            "q2": "Định dạng có thay đổi hành vi truy vấn không?",
+            "a2": "Không. Công cụ định dạng chỉ thay đổi khoảng trắng và kích thước chữ của từ khóa. Logic truy vấn, kết quả và kế hoạch thực thi không thay đổi chút nào.",
+            "q3": "Có thể định dạng SQL với stored procedures không?",
+            "a3": "Có. Xử lý CREATE PROCEDURE, BEGIN/END, câu lệnh DECLARE và các cấu trúc SQL thủ tục khác.",
+            "q4": "Thu gọn có ích gì trong ứng dụng?",
+            "a4": "SQL thu gọn giảm kích thước chuỗi truy vấn nhúng trong source code và làm log nhỏ gọn hơn."
+        }
+    }
+}

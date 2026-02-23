@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "Formatter SQL Online - Format Kueri SQL Gratis | Optimizo",
+        "description": "Format dan rapikan kueri SQL secara online dan gratis. Format instan untuk SELECT, INSERT, UPDATE, DELETE, CREATE, dan kueri JOIN yang kompleks.",
+        "h1": "Formatter SQL",
+        "subtitle": "Format kueri SQL secara instan dan rapi — kompatibel dengan semua dialek SQL utama"
+    },
+    "editor": {
+        "title": "Formatter SQL",
+        "label_input": "Kueri SQL",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "Format SQL",
+        "btn_minify": "Minify SQL",
+        "label_output": "SQL yang Diformat",
+        "btn_copy": "Salin SQL"
+    },
+    "content": {
+        "why_title": "Mengapa memformat kueri SQL?",
+        "why_desc": "SQL yang tidak diformat hampir tidak bisa dibaca, terutama dengan JOIN kompleks, subkueri, dan CTE. Formatter menambahkan indentasi yang tepat, pemisah baris, dan kata kunci huruf besar, memudahkan peninjauan, debugging, dan berbagi kueri dengan tim.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Kata Kunci Huruf Besar",
+                "desc": "Secara otomatis mengubah SELECT, FROM, WHERE, JOIN, dan semua kata kunci SQL menjadi huruf besar"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Indentasi Cerdas",
+                "desc": "Menerapkan indentasi yang tepat untuk subkueri, ekspresi CASE, dan klausa bersarang"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minify",
+                "desc": "Mengkompres SQL menjadi satu baris — ideal untuk string kueri yang tertanam dalam kode"
+            }
+        },
+        "how_title": "Format SQL dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Tempel kueri SQL",
+                "desc": "Salin dan tempel SQL dari editor kode, klien DB, atau log kueri"
+            },
+            "2": {
+                "title": "Klik Format",
+                "desc": "Klik 'Format SQL' untuk menerapkan indentasi yang tepat dan kata kunci huruf besar"
+            },
+            "3": {
+                "title": "Salin dan gunakan",
+                "desc": "Salin SQL yang diformat langsung ke klien DB, ORM, atau dokumentasi"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Format SQL",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Tinjauan Kode",
+                "desc": "Format SQL sebelum tinjauan agar rekan kerja dapat melihat struktur dengan jelas"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Debug Kueri",
+                "desc": "Uraikan klausa WHERE dan rantai JOIN yang kompleks untuk menemukan bug logika dengan cepat"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Dokumentasi",
+                "desc": "Tambahkan SQL yang diformat dengan baik ke dokumentasi teknis, README, dan tutorial"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Optimasi Kueri",
+                "desc": "Identifikasi indeks yang hilang dan urutan JOIN yang tidak efisien dengan lebih mudah menggunakan SQL yang diformat"
+            }
+        },
+        "tips_title": "Praktik Terbaik SQL",
+        "tips": {
+            "select": {
+                "title": "✓ Hindari SELECT *",
+                "desc": "Selalu tentukan nama kolom. Meningkatkan performa dan mencegah masalah saat skema berubah."
+            },
+            "alias": {
+                "title": "✓ Gunakan alias yang eksplisit",
+                "desc": "Gunakan alias tabel yang bermakna dalam JOIN agar kueri kompleks mudah dibaca."
+            },
+            "explain": {
+                "title": "✓ Gunakan EXPLAIN",
+                "desc": "Jalankan EXPLAIN atau EXPLAIN ANALYZE sebelum men-deploy kueri yang lambat."
+            },
+            "index": {
+                "title": "✓ Indeks kolom WHERE",
+                "desc": "Pastikan kolom dalam WHERE, JOIN ON, dan ORDER BY diindeks untuk performa optimal."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Dialek SQL apa yang didukung?",
+            "a1": "SQL standar dan kompatibel dengan MySQL, PostgreSQL, SQLite, SQL Server (T-SQL), dan Oracle.",
+            "q2": "Apakah pemformatan mengubah perilaku kueri?",
+            "a2": "Tidak. Formatter hanya mengubah spasi dan ukuran huruf kata kunci. Logika kueri, hasil, dan rencana eksekusi sama sekali tidak berubah.",
+            "q3": "Bisakah saya memformat SQL dengan stored procedure?",
+            "a3": "Ya. Menangani CREATE PROCEDURE, BEGIN/END, pernyataan DECLARE, dan konstruksi SQL prosedural lainnya.",
+            "q4": "Apa kegunaan minify dalam aplikasi?",
+            "a4": "SQL yang di-minify mengurangi ukuran string kueri yang tertanam dalam kode sumber dan membuat log lebih kompak."
+        }
+    }
+}

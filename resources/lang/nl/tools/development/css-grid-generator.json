@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "CSS Grid Generator Online - Visuele rasterbouwer gratis | Optimizo",
+        "description": "Genereer CSS Grid-layouts online gratis. Configureer kolommen, rijen, afstand en uitlijning met live preview en directe CSS-export.",
+        "h1": "CSS Grid Generator",
+        "subtitle": "Bouw CSS Grid-layouts visueel — configureer kolommen, rijen, afstand en uitlijning met live preview"
+    },
+    "editor": {
+        "title": "CSS Grid Generator",
+        "label_cols": "Kolommen",
+        "label_rows": "Rijen",
+        "label_col_template": "Kolomsjabloon",
+        "label_gap": "Ruimte (gap)",
+        "label_align": "align-items",
+        "label_preview": "Live preview",
+        "btn_copy": "CSS kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom een visuele CSS Grid generator gebruiken?",
+        "why_desc": "CSS Grid is het krachtigste lay-outsysteem in CSS, maar de syntaxis — grid-template-columns, grid-template-rows, fr-eenheden, minmax(), repeat() — heeft een steile leercurve. Onze visuele generator laat je het raster configureren via schuifregelaars en dropdowns en het lay-out direct zien bijwerken, zodat je het effect van elke eigenschap begrijpt zonder in de MDN-documentatie te hoeven duiken.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Live rasterpreview",
+                "desc": "Zie je raster in realtime bijwerken terwijl je kolommen, rijen, afstand en uitlijning aanpast"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Ondersteuning voor fr-eenheden",
+                "desc": "Sjablonen gebruiken fractionele eenheden (fr) voor flexibele responsieve rasters die zich aanpassen aan de containergrootte"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Gebruiksklare CSS-output",
+                "desc": "Exporteert een schoon .container CSS-blok met grid-template-columns, rows, gap en align-items"
+            }
+        },
+        "how_title": "Een CSS Grid-lay-out maken",
+        "how_steps": {
+            "1": {
+                "title": "Stel kolommen en rijen in",
+                "desc": "Gebruik de schuifregelaars om het aantal kolommen en rijen van je raster te definiëren"
+            },
+            "2": {
+                "title": "Kies sjabloon en afstand",
+                "desc": "Selecteer een kolomsjabloon (gelijk, vast+flex, responsief minmax) en pas de tussenruimte aan"
+            },
+            "3": {
+                "title": "CSS kopiëren",
+                "desc": "Klik op 'CSS kopiëren' voor het volledige CSS-blok klaar om in je stijlblad te plakken"
+            }
+        },
+        "uses_title": "CSS Grid-gebruiksscenario's",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Paginalay-outs",
+                "desc": "Bouw koptekst/zijbalk/hoofdinhoud/voettekst-structuren schoon met benoemde rastergebieden"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboards",
+                "desc": "Maak complexe dashboard-lay-outs met kaarten van verschillende groottes via grid-column en grid-row spans"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Afbeeldingsgalerijen",
+                "desc": "Bouw metselwerk- of uniforme afbeeldingsgalerijen met auto-fill en minmax voor responsiviteit"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Tijdschriftlay-outs",
+                "desc": "Maak redactionele lay-outs met asymmetrische kolommen en uitgelichte elementen die meerdere cellen beslaan"
+            }
+        },
+        "tips_title": "CSS Grid best practices",
+        "tips": {
+            "fr": {
+                "title": "✓ Geef de voorkeur aan fr-eenheden boven percentages",
+                "desc": "De fr-eenheid (fractioneel) distribueert de beschikbare ruimte na vaste kolommen, waarbij je het handmatig berekenen van percentages voor flexibele kolommen vermijdt."
+            },
+            "minmax": {
+                "title": "✓ Gebruik minmax() voor responsieve rasters",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) maakt een responsief raster dat het aantal kolommen automatisch aanpast — zonder mediaquery's."
+            },
+            "named": {
+                "title": "✓ Gebruik benoemde rastergebieden",
+                "desc": "grid-template-areas met benoemde cellen (header, sidebar, main, footer) maakt paginalay-outs leesbaar en gemakkelijk aan te passen."
+            },
+            "auto": {
+                "title": "✓ Begrijp auto-fill vs auto-fit",
+                "desc": "auto-fill maakt zoveel mogelijk banen aan (met lege banen over). auto-fit klapt lege banen in en vergroot bestaande items — doorgaans beter voor kaartenrasters."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Wat is een fr-eenheid in CSS Grid?",
+            "a1": "fr staat voor 'fractionele eenheid'. 1fr vertegenwoordigt een fractie van de beschikbare vrije ruimte in de rastercontainer. repeat(3, 1fr) maakt 3 gelijke kolommen die alle beschikbare ruimte gelijkelijk verdelen.",
+            "q2": "Hoe verschilt CSS Grid van Flexbox?",
+            "a2": "Flexbox is eendimensionaal — het rangschikt items langs één as (rij of kolom). CSS Grid is tweedimensionaal — het beheert rijen en kolommen tegelijk, waardoor het veel krachtiger is voor paginalay-outs.",
+            "q3": "Wat doet minmax()?",
+            "a3": "minmax(min, max) definieert een maatbereik voor een rasterbaan. minmax(200px, 1fr) betekent dat een kolom minimaal 200px breed is maar kan groeien om de beschikbare ruimte te vullen — ideaal voor responsieve rasters.",
+            "q4": "Wanneer CSS Grid gebruiken in plaats van Flexbox?",
+            "a4": "Gebruik Grid voor 2D-lay-outs waarbij je gelijktijdig rijen en kolommen wilt beheren. Gebruik Flexbox voor 1D-componentlay-outs zoals navigatiebalken en formulierrijen. De meeste moderne lay-outs gebruiken beide."
+        }
+    }
+}

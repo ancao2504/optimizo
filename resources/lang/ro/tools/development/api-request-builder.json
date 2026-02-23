@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Constructor Cereri API Online - Client HTTP Gratuit | Optimizo",
+        "description": "Creați și trimiteți cereri HTTP API online și gratuit. Suportă GET, POST, PUT, PATCH, DELETE cu anteturi personalizate, corp al cererii și parametri de interogare.",
+        "h1": "Constructor Cereri API",
+        "subtitle": "Creați, trimiteți și inspectați cereri HTTP API — client HTTP ușor în browser"
+    },
+    "editor": {
+        "title": "Constructor Cereri API",
+        "btn_send": "Trimiteți cererea",
+        "tab_headers": "Anteturi",
+        "tab_body": "Corp",
+        "tab_params": "Parametri",
+        "btn_add_header": "Adăugați antet",
+        "btn_add_param": "Adăugați parametru",
+        "label_response": "Răspuns",
+        "btn_copy_response": "Copiați răspunsul"
+    },
+    "content": {
+        "why_title": "De ce să folosiți un constructor de cereri API?",
+        "why_desc": "Testarea REST API necesită de obicei instalarea Postman sau Insomnia sau scrierea comenzilor curl. Clientul nostru HTTP bazat pe browser nu necesită instalare — deschideți-l și trimiteți cereri direct.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Toate metodele HTTP",
+                "desc": "Suportă GET, POST, PUT, PATCH, DELETE cu anteturi personalizate și corp JSON/formular"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Răspuns formatat",
+                "desc": "Corpul răspunsului este afișat automat cu indentare; codul de stare și timpul de răspuns sunt vizibile"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Gata de utilizare imediat",
+                "desc": "Nimic de instalat — funcționează complet în browser fără cont sau plugin"
+            }
+        },
+        "how_title": "Trimiteți o cerere API în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Introduceți URL și metoda",
+                "desc": "Introduceți URL-ul endpoint-ului API și selectați metoda HTTP (GET, POST etc.)"
+            },
+            "2": {
+                "title": "Adăugați anteturi și corp",
+                "desc": "Adăugați Authorization, Content-Type etc. în fila 'Anteturi'. Folosiți 'Corp' pentru datele POST/PUT."
+            },
+            "3": {
+                "title": "Trimiteți și inspectați",
+                "desc": "Faceți clic pe 'Trimiteți'. Corpul răspunsului, codul de stare și timpul apar mai jos."
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru constructorul de cereri API",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "Depanarea API",
+                "desc": "Testați endpoint-uri individuale cu anteturi și corp personalizate pentru a depana problemele de autentificare și date"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Testarea token-urilor de autentificare",
+                "desc": "Testați schemele Bearer, Basic Auth și cheie API fără a scrie cod"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "Explorarea API-urilor",
+                "desc": "Explorați API-uri publice (GitHub, OpenWeather, JSONPlaceholder) și înțelegeți răspunsurile"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Reproducerea erorilor",
+                "desc": "Reproduceți și documentați erorile API cu date precise pentru cerere și răspuns pentru rapoartele de erori"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru testarea API",
+        "tips": {
+            "headers": {
+                "title": "✓ Setați întotdeauna Content-Type",
+                "desc": "Cu un corp JSON, includeți întotdeauna Content-Type: application/json. Multe API-uri resping sau interpretează greșit cererea fără el."
+            },
+            "cors": {
+                "title": "✓ Înțelegeți restricțiile CORS",
+                "desc": "Browserele blochează cererile cross-origin fără anteturi CORS adecvate. Folosiți curl sau un proxy server-side dacă cererea eșuează în browser."
+            },
+            "auth": {
+                "title": "✓ Nu codați fix cheile API",
+                "desc": "Folosiți variabile de mediu în codul de producție. Instrumentul este pentru testare — nu partajați capturi de ecran cu chei API reale."
+            },
+            "status": {
+                "title": "✓ Verificați codurile de stare HTTP",
+                "desc": "200=OK, 201=Creat, 400=Cerere proastă, 401=Neautorizat, 403=Interzis, 404=Negăsit, 500=Eroare server."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "De ce eșuează cererile cross-origin?",
+            "a1": "Browserele impun restricțiile CORS. Dacă API-ul țintă nu are antetul Access-Control-Allow-Origin, browserul blochează cererea. Nu este o eroare — folosiți curl sau un proxy backend pentru API-uri fără CORS.",
+            "q2": "Pot trimite cereri multipart/form-data?",
+            "a2": "Constructorul suportă în prezent corpuri JSON și text. Pentru încărcări de fișiere și cereri similare cu formulare multiparte, folosiți un instrument specializat precum Postman.",
+            "q3": "Este aceasta o alternativă la Postman?",
+            "a3": "Pentru testare rapidă și explorare, da. Pentru colaborare în echipă, colecții salvate, medii și teste automate, Postman sau Bruno oferă mai multe funcționalități.",
+            "q4": "Care este diferența dintre PUT și PATCH?",
+            "a4": "PUT înlocuiește întreaga resursă cu corpul cererii. PATCH aplică actualizări parțiale — numai câmpurile din corp se schimbă. Majoritatea REST API-urilor folosesc PATCH pentru actualizări pentru a evita suprascrierea câmpurilor neschimbate."
+        }
+    }
+}

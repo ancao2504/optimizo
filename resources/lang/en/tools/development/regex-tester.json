@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Regex Tester Online - Test Regular Expressions | Optimizo",
+        "description": "Free online regex tester and debugger. Test JavaScript regular expressions with live match highlighting, flags support, and match group details.",
+        "h1": "Regex Tester",
+        "subtitle": "Test regular expressions live with match highlighting, flags, and capture group details"
+    },
+    "editor": {
+        "title": "Regex Tester",
+        "label_pattern": "Regular Expression Pattern",
+        "ph_pattern": "e.g. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Flags",
+        "label_test": "Test String",
+        "ph_test": "Paste the text you want to test your regex against...",
+        "btn_test": "Test Regex",
+        "btn_clear": "Clear"
+    },
+    "content": {
+        "why_title": "Why Use Our Regex Tester?",
+        "why_desc": "Regular expressions (regex) are powerful pattern-matching tools used in nearly every programming language. Debugging regex can be challenging — a single wrong character changes the entire match behavior. Our real-time regex tester highlights matches as you type, shows capture group details, and supports all JavaScript regex flags, making it the fastest way to build and validate your patterns.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Live Match Highlighting",
+                "desc": "See matches highlighted in real-time as you type — no need to press any button"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Capture Group Details",
+                "desc": "View all capture groups, their indices, and matched values for each match"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Full Flag Support",
+                "desc": "Toggle g, i, m, s, u, y flags independently and see how they affect matches instantly"
+            }
+        },
+        "how_title": "How to Test Regex in 3 Steps",
+        "how_steps": {
+            "1": {
+                "title": "Enter Your Pattern",
+                "desc": "Type your regular expression in the pattern field (without surrounding slashes)"
+            },
+            "2": {
+                "title": "Select Flags",
+                "desc": "Toggle g (global), i (case-insensitive), m (multiline) and other flags as needed"
+            },
+            "3": {
+                "title": "Paste Test String",
+                "desc": "Enter the text to test against — matches will be highlighted automatically"
+            }
+        },
+        "uses_title": "Common Regex Use Cases",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Form Validation",
+                "desc": "Validate email addresses, phone numbers, URLs, postal codes, and custom formats"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Text Search & Replace",
+                "desc": "Find and replace patterns in code editors, log files, and text processing pipelines"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Log File Parsing",
+                "desc": "Extract structured data (IPs, timestamps, error codes) from unstructured log files"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Input Sanitization",
+                "desc": "Strip or replace dangerous characters in user input before storing or displaying"
+            }
+        },
+        "tips_title": "Regex Best Practices",
+        "tips": {
+            "anchor": {
+                "title": "✓ Use Anchors for Exact Matches",
+                "desc": "Use ^ and $ to anchor patterns to the start and end of a string, preventing partial matches"
+            },
+            "groups": {
+                "title": "✓ Use Non-Capturing Groups When Possible",
+                "desc": "Use (?:...) instead of (...) when you don't need to capture the group, improving performance"
+            },
+            "escape": {
+                "title": "✓ Escape Special Characters",
+                "desc": "Characters like . * + ? ( ) [ ] { } | ^ $ \\ have special meaning — escape with \\ when you want literal matches"
+            },
+            "test": {
+                "title": "✓ Test Edge Cases",
+                "desc": "Always test with empty strings, Unicode characters, very long inputs, and boundary conditions"
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "What regex flavor does this tester use?",
+            "a1": "This tester uses JavaScript's built-in RegExp engine, which follows the ECMAScript standard. It supports all JS regex features including lookaheads, lookbehinds (ES2018+), named capture groups, and Unicode property escapes.",
+            "q2": "What's the difference between the g and m flags?",
+            "a2": "The g (global) flag finds all matches in the string instead of just the first one. The m (multiline) flag makes ^ and $ match the start/end of each line rather than the entire string. They serve different purposes and can be combined.",
+            "q3": "How do I match a literal dot or asterisk?",
+            "a3": "Escape them with a backslash: \\. matches a literal dot, \\* matches a literal asterisk. In a character class [ ], most special characters lose their special meaning, except ] \\ ^ -.",
+            "q4": "Why does my regex match too much?",
+            "a4": "You're likely using greedy quantifiers. The * and + quantifiers are greedy by default and match as much as possible. Add ? to make them lazy: *? or +? will match as little as possible."
+        }
+    }
+}

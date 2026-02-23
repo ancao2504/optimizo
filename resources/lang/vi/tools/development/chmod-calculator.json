@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Máy Tính chmod Online - Tính Toán Quyền Linux Miễn Phí | Optimizo",
+        "description": "Máy tính chmod trực tuyến và miễn phí. Chuyển đổi quyền tệp Linux giữa ký hiệu tượng trưng (rwxr-xr-x) và bát phân (755) và tạo lệnh chmod.",
+        "h1": "Máy Tính chmod",
+        "subtitle": "Tính toán quyền Linux — chuyển đổi ký hiệu tượng trưng và bát phân và tạo lệnh chmod"
+    },
+    "editor": {
+        "title": "Máy Tính Quyền chmod",
+        "label_octal": "Giá trị bát phân",
+        "col_type": "Loại",
+        "col_read": "Đọc (r)",
+        "col_write": "Ghi (w)",
+        "col_exec": "Thực thi (x)",
+        "col_octal": "Bát phân",
+        "row_owner": "Chủ sở hữu",
+        "row_group": "Nhóm",
+        "row_others": "Khác (mọi người)",
+        "btn_copy": "Sao chép lệnh"
+    },
+    "content": {
+        "why_title": "Tại sao dùng máy tính chmod?",
+        "why_desc": "Quyền tệp Linux được biểu diễn bằng ký hiệu tượng trưng (rwxr-xr-x) và bát phân (755). Tính toán thủ công giá trị quyền đúng rất dễ mắc lỗi. Máy tính của chúng tôi cho phép chọn quyền bằng hộp kiểm trực quan và tạo ngay giá trị bát phân và lệnh chmod hữu ích.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Công cụ tạo quyền trực quan",
+                "desc": "Nhấp hộp kiểm đọc/ghi/thực thi cho chủ sở hữu/nhóm/khác; giá trị cập nhật tức thì"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Đồng bộ hai chiều",
+                "desc": "Nhập giá trị bát phân (ví dụ 755) và hộp kiểm tự động cập nhật, hoặc ngược lại"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Lệnh sẵn sàng sử dụng",
+                "desc": "Tạo lệnh chmod đầy đủ có thể dán trực tiếp vào terminal"
+            }
+        },
+        "how_title": "Cách tính toán quyền",
+        "how_steps": {
+            "1": {
+                "title": "Đánh dấu quyền mong muốn",
+                "desc": "Nhấp hộp kiểm đọc/ghi/thực thi cho chủ sở hữu, nhóm và mọi người"
+            },
+            "2": {
+                "title": "Kiểm tra giá trị bát phân và tượng trưng",
+                "desc": "Giá trị bát phân (ví dụ 755) và ký hiệu tượng trưng (rwxr-xr-x) cập nhật tức thì"
+            },
+            "3": {
+                "title": "Sao chép lệnh",
+                "desc": "Sao chép lệnh chmod đã tạo và chạy trong terminal"
+            }
+        },
+        "uses_title": "Các tình huống chmod điển hình",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Tệp máy chủ web",
+                "desc": "Đặt 644 cho tệp HTML/CSS/JS trên Apache hoặc Nginx (chủ sở hữu đọc/ghi, nhóm/khác đọc)"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Script thực thi",
+                "desc": "Đặt 755 cho shell script (chủ sở hữu toàn quyền, nhóm/khác đọc+thực thi)"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "Khóa SSH",
+                "desc": "SSH yêu cầu 600 (chỉ chủ sở hữu đọc/ghi) cho khóa riêng tư"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Thư mục tải lên",
+                "desc": "Đặt 775 cho thư mục tải lên web để tiến trình máy chủ có thể ghi tệp"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho quyền Linux",
+        "tips": {
+            "never777": {
+                "title": "✓ Không bao giờ dùng 777 trong môi trường sản xuất",
+                "desc": "chmod 777 cấp quyền đọc/ghi/thực thi đầy đủ cho mọi người — rủi ro bảo mật nghiêm trọng."
+            },
+            "least": {
+                "title": "✓ Nguyên tắc ít đặc quyền nhất",
+                "desc": "Luôn cấp quyền thấp nhất cần thiết. Bắt đầu hạn chế (600) và thêm khi cần."
+            },
+            "recursive": {
+                "title": "✓ Cẩn thận với -R (đệ quy)",
+                "desc": "chmod -R áp dụng quyền đệ quy cho tất cả tệp và thư mục con."
+            },
+            "umask": {
+                "title": "✓ Hiểu umask",
+                "desc": "Giá trị umask trừ đi quyền từ mặc định. umask 022 cho tệp mới là 644 và thư mục mới là 755."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "chmod 755 có nghĩa là gì?",
+            "a1": "755 nghĩa là: chủ sở hữu(7)=đọc+ghi+thực thi, nhóm(5)=đọc+thực thi, khác(5)=đọc+thực thi. Quyền mặc định cho tệp thực thi và thư mục công khai.",
+            "q2": "Sự khác biệt giữa 644 và 755 là gì?",
+            "a2": "644 (rw-r--r--): chủ sở hữu đọc/ghi, khác chỉ đọc — cho tệp thông thường. 755 (rwxr-xr-x): chủ sở hữu có thể thực thi — cho script và thư mục.",
+            "q3": "Tại sao khóa SSH cần quyền 600?",
+            "a3": "SSH từ chối sử dụng khóa riêng tư mà người khác có thể truy cập. 600 (rw-------) đảm bảo chỉ chủ sở hữu có thể đọc và ghi khóa.",
+            "q4": "Bit thực thi trên thư mục có nghĩa là gì?",
+            "a4": "Bit thực thi trên thư mục có nghĩa là quyền 'đi qua' — người dùng có thể vào thư mục và truy cập tệp trong đó. Không có quyền thực thi, người dùng không thể vào thư mục."
+        }
+    }
+}

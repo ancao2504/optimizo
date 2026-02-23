@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "CSS Grid Oluşturucu Çevrimiçi - Görsel Izgara Düzeni | Optimizo",
+        "description": "CSS Grid düzenlerini çevrimiçi ücretsiz görsel oluşturun. Gerçek zamanlı önizleme ve anında CSS dışa aktarmayla sütun, satır, boşluk ve hizalamayı ayarlayın.",
+        "h1": "CSS Grid Oluşturucu",
+        "subtitle": "CSS Grid düzenlerini görsel oluşturun — sütunlar, satırlar, boşluk ve hizalamayı gerçek zamanlı önizlemeyle ayarlayın"
+    },
+    "editor": {
+        "title": "CSS Grid Oluşturucu",
+        "label_cols": "Sütun Sayısı",
+        "label_rows": "Satır Sayısı",
+        "label_col_template": "Sütun Şablonu",
+        "label_gap": "Boşluk (gap)",
+        "label_align": "align-items",
+        "label_preview": "Gerçek Zamanlı Önizleme",
+        "btn_copy": "CSS'yi Kopyala"
+    },
+    "content": {
+        "why_title": "Görsel CSS Grid Oluşturucu Neden Kullanılır?",
+        "why_desc": "CSS Grid, CSS'nin en güçlü düzen sistemidir ancak sözdiziminin öğrenme eğrisi diktir. Görsel oluşturucumuzla kaydırıcılar ve açılır menülerle izgarayı ayarlayabilir ve her özelliğin etkisini gerçek zamanlı görebilirsiniz.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Gerçek Zamanlı Izgara Önizleme",
+                "desc": "Sütun, satır, boşluk ve hizalama her ayarlamasında ızgara gerçek zamanlı güncellenir"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "fr Birimi Desteği",
+                "desc": "Şablonlar, kapsayıcı boyutuna uyarlanan esnek ızgaralar için fr (kesir) birimi kullanır"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Hazır CSS",
+                "desc": "grid-template-columns, rows, gap ve align-items içeren temiz .container CSS bloğu dışa aktarın"
+            }
+        },
+        "how_title": "CSS Grid Düzeni Nasıl Oluşturulur",
+        "how_steps": {
+            "1": {
+                "title": "Sütun ve Satırları Ayarlayın",
+                "desc": "Izgaranın sütun ve satır sayısını kaydırıcılarla belirtin"
+            },
+            "2": {
+                "title": "Şablon ve Boşluğu Seçin",
+                "desc": "Sütun şablonunu (eşit, sabit+esnek veya duyarlı minmax) seçin ve boşluğu ayarlayın"
+            },
+            "3": {
+                "title": "CSS'yi Kopyalayın",
+                "desc": "'CSS'yi Kopyala'ya tıklayarak stil sayfanıza yapıştırılabilecek tam CSS bloğunu alın"
+            }
+        },
+        "uses_title": "CSS Grid Kullanım Alanları",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Sayfa Düzeni",
+                "desc": "Adlandırılmış ızgara alanlarıyla üst bilgi/kenar çubuğu/ana içerik/alt bilgi yapısı oluşturun"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Panel",
+                "desc": "grid-column ve grid-row span'ıyla farklı boyutlardaki kartlar için karmaşık panel düzeni oluşturun"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galeri",
+                "desc": "auto-fill ve minmax ile duyarlı biçimde uyarlanan tuğla veya düzenli galeri oluşturun"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Dergi Düzeni",
+                "desc": "Eşit olmayan sütunlar ve birden fazla hücreye yayılan öne çıkan içerikle düzenleme düzeni oluşturun"
+            }
+        },
+        "tips_title": "CSS Grid En İyi Uygulamaları",
+        "tips": {
+            "fr": {
+                "title": "✓ Yüzde Yerine fr Birimine Öncelik Verin",
+                "desc": "fr (kesir) birimi, sabit boyutlu sütunlardan sonra mevcut alanı dağıtır ve esnek sütunların manuel hesaplanmasını önler."
+            },
+            "minmax": {
+                "title": "✓ Duyarlı Izgaralar için minmax() Kullanın",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) sütun sayısını otomatik ayarlayan duyarlı ızgara oluşturur — medya sorgusu gerekmez."
+            },
+            "named": {
+                "title": "✓ Adlandırılmış Izgara Alanları Kullanın",
+                "desc": "Adlandırılmış hücreler (header, sidebar, main, footer) içeren grid-template-areas, sayfa düzenini okunabilir ve değiştirilebilir kılar."
+            },
+            "auto": {
+                "title": "✓ auto-fill ve auto-fit Farkını Anlayın",
+                "desc": "auto-fill maksimum sayıda iz oluşturur (boş bırakır). auto-fit boş izleri katlar ve mevcut öğeleri genişletir — kart ızgaraları için genellikle idealdir."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "CSS Grid'de fr birimi nedir?",
+            "a1": "fr 'kesir (fraction) birimi' anlamına gelir. 1fr, ızgara kapsayıcısının mevcut boş alanının bir kesrini temsil eder. repeat(3, 1fr) mevcut alanı eşit paylaşan 3 sütun oluşturur.",
+            "q2": "CSS Grid ile Flexbox arasındaki fark nedir?",
+            "a2": "Flexbox tek boyutlu — öğeleri bir eksen üzerinde (satır veya sütun) yerleştirir. CSS Grid iki boyutlu — satır ve sütunları aynı anda kontrol edebilir; sayfa düzeni için çok daha güçlüdür.",
+            "q3": "minmax() ne yapar?",
+            "a3": "minmax(min, max) ızgara izi için boyut aralığı belirler. minmax(200px, 1fr) sütunun en az 200px genişliğinde olduğunu ancak mevcut alanı dolduracak şekilde büyüyebileceğini belirtir — duyarlı ızgaralar için idealdir.",
+            "q4": "Flexbox yerine CSS Grid ne zaman kullanılır?",
+            "a4": "Satır ve sütunları aynı anda kontrol etmek için 2D düzenlerde Grid kullanın. Gezinti çubuğu veya form satırları gibi bileşenlerin 1D düzenlerinde Flexbox kullanın. Modern düzenlerin çoğu her ikisini de kullanır."
+        }
+    }
+}

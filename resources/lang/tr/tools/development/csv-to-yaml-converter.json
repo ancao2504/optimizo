@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "CSV'den YAML'a Dönüştürücü Çevrimiçi - Ücretsiz | Optimizo",
+        "description": "CSV dosyalarını çevrimiçi ücretsiz YAML biçimine dönüştürün. CSV başlıklarını YAML anahtarları olarak kullanın ve tür çıkarımıyla doğru girintili YAML oluşturun.",
+        "h1": "CSV'den YAML'a Dönüştürücü",
+        "subtitle": "CSV verilerini YAML biçimine dönüştürün — otomatik başlık eşleme ve tür çıkarımı"
+    },
+    "editor": {
+        "title": "CSV'den YAML'a Dönüştürücü",
+        "label_csv": "CSV Girişi",
+        "ph_csv": "ad,yaş,aktif\nAli,30,true\nMehmet,25,false",
+        "label_yaml": "YAML Çıkışı",
+        "btn_copy": "YAML'ı Kopyala"
+    },
+    "content": {
+        "why_title": "CSV Neden YAML'a Dönüştürülür?",
+        "why_desc": "CSV, elektronik tablolardaki tablo verilerini saklamak için idealdir; ancak YAML, yapılandırma dosyaları, test fikstürleri ve DevOps araçlarının standardıdır. Elektronik tablo verilerini CSV→YAML ile Kubernetes ConfigMaps, Ansible değişken dosyaları veya Hugo veri dosyalarına dönüştürmek zahmetli yeniden biçimlendirmeyi ortadan kaldırır.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Otomatik Dönüştürme",
+                "desc": "Siz yazarken CSV'yi gerçek zamanlı YAML'a dönüştürür — düğmeye basmanıza gerek yok"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Başlık Tabanlı Anahtarlar",
+                "desc": "CSV başlıkları otomatik olarak çıktı listesindeki her nesne için YAML anahtarlarına dönüşür"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Tür Çıkarımı",
+                "desc": "Sayılar ve boolean değerler (true/false) otomatik olarak doğru YAML türüne dönüştürülür"
+            }
+        },
+        "how_title": "3 Adımda CSV'yi YAML'a Dönüştürme",
+        "how_steps": {
+            "1": {
+                "title": "CSV Verilerini Yapıştırın",
+                "desc": "Başlık satırıyla CSV yapıştırın — ilk satır YAML anahtarlarını tanımlar"
+            },
+            "2": {
+                "title": "Anında Dönüştürme",
+                "desc": "Her CSV satırı YAML listesinin bir ögesi olarak anında YAML çıkışı görünür"
+            },
+            "3": {
+                "title": "YAML'ı Kopyalayın",
+                "desc": "Dönüştürülmüş YAML'ı kopyalayıp yapılandırma dosyalarınıza veya test fikstürlerinize yapıştırın"
+            }
+        },
+        "uses_title": "CSV'den YAML'a Dönüştürme Kullanım Alanları",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Test Fikstürleri",
+                "desc": "Elektronik tablodaki test verilerini RSpec, PHPUnit, PyTest için YAML fikstürlerine dönüştürün"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Yapılandırma Verileri",
+                "desc": "Ekip veya ortam verilerini Ansible değişkenleri veya Kubernetes ConfigMap'lerine dönüştürün"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Tohum Verileri",
+                "desc": "Arama tablosu CSV'lerini Rails, Laravel, Django için YAML tohum dosyalarına dönüştürün"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "API Taklit Verisi",
+                "desc": "Elektronik tablo örneklerini WireMock veya Mirage gibi API taklit araçları için YAML'a dönüştürün"
+            }
+        },
+        "tips_title": "CSV'den YAML'a En İyi Uygulamalar",
+        "tips": {
+            "headers": {
+                "title": "✓ Tutarlı ve Temiz Başlık Adları Kullanın",
+                "desc": "CSV başlıkları YAML anahtarı olur — snake_case veya camelCase'i tutarlı kullanın; boşluk ve özel karakterlerden kaçının."
+            },
+            "quotes": {
+                "title": "✓ Özel Karakterli Değerleri Tırnak İçine Alın",
+                "desc": "Virgül veya tırnak içeren değerleri çift tırnak içine alın. Dönüştürücü RFC 4180 tırnaklı alanları doğru işler."
+            },
+            "encoding": {
+                "title": "✓ UTF-8 Kodlaması Kullanın",
+                "desc": "Dönüştürmeden önce CSV dosyasının UTF-8 olarak kodlandığından emin olun. UTF-8 olmayan karakterler ayrıştırma sorunlarına yol açabilir."
+            },
+            "validate": {
+                "title": "✓ Dönüşüm Sonrası YAML'ı Doğrulayın",
+                "desc": "Dönüştürülen YAML'ı yapılandırma dosyalarında kullanmadan önce her zaman doğrulayıcıya yapıştırarak yapıyı kontrol edin."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "Dönüştürücü tırnaklı CSV alanlarını işliyor mu?",
+            "a1": "Evet — ayrıştırıcı RFC 4180 CSV biçimini doğru işler (çift tırnaklı alanlar ve kaçış yapılmış tırnak işaretleri \"\" dahil). Tırnaklı alanlar içindeki virgüller ayırıcı olarak işlenmez.",
+            "q2": "Sayılar ve boolean değerler nasıl işleniyor?",
+            "a2": "Dönüştürücü türü çıkarır: Geçerli sayılar YAML sayısına (dize değil), true/false değerleri YAML boolean'a dönüşür. Dizeler dize olarak kalır.",
+            "q3": "TSV (sekmeyle ayrılmış) verilerini dönüştürebilir miyim?",
+            "a3": "Bu araç virgülle ayrılmış CSV bekler. Sekmeyle ayrılmış veriler için önce sekmeleri virgülle değiştirin (çoğu metin editörünün regex destekli bul/değiştir özelliği vardır).",
+            "q4": "Gerekirse YAML'ı tekrar CSV'ye nasıl dönüştürürüm?",
+            "a4": "Ters yön (YAML'dan CSV'ye) yapı hakkında önceden bilgi gerektirir. Tutarlı anahtarlara sahip nesnelerin düz listesi için anahtarları CSV başlığı olarak elle çıkarıp her YAML ögesini bir satıra eşleyebilirsiniz."
+        }
+    }
+}

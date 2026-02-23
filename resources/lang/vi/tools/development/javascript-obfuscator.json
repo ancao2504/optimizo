@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Làm Rối JavaScript Online - Bảo Vệ Code JS Miễn Phí | Optimizo",
+        "description": "Làm rối mã JavaScript trực tuyến và miễn phí. Đổi tên biến, mã hóa chuỗi và minify JS làm cho mã nguồn khó đọc hơn.",
+        "h1": "Làm Rối JavaScript",
+        "subtitle": "Bảo vệ code JavaScript bằng cách đổi tên biến, mã hóa chuỗi và minify — tất cả trong trình duyệt"
+    },
+    "editor": {
+        "title": "Làm Rối JavaScript",
+        "label_input": "Đầu vào JavaScript",
+        "ph_input": "function greet(name) {\n  return 'Xin chào, ' + name + '!';\n}",
+        "opt_rename": "Đổi tên biến",
+        "opt_strings": "Mã hóa chuỗi",
+        "opt_minify": "Minify code",
+        "disclaimer": "⚠️ Làm rối làm cho code khó đọc hơn nhưng không phải mã hóa. Nhà phát triển có kinh nghiệm có thể dịch ngược code đã làm rối. Đừng chỉ dựa vào làm rối để bảo vệ dữ liệu nhạy cảm.",
+        "btn_obfuscate": "Làm rối JavaScript",
+        "label_output": "Kết quả đã làm rối",
+        "btn_copy": "Sao chép JS"
+    },
+    "content": {
+        "why_title": "Tại sao làm rối mã JavaScript?",
+        "why_desc": "JavaScript chạy trong trình duyệt và mã nguồn luôn hiển thị trong DevTools. Làm rối không thể bảo vệ hoàn toàn code, nhưng ngăn cản sao chép trái phép, làm chậm dịch ngược và tạo rào cản đủ để bảo vệ logic kinh doanh độc quyền.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Đổi tên biến",
+                "desc": "Đổi tên tất cả biến, hàm và tham số thành các định danh hex không thể đọc như _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Mã hóa chuỗi",
+                "desc": "Mã hóa tất cả chuỗi ký tự thành chuỗi escape hex — giống chức năng nhưng không đọc được"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minify code",
+                "desc": "Ngoài làm rối, xóa chú thích và chuẩn hóa khoảng trắng để giảm kích thước tệp"
+            }
+        },
+        "how_title": "Làm rối JavaScript trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Dán JavaScript",
+                "desc": "Sao chép code JavaScript và dán vào trường đầu vào"
+            },
+            "2": {
+                "title": "Chọn cài đặt",
+                "desc": "Chọn kỹ thuật làm rối muốn áp dụng — chọn cả ba để bảo vệ tối đa"
+            },
+            "3": {
+                "title": "Sao chép và thay thế",
+                "desc": "Sao chép nội dung đã làm rối và thay thế tệp gốc để phân phối"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng làm rối JavaScript",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Thư viện thương mại",
+                "desc": "Bảo vệ thuật toán độc quyền trong thư viện JavaScript trả phí phân phối cho khách hàng"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Trò chơi trình duyệt",
+                "desc": "Làm rối logic trò chơi, xác thực điểm số và code chống gian lận"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "Widget SaaS",
+                "desc": "Bảo vệ widget JavaScript nhúng phân phối cho website khách hàng"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Cuộc thi và hackathon",
+                "desc": "Bảo vệ thuật toán và phương pháp tiếp cận gốc trong bài nộp cuộc thi"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho làm rối",
+        "tips": {
+            "testing": {
+                "title": "✓ Kiểm tra sau khi làm rối",
+                "desc": "Luôn kiểm tra code đã làm rối trong trình duyệt mục tiêu — các mẫu như eval() có thể thất bại ở chế độ strict."
+            },
+            "source": {
+                "title": "✓ Giữ mã nguồn gốc",
+                "desc": "Làm rối là phép biến đổi không thể đảo ngược. Luôn giữ mã nguồn gốc dễ đọc trong hệ thống kiểm soát phiên bản an toàn."
+            },
+            "server": {
+                "title": "✓ Di chuyển logic nhạy cảm về phía server",
+                "desc": "Làm rối không phải đảm bảo bảo mật. Triển khai logic cho các thao tác thực sự nhạy cảm phía server, không phải client."
+            },
+            "profiler": {
+                "title": "✓ Kiểm tra tác động đến hiệu suất",
+                "desc": "Mã hóa chuỗi chuyên sâu có thể làm chậm nhẹ việc phân tích JavaScript. Phân tích code đã làm rối trong DevTools Chrome trước khi triển khai sản xuất."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Làm rối JavaScript có thể hoàn toàn bị đảo ngược không?",
+            "a1": "Có, với đủ nỗ lực. Các công cụ như de4js, webcrack và DevTools trình duyệt có thể đảo ngược một phần làm rối. Mục tiêu là làm cho nó đủ tốn kém để ngăn cản sao chép thông thường.",
+            "q2": "Làm rối có thể làm hỏng JavaScript không?",
+            "a2": "Nếu áp dụng đúng cách, làm rối nên tạo ra code giống hệt về chức năng. Tuy nhiên, minify tích cực có thể làm hỏng một số mẫu metaprogramming. Luôn kiểm tra kỹ.",
+            "q3": "Google có phạt JavaScript đã làm rối trong SEO không?",
+            "a3": "Google có thể lập chỉ mục và chạy JavaScript của trang ngay cả khi đã làm rối. Nếu nội dung HTML được hiển thị giống nhau, không có hình phạt SEO.",
+            "q4": "Sự khác biệt giữa minify và làm rối là gì?",
+            "a4": "Minify xóa khoảng trắng và chú thích, rút ngắn tên biến để giảm kích thước tệp — code vẫn có thể đọc sau khi định dạng lại. Làm rối nhằm mục đích làm code không thể đọc được với tên biến khó hiểu, mã hóa chuỗi và các kỹ thuật khác."
+        }
+    }
+}

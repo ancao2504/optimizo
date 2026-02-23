@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "CSS Grid Generator Online - Visueller Grid-Builder | Optimizo",
+        "description": "CSS Grid-Layouts online kostenlos erstellen. Spalten, Zeilen, Abstände und Ausrichtung mit Live-Vorschau und sofortigem CSS-Export konfigurieren.",
+        "h1": "CSS Grid Generator",
+        "subtitle": "CSS Grid-Layouts visuell erstellen — Spalten, Zeilen, Abstände und Ausrichtung mit Live-Vorschau konfigurieren"
+    },
+    "editor": {
+        "title": "CSS Grid Generator",
+        "label_cols": "Spalten",
+        "label_rows": "Zeilen",
+        "label_col_template": "Spalten-Template",
+        "label_gap": "Abstand (gap)",
+        "label_align": "align-items",
+        "label_preview": "Live-Vorschau",
+        "btn_copy": "CSS kopieren"
+    },
+    "content": {
+        "why_title": "Warum einen visuellen CSS Grid Generator verwenden?",
+        "why_desc": "CSS Grid ist das leistungsstärkste Layout-System in CSS, aber seine Syntax — grid-template-columns, grid-template-rows, fr-Einheiten, minmax(), repeat() — hat eine steile Lernkurve. Unser visueller Generator ermöglicht es Ihnen, Ihr Raster über Schieberegler und Dropdowns zu konfigurieren und das Layout sofort zu aktualisieren sehen, damit Sie die Wirkung jeder Eigenschaft verstehen ohne in MDN-Dokumentation zu tauchen.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Live-Raster-Vorschau",
+                "desc": "Sehen Sie Ihr Raster in Echtzeit aktualisiert wenn Sie Spalten, Zeilen, Abstände und Ausrichtung anpassen"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "fr-Einheiten-Unterstützung",
+                "desc": "Templates verwenden Fraktionseinheiten (fr) für flexible, responsive Raster die sich an die Container-Größe anpassen"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Fertiger CSS-Output",
+                "desc": "Exportiert einen sauberen .container CSS-Block mit grid-template-columns, rows, gap und align-items"
+            }
+        },
+        "how_title": "CSS Grid-Layout erstellen",
+        "how_steps": {
+            "1": {
+                "title": "Spalten und Zeilen festlegen",
+                "desc": "Schieberegler verwenden um Anzahl der Spalten und Zeilen festzulegen"
+            },
+            "2": {
+                "title": "Template und Abstand wählen",
+                "desc": "Spalten-Template wählen (gleich, fest+flex, responsive minmax) und Zellen-Abstand anpassen"
+            },
+            "3": {
+                "title": "CSS kopieren",
+                "desc": "'CSS kopieren' für den vollständigen CSS-Block zum Einfügen in Ihr Stylesheet klicken"
+            }
+        },
+        "uses_title": "CSS Grid-Anwendungsfälle",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Seiten-Layouts",
+                "desc": "Header/Sidebar/Hauptinhalt/Footer-Strukturen sauber mit benannten Grid-Bereichen erstellen"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboards",
+                "desc": "Komplexe Dashboard-Layouts mit unterschiedlich großen Karten via grid-column und grid-row spans erstellen"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Bild-Galerien",
+                "desc": "Mauerwerk- oder gleichmäßige Bild-Galerien mit auto-fill und minmax für Responsivität erstellen"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Magazin-Layouts",
+                "desc": "Redaktionelle Layouts mit asymmetrischen Spalten und Feature-Elementen über mehrere Zellen erstellen"
+            }
+        },
+        "tips_title": "CSS Grid-Best-Practices",
+        "tips": {
+            "fr": {
+                "title": "✓ fr-Einheiten Prozentangaben vorziehen",
+                "desc": "Die fr (Fraktion) Einheit verteilt verfügbaren Raum nach festen Spalten, ohne manuell Prozentangaben für flexible Spalten zu berechnen."
+            },
+            "minmax": {
+                "title": "✓ minmax() für responsive Raster verwenden",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) erstellt ein responsives Raster das die Spaltenanzahl automatisch anpasst — ohne Media Queries."
+            },
+            "named": {
+                "title": "✓ Benannte Grid-Bereiche verwenden",
+                "desc": "grid-template-areas mit benannten Zellen (header, sidebar, main, footer) macht Seiten-Layouts lesbar und einfach zu modifizieren."
+            },
+            "auto": {
+                "title": "✓ auto-fill vs auto-fit verstehen",
+                "desc": "auto-fill erstellt so viele Tracks wie möglich (lässt leere Tracks). auto-fit verkleinert leere Tracks und erweitert bestehende Elemente — in der Regel besser für Karten-Raster."
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Was ist eine fr-Einheit in CSS Grid?",
+            "a1": "fr steht für 'Fraktionseinheit'. 1fr repräsentiert einen Bruchteil des verfügbaren freien Raums im Grid-Container. repeat(3, 1fr) erstellt 3 gleiche Spalten die den verfügbaren Raum gleichmäßig teilen.",
+            "q2": "Wie unterscheidet sich CSS Grid von Flexbox?",
+            "a2": "Flexbox ist eindimensional — Elemente werden entlang einer Achse (Zeile oder Spalte) angeordnet. CSS Grid ist zweidimensional — es steuert gleichzeitig Zeilen und Spalten, was es für Seiten-Layouts viel leistungsfähiger macht.",
+            "q3": "Was macht minmax()?",
+            "a3": "minmax(min, max) definiert einen Größenbereich für einen Grid-Track. minmax(200px, 1fr) bedeutet eine Spalte ist mindestens 200px breit, kann aber wachsen um verfügbaren Raum zu füllen — ideal für responsive Raster.",
+            "q4": "Wann CSS Grid statt Flexbox verwenden?",
+            "a4": "Grid für 2D-Layouts verwenden wo Sie gleichzeitige Kontrolle über Zeilen und Spalten brauchen. Flexbox für 1D-Komponenten-Layouts wie Navbars und Formular-Zeilen verwenden. Die meisten modernen Layouts verwenden beide."
+        }
+    }
+}

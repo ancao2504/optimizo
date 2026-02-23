@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "chmod-laskin Verkossa - Linux-käyttöoikeudet Ilmaiseksi | Optimizo",
+        "description": "Ilmainen verkko-chmod-laskin. Muunna Linux-tiedoston käyttöoikeudet symbolisen (rwxr-xr-x) ja oktaalimerkinnän (755) välillä ja luo chmod-komennot.",
+        "h1": "chmod-laskin",
+        "subtitle": "Laske Linux-käyttöoikeudet — muunna symbolinen ja oktaalimerkintä ja luo chmod-komennot"
+    },
+    "editor": {
+        "title": "chmod Käyttöoikeuslaskin",
+        "label_octal": "Oktaaliarvo",
+        "col_type": "Tyyppi",
+        "col_read": "Luku (r)",
+        "col_write": "Kirjoitus (w)",
+        "col_exec": "Suoritus (x)",
+        "col_octal": "Oktaali",
+        "row_owner": "Omistaja",
+        "row_group": "Ryhmä",
+        "row_others": "Muut (kaikki)",
+        "btn_copy": "Kopioi komento"
+    },
+    "content": {
+        "why_title": "Miksi käyttää chmod-laskinta?",
+        "why_desc": "Linux-tiedoston käyttöoikeuksia ilmaistaan symbolisella (rwxr-xr-x) ja oktaalisella (755) merkinnällä. Oikean käyttöoikeusarvon manuaalinen laskeminen on virhealtista. Laskimemme avulla voit valita käyttöoikeudet visuaalisesti ja luoda oktaaliarvon ja hyödyllisen chmod-komennon välittömästi.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Visuaalinen käyttöoikeuksien rakennustyökalu",
+                "desc": "Napsauta luku/kirjoitus/suoritus-valintaruutuja omistaja/ryhmä/muut-kohtiin; arvot päivittyvät välittömästi"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Kaksisuuntainen synkronointi",
+                "desc": "Syötä oktaaliarvo (esim. 755) ja valintaruudut päivittyvät automaattisesti, tai päinvastoin"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Käyttövalmis komento",
+                "desc": "Luo täydellisen chmod-komennon, joka voidaan liittää suoraan terminaaliin"
+            }
+        },
+        "how_title": "Käyttöoikeuksien laskeminen",
+        "how_steps": {
+            "1": {
+                "title": "Merkitse halutut käyttöoikeudet",
+                "desc": "Napsauta luku/kirjoitus/suoritus-valintaruutuja omistajalle, ryhmälle ja muille"
+            },
+            "2": {
+                "title": "Tarkista oktaali ja symbolinen",
+                "desc": "Oktaaliarvo (esim. 755) ja symbolinen merkintä (rwxr-xr-x) päivittyvät välittömästi"
+            },
+            "3": {
+                "title": "Kopioi komento",
+                "desc": "Kopioi luotu chmod-komento ja aja se terminaalissa"
+            }
+        },
+        "uses_title": "Tyypilliset chmod-skenaariot",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Web-palvelintiedostot",
+                "desc": "Aseta 644 HTML/CSS/JS-tiedostoille Apache:ssa tai Nginx:ssä (omistaja luku/kirjoitus, ryhmä/muut luku)"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Suoritettavat skriptit",
+                "desc": "Aseta 755 shell-skripteille (omistaja täysi pääsy, ryhmä/muut luku+suoritus)"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "SSH-avaimet",
+                "desc": "SSH vaatii 600 (vain omistaja luku/kirjoitus) yksityisille avaimille"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Lataushakemistot",
+                "desc": "Aseta 775 web-lataushakemistoille, jotta palveluprosessi voi kirjoittaa tiedostoja"
+            }
+        },
+        "tips_title": "Linux-käyttöoikeuksien parhaat käytännöt",
+        "tips": {
+            "never777": {
+                "title": "✓ Älä koskaan käytä 777 tuotannossa",
+                "desc": "chmod 777 antaa kaikille täyden luku/kirjoitus/suoritus-pääsyn — vakava tietoturvariski."
+            },
+            "least": {
+                "title": "✓ Vähimmän pääsyn periaate",
+                "desc": "Anna aina vähimmät tarvittavat käyttöoikeudet. Aloita rajoittavasti (600) ja lisää tarpeen mukaan."
+            },
+            "recursive": {
+                "title": "✓ Ole varovainen -R:n (rekursiivinen) kanssa",
+                "desc": "chmod -R soveltaa käyttöoikeuksia rekursiivisesti kaikkiin tiedostoihin ja hakemistoihin."
+            },
+            "umask": {
+                "title": "✓ Ymmärrä umask",
+                "desc": "umask-arvo vähentää käyttöoikeuksia oletusarvosta. umask 022 antaa uusille tiedostoille 644 ja uusille hakemistoille 755."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mitä chmod 755 tarkoittaa?",
+            "a1": "755 tarkoittaa: omistaja(7)=luku+kirjoitus+suoritus, ryhmä(5)=luku+suoritus, muut(5)=luku+suoritus. Oletuskäyttöoikeudet suoritettaville tiedostoille ja julkisille hakemistoille.",
+            "q2": "Mikä on ero 644:n ja 755:n välillä?",
+            "a2": "644 (rw-r--r--): omistaja luku/kirjoitus, muut vain luku — tavallisille tiedostoille. 755 (rwxr-xr-x): omistaja voi myös suorittaa — skripteille ja hakemistoille.",
+            "q3": "Miksi SSH-avaimet vaativat käyttöoikeuden 600?",
+            "a3": "SSH hylkää yksityisten avainten käytön, joihin muilla on pääsy. 600 (rw-------) varmistaa, että vain omistaja voi lukea ja kirjoittaa avaimen.",
+            "q4": "Mitä suoritusbitti tarkoittaa hakemistolla?",
+            "a4": "Suoritusbitti hakemistolla tarkoittaa 'läpikäyntioikeutta' — käyttäjä voi siirtyä hakemistoon ja käyttää sen tiedostoja. Ilman suoritusoikeutta käyttäjä ei pääse hakemistoon."
+        }
+    }
+}

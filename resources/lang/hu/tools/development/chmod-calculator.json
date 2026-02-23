@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Online chmod Kalkulátor - Linux Fájljogosultságok Ingyen | Optimizo",
+        "description": "Ingyenes online chmod kalkulátor. Konvertálja a Linux fájljogosultságokat szimbolikus (rwxr-xr-x) és oktális (755) jelölés között, és generáljon chmod parancsokat.",
+        "h1": "chmod Kalkulátor",
+        "subtitle": "Linux jogosultságok kiszámítása — szimbolikus és oktális jelölés konvertálása és chmod parancsok generálása"
+    },
+    "editor": {
+        "title": "chmod Jogosultság Kalkulátor",
+        "label_octal": "Oktális érték",
+        "col_type": "Típus",
+        "col_read": "Olvasás (r)",
+        "col_write": "Írás (w)",
+        "col_exec": "Végrehajtás (x)",
+        "col_octal": "Oktális",
+        "row_owner": "Tulajdonos",
+        "row_group": "Csoport",
+        "row_others": "Mások (mindenki)",
+        "btn_copy": "Parancs másolása"
+    },
+    "content": {
+        "why_title": "Miért használjon chmod kalkulátort?",
+        "why_desc": "A Linux fájljogosultságok szimbolikus (rwxr-xr-x) és oktális (755) jelöléssel vannak kifejezve. A megfelelő jogosultsági érték kézi kiszámítása hibalehetőséggel jár. Kalkulátorunk lehetővé teszi a jogosultságok vizuális kiválasztását jelölőnégyzetekkel, és azonnal generálja az oktális értéket és egy használható chmod parancsot.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Vizuális jogosultság-készítő",
+                "desc": "Kattintson az olvasás/írás/végrehajtás jelölőnégyzetekre a tulajdonos/csoport/mások esetén; az értékek azonnal frissülnek"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Kétirányú szinkronizáció",
+                "desc": "Adjon meg egy oktális értéket (pl. 755) és a jelölőnégyzetek automatikusan frissülnek, vagy fordítva"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Azonnal használható parancs",
+                "desc": "Teljes chmod parancsot generál, amely közvetlenül beilleszthető a terminálba"
+            }
+        },
+        "how_title": "Hogyan számítsa ki a jogosultságokat",
+        "how_steps": {
+            "1": {
+                "title": "Jelölje meg a kívánt jogosultságokat",
+                "desc": "Kattintson az olvasás/írás/végrehajtás jelölőnégyzetekre a tulajdonos, csoport és mások esetén"
+            },
+            "2": {
+                "title": "Ellenőrizze az oktális és szimbolikus értéket",
+                "desc": "Az oktális érték (pl. 755) és a szimbolikus jelölés (rwxr-xr-x) azonnal frissül"
+            },
+            "3": {
+                "title": "Másolja a parancsot",
+                "desc": "Másolja a generált chmod parancsot és futtassa a terminálban"
+            }
+        },
+        "uses_title": "Tipikus chmod forgatókönyvek",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Webszerver fájlok",
+                "desc": "Állítson be 644-et a HTML/CSS/JS fájlokhoz Apache vagy Nginx esetén (tulajdonos olvasás/írás, csoport/mások olvasás)"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Futtatható szkriptek",
+                "desc": "Állítson be 755-öt a shell szkriptekhez (tulajdonos teljes hozzáférés, csoport/mások olvasás+végrehajtás)"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "SSH kulcsok",
+                "desc": "Az SSH 600-at igényel (csak tulajdonos olvasás/írás) a privát kulcsokhoz"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Feltöltési könyvtárak",
+                "desc": "Állítson be 775-öt a web feltöltési könyvtárakhoz, hogy a szerverei folyamat fájlokat tudjon írni"
+            }
+        },
+        "tips_title": "Linux jogosultságok legjobb gyakorlatai",
+        "tips": {
+            "never777": {
+                "title": "✓ Soha ne használja a 777-et éles környezetben",
+                "desc": "A chmod 777 mindenki számára teljes olvasás/írás/végrehajtás hozzáférést biztosít — komoly biztonsági kockázat."
+            },
+            "least": {
+                "title": "✓ Minimális jogosultság elve",
+                "desc": "Mindig a szükséges legkisebb jogosultságokat adja meg. Kezdjen korlátozóan (600) és adjon hozzá szükség szerint."
+            },
+            "recursive": {
+                "title": "✓ Legyen óvatos a -R (rekurzív) kapcsolóval",
+                "desc": "A chmod -R rekurzívan alkalmazza a jogosultságokat az összes fájlra és könyvtárra."
+            },
+            "umask": {
+                "title": "✓ Értse meg az umask-ot",
+                "desc": "Az umask érték levonja a jogosultságokat az alapértelmezettből. Az umask 022 az új fájloknak 644-et, az új könyvtáraknak 755-öt ad."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Mit jelent a chmod 755?",
+            "a1": "A 755 azt jelenti: tulajdonos(7)=olvasás+írás+végrehajtás, csoport(5)=olvasás+végrehajtás, mások(5)=olvasás+végrehajtás. Alapértelmezett jogosultság futtatható fájlokhoz és nyilvános könyvtárakhoz.",
+            "q2": "Mi a különbség a 644 és a 755 között?",
+            "a2": "644 (rw-r--r--): tulajdonos olvasás/írás, mások csak olvasás — normál fájlokhoz. 755 (rwxr-xr-x): a tulajdonos végrehajthat is — szkriptekhez és könyvtárakhoz.",
+            "q3": "Miért igényelnek az SSH kulcsok 600-as jogosultságot?",
+            "a3": "Az SSH megtagadja a mások által hozzáférhető privát kulcsok használatát. A 600 (rw-------) biztosítja, hogy csak a tulajdonos olvashassa és írhassa a kulcsot.",
+            "q4": "Mit jelent a végrehajtás bit egy könyvtáron?",
+            "a4": "A könyvtáron a végrehajtás bit az 'áthaladás' jogosultságát jelenti — a felhasználó beléphet a könyvtárba és hozzáférhet a benne lévő fájlokhoz. Végrehajtási jogosultság nélkül a felhasználó nem tud belépni a könyvtárba."
+        }
+    }
+}

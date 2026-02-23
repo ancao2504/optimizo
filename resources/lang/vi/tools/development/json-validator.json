@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Trình Xác Thực JSON Online - Kiểm Tra JSON Miễn Phí | Optimizo",
+        "description": "Trình xác thực JSON trực tuyến và miễn phí. Xác thực cú pháp JSON tức thì, xác định lỗi cú pháp với số dòng và xem kết quả được định dạng.",
+        "h1": "Trình Xác Thực JSON",
+        "subtitle": "Xác thực cú pháp JSON tức thì — phát hiện lỗi và xác nhận cấu trúc dữ liệu hợp lệ"
+    },
+    "editor": {
+        "title": "Trình Xác Thực JSON",
+        "label_input": "JSON cần xác thực",
+        "ph_input": "Dán JSON của bạn vào đây...",
+        "btn_validate": "Xác thực JSON",
+        "btn_copy": "Sao chép JSON"
+    },
+    "content": {
+        "why_title": "Tại sao xác thực JSON trước khi sử dụng?",
+        "why_desc": "JSON không hợp lệ có thể làm hỏng API, bộ phân tích cấu hình và quy trình dữ liệu một cách thầm lặng. Dấu phẩy đặt sai vị trí, dấu ngoặc không đóng và dấu ngoặc kép không được escape có thể gây ra lỗi thời gian chạy khó theo dõi. Công cụ của chúng tôi xác định những vấn đề này ngay lập tức với số dòng chính xác và thông báo lỗi rõ ràng.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Xác thực tức thì",
+                "desc": "Xác thực JSON trong mili giây với thông báo lỗi chính xác và số dòng"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Tổng quan cấu trúc",
+                "desc": "Xem độ sâu JSON, số khóa và phân phối loại trong nháy mắt"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100% riêng tư",
+                "desc": "Tất cả xác thực diễn ra trong trình duyệt — dữ liệu của bạn không bao giờ rời khỏi thiết bị"
+            }
+        },
+        "how_title": "Xác thực JSON trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Dán JSON",
+                "desc": "Sao chép và dán JSON từ phản hồi API, tệp cấu hình hoặc nguồn khác"
+            },
+            "2": {
+                "title": "Nhấp Xác thực",
+                "desc": "Trình xác thực kiểm tra cú pháp tức thì và tô sáng lỗi với số dòng"
+            },
+            "3": {
+                "title": "Sửa và sao chép",
+                "desc": "Sửa các lỗi và sao chép JSON đã được xác thực, định dạng"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng xác thực JSON",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "Xác thực phản hồi API",
+                "desc": "Xác nhận phản hồi REST API có cấu trúc đúng trước khi xử lý"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Kiểm tra tệp cấu hình",
+                "desc": "Xác thực package.json, tsconfig.json và các tệp cấu hình khác trước khi triển khai"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Xác thực nhập dữ liệu",
+                "desc": "Kiểm tra tệp JSON nhập khẩu là đúng trước khi tải vào cơ sở dữ liệu"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Gỡ lỗi JSON",
+                "desc": "Tìm chính xác lỗi cú pháp trong cấu trúc JSON phức tạp, lồng sâu"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho JSON",
+        "tips": {
+            "quotes": {
+                "title": "✓ Luôn dùng dấu ngoặc kép đôi",
+                "desc": "JSON yêu cầu dấu ngoặc kép đôi cho chuỗi và khóa. Dấu ngoặc đơn không phải JSON hợp lệ."
+            },
+            "trailing": {
+                "title": "✓ Không có dấu phẩy ở cuối",
+                "desc": "Không giống JavaScript, JSON không cho phép dấu phẩy sau phần tử cuối cùng trong mảng hoặc đối tượng."
+            },
+            "null": {
+                "title": "✓ Dùng null, không phải None hay nil",
+                "desc": "Từ khóa null trong JSON phải là chữ thường. None của Python hay nil của Ruby không phải JSON hợp lệ."
+            },
+            "validate": {
+                "title": "✓ Xác thực lại sau khi chỉnh sửa thủ công",
+                "desc": "Luôn xác thực lại JSON sau khi chỉnh sửa thủ công. Một lỗi đánh máy nhỏ có thể làm mất hiệu lực toàn bộ tài liệu."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Tại sao JSON của tôi không hợp lệ dù có vẻ đúng?",
+            "a1": "Các vấn đề ẩn phổ biến: dấu phẩy cuối sau phần tử cuối cùng, dấu ngoặc đơn thay vì dấu ngoặc kép, ký tự đặc biệt không được escape trong chuỗi, chú thích JavaScript (JSON không hỗ trợ chú thích).",
+            "q2": "Có thể xác thực tệp JSON rất lớn không?",
+            "a2": "Có — xác thực diễn ra hoàn toàn trong trình duyệt bằng JSON.parse() gốc. Kích thước tệp chỉ bị giới hạn bởi bộ nhớ trình duyệt.",
+            "q3": "Sự khác biệt giữa JSON và JSONP là gì?",
+            "a3": "JSON là định dạng dữ liệu thuần túy. JSONP bọc JSON trong lệnh gọi hàm để thực hiện yêu cầu cross-domain. JSONP không phải JSON hợp lệ.",
+            "q4": "JSON có hỗ trợ chú thích không?",
+            "a4": "Không. JSON không hỗ trợ chú thích // hay /* */. Dùng khóa _comment hoặc chuyển sang YAML hay TOML vốn hỗ trợ chú thích."
+        }
+    }
+}

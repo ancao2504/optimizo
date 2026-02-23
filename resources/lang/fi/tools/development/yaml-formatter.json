@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "YAML-muotoilija Verkossa - Muotoile YAML-tiedostoja | Optimizo",
+        "description": "Muotoile ja validoi YAML-tiedostoja verkossa ilmaiseksi. Välitön YAML-siistiminen, oikea sisennys ja syntaksintarkistus.",
+        "h1": "YAML-muotoilija",
+        "subtitle": "Muotoile ja validoi YAML-tiedostoja välittömästi — monimutkaiset sisäkkäiset rakenteet, ankkurit ja aliakset tuettu"
+    },
+    "editor": {
+        "title": "YAML-muotoilija",
+        "label_input": "YAML-syöte",
+        "ph_input": "name: Sovellukseni\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "Muotoile YAML",
+        "label_output": "Muotoiltu YAML",
+        "btn_copy": "Kopioi YAML"
+    },
+    "content": {
+        "why_title": "Miksi muotoilla YAML-tiedostoja?",
+        "why_desc": "YAML on erittäin herkkä sisennysvirheille — yksi ylimääräinen välilyönti voi aiheuttaa jäsennysvirheen tai hiljaisen tietokorruption. Kubernetes, Docker Compose, GitHub Actions ja Ansible käyttävät YAML-konfiguraatiotiedostoja, ja muotoiluvirhe voi estää koko käyttöönoton.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Sisennyksen normalisointi",
+                "desc": "Normalisoi sekalaisen sisennyksen johdonmukaiseksi 2-välilyöntimuodoksi koko dokumentissa"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Syntaksin validointi",
+                "desc": "Tunnistaa sisennysvirheet, välilehti/välilyönti-sekoitukset ja rakenneongelmat"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Ankkurit ja aliakset",
+                "desc": "Täysi tuki YAML-ankkureille (&) ja aliaksille (*) dokumentin uudelleenkäyttöä varten"
+            }
+        },
+        "how_title": "Muotoile YAML 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Liitä YAML",
+                "desc": "Liitä Kubernetes-manifest, GitHub Actions -työnkulku tai YAML-konfiguraatiotiedosto"
+            },
+            "2": {
+                "title": "Muotoile ja validoi",
+                "desc": "Työkalu validoi syntaksin ja muotoilee uudelleen automaattisesti johdonmukaisella sisennyksellä"
+            },
+            "3": {
+                "title": "Kopioi ja ota käyttöön",
+                "desc": "Kopioi muotoiltu YAML tiedostoihin, CI-putkiin tai käyttöönottotyökaluihin"
+            }
+        },
+        "uses_title": "YAML-muotoilun käyttötapaukset",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Kubernetes-manifestit",
+                "desc": "Muotoile Deployment-, Service- ja ConfigMap-YAML-tiedostot ennen klusterille soveltamista"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "CI/CD-putket",
+                "desc": "Validoi GitHub Actions-, GitLab CI- ja CircleCI-työnkulut estääksesi putkiviat"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Ansible Playbooks",
+                "desc": "Muotoile ja validoi Ansible-tehtävät, muuttujat ja inventaario"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Tarkista, että docker-compose.yml on oikein muotoiltu ennen docker compose up:ia"
+            }
+        },
+        "tips_title": "YAML:n parhaat käytännöt",
+        "tips": {
+            "spaces": {
+                "title": "✓ Käytä välilyöntejä, ei välilehtiä",
+                "desc": "YAML-spesifikaatio kieltää nimenomaisesti sarkainmerkin sisennukseen. Määritä editorisi lisäämään välilyöntejä sarkainpainikkeella YAML-tiedostoissa."
+            },
+            "quotes": {
+                "title": "✓ Käytä lainausmerkkejä erikoismerkeille",
+                "desc": "Merkkijonot, jotka sisältävät : # [ ] { } tai alkavat erikoismerkeillä, on lainausmerkeissä, jotta YAML ei tulkitse niitä väärin."
+            },
+            "anchors": {
+                "title": "✓ Käytä ankkureita toiston vähentämiseen",
+                "desc": "YAML-ankkurit (&nimi) ja aliakset (*nimi) antavat sinun käyttää uudelleen arvoja dokumentissa."
+            },
+            "lint": {
+                "title": "✓ Tee lint-tarkistus ennen commitia",
+                "desc": "Aja yamllint tai käytä tätä muotoilijaa pre-commit-koukussa saadaksesi muotoiluongelmat kiinni ajoissa."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Miksi YAML ei toimi välilehtien kanssa välilyöntien sijaan?",
+            "a1": "YAML-spesifikaatio kieltää nimenomaisesti sarkainmerkin sisennukseen, koska eri editorit näyttävät välilehdet eri leveyksillä. Välilyönnit tarjoavat johdonmukaisen sisennyksen, jonka kaikki YAML-jäsentimet tulkitsevat samalla tavalla.",
+            "q2": "Mitä YAML-ankkurit (&) ja aliakset (*) tekevät?",
+            "a2": "Ankkurit määrittelevät uudelleenkäytettävän lohkon &ankurinimi:llä; aliakset viittaavat siihen *ankurinimi:llä. Näin voit määritellä arvon kerran ja käyttää sitä useissa paikoissa.",
+            "q3": "Mikä on ero YAML:n ja JSON:n välillä?",
+            "a3": "YAML on JSON:n ylijoukko — kelvollinen JSON on myös kelvollista YAML:ia. YAML lisää kommentit, ankkurit, monirivisiset merkkijonot ja luettavamman syntaksin.",
+            "q4": "Milloin pitäisi valita YAML TOML:n sijaan konfiguraatiolle?",
+            "a4": "YAML:lla on laajempi työkalujen tuki (Kubernetes, Ansible, useimmat CI-järjestelmät) ja se voi ilmaista monimutkaiset sisäkkäiset rakenteet tiiviisti. DevOps-konfiguraatiossa YAML on standardi."
+        }
+    }
+}

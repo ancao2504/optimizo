@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Convertor CSV în YAML Online - Gratuit | Optimizo",
+        "description": "Convertiți fișiere CSV în format YAML online și gratuit. Folosiți automat anteturile CSV ca chei YAML și generați YAML corect indentat cu detecție de tipuri.",
+        "h1": "Convertor CSV în YAML",
+        "subtitle": "Convertiți datele CSV în format YAML — mapare automată a anteturilor și detecție de tipuri"
+    },
+    "editor": {
+        "title": "Convertor CSV în YAML",
+        "label_csv": "Intrare CSV",
+        "ph_csv": "nume,vârstă,activ\nAlice,30,true\nBob,25,false",
+        "label_yaml": "Ieșire YAML",
+        "btn_copy": "Copiați YAML"
+    },
+    "content": {
+        "why_title": "De ce să convertiți CSV în YAML?",
+        "why_desc": "CSV este perfect pentru stocarea datelor tabulare în foi de calcul, dar YAML este standardul pentru fișierele de configurare, fixture-urile de test și instrumentele DevOps. Conversia datelor din foi de calcul în Kubernetes ConfigMaps, fișiere de variabile Ansible sau fișiere de date Hugo elimină reformatarea dureroasă.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Conversie automată",
+                "desc": "Convertește CSV în YAML în timp real pe măsură ce scrieți — fără buton de apăsat"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Chei bazate pe antet",
+                "desc": "Anteturile CSV sunt convertite automat în chei YAML pentru fiecare obiect din lista de ieșire"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Detecție tipuri",
+                "desc": "Numerele și valorile booleene (true/false) sunt convertite automat la tipul corect YAML"
+            }
+        },
+        "how_title": "Convertiți CSV în YAML în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Inserați datele CSV",
+                "desc": "Inserați CSV cu rând antet — primul rând definește cheile YAML"
+            },
+            "2": {
+                "title": "Conversie instantanee",
+                "desc": "Ieșirea YAML apare instant cu fiecare rând CSV ca element al unei liste YAML"
+            },
+            "3": {
+                "title": "Copiați YAML-ul",
+                "desc": "Copiați YAML-ul convertit și lipiți-l în fișierele de configurare sau fixture-urile de test"
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru conversia CSV în YAML",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Fixture-uri de test",
+                "desc": "Convertiți datele de test din foi de calcul în fixture-uri YAML pentru RSpec, PHPUnit, PyTest"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Date de configurare",
+                "desc": "Convertiți datele de echipă sau de mediu în variabile Ansible sau Kubernetes ConfigMaps"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Date seed",
+                "desc": "Convertiți CSV cu tabele de căutare în fișiere seed YAML pentru Rails, Laravel, Django"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Date de test API",
+                "desc": "Convertiți exemplele din foi de calcul în YAML pentru instrumente de mock API ca WireMock sau Mirage"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru CSV în YAML",
+        "tips": {
+            "headers": {
+                "title": "✓ Folosiți nume de antet consistente și curate",
+                "desc": "Anteturile CSV devin chei YAML — folosiți snake_case sau camelCase în mod consistent și evitați spațiile."
+            },
+            "quotes": {
+                "title": "✓ Puneți între ghilimele valorile cu caractere speciale",
+                "desc": "Valorile care conțin virgule sau ghilimele trebuie înconjurate de ghilimele duble în CSV."
+            },
+            "encoding": {
+                "title": "✓ Folosiți codificarea UTF-8",
+                "desc": "Asigurați-vă că fișierul CSV este codat UTF-8 înainte de conversie."
+            },
+            "validate": {
+                "title": "✓ Validați YAML-ul după conversie",
+                "desc": "Lipiți întotdeauna YAML-ul convertit într-un validator pentru a verifica structura corectă înainte de utilizare în fișierele de configurare."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Convertorul gestionează câmpurile CSV între ghilimele?",
+            "a1": "Da — parserul gestionează corect formatul CSV RFC 4180 (inclusiv câmpurile înconjurate de ghilimele duble). Virgulele din câmpurile între ghilimele nu sunt tratate ca separatoare.",
+            "q2": "Cum sunt gestionate numerele și valorile booleene?",
+            "a2": "Convertorul detectează tipurile: Numerele valide sunt convertite la numere YAML; valorile true/false sunt convertite la booleene YAML. Șirurile rămân șiruri.",
+            "q3": "Pot converti date TSV (separate prin tab)?",
+            "a3": "Instrumentul se așteaptă la CSV separat prin virgule. Pentru datele separate prin tab, înlocuiți tab-urile cu virgule.",
+            "q4": "Cum convertesc YAML înapoi la CSV dacă este nevoie?",
+            "a4": "Direcția inversă (YAML la CSV) necesită cunoașterea prealabilă a structurii. Pentru liste flat de obiecte cu chei consistente, puteți extrage manual cheile ca anteturi CSV și mapa fiecare obiect YAML ca rând."
+        }
+    }
+}

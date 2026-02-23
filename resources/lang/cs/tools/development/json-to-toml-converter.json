@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Převodník JSON na TOML Online - Zdarma | Optimizo",
+        "description": "Převádějte JSON na formát TOML online a zdarma. Automaticky generuje sekce tabulek, zpracovává vnořené objekty a produkuje čistý, čitelný TOML.",
+        "h1": "Převodník JSON na TOML",
+        "subtitle": "Převod konfiguračních dat JSON na čitelnější formát TOML — automatické generování tabulek a sekcí"
+    },
+    "editor": {
+        "title": "Převodník JSON na TOML",
+        "label_json": "JSON vstup",
+        "ph_json": "{\n  \"title\": \"Moje aplikace\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "TOML výstup",
+        "btn_copy": "Kopírovat TOML"
+    },
+    "content": {
+        "why_title": "Proč převádět JSON konfigurační soubory na TOML?",
+        "why_desc": "JSON není navržen pro konfigurační soubory — žádné komentáře, rozvláčná syntaxe pro vnořená data a vyžaduje extra escape. TOML dělá stejná data čitelnějšími pomocí záhlaví [sekce], komentářů # a čistší syntaxe klíč-hodnota. Převod config.json na config.toml zlepšuje udržovatelnost a samodokumentaci.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Automatické generování sekcí",
+                "desc": "Vnořené JSON objekty se automaticky převedou na cesty tabulek TOML [section.subsection]"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Zachování typů",
+                "desc": "Čísla, logické hodnoty a řetězce JSON jsou správně mapovány na ekvivalenty TOML bez ztráty dat"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Čistší konfigurace",
+                "desc": "Stejná data ve formátu TOML jsou typicky o 20-40 % kratší a mnohem čitelnější než JSON"
+            }
+        },
+        "how_title": "Převod JSON na TOML ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vložte JSON konfiguraci",
+                "desc": "Zkopírujte svůj stávající JSON konfigurační soubor a vložte ho do levého panelu"
+            },
+            "2": {
+                "title": "Zkontrolujte výstup TOML",
+                "desc": "Odpovídající TOML se zobrazí v pravém panelu — ověřte, že struktura odpovídá očekávání"
+            },
+            "3": {
+                "title": "Přidejte komentáře a uložte",
+                "desc": "Zkopírujte TOML, přidejte # komentáře dokumentující každou sekci a uložte jako nový konfigurační soubor"
+            }
+        },
+        "uses_title": "Případy použití převodníku JSON na TOML",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Vytvoření Cargo.toml",
+                "desc": "Převeďte informace z package.json do formátu Cargo.toml pro urychlení nastavení Rust projektů"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Migrace na pyproject.toml",
+                "desc": "Převeďte setup.cfg nebo setup.py na moderní standard balíčkování Pythonu pyproject.toml"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Aktualizace konfiguračních souborů",
+                "desc": "Migrujte config.json na config.toml a dokumentujte každou možnost pomocí # komentářů"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Sdílení konfigurace mezi nástroji",
+                "desc": "Převádějte stejná konfigurační data mezi ekosystémy JSON a TOML dle potřeby"
+            }
+        },
+        "tips_title": "Tipy pro převod JSON na TOML",
+        "tips": {
+            "arrays": {
+                "title": "✓ Pečlivě zkontrolujte pole objektů",
+                "desc": "Pole objektů JSON ([{name:\"a\"},{name:\"b\"}]) používají syntaxi [[pole tabulek]] TOML. Ověřte, že jsou ve výstupu správně převedeny."
+            },
+            "null": {
+                "title": "✓ TOML nemá null",
+                "desc": "Null JSON nemá přímý ekvivalent v TOML. Hodnoty null jsou obvykle vynechány nebo nahrazeny prázdným řetězcem. Zpracujte tyto případy ručně."
+            },
+            "keys": {
+                "title": "✓ Klíče se speciálními znaky uzavřete do uvozovek",
+                "desc": "Klíče TOML s pomlčkami nebo mezerami vyžadují uvozovky: \"content-type\" = \"json\". Používejte podtržítko v klíčích JSON pro vyhnutí se problému."
+            },
+            "test": {
+                "title": "✓ Testujte pomocí TOML parseru aplikace",
+                "desc": "Různé TOML parsery (toml-rs, tomllib, @iarna/toml) mohou zpracovávat hraničních případy odlišně. Vždy testujte převedené TOML ve skutečném runtime prostředí."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Lze všechny datové typy JSON převést na TOML?",
+            "a1": "Většina typů se převede čistě: řetězce, čísla, logické hodnoty, pole a objekty mají přímé ekvivalenty TOML. Null JSON nemá ekvivalent TOML a je obvykle vynechán. Hluboce vnořená pole objektů mohou vyžadovat ruční úpravu.",
+            "q2": "Může TOML plně nahradit JSON v konfiguračních souborech?",
+            "a2": "Pro statické konfigurační soubory ano. Kód čtoucí konfiguraci musí být změněn z JSON.parse() na TOML parser. TOML nemůže nahradit JSON pro API nebo výměnu dat.",
+            "q3": "Jakou příponu souboru TOML používá?",
+            "a3": "Přípona .toml. Běžné příklady: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (Cargo konfigurace).",
+            "q4": "Jak vybrat mezi JSON, YAML a TOML pro konfiguraci?",
+            "a4": "JSON: Výměna dat API (univerzální podpora, komentáře nejsou potřeba). YAML: Konfigurace DevOps (Kubernetes, CI/CD atd.). TOML: Konfigurace aplikací (jednoduchá syntaxe, explicitní typy, nejlepší pro ruční úpravy)."
+        }
+    }
+}

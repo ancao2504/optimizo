@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Konverter CSV ke YAML Online - Gratis | Optimizo",
+        "description": "Konversi file CSV ke format YAML secara online dan gratis. Otomatis menggunakan header CSV sebagai kunci YAML dan menghasilkan YAML yang terindentasi dengan benar dengan deteksi tipe.",
+        "h1": "Konverter CSV ke YAML",
+        "subtitle": "Konversi data CSV ke format YAML — pemetaan header otomatis dan deteksi tipe"
+    },
+    "editor": {
+        "title": "Konverter CSV ke YAML",
+        "label_csv": "Input CSV",
+        "ph_csv": "nama,usia,aktif\nAlice,30,true\nBob,25,false",
+        "label_yaml": "Output YAML",
+        "btn_copy": "Salin YAML"
+    },
+    "content": {
+        "why_title": "Mengapa mengkonversi CSV ke YAML?",
+        "why_desc": "CSV sempurna untuk menyimpan data tabular di spreadsheet, namun YAML adalah standar untuk file konfigurasi, fixture pengujian, dan alat DevOps. Mengkonversi data spreadsheet ke Kubernetes ConfigMaps, file variabel Ansible, atau file data Hugo menghilangkan reformatting yang menyulitkan.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Konversi Otomatis",
+                "desc": "Mengkonversi CSV ke YAML secara real-time saat Anda mengetik — tidak perlu menekan tombol"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Kunci Berbasis Header",
+                "desc": "Header CSV otomatis dikonversi menjadi kunci YAML untuk setiap objek dalam daftar output"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Deteksi Tipe",
+                "desc": "Angka dan nilai boolean (true/false) otomatis dikonversi ke tipe YAML yang benar"
+            }
+        },
+        "how_title": "Konversi CSV ke YAML dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Tempel data CSV",
+                "desc": "Tempel CSV dengan baris header — baris pertama mendefinisikan kunci YAML"
+            },
+            "2": {
+                "title": "Konversi instan",
+                "desc": "Output YAML muncul seketika dengan setiap baris CSV sebagai elemen daftar YAML"
+            },
+            "3": {
+                "title": "Salin YAML",
+                "desc": "Salin YAML yang dikonversi dan tempel ke file konfigurasi atau fixture pengujian"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Konverter CSV ke YAML",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Fixture Pengujian",
+                "desc": "Konversi data pengujian dari spreadsheet ke fixture YAML untuk RSpec, PHPUnit, PyTest"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Data Konfigurasi",
+                "desc": "Konversi data tim atau lingkungan ke variabel Ansible atau Kubernetes ConfigMaps"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Data Seed",
+                "desc": "Konversi tabel lookup CSV ke file seed YAML untuk Rails, Laravel, Django"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Data Pengujian API",
+                "desc": "Konversi contoh dari spreadsheet ke YAML untuk alat mock API seperti WireMock atau Mirage"
+            }
+        },
+        "tips_title": "Praktik Terbaik Konversi CSV ke YAML",
+        "tips": {
+            "headers": {
+                "title": "✓ Gunakan nama header yang konsisten dan bersih",
+                "desc": "Header CSV menjadi kunci YAML — gunakan snake_case atau camelCase secara konsisten dan hindari spasi."
+            },
+            "quotes": {
+                "title": "✓ Kutip nilai dengan karakter khusus",
+                "desc": "Nilai yang mengandung koma atau tanda kutip harus dikelilingi tanda kutip ganda dalam CSV."
+            },
+            "encoding": {
+                "title": "✓ Gunakan enkoding UTF-8",
+                "desc": "Pastikan file CSV dikodekan UTF-8 sebelum konversi."
+            },
+            "validate": {
+                "title": "✓ Validasi YAML setelah konversi",
+                "desc": "Selalu tempel YAML yang dikonversi ke validator untuk memeriksa struktur yang benar sebelum digunakan dalam file konfigurasi."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Apakah konverter menangani field CSV yang dikutip?",
+            "a1": "Ya — parser menangani format CSV RFC 4180 dengan benar (termasuk field yang dikelilingi tanda kutip ganda). Koma dalam field yang dikutip tidak dianggap sebagai pemisah.",
+            "q2": "Bagaimana angka dan boolean ditangani?",
+            "a2": "Konverter mendeteksi tipe: Angka yang valid dikonversi ke angka YAML; nilai true/false dikonversi ke boolean YAML. String tetap sebagai string.",
+            "q3": "Bisakah saya mengkonversi data TSV (dipisahkan tab)?",
+            "a3": "Alat ini mengharapkan CSV yang dipisahkan koma. Untuk data yang dipisahkan tab, ganti tab dengan koma.",
+            "q4": "Bagaimana cara mengkonversi YAML kembali ke CSV jika diperlukan?",
+            "a4": "Arah kebalikan (YAML ke CSV) memerlukan pengetahuan awal tentang struktur. Untuk daftar objek datar dengan kunci yang konsisten, Anda dapat secara manual mengekstrak kunci sebagai header CSV dan memetakan setiap objek YAML sebagai baris."
+        }
+    }
+}

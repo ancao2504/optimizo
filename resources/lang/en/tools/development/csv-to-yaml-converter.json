@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "CSV to YAML Converter - Free Online Converter | Optimizo",
+        "description": "Convert CSV files to YAML format online for free. Automatically uses CSV headers as YAML keys and generates properly indented YAML output with type inference.",
+        "h1": "CSV to YAML Converter",
+        "subtitle": "Convert CSV data to YAML format — automatic header mapping with type inference"
+    },
+    "editor": {
+        "title": "CSV to YAML Converter",
+        "label_csv": "CSV Input",
+        "ph_csv": "name,age,active\nAlice,30,true\nBob,25,false",
+        "label_yaml": "YAML Output",
+        "btn_copy": "Copy YAML"
+    },
+    "content": {
+        "why_title": "Why Convert CSV to YAML?",
+        "why_desc": "CSV is great for storing tabular data in spreadsheets, but YAML is the standard for configuration files, test fixtures, and DevOps tooling. When you need to use spreadsheet data as Kubernetes ConfigMaps, Ansible variable files, Hugo data files, or test fixtures, converting from CSV to YAML saves the tedious manual reformatting work.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Automatic Conversion",
+                "desc": "Converts CSV to YAML in real-time as you type — no need to click any button"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Header-Based Keys",
+                "desc": "CSV headers automatically become YAML keys for each object in the output array"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Type Inference",
+                "desc": "Numbers and booleans (true/false) are automatically converted to their proper YAML types"
+            }
+        },
+        "how_title": "How to Convert CSV to YAML",
+        "how_steps": {
+            "1": {
+                "title": "Paste CSV Data",
+                "desc": "Paste your CSV with a header row — the first row defines the YAML keys"
+            },
+            "2": {
+                "title": "Instant Conversion",
+                "desc": "YAML output appears immediately with each CSV row as a YAML list item"
+            },
+            "3": {
+                "title": "Copy YAML",
+                "desc": "Copy the YAML output and paste it into your config file or test fixture"
+            }
+        },
+        "uses_title": "CSV to YAML Use Cases",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Test Fixtures",
+                "desc": "Convert spreadsheet test data to YAML fixtures for RSpec, PHPUnit, or Pytest"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Configuration Data",
+                "desc": "Convert team or environment data from sheets into Ansible vars or Kubernetes ConfigMaps"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Database Seeding",
+                "desc": "Convert CSV lookup tables to YAML seed files for Rails, Laravel, or Django fixtures"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "API Mock Data",
+                "desc": "Convert spreadsheet sample data to YAML for API mocking tools like WireMock or Mirage"
+            }
+        },
+        "tips_title": "CSV to YAML Best Practices",
+        "tips": {
+            "headers": {
+                "title": "✓ Use Clean, Consistent Header Names",
+                "desc": "CSV headers become YAML keys — use snake_case or camelCase consistently. Avoid spaces and special characters in headers."
+            },
+            "quotes": {
+                "title": "✓ Quote Values with Special Characters",
+                "desc": "In CSV, wrap values containing commas or quotes in double quotes. The converter handles RFC 4180 quoted fields correctly."
+            },
+            "encoding": {
+                "title": "✓ Use UTF-8 Encoding",
+                "desc": "Ensure your CSV file is UTF-8 encoded before converting. Non-UTF-8 characters (like special currency symbols) can cause parsing issues."
+            },
+            "validate": {
+                "title": "✓ Validate YAML After Converting",
+                "desc": "Always paste the converted YAML into a validator to ensure correct structure before using it in configuration files."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Does the converter handle quoted CSV fields?",
+            "a1": "Yes — the parser correctly handles RFC 4180 CSV format including fields quoted with double quotes and escaped quotes (\"\"  inside quoted fields). Commas inside quoted fields are not treated as delimiters.",
+            "q2": "How are numbers and booleans handled?",
+            "a2": "The converter infers types: values that are valid numbers are converted to YAML numbers (not quoted strings), and true/false values become YAML booleans. Strings remain quoted.",
+            "q3": "Can I convert TSV (tab-separated) data?",
+            "a3": "This tool expects comma-separated CSV. For tab-separated data, replace tabs with commas first (most text editors have find & replace with regex support for this).",
+            "q4": "How do I convert the YAML back to CSV if needed?",
+            "a4": "The reverse direction (YAML to CSV) requires knowing the structure upfront. For a flat list of objects with consistent keys, you can manually extract the keys as CSV headers and map each YAML item to a row."
+        }
+    }
+}

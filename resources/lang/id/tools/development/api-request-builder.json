@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Pembuat Permintaan API Online - HTTP Client Gratis | Optimizo",
+        "description": "Buat dan kirim permintaan HTTP API secara online dan gratis. Mendukung GET, POST, PUT, PATCH, DELETE dengan header khusus, request body, dan parameter kueri.",
+        "h1": "Pembuat Permintaan API",
+        "subtitle": "Buat, kirim, dan periksa permintaan HTTP API — HTTP client ringan langsung di browser"
+    },
+    "editor": {
+        "title": "Pembuat Permintaan API",
+        "btn_send": "Kirim Permintaan",
+        "tab_headers": "Header",
+        "tab_body": "Body",
+        "tab_params": "Parameter",
+        "btn_add_header": "Tambah Header",
+        "btn_add_param": "Tambah Parameter",
+        "label_response": "Respons",
+        "btn_copy_response": "Salin Respons"
+    },
+    "content": {
+        "why_title": "Mengapa menggunakan pembuat permintaan API?",
+        "why_desc": "Menguji REST API biasanya memerlukan instalasi Postman, Insomnia, atau menulis perintah curl. HTTP client berbasis browser kami tidak memerlukan instalasi — buka dan kirim permintaan langsung.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Semua Metode HTTP",
+                "desc": "Mendukung GET, POST, PUT, PATCH, DELETE dengan header khusus dan body JSON/form"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Respons yang Diformat",
+                "desc": "Body respons otomatis ditampilkan dengan indentasi; kode status dan waktu respons terlihat jelas"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Siap Digunakan Langsung",
+                "desc": "Tidak perlu instalasi — sepenuhnya berjalan di browser, tanpa akun atau plugin"
+            }
+        },
+        "how_title": "Kirim permintaan API dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Masukkan URL dan metode",
+                "desc": "Masukkan URL endpoint API dan pilih metode HTTP (GET, POST, dll.)"
+            },
+            "2": {
+                "title": "Tambahkan header dan body",
+                "desc": "Tambahkan Authorization, Content-Type, dll. di tab 'Header'. Gunakan 'Body' untuk data POST/PUT."
+            },
+            "3": {
+                "title": "Kirim dan periksa",
+                "desc": "Klik 'Kirim'. Body respons, kode status, dan waktu ditampilkan di bawah."
+            }
+        },
+        "uses_title": "Kasus Penggunaan Pembuat Permintaan API",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "Debug API",
+                "desc": "Uji setiap endpoint dengan header dan body khusus untuk men-debug masalah autentikasi dan data"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Uji Token Autentikasi",
+                "desc": "Uji Bearer, Basic Auth, dan skema API key tanpa menulis kode"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "Jelajahi API",
+                "desc": "Jelajahi API publik (GitHub, OpenWeather, JSONPlaceholder) dan pahami responsnya"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Reproduksi Bug",
+                "desc": "Reproduksi dan dokumentasikan bug API dengan data permintaan dan respons yang tepat untuk laporan bug"
+            }
+        },
+        "tips_title": "Praktik Terbaik Pengujian API",
+        "tips": {
+            "headers": {
+                "title": "✓ Selalu atur Content-Type",
+                "desc": "Dengan body JSON, selalu sertakan Content-Type: application/json. Banyak API menolak atau salah menginterpretasikan permintaan tanpanya."
+            },
+            "cors": {
+                "title": "✓ Pahami batasan CORS",
+                "desc": "Browser memblokir permintaan lintas asal tanpa header CORS yang tepat. Gunakan curl atau proxy sisi server jika permintaan gagal di browser."
+            },
+            "auth": {
+                "title": "✓ Jangan hardcode API key",
+                "desc": "Gunakan variabel lingkungan dalam kode produksi. Alat ini untuk pengujian — jangan bagikan screenshot dengan API key asli."
+            },
+            "status": {
+                "title": "✓ Periksa kode status HTTP",
+                "desc": "200=OK, 201=Dibuat, 400=Permintaan Buruk, 401=Tidak Diizinkan, 403=Dilarang, 404=Tidak Ditemukan, 500=Kesalahan Server."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Mengapa permintaan lintas asal gagal?",
+            "a1": "Browser memberlakukan batasan CORS. Jika API target tidak memiliki header Access-Control-Allow-Origin, browser memblokir permintaan. Ini bukan bug — gunakan curl atau proxy backend untuk API tanpa CORS.",
+            "q2": "Bisakah saya mengirim permintaan multipart/form-data?",
+            "a2": "Pembuat saat ini mendukung body JSON dan teks. Untuk upload file dan permintaan form multi-bagian serupa, gunakan alat khusus seperti Postman.",
+            "q3": "Apakah ini alternatif untuk Postman?",
+            "a3": "Untuk pengujian cepat dan eksplorasi, ya. Untuk kolaborasi tim, koleksi tersimpan, lingkungan, dan pengujian otomatis, Postman atau Bruno menawarkan lebih banyak fungsionalitas.",
+            "q4": "Apa perbedaan antara PUT dan PATCH?",
+            "a4": "PUT menggantikan seluruh resource dengan body permintaan. PATCH menerapkan pembaruan parsial — hanya field dalam body yang berubah. Sebagian besar REST API menggunakan PATCH untuk pembaruan agar tidak menimpa field yang tidak berubah."
+        }
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "chmod-beregner Online - Linux-tilladelser Gratis | Optimizo",
+        "description": "Gratis online chmod-beregner. Konvertér Linux-filtilladelser mellem symbolsk notation (rwxr-xr-x) og oktal notation (755) og generér chmod-kommandoer.",
+        "h1": "chmod-beregner",
+        "subtitle": "Beregn Linux-tilladelser — konvertér symbolsk og oktal notation og generér chmod-kommandoer"
+    },
+    "editor": {
+        "title": "chmod Tilladelsesberegner",
+        "label_octal": "Oktal værdi",
+        "col_type": "Type",
+        "col_read": "Læse (r)",
+        "col_write": "Skrive (w)",
+        "col_exec": "Udføre (x)",
+        "col_octal": "Oktal",
+        "row_owner": "Ejer",
+        "row_group": "Gruppe",
+        "row_others": "Andre (alle)",
+        "btn_copy": "Kopiér kommando"
+    },
+    "content": {
+        "why_title": "Hvorfor bruge en chmod-beregner?",
+        "why_desc": "Linux-filtilladelser udtrykkes i symbolsk (rwxr-xr-x) og oktal (755) notation. Manuel beregning af den rigtige tilladelsesværdi er fejlbehæftet. Med vores beregner kan du visuelt vælge tilladelsestjekbokse og generere den oktale værdi og en brugbar chmod-kommando direkte.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Visuel tilladelsesbygger",
+                "desc": "Klik på læse/skrive/udføre-tjekbokse for ejer/gruppe/andre; værdier opdateres direkte"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Tosidig synkronisering",
+                "desc": "Indtast en oktal værdi (f.eks. 755) og tjekboksene opdateres automatisk, eller omvendt"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Klar til brug-kommando",
+                "desc": "Genererer en komplet chmod-kommando der kan indsættes direkte i terminalen"
+            }
+        },
+        "how_title": "Sådan beregner du tilladelser",
+        "how_steps": {
+            "1": {
+                "title": "Marker ønskede tilladelser",
+                "desc": "Klik på læse/skrive/udføre-tjekbokse for ejer, gruppe og andre"
+            },
+            "2": {
+                "title": "Tjek oktal og symbolsk",
+                "desc": "Den oktale værdi (f.eks. 755) og symbolsk notation (rwxr-xr-x) opdateres direkte"
+            },
+            "3": {
+                "title": "Kopiér kommandoen",
+                "desc": "Kopiér den genererede chmod-kommando og kør den i terminalen"
+            }
+        },
+        "uses_title": "Typiske chmod-scenarier",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Webserverfiler",
+                "desc": "Sæt 644 for HTML/CSS/JS-filer på Apache eller Nginx (ejer læse/skrive, gruppe/andre læse)"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Eksekverbare scripts",
+                "desc": "Sæt 755 for shell-scripts (ejer fuld adgang, gruppe/andre læse+udføre)"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "SSH-nøgler",
+                "desc": "SSH kræver 600 (kun ejer læse/skrive) for private nøgler"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Upload-mapper",
+                "desc": "Sæt 775 for webupload-mapper så serverprocessen kan skrive filer"
+            }
+        },
+        "tips_title": "Bedste praksis for Linux-tilladelser",
+        "tips": {
+            "never777": {
+                "title": "✓ Brug aldrig 777 i produktion",
+                "desc": "chmod 777 giver alle fuld adgang — alvorlig sikkerhedsrisiko."
+            },
+            "least": {
+                "title": "✓ Mindste privilegiets princip",
+                "desc": "Giv altid de mindst nødvendige tilladelser. Start restriktivt (600) og tilføj after behov."
+            },
+            "recursive": {
+                "title": "✓ Vær forsigtig med -R (rekursivt)",
+                "desc": "chmod -R anvender tilladelser rekursivt på alle filer og mapper."
+            },
+            "umask": {
+                "title": "✓ Forstå umask",
+                "desc": "umask-værdien trækker tilladelser fra standardværdien. umask 022 giver nye filer 644 og nye mapper 755."
+            }
+        },
+        "faq_title": "❓ Ofte stillede spørgsmål",
+        "faq": {
+            "q1": "Hvad betyder chmod 755?",
+            "a1": "755 betyder: ejer(7)=læse+skrive+udføre, gruppe(5)=læse+udføre, andre(5)=læse+udføre. Standardtilladelser for eksekverbare filer og offentlige mapper.",
+            "q2": "Hvad er forskellen mellem 644 og 755?",
+            "a2": "644 (rw-r--r--): ejer læse/skrive, andre kun læse — for normale filer. 755 (rwxr-xr-x): ejer kan også udføre — for scripts og mapper.",
+            "q3": "Hvorfor kræver SSH-nøgler tilladelse 600?",
+            "a3": "SSH afviser brug af private nøgler som andre kan tilgå. 600 (rw-------) sikrer at kun ejeren kan læse og skrive nøglen.",
+            "q4": "Hvad betyder udføre-biten på en mappe?",
+            "a4": "Udføre-biten på en mappe betyder 'gennemgang' — at brugeren kan gå ind i mappen og tilgå filer deri. Uden udføre-tilladelse kan brugeren ikke gå ind i mappen."
+        }
+    }
+}

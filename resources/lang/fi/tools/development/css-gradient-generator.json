@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "CSS Liukuvärigeneraattori Verkossa - Luo Ilmaiseksi | Optimizo",
+        "description": "Luo CSS-liukuvärejä verkossa ilmaiseksi. Luo lineaarisia, säteittäisiä ja kartiomaisia liukuvärejä useilla väripysäkeillä ja kulmanhallinnalla sekä välittömällä CSS-viennillä.",
+        "h1": "CSS Liukuvärigeneraattori",
+        "subtitle": "Luo kauniita lineaarisia, säteittäisiä ja kartiomaisia liukuvärejä reaaliaikaisella esikatselulla ja CSS-viennillä"
+    },
+    "editor": {
+        "title": "CSS Liukuvärigeneraattori",
+        "label_type": "Liukuvärityyppi",
+        "label_angle": "Kulma",
+        "label_stops": "Väripysäkit",
+        "btn_add_stop": "Lisää pysäkki",
+        "btn_copy": "Kopioi CSS"
+    },
+    "content": {
+        "why_title": "Miksi käyttää visuaalista liukuvärigeneraattoria?",
+        "why_desc": "CSS-liukuväreinten kirjoittaminen käsin on hankalaa. Visuaalisella generaattorilla voit hallita väripysäkkejä värinvalitsimella ja sijaintiliukusäätimillä reaaliaikaisella päivityksellä.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 liukuvärityyppiä",
+                "desc": "Lineaarinen, säteittäinen ja kartiomainen liukuväri — jokaiselle tyypille omat hallintaelementit"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Moniväriset liukuvärit",
+                "desc": "Lisää rajaton määrä väripysäkkejä ja vedä positioita monimutkaisia liukuvärejä varten"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Reaaliaikainen esikatselu",
+                "desc": "Näe liukuvärin renderöinti reaaliajassa kun säädät värejä, sijainteja ja kulmaa"
+            }
+        },
+        "how_title": "CSS-liukuvärin luominen 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Valitse liukuvärityyppi",
+                "desc": "Valitse lineaarinen, säteittäinen tai kartiomainen liukuväri ja säädä kulma tai suunta"
+            },
+            "2": {
+                "title": "Säädä väripysäkkejä",
+                "desc": "Aseta kunkin pysäkin väri värinvalitsimella ja asemoi liukusäätimillä"
+            },
+            "3": {
+                "title": "Kopioi CSS",
+                "desc": "Napsauta 'Kopioi CSS' saadaksesi täydellinen background-ominaisuus käytettäväksi tyylitiedostossasi"
+            }
+        },
+        "uses_title": "CSS-liukuväreinten käyttötapaukset",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Hero-osion taustat",
+                "desc": "Luo vaikuttavia koko näytön taustoja diagonaalisilla tai säteittäisillä liukuväreinteillä"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Liukuvärinen teksti",
+                "desc": "Käytä liukuväriä tekstiin background-clip:text -ominaisuudella upeita tekstitehosteita varten"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Liukuväriset reunat",
+                "desc": "Käytä liukuväriä border-image -ominaisuuden kanssa luodaksesi värikkäitä kehyksiä elementeille"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Kuvan peitto",
+                "desc": "Aseta liukuväri kuvien päälle tumman peiton luomiseksi tekstin luettavuuden varmistamiseksi"
+            }
+        },
+        "tips_title": "CSS-liukuväreinten parhaat käytännöt",
+        "tips": {
+            "angle": {
+                "title": "✓ Käytä 135deg diagonaalisille liukuväreinteille",
+                "desc": "135 asteen kulma luo klassisen diagonaalin vasemmasta yläkulmasta oikeaan alakulmaan."
+            },
+            "subtle": {
+                "title": "✓ Pidä liukuvärit hienovaraisina käyttöliittymässä",
+                "desc": "Käyttöliittymäelementeissä, kuten painikkeissa ja korteissa, käytä hyvin hienovaraisia liukuvärejä 10-20% kirkkauserolla syvyyttä varten."
+            },
+            "fallback": {
+                "title": "✓ Määritä varaväri",
+                "desc": "Lisää tasainen taustaväri varaväriksi ennen liukuväriä: background-color:#6366f1; background:linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Animoi liukuvärin sijaintia",
+                "desc": "Et voi animoida CSS-liukuvärejä suoraan, mutta voit animoida background-position -ominaisuutta suuremmalla liukuvärillä sileää liikettä varten."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mikä on ero lineaarisen, säteittäisen ja kartiomaisen liukuvärin välillä?",
+            "a1": "Lineaarinen liukuväri siirtyy suoraa viivaa pitkin kulmassa. Säteittäinen säteilee keskipisteestä ympyränä tai ellipsinä. Kartiomainen kiertää keskipistettä — ihanteellinen pyöreille edistymisindikaattoreille.",
+            "q2": "Miten luodaan läpinäkyvä liukuväri?",
+            "a2": "Käytä transparent väripysäkinä: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Se luo liukuvärin puoliläpinäkyvästä väristä täysin läpinäkyvään — ihanteellinen kuvapeittoon.",
+            "q3": "Miksi näen raidoitusta liukuvärissäni?",
+            "a3": "Raidoitus (näkyvät viivat värien välillä) syntyy heikkolaatuisilla näytöillä tai siirtymissä samankaltaisten sävyjen välillä. Lisää välipysäkki siirtymän pehmentämiseksi.",
+            "q4": "Voiko liukuväriä käyttää reunana?",
+            "a4": "Kyllä; käytä border-image:linear-gradient(...) 1 -ominaisuutta. Vaihtoehtoisesti voit käyttää ::before pseudo-elementtiä, jossa on liukuvärinen tausta ja negatiivinen z-index liukuvärisenreunauksen simuloimiseksi."
+        }
+    }
+}

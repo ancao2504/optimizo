@@ -1,0 +1,94 @@
+{
+    "meta": {
+        "title": "在线 JSON 转 TOML 转换器 - JavaScript 对象转配置文件 | Optimizo",
+        "description": "免费的在线 JSON 转 TOML 转换器。将标准 JSON 数据或配置对象，一键转换为具有高人类可读性的 TOML 格式，生成完全兼容 Rust Cargo 或 Python pyproject 的配置文件。",
+        "h1": "JSON 转 TOML 格式转换器",
+        "subtitle": "将 JSON 配置数据快速转化为语法清晰、易于手动维护的 TOML 格式"
+    },
+    "editor": {
+        "title": "JSON 到 TOML 转换台",
+        "label_input": "粘贴您的 JSON 数据",
+        "ph_input": "{\n  \"package\": {\n    \"name\": \"my-app\",\n    \"version\": \"0.1.0\",\n    \"edition\": \"2021\"\n  },\n  \"dependencies\": {\n    \"serde\": \"1.0\",\n    \"tokio\": \"1.0\"\n  },\n  \"profile\": {\n    \"release\": {\n      \"opt-level\": 3\n    }\n  }\n}",
+        "btn_convert": "转换为 TOML",
+        "label_output": "生成的 TOML 配置",
+        "btn_copy": "复制 TOML 代码"
+    },
+    "content": {
+        "why_title": "为什么开发者需要将 JSON 转换为 TOML 格式？",
+        "why_desc": "随着 Rust 生态系统的爆炸式增长以及 Python 社区全面迁移至 `pyproject.toml`，TOML 作为一种更具可读性的配置文件格式正变得越来越流行。如果您在 CI/CD 系统或代码生成脚本中动态生成了 JSON 格式的配置参数，并需要将其转写为人类可维护的 TOML 文件，手动转换是一场噩梦——特别是有多层嵌套对象时。这个工具精确处理所有类型映射，让您能够快速生成符合真实项目规范的 TOML 输出。",
+        "features": {
+            "sections": {
+                "icon": "📂",
+                "title": "JSON 嵌套对象精确映射为 TOML Section",
+                "desc": "JSON 中的嵌套对象（如 `{\"package\": {...}}`）会被转换为对应的 TOML `[package]` section 格式，保留完整的层次结构。"
+            },
+            "arrays": {
+                "icon": "📋",
+                "title": "数组映射为 TOML 表数组",
+                "desc": "JSON 对象数组（如依赖列表）会依照 TOML 规范转换为 `[[table_name]]` 语法，保持语义的完整准确。"
+            },
+            "types": {
+                "icon": "🔢",
+                "title": "数据类型精确保留",
+                "desc": "整数、浮点数、布尔值 (`true`/`false`) 和字符串在转换后均以 TOML 的原生类型形式输出，不会错误地括号化数字。"
+            }
+        },
+        "how_title": "三步完成从 JSON 到 TOML 的无缝迁移",
+        "how_steps": {
+            "1": {
+                "title": "粘贴 JSON 源数据",
+                "desc": "将您的 JSON 配置片段或完整对象复制粘贴至左侧输入框中，支持单层和多层嵌套结构。"
+            },
+            "2": {
+                "title": "点击转换",
+                "desc": "单击"转换为 TOML"按钮，引擎会自动完成所有 section 映射、类型推断并生成格式规范的 TOML 输出。"
+            },
+            "3": {
+                "title": "复制并写入配置文件",
+                "desc": "将右侧生成的 TOML 代码直接粘贴进您的 `Cargo.toml`、`pyproject.toml` 或自定义配置文件中使用。"
+            }
+        },
+        "uses_title": "JSON 转 TOML 的典型应用场景",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "生成 Rust Cargo.toml 依赖配置",
+                "desc": "当您从 npm 或其他生态的 JSON 包描述文件迁移依赖关系到 Rust 项目时，可利用此转换器快速生成 `Cargo.toml` 初始模板。"
+            },
+            "codegen": {
+                "icon": "⚙️",
+                "title": "配置驱动的代码生成流水线",
+                "desc": "许多脚手架工具和代码生成器以 JSON 格式产出配置，若目标项目工具链以 TOML 为标准，此工具则是流水线中不可或缺的一环。"
+            },
+            "python": {
+                "icon": "🐍",
+                "title": "创建 Python pyproject.toml 配置",
+                "desc": "从现有的 `setup.json` 或其他 JSON 元数据文件快速生成 `pyproject.toml` 的基础结构，以完成向 PEP 517 现代构建系统的迁移。"
+            },
+            "config": {
+                "icon": "📝",
+                "title": "将应用 JSON 配置转为可维护的 TOML",
+                "desc": "相比 JSON，TOML 支持注释，且嵌套层级在视觉上更直观。将运行时 JSON 配置转换为 TOML，便于团队长期手动维护。"
+            }
+        },
+        "tips_title": "TOML 与 JSON 的关键语法差异提示",
+        "tips": {
+            "comments": {
+                "title": "✓ TOML 支持注释，JSON 不支持",
+                "desc": "转换完成后，您可以在 TOML 文件中随时用 `#` 符号添加注释来解释各项参数的含义——这是 JSON 格式永远无法做到的优势，也是 TOML 在配置文件领域受到广泛欢迎的核心原因之一。"
+            },
+            "strings": {
+                "title": "✓ TOML 中的多行字符串",
+                "desc": "如果 JSON 字符串中包含换行符（`\\n`），转换后的 TOML 将使用三重引号 `\"\"\"` 多行字符串格式，以保留原始的换行内容结构。"
+            },
+            "null": {
+                "title": "✓ TOML 不存在 null 类型",
+                "desc": "TOML 规范中没有对应 JSON 的 `null` 值类型。如果您的 JSON 中含有 `null` 字段，转换器会将其以空字符串 `\"\"` 表示，请在使用前手动根据业务逻辑进行调整。"
+            },
+            "keys": {
+                "title": "✓ 含有特殊字符的键名需用引号",
+                "desc": "TOML 规范要求包含短横线（如 `opt-level`）或空格的键名必须用引号包裹（`\"opt-level\"`）。转换器已自动处理这一情况，请在检查输出时注意核实。"
+            }
+        }
+    }
+}

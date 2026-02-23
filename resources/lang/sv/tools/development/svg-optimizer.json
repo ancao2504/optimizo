@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "SVG-optimerare Online - Komprimera SVG Gratis | Optimizo",
+        "description": "Optimera och komprimera SVG-filer online gratis. Ta bort kommentarer, metadata och onödiga attribut för att minska filstorleken med bibehållen visuell kvalitet.",
+        "h1": "SVG-optimerare",
+        "subtitle": "Komprimera SVG-filer online — ta bort metadata, kommentarer och onödiga attribut för att minska filstorleken"
+    },
+    "editor": {
+        "title": "SVG-optimerare",
+        "opt_remove_comments": "Ta bort kommentarer",
+        "opt_remove_metadata": "Ta bort metadata",
+        "opt_remove_ids": "Ta bort ID:n",
+        "opt_remove_dimensions": "Ta bort bredd/höjd",
+        "opt_remove_doctype": "Ta bort DOCTYPE",
+        "opt_round_numbers": "Runda siffror",
+        "opt_collapse_groups": "Ta bort tomma grupper",
+        "opt_remove_empty_containers": "Ta bort tomma behållare",
+        "label_input": "SVG-indata",
+        "ph_input": "Klistra in din SVG-kod här...",
+        "btn_optimize": "Optimera SVG",
+        "label_output": "Optimerad SVG",
+        "btn_copy": "Kopiera SVG"
+    },
+    "content": {
+        "why_title": "Varför optimera SVG-filer?",
+        "why_desc": "SVG-filer exporterade från Illustrator, Figma och Inkscape innehåller mycket onödig data — kommentarer, redigeringsmetadata, redundanta attribut, alltför hög decimalprécision och tomma behållare. Efter optimering kan filstorleken minska med 30-70 % och laddningen bli snabbare.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 optimeringsstrategier",
+                "desc": "Aktivera/inaktivera varje optimeringspassage oberoende för detaljkontroll"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Statistik för storleksminskning",
+                "desc": "Se ursprunglig storlek, optimerad storlek och besparingsprocent efter varje optimering"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Förlustfri optimering",
+                "desc": "Alla optimeringar bevarar SVG:ns visuella utseende — tar bara bort osynlig metadata"
+            }
+        },
+        "how_title": "Optimera SVG i 3 steg",
+        "how_steps": {
+            "1": {
+                "title": "Klistra in SVG-kod",
+                "desc": "Kopiera SVG-källkoden från ett designverktyg eller en fil och klistra in den i inmatningsfältet"
+            },
+            "2": {
+                "title": "Välj optimeringar",
+                "desc": "Markera de optimeringsalternativ du vill tillämpa — standardinställningarna ger maximal minskning"
+            },
+            "3": {
+                "title": "Kopiera och använd",
+                "desc": "Kopiera den optimerade SVG:n och ersätt originalfilen eller bädda in den direkt i HTML"
+            }
+        },
+        "uses_title": "Användningsområden för SVG-optimering",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Ikonbibliotek",
+                "desc": "Optimera ikonuppsättningar exporterade från Figma eller Illustrator innan de läggs till i biblioteket"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Logotyper",
+                "desc": "Rensa SVG-logotyper för webbplatsheaders, favicons och varumärkestillgångar"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "Animerade SVG:er",
+                "desc": "Minska basstorleken på animerade SVG:er som redan är stora på grund av animationsdata"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA och mobila enheter",
+                "desc": "Mindre SVG:er minskar mobil dataförbrukning och förbättrar Lighthouse-prestanda"
+            }
+        },
+        "tips_title": "Bästa praxis för SVG-optimering",
+        "tips": {
+            "ids": {
+                "title": "✓ Var försiktig med att ta bort ID:n med CSS-animationer",
+                "desc": "Om SVG:n använder CSS- eller JS-animationer med ID-element som mål, avmarkera 'Ta bort ID:n' så att animationerna inte bryts."
+            },
+            "viewbox": {
+                "title": "✓ Behåll viewBox, ta bort bredd/höjd",
+                "desc": "Att ta bort bredd/höjd-attributen och bara behålla viewBox gör att SVG:n kan skalas responsivt via CSS."
+            },
+            "precision": {
+                "title": "✓ Runda siffror till 2 decimaler",
+                "desc": "Vägkoordinater med fler än 5 decimaler är visuellt oskiljbara. Att runda till 2 gör filen mindre utan synlig skillnad."
+            },
+            "pipeline": {
+                "title": "✓ Automatisera SVGO i CI/CD",
+                "desc": "I stora projekt, integrera SVGO i byggpipeline för att automatiskt optimera alla SVG:er. Använd det här verktyget för snabb manuell kontroll."
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Hur mycket kan SVG-optimering minska filstorleken?",
+            "a1": "Vanligtvis 30-70 % besparing beroende på källan. Illustrator-SVG:er uppvisar ofta störst besparing; Figma-exporter är redan relativt rena.",
+            "q2": "Ändrar optimering SVG:ns utseende?",
+            "a2": "Nej — alla optimeringar i det här verktyget tar bara bort osynlig data eller rundar siffror med omärklig precision. Det visuella resultatet är identiskt med originalet.",
+            "q3": "Varför tar man bort bredd- och höjdattributen?",
+            "a3": "Hårdkodade bredd/höjd-värden hindrar SVG:n från att skalas responsivt via CSS. Att ta bort dem och bara behålla viewBox ger full storlekskontroll via CSS-egenskaper.",
+            "q4": "Vad är skillnaden mellan det här verktyget och SVGO?",
+            "a4": "SVGO är ett Node.js-kommandoradsverktyg som är standard för SVG-optimering. Det här verktyget ger ett bekvämt webbläsargränssnitt för de vanligaste optimeringarna utan att installera Node.js."
+        }
+    }
+}

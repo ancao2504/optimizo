@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Generator CSS Flexbox Online - Wizualny kreator układu | Optimizo",
+        "description": "Generuj układy CSS Flexbox wizualnie online za darmo. Ustaw kierunek, justify-content, align-items i odstęp z podglądem na żywo i natychmiastowym eksportem CSS.",
+        "h1": "Generator CSS Flexbox",
+        "subtitle": "Buduj układy CSS Flexbox wizualnie — konfiguruj wszystkie właściwości z podglądem na żywo"
+    },
+    "editor": {
+        "title": "Generator Flexbox",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Odstęp (gap)",
+        "label_items": "Liczba elementów",
+        "label_preview": "Podgląd na żywo",
+        "btn_copy": "Kopiuj CSS"
+    },
+    "content": {
+        "why_title": "Dlaczego używać wizualnego generatora Flexbox?",
+        "why_desc": "CSS Flexbox ma wiele właściwości, które ze sobą współdziałają — flex-direction, justify-content, align-items, align-content, flex-wrap — i ich interakcje mogą być mylące. Nasz wizualny generator pozwala regulować każdą właściwość za pomocą listy rozwijanej i widzieć układ aktualizujący się w czasie rzeczywistym, co czyni go najszybszym sposobem na naukę Flexbox i budowanie układów bez wielokrotnych prób.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Podgląd na żywo",
+                "desc": "Widzisz dokładnie, jak zachowuje się Twój układ Flexbox przy każdej zmianie właściwości — bez domysłów"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Wszystkie właściwości objęte",
+                "desc": "Obejmuje flex-direction, justify-content, align-items, flex-wrap i gap w jednym interfejsie"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Gotowy CSS do użycia",
+                "desc": "Kopiuje czysty blok .container {} gotowy do wklejenia w arkuszu stylów"
+            }
+        },
+        "how_title": "Jak tworzyć układy Flexbox",
+        "how_steps": {
+            "1": {
+                "title": "Ustaw kierunek i zawijanie",
+                "desc": "Wybierz flex-direction (wiersz/kolumna) i flex-wrap, aby kontrolować główną oś i przepełnienie"
+            },
+            "2": {
+                "title": "Wyrównaj elementy",
+                "desc": "Ustaw justify-content i align-items, aby kontrolować rozkład i wyrównanie elementów"
+            },
+            "3": {
+                "title": "Skopiuj CSS",
+                "desc": "Kliknij 'Kopiuj CSS' dla pełnego bloku CSS .container gotowego dla Twojego projektu"
+            }
+        },
+        "uses_title": "Przypadki użycia Flexbox",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Paski nawigacyjne",
+                "desc": "Flexbox jest idealny dla poziomych pasków nawigacyjnych — użyj justify-content: space-between dla logo + linki"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Siatki kart",
+                "desc": "Użyj flex-wrap: wrap ze stałą podstawą flex dla responsywnych siatek kart, które dostosowują się na telefonach"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Idealne wyśrodkowanie",
+                "desc": "justify-content: center + align-items: center to najprostszy sposób wyśrodkowania dowolnego elementu"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Układy formularzy",
+                "desc": "Wyrównaj etykiety i pola formularza poziomo lub pionowo za pomocą Flexbox dla czystych formularzy"
+            }
+        },
+        "tips_title": "Najlepsze praktyki Flexbox",
+        "tips": {
+            "axis": {
+                "title": "✓ Zrozum oś główną vs poprzeczną",
+                "desc": "justify-content steruje osią główną (wiersz = pozioma). align-items steruje osią poprzeczną. Role te odwracają się przy flex-direction: column."
+            },
+            "grow": {
+                "title": "✓ Używaj flex: 1 dla elastycznych elementów",
+                "desc": "Dodanie flex: 1 do elementu flex pozwala mu rosnąć, aby wypełnić dostępną przestrzeń. Połącz z min-width: 0, aby zapobiec przepełnieniu."
+            },
+            "gap": {
+                "title": "✓ Używaj gap zamiast marginesów",
+                "desc": "Właściwość gap tworzy spójne odstępy między elementami flex bez dodawania marginesów do zewnętrznych krawędzi — znacznie czystsze."
+            },
+            "grid": {
+                "title": "✓ Używaj Grid do układów 2D",
+                "desc": "Flexbox steruje jedną osią naraz (wiersz LUB kolumna). W przypadku siatek 2D, gdzie potrzebujesz kontrolować wiersze i kolumny jednocześnie, użyj CSS Grid."
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Kiedy używać Flexbox zamiast CSS Grid?",
+            "a1": "Flexbox jest idealny dla układów 1D — rozkładanie elementów wzdłuż pojedynczego wiersza lub kolumny (paski nawigacyjne, grupy przycisków, wiersze formularzy). CSS Grid wyróżnia się w układach 2D, gdzie kontrolujesz wiersze i kolumny jednocześnie.",
+            "q2": "Co robi flex-wrap: wrap?",
+            "a2": "Domyślnie elementy flex są wymuszane w jednym wierszu, nawet jeśli przepełniają. flex-wrap: wrap pozwala elementom przechodzić do następnego wiersza gdy przepełniają — niezbędne dla responsywnych układów.",
+            "q3": "Jaka jest różnica między align-items a align-content?",
+            "a3": "align-items wyrównuje elementy flex w jednej linii (oś poprzeczna). align-content ma zastosowanie tylko gdy jest wiele linii (flex-wrap: wrap) i kontroluje rozkład tych linii w kontenerze.",
+            "q4": "Jak tworzyć kolumny o równej szerokości z Flexbox?",
+            "a4": "Zastosuj flex: 1 na każdym dziecku flex. Pozwala to im rosnąć równomiernie, aby wypełnić dostępną przestrzeń. Użyj flex: 0 0 33.33% dla dokładnie 3 równych kolumn niezależnie od zawartości."
+        }
+    }
+}

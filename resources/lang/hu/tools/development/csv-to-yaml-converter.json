@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Online CSV YAML-lá Konvertáló - Ingyen | Optimizo",
+        "description": "CSV fájlok YAML formátummá konvertálása online, ingyen. Automatikusan használja a CSV fejléceket YAML kulcsokként és generáljon helyesen behúzott YAML-t típusdetektálással.",
+        "h1": "CSV YAML-lá Konvertáló",
+        "subtitle": "CSV adatok YAML formátumra konvertálása — automatikus fejléc leképezés és típusdetektálás"
+    },
+    "editor": {
+        "title": "CSV YAML-lá Konvertáló",
+        "label_csv": "CSV bemenet",
+        "ph_csv": "név,kor,aktív\nAlice,30,true\nBob,25,false",
+        "label_yaml": "YAML kimenet",
+        "btn_copy": "YAML másolása"
+    },
+    "content": {
+        "why_title": "Miért konvertálja a CSV-t YAML-lá?",
+        "why_desc": "A CSV ideális táblázatos adatok táblázatkezelőkben való tárolásához, de a YAML a konfigurációs fájlok, tesztelési segédletek és DevOps eszközök szabványa. A táblázatos processzor adatainak Kubernetes ConfigMaps-ekké, Ansible változó fájlokká vagy Hugo adatfájlokká konvertálása megszünteti a fájdalmas újraformázást.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Automatikus konverzió",
+                "desc": "Valós időben YAML-lá konvertálja a CSV-t gépelés közben — nem kell gombra kattintani"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Fejléc alapú kulcsok",
+                "desc": "A CSV fejlécek automatikusan YAML kulcsokká konvertálódnak a kimeneti listában lévő minden objektumhoz"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Típusdetektálás",
+                "desc": "A számokat és a logikai értékeket (true/false) automatikusan a megfelelő YAML típussá konvertálja"
+            }
+        },
+        "how_title": "CSV YAML-lá konvertálás 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "CSV adatok beillesztése",
+                "desc": "Illessze be a fejléc sorral rendelkező CSV-t — az első sor határozza meg a YAML kulcsokat"
+            },
+            "2": {
+                "title": "Azonnali konverzió",
+                "desc": "A YAML kimenet azonnal megjelenik, minden CSV sorral mint YAML lista elemmel"
+            },
+            "3": {
+                "title": "YAML másolása",
+                "desc": "Másolja a konvertált YAML-t és illessze be konfigurációs fájlokba vagy tesztelési segédletekbe"
+            }
+        },
+        "uses_title": "CSV YAML-lá konvertáló felhasználási esetek",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Tesztelési segédletek",
+                "desc": "Konvertálja a táblázatkezelőkből származó tesztadatokat YAML segédletekké RSpec, PHPUnit, PyTest számára"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Konfigurációs adatok",
+                "desc": "Csapat vagy környezeti adatok konvertálása Ansible változókká vagy Kubernetes ConfigMaps-ekké"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Seed adatok",
+                "desc": "CSV keresési táblák konvertálása YAML seed fájlokká Rails, Laravel, Django számára"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "API tesztadatok",
+                "desc": "Táblázatkezelőkből származó példák konvertálása YAML-lá API mock eszközökhöz mint WireMock vagy Mirage"
+            }
+        },
+        "tips_title": "CVS-ről YAML-ra konvertálás legjobb gyakorlatai",
+        "tips": {
+            "headers": {
+                "title": "✓ Konzisztens, tiszta fejlécneveket használjon",
+                "desc": "A CSV fejlécek YAML kulcsokká válnak — következetesen használjon snake_case-t vagy camelCase-t, és kerülje a szóközöket."
+            },
+            "quotes": {
+                "title": "✓ Speciális karaktereket tartalmazó értékeket idézőjelbe tegye",
+                "desc": "A vesszőket vagy idézőjeleket tartalmazó értékeket dupla idézőjelbe kell foglalni a CSV-ben."
+            },
+            "encoding": {
+                "title": "✓ UTF-8 kódolást használjon",
+                "desc": "Győződjön meg arról, hogy a CSV fájl UTF-8 kódolású konvertálás előtt."
+            },
+            "validate": {
+                "title": "✓ Validálja a YAML-t konvertálás után",
+                "desc": "Mindig illessze be a konvertált YAML-t egy validátorba a helyes struktúra ellenőrzéséhez konfigurációs fájlokban való felhasználás előtt."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Kezeli a konvertáló az idézőjeles CSV mezőket?",
+            "a1": "Igen — az elemző helyesen kezeli az RFC 4180 CSV formátumot (beleértve a dupla idézőjelbe foglalt mezőket). Az idézőjeles mezőkben lévő vesszőket nem tekinti elválasztóknak.",
+            "q2": "Hogyan kezeli a számokat és logikai értékeket?",
+            "a2": "A konvertáló típusokat detectál: Az érvényes számok YAML számokká konvertálódnak; a true/false értékek YAML logikai értékekké. A karakterláncok karakterláncok maradnak.",
+            "q3": "Konvertálhatok TSV (tabulátorral elválasztott) adatokat?",
+            "a3": "Ez az eszköz vesszővel elválasztott CSV-t vár. Tabulátorral elválasztott adatokhoz cserélje a tabulátorokat vesszőre.",
+            "q4": "Hogyan konvertálhatom vissza a YAML-t CSV-vé ha szükséges?",
+            "a4": "A visszafelé irány (YAML-ból CSV-be) a struktúra előzetes ismeretét igényli. Konzisztens kulcsokkal rendelkező objektumok lapos listáihoz manuálisan kinyerheti a kulcsokat CSV fejlécként és leképezheti az egyes YAML objektumokat sorként."
+        }
+    }
+}

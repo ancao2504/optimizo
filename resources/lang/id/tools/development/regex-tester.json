@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Regex Tester Online - Uji Ekspresi Reguler Gratis | Optimizo",
+        "description": "Uji ekspresi reguler (Regex) secara online dan gratis. Sorotan hasil cocok real-time, dukungan flag, dan detail grup tangkap.",
+        "h1": "Regex Tester",
+        "subtitle": "Uji pola Regex secara real-time — sorotan hasil cocok, flag, dan detail grup tangkap"
+    },
+    "editor": {
+        "title": "Regex Tester",
+        "label_pattern": "Pola (Regex)",
+        "ph_pattern": "Contoh: \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Flag",
+        "label_test": "Teks Uji",
+        "ph_test": "Tempel teks yang ingin diuji...",
+        "btn_test": "Uji",
+        "btn_clear": "Hapus"
+    },
+    "content": {
+        "why_title": "Mengapa menggunakan alat uji Regex?",
+        "why_desc": "Ekspresi reguler adalah alat pencocokan pola yang kuat yang digunakan di hampir semua bahasa pemrograman. Debugging bisa rumit — satu kesalahan kecil dapat mengubah perilaku sepenuhnya. Alat kami menyorot hasil cocok secara real-time di setiap ketukan tombol.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Sorotan Real-time",
+                "desc": "Hasil cocok disorot secara langsung di setiap ketukan tombol — tidak perlu mengklik tombol"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Detail Grup Tangkap",
+                "desc": "Menampilkan semua grup tangkap, indeks, dan nilai yang cocok untuk setiap hasil"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Dukungan Flag Lengkap",
+                "desc": "Aktifkan flag g, i, m, s, u, y secara individual dan lihat dampaknya secara langsung"
+            }
+        },
+        "how_title": "Uji Regex dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Masukkan Pola",
+                "desc": "Ketik ekspresi reguler di field pola (tanpa garis miring)"
+            },
+            "2": {
+                "title": "Pilih flag",
+                "desc": "Aktifkan flag seperti g (global), i (tidak case-sensitive), m (multiline) sesuai kebutuhan"
+            },
+            "3": {
+                "title": "Tempel teks uji",
+                "desc": "Masukkan teks dan hasil cocok akan disorot secara otomatis"
+            }
+        },
+        "uses_title": "Skenario Regex Yang Sering Digunakan",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Validasi Form",
+                "desc": "Validasi alamat email, nomor telepon, URL, kode pos, dan format kustom"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Cari dan Ganti",
+                "desc": "Cari dan ganti pola di editor kode, file log, dan alur pemrosesan teks"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Parsing Log",
+                "desc": "Ekstrak data terstruktur (IP, stempel waktu, kode kesalahan) dari log tidak terstruktur"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Sanitasi Input",
+                "desc": "Hapus atau ganti karakter berbahaya dari data pengguna sebelum disimpan"
+            }
+        },
+        "tips_title": "Praktik Terbaik Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Gunakan jangkar untuk pencocokan tepat",
+                "desc": "Gunakan ^ dan $ untuk menjangkar pola ke awal dan akhir baris"
+            },
+            "groups": {
+                "title": "✓ Prioritaskan grup non-tangkap",
+                "desc": "Gunakan (?:...) daripada (...) jika tidak perlu menangkap grup"
+            },
+            "escape": {
+                "title": "✓ Escape karakter khusus",
+                "desc": ". * + ? ( ) [ ] { } | ^ $ \\ memiliki makna khusus — gunakan \\ untuk pencocokan literalnya"
+            },
+            "test": {
+                "title": "✓ Uji kasus tepi",
+                "desc": "Selalu uji dengan string kosong, karakter Unicode, input sangat panjang, dan nilai batas"
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Dialek Regex apa yang digunakan oleh tester?",
+            "a1": "Mesin RegExp bawaan JavaScript (standar ECMAScript). Mendukung lookahead, lookbehind (ES2018+), grup tangkap bernama, dan properti Unicode.",
+            "q2": "Apa perbedaan antara flag g dan m?",
+            "a2": "Flag g (global) menemukan semua hasil cocok dalam string, bukan hanya yang pertama. Flag m (multiline) membuat ^ dan $ cocok dengan awal dan akhir setiap baris.",
+            "q3": "Bagaimana cara mencocokkan titik atau bintang secara literal?",
+            "a3": "Escape dengan backslash: \\. mencocokkan titik literal, \\* mencocokkan bintang literal.",
+            "q4": "Mengapa Regex saya mencocokkan lebih banyak teks dari yang diharapkan?",
+            "a4": "Anda mungkin menggunakan kuantifier serakah. * dan + secara default serakah — mencocokkan teks sebanyak mungkin. Tambahkan ? untuk perilaku malas: *? atau +? mencocokkan sesedikit mungkin."
+        }
+    }
+}

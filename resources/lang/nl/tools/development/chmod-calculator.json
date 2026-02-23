@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "chmod Calculator Online - Linux bestandsmachtigingen gratis | Optimizo",
+        "description": "Gratis online chmod-calculator. Converteer Linux-bestandsmachtigingen tussen symbolische (rwxr-xr-x) en octale (755) notatie en genereer chmod-opdrachten.",
+        "h1": "chmod Calculator",
+        "subtitle": "Bereken Linux-machtigingen — converteer tussen symbolische en octale notatie en genereer chmod-opdrachten"
+    },
+    "editor": {
+        "title": "chmod Machtigingscalculator",
+        "label_octal": "Octale waarde",
+        "col_type": "Type",
+        "col_read": "Lezen (r)",
+        "col_write": "Schrijven (w)",
+        "col_exec": "Uitvoeren (x)",
+        "col_octal": "Octaal",
+        "row_owner": "Eigenaar",
+        "row_group": "Groep",
+        "row_others": "Anderen (Wereld)",
+        "btn_copy": "Opdracht kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom een chmod-calculator gebruiken?",
+        "why_desc": "Linux-bestandsmachtigingen worden uitgedrukt in twee formaten — symbolisch (rwxr-xr-x) en octaal (755). Handmatig de juiste machtigingswaarde berekenen is foutgevoelig, vooral voor minder gebruikelijke machtigingssets. Onze calculator laat je visueel selectievakjes aanvinken om machtigingen in te stellen en genereert direct de octale waarde en de kant-en-klare chmod-opdracht.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Visuele machtigingsbouwer",
+                "desc": "Vink de selectievakjes lezen/schrijven/uitvoeren aan voor eigenaar/groep/anderen — waarden worden direct bijgewerkt"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Tweerichtingssynchronisatie",
+                "desc": "Voer een octale waarde in (zoals 755) en de selectievakjes worden automatisch bijgewerkt, of omgekeerd"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Kant-en-klare opdracht",
+                "desc": "Genereert de volledige chmod-opdracht om direct in je terminal te plakken"
+            }
+        },
+        "how_title": "Hoe machtigingen berekenen",
+        "how_steps": {
+            "1": {
+                "title": "Vink de gewenste machtigingen aan",
+                "desc": "Klik op de selectievakjes lezen/schrijven/uitvoeren voor Eigenaar, Groep en Anderen"
+            },
+            "2": {
+                "title": "Bekijk octaal en symbolisch",
+                "desc": "De octale waarde (bijv. 755) en de symbolische notatie (rwxr-xr-x) worden direct bijgewerkt"
+            },
+            "3": {
+                "title": "Kopieer de opdracht",
+                "desc": "Kopieer de gegenereerde chmod-opdracht en voer deze uit in je terminal"
+            }
+        },
+        "uses_title": "Veelvoorkomende chmod-scenario's",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Webserverbestanden",
+                "desc": "Stel 644 in voor HTML/CSS/JS-bestanden (eigenaar lezen/schrijven, groep/anderen alleen lezen) op Apache of Nginx"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Uitvoerbare scripts",
+                "desc": "Stel 755 in voor shellscripts (volledige eigenaar, groep/anderen lezen+uitvoeren) om ze uitvoerbaar te maken"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "SSH-sleutels",
+                "desc": "SSH vereist dat privésleutels machtiging 600 hebben (alleen eigenaar lezen/schrijven) anders weigert SSH ze te gebruiken"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Uploadmappen",
+                "desc": "Stel 775 in voor webuploadmappen zodat het webserverproces de geüploade bestanden kan schrijven"
+            }
+        },
+        "tips_title": "Best practices voor Linux-machtigingen",
+        "tips": {
+            "never777": {
+                "title": "✓ Gebruik nooit 777 in productie",
+                "desc": "chmod 777 geeft iedereen volledige lees-/schrijf-/uitvoertoegang — een ernstig beveiligingsrisico. Verleen altijd de minimale benodigde machtigingen."
+            },
+            "least": {
+                "title": "✓ Principe van minste privilege",
+                "desc": "Verleen altijd de minimale benodigde machtigingen. Begin restrictief (600) en voeg machtigingen toe wanneer nodig in plaats van open te beginnen."
+            },
+            "recursive": {
+                "title": "✓ Wees voorzichtig met -R recursief",
+                "desc": "chmod -R past machtigingen recursief toe op alle bestanden en mappen. Het instellen van uitvoeren op mappen is meestal correct, maar niet altijd voor bestanden."
+            },
+            "umask": {
+                "title": "✓ Begrijp umask",
+                "desc": "De umask-waarde trekt machtigingen af van de standaard. Een umask van 022 betekent dat nieuwe bestanden standaard 644 krijgen en nieuwe mappen 755."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Wat betekent chmod 755?",
+            "a1": "755 betekent: Eigenaar (7) = lezen+schrijven+uitvoeren, Groep (5) = lezen+uitvoeren, Anderen (5) = lezen+uitvoeren. Het is de standaardmachtiging voor uitvoerbare bestanden en openbare mappen.",
+            "q2": "Wat is het verschil tussen 644 en 755?",
+            "a2": "644 (rw-r--r--): Eigenaar kan lezen/schrijven, anderen kunnen alleen lezen — voor gewone bestanden. 755 (rwxr-xr-x): Eigenaar kan ook uitvoeren — voor scripts en mappen.",
+            "q3": "Waarom heeft mijn SSH-sleutel machtiging 600 nodig?",
+            "a3": "SSH weigert privésleutels te gebruiken die toegankelijk zijn voor andere gebruikers. Machtiging 600 (rw-------) zorgt ervoor dat alleen de eigenaar de sleutel kan lezen/schrijven, waardoor ongeautoriseerde toegang wordt voorkomen.",
+            "q4": "Wat betekent de uitvoerbit op een map?",
+            "a4": "Voor mappen betekent de uitvoerbit 'doorlopen' — het stelt gebruikers in staat de map te betreden en toegang te krijgen tot de bestanden erin. Zonder uitvoermachtiging op een map kunnen gebruikers er niet ingaan, zelfs niet met leesmachtiging."
+        }
+    }
+}

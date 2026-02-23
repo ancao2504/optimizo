@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "CSV에서 YAML로 변환 온라인 - 무료 도구 | Optimizo",
+        "description": "CSV 파일을 YAML 형식으로 온라인에서 무료 변환하세요. CSV 헤더를 자동으로 YAML 키로 사용하고 유형 추론으로 올바른 들여쓰기의 YAML 생성.",
+        "h1": "CSV에서 YAML로 변환기",
+        "subtitle": "CSV 데이터를 YAML 형식으로 변환 — 자동 헤더 매핑 및 유형 추론"
+    },
+    "editor": {
+        "title": "CSV에서 YAML로 변환기",
+        "label_csv": "CSV 입력",
+        "ph_csv": "이름,나이,활성\n알리스,30,true\n밥,25,false",
+        "label_yaml": "YAML 출력",
+        "btn_copy": "YAML 복사"
+    },
+    "content": {
+        "why_title": "왜 CSV를 YAML로 변환해야 하나요?",
+        "why_desc": "CSV는 스프레드시트의 표 형식 데이터 저장에 이상적이지만 YAML은 구성 파일, 테스트 픽스처, DevOps 도구의 표준입니다. 스프레드시트 데이터를 Kubernetes ConfigMaps, Ansible 변수 파일, Hugo 데이터 파일로 CSV→YAML 변환하면 번거로운 재형식화를 줄일 수 있습니다.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "자동 변환",
+                "desc": "입력하면서 실시간으로 CSV를 YAML로 변환 — 버튼 클릭 불필요"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "헤더 기반 키",
+                "desc": "CSV 헤더가 자동으로 출력 목록의 각 개체에 대한 YAML 키로 변환"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "유형 추론",
+                "desc": "숫자와 불리언(true/false) 값을 자동으로 올바른 YAML 유형으로 변환"
+            }
+        },
+        "how_title": "3단계로 CSV를 YAML로 변환하는 방법",
+        "how_steps": {
+            "1": {
+                "title": "CSV 데이터 붙여넣기",
+                "desc": "헤더 행이 있는 CSV 붙여넣기 — 첫 번째 행이 YAML 키를 정의"
+            },
+            "2": {
+                "title": "즉시 변환",
+                "desc": "각 CSV 행이 YAML 목록 요소로 즉시 YAML 출력이 표시"
+            },
+            "3": {
+                "title": "YAML 복사",
+                "desc": "변환된 YAML을 복사하여 구성 파일이나 테스트 픽스처에 붙여넣기"
+            }
+        },
+        "uses_title": "CSV에서 YAML로 변환 사용 사례",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "테스트 픽스처",
+                "desc": "스프레드시트의 테스트 데이터를 RSpec, PHPUnit, PyTest용 YAML 픽스처로 변환"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "구성 데이터",
+                "desc": "팀이나 환경 데이터를 Ansible 변수나 Kubernetes ConfigMaps로 변환"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "시드 데이터",
+                "desc": "조회 테이블 CSV를 Rails, Laravel, Django용 YAML 시드 파일로 변환"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "API 모의 데이터",
+                "desc": "스프레드시트 샘플을 WireMock이나 Mirage 같은 API 모의 도구용 YAML로 변환"
+            }
+        },
+        "tips_title": "CSV에서 YAML로 모범 사례",
+        "tips": {
+            "headers": {
+                "title": "✓ 일관되고 깔끔한 헤더 이름 사용",
+                "desc": "CSV 헤더는 YAML 키가 됩니다 — snake_case 또는 camelCase를 일관되게 사용하고 공백과 특수 문자를 피하세요."
+            },
+            "quotes": {
+                "title": "✓ 특수 문자가 있는 값을 따옴표로 묶기",
+                "desc": "CSV에서 쉼표나 따옴표가 포함된 값은 큰따옴표로 묶으세요. 변환기는 RFC 4180의 따옴표로 묶인 필드를 올바르게 처리합니다."
+            },
+            "encoding": {
+                "title": "✓ UTF-8 인코딩 사용",
+                "desc": "변환 전에 CSV 파일이 UTF-8로 인코딩되었는지 확인하세요. 비UTF-8 문자는 파싱 문제를 일으킬 수 있습니다."
+            },
+            "validate": {
+                "title": "✓ 변환 후 YAML 검증",
+                "desc": "변환된 YAML을 구성 파일에 사용하기 전에 항상 유효성 검사기에 붙여넣어 올바른 구조를 확인하세요."
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "변환기는 따옴표로 묶인 CSV 필드를 처리하나요?",
+            "a1": "예 — 파서는 RFC 4180 CSV 형식을 올바르게 처리합니다(큰따옴표로 묶인 필드와 이스케이프된 따옴표(\"\"  포함). 따옴표로 묶인 필드 내의 쉼표는 구분자로 취급되지 않습니다.",
+            "q2": "숫자와 불리언 값은 어떻게 처리되나요?",
+            "a2": "변환기는 유형을 추론합니다: 유효한 숫자는 YAML 숫자로(문자열이 아닌), true/false 값은 YAML 불리언으로 변환됩니다. 문자열은 문자열로 유지됩니다.",
+            "q3": "TSV(탭으로 구분) 데이터를 변환할 수 있나요?",
+            "a3": "이 도구는 쉼표로 구분된 CSV를 예상합니다. 탭으로 구분된 데이터는 먼저 탭을 쉼표로 바꾸세요(대부분의 텍스트 에디터에는 regex 지원이 포함된 검색/교체가 있습니다).",
+            "q4": "필요한 경우 YAML을 CSV로 다시 변환하는 방법은?",
+            "a4": "역방향(YAML에서 CSV로)은 구조에 대한 사전 지식이 필요합니다. 일관된 키를 가진 객체의 플랫 목록의 경우 키를 CSV 헤더로 수동으로 추출하고 각 YAML 항목을 행으로 매핑할 수 있습니다."
+        }
+    }
+}

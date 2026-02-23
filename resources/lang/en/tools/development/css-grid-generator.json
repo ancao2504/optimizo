@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "CSS Grid Generator - Visual CSS Grid Builder | Optimizo",
+        "description": "Generate CSS Grid layouts online for free. Configure columns, rows, gap, and alignment with a live preview and instant CSS code output.",
+        "h1": "CSS Grid Generator",
+        "subtitle": "Build CSS Grid layouts visually — configure columns, rows, gap, and alignment with live preview"
+    },
+    "editor": {
+        "title": "CSS Grid Generator",
+        "label_cols": "Columns",
+        "label_rows": "Rows",
+        "label_col_template": "Column Template",
+        "label_gap": "Gap",
+        "label_align": "align-items",
+        "label_preview": "Live Preview",
+        "btn_copy": "Copy CSS"
+    },
+    "content": {
+        "why_title": "Why Use a Visual CSS Grid Generator?",
+        "why_desc": "CSS Grid is the most powerful layout system in CSS, but its syntax — grid-template-columns, grid-template-rows, fr units, minmax(), repeat() — has a steep learning curve. Our visual generator lets you configure your grid via sliders and dropdowns and watch your layout update instantly, so you understand what each property does without digging through MDN documentation.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Live Grid Preview",
+                "desc": "See your grid update in real time as you adjust columns, rows, gap, and alignment settings"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "fr Unit Support",
+                "desc": "Templates use fractional units (fr) for flexible, responsive grids that adapt to container size"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Ready CSS Output",
+                "desc": "Exports a clean .container {} CSS block with grid-template-columns, rows, gap, and align-items"
+            }
+        },
+        "how_title": "How to Build a CSS Grid Layout",
+        "how_steps": {
+            "1": {
+                "title": "Set Columns & Rows",
+                "desc": "Use the sliders to set the number of columns and rows for your grid"
+            },
+            "2": {
+                "title": "Choose Template & Gap",
+                "desc": "Select a column template (equal, fixed+flex, responsive minmax) and adjust the gap between cells"
+            },
+            "3": {
+                "title": "Copy CSS",
+                "desc": "Click 'Copy CSS' to get the complete CSS block ready to paste into your stylesheet"
+            }
+        },
+        "uses_title": "CSS Grid Use Cases",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Page Layouts",
+                "desc": "Build header/sidebar/main/footer page structures cleanly with named grid areas"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Data Dashboards",
+                "desc": "Create complex dashboard layouts with cards of varying sizes using grid-column and grid-row spans"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Image Galleries",
+                "desc": "Build masonry-style or uniform image galleries with auto-fill and minmax for responsiveness"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Magazine Layouts",
+                "desc": "Create editorial-style layouts with asymmetric columns and feature items spanning multiple grid cells"
+            }
+        },
+        "tips_title": "CSS Grid Best Practices",
+        "tips": {
+            "fr": {
+                "title": "✓ Prefer fr Units Over Percentages",
+                "desc": "The fr (fraction) unit distributes available space after fixed-size columns, avoiding the need to manually calculate percentages for flexible columns."
+            },
+            "minmax": {
+                "title": "✓ Use minmax() for Responsive Grids",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) creates a responsive grid that automatically adjusts the number of columns to fit the container — no media queries needed."
+            },
+            "named": {
+                "title": "✓ Use Named Grid Areas for Page Layouts",
+                "desc": "grid-template-areas with named cells (header, sidebar, main, footer) makes page-level layouts readable and easy to modify."
+            },
+            "auto": {
+                "title": "✓ Understand auto-fill vs auto-fit",
+                "desc": "auto-fill creates as many tracks as will fit (leaving empty ones). auto-fit collapses empty tracks and stretches existing items to fill — usually more useful for card grids."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "What is a fr unit in CSS Grid?",
+            "a1": "fr stands for 'fractional unit'. 1fr represents one fraction of the available free space in the grid container. repeat(3, 1fr) creates 3 equal columns that share all available space equally.",
+            "q2": "How is CSS Grid different from Flexbox?",
+            "a2": "Flexbox is one-dimensional — it arranges items along a single axis (row or column). CSS Grid is two-dimensional — it controls both rows and columns simultaneously, making it far more powerful for page-level layouts.",
+            "q3": "What does minmax() do?",
+            "a3": "minmax(min, max) defines a size range for a grid track. minmax(200px, 1fr) means a column is at least 200px wide but grows up to take available space — perfect for responsive grids.",
+            "q4": "When should I use CSS Grid vs Flexbox?",
+            "a4": "Use Grid for 2D page layouts where you need both row and column control simultaneously. Use Flexbox for 1D component layouts like navbars, button groups, and form rows. Most modern layouts use both — Grid for the overall structure, Flexbox for component internals."
+        }
+    }
+}

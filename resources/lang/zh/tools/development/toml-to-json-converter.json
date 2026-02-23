@@ -1,0 +1,94 @@
+{
+    "meta": {
+        "title": "在线 TOML 转 JSON 转换器 - 配置文件解析工具 | Optimizo",
+        "description": "免费的在线 TOML 转 JSON 转换器。将 Rust/Cargo 配置（Cargo.toml）或 Python 项目文件（pyproject.toml）等 TOML 格式瞬间解析为可读性极强的格式化 JSON 对象。",
+        "h1": "TOML 转 JSON 格式转换器",
+        "subtitle": "将 Rust、Python 或 Hugo 项目中使用的 TOML 配置文件，一键精确转换成标准 JSON 格式"
+    },
+    "editor": {
+        "title": "TOML 到 JSON 解析工场",
+        "label_input": "粘贴您的 TOML 配置内容",
+        "ph_input": "[package]\nname = \"my-app\"\nversion = \"0.1.0\"\nedition = \"2021\"\n\n[dependencies]\nserde = { version = \"1.0\", features = [\"derive\"] }\ntokio = { version = \"1\", features = [\"full\"] }\n\n[profile.release]\nopt-level = 3",
+        "btn_convert": "转换为 JSON",
+        "label_output": "转换后的 JSON 输出",
+        "btn_copy": "复制 JSON 结果"
+    },
+    "content": {
+        "why_title": "什么情况下您需要将 TOML 转换为 JSON？",
+        "why_desc": "TOML（Tom 的明显最小化语言）凭借其极高的人类可读性，已成为 Rust 生态（Cargo.toml）、Python 项目（pyproject.toml）和 Hugo 静态网站生成器的首选配置格式。然而 JSON 仍然是绝大多数 REST API、JavaScript 框架和内部工具之间数据交换的通用标准。当您需要将 Rust 项目的依赖关系动态解析后提交给 API，或者让一个以 JSON 为主的 CI/CD 系统读取 TOML 格式的配置时，可靠的格式转换就变得必不可少。这个工具能精确保留 TOML 中的嵌套 section（如 `[profile.release]`）和原生数据类型，在 JSON 中完美还原其对应的嵌套对象结构。",
+        "features": {
+            "sections": {
+                "icon": "📂",
+                "title": "精确映射 TOML Section 为 JSON 嵌套对象",
+                "desc": "TOML 中的 `[section]` 和 `[[array_of_tables]]` 语法将被精确还原为对应的 JSON 嵌套对象和数组结构。"
+            },
+            "types": {
+                "icon": "🔣",
+                "title": "完整支持 TOML 原生数据类型",
+                "desc": "整数、浮点数、布尔值、日期与时间（RFC 3339 格式）以及字符串全部得到正确转换，不会丢失类型精度。"
+            },
+            "pretty": {
+                "icon": "✨",
+                "title": "格式化美化 JSON 输出",
+                "desc": "输出结果默认进行 2 个空格缩进的美化排版，确保转换后的 JSON 具有良好的可读性，方便代码审查和调试。"
+            }
+        },
+        "how_title": "三步完成 TOML 到 JSON 的精准转换",
+        "how_steps": {
+            "1": {
+                "title": "粘贴您的 TOML 源文件内容",
+                "desc": "将 `Cargo.toml`、`pyproject.toml` 或其他任意 TOML 格式的配置文件内容全量复制粘贴至左侧编辑区。"
+            },
+            "2": {
+                "title": "点击转换按钮",
+                "desc": "点击"转换为 JSON"按钮，解析引擎会立刻对所有 section 和数据类型进行精确映射。"
+            },
+            "3": {
+                "title": "复制 JSON 结果应用于目标系统",
+                "desc": "在右侧获得格式整洁的 JSON 结构输出，直接复制并粘入您需要的 API 调用体或配置文件位置。"
+            }
+        },
+        "uses_title": "TOML 转 JSON 最常见的实际应用场景",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "解析 Rust Cargo.toml 依赖关系",
+                "desc": "将 `Cargo.toml` 中的依赖树结构转换为 JSON 后，便能以编程方式送入 CI 系统或者在线依赖分析 API 进行扫描和处理。"
+            },
+            "python": {
+                "icon": "🐍",
+                "title": "处理 Python pyproject.toml 项目元数据",
+                "desc": "将 Python 项目的 `pyproject.toml` 元数据和工具配置转换成 JSON，以供 PyPI 发布管道或内部自动化脚本使用。"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "迁移 Hugo 网站配置",
+                "desc": "Hugo 项目使用 TOML 格式的主配置文件。将其转换为 JSON 可以让其他工具或脚本更方便地读取和操作站点配置。"
+            },
+            "api": {
+                "icon": "🌐",
+                "title": "向 JSON-only 的 API 传递配置参数",
+                "desc": "当需要将TOML格式的配置参数动态提交给只接受 JSON 请求体的 REST API 时，精确的格式转换是唯一可靠的方式。"
+            }
+        },
+        "tips_title": "使用 TOML 时需要了解的关键点",
+        "tips": {
+            "multiline": {
+                "title": "✓ TOML 的多行字符串语法",
+                "desc": "TOML 支持使用三重双引号 `\"\"\"` 定义多行字符串。这在通常用于大段文本内容（如许可证文字或 SQL 查询模版）时非常有用，且转换为 JSON 后会保留其换行。"
+            },
+            "arrays": {
+                "title": "✓ 表数组（Array of Tables）语法 [[]]",
+                "desc": "TOML 中的 `[[dependencies]]` 这类双层方括号表示同名对象数组，每个 `[[section]]` 代表数组中的一个新元素，转换后将精确映射为 JSON 数组。"
+            },
+            "datetime": {
+                "title": "✓ 日期与时间类型的处理",
+                "desc": "TOML 原生支持 RFC 3339 规范的日期时间值（如 `1979-05-27T07:32:00Z`），转换后会在 JSON 中以字符串形式保留，您可在下游系统中按需解析。"
+            },
+            "inline": {
+                "title": "✓ 内联表（Inline Tables）语法",
+                "desc": "TOML 的内联表写法 `{key = \"val\"}` 与 JSON 对象等价，转换器将完整地将其映射为嵌套 JSON 对象，不存在信息丢失。"
+            }
+        }
+    }
+}

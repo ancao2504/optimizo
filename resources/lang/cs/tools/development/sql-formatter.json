@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "Online Formátovač SQL - Formátujte SQL Zdarma | Optimizo",
+        "description": "Formátujte a upravte SQL dotazy online zdarma. Formátujte SELECT, INSERT, UPDATE, DELETE, CREATE a složité JOIN dotazy okamžitě.",
+        "h1": "Formátovač SQL",
+        "subtitle": "Formátujte SQL dotazy okamžitě a přehledně — kompatibilní se všemi hlavními SQL dialekty"
+    },
+    "editor": {
+        "title": "Formátovač SQL",
+        "label_input": "SQL dotaz",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "Formátovat SQL",
+        "btn_minify": "Minifikovat SQL",
+        "label_output": "Formátované SQL",
+        "btn_copy": "Kopírovat SQL"
+    },
+    "content": {
+        "why_title": "Proč formátovat SQL dotazy?",
+        "why_desc": "Neformátované SQL je téměř nečitelné, zejména s komplexními JOIN, poddotazy a CTE. Formátovač přidá správné odsazení, zalamování řádků a velká písmena pro klíčová slova, což usnadňuje kontrolu, ladění a sdílení dotazů s týmem.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Klíčová slova velkými písmeny",
+                "desc": "Automaticky převede SELECT, FROM, WHERE, JOIN a všechna klíčová slova SQL na velká písmena"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Inteligentní odsazení",
+                "desc": "Aplikuje správné odsazení na poddotazy, výrazy CASE a vnořené klauzule"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minifikace",
+                "desc": "Komprimuje SQL na jeden řádek — ideální pro řetězce dotazů v kódu"
+            }
+        },
+        "how_title": "Formátování SQL ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vložte SQL dotaz",
+                "desc": "Zkopírujte a vložte SQL z kódového editoru, DB klienta nebo protokolů dotazů"
+            },
+            "2": {
+                "title": "Klikněte Formátovat",
+                "desc": "Klikněte 'Formátovat SQL' pro aplikaci správného odsazení a velkých písmen klíčových slov"
+            },
+            "3": {
+                "title": "Zkopírujte a použijte",
+                "desc": "Zkopírujte formátované SQL přímo do DB klienta, ORM nebo dokumentace"
+            }
+        },
+        "uses_title": "Případy použití formátování SQL",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Kontrola kódu",
+                "desc": "Formátujte SQL před kontrolou, aby kolegové jasně viděli strukturu"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Ladění dotazů",
+                "desc": "Dešifrujte komplexní klauzule WHERE a JOINové řetězce pro rychlé nalezení logických chyb"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Dokumentace",
+                "desc": "Přidejte dobře formátované SQL do technické dokumentace, README souborů a tutoriálů"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Optimalizace dotazů",
+                "desc": "Snadněji identifikujte chybějící indexy a neefektivní pořadí JOIN s formátovaným SQL"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro SQL",
+        "tips": {
+            "select": {
+                "title": "✓ Vyhněte se SELECT *",
+                "desc": "Vždy specifikujte názvy sloupců. Zlepšuje výkon a předchází problémům při změnách schématu tabulky."
+            },
+            "alias": {
+                "title": "✓ Používejte explicitní aliasy",
+                "desc": "Používejte smysluplné aliasy tabulek v JOIN, aby byly složité dotazy čitelné."
+            },
+            "explain": {
+                "title": "✓ Používejte EXPLAIN",
+                "desc": "Spusťte EXPLAIN nebo EXPLAIN ANALYZE před nasazením pomalých dotazů."
+            },
+            "index": {
+                "title": "✓ Indexujte sloupce WHERE",
+                "desc": "Ujistěte se, že sloupce v WHERE, JOIN ON a ORDER BY jsou indexovány pro optimální výkon."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Jaké SQL dialekty jsou podporovány?",
+            "a1": "Standardní SQL a kompatibilní s MySQL, PostgreSQL, SQLite, SQL Server (T-SQL) a Oracle.",
+            "q2": "Mění formátování chování dotazu?",
+            "a2": "Ne. Formátovač mění pouze mezery a velikost písmen klíčových slov. Logika dotazu, výsledky a plán provádění se vůbec nemění.",
+            "q3": "Mohu formátovat SQL s uloženými procedurami?",
+            "a3": "Ano. Zpracovává CREATE PROCEDURE, BEGIN/END, příkazy DECLARE a jiné procedurální SQL konstrukce.",
+            "q4": "K čemu slouží minifikace v aplikacích?",
+            "a4": "Minifikované SQL zmenšuje velikost řetězců dotazů vložených do zdrojového kódu a dělá protokoly kompaktnějšími."
+        }
+    }
+}

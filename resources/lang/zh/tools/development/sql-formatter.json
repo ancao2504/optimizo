@@ -1,0 +1,94 @@
+{
+    "meta": {
+        "title": "在线 SQL 格式化与美化工具 - 净化与重组数据库查询构建体 | Optimizo",
+        "description": "免费的在线 SQL 代码格式化 (Formatter) 引擎。轻松将难以阅读的数据库结构查询代码块排版至美丽易读的最佳架构。兼容所有主流 SQL。",
+        "h1": "SQL 查询语言格式化工具",
+        "subtitle": "瞬间将错乱繁复的 SQL 查询请求解构并格式化成纯净、直观且排列整洁的美化状态"
+    },
+    "editor": {
+        "title": "SQL 代码格式化",
+        "label_sql": "原始 SQL 语句 (Raw Query)",
+        "ph_sql": "SELECT id, name, email FROM users WHERE status='active' ORDER BY created_at DESC LIMIT 10",
+        "label_formatted": "格式化后的代码",
+        "btn_format": "格式化 SQL",
+        "btn_copy": "复制美化版代码"
+    },
+    "content": {
+        "why_title": "为什么需要一款智能的 SQL 格式化工具？",
+        "why_desc": "在开发中，开发者经常需要排查由后端 ORM 系统生成并打印在日志里的超长 SQL 查询语句。这些语句通常被压缩成极长的单行模式，没有缩进和换行，大小写混合，极其难以阅读。要在这样一团乱麻中找出 `JOIN`、`WHERE` 或 `GROUP BY` 等关键逻辑的位置简直是天方夜谭。使用我们的智能 SQL 格式化大师，它会瞬间横扫您的混乱指令，自动将所有关键字转换为大写 (Uppercase)，并按照极具规律的缩进与换行进行排版，让无论多复杂的关联逻辑都能一目了然。",
+        "features": {
+            "beautify": {
+                "icon": "✨",
+                "title": "一键光速重构排版",
+                "desc": "只需点击一下，即可将杂乱无章的现场瞬间重造，恢复极其严谨有条理的排版优美状态。"
+            },
+            "uppercase": {
+                "icon": "🔠",
+                "title": "自动大写关键字",
+                "desc": "在行进过程中自动将 `select`, `from`, `left join` 等关键字一并转换为大写格式。"
+            },
+            "dialects": {
+                "icon": "🗄️",
+                "title": "全流派兼容解析",
+                "desc": "全面兼容 MySQL, PostgreSQL, MariaDB 及 Microsoft SQL Server 等各大数据库流派的独有语法。"
+            }
+        },
+        "how_title": "简单 3 步瞬间理清庞杂 SQL 迷阵",
+        "how_steps": {
+            "1": {
+                "title": "粘贴您的 SQL 语句",
+                "desc": "将您从日志 (Logs) 或代码库中获取的冗长且未格式化的 SQL 语句粘贴到左侧的输入框中。"
+            },
+            "2": {
+                "title": "点击格式化按钮",
+                "desc": "点击绿色的“格式化”按钮，无需进行繁复的设置调整，即可坐等排版结果。"
+            },
+            "3": {
+                "title": "复制结果并使用",
+                "desc": "在右侧面板中，您将看到结构清晰的格式化语句，点击复制即可用于代码审查或直接执行。"
+            }
+        },
+        "uses_title": "这款强大的 SQL 格式化工具具体能为您在哪些场景提供帮助？",
+        "uses": {
+            "orm": {
+                "icon": "🤖",
+                "title": "调试 ORM 衍生的复杂查询",
+                "desc": "在使用如 Laravel Eloquent, Hibernate 或 Django ORM 等框架时，它们生成的底层 SQL 往往长如面条，没有好的排版将难以调试。"
+            },
+            "review": {
+                "icon": "👁️",
+                "title": "代码审查与协同合作",
+                "desc": "在诸如 GitHub 等平台提交包含复杂数据查询的 PR (Pull Request) 前，务必先格式化 SQL，以便审查者能迅速看清查询意图。"
+            },
+            "learning": {
+                "icon": "📚",
+                "title": "理清历史遗留系统的庞大架构",
+                "desc": "当接手包含几百行老旧复杂 SQL 的旧有后端项目时，首要工作就是借助此类工具进行彻底的清洗和重排以寻找切入点。"
+            },
+            "export": {
+                "icon": "📤",
+                "title": "分析与诊断慢查询日志",
+                "desc": "从慢查询日志 (Slow-query log) 中提炼出拖慢系统的病灶指令，格式化后便能更清晰地定位诸如缺少的索引或不合理关联等问题。"
+            }
+        },
+        "tips_title": "编写大师级 SQL 查询的黄金守则与最佳实践",
+        "tips": {
+            "keywords": {
+                "title": "✓ 将 SQL 关键字转换为大写字母",
+                "desc": "在编写 `SELECT`, `INSERT`, `WHERE` 等驱动主体关键字时，务必全部大写，并让表名 (Tables) 和列名 (Columns) 保持小写或带有反引号。这样能大幅提升代码的通顺度和可读性。"
+            },
+            "alias": {
+                "title": "✓ 善用别名 (Alias) 魔法",
+                "desc": "在进行大规模表连接（JOIN）时，务必为极长的表名佩戴极短的替代标签。例如把 `users` 命名为 `u` (`users AS u`)，这能让您在调用字段时极其清爽利索。"
+            },
+            "select_star": {
+                "title": "✓ 坚决避免使用 'SELECT *'",
+                "desc": "在实际的生产环境里，绝对不要使用极具破坏力的 `SELECT *` 这种毒招。永远只去获取并挑选您确切需求的那几列数据（例如 `SELECT id, name`），这能为服务器和传输带宽省下巨大的消耗。"
+            },
+            "explain": {
+                "title": "✓ 挖掘 EXPLAIN 命令的探宝神技",
+                "desc": "当您打算运行一串带有极深多层套结关系的巨大查询时，切记先在这个大指令前面加上 `EXPLAIN` 命令去运行，它是能自动分析后台使用了哪些索引 (Indexes) 的探测器和终极报告！"
+            }
+        }
+    }
+}

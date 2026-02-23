@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "API-pyyntöjen rakentaja Verkossa - Ilmainen HTTP-asiakas | Optimizo",
+        "description": "Luo ja lähetä HTTP API -pyyntöjä verkossa ilmaiseksi. Tukee GET, POST, PUT, PATCH, DELETE mukautetuilla otsakkeilla, pyyntörungolla ja kyselyparametreilla.",
+        "h1": "API-pyyntöjen rakentaja",
+        "subtitle": "Luo, lähetä ja tarkasta HTTP API -pyyntöjä — kevyt HTTP-asiakas selaimessa"
+    },
+    "editor": {
+        "title": "API-pyyntöjen rakentaja",
+        "btn_send": "Lähetä pyyntö",
+        "tab_headers": "Otsakkeet",
+        "tab_body": "Runko",
+        "tab_params": "Parametrit",
+        "btn_add_header": "Lisää otsake",
+        "btn_add_param": "Lisää parametri",
+        "label_response": "Vastaus",
+        "btn_copy_response": "Kopioi vastaus"
+    },
+    "content": {
+        "why_title": "Miksi käyttää API-pyyntöjen rakentajaa?",
+        "why_desc": "REST API -testaus vaatii yleensä Postmanin tai Insomnian asennuksen tai curl-komentojen kirjoittamisen. Selainpohjainen HTTP-asiakkaamme ei vaadi asennusta — avaa se ja lähetä pyyntöjä suoraan.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Kaikki HTTP-metodit",
+                "desc": "Tukee GET, POST, PUT, PATCH, DELETE mukautetuilla otsakkeilla ja JSON/lomake-rungolla"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Muotoiltu vastaus",
+                "desc": "Vastausrunko näytetään automaattisesti sisennettynä; tilakoodi ja vastausaika näkyvät"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Heti käyttövalmis",
+                "desc": "Ei asennettavaa — toimii täysin selaimessa ilman tiliä tai lisäosaa"
+            }
+        },
+        "how_title": "API-pyynnön lähettäminen 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Syötä URL ja metodi",
+                "desc": "Syötä API-päätepisteen URL ja valitse HTTP-metodi (GET, POST jne.)"
+            },
+            "2": {
+                "title": "Lisää otsakkeet ja runko",
+                "desc": "Lisää Authorization, Content-Type jne. 'Otsakkeet'-välilehdelle. Käytä 'Runko'-välilehteä POST/PUT-datalle."
+            },
+            "3": {
+                "title": "Lähetä ja tarkasta",
+                "desc": "Napsauta 'Lähetä'. Vastausrunko, tilakoodi ja aika näkyvät alla."
+            }
+        },
+        "uses_title": "API-pyyntöjen rakentajan käyttötapaukset",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "API-virheenetsintä",
+                "desc": "Testaa yksittäisiä päätepisteitä mukautetuilla otsakkeilla ja rungolla debugataksesi autentikointi- ja dataongelmia"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Autentikointien testaus",
+                "desc": "Testaa Bearer, Basic Auth ja API-avain-skeemoja ilman koodin kirjoittamista"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "API:en tutkiminen",
+                "desc": "Tutki julkisia API:eja (GitHub, OpenWeather, JSONPlaceholder) ja ymmärrä vastaukset"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Virheiden toistaminen",
+                "desc": "Toista ja dokumentoi API-virheitä tarkkojen pyyntö- ja vastaustietojen kanssa virheraportointia varten"
+            }
+        },
+        "tips_title": "API-testauksen parhaat käytännöt",
+        "tips": {
+            "headers": {
+                "title": "✓ Aseta aina Content-Type",
+                "desc": "JSON-rungon kanssa sisällytä aina Content-Type: application/json. Monet API:t hylkäävät tai tulkitsevat pyynnön väärin ilman sitä."
+            },
+            "cors": {
+                "title": "✓ Ymmärrä CORS-rajoitukset",
+                "desc": "Selaimet estävät cross-origin-pyynnöt ilman asianmukaisia CORS-otsakkeita. Käytä curlia tai palvelinpuolen välityspalvelinta, jos pyyntö epäonnistuu selaimessa."
+            },
+            "auth": {
+                "title": "✓ Älä kovakoodaa API-avaimia",
+                "desc": "Käytä ympäristömuuttujia tuotantokoodissa. Rakennustyökalu on testausta varten — älä jaa kuvakaappauksia oikeilla API-avaimilla."
+            },
+            "status": {
+                "title": "✓ Tarkista HTTP-statuskoodit",
+                "desc": "200=OK, 201=Luotu, 400=Virheellinen pyyntö, 401=Ei valtuutettu, 403=Kielletty, 404=Ei löydetty, 500=Palvelinvirhe."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Miksi cross-origin-pyynnöt epäonnistuvat?",
+            "a1": "Selaimet soveltavat CORS-rajoituksia. Jos kohde-API:lla ei ole Access-Control-Allow-Origin-otsaketta, selain estää pyynnön. Se ei ole virhe — käytä curlia tai taustapalvelimen välityspalvelinta API:ille ilman CORS:ia.",
+            "q2": "Voinko lähettää multipart/form-data-pyyntöjä?",
+            "a2": "Rakentaja tukee tällä hetkellä JSON- ja tekstirunkoja. Tiedostolatauksiin ja vastaaviin moniosaisen lomakkeen pyyntöihin käytä Postmanin kaltaista erikoistyökalua.",
+            "q3": "Onko tämä vaihtoehto Postmanille?",
+            "a3": "Nopeaan testaukseen ja tutkimiseen, kyllä. Tiimityötä, tallennettuja kokoelmia, ympäristöjä ja automatisoituja testejä varten Postman tai Bruno tarjoaa enemmän ominaisuuksia.",
+            "q4": "Mikä on ero PUT:n ja PATCH:n välillä?",
+            "a4": "PUT korvaa koko resurssin pyyntörungolla. PATCH soveltaa osittaisia päivityksiä — vain rungon kentät muuttuvat. Useimmat REST API:t käyttävät PATCH:ia päivityksiin välttääkseen muuttumattomien kenttien ylikirjoittamisen."
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON Validator Online - Gratis JSON-syntaxiscontrole | Optimizo",
+        "description": "Gratis online JSON-validator. Controleer direct of je JSON geldig is, detecteer syntaxisfouten met regelnummer en bekijk het geformatteerde resultaat.",
+        "h1": "JSON Validator",
+        "subtitle": "Valideer JSON-syntaxis direct — detecteer fouten en zorg dat je gegevens correct zijn gestructureerd"
+    },
+    "editor": {
+        "title": "JSON Validator",
+        "label_input": "Te valideren JSON",
+        "ph_input": "Plak hier je JSON...",
+        "btn_validate": "JSON valideren",
+        "btn_copy": "JSON kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom JSON valideren vóór gebruik?",
+        "why_desc": "Ongeldige JSON breekt stilletjes API's, configuratieparser en gegevenspijplijnen. Een verkeerd geplaatste komma, een niet-gesloten haakje of een niet-ge-escape aanhalingsteken kan runtime-fouten veroorzaken die moeilijk te traceren zijn. Onze validator detecteert deze problemen direct met precieze regelnummers en duidelijke foutmeldingen, zodat je problemen kunt oplossen voordat ze de productie bereiken.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Directe validatie",
+                "desc": "Valideert JSON in milliseconden met nauwkeurige foutmeldingen en de bijbehorende regelnummers"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Structuuroverzicht",
+                "desc": "Zie in één oogopslag de diepte, het aantal sleutels en de typeverdeling van je JSON"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100% privé",
+                "desc": "Alle validatie vindt plaats in je browser — je gegevens verlaten nooit je computer"
+            }
+        },
+        "how_title": "Hoe JSON valideren in 3 stappen",
+        "how_steps": {
+            "1": {
+                "title": "Plak je JSON",
+                "desc": "Kopieer je JSON van een API-respons, configuratiebestand of andere bron en plak het"
+            },
+            "2": {
+                "title": "Klik op Valideren",
+                "desc": "De validator controleert de syntaxis direct en markeert fouten met regelnummers"
+            },
+            "3": {
+                "title": "Corrigeer en kopieer",
+                "desc": "Corrigeer de weergegeven fouten en kopieer daarna de gevalideerde en geformatteerde JSON"
+            }
+        },
+        "uses_title": "Gebruiksscenario's voor JSON-validatie",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "API-responsvalidatie",
+                "desc": "Zorg dat REST API-responsies correct zijn gestructureerd voordat je ze verwerkt"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Configuratiebestanden controleren",
+                "desc": "Valideer package.json, tsconfig.json en andere configuratiebestanden vóór deployments"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Gegevensimport valideren",
+                "desc": "Controleer de nauwkeurigheid van geïmporteerde JSON-bestanden voordat je ze in een database laadt"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "JSON-fouten debuggen",
+                "desc": "Spoor nauwkeurig syntaxisfouten op in complexe en geneste JSON-structuren"
+            }
+        },
+        "tips_title": "JSON best practices",
+        "tips": {
+            "quotes": {
+                "title": "✓ Gebruik altijd dubbele aanhalingstekens",
+                "desc": "JSON vereist dubbele aanhalingstekens voor tekenreeksen en sleutels. Enkele aanhalingstekens zijn geen geldige JSON."
+            },
+            "trailing": {
+                "title": "✓ Geen slotkomma",
+                "desc": "Anders dan JavaScript staat JSON geen komma toe na het laatste element van een array of object."
+            },
+            "null": {
+                "title": "✓ Gebruik null, niet None of nil",
+                "desc": "Het sleutelwoord null in JSON moet in kleine letters zijn. None van Python en nil van Ruby zijn geen geldige JSON."
+            },
+            "validate": {
+                "title": "✓ Hervalideer na handmatige bewerking",
+                "desc": "Hervalideer JSON altijd na handmatige bewerking. Een kleine typfout maakt het hele document ongeldig."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Waarom is mijn JSON ongeldig terwijl het er correct uitziet?",
+            "a1": "Veelvoorkomende verborgen problemen: slotkomma's na het laatste element van een array/object, enkele aanhalingstekens in plaats van dubbele, speciale tekens zonder escape in tekenreeksen, of JavaScript-stijl commentaar (JSON ondersteunt geen commentaar).",
+            "q2": "Kan ik zeer grote JSON-bestanden valideren?",
+            "a2": "Ja — validatie vindt volledig in je browser plaats via native JSON.parse(). De bestandsgrootte is alleen beperkt door het browsergeheugen. Voor bestanden groter dan 10 MB kan de verwerking enkele seconden duren.",
+            "q3": "Wat is het verschil tussen JSON en JSONP?",
+            "a3": "JSON is een puur gegevensformaat. JSONP (JSON with Padding) wikkelt de JSON in een functieaanroep voor cross-origin verzoeken. JSONP is geen geldige JSON — deze validator zal het als ongeldig afwijzen.",
+            "q4": "Ondersteunt JSON commentaar?",
+            "a4": "Nee. JSON ondersteunt geen commentaar (// of /* */). Als je JSON wilt annoteren, gebruik dan een _comment-sleutel, of schakel over naar YAML of TOML, die beide commentaar ondersteunen."
+        }
+    }
+}

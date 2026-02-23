@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Online Regex Tesztelő - Tesztelje a Reguláris Kifejezéseket Ingyen | Optimizo",
+        "description": "Tesztelje a reguláris kifejezéseket online és ingyen. Valós idejű egyezéskiemelés, jelzők támogatása és rögzítőcsoport-részletek.",
+        "h1": "Regex Tesztelő",
+        "subtitle": "Tesztelje a Regex mintákat valós időben — egyezéskiemelés, jelzők és rögzítőcsoport-részletek"
+    },
+    "editor": {
+        "title": "Regex Tesztelő",
+        "label_pattern": "Minta (Regex)",
+        "ph_pattern": "Pl. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Jelzők",
+        "label_test": "Tesztszöveg",
+        "ph_test": "Illessze be a tesztelendő szöveget...",
+        "btn_test": "Tesztelés",
+        "btn_clear": "Törlés"
+    },
+    "content": {
+        "why_title": "Miért használjon Regex Tesztelőt?",
+        "why_desc": "A reguláris kifejezések hatékony mintaegyező eszközök, amelyeket szinte minden programozási nyelvben használnak. A hibakeresés nehéz lehet — egyetlen hiba teljesen megváltoztathatja a működést. Eszközünk minden billentyűleütésnél valós időben emeli ki az egyezéseket.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Valós idejű kiemelés",
+                "desc": "Az egyezések azonnal kiemelésre kerülnek minden billentyűleütésnél — nem kell gombra kattintani"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Rögzítőcsoport részletek",
+                "desc": "Megjelenít minden rögzítőcsoportot, indexet és egyező értéket az eredményenként"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Teljes jelző-támogatás",
+                "desc": "A g, i, m, s, u, y jelzők egyenként aktiválhatók, és hatásuk azonnal látható"
+            }
+        },
+        "how_title": "Regex tesztelés 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "Adja meg a mintát",
+                "desc": "Írja be a reguláris kifejezést a mintamezőbe (perjel nélkül)"
+            },
+            "2": {
+                "title": "Válasszon jelzőket",
+                "desc": "Aktiválja a szükséges jelzőket: g (globális), i (kis/nagybetű-érzéketlen), m (többsoros)"
+            },
+            "3": {
+                "title": "Illessze be a tesztszöveget",
+                "desc": "Adja meg a szöveget, és az egyezések automatikusan kiemelésre kerülnek"
+            }
+        },
+        "uses_title": "Frequently Used Regex Scenarios",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Űrlapvalidálás",
+                "desc": "Ellenőrizze az e-mail-cimeket, telefonszámokat, URL-eket, irányítószámokat és egyéni formátumokat"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Keresés és csere",
+                "desc": "Keressen és cseréljen mintákat kódszerkesztőkben, naplófájlokban és szövegfolyamatokban"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Naplófájl-elemzés",
+                "desc": "Strukturált adatok kinyerése (IP, időbélyegek, hibakódok) strukturálatlan naplókból"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Bevitel fertőtlenítése",
+                "desc": "Veszélyes karakterek eltávolítása vagy cseréje a felhasználói adatokból tárolás előtt"
+            }
+        },
+        "tips_title": "Regex legjobb gyakorlatok",
+        "tips": {
+            "anchor": {
+                "title": "✓ Horgonyok használata pontos egyezéshez",
+                "desc": "Használja a ^ és $ karaktereket a minta sor elejéhez és végéhez rögzítéséhez"
+            },
+            "groups": {
+                "title": "✓ Előnyben részesítse a nem rögzítő csoportokat",
+                "desc": "Használja a (?:...) helyett a (...)-t, ha nem kell rögzíteni a csoportot"
+            },
+            "escape": {
+                "title": "✓ Speciális karakterek escape-elése",
+                "desc": ". * + ? ( ) [ ] { } | ^ $ \\ különleges jelentéssel bírnak — használja a \\ literális egyezéshez"
+            },
+            "test": {
+                "title": "✓ Tesztelje a szélső eseteket",
+                "desc": "Mindig tesztelje üres karakterláncokkal, Unicode karakterekkel, nagyon hosszú bemenetekkel és határértékekkel"
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Milyen Regex-dialektust használ a tesztelő?",
+            "a1": "A JavaScript beépített RegExp motorát (ECMAScript szabvány). Támogatja a lookahead, lookbehind (ES2018+), nevesített rögzítőcsoportokat és Unicode-tulajdonságokat.",
+            "q2": "Mi a különbség a g és m jelzők között?",
+            "a2": "A g (globális) jelző minden egyezést megtalál a karakterláncban, nem csak az elsőt. Az m (többsoros) jelző lehetővé teszi, hogy ^ és $ minden sor elejéhez és végéhez illeszkedjen.",
+            "q3": "Hogyan egyeztethetek literális pontot vagy csillagot?",
+            "a3": "Escape-elje backslash-sel: a \\. literális pontot, a \\* csillagot egyeztet.",
+            "q4": "Miért egyezik a Regex-em több szöveggel, mint várt?",
+            "a4": "Valószínűleg kapzsi kvantorokat használ. A * és + alapértelmezés szerint kapzsiak — a lehető legtöbb szöveget egyeztetik. Adja hozzá a ?-t lusta viselkedéshez: a *? vagy +? a lehető legkevesebb szöveget egyezteti."
+        }
+    }
+}

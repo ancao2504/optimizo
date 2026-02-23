@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Online Tvůrce API Požadavků - Bezplatný HTTP Klient | Optimizo",
+        "description": "Vytvářejte a odesílejte HTTP API požadavky online zdarma. Podporuje GET, POST, PUT, PATCH, DELETE s vlastními hlavičkami, tělem požadavku a parametry dotazu.",
+        "h1": "Tvůrce API Požadavků",
+        "subtitle": "Vytvářejte, odesílejte a kontrolujte HTTP API požadavky — odlehčený HTTP klient v prohlížeči"
+    },
+    "editor": {
+        "title": "Tvůrce API Požadavků",
+        "btn_send": "Odeslat požadavek",
+        "tab_headers": "Hlavičky",
+        "tab_body": "Tělo",
+        "tab_params": "Parametry",
+        "btn_add_header": "Přidat hlavičku",
+        "btn_add_param": "Přidat parametr",
+        "label_response": "Odpověď",
+        "btn_copy_response": "Kopírovat odpověď"
+    },
+    "content": {
+        "why_title": "Proč používat tvůrce API požadavků?",
+        "why_desc": "Testování REST API obvykle vyžaduje instalaci Postman nebo Insomnia nebo psaní curl příkazů. Náš prohlížečový HTTP klient nevyžaduje instalaci — otevřete jej a odesílejte požadavky přímo.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Všechny HTTP metody",
+                "desc": "Podporuje GET, POST, PUT, PATCH, DELETE s vlastními hlavičkami a tělem JSON/formuláře"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Formátovaná odpověď",
+                "desc": "Tělo odpovědi se automaticky zobrazí s odsazením; stavový kód a čas odpovědi jsou zobrazeny"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Okamžitě připraveno k použití",
+                "desc": "Nic k instalaci — funguje zcela v prohlížeči bez účtu nebo pluginu"
+            }
+        },
+        "how_title": "Odeslání API požadavku ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Zadejte URL a metodu",
+                "desc": "Zadejte URL API endpointu a vyberte HTTP metodu (GET, POST atd.)"
+            },
+            "2": {
+                "title": "Přidejte hlavičky a tělo",
+                "desc": "Přidejte Authorization, Content-Type atd. na kartě 'Hlavičky'. Použijte 'Tělo' pro data POST/PUT."
+            },
+            "3": {
+                "title": "Odešlete a zkontrolujte",
+                "desc": "Klikněte 'Odeslat'. Tělo odpovědi, stavový kód a čas se zobrazí níže."
+            }
+        },
+        "uses_title": "Případy použití tvůrce API požadavků",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "Ladění API",
+                "desc": "Testujte jednotlivé endpointy s vlastními hlavičkami a tělem pro ladění problémů s autentizací a daty"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Testování tokenů autentizace",
+                "desc": "Testujte schémata Bearer, Basic Auth a API klíčů bez psaní kódu"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "Prozkoumávání API",
+                "desc": "Prozkoumejte veřejná API (GitHub, OpenWeather, JSONPlaceholder) a pochopte odpovědi"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Reprodukce chyb",
+                "desc": "Reprodukujte a dokumentujte chyby API s přesnými daty požadavku a odpovědi pro hlášení chyb"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro testování API",
+        "tips": {
+            "headers": {
+                "title": "✓ Vždy nastavujte Content-Type",
+                "desc": "S tělem JSON vždy zahrňte Content-Type: application/json. Mnoho API jinak odmítne nebo špatně interpretuje požadavek."
+            },
+            "cors": {
+                "title": "✓ Pochopte omezení CORS",
+                "desc": "Prohlížeče blokují cross-origin požadavky bez správných CORS hlaviček. Použijte curl nebo server-side proxy, pokud požadavek v prohlížeči selže."
+            },
+            "auth": {
+                "title": "✓ Pevně nekódujte API klíče",
+                "desc": "Používejte proměnné prostředí v produkčním kódu. Nástroj je pro testování — nesdílejte snímky obrazovky s reálnými API klíči."
+            },
+            "status": {
+                "title": "✓ Zkontrolujte HTTP stavové kódy",
+                "desc": "200=OK, 201=Vytvořeno, 400=Chybný požadavek, 401=Neautorizováno, 403=Zakázáno, 404=Nenalezeno, 500=Chyba serveru."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Proč cross-origin požadavky selhávají?",
+            "a1": "Prohlížeče vynucují omezení CORS. Pokud cílové API nemá hlavičku Access-Control-Allow-Origin, prohlížeč požadavek zablokuje. Není to chyba — použijte curl nebo backend proxy pro API bez CORS.",
+            "q2": "Mohu odesílat multipart/form-data požadavky?",
+            "a2": "Tvůrce aktuálně podporuje těla JSON a text. Pro nahrávání souborů a podobné vícedílné požadavky na formuláře použijte specializovaný nástroj jako Postman.",
+            "q3": "Je toto alternativa k Postman?",
+            "a3": "Pro rychlé testování a průzkum ano. Pro týmovou spolupráci, uložené kolekce, prostředí a automatizované testy nabízí Postman nebo Bruno více funkcí.",
+            "q4": "Jaký je rozdíl mezi PUT a PATCH?",
+            "a4": "PUT nahradí celý zdroj tělem požadavku. PATCH aplicuje částečné aktualizace — mění se pouze pole v těle. Většina REST API používá PATCH pro aktualizace, aby nedocházelo k přepsání nezměněných polí."
+        }
+    }
+}

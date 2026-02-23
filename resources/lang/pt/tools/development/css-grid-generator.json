@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Gerador CSS Grid Online - Construtor visual de grade | Optimizo",
+        "description": "Gere layouts CSS Grid online grátis. Configure colunas, linhas, espaçamento e alinhamento com pré-visualização ao vivo e exportação CSS instantânea.",
+        "h1": "Gerador CSS Grid",
+        "subtitle": "Construa layouts CSS Grid visualmente — configure colunas, linhas, espaçamento e alinhamento com pré-visualização ao vivo"
+    },
+    "editor": {
+        "title": "Gerador CSS Grid",
+        "label_cols": "Colunas",
+        "label_rows": "Linhas",
+        "label_col_template": "Template de colunas",
+        "label_gap": "Espaço (gap)",
+        "label_align": "align-items",
+        "label_preview": "Pré-visualização ao vivo",
+        "btn_copy": "Copiar CSS"
+    },
+    "content": {
+        "why_title": "Por que usar um gerador visual de CSS Grid?",
+        "why_desc": "CSS Grid é o sistema de layout mais poderoso em CSS, mas sua sintaxe — grid-template-columns, grid-template-rows, unidades fr, minmax(), repeat() — tem uma curva de aprendizado íngreme. Nosso gerador visual permite configurar sua grade via controles deslizantes e dropdowns e ver o layout atualizar instantaneamente, para que você entenda o efeito de cada propriedade sem precisar mergulhar na documentação do MDN.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Pré-visualização de grade ao vivo",
+                "desc": "Veja sua grade atualizar em tempo real enquanto ajusta colunas, linhas, espaçamento e alinhamento"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Suporte a unidades fr",
+                "desc": "Os templates usam unidades fracionárias (fr) para grades flexíveis e responsivas que se adaptam ao tamanho do contêiner"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Saída CSS pronta para uso",
+                "desc": "Exporta um bloco CSS .container limpo com grid-template-columns, rows, gap e align-items"
+            }
+        },
+        "how_title": "Como criar um layout CSS Grid",
+        "how_steps": {
+            "1": {
+                "title": "Defina colunas e linhas",
+                "desc": "Use os controles deslizantes para estabelecer o número de colunas e linhas da sua grade"
+            },
+            "2": {
+                "title": "Escolha template e espaçamento",
+                "desc": "Selecione um template de colunas (igual, fixo+flex, minmax responsivo) e ajuste o espaçamento entre células"
+            },
+            "3": {
+                "title": "Copie o CSS",
+                "desc": "Clique em 'Copiar CSS' para o bloco CSS completo pronto para colar em sua folha de estilos"
+            }
+        },
+        "uses_title": "Casos de uso do CSS Grid",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Layouts de página",
+                "desc": "Construa estruturas cabeçalho/barra lateral/conteúdo principal/rodapé com áreas de grade nomeadas"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Painéis de controle",
+                "desc": "Crie layouts de painel complexos com cartões de tamanhos diferentes via grid-column e grid-row spans"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galerias de imagens",
+                "desc": "Construa galerias de imagens tipo alvenaria ou uniformes com auto-fill e minmax para responsividade"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Layouts de revista",
+                "desc": "Crie layouts editoriais com colunas assimétricas e elementos em destaque abrangendo várias células"
+            }
+        },
+        "tips_title": "Boas práticas do CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Prefira unidades fr a porcentagens",
+                "desc": "A unidade fr (fração) distribui o espaço disponível após colunas de tamanho fixo, sem calcular manualmente porcentagens para colunas flexíveis."
+            },
+            "minmax": {
+                "title": "✓ Use minmax() para grades responsivas",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) cria uma grade responsiva que ajusta automaticamente o número de colunas — sem media queries."
+            },
+            "named": {
+                "title": "✓ Use áreas de grade nomeadas",
+                "desc": "grid-template-areas com células nomeadas (header, sidebar, main, footer) torna layouts de página legíveis e fáceis de modificar."
+            },
+            "auto": {
+                "title": "✓ Entenda auto-fill vs auto-fit",
+                "desc": "auto-fill cria o máximo de trilhas possível (deixando trilhas vazias). auto-fit colapsa trilhas vazias e expande itens existentes — geralmente melhor para grades de cartões."
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "O que é uma unidade fr em CSS Grid?",
+            "a1": "fr significa 'unidade fracionária'. 1fr representa uma fração do espaço livre disponível no contêiner de grade. repeat(3, 1fr) cria 3 colunas iguais que compartilham igualmente todo o espaço disponível.",
+            "q2": "Como CSS Grid difere do Flexbox?",
+            "a2": "Flexbox é unidimensional — dispõe itens ao longo de um único eixo (linha ou coluna). CSS Grid é bidimensional — controla linhas e colunas simultaneamente, tornando-o muito mais poderoso para layouts de página.",
+            "q3": "O que faz minmax()?",
+            "a3": "minmax(min, max) define um intervalo de tamanho para uma trilha de grade. minmax(200px, 1fr) significa que uma coluna tem pelo menos 200px de largura mas pode crescer para preencher o espaço disponível — ideal para grades responsivas.",
+            "q4": "Quando usar CSS Grid em vez de Flexbox?",
+            "a4": "Use Grid para layouts 2D onde você precisa de controle simultâneo de linhas e colunas. Use Flexbox para layouts de componentes 1D como barras de navegação e linhas de formulário. A maioria dos layouts modernos usa ambos."
+        }
+    }
+}

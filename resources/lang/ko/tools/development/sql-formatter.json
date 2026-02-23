@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "SQL 포매터 온라인 - SQL 무료 형식화 | Optimizo",
+        "description": "SQL 쿼리를 온라인에서 무료로 형식화 및 정리하세요. SELECT, INSERT, UPDATE, DELETE, CREATE 및 복잡한 JOIN을 즉시 형식화.",
+        "h1": "SQL 포매터",
+        "subtitle": "SQL 쿼리를 즉시 아름답게 형식화 — 모든 주요 SQL 방언과 호환"
+    },
+    "editor": {
+        "title": "SQL 포매터",
+        "label_input": "SQL 쿼리 입력",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "SQL 형식화",
+        "btn_minify": "SQL 압축",
+        "label_output": "형식화된 SQL",
+        "btn_copy": "SQL 복사"
+    },
+    "content": {
+        "why_title": "왜 SQL 쿼리를 형식화해야 하나요?",
+        "why_desc": "형식화되지 않은 SQL은, 특히 복잡한 JOIN, 서브쿼리, CTE의 경우 거의 읽을 수 없습니다. 저희 포매터는 적절한 들여쓰기, 줄바꿈, 키워드 대문자화를 추가하여 쿼리 검토, 디버깅, 팀 공유를 쉽게 만듭니다.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "키워드 대문자화",
+                "desc": "SELECT, FROM, WHERE, JOIN 및 모든 SQL 키워드를 자동으로 대문자로 변환"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "스마트 들여쓰기",
+                "desc": "서브쿼리, CASE 식, 중첩된 절에 올바른 들여쓰기 적용"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "압축",
+                "desc": "모든 공백을 제거하여 SQL을 한 줄로 압축 — 코드 내 쿼리 문자열에 이상적"
+            }
+        },
+        "how_title": "3단계로 SQL 형식화하는 방법",
+        "how_steps": {
+            "1": {
+                "title": "SQL 쿼리 붙여넣기",
+                "desc": "코드 에디터, DB 클라이언트, 쿼리 로그에서 SQL을 복사하여 붙여넣기"
+            },
+            "2": {
+                "title": "형식화 클릭",
+                "desc": "\"SQL 형식화\"를 클릭하여 올바른 들여쓰기와 키워드 대문자화 적용"
+            },
+            "3": {
+                "title": "복사 및 사용",
+                "desc": "형식화된 SQL을 DB 클라이언트, ORM, 문서에 직접 복사"
+            }
+        },
+        "uses_title": "SQL 형식화 사용 사례",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "코드 리뷰",
+                "desc": "리뷰 전 SQL을 형식화하여 동료가 구조를 명확히 볼 수 있도록 함"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "쿼리 디버깅",
+                "desc": "복잡한 WHERE 절과 JOIN 체인을 해독하여 논리 오류를 빠르게 찾기"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "문서화",
+                "desc": "기술 문서, README, 튜토리얼에 잘 형식화된 SQL 삽입"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "쿼리 최적화",
+                "desc": "형식화된 SQL로 누락된 인덱스와 비효율적인 JOIN 순서를 더 쉽게 식별"
+            }
+        },
+        "tips_title": "SQL 모범 사례",
+        "tips": {
+            "select": {
+                "title": "✓ SELECT * 피하기",
+                "desc": "SELECT * 대신 항상 열 이름을 지정하세요. 성능이 향상되고 테이블 스키마 변경 시 문제를 방지합니다."
+            },
+            "alias": {
+                "title": "✓ 명시적 별칭 사용",
+                "desc": "JOIN에서 명확한 테이블 별칭(사용자에는 u, 주문에는 o 등)을 사용하여 복잡한 쿼리를 읽기 쉽게 만드세요."
+            },
+            "explain": {
+                "title": "✓ EXPLAIN 사용",
+                "desc": "느린 쿼리를 배포하기 전에 EXPLAIN 또는 EXPLAIN ANALYZE를 실행하여 DB가 어떻게 실행하는지 이해하세요."
+            },
+            "index": {
+                "title": "✓ WHERE 열에 인덱스 생성",
+                "desc": "WHERE, JOIN ON, ORDER BY의 열에 인덱스가 있는지 확인하여 최적의 성능을 달성하세요."
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "어떤 SQL 방언이 지원되나요?",
+            "a1": "표준 SQL 및 MySQL, PostgreSQL, SQLite, SQL Server(T-SQL), Oracle과 호환됩니다. 방언별 키워드는 그대로 유지됩니다.",
+            "q2": "형식화가 쿼리 동작을 변경하나요?",
+            "a2": "아니요. 포매터는 공백과 키워드 대소문자화만 수정합니다. 쿼리 로직, 결과, 실행 계획은 완전히 변경되지 않습니다.",
+            "q3": "저장 프로시저가 있는 SQL을 형식화할 수 있나요?",
+            "a3": "예. CREATE PROCEDURE, BEGIN/END, DECLARE 문 및 기타 절차적 SQL 구조를 처리합니다.",
+            "q4": "애플리케이션에서 압축의 용도는 무엇인가요?",
+            "a4": "압축된 SQL은 소스 코드에 내장된 쿼리 문자열 크기를 줄이고, 로그를 더 간결하게 만들며, 간단한 파싱 성능을 약간 향상시킬 수 있습니다."
+        }
+    }
+}

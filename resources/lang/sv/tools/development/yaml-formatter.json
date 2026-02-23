@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "YAML-formaterare Online - Formatera YAML-filer Gratis | Optimizo",
+        "description": "Formatera och validera YAML-filer online gratis. Omedelbar YAML-rensning, korrekt indragning och syntaxkontroll.",
+        "h1": "YAML-formaterare",
+        "subtitle": "Formatera och validera YAML-filer direkt — komplexa nästlingar, ankare och alias stöds"
+    },
+    "editor": {
+        "title": "YAML-formaterare",
+        "label_input": "YAML-indata",
+        "ph_input": "name: Min app\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "Formatera YAML",
+        "label_output": "Formaterad YAML",
+        "btn_copy": "Kopiera YAML"
+    },
+    "content": {
+        "why_title": "Varför formatera YAML-filer?",
+        "why_desc": "YAML är mycket känsligt för indragningsproblem — ett extra mellanslag kan orsaka parsningsfel eller tyst datakorruption. Kubernetes, Docker Compose, GitHub Actions och Ansible använder YAML-konfigurationsfiler, och formateringsfel kan blockera hela driftsättningar.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Normalisering av indragning",
+                "desc": "Normaliserar blandad indragning till konsekvent 2-mellanslags format i hela dokumentet"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Syntaxvalidering",
+                "desc": "Identifierar indragningsfel, blandade tab/mellanslag och strukturella problem"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Ankare och alias",
+                "desc": "Fullt stöd för YAML-ankare (&) och alias (*) för dokumentåteranvändning"
+            }
+        },
+        "how_title": "Formatera YAML i 3 steg",
+        "how_steps": {
+            "1": {
+                "title": "Klistra in YAML",
+                "desc": "Klistra in ett Kubernetes-manifest, GitHub Actions-arbetsflöde eller YAML-konfigurationsfil"
+            },
+            "2": {
+                "title": "Formatera och validera",
+                "desc": "Verktyget validerar syntaxen och omformaterar automatiskt med konsekvent indragning"
+            },
+            "3": {
+                "title": "Kopiera och driftsätt",
+                "desc": "Kopiera den formaterade YAML:en till dina filer, CI-pipelines eller driftsättningsverktyg"
+            }
+        },
+        "uses_title": "Användningsområden för YAML-formatering",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Kubernetes-manifest",
+                "desc": "Formatera Deployment-, Service- och ConfigMap-YAML-filer innan du tillämpar dem på klustret"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "CI/CD-pipelines",
+                "desc": "Validera GitHub Actions-, GitLab CI- och CircleCI-arbetsflöden för att förhindra pipelinefel"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Ansible Playbooks",
+                "desc": "Formatera och validera Ansible-uppgifter, variabler och inventarier"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Kontrollera att docker-compose.yml är korrekt formaterat innan docker compose up"
+            }
+        },
+        "tips_title": "Bästa praxis för YAML",
+        "tips": {
+            "spaces": {
+                "title": "✓ Använd mellanslag, inte tabbar",
+                "desc": "YAML-specifikationen förbjuder uttryckligen tabbecken för indragning. Konfigurera din redigerare att infoga mellanslag när du trycker Tab i YAML-filer."
+            },
+            "quotes": {
+                "title": "✓ Använd citattecken för specialtecken",
+                "desc": "Strängar som innehåller : # [ ] { } eller börjar med specialtecken måste citeras för att YAML inte ska misstolka dem."
+            },
+            "anchors": {
+                "title": "✓ Använd ankare för att minska upprepningar",
+                "desc": "YAML-ankare (&namn) och alias (*namn) låter dig återanvända värden i dokumentet."
+            },
+            "lint": {
+                "title": "✓ Lint-kontrollera innan commit",
+                "desc": "Kör yamllint eller använd den här formateraren i en pre-commit-hook för att fånga formateringsproblem tidigt."
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Varför fungerar inte YAML med tabbar istället för mellanslag?",
+            "a1": "YAML-specifikationen förbjuder uttryckligen tecknet tabb för indragning eftersom olika redigerare visar tabbar med olika bredd. Mellanslag ger konsekvent indragning som alla YAML-parsers tolkar lika.",
+            "q2": "Vad gör YAML-ankare (&) och alias (*)?",
+            "a2": "Ankare definierar ett återanvändbart block med &ankarnamn; alias refererar till det med *ankarnamn. På så sätt kan du definiera ett värde en gång och använda det på flera ställen.",
+            "q3": "Vad är skillnaden mellan YAML och JSON?",
+            "a3": "YAML är en supermängd av JSON — giltig JSON är också giltig YAML. YAML lägger till stöd för kommentarer, ankare, flerradsssträngar och mer läsbar syntax.",
+            "q4": "När ska jag välja YAML istället för TOML för konfiguration?",
+            "a4": "YAML har bredare verktygsstöd (Kubernetes, Ansible, de flesta CI-system) och kan uttrycka komplexa nästlade strukturer kortfattat. I DevOps-konfiguration är YAML standard."
+        }
+    }
+}

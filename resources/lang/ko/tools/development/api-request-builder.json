@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "API 요청 빌더 온라인 - 무료 HTTP 클라이언트 | Optimizo",
+        "description": "HTTP API 요청을 온라인에서 무료로 만들고 전송하세요. 사용자 정의 헤더, 요청 본문, 쿼리 매개변수와 함께 GET, POST, PUT, PATCH, DELETE 지원.",
+        "h1": "API 요청 빌더",
+        "subtitle": "HTTP API 요청 만들기, 전송, 검사 — 브라우저 기반 경량 HTTP 클라이언트"
+    },
+    "editor": {
+        "title": "API 요청 빌더",
+        "btn_send": "요청 전송",
+        "tab_headers": "헤더",
+        "tab_body": "본문",
+        "tab_params": "매개변수",
+        "btn_add_header": "헤더 추가",
+        "btn_add_param": "매개변수 추가",
+        "label_response": "응답",
+        "btn_copy_response": "응답 복사"
+    },
+    "content": {
+        "why_title": "왜 API 요청 빌더를 사용해야 하나요?",
+        "why_desc": "REST API 테스트에는 일반적으로 Postman, Insomnia 설치나 curl 명령어 작성이 필요합니다. 저희 브라우저 기반 HTTP 클라이언트는 설치가 필요 없습니다 — 열고 바로 요청을 전송하세요.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "모든 HTTP 메서드",
+                "desc": "사용자 정의 헤더와 JSON/폼 본문으로 GET, POST, PUT, PATCH, DELETE 지원"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "형식화된 응답",
+                "desc": "응답 본문이 들여쓰기와 함께 자동 표시, 상태 코드와 응답 시간 확인"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "바로 사용 가능",
+                "desc": "설치 불필요 — 계정이나 플러그인 없이 브라우저에서 완전 작동"
+            }
+        },
+        "how_title": "API 요청 전송 방법",
+        "how_steps": {
+            "1": {
+                "title": "URL 및 메서드 입력",
+                "desc": "API 엔드포인트 URL을 입력하고 HTTP 메서드 선택 (GET, POST 등)"
+            },
+            "2": {
+                "title": "헤더 및 본문 추가",
+                "desc": "\"헤더\" 탭에서 Authorization, Content-Type 등 추가. POST/PUT 데이터에는 \"본문\" 사용."
+            },
+            "3": {
+                "title": "전송 및 검사",
+                "desc": "\"전송\"을 클릭하여 요청 실행. 응답 본문, 상태 코드, 시간이 아래에 표시."
+            }
+        },
+        "uses_title": "API 요청 빌더 사용 사례",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "API 디버깅",
+                "desc": "사용자 정의 헤더와 본문으로 개별 엔드포인트를 테스트하여 인증/데이터 문제 디버깅"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "인증 토큰 테스트",
+                "desc": "코드 작성 없이 Bearer, Basic Auth, API 키 스킴 테스트"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "API 탐색",
+                "desc": "공개 API(GitHub, OpenWeather, JSONPlaceholder)를 탐색하고 응답 이해"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "버그 재현",
+                "desc": "버그 보고서를 위한 정확한 요청/응답 데이터로 API 버그 재현 및 문서화"
+            }
+        },
+        "tips_title": "API 테스트 모범 사례",
+        "tips": {
+            "headers": {
+                "title": "✓ 항상 Content-Type 설정",
+                "desc": "JSON 본문을 전송할 때는 항상 Content-Type: application/json을 포함하세요. 없으면 많은 API가 요청을 거부하거나 잘못 해석합니다."
+            },
+            "cors": {
+                "title": "✓ CORS 제한 이해",
+                "desc": "브라우저는 적절한 CORS 헤더 없이 크로스 오리진 요청을 차단합니다. 브라우저에서 요청이 실패하면 curl 또는 서버 사이드 프록시를 사용하세요."
+            },
+            "auth": {
+                "title": "✓ API 키를 하드코딩하지 마세요",
+                "desc": "프로덕션 코드에서는 환경 변수를 사용하세요. 요청 빌더는 테스트 전용입니다 — 실제 API 키가 있는 스크린샷을 공유하지 마세요."
+            },
+            "status": {
+                "title": "✓ HTTP 상태 코드 확인",
+                "desc": "200=OK, 201=Created, 400=Bad Request, 401=Unauthorized, 403=Forbidden, 404=Not Found, 500=Server Error."
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "왜 크로스 오리진 요청이 실패하나요?",
+            "a1": "브라우저는 CORS(Cross-Origin Resource Sharing) 제한을 적용합니다. 대상 API에 Access-Control-Allow-Origin 헤더가 포함되어 있지 않으면 브라우저가 요청을 차단합니다. 이것은 오류가 아닙니다 — CORS 지원이 없는 API에는 curl 또는 백엔드 프록시를 사용하세요.",
+            "q2": "multipart/form-data 요청을 전송할 수 있나요?",
+            "a2": "현재 빌더는 JSON 및 일반 텍스트 본문을 지원합니다. 파일 업로드 등의 멀티파트 폼 데이터에는 Postman과 같은 전용 도구를 사용하세요.",
+            "q3": "이것이 Postman의 대안인가요?",
+            "a3": "빠른 테스트와 탐색에는 대안으로 사용할 수 있습니다. 팀 협업, 저장된 컬렉션, 환경, 자동 테스트에는 Postman이나 Bruno가 더 많은 기능을 제공합니다.",
+            "q4": "PUT과 PATCH의 차이는 무엇인가요?",
+            "a4": "PUT은 요청 본문으로 리소스 전체를 교체합니다. PATCH는 부분적인 업데이트를 적용합니다 — 본문의 필드만 변경됩니다. 대부분의 REST API는 변경되지 않은 필드를 덮어쓰지 않도록 업데이트에 PATCH를 사용합니다."
+        }
+    }
+}

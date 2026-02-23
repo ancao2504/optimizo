@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON to TOML Converter - Free Online Format Converter",
+        "description": "Convert JSON to TOML format online for free. Automatically generates TOML table sections, handles nested objects, and outputs clean readable TOML.",
+        "h1": "JSON to TOML Converter",
+        "subtitle": "Convert JSON configuration data to more readable TOML format — automatic table and section generation"
+    },
+    "editor": {
+        "title": "JSON to TOML Converter",
+        "label_json": "JSON Input",
+        "ph_json": "{\n  \"title\": \"My App\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "TOML Output",
+        "btn_copy": "Copy TOML"
+    },
+    "content": {
+        "why_title": "Why Convert JSON Configuration Files to TOML?",
+        "why_desc": "JSON is not designed for configuration files — it lacks comments, has noisy syntax for nested data, and requires extra escaping. TOML makes the same data more readable with [section] headers, # comments, and cleaner key-value syntax. Converting your config.json to config.toml improves maintainability, self-documentation, and collaboration for any project configuration.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Automatic Section Generation",
+                "desc": "JSON nested objects automatically become [section.subsection] TOML table paths"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Type Preservation",
+                "desc": "JSON numbers, booleans, and strings map correctly to their TOML equivalents without data loss"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Cleaner Configuration",
+                "desc": "The same data expressed in TOML is typically 20–40% shorter and far more readable than JSON"
+            }
+        },
+        "how_title": "How to Convert JSON to TOML",
+        "how_steps": {
+            "1": {
+                "title": "Paste JSON Config",
+                "desc": "Copy your existing JSON configuration file and paste it into the left panel"
+            },
+            "2": {
+                "title": "Review TOML Output",
+                "desc": "The right panel shows the equivalent TOML — check that the structure matches your expectations"
+            },
+            "3": {
+                "title": "Add Comments & Save",
+                "desc": "Copy the TOML, add # comments to document each section, then save as your new config file"
+            }
+        },
+        "uses_title": "JSON to TOML Use Cases",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Creating Cargo.toml",
+                "desc": "Convert package.json project info to Cargo.toml format to accelerate Rust project initialization"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Migrating to pyproject.toml",
+                "desc": "Convert setup.cfg or setup.py config to the modern Python packaging standard pyproject.toml"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Config File Upgrade",
+                "desc": "Migrate config.json to config.toml and add # comments to document each configuration option"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Cross-Tool Config Sharing",
+                "desc": "Share the same configuration data between JSON and TOML tool ecosystems by converting as needed"
+            }
+        },
+        "tips_title": "JSON to TOML Conversion Tips",
+        "tips": {
+            "arrays": {
+                "title": "✓ Check Arrays of Objects Carefully",
+                "desc": "JSON arrays of objects ([{name:\"a\"},{name:\"b\"}]) use TOML's [[array-of-tables]] syntax. Verify these convert correctly in the output."
+            },
+            "null": {
+                "title": "✓ TOML Has No null Value",
+                "desc": "JSON's null has no direct TOML equivalent. Nulls are typically omitted or replaced with empty strings in conversion. Handle these cases manually."
+            },
+            "keys": {
+                "title": "✓ Quote Keys With Special Characters",
+                "desc": "TOML keys containing hyphens or spaces must be quoted: \"content-type\" = \"json\". Use underscores in JSON keys to avoid this issue."
+            },
+            "test": {
+                "title": "✓ Test With Your Application's TOML Parser",
+                "desc": "Different TOML parsers (toml-rs, tomllib, @iarna/toml) may handle edge cases differently. Always test the converted TOML in your actual runtime environment."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Can all JSON data types be converted to TOML?",
+            "a1": "Most types convert cleanly: strings, numbers, booleans, arrays, and objects all have direct TOML equivalents. JSON null has no TOML equivalent and is typically omitted. Deeply nested object arrays may need manual adjustment.",
+            "q2": "Can TOML fully replace JSON for configuration files?",
+            "a2": "Yes, for static configuration files. Any code reading the config needs to switch from JSON.parse() to a TOML parser (toml crate in Rust, tomllib in Python, etc.). TOML cannot replace JSON for APIs or data exchange.",
+            "q3": "What file extension does TOML use?",
+            "a3": "TOML files use the .toml extension. Common examples: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (Cargo settings).",
+            "q4": "How do I choose between JSON, YAML, and TOML for config?",
+            "a4": "Use JSON for API data exchange (universal support, no comments needed). Use YAML for DevOps config (Kubernetes, CI/CD — rich features, wide tool support). Use TOML for application config files (simplest syntax, explicit types, great for human editing)."
+        }
+    }
+}

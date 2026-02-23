@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Regex-tester Online - Test Regulære Udtryk Gratis | Optimizo",
+        "description": "Test regulære udtryk (Regex) online gratis. Realtidsmarkering af matches, understøttelse af flag og detaljer om indfangningsgrupper.",
+        "h1": "Regex-tester",
+        "subtitle": "Test Regex i realtid — matchmarkering, flag og detaljer om indfangningsgrupper"
+    },
+    "editor": {
+        "title": "Regex-tester",
+        "label_pattern": "Mønster (Regex)",
+        "ph_pattern": "Eks. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Flag",
+        "label_test": "Testtekst",
+        "ph_test": "Indsæt tekst til test her...",
+        "btn_test": "Test",
+        "btn_clear": "Ryd"
+    },
+    "content": {
+        "why_title": "Hvorfor bruge en Regex-tester?",
+        "why_desc": "Regulære udtryk er kraftfulde mønstermatchningsværktøjer, der bruges i næsten alle programmeringssprog. Fejlretning kan være kompliceret — en enkelt tegnfejl kan ændre adfærden fuldstændig. Vores værktøj markerer matches i realtid ved hvert tastetryk og viser indfangningsgruppe-detaljer.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Realtidsmarkering",
+                "desc": "Matches markeres øjeblikkeligt ved hvert tastetryk — ingen knap at trykke på"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Indfangningsgruppe-detaljer",
+                "desc": "Viser alle indfangningsgrupper, indekser og matchede værdier for hvert resultat"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Fuld flagunderstøttelse",
+                "desc": "Aktivér flag g, i, m, s, u, y individuelt og se deres effekt"
+            }
+        },
+        "how_title": "Test Regex i 3 trin",
+        "how_steps": {
+            "1": {
+                "title": "Indtast mønsteret",
+                "desc": "Skriv det regulære udtryk i mønsterfeltet (uden skråstreg)"
+            },
+            "2": {
+                "title": "Vælg flag",
+                "desc": "Aktivér flag som g (global), i (meget/lidt bogstavsfølsom), m (flerlinjet) efter behov"
+            },
+            "3": {
+                "title": "Indsæt testtekst",
+                "desc": "Indtast tekst og matches markeres automatisk"
+            }
+        },
+        "uses_title": "Almindelige anvendelsesområder for Regex",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Formularvalidering",
+                "desc": "Valider e-mailadresser, telefonnumre, URL'er, postnumre og brugerdefinerede formater"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Søg og erstat",
+                "desc": "Søg og erstat mønstre i koderedigerere, logfiler og tekstbehandlingspipelines"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Logparsing",
+                "desc": "Udtruk strukturerede data (IP, tidsstempel, fejlkode) fra ustrukturerede logs"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Inputsanering",
+                "desc": "Fjern eller erstat farlige tegn i brugerdata inden lagring eller visning"
+            }
+        },
+        "tips_title": "Bedste praksis for Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Brug ankre for præcis matchning",
+                "desc": "Brug ^ og $ til at forankre mønsteret til linjestarten og -slutningen"
+            },
+            "groups": {
+                "title": "✓ Foretruk ikke-indfangende grupper",
+                "desc": "Brug (?:...) i stedet for (...) når du ikke behøver at indfange gruppen"
+            },
+            "escape": {
+                "title": "✓ Escape specialtegn",
+                "desc": ". * + ? ( ) [ ] { } | ^ $ \\ har særlig betydning — brug \\ for bogstavelig matchning"
+            },
+            "test": {
+                "title": "✓ Test kanttilfælde",
+                "desc": "Test altid med tomme strenge, Unicode-tegn, meget lange input og grænseværdier"
+            }
+        },
+        "faq_title": "❓ Ofte stillede spørgsmål",
+        "faq": {
+            "q1": "Hvilken Regex-dialekt bruger testeren?",
+            "a1": "JavaScripts indbyggede RegExp-motor (ECMAScript-standard). Understøtter lookahead, lookbehind (ES2018+), navngivne indfangningsgrupper og Unicode-egenskaber.",
+            "q2": "Hvad er forskellen mellem flag g og m?",
+            "a2": "Flaget g (global) finder alle matches i strengen, ikke kun det første. Flaget m (flerlinjet) lader ^ og $ matche begyndelsen og slutningen af hver linje i stedet for hele strengen.",
+            "q3": "Hvordan matcher jeg et bogstaveligt punktum eller stjerne?",
+            "a3": "Escape med backslash: \\. matcher et bogstaveligt punktum, \\* matcher en bogstavelig stjerne.",
+            "q4": "Hvorfor matcher mit Regex mere tekst end forventet?",
+            "a4": "Du bruger sandsynligvis grådige kvantifikatorer. * og + er grådige som standard — de matcher så meget tekst som muligt. Tilføj ? for at gøre dem dovne: *? eller +? matcher så lidt som muligt."
+        }
+    }
+}

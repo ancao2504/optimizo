@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Generador de degradado CSS Online - Creador de gradiente gratuito | Optimizo",
+        "description": "Genera degradados CSS en línea gratis. Crea gradientes lineales, radiales y cónicos con múltiples paradas de color, control de ángulo y exportación CSS instantánea.",
+        "h1": "Generador de degradado CSS",
+        "subtitle": "Crea hermosos degradados lineales, radiales y cónicos con previsualización en vivo y exportación CSS"
+    },
+    "editor": {
+        "title": "Generador de degradado CSS",
+        "label_type": "Tipo de degradado",
+        "label_angle": "Ángulo",
+        "label_stops": "Paradas de color",
+        "btn_add_stop": "Añadir parada",
+        "btn_copy": "Copiar CSS"
+    },
+    "content": {
+        "why_title": "¿Por qué usar un generador visual de degradados?",
+        "why_desc": "Escribir degradados CSS a mano es tedioso — memorizar la sintaxis de linear-gradient(), radial-gradient() y conic-gradient() con múltiples paradas de color y posiciones es propenso a errores. Nuestro generador visual te permite gestionar las paradas de color con selectores y deslizadores de posición, con previsualización en vivo que se actualiza al instante, haciendo la creación de degradados rápida e intuitiva.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 tipos de degradado",
+                "desc": "Degradados lineales, radiales y cónicos todos soportados con controles específicos para cada tipo"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Degradados con múltiples colores",
+                "desc": "Añade paradas de color ilimitadas y arrastra sus posiciones para crear degradados multicolor complejos"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Previsualización en vivo",
+                "desc": "Ve tu degradado renderizado en tiempo real mientras ajustas colores, posiciones y el ángulo"
+            }
+        },
+        "how_title": "Cómo crear un degradado CSS",
+        "how_steps": {
+            "1": {
+                "title": "Elige el tipo de degradado",
+                "desc": "Selecciona un degradado lineal, radial o cónico y establece el ángulo o la dirección"
+            },
+            "2": {
+                "title": "Configura las paradas de color",
+                "desc": "Usa los selectores para definir el color de cada parada, y arrastra los deslizadores para posicionarlas"
+            },
+            "3": {
+                "title": "Copia el CSS",
+                "desc": "Haz clic en 'Copiar CSS' para la propiedad background completa lista para tu hoja de estilos"
+            }
+        },
+        "uses_title": "Casos de uso de los degradados CSS",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Fondos héroe",
+                "desc": "Crea impresionantes fondos de página entera con degradados diagonales o radiales"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Texto con degradado",
+                "desc": "Aplica degradados al texto con background-clip: text para efectos tipográficos llamativos"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Bordes con degradado",
+                "desc": "Usa degradados con border-image para crear bordes de colores en los elementos"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Superposiciones de imagen",
+                "desc": "Superpone degradados sobre imágenes para crear superposiciones oscuras que permitan la legibilidad del texto"
+            }
+        },
+        "tips_title": "Buenas prácticas para los degradados CSS",
+        "tips": {
+            "angle": {
+                "title": "✓ Usa 135deg para degradados diagonales",
+                "desc": "Un ángulo de 135 grados crea una diagonal clásica de arriba-izquierda a abajo-derecha que se ve natural y dinámica — una elección popular para secciones héroe."
+            },
+            "subtle": {
+                "title": "✓ Mantén los degradados sutiles para la UI",
+                "desc": "Para elementos de UI (botones, tarjetas), usa degradados muy sutiles del mismo tono con 10-20% de diferencia de luminosidad para añadir profundidad sin ruido visual."
+            },
+            "fallback": {
+                "title": "✓ Proporciona un color de reserva",
+                "desc": "Añade un background-color sólido antes de tu degradado como alternativa: background-color: #6366f1; background: linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Anima la posición del degradado",
+                "desc": "Los degradados CSS no se pueden animar directamente, pero puedes animar background-position sobre un degradado más grande para crear un efecto fluido."
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Cuál es la diferencia entre degradados lineales, radiales y cónicos?",
+            "a1": "Los degradados lineales hacen la transición a lo largo de una línea recta en un ángulo. Los degradados radiales irradian desde un punto central en círculos o elipses. Los degradados cónicos giran alrededor de un punto central como un gráfico circular — ideal para anillos de progreso y ruedas de color.",
+            "q2": "¿Cómo crear un degradado transparente?",
+            "a2": "Usa transparent como parada de color: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Esto crea un degradado desde un color semiopaco hasta completamente transparente — perfecto para superposiciones de imágenes.",
+            "q3": "¿Por qué mi degradado tiene bandas o rayas?",
+            "a3": "El bandeo (rayas visibles entre colores) aparece en pantallas de baja calidad o en transiciones entre tonos similares. Añade una parada de color intermedia en un tono complementario para suavizar la transición.",
+            "q4": "¿Puedo usar degradados como bordes?",
+            "a4": "Sí, usa border-image: linear-gradient(...) 1. Esto establece el degradado como imagen de borde. Alternativamente, usa un pseudoelemento ::before con fondo degradado y z-index negativo para simular un borde degradado."
+        }
+    }
+}

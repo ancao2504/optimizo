@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "Online JavaScript Obfuskátor - Chraňte JS Kód Zdarma | Optimizo",
+        "description": "Obfuskujte JavaScript kód online zdarma. Přejmenování proměnných, kódování řetězců a JS minifikace ztěžují čtení zdrojového kódu.",
+        "h1": "JavaScript Obfuskátor",
+        "subtitle": "Chraňte JavaScript kód přejmenováním proměnných, kódováním řetězců a minifikací — vše v prohlížeči"
+    },
+    "editor": {
+        "title": "JavaScript Obfuskátor",
+        "label_input": "JavaScript vstup",
+        "ph_input": "function greet(name) {\n  return 'Ahoj, ' + name + '!';\n}",
+        "opt_rename": "Přejmenovávat proměnné",
+        "opt_strings": "Kódovat řetězce",
+        "opt_minify": "Minifikovat kód",
+        "disclaimer": "⚠️ Obfuskace ztěžuje čtení kódu, ale není šifrování. Zkušení vývojáři mohou obfuskovaný kód zpětně analyzovat. Spoléhejte se výhradně na obfuskaci k ochraně citlivých dat.",
+        "btn_obfuscate": "Obfuskovat JavaScript",
+        "label_output": "Obfuskovaný výsledek",
+        "btn_copy": "Kopírovat JS"
+    },
+    "content": {
+        "why_title": "Proč obfuskovat JavaScript kód?",
+        "why_desc": "JavaScript běží v prohlížeči a zdrojový kód je vždy viditelný v DevTools. Obfuskace nemůže plně chránit kód, ale odrazuje od neoprávněného kopírování, zpomaluje zpětnou analýzu a vytváří dostatečné překážky pro ochranu proprietární obchodní logiky.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Přejmenování proměnných",
+                "desc": "Přejmenuje všechny proměnné, funkce a parametry na nečitelné hexadecimální identifikátory jako _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Kódování řetězců",
+                "desc": "Kóduje všechny řetězcové literály na hexadecimální escape sekvence — funkčně identické, ale nečitelné"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minifikace kódu",
+                "desc": "Kromě obfuskace odstraňuje komentáře a normalizuje mezery pro zmenšení souboru"
+            }
+        },
+        "how_title": "Obfuskace JavaScriptu ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vložte JavaScript",
+                "desc": "Zkopírujte JavaScript kód a vložte ho do vstupního pole"
+            },
+            "2": {
+                "title": "Vyberte nastavení",
+                "desc": "Vyberte techniky obfuskace, které chcete použít — vyberte všechny tři pro maximální ochranu"
+            },
+            "3": {
+                "title": "Zkopírujte a nahraďte",
+                "desc": "Zkopírujte obfuskovaný obsah a nahraďte původní soubor pro distribuci"
+            }
+        },
+        "uses_title": "Případy použití JavaScript obfuskace",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Komerční knihovny",
+                "desc": "Chraňte proprietární algoritmy v placených JavaScript knihovnách distribuovaných zákazníkům"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Prohlížečové hry",
+                "desc": "Obfuskujte herní logiku, validaci skóre a kód ochrany před podváděním"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "SaaS widget",
+                "desc": "Chraňte vložené JavaScript widgety distribuované na zákaznické webové stránky"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Soutěže a hackathony",
+                "desc": "Chraňte originální algoritmy a přístupy v soutěžních příspěvcích"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro obfuskaci",
+        "tips": {
+            "testing": {
+                "title": "✓ Po obfuskaci testujte",
+                "desc": "Vždy testujte obfuskovaný kód v cílových prohlížečích — vzory jako eval() se mohou quebrar v přísném režimu."
+            },
+            "source": {
+                "title": "✓ Zachovejte původní zdrojový kód",
+                "desc": "Obfuskace je nevratná transformace. Vždy uchowejte původní čitelný zdrojový kód v bezpečném verzovacím systému."
+            },
+            "server": {
+                "title": "✓ Přesuňte citlivou logiku na server",
+                "desc": "Obfuskace není záruka bezpečnosti. Implementujte logiku skutečně citlivých operací na serverové straně, ne klientské."
+            },
+            "profiler": {
+                "title": "✓ Zkontrolujte dopad na výkon",
+                "desc": "Intenzivní kódování řetězců může mírně zpomalit JavaScript parsování. Profilujte obfuskovaný kód v Chrome DevTools před nasazením do produkce."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Lze obfuskaci JavaScriptu plně zvrátit?",
+            "a1": "Ano, s dostatečným úsilím. Nástroje jako de4js, webcrack a DevTools prohlížeče mohou částečně zvrátit obfuskaci. Cílem je učinit to dostatečně nákladným pro odrazení náhodného kopírování.",
+            "q2": "Může obfuskace rozbít JavaScript?",
+            "a2": "Při správném použití by obfuskace měla produkovat funkčně identický kód. Nicméně agresivní minifikace může rozbít určité vzory metaprogramování. Vždy důkladně testujte.",
+            "q3": "Penalizuje Google obfuskovaný JavaScript v SEO?",
+            "a3": "Google může indexovat a spouštět JavaScript stránky, i když je obfuskovaný. Pokud je vykreslený HTML obsah stejný, neexistuje žádná SEO penalizace.",
+            "q4": "Jaký je rozdíl mezi minifikací a obfuskací?",
+            "a4": "Minifikace odstraňuje mezery a komentáře a zkracuje názvy proměnných pro zmenšení souboru — kód je stále čitelný po přeformátování. Obfuskace se snaží učinit kód nečitelným pomocí matoucích názvů proměnných, kódování řetězců a dalších technik."
+        }
+    }
+}

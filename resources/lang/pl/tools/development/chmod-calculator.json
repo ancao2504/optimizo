@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Kalkulator chmod Online - Uprawnienia Linuxa za darmo | Optimizo",
+        "description": "Bezpłatny kalkulator chmod online. Konwertuj uprawnienia plików Linuxa między notacją symboliczną (rwxr-xr-x) a oktalną (755) i generuj polecenia chmod.",
+        "h1": "Kalkulator chmod",
+        "subtitle": "Obliczaj uprawnienia Linuxa — konwertuj między notacją symboliczną a oktalną i generuj polecenia chmod"
+    },
+    "editor": {
+        "title": "Kalkulator uprawnień chmod",
+        "label_octal": "Wartość oktalna",
+        "col_type": "Typ",
+        "col_read": "Odczyt (r)",
+        "col_write": "Zapis (w)",
+        "col_exec": "Wykonanie (x)",
+        "col_octal": "Oktalny",
+        "row_owner": "Właściciel",
+        "row_group": "Grupa",
+        "row_others": "Inni (Wszyscy)",
+        "btn_copy": "Kopiuj polecenie"
+    },
+    "content": {
+        "why_title": "Dlaczego używać kalkulatora chmod?",
+        "why_desc": "Uprawnienia plików Linuxa są wyrażane w dwóch formatach — symbolicznym (rwxr-xr-x) i oktalnym (755). Ręczne obliczanie prawidłowej wartości uprawnienia jest podatne na błędy, szczególnie w przypadku rzadziej używanych zestawów uprawnień. Nasz kalkulator pozwala wizualnie zaznaczać pola wyboru uprawnień i natychmiast generuje wartość oktalną oraz gotowe do użycia polecenie chmod.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Wizualny konstruktor uprawnień",
+                "desc": "Zaznaczaj pola odczyt/zapis/wykonanie dla właściciela/grupy/innych — wartości aktualizują się natychmiast"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Dwukierunkowa synchronizacja",
+                "desc": "Wpisz wartość oktalną (np. 755) a pola wyboru aktualizują się automatycznie, lub odwrotnie"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Gotowe polecenie",
+                "desc": "Generuje pełne polecenie chmod do wklejenia bezpośrednio w terminalu"
+            }
+        },
+        "how_title": "Jak obliczać uprawnienia",
+        "how_steps": {
+            "1": {
+                "title": "Zaznacz żądane uprawnienia",
+                "desc": "Kliknij pola odczyt/zapis/wykonanie dla Właściciela, Grupy i Innych"
+            },
+            "2": {
+                "title": "Sprawdź oktalny i symboliczny",
+                "desc": "Wartość oktalna (np. 755) i notacja symboliczna (rwxr-xr-x) aktualizują się natychmiast"
+            },
+            "3": {
+                "title": "Skopiuj polecenie",
+                "desc": "Skopiuj wygenerowane polecenie chmod i uruchom je w terminalu"
+            }
+        },
+        "uses_title": "Typowe scenariusze chmod",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Pliki serwera WWW",
+                "desc": "Ustaw 644 dla plików HTML/CSS/JS (właściciel odczyt/zapis, grupa/inni tylko odczyt) na Apache lub Nginx"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Skrypty wykonywalne",
+                "desc": "Ustaw 755 dla skryptów powłoki (pełny właściciel, grupa/inni odczyt+wykonanie), aby były wykonywalne"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "Klucze SSH",
+                "desc": "SSH wymaga, aby klucze prywatne miały uprawnienie 600 (tylko właściciel odczyt/zapis), inaczej SSH odmówi ich użycia"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Katalogi przesyłania",
+                "desc": "Ustaw 775 dla katalogów przesyłania WWW, aby proces serwera WWW mógł zapisywać przesłane pliki"
+            }
+        },
+        "tips_title": "Najlepsze praktyki uprawnień Linuxa",
+        "tips": {
+            "never777": {
+                "title": "✓ Nigdy nie używaj 777 w produkcji",
+                "desc": "chmod 777 daje wszystkim pełny dostęp do odczytu/zapisu/wykonania — poważne zagrożenie bezpieczeństwa. Zawsze przyznawaj minimalne niezbędne uprawnienia."
+            },
+            "least": {
+                "title": "✓ Zasada najmniejszych uprawnień",
+                "desc": "Zawsze przyznawaj minimalne niezbędne uprawnienia. Zacznij restrykcyjnie (600) i dodawaj uprawnienia w razie potrzeby, zamiast zaczynać od otwartego."
+            },
+            "recursive": {
+                "title": "✓ Uważaj na -R rekurencyjne",
+                "desc": "chmod -R stosuje uprawnienia rekurencyjnie do wszystkich plików i katalogów. Ustawianie wykonania na katalogach jest zazwyczaj prawidłowe, ale nie zawsze dla plików."
+            },
+            "umask": {
+                "title": "✓ Zrozum umask",
+                "desc": "Wartość umask odejmuje uprawnienia od wartości domyślnej. Umask 022 oznacza, że nowe pliki domyślnie otrzymują 644, a nowe katalogi 755."
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Co oznacza chmod 755?",
+            "a1": "755 oznacza: Właściciel (7) = odczyt+zapis+wykonanie, Grupa (5) = odczyt+wykonanie, Inni (5) = odczyt+wykonanie. To standardowe uprawnienie dla plików wykonywalnych i katalogów publicznych.",
+            "q2": "Jaka jest różnica między 644 a 755?",
+            "a2": "644 (rw-r--r--): Właściciel może odczytywać/zapisywać, inni mogą tylko odczytywać — dla zwykłych plików. 755 (rwxr-xr-x): Właściciel może też wykonywać — dla skryptów i katalogów.",
+            "q3": "Dlaczego mój klucz SSH potrzebuje uprawnienia 600?",
+            "a3": "SSH odmawia używania kluczy prywatnych dostępnych dla innych użytkowników. Uprawnienie 600 (rw-------) zapewnia, że tylko właściciel może odczytywać/zapisywać klucz, uniemożliwiając nieautoryzowany dostęp.",
+            "q4": "Co oznacza bit wykonania na katalogu?",
+            "a4": "Dla katalogów bit wykonania oznacza 'przechodzenie' — umożliwia użytkownikom wejście do katalogu i dostęp do zawartych w nim plików. Bez uprawnienia wykonania na katalogu użytkownicy nie mogą do niego wejść, nawet jeśli mają uprawnienie odczytu."
+        }
+    }
+}

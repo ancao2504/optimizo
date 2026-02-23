@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "JavaScript Obfuscator Online - Gratis JS-codebeveiliging | Optimizo",
+        "description": "Verduister je JavaScript-code online gratis. Hernoem variabelen, codeer strings en minificeer JS om je broncode moeilijker leesbaar te maken.",
+        "h1": "JavaScript Obfuscator",
+        "subtitle": "Bescherm je JavaScript-code door variabelen te hernoemen, strings te coderen en te minificeren — volledig in je browser"
+    },
+    "editor": {
+        "title": "JavaScript Obfuscator",
+        "label_input": "JavaScript-invoer",
+        "ph_input": "function begroet(naam) {\n  return 'Hallo, ' + naam + '!';\n}",
+        "opt_rename": "Variabelen hernoemen",
+        "opt_strings": "Strings coderen",
+        "opt_minify": "Code minificeren",
+        "disclaimer": "⚠️ Verduistering maakt code moeilijker leesbaar maar is geen versleuteling. Vastberaden ontwikkelaars kunnen verduisterde code nog steeds reverse-engineeren. Vertrouw nooit alleen op verduistering om gevoelige gegevens te beschermen.",
+        "btn_obfuscate": "JavaScript verduisteren",
+        "label_output": "Verduisterd resultaat",
+        "btn_copy": "JS kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom JavaScript-code verduisteren?",
+        "why_desc": "JavaScript wordt uitgevoerd in de browser waar de broncode altijd zichtbaar is via DevTools. Verduistering maakt code niet onkraakbaar, maar verhoogt de drempel voldoende om ongeautoriseerde kopieën te ontmoedigen, reverse engineering te vertragen en bedrijfseigen bedrijfslogica, prijsalgoritmen en licentiemechanismen te beschermen. Het is een gebruikelijke beveiligingslaag voor commerciële JS-bibliotheken, games en SaaS-applicaties.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Variabelen hernoemen",
+                "desc": "Hernoemt alle variabelen, functies en parameters naar onleesbare hexadecimale identifiers als _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Strings coderen",
+                "desc": "Codeert alle tekenreeksliteralen naar hexadecimale escape-reeksen die functioneel identiek maar onleesbaar zijn"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Code minificeren",
+                "desc": "Verwijdert opmerkingen en normaliseert witruimte om de bestandsgrootte naast de verduistering te verkleinen"
+            }
+        },
+        "how_title": "JavaScript verduisteren in 3 stappen",
+        "how_steps": {
+            "1": {
+                "title": "Plak de JavaScript",
+                "desc": "Kopieer je JavaScript-code en plak het in het invoerveld"
+            },
+            "2": {
+                "title": "Selecteer opties",
+                "desc": "Kies de toe te passen verduisteringstechnieken — alle drie samen bieden maximale bescherming"
+            },
+            "3": {
+                "title": "Kopiëren en vervangen",
+                "desc": "Kopieer de verduisterde inhoud en vervang je originele JS-bestand voor de implementatie"
+            }
+        },
+        "uses_title": "Gebruiksscenario's voor JavaScript-verduistering",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Commerciële bibliotheken",
+                "desc": "Bescherm bedrijfseigen algoritmen in betaalde JavaScript-bibliotheken die aan klanten worden gedistribueerd"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Browsergames",
+                "desc": "Voorkom vals spelen door spellogica, scorevalidatie en anti-cheatcode te verduisteren"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "SaaS-widgets",
+                "desc": "Bescherm ingesloten JavaScript-widgets die op websites van klanten worden gedistribueerd"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Wedstrijden en hackathons",
+                "desc": "Bescherm unieke algoritmen en benaderingen in wedstrijdinzendingen"
+            }
+        },
+        "tips_title": "Best practices voor verduistering",
+        "tips": {
+            "testing": {
+                "title": "✓ Test na verduistering",
+                "desc": "Test altijd verduisterde code in je doelbrowser — bepaalde patronen zoals eval() kunnen breken in strict mode-omgevingen."
+            },
+            "source": {
+                "title": "✓ Bewaar de originele broncode",
+                "desc": "Verduistering is eenrichtingsverkeer. Bewaar altijd de originele leesbare broncode in een beveiligde versiebeheerrepository."
+            },
+            "server": {
+                "title": "✓ Verplaats gevoelige logica naar de server",
+                "desc": "Verduistering is geen beveiligingsgarantie. Voor echt gevoelige bewerkingen (betalingen, authenticatie), implementeer de logica op de server — niet op de client."
+            },
+            "profiler": {
+                "title": "✓ Verifieer de prestatie-impact",
+                "desc": "Intensief coderen van strings kan JavaScript-parsing licht vertragen. Profileer verduisterde code in Chrome DevTools voordat je deze in productie implementeert."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Kan verduisterde JavaScript volledig worden gedeobfusket?",
+            "a1": "Ja, met voldoende inspanning. Tools zoals de4js, webcrack en browser DevTools kunnen verduistering gedeeltelijk terugdraaien. Het doel is de inspanning duur genoeg te maken om gelegenheidsplagiators te ontmoedigen — niet onkraakbare bescherming bereiken.",
+            "q2": "Kan verduistering mijn JavaScript breken?",
+            "a2": "Correct toegepast zou verduistering functioneel identieke code moeten produceren. Agressieve minificatie kan echter bepaalde metaprogrammeringspatronen breken, en agressief hernoemen kan conflicteren met frameworks die afhangen van functienamen. Test altijd grondig.",
+            "q3": "Straft Google verduisterde JavaScript voor SEO?",
+            "a3": "Google kan JavaScript van pagina's indexeren en uitvoeren, zelfs als het verduisterd is. Zolang de gerenderde HTML-inhoud hetzelfde is, is er geen SEO-straf. Vermijd het verduisteren van gestructureerde gegevens (JSON-LD) omdat dit rich results kan beïnvloeden.",
+            "q4": "Wat is het verschil tussen minificatie en verduistering?",
+            "a4": "Minificatie verwijdert witruimte, opmerkingen en verkort variabelenamen om de bestandsgrootte te verkleinen — de code is nog steeds leesbaar na herformattering. Verduistering is specifiek gericht op het onleesbaar maken van code met behulp van verwarrende variabelenamen, string-codering en andere technieken."
+        }
+    }
+}

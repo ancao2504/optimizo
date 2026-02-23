@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "SVG-optimoija Verkossa - Pakkaa SVG Ilmaiseksi | Optimizo",
+        "description": "Optimoi ja pakkaa SVG-tiedostoja verkossa ilmaiseksi. Poista kommentit, metatiedot ja tarpeettomat attribuutit tiedostokoon pienentämiseksi visuaalisen laadun säilyttäen.",
+        "h1": "SVG-optimoija",
+        "subtitle": "Pakkaa SVG-tiedostoja verkossa — poista metatiedot, kommentit ja tarpeettomat attribuutit tiedostokoon pienentämiseksi"
+    },
+    "editor": {
+        "title": "SVG-optimoija",
+        "opt_remove_comments": "Poista kommentit",
+        "opt_remove_metadata": "Poista metatiedot",
+        "opt_remove_ids": "Poista ID:t",
+        "opt_remove_dimensions": "Poista leveys/korkeus",
+        "opt_remove_doctype": "Poista DOCTYPE",
+        "opt_round_numbers": "Pyöristä luvut",
+        "opt_collapse_groups": "Poista tyhjät ryhmät",
+        "opt_remove_empty_containers": "Poista tyhjät säiliöt",
+        "label_input": "SVG-syöte",
+        "ph_input": "Liitä SVG-koodi tähän...",
+        "btn_optimize": "Optimoi SVG",
+        "label_output": "Optimoitu SVG",
+        "btn_copy": "Kopioi SVG"
+    },
+    "content": {
+        "why_title": "Miksi optimoida SVG-tiedostoja?",
+        "why_desc": "Illustratorista, Figmasta ja Inkscapesta viedyt SVG-tiedostot sisältävät paljon tarpeetonta dataa — kommentteja, muokkausmetatietoja, redundantteja attribuutteja ja tyhjiä säiliöitä. Optimoinnin jälkeen tiedostokoko voi pienentyä 30-70 % ja lataus nopeutua.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 optimointistrategiaa",
+                "desc": "Aktivoi/poista käytöstä kukin optimointivaihe itsenäisesti yksityiskohtaiseen hallintaan"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Kokosäästötilastot",
+                "desc": "Näe alkuperäinen koko, optimoitu koko ja säästöprosentti jokaisen optimoinnin jälkeen"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Häviötön optimointi",
+                "desc": "Kaikki optimoinnit säilyttävät SVG:n visuaalisen ulkoasun — poistaa vain näkymättömän metatiedon"
+            }
+        },
+        "how_title": "Optimoi SVG 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Liitä SVG-koodi",
+                "desc": "Kopioi SVG-lähdekoodi suunnittelutyökalusta tai tiedostosta ja liitä se syötekenttään"
+            },
+            "2": {
+                "title": "Valitse optimoinnit",
+                "desc": "Merkitse haluamasi optimointiasetukset — oletusasetukset antavat maksimaalisen pienennyksen"
+            },
+            "3": {
+                "title": "Kopioi ja käytä",
+                "desc": "Kopioi optimoitu SVG ja korvaa alkuperäinen tiedosto tai upota se suoraan HTML:ään"
+            }
+        },
+        "uses_title": "SVG-optimoinnin käyttötapaukset",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Ikonistot",
+                "desc": "Optimoi Figmasta tai Illustratorista viedyt ikonistot ennen niiden lisäämistä kirjastoon"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Logot",
+                "desc": "Siisti SVG-logot verkkosivuston ylätunnisteita, favicon-kuvia ja brändiresursseja varten"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "Animoidut SVG:t",
+                "desc": "Pienennä animoitujen SVG:iden peruskokoa, jotka ovat jo suuria animaatiodatan vuoksi"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA ja mobiili",
+                "desc": "Pienemmät SVG:t vähentävät mobiilissa kulutettavaa dataa ja parantavat Lighthouse-suorituskykyä"
+            }
+        },
+        "tips_title": "SVG-optimoinnin parhaat käytännöt",
+        "tips": {
+            "ids": {
+                "title": "✓ Ole varovainen ID:iden poistamisessa CSS-animaatioiden kanssa",
+                "desc": "Jos SVG käyttää CSS- tai JS-animaatioita, jotka kohdistuvat ID-elementteihin, poista 'Poista ID:t' käytöstä, jotta animaatiot eivät rikkoudu."
+            },
+            "viewbox": {
+                "title": "✓ Säilytä viewBox, poista leveys/korkeus",
+                "desc": "Leveys/korkeus-attribuuttien poistaminen ja vain viewBox:n säilyttäminen mahdollistaa SVG:n reagoivan skaalauksen CSS:n kautta."
+            },
+            "precision": {
+                "title": "✓ Pyöristä luvut 2 desimaalin tarkkuuteen",
+                "desc": "Polun koordinaatit, joissa on yli 5 desimaalia, ovat visuaalisesti erottamattomia. Pyöristäminen 2:een pienentää tiedostoa ilman näkyviä eroja."
+            },
+            "pipeline": {
+                "title": "✓ Automatisoi SVGO CI/CD:ssä",
+                "desc": "Suurissa projekteissa integroi SVGO rakennusputkeen kaikkien SVG:iden automaattiseksi optimoinniksi."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Kuinka paljon SVG-optimointi voi pienentää tiedostokokoa?",
+            "a1": "Tyypillisesti 30-70 % säästö lähteestä riippuen. Illustrator-SVG:t osoittavat usein suurimman säästön; Figma-viennit ovat jo suhteellisen puhtaita.",
+            "q2": "Muuttaako optimointi SVG:n ulkoasua?",
+            "a2": "Ei — kaikki tämän työkalun optimoinnit poistavat vain näkymätöntä dataa tai pyöristävät lukuja huomaamattomalla tarkkuudella. Visuaalinen tulos on identtinen alkuperäisen kanssa.",
+            "q3": "Miksi leveys- ja korkeus-attribuutit poistetaan?",
+            "a3": "Kovakoodatut leveys/korkeus-arvot estävät SVG:tä skaalautumasta reagoivasti CSS:n kautta. Niiden poistaminen ja vain viewBox:n säilyttäminen antaa täyden kokohallinnan CSS-ominaisuuksien kautta.",
+            "q4": "Mikä on ero tämän työkalun ja SVGO:n välillä?",
+            "a4": "SVGO on Node.js-komentorivityökalu, joka on standardi SVG-optimoinnille. Tämä työkalu tarjoaa kätevän selainkäyttöliittymän yleisimmille optimoinneille ilman Node.js:n asennusta."
+        }
+    }
+}

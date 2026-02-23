@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "CSS Flexbox 생성기 온라인 - 시각적 레이아웃 빌더 | Optimizo",
+        "description": "CSS Flexbox 레이아웃을 온라인에서 무료로 시각적으로 생성하세요. 실시간 미리보기와 즉각적인 CSS 내보내기로 방향, justify-content, align-items, 간격 조정.",
+        "h1": "CSS Flexbox 생성기",
+        "subtitle": "CSS Flexbox 레이아웃 시각적 생성 — 모든 속성을 실시간 미리보기로 조정"
+    },
+    "editor": {
+        "title": "Flexbox 생성기",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "간격 (gap)",
+        "label_items": "항목 수",
+        "label_preview": "실시간 미리보기",
+        "btn_copy": "CSS 복사"
+    },
+    "content": {
+        "why_title": "왜 시각적 Flexbox 생성기를 사용해야 하나요?",
+        "why_desc": "CSS Flexbox에는 많은 상호 작용하는 속성이 있으며 그 조합은 복잡할 수 있습니다. 저희 시각적 생성기에서는 드롭다운으로 각 속성을 조정하고 레이아웃이 실시간으로 업데이트되는 것을 볼 수 있습니다. Flexbox를 배우고 시행착오 없이 레이아웃을 구축하는 가장 빠른 방법입니다.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "실시간 미리보기",
+                "desc": "속성 변경마다 Flexbox 레이아웃 동작을 정확하게 확인 — 추측 불필요"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "전체 속성 적용",
+                "desc": "flex-direction, justify-content, align-items, flex-wrap, gap을 하나의 인터페이스에서"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "바로 사용 가능한 CSS",
+                "desc": "스타일시트에 붙여넣을 수 있는 깔끔한 .container {} 블록 복사"
+            }
+        },
+        "how_title": "Flexbox 레이아웃 생성 방법",
+        "how_steps": {
+            "1": {
+                "title": "방향 및 줄바꿈 설정",
+                "desc": "flex-direction(행/열)과 flex-wrap을 선택하여 주 축과 오버플로우 제어"
+            },
+            "2": {
+                "title": "항목 정렬 조정",
+                "desc": "justify-content와 align-items를 조정하여 항목 배분 및 정렬 제어"
+            },
+            "3": {
+                "title": "CSS 복사",
+                "desc": "'CSS 복사'를 클릭하여 프로젝트에 사용할 수 있는 완전한 .container CSS 블록 얻기"
+            }
+        },
+        "uses_title": "Flexbox 사용 사례",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "내비게이션 바",
+                "desc": "Flexbox는 로고+링크에 justifyContent: space-between을 사용하는 수평 내비게이션 바에 이상적"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "카드 그리드",
+                "desc": "고정 flex 기반의 flex-wrap: wrap으로 모바일 반응형 카드 그리드 생성"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "완벽한 센터링",
+                "desc": "justifyContent: center + alignItems: center — 모든 요소를 센터링하는 가장 간단한 방법"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "폼 레이아웃",
+                "desc": "Flexbox로 레이블과 폼 필드를 수평 또는 수직으로 정렬하여 깔끔한 폼 실현"
+            }
+        },
+        "tips_title": "Flexbox 모범 사례",
+        "tips": {
+            "axis": {
+                "title": "✓ 주 축과 교차 축 이해",
+                "desc": "justify-content는 주 축 제어(행=수평). align-items는 교차 축 제어. flex-direction: column으로 변경하면 역할이 바뀜."
+            },
+            "grow": {
+                "title": "✓ 유연한 항목에 flex: 1 사용",
+                "desc": "flex 항목에 flex: 1을 추가하면 가용 공간을 채우도록 늘어납니다. 오버플로우를 방지하기 위해 min-width: 0과 함께 사용하세요."
+            },
+            "gap": {
+                "title": "✓ 마진 대신 gap 사용",
+                "desc": "gap 속성은 외부 가장자리에 마진을 추가하지 않고 flex 항목 사이에 균일한 간격을 생성 — 훨씬 깔끔합니다."
+            },
+            "grid": {
+                "title": "✓ 2차원 레이아웃에는 Grid 사용",
+                "desc": "Flexbox는 한 번에 하나의 축(행 또는 열)을 제어합니다. 행과 열을 동시에 제어하는 2차원 그리드에는 CSS Grid를 사용하세요."
+            }
+        },
+        "faq_title": "❓ 자주 묻는 질문",
+        "faq": {
+            "q1": "CSS Grid 대신 Flexbox를 사용하는 것은 언제인가요?",
+            "a1": "Flexbox는 1차원 레이아웃(내비게이션 바, 버튼 그룹, 폼 행 등)에 이상적입니다. CSS Grid는 행과 열을 동시에 제어하는 2차원 레이아웃에 뛰어납니다.",
+            "q2": "flex-wrap: wrap이란 무엇인가요?",
+            "a2": "기본적으로 flex 항목은 오버플로우 시에도 한 줄에 강제됩니다. flex-wrap: wrap은 오버플로우 시 항목이 다음 줄로 줄바꿈될 수 있게 합니다 — 반응형 레이아웃에 필수입니다.",
+            "q3": "align-items와 align-content의 차이는 무엇인가요?",
+            "a3": "align-items는 단일 행의 flex 항목을 정렬합니다. align-content는 여러 행이 있을 때만 적용되며(flex-wrap: wrap) 컨테이너 내의 행 배분을 제어합니다.",
+            "q4": "Flexbox로 동등 너비의 열을 어떻게 만드나요?",
+            "a4": "각 flex 자식 항목에 flex: 1을 적용하세요. 이렇게 하면 가용 공간을 균등하게 채우도록 늘어납니다. 콘텐츠와 무관하게 정확히 3열을 동등하게 하려면 flex: 0 0 33.33%를 사용하세요."
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "SVG Optimize Edici Çevrimiçi - SVG Ücretsiz Sıkıştır | Optimizo",
+        "description": "SVG dosyalarını çevrimiçi ücretsiz optimize ve sıkıştırın. Görsel kaliteyi koruyarak dosya boyutunu küçültmek için yorumları, meta verileri ve gereksiz nitelikleri kaldırın.",
+        "h1": "SVG Optimize Edici",
+        "subtitle": "SVG dosyalarını çevrimiçi sıkıştırın — meta veriler, yorumlar ve gereksiz nitelikler kaldırılarak boyut azaltılır"
+    },
+    "editor": {
+        "title": "SVG Optimize Edici",
+        "opt_remove_comments": "Yorumları Kaldır",
+        "opt_remove_metadata": "Meta Verileri Kaldır",
+        "opt_remove_ids": "ID'leri Kaldır",
+        "opt_remove_dimensions": "Genişlik/Yüksekliği Kaldır",
+        "opt_remove_doctype": "DOCTYPE'ı Kaldır",
+        "opt_round_numbers": "Sayıları Yuvarla",
+        "opt_collapse_groups": "Boş Grupları Kaldır",
+        "opt_remove_empty_containers": "Boş Kapsayıcıları Kaldır",
+        "label_input": "SVG Girişi",
+        "ph_input": "SVG kodunu buraya yapıştırın...",
+        "btn_optimize": "SVG'yi Optimize Et",
+        "label_output": "Optimize Edilmiş SVG",
+        "btn_copy": "SVG'yi Kopyala"
+    },
+    "content": {
+        "why_title": "SVG Dosyaları Neden Optimize Edilir?",
+        "why_desc": "Illustrator, Figma ve Inkscape'ten dışa aktarılan SVG'ler çok sayıda gereksiz veri içerir — yorumlar, editör meta verileri, yedek nitelikler, aşırı ondalık hassasiyet ve boş kapsayıcılar. Optimizasyondan sonra dosya boyutu %30-70 azalır ve yükleme hızlanır.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 Optimizasyon Stratejisi",
+                "desc": "Her optimizasyon geçişini bağımsız olarak etkinleştirin/devre dışı bırakın; neyin kaldırıldığı üzerine hassas kontrol"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Boyut Azaltma İstatistikleri",
+                "desc": "Her optimizasyon sonrası özgün boyutu, optimize edilmiş boyutu ve tasarruf oranını görün"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Kayıpsız Optimizasyon",
+                "desc": "Tüm optimizasyonlar SVG'nin görsel görünümünü korur — yalnızca görünmez meta veriler kaldırılır"
+            }
+        },
+        "how_title": "3 Adımda SVG Optimize Etme",
+        "how_steps": {
+            "1": {
+                "title": "SVG Kodunu Yapıştırın",
+                "desc": "Tasarım aracından veya dosyadan SVG kaynak kodunu kopyalayıp giriş alanına yapıştırın"
+            },
+            "2": {
+                "title": "Optimizasyonları Seçin",
+                "desc": "Uygulanacak optimizasyon seçeneklerini işaretleyin — varsayılanlar maksimum azaltma için"
+            },
+            "3": {
+                "title": "Kopyalayın ve Kullanın",
+                "desc": "Optimize edilmiş SVG'yi kopyalayın, özgün dosyayla değiştirin veya doğrudan HTML'ye gömin"
+            }
+        },
+        "uses_title": "SVG Optimizasyonu Kullanım Alanları",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Simge Kütüphaneleri",
+                "desc": "Figma veya Illustrator'dan dışa aktarılan simge kümelerini kitaplığa eklemeden önce optimize edin"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Logolar",
+                "desc": "Web sitesi başlığı, favori simge ve marka varlıkları için SVG logoları temizleyin"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "Animasyonlu SVG",
+                "desc": "Animasyon verisiyle zaten büyüyen animasyonlu SVG'lerin taban boyutunu küçültün"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA ve Mobil",
+                "desc": "Daha küçük SVG'ler mobil veri tüketimini azaltır ve Lighthouse performansını artırır"
+            }
+        },
+        "tips_title": "SVG Optimizasyonu En İyi Uygulamaları",
+        "tips": {
+            "ids": {
+                "title": "✓ CSS Animasyonlarında ID Kaldırma Konusunda Dikkatli Olun",
+                "desc": "SVG, ID öğelerini hedefleyen CSS veya JS animasyonları kullanıyorsa animasyonların bozulmaması için 'ID'leri Kaldır' seçeneğini devre dışı bırakın."
+            },
+            "viewbox": {
+                "title": "✓ viewBox Tutun, Genişlik/Yüksekliği Kaldırın",
+                "desc": "Genişlik/yükseklik niteliklerini kaldırıp yalnızca viewBox bırakmak, SVG'nin CSS aracılığıyla duyarlı ölçeklenmesini sağlar."
+            },
+            "precision": {
+                "title": "✓ Sayıları 2 Ondalık Basamağa Yuvarlayın",
+                "desc": "5'ten fazla ondalık basamağı olan yol koordinatları görsel olarak ayırt edilemez. 2 basamağa yuvarlamak görsel fark olmaksızın dosyayı küçültür."
+            },
+            "pipeline": {
+                "title": "✓ CI/CD'de SVGO'yu Otomatikleştirin",
+                "desc": "Büyük projelerde tüm SVG'leri otomatik olarak optimize etmek için SVGO'yu derleme ardışık düzenine entegre edin."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "SVG optimizasyonuyla dosya boyutu ne kadar küçülür?",
+            "a1": "Kaynağa bağlı olarak genellikle %30-70 tasarruf sağlanır. Illustrator SVG'leri en fazla tasarruf sağlar; Figma çıktıları zaten nispeten temizdir.",
+            "q2": "Optimizasyon SVG'nin görünümünü değiştirir mi?",
+            "a2": "Hayır — bu araçtaki tüm optimizasyonlar yalnızca görünmez verileri kaldırır veya sayıları algılanamayacak kadar küçük bir hassasiyetle yuvarlar. Görsel sonuç özgünüyle aynıdır.",
+            "q3": "Genişlik ve yükseklik nitelikleri neden kaldırılır?",
+            "a3": "Sabit kodlanmış genişlik/yükseklik değerleri, SVG'nin CSS aracılığıyla duyarlı ölçeklenmesini engeller. Bunları kaldırıp yalnızca viewBox tutmak CSS özellikleri üzerinden tam boyut kontrolü sağlar.",
+            "q4": "Bu araçla SVGO arasındaki fark nedir?",
+            "a4": "SVGO, SVG optimizasyonunun standartı olan Node.js komut satırı aracıdır. Bu araç, Node.js yüklemeden en yaygın optimizasyonlar için kullanışlı bir tarayıcı arayüzü sunar."
+        }
+    }
+}

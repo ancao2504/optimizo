@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Tester Regex Online - Testowanie wyrażeń regularnych | Optimizo",
+        "description": "Bezpłatny tester regex online. Testuj wyrażenia regularne JavaScript z podświetlaniem dopasowań w czasie rzeczywistym, obsługą flag i szczegółami grup przechwytywania.",
+        "h1": "Tester Regex",
+        "subtitle": "Testuj wyrażenia regularne w czasie rzeczywistym z podświetlaniem dopasowań, flagami i szczegółami grup przechwytywania"
+    },
+    "editor": {
+        "title": "Tester Regex",
+        "label_pattern": "Wzorzec - Wyrażenie Regularne",
+        "ph_pattern": "np. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Flagi",
+        "label_test": "Ciąg testowy",
+        "ph_test": "Wklej tutaj tekst, który chcesz przetestować z wyrażeniem regularnym...",
+        "btn_test": "Testuj",
+        "btn_clear": "Wyczyść"
+    },
+    "content": {
+        "why_title": "Dlaczego warto używać naszego testera Regex?",
+        "why_desc": "Wyrażenia regularne (regex) to potężne narzędzia do dopasowywania wzorców, używane w prawie każdym języku programowania. Debugowanie regex może być złożone — jeden błędny znak całkowicie zmienia zachowanie wyszukiwania. Nasz tester w czasie rzeczywistym podświetla dopasowania podczas pisania, pokazuje szczegóły grup przechwytywania i obsługuje wszystkie flagi JavaScript, co czyni go najszybszym sposobem na budowanie i walidację wyrażeń regularnych.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Podświetlanie w czasie rzeczywistym",
+                "desc": "Dopasowania są podświetlane natychmiast przy każdym naciśnięciu klawisza — bez potrzeby klikania"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Szczegóły grup przechwytywania",
+                "desc": "Wyświetla wszystkie grupy przechwytywania, ich indeksy i dopasowane wartości dla każdego wyniku"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Pełna obsługa flag",
+                "desc": "Aktywuj flagi g, i, m, s, u, y niezależnie i obserwuj ich wpływ"
+            }
+        },
+        "how_title": "Jak testować Regex w 3 krokach",
+        "how_steps": {
+            "1": {
+                "title": "Wpisz wzorzec",
+                "desc": "Wpisz wyrażenie regularne w polu wzorca (bez ukośników)"
+            },
+            "2": {
+                "title": "Wybierz flagi",
+                "desc": "Aktywuj g (globalną), i (bez uwzględnienia wielkości liter), m (wieloliniową) i inne flagi według potrzeb"
+            },
+            "3": {
+                "title": "Wklej tekst testowy",
+                "desc": "Wpisz tekst do przetestowania — dopasowania są podświetlane automatycznie"
+            }
+        },
+        "uses_title": "Typowe przypadki użycia Regex",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Walidacja formularzy",
+                "desc": "Waliduj adresy e-mail, numery telefonów, URL-e, kody pocztowe i własne formaty"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Znajdź i zamień",
+                "desc": "Znajdź i zamień wzorce w edytorach kodu, plikach dziennika i potokach przetwarzania tekstu"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Analiza plików dziennika",
+                "desc": "Wyodrębnij ustrukturyzowane dane (IP, znaczniki czasu, kody błędów) z nieustrukturyzowanych dzienników"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Sanityzacja danych wejściowych",
+                "desc": "Usuń lub zamień niebezpieczne znaki w danych użytkownika przed ich zapisaniem lub wyświetleniem"
+            }
+        },
+        "tips_title": "Najlepsze praktyki Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Używaj kotwic do dokładnych dopasowań",
+                "desc": "Używaj ^ i $ do zakotwiczenia wzorców na początku i końcu ciągu, unikając niepożądanych częściowych dopasowań"
+            },
+            "groups": {
+                "title": "✓ Preferuj grupy nieprzechwytujące",
+                "desc": "Używaj (?:...) zamiast (...) gdy nie potrzebujesz przechwytywać grupy — poprawia wydajność"
+            },
+            "escape": {
+                "title": "✓ Uciekaj znaki specjalne",
+                "desc": "Znaki . * + ? ( ) [ ] { } | ^ $ \\ mają specjalne znaczenie — poprzedź je \\ dla dosłownych dopasowań"
+            },
+            "test": {
+                "title": "✓ Testuj przypadki brzegowe",
+                "desc": "Zawsze testuj z pustymi ciągami, znakami Unicode, bardzo długimi danymi wejściowymi i warunkami granicznymi"
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Jakiego dialektu regex używa ten tester?",
+            "a1": "Ten tester używa wbudowanego silnika RegExp JavaScriptu, który jest zgodny ze standardem ECMAScript. Obsługuje wszystkie funkcje JS: lookaheady, lookbehindy (ES2018+), nazwane grupy przechwytywania i sekwencje znaków właściwości Unicode.",
+            "q2": "Jaka jest różnica między flagami g i m?",
+            "a2": "Flaga g (globalna) znajduje wszystkie dopasowania w ciągu, a nie tylko pierwsze. Flaga m (wieloliniowa) sprawia, że ^ i $ dopasowują początek/koniec każdej linii zamiast całego ciągu. Służą różnym celom i można je łączyć.",
+            "q3": "Jak dopasować dosłowną kropkę lub gwiazdkę?",
+            "a3": "Poprzedź je ukośnikiem wstecznym: \\. dopasowuje dosłowną kropkę, \\* dosłowną gwiazdkę. Wewnątrz klasy znaków [ ] większość znaków specjalnych traci swoje znaczenie, z wyjątkiem ] \\ ^ -.",
+            "q4": "Dlaczego mój regex dopasowuje zbyt dużo tekstu?",
+            "a4": "Prawdopodobnie używasz zachłannych kwantyfikatorów. Kwantyfikatory * i + są domyślnie zachłanne i dopasowują jak najwięcej tekstu. Dodaj ?, aby je uczynić leniwymi: *? lub +? dopasują jak najmniej."
+        }
+    }
+}

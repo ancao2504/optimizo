@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Online Μετατροπέας HTML σε JSX - Δωρεάν Εργαλείο React | Optimizo",
+        "description": "Μετατρέψτε τον HTML κώδικά σας σε React JSX, online και δωρεάν. Αυτόματη αλλαγή (class => className), (for => htmlFor), μετατροπή inline styles σε JS objects, και κλείσιμο των κενών tags (void tags).",
+        "h1": "Μετατροπέας HTML σε JSX",
+        "subtitle": "Αμετάκλητα ταχύτερη μετατροπή HTML σε έτοιμο (React) JSX κώδικα — ClassNames, Attributes (Idiomatic JSX) & Self-Closing ετικέτες!"
+    },
+    "editor": {
+        "title": "Μετατροπέας HTML > JSX",
+        "label_html": "Είσοδος Κώδικα (HTML)",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">Email</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "Έξοδος Αποτελέσματος (JSX)",
+        "btn_copy": "Αντιγραφή JSX (Copy)"
+    },
+    "content": {
+        "why_title": "Ο Λόγος που Επιβάλλεται η μετατροπή του HTML σε JSX;",
+        "why_desc": "Oταν μεταφέρετε (Migrate) ιστοσελίδες HTML — ή (Exports) απο σχεδιαστικά εργαλεία όπως το Figma— σε React Components, η ΜΗ ΑΥΤΟΜΑΤΗ Μετατροπή ειναι κόλαση. Πρέπει να αλλάξετε με το χέρι ΤΑ ΠΑΝΤΑ: Τα `class` σε `className`, το `for` σε `htmlFor`, και (Το χειρότερο) να φτιάξετε Όλα τα `style=\"...\"` attributes σε  JavaScript { Objects }. Ο Μετατροπέας μας Tα ΚΑΝΕΙ ΟΛΑ ΜΟΝΟΣ ΤΟΥ.. ακαριαία!  Εσείς επικεντρώνεστε μόνο.. στη Λογική (Hooks & States)!",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Σχολιαστική Μετατροπή - (CamelCase) Χαρακτηριστικών",
+                "desc": "Μετατρέπει τα (class—>className), (for—>htmlFor), (tabindex—>tabIndex), (maxlength—>maxLength), ώστε o Server Rendering / React Να μην 'Ουρλιάζει' (Warnings)."
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Inline Styles Objects (Tέλος οι Συμβολοσειρές)",
+                "desc": "Μαγικά μεταφράζει το: `style=\"color:red; margin-top:10px\"` — σε  `style={{color:'red', marginTop: '10px'}}` (Μορφή React Native/JS Object)."
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Αυτόματο (Closing) κλείσιμο Void/Κενών Tags",
+                "desc": "Το JSX είναι σαν το (XML) ! Διαλύεται αν δεν κλείσουν τα ετικετάκια. Ο Αλγόριθμος κλείνει τα (`<br>`, `<img src=>`, `<input>`) σε..  ( `<br />` ) ! "
+            }
+        },
+        "how_title": "Μετατρέψτε εκατοντάδες γραμμές HTML .. Σε 3 Bήματα!",
+        "how_steps": {
+            "1": {
+                "title": "Επικολλήστε Οποιονδήποτε HTML Κώδικα",
+                "desc": "Αντιγράψτε τον HTML κώδικα από το Webflow, Bootstrap, figma export ή WordPress κι επικολλήστε τον άφοβα."
+            },
+            "2": {
+                "title": "Mετατροπή (Auto-Magic) Conversion",
+                "desc": "Ο Μετατροπέας διαβάζει τα Nodes (DOM) και ακαριαία αλλάζει τα attributes, τα σχόλια(comments) και τα Inline styles."
+            },
+            "3": {
+                "title": "Αντιγραφή -> (React Component)",
+                "desc": "Έτοιμο! Πατήστε Copy(Αντιγραφή). Τώρα μπορείτε να το πετάξετε στο (Return ()) // Μεσα στην Function (Render) του Component Σας."
+            }
+        },
+        "uses_title": "Κλασσικές περιπτώσεις Πού απαιτείται JSX-Converter",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "Μετάβαση-Migaration Σε React / Next.js",
+                "desc": "Aναβάθμιση ενός παλιού (Legacy/Jquery) Ιστότοπου... Κομμάτι-Κομμάτι- Σε νέα React Components."
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Εισαγωγή Bootstrap / Tailwind / UI Frameworks",
+                "desc": "Επειδή τα ελεύθερα Snippets (Πχ του TailwindUi) Είναι σε HTML.. θέλουν 1 πέρασμα απο εδώ.. πριν μπουν στo React-app σας."
+            },
+            "email": {
+                "icon": "📧",
+                "title": "React-Email / JSX Templates",
+                "desc": "Όταν φτιάχνετε HTML Emails Newsletter, μπορείτε να μετατρεψετε Παραδοσιακά Tables(HMTL) σε JSX δομές για χρήση με Vercel/React-emails."
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "Αποσύνδεση του CMS (Headless / WordPress To Front)",
+                "desc": "Μεταφέρετε Σκηνικά/Σχεδιαστικά κομμάτια (Themes) απο κλασικά CMS Blocks -- Σε καθαρά (FrontEnd) Headless περιβάλλοντα (Gatsby/Next.js)."
+            }
+        },
+        "tips_title": "React / (HTML vs JSX) ... Τα Κρυφά Μυστικά",
+        "tips": {
+            "class": {
+                "title": "✓ Το Μεγάλο Δράμα.. (class => className)!",
+                "desc": "Δέκα (10) Γλωσσολογικά χρόνια πίσω: Το 'class', αποτελεί ΔΕΣΜΕΥΜΕΝΗ Λέξη στην ιδρυματική Javascript ! ((Για Class/OOO Programing!)). Γι' αυτό το React.. αποφάσισε να χρησιμοποιήσει το `className` - ως Λύση!"
+            },
+            "for": {
+                "title": "✓ Form Labels.. (for => htmlFor)",
+                "desc": "Όπως και με το 'class', το άμοιρο 'for' ειναι συνδεδεμένο με τη... Λούπα `for (let i=0) ` ... Ετσι για να λειτουργούν τα checkbox/Forms (Accessibility), απαιτείται να μετατραπεί σε `htmlFor=`!"
+            },
+            "events": {
+                "title": "✓ Τα Inline Event Handlers -(OnClicks) Μεταφράζονται ... Χειροκίνητα !",
+                "desc": "Εάν το HTML σας είχε `onclick=\"RunMyApp()\"` .. Ο Converter μας (επίτηδες) δεν το αλλάζει ριζικά. Εσείς ΠΡΕΠΕΙ να καλέσετε την λειτουργία ΩΣ Function pointer (Π.χ. `onClick={() => setMyApp()}`)."
+            },
+            "comments": {
+                "title": "✓ Tα Σχόλια/Comments του HTML... Μετατρέπονται σε JS-JSX Μπλοκ!",
+                "desc": "Τα Σημάδια `<!-- Auto σχόλιο -->` Στο JSX μετατρέπονται πάντα: Σε { /* Σχόλιο */ } Διαφορετικά... Θα φαινόντουσαν στον Χρήστη !"
+            }
+        },
+        "faq_title": "❓  Απορίες.. για (React.js Components)",
+        "faq": {
+            "q1": "Τι στο καλό είναι Τελικά το JSX; ",
+            "a1": "Το JSX(JavaScript XML) - Είναι μία ('Tροποποιημένη - Εξωτική Συντακτική γλώσσα') του React! Μασκαρεύει την JavaScript ώστε.. Να Την Πληκτρολογείτε σαν (HTML). Αφού 'κάνετε Build', το (Babel / WebPack) Μετατρέπει ολα όσα γράψατε(<img> / <div>) .. ΣΕ καθαρές Javascript Functions: `React.createElement('div', { className: 'my-div'})` !",
+            "q2": "Εκτός από το Class Name... υπάρχουν και αλλά Attributes Που ΑΛΛΑΖΟΥΝ ΟΝΟΜΑ;",
+            "a2": "ΝΑΙ! Στο React-JSX όλα τα Attributes πρέπει πλέον να γράφονται Χωρίς-Παύλες Και με (CamelCase). Π.χ το `tabindex` => Γίνεται `tabIndex`. Το `stroke-width` (Στα SVG) => Γίνεται `strokeWidth`. O Converter μας, αλλάζει/διορθώνει (εκατοντάδες) απο αυτά τα κρυμμένα attributes!",
+            "q3": "Κάποιες φορές το React χτυπάει σφάλμα (Adjacent JSX elements must be wrapped)... Τι φταίει;",
+            "a3": "Το React απαιτεί Αυστηρά! -> ΚΑΘΕ Function (Return ())... Να επιστρέφει -ΜΟΝΟ ΕΝΑ- Kεντρικό-Tοp-Level Element (Γονέα/Πατέρα). Αν ο Converter σας επιστρέψει 2 Κουτιά <div> Ανεξάρτητα: Θελουν τύλιγμα! ΛΥΣΗ: Τυλίξτε τα με το Fragments `<>  ..τα div σας..  </>` (Άδειο Element-Δε φαινεται πουθενά στο HTML).",
+            "q4": "Γιατί να μην βάλω 'class=' στο React μου.. Σιγά το πράγμα.. Διορθώνεται μόνο του πίσω-πίσω!",
+            "a4": "Λειτουργικά ; Ναι, το React (στα μοντέρνα του Versions) ειναι αρκετά έξυπνο ώστε να το τρέξει (Compile) και να προσπαθήσει να το κάνει 'Fix' ! Όμως, Βομβαρδίζει το Console/Terminals σας.. με (Κόκκινα Red Error / Warnings) !! Δεν επιτρέπετε ΠΟΤΕ να βγαίνει (Warning/Error) σε Professional Παραγωγικό Κώδικα."
+        }
+    }
+}

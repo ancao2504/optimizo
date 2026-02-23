@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "API-förfrågningsbyggare Online - Gratis HTTP-klient | Optimizo",
+        "description": "Skapa och skicka HTTP API-förfrågningar online gratis. Stöder GET, POST, PUT, PATCH, DELETE med anpassade headers, förfrågningskropp och frågeparametrar.",
+        "h1": "API-förfrågningsbyggare",
+        "subtitle": "Skapa, skicka och inspektera HTTP API-förfrågningar — lätt HTTP-klient i webbläsaren"
+    },
+    "editor": {
+        "title": "API-förfrågningsbyggare",
+        "btn_send": "Skicka förfrågan",
+        "tab_headers": "Headers",
+        "tab_body": "Kropp",
+        "tab_params": "Parametrar",
+        "btn_add_header": "Lägg till header",
+        "btn_add_param": "Lägg till parameter",
+        "label_response": "Svar",
+        "btn_copy_response": "Kopiera svar"
+    },
+    "content": {
+        "why_title": "Varför använda en API-förfrågningsbyggare?",
+        "why_desc": "REST API-testning kräver vanligtvis installation av Postman eller Insomnia, eller att man skriver curl-kommandon. Vår webbläsarbaserade HTTP-klient behöver ingen installation — öppna den och skicka förfrågningar direkt.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Alla HTTP-metoder",
+                "desc": "Stöder GET, POST, PUT, PATCH, DELETE med anpassade headers och JSON/form-kropp"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Formaterat svar",
+                "desc": "Svarskroppen visas automatiskt indenterad; statuskod och svarstid visas"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Redo att använda direkt",
+                "desc": "Inget att installera — fungerar helt i webbläsaren utan konto eller plugin"
+            }
+        },
+        "how_title": "Skicka en API-förfrågan i 3 steg",
+        "how_steps": {
+            "1": {
+                "title": "Ange URL och metod",
+                "desc": "Ange API-endpointens URL och välj HTTP-metod (GET, POST etc.)"
+            },
+            "2": {
+                "title": "Lägg till headers och kropp",
+                "desc": "Lägg till Authorization, Content-Type etc. i fliken 'Headers'. Använd 'Kropp' för POST/PUT-data."
+            },
+            "3": {
+                "title": "Skicka och inspektera",
+                "desc": "Klicka 'Skicka'. Svarskropp, statuskod och tid visas nedan."
+            }
+        },
+        "uses_title": "Användningsområden för API-förfrågningsbyggaren",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "API-felsökning",
+                "desc": "Testa enskilda endpoints med anpassade headers och kropp för att felsöka autentiserings- och dataproblem"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Testa autentiseringstoken",
+                "desc": "Testa Bearer, Basic Auth och API-nyckelscheman utan att skriva kod"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "Utforska API:er",
+                "desc": "Utforska publika API:er (GitHub, OpenWeather, JSONPlaceholder) och förstå svaren"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Reproducera buggar",
+                "desc": "Reproducera och dokumentera API-buggar med exakta förfrågnings- och svarsdata för buggrapporter"
+            }
+        },
+        "tips_title": "Bästa praxis för API-testning",
+        "tips": {
+            "headers": {
+                "title": "✓ Sätt alltid Content-Type",
+                "desc": "Med en JSON-kropp, inkludera alltid Content-Type: application/json. Många API:er avvisar eller misstolkar förfrågan annars."
+            },
+            "cors": {
+                "title": "✓ Förstå CORS-begränsningar",
+                "desc": "Webbläsare blockerar cross-origin-förfrågningar utan rätt CORS-headers. Använd curl eller en server-side-proxy om förfrågan misslyckas i webbläsaren."
+            },
+            "auth": {
+                "title": "✓ Hårdkoda inte API-nycklar",
+                "desc": "Använd miljövariabler i produktionskod. Bygg-verktyget är för testning — dela inte skärmdumpar med riktiga API-nycklar."
+            },
+            "status": {
+                "title": "✓ Kontrollera HTTP-statuskoder",
+                "desc": "200=OK, 201=Skapad, 400=Felaktig förfrågan, 401=Ej auktoriserad, 403=Förbjuden, 404=Hittades ej, 500=Serverfel."
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Varför misslyckas cross-origin-förfrågningar?",
+            "a1": "Webbläsare tillämpar CORS-begränsningar. Om mål-API:et inte har Access-Control-Allow-Origin header blockerar webbläsaren förfrågan. Det är inte ett fel — använd curl eller en backend-proxy för API:er utan CORS.",
+            "q2": "Kan jag skicka multipart/form-data-förfrågningar?",
+            "a2": "Byggaren stöder för närvarande JSON och ren text-kroppar. För filuppladdningar och liknande multipart-formulärdata, använd ett dedikerat verktyg som Postman.",
+            "q3": "Är det här ett alternativ till Postman?",
+            "a3": "För snabb testning och utforskning, ja. För teamsamarbete, sparade samlingar, miljöer och automatiserade tester erbjuder Postman eller Bruno fler funktioner.",
+            "q4": "Vad är skillnaden mellan PUT och PATCH?",
+            "a4": "PUT ersätter hela resursen med förfrågningskroppen. PATCH tillämpar partiella uppdateringar — bara fälten i kroppen ändras. De flesta REST API:er använder PATCH för uppdateringar för att undvika att skriva över oförändrade fält."
+        }
+    }
+}

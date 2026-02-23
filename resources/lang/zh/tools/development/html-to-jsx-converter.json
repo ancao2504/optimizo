@@ -1,0 +1,94 @@
+{
+    "meta": {
+        "title": "在线 HTML 转 JSX 转换器 - 自动化 React/Next.js 组件代码转换 | Optimizo",
+        "description": "免费的在线 HTML 到 JSX 转换器。只需一键，瞬间将您的普通 HTML 结构或全站外包切图转换为可直接在 React 和 Next.js 中无报错复制运行的 JSX 代码。",
+        "h1": "HTML 到 JSX 代码转换器",
+        "subtitle": "彻底告别手动修正 class 到 className！通过高级静态语法解析，瞬间将传统 HTML 变身为完美的 React 组件块"
+    },
+    "editor": {
+        "title": "JSX 代码重构工场",
+        "label_input": "投放原始 HTML 代码串",
+        "ph_input": "<!-- Paste your dirty HTML here -->\n<div class=\"card\" tabindex=\"-1\">\n  <img src=\"/logo.svg\">\n  <label for=\"email-input\">Enter Email</label>\n  <input type=\"text\" class=\"form-control\" autocomplete=\"off\">\n  <p style=\"font-size: 14px; text-align: center;\">\n    Sign in to your account\n  </p>\n</div>",
+        "btn_convert": "瞬间转化 React JSX",
+        "label_output": "完全兼容 React/Next.js 的 JSX 产出",
+        "btn_copy": "复制转换结果用于组件"
+    },
+    "content": {
+        "why_title": "为何把 HTML 转换为 JSX 是一道必不可少的手工炼狱流程？",
+        "why_desc": "在现代化的前端开发工作流中，很多时候您收到的是来自 UI 部门直接使用 Webflow 或是传统切图人员发来的一大坨纯粹的普通 HTML 模版代码。如果您尝试直接把它们粘贴进入 React 或者是 Next.js 项目组件里，系统引擎将瞬间抛出无数个红色编译错误。这是因为 JSX 并非原本的 HTML，而是 JavaScript 语法糖的扩展！这要求您必须手动逐个去把 `class` 改为成 `className`，把所有的 `for` 属性变更为 `htmlFor`，更为抓狂的是，所有原先合法的行内 CSS `<span style=\"color: red;\">` 全都得重写结构。而利用本站这台强大的语法分析器，不仅将所有的闭合问题统统包干，还会精细妥善处理行样式，让您的重构与复制时间缩短到仅仅零点几秒内！",
+        "features": {
+            "attributes": {
+                "icon": "✨",
+                "title": "全自动特例属性更命",
+                "desc": "不仅能秒杀所有 `class` 变体转换，即使是像 `tabindex` 或是各种表单的 `autocomplete` 全都会被自动且精准转换回标准的驼峰体命名格式 (CamelCase)。"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "行内样式的究极物件化解构",
+                "desc": "智能探析如 `style=\"margin-top: 10px;\"` 这类字符串排版，将其完美解析重组成可供 React 愉快消费的 JSON 原生物件 `style={{marginTop: '10px'}}`。"
+            },
+            "closing": {
+                "icon": "🛡️",
+                "title": "严查修正未闭合空标签结构 (Self-closing)",
+                "desc": "原生 HTML 中常常放任不加闭合的大患 `img`，`input` 或者 `br` 标签如果裸置于 JSX 必报大错，这里将统统自动补齐其自闭斜率（如 `<img />`）。"
+            }
+        },
+        "how_title": "极快极稳的三段式 HTML 转入 JSX 迁移作业流",
+        "how_steps": {
+            "1": {
+                "title": "粘贴传统的原型 HTML 切图",
+                "desc": "不论您是从外部诸如 Bootstrap 组件大字库，还是老旧的历史代码库中直接拷贝，把整块连篇大论的 DOM 树全都塞填进左面板便可。"
+            },
+            "2": {
+                "title": "呼唤编译转化器工作",
+                "desc": "不必调整任何多余设置，一指点选那个“转换 (Convert)”大指令绿键按钮。"
+            },
+            "3": {
+                "title": "拷贝这即拿即用绝不出错的代码段",
+                "desc": "在您的视线下方即刻诞生的，便全部是已经被悉数彻底全转换完毕成能够直接给 `.jsx` 或 `.tsx` 文件所承载包裹着完美组件了。"
+            }
+        },
+        "uses_title": "那些绝离不开该高速准换生成引擎的重要工程作业场景",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "从古老的大型传统项目迁飞往现代 React 圈 (Migration)",
+                "desc": "如果接到上级指令需要将一个以 jQuery 时代构筑的大型老牌系统原封不动地全盘转移重构搬上 React 战舰，没有这批量级的强手相助绝对是场浩劫灾难！"
+            },
+            "ui_kits": {
+                "icon": "📦",
+                "title": "生吞直接采用外部提供的各色大厂 UI 库组件",
+                "desc": "常常看着极为惊艳酷炫比如像类似 Tailwind UI 等组件库仅仅提供了 HTML 版格式之时，借于该通道转化，其美版大框即可无波无缺口地带入到了 React 新房之内。"
+            },
+            "designers": {
+                "icon": "🎨",
+                "title": "完美承接前边端切页面组设计开发师的手作稿",
+                "desc": "他们可能极爱直接将手作出的长 HTML 给丢递交出给大工程师团套功能使用，为了能迅速能组装这套版成各类连串功能组件 (Components)，唯需通过洗换排查格式。"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "重新复原带重构古董表单与那些全带样式的长网页",
+                "desc": "特别是面对由于存在于包含诸似 `<label for=...>` 和海量行内置列挂靠 `style` 设置导致的手动人改极其痛苦庞大静态排列表单的迁移上！"
+            }
+        },
+        "tips_title": "保障完美重配转化至 React 环境上的至尊黄金避雷法旨",
+        "tips": {
+            "wrapper": {
+                "title": "✓ 切请勿忘最上层的单体根节点元素包围大阵圈 (Wrapper Element)",
+                "desc": "若是您丢投进入内送进行转测分析的是好几个完全并行且并不归属于由一个最大外部包裹大元素框着散体元素（如两个 `<p>` 结组块），则在最终带它入到真正 React 主组件代码内里之前请必须要运用像 `<>...</>` 这等 Fragments 把其作最大包含！"
+            },
+            "comments": {
+                "title": "✓ 关于处理它对特殊注释形式处理表现 (HTML Comments)",
+                "desc": "要知道原生类似这种 `<!-- 内容 -->` 的注释批语段在通过经过它体内走了一转转化后是绝能会自动被其以非常规化并巧妙地替化改作它所认识成为诸如 `{/* 内容 */}` 类型般地呈现的，无须多生惧怕出错！"
+            },
+            "svg": {
+                "title": "✓ 对那些身挂庞然巨大身姿型体内带超长的超肥 SVG 码阵时须作大当心处理！",
+                "desc": "此仪器其功能虽然说绝强也是真确实可将绝大类所有如属像是 `<svg>` 底内所全携所带着大包属类似 `stroke-width` 一系那带有以中横段符号大破折连起来带破连的大连划横名头能全都统成变成其它所要大驼名段状，然而过于重长的图片请更应倡优使用单独导入化做法。"
+            },
+            "dangerouslysetinnerhtml": {
+                "title": "✓ 真想塞嵌入强文本流带文本指令必须运用专指令防破！",
+                "desc": "如有遇见那等必须从自远方发落来的后端接口系统拿获取含有完整排版标记且必须作渲染打出的长流代码并显示用时绝对不能去死用转编译器它、而是得必使用 `dangerouslySetInnerHTML` 那大招啊！"
+            }
+        }
+    }
+}

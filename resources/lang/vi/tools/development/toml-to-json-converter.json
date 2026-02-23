@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Chuyển Đổi TOML Sang JSON Online - Miễn Phí | Optimizo",
+        "description": "Chuyển đổi tệp cấu hình TOML sang JSON trực tuyến và miễn phí. Hỗ trợ đầy đủ bảng TOML, mảng bảng, bảng inline và tất cả kiểu dữ liệu.",
+        "h1": "Chuyển Đổi TOML Sang JSON",
+        "subtitle": "Chuyển đổi cấu hình TOML sang JSON — bảng, mảng bảng và tất cả kiểu dữ liệu TOML được hỗ trợ"
+    },
+    "editor": {
+        "title": "Chuyển Đổi TOML Sang JSON",
+        "label_toml": "Đầu vào TOML",
+        "ph_toml": "# Ví dụ TOML\ntitle = \"Ứng dụng của tôi\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "Đầu ra JSON",
+        "btn_copy": "Sao chép JSON"
+    },
+    "content": {
+        "why_title": "Tại sao chuyển đổi TOML sang JSON?",
+        "why_desc": "TOML được thiết kế cho tệp cấu hình dễ đọc cho người (Cargo.toml của Rust, pyproject.toml của Python, config.toml của Hugo), nhưng JSON là tiêu chuẩn cho API web và công cụ JavaScript. Khi cần gửi cấu hình TOML đến API JSON, tích hợp với công cụ JavaScript hoặc chia sẻ dữ liệu giữa các hệ sinh thái, công cụ này lấp đầy khoảng cách ngay lập tức.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Chuyển đổi kiểu đầy đủ",
+                "desc": "Chuỗi, số nguyên, số thực, boolean, ngày TOML — tất cả được chuyển đổi đúng sang tương đương JSON"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Bảng và mảng bảng",
+                "desc": "Xử lý đúng cú pháp [bảng], [[mảng bảng]], bảng inline {key = value}"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Đầu ra JSON được định dạng",
+                "desc": "Đầu ra được hiển thị với thụt lề để dễ đọc — không phải JSON nén trên một dòng"
+            }
+        },
+        "how_title": "Chuyển đổi TOML sang JSON trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Dán cấu hình TOML",
+                "desc": "Dán nội dung từ Cargo.toml, pyproject.toml hoặc tệp cấu hình TOML khác"
+            },
+            "2": {
+                "title": "Tự động chuyển đổi",
+                "desc": "Công cụ phân tích cấu trúc TOML và chuyển đổi ngay lập tức sang JSON tương đương"
+            },
+            "3": {
+                "title": "Sao chép JSON",
+                "desc": "Sao chép JSON đã tạo vào lệnh gọi API hoặc các công cụ khác chấp nhận JSON"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng chuyển đổi TOML sang JSON",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Phân tích Cargo.toml",
+                "desc": "Chuyển đổi Cargo.toml sang JSON cho các script CI phân tích phụ thuộc"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Cấu hình Hugo",
+                "desc": "Chuyển đổi config.toml của Hugo sang JSON để tích hợp với các công cụ khác"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Gửi dữ liệu đến API",
+                "desc": "Chuyển đổi tham số TOML sang JSON để gửi đến REST API hoặc GraphQL endpoint"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Học về các định dạng",
+                "desc": "Hiểu ánh xạ cấu trúc TOML→JSON để biết hai định dạng liên quan với nhau như thế nào"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho TOML",
+        "tips": {
+            "tables": {
+                "title": "✓ Dùng cú pháp dấu chấm cho bảng lồng",
+                "desc": "TOML hỗ trợ [server.database] như một cách viết tắt cho bảng lồng."
+            },
+            "strings": {
+                "title": "✓ Dùng chuỗi ký tự cho đường dẫn",
+                "desc": "Chuỗi ký tự trong ngoặc đơn như 'C:\\Users\\path' không xử lý chuỗi escape — lý tưởng cho đường dẫn Windows."
+            },
+            "comments": {
+                "title": "✓ Dùng chú thích tích cực",
+                "desc": "Ưu điểm quan trọng nhất của TOML so với JSON là hỗ trợ chú thích. Ghi lại tất cả tham số cấu hình bằng chú thích #."
+            },
+            "datetime": {
+                "title": "✓ Chú ý chuyển đổi kiểu DateTime",
+                "desc": "Ngày RFC 3339 gốc của TOML (2024-01-15T10:30:00Z) trở thành chuỗi trong JSON. Code tiêu thụ JSON phải phân tích lại chúng làm kiểu ngày."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Ưu điểm của TOML so với YAML và JSON là gì?",
+            "a1": "TOML đơn giản hơn YAML (không có cấu trúc dựa trên thụt lề), dễ đọc hơn JSON (hỗ trợ chú thích) và có kiểu rõ ràng (số nguyên, số thực, ngày được phân biệt). Lựa chọn tốt nhất cho tệp cấu hình ứng dụng.",
+            "q2": "[[mảng bảng]] trong TOML là gì?",
+            "a2": "[[servers]] xác định một mảng đối tượng tên là 'servers'. Mỗi lần xuất hiện của [[servers]] tạo một đối tượng mới trong mảng. Tương đương JSON: {\"servers\": [{...}, {...}]}.",
+            "q3": "Các công cụ quan trọng nào dùng TOML?",
+            "a3": "Rust (Cargo.toml), packaging Python hiện đại (pyproject.toml pip/poetry), Hugo, Gitea, Lighthouse CI và nhiều công cụ Go dùng TOML.",
+            "q4": "Chú thích TOML có được giữ lại trong đầu ra JSON không?",
+            "a4": "Không. Vì JSON thiếu cú pháp cho chú thích, chú thích # của TOML không thể biểu diễn trong đầu ra JSON."
+        }
+    }
+}

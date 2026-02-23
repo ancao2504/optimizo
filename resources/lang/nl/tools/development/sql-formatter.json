@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "SQL Formatter Online - Gratis SQL-opmaaktool | Optimizo",
+        "description": "Formatteer en verfraai SQL-query's online gratis. Ondersteunt SELECT, INSERT, UPDATE, DELETE, CREATE en complexe JOIN's met direct resultaat.",
+        "h1": "SQL Formatter",
+        "subtitle": "Verfraai en formatteer SQL-query's direct — compatibel met alle grote SQL-dialecten"
+    },
+    "editor": {
+        "title": "SQL Formatter",
+        "label_input": "SQL-query invoeren",
+        "ph_input": "SELECT id, naam, email FROM gebruikers WHERE actief = 1 ORDER BY naam",
+        "btn_format": "SQL formatteren",
+        "btn_minify": "SQL minificeren",
+        "label_output": "Geformatteerde SQL",
+        "btn_copy": "SQL kopiëren"
+    },
+    "content": {
+        "why_title": "Waarom SQL-query's formatteren?",
+        "why_desc": "Niet-geformatteerde SQL is bijna onleesbaar, vooral bij complexe JOIN's, subquery's en CTE's. Onze formatter voegt de juiste inspringing toe, regeleinden en schrijft sleutelwoorden in hoofdletters, waardoor je query's gemakkelijker te beoordelen, debuggen en met je team te delen zijn. Goed geformatteerde SQL is ook eenvoudiger te optimaliseren en te onderhouden op de lange termijn.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Sleutelwoorden in hoofdletters",
+                "desc": "Schrijft automatisch SELECT, FROM, WHERE, JOIN en alle andere SQL-sleutelwoorden in hoofdletters"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Slimme inspringing",
+                "desc": "Past de juiste inspringing toe op subquery's, CASE-expressies en geneste clausules"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minificatie",
+                "desc": "Verwijdert alle witruimte om SQL op één regel te comprimeren — ideaal voor querystrings in code"
+            }
+        },
+        "how_title": "Hoe SQL formatteren in 3 stappen",
+        "how_steps": {
+            "1": {
+                "title": "Plak je SQL-query",
+                "desc": "Kopieer je SQL van een code-editor, databaseclient of querylogboek en plak het"
+            },
+            "2": {
+                "title": "Klik op Formatteren",
+                "desc": "Klik op \"SQL formatteren\" voor de juiste inspringing en sleutelwoorden in hoofdletters"
+            },
+            "3": {
+                "title": "Kopieer en gebruik",
+                "desc": "Kopieer de geformatteerde SQL rechtstreeks naar je databaseclient, ORM of documentatie"
+            }
+        },
+        "uses_title": "Gebruiksscenario's voor SQL-opmaak",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Code-review",
+                "desc": "Formatteer SQL vóór een review zodat collega's de structuur duidelijk kunnen zien"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Query's debuggen",
+                "desc": "Ontwar complexe WHERE-clausules en JOIN-ketens om logische fouten snel te vinden"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Documentatie",
+                "desc": "Voeg goed geformatteerde SQL in technische documentatie, README-bestanden en tutorials in"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Query's optimaliseren",
+                "desc": "Geformatteerde SQL maakt het gemakkelijker om ontbrekende indices en inefficiënte JOIN-volgorden te identificeren"
+            }
+        },
+        "tips_title": "SQL best practices",
+        "tips": {
+            "select": {
+                "title": "✓ Vermijd SELECT *",
+                "desc": "Geef altijd kolomnamen op in plaats van SELECT *. Verbetert de prestaties en voorkomt problemen als het tabelschema verandert."
+            },
+            "alias": {
+                "title": "✓ Gebruik expliciete aliassen",
+                "desc": "Gebruik duidelijke tabelaliassen in JOIN's (bijv. g voor gebruikers, b voor bestellingen) om complexe query's leesbaar te maken."
+            },
+            "explain": {
+                "title": "✓ Gebruik EXPLAIN",
+                "desc": "Voer EXPLAIN of EXPLAIN ANALYZE uit voordat je trage query's implementeert om te begrijpen hoe de database ze uitvoert."
+            },
+            "index": {
+                "title": "✓ Indexeer je WHERE-kolommen",
+                "desc": "Zorg dat kolommen in WHERE, JOIN ON en ORDER BY zijn geïndexeerd voor optimale prestaties."
+            }
+        },
+        "faq_title": "❓ Veelgestelde vragen",
+        "faq": {
+            "q1": "Welke SQL-dialecten worden ondersteund?",
+            "a1": "De formatter werkt met standaard SQL en is compatibel met MySQL, PostgreSQL, SQLite, SQL Server (T-SQL) en Oracle. Dialectspecifieke sleutelwoorden worden ongewijzigd gelaten.",
+            "q2": "Verandert opmaak het gedrag van mijn query?",
+            "a2": "Nee. De formatter wijzigt alleen witruimte en de hoofdletters van sleutelwoorden. De logica, resultaten en uitvoeringsplan van de query blijven volledig ongewijzigd.",
+            "q3": "Kan ik SQL met opgeslagen procedures formatteren?",
+            "a3": "Ja. De formatter verwerkt CREATE PROCEDURE-blokken, BEGIN/END, DECLARE-instructies en andere procedurele SQL-constructies.",
+            "q4": "Waarvoor wordt minificatie in applicaties gebruikt?",
+            "a4": "Geminificeerde SQL verkleint de querystrings die in de broncode zijn ingesloten, houdt logboeken compacter en kan de parseer prestaties marginaal verbeteren."
+        }
+    }
+}

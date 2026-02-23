@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Convertor TOML în JSON Online - Gratuit | Optimizo",
+        "description": "Convertiți fișiere de configurare TOML în JSON online și gratuit. Suport complet pentru tabele TOML, tablouri de tabele, tabele inline și toate tipurile de date.",
+        "h1": "Convertor TOML în JSON",
+        "subtitle": "Convertiți configurația TOML în JSON — tabele, tablouri de tabele și toate tipurile de date TOML sunt suportate"
+    },
+    "editor": {
+        "title": "Convertor TOML în JSON",
+        "label_toml": "Intrare TOML",
+        "ph_toml": "# Exemplu TOML\ntitle = \"Aplicația mea\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "Ieșire JSON",
+        "btn_copy": "Copiați JSON"
+    },
+    "content": {
+        "why_title": "De ce să convertiți TOML în JSON?",
+        "why_desc": "TOML este conceput pentru fișiere de configurare lizibile de oameni (Cargo.toml al Rust, pyproject.toml al Python, config.toml al Hugo), dar JSON este standardul pentru API-urile web și instrumentele JavaScript. Când trebuie să trimiteți configurația TOML la un API JSON, să integrați cu instrumente JavaScript sau să partajați date între ecosisteme, acest instrument umple decalajul imediat.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Conversie completă tipuri",
+                "desc": "Șiruri, întregi, zecimale, booleene, date TOML — toate corect convertite la echivalentele JSON"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Tabele și tablouri de tabele",
+                "desc": "Gestionează corect sintaxa [tabel], [[tablou de tabele]], tabel inline {key = value}"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Ieșire JSON formatată",
+                "desc": "Ieșirea este afișată cu indentare pentru lizibilitate — nu JSON comprimat pe o singură linie"
+            }
+        },
+        "how_title": "Convertiți TOML în JSON în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Inserați configurația TOML",
+                "desc": "Inserați conținutul din Cargo.toml, pyproject.toml sau alt fișier de configurare TOML"
+            },
+            "2": {
+                "title": "Conversie automată",
+                "desc": "Instrumentul analizează structura TOML și convertește la JSON echivalent imediat"
+            },
+            "3": {
+                "title": "Copiați JSON-ul",
+                "desc": "Copiați JSON-ul generat în apeluri API sau alte instrumente care acceptă JSON"
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru convertorul TOML în JSON",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Parsarea Cargo.toml",
+                "desc": "Convertiți Cargo.toml în JSON pentru scripturile CI care analizează dependențele"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Configurația Hugo",
+                "desc": "Convertiți config.toml al Hugo în JSON pentru integrare cu alte instrumente"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Trimiteți date la API",
+                "desc": "Convertiți parametrii TOML în JSON pentru trimitere la API-urile REST sau endpoint-urile GraphQL"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Învățați formatele",
+                "desc": "Înțelegeți maparea structurală TOML→JSON pentru a înțelege cum se referă cele două formate unul la celălalt"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru TOML",
+        "tips": {
+            "tables": {
+                "title": "✓ Folosiți notația punct pentru tabelele imbricate",
+                "desc": "TOML suportă [server.database] ca prescurtare pentru tabelele imbricate."
+            },
+            "strings": {
+                "title": "✓ Folosiți șiruri literale pentru căi",
+                "desc": "Șirurile literale cu ghilimele simple ca 'C:\\Users\\path' nu procesează secvențele de escape — ideal pentru căile Windows."
+            },
+            "comments": {
+                "title": "✓ Folosiți activ comentariile",
+                "desc": "Cel mai important avantaj al TOML față de JSON este suportul pentru comentarii. Documentați toți parametrii de configurare cu comentarii #."
+            },
+            "datetime": {
+                "title": "✓ Fiți conștienți de conversia tipului DateTime",
+                "desc": "Datele native RFC 3339 ale TOML (2024-01-15T10:30:00Z) devin șiruri în JSON. Codul care consumă JSON trebuie să le re-parseze ca tipuri de dată."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Care sunt avantajele TOML față de YAML și JSON?",
+            "a1": "TOML este mai simplu decât YAML (fără structură bazată pe indentare), mai lizibil decât JSON (comentariile sunt suportate) și are tipuri explicite (întregi, zecimale, date sunt separate). Cea mai bună alegere pentru fișierele de configurare ale aplicațiilor.",
+            "q2": "Ce sunt [[tablourile de tabele]] în TOML?",
+            "a2": "[[servers]] definește un tablou de obiecte numit 'servers'. Fiecare apariție a [[servers]] creează un nou obiect în tablou. Echivalentul JSON: {\"servers\": [{...}, {...}]}.",
+            "q3": "Ce instrumente importante folosesc TOML?",
+            "a3": "Rust (Cargo.toml), ambalarea modernă Python (pyproject.toml pip/poetry), Hugo, Gitea, Lighthouse CI și multe instrumente Go folosesc TOML.",
+            "q4": "Comentariile TOML sunt păstrate în ieșirea JSON?",
+            "a4": "Nu. Deoarece JSON nu are sintaxă pentru comentarii, comentariile # TOML nu pot fi exprimate în ieșirea JSON."
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "CSS Grid-generator Nettbasert - Visuell Rutenettoppsettbygger | Optimizo",
+        "description": "Lag CSS Grid-oppsett visuelt nettbasert og gratis. Juster kolonner, rader, mellomrom og justering med sanntidsforhåndsvisning og øyeblikkelig CSS-eksport.",
+        "h1": "CSS Grid-generator",
+        "subtitle": "Lag CSS Grid-oppsett visuelt — juster kolonner, rader, mellomrom og justering med sanntidsforhåndsvisning"
+    },
+    "editor": {
+        "title": "CSS Grid-generator",
+        "label_cols": "Antall kolonner",
+        "label_rows": "Antall rader",
+        "label_col_template": "Kolonnemal",
+        "label_gap": "Mellomrom (gap)",
+        "label_align": "align-items",
+        "label_preview": "Sanntidsforhåndsvisning",
+        "btn_copy": "Kopier CSS"
+    },
+    "content": {
+        "why_title": "Hvorfor bruke en visuell CSS Grid-generator?",
+        "why_desc": "CSS Grid er CSS sitt mest kraftige oppsettystem, men syntaksen har en bratt læringskurve. Med vår visuelle generator kan du justere rutenettet med glidere og rullegardinmenyer og se effekten av hver egenskap i sanntid.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Sanntids-rutenettsforhåndsvisning",
+                "desc": "Rutenettet oppdateres i sanntid når du justerer kolonner, rader, mellomrom og justering"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Støtte for fr-enheten",
+                "desc": "Maler bruker fr (brøk)-enheten for fleksible rutenett som tilpasser seg beholderens størrelse"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Klar til bruk CSS",
+                "desc": "Eksporter et rent .container CSS-blokk med grid-template-columns, rows, gap og align-items"
+            }
+        },
+        "how_title": "Lag et CSS Grid-oppsett",
+        "how_steps": {
+            "1": {
+                "title": "Konfigurer kolonner og rader",
+                "desc": "Angi antall kolonner og rader i rutenettet med glider"
+            },
+            "2": {
+                "title": "Velg mal og mellomrom",
+                "desc": "Velg kolonnemal (jevn, fast+fleksibel eller responsiv minmax) og juster mellomrommet"
+            },
+            "3": {
+                "title": "Kopier CSS",
+                "desc": "Klikk 'Kopier CSS' for å få et komplett CSS-blokk som kan limes inn direkte i stilarket ditt"
+            }
+        },
+        "uses_title": "CSS Grid-bruksområder",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Sideoppsett",
+                "desc": "Lag topp/sidepanel/hovedinnhold/bunn-struktur med navngitte rutenettsområder"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboard",
+                "desc": "Lag komplekse dashboard-oppsett med kort av varierende størrelse med grid-column og grid-row span"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galleri",
+                "desc": "Lag murstein- eller regulære gallerier som adaptivt tilpasser seg med auto-fill og minmax"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Bladoppsett",
+                "desc": "Lag redaksjonelle oppsett med ujevne kolonner og fremhevet innhold som strekker seg over flere celler"
+            }
+        },
+        "tips_title": "Beste praksis for CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Foretrekk fr-enheten fremfor prosent",
+                "desc": "fr (brøk)-enheten fordeler tilgjengelig plass etter faste kolonner uten manuell beregning."
+            },
+            "minmax": {
+                "title": "✓ Bruk minmax() for responsive rutenett",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) lager et responsivt rutenett som automatisk justerer antall kolonner."
+            },
+            "named": {
+                "title": "✓ Bruk navngitte rutenettsområder",
+                "desc": "grid-template-areas med navngitte celler gjør sideoppsett lesbare og enkle å endre."
+            },
+            "auto": {
+                "title": "✓ Forstå auto-fill vs. auto-fit",
+                "desc": "auto-fill lager maksimalt antall spor (inkl. tomme). auto-fit kollapser tomme spor og utvider eksisterende — normalt optimalt for kortrutenett."
+            }
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Hva er fr-enheten i CSS Grid?",
+            "a1": "fr står for 'brøkenhet'. 1fr representerer en andel av det tilgjengelige frie plassen i rutenetsbeholderen. repeat(3, 1fr) lager 3 kolonner som deler tilgjengelig plass jevnt.",
+            "q2": "Hva er forskjellen mellom CSS Grid og Flexbox?",
+            "a2": "Flexbox er endimensjonalt — plasserer elementer langs én akse (rad eller kolonne). CSS Grid er todimensjonalt — kan styre rader og kolonner simultaneously, mye kraftigere for sideoppsett.",
+            "q3": "Hva gjør minmax()?",
+            "a3": "minmax(min, max) angir et størrelsesintervall for et rutenetsspor. minmax(200px, 1fr) betyr at kolonnen er minst 200px bred men kan vokse for å fylle tilgjengelig plass.",
+            "q4": "Når bør jeg bruke CSS Grid i stedet for Flexbox?",
+            "a4": "Bruk Grid for todimensjonale oppsett der du styrer rader og kolonner simultaneously. Bruk Flexbox for komponenters endimensjonale oppsett som navigasjonslinjer."
+        }
+    }
+}

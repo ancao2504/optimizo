@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "SVG-optimeringsværktøj Online - Komprimer SVG Gratis | Optimizo",
+        "description": "Optimér og komprimer SVG-filer online gratis. Fjern kommentarer, metadata og unødvendige attributter for at reducere filstørrelsen med bevaret visuel kvalitet.",
+        "h1": "SVG-optimeringsværktøj",
+        "subtitle": "Komprimer SVG-filer online — fjern metadata, kommentarer og unødvendige attributter for at reducere filstørrelsen"
+    },
+    "editor": {
+        "title": "SVG-optimeringsværktøj",
+        "opt_remove_comments": "Fjern kommentarer",
+        "opt_remove_metadata": "Fjern metadata",
+        "opt_remove_ids": "Fjern ID'er",
+        "opt_remove_dimensions": "Fjern bredde/højde",
+        "opt_remove_doctype": "Fjern DOCTYPE",
+        "opt_round_numbers": "Afrund tal",
+        "opt_collapse_groups": "Fjern tomme grupper",
+        "opt_remove_empty_containers": "Fjern tomme beholdere",
+        "label_input": "SVG-input",
+        "ph_input": "Indsæt din SVG-kode her...",
+        "btn_optimize": "Optimér SVG",
+        "label_output": "Optimeret SVG",
+        "btn_copy": "Kopiér SVG"
+    },
+    "content": {
+        "why_title": "Hvorfor optimere SVG-filer?",
+        "why_desc": "SVG-filer eksporteret fra Illustrator, Figma og Inkscape indeholder meget unødvendige data — kommentarer, redigeringsmetadata, redundante attributter og tomme beholdere. Efter optimering kan filstørrelsen reduceres med 30-70 % og indlæsningen bliver hurtigere.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 optimeringsstrategier",
+                "desc": "Aktivér/deaktivér hvert optimeringspas uafhængigt for præcis kontrol"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Størrelsesreduktionsstatistik",
+                "desc": "Se original størrelse, optimeret størrelse og besparelsesprocent efter hver optimering"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Tabsfri optimering",
+                "desc": "Alle optimeringer bevarer SVG'ens visuelle udseende — fjerner kun usynlige metadata"
+            }
+        },
+        "how_title": "Optimér SVG i 3 trin",
+        "how_steps": {
+            "1": {
+                "title": "Indsæt SVG-kode",
+                "desc": "Kopiér SVG-kildekoden fra et designværktøj eller en fil og indsæt den i inputfeltet"
+            },
+            "2": {
+                "title": "Vælg optimeringer",
+                "desc": "Markér de optimeringsindstillinger du vil anvende — standardindstillingerne giver maksimal reduktion"
+            },
+            "3": {
+                "title": "Kopiér og brug",
+                "desc": "Kopiér den optimerede SVG og erstat originalfilen eller indlejr den direkte i HTML"
+            }
+        },
+        "uses_title": "Anvendelsesområder for SVG-optimering",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Ikonbiblioteker",
+                "desc": "Optimér ikonsæt eksporteret fra Figma eller Illustrator inden de tilføjes til biblioteket"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Logoer",
+                "desc": "Rens SVG-logoer til webstedshoveder, favicons og brandaktiver"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "Animerede SVG'er",
+                "desc": "Reducer basisstørrelsen på animerede SVG'er der allerede er store på grund af animationsdata"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA og mobil",
+                "desc": "Mindre SVG'er reducerer mobilforbrug og forbedrer Lighthouse-ydeevne"
+            }
+        },
+        "tips_title": "Bedste praksis for SVG-optimering",
+        "tips": {
+            "ids": {
+                "title": "✓ Vær forsigtig med at fjerne ID'er med CSS-animationer",
+                "desc": "Hvis SVG'en bruger CSS- eller JS-animationer der målretter ID-elementer, deaktivér 'Fjern ID'er' så animationerne ikke brydes."
+            },
+            "viewbox": {
+                "title": "✓ Behold viewBox, fjern bredde/højde",
+                "desc": "At fjerne bredde/højde-attributterne og kun beholde viewBox lader SVG'en skalere responsivt via CSS."
+            },
+            "precision": {
+                "title": "✓ Afrund tal til 2 decimaler",
+                "desc": "Stikoordinater med mere end 5 decimaler er visuelt uadskillelige. Afrunding til 2 gør filen mindre."
+            },
+            "pipeline": {
+                "title": "✓ Automatisér SVGO i CI/CD",
+                "desc": "I store projekter, integrér SVGO i byggepipeline for automatisk at optimere alle SVG'er."
+            }
+        },
+        "faq_title": "❓ Ofte stillede spørgsmål",
+        "faq": {
+            "q1": "Hvor meget kan SVG-optimering reducere filstørrelsen?",
+            "a1": "Typisk 30-70 % besparelse afhængigt af kilden. Illustrator-SVG'er viser oftest den største besparelse; Figma-eksporter er allerede relativt rene.",
+            "q2": "Ændrer optimering SVG'ens udseende?",
+            "a2": "Nej — alle optimeringer i dette værktøj fjerner kun usynlige data eller afrunder tal med umærkelig nøjagtighed. Det visuelle resultat er identisk med originalen.",
+            "q3": "Hvorfor fjerner man bredde- og højdeattributterne?",
+            "a3": "Hårdkodede bredde/højde-værdier forhindrer SVG'en i at skalere responsivt via CSS. At fjerne dem og kun beholde viewBox giver fuld størrelseskontrol via CSS-egenskaber.",
+            "q4": "Hvad er forskellen mellem dette værktøj og SVGO?",
+            "a4": "SVGO er et Node.js-kommandolinjeværktøj der er standard for SVG-optimering. Dette værktøj tilbyder en brugervenlig browserbrugerflade til de mest almindelige optimeringer uden at installere Node.js."
+        }
+    }
+}

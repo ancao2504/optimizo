@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Chuyển Đổi CSV Sang YAML Online - Miễn Phí | Optimizo",
+        "description": "Chuyển đổi tệp CSV sang định dạng YAML trực tuyến và miễn phí. Tự động dùng tiêu đề CSV làm khóa YAML và tạo YAML có thụt lề đúng với phát hiện kiểu.",
+        "h1": "Chuyển Đổi CSV Sang YAML",
+        "subtitle": "Chuyển đổi dữ liệu CSV sang định dạng YAML — ánh xạ tiêu đề tự động và phát hiện kiểu"
+    },
+    "editor": {
+        "title": "Chuyển Đổi CSV Sang YAML",
+        "label_csv": "Đầu vào CSV",
+        "ph_csv": "tên,tuổi,hoạt_động\nAlice,30,true\nBob,25,false",
+        "label_yaml": "Đầu ra YAML",
+        "btn_copy": "Sao chép YAML"
+    },
+    "content": {
+        "why_title": "Tại sao chuyển đổi CSV sang YAML?",
+        "why_desc": "CSV hoàn hảo để lưu trữ dữ liệu bảng trong bảng tính, nhưng YAML là tiêu chuẩn cho tệp cấu hình, fixture kiểm tra và công cụ DevOps. Chuyển đổi dữ liệu bảng tính sang Kubernetes ConfigMaps, tệp biến Ansible hoặc tệp dữ liệu Hugo loại bỏ việc định dạng lại khó chịu.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Chuyển đổi tự động",
+                "desc": "Chuyển đổi CSV sang YAML theo thời gian thực khi bạn gõ — không cần nhấn nút"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Khóa dựa trên tiêu đề",
+                "desc": "Tiêu đề CSV tự động chuyển đổi thành khóa YAML cho mỗi đối tượng trong danh sách đầu ra"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Phát hiện kiểu",
+                "desc": "Số và giá trị boolean (true/false) tự động chuyển đổi sang loại YAML đúng"
+            }
+        },
+        "how_title": "Chuyển đổi CSV sang YAML trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Dán dữ liệu CSV",
+                "desc": "Dán CSV có hàng tiêu đề — hàng đầu tiên xác định khóa YAML"
+            },
+            "2": {
+                "title": "Chuyển đổi tức thì",
+                "desc": "Đầu ra YAML xuất hiện ngay lập tức với mỗi hàng CSV là một phần tử trong danh sách YAML"
+            },
+            "3": {
+                "title": "Sao chép YAML",
+                "desc": "Sao chép YAML đã chuyển đổi và dán vào tệp cấu hình hoặc fixture kiểm tra"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng chuyển đổi CSV sang YAML",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Fixture kiểm tra",
+                "desc": "Chuyển đổi dữ liệu kiểm tra từ bảng tính sang fixture YAML cho RSpec, PHPUnit, PyTest"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Dữ liệu cấu hình",
+                "desc": "Chuyển đổi dữ liệu nhóm hoặc môi trường sang biến Ansible hoặc Kubernetes ConfigMaps"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Dữ liệu seed",
+                "desc": "Chuyển đổi CSV bảng tra cứu sang tệp seed YAML cho Rails, Laravel, Django"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Dữ liệu kiểm tra API",
+                "desc": "Chuyển đổi ví dụ từ bảng tính sang YAML cho công cụ mock API như WireMock hoặc Mirage"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho CSV sang YAML",
+        "tips": {
+            "headers": {
+                "title": "✓ Dùng tên tiêu đề nhất quán và sạch",
+                "desc": "Tiêu đề CSV trở thành khóa YAML — dùng nhất quán snake_case hoặc camelCase và tránh khoảng trắng."
+            },
+            "quotes": {
+                "title": "✓ Đặt dấu ngoặc kép cho giá trị có ký tự đặc biệt",
+                "desc": "Giá trị chứa dấu phẩy hoặc ngoặc kép phải được bao quanh bằng dấu ngoặc kép đôi trong CSV."
+            },
+            "encoding": {
+                "title": "✓ Dùng mã hóa UTF-8",
+                "desc": "Đảm bảo tệp CSV được mã hóa UTF-8 trước khi chuyển đổi."
+            },
+            "validate": {
+                "title": "✓ Xác thực YAML sau khi chuyển đổi",
+                "desc": "Luôn dán YAML đã chuyển đổi vào trình xác thực để kiểm tra cấu trúc đúng trước khi dùng trong tệp cấu hình."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Công cụ có xử lý các trường CSV trong ngoặc kép không?",
+            "a1": "Có — bộ phân tích xử lý đúng định dạng CSV RFC 4180 (bao gồm các trường được bao quanh bằng dấu ngoặc kép đôi). Dấu phẩy trong các trường trong ngoặc kép không được coi là ký tự phân cách.",
+            "q2": "Số và boolean được xử lý như thế nào?",
+            "a2": "Công cụ phát hiện kiểu: Số hợp lệ được chuyển đổi thành số YAML; giá trị true/false được chuyển đổi thành boolean YAML. Chuỗi vẫn là chuỗi.",
+            "q3": "Tôi có thể chuyển đổi dữ liệu TSV (phân cách bằng tab) không?",
+            "a3": "Công cụ này mong đợi CSV phân cách bằng dấu phẩy. Đối với dữ liệu phân cách bằng tab, hãy thay thế tab bằng dấu phẩy.",
+            "q4": "Làm thế nào để chuyển YAML về CSV nếu cần?",
+            "a4": "Chiều ngược (YAML sang CSV) đòi hỏi kiến thức trước về cấu trúc. Đối với danh sách phẳng các đối tượng với khóa nhất quán, bạn có thể trích xuất thủ công các khóa làm tiêu đề CSV và ánh xạ mỗi đối tượng YAML thành hàng."
+        }
+    }
+}

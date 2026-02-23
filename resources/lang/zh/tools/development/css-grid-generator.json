@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "在线 CSS 网格布局生成器 (Grid Layout) - 网页区块排版代码 | Optimizo",
+        "description": "免费的在线 CSS Grid 网格可视化生成器。通过直观的列行设置面板，无需手写代码即可设计复杂的二维网格布局，一键获取含 fr、minmax 和 gap 属性的完整 CSS 代码。",
+        "h1": "CSS 网格系统生成器 (CSS Grid)",
+        "subtitle": "只需填写列数与行高规格！自动帮您生成所有复杂的二维区域布局与 grid-template 代码"
+    },
+    "editor": {
+        "title": "Grid 布局构建器",
+        "settings_grid": "网格轨道定义 (Grid Container)",
+        "prop_columns": "列轨道设置 (grid-template-columns)",
+        "prop_rows": "行轨道设置 (grid-template-rows)",
+        "prop_gap_col": "列间距 (column-gap)",
+        "prop_gap_row": "行间距 (row-gap)",
+        "btn_add_col": "添加列 (+ Column)",
+        "btn_add_row": "添加行 (+ Row)",
+        "btn_remove": "删除 (Remove)",
+        "code_output": "生成的 CSS 与 HTML 代码",
+        "btn_copy_css": "复制 CSS",
+        "btn_copy_html": "复制 HTML"
+    },
+    "content": {
+        "why_title": "为什么要用 CSS Grid？它与 Flexbox 有什么本质区别？",
+        "why_desc": "CSS Grid 是第一个专门为二维（横向 + 纵向同时控制）页面区块划分而生的布局系统，也是实现"圣杯布局"（左侧边栏 + 主内容区 + 右侧栏广告）等复杂宏观页面结构的唯一最佳选择。Flexbox 擅长的是单一方向的弹性排列，而 Grid 的超越之处在于您可以同时精确定义行和列，并让某个元素在二维平面上跨越多行多列。然而，`grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))` 这类语法极其容易让初学者困惑。这款生成器将所有属性变成数字输入和增减按钮，让复杂的语法结构自动生成，降低学习门槛。",
+        "features": {
+            "fr": {
+                "icon": "📐",
+                "title": "弹性份额 fr 单位支持",
+                "desc": "自动使用 Grid 专属的 `fr`（fraction，弹性份额）单位来定义轨道宽度，让列之间保持自动均分的弹性比例关系。"
+            },
+            "gap": {
+                "icon": "🔳",
+                "title": "独立控制行列间距",
+                "desc": "通过分别调整行间距（row-gap）和列间距（column-gap）两个参数，让网格单元格之间保持统一规律的透气留白。"
+            },
+            "code": {
+                "icon": "📋",
+                "title": "配套生成 HTML 结构",
+                "desc": "工具不仅输出 CSS Grid 样式代码，还同步生成对应的 HTML 容器结构，完整的占位符代码可以直接复制进项目使用。"
+            }
+        },
+        "how_title": "四步搭建出专业的复杂页面网格框架",
+        "how_steps": {
+            "1": {
+                "title": "确定总列数和行数",
+                "desc": "根据您的页面设计稿，先决定网格划分成几列、几行。典型的主页布局通常是 3 列，仪表盘则可能是 2 至 4 列。"
+            },
+            "2": {
+                "title": "为每条轨道设置宽度或比例",
+                "desc": "为每一列（和行）指定尺寸，可以是固定像素 `200px`、百分比 `30%`，或弹性的 `1fr`（代表将剩余空间的 1 份分给它）。"
+            },
+            "3": {
+                "title": "调整行列间距",
+                "desc": "设置单元格之间的水平和垂直间距，为网格内容提供舒适的呼吸空间。"
+            },
+            "4": {
+                "title": "复制代码并应用到项目",
+                "desc": "直接复制下方生成的 CSS 和 HTML，粘贴进您的工程文件，无需手动编写任何 grid-template 语法。"
+            }
+        },
+        "uses_title": "最适合使用 CSS Grid 解决的布局场景",
+        "uses": {
+            "layout": {
+                "icon": "📰",
+                "title": "宏观页面框架（头部、主体、侧边栏）",
+                "desc": "Grid 是实现整页宏观分区布局的最佳工具，可以同时控制 Header、Sidebar、Content 和 Footer 的位置与大小。"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "图片画廊与瀑布流",
+                "desc": "利用 Grid 的 `auto-fit` 和 `minmax` 属性，可以轻松实现在大屏显示多列、小屏自动折叠为单列的响应式图片瀑布流。"
+            },
+            "dashboard": {
+                "icon": "🎛️",
+                "title": "数据仪表盘与管理后台",
+                "desc": "仪表盘通常有大小不一的卡片模块（如图表跨 2 列展示，指标卡片占 1 列），Grid 的跨行跨列能力完美契合这一需求。"
+            },
+            "responsive": {
+                "icon": "📱",
+                "title": "响应式多端适配布局",
+                "desc": "配合媒体查询，可以在大屏使用 3 列网格，在手机端自动切换为单列，Grid 让多端适配代码量大幅减少。"
+            }
+        },
+        "tips_title": "掌握 CSS Grid 的高阶技巧与避坑指南",
+        "tips": {
+            "auto_fit": {
+                "title": "✓ 用 auto-fit + minmax 实现自适应响应式网格",
+                "desc": "`grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))` 是最强大的响应式写法：它让网格自动计算列数，每列最小 250px，多出的空间用 `1fr` 均分，无需媒体查询就能自动折叠换列。"
+            },
+            "minmax": {
+                "title": "✓ 理解 fr 单位与 minmax() 的配合",
+                "desc": "`1fr` 代表网格容器中剩余可用空间的 1 个份额。`minmax(200px, 1fr)` 意味着这列宽度最小 200px，但在空间允许时会弹性扩张填满剩余份额。"
+            },
+            "inspect": {
+                "title": "✓ 善用浏览器的 Grid 调试窗格",
+                "desc": "Chrome 和 Firefox 均内置专门的 CSS Grid 可视化调试工具（打开 DevTools 后点击元素旁的 `grid` 标识），会用网格线和区域名称直观展示当前布局的确切划分情况。"
+            },
+            "subgrid": {
+                "title": "✓ 了解 subgrid 高级特性",
+                "desc": "`subgrid` 是 CSS Grid 的高级特性（近年主流浏览器已陆续支持），它允许子网格继承父级网格的轨道定义，解决了嵌套网格对齐的终极痛点。"
+            }
+        }
+    }
+}

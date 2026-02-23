@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "JavaScript-obfuskator Online - Beskyt JS-kode Gratis | Optimizo",
+        "description": "Obfuskér JavaScript-kode online gratis. Variabelnavn-omdøbning, streng-kodning og JS-minificering gør kildekoden sværere at læse.",
+        "h1": "JavaScript-obfuskator",
+        "subtitle": "Beskyt JavaScript-kode med variabelnavn-omdøbning, streng-kodning og minificering — alt i browseren"
+    },
+    "editor": {
+        "title": "JavaScript-obfuskator",
+        "label_input": "JavaScript-input",
+        "ph_input": "function greet(name) {\n  return 'Hej, ' + name + '!';\n}",
+        "opt_rename": "Omdøb variabler",
+        "opt_strings": "Kodér strenge",
+        "opt_minify": "Minificér kode",
+        "disclaimer": "⚠️ Obfuskering gør koden sværere at læse, men er ikke kryptering. Erfarne udviklere kan bakvendt-rekonstruere obfuskeret kode. Stol ikke kun på obfuskering til at beskytte følsomme data.",
+        "btn_obfuscate": "Obfuskér JavaScript",
+        "label_output": "Obfuskeret resultat",
+        "btn_copy": "Kopiér JS"
+    },
+    "content": {
+        "why_title": "Hvorfor obfuskere JavaScript-kode?",
+        "why_desc": "JavaScript kører i browseren og kildekoden er altid synlig i DevTools. Obfuskering kan ikke beskytte koden fuldt ud, men afskrækker fra uautoriseret kopiering, sænker bakvendt-rekonstruktion og skaber tilstrækkelige forhindringer til at beskytte proprietær forretningslogik.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Variabelnavn-omdøbning",
+                "desc": "Omdøber alle variabler, funktioner og parametre til ulæselige hexadecimale identifikatorer som _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Streng-kodning",
+                "desc": "Koder alle streng-literals til hexadecimale escape-sekvenser — funktionelt identisk, men ulæseligt"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Kodeminificering",
+                "desc": "Ud over obfuskering fjernes kommentarer og mellemrum normaliseres for at reducere filstørrelsen"
+            }
+        },
+        "how_title": "Obfuskér JavaScript i 3 trin",
+        "how_steps": {
+            "1": {
+                "title": "Indsæt JavaScript",
+                "desc": "Kopiér JavaScript-koden og indsæt den i inputfeltet"
+            },
+            "2": {
+                "title": "Vælg indstillinger",
+                "desc": "Vælg de obfuskeringsteknikker du vil anvende — vælg alle tre for maksimal beskyttelse"
+            },
+            "3": {
+                "title": "Kopiér og erstat",
+                "desc": "Kopiér det obfuskerede indhold og erstat originalfilen til distribution"
+            }
+        },
+        "uses_title": "Anvendelsesområder for JavaScript-obfuskering",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Kommercielle biblioteker",
+                "desc": "Beskyt proprietære algoritmer i betalte JavaScript-biblioteker distribueret til kunder"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Browserspil",
+                "desc": "Obfuskér spilslogik, pointvalidering og snydebeskyttelseskode"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "SaaS-widget",
+                "desc": "Beskyt indlejrede JavaScript-widgets distribueret til kundewebsteder"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Konkurrencer og hackathons",
+                "desc": "Beskyt originale algoritmer og tilgange i konkurrencebidrag"
+            }
+        },
+        "tips_title": "Bedste praksis for obfuskering",
+        "tips": {
+            "testing": {
+                "title": "✓ Test efter obfuskering",
+                "desc": "Test altid den obfuskerede kode i målbrowsere — mønstre som eval() kan bryde i streng tilstand."
+            },
+            "source": {
+                "title": "✓ Bevar original kildekode",
+                "desc": "Obfuskering er en irreversibel transformation. Bevar altid den originale læsbare kildekode i et sikkert versionskontrolsystem."
+            },
+            "server": {
+                "title": "✓ Flyt følsom logik til serveren",
+                "desc": "Obfuskering er ikke en sikkerhedsgaranti. Implementér logik for virkelig følsomme operationer på serversiden, ikke klientsiden."
+            },
+            "profiler": {
+                "title": "✓ Kontrollér præstationspåvirkning",
+                "desc": "Intensiv streng-kodning kan en smule sænke JavaScript-parsing. Profileer den obfuskerede kode i Chrome DevTools inden produktionsdeployment."
+            }
+        },
+        "faq_title": "❓ Ofte stillede spørgsmål",
+        "faq": {
+            "q1": "Kan JavaScript-obfuskering reverseres fuldstændigt?",
+            "a1": "Ja, med tilstrækkelig indsats. Værktøjer som de4js, webcrack og browserens DevTools kan delvist reversere obfuskeringen. Målet er at gøre det tilstrækkeligt kostbart til at afskrække tilfældig kopiering.",
+            "q2": "Kan obfuskering bryde JavaScript?",
+            "a2": "Korrekt anvendt bør obfuskering producere funktionelt identisk kode. Dog kan aggressiv minificering bryde visse metaprogrammeringsmønstre. Test altid grundigt.",
+            "q3": "Straffer Google obfuskeret JavaScript i SEO?",
+            "a3": "Google kan indeksere og køre sidernes JavaScript selv om det er obfuskeret. Hvis det renderede HTML-indhold er det samme, er der ingen SEO-straf.",
+            "q4": "Hvad er forskellen mellem minificering og obfuskering?",
+            "a4": "Minificering fjerner mellemrum og kommentarer og forkorter variabelnavne for at reducere filstørrelsen — koden er stadig læsbar efter omformatering. Obfuskering sigter mod at gøre koden ulæselig med forvirrende variabelnavne, streng-kodning og andre teknikker."
+        }
+    }
+}

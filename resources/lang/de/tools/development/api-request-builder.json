@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "API-Anfragen-Builder Online - Kostenloser HTTP-Client | Optimizo",
+        "description": "Erstellen und senden Sie HTTP-API-Anfragen online kostenlos. Unterstützt GET, POST, PUT, PATCH, DELETE mit benutzerdefinierten Headern, Anfragekörper und Query-Parametern.",
+        "h1": "API-Anfragen-Builder",
+        "subtitle": "HTTP-API-Anfragen erstellen, senden und prüfen — ein leichtgewichtiger HTTP-Client direkt im Browser"
+    },
+    "editor": {
+        "title": "API-Anfragen-Builder",
+        "btn_send": "Anfrage senden",
+        "tab_headers": "Header",
+        "tab_body": "Body",
+        "tab_params": "Parameter",
+        "btn_add_header": "Header hinzufügen",
+        "btn_add_param": "Parameter hinzufügen",
+        "label_response": "Antwort",
+        "btn_copy_response": "Antwort kopieren"
+    },
+    "content": {
+        "why_title": "Warum einen API-Anfragen-Builder verwenden?",
+        "why_desc": "Das Testen von REST-APIs erfordert normalerweise die Installation von Postman, Insomnia oder das Schreiben von curl-Befehlen. Unser browserbasierter HTTP-Client benötigt keine Installation — einfach öffnen und Anfragen senden. Er unterstützt alle HTTP-Methoden, benutzerdefinierte Header, JSON-Bodies und Query-Parameter und ist damit perfekt für schnelle API-Tests, die Erkundung öffentlicher APIs und das Debuggen von Integrationen.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Alle HTTP-Methoden",
+                "desc": "Unterstützt GET, POST, PUT, PATCH, DELETE mit benutzerdefinierten Headern und JSON/Form-Body"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Formatierte Antwort",
+                "desc": "Antwortkörper werden automatisch mit Einrückung angezeigt, mit Statuscode und Antwortzeit"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Sofort einsatzbereit",
+                "desc": "Keine Installation erforderlich — funktioniert vollständig im Browser ohne Konto oder Plugin"
+            }
+        },
+        "how_title": "API-Anfrage in 3 Schritten senden",
+        "how_steps": {
+            "1": {
+                "title": "URL und Methode eingeben",
+                "desc": "Geben Sie die API-Endpoint-URL ein und wählen Sie die HTTP-Methode (GET, POST usw.)"
+            },
+            "2": {
+                "title": "Header und Body hinzufügen",
+                "desc": "Wechseln Sie zum Header-Tab um Authorization, Content-Type und andere Header hinzuzufügen. Body-Tab für POST/PUT-Daten."
+            },
+            "3": {
+                "title": "Senden und prüfen",
+                "desc": "Klicken Sie auf Senden um die Anfrage auszuführen. Antwortkörper, Statuscode und Timing erscheinen unten."
+            }
+        },
+        "uses_title": "Anwendungsfälle des API-Anfragen-Builders",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "API debuggen",
+                "desc": "Testen Sie einzelne API-Endpoints mit benutzerdefinierten Headern und Bodies für Auth- und Datenprobleme"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Authentifizierungs-Token testen",
+                "desc": "Testen Sie Bearer-Auth, Basic Auth und API-Key-Schemas ohne Code zu schreiben"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "APIs erkunden",
+                "desc": "Erkunden Sie öffentliche APIs (GitHub, OpenWeather, JSONPlaceholder) und verstehen Sie ihre Antworten"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Bugs reproduzieren",
+                "desc": "Reproduzieren und dokumentieren Sie API-Bugs mit exakten Anfrage-/Antwortdetails für Bug-Reports"
+            }
+        },
+        "tips_title": "API-Test-Best-Practices",
+        "tips": {
+            "headers": {
+                "title": "✓ Content-Type immer setzen",
+                "desc": "Beim Senden eines JSON-Körpers immer Content-Type: application/json einschließen. Ohne dies werden viele APIs Ihre Anfrage ablehnen oder falsch interpretieren."
+            },
+            "cors": {
+                "title": "✓ CORS-Einschränkungen verstehen",
+                "desc": "Browser blockieren Cross-Origin-Anfragen ohne korrekte CORS-Header. Wenn eine Anfrage im Browser fehlschlägt, verwenden Sie curl oder einen serverseitigen Proxy."
+            },
+            "auth": {
+                "title": "✓ API-Keys niemals hardcoden",
+                "desc": "Verwenden Sie Umgebungsvariablen im Produktionscode. Der Anfragen-Builder ist nur zum Testen — teilen Sie keine Screenshots mit echten API-Keys."
+            },
+            "status": {
+                "title": "✓ HTTP-Statuscodes prüfen",
+                "desc": "200=OK, 201=Erstellt, 400=Ungültige Anfrage, 401=Nicht autorisiert, 403=Verboten, 404=Nicht gefunden, 500=Serverfehler."
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Warum schlägt meine Cross-Origin-Anfrage fehl?",
+            "a1": "Browser setzen CORS-Einschränkungen (Cross-Origin Resource Sharing) durch. Wenn die Ziel-API keine Access-Control-Allow-Origin-Header enthält, blockiert der Browser die Anfrage. Das ist kein Bug — verwenden Sie curl oder einen Backend-Proxy für APIs ohne CORS-Unterstützung.",
+            "q2": "Kann ich multipart/form-data-Anfragen senden?",
+            "a2": "Der aktuelle Builder unterstützt JSON- und Plaintext-Körper. Für Multipart-Formulardaten (Datei-Uploads) verwenden Sie native Browser-Formular-Übermittlung oder ein dediziertes Tool wie Postman.",
+            "q3": "Ist das ein Postman-Ersatz?",
+            "a3": "Für schnelle Tests und Erkundung — ja. Für Team-Kollaboration, gespeicherte Sammlungen, Umgebungen und automatisierte Tests bieten Postman oder Bruno mehr Funktionen. Dieses Tool glänzt bei sofortigen API-Tests ohne Einrichtung.",
+            "q4": "Was ist der Unterschied zwischen PUT und PATCH?",
+            "a4": "PUT ersetzt die gesamte Ressource durch den Anfragekörper. PATCH wendet ein partielles Update an — nur die im Körper enthaltenen Felder werden geändert. Die meisten REST-APIs verwenden PATCH für Updates um nicht-geänderte Felder nicht zu überschreiben."
+        }
+    }
+}

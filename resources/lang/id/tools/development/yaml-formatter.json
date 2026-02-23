@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Formatter YAML Online - Format File YAML Gratis | Optimizo",
+        "description": "Format dan validasi file YAML secara online dan gratis. Pembersihan YAML instan, indentasi yang tepat, dan pemeriksaan sintaks.",
+        "h1": "Formatter YAML",
+        "subtitle": "Format dan validasi file YAML secara instan — mendukung struktur bersarang yang kompleks, anchor, dan alias"
+    },
+    "editor": {
+        "title": "Formatter YAML",
+        "label_input": "Input YAML",
+        "ph_input": "name: Aplikasi Saya\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "Format YAML",
+        "label_output": "YAML yang Diformat",
+        "btn_copy": "Salin YAML"
+    },
+    "content": {
+        "why_title": "Mengapa memformat file YAML?",
+        "why_desc": "YAML sangat sensitif terhadap masalah indentasi — spasi ekstra bisa menyebabkan kesalahan parsing atau korupsi data yang diam-diam. Kubernetes, Docker Compose, GitHub Actions, dan Ansible menggunakan file konfigurasi YAML, dan satu kesalahan format dapat memblokir seluruh deployment.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Normalisasi Indentasi",
+                "desc": "Menormalkan indentasi campuran ke format 2 spasi yang konsisten di seluruh dokumen"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Validasi Sintaks",
+                "desc": "Mengidentifikasi kesalahan indentasi, campuran tab/spasi, dan masalah struktural"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Anchor dan Alias",
+                "desc": "Dukungan penuh untuk anchor YAML (&) dan alias (*) untuk penggunaan ulang dokumen"
+            }
+        },
+        "how_title": "Format YAML dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Tempel YAML",
+                "desc": "Tempel manifest Kubernetes, workflow GitHub Actions, atau file konfigurasi YAML"
+            },
+            "2": {
+                "title": "Format dan Validasi",
+                "desc": "Alat memvalidasi sintaks dan secara otomatis memformat ulang dengan indentasi yang konsisten"
+            },
+            "3": {
+                "title": "Salin dan Deploy",
+                "desc": "Salin YAML yang diformat ke file, pipeline CI, atau alat deployment"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Format YAML",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Manifest Kubernetes",
+                "desc": "Format file Deployment, Service, dan ConfigMap YAML sebelum diterapkan ke cluster"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "Pipeline CI/CD",
+                "desc": "Validasi workflow GitHub Actions, GitLab CI, dan CircleCI untuk mencegah kegagalan pipeline"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Playbook Ansible",
+                "desc": "Format dan validasi task, variabel, dan inventori Ansible"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Pastikan docker-compose.yml diformat dengan benar sebelum docker compose up"
+            }
+        },
+        "tips_title": "Praktik Terbaik YAML",
+        "tips": {
+            "spaces": {
+                "title": "✓ Gunakan spasi, bukan tab",
+                "desc": "Spesifikasi YAML secara eksplisit melarang karakter tab untuk indentasi. Konfigurasikan editor untuk menyisipkan spasi saat Tab ditekan di file YAML."
+            },
+            "quotes": {
+                "title": "✓ Beri tanda kutip pada karakter khusus",
+                "desc": "String yang mengandung : # [ ] { } atau dimulai dengan karakter khusus harus dikutip."
+            },
+            "anchors": {
+                "title": "✓ Gunakan anchor untuk mengurangi pengulangan",
+                "desc": "Anchor YAML (&nama) dan alias (*nama) memungkinkan penggunaan ulang nilai di seluruh dokumen."
+            },
+            "lint": {
+                "title": "✓ Lint sebelum commit",
+                "desc": "Jalankan yamllint atau gunakan formatter ini dalam hook pre-commit untuk mendeteksi masalah format lebih awal."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Mengapa YAML tidak berfungsi dengan tab daripada spasi?",
+            "a1": "Spesifikasi YAML melarang karakter tab untuk indentasi karena editor yang berbeda menampilkan tab dengan lebar yang berbeda. Spasi memberikan indentasi yang konsisten yang ditafsirkan sama oleh semua parser YAML.",
+            "q2": "Apa yang dilakukan anchor YAML (&) dan alias (*)?",
+            "a2": "Anchor mendefinisikan blok yang dapat digunakan ulang dengan &namaanchor; alias mereferensikannya dengan *namaanchor. Memungkinkan mendefinisikan nilai sekali dan menggunakannya di banyak tempat.",
+            "q3": "Apa perbedaan antara YAML dan JSON?",
+            "a3": "YAML adalah superset dari JSON — JSON yang valid juga merupakan YAML yang valid. YAML menambahkan dukungan komentar, anchor, string multi-baris, dan sintaks yang lebih mudah dibaca.",
+            "q4": "Kapan harus memilih YAML daripada TOML untuk konfigurasi?",
+            "a4": "YAML memiliki dukungan alat yang lebih luas (Kubernetes, Ansible, sebagian besar sistem CI) dan dapat mengekspresikan struktur bersarang yang kompleks secara ringkas. Dalam konfigurasi DevOps, YAML adalah standar."
+        }
+    }
+}

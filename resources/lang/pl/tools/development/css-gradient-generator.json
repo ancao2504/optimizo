@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Generator gradientów CSS Online - Kreator degradé za darmo | Optimizo",
+        "description": "Generuj gradienty CSS online za darmo. Twórz liniowe, radialne i stożkowe degradé z wieloma zatrzymaniami kolorów, kontrolą kąta i natychmiastowym eksportem CSS.",
+        "h1": "Generator gradientów CSS",
+        "subtitle": "Twórz piękne liniowe, radialne i stożkowe gradienty z podglądem na żywo i eksportem CSS"
+    },
+    "editor": {
+        "title": "Generator gradientów CSS",
+        "label_type": "Typ gradientu",
+        "label_angle": "Kąt",
+        "label_stops": "Zatrzymania kolorów",
+        "btn_add_stop": "Dodaj zatrzymanie",
+        "btn_copy": "Kopiuj CSS"
+    },
+    "content": {
+        "why_title": "Dlaczego używać wizualnego generatora gradientów?",
+        "why_desc": "Ręczne pisanie gradientów CSS jest żmudne — zapamiętywanie składni linear-gradient(), radial-gradient() i conic-gradient() z wieloma zatrzymaniami kolorów i pozycjami jest podatne na błędy. Nasz wizualny generator pozwala zarządzać zatrzymaniami kolorów za pomocą selektorów i suwaków pozycji, z podglądem na żywo aktualizującym się natychmiast, co sprawia, że tworzenie gradientów jest szybkie i intuicyjne.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 typy gradientów",
+                "desc": "Gradienty liniowe, radialne i stożkowe — wszystkie obsługiwane ze specyficznymi kontrolkami dla każdego typu"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Wielokolorowe gradienty",
+                "desc": "Dodawaj nieograniczoną liczbę zatrzymań kolorów i przeciągaj ich pozycje, aby tworzyć złożone gradienty"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Podgląd na żywo",
+                "desc": "Widzisz gradient renderowany w czasie rzeczywistym podczas regulacji kolorów, pozycji i kąta"
+            }
+        },
+        "how_title": "Jak tworzyć gradient CSS",
+        "how_steps": {
+            "1": {
+                "title": "Wybierz typ gradientu",
+                "desc": "Wybierz gradient liniowy, radialny lub stożkowy i ustaw kąt lub kierunek"
+            },
+            "2": {
+                "title": "Konfiguruj zatrzymania kolorów",
+                "desc": "Użyj selektorów, aby ustawić kolor każdego zatrzymania i suwaków do ich pozycjonowania"
+            },
+            "3": {
+                "title": "Skopiuj CSS",
+                "desc": "Kliknij 'Kopiuj CSS' dla pełnej właściwości background gotowej do arkusza stylów"
+            }
+        },
+        "uses_title": "Przypadki użycia gradientów CSS",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Tła hero",
+                "desc": "Twórz imponujące tła całej strony z ukośnymi lub radialnymi gradientami"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Tekst z gradientem",
+                "desc": "Stosuj gradienty do tekstu za pomocą background-clip: text dla uderzających efektów typograficznych"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Obramowania z gradientem",
+                "desc": "Używaj gradientów z border-image do tworzenia kolorowych obramowań elementów"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Nakładki na obrazy",
+                "desc": "Nakładaj gradienty na obrazy, aby tworzyć ciemne nakładki umożliwiające czytelność tekstu"
+            }
+        },
+        "tips_title": "Najlepsze praktyki gradientów CSS",
+        "tips": {
+            "angle": {
+                "title": "✓ Używaj 135deg dla gradientów ukośnych",
+                "desc": "Kąt 135 stopni tworzy klasyczną przekątną od lewego górnego do prawego dolnego, która wygląda naturalnie i dynamicznie — popularny wybór dla sekcji hero."
+            },
+            "subtle": {
+                "title": "✓ Utrzymuj gradienty subtelne dla UI",
+                "desc": "Dla elementów UI (przyciski, karty) używaj bardzo subtelnych gradientów tego samego tonu z różnicą jasności 10-20%, aby dodać głębię bez wizualnego szumu."
+            },
+            "fallback": {
+                "title": "✓ Podaj kolor zapasowy",
+                "desc": "Dodaj jednolity background-color przed gradientem jako zapas: background-color: #6366f1; background: linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Animuj pozycję gradientu",
+                "desc": "Gradientów CSS nie można bezpośrednio animować, ale można animować background-position na większym gradiencie, aby stworzyć płynny efekt."
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Jaka jest różnica między gradientami liniowymi, radialnymi i stożkowymi?",
+            "a1": "Gradienty liniowe przechodzą wzdłuż prostej linii pod kątem. Gradienty radialne promieniują z centralnego punktu w kręgach lub elipsach. Gradienty stożkowe obracają się wokół centralnego punktu jak wykres kołowy — idealne dla pierścieni postępu i kół kolorów.",
+            "q2": "Jak tworzyć przezroczysty gradient?",
+            "a2": "Użyj transparent jako zatrzymania kolorów: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Tworzy to gradient od półprzezroczystego koloru do całkowicie przezroczystego — idealny dla nakładek na obrazy.",
+            "q3": "Dlaczego mój gradient ma paski?",
+            "a3": "Pasmowanie (widoczne paski między kolorami) pojawia się na ekranach niskiej jakości lub przy przejściach między podobnymi odcieniami. Dodaj pośrednie zatrzymanie koloru w uzupełniającym tonie, aby wygładzić przejście.",
+            "q4": "Czy mogę używać gradientów jako obramowań?",
+            "a4": "Tak, użyj border-image: linear-gradient(...) 1. Ustawia to gradient jako obraz obramowania. Alternatywnie użyj pseudoelementu ::before z gradientowym tłem i ujemnym z-index, aby symulować obramowania z gradientem."
+        }
+    }
+}

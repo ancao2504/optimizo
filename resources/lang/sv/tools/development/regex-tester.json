@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Regex-testare Online - Testa Reguljära Uttryck Gratis | Optimizo",
+        "description": "Testa reguljära uttryck (Regex) online gratis. Realtidsmarkering av matchningar, stöd för flaggor och detaljer om infångningsgrupper.",
+        "h1": "Regex-testare",
+        "subtitle": "Testa Regex i realtid — matchningsmarkering, flaggor och detaljer om infångningsgrupper"
+    },
+    "editor": {
+        "title": "Regex-testare",
+        "label_pattern": "Mönster (Regex)",
+        "ph_pattern": "T.ex. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Flaggor",
+        "label_test": "Testtext",
+        "ph_test": "Klistra in text att testa här...",
+        "btn_test": "Testa",
+        "btn_clear": "Rensa"
+    },
+    "content": {
+        "why_title": "Varför använda en Regex-testare?",
+        "why_desc": "Reguljära uttryck är kraftfulla mönstermatchningsverktyg som används i nästan alla programmeringsspråk. Felsökning kan vara komplicerat — ett enda teckenfel kan helt ändra beteendet. Verktyget markerar matchningar i realtid vid varje knapptryckning, visar infångningsgruppsdetaljer och stöder alla JavaScript-flaggor.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Realtidsmarkering",
+                "desc": "Matchningar markeras omedelbart vid varje knapptryckning — ingen knapp att trycka"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Detaljer om infångningsgrupper",
+                "desc": "Visar alla infångningsgrupper, index och matchade värden för varje resultat"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Fullt stöd för flaggor",
+                "desc": "Aktivera flaggorna g, i, m, s, u, y individuellt och se deras effekt"
+            }
+        },
+        "how_title": "Testa Regex i 3 steg",
+        "how_steps": {
+            "1": {
+                "title": "Ange mönstret",
+                "desc": "Skriv det reguljära uttrycket i mönsterfältet (utan snedstreck)"
+            },
+            "2": {
+                "title": "Välj flaggor",
+                "desc": "Aktivera flaggor som g (global), i (skiftlägesokänslig), m (multirad) efter behov"
+            },
+            "3": {
+                "title": "Klistra in testtext",
+                "desc": "Ange text och matchningar markeras automatiskt"
+            }
+        },
+        "uses_title": "Vanliga användningsområden för Regex",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Formulärvalidering",
+                "desc": "Validera e-postadresser, telefonnummer, URL:er, postnummer och anpassade format"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Söka och ersätta",
+                "desc": "Sök och ersätt mönster i kodredigerare, loggfiler och textbearbetningspipelines"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Loggparsning",
+                "desc": "Extrahera strukturerad data (IP, tidsstämpel, felkod) från ostrukturerade loggar"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Indatasanering",
+                "desc": "Ta bort eller ersätt farliga tecken i användardata innan lagring eller visning"
+            }
+        },
+        "tips_title": "Bästa praxis för Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Använd ankare för exakt matchning",
+                "desc": "Använd ^ och $ för att fästa mönstret vid radstart och radslut och förhindra oönskad delmatchning"
+            },
+            "groups": {
+                "title": "✓ Föredra icke-infångande grupper",
+                "desc": "Använd (?:...) istället för (...) när du inte behöver fånga gruppen, för bättre prestanda"
+            },
+            "escape": {
+                "title": "✓ Escapa specialtecken",
+                "desc": ". * + ? ( ) [ ] { } | ^ $ \\ har speciell betydelse — använd \\ för bokstavlig matchning"
+            },
+            "test": {
+                "title": "✓ Testa edge cases",
+                "desc": "Testa alltid med tomma strängar, Unicode-tecken, mycket långa indata och gränsvärden"
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Vilken Regex-dialekt använder testaren?",
+            "a1": "JavaScript:s inbyggda RegExp-motor (ECMAScript-standard). Stöder lookahead, lookbehind (ES2018+), namngivna infångningsgrupper och Unicode-egenskaper.",
+            "q2": "Vad är skillnaden mellan flaggorna g och m?",
+            "a2": "Flaggan g (global) hittar alla matchningar i strängen, inte bara den första. Flaggan m (multirad) gör att ^ och $ matchar början och slutet av varje rad istället för hela strängen.",
+            "q3": "Hur matchar jag en bokstavlig punkt eller asterisk?",
+            "a3": "Escapa med snedstreck: \\. matchar en bokstavlig punkt, \\* matchar en bokstavlig asterisk.",
+            "q4": "Varför matchar mitt Regex mer text än förväntat?",
+            "a4": "Du använder förmodligen giriga kvantifierare. * och + är giriga som standard — de matchar så mycket text som möjligt. Lägg till ? för att göra dem lata: *? eller +? matchar så lite som möjligt."
+        }
+    }
+}

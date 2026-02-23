@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Calculadora chmod Online - Gerador de permissões Linux grátis | Optimizo",
+        "description": "Calculadora chmod gratuita online. Converta permissões de arquivos Linux entre notação simbólica (rwxr-xr-x) e octal (755) e gere comandos chmod.",
+        "h1": "Calculadora chmod",
+        "subtitle": "Calcule permissões Linux — converta entre notação simbólica e octal e gere comandos chmod"
+    },
+    "editor": {
+        "title": "Calculadora de permissões chmod",
+        "label_octal": "Valor octal",
+        "col_type": "Tipo",
+        "col_read": "Leitura (r)",
+        "col_write": "Escrita (w)",
+        "col_exec": "Execução (x)",
+        "col_octal": "Octal",
+        "row_owner": "Proprietário",
+        "row_group": "Grupo",
+        "row_others": "Outros (Mundo)",
+        "btn_copy": "Copiar comando"
+    },
+    "content": {
+        "why_title": "Por que usar uma calculadora chmod?",
+        "why_desc": "As permissões de arquivos Linux são expressas em dois formatos — simbólico (rwxr-xr-x) e octal (755). Calcular manualmente o valor de permissão correto é propenso a erros, especialmente para conjuntos de permissões menos comuns. Nossa calculadora permite marcar caixas visualmente para definir permissões e gera instantaneamente o valor octal e o comando chmod pronto para uso.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Construtor visual de permissões",
+                "desc": "Marque as caixas ler/escrever/executar para proprietário/grupo/outros — os valores são atualizados instantaneamente"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Sincronização bidirecional",
+                "desc": "Digite um valor octal (como 755) e as caixas são atualizadas automaticamente, ou vice-versa"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Comando pronto para uso",
+                "desc": "Gera o comando chmod completo para colar diretamente no seu terminal"
+            }
+        },
+        "how_title": "Como calcular permissões",
+        "how_steps": {
+            "1": {
+                "title": "Marque as permissões desejadas",
+                "desc": "Clique nas caixas ler/escrever/executar para Proprietário, Grupo e Outros"
+            },
+            "2": {
+                "title": "Consulte o octal e o simbólico",
+                "desc": "O valor octal (ex. 755) e a notação simbólica (rwxr-xr-x) são atualizados instantaneamente"
+            },
+            "3": {
+                "title": "Copie o comando",
+                "desc": "Copie o comando chmod gerado e execute-o no seu terminal"
+            }
+        },
+        "uses_title": "Cenários chmod comuns",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Arquivos do servidor web",
+                "desc": "Defina 644 para arquivos HTML/CSS/JS (proprietário leitura/escrita, grupo/outros somente leitura) no Apache ou Nginx"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Scripts executáveis",
+                "desc": "Defina 755 para scripts shell (proprietário total, grupo/outros leitura+execução) para torná-los executáveis"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "Chaves SSH",
+                "desc": "SSH requer que as chaves privadas tenham permissão 600 (somente proprietário leitura/escrita) ou o SSH recusará usá-las"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Diretórios de upload",
+                "desc": "Defina 775 para diretórios de upload web para que o processo do servidor web possa escrever os arquivos enviados"
+            }
+        },
+        "tips_title": "Boas práticas de permissões Linux",
+        "tips": {
+            "never777": {
+                "title": "✓ Nunca use 777 em produção",
+                "desc": "chmod 777 dá a todos acesso completo de leitura/escrita/execução — um grave risco de segurança. Sempre conceda as permissões mínimas necessárias."
+            },
+            "least": {
+                "title": "✓ Princípio do menor privilégio",
+                "desc": "Conceda sempre as permissões mínimas necessárias. Comece de forma restritiva (600) e adicione permissões conforme necessário em vez de começar aberto."
+            },
+            "recursive": {
+                "title": "✓ Cuidado com -R recursivo",
+                "desc": "chmod -R aplica permissões recursivamente a todos os arquivos e diretórios. Definir execução em diretórios geralmente está correto, mas nem sempre para arquivos."
+            },
+            "umask": {
+                "title": "✓ Entenda umask",
+                "desc": "O valor umask subtrai permissões do padrão. Um umask de 022 significa que novos arquivos obtêm 644 e novos diretórios 755 por padrão."
+            }
+        },
+        "faq_title": "❓ Perguntas frequentes",
+        "faq": {
+            "q1": "O que significa chmod 755?",
+            "a1": "755 significa: Proprietário (7) = ler+escrever+executar, Grupo (5) = ler+executar, Outros (5) = ler+executar. É a permissão padrão para arquivos executáveis e diretórios públicos.",
+            "q2": "Qual é a diferença entre 644 e 755?",
+            "a2": "644 (rw-r--r--): O proprietário pode ler/escrever, outros só podem ler — para arquivos comuns. 755 (rwxr-xr-x): O proprietário também pode executar — para scripts e diretórios.",
+            "q3": "Por que minha chave SSH precisa da permissão 600?",
+            "a3": "SSH se recusa a usar chaves privadas acessíveis por outros usuários. A permissão 600 (rw-------) garante que apenas o proprietário possa ler/escrever a chave, evitando acesso não autorizado.",
+            "q4": "O que significa o bit de execução em um diretório?",
+            "a4": "Para diretórios, o bit de execução significa 'atravessar' — permite que usuários entrem no diretório e acessem os arquivos dentro dele. Sem a permissão de execução em um diretório, usuários não podem entrá-lo mesmo com permissão de leitura."
+        }
+    }
+}

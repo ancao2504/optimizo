@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Online CSS Gradiens Generátor - Ingyen Készítsen | Optimizo",
+        "description": "CSS gradánsok létrehozása online, ingyen. Generáljon lineáris, radiális és kúpos gradánsokat több színmegállóval és szögvezérléssel azonnali CSS exporttal.",
+        "h1": "CSS Gradiens Generátor",
+        "subtitle": "Hozzon létre gyönyörű lineáris, radiális és kúpos gradánsokat valós idejű előnézettel és CSS exporttal"
+    },
+    "editor": {
+        "title": "CSS Gradiens Generátor",
+        "label_type": "Gradiens típus",
+        "label_angle": "Szög",
+        "label_stops": "Színmegállók",
+        "btn_add_stop": "Megálló hozzáadása",
+        "btn_copy": "CSS másolása"
+    },
+    "content": {
+        "why_title": "Miért használjon vizuális gradiens generátort?",
+        "why_desc": "A CSS gradánsok kézi írása nehézkes. Vizuális generátorunk lehetővé teszi, hogy a színmegállókat szín-választóval és pozíció-csúszkával vezérelje, valós idejű frissítéssel.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 gradiens típus",
+                "desc": "Lineáris, radiális és kúpos gradiens — minden típushoz dedikált vezérlőkkel"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Többszínű gradánsok",
+                "desc": "Korlátlan számú színmegállót adhat hozzá és pozíciókat húzhat összetett gradánsokhoz"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Valós idejű előnézet",
+                "desc": "Valós időben látja a gradiens renderelését a színek, pozíciók és szög beállításakor"
+            }
+        },
+        "how_title": "CSS gradiens létrehozása 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "Gradiens típus kiválasztása",
+                "desc": "Válasszon lineáris, radiális vagy kúpos grádáánst és állítsa be a szöget vagy irányt"
+            },
+            "2": {
+                "title": "Színmegállók beállítása",
+                "desc": "Állítsa be az egyes megállók színét szín-választóval és pozícióit csúszkákkal"
+            },
+            "3": {
+                "title": "CSS másolása",
+                "desc": "Kattintson a 'CSS másolása' gombra a teljes background tulajdonság megszerzéséhez a stíluslapban való használatra"
+            }
+        },
+        "uses_title": "CSS gradiens felhasználási esetek",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Hero szekció háttér",
+                "desc": "Lenyűgöző teljes képernyős háttereket hozhat létre átlós vagy radiális gradánsokkal"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Gradiens szöveg",
+                "desc": "Gradienst alkalmazzon szövegre background-clip:text segítségével elképesztő tipográfiai effektusokhoz"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Gradiens keretek",
+                "desc": "Gradienst alkalmazzon border-image-vel elemek körüli színes keretek létrehozásához"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Kép átfedés",
+                "desc": "Gradienst tegyen a képek fölé sötét átfedéshez, amely biztosítja a szöveg olvashatóságát"
+            }
+        },
+        "tips_title": "CSS gradiens legjobb gyakorlatai",
+        "tips": {
+            "angle": {
+                "title": "✓ 135deg használata átlós grádánsokhoz",
+                "desc": "A 135 fokos szög klasszikus átlót hoz létre bal felső saroktól jobb alsóig."
+            },
+            "subtle": {
+                "title": "✓ UI-ban tartsa a gradenseket finomaknak",
+                "desc": "UI elemekben, mint gombok és kártyák, rendkívül finom, 10-20% fényességkülönbségű gradánsokat alkalmazzon mélységhez."
+            },
+            "fallback": {
+                "title": "✓ Tartalék szín beállítása",
+                "desc": "Adjon hozzá tömör háttérszínt tartalékként: background-color:#6366f1; background:linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Gradiens pozíció animálása",
+                "desc": "CSS gradánsokat nem lehet közvetlenül animálni, de animálhatja a background-position-t egy nagyobb gradiensnél sima mozgás effektushoz."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Mi a különbség a lineáris, radiális és kúpos gradiens között?",
+            "a1": "A lineáris gradiens egyenes vonal mentén halad szög szerint. A radiális középpontból sugárzik, kör vagy ellipszis alakban. A kúpos középpont körül forog — ideális körkörös folyamatjelzőkhöz.",
+            "q2": "Hogyan hozzon létre átlátszó gradienst?",
+            "a2": "Használja a transparent-ot mint színmegállót: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Félátlátszó színtől teljesen átlátszóig menő gradienst hoz létre — ideális kép-átfedésekhez.",
+            "q3": "Miért látok sávozást a gradensemben?",
+            "a3": "A sávozás (látható vonalak a színek között) alacsony minőségű kijelzőkön vagy hasonló árnyalatok közötti átmeneteknél fordul elő. Adjon hozzá egy közbülső színmegállót az átmenet enyhítéséhez.",
+            "q4": "Használható gradiens kereten?",
+            "a4": "Igen; használja a border-image:linear-gradient(...) 1 értéket. Alternatívaként egy ::before pszeudo-elem gradiens háttérrel és negatív z-index értékkel szimulálhat gradient keretet."
+        }
+    }
+}

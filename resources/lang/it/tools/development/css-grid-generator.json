@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Generatore CSS Grid Online - Builder visuale di griglia | Optimizo",
+        "description": "Genera layout CSS Grid online gratis. Configura colonne, righe, spaziatura e allineamento con anteprima live ed esportazione CSS istantanea.",
+        "h1": "Generatore CSS Grid",
+        "subtitle": "Costruisci layout CSS Grid visualmente — configura colonne, righe, spaziatura e allineamento con anteprima live"
+    },
+    "editor": {
+        "title": "Generatore CSS Grid",
+        "label_cols": "Colonne",
+        "label_rows": "Righe",
+        "label_col_template": "Template di colonne",
+        "label_gap": "Spazio (gap)",
+        "label_align": "align-items",
+        "label_preview": "Anteprima live",
+        "btn_copy": "Copia CSS"
+    },
+    "content": {
+        "why_title": "Perché usare un generatore visuale di CSS Grid?",
+        "why_desc": "CSS Grid è il sistema di layout più potente in CSS, ma la sua sintassi — grid-template-columns, grid-template-rows, unità fr, minmax(), repeat() — ha una curva di apprendimento ripida. Il nostro generatore visuale ti permette di configurare la tua griglia tramite cursori e menu a tendina e vedere il layout aggiornarsi istantaneamente, per capire l'effetto di ogni proprietà senza dover consultare la documentazione MDN.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Anteprima della griglia live",
+                "desc": "Vedi la tua griglia aggiornarsi in tempo reale mentre regoli colonne, righe, spaziatura e allineamento"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Supporto alle unità fr",
+                "desc": "I template usano unità frazionarie (fr) per griglie flessibili e responsivi che si adattano alle dimensioni del contenitore"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Output CSS pronto per l'uso",
+                "desc": "Esporta un blocco CSS .container pulito con grid-template-columns, rows, gap e align-items"
+            }
+        },
+        "how_title": "Come creare un layout CSS Grid",
+        "how_steps": {
+            "1": {
+                "title": "Imposta colonne e righe",
+                "desc": "Usa i cursori per definire il numero di colonne e righe della tua griglia"
+            },
+            "2": {
+                "title": "Scegli il template e la spaziatura",
+                "desc": "Seleziona un template di colonne (uguale, fisso+flex, minmax responsivo) e regola la spaziatura tra le celle"
+            },
+            "3": {
+                "title": "Copia il CSS",
+                "desc": "Fai clic su 'Copia CSS' per il blocco CSS completo pronto per essere incollato nel tuo foglio di stile"
+            }
+        },
+        "uses_title": "Casi d'uso di CSS Grid",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Layout di pagina",
+                "desc": "Costruisci strutture intestazione/barra laterale/contenuto principale/piè di pagina con aree di griglia nominate"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboard",
+                "desc": "Crea layout di dashboard complessi con schede di dimensioni diverse tramite grid-column e grid-row span"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Gallerie di immagini",
+                "desc": "Costruisci gallerie di immagini stile masonry o uniformi con auto-fill e minmax per la responsività"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Layout rivista",
+                "desc": "Crea layout editoriali con colonne asimmetriche ed elementi in evidenza che si estendono su più celle"
+            }
+        },
+        "tips_title": "Best practice per CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Preferisci le unità fr alle percentuali",
+                "desc": "L'unità fr (frazionaria) distribuisce lo spazio disponibile dopo le colonne di dimensione fissa, evitando di calcolare manualmente le percentuali per le colonne flessibili."
+            },
+            "minmax": {
+                "title": "✓ Usa minmax() per griglie responsivi",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) crea una griglia responsiva che regola automaticamente il numero di colonne — senza media query."
+            },
+            "named": {
+                "title": "✓ Usa le aree di griglia nominate",
+                "desc": "grid-template-areas con celle nominate (header, sidebar, main, footer) rende i layout di pagina leggibili e facili da modificare."
+            },
+            "auto": {
+                "title": "✓ Comprendi auto-fill vs auto-fit",
+                "desc": "auto-fill crea quante più tracce possibile (lasciando tracce vuote). auto-fit comprime le tracce vuote ed espande gli elementi esistenti — generalmente migliore per le griglie di schede."
+            }
+        },
+        "faq_title": "❓ Domande frequenti",
+        "faq": {
+            "q1": "Cos'è un'unità fr in CSS Grid?",
+            "a1": "fr sta per 'unità frazionaria'. 1fr rappresenta una frazione dello spazio libero disponibile nel contenitore della griglia. repeat(3, 1fr) crea 3 colonne uguali che condividono equamente tutto lo spazio disponibile.",
+            "q2": "In cosa CSS Grid differisce da Flexbox?",
+            "a2": "Flexbox è unidimensionale — dispone gli elementi lungo un singolo asse (riga o colonna). CSS Grid è bidimensionale — controlla righe e colonne simultaneamente, rendendolo molto più potente per i layout di pagina.",
+            "q3": "Cosa fa minmax()?",
+            "a3": "minmax(min, max) definisce un intervallo di dimensioni per una traccia di griglia. minmax(200px, 1fr) significa che una colonna ha almeno 200px di larghezza ma può crescere per riempire lo spazio disponibile — ideale per griglie responsivi.",
+            "q4": "Quando usare CSS Grid invece di Flexbox?",
+            "a4": "Usa Grid per i layout 2D dove hai bisogno di controllare simultaneamente righe e colonne. Usa Flexbox per i layout di componenti 1D come le barre di navigazione e le righe di moduli. La maggior parte dei layout moderni usa entrambi."
+        }
+    }
+}

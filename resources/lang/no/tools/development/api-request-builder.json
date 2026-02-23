@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "API-forespørselsbygger Nettbasert - Gratis HTTP-klient | Optimizo",
+        "description": "Lag og send HTTP API-forespørsler nettbasert og gratis. Støtter GET, POST, PUT, PATCH, DELETE med egendefinerte overskrifter, forespørselskropp og spørringsparametere.",
+        "h1": "API-forespørselsbygger",
+        "subtitle": "Lag, send og inspiser HTTP API-forespørsler — lett HTTP-klient i nettleseren"
+    },
+    "editor": {
+        "title": "API-forespørselsbygger",
+        "btn_send": "Send forespørsel",
+        "tab_headers": "Overskrifter",
+        "tab_body": "Kropp",
+        "tab_params": "Parametere",
+        "btn_add_header": "Legg til overskrift",
+        "btn_add_param": "Legg til parameter",
+        "label_response": "Svar",
+        "btn_copy_response": "Kopier svar"
+    },
+    "content": {
+        "why_title": "Hvorfor bruke en API-forespørselsbygger?",
+        "why_desc": "REST API-testing krever vanligvis installasjon av Postman eller Insomnia, eller å skrive curl-kommandoer. Vår nettleserbaserte HTTP-klient trenger ingen installasjon — åpne den og send forespørsler direkte.",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "Alle HTTP-metoder",
+                "desc": "Støtter GET, POST, PUT, PATCH, DELETE med egendefinerte overskrifter og JSON/skjema-kropp"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "Formatert svar",
+                "desc": "Svarkroppen vises automatisk med innrykk; statuskode og svartid vises"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "Klar til bruk umiddelbart",
+                "desc": "Ingenting å installere — fungerer helt i nettleseren uten konto eller plugin"
+            }
+        },
+        "how_title": "Send en API-forespørsel i 3 trinn",
+        "how_steps": {
+            "1": {
+                "title": "Angi URL og metode",
+                "desc": "Skriv inn API-endepunktets URL og velg HTTP-metode (GET, POST osv.)"
+            },
+            "2": {
+                "title": "Legg til overskrifter og kropp",
+                "desc": "Legg til Authorization, Content-Type osv. i fanen 'Overskrifter'. Bruk 'Kropp' for POST/PUT-data."
+            },
+            "3": {
+                "title": "Send og inspiser",
+                "desc": "Klikk 'Send'. Svarkropp, statuskode og tid vises nedenfor."
+            }
+        },
+        "uses_title": "Bruksområder for API-forespørselsbyggeren",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "API-feilsøking",
+                "desc": "Test individuelle endepunkter med egendefinerte overskrifter og kropp for å feilsøke autentiserings- og dataproblemer"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "Test autentiseringstoken",
+                "desc": "Test Bearer, Basic Auth og API-nøkkelskjemaer uten å skrive kode"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "Utforsk API-er",
+                "desc": "Utforsk offentlige API-er (GitHub, OpenWeather, JSONPlaceholder) og forstå svarene"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "Reproduser feil",
+                "desc": "Reproduser og dokumenter API-feil med nøyaktige forespørsels- og svardata for feilrapporter"
+            }
+        },
+        "tips_title": "Beste praksis for API-testing",
+        "tips": {
+            "headers": {
+                "title": "✓ Sett alltid Content-Type",
+                "desc": "Med en JSON-kropp, inkluder alltid Content-Type: application/json. Mange API-er avviser eller feiltolker forespørselen ellers."
+            },
+            "cors": {
+                "title": "✓ Forstå CORS-begrensninger",
+                "desc": "Nettlesere blokkerer cross-origin-forespørsler uten riktige CORS-overskrifter. Bruk curl eller en server-side-proxy hvis forespørselen mislykkes i nettleseren."
+            },
+            "auth": {
+                "title": "✓ Hardkod ikke API-nøkler",
+                "desc": "Bruk miljøvariabler i produksjonskode. Byggeverktøyet er for testing — del ikke skjermbilder med ekte API-nøkler."
+            },
+            "status": {
+                "title": "✓ Sjekk HTTP-statuskoder",
+                "desc": "200=OK, 201=Opprettet, 400=Ugyldig forespørsel, 401=Ikke autorisert, 403=Forbudt, 404=Ikke funnet, 500=Serverfeil."
+            }
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Hvorfor mislykkes cross-origin-forespørsler?",
+            "a1": "Nettlesere håndhever CORS-begrensninger. Hvis mål-API-et ikke har Access-Control-Allow-Origin-overskrift blokkerer nettleseren forespørselen. Det er ikke en feil — bruk curl eller en backend-proxy for API-er uten CORS.",
+            "q2": "Kan jeg sende multipart/form-data-forespørsler?",
+            "a2": "Byggeren støtter for øyeblikket JSON og tekst-kropper. For filopplastinger og lignende flerpart-skjemadata, bruk et dedikert verktøy som Postman.",
+            "q3": "Er dette et alternativ til Postman?",
+            "a3": "For rask testing og utforsking, ja. For teamsamarbeid, lagrede samlinger, miljøer og automatiserte tester tilbyr Postman eller Bruno flere funksjoner.",
+            "q4": "Hva er forskjellen mellom PUT og PATCH?",
+            "a4": "PUT erstatter hele ressursen med forespørselskroppen. PATCH bruker delvise oppdateringer — bare feltene i kroppen endres. De fleste REST API-er bruker PATCH for oppdateringer for å unngå å overskrive uendrede felt."
+        }
+    }
+}

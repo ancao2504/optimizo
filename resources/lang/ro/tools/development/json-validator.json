@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Validator JSON Online - Validați JSON Gratuit | Optimizo",
+        "description": "Validator JSON online și gratuit. Validați sintaxa JSON instantaneu, identificați erorile de sintaxă cu numere de linie și vedeți rezultatul formatat.",
+        "h1": "Validator JSON",
+        "subtitle": "Validați sintaxa JSON instantaneu — detectați erorile și confirmați că structura datelor este corectă"
+    },
+    "editor": {
+        "title": "Validator JSON",
+        "label_input": "JSON de validat",
+        "ph_input": "Inserați JSON-ul dvs. aici...",
+        "btn_validate": "Validați JSON",
+        "btn_copy": "Copiați JSON"
+    },
+    "content": {
+        "why_title": "De ce să validați JSON înainte de utilizare?",
+        "why_desc": "JSON-ul invalid poate strica silențios API-urile, parsere de configurare și pipeline-uri de date. Virgule plasate greșit, paranteze neînchise și ghilimele ne-escape-uite pot cauza erori de execuție dificil de urmărit. Instrumentul nostru identifică aceste probleme imediat cu numere de linie precise și mesaje de eroare clare.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Validare instantanee",
+                "desc": "Validează JSON în milisecunde cu mesaje de eroare precise și numere de linie"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Prezentare structură",
+                "desc": "Vedeți adâncimea JSON, numărul de chei și distribuția tipurilor dintr-o privire"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100% privat",
+                "desc": "Toată validarea are loc în browser — datele dvs. nu părăsesc niciodată dispozitivul"
+            }
+        },
+        "how_title": "Validați JSON în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Inserați JSON",
+                "desc": "Copiați și inserați JSON dintr-un răspuns API, fișier de configurare sau altă sursă"
+            },
+            "2": {
+                "title": "Faceți clic pe Validați",
+                "desc": "Validatorul verifică sintaxa instantaneu și evidențiază erorile cu numere de linie"
+            },
+            "3": {
+                "title": "Corectați și copiați",
+                "desc": "Corectați erorile și copiați JSON-ul validat și formatat"
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru validarea JSON",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "Validarea răspunsurilor API",
+                "desc": "Confirmați că răspunsurile REST API sunt corect structurate înainte de procesare"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Verificarea fișierelor de configurare",
+                "desc": "Validați package.json, tsconfig.json și alte fișiere de configurare înainte de implementare"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Validarea la importul de date",
+                "desc": "Verificați că fișierele JSON de import sunt corecte înainte de încărcarea în baza de date"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Depanarea erorilor JSON",
+                "desc": "Găsiți precis erorile de sintaxă din structuri JSON complexe, adânc imbricate"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru JSON",
+        "tips": {
+            "quotes": {
+                "title": "✓ Folosiți întotdeauna ghilimele duble",
+                "desc": "JSON necesită ghilimele duble pentru șiruri și chei. Ghilimelele simple nu sunt JSON valid."
+            },
+            "trailing": {
+                "title": "✓ Fără virgule finale",
+                "desc": "Spre deosebire de JavaScript, JSON nu permite virgulă după ultimul element din tablouri sau obiecte."
+            },
+            "null": {
+                "title": "✓ Folosiți null, nu None sau nil",
+                "desc": "Cuvântul cheie null în JSON trebuie scris cu litere mici. None din Python sau nil din Ruby nu sunt JSON valid."
+            },
+            "validate": {
+                "title": "✓ Revalidați după editarea manuală",
+                "desc": "Validați întotdeauna din nou JSON după editarea manuală. O mică greșeală de tipar poate invalida întregul document."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "De ce este JSON-ul meu invalid deși pare corect?",
+            "a1": "Probleme ascunse comune: virgulă finală după ultimul element, ghilimele simple în loc de duble, caractere speciale ne-escape-uite în șiruri, comentarii JavaScript (JSON nu suportă comentarii).",
+            "q2": "Pot valida fișiere JSON foarte mari?",
+            "a2": "Da — validarea are loc complet în browser cu JSON.parse() nativ. Dimensiunea fișierului este limitată doar de memoria browserului.",
+            "q3": "Care este diferența dintre JSON și JSONP?",
+            "a3": "JSON este un format pur de date. JSONP împachetează JSON într-un apel de funcție pentru cereri cross-domain. JSONP nu este JSON valid.",
+            "q4": "JSON suportă comentarii?",
+            "a4": "Nu. JSON nu suportă comentarii // sau /* */. Folosiți o cheie _comment sau treceți la YAML sau TOML care suportă comentarii."
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Tester Regex Online - Test espressioni regolari gratis | Optimizo",
+        "description": "Tester regex gratuito online. Testa espressioni regolari JavaScript con evidenziazione delle corrispondenze in tempo reale, supporto ai flag e dettagli dei gruppi di cattura.",
+        "h1": "Tester di Regex",
+        "subtitle": "Testa le espressioni regolari in tempo reale con evidenziazione, flag e dettagli dei gruppi di cattura"
+    },
+    "editor": {
+        "title": "Tester di Regex",
+        "label_pattern": "Pattern - Espressione Regolare",
+        "ph_pattern": "es. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Flag",
+        "label_test": "Stringa di test",
+        "ph_test": "Incolla il testo che vuoi testare con la tua espressione regolare...",
+        "btn_test": "Testa",
+        "btn_clear": "Cancella"
+    },
+    "content": {
+        "why_title": "Perché usare il nostro tester di Regex?",
+        "why_desc": "Le espressioni regolari (regex) sono potenti strumenti di pattern matching usati in quasi tutti i linguaggi di programmazione. Fare debug di una regex può essere complesso — un singolo carattere sbagliato cambia completamente il comportamento della ricerca. Il nostro tester in tempo reale evidenzia le corrispondenze mentre scrivi, mostra i dettagli dei gruppi di cattura e supporta tutti i flag di JavaScript, rendendolo il modo più rapido per costruire e validare le tue espressioni regolari.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Evidenziazione in tempo reale",
+                "desc": "Le corrispondenze vengono evidenziate istantaneamente ad ogni pressione del tasto — senza bisogno di fare clic"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Dettagli dei gruppi di cattura",
+                "desc": "Visualizza tutti i gruppi di cattura, i loro indici e i valori corrispondenti per ogni risultato"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Supporto completo ai flag",
+                "desc": "Attiva i flag g, i, m, s, u, y in modo indipendente e osserva il loro effetto"
+            }
+        },
+        "how_title": "Come testare un Regex in 3 passi",
+        "how_steps": {
+            "1": {
+                "title": "Scrivi il tuo pattern",
+                "desc": "Inserisci la tua espressione regolare nel campo del pattern (senza barre oblique intorno)"
+            },
+            "2": {
+                "title": "Scegli i flag",
+                "desc": "Attiva g (globale), i (case-insensitive), m (multilinea) e altri flag secondo le tue esigenze"
+            },
+            "3": {
+                "title": "Incolla il tuo testo di test",
+                "desc": "Inserisci il testo da testare — le corrispondenze vengono evidenziate automaticamente"
+            }
+        },
+        "uses_title": "Casi d'uso comuni del Regex",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Validazione dei moduli",
+                "desc": "Valida email, numeri di telefono, URL, codici postali e formati personalizzati"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Cerca e sostituisci",
+                "desc": "Trova e sostituisci pattern in editor di codice, file di log e pipeline di elaborazione testo"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Analisi dei file di log",
+                "desc": "Estrai dati strutturati (IP, timestamp, codici di errore) da log non strutturati"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Sanitizzazione degli input",
+                "desc": "Rimuovi o sostituisci caratteri pericolosi nei dati utente prima di archiviarli o visualizzarli"
+            }
+        },
+        "tips_title": "Best practice per il Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Usa le ancore per corrispondenze esatte",
+                "desc": "Usa ^ e $ per ancorare i pattern all'inizio e alla fine di una stringa, evitando corrispondenze parziali indesiderate"
+            },
+            "groups": {
+                "title": "✓ Preferisci i gruppi non catturanti",
+                "desc": "Usa (?:...) invece di (...) quando non hai bisogno di catturare il gruppo — migliora le prestazioni"
+            },
+            "escape": {
+                "title": "✓ Esegui l'escape dei caratteri speciali",
+                "desc": "I caratteri . * + ? ( ) [ ] { } | ^ $ \\ hanno un significato speciale — eseguine l'escape con \\ per corrispondenze letterali"
+            },
+            "test": {
+                "title": "✓ Testa i casi limite",
+                "desc": "Testa sempre con stringhe vuote, caratteri Unicode, input molto lunghi e condizioni al limite"
+            }
+        },
+        "faq_title": "❓ Domande frequenti",
+        "faq": {
+            "q1": "Quale dialetto di regex usa questo tester?",
+            "a1": "Questo tester usa il motore RegExp integrato di JavaScript, che segue lo standard ECMAScript. Supporta tutte le funzionalità di JS: lookahead, lookbehind (ES2018+), gruppi di cattura nominati e sequenze di escape per proprietà Unicode.",
+            "q2": "Qual è la differenza tra i flag g e m?",
+            "a2": "Il flag g (globale) trova tutte le corrispondenze nella stringa anziché solo la prima. Il flag m (multilinea) fa sì che ^ e $ corrispondano all'inizio/fine di ogni riga anziché dell'intera stringa. Servono scopi diversi e possono essere combinati.",
+            "q3": "Come faccio a fare la corrispondenza con un punto letterale o un asterisco?",
+            "a3": "Eseguine l'escape con una barra rovesciata: \\. corrisponde a un punto letterale, \\* a un asterisco letterale. All'interno di una classe di caratteri [ ], la maggior parte dei caratteri speciali perde il suo significato, eccetto ] \\ ^ -.",
+            "q4": "Perché la mia regex corrisponde a troppo testo?",
+            "a4": "Probabilmente stai usando quantificatori greedy. I quantificatori * e + sono greedy per impostazione predefinita e corrispondono alla massima quantità di testo possibile. Aggiungi ? per renderli lazy: *? o +? corrisponderanno alla quantità minima possibile."
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "JavaScript-hämääjä Verkossa - Suojaa JS-koodi | Optimizo",
+        "description": "Hämää JavaScript-koodi verkossa ilmaiseksi. Muuttujien uudelleennimeäminen, merkkijonojen salaus ja JS-tiivistäminen tekevät lähdekoodista vaikeammin luettavan.",
+        "h1": "JavaScript-hämääjä",
+        "subtitle": "Suojaa JavaScript-koodi muuttujien uudelleennimeämisellä, merkkijonojen salauksella ja tiivistämisellä — kaikki selaimessa"
+    },
+    "editor": {
+        "title": "JavaScript-hämääjä",
+        "label_input": "JavaScript-syöte",
+        "ph_input": "function greet(name) {\n  return 'Hei, ' + name + '!';\n}",
+        "opt_rename": "Uudelleennimeä muuttujat",
+        "opt_strings": "Salaa merkkijonot",
+        "opt_minify": "Tiivistä koodi",
+        "disclaimer": "⚠️ Hämäys tekee koodista vaikeammin luettavan, mutta ei ole salaus. Kokeneet kehittäjät voivat kääntää hämätyn koodin. Älä luota pelkästään hämäykseen arkaluonteisten tietojen suojaamisessa.",
+        "btn_obfuscate": "Hämää JavaScript",
+        "label_output": "Hämätty tulos",
+        "btn_copy": "Kopioi JS"
+    },
+    "content": {
+        "why_title": "Miksi hämätä JavaScript-koodi?",
+        "why_desc": "JavaScript suoritetaan selaimessa ja lähdekoodi on aina näkyvissä DevToolsissa. Hämäys ei voi täysin suojata koodia, mutta se estää luvattoman kopioinnin, hidastaa kääntämistä ja luo riittäviä esteitä omistusoikeudellisen liiketoimintalogiikan suojaamiseksi.",
+        "features": {
+            "rename": {
+                "icon": "🔤",
+                "title": "Muuttujien uudelleennimeäminen",
+                "desc": "Nimeää uudelleen kaikki muuttujat, funktiot ja parametrit lukukelvottomiksi heksadesimaalikooditunnisteiksi kuten _0x1a2b"
+            },
+            "strings": {
+                "icon": "🔐",
+                "title": "Merkkijonojen salaus",
+                "desc": "Salaa kaikki merkkijonoliteraalit heksadesimaalipakosekvensseihin — toiminnallisesti identtinen, mutta lukukelvoton"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Koodin tiivistäminen",
+                "desc": "Hämäyksen lisäksi poistaa kommentit ja normalisoi välilyönnit tiedostokoon pienentämiseksi"
+            }
+        },
+        "how_title": "Hämää JavaScript 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Liitä JavaScript",
+                "desc": "Kopioi JavaScript-koodi ja liitä se syötekenttään"
+            },
+            "2": {
+                "title": "Valitse asetukset",
+                "desc": "Valitse haluamasi hämäystekniikat — valitse kaikki kolme maksimaalista suojaa varten"
+            },
+            "3": {
+                "title": "Kopioi ja korvaa",
+                "desc": "Kopioi hämätty sisältö ja korvaa alkuperäinen tiedosto jakelua varten"
+            }
+        },
+        "uses_title": "JavaScript-hämäyksen käyttötapaukset",
+        "uses": {
+            "library": {
+                "icon": "📦",
+                "title": "Kaupalliset kirjastot",
+                "desc": "Suojaa omistusoikeudellisia algoritmeja maksullisissa JavaScript-kirjastoissa, jotka jaetaan asiakkaille"
+            },
+            "game": {
+                "icon": "🎮",
+                "title": "Selainpelit",
+                "desc": "Hämää pelilogiikka, pisteiden validointi ja huijauksenestämiskoodi"
+            },
+            "saas": {
+                "icon": "☁️",
+                "title": "SaaS-widget",
+                "desc": "Suojaa upotettuja JavaScript-widgettejä, jotka jaetaan asiakasverkkosivustoille"
+            },
+            "competition": {
+                "icon": "🏆",
+                "title": "Kilpailut ja hakathonit",
+                "desc": "Suojaa alkuperäisiä algoritmeja ja lähestymistapoja kilpailuehdotuksissa"
+            }
+        },
+        "tips_title": "Hämäyksen parhaat käytännöt",
+        "tips": {
+            "testing": {
+                "title": "✓ Testaa hämäyksen jälkeen",
+                "desc": "Testaa aina hämätty koodi kohdeselaimissa — kuviot kuten eval() voivat rikkoutua tiukassa tilassa."
+            },
+            "source": {
+                "title": "✓ Säilytä alkuperäinen lähdekoodi",
+                "desc": "Hämäys on peruuttamaton muutos. Säilytä aina alkuperäinen luettava lähdekoodi turvallisessa versionhallintajärjestelmässä."
+            },
+            "server": {
+                "title": "✓ Siirrä arkaluonteinen logiikka palvelimelle",
+                "desc": "Hämäys ei ole tietoturvatakuu. Toteuta aidosti arkaluonteisten operaatioiden logiikka palvelinpuolella, ei asiakaspuolella."
+            },
+            "profiler": {
+                "title": "✓ Tarkista suorituskykyvaikutus",
+                "desc": "Intensiivinen merkkijonojen salaus voi hieman hidastaa JavaScript-jäsennystä. Profiloi hämätty koodi Chrome DevToolsissa ennen tuotantokäyttöönottoa."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Voidaanko JavaScript-hämäys kääntää täysin?",
+            "a1": "Kyllä, riittävällä vaivannäöllä. Työkalut kuten de4js, webcrack ja selaimen DevTools voivat osittain kääntää hämäyksen. Tavoite on tehdä siitä riittävän kallista satunnaisen kopioinnin estämiseksi.",
+            "q2": "Voiko hämäys rikkoa JavaScriptin?",
+            "a2": "Oikein sovellettuna hämäyksen pitäisi tuottaa toiminnallisesti identtinen koodi. Kuitenkin aggressiivinen tiivistäminen voi rikkoa tiettyjä metaohjelmointikuvioita. Testaa aina perusteellisesti.",
+            "q3": "Rankaisaako Google hämättyä JavaScriptiä SEO:ssa?",
+            "a3": "Google voi indeksoida ja suorittaa sivun JavaScriptiä, vaikka se olisi hämätty. Jos renderoitu HTML-sisältö on sama, SEO-rangaistusta ei tule.",
+            "q4": "Mikä on ero tiivistämisen ja hämäyksen välillä?",
+            "a4": "Tiivistäminen poistaa välilyönnit ja kommentit ja lyhentää muuttujanimiä tiedostokoon pienentämiseksi — koodi on edelleen luettava uudelleenmuotoilun jälkeen. Hämäys pyrkii tekemään koodista lukukelvottoman hämmentävillä muuttujanimillä, merkkijonojen salauksella ja muilla tekniikoilla."
+        }
+    }
+}

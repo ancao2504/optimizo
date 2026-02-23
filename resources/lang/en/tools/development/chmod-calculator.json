@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Chmod Calculator - Linux File Permission Generator | Optimizo",
+        "description": "Free online chmod calculator. Convert Linux file permissions between symbolic (rwxr-xr-x) and octal (755) formats. Generate chmod commands instantly.",
+        "h1": "Chmod Calculator",
+        "subtitle": "Calculate Linux file permissions — convert between symbolic and octal notation and generate chmod commands"
+    },
+    "editor": {
+        "title": "Chmod Permission Calculator",
+        "label_octal": "Octal Value",
+        "col_type": "Type",
+        "col_read": "Read (r)",
+        "col_write": "Write (w)",
+        "col_exec": "Execute (x)",
+        "col_octal": "Octal",
+        "row_owner": "Owner (User)",
+        "row_group": "Group",
+        "row_others": "Others (World)",
+        "btn_copy": "Copy Command"
+    },
+    "content": {
+        "why_title": "Why Use a Chmod Calculator?",
+        "why_desc": "Linux file permissions are expressed in two formats — symbolic (rwxr-xr-x) and octal (755). Calculating the correct permission value manually is error-prone, especially with less common permission sets. Our calculator lets you click checkboxes to set permissions visually, and instantly generates both the octal value and the ready-to-use chmod command.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Visual Permission Builder",
+                "desc": "Click checkboxes for owner/group/others read/write/execute — see values update instantly"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Bidirectional Sync",
+                "desc": "Type an octal value (like 755) and checkboxes update automatically, or vice versa"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Ready Command Output",
+                "desc": "Generates the complete chmod command ready to paste directly into your terminal"
+            }
+        },
+        "how_title": "How to Calculate Permissions",
+        "how_steps": {
+            "1": {
+                "title": "Check Desired Permissions",
+                "desc": "Click the read/write/execute checkboxes for Owner, Group, and Others"
+            },
+            "2": {
+                "title": "See Octal & Symbolic",
+                "desc": "The octal value (e.g., 755) and symbolic notation (rwxr-xr-x) update instantly"
+            },
+            "3": {
+                "title": "Copy the Command",
+                "desc": "Copy the generated chmod command and run it in your terminal"
+            }
+        },
+        "uses_title": "Common Chmod Scenarios",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Web Server Files",
+                "desc": "Set 644 for HTML/CSS/JS files (owner read/write, group/others read-only) on Apache or Nginx"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Executable Scripts",
+                "desc": "Set 755 for shell scripts (owner full, group/others read+execute) to make them runnable"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "SSH Key Files",
+                "desc": "SSH requires private keys to be 600 (owner read/write only) or SSH will refuse to use them"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Upload Directories",
+                "desc": "Set 775 for web upload directories so the web server process can write user-uploaded files"
+            }
+        },
+        "tips_title": "Linux Permission Best Practices",
+        "tips": {
+            "never777": {
+                "title": "✓ Never Use 777 in Production",
+                "desc": "chmod 777 gives everyone full read/write/execute access — a serious security risk. Use the minimum permissions necessary."
+            },
+            "least": {
+                "title": "✓ Principle of Least Privilege",
+                "desc": "Always grant the minimum permissions needed. Start restrictive (600) and add permissions as needed rather than starting open."
+            },
+            "recursive": {
+                "title": "✓ Be Careful with -R Recursion",
+                "desc": "chmod -R applies permissions recursively to all files and directories. Setting execute on directories is usually correct, but not always for files."
+            },
+            "umask": {
+                "title": "✓ Understand umask",
+                "desc": "The umask value subtracts permissions from the default. A umask of 022 means new files get 644 and new directories get 755 by default."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "What does chmod 755 mean?",
+            "a1": "755 means: Owner (7) = read+write+execute, Group (5) = read+execute, Others (5) = read+execute. It's the standard permission for executable files and public directories.",
+            "q2": "What is the difference between 644 and 755?",
+            "a2": "644 (rw-r--r--): Owner can read/write, others can only read — used for regular files. 755 (rwxr-xr-x): Owner can also execute — used for scripts and directories.",
+            "q3": "Why does my SSH key need 600 permissions?",
+            "a3": "SSH refuses to use private keys that are accessible by any other user. The 600 permission (rw-------) ensures only the owner can read/write the key, preventing unauthorized access.",
+            "q4": "What does the execute bit on a directory mean?",
+            "a4": "For directories, the execute bit means 'traverse' — it allows users to enter the directory and access files within it. Without execute permission on a directory, users cannot cd into it even if they have read permission."
+        }
+    }
+}

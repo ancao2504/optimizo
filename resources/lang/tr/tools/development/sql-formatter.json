@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "SQL Biçimlendirici Çevrimiçi - SQL Ücretsiz Biçimlendir | Optimizo",
+        "description": "SQL sorgularını çevrimiçi ücretsiz biçimlendirin ve düzenleyin. SELECT, INSERT, UPDATE, DELETE, CREATE ve karmaşık JOIN sorgularını anında biçimlendirin.",
+        "h1": "SQL Biçimlendirici",
+        "subtitle": "SQL sorgularını anında güzelce biçimlendirin — tüm önemli SQL lehçeleriyle uyumlu"
+    },
+    "editor": {
+        "title": "SQL Biçimlendirici",
+        "label_input": "SQL Sorgusu Girin",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "SQL'i Biçimlendir",
+        "btn_minify": "SQL'i Sıkıştır",
+        "label_output": "Biçimlendirilmiş SQL",
+        "btn_copy": "SQL'i Kopyala"
+    },
+    "content": {
+        "why_title": "SQL Sorguları Neden Biçimlendirilir?",
+        "why_desc": "Biçimlendirilmemiş SQL, özellikle karmaşık JOIN'ler, alt sorgular ve CTE'ler içerdiğinde neredeyse okunamaz hale gelir. Biçimlendirici, uygun girintileme, satır sonları ve anahtar sözcük büyük harfleri ekleyerek sorgu incelemeyi, hata ayıklamayı ve ekip paylaşımını kolaylaştırır.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Anahtar Sözcük Büyük Harfi",
+                "desc": "SELECT, FROM, WHERE, JOIN ve tüm SQL anahtar sözcüklerini otomatik büyük harfe dönüştürür"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Akıllı Girintileme",
+                "desc": "Alt sorguları, CASE ifadelerini ve iç içe yan tümceleri uygun girintilemeyle biçimlendirir"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Sıkıştırma",
+                "desc": "SQL'i tek satıra sıkıştırır; kod içindeki sorgu dizeleri için idealdir"
+            }
+        },
+        "how_title": "3 Adımda SQL Biçimlendirme",
+        "how_steps": {
+            "1": {
+                "title": "SQL Sorgusunu Yapıştırın",
+                "desc": "Kod editörünüzden, DB istemcisinden veya sorgu günlüklerinden SQL'i kopyalayıp yapıştırın"
+            },
+            "2": {
+                "title": "Biçimlendir'e Tıklayın",
+                "desc": "'SQL'i Biçimlendir'e tıklayarak uygun girintileme ve anahtar sözcük büyük harflerini uygulayın"
+            },
+            "3": {
+                "title": "Kopyalayın ve Kullanın",
+                "desc": "Biçimlendirilmiş SQL'i DB istemcinize, ORM'nize veya belgelerinize doğrudan kopyalayın"
+            }
+        },
+        "uses_title": "SQL Biçimlendirme Kullanım Alanları",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Kod İnceleme",
+                "desc": "İncelemeden önce SQL'i biçimlendirerek iş arkadaşlarınızın yapıyı net görmesini sağlayın"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Sorgu Hata Ayıklama",
+                "desc": "Karmaşık WHERE yan tümcelerini ve JOIN zincirlerini çözerek mantık hatalarını hızla bulun"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Belgeleme",
+                "desc": "Teknik belgelerinize, README'lerinize ve öğreticilerinize güzel biçimlendirilmiş SQL ekleyin"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Sorgu Optimizasyonu",
+                "desc": "Biçimlendirilmiş SQL ile eksik dizinleri ve verimsiz JOIN sıralarını daha kolay belirleyin"
+            }
+        },
+        "tips_title": "SQL En İyi Uygulamaları",
+        "tips": {
+            "select": {
+                "title": "✓ SELECT * Kullanmaktan Kaçının",
+                "desc": "Her zaman sütun adlarını belirtin. Performansı artırır ve tablo şeması değişikliklerindeki sorunları önler."
+            },
+            "alias": {
+                "title": "✓ Açık Takma Adlar Kullanın",
+                "desc": "JOIN'lerde anlamlı tablo takma adları kullanın (kullanıcılar için u, siparişler için o gibi) — karmaşık sorguları okunabilir kılar."
+            },
+            "explain": {
+                "title": "✓ EXPLAIN Kullanın",
+                "desc": "Yavaş sorguları deploy etmeden önce EXPLAIN veya EXPLAIN ANALYZE çalıştırın."
+            },
+            "index": {
+                "title": "✓ WHERE Sütunlarını İndeksleyin",
+                "desc": "WHERE, JOIN ON ve ORDER BY sütunlarının indekslendiğinden emin olun."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "Hangi SQL lehçeleri destekleniyor?",
+            "a1": "Standart SQL ve MySQL, PostgreSQL, SQLite, SQL Server (T-SQL), Oracle ile uyumludur. Lehçeye özgü anahtar sözcükler olduğu gibi bırakılır.",
+            "q2": "Biçimlendirme sorgunun davranışını değiştirir mi?",
+            "a2": "Hayır. Biçimlendirici yalnızca boşlukları ve anahtar sözcük büyük harflerini değiştirir. Sorgu mantığı, sonuçlar ve yürütme planı hiç değişmez.",
+            "q3": "Saklı prosedürlerle SQL biçimlendirebilir miyim?",
+            "a3": "Evet. CREATE PROCEDURE, BEGIN/END, DECLARE deyimleri ve diğer prosedürel SQL yapılarını işler.",
+            "q4": "Uygulamada sıkıştırmanın kullanım amacı nedir?",
+            "a4": "Sıkıştırılmış SQL, kaynak koda gömülü sorgu dizelerinin boyutunu küçültür ve günlükleri daha kompakt hale getirir."
+        }
+    }
+}

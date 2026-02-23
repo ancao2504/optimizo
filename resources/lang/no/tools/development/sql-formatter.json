@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "SQL-formaterer Nettbasert - Formater SQL Gratis | Optimizo",
+        "description": "Formater og rens SQL-spørringer nettbasert og gratis. Formater SELECT, INSERT, UPDATE, DELETE, CREATE og komplekse JOIN-spørringer øyeblikkelig.",
+        "h1": "SQL-formaterer",
+        "subtitle": "Formater SQL-spørringer øyeblikkelig og ryddig — kompatibel med alle vanlige SQL-dialekter"
+    },
+    "editor": {
+        "title": "SQL-formaterer",
+        "label_input": "SQL-spørring",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "Formater SQL",
+        "btn_minify": "Minifiser SQL",
+        "label_output": "Formatert SQL",
+        "btn_copy": "Kopier SQL"
+    },
+    "content": {
+        "why_title": "Hvorfor formatere SQL-spørringer?",
+        "why_desc": "Uformatert SQL er nesten uleselig, spesielt med komplekse JOINer, underforespørsler og CTE-er. Formatereren legger til riktig innrykk, linjeskift og versaler for nøkkelord, noe som gjør det enkelt å gjennomgå, feilsøke og dele spørringer med teamet.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Nøkkelord med versaler",
+                "desc": "Konverterer automatisk SELECT, FROM, WHERE, JOIN og alle SQL-nøkkelord til versaler"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Smart innrykk",
+                "desc": "Bruker riktig innrykk på underforespørsler, CASE-uttrykk og nestede klausuler"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minifisering",
+                "desc": "Komprimerer SQL til én linje — ideelt for spørrestrenger i kode"
+            }
+        },
+        "how_title": "Formater SQL i 3 trinn",
+        "how_steps": {
+            "1": {
+                "title": "Lim inn SQL-spørringen",
+                "desc": "Kopier og lim inn SQL fra koderedigereren, DB-klienten eller spørringsloggene"
+            },
+            "2": {
+                "title": "Klikk Formater",
+                "desc": "Klikk 'Formater SQL' for å bruke riktig innrykk og versaler for nøkkelord"
+            },
+            "3": {
+                "title": "Kopier og bruk",
+                "desc": "Kopier den formaterte SQL-en direkte til DB-klienten, ORM-en eller dokumentasjonen"
+            }
+        },
+        "uses_title": "Bruksområder for SQL-formatering",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Kodegjennomgang",
+                "desc": "Formater SQL før gjennomgang slik at kolleger tydelig ser strukturen"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Feilsøk spørringer",
+                "desc": "Dekod komplekse WHERE-klausuler og JOIN-kjeder for raskt å finne logikkfeil"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Dokumentasjon",
+                "desc": "Legg velformatert SQL i teknisk dokumentasjon, README-er og opplæringer"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Spørringsoptimering",
+                "desc": "Identifiser manglende indekser og ineffektiv JOIN-rekkefølge enklere med formatert SQL"
+            }
+        },
+        "tips_title": "Beste praksis for SQL",
+        "tips": {
+            "select": {
+                "title": "✓ Unngå SELECT *",
+                "desc": "Angi alltid kolonnenavn. Det forbedrer ytelse og forhindrer problemer ved tabellskemaendringer."
+            },
+            "alias": {
+                "title": "✓ Bruk eksplisitte aliaser",
+                "desc": "Bruk meningsfulle tabellaliaser i JOINer for å gjøre komplekse spørringer lesbare."
+            },
+            "explain": {
+                "title": "✓ Bruk EXPLAIN",
+                "desc": "Kjør EXPLAIN eller EXPLAIN ANALYZE før distribusjon av langsomme spørringer."
+            },
+            "index": {
+                "title": "✓ Indekser WHERE-kolonner",
+                "desc": "Sørg for at kolonner i WHERE, JOIN ON og ORDER BY er indeksert for optimal ytelse."
+            }
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Hvilke SQL-dialekter støttes?",
+            "a1": "Standard SQL samt kompatibelt med MySQL, PostgreSQL, SQLite, SQL Server (T-SQL) og Oracle.",
+            "q2": "Endrer formatering spørringens atferd?",
+            "a2": "Nei. Formatereren endrer bare mellomrom og nøkkelordenes bokstavstørrelse. Spørringslogikken, resultatene og utførelsesplanen endres ikke i det hele tatt.",
+            "q3": "Kan jeg formatere SQL med lagrede prosedyrer?",
+            "a3": "Ja. Håndterer CREATE PROCEDURE, BEGIN/END, DECLARE-setninger og andre proseduremessige SQL-konstruksjoner.",
+            "q4": "Hva brukes minifisering til i applikasjoner?",
+            "a4": "Minifisert SQL reduserer størrelsen på spørringsstrenger innebygd i kildekode og gjør logger mer kompakte."
+        }
+    }
+}

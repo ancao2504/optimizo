@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Generator Gradient CSS Online - Creați Gratuit | Optimizo",
+        "description": "Creați gradiente CSS online și gratuit. Generați gradiente liniare, radiale și conice cu mai multe opriri de culoare și control al unghiului cu export CSS instant.",
+        "h1": "Generator Gradient CSS",
+        "subtitle": "Creați gradiente liniare, radiale și conice frumoase cu previzualizare în timp real și export CSS"
+    },
+    "editor": {
+        "title": "Generator Gradient CSS",
+        "label_type": "Tip gradient",
+        "label_angle": "Unghi",
+        "label_stops": "Opriri de culoare",
+        "btn_add_stop": "Adăugați oprire",
+        "btn_copy": "Copiați CSS"
+    },
+    "content": {
+        "why_title": "De ce să folosiți un generator vizual de gradient?",
+        "why_desc": "Scrierea manuală a gradientelor CSS este greoi. Generatorul nostru vizual vă permite să controlați opririle de culoare cu un selector de culori și glisorul de poziție cu actualizare în timp real.",
+        "features": {
+            "types": {
+                "icon": "🌈",
+                "title": "3 tipuri de gradient",
+                "desc": "Gradient liniar, radial și conic — cu controale dedicate pentru fiecare tip"
+            },
+            "stops": {
+                "icon": "🎨",
+                "title": "Gradiente multicolor",
+                "desc": "Adăugați opriri de culoare nelimitate și trageți pozițiile pentru gradiente complexe"
+            },
+            "preview": {
+                "icon": "👁️",
+                "title": "Previzualizare în timp real",
+                "desc": "Vedeți randarea gradientului în timp real când ajustați culorile, pozițiile și unghiul"
+            }
+        },
+        "how_title": "Creați un gradient CSS în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Alegeți tipul de gradient",
+                "desc": "Selectați gradient liniar, radial sau conic și ajustați unghiul sau direcția"
+            },
+            "2": {
+                "title": "Ajustați opririle de culoare",
+                "desc": "Setați culoarea fiecărei opriri cu selectorul de culori și poziționați cu glisorele"
+            },
+            "3": {
+                "title": "Copiați CSS-ul",
+                "desc": "Faceți clic pe 'Copiați CSS' pentru a obține proprietatea background completă pentru utilizare în foaia de stiluri"
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru gradientele CSS",
+        "uses": {
+            "bg": {
+                "icon": "🖼️",
+                "title": "Fundal secțiune hero",
+                "desc": "Creați fundaluri impresionante pe toată pagina cu gradiente diagonale sau radiale"
+            },
+            "text": {
+                "icon": "✨",
+                "title": "Text gradient",
+                "desc": "Aplicați gradient la text cu background-clip:text pentru efecte tipografice uimitoare"
+            },
+            "border": {
+                "icon": "🔲",
+                "title": "Borduri gradient",
+                "desc": "Folosiți gradient cu border-image pentru a crea rame colorate în jurul elementelor"
+            },
+            "overlay": {
+                "icon": "🌅",
+                "title": "Suprapunere imagine",
+                "desc": "Puneți gradient peste imagini pentru o suprapunere întunecată care asigură lizibilitatea textului"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru gradientele CSS",
+        "tips": {
+            "angle": {
+                "title": "✓ Folosiți 135deg pentru gradiente diagonale",
+                "desc": "Un unghi de 135 de grade creează o diagonală clasică din colțul stânga sus spre dreapta jos."
+            },
+            "subtle": {
+                "title": "✓ Păstrați gradientele subtile în UI",
+                "desc": "În elementele UI ca butoane și carduri, folosiți gradiente foarte subtile cu diferență de luminozitate de 10-20% pentru adâncime."
+            },
+            "fallback": {
+                "title": "✓ Setați o culoare de rezervă",
+                "desc": "Adăugați o culoare de fundal solidă ca rezervă: background-color:#6366f1; background:linear-gradient(...)."
+            },
+            "animation": {
+                "title": "✓ Animați poziția gradientului",
+                "desc": "Nu puteți anima direct gradientele CSS, dar puteți anima background-position pe un gradient mai mare pentru un efect de mișcare lin."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Care este diferența dintre gradient liniar, radial și conic?",
+            "a1": "Gradientul liniar tranziționa de-a lungul unei linii drepte la un unghi. Cel radial radiază de la un punct central circular sau eliptic. Cel conic se rotește în jurul unui punct central — ideal pentru indicatori de progres circulari.",
+            "q2": "Cum se creează un gradient transparent?",
+            "a2": "Folosiți transparent ca oprire de culoare: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent). Creează un gradient de la o culoare semi-transparentă la complet transparentă — ideal pentru suprapunerea imaginilor.",
+            "q3": "De ce văd benzuri în gradientul meu?",
+            "a3": "Benzile (linii vizibile între culori) apar pe ecrane de calitate slabă sau la tranziții între nuanțe similare. Adăugați o oprire de culoare intermediară pentru a atenua tranziția.",
+            "q4": "Poate un gradient să fie folosit ca bordură?",
+            "a4": "Da; folosiți border-image:linear-gradient(...) 1. Alternativ, un pseudo-element ::before cu fundal gradient și z-index negativ poate simula o bordură gradient."
+        }
+    }
+}

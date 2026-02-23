@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "YAML-Formatierer Online - Kostenloser YAML-Beautifier | Optimizo",
+        "description": "Formatieren und validieren Sie YAML-Dateien online kostenlos. Verschönern Sie YAML sofort mit korrekter Einrückung und Syntaxprüfung.",
+        "h1": "YAML-Formatierer",
+        "subtitle": "Formatieren und validieren Sie YAML-Dateien sofort — unterstützt komplexe Verschachtelung, Anker und Aliases"
+    },
+    "editor": {
+        "title": "YAML-Formatierer",
+        "label_input": "YAML-Eingabe",
+        "ph_input": "name: Meine Anwendung\ndatenbank:\n  host: localhost\n  port: 5432",
+        "btn_format": "YAML formatieren",
+        "label_output": "Formatiertes YAML",
+        "btn_copy": "YAML kopieren"
+    },
+    "content": {
+        "why_title": "Warum YAML-Dateien formatieren?",
+        "why_desc": "YAML ist äußerst empfindlich gegenüber Einrückung — ein einzelnes zusätzliches Leerzeichen kann Parse-Fehler oder stille Datenbeschädigung verursachen. Tools wie Kubernetes, Docker Compose, GitHub Actions und Ansible verwenden alle YAML-Konfigurationsdateien, bei denen Formatierungsfehler ganze Deployments lahmlegen können. Unser YAML-Formatierer validiert die Syntax, normalisiert Einrückungen und stellt sicher, dass Ihr YAML stets korrekt ist.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Einrückungs-Normalisierung",
+                "desc": "Normalisiert gemischte Einrückungen zu einem konsistenten 2-Leerzeichen-Format im gesamten Dokument"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Syntaxvalidierung",
+                "desc": "Erkennt Einrückungsfehler, Tab/Leerzeichen-Mischungen und Strukturprobleme vor Produktionsausfällen"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Anker und Aliases",
+                "desc": "Vollständige Unterstützung für YAML-Anker (&) und Aliases (*) zur Dokumentwiederverwendung und DRY-Konfigurationen"
+            }
+        },
+        "how_title": "YAML in 3 Schritten formatieren",
+        "how_steps": {
+            "1": {
+                "title": "YAML einfügen",
+                "desc": "Fügen Sie Ihr Kubernetes-Manifest, Ihren GitHub-Actions-Workflow oder eine beliebige YAML-Konfigurationsdatei ein"
+            },
+            "2": {
+                "title": "Formatieren und validieren",
+                "desc": "Das Tool validiert die Syntax und reformatiert automatisch mit konsistenter Einrückung"
+            },
+            "3": {
+                "title": "Kopieren und deployen",
+                "desc": "Kopieren Sie das formatierte YAML in Ihre Datei, CI-Pipeline oder Ihr Deployment-Tool"
+            }
+        },
+        "uses_title": "Anwendungsfälle der YAML-Formatierung",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Kubernetes-Manifeste",
+                "desc": "Formatieren Sie Deployment-, Service- und ConfigMap-YAML-Dateien vor der Anwendung auf ein Cluster"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "CI/CD-Pipelines",
+                "desc": "Validieren Sie GitHub Actions-, GitLab CI- und CircleCI-Workflows, um Pipeline-Fehler zu vermeiden"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Ansible-Playbooks",
+                "desc": "Formatieren und validieren Sie Ansible-Tasks, Variablen und Inventory-Dateien für sauberen Infrastruktur-Code"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Stellen Sie sicher, dass docker-compose.yml-Dateien korrekt formatiert sind, bevor Sie docker compose up ausführen"
+            }
+        },
+        "tips_title": "YAML-Best-Practices",
+        "tips": {
+            "spaces": {
+                "title": "✓ Leerzeichen verwenden, niemals Tabs",
+                "desc": "YAML verbietet Tabs für die Einrückung strikt. Konfigurieren Sie Ihren Editor immer so, dass bei YAML-Dateien bei Tab-Taste Leerzeichen eingefügt werden."
+            },
+            "quotes": {
+                "title": "✓ Sonderzeichen in Anführungszeichen setzen",
+                "desc": "Zeichenketten mit : # [ ] { } oder speziellen Anfangszeichen sollten in Anführungszeichen gesetzt werden, um YAML-Fehlinterpretation zu vermeiden."
+            },
+            "anchors": {
+                "title": "✓ Anker zur Duplikat-Reduzierung verwenden",
+                "desc": "YAML-Anker (&name) und Aliases (*name) ermöglichen die Wiederverwendung von Werten im Dokument, was in komplexen Konfigurationen Wiederholungen reduziert."
+            },
+            "lint": {
+                "title": "✓ Vor dem Commit linten",
+                "desc": "Führen Sie yamllint aus oder verwenden Sie diesen Formatierer in Ihrem Pre-Commit-Hook, um Formatierungsprobleme zu erkennen, bevor sie ins Repository gelangen."
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Warum schlägt YAML mit Tabs statt Leerzeichen fehl?",
+            "a1": "Die YAML-Spezifikation verbietet Tab-Zeichen für die Einrückung explizit, da verschiedene Editoren Tabs mit unterschiedlichen Breiten darstellen. Leerzeichen bieten eine konsistente, eindeutige Einrückung, die alle YAML-Parser identisch interpretieren können.",
+            "q2": "Was machen Anker (&) und Aliases (*) in YAML?",
+            "a2": "Anker definieren einen wiederverwendbaren Block mit &ankername: und Aliases referenzieren ihn mit *ankername. Dies erlaubt Ihnen, Werte einmal zu definieren und mehrfach zu verwenden, was Konfigurationen DRY hält.",
+            "q3": "Was ist der Unterschied zwischen YAML und JSON?",
+            "a3": "YAML ist eine Obermenge von JSON — jedes gültige JSON ist gültiges YAML. YAML fügt Kommentare, Anker, mehrzeilige Zeichenketten und klarere Syntax hinzu. JSON ist für maschinellen Datenaustausch besser geeignet; YAML eignet sich mehr für von Menschen bearbeitete Konfigurationen.",
+            "q4": "Warum YAML statt TOML für die Konfiguration wählen?",
+            "a4": "YAML hat breitere Toolunterstützung (Kubernetes, Ansible, die meisten CI-Systeme) und kann komplexe, verschachtelte Strukturen kompakt darstellen. TOML ist einfacher und fehlerunanfälliger für grundlegende Konfigurationen. Für DevOps-Konfiguration ist YAML der Standard."
+        }
+    }
+}

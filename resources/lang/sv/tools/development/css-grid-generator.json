@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "CSS Grid-generator Online - Visuell Gridlayoutbyggare | Optimizo",
+        "description": "Skapa CSS Grid-layouter visuellt online gratis. Justera kolumner, rader, gap och justering med realtidsförhandsvisning och omedelbar CSS-export.",
+        "h1": "CSS Grid-generator",
+        "subtitle": "Skapa CSS Grid-layouter visuellt — justera kolumner, rader, gap och justering med realtidsförhandsvisning"
+    },
+    "editor": {
+        "title": "CSS Grid-generator",
+        "label_cols": "Antal kolumner",
+        "label_rows": "Antal rader",
+        "label_col_template": "Kolumnmall",
+        "label_gap": "Avstånd (gap)",
+        "label_align": "align-items",
+        "label_preview": "Realtidsförhandsvisning",
+        "btn_copy": "Kopiera CSS"
+    },
+    "content": {
+        "why_title": "Varför använda en visuell CSS Grid-generator?",
+        "why_desc": "CSS Grid är det mest kraftfulla layoutsystemet i CSS, men syntaxen har en brant inlärningskurva. Med vår visuella generator kan du justera gridet med reglage och rullgardinsmenyer och se effekten av varje egenskap i realtid.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Realtids-gridförhandsvisning",
+                "desc": "Gridet uppdateras i realtid när du justerar kolumner, rader, gap och justering"
+            },
+            "fr": {
+                "icon": "📐",
+                "title": "Stöd för fr-enheten",
+                "desc": "Mallar använder fr (bråk)-enheten för flexibla grids som anpassar sig till behållarens storlek"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Redo att använda CSS",
+                "desc": "Exportera ett rent .container CSS-block med grid-template-columns, rows, gap och align-items"
+            }
+        },
+        "how_title": "Skapa en CSS Grid-layout",
+        "how_steps": {
+            "1": {
+                "title": "Konfigurera kolumner och rader",
+                "desc": "Ange antalet kolumner och rader i gridet med reglage"
+            },
+            "2": {
+                "title": "Välj mall och gap",
+                "desc": "Välj kolumnmall (jämnt, fast+flexibelt eller responsiv minmax) och justera avståndet"
+            },
+            "3": {
+                "title": "Kopiera CSS",
+                "desc": "Klicka på 'Kopiera CSS' för att få ett komplett CSS-block som du kan klistra in i din stilmall"
+            }
+        },
+        "uses_title": "CSS Grid-användningsområden",
+        "uses": {
+            "layout": {
+                "icon": "📱",
+                "title": "Sidlayout",
+                "desc": "Skapa header/sidofält/huvudinnehåll/sidfotstruktur med namngivna gridområden"
+            },
+            "dashboard": {
+                "icon": "📊",
+                "title": "Dashboard",
+                "desc": "Skapa komplexa dashboardlayouter med kort av varierande storlek med grid-column och grid-row span"
+            },
+            "gallery": {
+                "icon": "🖼️",
+                "title": "Galleri",
+                "desc": "Skapa stenmurs- eller regelbundna gallerier som adaptivt anpassar sig med auto-fill och minmax"
+            },
+            "magazine": {
+                "icon": "📰",
+                "title": "Tidskriftslayout",
+                "desc": "Skapa redaktionella layouter med ojämna kolumner och utvald innehåll som sträcker sig över flera celler"
+            }
+        },
+        "tips_title": "Bästa praxis för CSS Grid",
+        "tips": {
+            "fr": {
+                "title": "✓ Föredra fr-enheten framför procent",
+                "desc": "fr (bråk) -enheten delar tillgängligt utrymme efter fasta kolumner och undviker manuell beräkning."
+            },
+            "minmax": {
+                "title": "✓ Använd minmax() för responsiva grids",
+                "desc": "repeat(auto-fill, minmax(250px, 1fr)) skapar ett responsivt grid som automatiskt justerar antal kolumner."
+            },
+            "named": {
+                "title": "✓ Använd namngivna gridområden",
+                "desc": "grid-template-areas med namngivna celler gör sidlayouter läsbara och enkla att ändra."
+            },
+            "auto": {
+                "title": "✓ Förstå auto-fill kontra auto-fit",
+                "desc": "auto-fill skapar maximalt antal spår (tomma inkluderade). auto-fit kollapsar tomma spår och vidgar befintliga — oftast optimallt för kortgrids."
+            }
+        },
+        "faq_title": "❓ Vanliga frågor",
+        "faq": {
+            "q1": "Vad är fr-enheten i CSS Grid?",
+            "a1": "fr står för 'fraktionell enhet'. 1fr representerar en del av det tillgängliga lediga utrymmet i gridbehållaren. repeat(3, 1fr) skapar 3 kolumner som delar lika på tillgängligt utrymme.",
+            "q2": "Vad är skillnaden mellan CSS Grid och Flexbox?",
+            "a2": "Flexbox är endimensionellt — placerar objekt längs en axel (rad eller kolumn). CSS Grid är tvådimensionellt — kan styra rader och kolumner simultaneously, mycket kraftfullare för sidlayouter.",
+            "q3": "Vad gör minmax()?",
+            "a3": "minmax(min, max) anger ett storleksintervall för ett gridspår. minmax(200px, 1fr) innebär att kolumnen är minst 200px bred men kan växa för att fylla tillgängligt utrymme.",
+            "q4": "När ska jag använda CSS Grid istället för Flexbox?",
+            "a4": "Använd Grid för tvådimensionella layouts i vilka du styr rader och kolumner simultaneously. Använd Flexbox för komponenters endimensionella layouts som navigeringsfält. Moderna layouter använder ofta båda."
+        }
+    }
+}

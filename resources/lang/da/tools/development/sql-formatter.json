@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "SQL-formatter Online - Formatér SQL Gratis | Optimizo",
+        "description": "Formatér og rens SQL-forespørgsler online gratis. Formatér SELECT, INSERT, UPDATE, DELETE, CREATE og komplekse JOIN-forespørgsler øjeblikkeligt.",
+        "h1": "SQL-formatter",
+        "subtitle": "Formatér SQL-forespørgsler øjeblikkeligt og pænt — kompatibel med alle vigtige SQL-dialekter"
+    },
+    "editor": {
+        "title": "SQL-formatter",
+        "label_input": "SQL-forespørgsel",
+        "ph_input": "SELECT id, name, email FROM users WHERE active = 1 ORDER BY name",
+        "btn_format": "Formatér SQL",
+        "btn_minify": "Minificér SQL",
+        "label_output": "Formateret SQL",
+        "btn_copy": "Kopiér SQL"
+    },
+    "content": {
+        "why_title": "Hvorfor formatere SQL-forespørgsler?",
+        "why_desc": "Uformateret SQL er næsten ulæselig, særligt med komplekse JOIN's, underforespørgsler og CTE'er. Formatteren tilføjer korrekt indrykning, linjeskift og versaler for nøgleord, hvilket gør det nemt at gennemse, fejlrette og dele forespørgsler med teamet.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Nøgleord med versaler",
+                "desc": "Konverterer automatisk SELECT, FROM, WHERE, JOIN og alle SQL-nøgleord til versaler"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Smart indrykning",
+                "desc": "Anvender korrekt indrykning på underforespørgsler, CASE-udtryk og indlejrede klausuler"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minificering",
+                "desc": "Komprimerer SQL til én linje — ideelt til forespørgselsstrenge i kode"
+            }
+        },
+        "how_title": "Formatér SQL i 3 trin",
+        "how_steps": {
+            "1": {
+                "title": "Indsæt SQL-forespørgslen",
+                "desc": "Kopiér og indsæt SQL fra din koderedigerer, DB-klient eller forespørgselslogger"
+            },
+            "2": {
+                "title": "Klik Formatér",
+                "desc": "Klik 'Formatér SQL' for at anvende korrekt indrykning og versaler for nøgleord"
+            },
+            "3": {
+                "title": "Kopiér og brug",
+                "desc": "Kopiér den formaterede SQL direkte til din DB-klient, ORM eller dokumentation"
+            }
+        },
+        "uses_title": "Anvendelsesområder for SQL-formatering",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Kodegennemgang",
+                "desc": "Formatér SQL inden gennemgang så kollegerne tydeligt kan se strukturen"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Fejlret forespørgsler",
+                "desc": "Afkod komplekse WHERE-klausuler og JOIN-kæder for hurtigt at finde logikfejl"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Dokumentation",
+                "desc": "Tilføj velformateret SQL i teknisk dokumentation, README'er og tutorials"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Forespørgselsoptimering",
+                "desc": "Identificér manglende indekser og ineffektiv JOIN-rækkefølge nemmere med formateret SQL"
+            }
+        },
+        "tips_title": "Bedste praksis for SQL",
+        "tips": {
+            "select": {
+                "title": "✓ Undgå SELECT *",
+                "desc": "Angiv altid kolonnenavne. Det forbedrer ydeevnen og forhindrer problemer ved tabelskemaændringer."
+            },
+            "alias": {
+                "title": "✓ Brug eksplicitte aliasser",
+                "desc": "Brug meningsfulde tabelaliasser i JOIN's for at gøre komplekse forespørgsler letlæselige."
+            },
+            "explain": {
+                "title": "✓ Brug EXPLAIN",
+                "desc": "Kør EXPLAIN eller EXPLAIN ANALYZE inden deployment af langsomme forespørgsler."
+            },
+            "index": {
+                "title": "✓ Indeksér WHERE-kolonner",
+                "desc": "Sørg for at kolonner i WHERE, JOIN ON og ORDER BY er indekseret for optimal ydeevne."
+            }
+        },
+        "faq_title": "❓ Ofte stillede spørgsmål",
+        "faq": {
+            "q1": "Hvilke SQL-dialekter understøttes?",
+            "a1": "Standard SQL samt kompatibelt med MySQL, PostgreSQL, SQLite, SQL Server (T-SQL) og Oracle.",
+            "q2": "Ændrer formatering forespørgslens adfærd?",
+            "a2": "Nej. Formatteren ændrer kun mellemrum og nøgleordenes versaler. Forespørgselslogikken, resultaterne og udførelsesplanen ændres slet ikke.",
+            "q3": "Kan jeg formatere SQL med lagrede procedurer?",
+            "a3": "Ja. Håndterer CREATE PROCEDURE, BEGIN/END, DECLARE-sætninger og andre proceduremæssige SQL-konstruktioner.",
+            "q4": "Hvad bruges minificering til i applikationer?",
+            "a4": "Minificeret SQL reducerer størrelsen på forespørgselsstrenge indlejret i kildekode og gør logfiler mere kompakte."
+        }
+    }
+}

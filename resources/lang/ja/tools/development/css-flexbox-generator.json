@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "CSS Flexboxジェネレーター オンライン - ビジュアルレイアウトビルダー | Optimizo",
+        "description": "CSS Flexboxレイアウトをオンラインで無料に視覚的に作成。方向、justify-content、align-items、ギャップをリアルタイムプレビューと即座CSSエクスポートで調整。",
+        "h1": "CSS Flexboxジェネレーター",
+        "subtitle": "CSS Flexboxレイアウトを視覚的に作成 — すべてのプロパティをリアルタイムプレビューで調整"
+    },
+    "editor": {
+        "title": "Flexboxジェネレーター",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "ギャップ（gap）",
+        "label_items": "アイテム数",
+        "label_preview": "リアルタイムプレビュー",
+        "btn_copy": "CSSをコピー"
+    },
+    "content": {
+        "why_title": "なぜビジュアルFlexboxジェネレーターを使うのか？",
+        "why_desc": "CSS Flexboxには多くの相互作用するプロパティがあり、その組み合わせは複雑になりがちです。当ビジュアルジェネレーターではドロップダウンで各プロパティを調整してリアルタイムでレイアウトが更新されるのを確認できます。Flexboxの学習と試行錯誤なしにレイアウトを構築する最速の方法です。",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "リアルタイムプレビュー",
+                "desc": "プロパティ変更のたびにFlexboxレイアウトの動作を正確に確認 — 推測不要"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "全プロパティ対応",
+                "desc": "flex-direction、justify-content、align-items、flex-wrap、gapを1つのインターフェースで"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "すぐ使えるCSS",
+                "desc": "スタイルシートに貼り付けられるクリーンな.container {}ブロックをコピー"
+            }
+        },
+        "how_title": "Flexboxレイアウトの作成方法",
+        "how_steps": {
+            "1": {
+                "title": "方向とラップを設定",
+                "desc": "flex-direction（行/列）とflex-wrapを選択して主軸とオーバーフローを制御"
+            },
+            "2": {
+                "title": "アイテムの配置を調整",
+                "desc": "justify-contentとalign-itemsを調整してアイテムの配布と整列を制御"
+            },
+            "3": {
+                "title": "CSSをコピー",
+                "desc": "「CSSをコピー」をクリックしてプロジェクトに使用できる完全な.container CSSブロックを取得"
+            }
+        },
+        "uses_title": "Flexboxのユースケース",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "ナビゲーションバー",
+                "desc": "FlexboxはロゴとリンクにはjustifyContent: space-betweenを使う水平ナビゲーションバーに最適"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "カードグリッド",
+                "desc": "固定flexベースのflex-wrap: wrapでモバイル対応のカードグリッドを作成"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "パーフェクトセンタリング",
+                "desc": "justifyContent: center + alignItems: center — あらゆる要素をセンタリングする最もシンプルな方法"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "フォームレイアウト",
+                "desc": "Flexboxでラベルとフォームフィールドを水平または垂直に配置してクリーンなフォームを実現"
+            }
+        },
+        "tips_title": "Flexboxのベストプラクティス",
+        "tips": {
+            "axis": {
+                "title": "✓ 主軸と交差軸を理解する",
+                "desc": "justify-contentは主軸を制御（行=水平）。align-itemsは交差軸を制御。flex-direction: columnに変更すると役割が入れ替わる。"
+            },
+            "grow": {
+                "title": "✓ フレキシブルアイテムにflex: 1を使用",
+                "desc": "flexアイテムにflex: 1を追加すると利用可能なスペースを埋めるように伸びます。オーバーフローを防ぐためにmin-width: 0と組み合わせてください。"
+            },
+            "gap": {
+                "title": "✓ マージンの代わりにgapを使用",
+                "desc": "gapプロパティで外端にマージンを追加せずにflexアイテム間に均一なスペースを作成 — ずっとクリーンです。"
+            },
+            "grid": {
+                "title": "✓ 2次元レイアウトにはGridを使用",
+                "desc": "Flexboxは一度に一つの軸（行または列）を制御します。行と列の両方を同時に制御する2次元グリッドにはCSS Gridを使用してください。"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "CSS GridよりFlexboxを使うのはいつですか？",
+            "a1": "Flexboxは1次元レイアウト（ナビゲーションバー、ボタングループ、フォームの行など）に最適です。CSS Gridは行と列を同時に制御する2次元レイアウトに優れています。",
+            "q2": "flex-wrap: wrapとは何ですか？",
+            "a2": "デフォルトでは、flexアイテムはオーバーフロー時でも1行に強制されます。flex-wrap: wrapによりアイテムがオーバーフロー時に次の行に折り返せます — レスポンシブレイアウトに必須です。",
+            "q3": "align-itemsとalign-contentの違いは何ですか？",
+            "a3": "align-itemsは単一行のflexアイテムを配置します。align-contentは複数行がある場合（flex-wrap: wrap）にのみ適用され、コンテナ内の行の配布を制御します。",
+            "q4": "Flexboxで等幅の列を作成するには？",
+            "a4": "各flexの子アイテムにflex: 1を適用します。これにより利用可能なスペースを均等に埋めるように伸びます。コンテンツに関わらず3列を等幅にするにはflex: 0 0 33.33%を使用してください。"
+        }
+    }
+}

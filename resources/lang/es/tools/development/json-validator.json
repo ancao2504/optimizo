@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Validador JSON Online - Verificador de sintaxis JSON gratis | Optimizo",
+        "description": "Validador JSON gratuito en línea. Verifica instantáneamente si tu JSON es válido, detecta errores de sintaxis con número de línea y muestra el resultado formateado.",
+        "h1": "Validador JSON",
+        "subtitle": "Valida la sintaxis JSON al instante — detecta errores y asegúrate de que tus datos están correctamente estructurados"
+    },
+    "editor": {
+        "title": "Validador JSON",
+        "label_input": "JSON a validar",
+        "ph_input": "Pega tu JSON aquí...",
+        "btn_validate": "Validar JSON",
+        "btn_copy": "Copiar JSON"
+    },
+    "content": {
+        "why_title": "¿Por qué validar JSON antes de usarlo?",
+        "why_desc": "Un JSON inválido rompe silenciosamente las APIs, los parsers de configuración y los pipelines de datos. Una coma mal colocada, un corchete sin cerrar o una comilla sin escapar puede provocar errores en tiempo de ejecución difíciles de rastrear. Nuestro validador detecta estos problemas al instante con números de línea exactos y mensajes de error claros, para que puedas corregir los problemas antes de que lleguen a producción.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Validación instantánea",
+                "desc": "Valida JSON en milisegundos con mensajes de error precisos y los números de línea correspondientes"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Vista de estructura",
+                "desc": "Ve de un vistazo la profundidad, el número de claves y la distribución de tipos de tu JSON"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100 % privado",
+                "desc": "Toda la validación se realiza en tu navegador — tus datos nunca abandonan tu ordenador"
+            }
+        },
+        "how_title": "Cómo validar JSON en 3 pasos",
+        "how_steps": {
+            "1": {
+                "title": "Pega tu JSON",
+                "desc": "Copia tu JSON desde una respuesta de API, un archivo de configuración u otra fuente y pégalo"
+            },
+            "2": {
+                "title": "Haz clic en Validar",
+                "desc": "El validador verifica la sintaxis al instante y resalta los errores con números de línea"
+            },
+            "3": {
+                "title": "Corrige y copia",
+                "desc": "Corrige los errores mostrados y luego copia el JSON validado y formateado"
+            }
+        },
+        "uses_title": "Casos de uso de la validación JSON",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "Validar respuestas de API",
+                "desc": "Asegúrate de que las respuestas de APIs REST están correctamente estructuradas antes de procesarlas"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Verificar archivos de configuración",
+                "desc": "Valida package.json, tsconfig.json y otros archivos de configuración antes del despliegue"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Validar importaciones de datos",
+                "desc": "Verifica la exactitud de los archivos JSON importados antes de cargarlos en una base de datos"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Depurar errores JSON",
+                "desc": "Localiza con precisión errores de sintaxis en estructuras JSON complejas y anidadas"
+            }
+        },
+        "tips_title": "Buenas prácticas JSON",
+        "tips": {
+            "quotes": {
+                "title": "✓ Usa siempre comillas dobles",
+                "desc": "JSON exige comillas dobles para cadenas y claves. Las comillas simples no son JSON válido."
+            },
+            "trailing": {
+                "title": "✓ Sin coma al final",
+                "desc": "A diferencia de JavaScript, JSON no permite comas después del último elemento de un array u objeto."
+            },
+            "null": {
+                "title": "✓ Usa null, no None ni nil",
+                "desc": "La palabra clave null en JSON debe estar en minúsculas. None de Python y nil de Ruby no son JSON válido."
+            },
+            "validate": {
+                "title": "✓ Revalida tras edición manual",
+                "desc": "Revalida siempre el JSON después de editarlo manualmente. Un pequeño error de tipeo invalida todo el documento."
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Por qué mi JSON es inválido si parece correcto?",
+            "a1": "Problemas ocultos comunes: comas al final tras el último elemento de un array/objeto, comillas simples en lugar de dobles, caracteres especiales sin escapar en cadenas, o comentarios de estilo JavaScript (JSON no admite comentarios).",
+            "q2": "¿Puedo validar archivos JSON muy grandes?",
+            "a2": "Sí — la validación se realiza íntegramente en tu navegador mediante JSON.parse() nativo. El tamaño del archivo solo está limitado por la memoria de tu navegador. Para archivos de más de 10 MB, el procesamiento puede tardar unos segundos.",
+            "q3": "¿Cuál es la diferencia entre JSON y JSONP?",
+            "a3": "JSON es un formato de datos puro. JSONP (JSON con Padding) envuelve el JSON en una llamada a función para solicitudes de origen cruzado. JSONP no es JSON válido — este validador lo rechazará como inválido.",
+            "q4": "¿Admite JSON comentarios?",
+            "a4": "No. JSON no admite comentarios (// o /* */). Si necesitas anotar JSON, usa una clave _comment, o cambia a YAML o TOML, que ambos admiten comentarios."
+        }
+    }
+}

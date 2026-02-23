@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "Formater SQL Online - Piękne formatowanie SQL za darmo | Optimizo",
+        "description": "Formatuj i upiększaj zapytania SQL online za darmo. Obsługuje SELECT, INSERT, UPDATE, DELETE, CREATE i złożone JOIN-y z natychmiastowym wynikiem.",
+        "h1": "Formater SQL",
+        "subtitle": "Upiększaj i formatuj zapytania SQL natychmiastowo — kompatybilny ze wszystkimi głównymi dialektami SQL"
+    },
+    "editor": {
+        "title": "Formater SQL",
+        "label_input": "Wprowadź zapytanie SQL",
+        "ph_input": "SELECT id, nazwa, email FROM uzytkownicy WHERE aktywny = 1 ORDER BY nazwa",
+        "btn_format": "Formatuj SQL",
+        "btn_minify": "Minifikuj SQL",
+        "label_output": "Sformatowany SQL",
+        "btn_copy": "Kopiuj SQL"
+    },
+    "content": {
+        "why_title": "Dlaczego formatować zapytania SQL?",
+        "why_desc": "Niesformatowany SQL jest prawie nieczytelny, zwłaszcza w przypadku złożonych JOIN-ów, podzapytań i CTE. Nasz formater dodaje odpowiednie wcięcia, podziały wierszy i zapisuje słowa kluczowe dużymi literami, dzięki czemu zapytania są łatwiejsze do przejrzenia, debugowania i udostępniania zespołowi. Dobrze sformatowany SQL jest też prostszy do optymalizacji i utrzymania na dłuższą metę.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Słowa kluczowe dużymi literami",
+                "desc": "Automatycznie zapisuje SELECT, FROM, WHERE, JOIN i wszystkie inne słowa kluczowe SQL dużymi literami"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Inteligentne wcięcia",
+                "desc": "Stosuje prawidłowe wcięcia do podzapytań, wyrażeń CASE i zagnieżdżonych klauzul"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minifikacja",
+                "desc": "Usuwa wszystkie białe znaki, aby skompresować SQL do jednej linii — idealne dla ciągów zapytań w kodzie"
+            }
+        },
+        "how_title": "Jak formatować SQL w 3 krokach",
+        "how_steps": {
+            "1": {
+                "title": "Wklej zapytanie SQL",
+                "desc": "Skopiuj SQL z edytora kodu, klienta bazy danych lub dziennika zapytań i wklej go"
+            },
+            "2": {
+                "title": "Kliknij Formatuj",
+                "desc": "Kliknij \"Formatuj SQL\" dla prawidłowych wcięć i słów kluczowych dużymi literami"
+            },
+            "3": {
+                "title": "Skopiuj i użyj",
+                "desc": "Skopiuj sformatowany SQL bezpośrednio do klienta bazy danych, ORM lub dokumentacji"
+            }
+        },
+        "uses_title": "Przypadki użycia formatowania SQL",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Przegląd kodu",
+                "desc": "Formatuj SQL przed przeglądem, aby współpracownicy mogli wyraźnie zobaczyć strukturę"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Debugowanie zapytań",
+                "desc": "Rozplątaj złożone klauzule WHERE i łańcuchy JOIN, aby szybko znaleźć błędy logiczne"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Dokumentacja",
+                "desc": "Wstawiaj dobrze sformatowany SQL do dokumentacji technicznej, plików README i samouczków"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Optymalizacja zapytań",
+                "desc": "Sformatowany SQL ułatwia identyfikację brakujących indeksów i nieefektywnej kolejności JOIN-ów"
+            }
+        },
+        "tips_title": "Najlepsze praktyki SQL",
+        "tips": {
+            "select": {
+                "title": "✓ Unikaj SELECT *",
+                "desc": "Zawsze określaj nazwy kolumn zamiast SELECT *. Poprawia wydajność i zapobiega problemom, gdy schemat tabeli się zmieni."
+            },
+            "alias": {
+                "title": "✓ Używaj jawnych aliasów",
+                "desc": "Używaj przejrzystych aliasów tabel w JOIN-ach (np. u dla użytkowników, z dla zamówień), aby złożone zapytania były czytelne."
+            },
+            "explain": {
+                "title": "✓ Używaj EXPLAIN",
+                "desc": "Uruchom EXPLAIN lub EXPLAIN ANALYZE przed wdrożeniem wolnych zapytań, aby zrozumieć, jak baza danych je wykonuje."
+            },
+            "index": {
+                "title": "✓ Indeksuj kolumny WHERE",
+                "desc": "Upewnij się, że kolumny w WHERE, JOIN ON i ORDER BY są indeksowane dla optymalnej wydajności."
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Jakie dialekty SQL są obsługiwane?",
+            "a1": "Formater działa ze standardowym SQL i jest kompatybilny z MySQL, PostgreSQL, SQLite, SQL Server (T-SQL) i Oracle. Słowa kluczowe specyficzne dla dialektu są pozostawiane bez zmian.",
+            "q2": "Czy formatowanie zmienia zachowanie mojego zapytania?",
+            "a2": "Nie. Formater modyfikuje tylko białe znaki i wielkość liter słów kluczowych. Logika, wyniki i plan wykonania zapytania pozostają całkowicie niezmienione.",
+            "q3": "Czy mogę formatować SQL z procedurami składowanymi?",
+            "a3": "Tak. Formater obsługuje bloki CREATE PROCEDURE, BEGIN/END, instrukcje DECLARE i inne proceduralne konstrukcje SQL.",
+            "q4": "Do czego służy minifikacja w aplikacjach?",
+            "a4": "Minifikowany SQL zmniejsza rozmiar ciągów zapytań osadzonych w kodzie źródłowym, sprawia, że logi są bardziej zwarte i może nieznacznie poprawić wydajność parsowania."
+        }
+    }
+}

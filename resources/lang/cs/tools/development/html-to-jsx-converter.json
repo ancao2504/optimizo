@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Převodník HTML na JSX Online - Bezplatný React Nástroj | Optimizo",
+        "description": "Převádějte HTML na React JSX online a zdarma. Automaticky převádí class na className, for na htmlFor, inline styly na JS objekty a uzavírá prázdné značky.",
+        "h1": "Převodník HTML na JSX",
+        "subtitle": "Okamžitě převádějte HTML na React JSX — className, htmlFor, inline styly a self-closing značky"
+    },
+    "editor": {
+        "title": "Převodník HTML na JSX",
+        "label_html": "HTML vstup",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">E-mail</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "JSX výstup",
+        "btn_copy": "Kopírovat JSX"
+    },
+    "content": {
+        "why_title": "Proč převádět HTML na JSX?",
+        "why_desc": "Při migraci existujících HTML šablon do Reactu musíte ručně převádět class na className, for na htmlFor a inline styly z řetězců na JavaScript objekty. Tento nástroj automatizuje tyto konverze okamžitě a umožňuje vám soustředit se na logiku komponent.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Převod atributů",
+                "desc": "class→className, for→htmlFor, tabindex→tabIndex, maxlength→maxLength a další"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Objekt inline stylů",
+                "desc": "Převádí style=\"color:red;\" na style={{color:'red'}} — JSX JS objektová notace Reactu"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Self-closing značky",
+                "desc": "Přidá uzavírací lomítko k prázdným prvkům: <br> → <br />, <input> → <input />"
+            }
+        },
+        "how_title": "Převod HTML na JSX ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vložte HTML",
+                "desc": "Vložte HTML šablonu, Figma export nebo HTML kódový úryvek do levého panelu"
+            },
+            "2": {
+                "title": "Automatická konverze",
+                "desc": "Převodník okamžitě transformuje všechny atributy, styly a prázdné prvky na syntaxi JSX"
+            },
+            "3": {
+                "title": "Zkopírujte JSX",
+                "desc": "Zkopírujte převedené JSX a vložte ho do bloku render/return komponenty React"
+            }
+        },
+        "uses_title": "Případy použití převodníku HTML na JSX",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "Migrace do Reactu",
+                "desc": "Migrujte existující HTML stránky nebo šablony do React komponent bez ruční konverze atributů"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Bootstrap v Reactu",
+                "desc": "Převádějte Bootstrap HTML komponenty na JSX pro použití s react-bootstrap"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "E-mailové šablony",
+                "desc": "Převádějte HTML e-mailové šablony na JSX pro renderování s React Email"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "Z CMS do Reactu",
+                "desc": "Převádějte WordPress nebo tradiční CMS HTML šablony do struktury React komponent"
+            }
+        },
+        "tips_title": "Tipy pro převod HTML na JSX",
+        "tips": {
+            "class": {
+                "title": "✓ class → className je důležité",
+                "desc": "class je rezervované klíčové slovo JavaScriptu. V Reactu musí být className použito pro CSS třídy."
+            },
+            "for": {
+                "title": "✓ for v label → htmlFor",
+                "desc": "Atribut for na <label> se v JSX stane htmlFor. Zapomenutí na to narušuje přístupnost."
+            },
+            "events": {
+                "title": "✓ Aktualizujte obslužné rutiny událostí po konverzi",
+                "desc": "HTML atribut onclick='...' se v JSX automaticky nepřevede. Ručně nahraďte inline obslužné rutiny vzorem Reactu onClick={handler}."
+            },
+            "comments": {
+                "title": "✓ HTML komentáře se stávají JSX komentáři",
+                "desc": "<!-- komentář --> se v JSX převede na {/* komentář */}."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Proč React používá className místo class?",
+            "a1": "class je rezervované klíčové slovo JavaScriptu (používané pro ES6 třídy). Protože JSX je JavaScript, class způsobuje syntaktický konflikt. React zvolil className pro vyhnutí se nejasnostem.",
+            "q2": "Zpracovává tento nástroj obslužné rutiny událostí Reactu?",
+            "a2": "Ne — HTML obslužné rutiny onclick, onsubmit atd. se automaticky nepřevádějí na onClick, onSubmit Reactu. Je nutná ruční aktualizace.",
+            "q3": "Jaký je rozdíl mezi HTML a JSX?",
+            "a3": "JSX je syntaktické rozšíření JavaScriptu podobné HTML kompilované na volání React.createElement(). Klíčové rozdíly: všechny atributy v camelCase, class→className, for→htmlFor, prázdné prvky vyžadují self-closing, výrazy používají {}.",
+            "q4": "Proč prázdné prvky v JSX vyžadují self-closing?",
+            "a4": "JSX is analyzován Babelem jako syntaxe podobná XML a vyžaduje správné uzavření všech prvků. Prázdné prvky jako <br>, <img>, <input> nemají děti a vyžadují /> self-closing."
+        }
+    }
+}

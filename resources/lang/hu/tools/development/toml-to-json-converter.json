@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Online TOML JSON-ná Konvertáló - Ingyen | Optimizo",
+        "description": "TOML konfigurációs fájlok JSON-ná konvertálása online, ingyen. Teljes körű támogatás TOML táblákhoz, táblatömbökhoz, inline táblákhoz és minden adattípushoz.",
+        "h1": "TOML JSON-ná Konvertáló",
+        "subtitle": "TOML konfiguráció JSON-ná konvertálása — táblák, táblatömbök és minden TOML adattípus támogatott"
+    },
+    "editor": {
+        "title": "TOML JSON-ná Konvertáló",
+        "label_toml": "TOML bemenet",
+        "ph_toml": "# TOML példa\ntitle = \"Saját alkalmazás\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "JSON kimenet",
+        "btn_copy": "JSON másolása"
+    },
+    "content": {
+        "why_title": "Miért konvertálja a TOML-t JSON-ná?",
+        "why_desc": "A TOML érthető konfigurációs fájlokhoz lett tervezve (Rust Cargo.toml, Python pyproject.toml, Hugo config.toml), de a JSON a webes API-k és JavaScript eszközök szabványa. Amikor TOML konfigurációt kell JSON API-nak küldeni, JavaScript eszközökkel integrálni vagy adat megosztani az ökoszisztémák között, ez az eszköz azonnal áthidalja a szakadékot.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Teljes típuskonverzió",
+                "desc": "TOML karakterláncok, egészek, tizedes törtek, logikai értékek, dátumok — mindegyik helyesen konvertálva JSON megfelelőkre"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Táblák és táblatömbök",
+                "desc": "Megfelelően kezeli a [tábla], [[táblatömb]], inline tábla {key = value} szintaxisát"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Formázott JSON kimenet",
+                "desc": "A kimenet behúzottan jelenik meg az olvashatóság érdekében — nem tömörített egyetlen sorban lévő JSON"
+            }
+        },
+        "how_title": "TOML JSON-ná konvertálás 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "TOML konfiguráció beillesztése",
+                "desc": "Illessze be a Cargo.toml, pyproject.toml vagy más TOML konfigurációs fájl tartalmát"
+            },
+            "2": {
+                "title": "Automatikus konverzió",
+                "desc": "Az eszköz elemzi a TOML struktúrát és azonnal konvertálja a megfelelő JSON-ná"
+            },
+            "3": {
+                "title": "JSON másolása",
+                "desc": "Másolja a generált JSON-t API hívásokba vagy más JSON-t elfogadó eszközökbe"
+            }
+        },
+        "uses_title": "TOML-ból JSON-ba konvertáló felhasználási esetek",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.toml elemzés",
+                "desc": "Cargo.toml konvertálása JSON-ná a függőségeket elemző CI szkriptek számára"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Hugo konfiguráció",
+                "desc": "Hugo config.toml konvertálása JSON-ná más eszközökkel való integrációra"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Adatok küldése API-nak",
+                "desc": "TOML paraméterek konvertálása JSON-ná REST API-knak vagy GraphQL végpontoknak való küldéshez"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Formátumok tanulása",
+                "desc": "TOML→JSON struktúra leképezés megértése annak megismeréséhez, hogyan viszonyulnak egymáshoz a két formátum"
+            }
+        },
+        "tips_title": "TOML legjobb gyakorlatai",
+        "tips": {
+            "tables": {
+                "title": "✓ Pontozásos szintaxist használjon beágyazott táblákhoz",
+                "desc": "A TOML támogatja a [server.database] rövidítést beágyazott táblákhoz."
+            },
+            "strings": {
+                "title": "✓ Elérési utakhoz literális karakterláncokat használjon",
+                "desc": "Az egyszeri idézőjelű literális karakterláncok, mint 'C:\\Users\\path', nem dolgozzák fel az escape szekvenciákat — ideálisak Windows elérési utakhoz."
+            },
+            "comments": {
+                "title": "✓ Aktívan használja a megjegyzéseket",
+                "desc": "A TOML JSON-nagyal szembeni legfontosabb előnye a megjegyzések támogatása. Dokumentáljon minden konfigurációs paramétert # megjegyzésekkel."
+            },
+            "datetime": {
+                "title": "✓ Legyen tudatában a DateTime típuskonverziónak",
+                "desc": "A natív TOML RFC 3339 dátumok (2024-01-15T10:30:00Z) JSON-ban karakterláncokká válnak. A JSON-t fogyasztó kódnak újra kell elemeznie azokat dátum típusokként."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Milyen előnyei vannak a TOML-nak a YAML-lal és JSON-nal szemben?",
+            "a1": "A TOML egyszerűbb mint a YAML (nincs behúzás alapú struktúra), olvashatóbb mint a JSON (megjegyzések támogatottak) és explicit típusokkal rendelkezik (egészek, tizedes törtek, dátumok elkülönítve). Az alkalmazás konfigurációs fájlokhoz a legjobb választás.",
+            "q2": "Mi a [[táblatömbök]] a TOML-ban?",
+            "a2": "A [[servers]] servers nevű objektum tömböt definiál. Minden [[servers]] előfordulás új objektumot hoz létre a tömbben. JSON megfelelője: {\"servers\": [{...}, {...}]}.",
+            "q3": "Mely fontos eszközök használnak TOML-t?",
+            "a3": "Rust (Cargo.toml), modern Python csomagolás (pyproject.toml pip/poetry), Hugo, Gitea, Lighthouse CI és sok Go eszköz TOML-t használ.",
+            "q4": "Megmaradnak a TOML megjegyzések a JSON kimenetben?",
+            "a4": "Nem. Mivel a JSON hiányzik a megjegyzések szintaxisából, a TOML # megjegyzések nem fejezhetők ki a JSON kimenetben."
+        }
+    }
+}

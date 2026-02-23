@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Định Dạng YAML Online - Định Dạng YAML Miễn Phí | Optimizo",
+        "description": "Định dạng và xác thực tệp YAML trực tuyến và miễn phí. Làm sạch YAML tức thì, thụt lề đúng và kiểm tra cú pháp.",
+        "h1": "Định Dạng YAML",
+        "subtitle": "Định dạng và xác thực tệp YAML tức thì — hỗ trợ cấu trúc lồng phức tạp, anchor và alias"
+    },
+    "editor": {
+        "title": "Định Dạng YAML",
+        "label_input": "Đầu vào YAML",
+        "ph_input": "name: Ứng dụng của tôi\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "Định dạng YAML",
+        "label_output": "YAML đã định dạng",
+        "btn_copy": "Sao chép YAML"
+    },
+    "content": {
+        "why_title": "Tại sao nên định dạng tệp YAML?",
+        "why_desc": "YAML cực kỳ nhạy cảm với các vấn đề thụt lề — một khoảng trắng thừa có thể gây lỗi phân tích hoặc hỏng dữ liệu thầm lặng. Kubernetes, Docker Compose, GitHub Actions và Ansible dùng YAML cho tệp cấu hình, và một lỗi định dạng có thể chặn toàn bộ triển khai.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Chuẩn hóa thụt lề",
+                "desc": "Chuẩn hóa thụt lề hỗn hợp thành định dạng 2 khoảng trắng nhất quán trong toàn bộ tài liệu"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Xác thực cú pháp",
+                "desc": "Xác định lỗi thụt lề, lẫn lộn tab/khoảng trắng và vấn đề cấu trúc"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Anchor và Alias",
+                "desc": "Hỗ trợ đầy đủ anchor YAML (&) và alias (*) để tái sử dụng tài liệu"
+            }
+        },
+        "how_title": "Định dạng YAML trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Dán YAML",
+                "desc": "Dán manifest Kubernetes, workflow GitHub Actions hoặc tệp cấu hình YAML"
+            },
+            "2": {
+                "title": "Định dạng và xác thực",
+                "desc": "Công cụ xác thực cú pháp và tự động định dạng lại với thụt lề nhất quán"
+            },
+            "3": {
+                "title": "Sao chép và triển khai",
+                "desc": "Sao chép YAML đã định dạng vào tệp, pipeline CI hoặc công cụ triển khai"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng định dạng YAML",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Manifest Kubernetes",
+                "desc": "Định dạng tệp Deployment, Service và ConfigMap YAML trước khi áp dụng vào cluster"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "Pipeline CI/CD",
+                "desc": "Xác thực workflow GitHub Actions, GitLab CI và CircleCI để ngăn ngừa lỗi pipeline"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Playbook Ansible",
+                "desc": "Định dạng và xác thực task, biến và inventory Ansible"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Kiểm tra docker-compose.yml được định dạng đúng trước khi docker compose up"
+            }
+        },
+        "tips_title": "Các thực hành tốt nhất cho YAML",
+        "tips": {
+            "spaces": {
+                "title": "✓ Dùng khoảng trắng, không dùng tab",
+                "desc": "Đặc tả YAML cấm ký tự tab để thụt lề. Cấu hình trình soạn thảo chèn khoảng trắng khi nhấn Tab trong tệp YAML."
+            },
+            "quotes": {
+                "title": "✓ Dùng dấu ngoặc kép cho ký tự đặc biệt",
+                "desc": "Chuỗi chứa : # [ ] { } hoặc bắt đầu bằng ký tự đặc biệt phải đặt trong dấu ngoặc kép."
+            },
+            "anchors": {
+                "title": "✓ Dùng anchor để giảm lặp lại",
+                "desc": "Anchor YAML (&tên) và alias (*tên) cho phép tái sử dụng giá trị trong tài liệu."
+            },
+            "lint": {
+                "title": "✓ Lint trước khi commit",
+                "desc": "Chạy yamllint hoặc dùng công cụ định dạng này trong hook pre-commit để phát hiện sớm vấn đề định dạng."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Tại sao YAML không hoạt động với tab thay vì khoảng trắng?",
+            "a1": "Đặc tả YAML cấm ký tự tab để thụt lề vì các trình soạn thảo khác nhau hiển thị tab với độ rộng khác nhau. Khoảng trắng cung cấp thụt lề nhất quán mà tất cả bộ phân tích YAML hiểu giống nhau.",
+            "q2": "Anchor YAML (&) và alias (*) làm gì?",
+            "a2": "Anchor xác định khối có thể tái sử dụng với &tênanchor; alias tham chiếu nó với *tênanchor. Cho phép định nghĩa một giá trị một lần và dùng nhiều nơi.",
+            "q3": "Sự khác biệt giữa YAML và JSON là gì?",
+            "a3": "YAML là superset của JSON — JSON hợp lệ cũng là YAML hợp lệ. YAML thêm hỗ trợ chú thích, anchor, chuỗi nhiều dòng và cú pháp dễ đọc hơn.",
+            "q4": "Khi nào nên chọn YAML thay vì TOML cho cấu hình?",
+            "a4": "YAML có hỗ trợ công cụ rộng hơn (Kubernetes, Ansible, hầu hết hệ thống CI) và có thể diễn đạt cấu trúc lồng phức tạp một cách súc tích. Trong cấu hình DevOps, YAML là tiêu chuẩn."
+        }
+    }
+}

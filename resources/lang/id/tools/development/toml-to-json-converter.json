@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Konverter TOML ke JSON Online - Gratis | Optimizo",
+        "description": "Konversi file konfigurasi TOML ke JSON secara online dan gratis. Dukungan penuh untuk tabel TOML, array tabel, tabel inline, dan semua tipe data.",
+        "h1": "Konverter TOML ke JSON",
+        "subtitle": "Konversi konfigurasi TOML ke JSON — tabel, array tabel, dan semua tipe data TOML didukung"
+    },
+    "editor": {
+        "title": "Konverter TOML ke JSON",
+        "label_toml": "Input TOML",
+        "ph_toml": "# Contoh TOML\ntitle = \"Aplikasi Saya\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "Output JSON",
+        "btn_copy": "Salin JSON"
+    },
+    "content": {
+        "why_title": "Mengapa mengkonversi TOML ke JSON?",
+        "why_desc": "TOML dirancang untuk file konfigurasi yang mudah dibaca manusia (Cargo.toml Rust, pyproject.toml Python, config.toml Hugo), namun JSON adalah standar untuk API web dan alat JavaScript. Saat perlu mengirim konfigurasi TOML ke API JSON, integrasi dengan alat JavaScript, atau berbagi data antar ekosistem, alat ini menjembatani kesenjangan secara instan.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Konversi Tipe Lengkap",
+                "desc": "String, integer, float, boolean, tanggal TOML — semua dikonversi dengan benar ke setara JSON"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Tabel dan Array Tabel",
+                "desc": "Menangani sintaks [tabel], [[array tabel]], tabel inline {key = value} dengan benar"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Output JSON yang Diformat",
+                "desc": "Output ditampilkan dengan indentasi untuk keterbacaan — bukan JSON terkompresi satu baris"
+            }
+        },
+        "how_title": "Konversi TOML ke JSON dalam 3 langkah",
+        "how_steps": {
+            "1": {
+                "title": "Tempel konfigurasi TOML",
+                "desc": "Tempel konten dari Cargo.toml, pyproject.toml, atau file konfigurasi TOML lainnya"
+            },
+            "2": {
+                "title": "Konversi otomatis",
+                "desc": "Alat mem-parsing struktur TOML dan mengkonversinya ke JSON yang setara secara instan"
+            },
+            "3": {
+                "title": "Salin JSON",
+                "desc": "Salin JSON yang dihasilkan ke panggilan API atau alat lain yang menerima JSON"
+            }
+        },
+        "uses_title": "Kasus Penggunaan Konverter TOML ke JSON",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Parsing Cargo.toml",
+                "desc": "Konversi Cargo.toml ke JSON untuk script CI yang menganalisis dependensi"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Konfigurasi Hugo",
+                "desc": "Konversi config.toml Hugo ke JSON untuk integrasi dengan alat lain"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Kirim Data ke API",
+                "desc": "Konversi parameter TOML ke JSON untuk dikirim ke REST API atau endpoint GraphQL"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Pelajari Format",
+                "desc": "Pahami pemetaan struktur TOML→JSON untuk mengerti bagaimana kedua format berkaitan"
+            }
+        },
+        "tips_title": "Praktik Terbaik TOML",
+        "tips": {
+            "tables": {
+                "title": "✓ Gunakan notasi titik untuk tabel bersarang",
+                "desc": "TOML mendukung [server.database] sebagai singkatan untuk tabel bersarang."
+            },
+            "strings": {
+                "title": "✓ Gunakan literal string untuk path",
+                "desc": "Literal string dengan tanda kutip tunggal seperti 'C:\\Users\\path' tidak memproses urutan escape — ideal untuk path Windows."
+            },
+            "comments": {
+                "title": "✓ Gunakan komentar secara aktif",
+                "desc": "Keunggulan terpenting TOML dibanding JSON adalah dukungan komentar. Dokumentasikan semua parameter konfigurasi dengan komentar #."
+            },
+            "datetime": {
+                "title": "✓ Waspadai konversi tipe DateTime",
+                "desc": "Tanggal RFC 3339 asli TOML (2024-01-15T10:30:00Z) menjadi string dalam JSON. Kode yang mengkonsumsi JSON harus mem-parse ulang sebagai tipe tanggal."
+            }
+        },
+        "faq_title": "❓ Pertanyaan yang Sering Diajukan",
+        "faq": {
+            "q1": "Apa keunggulan TOML dibanding YAML dan JSON?",
+            "a1": "TOML lebih sederhana dari YAML (tidak ada struktur berbasis indentasi), lebih mudah dibaca dari JSON (komentar didukung), dan memiliki tipe eksplisit (integer, float, tanggal dipisahkan). Pilihan terbaik untuk file konfigurasi aplikasi.",
+            "q2": "Apa itu [[array tabel]] dalam TOML?",
+            "a2": "[[servers]] mendefinisikan array objek bernama 'servers'. Setiap kemunculan [[servers]] membuat objek baru dalam array. Setara JSON: {\"servers\": [{...}, {...}]}.",
+            "q3": "Alat penting apa yang menggunakan TOML?",
+            "a3": "Rust (Cargo.toml), packaging Python modern (pyproject.toml pip/poetry), Hugo, Gitea, Lighthouse CI, dan banyak alat Go menggunakan TOML.",
+            "q4": "Apakah komentar TOML disimpan dalam output JSON?",
+            "a4": "Tidak. Karena JSON tidak memiliki sintaks untuk komentar, komentar # TOML tidak dapat diekspresikan dalam output JSON."
+        }
+    }
+}

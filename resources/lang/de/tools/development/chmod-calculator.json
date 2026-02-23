@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "chmod-Rechner Online - Linux-Berechtigungen berechnen | Optimizo",
+        "description": "Kostenloser Online-chmod-Rechner. Konvertieren Sie Linux-Dateiberechtigungen zwischen symbolischer (rwxr-xr-x) und oktaler (755) Notation und generieren Sie chmod-Befehle.",
+        "h1": "chmod-Rechner",
+        "subtitle": "Linux-Berechtigungen berechnen — zwischen symbolischer und oktaler Notation konvertieren und chmod-Befehle generieren"
+    },
+    "editor": {
+        "title": "chmod-Berechtigungsrechner",
+        "label_octal": "Oktalwert",
+        "col_type": "Typ",
+        "col_read": "Lesen (r)",
+        "col_write": "Schreiben (w)",
+        "col_exec": "Ausführen (x)",
+        "col_octal": "Oktal",
+        "row_owner": "Eigentümer",
+        "row_group": "Gruppe",
+        "row_others": "Andere (Welt)",
+        "btn_copy": "Befehl kopieren"
+    },
+    "content": {
+        "why_title": "Warum einen chmod-Rechner verwenden?",
+        "why_desc": "Linux-Dateiberechtigungen werden in zwei Formaten ausgedrückt — symbolisch (rwxr-xr-x) und oktal (755). Das manuelle Berechnen des richtigen Berechtigungswerts ist fehleranfällig, besonders bei weniger gängigen Berechtigungssätzen. Unser Rechner ermöglicht es Ihnen, Berechtigungen visuell durch Ankreuzboxen festzulegen, und generiert sofort den Oktalwert sowie den fertigen chmod-Befehl.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Visueller Berechtigungs-Builder",
+                "desc": "Kreuzen Sie Lesen/Schreiben/Ausführen für Eigentümer/Gruppe/Andere an — Werte werden sofort aktualisiert"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Bidirektionale Synchronisierung",
+                "desc": "Geben Sie einen Oktalwert (wie 755) ein und die Checkboxen werden automatisch aktualisiert, oder umgekehrt"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Fertiger Befehl",
+                "desc": "Generiert den vollständigen chmod-Befehl zum direkten Einfügen in Ihr Terminal"
+            }
+        },
+        "how_title": "Berechtigungen berechnen",
+        "how_steps": {
+            "1": {
+                "title": "Berechtigungen ankreuzen",
+                "desc": "Klicken Sie auf die Lesen/Schreiben/Ausführen-Boxen für Eigentümer, Gruppe und Andere"
+            },
+            "2": {
+                "title": "Oktal und symbolisch ansehen",
+                "desc": "Der Oktalwert (z.B. 755) und die symbolische Notation (rwxr-xr-x) werden sofort aktualisiert"
+            },
+            "3": {
+                "title": "Befehl kopieren",
+                "desc": "Kopieren Sie den generierten chmod-Befehl und führen Sie ihn in Ihrem Terminal aus"
+            }
+        },
+        "uses_title": "Gängige chmod-Szenarien",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Webserver-Dateien",
+                "desc": "Setzen Sie 644 für HTML/CSS/JS-Dateien (Eigentümer lesen/schreiben, Gruppe/Andere nur lesen) auf Apache oder Nginx"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Ausführbare Skripte",
+                "desc": "Setzen Sie 755 für Shell-Skripte (Eigentümer voll, Gruppe/Andere lesen+ausführen) um sie ausführbar zu machen"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "SSH-Schlüssel",
+                "desc": "SSH erfordert private Schlüssel mit 600-Berechtigung (nur Eigentümer lesen/schreiben) oder SSH verweigert ihre Nutzung"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Upload-Verzeichnisse",
+                "desc": "Setzen Sie 775 für Web-Upload-Verzeichnisse, damit der Webserver-Prozess hochgeladene Dateien schreiben kann"
+            }
+        },
+        "tips_title": "Linux-Berechtigungs-Best-Practices",
+        "tips": {
+            "never777": {
+                "title": "✓ Niemals 777 in Produktion verwenden",
+                "desc": "chmod 777 gibt jedem vollen Lese-/Schreib-/Ausführungszugriff — ein ernstes Sicherheitsrisiko. Gewähren Sie immer die minimal notwendigen Berechtigungen."
+            },
+            "least": {
+                "title": "✓ Prinzip der geringsten Rechte",
+                "desc": "Gewähren Sie immer die minimal notwendigen Berechtigungen. Beginnen Sie restriktiv (600) und fügen Sie Berechtigungen nach Bedarf hinzu, statt offen zu beginnen."
+            },
+            "recursive": {
+                "title": "✓ Vorsicht mit -R rekursiv",
+                "desc": "chmod -R wendet Berechtigungen rekursiv auf alle Dateien und Verzeichnisse an. Ausführung auf Verzeichnissen ist generell korrekt, aber nicht immer für Dateien."
+            },
+            "umask": {
+                "title": "✓ umask verstehen",
+                "desc": "Der umask-Wert subtrahiert Berechtigungen vom Standard. Ein umask von 022 bedeutet, neue Dateien erhalten standardmäßig 644 und neue Verzeichnisse 755."
+            }
+        },
+        "faq_title": "❓ Häufig gestellte Fragen",
+        "faq": {
+            "q1": "Was bedeutet chmod 755?",
+            "a1": "755 bedeutet: Eigentümer (7) = lesen+schreiben+ausführen, Gruppe (5) = lesen+ausführen, Andere (5) = lesen+ausführen. Das ist die Standardberechtigung für ausführbare Dateien und öffentliche Verzeichnisse.",
+            "q2": "Was ist der Unterschied zwischen 644 und 755?",
+            "a2": "644 (rw-r--r--): Eigentümer kann lesen/schreiben, andere können nur lesen — für normale Dateien. 755 (rwxr-xr-x): Eigentümer kann auch ausführen — für Skripte und Verzeichnisse.",
+            "q3": "Warum braucht mein SSH-Schlüssel die Berechtigung 600?",
+            "a3": "SSH verweigert die Verwendung privater Schlüssel, auf die andere Benutzer zugreifen können. Die Berechtigung 600 (rw-------) stellt sicher, dass nur der Eigentümer den Schlüssel lesen/schreiben kann, was unbefugten Zugriff verhindert.",
+            "q4": "Was bedeutet das Ausführungs-Bit an einem Verzeichnis?",
+            "a4": "Bei Verzeichnissen bedeutet das Ausführungs-Bit 'traversieren' — es erlaubt Benutzern, das Verzeichnis zu betreten und auf darin enthaltene Dateien zuzugreifen. Ohne Ausführungsberechtigung an einem Verzeichnis können Benutzer es nicht betreten, selbst mit Leseberechtigung."
+        }
+    }
+}

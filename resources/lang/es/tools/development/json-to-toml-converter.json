@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Convertidor JSON a TOML Online - Herramienta gratuita | Optimizo",
+        "description": "Convierte JSON a formato TOML en línea gratis. Genera automáticamente secciones de tablas TOML, maneja objetos anidados y produce un TOML limpio y legible.",
+        "h1": "Convertidor JSON a TOML",
+        "subtitle": "Convierte datos JSON de configuración al formato TOML más legible — generación automática de tablas y secciones"
+    },
+    "editor": {
+        "title": "Convertidor JSON a TOML",
+        "label_json": "JSON de entrada",
+        "ph_json": "{\n  \"titulo\": \"Mi Aplicación\",\n  \"base_datos\": {\n    \"host\": \"localhost\",\n    \"puerto\": 5432\n  }\n}",
+        "label_toml": "Salida TOML",
+        "btn_copy": "Copiar TOML"
+    },
+    "content": {
+        "why_title": "¿Por qué convertir archivos de configuración JSON a TOML?",
+        "why_desc": "JSON no está diseñado para archivos de configuración — le faltan comentarios, tiene sintaxis verbosa para datos anidados y requiere escapes adicionales. TOML hace que los mismos datos sean más legibles con encabezados de sección [sección], comentarios # y una sintaxis clave-valor más limpia. Convertir tu config.json a config.toml mejora la mantenibilidad, la auto-documentación y la colaboración para cualquier configuración de proyecto.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Generación automática de secciones",
+                "desc": "Los objetos JSON anidados se convierten automáticamente en rutas de tabla TOML [sección.subsección]"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Preservación de tipos",
+                "desc": "Los números, booleanos y cadenas JSON se mapean correctamente a sus equivalentes TOML sin pérdida de datos"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Configuración más limpia",
+                "desc": "Los mismos datos expresados en TOML suelen ser un 20-40% más cortos y mucho más legibles que en JSON"
+            }
+        },
+        "how_title": "Cómo convertir JSON a TOML",
+        "how_steps": {
+            "1": {
+                "title": "Pega la configuración JSON",
+                "desc": "Copia tu archivo de configuración JSON existente y pégalo en el panel izquierdo"
+            },
+            "2": {
+                "title": "Examina la salida TOML",
+                "desc": "El panel derecho muestra el TOML equivalente — verifica que la estructura coincide con tus expectativas"
+            },
+            "3": {
+                "title": "Añade comentarios y guarda",
+                "desc": "Copia el TOML, añade comentarios # para documentar cada sección, luego guarda como nuevo archivo de configuración"
+            }
+        },
+        "uses_title": "Casos de uso JSON a TOML",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Crear Cargo.toml",
+                "desc": "Convierte información del proyecto package.json a formato Cargo.toml para acelerar la configuración de proyectos Rust"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Migrar a pyproject.toml",
+                "desc": "Convierte setup.cfg o setup.py al estándar moderno de empaquetado Python pyproject.toml"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Actualizar archivos de configuración",
+                "desc": "Migra config.json a config.toml y añade comentarios # para documentar cada opción"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Compartir configuración entre herramientas",
+                "desc": "Comparte los mismos datos de configuración entre ecosistemas JSON y TOML convirtiéndolos según sea necesario"
+            }
+        },
+        "tips_title": "Consejos para la conversión JSON a TOML",
+        "tips": {
+            "arrays": {
+                "title": "✓ Verifica cuidadosamente los arrays de objetos",
+                "desc": "Los arrays JSON de objetos ([{nombre:\"a\"},{nombre:\"b\"}]) usan la sintaxis [[array-de-tablas]] de TOML. Verifica que estos se convierten correctamente en la salida."
+            },
+            "null": {
+                "title": "✓ TOML no tiene un valor null",
+                "desc": "El valor null de JSON no tiene un equivalente directo en TOML. Los nulls generalmente se omiten o se reemplazan por cadenas vacías durante la conversión. Maneja estos casos manualmente."
+            },
+            "keys": {
+                "title": "✓ Pon entre comillas las claves con caracteres especiales",
+                "desc": "Las claves TOML que contienen guiones o espacios deben ir entre comillas: \"content-type\" = \"json\". Usa guiones bajos en las claves JSON para evitar este problema."
+            },
+            "test": {
+                "title": "✓ Prueba con el analizador TOML de tu aplicación",
+                "desc": "Diferentes analizadores TOML (toml-rs, tomllib, @iarna/toml) pueden manejar los casos límite de forma diferente. Siempre prueba el TOML convertido en tu entorno de ejecución real."
+            }
+        },
+        "faq_title": "❓ Preguntas frecuentes",
+        "faq": {
+            "q1": "¿Todos los tipos de datos JSON se pueden convertir a TOML?",
+            "a1": "La mayoría de los tipos se convierten limpiamente: cadenas, números, booleanos, arrays y objetos tienen equivalentes TOML directos. El null de JSON no tiene equivalente TOML y generalmente se omite. Los arrays de objetos profundamente anidados pueden requerir ajuste manual.",
+            "q2": "¿Puede TOML reemplazar completamente a JSON para archivos de configuración?",
+            "a2": "Sí, para archivos de configuración estáticos. El código que lee la configuración debe cambiar de JSON.parse() a un analizador TOML (crate toml en Rust, tomllib en Python, etc.). TOML no puede reemplazar a JSON para APIs o intercambio de datos.",
+            "q3": "¿Qué extensión de archivo usa TOML?",
+            "a3": "Los archivos TOML usan la extensión .toml. Ejemplos comunes: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (configuraciones de Cargo).",
+            "q4": "¿Cómo elegir entre JSON, YAML y TOML para la configuración?",
+            "a4": "Usa JSON para el intercambio de datos en APIs (soporte universal, sin necesidad de comentarios). Usa YAML para la configuración DevOps (Kubernetes, CI/CD — funciones ricas, soporte amplio de herramientas). Usa TOML para archivos de configuración de aplicaciones (sintaxis más simple, tipos explícitos, mejor para edición humana)."
+        }
+    }
+}

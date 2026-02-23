@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "YAML Formatter Online - Free YAML Beautifier",
+        "description": "Format and validate YAML files online for free. Instantly beautify YAML with proper indentation and syntax checking.",
+        "h1": "YAML Formatter",
+        "subtitle": "Format and validate YAML files instantly — supports complex nesting, anchors, and aliases"
+    },
+    "editor": {
+        "title": "YAML Formatter",
+        "label_input": "YAML Input",
+        "ph_input": "name: My App\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "Format YAML",
+        "label_output": "Formatted YAML",
+        "btn_copy": "Copy YAML"
+    },
+    "content": {
+        "why_title": "Why Format YAML Files?",
+        "why_desc": "YAML is extremely sensitive to indentation — a single extra space can cause parse errors or silent data corruption. Tools like Kubernetes, Docker Compose, GitHub Actions, and Ansible all use YAML configuration, where formatting mistakes can break entire deployments. Our YAML formatter validates syntax, normalizes indentation, and ensures your YAML is always correct.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Indentation Normalization",
+                "desc": "Normalizes mixed indentation to consistent 2-space formatting across the entire document"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Syntax Validation",
+                "desc": "Catches indent errors, mixed tabs/spaces, and structural issues before they cause runtime failures"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Anchors & Aliases",
+                "desc": "Fully supports YAML anchors (&) and aliases (*) for document reuse and DRY configurations"
+            }
+        },
+        "how_title": "Format YAML in 3 Steps",
+        "how_steps": {
+            "1": {
+                "title": "Paste YAML",
+                "desc": "Paste your Kubernetes manifest, GitHub Actions workflow, or any YAML config file"
+            },
+            "2": {
+                "title": "Format & Validate",
+                "desc": "The tool validates syntax and reformats with consistent indentation automatically"
+            },
+            "3": {
+                "title": "Copy & Deploy",
+                "desc": "Copy the formatted YAML back into your file, CI pipeline, or deployment tool"
+            }
+        },
+        "uses_title": "YAML Formatting Use Cases",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Kubernetes Manifests",
+                "desc": "Format Deployment, Service, and ConfigMap YAML files before applying to a cluster"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "CI/CD Pipelines",
+                "desc": "Validate GitHub Actions, GitLab CI, and CircleCI workflow files to prevent pipeline failures"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Ansible Playbooks",
+                "desc": "Format and validate Ansible tasks, vars, and inventory files for clean infrastructure code"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Ensure docker-compose.yml files are properly formatted before running docker compose up"
+            }
+        },
+        "tips_title": "YAML Best Practices",
+        "tips": {
+            "spaces": {
+                "title": "✓ Use Spaces, Never Tabs",
+                "desc": "YAML strictly prohibits tabs for indentation. Always configure your editor to insert spaces when pressing Tab in YAML files."
+            },
+            "quotes": {
+                "title": "✓ Quote Special Characters",
+                "desc": "Strings containing : # [ ] { } or starting with special characters should be quoted to avoid YAML misinterpretation."
+            },
+            "anchors": {
+                "title": "✓ Use Anchors to Reduce Duplication",
+                "desc": "YAML anchors (&name) and aliases (*name) let you reuse values across a document, reducing repetition in complex configs."
+            },
+            "lint": {
+                "title": "✓ Lint Before Committing",
+                "desc": "Run yamllint or use this formatter as part of your pre-commit hook to catch formatting issues before they reach the repository."
+            }
+        },
+        "faq_title": "❓ Frequently Asked Questions",
+        "faq": {
+            "q1": "Why does YAML fail on tabs vs spaces?",
+            "a1": "The YAML specification explicitly disallows tab characters for indentation because different editors display tabs with different widths. Spaces give consistent, unambiguous indentation that all YAML parsers can interpret identically.",
+            "q2": "What do YAML anchors (&) and aliases (*) do?",
+            "a2": "Anchors define a reusable block with &anchor-name: and aliases reference it with *anchor-name. This lets you define values once and reuse them multiple times, keeping configurations DRY.",
+            "q3": "What is the difference between YAML and JSON?",
+            "a3": "YAML is a superset of JSON — all valid JSON is valid YAML. YAML adds support for comments, anchors, multi-line strings, and more readable syntax. JSON is better for machine-to-machine data exchange; YAML is better for human-edited configuration.",
+            "q4": "Why choose YAML over TOML for configuration?",
+            "a4": "YAML has broader tool support (Kubernetes, Ansible, most CI systems) and can represent complex nested structures concisely. TOML is simpler and less error-prone for basic configs. For DevOps configuration, YAML is the standard choice."
+        }
+    }
+}

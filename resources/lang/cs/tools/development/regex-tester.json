@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Online Regex Tester - Testujte Regulární Výrazy Zdarma | Optimizo",
+        "description": "Testujte regulární výrazy online zdarma. Zvýraznění shod v reálném čase, podpora příznaků a detaily zachytávacích skupin.",
+        "h1": "Regex Tester",
+        "subtitle": "Testujte regulární výrazy v reálném čase — zvýraznění shod, příznaky a detaily zachytávacích skupin"
+    },
+    "editor": {
+        "title": "Regex Tester",
+        "label_pattern": "Vzor (Regex)",
+        "ph_pattern": "Např. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Příznaky",
+        "label_test": "Testovací text",
+        "ph_test": "Vložte text k testování...",
+        "btn_test": "Testovat",
+        "btn_clear": "Vymazat"
+    },
+    "content": {
+        "why_title": "Proč používat Regex Tester?",
+        "why_desc": "Regulární výrazy jsou výkonné nástroje pro porovnávání vzorů, používané v téměř všech programovacích jazycích. Ladění může být složité — jedna malá chyba může zcela změnit chování. Náš nástroj zvýrazňuje shody v reálném čase při každém stisknutí klávesy a zobrazuje detaily zachytávacích skupin.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Zvýraznění v reálném čase",
+                "desc": "Shody jsou zvýrazněny okamžitě při každém stisknutí klávesy — bez nutnosti klikat na tlačítko"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Detaily zachytávacích skupin",
+                "desc": "Zobrazí všechny zachytávací skupiny, indexy a odpovídající hodnoty pro každý výsledek"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Plná podpora příznaků",
+                "desc": "Aktivujte příznaky g, i, m, s, u, y individuálně a sledujte jejich efekt"
+            }
+        },
+        "how_title": "Testování Regex ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Zadejte vzor",
+                "desc": "Napište regulární výraz do pole vzoru (bez lomítek)"
+            },
+            "2": {
+                "title": "Vyberte příznaky",
+                "desc": "Aktivujte příznaky jako g (globální), i (velká/malá písmena), m (víceřádkový) dle potřeby"
+            },
+            "3": {
+                "title": "Vložte testovací text",
+                "desc": "Zadejte text a shody se automaticky zvýrazní"
+            }
+        },
+        "uses_title": "Běžné případy použití Regex",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Validace formulářů",
+                "desc": "Validujte e-mailové adresy, telefonní čísla, URL adresy, PSČ a vlastní formáty"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Vyhledávání a nahrazování",
+                "desc": "Vyhledávejte a nahrazujte vzory v kódových editorech, log souborech a textových pipeline"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Parsování logů",
+                "desc": "Extrahujte strukturovaná data (IP, časová razítka, kódy chyb) z nestrukturovaných logů"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Sanitizace vstupu",
+                "desc": "Odstraňte nebo nahraďte nebezpečné znaky v uživatelských datech před uložením"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Používejte kotvy pro přesné shody",
+                "desc": "Použijte ^ a $ pro ukotvení vzoru na začátek a konec řádku"
+            },
+            "groups": {
+                "title": "✓ Preferujte nezachytávající skupiny",
+                "desc": "Použijte (?:...) místo (...) pokud nepotřebujete zachytit skupinu"
+            },
+            "escape": {
+                "title": "✓ Escapujte speciální znaky",
+                "desc": ". * + ? ( ) [ ] { } | ^ $ \\ mají speciální význam — použijte \\ pro doslovnou shodu"
+            },
+            "test": {
+                "title": "✓ Testujte hraniční případy",
+                "desc": "Vždy testujte s prázdnými řetězci, Unicode znaky, velmi dlouhými vstupy a hraničními hodnotami"
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "Jaký dialekt Regex tester používá?",
+            "a1": "Vestavěný motor RegExp JavaScriptu (standard ECMAScript). Podporuje lookahead, lookbehind (ES2018+), pojmenované zachytávací skupiny a vlastnosti Unicode.",
+            "q2": "Jaký je rozdíl mezi příznaky g a m?",
+            "a2": "Příznak g (globální) najde všechny shody v řetězci, nejen první. Příznak m (víceřádkový) umožňuje ^ a $ shodovat se s začátkem a koncem každého řádku.",
+            "q3": "Jak se shodnu s doslovnou tečkou nebo hvězdičkou?",
+            "a3": "Escapujte zpětným lomítkem: \\. se shoduje s doslovnou tečkou, \\* se shoduje s doslovnou hvězdičkou.",
+            "q4": "Proč se můj Regex shoduje s více textem, než bylo očekáváno?",
+            "a4": "Pravděpodobně používáte hladové kvantifikátory. * a + jsou ve výchozím nastavení hladové — shodují se s co největším textem. Přidejte ? pro líné chování: *? nebo +? se shoduje s co nejmenším textem."
+        }
+    }
+}

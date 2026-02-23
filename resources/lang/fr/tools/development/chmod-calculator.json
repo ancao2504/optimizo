@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Calculateur chmod - Générateur de permissions Linux en ligne | Optimizo",
+        "description": "Calculateur chmod gratuit en ligne. Convertissez les permissions de fichiers Linux entre la notation symbolique (rwxr-xr-x) et octale (755) et générez des commandes chmod.",
+        "h1": "Calculateur chmod",
+        "subtitle": "Calculez les permissions Linux — convertissez entre les notations symbolique et octale et générez des commandes chmod"
+    },
+    "editor": {
+        "title": "Calculateur de permissions chmod",
+        "label_octal": "Valeur octale",
+        "col_type": "Type",
+        "col_read": "Lecture (r)",
+        "col_write": "Écriture (w)",
+        "col_exec": "Exécution (x)",
+        "col_octal": "Octal",
+        "row_owner": "Propriétaire",
+        "row_group": "Groupe",
+        "row_others": "Autres (Monde)",
+        "btn_copy": "Copier la commande"
+    },
+    "content": {
+        "why_title": "Pourquoi utiliser un calculateur chmod ?",
+        "why_desc": "Les permissions de fichiers Linux s'expriment en deux formats — symbolique (rwxr-xr-x) et octal (755). Calculer manuellement la valeur de permission correcte est source d'erreurs, surtout pour des ensembles de permissions moins courants. Notre calculateur vous permet de cocher des cases visuellement pour définir les permissions, et génère instantanément la valeur octale ainsi que la commande chmod prête à l'emploi.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Constructeur visuel de permissions",
+                "desc": "Cochez les cases lire/écrire/exécuter pour propriétaire/groupe/autres — les valeurs se mettent à jour instantanément"
+            },
+            "sync": {
+                "icon": "🔄",
+                "title": "Synchronisation bidirectionnelle",
+                "desc": "Tapez une valeur octale (comme 755) et les cases se mettent à jour automatiquement, ou vice versa"
+            },
+            "cmd": {
+                "icon": "💻",
+                "title": "Commande générée prête à l'emploi",
+                "desc": "Génère la commande chmod complète à coller directement dans votre terminal"
+            }
+        },
+        "how_title": "Comment calculer les permissions",
+        "how_steps": {
+            "1": {
+                "title": "Cochez les permissions souhaitées",
+                "desc": "Cliquez sur les cases lire/écrire/exécuter pour le Propriétaire, le Groupe et les Autres"
+            },
+            "2": {
+                "title": "Consultez l'octal et le symbolique",
+                "desc": "La valeur octale (ex. 755) et la notation symbolique (rwxr-xr-x) se mettent à jour instantanément"
+            },
+            "3": {
+                "title": "Copiez la commande",
+                "desc": "Copiez la commande chmod générée et exécutez-la dans votre terminal"
+            }
+        },
+        "uses_title": "Scénarios chmod courants",
+        "uses": {
+            "web": {
+                "icon": "🌐",
+                "title": "Fichiers de serveur web",
+                "desc": "Définissez 644 pour les fichiers HTML/CSS/JS (propriétaire lecture/écriture, groupe/autres lecture seule) sur Apache ou Nginx"
+            },
+            "scripts": {
+                "icon": "📜",
+                "title": "Scripts exécutables",
+                "desc": "Définissez 755 pour les scripts shell (propriétaire complet, groupe/autres lecture+exécution) pour les rendre exécutables"
+            },
+            "ssh": {
+                "icon": "🔑",
+                "title": "Clés SSH",
+                "desc": "SSH exige que les clés privées aient les permissions 600 (propriétaire lecture/écriture uniquement) ou SSH refusera de les utiliser"
+            },
+            "uploads": {
+                "icon": "📁",
+                "title": "Répertoires d'upload",
+                "desc": "Définissez 775 pour les répertoires d'upload web afin que le processus du serveur web puisse écrire les fichiers uploadés"
+            }
+        },
+        "tips_title": "Bonnes pratiques des permissions Linux",
+        "tips": {
+            "never777": {
+                "title": "✓ N'utilisez jamais 777 en production",
+                "desc": "chmod 777 donne à tout le monde un accès complet en lecture/écriture/exécution — un risque de sécurité grave. Accordez toujours les permissions minimales nécessaires."
+            },
+            "least": {
+                "title": "✓ Principe du moindre privilège",
+                "desc": "Accordez toujours les permissions minimales nécessaires. Commencez de manière restrictive (600) et ajoutez des permissions au besoin plutôt que de commencer ouvert."
+            },
+            "recursive": {
+                "title": "✓ Prudence avec la récursivité -R",
+                "desc": "chmod -R applique les permissions récursivement à tous les fichiers et répertoires. Définir l'exécution sur les répertoires est généralement correct, mais pas toujours pour les fichiers."
+            },
+            "umask": {
+                "title": "✓ Comprendre umask",
+                "desc": "La valeur umask soustrait les permissions du défaut. Un umask de 022 signifie que les nouveaux fichiers obtiennent 644 et les nouveaux répertoires 755 par défaut."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Que signifie chmod 755 ?",
+            "a1": "755 signifie : Propriétaire (7) = lire+écrire+exécuter, Groupe (5) = lire+exécuter, Autres (5) = lire+exécuter. C'est la permission standard pour les fichiers exécutables et les répertoires publics.",
+            "q2": "Quelle est la différence entre 644 et 755 ?",
+            "a2": "644 (rw-r--r--) : Le propriétaire peut lire/écrire, les autres ne peuvent que lire — utilisé pour les fichiers ordinaires. 755 (rwxr-xr-x) : Le propriétaire peut aussi exécuter — utilisé pour les scripts et les répertoires.",
+            "q3": "Pourquoi ma clé SSH a-t-elle besoin des permissions 600 ?",
+            "a3": "SSH refuse d'utiliser les clés privées accessibles par d'autres utilisateurs. La permission 600 (rw-------) garantit que seul le propriétaire peut lire/écrire la clé, empêchant tout accès non autorisé.",
+            "q4": "Que signifie le bit d'exécution sur un répertoire ?",
+            "a4": "Pour les répertoires, le bit d'exécution signifie 'traverser' — il permet aux utilisateurs d'entrer dans le répertoire et d'accéder aux fichiers qu'il contient. Sans la permission d'exécution sur un répertoire, les utilisateurs ne peuvent pas y entrer même avec la permission de lecture."
+        }
+    }
+}

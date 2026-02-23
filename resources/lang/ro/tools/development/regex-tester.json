@@ -1,0 +1,107 @@
+{
+    "meta": {
+        "title": "Tester Regex Online - Testați Expresii Regulate Gratuit | Optimizo",
+        "description": "Testați expresii regulate (Regex) online și gratuit. Evidențierea potrivirilor în timp real, suport pentru flag-uri și detalii despre grupurile de captură.",
+        "h1": "Tester Regex",
+        "subtitle": "Testați Regex în timp real — evidențierea potrivirilor, flag-uri și detalii ale grupurilor de captură"
+    },
+    "editor": {
+        "title": "Tester Regex",
+        "label_pattern": "Tipar (Regex)",
+        "ph_pattern": "Ex. \\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b",
+        "label_flags": "Flag-uri",
+        "label_test": "Text de test",
+        "ph_test": "Inserați textul de testat...",
+        "btn_test": "Testați",
+        "btn_clear": "Ștergeți"
+    },
+    "content": {
+        "why_title": "De ce să folosiți un Tester Regex?",
+        "why_desc": "Expresiile regulate sunt instrumente puternice de potrivire a tiparelor, utilizate în aproape toate limbajele de programare. Depanarea poate fi complexă — o singură greșeală poate schimba complet comportamentul. Instrumentul nostru evidențiază potrivirile în timp real la fiecare apăsare a tastei.",
+        "features": {
+            "live": {
+                "icon": "⚡",
+                "title": "Evidențiere în timp real",
+                "desc": "Potrivirile sunt evidențiate instantaneu la fiecare apăsare de tastă — fără buton de apăsat"
+            },
+            "groups": {
+                "icon": "🔍",
+                "title": "Detalii grupuri de captură",
+                "desc": "Afișează toate grupurile de captură, indecșii și valorile potrivite pentru fiecare rezultat"
+            },
+            "flags": {
+                "icon": "🚩",
+                "title": "Suport complet flag-uri",
+                "desc": "Activați flag-urile g, i, m, s, u, y individual și observați efectul lor"
+            }
+        },
+        "how_title": "Testați Regex în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Introduceți tiparul",
+                "desc": "Scrieți expresia regulată în câmpul tipar (fără bare oblice)"
+            },
+            "2": {
+                "title": "Selectați flag-urile",
+                "desc": "Activați flag-urile ca g (global), i (insensibil la majuscule), m (multilinie) după nevoie"
+            },
+            "3": {
+                "title": "Inserați textul de test",
+                "desc": "Introduceți text și potrivirile sunt evidențiate automat"
+            }
+        },
+        "uses_title": "Cazuri comune de utilizare Regex",
+        "uses": {
+            "validation": {
+                "icon": "✅",
+                "title": "Validare formulare",
+                "desc": "Validați adrese email, numere de telefon, URL-uri, coduri poștale și formate personalizate"
+            },
+            "search": {
+                "icon": "🔍",
+                "title": "Căutare și înlocuire",
+                "desc": "Căutați și înlocuiți tipare în editori de cod, fișiere log și pipeline-uri de text"
+            },
+            "parsing": {
+                "icon": "⚙️",
+                "title": "Analiza log-urilor",
+                "desc": "Extrageți date structurate (IP, marcaje de timp, coduri de eroare) din log-uri nestructurate"
+            },
+            "security": {
+                "icon": "🔒",
+                "title": "Sanitizarea intrărilor",
+                "desc": "Eliminați sau înlocuiți caracterele periculoase din datele utilizatorilor înainte de stocare"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru Regex",
+        "tips": {
+            "anchor": {
+                "title": "✓ Folosiți ancore pentru potriviri precise",
+                "desc": "Folosiți ^ și $ pentru a ancora tiparul la începutul și sfârșitul liniei"
+            },
+            "groups": {
+                "title": "✓ Preferați grupurile non-capturante",
+                "desc": "Folosiți (?:...) în loc de (...) când nu aveți nevoie să capturați grupul"
+            },
+            "escape": {
+                "title": "✓ Escape-uiți caracterele speciale",
+                "desc": ". * + ? ( ) [ ] { } | ^ $ \\ au semnificație specială — folosiți \\ pentru potrivire literală"
+            },
+            "test": {
+                "title": "✓ Testați cazurile limită",
+                "desc": "Testați întotdeauna cu șiruri goale, caractere Unicode, intrări foarte lungi și valori limită"
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "Ce dialect Regex folosește testerul?",
+            "a1": "Motorul RegExp integrat al JavaScript (standardul ECMAScript). Suportă lookahead, lookbehind (ES2018+), grupuri de captură numite și proprietăți Unicode.",
+            "q2": "Care este diferența dintre flag-urile g și m?",
+            "a2": "Flag-ul g (global) găsește toate potrivirile din șir, nu doar prima. Flag-ul m (multilinie) face ^ și $ să se potrivească cu începutul și sfârșitul fiecărei linii.",
+            "q3": "Cum se potrivește un punct literal sau un asterisc?",
+            "a3": "Escape-uiți cu backslash: \\. se potrivește cu un punct literal, \\* se potrivește cu un asterisc literal.",
+            "q4": "De ce Regex-ul meu se potrivește cu mai mult text decât era de așteptat?",
+            "a4": "Probabil folosiți cuantificatori lacom. * și + sunt lacomi implicit — se potrivesc cu cât mai mult text posibil. Adăugați ? pentru comportament leneș: *? sau +? se potrivesc cu cât mai puțin posibil."
+        }
+    }
+}

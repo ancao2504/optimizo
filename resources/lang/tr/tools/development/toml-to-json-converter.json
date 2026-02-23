@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "TOML'dan JSON'a Dönüştürücü Çevrimiçi - Ücretsiz | Optimizo",
+        "description": "TOML yapılandırma dosyalarını çevrimiçi ücretsiz JSON'a dönüştürün. TOML tablolar, diziler, satır içi tablolar ve tüm veri türleri tam desteklenir.",
+        "h1": "TOML'dan JSON'a Dönüştürücü",
+        "subtitle": "TOML yapılandırmasını JSON'a dönüştürün — tablolar, tablo dizileri ve tüm TOML veri türleri desteklenir"
+    },
+    "editor": {
+        "title": "TOML'dan JSON'a Dönüştürücü",
+        "label_toml": "TOML Girişi",
+        "ph_toml": "# TOML örneği\ntitle = \"Uygulamam\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "JSON Çıkışı",
+        "btn_copy": "JSON'u Kopyala"
+    },
+    "content": {
+        "why_title": "TOML ile JSON Arasında Neden Dönüştürme Yapılır?",
+        "why_desc": "TOML, insan tarafından okunabilir yapılandırma dosyaları (Rust'ın Cargo.toml, Python'un pyproject.toml, Hugo'nun config.toml) için tasarlanmıştır; ancak JSON, web API'leri ve JavaScript araçlarının standardıdır. TOML yapılandırmasını JSON API'sine göndermek, JavaScript araçlarıyla entegre etmek veya farklı ekosistemler arasında veri paylaşmak istediğinizde bu araç boşluğu anında kapatır.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Tam Tür Dönüşümü",
+                "desc": "TOML dizeleri, tam sayıları, ondalık sayıları, boolean'ları, tarihler — hepsi JSON'ın karşılaştığı değerlere doğru dönüştürülür"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Tablolar ve Tablo Dizileri",
+                "desc": "[tablo], [[tablo dizisi]], satır içi tablo {key = value} sözdizimini doğru işler"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Biçimlendirilmiş JSON Çıkışı",
+                "desc": "Çıktı, okunabilirlik için girintili gösterilir — tek satır sıkıştırılmış JSON değil"
+            }
+        },
+        "how_title": "3 Adımda TOML'u JSON'a Dönüştürme",
+        "how_steps": {
+            "1": {
+                "title": "TOML Yapılandırmasını Yapıştırın",
+                "desc": "Cargo.toml, pyproject.toml veya başka bir TOML yapılandırma dosyasının içeriğini yapıştırın"
+            },
+            "2": {
+                "title": "Otomatik Dönüştürme",
+                "desc": "Araç TOML yapısını ayrıştırır ve eşdeğer JSON'a anında dönüştürür"
+            },
+            "3": {
+                "title": "JSON'u Kopyalayın",
+                "desc": "Oluşturulan JSON'u API çağrıları veya JSON kabul eden diğer araçlar için kopyalayın"
+            }
+        },
+        "uses_title": "TOML'dan JSON'a Dönüştürme Kullanım Alanları",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.toml Ayrıştırma",
+                "desc": "Bağımlılıkları çözümleyen veya sürüm bilgisi çıkaran CI betikleri için Cargo.toml'u JSON'a dönüştürün"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Hugo Yapılandırması",
+                "desc": "Diğer araçlar veya veri kaynaklarıyla entegrasyon için Hugo'nun config.toml'unu JSON'a dönüştürün"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "API'ye Veri Gönderme",
+                "desc": "TOML biçimindeki parametreleri REST API veya GraphQL uç noktalarına göndermek için JSON'a dönüştürün"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Biçim Öğrenme",
+                "desc": "İki biçim arasındaki ilişkiyi anlamak için TOML→JSON yapı eşlemesini kavrayın"
+            }
+        },
+        "tips_title": "TOML En İyi Uygulamaları",
+        "tips": {
+            "tables": {
+                "title": "✓ İç İçe Tablolar için Nokta Gösterimi Kullanın",
+                "desc": "TOML, iç içe tablo kısayolu olarak [server.database]'i destekler; iç içe JSON anahtarlarından daha okunabilir yapılandırma sağlar."
+            },
+            "strings": {
+                "title": "✓ Yollar için Gerçek Dizeler Kullanın",
+                "desc": "'C:\\Users\\path' gibi tek tırnaklı gerçek dizeler kaçış dizilerini işlemez — Windows yolları ve regex desenleri için idealdir."
+            },
+            "comments": {
+                "title": "✓ Yorumları Etkin Kullanın",
+                "desc": "JSON karşısında TOML'nin temel avantajı yorum desteğidir. Bakım için tüm yapılandırma parametrelerini # yorumlarıyla belgeleyin."
+            },
+            "datetime": {
+                "title": "✓ DateTime Tür Dönüşümüne Dikkat Edin",
+                "desc": "TOML'un yerel RFC 3339 tarihleri (2024-01-15T10:30:00Z) JSON'da dize olur. JSON'u kullanan kod bunları tarih türü olarak yeniden ayrıştırması gerekir."
+            }
+        },
+        "faq_title": "❓ Sık Sorulan Sorular",
+        "faq": {
+            "q1": "TOML'un YAML ve JSON'a göre avantajı nedir?",
+            "a1": "TOML, YAML'dan daha basit (girintiye dayalı yapı yok), JSON'dan daha okunabilir (yorumlar destekli) ve açık türlere sahip (tam sayı, ondalık, tarih ayrı). Okunabilirliğin önemli olduğu uygulama yapılandırma dosyaları için en iyi seçimdir.",
+            "q2": "TOML'da [[tablo dizisi]] nedir?",
+            "a2": "[[servers]], 'servers' adlı nesne dizisini tanımlar. Her [[servers]] görünümü diziye yeni bir nesne ekler. Aşağıdaki anahtarlar bu nesneye aittir. JSON karşılaştığı: {\"servers\": [{...}, {...}]}.",
+            "q3": "Hangi önemli araçlar TOML kullanıyor?",
+            "a3": "Rust (Cargo.toml), modern Python paketleme (pip/poetry'nin pyproject.toml), Hugo statik site oluşturucu, Gitea, Lighthouse CI ve pek çok Go aracı TOML kullanır.",
+            "q4": "TOML yorumları JSON çıkışında korunuyor mu?",
+            "a4": "Hayır. JSON'ın yorum sözdizimi olmadığından TOML'un # yorumlarını JSON çıkışında ifade etmek mümkün değildir. Yorumlar önemli kararları belgeliyorsa ayrı bir README'ye kaydedin veya JSON'da _comment anahtarı kullanın."
+        }
+    }
+}

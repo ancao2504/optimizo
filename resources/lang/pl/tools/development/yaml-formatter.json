@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Formater YAML Online - Upiększanie plików YAML za darmo | Optimizo",
+        "description": "Formatuj i waliduj pliki YAML online za darmo. Natychmiastowe upiększanie YAML z prawidłowymi wcięciami i sprawdzaniem składni.",
+        "h1": "Formater YAML",
+        "subtitle": "Natychmiastowe formatowanie i walidacja plików YAML — obsługa złożonego zagnieżdżania, kotwic i aliasów"
+    },
+    "editor": {
+        "title": "Formater YAML",
+        "label_input": "Dane wejściowe YAML",
+        "ph_input": "nazwa: Moja Aplikacja\nbaza_danych:\n  host: localhost\n  port: 5432",
+        "btn_format": "Formatuj YAML",
+        "label_output": "Sformatowany YAML",
+        "btn_copy": "Kopiuj YAML"
+    },
+    "content": {
+        "why_title": "Dlaczego formatować pliki YAML?",
+        "why_desc": "YAML jest niezwykle wrażliwy na wcięcia — jeden dodatkowy spacja może powodować błędy parsowania lub cichą korupcję danych. Narzędzia takie jak Kubernetes, Docker Compose, GitHub Actions i Ansible używają plików konfiguracyjnych YAML, gdzie błędy formatowania mogą blokować całe wdrożenia. Nasz formater waliduje składnię, normalizuje wcięcia i zapewnia, że Twój YAML jest zawsze poprawny.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Normalizacja wcięć",
+                "desc": "Normalizuje mieszane wcięcia do spójnego formatu 2-spacji w całym dokumencie"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Walidacja składni",
+                "desc": "Wykrywa błędy wcięć, mieszane tabulatory/spacje i problemy strukturalne przed błędami produkcyjnymi"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Kotwice i aliasy",
+                "desc": "Pełna obsługa kotwic YAML (&) i aliasów (*) dla wielokrotnego użycia dokumentów i konfiguracji DRY"
+            }
+        },
+        "how_title": "Jak formatować YAML w 3 krokach",
+        "how_steps": {
+            "1": {
+                "title": "Wklej YAML",
+                "desc": "Wklej manifest Kubernetes, przepływ pracy GitHub Actions lub dowolny plik konfiguracyjny YAML"
+            },
+            "2": {
+                "title": "Formatuj i waliduj",
+                "desc": "Narzędzie waliduje składnię i automatycznie reformatuje ze spójnymi wcięciami"
+            },
+            "3": {
+                "title": "Skopiuj i wdróż",
+                "desc": "Skopiuj sformatowany YAML do pliku, potoku CI lub narzędzia do wdrażania"
+            }
+        },
+        "uses_title": "Przypadki użycia formatowania YAML",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Manifesty Kubernetes",
+                "desc": "Formatuj pliki YAML Deployment, Service i ConfigMap przed zastosowaniem ich na klastrze"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "Potoki CI/CD",
+                "desc": "Waliduj przepływy pracy GitHub Actions, GitLab CI i CircleCI, aby unikać błędów potoku"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Playbooki Ansible",
+                "desc": "Formatuj i waliduj zadania, zmienne i inwentarze Ansible dla czystego kodu infrastruktury"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Upewnij się, że pliki docker-compose.yml są poprawnie sformatowane przed uruchomieniem docker compose up"
+            }
+        },
+        "tips_title": "Najlepsze praktyki YAML",
+        "tips": {
+            "spaces": {
+                "title": "✓ Używaj spacji, nigdy tabulatorów",
+                "desc": "YAML surowo zabrania tabulatorów do wcięć. Zawsze konfiguruj edytor, aby wstawiał spacje po naciśnięciu Tab w plikach YAML."
+            },
+            "quotes": {
+                "title": "✓ Używaj cudzysłowów dla znaków specjalnych",
+                "desc": "Ciągi zawierające : # [ ] { } lub zaczynające się od znaków specjalnych muszą być ujęte w cudzysłowy, aby YAML nie interpretował ich błędnie."
+            },
+            "anchors": {
+                "title": "✓ Używaj kotwic, aby zmniejszyć duplikację",
+                "desc": "Kotwice YAML (&nazwa) i aliasy (*nazwa) pozwalają na wielokrotne użycie wartości w dokumencie, redukując powtórzenia w złożonych konfiguracjach."
+            },
+            "lint": {
+                "title": "✓ Sprawdzaj przed commitem",
+                "desc": "Uruchom yamllint lub użyj tego formatera w haku pre-commit, aby wykrywać problemy z formatowaniem zanim trafią do repozytorium."
+            }
+        },
+        "faq_title": "❓ Często zadawane pytania",
+        "faq": {
+            "q1": "Dlaczego YAML nie działa z tabulatorami zamiast spacji?",
+            "a1": "Specyfikacja YAML wyraźnie zabrania znaków tabulatora do wcięć, ponieważ różne edytory wyświetlają tabulatory z różnymi szerokościami. Spacje zapewniają spójne, jednoznaczne wcięcia, które wszystkie parsery YAML mogą interpretować identycznie.",
+            "q2": "Co robią kotwice (&) i aliasy (*) w YAML?",
+            "a2": "Kotwice definiują blok wielokrotnego użycia z &nazwa-kotwicy:, a aliasy odwołują się do niego z *nazwa-kotwicy. Pozwala to definiować wartości raz i używać ich wielokrotnie, utrzymując konfiguracje DRY.",
+            "q3": "Jaka jest różnica między YAML a JSON?",
+            "a3": "YAML jest nadzbiorem JSON — każdy prawidłowy JSON jest również prawidłowym YAML. YAML dodaje obsługę komentarzy, kotwic, ciągów wieloliniowych i bardziej czytelną składnię. JSON jest lepszy do wymiany danych między maszynami; YAML jest bardziej odpowiedni dla konfiguracji edytowanych przez ludzi.",
+            "q4": "Dlaczego wybrać YAML zamiast TOML do konfiguracji?",
+            "a4": "YAML ma szersze wsparcie narzędziowe (Kubernetes, Ansible, większość systemów CI) i może zwięźle reprezentować złożone zagnieżdżone struktury. TOML jest prostszy i mniej podatny na błędy przy podstawowych konfiguracjach. Dla konfiguracji DevOps YAML jest standardem."
+        }
+    }
+}

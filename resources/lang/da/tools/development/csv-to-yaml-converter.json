@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "CSV til YAML-konverter Online - Gratis | Optimizo",
+        "description": "Konvertér CSV-filer til YAML-format online gratis. Brug automatisk CSV-hoveder som YAML-nøgler og generer korrekt indrykkede YAML med typeafledning.",
+        "h1": "CSV til YAML-konverter",
+        "subtitle": "Konvertér CSV-data til YAML-format — automatisk headermapping og typeafledning"
+    },
+    "editor": {
+        "title": "CSV til YAML-konverter",
+        "label_csv": "CSV-input",
+        "ph_csv": "navn,alder,aktiv\nAlice,30,true\nBob,25,false",
+        "label_yaml": "YAML-output",
+        "btn_copy": "Kopiér YAML"
+    },
+    "content": {
+        "why_title": "Hvorfor konvertere CSV til YAML?",
+        "why_desc": "CSV er perfekt til at gemme tabeldata i regneark, men YAML er standard for konfigurationsfiler, testfixtures og DevOps-værktøjer. Konvertering af regnearkdata til Kubernetes ConfigMaps, Ansible-variabelfiler eller Hugo-datafiler eliminerer besværlig omformatering.",
+        "features": {
+            "auto": {
+                "icon": "⚡",
+                "title": "Automatisk konvertering",
+                "desc": "Konverterer CSV til YAML i realtid mens du skriver — ingen knap at trykke på"
+            },
+            "header": {
+                "icon": "📋",
+                "title": "Headerbaserede nøgler",
+                "desc": "CSV-hoveder konverteres automatisk til YAML-nøgler for hvert objekt i outputlisten"
+            },
+            "instant": {
+                "icon": "🔤",
+                "title": "Typeafledning",
+                "desc": "Tal og booleanske værdier (true/false) konverteres automatisk til den korrekte YAML-type"
+            }
+        },
+        "how_title": "Konvertér CSV til YAML i 3 trin",
+        "how_steps": {
+            "1": {
+                "title": "Indsæt CSV-data",
+                "desc": "Indsæt CSV med headerrække — den første række definerer YAML-nøglerne"
+            },
+            "2": {
+                "title": "Øjeblikkelig konvertering",
+                "desc": "YAML-output vises øjeblikkeligt med hver CSV-række som et element i en YAML-liste"
+            },
+            "3": {
+                "title": "Kopiér YAML",
+                "desc": "Kopiér den konverterede YAML og indsæt den i konfigurationsfiler eller testfixtures"
+            }
+        },
+        "uses_title": "Anvendelsestilfælde for CSV til YAML-konvertering",
+        "uses": {
+            "test": {
+                "icon": "🧪",
+                "title": "Testfixtures",
+                "desc": "Konvertér testdata fra regneark til YAML-fixtures til RSpec, PHPUnit, PyTest"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Konfigurationsdata",
+                "desc": "Konvertér team- eller miljødata til Ansible-variabler eller Kubernetes ConfigMaps"
+            },
+            "seed": {
+                "icon": "🌱",
+                "title": "Seeddata",
+                "desc": "Konvertér CSV med opslagstabeller til YAML-seedfiler til Rails, Laravel, Django"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "API mock-data",
+                "desc": "Konvertér regnearkeksempler til YAML til API mock-værktøjer som WireMock eller Mirage"
+            }
+        },
+        "tips_title": "Bedste praksis for CSV til YAML",
+        "tips": {
+            "headers": {
+                "title": "✓ Brug konsekvente, rene headernavne",
+                "desc": "CSV-hoveder bliver YAML-nøgler — brug snake_case eller camelCase konsekvent og undgå mellemrum og specialtegn."
+            },
+            "quotes": {
+                "title": "✓ Citér værdier med specialtegn",
+                "desc": "Værdier der indeholder kommaer eller anførselstegn skal omgives med dobbelte anførselstegn i CSV."
+            },
+            "encoding": {
+                "title": "✓ Brug UTF-8-kodning",
+                "desc": "Sørg for at CSV-filen er kodet i UTF-8 inden konvertering. Ikke-UTF-8-tegn kan forårsage parsningsproblemer."
+            },
+            "validate": {
+                "title": "✓ Validér YAML efter konvertering",
+                "desc": "Indsæt altid konverteret YAML i en validator for at kontrollere korrekt struktur inden brug i konfigurationsfiler."
+            }
+        },
+        "faq_title": "❓ Ofte stillede spørgsmål",
+        "faq": {
+            "q1": "Håndterer konverteren citerede CSV-felter?",
+            "a1": "Ja — parseren håndterer RFC 4180 CSV-format korrekt (inklusive felter omgivet af dobbelte anførselstegn og escaped anførselstegn \"\"). Kommaer i citerede felter behandles ikke som separatorer.",
+            "q2": "Hvordan håndteres tal og booleanske værdier?",
+            "a2": "Konverteren afleder typer: Gyldige tal konverteres til YAML-numre (ikke strenge); true/false-værdier konverteres til YAML-booleans. Strenge forbliver strenge.",
+            "q3": "Kan jeg konvertere TSV (tabulatorsepareret) data?",
+            "a3": "Dette værktøj forventer kommasepareret CSV. Til tabulatorsepareret data, erstat tabulator med komma (de fleste tekstredigerere har søg/erstat med regex-understøttelse).",
+            "q4": "Hvordan konverterer jeg YAML tilbage til CSV om nødvendigt?",
+            "a4": "Omvendt retning (YAML til CSV) kræver forhåndsviden om strukturen. For flade lister af objekter med konsekvente nøgler kan du manuelt udtrække nøglerne som CSV-hoveder og afbilde hvert YAML-element som en række."
+        }
+    }
+}

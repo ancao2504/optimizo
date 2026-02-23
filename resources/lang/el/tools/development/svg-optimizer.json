@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Online Εργαλείο Βελτιστοποίησης SVG - Συμπίεση & Καθαρισμός | Optimizo",
+        "description": "Βελτιστοποιήστε και συμπιέστε αρχεία SVG online και δωρεάν (SVG Optimizer / SVGO). Αφαιρέστε περιττά σχόλια, άχρηστα metadata, tags (groups / ετικέτες) που απλώς βαραίνουν — Μειώνοντας εξωπραγματικά το μέγεθος αρχείου!",
+        "h1": "SVG Optimizer (Εργαλείο Βελτιστοποίησης SVG)",
+        "subtitle": "Συμπιέστε τα SVG Vector αρχεία σας, καθαρίζοντας/εξυγιαίνοντας τον κώδικα για να μειώσετε το συνολικό αποτύπωμα (+ ταχύτερο φόρτωμα ιστότοπου)!"
+    },
+    "editor": {
+        "title": "Εργαλείο Βελτιστοποίησης (Optimizer / SVGO)",
+        "opt_remove_comments": "Αφαίρεση (Όλων) των σχολίων",
+        "opt_remove_metadata": "Αφαίρεση (Metadata / Editor Tool) Μεταδεδομένων",
+        "opt_remove_ids": "Καθαρισμός (Cleanup) των ΙD Attributes/Χαρακτηριστικών",
+        "opt_remove_dimensions": "Αφαίρεση 'Width/Height' (χρήση αποκλειστικά Width/Viewbox)",
+        "opt_remove_doctype": "Αφαίρεση tags: XMLNS DOCTYPE / Processing Instructions",
+        "opt_round_numbers": "Μαθηματική στρογγυλοποίηση δεκαδικών Path Data",
+        "opt_collapse_groups": "Σύμπτυξη στοιχείων και Αφαίρεση (<g> / Empty Groups)",
+        "opt_remove_empty_containers": "Αφαίρεση στοιχείων που δεν προσφέρουν τίποτα - Άδεια",
+        "label_input": "Είσοδος (Ακατάστατου) SVG Κώδικα",
+        "ph_input": "Επικολλήστε άφοβα τον 'βαρή' και ακαθάριστο κώδικά σας από το εργαλείο εδώ...",
+        "btn_optimize": "Βελτιστοποίηση (Optimize) SVG",
+        "label_output": "Βελτιστοποιημένο & Συμπιεσμένο SVG",
+        "btn_copy": "Αντιγραφή Καθαρού SVG"
+    },
+    "content": {
+        "why_title": "Γιατί καθίσταται ΑΠΑΡΑΙΤΗΤΗ η ριζική (και βαθιά) βελτιστοποίηση στα SVG Vector Αρχεία (Εικόνες);",
+        "why_desc": "Όταν «εξάγετε/Αποθηκεύετε (Export)» μια διανυσματική εικόνα από Προγράμματα όπως: (Figma, Sketch, Adobe Illustrator (Ai), Inkskape)... Τα προγράμματα αυτά, πετάνε (μαζί με το path data) ΕΚΑΤΟΝΤΑΔΕΣ γραμμές άχρηστου Κώδικα. Αυτός ο κώδικας, ΔΕΝ προσφέρει απολύτως ΤΙΠΟΤΑ στον επισκέπτη/τελικό-browser παρά μόνο αυξάνει βίαια το βάρος (σε KB) μειώνοντας την ταχύτητα του Site! Η Βελτιστοποίηση, (SVG Cleanup / SVGO) 'τρώει / μασάει / σβήνει / διαγράφει' όλη τη σαβούρα (Trash elements), αφήνοντας ΜΟΝΟ ότι πραγματικά είναι αναγκαίο να δει ο επισκέπτης (!), Μειώνοντας τα KBs κατά 30% έως και 75+%.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 Ισχυρά Είδη (Στρατηγικών) Βελτιστοποίησης / Φίλτρων",
+                "desc": "Μπορείτε να Ενεργοποιείτε ή (να σταματάτε) οποιοδήποτε 'Μέρος/Φίλτρο' της Βελτιστοποίησης αναλόγως τις ανάγκες σας."
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Ζωντανά Στατιστικά και Προβολή Εξοικονόμησης (Savings Data Analytics)",
+                "desc": "Δέιτε μπροστά στα μάτια σας το ΠΡΩΤΟΓΕΝΕΣ Μεγεθος (Initial Raw size KB), ΤΟ ΝΕΟ / Καθαρό Μέγεθος και... το (%) Των (Savings) Μονάδων που σώσατε!"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "LossLess Data - (Δεν Αλλοιώνεται το Graphic - Ασφαλές 100%!)",
+                "desc": "Όλες μας οι διαδικασίες θεωρούνται 'Απωλεστικές μόνο σε επιπρόσθετα κρυφά Metadata'. Οι Αλγόριθμοι (Visuals) των εικονιδίων και τα paths data ΜΕΝΟΥΝ οπτικά ΑΠΟΛΥΤΩΣ - ΙΔΙΑ ΜΕ ΤΟ ΠΡΩΤΟΤΥΠΟ!! (Lossless visual fidelity)."
+            }
+        },
+        "how_title": "Φέρτε Τα KBs Στα Μέτρα Σας (Σε 3 Απλά Βήματα)",
+        "how_steps": {
+            "1": {
+                "title": "Εισαγωγή Ακαθάριστου/Raw/Exported Κώδικα (SVG)",
+                "desc": "Κάντε εξαγωγή από το Illustrator/Figma/Sketch —> ανοίξτε το στο Notes/editor —> αντιγράψτε τον κώδικα μέσα στο πρώτο πεδίο (Input Box)."
+            },
+            "2": {
+                "title": "Δώστε 'Τσεκ / Click' Στα Φίλτρα (Επιλογές)",
+                "desc": "Επιλέξτε (ή απλά αφήστε τα όλα - Default settings) και παίξτε με τις επιλογές ανάβοντας και κλείνοντας τα filters. Δείτε τις αλλαγές στο size."
+            },
+            "3": {
+                "title": "Αντιγράψτε & ...Deploy",
+                "desc": "O Ασημένιος/Καθαρισμένος κώδικας είναι έτοιμος. Επικολλήστε τον στην εφαρμογή ή το Theme σας. Αργότερα, χαζέψτε τον να 'Sizzles' - κατεβαίνει 'μπάλα/sfaira' στο Network DevTools."
+            }
+        },
+        "uses_title": "Ενδεικτικές Χρήσεις Βελτιστοποίησης",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Εφαρμογή Σε Custom (Δικές Σας) Icon-Libraries!",
+                "desc": "Μη φορτώνετε χιλιάδες περιττά KBs στη React library / UI framework σας, χρησιμοποιήστε το svg-optimizer, πρίν 'χτίσετε' (Build/Webpack) το library."
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Εταιρικά Λογότυπα (SVG Logos/Header/Hero)",
+                "desc": "Τα logos, ειδικά τα Header Logos στα NavBar, φορτώνονται πρώτα (Header Load Request). Το 'Μοντέρνο' Web Design επιβάλλει 'Εξωφρενικά-Savage-Fast' Loading (FCP metrics)"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "Web Animation Files (Gasp / Framer) κ.λπ",
+                "desc": "Οταν σκοπεύετε να κάνετε (trigger) κάποιο Animation-Frame rate... χρειάζεστε 'αέρινα' / 'εξυγιανθέντα' Nodes Tree (DOM) χωρίς βαρύ DOM Parsing!"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "Προοδευτικές Εφαρμογές Ιστού - (Mob / PWAs) / SEO Core Vitals (Lighthouse)",
+                "desc": "Tα πολύ ελαφριά SVG Images αυξάνουν δραματικά τα (Core Vitals Google Metrics) - Σκοράροντας πολύ ψηλά στο Lighthouse Dev Tools!"
+            }
+        },
+        "tips_title": "Tip & Tricks / Εξειδικευμένες Γνώσεις",
+        "tips": {
+            "ids": {
+                "title": "✓ Προσοχή στο 'Σβήσιμο' των (IDS) Εάν Τρέχετε CSS Animations / Hover Events!",
+                "desc": "Εάν σκοπέτα να προσθέσετε (CSS Selectors / Classes / ID ) απευθείας στο SVG - Ώστε να παίξετε με Hover color Events, *ΑΠΕΝΕΡΓΟΠΟΙΗΣΤΕ* το filter Remove IDs & Classes γιατί ίσως σβήσουν τα hooks/targets των Animations!"
+            },
+            "viewbox": {
+                "title": "✓ Συνιστάται ΠΑΝΤΑ (Keep ViewBox) και (RE-MOVE) το Height/Width Attributes",
+                "desc": "Εάν ένα SVG έχει 'Καρφωτά/Σκληρά - Hardcoded' [Width=\"30\"] και [Height=\"30\"], ΕΙΝΑΙ ΑΔΥΝΑΤΟΝ ΝΑ ΤΟ ΚΑΝΕΤΕ 100% RESPONSIVE στο Container! H Λύση; Αφήστε το \"ViewBox\" ανέγγιχτο - και ΔΙΑΓΡΑΨΤΕ ΤΑ Width / Height - Ρυθμίζοντας τον κώδικα σας μέσω CSS (πχ max-width 100%) !"
+            },
+            "precision": {
+                "title": "✓ Στρογγυλοποίηση / Rounding Decimal Paths Numbers (Στo 2 / 2 Decimal Places) ",
+                "desc": "Πολλά εργαλεία σώζουν: `M 14.12023924040` — Ποίος ο λόγος; Κανένα μάτι δεν βλέπει αυτή την (Sub-Pixel) ανοησία.. 2 Δεκαδικά ψηφία (`M 14.12`) ειναι αρκετά! Μηδενίζει τον όγκο/παχουμίες (bloat) αμέσως."
+            },
+            "pipeline": {
+                "title": "✓ Για Ομάδες: Προσθέστε 'CI / CD SVG-O' Pipeline (Npm)",
+                "desc": "Στις Μεγάλες Προγραμματιστικές Ομάδες (GITHub repos), μπορείτε να το βάλετε σαν (Git-Hook / SVGO NPM Module / CI/CD Pipeline - Gulp/WebPack) ώστε ΟΛΑ μα ΟΛΑ τα SVGs που μπαίνουν στο server - να 'περνούν' από αυτόν τον Αλγόριθμο... (Automation Magic)!"
+            }
+        },
+        "faq_title": "❓ Συνήθεις Ερωτήσεις (FAQ)",
+        "faq": {
+            "q1": "Πόσο (KB Bytes %) καταφέρνουμε να γλιτώσουμε, συνήθως με αυτούς τους καθαρισμούς;",
+            "a1": "Η μείωση της τάξης του 30, έως και.. 75%+ δεν είναι ασυνήθιστη — κυρίως από αρχεία του Illustrator/Ai τα οποία 'πετάνε' εκατονταδες metadata XMLS μέσα. (*Το figma γενικά εξάγει πιο 'Καθαρά' Svgs, αλλά και πάλι σώζει KBs*)",
+            "q2": "Εγγυάστε ότι 'δεν θα καταστραφεί' η εικόνα μου εάν πατήσω 'Bελτιστοποίηση'; (Lossless visual ?)",
+            "a2": "ΝΑΙ. Η Εικόνα (Vector Visual Fidelity) ΜΕΝΕΙ ΑΝΑΛΛΟΙΩΤΗ. Καμία μα καμία από τις αλλαγές / regex / functions του εργαλείου - *δεν σβήνει/ΔΕΝ ΑΓΓΙΖΕΙ TΑ Paths, ούτε τα Gradients, Ούτε ΤΑ Polygons* - που παράγουν (Rendering) το σχημα!! Το μόνο 'Οριακό/Borderline' ρίσκο ειναι όταν ενεργοποιήσετε την αφαίρεση IDs (μπορεί να σπάσει JavaScripts Animations CSS).",
+            "q3": "Και γιατί να σβήσω τα Width/Heights (Μήκος/Πλάτος) από τον Κώδικα/Tags μου;",
+            "a3": "Άν υπάρχουν μέσα - τότε 'Κλειδώνουν / Block' (Hard-code Limits) το Γραφικό/Σχήμα να ΜΗΝ ΜΠΟΡΕΙ ΝΑ ΚΑΤΑΣΤΕΙ 'Υδραυλικό' (Fluid / Responsive Container). Όταν το Σβήνετε - και χρησιμοποιείτε αποκλειστικά το attr 'ViewBox', τότε το Web Browser σας είναι σε θέση να το 'Ξεχειλώσει (Scale-Up / Down-Scale)' ΟΠΩΣ αυτο θέλει/αποφασίσει βασει 100% Flex/Grid Models σας, με την απλή προσθήκη `width: 100%` 'Η max-width: 5rem, στο Stylesheet!",
+            "q4": "Γιατί να χρησιμοποιήσω αυτό, και όχι.. κατευθείαν το SVGO Node..",
+            "a4": "To SVGO (ή SVGOptimizer Node CLI) είναι το 'Απόλυτο Standard / Holy Grail' των Tools. Συμφωνούμε. Για κάποιον όμως ο οποίος (1) Δεν είναι προγραμματιστής / designer, (2) Βιάζεται να κάνει 'καθάρισμα 1 εικόνας' πριν την ανεβάσει στο WordPress - και ΔΕΝ ΘΕΛΕΙ ούτε έχει γνώσεις να τρέχει (npm install / cmd / terminals)... Το δικό μας Εργαλείο, τρέχει απλά και κατανοητά τον ΊΔΙΟ ΠΥΡΗΝΑ - (μέσα στον Περιηγητή - Στην οθόνη του)!"
+        }
+    }
+}

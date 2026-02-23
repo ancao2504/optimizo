@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Online JSON Érvényesítő - JSON Validálás Ingyen | Optimizo",
+        "description": "Ingyenes online JSON érvényesítő. Azonnali JSON szintaxisellenőrzés, sorszámmal jelölt hibák és formázott eredmény megjelenítése.",
+        "h1": "JSON Érvényesítő",
+        "subtitle": "Azonnali JSON szintaxisellenőrzés — hibák felderítése és adatszerkezet helyességének megerősítése"
+    },
+    "editor": {
+        "title": "JSON Érvényesítő",
+        "label_input": "Érvényesítendő JSON",
+        "ph_input": "Illessze be a JSON-t ide...",
+        "btn_validate": "JSON érvényesítése",
+        "btn_copy": "JSON másolása"
+    },
+    "content": {
+        "why_title": "Miért érvényesítse a JSON-t használat előtt?",
+        "why_desc": "Az érvénytelen JSON csendesen megrongálhatja az API-kat, konfigurációs elemzőket és adatfolyamatokat. Rosszul elhelyezett vesszők, le nem zárt zárójelek és nem escape-elt idézőjelek nehezen nyomon követhető futásidejű hibákat okozhatnak. Eszközünk ezeket a problémákat azonnali, pontos sorszámokkal és egyértelmű hibaüzenetekkel azonosítja.",
+        "features": {
+            "instant": {
+                "icon": "⚡",
+                "title": "Azonnali érvényesítés",
+                "desc": "JSON-t milliszekundumok alatt érvényesít, pontos hibaüzenetekkel és sorszámokkal"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Szerkezetáttekintés",
+                "desc": "Egyetlen pillantással látja a JSON mélységét, kulcsszámát és típusmegoszlását"
+            },
+            "privacy": {
+                "icon": "🔒",
+                "title": "100% privát",
+                "desc": "Minden érvényesítés a böngészőben történik — adatai soha nem hagyják el az eszközét"
+            }
+        },
+        "how_title": "JSON érvényesítése 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "JSON beillesztése",
+                "desc": "Másolja és illessze be a JSON-t API-válaszból, konfigurációs fájlból vagy más forrásból"
+            },
+            "2": {
+                "title": "Kattintson az Érvényesítésre",
+                "desc": "Az érvényesítő azonnal ellenőrzi a szintaxist, és sorszámokkal kiemeli a hibákat"
+            },
+            "3": {
+                "title": "Javítás és másolás",
+                "desc": "Javítsa a hibákat, és másolja az érvényesített, formázott JSON-t"
+            }
+        },
+        "uses_title": "JSON érvényesítési felhasználási esetek",
+        "uses": {
+            "api": {
+                "icon": "🔌",
+                "title": "API-válaszok érvényesítése",
+                "desc": "Győződjön meg arról, hogy a REST API-válaszok feldolgozás előtt megfelelően vannak strukturálva"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Konfigurációs fájlok ellenőrzése",
+                "desc": "Érvényesítse a package.json, tsconfig.json és egyéb konfigurációs fájlokat deployment előtt"
+            },
+            "import": {
+                "icon": "📥",
+                "title": "Adatimport érvényesítése",
+                "desc": "Ellenőrizze, hogy az importálandó JSON-fájlok helyesek-e adatbázisba töltés előtt"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "JSON hibák keresése",
+                "desc": "Pontosan keresse meg a szintaxishibákat összetett, mélyen beágyazott JSON struktúrákban"
+            }
+        },
+        "tips_title": "JSON legjobb gyakorlatok",
+        "tips": {
+            "quotes": {
+                "title": "✓ Mindig dupleidézőjeleket használjon",
+                "desc": "A JSON dupla idézőjeleket igényel a karakterláncokhoz és kulcsokhoz. Az egyszeri idézőjel nem érvényes JSON."
+            },
+            "trailing": {
+                "title": "✓ Nincs záró vessző",
+                "desc": "A JavaScripttel ellentétben a JSON nem enged meg vesszőt a tömbök vagy objektumok utolsó eleme után."
+            },
+            "null": {
+                "title": "✓ null-t használjon, ne None-t vagy nil-t",
+                "desc": "A null kulcsszónak kisbetűsnek kell lennie JSON-ban. A Python None vagy Ruby nil nem érvényes JSON."
+            },
+            "validate": {
+                "title": "✓ Érvényesítse újra kézi szerkesztés után",
+                "desc": "Mindig érvényesítse újra a JSON-t kézi szerkesztés után. Egy kis elgépelés az egész dokumentumot érvénytelenné teheti."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Miért érvénytelen a JSON-om, ha helyesnek tűnik?",
+            "a1": "Közönséges rejtett problémák: záró vessző az utolsó elem után, egyszeri idézőjel dupla helyett, nem escape-elt speciális karakterek a karakterláncokban, JavaScript megjegyzések (a JSON nem támogat megjegyzéseket).",
+            "q2": "Érvényesíthetek nagyon nagy JSON fájlokat?",
+            "a2": "Igen — az érvényesítés teljes egészében a nativeJSON.parse() révén a böngészőben zajlik. A fájlméretet csak a böngésző memóriája korlátozza.",
+            "q3": "Mi a különbség a JSON és a JSONP között?",
+            "a3": "A JSON tiszta adatformátum. A JSONP JSON-t csomagol egy függvényhívásba cross-domain kérésekhez. A JSONP nem érvényes JSON.",
+            "q4": "Támogatja a JSON a megjegyzéseket?",
+            "a4": "Nem. A JSON nem támogatja a // vagy /* */ megjegyzéseket. Használjon _comment kulcsot vagy térjen át YAML-ra vagy TOML-ra, amelyek támogatják a megjegyzéseket."
+        }
+    }
+}

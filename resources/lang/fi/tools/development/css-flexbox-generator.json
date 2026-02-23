@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "CSS Flexbox-generaattori Verkossa - Visuaalinen Asettelurakentaja | Optimizo",
+        "description": "Luo CSS Flexbox -asetteluja visuaalisesti verkossa ilmaiseksi. Säädä suuntaa, justify-content, align-items ja väliä reaaliaikaisella esikatselulla ja välittömällä CSS-viennillä.",
+        "h1": "CSS Flexbox -generaattori",
+        "subtitle": "Luo CSS Flexbox -asetteluja visuaalisesti — säädä kaikkia ominaisuuksia reaaliaikaisen esikatselun avulla"
+    },
+    "editor": {
+        "title": "Flexbox-generaattori",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Väli (gap)",
+        "label_items": "Elementtien määrä",
+        "label_preview": "Reaaliaikainen esikatselu",
+        "btn_copy": "Kopioi CSS"
+    },
+    "content": {
+        "why_title": "Miksi käyttää visuaalista Flexbox-generaattoria?",
+        "why_desc": "CSS Flexboxissa on monia vuorovaikuttavia ominaisuuksia ja yhdistelmät voivat olla monimutkaisia. Visuaalisella generaattorilla voit säätää kutakin ominaisuutta pudotusvalikkojen kautta ja nähdä asettelun päivittyvän reaaliajassa.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Reaaliaikainen esikatselu",
+                "desc": "Näe tarkalleen mitä Flexbox-asettelu tekee kunkin ominaisuuden muutoksessa — ei arvausta"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Kaikki ominaisuudet",
+                "desc": "flex-direction, justify-content, align-items, flex-wrap ja gap yhdessä käyttöliittymässä"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Käyttövalmis CSS",
+                "desc": "Kopioi siisti .container {} CSS-lohko suoraan tyylitiedostoosi liitettäväksi"
+            }
+        },
+        "how_title": "Flexbox-asettelun luominen",
+        "how_steps": {
+            "1": {
+                "title": "Aseta suunta ja rivittäminen",
+                "desc": "Valitse flex-direction (rivi/sarake) ja flex-wrap pääakselin ja ylivuodon hallitsemiseksi"
+            },
+            "2": {
+                "title": "Säädä elementtien tasaus",
+                "desc": "Säädä justify-content ja align-items elementtien jakelun ja tasauksen hallitsemiseksi"
+            },
+            "3": {
+                "title": "Kopioi CSS",
+                "desc": "Napsauta 'Kopioi CSS' saadaksesi täydellinen .container CSS-lohko käytettäväksi projektissasi"
+            }
+        },
+        "uses_title": "Flexbox-käyttötapaukset",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Navigointipalkki",
+                "desc": "Flexbox on ihanteellinen vaakasuorille navigointipalkeille justifyContent:space-between logo+linkeille"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Korttiruudukko",
+                "desc": "Luo responsiivinen korttiruudukko flex-wrap:wrap ja kiinteällä flex-basis-arvolla"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Täydellinen keskitys",
+                "desc": "justifyContent:center + alignItems:center — helpoin tapa keskittää mikä tahansa elementti"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Lomakkeen asettelu",
+                "desc": "Tasaa selitteet ja lomakekentät vaakasuoraan tai pystysuoraan siisteihin lomakkeisiin Flexboxin avulla"
+            }
+        },
+        "tips_title": "Flexboxin parhaat käytännöt",
+        "tips": {
+            "axis": {
+                "title": "✓ Ymmärrä pää- ja ristikkäisakseli",
+                "desc": "justify-content hallitsee pääakselia (rivi=vaakasuora). align-items hallitsee ristikkäisakselia. Vaihtuu kun flex-direction:column on käytössä."
+            },
+            "grow": {
+                "title": "✓ Käytä flex:1 kasvaviin elementteihin",
+                "desc": "Lisää flex:1 flex-elementtiin laajentaaksesi sen täyttämään saatavilla olevan tilan."
+            },
+            "gap": {
+                "title": "✓ Käytä gap marginaalien sijaan",
+                "desc": "gap-ominaisuus luo tasaisen välin flex-elementtien välille lisäämättä marginaaleja ulkoreunoihin."
+            },
+            "grid": {
+                "title": "✓ Käytä Gridiä 2D-asetteluihin",
+                "desc": "Flexbox hallitsee kerrallaan yhtä akselia. Käytä CSS Gridiä kaksiulotteisiin asetteluihin."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Milloin käyttää Flexboxia CSS Gridin sijaan?",
+            "a1": "Flexbox on ihanteellinen yksiulotteisiin asetteluihin (navigointipalkit, painikejoukot, lomakerivit). CSS Grid menestyy kaksiulotteisissa asetteluissa, joissa hallitset sekä rivejä että sarakkeita samanaikaisesti.",
+            "q2": "Mitä flex-wrap:wrap tekee?",
+            "a2": "Oletuksena flex-elementit pakotetaan yhteen riviin, vaikka ne valuisivat yli. flex-wrap:wrap sallii elementtien siirtyä seuraavalle riville ylivuodon yhteydessä — tärkeää responsiivisille asetteluille.",
+            "q3": "Mikä on ero align-items ja align-content välillä?",
+            "a3": "align-items tasaa flex-elementit yhdellä rivillä. align-content koskee vain useita rivejä (flex-wrap:wrap) ja hallitsee rivien jakautumista säiliössä.",
+            "q4": "Miten luodaan yhdenleveysiset sarakkeet Flexboxilla?",
+            "a4": "Sovella flex:1 kuhunkin sarakkeeseen. Se laajentaa ne täyttämään saatavilla olevan tilan tasaisesti. Käytä flex:0 0 33,33% tarkasti kolmelle samankokoiselle sarakkeelle sisällöstä riippumatta."
+        }
+    }
+}

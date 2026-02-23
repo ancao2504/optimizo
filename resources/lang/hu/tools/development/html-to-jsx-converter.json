@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "HTML JSX-sé Konvertáló Online - Ingyenes React Eszköz | Optimizo",
+        "description": "HTML konvertálása React JSX-sé online, ingyen. Automatikusan átalakítja a class-t className-mé, a for-t htmlFor-rá, az inline stílusokat JS objektumokká és lezárja az üres elemeket.",
+        "h1": "HTML JSX-sé Konvertáló",
+        "subtitle": "HTML azonnali React JSX-sé alakítása — className, htmlFor, inline stílusok és self-closing tagek"
+    },
+    "editor": {
+        "title": "HTML JSX-sé Konvertáló",
+        "label_html": "HTML bemenet",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">E-mail</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "JSX kimenet",
+        "btn_copy": "JSX másolása"
+    },
+    "content": {
+        "why_title": "Miért konvertálja a HTML-t JSX-sé?",
+        "why_desc": "Amikor meglévő HTML sablonokat migrál React-be, kézzel kell konvertálnia a class-t className-mé, a for-t htmlFor-rá, az inline stílusokat karakterláncokból JavaScript objektumokká. Ez az eszköz ezeket az átalakításokat azonnal automatizálja, és lehetővé teszi, hogy a komponens logikájára összpontosítson.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Attribútum konverzió",
+                "desc": "class→className, for→htmlFor, tabindex→tabIndex, maxlength→maxLength és egyebek"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Inline stílus objektum",
+                "desc": "Az style=\"color:red;\" átalakul style={{color:'red'}}-dé — a React JS objektum jelölése"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Self-closing tagek",
+                "desc": "Záró perjelet ad az üres elemekhez: <br> → <br />, <input> → <input />"
+            }
+        },
+        "how_title": "HTML konvertálása JSX-sé 3 lépésben",
+        "how_steps": {
+            "1": {
+                "title": "HTML beillesztése",
+                "desc": "Illessze be a HTML sablont, Figma exportot vagy HTML kódrészletet a bal panelbe"
+            },
+            "2": {
+                "title": "Automatikus konverzió",
+                "desc": "A konvertáló azonnal átalakítja az összes attribútumot, stílust és üres elemet JSX szintaxisra"
+            },
+            "3": {
+                "title": "JSX másolása",
+                "desc": "Másolja a konvertált JSX-et és illessze be a React komponens render/return blokkjába"
+            }
+        },
+        "uses_title": "HTML-ből JSX-be konvertáló felhasználási esetek",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "Migráció React-be",
+                "desc": "Migráljon meglévő HTML oldalakat vagy sablonokat React komponensekbe attribútum konverzió nélkül"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Bootstrap React-ben",
+                "desc": "Konvertálja a Bootstrap HTML komponenseket JSX-sé a react-bootstrap-pal való használatra"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "Email sablonok",
+                "desc": "HTML email sablonok konvertálása JSX-sé React Email-lel való renderelésre"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "CMS-ből React-be",
+                "desc": "WordPress vagy hagyományos CMS HTML sablonok konvertálása React komponens struktúrára"
+            }
+        },
+        "tips_title": "Tippek HTML-ről JSX-re konvertáláshoz",
+        "tips": {
+            "class": {
+                "title": "✓ class → className fontos",
+                "desc": "A class foglalt JavaScript kulcsszó. React-ben a className-et kell használni a CSS osztályokhoz."
+            },
+            "for": {
+                "title": "✓ for a labelben → htmlFor",
+                "desc": "A <label> for attribútuma JSX-ben htmlFor lesz. Elfelejtve megsérti az akadálymentesítést."
+            },
+            "events": {
+                "title": "✓ Frissítse az eseménykezelőket konverzió után",
+                "desc": "A HTML onclick='...' attribútum JSX-ben nem konvertál automatikusan. Manuálisan cserélje le az inline eseménykezelőket a React onClick={handler} mintájára."
+            },
+            "comments": {
+                "title": "✓ HTML megjegyzések JSX megjegyzések lesznek",
+                "desc": "A <!-- megjegyzés --> {/* megjegyzés */}-ra konvertál JSX-ben."
+            }
+        },
+        "faq_title": "❓ Gyakran Ismételt Kérdések",
+        "faq": {
+            "q1": "Miért a className-et használja a React a class helyett?",
+            "a1": "A class foglalt JavaScript kulcsszó (ES6 osztályokhoz). Mivel a JSX JavaScript, a class szintaxis konfliktust okoz. A React a className-et választotta az egyértelműség megőrzéséhez.",
+            "q2": "Az eszköz kezeli a React eseménykezelőket?",
+            "a2": "Nem — a HTML onclick, onsubmit stb. kezelők nem konvertálódnak automatikusan a React onClick, onSubmit eseményeire. Kézi frissítés szükséges.",
+            "q3": "Mi a különbség a HTML és a JSX között?",
+            "a3": "A JSX egy HTML-hez hasonló JavaScript szintaxis-bővítmény, amely React.createElement() hívásokra fordul le. Legfőbb különbségek: összes attribútum camelCase-ben, class→className, for→htmlFor, üres elemek self-closing-ot igényelnek, a kifejezések {} jelölést használnak.",
+            "q4": "Miért igényelnek az üres elemek self-closing-ot JSX-ben?",
+            "a4": "A JSX-et a Babel XML-szerű szintaxisként elemzi, és megköveteli az összes elem megfelelő lezárását. Az olyan üres elemek, mint <br>, <img>, <input>, nem rendelkeznek gyermekelemekkel és /> self-closing-ot igényelnek."
+        }
+    }
+}

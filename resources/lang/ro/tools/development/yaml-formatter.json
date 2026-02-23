@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "Formator YAML Online - Formatați Fișiere YAML Gratuit | Optimizo",
+        "description": "Formatați și validați fișiere YAML online și gratuit. Curățare instantanee YAML, indentare corectă și verificare sintaxă.",
+        "h1": "Formator YAML",
+        "subtitle": "Formatați și validați fișierele YAML instant — structuri imbricate complexe, ancore și aliasuri suportate"
+    },
+    "editor": {
+        "title": "Formator YAML",
+        "label_input": "Intrare YAML",
+        "ph_input": "name: Aplicația mea\ndatabase:\n  host: localhost\n  port: 5432",
+        "btn_format": "Formatați YAML",
+        "label_output": "YAML formatat",
+        "btn_copy": "Copiați YAML"
+    },
+    "content": {
+        "why_title": "De ce să formatați fișierele YAML?",
+        "why_desc": "YAML este extrem de sensibil la problemele de indentare — un spațiu suplimentar poate cauza erori de parsare sau corupții silențioase de date. Kubernetes, Docker Compose, GitHub Actions și Ansible folosesc fișiere de configurare YAML, iar o eroare de formatare poate bloca implementări întregi.",
+        "features": {
+            "indent": {
+                "icon": "📐",
+                "title": "Normalizarea indentării",
+                "desc": "Normalizează indentarea mixtă la un format consistent de 2 spații în tot documentul"
+            },
+            "validate": {
+                "icon": "✅",
+                "title": "Validarea sintaxei",
+                "desc": "Identifică erorile de indentare, amestecul de tab-uri/spații și problemele structurale"
+            },
+            "anchors": {
+                "icon": "⚓",
+                "title": "Ancore și aliasuri",
+                "desc": "Suport complet pentru ancorele YAML (&) și aliasurile (*) pentru reutilizarea documentelor"
+            }
+        },
+        "how_title": "Formatați YAML în 3 pași",
+        "how_steps": {
+            "1": {
+                "title": "Inserați YAML",
+                "desc": "Inserați un manifest Kubernetes, un flux de lucru GitHub Actions sau un fișier de configurare YAML"
+            },
+            "2": {
+                "title": "Formatați și validați",
+                "desc": "Instrumentul validează sintaxa și reformatează automat cu indentare consistentă"
+            },
+            "3": {
+                "title": "Copiați și implementați",
+                "desc": "Copiați YAML-ul formatat în fișierele, pipeline-urile CI sau instrumentele de implementare"
+            }
+        },
+        "uses_title": "Cazuri de utilizare pentru formatarea YAML",
+        "uses": {
+            "k8s": {
+                "icon": "☸️",
+                "title": "Manifeste Kubernetes",
+                "desc": "Formatați fișierele YAML Deployment, Service și ConfigMap înainte de aplicarea pe cluster"
+            },
+            "cicd": {
+                "icon": "🔄",
+                "title": "Pipeline-uri CI/CD",
+                "desc": "Validați fluxurile de lucru GitHub Actions, GitLab CI și CircleCI pentru a preveni eșecurile de pipeline"
+            },
+            "ansible": {
+                "icon": "📋",
+                "title": "Playbook-uri Ansible",
+                "desc": "Formatați și validați sarcinile, variabilele și inventarele Ansible"
+            },
+            "docker": {
+                "icon": "🐳",
+                "title": "Docker Compose",
+                "desc": "Verificați că docker-compose.yml este formatat corect înainte de docker compose up"
+            }
+        },
+        "tips_title": "Cele mai bune practici pentru YAML",
+        "tips": {
+            "spaces": {
+                "title": "✓ Folosiți spații, nu tab-uri",
+                "desc": "Specificația YAML interzice explicit caracterul tab pentru indentare. Configurați editorul să insereze spații la Tab în fișierele YAML."
+            },
+            "quotes": {
+                "title": "✓ Folosiți ghilimele pentru caractere speciale",
+                "desc": "Șirurile care conțin : # [ ] { } sau care încep cu caractere speciale trebuie puse între ghilimele."
+            },
+            "anchors": {
+                "title": "✓ Folosiți ancore pentru a reduce repetițiile",
+                "desc": "Ancorele YAML (&nume) și aliasurile (*nume) permit reutilizarea valorilor în document."
+            },
+            "lint": {
+                "title": "✓ Verificați lint-ul înainte de commit",
+                "desc": "Rulați yamllint sau folosiți acest formator într-un hook pre-commit pentru a detecta problemele de formatare timpuriu."
+            }
+        },
+        "faq_title": "❓ Întrebări frecvente",
+        "faq": {
+            "q1": "De ce YAML nu funcționează cu tab-uri în loc de spații?",
+            "a1": "Specificația YAML interzice explicit caracterul tab pentru indentare deoarece diferiți editori afișează tab-urile cu lățimi diferite. Spațiile oferă indentare consistentă pe care toți parserii YAML o interpretează identic.",
+            "q2": "Ce fac ancorele YAML (&) și aliasurile (*)?",
+            "a2": "Ancorele definesc un bloc reutilizabil cu &numeancoră; aliasurile îl referă cu *numeancoră. Astfel puteți defini o valoare o dată și o puteți folosi în mai multe locuri.",
+            "q3": "Care este diferența dintre YAML și JSON?",
+            "a3": "YAML este un superset al JSON — JSON valid este și YAML valid. YAML adaugă suport pentru comentarii, ancore, șiruri multilinie și sintaxă mai lizibilă.",
+            "q4": "Când să alegeți YAML în loc de TOML pentru configurare?",
+            "a4": "YAML are suport mai larg de instrumente (Kubernetes, Ansible, majoritatea sistemelor CI) și poate exprima structuri imbricate complexe concis. În configurarea DevOps, YAML este standardul."
+        }
+    }
+}

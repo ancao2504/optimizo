@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "title": "Online SVG Optimalizátor - Komprimujte SVG Zdarma | Optimizo",
+        "description": "Optimalizujte a komprimujte SVG soubory online zdarma. Odstraňte komentáře, metadata a nepotřebné atributy pro zmenšení souboru při zachování vizuální kvality.",
+        "h1": "SVG Optimalizátor",
+        "subtitle": "Komprimujte SVG soubory online — odstraňte metadata, komentáře a nepotřebné atributy pro zmenšení souboru"
+    },
+    "editor": {
+        "title": "SVG Optimalizátor",
+        "opt_remove_comments": "Odstranit komentáře",
+        "opt_remove_metadata": "Odstranit metadata",
+        "opt_remove_ids": "Odstranit ID",
+        "opt_remove_dimensions": "Odstranit šířku/výšku",
+        "opt_remove_doctype": "Odstranit DOCTYPE",
+        "opt_round_numbers": "Zaokrouhlit čísla",
+        "opt_collapse_groups": "Odstranit prázdné skupiny",
+        "opt_remove_empty_containers": "Odstranit prázdné kontejnery",
+        "label_input": "SVG vstup",
+        "ph_input": "Vložte svůj SVG kód zde...",
+        "btn_optimize": "Optimalizovat SVG",
+        "label_output": "Optimalizované SVG",
+        "btn_copy": "Kopírovat SVG"
+    },
+    "content": {
+        "why_title": "Proč optimalizovat SVG soubory?",
+        "why_desc": "SVG soubory exportované z Illustratoru, Figmy a Inkscape obsahují mnoho nepotřebných dat — komentáře, metadata editorů, redundantní atributy a prázdné kontejnery. Po optimalizaci lze zmenšit soubor o 30-70 % a načítání je rychlejší.",
+        "features": {
+            "strategies": {
+                "icon": "🎯",
+                "title": "8 strategií optimalizace",
+                "desc": "Aktivujte/deaktivujte každý optimalizační průchod nezávisle pro přesnou kontrolu"
+            },
+            "stats": {
+                "icon": "📊",
+                "title": "Statistiky zmenšení velikosti",
+                "desc": "Vidíte původní velikost, optimalizovanou velikost a procento úspory po každé optimalizaci"
+            },
+            "safe": {
+                "icon": "✅",
+                "title": "Bezztrátová optimalizace",
+                "desc": "Všechny optimalizace zachovávají vizuální vzhled SVG — odstraňuje pouze neviditelná metadata"
+            }
+        },
+        "how_title": "Optimalizace SVG ve 3 krocích",
+        "how_steps": {
+            "1": {
+                "title": "Vložte SVG kód",
+                "desc": "Zkopírujte SVG zdrojový kód z návrhového nástroje nebo souboru a vložte ho do vstupního pole"
+            },
+            "2": {
+                "title": "Vyberte optimalizace",
+                "desc": "Zaškrtněte požadovaná nastavení optimalizace — výchozí nastavení poskytuje maximální zmenšení"
+            },
+            "3": {
+                "title": "Zkopírujte a použijte",
+                "desc": "Zkopírujte optimalizované SVG a nahraďte původní soubor nebo ho vložte přímo do HTML"
+            }
+        },
+        "uses_title": "Případy použití optimalizace SVG",
+        "uses": {
+            "icons": {
+                "icon": "🎨",
+                "title": "Knihovny ikon",
+                "desc": "Optimalizujte sady ikon exportované z Figmy nebo Illustratoru před přidáním do knihovny"
+            },
+            "logos": {
+                "icon": "🏢",
+                "title": "Loga",
+                "desc": "Vyčistěte SVG loga pro záhlaví webových stránek, favicon a brand assets"
+            },
+            "animation": {
+                "icon": "✨",
+                "title": "Animované SVG",
+                "desc": "Snižte základní velikost animovaných SVG, které jsou již velké kvůli animačním datům"
+            },
+            "pwa": {
+                "icon": "📱",
+                "title": "PWA a mobilní",
+                "desc": "Menší SVG snižují mobilní spotřebu dat a zlepšují výkon Lighthouse"
+            }
+        },
+        "tips_title": "Nejlepší postupy pro optimalizaci SVG",
+        "tips": {
+            "ids": {
+                "title": "✓ Buďte opatrní s odstraňováním ID při CSS animacích",
+                "desc": "Pokud SVG používá CSS nebo JS animace cílené na ID prvky, deaktivujte 'Odstranit ID', aby se animace nerozbily."
+            },
+            "viewbox": {
+                "title": "✓ Zachovejte viewBox, odstraňte šířku/výšku",
+                "desc": "Odstranění atributů šířky/výšky a ponechání pouze viewBox umožní SVG responsivní škálování přes CSS."
+            },
+            "precision": {
+                "title": "✓ Zaokrouhlujte čísla na 2 desetinná místa",
+                "desc": "Souřadnice cest s více než 5 desetinnými místy jsou vizuálně nerozlišitelné. Zaokrouhlení na 2 zmenší soubor."
+            },
+            "pipeline": {
+                "title": "✓ Automatizujte SVGO v CI/CD",
+                "desc": "Ve velkých projektech integrujte SVGO do build pipeline pro automatickou optimalizaci všech SVG."
+            }
+        },
+        "faq_title": "❓ Nejčastější dotazy",
+        "faq": {
+            "q1": "O kolik může optimalizace SVG zmenšit soubor?",
+            "a1": "Běžně 30-70 % úspora v závislosti na zdroji. Illustrator SVG ukazuje největší úspory; Figma exporty jsou již relativně čisté.",
+            "q2": "Mění optimalizace vzhled SVG?",
+            "a2": "Ne — všechny optimalizace v tomto nástroji odstraňují pouze neviditelná data nebo zaokrouhlují čísla s nepostřehnutelnou přesností. Vizuální výsledek je identický s originálem.",
+            "q3": "Proč se odstraňují atributy šířky a výšky?",
+            "a3": "Pevně zakódované hodnoty šířky/výšky brání SVG v responsivním škálování přes CSS. Jejich odstraněním a ponecháním pouze viewBox získáte plnou kontrolu velikosti přes CSS vlastnosti.",
+            "q4": "Jaký je rozdíl mezi tímto nástrojem a SVGO?",
+            "a4": "SVGO je nástroj příkazové řádky Node.js, který je standardem pro optimalizaci SVG. Tento nástroj nabízí uživatelsky přívětivé rozhraní prohlížeče pro nejběžnější optimalizace bez instalace Node.js."
+        }
+    }
+}

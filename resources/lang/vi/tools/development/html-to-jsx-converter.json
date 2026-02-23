@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "Chuyển Đổi HTML Sang JSX Online - Công Cụ React Miễn Phí | Optimizo",
+        "description": "Chuyển đổi HTML sang React JSX trực tuyến và miễn phí. Tự động chuyển đổi class thành className, for thành htmlFor, style inline thành đối tượng JS và đóng thẻ void.",
+        "h1": "Chuyển Đổi HTML Sang JSX",
+        "subtitle": "Chuyển đổi HTML sang React JSX tức thì — className, htmlFor, style inline và thẻ self-closing"
+    },
+    "editor": {
+        "title": "Chuyển Đổi HTML Sang JSX",
+        "label_html": "Đầu vào HTML",
+        "ph_html": "<div class=\"card\">\n  <label for=\"email\">Email</label>\n  <input type=\"email\" id=\"email\" style=\"color: red;\">\n</div>",
+        "label_jsx": "Đầu ra JSX",
+        "btn_copy": "Sao chép JSX"
+    },
+    "content": {
+        "why_title": "Tại sao chuyển đổi HTML sang JSX?",
+        "why_desc": "Khi migrate các template HTML hiện có sang React, bạn phải thủ công chuyển đổi class thành className, for thành htmlFor và style inline từ chuỗi thành đối tượng JavaScript. Công cụ này tự động hóa các chuyển đổi này ngay lập tức và cho phép bạn tập trung vào logic component.",
+        "features": {
+            "attrs": {
+                "icon": "🔄",
+                "title": "Chuyển đổi thuộc tính",
+                "desc": "class→className, for→htmlFor, tabindex→tabIndex, maxlength→maxLength và nhiều hơn nữa"
+            },
+            "style": {
+                "icon": "🎨",
+                "title": "Đối tượng style inline",
+                "desc": "Chuyển đổi style=\"color:red;\" thành style={{color:'red'}} — ký hiệu đối tượng JS của React"
+            },
+            "tags": {
+                "icon": "🏷️",
+                "title": "Thẻ self-closing",
+                "desc": "Thêm dấu gạch chéo đóng cho các phần tử void: <br> → <br />, <input> → <input />"
+            }
+        },
+        "how_title": "Chuyển đổi HTML sang JSX trong 3 bước",
+        "how_steps": {
+            "1": {
+                "title": "Dán HTML",
+                "desc": "Dán template HTML, xuất từ Figma hoặc đoạn code HTML vào bảng trái"
+            },
+            "2": {
+                "title": "Tự động chuyển đổi",
+                "desc": "Công cụ chuyển đổi tức thì tất cả thuộc tính, style và phần tử void sang cú pháp JSX"
+            },
+            "3": {
+                "title": "Sao chép JSX",
+                "desc": "Sao chép JSX đã chuyển đổi và dán vào khối render/return của component React"
+            }
+        },
+        "uses_title": "Các trường hợp sử dụng chuyển đổi HTML sang JSX",
+        "uses": {
+            "migration": {
+                "icon": "🚀",
+                "title": "Migrate sang React",
+                "desc": "Migrate trang HTML hoặc template hiện có sang component React mà không cần chuyển đổi thuộc tính thủ công"
+            },
+            "bootstrap": {
+                "icon": "🅱️",
+                "title": "Bootstrap trong React",
+                "desc": "Chuyển đổi component Bootstrap HTML sang JSX để dùng với react-bootstrap"
+            },
+            "email": {
+                "icon": "📧",
+                "title": "Template email",
+                "desc": "Chuyển đổi template email HTML sang JSX để hiển thị với React Email"
+            },
+            "cms": {
+                "icon": "📝",
+                "title": "Từ CMS sang React",
+                "desc": "Chuyển đổi template HTML WordPress hoặc CMS truyền thống sang cấu trúc component React"
+            }
+        },
+        "tips_title": "Lời khuyên cho chuyển đổi HTML sang JSX",
+        "tips": {
+            "class": {
+                "title": "✓ class → className quan trọng",
+                "desc": "class là từ khóa JavaScript dành riêng. Trong React, phải dùng className cho các lớp CSS."
+            },
+            "for": {
+                "title": "✓ for trong label → htmlFor",
+                "desc": "Thuộc tính for trên <label> trở thành htmlFor trong JSX. Bỏ sót điều này làm hỏng khả năng tiếp cận."
+            },
+            "events": {
+                "title": "✓ Cập nhật xử lý sự kiện sau khi chuyển đổi",
+                "desc": "Thuộc tính HTML onclick='...' không tự động chuyển đổi trong JSX. Thay thủ công các handler inline bằng mẫu onClick={handler} của React."
+            },
+            "comments": {
+                "title": "✓ Chú thích HTML trở thành chú thích JSX",
+                "desc": "<!-- chú thích --> được chuyển đổi thành {/* chú thích */} trong JSX."
+            }
+        },
+        "faq_title": "❓ Câu hỏi thường gặp",
+        "faq": {
+            "q1": "Tại sao React dùng className thay vì class?",
+            "a1": "class là từ khóa JavaScript dành riêng (dùng cho lớp ES6). Vì JSX là JavaScript, class tạo xung đột cú pháp. React chọn className để tránh sự mơ hồ.",
+            "q2": "Công cụ có xử lý các event handler của React không?",
+            "a2": "Không — các handler HTML onclick, onsubmit, v.v. không tự động chuyển đổi sang onClick, onSubmit của React. Cần cập nhật thủ công.",
+            "q3": "Sự khác biệt giữa HTML và JSX là gì?",
+            "a3": "JSX là extension cú pháp JavaScript tương tự HTML được biên dịch sang lệnh gọi React.createElement(). Các khác biệt chính: tất cả thuộc tính ở camelCase, class→className, for→htmlFor, phần tử void cần self-closing, biểu thức dùng {} thay vì chuỗi.",
+            "q4": "Tại sao phần tử void cần self-closing trong JSX?",
+            "a4": "JSX được Babel phân tích như cú pháp tương tự XML và yêu cầu đóng đúng tất cả phần tử. Các phần tử void như <br>, <img>, <input> không có con và yêu cầu /> self-closing."
+        }
+    }
+}

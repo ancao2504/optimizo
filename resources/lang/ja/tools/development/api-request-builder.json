@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "APIリクエストビルダー オンライン - 無料HTTPクライアント | Optimizo",
+        "description": "HTTP APIリクエストをオンラインで無料に作成・送信。カスタムヘッダー、リクエストボディ、クエリパラメータ付きでGET, POST, PUT, PATCH, DELETEをサポート。",
+        "h1": "APIリクエストビルダー",
+        "subtitle": "HTTP APIリクエストを作成・送信・検査 — ブラウザベースの軽量HTTPクライアント"
+    },
+    "editor": {
+        "title": "APIリクエストビルダー",
+        "btn_send": "リクエストを送信",
+        "tab_headers": "ヘッダー",
+        "tab_body": "ボディ",
+        "tab_params": "パラメータ",
+        "btn_add_header": "ヘッダーを追加",
+        "btn_add_param": "パラメータを追加",
+        "label_response": "レスポンス",
+        "btn_copy_response": "レスポンスをコピー"
+    },
+    "content": {
+        "why_title": "なぜAPIリクエストビルダーを使うのか？",
+        "why_desc": "REST APIのテストには通常PostmanやInsomniaのインストールやcurlコマンドの記述が必要です。当ブラウザベースHTTPクライアントはインストール不要 — 開いてすぐにリクエストを送信できます。すべてのHTTPメソッド、カスタムヘッダー、JSONボディ、クエリパラメータをサポートしています。",
+        "features": {
+            "methods": {
+                "icon": "🔀",
+                "title": "すべてのHTTPメソッド",
+                "desc": "カスタムヘッダーとJSON/フォームボディ付きでGET, POST, PUT, PATCH, DELETEをサポート"
+            },
+            "response": {
+                "icon": "📊",
+                "title": "フォーマット済みレスポンス",
+                "desc": "レスポンスボディはインデント付きで自動表示、ステータスコードとレスポンス時間も確認"
+            },
+            "setup": {
+                "icon": "⚡",
+                "title": "すぐに使える",
+                "desc": "インストール不要 — アカウントやプラグインなしでブラウザで完全動作"
+            }
+        },
+        "how_title": "APIリクエストの送信方法",
+        "how_steps": {
+            "1": {
+                "title": "URLとメソッドを入力",
+                "desc": "APIエンドポイントURLを入力してHTTPメソッドを選択（GET、POSTなど）"
+            },
+            "2": {
+                "title": "ヘッダーとボディを追加",
+                "desc": "「ヘッダー」タブでAuthorization、Content-Typeなどを追加。POST/PUT用データには「ボディ」を使用。"
+            },
+            "3": {
+                "title": "送信して確認",
+                "desc": "「送信」をクリックしてリクエストを実行。レスポンスボディ、ステータスコード、時間が下に表示。"
+            }
+        },
+        "uses_title": "APIリクエストビルダーのユースケース",
+        "uses": {
+            "debug": {
+                "icon": "🐛",
+                "title": "APIデバッグ",
+                "desc": "カスタムヘッダーとボディで個別エンドポイントをテストして認証・データの問題をデバッグ"
+            },
+            "oauth": {
+                "icon": "🔑",
+                "title": "認証トークンのテスト",
+                "desc": "コードを書かずにBearer、Basic Auth、APIキースキームをテスト"
+            },
+            "explore": {
+                "icon": "🔍",
+                "title": "APIの探索",
+                "desc": "パブリックAPI（GitHub、OpenWeather、JSONPlaceholder）を探索してレスポンスを理解"
+            },
+            "report": {
+                "icon": "📝",
+                "title": "バグの再現",
+                "desc": "バグレポート用の正確なリクエスト/レスポンスデータでAPIバグを再現・文書化"
+            }
+        },
+        "tips_title": "APIテストのベストプラクティス",
+        "tips": {
+            "headers": {
+                "title": "✓ 必ずContent-Typeを設定",
+                "desc": "JSONボディを送信する際は常にContent-Type: application/jsonを含めてください。なしでは多くのAPIがリクエストを拒否または誤解釈します。"
+            },
+            "cors": {
+                "title": "✓ CORSの制限を理解する",
+                "desc": "ブラウザは適切なCORSヘッダーなしにクロスオリジンリクエストをブロックします。ブラウザでリクエストが失敗する場合はcurlまたはサーバーサイドプロキシを使用してください。"
+            },
+            "auth": {
+                "title": "✓ APIキーをハードコードしない",
+                "desc": "本番コードでは環境変数を使用してください。リクエストビルダーはテスト専用 — 実際のAPIキーがのったスクリーンショットは共有しないでください。"
+            },
+            "status": {
+                "title": "✓ HTTPステータスコードを確認",
+                "desc": "200=OK、201=Created、400=Bad Request、401=Unauthorized、403=Forbidden、404=Not Found、500=Server Error。"
+            }
+        },
+        "faq_title": "❓ よくある質問",
+        "faq": {
+            "q1": "なぜクロスオリジンリクエストが失敗するのですか？",
+            "a1": "ブラウザはCORS（Cross-Origin Resource Sharing）制限を適用します。ターゲットAPIにAccess-Control-Allow-Originヘッダーが含まれていない場合、ブラウザがリクエストをブロックします。これはエラーではありません — CORSサポートのないAPIにはcurlまたはバックエンドプロキシを使用してください。",
+            "q2": "multipart/form-dataリクエストを送信できますか？",
+            "a2": "現在のビルダーはJSONとプレーンテキストボディをサポートしています。ファイルアップロードなどのマルチパートフォームデータにはPostmanなどの専用ツールを使用してください。",
+            "q3": "これはPostmanの代替品ですか？",
+            "a3": "素早いテストと探索には代替品として使えます。チームコラボレーション、保存されたコレクション、環境、自動テストにはPostmanやBrunoがより多くの機能を提供します。",
+            "q4": "PUTとPATCHの違いは何ですか？",
+            "a4": "PUTはリクエストボディでリソース全体を置き換えます。PATCHは部分的な更新を適用します — ボディ内のフィールドのみが変更されます。ほとんどのREST APIは変更されていないフィールドを上書きしないようにPATCHを更新に使用します。"
+        }
+    }
+}

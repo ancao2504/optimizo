@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "title": "Formateur SQL en ligne - Embellisseur SQL gratuit | Optimizo",
+        "description": "Formatez et embellissez vos requêtes SQL en ligne gratuitement. Supporte SELECT, INSERT, UPDATE, DELETE, CREATE et les jointures complexes avec résultat instantané.",
+        "h1": "Formateur SQL",
+        "subtitle": "Embellissez et formatez vos requêtes SQL instantanément — compatible avec tous les principaux dialectes SQL"
+    },
+    "editor": {
+        "title": "Formateur SQL",
+        "label_input": "Saisissez la requête SQL",
+        "ph_input": "SELECT id, nom, email FROM utilisateurs WHERE actif = 1 ORDER BY nom",
+        "btn_format": "Formater le SQL",
+        "btn_minify": "Minifier le SQL",
+        "label_output": "SQL formaté",
+        "btn_copy": "Copier le SQL"
+    },
+    "content": {
+        "why_title": "Pourquoi formater vos requêtes SQL ?",
+        "why_desc": "Un SQL non formaté est quasi illisible, notamment avec des jointures complexes, des sous-requêtes et des CTE. Notre formateur SQL ajoute une indentation adéquate, des sauts de ligne et met les mots-clés en majuscules, rendant vos requêtes plus faciles à relire, déboguer et partager avec votre équipe. Un SQL bien formaté est également plus simple à optimiser et à maintenir sur le long terme.",
+        "features": {
+            "keywords": {
+                "icon": "🔤",
+                "title": "Mise en majuscules des mots-clés",
+                "desc": "Met automatiquement en majuscules SELECT, FROM, WHERE, JOIN et tous les autres mots-clés SQL"
+            },
+            "indent": {
+                "icon": "📐",
+                "title": "Indentation intelligente",
+                "desc": "Applique une indentation appropriée aux sous-requêtes, expressions CASE et clauses imbriquées"
+            },
+            "minify": {
+                "icon": "⚡",
+                "title": "Minification",
+                "desc": "Supprime tous les espaces pour compressor le SQL sur une seule ligne — idéal pour les chaînes de requêtes dans le code"
+            }
+        },
+        "how_title": "Formater du SQL en 3 étapes",
+        "how_steps": {
+            "1": {
+                "title": "Collez votre requête SQL",
+                "desc": "Copiez votre SQL depuis un éditeur de code, un client de base de données ou un journal de requêtes et collez-le"
+            },
+            "2": {
+                "title": "Cliquez sur Formater",
+                "desc": "Cliquez sur \"Formater le SQL\" pour embellir avec une indentation appropriée et des mots-clés en majuscules"
+            },
+            "3": {
+                "title": "Copiez et utilisez",
+                "desc": "Copiez le SQL formaté directement dans votre client de base de données, ORM ou documentation"
+            }
+        },
+        "uses_title": "Cas d'utilisation du formatage SQL",
+        "uses": {
+            "review": {
+                "icon": "👁️",
+                "title": "Revue de code",
+                "desc": "Formatez le SQL avant une revue de code pour que vos coéquipiers puissent clairement visualiser la structure"
+            },
+            "debug": {
+                "icon": "🐛",
+                "title": "Débogage de requêtes",
+                "desc": "Démêlez les clauses WHERE complexes et les chaînes JOIN pour repérer rapidement les erreurs de logique"
+            },
+            "docs": {
+                "icon": "📚",
+                "title": "Documentation",
+                "desc": "Intégrez du SQL joliment formaté dans la documentation technique, les fichiers README et les tutoriels"
+            },
+            "optimize": {
+                "icon": "🚀",
+                "title": "Optimisation des requêtes",
+                "desc": "Un SQL formaté facilite l'identification des index manquants et des ordres JOIN inefficaces"
+            }
+        },
+        "tips_title": "Bonnes pratiques SQL",
+        "tips": {
+            "select": {
+                "title": "✓ Évitez SELECT *",
+                "desc": "Spécifiez toujours les noms de colonnes plutôt que SELECT *. Cela améliore les performances et évite les problèmes si le schéma de table change."
+            },
+            "alias": {
+                "title": "✓ Utilisez des alias explicites",
+                "desc": "Utilisez des alias de table clairs dans les JOIN (par ex. u pour users, o pour orders) afin de rendre les requêtes complexes lisibles."
+            },
+            "explain": {
+                "title": "✓ Utilisez EXPLAIN",
+                "desc": "Exécutez EXPLAIN ou EXPLAIN ANALYZE avant de déployer des requêtes lentes pour comprendre comment la base de données les exécute."
+            },
+            "index": {
+                "title": "✓ Indexez vos colonnes WHERE",
+                "desc": "Assurez-vous que les colonnes utilisées dans WHERE, JOIN ON et ORDER BY sont indexées pour des performances de requête optimales."
+            }
+        },
+        "faq_title": "❓ Foire aux questions",
+        "faq": {
+            "q1": "Quels dialectes SQL sont pris en charge ?",
+            "a1": "Le formateur fonctionne avec le SQL standard et est compatible avec MySQL, PostgreSQL, SQLite, SQL Server (T-SQL) et Oracle. Les mots-clés spécifiques à chaque dialecte sont conservés tels quels.",
+            "q2": "Le formatage modifie-t-il le comportement de ma requête ?",
+            "a2": "Non. Le formateur ne modifie que les espaces blancs et la casse des mots-clés. La logique, les résultats et le plan d'exécution de la requête restent complètement inchangés.",
+            "q3": "Puis-je formater du SQL avec des procédures stockées ?",
+            "a3": "Oui. Le formateur gère les blocs CREATE PROCEDURE, BEGIN/END, les instructions DECLARE et autres constructions SQL procédural.",
+            "q4": "En quoi la minification est-elle utile dans les applications ?",
+            "a4": "Le SQL minifié réduit la taille des chaînes de requête intégrées dans le code source, rend la journalisation plus compacte et peut marginalement améliorer les performances d'analyse."
+        }
+    }
+}

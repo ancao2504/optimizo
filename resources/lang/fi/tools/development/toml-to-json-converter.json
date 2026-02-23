@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "TOML:sta JSON:iin Muunnin Verkossa - Ilmainen | Optimizo",
+        "description": "Muunna TOML-konfiguraatiotiedostoja JSON:ksi verkossa ilmaiseksi. Täysi tuki TOML-taulukoille, taulukkotaulukoille, inline-taulukoille ja kaikille tietotyypeille.",
+        "h1": "TOML:sta JSON:iin -muunnin",
+        "subtitle": "Muunna TOML-konfiguraatio JSON:ksi — taulukot, taulukkotaulukot ja kaikki TOML-tietotyypit tuettu"
+    },
+    "editor": {
+        "title": "TOML:sta JSON:iin -muunnin",
+        "label_toml": "TOML-syöte",
+        "ph_toml": "# TOML-esimerkki\ntitle = \"Sovellukseni\"\n\n[database]\nserver = \"192.168.1.1\"\nport = 5432",
+        "label_json": "JSON-tuloste",
+        "btn_copy": "Kopioi JSON"
+    },
+    "content": {
+        "why_title": "Miksi muuntaa TOML JSON:ksi?",
+        "why_desc": "TOML on suunniteltu ihmisten luettaviin konfiguraatiotiedostoihin (Rustin Cargo.toml, Pythonin pyproject.toml, Hugon config.toml), mutta JSON on web-API:en ja JavaScript-työkalujen standardi. Kun tarvitset TOML-konfiguraation JSON-API:lle, JavaScript-työkalujen integroinnin tai datan jakamisen ekosysteemien välillä, työkalu kuroo aukon välittömästi.",
+        "features": {
+            "types": {
+                "icon": "🔤",
+                "title": "Täydellinen tyyppimuunto",
+                "desc": "TOML-merkkijonot, kokonaisluvut, desimaaliluvut, totuusarvot, päivämäärät — kaikki oikein muunnettu JSON-vastaaviksi"
+            },
+            "tables": {
+                "icon": "📋",
+                "title": "Taulukot ja taulukkotaulukot",
+                "desc": "Käsittelee [taulukko], [[taulukkotaulukko]], inline-taulukko {key = value} -syntaksin oikein"
+            },
+            "format": {
+                "icon": "✨",
+                "title": "Muotoiltu JSON-tuloste",
+                "desc": "Tuloste näytetään sisennettynä luettavuuden vuoksi — ei tiivistettyä JSON:ia yhdellä rivillä"
+            }
+        },
+        "how_title": "TOML:n muuntaminen JSON:ksi 3 vaiheessa",
+        "how_steps": {
+            "1": {
+                "title": "Liitä TOML-konfiguraatio",
+                "desc": "Liitä sisältö Cargo.toml:sta, pyproject.toml:sta tai muusta TOML-konfiguraatiotiedostosta"
+            },
+            "2": {
+                "title": "Automaattinen muunto",
+                "desc": "Työkalu jäsentää TOML-rakenteen ja muuntaa vastaavaksi JSON:ksi välittömästi"
+            },
+            "3": {
+                "title": "Kopioi JSON",
+                "desc": "Kopioi luotu JSON API-kutsuihin tai muihin JSON:ia hyväksyviin työkaluihin"
+            }
+        },
+        "uses_title": "TOML:sta JSON:iin -muuntimen käyttötapaukset",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Cargo.toml:n jäsennys",
+                "desc": "Muunna Cargo.toml JSON:ksi CI-skriptejä varten, jotka analysoivat riippuvuuksia"
+            },
+            "hugo": {
+                "icon": "📝",
+                "title": "Hugo-konfiguraatio",
+                "desc": "Muunna Hugon config.toml JSON:ksi integraatiota varten muiden työkalujen kanssa"
+            },
+            "api": {
+                "icon": "🔌",
+                "title": "Datan lähettäminen API:lle",
+                "desc": "Muunna TOML-parametrit JSON:ksi REST API:lle tai GraphQL-päätepisteille lähettämiseksi"
+            },
+            "compare": {
+                "icon": "🔍",
+                "title": "Formaattien opettelu",
+                "desc": "Ymmärrä TOML→JSON-rakennemappausta oppiaksesi miten kaksi formaattia liittyvät toisiinsa"
+            }
+        },
+        "tips_title": "TOML:n parhaat käytännöt",
+        "tips": {
+            "tables": {
+                "title": "✓ Käytä pistosyntaksia sisäkkäisille taulukoille",
+                "desc": "TOML tukee [server.database] pikakirjoituksena sisäkkäisille taulukoille."
+            },
+            "strings": {
+                "title": "✓ Käytä literaalimerkkijonoja poluille",
+                "desc": "Yksittäislainausmerkeissä olevat literaalimerkkijonot kuten 'C:\\Users\\path' eivät käsittele escape-sekvenssejä — ihanteellisia Windows-poluille."
+            },
+            "comments": {
+                "title": "✓ Käytä kommentteja aktiivisesti",
+                "desc": "TOML:n tärkein etu JSON:iin nähden on kommenttituki. Dokumentoi kaikki konfiguraatioparametrit # kommenteilla."
+            },
+            "datetime": {
+                "title": "✓ Huomioi DateTime-tyyppimuunto",
+                "desc": "TOML:n natiivit RFC 3339 -päivämäärät (2024-01-15T10:30:00Z) muuttuvat merkkijonoiksi JSON:issa. JSON:ia kuluttavan koodin on jäsennettävä ne uudelleen päivämäärätyyppeinä."
+            }
+        },
+        "faq_title": "❓ Usein kysytyt kysymykset",
+        "faq": {
+            "q1": "Mitkä ovat TOML:n edut verrattuna YAML:iin ja JSON:iin?",
+            "a1": "TOML on yksinkertaisempi kuin YAML (ei sisennettä rakenne), luettavampi kuin JSON (kommentit tuettu) ja sillä on eksplisiittiset tyypit (kokonaisluku, desimaaliluku, päivämäärä erillisiä). Paras valinta sovelluskonfiguraatiotiedostoille.",
+            "q2": "Mitä ovat [[taulukkotaulukot]] TOML:ssa?",
+            "a2": "[[servers]] määrittelee 'servers'-nimisen objektitaulukon. Jokainen [[servers]]-esiintymä luo taulukkoon uuden objektin. JSON-vastaava: {\"servers\": [{...}, {...}]}.",
+            "q3": "Mitkä tärkeät työkalut käyttävät TOML:ia?",
+            "a3": "Rust (Cargo.toml), moderni Python-paketointi (pip/poetryn pyproject.toml), Hugo, Gitea, Lighthouse CI ja monet Go-työkalut käyttävät TOML:ia.",
+            "q4": "Säilytetäänkö TOML-kommentit JSON-tulosteessa?",
+            "a4": "Ei. Koska JSON:lla ei ole kommenttisyntaksia, TOML:n # kommentteja ei voi ilmaista JSON-tulosteessa."
+        }
+    }
+}

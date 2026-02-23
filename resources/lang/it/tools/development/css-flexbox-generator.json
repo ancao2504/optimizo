@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "title": "Generatore CSS Flexbox Online - Builder visuale di layout | Optimizo",
+        "description": "Genera layout CSS Flexbox visivamente online gratis. Imposta direzione, justify-content, align-items e gap con anteprima live ed esportazione CSS istantanea.",
+        "h1": "Generatore CSS Flexbox",
+        "subtitle": "Costruisci layout CSS Flexbox visualmente — configura tutte le proprietà con anteprima live"
+    },
+    "editor": {
+        "title": "Generatore Flexbox",
+        "label_direction": "flex-direction",
+        "label_justify": "justify-content",
+        "label_align": "align-items",
+        "label_wrap": "flex-wrap",
+        "label_gap": "Spazio (gap)",
+        "label_items": "Numero di elementi",
+        "label_preview": "Anteprima live",
+        "btn_copy": "Copia CSS"
+    },
+    "content": {
+        "why_title": "Perché usare un generatore visuale di Flexbox?",
+        "why_desc": "CSS Flexbox ha molte proprietà che interagiscono tra loro — flex-direction, justify-content, align-items, align-content, flex-wrap — e le loro interazioni possono essere confuse. Il nostro generatore visuale ti permette di regolare ogni proprietà tramite un menu a tendina e vedere il layout aggiornarsi in tempo reale, rendendolo il modo più veloce per imparare Flexbox e costruire layout senza ripetuti tentativi ed errori.",
+        "features": {
+            "visual": {
+                "icon": "👁️",
+                "title": "Anteprima live",
+                "desc": "Vedi esattamente come si comporta il tuo layout Flexbox ad ogni cambio di proprietà — niente supposizioni"
+            },
+            "complete": {
+                "icon": "📋",
+                "title": "Tutte le proprietà coperte",
+                "desc": "Copre flex-direction, justify-content, align-items, flex-wrap e gap in un'unica interfaccia"
+            },
+            "export": {
+                "icon": "📋",
+                "title": "Output CSS pronto per l'uso",
+                "desc": "Copia un blocco .container {} pulito pronto per essere incollato nel tuo foglio di stile"
+            }
+        },
+        "how_title": "Come creare un layout Flexbox",
+        "how_steps": {
+            "1": {
+                "title": "Imposta direzione e wrap",
+                "desc": "Scegli flex-direction (riga/colonna) e flex-wrap per controllare l'asse principale e l'overflow"
+            },
+            "2": {
+                "title": "Allinea gli elementi",
+                "desc": "Imposta justify-content e align-items per controllare distribuzione e allineamento degli elementi"
+            },
+            "3": {
+                "title": "Copia il CSS",
+                "desc": "Fai clic su 'Copia CSS' per il blocco CSS .container completo pronto per il tuo progetto"
+            }
+        },
+        "uses_title": "Casi d'uso di Flexbox",
+        "uses": {
+            "navbar": {
+                "icon": "🔝",
+                "title": "Barre di navigazione",
+                "desc": "Flexbox è ideale per le barre di navigazione orizzontali — usa justify-content: space-between per logo + link"
+            },
+            "cards": {
+                "icon": "🃏",
+                "title": "Griglie di schede",
+                "desc": "Usa flex-wrap: wrap con flex-basis fisso per griglie di schede responsivi che si adattano su mobile"
+            },
+            "center": {
+                "icon": "🎯",
+                "title": "Centratura perfetta",
+                "desc": "justify-content: center + align-items: center è il modo più semplice per centrare qualsiasi elemento"
+            },
+            "form": {
+                "icon": "📝",
+                "title": "Layout di moduli",
+                "desc": "Allinea etichette e campi del modulo orizzontalmente o verticalmente con Flexbox per moduli puliti"
+            }
+        },
+        "tips_title": "Best practice per Flexbox",
+        "tips": {
+            "axis": {
+                "title": "✓ Comprendi l'asse principale vs l'asse trasversale",
+                "desc": "justify-content controlla l'asse principale (riga = orizzontale). align-items controlla l'asse trasversale. Questi ruoli si invertono con flex-direction: column."
+            },
+            "grow": {
+                "title": "✓ Usa flex: 1 per gli elementi flessibili",
+                "desc": "Aggiungere flex: 1 a un figlio flex gli permette di crescere per riempire lo spazio disponibile. Combina con min-width: 0 per evitare l'overflow."
+            },
+            "gap": {
+                "title": "✓ Usa gap invece dei margini",
+                "desc": "La proprietà gap crea una spaziatura coerente tra gli elementi flex senza aggiungere margini ai bordi esterni — molto più pulito."
+            },
+            "grid": {
+                "title": "✓ Usa Grid per i layout 2D",
+                "desc": "Flexbox controlla un asse alla volta (riga O colonna). Per le griglie 2D dove hai bisogno di controllare simultaneamente righe e colonne, usa CSS Grid."
+            }
+        },
+        "faq_title": "❓ Domande frequenti",
+        "faq": {
+            "q1": "Quando usare Flexbox invece di CSS Grid?",
+            "a1": "Flexbox è ideale per i layout 1D — distribuire elementi lungo una singola riga o colonna (barre di navigazione, gruppi di pulsanti, righe di moduli). CSS Grid eccelle nei layout 2D dove controlli simultaneamente righe e colonne.",
+            "q2": "Cosa fa flex-wrap: wrap?",
+            "a2": "Per impostazione predefinita, gli elementi flex sono forzati in una singola riga anche se vanno in overflow. flex-wrap: wrap permette agli elementi di andare alla riga successiva quando vanno in overflow — essenziale per i layout responsivi.",
+            "q3": "Qual è la differenza tra align-items e align-content?",
+            "a3": "align-items allinea gli elementi flex in una singola riga (asse trasversale). align-content si applica solo quando ci sono più righe (flex-wrap: wrap) e controlla la distribuzione di quelle righe nel contenitore.",
+            "q4": "Come creare colonne di uguale larghezza con Flexbox?",
+            "a4": "Applica flex: 1 a ogni figlio flex. Questo permette loro di crescere ugualmente per riempire lo spazio disponibile. Usa flex: 0 0 33.33% per esattamente 3 colonne uguali indipendentemente dal contenuto."
+        }
+    }
+}

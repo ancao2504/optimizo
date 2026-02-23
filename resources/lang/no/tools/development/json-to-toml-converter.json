@@ -1,0 +1,104 @@
+{
+    "meta": {
+        "title": "JSON til TOML-konverter Nettbasert - Gratis | Optimizo",
+        "description": "Konverter JSON til TOML-format nettbasert og gratis. Genererer automatisk tabellseksjoner, håndterer nestede objekter og produserer ren, lesbar TOML.",
+        "h1": "JSON til TOML-konverter",
+        "subtitle": "Konverter JSON-konfigurasjonsdata til mer lesbart TOML-format — automatisk generering av tabeller og seksjoner"
+    },
+    "editor": {
+        "title": "JSON til TOML-konverter",
+        "label_json": "JSON-inndata",
+        "ph_json": "{\n  \"title\": \"Min app\",\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+        "label_toml": "TOML-utdata",
+        "btn_copy": "Kopier TOML"
+    },
+    "content": {
+        "why_title": "Hvorfor konvertere JSON-konfigurasjonsfiler til TOML?",
+        "why_desc": "JSON er ikke designet for konfigurasjonsfiler — ingen kommentarer, detaljert syntaks for nestede data og krever ekstra escape. TOML gjør de samme dataene mer lesbare med [seksjon]-overskrifter, # kommentarer og renere nøkkel-verdi-syntaks. Å konvertere config.json til config.toml forbedrer vedlikehold og selvdokumentasjon.",
+        "features": {
+            "sections": {
+                "icon": "📋",
+                "title": "Automatisk seksjongenerering",
+                "desc": "Nestede JSON-objekter konverteres automatisk til TOML-tabellstier [section.subsection]"
+            },
+            "types": {
+                "icon": "🔤",
+                "title": "Typebevaring",
+                "desc": "JSON-tall, booleans og strenger mappes korrekt til TOML-ekvivalenter uten datatap"
+            },
+            "readable": {
+                "icon": "✨",
+                "title": "Renere konfigurasjon",
+                "desc": "De samme dataene i TOML-format er typisk 20-40 % kortere og mye mer lesbar enn JSON"
+            }
+        },
+        "how_title": "Konverter JSON til TOML i 3 trinn",
+        "how_steps": {
+            "1": {
+                "title": "Lim inn JSON-konfigurasjon",
+                "desc": "Kopier din eksisterende JSON-konfigurasjonsfil og lim den inn i venstre panel"
+            },
+            "2": {
+                "title": "Gjennomgå TOML-utdata",
+                "desc": "Tilsvarende TOML vises i høyre panel — sjekk at strukturen stemmer"
+            },
+            "3": {
+                "title": "Legg til kommentarer og lagre",
+                "desc": "Kopier TOML, legg til # kommentarer som dokumenterer hver seksjon og lagre som ny konfigurasjonsfil"
+            }
+        },
+        "uses_title": "Brukstilfeller for JSON til TOML",
+        "uses": {
+            "rust": {
+                "icon": "🦀",
+                "title": "Opprett Cargo.toml",
+                "desc": "Konverter informasjon fra package.json til Cargo.toml-format for å fremskynde Rust-prosjektoppsett"
+            },
+            "pyproject": {
+                "icon": "🐍",
+                "title": "Migrering til pyproject.toml",
+                "desc": "Konverter setup.cfg eller setup.py til den moderne Python-pakkingsstandarden pyproject.toml"
+            },
+            "config": {
+                "icon": "⚙️",
+                "title": "Oppdater konfigurasjonsfiler",
+                "desc": "Migrer config.json til config.toml og dokumenter hvert alternativ med # kommentarer"
+            },
+            "share": {
+                "icon": "🤝",
+                "title": "Del konfigurasjon mellom verktøy",
+                "desc": "Konverter de samme konfigurasjonsdataene mellom JSON- og TOML-økosystemer etter behov"
+            }
+        },
+        "tips_title": "Tips for JSON til TOML-konvertering",
+        "tips": {
+            "arrays": {
+                "title": "✓ Sjekk objektmatriser nøye",
+                "desc": "JSON-objektmatriser ([{name:\"a\"},{name:\"b\"}]) bruker TOMLs [[tabellmatrise]]-syntaks. Verifiser at de konverteres korrekt i utdata."
+            },
+            "null": {
+                "title": "✓ TOML mangler null",
+                "desc": "JSONs null har ingen direkte ekvivalent i TOML. Null-verdier utelates vanligvis eller erstattes med tom streng. Håndter disse tilfellene manuelt."
+            },
+            "keys": {
+                "title": "✓ Sett anførselstegn rundt nøkler med spesialtegn",
+                "desc": "TOML-nøkler med bindestreker eller mellomrom krever anførselstegn: \"content-type\" = \"json\". Bruk understrek i JSON-nøkler for å unngå problemet."
+            },
+            "test": {
+                "title": "✓ Test med appens TOML-parser",
+                "desc": "Ulike TOML-parsere (toml-rs, tomllib, @iarna/toml) kan håndtere kanttilfeller ulikt. Test alltid konvertert TOML i det faktiske kjøretidsmiljøet."
+            }
+        },
+        "faq_title": "❓ Ofte stilte spørsmål",
+        "faq": {
+            "q1": "Kan alle JSON-datatyper konverteres til TOML?",
+            "a1": "De fleste typer konverteres rent: strenger, tall, booleans, matriser og objekter har direkte TOML-ekvivalenter. JSONs null mangler TOML-ekvivalent og utelates vanligvis. Dypt nestede objektmatriser kan kreve manuell justering.",
+            "q2": "Kan TOML fullstendig erstatte JSON i konfigurasjonsfiler?",
+            "a2": "For statiske konfigurasjonsfiler ja. Koden som leser konfigurasjonen må endres fra JSON.parse() til en TOML-parser. TOML kan ikke erstatte JSON for API-er eller datautveksling.",
+            "q3": "Hvilken filutvidelse bruker TOML?",
+            "a3": ".toml-utvidelsen. Vanlige eksempler: Cargo.toml (Rust), pyproject.toml (Python), config.toml (Hugo), .cargo/config.toml (Cargo-konfigurasjon).",
+            "q4": "Hvordan velger man mellom JSON, YAML og TOML for konfigurasjon?",
+            "a4": "JSON: API-datautveksling (universell støtte, kommentarer ikke nødvendig). YAML: DevOps-konfigurasjon (Kubernetes, CI/CD osv.). TOML: Applikasjonskonfigurasjon (enkel syntaks, eksplisitte typer, best for manuell redigering)."
+        }
+    }
+}
